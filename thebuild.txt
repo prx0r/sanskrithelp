@@ -1,0 +1,70 @@
+Phase 1: Mode 1 + user profile tracking. This is the whole game honestly.
+python# The minimum viable Sanskrit pronunciation tutor
+PHONEME_CONFUSIONS = {
+    ("ṭ", "t"):  "retroflex_dental",
+    ("ḍ", "d"):  "retroflex_dental", 
+    ("ṇ", "n"):  "retroflex_dental",
+    ("th", "t"): "aspiration",
+    ("kh", "k"): "aspiration",
+    ("ā", "a"):  "vowel_length",
+    ("ī", "i"):  "vowel_length",
+    ("ś", "s"):  "palatal_sibilant",
+    ("ṣ", "s"):  "retroflex_sibilant",
+    ("ṣ", "ś"):  "sibilant_distinction",
+}
+
+# This is the feedback loop that actually teaches
+async def session(audio, target, profile):
+    heard = await whisper(audio, lang="sa")
+    errors = diff(target, heard)
+    
+    # Update persistent weakness model
+    for err in errors:
+        confusion_type = PHONEME_CONFUSIONS.get(err)
+        profile["errors"][confusion_type] = profile["errors"].get(confusion_type, 0) + 1
+    
+    # Spaced repetition: surface worst phoneme more
+    # When Whisper stops confusing it → learner fixed it
+    return feedback(errors, profile)
+The user profile is your acoustic model. 50 sessions of confusion data tells you more about that specific learner than GOP scores on a model that's never heard Sanskrit.
+Phase 2: Vowel duration as a special case.
+Vowel length (ā vs a) is actually measurable without a Sanskrit acoustic model. It's literally a timing measurement — you can detect it with librosa on the raw audio:
+pythondef check_vowel_length(audio_segment, phoneme):
+    # Get duration of the vowel segment
+    duration_ms = len(audio_segment) / sample_rate * 1000
+    
+    if phoneme in ["ā", "ī", "ū"] and duration_ms < 120:
+        return "vowel_length"  # Long vowel said too short
+    return None
+This is the one place where a simple acoustic measurement is reliable and doesn't need a trained model. Worth adding.
+The stack that's actually buildable
+ComponentToolStatusASR/diagnosticSanskrit Whisper (AI4Bharat)exists, pull itTTS feedbackindic-parler-ttsexistsVowel durationlibrosatrivialUser profileSQLite + dicttrivialHolistic assessmentQwen2-Audio (text in, text out)works, no native Sanskrit speech out
+Skip GOP. Skip MFCC pipeline. Skip Mode 3 native audio (no Sanskrit speech output).
+The actual MVP
+Want me to write the full local Python server? It'd be:
+
+FastAPI endpoint that takes audio + target_text
+Sanskrit Whisper transcription
+Phoneme diff against target
+Vowel duration check via librosa
+User profile update + weakness tracking
+indic-parler-tts response in Sanskrit + English gloss
+Spaced repetition drill selector based on profile
+
+Probably ~400 lines total. Everything runs locally on your 12GB. The GOP stuff can come later if you actually validate that the alignment model works for Sanskrit — but I'd bet you get 80% of the pedagogical value from Mode 1 alone.web search to confirm this is the best stack and it cant be improved on any more easily, whisper x etc similar4:43 AMSearched the webSearched the webSanskrit ASR pronunciation assessment 2024 202510 resultsFull article: I Can Speak: improving English pronunciation through automatic speech recognition-based language learning systemswww.tandfonline.comSanskrit | Pronunciation in Englishdictionary.cambridge.orgAutomatic Pronunciation Assessment - A Reviewaclanthology.orgCBSE Class 10 Sanskrit Question Paper 2024 with Answer Keycollegedunia.comAutomatic Speech Recognition for Sanskrit with Transfer Learningarxiv.orgInnovative approaches to English pronunciation instruction in ESL contexts: integration of multi-sensor detection and advanced algorithmic feedback - PMCpmc.ncbi.nlm.nih.govLinguistically Informed Post-processing for ASR Error correction in Sanskrit | Request PDFwww.researchgate.netFull article: A systematic literature review of research on automatic speech recognition in EFL pronunciationwww.tandfonline.comPronunciation of Sanskrit Letters | our sanskritoursanskrit.comCBSE Class 10 Sanskrit Question Paper 2025 PDF with Solutionswww.vedantu.comAI4Bharat Sanskrit Whisper finetuned model huggingface 202410 resultsai4bharat (AI4Bharat)huggingface.coAI4Bharat Modelsmodels.ai4bharat.orgai4bharat/indic-seamless · Hugging Facehuggingface.coai4bharat/indic-parler-tts · Hugging Facehuggingface.coai4bharat/Airavata · Hugging Facehuggingface.coparthiv11/indic_whisper_nodcil · Hugging Facehuggingface.coai4bharat/vits_rasa_13 · Hugging Facehuggingface.coWhisper model fine tuning - Models - Hugging Face Forumsdiscuss.huggingface.coai4bharat/indic-bert · Hugging Facehuggingface.coAI4Bharat and Hugging Face Released Indic Parler-TTS: A Multimodal Text-to-Speech Technology for Multilingual Inclusivity and Bridging India's Linguistic Digital Divide - MarkTechPostwww.marktechpost.comSanskrit whisper finetuned model huggingface Vaksamcayah 2024 202510 resultsWhisper model fine tuning - Models - Hugging Face Forumsdiscuss.huggingface.coFine-tuning on a new language? · openai/whisper · Discussion #13github.comFine-Tune Whisper For Multilingual ASR with 🤗 Transformershuggingface.coFine-tuning or using Whisper, wav2vec2, HuBERT and others with SpeechBrain and HuggingFace — SpeechBrain 0.5.0 documentationspeechbrain.readthedocs.ioOriserve/Whisper-Hindi2Hinglish-Swift · Hugging Facehuggingface.coBidwill/whisper-medium-sanskrit-try-2 · Hugging Facehuggingface.covasista22/whisper-hindi-large-v2 · Hugging Facehuggingface.coARTPARK-IISc/whisper-tiny-vaani-hindi · Hugging Facehuggingface.coModels – Hugging Facehuggingface.co[2501.10024] Automatic Speech Recognition for Sanskrit with Transfer Learningarxiv.orgindic-seamless SeamlessM4T Sanskrit ASR pronunciation10 resultsHow to pronounce Sanskrit and other Indic languageswww.visiblemantra.orgGitHub - kurianbenoy/Indic-Subtitler: Open source subtitling platform 💻 for transcribing and translating videos/audios in Indic languages.github.comInternational Alphabet of Sanskrit Transliteration - Wikipediaen.wikipedia.orgIndic-S2ST: a Multilingual and Multimodal Many-to- ...aclanthology.orgSanskrit Pronounciation Guidewww.kriya.orgIndic Languages Glossary | Sri Sathya Sai International Organizationwww.sathyasai.orgInternational Alphabet of Sanskrit Transliteration | Hinduism Wiki | Fandomsantanadharma.fandom.comA Guide to Sanskrit Transliteration and Pronunciationfpmt.orgSanskrit Pronunciation: A Practical Overview — Bolo!www.bolochant.comTransliteration, Transcription and Pronunciation of Tamil and Sanskrit | The Teachings of Sri Ramana | Happiness of Beingwww.sriramanateachings.orgWhisperX forced alignment Sanskrit wav2vec2 alternative 202410 resultsGitHub - m-bain/whisperX: WhisperX: Automatic Speech Recognition with Word-level Timestamps (& Diarization)github.comWhisperX: Word-level timestamps, diarization (new), batch inference within file(new) · openai/whisper · Discussion #684github.comwhisperX/whisperx/alignment.py at main · m-bain/whisperXgithub.comWhisperX · Models · Dataloopdataloop.aiWhy can't we do multilanguage forced aligment without loading a language-specific alignment model? · Issue #893 · m-bain/whisperXgithub.comwhisperX/README.md at main · m-bain/whisperXgithub.comWhisperX: Time-Accurate Speech Transcription of Long-Form Audiowww.isca-archive.orgWord-level timestamps from WhisperX are inaccurate compared to Montreal Forced Aligner (MFA) · Issue #1247 · m-bain/whisperXgithub.comwhisperx/alignment.py · Anioji/WhisperX at 9c2d684d1a778e559b6b13bb90112712dbc20568huggingface.coA Comparison of Modern ASR Methods for Forced Alignmentwww.isca-archive.orgMontreal Forced Aligner MFA Sanskrit Indic languages support10 resultsGitHub - AI4Bharat/IndicMFAgithub.com3 Montreal Forced Aligner | Corpus Phonetics Tutorialeleanorchodroff.commontreal_forced_aligner.data — Montreal Forced Aligner 3.X documentationmontreal-forced-aligner.readthedocs.ioIntroduction to Montreal Forced Alignerwww.scott-nelson.netMontreal-forced-aligner by MontrealCorpusToolsmontrealcorpustools.github.ioHow I used Montreal Forced Aligner for a New Language (Sinhalese) | by Danoja Dias | Break the Loop | Mediummedium.comGitHub - smtiitm/Fastspeech2_MFA: Indic TTS for Indian Languages: This is a project on developing text-to-speech (TTS) synthesis systems for Indian languages, improving quality of synthesis, as well as small foot print TTS integrated with disability aids and various other applications.github.comLingMethodsHub - Montreal Forced Alignerlingmethodshub.github.ioGitHub - MontrealCorpusTools/mfa-models: Collection of pretrained models for the Montreal Forced Alignergithub.comGitHub - MontrealCorpusTools/Montreal-Forced-Aligner: Command line utility for forced alignment using Kaldigithub.comDoneThis changes things significantly. Here's the actual picture based on what's out there:
+The stack is mostly right, but you missed something important: IndicMFA
+The biggest find: AI4Bharat built IndicMFA — a Sanskrit forced alignment model trained on 76 hours of Sanskrit data, using a grapheme-to-grapheme (G2G) approach instead of the traditional grapheme-to-phoneme pipeline. GitHub This is a direct drop-in for the alignment problem you were worried about. No IPA transliteration hack needed.
+That changes Mode 2 from "probably skip it" to "actually buildable" — though it still adds significant complexity.
+The confirmed stack
+ASR: The Whisper Sanskrit finetuning situation is real but fragmented. A January 2025 paper achieved 15.42% WER on the Vāksañcayaḥ dataset using Whisper transfer learning arXiv, and there's a published model (Bidwill/whisper-medium-sanskrit-try-2 on HuggingFace). Not AI4Bharat quality, but it exists. The more important point from that paper: WER may not fully capture Sanskrit nuances, especially where sandhi creates variant spellings that convey the same meaning arXiv — which is actually fine for your use case, because ASR confusion is your signal, not perfect transcription.
+TTS: indic-parler-tts officially supports Sanskrit with emotion rendering including Command, Anger, Narration, and others Hugging Face. Confirmed. Evaluation scores show near-perfect synthesis for Sanskrit specifically. MarkTechPost That's unusually good news.
+Forced alignment (the key update): IndicMFA exists with 76 hours of Sanskrit training data. This means WhisperX + IndicMFA is a viable path for Mode 2, not a research project. The WhisperX codebase itself confirms: you can pass any Hugging Face wav2vec2 model as the alignment model via --align_model GitHub — IndicMFA slots right in.
+An alternative alignment path also exists: You can do multilingual forced alignment without a language-specific model by romanizing the transcript with the uroman package and passing it to PyTorch's multilingual wav2vec2 tutorial GitHub. IAST is essentially uroman for Sanskrit — this is the IPA workaround from your original docs, and it actually works.
+Revised verdict on the modes
+Mode 1 (Whisper confusion diagnostic): Still build this first. Still the right call. The architecture is sound.
+Mode 2 (forced alignment + GOP): Now actually feasible. IndicMFA solves the alignment problem that was the main blocker. The GOP scoring on top of it is still the risky part — you'd need wav2vec2-xlsr or similar as the acoustic model for phoneme likelihoods, and Sanskrit-specific calibration is unclear. But the alignment itself is no longer a research problem.
+WhisperX vs MFA directly: MFA produces more accurate word-level timestamps than WhisperX for forced alignment specifically GitHub. If you're doing Mode 2 for pronunciation assessment (where phoneme boundary accuracy matters), consider using IndicMFA via MFA directly rather than through the WhisperX wrapper — it's the tool built for this job.
+Updated stack table
+ComponentToolStatusASR/diagnosticBidwill/whisper-medium-sanskritExists, 15.4% WERForced alignmentAI4Bharat IndicMFA (Sanskrit)Exists, 76hrs training dataTTSindic-parler-ttsConfirmed, near-perfect SanskritHolisticQwen2-AudioWorks with text prompting, no native Sanskrit speechUser profileSQLiteTrivial
+What this means practically: Mode 2 is buildable without a research project. The sequence is now: IndicMFA for alignment → extract phoneme segments → MFCC distance vs TTS reference → you still don't have a Sanskrit acoustic model for proper GOP, but the MFCC comparison alone gives you acoustic evidence without needing one. That's actually a cleaner architecture.
+Build Mode 1 first. When it's working, add IndicMFA alignment for the vowel duration and boundary cases where Whisper confusion alone isn't specific enough.

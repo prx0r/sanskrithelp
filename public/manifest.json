@@ -1,0 +1,39 @@
+{
+  "name": "Pāṇini — Sanskrit Grammar Engine",
+  "short_name": "Pāṇini",
+  "description": "Learn Sanskrit through Pāṇini's own formal system",
+  "start_url": "/",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "theme_color": "#1a1a2e",
+  "background_color": "#1a1a2e",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Start Learning",
+      "short_name": "Learn",
+      "description": "Begin a Sanskrit learning session",
+      "url": "/learn/compression"
+    },
+    {
+      "name": "Practice Drills",
+      "short_name": "Drill",
+      "description": "Practice with spaced repetition",
+      "url": "/drill"
+    }
+  ],
+  "categories": ["education", "languages", "productivity"],
+  "lang": "en",
+  "dir": "ltr"
+}

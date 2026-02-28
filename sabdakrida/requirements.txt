@@ -1,0 +1,30 @@
+# Śabdakrīḍā — Sanskrit Pronunciation Tutor
+# Python 3.11+ recommended
+
+# Core ML stack (install torch first, then others)
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+torch>=2.0.0
+torchvision
+torchaudio
+transformers>=4.36.0
+accelerate>=0.25.0
+
+# TTS - indic-parler-tts (parler-tts)
+# pip install git+https://github.com/huggingface/parler-tts.git
+parler-tts>=0.1.0
+
+# Audio
+librosa>=0.10.0
+soundfile>=0.12.0
+scipy>=1.11.0
+
+# API
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.6
+
+# Optional for Mode 2 (IndicMFA - conda install separately)
+# conda install -c conda-forge montreal-forced-aligner
+
+# Dev / test
+pytest>=7.0.0

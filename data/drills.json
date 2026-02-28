@@ -1,0 +1,26 @@
+{
+  "listen_identify": {
+    "id": "listen_identify",
+    "name": "Listen & Identify",
+    "prompt": "I'll play a phoneme. You say which one it is (Devanagari or IAST).",
+    "structure": "Play phoneme → user responds with identity"
+  },
+  "repeat_after": {
+    "id": "repeat_after",
+    "name": "Repeat After",
+    "prompt": "I'll say a phoneme. You repeat it back.",
+    "structure": "Play phoneme → user records repetition"
+  },
+  "which_different": {
+    "id": "which_different",
+    "name": "Which is Different?",
+    "prompt": "I'll play 3 phonemes. One is different. Which one?",
+    "structure": "Play A, B, C (e.g. a, a, aa) → user says 1, 2, or 3"
+  },
+  "minimal_pair": {
+    "id": "minimal_pair",
+    "name": "Minimal Pairs",
+    "prompt": "I'll play two phonemes. Tell me which is first, which is second.",
+    "structure": "Play pair (e.g. ka/ga) → user identifies order"
+  }
+}

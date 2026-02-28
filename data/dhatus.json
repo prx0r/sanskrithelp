@@ -1,0 +1,214 @@
+[
+  {
+    "id": "dhatu-bhu",
+    "type": "dhatu",
+    "devanagari": "भू",
+    "iast": "bhū",
+    "meaning": "to be, exist, become",
+    "gana": 1,
+    "voice": "ubhayapada",
+    "ieCognates": ["English 'be'", "Greek 'phuō'", "Latin 'fui'"],
+    "derivedFrom": [],
+    "derivesTo": ["bhava", "bhavati", "bhuta", "bhavan", "abhava"],
+    "derivedForms": [
+      { "form": "bhava", "devanagari": "भव", "suffix": "+ a (guṇa)", "meaning": "being, becoming, state", "category": "abstract noun" },
+      { "form": "bhavati", "devanagari": "भवति", "suffix": "+ ti (laṭ)", "meaning": "he/she/it is", "category": "verb" },
+      { "form": "bhūta", "devanagari": "भूत", "suffix": "+ ta (kta)", "meaning": "been, become; spirit, ghost", "category": "participle" },
+      { "form": "bhavan", "devanagari": "भवन्", "suffix": "+ ant (śatṛ)", "meaning": "one who is", "category": "agent noun" },
+      { "form": "abhūt", "devanagari": "अभूत्", "suffix": "+ aorist", "meaning": "was, became", "category": "verb" }
+    ],
+    "sandhiRules": ["guna-sandhi", "vrddhi-sandhi"],
+    "suffixType": null,
+    "semanticRole": null
+  },
+  {
+    "id": "dhatu-kri",
+    "type": "dhatu",
+    "devanagari": "कृ",
+    "iast": "kṛ",
+    "meaning": "to do, make, perform, act",
+    "gana": 8,
+    "voice": "ubhayapada",
+    "ieCognates": ["English 'create'", "Greek 'krinein'"],
+    "derivedFrom": [],
+    "derivesTo": ["karoti", "kriya", "karya", "kta", "kartr"],
+    "derivedForms": [
+      { "form": "karoti", "devanagari": "करोति", "suffix": "+ o + ti (laṭ)", "meaning": "he/she does", "category": "verb" },
+      { "form": "kriyā", "devanagari": "क्रिया", "suffix": "+ yā (abstract)", "meaning": "action, deed", "category": "abstract noun" },
+      { "form": "kārya", "devanagari": "कार्य", "suffix": "+ ya (gerundive)", "meaning": "to be done, duty", "category": "gerundive" },
+      { "form": "kṛta", "devanagari": "कृत", "suffix": "+ ta (kta)", "meaning": "done, made", "category": "participle" },
+      { "form": "kartṛ", "devanagari": "कर्तृ", "suffix": "+ tṛ (agent)", "meaning": "doer, agent", "category": "agent noun" }
+    ],
+    "sandhiRules": ["guna-sandhi", "vrddhi-sandhi"],
+    "suffixType": null,
+    "semanticRole": null
+  },
+  {
+    "id": "dhatu-gam",
+    "type": "dhatu",
+    "devanagari": "गम्",
+    "iast": "gam",
+    "meaning": "to go, come, arrive",
+    "gana": 1,
+    "voice": "parasmaipada",
+    "ieCognates": ["Greek 'bainō'", "Latin 'venire'"],
+    "derivedFrom": [],
+    "derivesTo": ["gacchati", "gama", "gamya", "agata"],
+    "derivedForms": [
+      { "form": "gacchati", "devanagari": "गच्छति", "suffix": "+ cha + ti (redup. class)", "meaning": "he/she goes", "category": "verb" },
+      { "form": "gama", "devanagari": "गम", "suffix": "+ a (guṇa)", "meaning": "going, motion", "category": "abstract noun" },
+      { "form": "gamya", "devanagari": "गम्य", "suffix": "+ ya (gerundive)", "meaning": "to be gone to, attainable", "category": "gerundive" },
+      { "form": "āgata", "devanagari": "आगत", "suffix": "ā + gam + ta", "meaning": "come, arrived", "category": "participle" }
+    ],
+    "sandhiRules": ["guna-sandhi"],
+    "suffixType": null,
+    "semanticRole": null
+  },
+  {
+    "id": "dhatu-vach",
+    "type": "dhatu",
+    "devanagari": "वच्",
+    "iast": "vac",
+    "meaning": "to speak, say, tell",
+    "gana": 2,
+    "voice": "ubhayapada",
+    "ieCognates": ["English 'voice'", "Latin 'vox'"],
+    "derivedFrom": [],
+    "derivesTo": ["vakti", "vaca", "ukta", "vacana"],
+    "derivedForms": [
+      { "form": "vakti", "devanagari": "वक्ति", "suffix": "+ ti (laṭ)", "meaning": "he/she speaks", "category": "verb" },
+      { "form": "vaca", "devanagari": "वच", "suffix": "+ a (guṇa)", "meaning": "speech, word", "category": "abstract noun" },
+      { "form": "ukta", "devanagari": "उक्त", "suffix": "+ ta (kta)", "meaning": "said, spoken", "category": "participle" },
+      { "form": "vacana", "devanagari": "वचन", "suffix": "+ ana", "meaning": "speech, saying", "category": "abstract noun" }
+    ],
+    "sandhiRules": ["guna-sandhi"],
+    "suffixType": null,
+    "semanticRole": null
+  },
+  {
+    "id": "dhatu-drish",
+    "type": "dhatu",
+    "devanagari": "दृश्",
+    "iast": "dṛś",
+    "meaning": "to see, look, perceive",
+    "gana": 4,
+    "voice": "ubhayapada",
+    "ieCognates": ["English 'drastic'", "Greek 'drama'"],
+    "derivedFrom": [],
+    "derivesTo": ["paśyati", "darśana", "dṛk", "adṛśya"],
+    "derivedForms": [
+      { "form": "paśyati", "devanagari": "पश्यति", "suffix": "+ ya + ti (causal-like)", "meaning": "he/she sees", "category": "verb" },
+      { "form": "darśana", "devanagari": "दर्शन", "suffix": "+ ana (guṇa)", "meaning": "seeing, vision; philosophy", "category": "abstract noun" },
+      { "form": "dṛk", "devanagari": "दृक्", "suffix": "root stem", "meaning": "seer, eye", "category": "agent noun" },
+      { "form": "adṛśya", "devanagari": "अदृश्य", "suffix": "a + dṛś + ya", "meaning": "invisible", "category": "gerundive" }
+    ],
+    "sandhiRules": [],
+    "suffixType": null,
+    "semanticRole": null
+  },
+  {
+    "id": "dhatu-shru",
+    "type": "dhatu",
+    "devanagari": "श्रु",
+    "iast": "śru",
+    "meaning": "to hear, listen",
+    "gana": 5,
+    "voice": "ubhayapada",
+    "ieCognates": ["English 'hear'", "Greek 'akouō'"],
+    "derivedFrom": [],
+    "derivesTo": ["śṛṇoti", "śruti", "śravaṇa", "śrotṛ"],
+    "derivedForms": [
+      { "form": "śṛṇoti", "devanagari": "शृणोति", "suffix": "+ no + ti (nu-class)", "meaning": "he/she hears", "category": "verb" },
+      { "form": "śruti", "devanagari": "श्रुति", "suffix": "+ ti", "meaning": "what is heard; revelation, Veda", "category": "abstract noun" },
+      { "form": "śravaṇa", "devanagari": "श्रवण", "suffix": "+ ana", "meaning": "hearing, ear", "category": "abstract noun" },
+      { "form": "śrotṛ", "devanagari": "श्रोतृ", "suffix": "+ tṛ", "meaning": "hearer, listener", "category": "agent noun" }
+    ],
+    "sandhiRules": [],
+    "suffixType": null,
+    "semanticRole": null
+  },
+  {
+    "id": "dhatu-jna",
+    "type": "dhatu",
+    "devanagari": "ज्ञा",
+    "iast": "jñā",
+    "meaning": "to know, perceive, understand",
+    "gana": 9,
+    "voice": "parasmaipada",
+    "ieCognates": ["English 'know'", "Greek 'ginōskō'", "Latin 'gnoscere'"],
+    "derivedFrom": [],
+    "derivesTo": ["jānāti", "jñāna", "jñeya", "jñāta"],
+    "derivedForms": [
+      { "form": "jānāti", "devanagari": "जानाति", "suffix": "+ nā + ti", "meaning": "he/she knows", "category": "verb" },
+      { "form": "jñāna", "devanagari": "ज्ञान", "suffix": "+ ana", "meaning": "knowledge", "category": "abstract noun" },
+      { "form": "jñeya", "devanagari": "ज्ञेय", "suffix": "+ ya", "meaning": "to be known", "category": "gerundive" },
+      { "form": "jñāta", "devanagari": "ज्ञात", "suffix": "+ ta", "meaning": "known", "category": "participle" }
+    ],
+    "sandhiRules": ["guna-sandhi"],
+    "suffixType": null,
+    "semanticRole": null
+  },
+  {
+    "id": "dhatu-stha",
+    "type": "dhatu",
+    "devanagari": "स्था",
+    "iast": "sthā",
+    "meaning": "to stand, stay, remain",
+    "gana": 1,
+    "voice": "parasmaipada",
+    "ieCognates": ["English 'stand', 'state'", "Latin 'stare'"],
+    "derivedFrom": [],
+    "derivesTo": ["tiṣṭhati", "sthāna", "sthita", "sthira"],
+    "derivedForms": [
+      { "form": "tiṣṭhati", "devanagari": "तिष्ठति", "suffix": "+ redup. + ti", "meaning": "he/she stands", "category": "verb" },
+      { "form": "sthāna", "devanagari": "स्थान", "suffix": "+ ana", "meaning": "place, position", "category": "abstract noun" },
+      { "form": "sthita", "devanagari": "स्थित", "suffix": "+ ta", "meaning": "stood, established", "category": "participle" },
+      { "form": "sthira", "devanagari": "स्थिर", "suffix": "+ ira", "meaning": "steady, firm", "category": "adjective" }
+    ],
+    "sandhiRules": [],
+    "suffixType": null,
+    "semanticRole": null
+  },
+  {
+    "id": "dhatu-ni",
+    "type": "dhatu",
+    "devanagari": "नी",
+    "iast": "nī",
+    "meaning": "to lead, guide, conduct, take",
+    "gana": 1,
+    "voice": "parasmaipada",
+    "ieCognates": ["English 'lead'"],
+    "derivedFrom": [],
+    "derivesTo": ["nayati", "nīta", "naya", "netṛ"],
+    "derivedForms": [
+      { "form": "nayati", "devanagari": "नयति", "suffix": "+ a + ti", "meaning": "he/she leads", "category": "verb" },
+      { "form": "nīta", "devanagari": "नीत", "suffix": "+ ta", "meaning": "led, conducted", "category": "participle" },
+      { "form": "naya", "devanagari": "नय", "suffix": "+ a", "meaning": "conduct, policy", "category": "abstract noun" },
+      { "form": "netṛ", "devanagari": "नेतृ", "suffix": "+ tṛ", "meaning": "leader", "category": "agent noun" }
+    ],
+    "sandhiRules": ["guna-sandhi"],
+    "suffixType": null,
+    "semanticRole": null
+  },
+  {
+    "id": "dhatu-labh",
+    "type": "dhatu",
+    "devanagari": "लभ्",
+    "iast": "labh",
+    "meaning": "to obtain, receive, get, find",
+    "gana": 1,
+    "voice": "parasmaipada",
+    "ieCognates": ["English 'latch'"],
+    "derivedFrom": [],
+    "derivesTo": ["labhate", "labha", "lābha", "labdha"],
+    "derivedForms": [
+      { "form": "labhate", "devanagari": "लभते", "suffix": "+ a + te", "meaning": "he/she obtains", "category": "verb" },
+      { "form": "labha", "devanagari": "लभ", "suffix": "+ a", "meaning": "gaining", "category": "abstract noun" },
+      { "form": "lābha", "devanagari": "लाभ", "suffix": "+ a (vṛddhi)", "meaning": "gain, profit", "category": "abstract noun" },
+      { "form": "labdha", "devanagari": "लब्ध", "suffix": "+ ta", "meaning": "obtained", "category": "participle" }
+    ],
+    "sandhiRules": [],
+    "suffixType": null,
+    "semanticRole": null
+  }
+]

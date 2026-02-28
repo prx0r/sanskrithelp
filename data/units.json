@@ -1,0 +1,11 @@
+[
+  {"id":"vowels-1","title":"Basic Vowels","subtitle":"अ आ इ ई उ ऊ","phonemeIds":["a","aa","i","ii","u","uu"],"order":1,"overview":"Six basic Sanskrit vowels. Each uses a different point of pronunciation: अ a at the soft palate, इ i at the hard palate, ऋ ṛ at the roof bump, ऌ ḷ at the teeth, उ u at the lips. Long vowels आ ई ऊ are held twice as long."},
+  {"id":"vowels-2","title":"More Vowels","subtitle":"ऋ ॠ ऌ ए ऐ ओ औ","phonemeIds":["r","rr","l","e","ai","o","au"],"order":2,"overview":"Compound vowels ए ऐ ओ औ are combinations of basic vowels. ऋ ॠ ऌ are rare retroflex and dental vowels."},
+  {"id":"velar","title":"Velars","subtitle":"Soft palate · क ख ग घ ङ","phonemeIds":["ka","kha","ga","gha","nga"],"order":3,"overview":"Velar consonants: tongue base at soft palate. क ka unvoiced, ख kha aspirated, ग ga voiced, घ gha voiced aspirated, ङ ṅa nasal."},
+  {"id":"palatal","title":"Palatals","subtitle":"Hard palate · च छ ज झ ञ","phonemeIds":["ca","cha","ja","jha","nya"],"order":4,"overview":"Palatal consonants: tongue middle at hard palate. च ca, छ cha, ज ja, झ jha, ञ ña."},
+  {"id":"retroflex","title":"Retroflexes","subtitle":"Roof of mouth · ट ठ ड ढ ण","phonemeIds":["ta-retro","tha-retro","da-retro","dha-retro","na-retro"],"order":5},
+  {"id":"dental","title":"Dentals","subtitle":"Teeth · त थ द ध न","phonemeIds":["ta","tha","da","dha","na"],"order":6},
+  {"id":"labial","title":"Labials","subtitle":"Lips · प फ ब भ म","phonemeIds":["pa","pha","ba","bha","ma"],"order":7},
+  {"id":"semivowels","title":"Semivowels","subtitle":"य र ल व","phonemeIds":["ya","ra","la","va"],"order":8},
+  {"id":"sibilants","title":"Sibilants & ha","subtitle":"श ष स ह","phonemeIds":["sha-palatal","sha-retro","sa","ha"],"order":9}
+]

@@ -1,0 +1,10 @@
+[
+  { "iast": "gaja", "devanagari": "गज", "meaning": "elephant", "root": null, "notes": "common noun" },
+  { "iast": "nara", "devanagari": "नर", "meaning": "man", "root": null, "notes": "a-stem" },
+  { "iast": "vana", "devanagari": "वन", "meaning": "forest", "root": null, "notes": "a-stem" },
+  { "iast": "pustaka", "devanagari": "पुस्तक", "meaning": "book", "root": null, "notes": "a-stem" },
+  { "iast": "grha", "devanagari": "गृह", "meaning": "house, home", "root": null, "notes": "a-stem" },
+  { "iast": "deva", "devanagari": "देव", "meaning": "god", "root": null, "notes": "a-stem" },
+  { "iast": "artha", "devanagari": "अर्थ", "meaning": "meaning, purpose", "root": null, "notes": "a-stem" },
+  { "iast": "dharma", "devanagari": "धर्म", "meaning": "law, duty, righteousness", "root": "√dhṛ", "notes": "from √धृ hold" }
+]

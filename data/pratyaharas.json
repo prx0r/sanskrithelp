@@ -1,0 +1,121 @@
+[
+  {
+    "id": "ac",
+    "sura": 1,
+    "marker": "c",
+    "result": ["a", "aa", "e", "ai", "o", "au"],
+    "explanation": "All vowels (diphthongs include their component vowels)"
+  },
+  {
+    "id": "ic",
+    "sura": 2,
+    "marker": "c",
+    "result": ["i", "ii", "e", "ai", "o", "au"],
+    "explanation": "Vowels from i onward"
+  },
+  {
+    "id": "uc",
+    "sura": 3,
+    "marker": "c",
+    "result": ["u", "uu", "e", "ai", "o", "au"],
+    "explanation": "Vowels from u onward"
+  },
+  {
+    "id": "r̥",
+    "sura": 4,
+    "marker": "r̥",
+    "result": ["r", "rr"],
+    "explanation": "Vocalic r and its long form"
+  },
+  {
+    "id": "l̥",
+    "sura": 5,
+    "marker": "l̥",
+    "result": ["l"],
+    "explanation": "Vocalic l"
+  },
+  {
+    "id": "ek",
+    "sura": 6,
+    "marker": "k",
+    "result": ["e", "o"],
+    "explanation": "Guna vowels (monophthong diphthongs)"
+  },
+  {
+    "id": "ok",
+    "sura": 7,
+    "marker": "k",
+    "result": ["o"],
+    "explanation": "Vowel o"
+  },
+  {
+    "id": "aɪc",
+    "sura": 8,
+    "marker": "c",
+    "result": ["a", "aa", "i", "ii", "u", "uu", "r", "rr", "l", "e", "ai", "o", "au"],
+    "explanation": "All vowels including vocalic r, l"
+  },
+  {
+    "id": "yam",
+    "sura": 9,
+    "marker": "m",
+    "result": ["ya", "ra", "la", "va", "am"],
+    "explanation": "Semivowels and anusvara"
+  },
+  {
+    "id": "añam",
+    "sura": 10,
+    "marker": "m",
+    "result": ["nya", "am"],
+    "explanation": "Palatal nasal and anusvara"
+  },
+  {
+    "id": "ṇam",
+    "sura": 11,
+    "marker": "m",
+    "result": ["na-retro", "am"],
+    "explanation": "Retroflex nasal and anusvara"
+  },
+  {
+    "id": "nam",
+    "sura": 12,
+    "marker": "m",
+    "result": ["na", "am"],
+    "explanation": "Dental nasal and anusvara"
+  },
+  {
+    "id": "mam",
+    "sura": 13,
+    "marker": "m",
+    "result": ["ma", "am"],
+    "explanation": "Labial nasal and anusvara"
+  },
+  {
+    "id": "ñaś",
+    "sura": 14,
+    "marker": "ś",
+    "result": ["nya"],
+    "explanation": "Palatal nasal"
+  },
+  {
+    "id": "ñaṣ",
+    "sura": 14,
+    "marker": "ṣ",
+    "result": ["nya", "na-retro"],
+    "explanation": "Palatal and retroflex nasals"
+  },
+  {
+    "id": "ñas",
+    "sura": 14,
+    "marker": "s",
+    "result": ["nya", "na-retro", "na"],
+    "explanation": "Palatal, retroflex, and dental nasals"
+  },
+  {
+    "id": "aś",
+    "sura": 8,
+    "marker": "ś",
+    "result": ["a", "aa", "ah"],
+    "explanation": "Short/long a plus visarga"
+  }
+]

@@ -1,0 +1,244 @@
+[
+  {
+    "id": "vowel-sandhi-a",
+    "name": "Identical Vowel Merging",
+    "paniniReference": "6.1.101",
+    "category": "vowel",
+    "signature": "a + a → ā",
+    "mechanism": "When the same vowel appears at the end of one word and the beginning of another, they merge into the long form. This is phonological merging at the boundary.",
+    "examples": [
+      {
+        "input": ["raama", "aaditya"],
+        "output": "raamaaditya",
+        "annotation": "raama + aaditya → raamaaditya (a + a → ā)"
+      },
+      {
+        "input": ["sarva", "ada"],
+        "output": "sarvaada",
+        "annotation": "sarva + ada → sarvaada (a + a → ā)"
+      }
+    ],
+    "dependsOn": [],
+    "enables": ["vowel-sandhi-aa", "guna-sandhi"]
+  },
+  {
+    "id": "vowel-sandhi-aa",
+    "name": "Long Vowel Merging",
+    "paniniReference": "6.1.111",
+    "category": "vowel",
+    "signature": "ā + a → ā",
+    "mechanism": "When a long vowel appears before its short counterpart, the long form dominates. This follows the principle of syllable weight - heavy before light.",
+    "examples": [
+      {
+        "input": ["maha", "arjuna"],
+        "output": "mahaarjuna",
+        "annotation": "maha + arjuna → mahaarjuna (ā + a → ā)"
+      }
+    ],
+    "dependsOn": ["vowel-sandhi-a"],
+    "enables": []
+  },
+  {
+    "id": "guna-sandhi",
+    "name": "Guna Formation",
+    "paniniReference": "6.1.87-88",
+    "category": "vowel",
+    "signature": "a + i → e, a + u → o",
+    "mechanism": "When 'a' combines with 'i' or 'u', it creates the guna forms 'e' and 'o'. This is adding the short 'a' to zero-grade vowels.",
+    "examples": [
+      {
+        "input": ["tava", "iti"],
+        "output": "taveti",
+        "annotation": "tava + iti → taveti (a + i → e)"
+      },
+      {
+        "input": ["yad", "uttara"],
+        "output": "yoduttara",
+        "annotation": "yad + uttara → yoduttara (a + u → o)"
+      }
+    ],
+    "dependsOn": ["vowel-sandhi-a"],
+    "enables": ["vrddhi-sandhi"]
+  },
+  {
+    "id": "vrddhi-sandhi",
+    "name": "Vrddhi Formation",
+    "paniniReference": "6.1.87-88",
+    "category": "vowel",
+    "signature": "ā + i → ai, ā + u → au",
+    "mechanism": "When long 'ā' combines with 'i' or 'u', it creates the vrddhi forms 'ai' and 'au'. This is adding long 'a' to zero-grade vowels.",
+    "examples": [
+      {
+        "input": ["mahaa", "iti"],
+        "output": "mahaiti",
+        "annotation": "mahaa + iti → mahaiti (ā + i → ai)"
+      },
+      {
+        "input": ["bahu", "uttara"],
+        "output": "bhaava uttara",
+        "annotation": "bahu + uttara → bhaava uttara (u + u → ū)"
+      }
+    ],
+    "dependsOn": ["guna-sandhi"],
+    "enables": []
+  },
+  {
+    "id": "semivowel-sandhi-i",
+    "name": "Vowel i → Semivowel y",
+    "paniniReference": "6.1.77",
+    "category": "vowel",
+    "signature": "i + vowel → y + vowel",
+    "mechanism": "When 'i' or 'ī' appears before any vowel, it converts to the semivowel 'y'. This is a palatalization shortcut - the mouth position slides to the next sound.",
+    "examples": [
+      {
+        "input": ["iti", "aah"],
+        "output": "ityaah",
+        "annotation": "iti + aah → ityaah (i + ā → iyā)"
+      },
+      {
+        "input": ["tami", "eva"],
+        "output": "tameva",
+        "annotation": "tami + eva → tameva (i + e → ye)"
+      }
+    ],
+    "dependsOn": [],
+    "enables": []
+  },
+  {
+    "id": "semivowel-sandhi-u",
+    "name": "Vowel u → Semivowel v",
+    "paniniReference": "6.1.78",
+    "category": "vowel",
+    "signature": "u + vowel → v + vowel",
+    "mechanism": "When 'u' or 'ū' appears before any vowel, it converts to the semivowel 'v'. Like i→y, this is a labial shortcut.",
+    "examples": [
+      {
+        "input": ["su", "asti"],
+        "output": "svasti",
+        "annotation": "su + asti → svasti (u + a → va)"
+      },
+      {
+        "input": ["anu", "ichhati"],
+        "output": "anvechhati",
+        "annotation": "anu + ichhati → anvechhati (u + i → vi)"
+      }
+    ],
+    "dependsOn": [],
+    "enables": []
+  },
+  {
+    "id": "visarga-sandhi",
+    "name": "Visarga Chameleon Rule",
+    "paniniReference": "8.3.34-36",
+    "category": "visarga",
+    "signature": "ḥ + voiceless → ḥ, ḥ + voiced → o, ḥ + vowel → ø",
+    "mechanism": "Visarga (ḥ) is context-dependent: stays before voiceless sounds, becomes 'o' before voiced, and drops before vowels. It adapts to what follows.",
+    "examples": [
+      {
+        "input": ["duHkha", "kartaa"],
+        "output": "duHkham kartaa",
+        "annotation": "duHkha + kartaa → duHkham kartaa (ḥ before k stays)"
+      },
+      {
+        "input": ["ramaH", "iti"],
+        "output": "ramo iti",
+        "annotation": "ramaḥ + iti → ramo iti (ḥ before vowel becomes o)"
+      },
+      {
+        "input": ["ramaH", "atra"],
+        "output": "ramo atra",
+        "annotation": "ramaḥ + atra → ramo atra (ḥ before voiced becomes o)"
+      }
+    ],
+    "dependsOn": [],
+    "enables": []
+  },
+  {
+    "id": "grassmanns-law",
+    "name": "Grassmann's Law",
+    "paniniReference": "8.4.54",
+    "category": "aspiration",
+    "signature": "*h + h* → * + h*",
+    "mechanism": "A word cannot contain two aspirates in successive syllables. The first aspirate drops. Think of it as aspiration conservation - the budget is one per word.",
+    "examples": [
+      {
+        "input": ["baHa", "t"],
+        "output": "buddha",
+        "annotation": "√budh + ta → buddha (aspirate drops from root, final dh remains)"
+      },
+      {
+        "input": ["gaHh", "ta"],
+        "output": "gata",
+        "annotation": "√gah (to go) + ta → gata (initial gh drops before t)"
+      }
+    ],
+    "dependsOn": [],
+    "enables": ["bartholomaes-law"]
+  },
+  {
+    "id": "bartholomaes-law",
+    "name": "Bartholomae's Law (The Buddha Rule)",
+    "paniniReference": "8.2.40",
+    "category": "aspiration",
+    "signature": "bh/t → b/dh",
+    "mechanism": "When a voiced aspirate appears before a voiceless consonant, the aspiration jumps forward. The Buddha Rule (√budh + ta → buddha) shows this perfectly.",
+    "examples": [
+      {
+        "input": ["bhudh", "ta"],
+        "output": "buddha",
+        "annotation": "√budh + ta → buddha (dh aspiration jumps to t → dha)"
+      },
+      {
+        "input": ["lagh", "na"],
+        "output": "laghna",
+        "annotation": "√lagh + na → laghna (gh aspiration jumps → gha)"
+      }
+    ],
+    "dependsOn": ["grassmanns-law"],
+    "enables": []
+  },
+  {
+    "id": "consonant-sandhi-ka",
+    "name": "Velar Consonant Assimilation",
+    "paniniReference": "8.4.40-46",
+    "category": "consonant",
+    "signature": "k + vowel → kv",
+    "mechanism": "Final velars before voiced sounds become voiced, before voiceless stay voiceless. Nasals before velars become velar nasals.",
+    "examples": [
+      {
+        "input": ["ek", "pada"],
+        "output": "ekpada",
+        "annotation": "ek + pada → ekpada (k before p stays voiceless)"
+      },
+      {
+        "input": ["shat", "gavaa"],
+        "output": "shaTa gavaa",
+        "annotation": "shat + gavaa → shaTa gavaa (t before g becomes voiced T)"
+      }
+    ],
+    "dependsOn": [],
+    "enables": []
+  },
+  {
+    "id": "nasal-assimilation",
+    "name": "Final Consonant + Nasal → Proper Nasal",
+    "paniniReference": "8.4.37-39",
+    "category": "consonant",
+    "signature": "C + N → C + nasal(column)",
+    "mechanism": "When any consonant appears before a nasal, it assimilates to the nasal of its own column. Velars before nasals become ŋ, palatals become ñ, etc.",
+    "examples": [
+      {
+        "input": ["shak", "na"],
+        "output": "shaGna",
+        "annotation": "shak + na → shaGna (k before n becomes velar nasal ŋ)"
+      },
+      {
+        "input": ["vach", "na"],
+        "output": "vaGna",
+        "annotation": "vach + na → vaGna (ch before n becomes palatal nasal ñ)"
+      }
+    ],
+    "dependsOn": [],
+    "enables": []
+  }
+]

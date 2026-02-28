@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html.dark {
+    color-scheme: dark;
+  }
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+    --radius: 0.5rem;
+  }
+
+  /* Kashmir Shaivism: deep violet cosmos, saffron accents - softer text */
+  .dark {
+    --background: 270 35% 6%;
+    --foreground: 40 20% 82%;
+    --card: 270 30% 10%;
+    --card-foreground: 40 20% 85%;
+    --primary: 40 50% 52%;
+    --primary-foreground: 270 35% 6%;
+    --secondary: 270 25% 14%;
+    --secondary-foreground: 40 20% 82%;
+    --muted: 270 20% 16%;
+    --muted-foreground: 270 15% 48%;
+    --accent: 270 40% 28%;
+    --accent-foreground: 40 30% 78%;
+    --border: 270 25% 18%;
+    --input: 270 25% 18%;
+    --ring: 40 55% 58%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Custom scrollbars for dark theme */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-muted;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-muted-foreground/30 rounded-md;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-muted-foreground/50;
+}
+
+/* Kashmir Shaivism: ethereal cosmic background */
+.bg-cosmic {
+  background: radial-gradient(ellipse 120% 80% at 50% 0%, hsl(270 40% 18%) 0%, hsl(270 45% 8%) 40%, hsl(270 50% 4%) 100%);
+}
+.bg-cosmic-grid {
+  background-image: radial-gradient(circle at 1px 1px, hsl(270 30% 18% / 0.15) 1px, transparent 0);
+  background-size: 40px 40px;
+}
+
+/* Phoneme grid specific styles */
+.phoneme-cell {
+  @apply transition-all duration-200 ease-in-out;
+}
+
+.phoneme-cell:hover {
+  @apply scale-105 shadow-lg;
+}
+
+/* Touch-friendly tap targets for mobile */
+@media (max-width: 768px) {
+  .touch-target {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* Prevent double-tap zoom on interactive elements */
+@media (pointer: coarse) {
+  button, a, [role="button"] {
+    touch-action: manipulation;
+  }
+}
+
+/* Drill difficulty colors: Easy=amber, Medium=silver, Hard=burgundy - softened */
+.drill-easy { @apply bg-amber-500/20 text-amber-600 dark:text-amber-400/90 border-amber-500/30; }
+.drill-easy:hover { @apply bg-amber-500/30; }
+.drill-easy-active { @apply bg-amber-500/25 text-amber-700 dark:text-amber-400/95 border-amber-500/40; }
+.drill-medium { @apply bg-slate-400/20 text-slate-600 dark:text-slate-400/90 border-slate-400/30; }
+.drill-medium:hover { @apply bg-slate-400/30; }
+.drill-medium-active { @apply bg-slate-400/25 text-slate-700 dark:text-slate-300 border-slate-400/40; }
+.drill-hard { @apply bg-rose-900/25 text-rose-400 dark:text-rose-400/90 border-rose-800/40; }
+.drill-hard:hover { @apply bg-rose-900/35; }
+.drill-hard-active { @apply bg-rose-900/30 text-rose-500 dark:text-rose-400 border-rose-800/50; }
