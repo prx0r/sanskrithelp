@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Volume2, Mic, Square, Loader2, CheckCircle, XCircle, ChevronLeft } from "lucide-react";
 import { playSanskritTTS } from "@/lib/audio";
 import { blobToWavBlob } from "@/lib/audioUtils";
+import { iastToDevanagari } from "@/lib/transliterate";
 import { cn } from "@/lib/utils";
 
 // Sanskrit drill words (IAST) — from sabdakrida DRILL_WORDS
@@ -21,10 +22,13 @@ const DRILL_WORDS = [
 type SessionResult = {
   target: string;
   heard: string;
+  heard_iast?: string;
   errors: [string, string][];
   error_types: string[];
   audio: string | null;
   correct: boolean;
+  score?: number;  // 0–1 pronunciation score
+  feedback_english?: string;
 } | null;
 
 export default function PronunciationTutorPage() {
@@ -168,7 +172,7 @@ export default function PronunciationTutorPage() {
       <div className="mb-8">
         <h2 className="text-sm font-medium text-muted-foreground mb-2">1. Tap a word to select</h2>
         <div className="flex flex-wrap gap-2">
-          {DRILL_WORDS.map((word) => (
+            {DRILL_WORDS.map((word) => (
             <button
               key={word}
               type="button"
@@ -178,13 +182,14 @@ export default function PronunciationTutorPage() {
                 setBackendError(null);
               }}
               className={cn(
-                "px-3 py-1.5 rounded-lg text-sm font-medium transition-colors cursor-pointer",
+                "px-3 py-1.5 rounded-lg text-sm font-medium transition-colors cursor-pointer flex items-baseline gap-1.5",
                 targetWord === word
                   ? "bg-primary text-primary-foreground"
                   : "bg-muted hover:bg-muted/80"
               )}
             >
-              {word}
+              <span style={{ fontFamily: "var(--font-devanagari), sans-serif" }}>{iastToDevanagari(word)}</span>
+              <span className="font-mono text-muted-foreground">{word}</span>
             </button>
           ))}
         </div>
@@ -195,10 +200,11 @@ export default function PronunciationTutorPage() {
         {targetWord ? (
           <>
             <div className="text-center">
-              <p className="text-4xl font-sans mb-1" dir="ltr">
-                {targetWord}
+              <p className="text-4xl mb-1" style={{ fontFamily: "var(--font-devanagari), sans-serif" }}>
+                {iastToDevanagari(targetWord)}
               </p>
-              <p className="text-sm text-muted-foreground">Target (IAST)</p>
+              <p className="text-2xl font-mono text-muted-foreground">{targetWord}</p>
+              <p className="text-xs text-muted-foreground mt-1">Target (Devanagari & IAST)</p>
             </div>
 
             <h2 className="text-sm font-medium text-muted-foreground">2. Listen or Record</h2>
@@ -259,17 +265,54 @@ export default function PronunciationTutorPage() {
 
             {result && (
               <div className="space-y-2 p-4 rounded-lg bg-muted/50">
+                {typeof result.score === "number" && (
+                  <div className="flex items-center gap-2">
+                    <span className="text-xs font-medium text-muted-foreground uppercase tracking-wide">Score</span>
+                    <div className="flex-1 h-2 rounded-full bg-muted overflow-hidden">
+                      <div
+                        className={cn(
+                          "h-full rounded-full transition-all",
+                          result.score >= 0.9
+                            ? "bg-green-500"
+                            : result.score >= 0.6
+                              ? "bg-amber-500"
+                              : "bg-red-500/70"
+                        )}
+                        style={{ width: `${Math.round(result.score * 100)}%` }}
+                      />
+                    </div>
+                    <span className="text-sm font-mono tabular-nums w-10 text-right">
+                      {(result.score * 100).toFixed(0)}%
+                    </span>
+                  </div>
+                )}
                 {result.correct ? (
-                  <div className="flex items-center gap-2 text-green-600 font-medium">
-                    <CheckCircle className="w-5 h-5" />
-                    Correct! sādhu.
+                  <div className="flex flex-col gap-2">
+                    <div className="flex items-center gap-2 text-green-600 font-medium">
+                      <CheckCircle className="w-5 h-5" />
+                      Correct! साधु (sādhu).
+                    </div>
+                    {result.feedback_english && (
+                      <div className="rounded-lg border border-primary/30 bg-primary/5 px-3 py-2">
+                        <p className="text-xs font-medium text-muted-foreground uppercase tracking-wide">In English</p>
+                        <p className="text-sm text-foreground">{result.feedback_english}</p>
+                      </div>
+                    )}
                   </div>
                 ) : (
                   <>
                     <div className="flex items-center gap-2 text-amber-600 font-medium">
                       <XCircle className="w-5 h-5" />
-                      Heard: <span className="font-mono">{result.heard || "(none)"}</span>
+                      Heard:{" "}
+                      <span style={{ fontFamily: "var(--font-devanagari), sans-serif" }}>{result.heard || "—"}</span>
+                      <span className="font-mono text-muted-foreground">({result.heard_iast || result.heard || "—"})</span>
                     </div>
+                    {result.feedback_english && (
+                      <div className="rounded-lg border border-primary/30 bg-primary/5 px-3 py-2">
+                        <p className="text-xs font-medium text-muted-foreground uppercase tracking-wide">In English (what the voice said)</p>
+                        <p className="text-sm text-foreground">{result.feedback_english}</p>
+                      </div>
+                    )}
                     {result.error_types?.length > 0 && (
                       <p className="text-sm text-muted-foreground">
                         Focus: {result.error_types.join(", ")}

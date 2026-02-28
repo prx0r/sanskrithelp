@@ -41,3 +41,18 @@ def phoneme_diff(target: str, heard: str) -> list[tuple[str, str]]:
             for i in range(len(exp_slice), len(got_slice)):
                 errors.append(("", got_slice[i]))
     return errors
+
+
+def phoneme_similarity(target: str, heard: str) -> float:
+    """
+    Return similarity score 0–1. Uses SequenceMatcher.ratio() on normalized text.
+    Both inputs should be in same script (IAST) for valid comparison.
+    """
+    target_norm = normalize_iast(target)
+    heard_norm = normalize_iast(heard)
+    if not target_norm and not heard_norm:
+        return 1.0
+    if not target_norm:
+        return 0.0
+    matcher = SequenceMatcher(None, target_norm, heard_norm)
+    return matcher.ratio()

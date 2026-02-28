@@ -245,3 +245,99 @@ The weakness centroid is a live gradient pointing toward where to go next
 
 The key property: it can't hallucinate grammar rules because every generated question is grounded in retrieved corpus chunks. The LLM is only doing surface generation (question phrasing, distractors, explanations) — the actual Sanskrit content comes from Whitney/Pāṇini.
 The system you're describing is genuinely novel for classical language learning. Most apps (Duolingo, even specialised Sanskrit apps) have fixed content banks. You'd have an infinite, pedagogically coherent, source-grounded drill system that gets smarter about each individual learner over time.
+
+Yes, exactly. That's the whole game.
+Stock Whisper just gives you a transcript. The Sanskrit-finetuned Whisper gives you a confusion matrix — when it mishears "ṭa" as "ta" that IS the pronunciation error, precisely identified. You're not doing ASR, you're using ASR failures as a phoneme-level diagnostic tool.
+The teacher system that becomes possible:
+Learner says: "ṭīkā"
+Whisper hears: "tīkā"  ← dental instead of retroflex
+                ↓
+System knows: ṭ → t confusion = tongue position error, not touching hard palate
+                ↓
+Teacher says (indic-parler-tts, Command tone):
+"nahi. jihvā mūrdhni sthāpaya. punar vadatu."
+"No. Place the tongue at the roof. Say it again."
+                ↓
+Learner tries again
+Whisper hears: "ṭīkā"  ← correct
+                ↓
+Teacher says (praise tone):
+"sādhu. eṣā śuddha uccāraṇā."
+"Good. That is correct pronunciation."
+Every single phoneme distinction Sanskrit makes — retroflex vs dental, aspirated vs unaspirated, short vs long vowel — has a specific Whisper confusion pattern. You build a confusion map once:
+pythonPHONEME_CONFUSIONS = {
+    ("ṭ", "t"):  "retroflex_dental",      # tongue position
+    ("ḍ", "d"):  "retroflex_dental",
+    ("ṇ", "n"):  "retroflex_dental",
+    ("th", "t"): "aspiration",             # breath missing
+    ("kh", "k"): "aspiration",
+    ("ph", "p"): "aspiration",
+    ("ā", "a"):  "vowel_length",           # holding duration
+    ("ī", "i"):  "vowel_length",
+    ("ś", "s"):  "palatal_sibilant",       # tongue shape
+    ("ṣ", "s"):  "retroflex_sibilant",
+    ("ṣ", "ś"):  "sibilant_distinction",
+    ("ṃ", "m"):  "anusvara",               # nasalisation
+    ("ḥ", "h"):  "visarga",               # final aspiration
+}
+
+ERROR_EXPLANATIONS = {
+    "retroflex_dental": {
+        "sanskrit": "jihvā mūrdhni na sthitā. uccasthāne spṛśatu.",
+        "english":  "Tongue not at hard palate. Touch the upper position.",
+        "tip": "Curl tongue back, tip touches the ridge behind teeth.",
+    },
+    "aspiration": {
+        "sanskrit": "śvāsaḥ nāsti. vāyu sahitam uccāraya.",
+        "english":  "No breath. Pronounce with air.",
+        "tip": "Hold hand in front of mouth — aspirated consonants should feel the puff.",
+    },
+    "vowel_length": {
+        "sanskrit": "dīrgha svaro hrasvaḥ jātaḥ. dviguṇakālaṃ tiṣṭhatu.",
+        "english":  "Long vowel became short. Hold it twice as long.",
+        "tip": "ā is exactly twice the duration of a. Count it.",
+    },
+    ...
+}
+Then the teacher speaks the explanation in Sanskrit with the English gloss — learner gets immersed in the language even during error correction.
+The thing that makes this genuinely powerful is the feedback loop:
+pythonasync def pronunciation_session(learner_audio, target_text, user_profile):
+    # 1. Transcribe
+    heard = await whisper_transcribe(learner_audio, language="sa")
+    
+    # 2. Diff at phoneme level
+    errors = phoneme_diff(target_text, heard)  # e.g. [("ṭ","t"), ("ā","a")]
+    
+    # 3. Map to error types
+    error_types = [PHONEME_CONFUSIONS.get(e) for e in errors]
+    
+    # 4. Update user weakness profile
+    for err in error_types:
+        user_profile["phoneme_errors"][err] = user_profile["phoneme_errors"].get(err, 0) + 1
+    
+    # 5. Generate teacher response
+    if not errors:
+        response_text = "sādhu! śuddha uccāraṇā."
+        style = "praise"
+    else:
+        primary_error = most_common(error_types)
+        explanation = ERROR_EXPLANATIONS[primary_error]
+        response_text = f"{explanation['sanskrit']} {explanation['english']}"
+        style = "critique"
+    
+    # 6. Speak it
+    audio = await tts_speak(response_text, style=style)
+    
+    return {
+        "heard": heard,
+        "errors": errors,
+        "audio": audio,
+        "attempts": user_profile["phoneme_errors"]
+    }
+Over time user_profile["phoneme_errors"] tells you this learner has a consistent retroflex problem — the drill system then prioritises words with retroflex consonants until the confusion disappears from Whisper's output. The ASR confusion matrix is the diagnostic instrument. When Whisper stops getting confused, the learner has genuinely fixed the phoneme.
+The sessions this enables:
+Shadowing mode: teacher speaks a phrase via TTS, learner immediately repeats, Whisper grades it. Rapid-fire. 20 repetitions of the same phoneme distinction until Whisper stops confusing it.
+Minimal pairs: "nata" (actor) vs "naṭa" (dancer) — same word, different meaning, one phoneme. Teacher drills both, learner must produce the distinction that changes Whisper's output. That IS the test — fool the ASR or don't.
+Sandhi pronunciation: learner reads a compound, Whisper checks not just individual phonemes but whether the sandhi junction was pronounced correctly. deva + indra should produce devendra as one phonological word — Whisper will catch if they're pronouncing a break.
+This is why local custom Whisper is worth it — you're not using it as a transcription tool, you're using it as a phoneme-level sensor. Stock Whisper is good enough to prototype but the Sanskrit-finetuned version will catch subtler distinctions like ś vs ṣ that stock Whisper will often collapse to "sh".
+Want me to write the full pronunciation session service — Whisper + phoneme diff + TTS feedback as one local Python server?

@@ -1,0 +1,142 @@
+The dhātu dash insight is that one generative rule, explored exhaustively through play, builds intuition faster than any drill. The game isn't testing knowledge — it's building a mental model through repeated traversal of the same structure.
+Here are 5 core game engines that do the same thing for different fundamental structures:
+
+For live conversational TTS (the exciting bit): Use indic-parler-tts via chutes.ai. You don't run it locally — you call it as an API. The model supports Sanskrit with a MOS score of 99.79 Qwen, the highest of any language on the model. Since chutes.ai has pay-per-use inference, you call it only when needed — conversational responses, generated drill audio, user-submitted sentences read back to them.
+The conversation mode would work like:
+
+Learner submits answer (text or voice)
+System evaluates, generates feedback text
+indic-parler-tts renders the feedback in Sanskrit/English mixed audio
+Learner hears correct pronunciation alongside explanation
+
+For voice input, the Sanskrit-finetuned Whisper (achieving WER of 15.42% on Vāksañcayaḥ dataset arXiv) handles transcription. Not perfect but good enough to detect systematic phoneme errors — which is all you need for the phonology gate.
+
+Generative game designs
+Dhātu Dash (your idea, expanded)
+Start at the root. Every turn, produce a valid derived form. Timer. The tree grows visually.
+bhū (to be)
+├── bhavati (he is) — present
+├── bhūta (been) — past passive participle  
+├── bhavana (dwelling) — kṛt suffix -ana
+├── bhāva (state of being) — abstract noun
+│   └── bhāvaḥ (existence, Śaiva term) — branch deepens
+├── sambhava (arising together) — prefix sam-
+│   └── sambhavati (arises)
+└── abhava (non-being) — prefix a-
+The visual is a tree that grows in real-time. Multiplayer: two players race to exhaust a root. Common roots (bhū, kṛ, gam, as) have hundreds of valid nodes — genuinely inexhaustible.
+
+1. Sandhi Forge
+The structure being internalised: Sound change rules are deterministic and reversible. Every junction has exactly one correct output.
+Core mechanic: Two word-final/word-initial phonemes collide. Player watches the collision happen in slow motion and must predict the output — or reverse-engineer the inputs from the output.
+Forward mode: deva + indra = ? → player types devendra
+Reverse mode: tathāpi → player splits into tathā + api
+The "forge" metaphor is exact — you're watching two materials fuse under heat (the junction). The visual shows phonemes as blocks that literally merge, transform, or one absorbs the other depending on the sandhi rule.
+Why it builds the same intuition as Dhātu Dash: Sandhi rules are also a generative system. Master the ~15 core rules and you can handle every junction in Sanskrit literature. The game engine generates infinite pairs from the DCS corpus — real attested junctions, not constructed ones. After 500 forges the rules become reflex.
+Progression within the engine:
+
+Level 1: simple vowel sandhi (a + a = ā)
+Level 2: complex vowel sandhi (i/u/ṛ before vowels → semivowels)
+Level 3: visarga sandhi
+Level 4: consonant sandhi
+Level 5: reverse engineering (split the compound word)
+Level 6: triple junction (three words, two sandhi operations, both must fire)
+
+
+2. Kāraka Web
+The structure being internalised: A sentence is not a string of words — it's a network of semantic relationships centred on the verb. The case endings are just surface markers of something deeper.
+Core mechanic: A Sanskrit sentence appears with the verb at the centre of a web. Nodes radiate outward. Player must drag each nominal into the correct kāraka slot before seeing the case endings — reasoning from meaning alone.
+        [kartṛ: ___]
+             |
+[karaṇa: ___] — VERB — [karma: ___]
+             |
+        [sampradāna: ___]
+Then the case endings reveal. If the player's semantic assignment matches the morphological case → point. If not → the rule fires visually showing why the case ending follows from the kāraka.
+Why it's the same engine as Dhātu Dash: Kārakas are also a finite generative system (6 kārakas + some edge cases). Master the semantic relationships and case endings become obvious consequences, not arbitrary memorisation. The game forces you to think semantically first, morphologically second — which is the correct order.
+The key insight it builds: Students memorise "dative = indirect object" and get confused by exceptions. Playing Kāraka Web 200 times you realise dative = sampradāna = the one toward whom the action is directed — and the "exceptions" aren't exceptions at all.
+Progression:
+
+Level 1: 2-node sentences, active voice
+Level 2: 3-4 nodes, introduce karaṇa (instrument)
+Level 3: passive voice (agent becomes ablative)
+Level 4: ambiguous kārakas (apādāna vs ablative of comparison)
+Level 5: real Gītā verses, full annotation
+
+
+3. Pratyaya Reactor
+The structure being internalised: Sanskrit word-formation is modular. Root + suffix + vowel grade + secondary suffix = any word in the language. The combinations are rule-governed and finite.
+Core mechanic: You're given components and must assemble them in the correct order with the correct phonological changes at each junction. Or given a word and must disassemble it into components.
+Assembly mode:
+ROOT: kṛ (to do)
+SUFFIX: -tra (instrument)
+GRADE: vṛddhi
+
+kṛ → [apply vṛddhi] → kār → [add -tra] → kārtra
+→ [internal sandhi] → kārtra ✓ (instrument of doing)
+Disassembly mode (harder):
+WORD: saṃskṛta
+→ sam + kṛ + ta (kṛt suffix) + [nasalisation]
+→ "completely done/prepared"
+Why it's the same engine: Word formation is also a tree — root at the bottom, affixes layering upward, phonological rules firing at each junction. Dhātu Dash explores one root's tree. Pratyaya Reactor explores how the tree is built — the construction process itself.
+What it builds that nothing else does: Students learn vocabulary as isolated items. Pratyaya Reactor makes you see every Sanskrit word as a transparent construction. After 300 rounds, you encounter a completely unknown Sanskrit word and can immediately parse it. This is what Sanskrit scholars mean by "the language is self-interpreting."
+Progression:
+
+Level 1: simple kṛt suffixes on class 1 roots (-a, -ana, -ta)
+Level 2: add primary nominal suffixes
+Level 3: taddhita (secondary derivation — words from words)
+Level 4: verbal prefixes (up to 22 possible, each changes meaning)
+Level 5: stack multiple operations — the full derivational chain
+Level 6: compound decomposition (samāsa as a further layer)
+
+
+4. Vākya Builder
+The structure being internalised: Sanskrit word order is free but not random. The sentence is generated from semantic intention → kāraka assignment → morphological realisation → phonological sandhi. Reversing this builds the same intuition from the output end.
+Core mechanic: You're given a meaning ("The teacher gives knowledge to the student with words") and a set of word-tokens. You must arrange them into a grammatically complete Sanskrit sentence. Multiple arrangements are valid — the game accepts all of them and shows which arrangement is most natural (based on DCS corpus frequency of that ordering).
+Then the reverse: a Sanskrit sentence appears, player must translate — but the translation must preserve the kāraka structure, not just produce acceptable English.
+Why it's different from the others: Dhātu Dash, Sandhi Forge, Pratyaya Reactor all operate below the sentence level. Vākya Builder is where everything comes together. It's the integration game — you need all the prior structures simultaneously.
+The generative angle: The LLM generates novel sentences grounded in retrieved grammar rules and real corpus vocabulary. Each sentence is unique but every component is verified:
+
+Verb form: validated against conjugation tables
+Nominal forms: validated against declension patterns
+Sandhi: validated against Pāṇini rules
+Vocabulary: all words in Monier-Williams
+
+So the learner never sees hallucinated Sanskrit. The infinite sentence supply comes from LLM surface generation over a corpus-validated grammar.
+Progression:
+
+Level 1: 3-word sentences, no sandhi
+Level 2: 4-5 words, simple vowel sandhi at junctions
+Level 3: introduce relative clauses (yad/tad correlation)
+Level 4: participial constructions (replace finite verbs)
+Level 5: translate real Hitopadeśa prose
+Level 6: compose within a given metre (Vākya Builder meets Metre Maker)
+
+
+5. Śabda Chain
+The structure being internalised: Sanskrit's semantic network — words are not isolated items but nodes in a web of derivational, etymological, and semantic relationships. The same root surfaces across dozens of unrelated-looking words.
+Core mechanic: A word appears. You must produce a word that shares either (a) the same root, (b) the same suffix, or (c) the same prefix — within 10 seconds. Your opponent does the same. The chain must keep moving. Break the chain or repeat a word → lose the round.
+karma → karman → kārman → saṃskāra → saṃkāra → kāra → kāraka → kārya → ...
+Each link in the chain must be justified: player states the connection ("same root kṛ" / "same suffix -ana" / "same prefix sam-"). LLM validates against corpus.
+Why this is the deepest game: It forces you to hold the entire Sanskrit lexical network in your head simultaneously. After playing this for a month, vocabulary acquisition becomes automatic — every new word you encounter, you immediately ask "what root is this from, what else comes from there." That question is the core habit of a fluent reader.
+The multiplayer dynamic: Unlike Sandhi Striker (competitive speed) or Vibhakti Volleys (competitive accuracy), Śabda Chain is cooperative-then-competitive. Two players build the chain together for 30 seconds (cooperative), then it becomes adversarial — you're trying to steer the chain into territory your opponent doesn't know.
+
+The unified game engine underneath all 5
+What you're actually building is one engine with 5 skins:
+CoreEngine {
+  // 1. Generate a challenge grounded in corpus
+  generate(userProfile, difficulty) → Challenge
+  
+  // 2. Accept player input
+  evaluate(input, challenge, corpus) → {correct, rule, explanation}
+  
+  // 3. Update profile
+  updateProfile(userProfile, result) → UserProfile
+  
+  // 4. Generate audio for any Sanskrit text
+  speak(text) → AudioBlob
+  
+  // 5. Show the rule that fired
+  explain(ruleId, corpus) → {Whitney, Pāṇini, example}
+}
+Every game is just a different UI over this engine. The corpus validation, the TTS, the profile update, the rule explanation — identical across all five. You build it once.
+The progression across games maps to the curriculum:
+GameChapter unlockedStructure trainedDhātu DashCh 5 (dhātus)Root → paradigmSandhi ForgeCh 4 (sandhi)Junction → outputPratyaya ReactorCh 6 (suffixes)Component → wordKāraka WebCh 7 (kārakas)Meaning → caseVākya BuilderCh 8+ (verbs+)Intention → sentenceŚabda ChainCh 9+ (any)Word → network

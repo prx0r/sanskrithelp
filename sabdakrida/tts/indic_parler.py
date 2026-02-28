@@ -1,29 +1,52 @@
 """
 Sanskrit TTS — indic-parler-tts wrapper with style prompts.
+
+Model expects Devanagari input for best results. IAST is converted automatically.
 """
 
 import asyncio
 import io
 import os
+import re
 import tempfile
 from functools import partial
 
 import numpy as np
 import soundfile as sf
+
+from indic_transliteration import sanscript
 import torch
 from transformers import AutoTokenizer
 
-# Aryan voice — best for Sanskrit recitation (indic-parler-tts speaker description format)
+_DEVANAGARI_RE = re.compile(r"[\u0900-\u097F]+")
+
+
+def _to_devanagari(text: str) -> str:
+    """Convert IAST to Devanagari. indic-parler-tts works best with Devanagari."""
+    text = text.strip()
+    if not text:
+        return text
+    if _DEVANAGARI_RE.search(text) and not re.search(r"[a-zA-Zāīūṛṝḷḹṃḥṭḍṇśṣ]", text):
+        return text  # Already Devanagari
+    try:
+        return sanscript.transliterate(text, sanscript.IAST, sanscript.DEVANAGARI)
+    except Exception:
+        return text  # Fallback: use as-is
+
+
+# Aryan voice — single consistent speaker for Sanskrit (indic-parler-tts speaker description)
 # See: https://huggingface.co/ai4bharat/indic-parler-tts
+# Use explicit male speaker + fixed traits to avoid voice switching across calls
 ARYAN_VOICE = (
-    "Aryan's voice is clear and measured, ideal for Sanskrit recitation, "
-    "with a very close recording that almost has no background noise."
+    "A male speaker named Aryan with a clear, measured voice. "
+    "Ideal for Sanskrit recitation. Very close recording, almost no background noise. "
+    "Consistent tone and timbre throughout."
 )
 
 STYLE_PROMPTS = {
-    "command": f"{ARYAN_VOICE} He speaks in a firm, authoritative tone.",
-    "praise": f"{ARYAN_VOICE} He speaks in a warm, encouraging tone.",
-    "narration": f"{ARYAN_VOICE} He speaks in a clear, measured pace for demonstration.",
+    "command": f"{ARYAN_VOICE} Firm, authoritative tone.",
+    "praise": f"{ARYAN_VOICE} Warm, encouraging tone.",
+    "narration": f"{ARYAN_VOICE} Clear, measured pace for demonstration.",
 }
 
 _model = None
@@ -52,15 +75,19 @@ def _synthesize_sync(text: str, style: str = "command", save: bool = False):
     description = STYLE_PROMPTS.get(style, STYLE_PROMPTS["narration"])
     device = next(model.parameters()).device
 
+    devanagari_text = _to_devanagari(text)
+
     desc_inputs = desc_tokenizer(description, return_tensors="pt").to(device)
-    prompt_inputs = tokenizer(text, return_tensors="pt").to(device)
+    prompt_inputs = tokenizer(devanagari_text, return_tensors="pt").to(device)
 
     with torch.no_grad():
+        # Deterministic generation for consistent voice (no random sampling)
         generation = model.generate(
             input_ids=desc_inputs.input_ids,
             attention_mask=desc_inputs.attention_mask,
             prompt_input_ids=prompt_inputs.input_ids,
             prompt_attention_mask=prompt_inputs.attention_mask,
+            do_sample=False,  # Greedy decode — same input = same voice output
         )
 
     audio_arr = generation.cpu().numpy().squeeze()
