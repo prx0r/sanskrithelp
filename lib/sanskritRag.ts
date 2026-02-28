@@ -49,42 +49,10 @@ export async function embedQuery(text: string): Promise<number[]> {
 }
 
 export async function retrieve(
-  query: string,
-  n = 5,
-  filter?: Record<string, string>
+  _query: string,
+  _n = 5,
+  _filter?: Record<string, string>
 ): Promise<SanskritChunk[]> {
-  const embedding = await embedQuery(query);
-  const { ChromaClient } = await import("chromadb");
-  const chromaUrl = process.env.CHROMA_URL ?? "http://localhost:8000";
-  const client = new ChromaClient({ path: chromaUrl });
-  let col;
-  try {
-    col = await client.getCollection({ name: "sanskrit" });
-  } catch (e) {
-    const msg = String(e);
-    if (msg.includes("UUID") || msg.includes("not a valid")) {
-      const cols = await client.listCollections();
-      col = cols.find((c) => (c as { name?: string }).name === "sanskrit");
-      if (!col) throw e;
-    } else {
-      throw e;
-    }
-  }
-  const where = filter ? (Object.keys(filter).length ? filter : undefined) : undefined;
-  const res = await col.query({
-    queryEmbeddings: [embedding],
-    nResults: n,
-    include: ["documents", "metadatas", "distances"],
-    where,
-  });
-  const docs = res.documents?.[0] ?? [];
-  const metas = res.metadatas?.[0] ?? [];
-  const dists = res.distances?.[0] ?? [];
-  return docs
-    .map((text, i) => ({
-      text: text ?? "",
-      meta: (metas[i] ?? {}) as SanskritChunk["meta"],
-      distance: dists[i] ?? undefined,
-    }))
-    .filter((c) => c.text.length > 0);
+  // Embeddings/Chroma disabled for now
+  return [];
 }
