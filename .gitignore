@@ -59,3 +59,8 @@ sanskrit_db/
 
 # Large XML dictionary data (exceeds 50MB)
 xml/
+
+# Games (excluded from deploy; kept locally only)
+app/games/
+components/games/
+components/games3d/
