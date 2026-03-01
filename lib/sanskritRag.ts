@@ -1,97 +1,48 @@
 /**
- * Sanskrit RAG — ChromaDB retrieval + Chutes Qwen3-Embedding-0.6B (1024 dims)
- * Requires: Chroma server running (chroma run --path ./sanskrit_db)
- * Env: CHUTES_API_KEY, CHROMA_URL (default http://localhost:8000)
+ * Sanskrit Q&A — direct Qwen3.5 via Chutes (no Chroma).
+ * Env: CHUTES_API_KEY
  */
 
-const EMBED_URL = "https://chutes-qwen-qwen3-embedding-0-6b.chutes.ai";
-const EMBED_MODEL = "Qwen/Qwen3-Embedding-0.6B";
-const QUERY_INSTRUCTION =
-  "Given a question about Sanskrit grammar, retrieve the most relevant rule or explanation";
+const CHUTES_CHAT_URL = "https://llm.chutes.ai/v1/chat/completions";
+const DEFAULT_MODEL = "Qwen/Qwen3.5-397B-A17B-TEE";
 
-export type SanskritChunk = {
-  text: string;
-  meta: Record<string, string | number>;
-  distance?: number;
-};
-
-export async function embedQuery(text: string): Promise<number[]> {
+export async function askSanskrit(
+  userContent: string,
+  options?: { systemPrompt?: string; model?: string }
+): Promise<string> {
   const apiKey = process.env.CHUTES_API_KEY ?? process.env.CHUTES_API_TOKEN;
-  if (!apiKey) throw new Error("CHUTES_API_KEY or CHUTES_API_TOKEN not configured");
-  const prefixed = `Instruct: ${QUERY_INSTRUCTION}\nQuery: ${text}`;
-  const payloads = [
-    { input: prefixed, model: null },
-    { input: [prefixed], model: EMBED_MODEL },
-    { input: [prefixed], model: null },
-  ];
-  let lastErr = "";
-  for (const payload of payloads) {
-    try {
-      const res = await fetch(`${EMBED_URL}/v1/embeddings`, {
-        method: "POST",
-        headers: {
-          Authorization: `Bearer ${apiKey}`,
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(payload),
-      });
-      if (res.ok) {
-        const data = (await res.json()) as { data?: Array<{ embedding: number[] }> };
-        const emb = data.data?.[0]?.embedding;
-        if (emb) return emb;
-      }
-      lastErr = await res.text();
-    } catch (_) {
-      continue;
-    }
+  if (!apiKey) throw new Error("CHUTES_API_KEY not configured");
+
+  const system =
+    options?.systemPrompt ??
+    `You are a Sanskrit grammar tutor grounded in Pāṇini's Aṣṭādhyāyī and Whitney's Sanskrit Grammar.
+Be concise. Cite sources when you know them (e.g. "Whitney §X", "Pāṇini 6.1.77").
+If you're unsure, say so. One paragraph unless a step-by-step derivation is requested.`;
+
+  const model = options?.model ?? process.env.RAG_MODEL ?? DEFAULT_MODEL;
+
+  const res = await fetch(CHUTES_CHAT_URL, {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${apiKey}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      model,
+      messages: [
+        { role: "system", content: system },
+        { role: "user", content: userContent },
+      ],
+      temperature: 0.1,
+      max_tokens: 700,
+    }),
+  });
+
+  if (!res.ok) {
+    const err = await res.text();
+    throw new Error(`Chutes chat failed: ${res.status} ${err}`);
   }
-  throw new Error(`Embedding failed: ${lastErr}`);
-}
 
-export async function retrieve(
-  query: string,
-  n = 5,
-  options?: { zone?: string; filter?: Record<string, string> }
-): Promise<SanskritChunk[]> {
-  const chromaUrl = process.env.CHROMA_URL || "http://localhost:8000";
-  const zone = options?.zone ?? options?.filter?.zone;
-
-  const embedding = await embedQuery(query);
-
-  try {
-    const { ChromaClient } = await import("chromadb");
-    const client = new ChromaClient({ path: chromaUrl });
-    const collection = await client.getCollection({ name: "sanskrit" });
-    const where = zone ? { zone } : undefined;
-    const results = await collection.query({
-      queryEmbeddings: [embedding],
-      nResults: n,
-      // @ts-expect-error chromadb IncludeEnum type mismatch; runtime accepts these
-      include: ["documents", "metadatas", "distances"],
-      ...(where && { where }),
-    });
-
-    const ids = results.ids?.[0] ?? [];
-    const documents = results.documents?.[0] ?? [];
-    const metadatas = results.metadatas?.[0] ?? [];
-    const distances = results.distances?.[0] ?? [];
-
-    return ids.map((_id: string, i: number) => ({
-      text: documents[i] ?? "",
-      meta: (metadatas[i] as Record<string, string | number>) ?? {},
-      distance: distances[i] as number | undefined,
-    }));
-  } catch (err) {
-    const msg = err instanceof Error ? err.message : String(err);
-    if (
-      msg.includes("fetch") ||
-      msg.includes("ECONNREFUSED") ||
-      msg.includes("Failed to fetch")
-    ) {
-      throw new Error(
-        "Chroma not reachable. Run: chroma run --path ./sanskrit_db"
-      );
-    }
-    throw err;
-  }
+  const data = (await res.json()) as { choices?: Array<{ message?: { content?: string } }> };
+  return data.choices?.[0]?.message?.content ?? "";
 }

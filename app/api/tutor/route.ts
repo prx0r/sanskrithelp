@@ -1,5 +1,4 @@
 import { NextResponse } from "next/server";
-import { retrieve } from "@/lib/sanskritRag";
 
 const CHUTES_CHAT_URL = "https://llm.chutes.ai/v1/chat/completions";
 // MiMo works; Qwen3.5-397B may return empty on Chutes. Override with TUTOR_MODEL if needed.
@@ -54,24 +53,8 @@ export async function POST(req: Request) {
       ? `\n\nCURRICULUM (teach in this order):\n1. Vowels: a, ā, i, ī, u, ū, ṛ, e, o, ai, au — start with अ (a)\n2. Stops: velar (ka, kha...), palatal (ca...), retroflex (ṭa...), dental (ta...), labial (pa...)\n3. Pratyāhāras, Sandhi, Dhātus\n\nLEARNER: Introduced: ${progress.topicsIntroduced?.join(", ") || "nothing"}. Mastered: ${progress.topicsMastered?.join(", ") || "nothing"}. Last: ${progress.lastTopic || "none"}\n`
       : "";
 
-    // RAG: retrieve zone-filtered context from Whitney/grammar index
-    let ragContext = "";
-    const lastUserMsg = Array.isArray(messages) ? [...messages].reverse().find((m) => m?.role === "user") : null;
-    const queryText = typeof lastUserMsg?.content === "string" ? lastUserMsg.content : "";
-    if (queryText.trim()) {
-      try {
-        const chunks = await retrieve(queryText, 4, zone ? { zone } : undefined);
-        if (chunks.length > 0) {
-          ragContext = "\n\nRELEVANT PASSAGES (use these; cite Whitney §X or source):\n" +
-            chunks.map((c) => `[${String(c.meta.source ?? "?").toUpperCase()} ${c.meta.ref ?? ""}]\n${c.text}`).join("\n\n");
-        }
-      } catch (_) {
-        // Chroma down or no index — continue without RAG
-      }
-    }
-
     const chatMessages = [
-      { role: "system" as const, content: SYSTEM_BASE + languageInstruction + progressContext + ragContext },
+      { role: "system" as const, content: SYSTEM_BASE + languageInstruction + progressContext },
       ...(Array.isArray(messages) ? messages : []),
     ];
 
