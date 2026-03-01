@@ -14,6 +14,10 @@ dist/
 
 # Production
 .vercel/
+.open-next/
+
+# Cloudflare (local secrets)
+.dev.vars
 .env
 .env.local
 .env.development.local
