@@ -8,14 +8,10 @@ In **Cloudflare Dashboard** → **Workers & Pages** → your project → **Setti
 
 | Setting | Value |
 |---------|-------|
-| **Build command** | `bash scripts/cloudflare-build.sh` |
+| **Build command** | `npx opennextjs-cloudflare build` |
 | **Deploy command** | `npx wrangler deploy` |
 
-Or alternatively:
-- **Build command:** `npx opennextjs-cloudflare build`
-- **Deploy command:** `npx wrangler deploy`
-
-**Important:** If your Cloudflare project has "Build command" set to `next build` or `npm run build` and it's still running `next build`, the framework preset may be overriding it. Change it explicitly to one of the values above.
+**Critical:** Do NOT use `npm run build` as the build command. That runs `next build` only and produces `.next` — but the deploy needs `.open-next` which OpenNext creates. Use `npx opennextjs-cloudflare build` directly so OpenNext runs `next build` internally and then transforms the output.
 
 ## Environment Variables
 
