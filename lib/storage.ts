@@ -9,8 +9,8 @@ const STORAGE_KEYS = {
 } as const;
 
 export type DrillLevelKey = "hear:easy" | "hear:medium" | "hear:hard"
-  | "see-say:easy" | "see-say:medium" | "see-say:hard"
-  | "hear-say:easy" | "hear-say:medium" | "hear-say:hard"
+  | "say:easy" | "say:medium" | "say:hard"
+  | "draw:easy" | "draw:medium" | "draw:hard"
   | "combined";
 
 export function getDrillLevelProgress(): Record<DrillLevelKey, boolean> {

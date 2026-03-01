@@ -66,18 +66,19 @@ def assess_grammar_production(
     user_answer: str,
     spec: dict[str, Any],
     context: dict[str, Any] | None = None,
-) -> tuple[bool, str]:
+) -> tuple[bool, str, dict[str, Any]]:
     """
     Assess grammar production. Deterministic.
-    Returns (passed, feedback_message).
+    Returns (passed, feedback_message, meta).
     """
+    meta: dict[str, Any] = {}
     criteria = spec.get("pass_criteria", {}).get("production")
     if not criteria:
-        return True, ""
+        return True, "", meta
 
     answer = _normalize_iast(user_answer)
     if not answer:
-        return False, "No answer provided."
+        return False, "No answer provided.", meta
 
     root_forms = _build_root_forms()
 
@@ -85,13 +86,13 @@ def assess_grammar_production(
     if "correct_root_for_gacchati" in criteria:
         # gacchati comes from √gam
         if answer in ("gam", "ga", "gama"):
-            return True, "Correct. गच्छति derives from √गम् (gam)."
-        return False, f"गच्छति (gacchati) comes from the root √गम् (gam), not {user_answer}."
+            return True, "Correct. गच्छति derives from √गम् (gam).", meta
+        return False, f"गच्छति (gacchati) comes from the root √गम् (gam), not {user_answer}.", meta
 
     if "gacchati" in criteria:
         if answer == "gacchati":
-            return True, "Correct."
-        return False, f"The present 3rd person singular of √गम् is गच्छति (gacchati). You wrote: {user_answer}."
+            return True, "Correct.", meta
+        return False, f"The present 3rd person singular of √गम् is गच्छति (gacchati). You wrote: {user_answer}.", meta
 
     if "produces_3_valid_forms" in criteria or "produces_5_valid_forms" in criteria:
         min_forms = 5 if "produces_5_valid_forms" in criteria else 3
@@ -105,7 +106,7 @@ def assess_grammar_production(
         parts = [p.strip() for p in answer.replace(",", " ").replace("\n", " ").split() if p.strip()]
         found = sum(1 for p in parts if _normalize_iast(p) in valid)
         if found >= min_forms:
-            return True, f"Correct. You produced {found} valid form(s)."
-        return False, f"You produced {found} valid form(s). Need at least {min_forms}. Valid forms for √{root_hint} include: {', '.join(sorted(valid)[:8])}..."
+            return True, f"Correct. You produced {found} valid form(s).", meta
+        return False, f"You produced {found} valid form(s). Need at least {min_forms}. Valid forms for √{root_hint} include: {', '.join(sorted(valid)[:8])}...", meta
 
-    return False, "Assessment criteria not implemented for this production check."
+    return False, "Assessment criteria not implemented for this production check.", meta

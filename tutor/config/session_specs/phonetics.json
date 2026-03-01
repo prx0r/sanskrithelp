@@ -6,10 +6,7 @@
       "level": 1,
       "objectives": ["Name the five places of articulation", "Give one example from each"],
       "pass_criteria": {
-        "conceptual": [
-          "mentions at least 3 places (velar, palatal, dental, labial, etc.)",
-          "gives at least one consonant example"
-        ],
+        "conceptual": ["mentions at least 3 places (velar, palatal, dental, labial, etc.)", "gives at least one consonant example"],
         "production": null,
         "pronunciation": null
       },
@@ -17,6 +14,16 @@
       "format": "chat",
       "max_duration_minutes": 15,
       "remedial_on_fail": { "prerequisite_zones": [], "retry_variant": "level_1_v2" }
+    },
+    {
+      "level": 2,
+      "objectives": ["Pronounce अ (a) correctly"],
+      "pass_criteria": { "conceptual": null, "production": null, "pronunciation": true },
+      "assessment_type": "production",
+      "target_text": "अ",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "remedial_on_fail": { "prerequisite_zones": [], "retry_variant": "level_2_v2" }
     }
   ]
 }

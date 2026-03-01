@@ -30,6 +30,7 @@ python -m uvicorn sabdakrida.main:app --reload --host 127.0.0.1 --port 8010
 | Endpoint | Method | Description |
 |----------|--------|-------------|
 | `/session/mode1` | POST | Upload audio + target_text + user_id → pronunciation assessment + base64 WAV feedback |
+| `/draw/recognize` | POST | Upload drawn Devanagari image → { predicted, score }. Requires tensorflow + Pillow. |
 | `/profile/{user_id}/drills` | GET | Prioritised drill words based on weakness profile |
 | `/tts` | POST | Speak Sanskrit text (text, style) |
 

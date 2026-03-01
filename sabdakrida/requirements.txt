@@ -26,6 +26,10 @@ fastapi>=0.109.0
 uvicorn[standard]>=0.27.0
 python-multipart>=0.0.6
 
+# Optional for Draw mode (handwriting recognition)
+# tensorflow>=2.15.0
+# Pillow>=10.0.0
+
 # Optional for Mode 2 (IndicMFA - conda install separately)
 # conda install -c conda-forge montreal-forced-aligner
 

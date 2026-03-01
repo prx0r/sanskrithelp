@@ -17,8 +17,8 @@ const notoDevanagari = Noto_Sans_Devanagari({
 });
 
 export const metadata: Metadata = {
-  title: "Pāṇini — Sanskrit Grammar Engine",
-  description: "Learn Sanskrit through Pāṇini's own formal system",
+  title: "Sanskrit — Learn & Practice",
+  description: "Learn Sanskrit grammar, pronunciation, and more",
   manifest: "/manifest.json",
 };
 

@@ -94,6 +94,34 @@ class FeedbackAudioBody(BaseModel):
     style: str = "command"
 
 
+@app.post("/draw/recognize")
+async def draw_recognize(image: UploadFile = File(...)):
+    """Recognize hand-drawn Devanagari. Returns { predicted, score }.
+    Requires TensorFlow + model. Returns 501 if not implemented."""
+    from fastapi.responses import JSONResponse
+    try:
+        from sabdakrida.draw.recognize import recognize_devanagari
+    except ImportError:
+        return JSONResponse(
+            {"error": "Draw recognition not installed (tensorflow + model)", "predicted": None},
+            status_code=501,
+        )
+    data = await image.read()
+    try:
+        result = recognize_devanagari(data)
+    except ImportError:
+        return JSONResponse(
+            {"error": "Draw recognition requires tensorflow, numpy, Pillow", "predicted": None},
+            status_code=501,
+        )
+    if result:
+        return {"predicted": result["predicted"], "score": result.get("score")}
+    return JSONResponse(
+        {"error": "Recognition failed", "predicted": None},
+        status_code=500,
+    )
+
+
 @app.post("/feedback-audio")
 async def feedback_audio(body: FeedbackAudioBody):
     """Fetch feedback TTS. Called after assessment so result returns fast (Whisper-only)."""

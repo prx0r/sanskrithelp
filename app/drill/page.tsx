@@ -20,7 +20,10 @@ import {
   getMixedOptions,
   getSameGroupRomanOptions,
 } from "@/lib/drillUtils";
-import { Volume2, Loader2, Ear, Mic, Sparkles } from "lucide-react";
+import { blobToWavBlob } from "@/lib/audioUtils";
+import { matchByPixels } from "@/lib/drawRecognize";
+import { DrawCanvas, type DrawCanvasHandle } from "@/components/DrawCanvas";
+import { Volume2, Loader2, Ear, Mic, Pencil, Sparkles, CheckCircle, XCircle, ChevronDown } from "lucide-react";
 import type { Phoneme, DrillMode } from "@/lib/types";
 
 const phonemes = phonemesData as Phoneme[];
@@ -28,8 +31,8 @@ const USER_ID = "local";
 
 const GROUPS = [
   { id: "hear", label: "Hear", icon: Ear },
-  { id: "see-say", label: "See → Say", icon: Mic },
-  { id: "hear-say", label: "Hear → Say", icon: Volume2 },
+  { id: "say", label: "Say", icon: Mic },
+  { id: "draw", label: "Draw", icon: Pencil },
 ] as const;
 
 const DIFFICULTIES = [
@@ -87,7 +90,7 @@ function getNeedScoreCombined(
   phoneme: Phoneme,
   cardStates: Record<string, { difficulty?: number; stability?: number; lapses?: number }>
 ): number {
-  const modes = ["hear:easy", "hear:medium", "hear:hard", "see-say:easy", "see-say:medium", "see-say:hard", "hear-say:easy", "hear-say:medium", "hear-say:hard"];
+  const modes: DrillLevelKey[] = ["hear:easy", "hear:medium", "hear:hard", "say:easy", "say:medium", "say:hard", "draw:easy", "draw:medium", "draw:hard"];
   return Math.max(...modes.map((m) => getNeedScore(phoneme, m, cardStates)));
 }
 
@@ -118,7 +121,13 @@ export default function DrillPage() {
   const [options, setOptions] = useState<Phoneme[]>([]);
   const [recording, setRecording] = useState(false);
   const [hasRecorded, setHasRecorded] = useState(false);
+  const [assessing, setAssessing] = useState(false);
+  const [sayResult, setSayResult] = useState<{ correct: boolean; heard?: string; heard_iast?: string; feedback_english?: string; score?: number } | null>(null);
+  const [drawFlashShown, setDrawFlashShown] = useState(false);
+  const [drawHasDrawn, setDrawHasDrawn] = useState(false);
+  const [drawResult, setDrawResult] = useState<{ predicted: string | null; correct: boolean; error?: string } | null>(null);
   const [refreshKey, setRefreshKey] = useState(0);
+  const drawCanvasRef = useRef<DrawCanvasHandle>(null);
   const mediaRecorderRef = useRef<MediaRecorder | null>(null);
   const streamRef = useRef<MediaStream | null>(null);
   const chunksRef = useRef<Blob[]>([]);
@@ -147,6 +156,18 @@ export default function DrillPage() {
 
   const [combinedLevels, setCombinedLevels] = useState<DrillLevelKey[]>([]);
   const [showLevelPicker, setShowLevelPicker] = useState(true);
+  const [openDropdown, setOpenDropdown] = useState<"hear" | "say" | "draw" | null>(null);
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleClickOutside = (e: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
+        setOpenDropdown(null);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
 
   useEffect(() => {
     if (
@@ -160,6 +181,8 @@ export default function DrillPage() {
       setChoice(null);
       setOptions([]);
       setHasRecorded(false);
+      setSayResult(null);
+      setDrawFlashShown(false);
     }
   }, [showLevelPicker, duePhonemes, sessionDeck.length, mode, cardStates]);
 
@@ -172,8 +195,8 @@ export default function DrillPage() {
     ) {
       const levels: DrillLevelKey[] = [
         "hear:easy", "hear:medium", "hear:hard",
-        "see-say:easy", "see-say:medium", "see-say:hard",
-        "hear-say:easy", "hear-say:medium", "hear-say:hard",
+        "say:easy", "say:medium", "say:hard",
+        "draw:easy", "draw:medium", "draw:hard",
       ];
       const deck = buildWeightedDeck(duePhonemes, cardStates, mode);
       const levs = deck.map(
@@ -200,22 +223,26 @@ export default function DrillPage() {
       ? effDiff === "medium"
         ? 2
         : 4
-      : effGroup === "see-say" && effDiff === "medium"
-        ? 4
-        : 0;
+      : effGroup === "say"
+        ? effDiff === "easy"
+          ? 0
+          : effDiff === "medium"
+            ? 2
+            : 4
+        : effGroup === "draw"
+          ? 4
+          : 0;
 
   useEffect(() => {
     if (!currentPhoneme) return;
     if (effGroup === "hear" && optionCount > 0 && options.length === 0 && !choice) {
       setOptions(getMixedOptions(currentPhoneme, phonemes, optionCount));
     }
-    if (
-      effGroup === "see-say" &&
-      effDiff === "medium" &&
-      options.length === 0 &&
-      !choice
-    ) {
-      setOptions(getSameGroupRomanOptions(currentPhoneme, phonemes, 4));
+    if (effGroup === "say" && optionCount > 0 && options.length === 0 && !choice) {
+      setOptions(getSameGroupRomanOptions(currentPhoneme, phonemes, optionCount));
+    }
+    if (effGroup === "draw" && options.length === 0 && !choice) {
+      setOptions(getMixedOptions(currentPhoneme, phonemes, 4));
     }
   }, [
     effGroup,
@@ -226,9 +253,10 @@ export default function DrillPage() {
     choice,
   ]);
 
-  /** Autoplay when a new card is shown. */
+  /** Autoplay when a new card is shown (hear, draw). */
   useEffect(() => {
     if (!currentPhoneme || showLevelPicker) return;
+    if (effGroup !== "hear" && effGroup !== "draw") return;
     const play = async () => {
       setListenPlaying(true);
       try {
@@ -237,23 +265,21 @@ export default function DrillPage() {
         if (effGroup === "hear" && optionCount > 0) {
           setOptions(getMixedOptions(currentPhoneme, phonemes, optionCount));
         }
-        if (effGroup === "see-say" && effDiff === "medium") {
-          setOptions(getSameGroupRomanOptions(currentPhoneme, phonemes, 4));
+        if (effGroup === "draw") {
+          setOptions(getMixedOptions(currentPhoneme, phonemes, 4));
         }
       } finally {
         setListenPlaying(false);
       }
     };
     play();
-  }, [currentPhoneme?.id, showLevelPicker]);
+  }, [currentPhoneme?.id, showLevelPicker, effGroup, optionCount]);
 
   /** Autoplay when answer is revealed (back of card). */
   const hearBack = effGroup === "hear" && choice !== null;
-  const seeSayBack =
-    effGroup === "see-say" &&
-    (effDiff === "medium" ? choice !== null && hasRecorded : hasRecorded);
-  const hearSayBack = effGroup === "hear-say" && listenPlayed && hasRecorded;
-  const showingBack = hearBack || seeSayBack || hearSayBack;
+  const sayBack = effGroup === "say" && hasRecorded && sayResult !== null && (effDiff === "easy" || choice !== null);
+  const drawBack = effGroup === "draw" && choice !== null;
+  const showingBack = hearBack || sayBack || drawBack;
   useEffect(() => {
     if (!currentPhoneme || !showingBack) return;
     playPhonemeAudio(currentPhoneme).catch(() => {});
@@ -277,6 +303,10 @@ export default function DrillPage() {
     setChoice(null);
     setOptions([]);
     setHasRecorded(false);
+    setSayResult(null);
+    setDrawFlashShown(false);
+    setDrawResult(null);
+    drawCanvasRef.current?.clear();
 
     if (nextDeck.length === 0) {
       markDrillLevelCompleted(mode as DrillLevelKey);
@@ -302,30 +332,91 @@ export default function DrillPage() {
       await playPhonemeAudio(currentPhoneme);
       setListenPlayed(true);
       if (effGroup === "hear" && optionCount > 0) {
-        setOptions(
-          getMixedOptions(currentPhoneme, phonemes, optionCount)
-        );
+        setOptions(getMixedOptions(currentPhoneme, phonemes, optionCount));
       }
-      if (effGroup === "see-say" && effDiff === "medium") {
-        setOptions(getSameGroupRomanOptions(currentPhoneme, phonemes, 4));
+      if (effGroup === "draw") {
+        setOptions(getMixedOptions(currentPhoneme, phonemes, 4));
       }
     } finally {
       setListenPlaying(false);
     }
   }, [currentPhoneme, listenPlaying, effGroup, effDiff, optionCount]);
 
+  /** Draw medium: show correct answer for 2 sec then hide. */
+  useEffect(() => {
+    if (effGroup !== "draw" || effDiff !== "medium" || !listenPlayed || !currentPhoneme) return;
+    setDrawFlashShown(false);
+    const t = setTimeout(() => setDrawFlashShown(true), 2000);
+    return () => clearTimeout(t);
+  }, [effGroup, effDiff, listenPlayed, currentPhoneme?.id]);
+
   const handleChoice = useCallback((p: Phoneme) => setChoice(p), []);
 
-  const handleRecord = useCallback(() => {
+  const handleDrawCheck = useCallback(() => {
+    if (!currentPhoneme || !drawHasDrawn) return;
+    const canvas = drawCanvasRef.current?.getCanvas();
+    if (!canvas || options.length === 0) return;
+    setAssessing(true);
+    setDrawResult(null);
+    requestAnimationFrame(() => {
+      try {
+        const matched = matchByPixels(canvas, options.map((p) => ({ devanagari: p.devanagari, id: p.id })));
+        const predicted = matched?.devanagari ?? null;
+        const correct = predicted === currentPhoneme.devanagari;
+        setDrawResult({
+          predicted,
+          correct,
+          error: !matched ? "Draw more clearly and try again." : undefined,
+        });
+      } catch {
+        setDrawResult({ predicted: null, correct: false, error: "Recognition failed" });
+      } finally {
+        setAssessing(false);
+      }
+    });
+  }, [currentPhoneme, drawHasDrawn, options]);
+
+  const handleRecord = useCallback(async () => {
     if (recording) {
       const mr = mediaRecorderRef.current;
       if (!mr || mr.state !== "recording") return;
-      mr.onstop = () => {
+      mr.onstop = async () => {
         streamRef.current?.getTracks().forEach((t) => t.stop());
         streamRef.current = null;
+        const blob = new Blob(chunksRef.current, { type: mr.mimeType });
+        chunksRef.current = [];
         mediaRecorderRef.current = null;
         setRecording(false);
         setHasRecorded(true);
+
+        if (effGroup === "say" && currentPhoneme) {
+          setAssessing(true);
+          setSayResult(null);
+          try {
+            const wavBlob = await blobToWavBlob(blob);
+            const form = new FormData();
+            form.append("audio", wavBlob, "recording.wav");
+            form.append("target_text", currentPhoneme.iast);
+            form.append("user_id", "local");
+            const res = await fetch("/api/sabdakrida/session", { method: "POST", body: form });
+            const data = await res.json();
+            if (res.ok) {
+              setSayResult({
+                correct: data.correct ?? false,
+                heard: data.heard,
+                heard_iast: data.heard_iast ?? data.heard,
+                feedback_english: data.feedback_english,
+                score: data.score,
+              });
+            } else {
+              setSayResult({ correct: false, heard: data?.error ?? "Assessment failed" });
+            }
+          } catch {
+            setSayResult({ correct: false, heard: "Backend unavailable. Run Sabdakrida on port 8010." });
+          } finally {
+            setAssessing(false);
+          }
+        }
       };
       mr.stop();
       return;
@@ -344,7 +435,7 @@ export default function DrillPage() {
         setRecording(true);
       })
       .catch(() => {});
-  }, [recording]);
+  }, [recording, effGroup, currentPhoneme]);
 
   const handleLevelSelect = useCallback((key: DrillLevelKey) => {
     if (key === "combined" && !isDrillLevelUnlocked("combined")) return;
@@ -356,11 +447,11 @@ export default function DrillPage() {
   }, []);
 
   const getPickerDifficultyStyles = (key: DrillLevelKey) => {
-    if (key === "combined") return "bg-amber-500/25 text-amber-700 dark:text-amber-400 hover:bg-amber-500/35 border border-amber-500/40";
+    if (key === "combined") return "bg-violet-500/20 text-violet-700 dark:text-violet-400 hover:bg-violet-500/30 border border-violet-500/40";
     const diff = key.split(":")[1];
-    if (diff === "easy") return "drill-easy hover:bg-amber-500/35";
-    if (diff === "medium") return "drill-medium hover:bg-slate-400/35";
-    if (diff === "hard") return "drill-hard hover:bg-rose-900/35";
+    if (diff === "easy") return "drill-easy";
+    if (diff === "medium") return "drill-medium";
+    if (diff === "hard") return "drill-hard";
     return "bg-muted";
   };
 
@@ -395,64 +486,67 @@ export default function DrillPage() {
         )}
 
         <p className="text-sm text-muted-foreground">
-          Or choose a group and difficulty: <span className="text-amber-500 dark:text-amber-500/90">●</span> Easy · <span className="text-slate-400">○</span> Medium · <span className="text-rose-400">◆</span> Hard
+          Or choose a mode and level:
           {duePhonemes.length === 0 && selectedLevel && mode !== "combined" && (
-            <span className="block mt-2 text-amber-500/90">No cards due for current level.</span>
+            <span className="block mt-2 text-muted-foreground">No cards due for current level.</span>
           )}
         </p>
 
-        <div className="space-y-6">
+        <div className="flex flex-wrap gap-2 items-center" ref={dropdownRef}>
           {GROUPS.map((g) => (
-            <div key={g.id} className="space-y-2">
-              <div className="flex items-center gap-2 font-medium">
+            <div key={g.id} className="relative">
+              <button
+                type="button"
+                onClick={() => setOpenDropdown(openDropdown === g.id ? null : g.id)}
+                className="flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium touch-target border bg-muted hover:bg-muted/80"
+              >
                 <g.icon className="w-4 h-4" />
                 {g.label}
-              </div>
-              <div className="flex flex-wrap gap-2">
-                {DIFFICULTIES.map((d) => {
-                  const key = `${g.id}:${d.id}` as DrillLevelKey;
-                  const unlocked = isDrillLevelUnlocked(key);
-                  return (
-                    <button
-                      key={key}
-                      onClick={() => {
-                        if (unlocked) {
-                          setSelectedLevel(key);
-                          setSessionDeck([]);
-                          setShowLevelPicker(false);
-                        }
-                      }}
-                      disabled={!unlocked}
-                      className={`flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium touch-target border ${
-                        unlocked ? getPickerDifficultyStyles(key) : "bg-muted/50 text-muted-foreground cursor-not-allowed"
-                      }`}
-                    >
-                      {unlocked && <span className="w-1.5 h-1.5 rounded-full bg-current/70" />}
-                      {d.id === "easy" ? "●" : d.id === "medium" ? "○" : "◆"}
-                    </button>
-                  );
-                })}
-              </div>
+                <ChevronDown className={`w-4 h-4 transition-transform ${openDropdown === g.id ? "rotate-180" : ""}`} />
+              </button>
+              {openDropdown === g.id && (
+                <div className="absolute top-full left-0 mt-1 py-1 rounded-lg border border-border bg-card shadow-lg z-10 min-w-[120px]">
+                  {DIFFICULTIES.map((d) => {
+                    const key = `${g.id}:${d.id}` as DrillLevelKey;
+                    const unlocked = isDrillLevelUnlocked(key);
+                    return (
+                      <button
+                        key={key}
+                        type="button"
+                        onClick={() => {
+                          if (unlocked) {
+                            setSelectedLevel(key);
+                            setSessionDeck([]);
+                            setShowLevelPicker(false);
+                            setOpenDropdown(null);
+                          }
+                        }}
+                        disabled={!unlocked}
+                        className={`w-full text-left px-3 py-2 text-sm rounded-md ${
+                          unlocked ? "hover:bg-muted/80" : "opacity-50 cursor-not-allowed"
+                        }`}
+                      >
+                        {d.label}
+                      </button>
+                    );
+                  })}
+                </div>
+              )}
             </div>
           ))}
-
-          <div className="space-y-2 pt-4 border-t border-border">
-            <div className="flex items-center gap-2 font-medium">
-              <Sparkles className="w-4 h-4" />
-              Combined
-            </div>
-            <button
-              onClick={() => {
-                setSelectedLevel("combined");
-                setSessionDeck([]);
-                setCombinedLevels([]);
-                setShowLevelPicker(false);
-              }}
-              className="flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium touch-target bg-amber-500/25 text-amber-700 dark:text-amber-400 hover:bg-amber-500/35 border border-amber-500/40"
-            >
-              All modes mixed
-            </button>
-          </div>
+          <button
+            type="button"
+            onClick={() => {
+              setSelectedLevel("combined");
+              setSessionDeck([]);
+              setCombinedLevels([]);
+              setShowLevelPicker(false);
+            }}
+            className="flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium touch-target bg-violet-500/20 text-violet-700 dark:text-violet-400 hover:bg-violet-500/30 border border-violet-500/40"
+          >
+            <Sparkles className="w-4 h-4" />
+            Combined
+          </button>
         </div>
       </div>
     );
@@ -466,20 +560,21 @@ export default function DrillPage() {
     listenPlayed &&
     options.length > 0 &&
     !choice;
-  const showSeeSayRomanPick =
-    effGroup === "see-say" && effDiff === "medium" && !choice;
-  const showSeeSayRecord =
-    effGroup === "see-say" &&
-    (effDiff !== "medium" || choice !== null) &&
+  const showSayRomanPick = effGroup === "say" && optionCount > 0 && !choice;
+  const showSayRecord =
+    effGroup === "say" &&
+    (effDiff === "easy" || choice !== null) &&
     !hasRecorded;
-  const showSeeSayRevealFinal =
-    effGroup === "see-say" &&
-    (effDiff === "medium" ? choice !== null && hasRecorded : hasRecorded);
-  const showHearSayReveal =
-    effGroup === "hear-say" && listenPlayed && hasRecorded;
+  const showSayReveal = effGroup === "say" && hasRecorded && sayResult !== null && (effDiff === "easy" || choice !== null);
+  const showDrawOptions =
+    effGroup === "draw" &&
+    listenPlayed &&
+    options.length > 0 &&
+    (effDiff !== "medium" || drawFlashShown);
+  const showDrawReveal = effGroup === "draw" && drawResult !== null;
 
   const getDifficultyStyles = (key: DrillLevelKey, isActive: boolean) => {
-    if (key === "combined") return isActive ? "bg-amber-500/25 text-amber-700 dark:text-amber-400 border border-amber-500/50" : "bg-muted hover:bg-muted/80";
+    if (key === "combined") return isActive ? "bg-violet-500/25 text-violet-700 dark:text-violet-400 border border-violet-500/50" : "bg-muted hover:bg-muted/80";
     const diff = key.split(":")[1];
     if (diff === "easy") return isActive ? "drill-easy-active border" : "drill-easy border";
     if (diff === "medium") return isActive ? "drill-medium-active border" : "drill-medium border";
@@ -487,39 +582,71 @@ export default function DrillPage() {
     return "bg-muted";
   };
 
-  const LEVEL_BUTTONS: { key: DrillLevelKey; icon: React.ReactNode; label: string; diff?: string }[] = [
-    ...GROUPS.flatMap((g) =>
-      DIFFICULTIES.map((d) => ({
-        key: `${g.id}:${d.id}` as DrillLevelKey,
-        icon: g.id === "hear" ? <Ear className="w-4 h-4" /> : g.id === "see-say" ? <Mic className="w-4 h-4" /> : <Volume2 className="w-4 h-4" />,
-        label: g.label,
-        diff: d.id,
-      }))
-    ),
-    { key: "combined", icon: <Sparkles className="w-4 h-4" />, label: "Combined" },
-  ];
+  const ModeButton = ({ groupId, label, icon }: { groupId: "hear" | "say" | "draw"; label: string; icon: React.ReactNode }) => {
+    const isOpen = openDropdown === groupId;
+    const isActive = mode !== "combined" && effGroup === groupId;
+    return (
+      <div className="relative">
+        <button
+            type="button"
+            onClick={() => setOpenDropdown(isOpen ? null : groupId)}
+            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium touch-target border ${
+              isActive ? (effDiff === "easy" ? "drill-easy-active" : effDiff === "medium" ? "drill-medium-active" : "drill-hard-active") : "bg-muted hover:bg-muted/80"
+            }`}
+          >
+            {icon}
+            {label}
+            <ChevronDown className={`w-4 h-4 transition-transform ${isOpen ? "rotate-180" : ""}`} />
+          </button>
+          {isOpen && (
+            <div className="absolute top-full left-0 mt-1 py-1 rounded-lg border border-border bg-card shadow-lg z-10 min-w-[120px]">
+              {DIFFICULTIES.map((d) => {
+                const key = `${groupId}:${d.id}` as DrillLevelKey;
+                const unlocked = isDrillLevelUnlocked(key);
+                const active = mode === key;
+                return (
+                  <button
+                    key={key}
+                    type="button"
+                    onClick={() => {
+                      if (unlocked) {
+                        handleLevelSelect(key);
+                        setOpenDropdown(null);
+                      }
+                    }}
+                    disabled={!unlocked}
+                    className={`w-full text-left px-3 py-2 text-sm flex items-center gap-2 ${
+                      active ? "bg-primary/15 font-medium" : "hover:bg-muted/80"
+                    } ${!unlocked ? "opacity-50 cursor-not-allowed" : ""}`}
+                  >
+                    {d.label}
+                  </button>
+                );
+              })}
+            </div>
+          )}
+      </div>
+    );
+  };
 
   return (
     <div className="space-y-8">
       <div className="flex flex-wrap items-center justify-between gap-4">
         <h1 className="text-2xl font-bold">Pronunciation Drill</h1>
-        <div className="flex flex-wrap gap-2">
-          {LEVEL_BUTTONS.map(({ key, icon, label, diff }) => {
-            const unlocked = isDrillLevelUnlocked(key);
-            const isActive = mode === key;
-            return (
-              <button
-                key={key}
-                onClick={() => unlocked && handleLevelSelect(key)}
-                disabled={!unlocked}
-                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium touch-target ${getDifficultyStyles(key, isActive)}`}
-              >
-                {icon}
-                {label}
-                {diff && <span className="w-1.5 h-1.5 rounded-full bg-current/60" aria-label={diff} />}
-              </button>
-            );
-          })}
+        <div className="flex flex-wrap gap-2 items-center" ref={dropdownRef}>
+          <ModeButton groupId="hear" label="Hear" icon={<Ear className="w-4 h-4" />} />
+          <ModeButton groupId="say" label="Say" icon={<Mic className="w-4 h-4" />} />
+          <ModeButton groupId="draw" label="Draw" icon={<Pencil className="w-4 h-4" />} />
+          <button
+            type="button"
+            onClick={() => handleLevelSelect("combined")}
+            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium touch-target ${
+              mode === "combined" ? "bg-violet-500/25 text-violet-700 dark:text-violet-400 border border-violet-500/50" : "bg-muted hover:bg-muted/80 border border-transparent"
+            }`}
+          >
+            <Sparkles className="w-4 h-4" />
+            Combined
+          </button>
         </div>
       </div>
 
@@ -540,7 +667,7 @@ export default function DrillPage() {
               <button
                 onClick={handlePlay}
                 disabled={listenPlaying}
-                className="flex items-center gap-2 mx-auto px-6 py-4 rounded-xl bg-amber-500/20 text-amber-700 dark:text-amber-400 hover:bg-amber-500/30 disabled:opacity-70"
+                className="flex items-center gap-2 mx-auto px-6 py-4 rounded-xl bg-teal-500/20 text-teal-700 dark:text-teal-400 hover:bg-teal-500/30 disabled:opacity-70"
               >
                 {listenPlaying ? (
                   <Loader2 className="w-6 h-6 animate-spin" />
@@ -558,6 +685,9 @@ export default function DrillPage() {
                       className="flex flex-col items-center justify-center gap-1 py-4 px-3 rounded-xl border-2 border-border hover:border-primary bg-card touch-target"
                     >
                       <span className="text-4xl font-bold">{p.devanagari}</span>
+                      {effDiff === "easy" && (
+                        <span className="font-mono text-sm text-muted-foreground">{p.iast}</span>
+                      )}
                     </button>
                   ))}
                 </div>
@@ -576,7 +706,7 @@ export default function DrillPage() {
                 <button
                   onClick={() => handlePlay()}
                   disabled={listenPlaying}
-                  className="flex items-center gap-2 mx-auto px-4 py-2 rounded-lg bg-amber-500/20 text-amber-700 dark:text-amber-400 hover:bg-amber-500/30 disabled:opacity-70"
+                  className="flex items-center gap-2 mx-auto px-4 py-2 rounded-lg bg-teal-500/20 text-teal-700 dark:text-teal-400 hover:bg-teal-500/30 disabled:opacity-70"
                 >
                   {listenPlaying ? (
                     <Loader2 className="w-5 h-5 animate-spin" />
@@ -601,25 +731,24 @@ export default function DrillPage() {
         />
       )}
 
-      {/* SEE-SAY */}
-      {effGroup === "see-say" && (
+      {/* SAY */}
+      {effGroup === "say" && (
         <DrillCard
-          flipped={showSeeSayRevealFinal}
+          flipped={showSayReveal}
           hideRevealButton
           front={
             <div className="text-center space-y-4">
               <p className="text-muted-foreground text-sm">
-                {effDiff === "easy" && "See the symbol. Say it. Hear the model."}
-                {effDiff === "medium" &&
-                  "See Devanagari, pick the correct roman, then say it."}
-                {effDiff === "hard" && "See the symbol. Say it. No hints."}
+                {effDiff === "easy" && "See Devanagari and IAST. Say it. Get feedback."}
+                {effDiff === "medium" && "See Devanagari, pick the correct IAST from 2 options, then say it."}
+                {effDiff === "hard" && "See Devanagari, pick the correct IAST from 4 options, then say it."}
               </p>
               <div className="flex items-center justify-center gap-3">
                 <span className="text-7xl block">{currentPhoneme.devanagari}</span>
                 <button
                   onClick={() => handlePlay()}
                   disabled={listenPlaying}
-                  className="shrink-0 p-2 rounded-lg bg-amber-500/20 text-amber-700 dark:text-amber-400 hover:bg-amber-500/30 disabled:opacity-70"
+                  className="shrink-0 p-2 rounded-lg bg-teal-500/20 text-teal-700 dark:text-teal-400 hover:bg-teal-500/30 disabled:opacity-70"
                 >
                   {listenPlaying ? (
                     <Loader2 className="w-6 h-6 animate-spin" />
@@ -634,8 +763,8 @@ export default function DrillPage() {
                 </span>
               )}
 
-              {showSeeSayRomanPick && (
-                <div className="grid grid-cols-2 gap-2 mt-2">
+              {showSayRomanPick && (
+                <div className={`grid gap-2 mt-2 ${optionCount === 2 ? "grid-cols-2" : "grid-cols-2"}`}>
                   {options.map((p) => (
                     <button
                       key={p.id}
@@ -648,9 +777,9 @@ export default function DrillPage() {
                 </div>
               )}
 
-              {showSeeSayRecord && (effDiff !== "medium" || choice !== null) && (
+              {showSayRecord && (
                 <>
-                  {effDiff === "medium" && choice !== null && (
+                  {effDiff !== "easy" && choice !== null && (
                     <p className="text-sm text-muted-foreground">
                       {choice.id === currentPhoneme.id
                         ? "Correct! Now record yourself."
@@ -659,38 +788,54 @@ export default function DrillPage() {
                   )}
                   <button
                     onClick={handleRecord}
+                    disabled={assessing}
                     className={`flex items-center gap-2 mx-auto px-6 py-4 rounded-xl touch-target ${
                       recording
                         ? "bg-rose-500 text-white"
                         : "bg-primary text-primary-foreground"
                     }`}
                   >
-                    {recording ? "Stop" : "Record"}
+                    {recording ? "Stop" : assessing ? "Checking…" : "Record"}
                   </button>
-                  <p className="text-xs text-muted-foreground">
-                    Record, then tap Play to hear the model
-                  </p>
                 </>
               )}
 
-              {effDiff === "medium" && !choice && (
+              {effDiff !== "easy" && !choice && optionCount > 0 && (
                 <p className="text-xs text-muted-foreground">
-                  Pick the correct roman, then record
+                  Pick the correct IAST, then record
                 </p>
               )}
             </div>
           }
           back={
-            showSeeSayRevealFinal && currentPhoneme ? (
+            showSayReveal && currentPhoneme ? (
               <div className="text-center space-y-3">
                 <span className="text-6xl block">
                   {currentPhoneme.devanagari}
                 </span>
                 <span className="font-mono text-xl">{currentPhoneme.iast}</span>
+                {sayResult && (
+                  <div className="space-y-2 p-4 rounded-lg bg-muted/50 text-left">
+                    {sayResult.correct ? (
+                      <div className="flex items-center gap-2 text-green-600 font-medium">
+                        <CheckCircle className="w-5 h-5" />
+                        Correct! साधु (sādhu).
+                      </div>
+                    ) : (
+                      <div className="flex items-center gap-2 text-amber-600 font-medium">
+                        <XCircle className="w-5 h-5" />
+                        Heard: <span className="font-mono">{sayResult.heard_iast ?? sayResult.heard ?? "—"}</span>
+                      </div>
+                    )}
+                    {sayResult.feedback_english && (
+                      <p className="text-sm text-muted-foreground">{sayResult.feedback_english}</p>
+                    )}
+                  </div>
+                )}
                 <button
                   onClick={() => handlePlay()}
                   disabled={listenPlaying}
-                  className="flex items-center gap-2 mx-auto px-4 py-2 rounded-lg bg-amber-500/20 text-amber-700 dark:text-amber-400"
+                  className="flex items-center gap-2 mx-auto px-4 py-2 rounded-lg bg-teal-500/20 text-teal-700 dark:text-teal-400"
                 >
                   {listenPlaying ? (
                     <Loader2 className="w-4 h-4 animate-spin" />
@@ -702,7 +847,7 @@ export default function DrillPage() {
               </div>
             ) : (
               <div className="text-center text-muted-foreground">
-                Record and tap Play to hear the model.
+                Record to get feedback.
               </div>
             )
           }
@@ -710,58 +855,98 @@ export default function DrillPage() {
         />
       )}
 
-      {/* HEAR-SAY */}
-      {effGroup === "hear-say" && (
+      {/* DRAW */}
+      {effGroup === "draw" && (
         <DrillCard
-          flipped={showHearSayReveal}
+          flipped={showDrawReveal}
           hideRevealButton
           front={
             <div className="text-center space-y-4">
               <p className="text-muted-foreground text-sm">
-                Hear it. Say it back. Hear the model to compare.
-                {effDiff === "medium" && (
-                  <span className="block mt-1 text-2xl">
-                    {currentPhoneme.devanagari}
-                  </span>
-                )}
+                {effDiff === "easy" && "Listen, see IAST, draw the Devanagari on the canvas."}
+                {effDiff === "medium" && "Listen, see the answer for 2 seconds, then draw it."}
+                {effDiff === "hard" && "Listen only. Draw the Devanagari you heard."}
               </p>
+              {effDiff === "medium" && listenPlayed && !drawFlashShown && (
+                <div className="text-6xl font-bold animate-pulse">
+                  {currentPhoneme.devanagari}
+                </div>
+              )}
               <button
                 onClick={handlePlay}
                 disabled={listenPlaying}
-                className="flex items-center gap-2 mx-auto px-6 py-4 rounded-xl bg-amber-500/20 text-amber-700 dark:text-amber-400 hover:bg-amber-500/30 disabled:opacity-70"
+                className="flex items-center gap-2 mx-auto px-6 py-4 rounded-xl bg-teal-500/20 text-teal-700 dark:text-teal-400 hover:bg-teal-500/30 disabled:opacity-70"
               >
                 {listenPlaying ? (
                   <Loader2 className="w-6 h-6 animate-spin" />
                 ) : (
                   <Volume2 className="w-6 h-6" />
                 )}
-                {listenPlayed ? "Play again" : "Play"}
+                {listenPlaying ? "Playing…" : "Play"}
               </button>
-              {listenPlayed && (
-                <button
-                  onClick={handleRecord}
-                  className={`flex items-center gap-2 mx-auto px-6 py-4 rounded-xl touch-target ${
-                    recording
-                      ? "bg-rose-500 text-white"
-                      : "bg-primary text-primary-foreground"
-                  }`}
-                >
-                  {recording ? "Stop" : "Record"}
-                </button>
+              {effDiff === "easy" && listenPlayed && (
+                <span className="font-mono text-xl text-muted-foreground block">
+                  {currentPhoneme.iast}
+                </span>
+              )}
+              {showDrawOptions && (
+                <>
+                  <p className="text-muted-foreground text-sm mb-1">Draw one of these:</p>
+                  <div className="flex items-center justify-center gap-4 text-2xl font-medium" style={{ fontFamily: "var(--font-devanagari), 'Noto Sans Devanagari', sans-serif" }}>
+                    {options.map((p) => (
+                      <span key={p.id}>{p.devanagari}</span>
+                    ))}
+                  </div>
+                  <DrawCanvas
+                    ref={drawCanvasRef}
+                    onDrawChange={setDrawHasDrawn}
+                    disabled={assessing}
+                  />
+                  <button
+                    onClick={handleDrawCheck}
+                    disabled={!drawHasDrawn || assessing}
+                    className="flex items-center gap-2 mx-auto px-6 py-4 rounded-xl bg-primary text-primary-foreground font-medium disabled:opacity-50 touch-target"
+                  >
+                    {assessing ? (
+                      <Loader2 className="w-5 h-5 animate-spin" />
+                    ) : (
+                      <CheckCircle className="w-5 h-5" />
+                    )}
+                    {assessing ? "Checking…" : "Check"}
+                  </button>
+                </>
               )}
             </div>
           }
           back={
-            showHearSayReveal && currentPhoneme ? (
+            showDrawReveal && currentPhoneme ? (
               <div className="text-center space-y-3">
                 <span className="text-6xl block">
                   {currentPhoneme.devanagari}
                 </span>
                 <span className="font-mono text-xl">{currentPhoneme.iast}</span>
+                {drawResult?.correct ? (
+                  <div className="flex items-center gap-2 text-green-600 font-medium">
+                    <CheckCircle className="w-5 h-5" />
+                    Correct! साधु (sādhu).
+                  </div>
+                ) : (
+                  <div className="space-y-1">
+                    {drawResult?.error ? (
+                      <p className="text-sm text-amber-600">{drawResult.error}</p>
+                    ) : drawResult?.predicted ? (
+                      <p className="text-sm text-rose-400">
+                        You drew {drawResult.predicted}. Correct: {currentPhoneme.devanagari} ({currentPhoneme.iast})
+                      </p>
+                    ) : (
+                      <p className="text-sm text-amber-600">Recognition unavailable for this character.</p>
+                    )}
+                  </div>
+                )}
                 <button
                   onClick={() => handlePlay()}
                   disabled={listenPlaying}
-                  className="flex items-center gap-2 mx-auto px-4 py-2 rounded-lg bg-amber-500/20 text-amber-700 dark:text-amber-400"
+                  className="flex items-center gap-2 mx-auto px-4 py-2 rounded-lg bg-teal-500/20 text-teal-700 dark:text-teal-400"
                 >
                   {listenPlaying ? (
                     <Loader2 className="w-4 h-4 animate-spin" />
@@ -773,7 +958,7 @@ export default function DrillPage() {
               </div>
             ) : (
               <div className="text-center text-muted-foreground">
-                Play, record, then tap Play.
+                Draw and tap Check.
               </div>
             )
           }

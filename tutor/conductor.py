@@ -47,6 +47,7 @@ def start_session(user_id: str, zone_id: str, level: int) -> dict[str, Any]:
 
     objectives = spec.get("objectives", [])
     assessment_type = spec.get("assessment_type", "conceptual")
+    requires_voice = bool(spec.get("pass_criteria", {}).get("pronunciation"))
 
     # First prompt — LLM could generate this; for now static
     prompt = _get_first_prompt(zone_id, level, objectives, assessment_type)
@@ -57,6 +58,8 @@ def start_session(user_id: str, zone_id: str, level: int) -> dict[str, Any]:
         "level": level,
         "objectives": objectives,
         "assessment_type": assessment_type,
+        "requires_voice": requires_voice,
+        "target_text": spec.get("target_text", ""),
         "max_duration_minutes": spec.get("max_duration_minutes", 15),
         "prompt": prompt,
         "started_at": datetime.utcnow().isoformat(),
@@ -78,6 +81,8 @@ def _get_first_prompt(zone_id: str, level: int, objectives: list[str], assessmen
         return "What is the present tense, 3rd person singular of the root √गम् (gam)? Give the form in IAST."
     if zone_id == "roots" and level == 5:
         return "Produce 5 different forms from the root √कृ (kṛ) across different tenses or moods. List them separated by commas."
+    if zone_id == "phonetics" and level == 2:
+        return "Listen to अ (a) and pronounce it. Use the record button to submit your pronunciation."
     return f"Complete the following: {'; '.join(objectives)}"
 
 

@@ -68,9 +68,9 @@ export default function LearnPage() {
           href="/learn/tutor"
           className="block mb-4 p-4 rounded-xl border border-border bg-card hover:border-primary hover:bg-primary/5 transition-all"
         >
-          <h3 className="font-semibold">Conversational Tutor</h3>
+          <h3 className="font-semibold">Structured Sanskrit Tutor</h3>
           <p className="text-sm text-muted-foreground mt-1">
-            Chat with Qwen. Replies in your language, voice via Kokoro. Sanskrit in Devanagari.
+            Qwen-powered pathways with assessment. Sanskrit spoken via Aryan voice.
           </p>
         </Link>
         <div className="grid gap-3 sm:grid-cols-2">

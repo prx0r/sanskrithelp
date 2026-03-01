@@ -36,7 +36,7 @@ export default function HomePage() {
     <div className="min-h-[80vh] py-6 pb-28">
       <div className="mb-8">
         <h1 className="font-display text-3xl md:text-4xl font-bold mb-1">
-          Pāṇini
+          Sanskrit
         </h1>
         <p className="text-muted-foreground text-sm">
           Sanskrit through its own grammar — pronunciation, roots, and rules
@@ -88,7 +88,7 @@ export default function HomePage() {
               <div>
                 <h3 className="font-semibold text-lg group-hover:text-primary">Pronunciation Drill</h3>
                 <p className="text-sm text-muted-foreground">
-                  Hear → pick · See → say · Spaced repetition
+                  Hear · Say · Draw · Spaced repetition
                 </p>
                 {stats.dueCount > 0 && (
                   <p className="text-xs text-primary font-medium mt-1">{stats.dueCount} due today</p>
