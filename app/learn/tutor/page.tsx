@@ -7,60 +7,53 @@ import {
   ChevronLeft,
   ChevronRight,
   Volume2,
-  Mic,
-  Square,
   Loader2,
   CheckCircle,
-  XCircle,
   Play,
+  ChevronDown,
+  ChevronUp,
+  Target,
+  Send,
 } from "lucide-react";
 import { playSanskritTTS } from "@/lib/audio";
-import { blobToWavBlob } from "@/lib/audioUtils";
 import {
   isZoneTutorUnlocked,
   ZONE_CONFIG,
   type ZoneId,
 } from "@/lib/zoneProgress";
+import { ZONE_CONSTRAINTS } from "@/lib/tutorPathwayFallback";
 import { cn } from "@/lib/utils";
 
 type SessionPhase = "select" | "active" | "result";
 
-type StartResult = {
-  session_id?: string;
-  zone_id?: string;
-  level?: number;
-  prompt?: string;
-  objectives?: string[];
-  assessment_type?: string;
-  requires_voice?: boolean;
-  target_text?: string;
-  remedial?: boolean;
-  message?: string;
-  prerequisite_zones?: string[];
-  retry_variant?: string;
-  error?: string;
-};
+type TutorMessage = { role: "user" | "assistant"; content: string };
+type PathwayLevel = { level: number; objectives: string[]; assessment_type?: string };
+type Pathway = { zone_id: string; label: string; levels: PathwayLevel[] };
+type Profile = { zone_levels: Record<string, number> };
 
-type SubmitResult = {
-  passed?: boolean;
-  feedback?: string;
-  retries_remaining?: number;
-  remedial?: { prerequisite_zones?: string[] };
-  zone_level?: number;
-  error?: string;
-};
-
-type RemedialInfo = { prerequisite_zones?: string[]; retry_variant?: string };
-
-// Zones with session specs (compression, phonetics, roots)
 const TUTOR_ZONES: { zone: ZoneId; levels: number[] }[] = [
-  { zone: "compression", levels: [1] },
-  { zone: "phonetics", levels: [1, 2] },
-  { zone: "roots", levels: [1, 2, 3, 4, 5] },
+  { zone: "compression", levels: [1, 2, 3, 4, 5] },
+  { zone: "phonetics", levels: [1, 2, 3, 4, 5, 6, 7, 8] },
+  { zone: "gradation", levels: [1, 2, 3, 4, 5] },
+  { zone: "sandhi", levels: [1, 2, 3, 4, 5, 6] },
+  { zone: "roots", levels: [1, 2, 3, 4, 5, 6, 7] },
+  { zone: "words", levels: [1, 2, 3, 4, 5, 6, 7] },
+  { zone: "suffixes", levels: [1, 2, 3, 4, 5, 6, 7, 8] },
+  { zone: "karakas", levels: [1, 2, 3, 4, 5, 6, 7, 8] },
+  { zone: "verbs", levels: [1, 2, 3, 4, 5, 6, 7, 8, 9] },
+  { zone: "compounds", levels: [1, 2, 3, 4, 5, 6, 7] },
+  { zone: "reading", levels: [1, 2, 3, 4, 5] },
 ];
 
-const USER_ID = "default";
+const TUTOR_SYSTEM = `You are a patient Sanskrit tutor. Guide the learner through a dialogue. Be conversational, not robotic.
 
+RULES:
+- One step at a time. Ask questions, give hints, acknowledge what they get right.
+- Use IAST and Devanagari when discussing Sanskrit (e.g. अ, गच्छति, √गम्).
+- If they're wrong, explain gently and give another chance. Don't just say "incorrect."
+- When they demonstrate understanding, acknowledge and move to the next point.
+- Keep responses concise. 2-4 sentences. No long lectures.
+- Ask "Do you feel confident?" or "Want to try another?" to check in.`;
 
 function TutorInner() {
   const searchParams = useSearchParams();
@@ -71,72 +64,111 @@ function TutorInner() {
   const initialLevel = validZoneParam ? (TUTOR_ZONES.find((z) => z.zone === validZoneParam)?.levels[0] ?? 1) : 1;
   const [selectedZone, setSelectedZone] = useState<ZoneId | null>(validZoneParam);
   const [selectedLevel, setSelectedLevel] = useState(initialLevel);
-  const [prompt, setPrompt] = useState("");
   const [objectives, setObjectives] = useState<string[]>([]);
-  const [assessmentType, setAssessmentType] = useState<string>("conceptual");
-  const [needsVoice, setNeedsVoice] = useState(false);
-  const [targetText, setTargetText] = useState<string>("");
-  const [sessionId, setSessionId] = useState<string | null>(null);
-
+  const [messages, setMessages] = useState<TutorMessage[]>([]);
+  const [streamingContent, setStreamingContent] = useState("");
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [result, setResult] = useState<SubmitResult | null>(null);
-  const [remedial, setRemedial] = useState<RemedialInfo | null>(null);
-
-  const [recording, setRecording] = useState(false);
+  const [pathway, setPathway] = useState<Pathway | null>(null);
+  const [profile, setProfile] = useState<Profile | null>(null);
+  const [pathwayOpen, setPathwayOpen] = useState(true);
+  const [mounted, setMounted] = useState(false);
   const [playingId, setPlayingId] = useState<string | null>(null);
-  const mediaRecorderRef = useRef<MediaRecorder | null>(null);
-  const chunksRef = useRef<Blob[]>([]);
-  const streamRef = useRef<MediaStream | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
 
+  useEffect(() => setMounted(true), []);
   useEffect(() => {
     scrollRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, [phase, result]);
+  }, [messages, streamingContent]);
 
-  const handleStart = async () => {
+  useEffect(() => {
+    fetch(`/api/tutor/profile/default`)
+      .then((r) => r.ok ? r.json() : null)
+      .then((p) => p && setProfile(p))
+      .catch(() => {});
+  }, [phase]);
+
+  useEffect(() => {
     if (!selectedZone) return;
+    fetch(`/api/tutor/pathway/${selectedZone}`)
+      .then((r) => r.ok ? r.json() : null)
+      .then((p) => p && setPathway(p))
+      .catch(() => {});
+  }, [selectedZone]);
+
+  const currentLevelSpec = pathway?.levels?.find((l) => l.level === selectedLevel);
+  const objText = objectives.length > 0 ? objectives.join("; ") : currentLevelSpec?.objectives?.join("; ") ?? "";
+
+  const handleStart = async (overrideLevel?: number) => {
+    if (!selectedZone) return;
+    const level = overrideLevel ?? selectedLevel;
+    if (overrideLevel) setSelectedLevel(overrideLevel);
+
+    const spec = pathway?.levels?.find((l) => l.level === level);
+    const objs = spec?.objectives ?? [];
+    setObjectives(objs);
     setLoading(true);
     setError(null);
-    setResult(null);
-    setRemedial(null);
+    setMessages([]);
+    setStreamingContent("");
+
+    const zoneConstraint = selectedZone ? ZONE_CONSTRAINTS[selectedZone] ?? "" : "";
+    const systemPrompt = `${TUTOR_SYSTEM}
+
+${zoneConstraint}
+
+CURRENT OBJECTIVES (Level ${level}): ${objs.join(". ")}
+
+Start the dialogue. The learner is ready. Begin with your first question or instruction.`;
+
     try {
-      const res = await fetch("/api/tutor/session/start", {
+      const res = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          user_id: USER_ID,
-          zone_id: selectedZone,
-          level: selectedLevel,
+          messages: [{ role: "user", content: "Start the dialogue. I'm ready." }],
+          systemPrompt,
         }),
       });
-      const data: StartResult = await res.json();
 
       if (!res.ok) {
-        setError(data?.error ?? "Failed to start session");
+        const data = await res.json().catch(() => ({}));
+        setError(data?.error ?? "Failed to start");
         return;
       }
 
-      if (data.remedial) {
-        setRemedial({
-          prerequisite_zones: data.prerequisite_zones ?? [],
-          retry_variant: data.retry_variant,
-        });
-        setPrompt(data.message ?? "Review prerequisites first.");
-        setPhase("result");
+      const reader = res.body?.getReader();
+      const decoder = new TextDecoder();
+      if (!reader) {
+        setError("No response");
         return;
       }
 
-      setPrompt(data.prompt ?? "");
-      setObjectives(data.objectives ?? []);
-      setAssessmentType(data.assessment_type ?? "conceptual");
-      setSessionId(data.session_id ?? null);
-      setNeedsVoice(data.requires_voice ?? false);
-      setTargetText(data.target_text ?? data.prompt?.match(/[\u0900-\u097F]+/)?.[0] ?? "अ");
-
+      let full = "";
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        const chunk = decoder.decode(value, { stream: true });
+        for (const line of chunk.split("\n")) {
+          if (!line.startsWith("data: ")) continue;
+          const data = line.slice(6);
+          if (data === "[DONE]") continue;
+          try {
+            const parsed = JSON.parse(data);
+            const delta = parsed?.choices?.[0]?.delta?.content;
+            if (delta) {
+              full += delta;
+              setStreamingContent(full);
+            }
+          } catch {
+            // skip
+          }
+        }
+      }
+      setMessages([{ role: "assistant", content: full }]);
+      setStreamingContent("");
       setPhase("active");
-      setInput("");
     } catch (e) {
       setError(e instanceof Error ? e.message : "Network error");
     } finally {
@@ -144,128 +176,82 @@ function TutorInner() {
     }
   };
 
-  const playPromptTTS = async () => {
-    if (!prompt || playingId) return;
-    setPlayingId("prompt");
-    try {
-      const hasDevanagari = /[\u0900-\u097F]/.test(prompt);
-      if (hasDevanagari) {
-        await playSanskritTTS(prompt);
-      } else {
-        const res = await fetch("/api/tts", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ text: prompt, speed: 0.9 }),
-        });
-        if (!res.ok) throw new Error("TTS failed");
-        const blob = await res.blob();
-        const url = URL.createObjectURL(blob);
-        const audio = new Audio(url);
-        await audio.play();
-        audio.onended = () => URL.revokeObjectURL(url);
-      }
-    } catch {
-      // ignore
-    } finally {
-      setPlayingId(null);
-    }
-  };
+  const handleSend = async () => {
+    const q = input.trim();
+    if (!q || loading) return;
 
-  const handleSubmit = async (audioBlob?: Blob) => {
-    if (!selectedZone) return;
-    if (needsVoice && !audioBlob) {
-      setError("Use voice input for pronunciation assessment.");
-      return;
-    }
-    if (!needsVoice && !input.trim()) {
-      setError("Enter your answer.");
-      return;
-    }
-
-    setLoading(true);
+    setInput("");
     setError(null);
-    setResult(null);
+    const userMsg: TutorMessage = { role: "user", content: q };
+    setMessages((m) => [...m, userMsg]);
+    setStreamingContent("");
+    setLoading(true);
+
+    const chatMessages = [...messages, userMsg].map(({ role, content }) => ({ role, content }));
+    const zoneConstraint = selectedZone ? ZONE_CONSTRAINTS[selectedZone] ?? "" : "";
+    const systemPrompt = `${TUTOR_SYSTEM}
+
+${zoneConstraint}
+
+CURRENT OBJECTIVES: ${objText || "Guide the learner."}`;
 
     try {
-      const form = new FormData();
-      form.append("user_id", USER_ID);
-      form.append("zone_id", selectedZone);
-      form.append("level", String(selectedLevel));
-      form.append("user_input", input.trim());
-
-      if (audioBlob) {
-        const wavBlob = await blobToWavBlob(audioBlob);
-        form.append("audio", wavBlob, "recording.wav");
-      }
-
-      const res = await fetch("/api/tutor/session/submit", {
+      const res = await fetch("/api/chat", {
         method: "POST",
-        body: form,
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ messages: chatMessages, systemPrompt }),
       });
-      const data: SubmitResult = await res.json();
 
       if (!res.ok) {
-        setError(data?.error ?? "Assessment failed");
+        const data = await res.json().catch(() => ({}));
+        setError(data?.error ?? "Request failed");
+        setMessages((m) => m.slice(0, -1));
         return;
       }
 
-      setResult(data);
-      if (data.remedial) {
-        setRemedial(data.remedial);
+      const reader = res.body?.getReader();
+      const decoder = new TextDecoder();
+      if (!reader) {
+        setError("No response");
+        return;
       }
-      setPhase("result");
-      setInput("");
+
+      let full = "";
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        const chunk = decoder.decode(value, { stream: true });
+        for (const line of chunk.split("\n")) {
+          if (!line.startsWith("data: ")) continue;
+          const data = line.slice(6);
+          if (data === "[DONE]") continue;
+          try {
+            const parsed = JSON.parse(data);
+            const delta = parsed?.choices?.[0]?.delta?.content;
+            if (delta) {
+              full += delta;
+              setStreamingContent(full);
+            }
+          } catch {
+            // skip
+          }
+        }
+      }
+      setMessages((m) => [...m, { role: "assistant", content: full }]);
+      setStreamingContent("");
     } catch (e) {
       setError(e instanceof Error ? e.message : "Network error");
+      setMessages((m) => m.slice(0, -1));
     } finally {
       setLoading(false);
     }
   };
 
-  const startRecording = async () => {
-    try {
-      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-      streamRef.current = stream;
-      chunksRef.current = [];
-
-      const mime = MediaRecorder.isTypeSupported("audio/webm;codecs=opus")
-        ? "audio/webm;codecs=opus"
-        : "audio/webm";
-      const mr = new MediaRecorder(stream);
-      mediaRecorderRef.current = mr;
-      mr.ondataavailable = (e) => {
-        if (e.data.size > 0) chunksRef.current.push(e.data);
-      };
-      mr.start(100);
-      setRecording(true);
-      setError(null);
-    } catch (e) {
-      setError("Microphone access denied. Allow microphone and try again.");
-    }
-  };
-
-  const stopRecordingAndSubmit = async () => {
-    const mr = mediaRecorderRef.current;
-    if (!mr || mr.state === "inactive") return;
-
-    mr.onstop = async () => {
-      streamRef.current?.getTracks().forEach((t) => t.stop());
-      streamRef.current = null;
-      mediaRecorderRef.current = null;
-
-      const blob = new Blob(chunksRef.current, { type: "audio/webm" });
-      await handleSubmit(blob);
-    };
-    mr.stop();
-    setRecording(false);
-  };
-
-  const playFeedbackTTS = async (text: string) => {
+  const playTTS = async (text: string, id: string) => {
     if (!text || playingId) return;
-    setPlayingId("feedback");
+    setPlayingId(id);
     try {
-      const hasDevanagari = /[\u0900-\u097F]/.test(text);
-      if (hasDevanagari) {
+      if (/[\u0900-\u097F]/.test(text)) {
         await playSanskritTTS(text);
       } else {
         const res = await fetch("/api/tts", {
@@ -287,70 +273,114 @@ function TutorInner() {
     }
   };
 
-  const handleRetry = () => {
-    setPhase("active");
-    setResult(null);
-    setError(null);
-    setInput("");
-  };
-
   const handleNewSession = () => {
     setPhase("select");
-    setResult(null);
-    setRemedial(null);
+    setMessages([]);
+    setStreamingContent("");
     setError(null);
-    setPrompt("");
     setInput("");
   };
 
-  const unlockedZones = TUTOR_ZONES.filter((z) => isZoneTutorUnlocked(z.zone));
+  const unlockedZones = mounted ? TUTOR_ZONES.filter((z) => isZoneTutorUnlocked(z.zone)) : [];
 
   return (
     <div className="min-h-[80vh] py-8 max-w-2xl mx-auto px-4 space-y-6">
-      <Link
-        href="/learn"
-        className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-primary mb-4"
-      >
+      <Link href="/learn" className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-primary mb-4">
         <ChevronLeft className="w-4 h-4" />
         Back to Learn
       </Link>
 
       <div>
-        <h1 className="text-2xl font-bold">Structured Sanskrit Tutor</h1>
+        <h1 className="text-2xl font-bold">Sanskrit Tutor</h1>
         <p className="text-sm text-muted-foreground mt-1">
-          Qwen-powered pathways with assessment. Sanskrit spoken via Aryan voice.
+          A dialogue guided by objectives. The tutor asks, you answer, it responds and guides.
         </p>
       </div>
+
+      {selectedZone && pathway && (
+        <div className="rounded-xl border border-border bg-card overflow-hidden">
+          <button
+            type="button"
+            onClick={() => setPathwayOpen((o) => !o)}
+            className="w-full flex items-center justify-between px-4 py-3 text-left hover:bg-accent/50"
+          >
+            <span className="text-sm font-medium flex items-center gap-2">
+              <Target className="w-4 h-4" />
+              {pathway.label} — Pathway
+            </span>
+            {pathwayOpen ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
+          </button>
+          {pathwayOpen && (
+            <div className="px-4 pb-4 space-y-2">
+              {pathway.levels.map((lvl) => {
+                const passed = (profile?.zone_levels?.[selectedZone] ?? 0) >= lvl.level;
+                const current = lvl.level === selectedLevel;
+                return (
+                  <div
+                    key={lvl.level}
+                    className={cn(
+                      "flex items-start gap-3 py-2 px-3 rounded-lg",
+                      current && "bg-primary/10 border border-primary/30",
+                      passed && !current && "opacity-80"
+                    )}
+                  >
+                    <span className="shrink-0 w-6 h-6 rounded-full flex items-center justify-center text-xs font-medium">
+                      {passed ? <CheckCircle className="w-5 h-5 text-green-500" /> : lvl.level}
+                    </span>
+                    <div className="min-w-0 flex-1">
+                      <p className="text-sm font-medium">Level {lvl.level}</p>
+                      <p className="text-xs text-muted-foreground">{lvl.objectives?.join(" · ")}</p>
+                    </div>
+                    {!passed && (
+                      <button
+                        type="button"
+                        onClick={() => { setSelectedLevel(lvl.level); setPhase("select"); }}
+                        className="text-xs text-primary hover:underline shrink-0"
+                      >
+                        {current ? "Current" : "Start"}
+                      </button>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          )}
+        </div>
+      )}
 
       {phase === "select" && (
         <div className="space-y-6">
           <div>
-            <h2 className="text-sm font-medium text-muted-foreground mb-2">1. Choose zone</h2>
+            <h2 className="text-sm font-medium text-muted-foreground mb-2">Choose module</h2>
             <div className="flex flex-wrap gap-2">
-              {unlockedZones.length === 0 ? (
-                <p className="text-sm text-muted-foreground">
-                  Complete phoneme units or zone intros to unlock the tutor.
-                </p>
+              {!mounted ? (
+                <>
+                  <div className="h-9 w-24 rounded-xl border border-border bg-muted/30 animate-pulse" />
+                  <div className="h-9 w-28 rounded-xl border border-border bg-muted/30 animate-pulse" />
+                  <div className="h-9 w-20 rounded-xl border border-border bg-muted/30 animate-pulse" />
+                </>
+              ) : unlockedZones.length === 0 ? (
+                <p className="text-sm text-muted-foreground">Complete phoneme units or zone intros to unlock.</p>
               ) : (
                 unlockedZones.map(({ zone, levels }) => {
                   const cfg = ZONE_CONFIG[zone];
                   const label = cfg?.label ?? zone;
+                  const passed = profile?.zone_levels?.[zone] ?? 0;
                   return (
                     <button
                       key={zone}
                       type="button"
                       onClick={() => {
                         setSelectedZone(zone);
-                        setSelectedLevel(levels[0] ?? 1);
+                        setSelectedLevel(levels.find((l) => l > passed) ?? levels[0] ?? 1);
                       }}
                       className={cn(
                         "px-4 py-2 rounded-xl border text-sm font-medium transition-colors",
-                        selectedZone === zone
-                          ? "border-primary bg-primary/10 text-primary"
-                          : "border-border hover:bg-accent/50"
+                        selectedZone === zone ? "border-primary bg-primary/10 text-primary" : "border-border hover:bg-accent/50"
                       )}
                     >
                       {label}
+                      {passed > 0 && <span className="ml-1 text-xs opacity-70">({passed}/{levels.length})</span>}
                     </button>
                   );
                 })
@@ -360,23 +390,26 @@ function TutorInner() {
 
           {selectedZone && (
             <div>
-              <h2 className="text-sm font-medium text-muted-foreground mb-2">2. Choose level</h2>
+              <h2 className="text-sm font-medium text-muted-foreground mb-2">Level</h2>
               <div className="flex flex-wrap gap-2">
-                {TUTOR_ZONES.find((z) => z.zone === selectedZone)?.levels.map((lvl) => (
-                  <button
-                    key={lvl}
-                    type="button"
-                    onClick={() => setSelectedLevel(lvl)}
-                    className={cn(
-                      "px-4 py-2 rounded-xl border text-sm font-medium transition-colors",
-                      selectedLevel === lvl
-                        ? "border-primary bg-primary/10 text-primary"
-                        : "border-border hover:bg-accent/50"
-                    )}
-                  >
-                    Level {lvl}
-                  </button>
-                ))}
+                {TUTOR_ZONES.find((z) => z.zone === selectedZone)?.levels.map((lvl) => {
+                  const passed = (profile?.zone_levels?.[selectedZone] ?? 0) >= lvl;
+                  return (
+                    <button
+                      key={lvl}
+                      type="button"
+                      onClick={() => setSelectedLevel(lvl)}
+                      className={cn(
+                        "px-4 py-2 rounded-xl border text-sm font-medium transition-colors flex items-center gap-1",
+                        selectedLevel === lvl ? "border-primary bg-primary/10 text-primary" : "border-border hover:bg-accent/50",
+                        passed && "opacity-90"
+                      )}
+                    >
+                      {passed && <CheckCircle className="w-3.5 h-3.5 text-green-500" />}
+                      Level {lvl}
+                    </button>
+                  );
+                })}
               </div>
             </div>
           )}
@@ -384,262 +417,131 @@ function TutorInner() {
           {selectedZone && (
             <button
               type="button"
-              onClick={handleStart}
+              onClick={() => handleStart()}
               disabled={loading}
               className="flex items-center gap-2 px-6 py-3 rounded-xl bg-primary text-primary-foreground font-medium disabled:opacity-50"
             >
               {loading ? <Loader2 className="w-5 h-5 animate-spin" /> : <Play className="w-5 h-5" />}
-              Start session
+              Start dialogue
             </button>
           )}
         </div>
       )}
 
       {phase === "active" && (
-        <div className="rounded-xl border border-border bg-card p-6 space-y-6">
-          <div>
-            <h2 className="text-sm font-medium text-muted-foreground mb-2">Task</h2>
-            <p
-              className="font-display leading-relaxed whitespace-pre-wrap"
-              style={
-                prompt.includes("अ") || /[\u0900-\u097F]/.test(prompt)
-                  ? { fontFamily: "var(--font-devanagari), sans-serif" }
-                  : undefined
-              }
-            >
-              {prompt}
-            </p>
-            <button
-              type="button"
-              onClick={playPromptTTS}
-              disabled={playingId !== null}
-              className="mt-2 flex items-center gap-2 text-sm text-primary hover:underline disabled:opacity-50"
-            >
-              {playingId === "prompt" ? (
-                <Loader2 className="w-4 h-4 animate-spin" />
-              ) : (
-                <Volume2 className="w-4 h-4" />
-              )}
-              Play aloud
-            </button>
-          </div>
-
-          {objectives.length > 0 && (
-            <div className="text-xs text-muted-foreground">
-              Objectives: {objectives.join("; ")}
+        <div className="rounded-xl border border-border bg-card overflow-hidden">
+          {objText && (
+            <div className="px-4 py-2 border-b border-border bg-muted/30 text-xs text-muted-foreground">
+              Objectives: {objText}
             </div>
           )}
-
-          {needsVoice ? (
-            <div className="space-y-6">
-              {targetText && (
-                <button
-                  type="button"
-                  onClick={async () => {
-                    if (playingId) return;
-                    setPlayingId("target");
-                    try {
-                      await playSanskritTTS(targetText);
-                    } finally {
-                      setPlayingId(null);
-                    }
-                  }}
-                  disabled={playingId !== null}
-                  className="flex items-center gap-2 text-sm text-primary hover:underline disabled:opacity-50"
-                >
-                  {playingId === "target" ? (
-                    <Loader2 className="w-4 h-4 animate-spin" />
-                  ) : (
-                    <Volume2 className="w-4 h-4" />
-                  )}
-                  Listen to target: <span style={{ fontFamily: "var(--font-devanagari), sans-serif" }}>{targetText}</span>
-                </button>
-              )}
-              <p className="text-sm text-muted-foreground">
-                Pronounce the target. Use voice input for assessment.
-              </p>
-              {recording ? (
-                <button
-                  type="button"
-                  onClick={stopRecordingAndSubmit}
-                  className="flex items-center gap-2 px-6 py-3 rounded-xl bg-red-500/20 text-red-600 hover:bg-red-500/30"
-                >
-                  <Square className="w-5 h-5" />
-                  Stop & submit
-                </button>
-              ) : (
-                <button
-                  type="button"
-                  onClick={startRecording}
-                  disabled={loading}
-                  className="flex items-center gap-2 px-6 py-3 rounded-xl bg-primary text-primary-foreground disabled:opacity-50"
-                >
-                  <Mic className="w-5 h-5" />
-                  Record pronunciation
-                </button>
-              )}
-            </div>
-          ) : (
-            <form
-              onSubmit={(e) => {
-                e.preventDefault();
-                handleSubmit();
-              }}
-              className="space-y-4"
-            >
-              <div>
-                <label className="block text-sm font-medium mb-1">Your answer</label>
-                <textarea
-                  value={input}
-                  onChange={(e) => setInput(e.target.value)}
-                  placeholder="Type your answer…"
-                  disabled={loading}
-                  rows={4}
-                  className="w-full px-4 py-3 rounded-xl border border-border bg-background text-sm focus:outline-none focus:ring-2 focus:ring-primary disabled:opacity-70"
-                />
-              </div>
-              <button
-                type="submit"
-                disabled={loading || !input.trim()}
-                className="flex items-center gap-2 px-6 py-3 rounded-xl bg-primary text-primary-foreground font-medium disabled:opacity-50"
-              >
-                {loading ? <Loader2 className="w-5 h-5 animate-spin" /> : null}
-                Submit
-              </button>
-            </form>
-          )}
-
-          {error && (
-            <div className="rounded-lg bg-red-500/20 border border-red-500/50 p-3 text-sm text-red-200">
-              {error}
-            </div>
-          )}
-        </div>
-      )}
-
-      {phase === "result" && result && (
-        <div className="rounded-xl border border-border bg-card p-6 space-y-6">
-          <div className="flex items-center gap-3">
-            {result.passed ? (
-              <CheckCircle className="w-8 h-8 text-green-500" />
-            ) : (
-              <XCircle className="w-8 h-8 text-amber-500" />
-            )}
-            <div>
-              <h2 className="font-semibold">
-                {result.passed ? "Passed!" : "Try again"}
-              </h2>
-              {result.retries_remaining !== undefined && !result.passed && (
-                <p className="text-sm text-muted-foreground">
-                  {result.retries_remaining} retries remaining
-                </p>
-              )}
-            </div>
-          </div>
-
-          {result.feedback && (
-            <div className="space-y-2">
-              <p className="text-sm text-muted-foreground">Feedback</p>
-              <p
-                className="font-display leading-relaxed"
-                style={
-                  result.feedback.includes("अ") || /[\u0900-\u097F]/.test(result.feedback)
-                    ? { fontFamily: "var(--font-devanagari), sans-serif" }
-                    : undefined
-                }
-              >
-                {result.feedback}
-              </p>
-              <button
-                type="button"
-                onClick={() => playFeedbackTTS(result.feedback!)}
-                disabled={playingId !== null}
-                className="flex items-center gap-2 text-sm text-primary hover:underline disabled:opacity-50"
-              >
-                {playingId === "feedback" ? (
-                  <Loader2 className="w-4 h-4 animate-spin" />
-                ) : (
-                  <Volume2 className="w-4 h-4" />
+          <div className="p-4 space-y-4 max-h-[50vh] overflow-y-auto">
+            {messages.map((m, i) => (
+              <div
+                key={i}
+                className={cn(
+                  "flex gap-3",
+                  m.role === "user" ? "justify-end" : "justify-start"
                 )}
-                Play feedback
-              </button>
-            </div>
-          )}
-
-          {remedial?.prerequisite_zones && remedial.prerequisite_zones.length > 0 && (
-            <div className="rounded-lg bg-amber-500/20 border border-amber-500/50 p-3 text-sm">
-              <p>Review prerequisites: {remedial.prerequisite_zones.join(", ")}</p>
-            </div>
-          )}
-
-          <div className="flex flex-wrap gap-2">
-            {!result.passed && result.retries_remaining !== undefined && result.retries_remaining > 0 && (
-              <button
-                type="button"
-                onClick={handleRetry}
-                className="flex items-center gap-2 px-4 py-2 rounded-xl border border-border hover:bg-accent/50"
               >
-                Retry
-              </button>
+                <div
+                  className={cn(
+                    "max-w-[85%] rounded-xl px-4 py-2.5 text-sm",
+                    m.role === "user" ? "bg-primary text-primary-foreground" : "bg-muted"
+                  )}
+                >
+                  <div className="flex items-start gap-2">
+                    <p
+                      className="font-display leading-relaxed whitespace-pre-wrap"
+                      style={/[\u0900-\u097F]/.test(m.content) ? { fontFamily: "var(--font-devanagari), sans-serif" } : undefined}
+                    >
+                      {m.content}
+                    </p>
+                    {m.role === "assistant" && (
+                      <button
+                        type="button"
+                        onClick={() => playTTS(m.content, `msg-${i}`)}
+                        disabled={playingId !== null}
+                        className="shrink-0 p-1.5 rounded hover:bg-accent/50 disabled:opacity-50"
+                        aria-label="Play"
+                      >
+                        {playingId === `msg-${i}` ? <Loader2 className="w-4 h-4 animate-spin" /> : <Volume2 className="w-4 h-4" />}
+                      </button>
+                    )}
+                  </div>
+                </div>
+              </div>
+            ))}
+            {streamingContent && (
+              <div className="flex justify-start">
+                <div className="max-w-[85%] rounded-xl px-4 py-2.5 bg-muted text-sm">
+                  <p
+                    className="font-display leading-relaxed whitespace-pre-wrap"
+                    style={/[\u0900-\u097F]/.test(streamingContent) ? { fontFamily: "var(--font-devanagari), sans-serif" } : undefined}
+                  >
+                    {streamingContent}
+                  </p>
+                </div>
+              </div>
             )}
-            <button
-              type="button"
-              onClick={handleNewSession}
-              className="flex items-center gap-2 px-4 py-2 rounded-xl bg-primary text-primary-foreground"
-            >
-              {result.passed ? "Next session" : "New session"}
-            </button>
+            {loading && !streamingContent && (
+              <div className="flex justify-start">
+                <div className="rounded-xl px-4 py-2.5 bg-muted flex items-center gap-2">
+                  <Loader2 className="w-4 h-4 animate-spin" />
+                  <span className="text-sm text-muted-foreground">Thinking…</span>
+                </div>
+              </div>
+            )}
+            <div ref={scrollRef} />
           </div>
+          <form
+            onSubmit={(e) => { e.preventDefault(); handleSend(); }}
+            className="flex gap-2 p-4 border-t border-border"
+          >
+            <input
+              type="text"
+              value={input}
+              onChange={(e) => setInput(e.target.value)}
+              placeholder="Your answer…"
+              disabled={loading}
+              className="flex-1 px-4 py-3 rounded-xl border border-border bg-background text-sm focus:outline-none focus:ring-2 focus:ring-primary disabled:opacity-70"
+            />
+            <button
+              type="submit"
+              disabled={loading || !input.trim()}
+              className="touch-target px-4 py-3 rounded-xl bg-primary text-primary-foreground disabled:opacity-50 shrink-0"
+              aria-label="Send"
+            >
+              {loading ? <Loader2 className="w-5 h-5 animate-spin" /> : <Send className="w-5 h-5" />}
+            </button>
+          </form>
         </div>
       )}
 
-      {phase === "result" && remedial && !result && (
-        <div className="rounded-xl border border-border bg-card p-6 space-y-6">
-          <div className="flex items-center gap-3">
-            <XCircle className="w-8 h-8 text-amber-500" />
-            <h2 className="font-semibold">Review prerequisites</h2>
-          </div>
-          <p className="text-sm text-muted-foreground">{prompt}</p>
-          {remedial.prerequisite_zones && remedial.prerequisite_zones.length > 0 && (
-            <div className="flex flex-wrap gap-2">
-              {remedial.prerequisite_zones.map((z) => (
-                <Link
-                  key={z}
-                  href={`/learn/${z}/`}
-                  className="px-4 py-2 rounded-xl border border-border hover:bg-accent/50 text-sm"
-                >
-                  {ZONE_CONFIG[z]?.label ?? z}
-                </Link>
-              ))}
-            </div>
-          )}
-          <button
-            type="button"
-            onClick={handleNewSession}
-            className="flex items-center gap-2 px-4 py-2 rounded-xl bg-primary text-primary-foreground"
-          >
-            Back to session selection
-          </button>
-        </div>
+      {phase === "active" && (
+        <button
+          type="button"
+          onClick={handleNewSession}
+          className="text-sm text-muted-foreground hover:text-foreground"
+        >
+          End session
+        </button>
+      )}
+
+      {error && (
+        <div className="rounded-lg bg-red-500/20 border border-red-500/50 p-3 text-sm text-red-200">{error}</div>
       )}
 
       <p className="text-xs text-muted-foreground">
-        Requires Sabdakrida backend:{" "}
-        <code className="bg-muted px-1 rounded">python -m uvicorn sabdakrida.main:app --port 8010</code>
+        Uses Chutes (Qwen) for dialogue. Ensure CHUTES_API_KEY is set.
       </p>
-
-      <div ref={scrollRef} />
     </div>
   );
 }
 
 export default function TutorPage() {
   return (
-    <Suspense
-      fallback={
-        <div className="min-h-[40vh] flex items-center justify-center">Loading…</div>
-      }
-    >
+    <Suspense fallback={<div className="min-h-[40vh] flex items-center justify-center">Loading…</div>}>
       <TutorInner />
     </Suspense>
   );

@@ -1,0 +1,80 @@
+{
+  "zone_id": "verbs",
+  "label": "Verbs (Conjugation)",
+  "strict_constraints": {
+    "do": ["laṭ (present)", "laṅ (imperfect)", "loṭ (imperative)", "vidhi-liṅ (optative)", "liṭ (perfect)", "all persons and numbers", "parasmaipada/ātmanepada distinction"],
+    "do_not": ["taddhita suffixes", "compound analysis"]
+  },
+  "levels": [
+    {
+      "level": 1,
+      "objectives": ["Conjugate √gam in full present tense (laṭ) — all 3 persons, 3 numbers"],
+      "pass_criteria": {"conceptual": null, "production": ["all 9 forms correct"], "pronunciation": true},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 20,
+      "tts_voice": true,
+      "remedial_on_fail": {"prerequisite_zones": ["roots"], "retry_variant": "level_1_v2"}
+    },
+    {
+      "level": 2,
+      "objectives": ["Produce imperfect (laṅ) 3rd person singular of √bhū, √gam, √kṛ"],
+      "pass_criteria": {"conceptual": null, "production": ["abhavat", "agacchat", "akarot — all correct"], "pronunciation": true},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "tts_voice": true,
+      "remedial_on_fail": {"prerequisite_zones": ["roots"], "retry_variant": "level_2_v2"}
+    },
+    {
+      "level": 3,
+      "objectives": ["Produce imperative (loṭ) 2nd person singular of √vad, √gam"],
+      "pass_criteria": {"conceptual": null, "production": ["vada", "gaccha — correct"], "pronunciation": true},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "tts_voice": true,
+      "remedial_on_fail": {"prerequisite_zones": ["roots"], "retry_variant": "level_3_v2"}
+    },
+    {
+      "level": 4,
+      "objectives": ["Distinguish parasmaipada vs ātmanepada for √labh, √yaj"],
+      "pass_criteria": {"conceptual": null, "production": ["correctly assigns voice", "produces 3rd sg form"], "pronunciation": null},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "tts_voice": false,
+      "remedial_on_fail": {"prerequisite_zones": ["roots"], "retry_variant": "level_4_v2"}
+    },
+    {
+      "level": 5,
+      "objectives": ["Parse any given verb form: root / tense / person / number / voice"],
+      "pass_criteria": {"conceptual": null, "production": ["all 5 categories correct in 4/5 examples"], "pronunciation": null},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "tts_voice": false,
+      "remedial_on_fail": {"prerequisite_zones": ["roots"], "retry_variant": "level_5_v2"}
+    },
+    {
+      "level": 6,
+      "objectives": ["Produce a grammatical 5-word Sanskrit sentence using a conjugated verb"],
+      "pass_criteria": {"conceptual": null, "production": ["correct verb agreement", "kāraka case on subject/object"], "pronunciation": true},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 20,
+      "tts_voice": true,
+      "remedial_on_fail": {"prerequisite_zones": ["roots", "karakas"], "retry_variant": "level_6_v2"}
+    },
+    {
+      "level": 7,
+      "objectives": ["Produce 5 forms from √kṛ across different tenses/moods"],
+      "pass_criteria": {"conceptual": null, "production": ["5 valid forms from ≥3 different lakāras"], "pronunciation": true},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 20,
+      "tts_voice": true,
+      "remedial_on_fail": {"prerequisite_zones": ["roots"], "retry_variant": "level_7_v2"}
+    }
+  ]
+}

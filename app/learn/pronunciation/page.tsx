@@ -4,7 +4,7 @@ import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { Volume2, Mic, Square, Loader2, CheckCircle, XCircle, ChevronLeft } from "lucide-react";
 import { playSanskritTTS } from "@/lib/audio";
-import { blobToWavBlob } from "@/lib/audioUtils";
+import { assessPronunciation } from "@/lib/pronunciationAssessment";
 import { iastToDevanagari } from "@/lib/transliterate";
 import { cn } from "@/lib/utils";
 
@@ -194,19 +194,9 @@ export default function PronunciationTutorPage() {
           return null;
         });
         try {
-          const wavBlob = await blobToWavBlob(blob);
-          const form = new FormData();
-          form.append("audio", wavBlob, "recording.wav");
-          form.append("target_text", targetWord);
-          form.append("user_id", "default");
-
-          const res = await fetch("/api/sabdakrida/session", {
-            method: "POST",
-            body: form,
-          });
-          const data = await res.json();
-          if (!res.ok) {
-            setBackendError(data?.error ?? "Assessment failed");
+          const data = await assessPronunciation(blob, targetWord, "default");
+          if (data.error) {
+            setBackendError(data.error);
             return;
           }
           setResult(data);

@@ -1,0 +1,4 @@
+# DHCD training pipeline
+tensorflow>=2.15
+tensorflowjs>=4.0
+numpy>=1.24

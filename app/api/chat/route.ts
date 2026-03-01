@@ -16,18 +16,29 @@ export async function POST(req: Request) {
   }
 
   try {
-    const { messages } = await req.json();
+    const body = await req.json();
+    const { messages, systemPrompt } = body as { messages?: Array<{ role: string; content: string }>; systemPrompt?: string };
     if (!Array.isArray(messages) || messages.length === 0) {
-      return new Response(JSON.stringify({ error: "Missing 'messages' array" }), {
+      return new Response(JSON.stringify({ error: "Missing 'messages' array with at least one message" }), {
         status: 400,
         headers: { "Content-Type": "application/json" },
       });
     }
 
+    const defaultSystem = `You are the search/help function inside a Sanskrit learning app. Be direct and sharp. No fluff.
+
+CONTEXT: You operate within a Sanskrit app. Most queries are Sanskrit-related: grammar, vocabulary, pronunciation, roots, sandhi, etc. Users expect quick, verified answers.
+
+OUTPUT:
+- Use IAST (e.g. gacchati, √gam) and Devanagari (e.g. गच्छति, √गम्) when discussing Sanskrit.
+- Give correct, attested answers. Prefer canonical sources: Whitney's Sanskrit Grammar for grammar; standard pratyāhāras, dhātus, and declensions.
+- Be concise. Answer the question, then stop. If they need more, they'll ask.
+- For grammar: cite rule or pattern when helpful (e.g. Whitney §X, or "Pāṇini's system").
+- If unsure, say so. Don't invent.`;
+
     const systemMsg = {
       role: "system" as const,
-      content:
-        "You are a helpful Sanskrit and grammar assistant. Answer concisely. Use Devanagari (e.g. अ आ) when discussing Sanskrit sounds or words. Be warm and clear.",
+      content: typeof systemPrompt === "string" && systemPrompt.trim() ? systemPrompt.trim() : defaultSystem,
     };
     const allMessages = [systemMsg, ...messages];
 

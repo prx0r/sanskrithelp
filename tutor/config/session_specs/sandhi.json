@@ -1,0 +1,71 @@
+{
+  "zone_id": "sandhi",
+  "label": "Sandhi",
+  "strict_constraints": {
+    "do": ["vowel sandhi (savarṇa dīrgha, guṇa, vṛddhi, yāṇ, āyādi)", "visarga sandhi", "consonant sandhi at word boundaries"],
+    "do_not": ["full verb paradigms", "compound analysis (Zone 10)"]
+  },
+  "levels": [
+    {
+      "level": 1,
+      "objectives": ["Apply savarṇa-dīrgha sandhi: ca + āgacchati → cāgacchati"],
+      "pass_criteria": {"conceptual": null, "production": ["correct output", "rule stated"], "pronunciation": true},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "tts_voice": true,
+      "remedial_on_fail": {"prerequisite_zones": ["phonetics", "gradation"], "retry_variant": "level_1_v2"}
+    },
+    {
+      "level": 2,
+      "objectives": ["Apply guṇa sandhi: upa + indra → upendra"],
+      "pass_criteria": {"conceptual": null, "production": ["correct output"], "pronunciation": true},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "tts_voice": true,
+      "remedial_on_fail": {"prerequisite_zones": ["phonetics", "gradation"], "retry_variant": "level_2_v2"}
+    },
+    {
+      "level": 3,
+      "objectives": ["Apply visarga sandhi in 3 different environments"],
+      "pass_criteria": {"conceptual": null, "production": ["3/3 correct"], "pronunciation": null},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "tts_voice": false,
+      "remedial_on_fail": {"prerequisite_zones": ["phonetics", "gradation"], "retry_variant": "level_3_v2"}
+    },
+    {
+      "level": 4,
+      "objectives": ["Given a sandhi'd string, reverse-engineer the original two words (sandhi-viccheda)"],
+      "pass_criteria": {"conceptual": null, "production": ["correct separation in 4/5 cases"], "pronunciation": null},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "tts_voice": false,
+      "remedial_on_fail": {"prerequisite_zones": ["phonetics", "gradation"], "retry_variant": "level_4_v2"}
+    },
+    {
+      "level": 5,
+      "objectives": ["Read aloud a 3-word Sanskrit phrase with correct sandhi pronunciation"],
+      "pass_criteria": {"conceptual": null, "production": null, "pronunciation": true},
+      "assessment_type": "pronunciation",
+      "pass_threshold": 0.75,
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "tts_voice": true,
+      "remedial_on_fail": {"prerequisite_zones": ["phonetics", "gradation"], "retry_variant": "level_5_v2"}
+    },
+    {
+      "level": 6,
+      "objectives": ["Explain which pratyāhāra class (from Zone 1) determines a given sandhi rule"],
+      "pass_criteria": {"conceptual": ["correctly links rule to sound class (e.g., iK → y before unlike vowel)"], "production": null, "pronunciation": null},
+      "assessment_type": "conceptual",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "tts_voice": false,
+      "remedial_on_fail": {"prerequisite_zones": ["compression", "phonetics", "gradation"], "retry_variant": "level_6_v2"}
+    }
+  ]
+}

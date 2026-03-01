@@ -1,0 +1,80 @@
+{
+  "zone_id": "compounds",
+  "label": "Compounds (Samāsa)",
+  "strict_constraints": {
+    "do": ["dvandva", "tatpuruṣa", "karmadhāraya", "bahuvrīhi", "avyayībhāva", "dvigu", "vigraha (compound resolution)", "sandhi at compound junctions"],
+    "do_not": ["vedic compounds", "completely novel grammar concepts"]
+  },
+  "levels": [
+    {
+      "level": 1,
+      "objectives": ["Name all 6 samāsa types with one example each"],
+      "pass_criteria": {"conceptual": null, "production": ["all 6 correct with valid examples"], "pronunciation": null},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "tts_voice": false,
+      "remedial_on_fail": {"prerequisite_zones": ["sandhi", "karakas"], "retry_variant": "level_1_v2"}
+    },
+    {
+      "level": 2,
+      "objectives": ["Given a tatpuruṣa compound, provide vigraha (resolution)"],
+      "pass_criteria": {"conceptual": null, "production": ["correct vigraha for 3/3 examples"], "pronunciation": null},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "tts_voice": false,
+      "remedial_on_fail": {"prerequisite_zones": ["sandhi", "karakas"], "retry_variant": "level_2_v2"}
+    },
+    {
+      "level": 3,
+      "objectives": ["Identify the compound type of 6 mixed compounds"],
+      "pass_criteria": {"conceptual": null, "production": ["5/6 correct"], "pronunciation": null},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "tts_voice": false,
+      "remedial_on_fail": {"prerequisite_zones": ["sandhi", "karakas"], "retry_variant": "level_3_v2"}
+    },
+    {
+      "level": 4,
+      "objectives": ["Form a dvandva from two given nouns with correct sandhi"],
+      "pass_criteria": {"conceptual": null, "production": ["correct compound", "correct sandhi at junction"], "pronunciation": true},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "tts_voice": true,
+      "remedial_on_fail": {"prerequisite_zones": ["sandhi", "karakas"], "retry_variant": "level_4_v2"}
+    },
+    {
+      "level": 5,
+      "objectives": ["Identify and resolve a bahuvrīhi compound in a sentence context"],
+      "pass_criteria": {"conceptual": null, "production": ["correct identification", "accurate semantic resolution"], "pronunciation": null},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "tts_voice": false,
+      "remedial_on_fail": {"prerequisite_zones": ["sandhi", "karakas"], "retry_variant": "level_5_v2"}
+    },
+    {
+      "level": 6,
+      "objectives": ["Construct a tatpuruṣa and a karmadhāraya from given elements, with vigraha"],
+      "pass_criteria": {"conceptual": null, "production": ["both correct — compound form + vigraha"], "pronunciation": true},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 20,
+      "tts_voice": true,
+      "remedial_on_fail": {"prerequisite_zones": ["sandhi", "karakas"], "retry_variant": "level_6_v2"}
+    },
+    {
+      "level": 7,
+      "objectives": ["Analyse a 3-member compound: split all junctions, apply vigraha, state compound type"],
+      "pass_criteria": {"conceptual": null, "production": ["all junctions + type correct"], "pronunciation": null},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 20,
+      "tts_voice": false,
+      "remedial_on_fail": {"prerequisite_zones": ["sandhi", "karakas"], "retry_variant": "level_7_v2"}
+    }
+  ]
+}

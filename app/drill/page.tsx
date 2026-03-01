@@ -20,8 +20,8 @@ import {
   getMixedOptions,
   getSameGroupRomanOptions,
 } from "@/lib/drillUtils";
-import { blobToWavBlob } from "@/lib/audioUtils";
-import { matchByPixels } from "@/lib/drawRecognize";
+import { assessPronunciation } from "@/lib/pronunciationAssessment";
+import { assessDrawing } from "@/lib/drawAssessment";
 import { DrawCanvas, type DrawCanvasHandle } from "@/components/DrawCanvas";
 import { Volume2, Loader2, Ear, Mic, Pencil, Sparkles, CheckCircle, XCircle, ChevronDown } from "lucide-react";
 import type { Phoneme, DrillMode } from "@/lib/types";
@@ -352,29 +352,25 @@ export default function DrillPage() {
 
   const handleChoice = useCallback((p: Phoneme) => setChoice(p), []);
 
-  const handleDrawCheck = useCallback(() => {
+  const handleDrawCheck = useCallback(async () => {
     if (!currentPhoneme || !drawHasDrawn) return;
     const canvas = drawCanvasRef.current?.getCanvas();
-    if (!canvas || options.length === 0) return;
+    if (!canvas) return;
     setAssessing(true);
     setDrawResult(null);
-    requestAnimationFrame(() => {
-      try {
-        const matched = matchByPixels(canvas, options.map((p) => ({ devanagari: p.devanagari, id: p.id })));
-        const predicted = matched?.devanagari ?? null;
-        const correct = predicted === currentPhoneme.devanagari;
-        setDrawResult({
-          predicted,
-          correct,
-          error: !matched ? "Draw more clearly and try again." : undefined,
-        });
-      } catch {
-        setDrawResult({ predicted: null, correct: false, error: "Recognition failed" });
-      } finally {
-        setAssessing(false);
-      }
-    });
-  }, [currentPhoneme, drawHasDrawn, options]);
+    try {
+      const result = await assessDrawing(canvas, currentPhoneme.devanagari, "char");
+      setDrawResult({
+        predicted: result.predicted,
+        correct: result.correct,
+        error: result.error ?? (!result.correct && result.predicted ? undefined : "Draw more clearly and try again."),
+      });
+    } catch {
+      setDrawResult({ predicted: null, correct: false, error: "Recognition failed" });
+    } finally {
+      setAssessing(false);
+    }
+  }, [currentPhoneme, drawHasDrawn]);
 
   const handleRecord = useCallback(async () => {
     if (recording) {
@@ -393,26 +389,14 @@ export default function DrillPage() {
           setAssessing(true);
           setSayResult(null);
           try {
-            const wavBlob = await blobToWavBlob(blob);
-            const form = new FormData();
-            form.append("audio", wavBlob, "recording.wav");
-            form.append("target_text", currentPhoneme.iast);
-            form.append("user_id", "local");
-            const res = await fetch("/api/sabdakrida/session", { method: "POST", body: form });
-            const data = await res.json();
-            if (res.ok) {
-              setSayResult({
-                correct: data.correct ?? false,
-                heard: data.heard,
-                heard_iast: data.heard_iast ?? data.heard,
-                feedback_english: data.feedback_english,
-                score: data.score,
-              });
-            } else {
-              setSayResult({ correct: false, heard: data?.error ?? "Assessment failed" });
-            }
-          } catch {
-            setSayResult({ correct: false, heard: "Backend unavailable. Run Sabdakrida on port 8010." });
+            const result = await assessPronunciation(blob, currentPhoneme.iast);
+            setSayResult({
+              correct: result.correct,
+              heard: result.error ?? result.heard,
+              heard_iast: result.heard_iast,
+              feedback_english: result.feedback_english,
+              score: result.score,
+            });
           } finally {
             setAssessing(false);
           }

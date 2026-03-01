@@ -1,22 +1,60 @@
 {
   "zone_id": "compression",
   "label": "Pratyāhāras",
+  "strict_constraints": {
+    "do": ["pratyāhāras (ac, hal, iK, eN, aK, aN, yaṆ)", "Śivasūtras", "sound-class logic"],
+    "do_not": ["verb conjugation", "dhātus", "√gam", "गच्छति", "present tense", "sandhi rules beyond sound-class membership"]
+  },
   "levels": [
     {
       "level": 1,
-      "objectives": ["Define pratyāhāra in own words", "Give one example (e.g. ac, hal)"],
-      "pass_criteria": {
-        "conceptual": [
-          "mentions shorthand or abbreviation for sound class",
-          "gives at least one valid pratyāhāra example"
-        ],
-        "production": null,
-        "pronunciation": null
-      },
+      "objectives": ["Define pratyāhāra in own words", "Explain why Pāṇini invented them"],
+      "pass_criteria": {"conceptual": ["correct definition", "motivation in 2 sentences"], "production": null, "pronunciation": null},
       "assessment_type": "conceptual",
       "format": "chat",
       "max_duration_minutes": 15,
-      "remedial_on_fail": { "prerequisite_zones": [], "retry_variant": "level_1_v2" }
+      "tts_voice": false,
+      "remedial_on_fail": {"prerequisite_zones": [], "retry_variant": "level_1_v2"}
+    },
+    {
+      "level": 2,
+      "objectives": ["Name the 14 Śivasūtras in order (at least first 5)"],
+      "pass_criteria": {"conceptual": null, "production": ["recites first 5 with correct vowel/consonant labels"], "pronunciation": true},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "tts_voice": true,
+      "remedial_on_fail": {"prerequisite_zones": [], "retry_variant": "level_2_v2"}
+    },
+    {
+      "level": 3,
+      "objectives": ["Given a pratyāhāra (e.g. ac), list all phonemes it includes"],
+      "pass_criteria": {"conceptual": null, "production": ["lists all vowels for ac", "all consonants for hal"], "pronunciation": null},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "tts_voice": false,
+      "remedial_on_fail": {"prerequisite_zones": [], "retry_variant": "level_3_v2"}
+    },
+    {
+      "level": 4,
+      "objectives": ["Given a phoneme (e.g. i), name which pratyāhāras it belongs to"],
+      "pass_criteria": {"conceptual": null, "production": ["identifies ≥3 correct pratyāhāras containing i"], "pronunciation": null},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "tts_voice": false,
+      "remedial_on_fail": {"prerequisite_zones": [], "retry_variant": "level_4_v2"}
+    },
+    {
+      "level": 5,
+      "objectives": ["Explain the iK pratyāhāra and its role in sandhi rules (conceptual only)"],
+      "pass_criteria": {"conceptual": ["correctly states iK = i, u, ṛ, ḷ without naming sandhi rules"], "production": null, "pronunciation": null},
+      "assessment_type": "conceptual",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "tts_voice": false,
+      "remedial_on_fail": {"prerequisite_zones": [], "retry_variant": "level_5_v2"}
     }
   ]
 }

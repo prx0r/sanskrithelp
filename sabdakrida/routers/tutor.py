@@ -57,6 +57,45 @@ async def get_session_spec(zone_id: str, level: int):
     return spec
 
 
+@router.get("/profile/{user_id}")
+async def get_profile(user_id: str):
+    """Tutor profile: zone_levels, retry counts."""
+    if not _tutor_available():
+        return {"error": "Tutor module not available"}
+    from tutor.profile import load_tutor_profile
+    profile = load_tutor_profile(user_id)
+    return {
+        "zone_levels": profile.zone_levels,
+        "level_retry_counts": profile.level_retry_counts,
+    }
+
+
+@router.get("/pathway/{zone_id}")
+async def get_pathway(zone_id: str):
+    """All levels for a zone: pathway view with objectives."""
+    if not _tutor_available():
+        return {"error": "Tutor module not available"}
+    import json
+    from pathlib import Path
+    path = Path(__file__).resolve().parent.parent.parent / "tutor" / "config" / "session_specs" / f"{zone_id}.json"
+    if not path.exists():
+        return {"error": f"No pathway for {zone_id}"}
+    data = json.loads(path.read_text(encoding="utf-8"))
+    levels = data.get("levels", [])
+    return {
+        "zone_id": zone_id,
+        "label": data.get("label", zone_id),
+        "levels": [
+            {
+                "level": lvl.get("level"),
+                "objectives": lvl.get("objectives", []),
+                "assessment_type": lvl.get("assessment_type", "conceptual"),
+            }
+            for lvl in levels
+        ],
+    }
+
+
 @router.post("/session/start")
 async def session_start(
     user_id: str = Form(default="default"),

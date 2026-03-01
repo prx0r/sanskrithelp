@@ -1,0 +1,60 @@
+{
+  "zone_id": "suffixes",
+  "label": "Suffixes (Kṛt & Taddhita)",
+  "strict_constraints": {
+    "do": ["kṛt suffixes (a, ana, tar, tṛ, ya, tavya, anīya, ta)", "taddhita (tva, tā, mat, vat)", "agent/action/adjective derivation"],
+    "do_not": ["full sandhi during derivation (state the rule but don't drill)", "case analysis"]
+  },
+  "levels": [
+    {
+      "level": 1,
+      "objectives": ["Define kṛt and taddhita", "Give one example each"],
+      "pass_criteria": {"conceptual": ["correct definitions", "valid examples"], "production": null, "pronunciation": null},
+      "assessment_type": "conceptual",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "tts_voice": false,
+      "remedial_on_fail": {"prerequisite_zones": ["roots"], "retry_variant": "level_1_v2"}
+    },
+    {
+      "level": 2,
+      "objectives": ["Given √gam, derive: agent (gamaka/gantṛ), action (gamana), gerundive (gantavya)"],
+      "pass_criteria": {"conceptual": null, "production": ["all 3 correct with suffix identified"], "pronunciation": true},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "tts_voice": true,
+      "remedial_on_fail": {"prerequisite_zones": ["roots"], "retry_variant": "level_2_v2"}
+    },
+    {
+      "level": 3,
+      "objectives": ["Given a kṛt-derived form (e.g. bodhana), identify the root and suffix"],
+      "pass_criteria": {"conceptual": null, "production": ["root + suffix both correct in 4/5 cases"], "pronunciation": null},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "tts_voice": false,
+      "remedial_on_fail": {"prerequisite_zones": ["roots"], "retry_variant": "level_3_v2"}
+    },
+    {
+      "level": 4,
+      "objectives": ["Derive abstract noun using tva and tā from 3 adjectives"],
+      "pass_criteria": {"conceptual": null, "production": ["3/3 correct (e.g. sundara → sundara-tva)"], "pronunciation": null},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "tts_voice": false,
+      "remedial_on_fail": {"prerequisite_zones": ["roots"], "retry_variant": "level_4_v2"}
+    },
+    {
+      "level": 5,
+      "objectives": ["Identify the suffix type (agent/action/adjective/abstract) for 8 derived forms"],
+      "pass_criteria": {"conceptual": null, "production": ["6/8 correct"], "pronunciation": null},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "tts_voice": false,
+      "remedial_on_fail": {"prerequisite_zones": ["roots"], "retry_variant": "level_5_v2"}
+    }
+  ]
+}

@@ -114,6 +114,11 @@ async def draw_recognize(image: UploadFile = File(...)):
             {"error": "Draw recognition requires tensorflow, numpy, Pillow", "predicted": None},
             status_code=501,
         )
+    except FileNotFoundError as e:
+        return JSONResponse(
+            {"error": str(e), "predicted": None},
+            status_code=501,
+        )
     if result:
         return {"predicted": result["predicted"], "score": result.get("score")}
     return JSONResponse(

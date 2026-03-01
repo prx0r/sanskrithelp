@@ -1,0 +1,60 @@
+{
+  "zone_id": "gradation",
+  "label": "Guṇa / Vṛddhi",
+  "strict_constraints": {
+    "do": ["Guṇa table (a→a, i→e, u→o, ṛ→ar)", "Vṛddhi table (a→ā, i→ai, u→au, ṛ→ār)", "application to given vowels"],
+    "do_not": ["full sandhi rules", "verb paradigms", "case endings"]
+  },
+  "levels": [
+    {
+      "level": 1,
+      "objectives": ["State the guṇa and vṛddhi of any of the 4 base vowels (i, u, ṛ, a)"],
+      "pass_criteria": {"conceptual": null, "production": ["all 4 pairs correct without prompting"], "pronunciation": null},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "tts_voice": false,
+      "remedial_on_fail": {"prerequisite_zones": ["phonetics"], "retry_variant": "level_1_v2"}
+    },
+    {
+      "level": 2,
+      "objectives": ["Identify guṇa or vṛddhi strengthening in a given word form"],
+      "pass_criteria": {"conceptual": null, "production": ["correctly identifies operation in 5/5 examples"], "pronunciation": null},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "tts_voice": false,
+      "remedial_on_fail": {"prerequisite_zones": ["phonetics"], "retry_variant": "level_2_v2"}
+    },
+    {
+      "level": 3,
+      "objectives": ["Explain why guṇa applies in a specific grammatical context (e.g., present tense thematic vowel)"],
+      "pass_criteria": {"conceptual": ["correct context", "vowel change stated"], "production": null, "pronunciation": null},
+      "assessment_type": "conceptual",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "tts_voice": false,
+      "remedial_on_fail": {"prerequisite_zones": ["phonetics"], "retry_variant": "level_3_v2"}
+    },
+    {
+      "level": 4,
+      "objectives": ["Given root √budh (u), derive its guṇa-grade stem"],
+      "pass_criteria": {"conceptual": null, "production": ["produces 'bodh' correctly"], "pronunciation": true},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "tts_voice": true,
+      "remedial_on_fail": {"prerequisite_zones": ["phonetics"], "retry_variant": "level_4_v2"}
+    },
+    {
+      "level": 5,
+      "objectives": ["Given 5 mixed forms, identify each as base / guṇa / vṛddhi grade"],
+      "pass_criteria": {"conceptual": null, "production": ["5/5 correct"], "pronunciation": null},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "tts_voice": false,
+      "remedial_on_fail": {"prerequisite_zones": ["phonetics"], "retry_variant": "level_5_v2"}
+    }
+  ]
+}

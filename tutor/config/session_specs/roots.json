@@ -1,91 +1,86 @@
 {
   "zone_id": "roots",
   "label": "Dhātus",
+  "strict_constraints": {
+    "do": ["dhātu definition", "√gam", "√bhū", "√kṛ", "√vad", "√pat", "present tense 3rd person forms", "gaṇa (verb class)", "vikaraṇa (class suffix)"],
+    "do_not": ["sandhi rules (handle only if directly caused by verb derivation)", "kāraka analysis", "compound splitting"]
+  },
   "levels": [
     {
       "level": 1,
-      "objectives": ["Define dhātu in own words", "Give one example of a root and a derived form"],
-      "pass_criteria": {
-        "conceptual": [
-          "mentions verbal root or equivalent",
-          "distinguishes root from inflected form",
-          "gives at least one correct example"
-        ],
-        "production": null,
-        "pronunciation": null
-      },
+      "objectives": ["Define dhātu in own words", "Give one root and one derived form"],
+      "pass_criteria": {"conceptual": ["correct definition", "valid example"], "production": null, "pronunciation": null},
       "assessment_type": "conceptual",
       "format": "chat",
       "max_duration_minutes": 15,
-      "retrieval_context": { "zone": "roots", "max_difficulty": 1 },
-      "remedial_on_fail": {
-        "prerequisite_zones": ["phonetics", "gradation"],
-        "retry_variant": "level_1_v2"
-      }
+      "tts_voice": false,
+      "retrieval_context": {"zone": "roots", "max_difficulty": 1},
+      "remedial_on_fail": {"prerequisite_zones": ["phonetics", "gradation"], "retry_variant": "level_1_v2"}
     },
     {
       "level": 2,
-      "objectives": ["Identify the root in given inflected form", "Name the root for गच्छति"],
-      "pass_criteria": {
-        "conceptual": null,
-        "production": ["correct_root_for_gacchati"],
-        "pronunciation": null
-      },
+      "objectives": ["Identify the root in गच्छति (gacchati)", "Name the root"],
+      "pass_criteria": {"conceptual": null, "production": ["identifies √gam", "explains stem change gam → gacch"], "pronunciation": null},
       "assessment_type": "production",
       "format": "chat",
       "max_duration_minutes": 15,
-      "retrieval_context": { "zone": "roots", "max_difficulty": 2 },
-      "remedial_on_fail": {
-        "prerequisite_zones": ["phonetics"],
-        "retry_variant": "level_2_v2"
-      }
+      "tts_voice": false,
+      "retrieval_context": {"zone": "roots", "max_difficulty": 2},
+      "remedial_on_fail": {"prerequisite_zones": ["phonetics"], "retry_variant": "level_2_v2"}
     },
     {
       "level": 3,
-      "objectives": ["Produce 3 valid forms from √bhū"],
-      "pass_criteria": {
-        "conceptual": null,
-        "production": ["produces_3_valid_forms", "root_bhu"],
-        "pronunciation": null
-      },
+      "objectives": ["Produce all 3 persons of singular present tense of √gam (class 1)"],
+      "pass_criteria": {"conceptual": null, "production": ["gacchāmi", "gacchasi", "gacchati — all correct"], "pronunciation": true},
       "assessment_type": "production",
       "format": "chat",
       "max_duration_minutes": 15,
-      "retrieval_context": { "zone": "roots", "max_difficulty": 2 },
-      "remedial_on_fail": {
-        "prerequisite_zones": ["gradation"],
-        "retry_variant": "level_3_v2"
-      }
+      "tts_voice": true,
+      "retrieval_context": {"zone": "roots", "max_difficulty": 2},
+      "remedial_on_fail": {"prerequisite_zones": ["gradation"], "retry_variant": "level_3_v2"}
     },
     {
       "level": 4,
-      "objectives": ["Produce present 3rd person singular of √gam"],
-      "pass_criteria": {
-        "conceptual": null,
-        "production": ["gacchati"],
-        "pronunciation": null
-      },
+      "objectives": ["Produce present tense 3rd person singular of √bhū, √vad, √pat"],
+      "pass_criteria": {"conceptual": null, "production": ["bhavati", "vadati", "patati — all correct"], "pronunciation": true},
       "assessment_type": "production",
       "format": "chat",
       "max_duration_minutes": 15,
-      "retrieval_context": { "zone": "roots", "max_difficulty": 3 },
-      "remedial_on_fail": {
-        "prerequisite_zones": ["roots"],
-        "retry_variant": "level_4_v2"
-      }
+      "tts_voice": true,
+      "retrieval_context": {"zone": "roots", "max_difficulty": 3},
+      "remedial_on_fail": {"prerequisite_zones": ["roots"], "retry_variant": "level_4_v2"}
     },
     {
       "level": 5,
-      "objectives": ["Produce 5 forms from √kṛ across different tenses/moods"],
-      "pass_criteria": {
-        "conceptual": null,
-        "production": ["produces_5_valid_forms", "root_kri"],
-        "pronunciation": null
-      },
+      "objectives": ["Produce 3 valid forms from √bhū across different persons/numbers"],
+      "pass_criteria": {"conceptual": null, "production": ["any 3 valid forms from present paradigm"], "pronunciation": true},
       "assessment_type": "production",
       "format": "chat",
       "max_duration_minutes": 15,
-      "retrieval_context": { "zone": "roots", "max_difficulty": 3 }
+      "tts_voice": true,
+      "retrieval_context": {"zone": "roots", "max_difficulty": 3},
+      "remedial_on_fail": {"prerequisite_zones": ["roots"], "retry_variant": "level_5_v2"}
+    },
+    {
+      "level": 6,
+      "objectives": ["Identify the gaṇa (class) of 5 given roots from a mixed list"],
+      "pass_criteria": {"conceptual": null, "production": ["4/5 correct gaṇa identification"], "pronunciation": null},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "tts_voice": false,
+      "retrieval_context": {"zone": "roots", "max_difficulty": 3},
+      "remedial_on_fail": {"prerequisite_zones": ["roots"], "retry_variant": "level_6_v2"}
+    },
+    {
+      "level": 7,
+      "objectives": ["Produce 5 forms from √kṛ across present tense, all 3 persons singular"],
+      "pass_criteria": {"conceptual": null, "production": ["karomi", "karoṣi", "karoti", "plus 2 additional valid forms"], "pronunciation": true},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "tts_voice": true,
+      "retrieval_context": {"zone": "roots", "max_difficulty": 3}
     }
   ]
 }

@@ -1,0 +1,70 @@
+{
+  "zone_id": "karakas",
+  "label": "Kārakas",
+  "strict_constraints": {
+    "do": ["all 6 karakas", "sambandha (genitive relation)", "amantrita (vocative)", "case ending tables for a-stem masculine/neuter and a-stem feminine"],
+    "do_not": ["compound splitting", "secondary derivation", "complex sandhi across case endings"]
+  },
+  "levels": [
+    {
+      "level": 1,
+      "objectives": ["Name all 6 karakas and their approximate English equivalents"],
+      "pass_criteria": {"conceptual": null, "production": ["all 6 correct"], "pronunciation": null},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "tts_voice": false,
+      "remedial_on_fail": {"prerequisite_zones": ["words"], "retry_variant": "level_1_v2"}
+    },
+    {
+      "level": 2,
+      "objectives": ["Given a simple Sanskrit sentence, identify the kartr and karman"],
+      "pass_criteria": {"conceptual": null, "production": ["both correct in 3/3 sentences"], "pronunciation": null},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "tts_voice": false,
+      "remedial_on_fail": {"prerequisite_zones": ["words"], "retry_variant": "level_2_v2"}
+    },
+    {
+      "level": 3,
+      "objectives": ["Apply correct case ending for a-stem masculine noun in nominative, accusative, instrumental"],
+      "pass_criteria": {"conceptual": null, "production": ["3/3 forms correct (rama / ramam / ramena)"], "pronunciation": true},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "tts_voice": true,
+      "remedial_on_fail": {"prerequisite_zones": ["words"], "retry_variant": "level_3_v2"}
+    },
+    {
+      "level": 4,
+      "objectives": ["Apply all 8 cases to a single a-stem masculine noun (rama)"],
+      "pass_criteria": {"conceptual": null, "production": ["7/8 correct (sambandha allowed one error)"], "pronunciation": true},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 20,
+      "tts_voice": true,
+      "remedial_on_fail": {"prerequisite_zones": ["words"], "retry_variant": "level_4_v2"}
+    },
+    {
+      "level": 5,
+      "objectives": ["In a given sentence, identify the karaka of every noun and justify the case used"],
+      "pass_criteria": {"conceptual": ["all nouns correctly labelled with justification"], "production": null, "pronunciation": null},
+      "assessment_type": "conceptual",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "tts_voice": false,
+      "remedial_on_fail": {"prerequisite_zones": ["words"], "retry_variant": "level_5_v2"}
+    },
+    {
+      "level": 6,
+      "objectives": ["Translate 3 simple sentences from English to Sanskrit using correct case endings"],
+      "pass_criteria": {"conceptual": null, "production": ["all 3 grammatically correct (case accuracy primary metric)"], "pronunciation": true},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 20,
+      "tts_voice": true,
+      "remedial_on_fail": {"prerequisite_zones": ["words"], "retry_variant": "level_6_v2"}
+    }
+  ]
+}

@@ -40,6 +40,7 @@ __pycache__/
 *.so
 .Python
 venv/
+.venv-tfjs/
 ENV/
 *.egg-info/
 
@@ -57,6 +58,10 @@ google-tts-credentials.json
 # ML models (too large for git)
 *.safetensors
 tokenizer.model
+ml/dhcd/data/
+ml/dhcd/model_char.h5
+ml/word/data/
+ml/word/model_word.h5
 
 # RAG/vector DB (can be regenerated, exceeds GitHub 100MB limit)
 sanskrit_db/

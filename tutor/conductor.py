@@ -125,6 +125,7 @@ def submit_session(
             "passed": True,
             "feedback": feedback,
             "zone_level": profile.zone_levels.get(zone_id, level),
+            "meta": meta,
         }
 
     retries = profile.increment_retry(zone_id, level)
@@ -140,4 +141,5 @@ def submit_session(
         "retries_remaining": 3 - retries,
         "remedial": remedial if retries >= 3 else None,
         "meta": meta,
+        "criteria_missed": meta.get("criteria_missed", []) if isinstance(meta, dict) else [],
     }

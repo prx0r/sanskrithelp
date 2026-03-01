@@ -1,0 +1,60 @@
+{
+  "zone_id": "words",
+  "label": "Words",
+  "strict_constraints": {
+    "do": ["nominal stems (a-stem, ā-stem, i-stem)", "gender (liṅga)", "semantic fields", "basic case concept (vibhakti) as label only — no full declension"],
+    "do_not": ["full case paradigms (requires Kārakas)", "sandhi across words", "compound analysis"]
+  },
+  "levels": [
+    {
+      "level": 1,
+      "objectives": ["Give the Sanskrit word for 10 basic nouns (body: karaḥ, netraṃ, etc.)"],
+      "pass_criteria": {"conceptual": null, "production": ["8/10 correct with correct gender"], "pronunciation": true},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "tts_voice": true,
+      "remedial_on_fail": {"prerequisite_zones": [], "retry_variant": "level_1_v2"}
+    },
+    {
+      "level": 2,
+      "objectives": ["Identify the stem class (a/ā/i/u-stem) of 8 given nouns"],
+      "pass_criteria": {"conceptual": null, "production": ["6/8 correct"], "pronunciation": null},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "tts_voice": false,
+      "remedial_on_fail": {"prerequisite_zones": [], "retry_variant": "level_2_v2"}
+    },
+    {
+      "level": 3,
+      "objectives": ["Give the gender of 10 common nouns"],
+      "pass_criteria": {"conceptual": null, "production": ["8/10 correct"], "pronunciation": null},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "tts_voice": false,
+      "remedial_on_fail": {"prerequisite_zones": [], "retry_variant": "level_3_v2"}
+    },
+    {
+      "level": 4,
+      "objectives": ["Translate 5 simple Sanskrit noun phrases (nominative only) into English"],
+      "pass_criteria": {"conceptual": null, "production": ["4/5 correct meaning"], "pronunciation": true},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "tts_voice": true,
+      "remedial_on_fail": {"prerequisite_zones": [], "retry_variant": "level_4_v2"}
+    },
+    {
+      "level": 5,
+      "objectives": ["Recall 20 high-frequency words from spaced-repetition deck without hint"],
+      "pass_criteria": {"conceptual": null, "production": ["16/20 correct within 30 seconds each"], "pronunciation": true},
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 20,
+      "tts_voice": true,
+      "remedial_on_fail": {"prerequisite_zones": [], "retry_variant": "level_5_v2"}
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+# Word CRNN training
+tensorflow>=2.15
+tensorflowjs>=4.0
+numpy>=1.24
+Pillow>=10.0
