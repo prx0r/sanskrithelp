@@ -89,16 +89,16 @@ function DrawArea({
   const handleRecognize = useCallback(async () => {
     const canvas = canvasRef.current;
     if (!canvas) return;
-    const r = await recognizeDrawing(canvas, mode);
-    if (r) {
+    const { result, error } = await recognizeDrawing(canvas, mode);
+    if (result) {
       if (mode === "char") {
-        onRecognize({ char: r.predicted, confidence: r.confidence, classIndex: 0 } as CharResult);
+        onRecognize({ char: result.predicted, confidence: result.confidence, classIndex: 0 } as CharResult);
       } else {
-        onRecognize({ text: r.predicted, confidence: r.confidence } as WordResult);
+        onRecognize({ text: result.predicted, confidence: result.confidence } as WordResult);
       }
       return;
     }
-    onError?.("Recognition failed. Check CHUTES_API_KEY in .env.local");
+    onError?.(error ?? "Recognition failed. No Devanagari detected — try drawing more clearly or check server logs.");
   }, [mode, onRecognize, onError]);
 
   return (
@@ -155,9 +155,14 @@ export default function DrawPage() {
 
   return (
     <div className="min-h-screen p-6 max-w-2xl mx-auto">
-      <Link href="/" className="text-sm text-muted-foreground hover:text-foreground mb-4 inline-block">
-        ← Back
-      </Link>
+      <div className="flex gap-4 mb-4">
+        <Link href="/" className="text-sm text-muted-foreground hover:text-foreground">
+          ← Back
+        </Link>
+        <Link href="/draw/references" className="text-sm text-primary hover:underline">
+          Draw reference characters
+        </Link>
+      </div>
       <h1 className="text-2xl font-bold mb-2">Devanagari Recognition</h1>
       <p className="text-muted-foreground text-sm mb-6">
         Draw a character or word. Uses Chutes vision API — no local models. Requires{" "}

@@ -1,12 +1,13 @@
 /**
  * Pronunciation assessment — record audio, send to Sabdakrida, get feedback.
  * Reusable for drill (say mode), pronunciation page, and anywhere voice assessment is needed.
+ * Falls back to Chutes Whisper when Sabdakrida is unavailable.
  *
  * Usage:
  *   const result = await assessPronunciation(audioBlob, targetIast);
  */
 
-import { blobToWavBlob } from "@/lib/audioUtils";
+import { blobToWavBlob, blobToWavBase64 } from "@/lib/audioUtils";
 
 export interface PronunciationResult {
   correct: boolean;
@@ -67,14 +68,62 @@ export async function assessPronunciation(
         errors: data.errors,
       };
     }
+    const sabdakridaError = data.error ?? "Assessment failed";
+    const fallback = await assessPronunciationFallback(audioBlob, targetIast);
+    if (fallback) {
+      return { ...fallback, feedback_english: `(Chutes Whisper fallback — Sabdakrida: ${sabdakridaError})` };
+    }
+    return { correct: false, error: sabdakridaError };
+  } catch {
+    const fallback = await assessPronunciationFallback(audioBlob, targetIast);
+    if (fallback) {
+      return { ...fallback, feedback_english: "(Chutes Whisper fallback — Sabdakrida unavailable)" };
+    }
     return {
       correct: false,
-      error: data.error ?? "Assessment failed",
+      error: "Backend unavailable. Run Sabdakrida on port 8010, or set CHUTES_API_KEY for fallback.",
+    };
+  }
+}
+
+/** Normalize IAST for lenient comparison (retroflexes often transcribed as dentals by Whisper). */
+function normalizeForMatch(s: string): string {
+  const map: Record<string, string> = { ṭ: "t", ḍ: "d", ṇ: "n", ṣ: "s", ś: "s", ṅ: "n", ñ: "n", ṛ: "r", ṝ: "r", ḷ: "l" };
+  return s
+    .trim()
+    .toLowerCase()
+    .split("")
+    .map((c) => map[c] ?? c)
+    .join("")
+    .replace(/\s+/g, "");
+}
+
+/** Fallback: Chutes Whisper transcribe + simple match when Sabdakrida fails. */
+async function assessPronunciationFallback(
+  audioBlob: Blob,
+  targetIast: string
+): Promise<PronunciationResult | null> {
+  try {
+    const audioB64 = await blobToWavBase64(audioBlob);
+    const res = await fetch("/api/transcribe", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ audio_b64: audioB64, language: "hi" }),
+    });
+    const data = (await res.json()) as { text?: string; error?: string };
+    if (!res.ok || !data.text) return null;
+    const heard = (data.text as string).trim();
+    const heardNorm = normalizeForMatch(heard);
+    const targetNorm = normalizeForMatch(targetIast);
+    const correct = heardNorm === targetNorm || heardNorm.includes(targetNorm) || targetNorm.includes(heardNorm);
+    const score = correct ? 0.9 : Math.max(0.2, 0.6 - Math.abs(heardNorm.length - targetNorm.length) * 0.1);
+    return {
+      correct,
+      heard,
+      heard_iast: heard,
+      score,
     };
   } catch {
-    return {
-      correct: false,
-      error: "Backend unavailable. Run Sabdakrida on port 8010.",
-    };
+    return null;
   }
 }

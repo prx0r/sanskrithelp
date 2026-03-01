@@ -21,9 +21,11 @@ import {
   getSameGroupRomanOptions,
 } from "@/lib/drillUtils";
 import { assessPronunciation } from "@/lib/pronunciationAssessment";
-import { assessDrawing } from "@/lib/drawAssessment";
+import { isConfusable } from "@/lib/drawConfusables";
+import { matchByPixelsWithRefs } from "@/lib/drawRecognize";
+import { getReferenceDrawings } from "@/lib/referenceDrawings";
 import { DrawCanvas, type DrawCanvasHandle } from "@/components/DrawCanvas";
-import { Volume2, Loader2, Ear, Mic, Pencil, Sparkles, CheckCircle, XCircle, ChevronDown } from "lucide-react";
+import { Volume2, Loader2, Ear, Mic, Pencil, Sparkles, CheckCircle, XCircle, ChevronDown, Square } from "lucide-react";
 import type { Phoneme, DrillMode } from "@/lib/types";
 
 const phonemes = phonemesData as Phoneme[];
@@ -122,10 +124,16 @@ export default function DrillPage() {
   const [recording, setRecording] = useState(false);
   const [hasRecorded, setHasRecorded] = useState(false);
   const [assessing, setAssessing] = useState(false);
-  const [sayResult, setSayResult] = useState<{ correct: boolean; heard?: string; heard_iast?: string; feedback_english?: string; score?: number } | null>(null);
+  const [sayResult, setSayResult] = useState<{ correct: boolean; heard?: string; heard_iast?: string; feedback_english?: string; score?: number; error?: string } | null>(null);
   const [drawFlashShown, setDrawFlashShown] = useState(false);
   const [drawHasDrawn, setDrawHasDrawn] = useState(false);
-  const [drawResult, setDrawResult] = useState<{ predicted: string | null; correct: boolean; error?: string } | null>(null);
+  const [drawResult, setDrawResult] = useState<{
+    predicted: string | null;
+    correct: boolean;
+    error?: string;
+    debug?: Record<string, unknown>;
+  } | null>(null);
+  const [lastRecordingUrl, setLastRecordingUrl] = useState<string | null>(null);
   const [refreshKey, setRefreshKey] = useState(0);
   const drawCanvasRef = useRef<DrawCanvasHandle>(null);
   const mediaRecorderRef = useRef<MediaRecorder | null>(null);
@@ -182,6 +190,10 @@ export default function DrillPage() {
       setOptions([]);
       setHasRecorded(false);
       setSayResult(null);
+      setLastRecordingUrl((prev) => {
+        if (prev) URL.revokeObjectURL(prev);
+        return null;
+      });
       setDrawFlashShown(false);
     }
   }, [showLevelPicker, duePhonemes, sessionDeck.length, mode, cardStates]);
@@ -208,6 +220,10 @@ export default function DrillPage() {
       setChoice(null);
       setOptions([]);
       setHasRecorded(false);
+      setLastRecordingUrl((prev) => {
+        if (prev) URL.revokeObjectURL(prev);
+        return null;
+      });
     }
   }, [mode, sessionDeck.length, duePhonemes, combinedLevels.length, cardStates]);
 
@@ -253,10 +269,10 @@ export default function DrillPage() {
     choice,
   ]);
 
-  /** Autoplay when a new card is shown (hear, draw). */
+  /** Autoplay when a new card is shown (hear, say, draw). */
   useEffect(() => {
     if (!currentPhoneme || showLevelPicker) return;
-    if (effGroup !== "hear" && effGroup !== "draw") return;
+    if (effGroup !== "hear" && effGroup !== "say" && effGroup !== "draw") return;
     const play = async () => {
       setListenPlaying(true);
       try {
@@ -267,6 +283,9 @@ export default function DrillPage() {
         }
         if (effGroup === "draw") {
           setOptions(getMixedOptions(currentPhoneme, phonemes, 4));
+        }
+        if (effGroup === "say") {
+          setListenPlayed(true);
         }
       } finally {
         setListenPlaying(false);
@@ -304,6 +323,10 @@ export default function DrillPage() {
     setOptions([]);
     setHasRecorded(false);
     setSayResult(null);
+    setLastRecordingUrl((prev) => {
+      if (prev) URL.revokeObjectURL(prev);
+      return null;
+    });
     setDrawFlashShown(false);
     setDrawResult(null);
     drawCanvasRef.current?.clear();
@@ -358,19 +381,69 @@ export default function DrillPage() {
     if (!canvas) return;
     setAssessing(true);
     setDrawResult(null);
+    let apiDebug: Record<string, unknown> | undefined;
     try {
-      const result = await assessDrawing(canvas, currentPhoneme.devanagari, "char");
-      setDrawResult({
-        predicted: result.predicted,
-        correct: result.correct,
-        error: result.error ?? (!result.correct && result.predicted ? undefined : "Draw more clearly and try again."),
+      const candidates = options.map((p) => p.devanagari);
+      const dataUrl = canvas.toDataURL("image/png");
+      const base64 = dataUrl.split(",")[1];
+      if (!base64) {
+        setDrawResult({ predicted: null, correct: false, error: "No image data", debug: { step1: "FAILED: canvas toDataURL returned no base64" } });
+        return;
+      }
+
+      // Call API with debug: true to get full diagnostics
+      const res = await fetch("/api/draw-recognize", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          image_base64: base64,
+          mode: "char",
+          candidates: candidates.length ? candidates : undefined,
+          debug: true,
+        }),
       });
-    } catch {
-      setDrawResult({ predicted: null, correct: false, error: "Recognition failed" });
+      const data = (await res.json()) as {
+        predicted?: string | null;
+        error?: string;
+        debug?: Record<string, unknown>;
+      };
+      apiDebug = data.debug;
+      apiDebug = { ...apiDebug, httpStatus: res.status, ok: res.ok };
+
+      let predicted = data.predicted ?? null;
+      let correct = predicted === currentPhoneme.devanagari || (!!predicted && isConfusable(predicted, currentPhoneme.devanagari));
+
+      // Map to closest option when API returns nothing or char not in options
+      const optionSet = new Set(candidates);
+      const needsPixelMap = !predicted || !optionSet.has(predicted);
+      if (needsPixelMap && options.length > 0) {
+        const pixelOptions = options.map((p) => ({ devanagari: p.devanagari, id: p.id }));
+        const refs = getReferenceDrawings();
+        const matched = await matchByPixelsWithRefs(canvas, pixelOptions, refs);
+        if (matched) {
+          predicted = matched.devanagari;
+          correct = predicted === currentPhoneme.devanagari || isConfusable(predicted, currentPhoneme.devanagari);
+          apiDebug = { ...apiDebug, pixelFallbackUsed: true, pixelMatched: predicted };
+        }
+      }
+
+      setDrawResult({
+        predicted,
+        correct,
+        error: !predicted ? (data.error ?? "No Devanagari detected") : undefined,
+        debug: apiDebug,
+      });
+    } catch (e) {
+      setDrawResult({
+        predicted: null,
+        correct: false,
+        error: "Recognition failed",
+        debug: { ...apiDebug, exception: e instanceof Error ? e.message : String(e) },
+      });
     } finally {
       setAssessing(false);
     }
-  }, [currentPhoneme, drawHasDrawn]);
+  }, [currentPhoneme, drawHasDrawn, options]);
 
   const handleRecord = useCallback(async () => {
     if (recording) {
@@ -385,6 +458,14 @@ export default function DrillPage() {
         setRecording(false);
         setHasRecorded(true);
 
+        if (effGroup === "say") {
+          const url = URL.createObjectURL(blob);
+          setLastRecordingUrl((prev) => {
+            if (prev) URL.revokeObjectURL(prev);
+            return url;
+          });
+        }
+
         if (effGroup === "say" && currentPhoneme) {
           setAssessing(true);
           setSayResult(null);
@@ -392,10 +473,11 @@ export default function DrillPage() {
             const result = await assessPronunciation(blob, currentPhoneme.iast);
             setSayResult({
               correct: result.correct,
-              heard: result.error ?? result.heard,
+              heard: result.heard,
               heard_iast: result.heard_iast,
               feedback_english: result.feedback_english,
               score: result.score,
+              error: result.error,
             });
           } finally {
             setAssessing(false);
@@ -699,11 +781,16 @@ export default function DrillPage() {
                   )}
                   {listenPlaying ? "Playing…" : "Play"}
                 </button>
-                {choice?.id !== currentPhoneme.id && (
+                {choice?.id === currentPhoneme.id ? (
+                  <div className="flex items-center justify-center gap-2 text-green-600 font-medium">
+                    <CheckCircle className="w-5 h-5" />
+                    Correct! साधु (sādhu).
+                  </div>
+                ) : choice ? (
                   <p className="text-sm text-rose-400">
-                    You chose {choice?.devanagari} ({choice?.iast})
+                    You chose {choice.devanagari} ({choice.iast})
                   </p>
-                )}
+                ) : null}
               </div>
             ) : (
               <div className="text-center text-muted-foreground">
@@ -779,6 +866,13 @@ export default function DrillPage() {
                         : "bg-primary text-primary-foreground"
                     }`}
                   >
+                    {recording ? (
+                      <Square className="w-5 h-5" />
+                    ) : assessing ? (
+                      <Loader2 className="w-5 h-5 animate-spin" />
+                    ) : (
+                      <Mic className="w-5 h-5" />
+                    )}
                     {recording ? "Stop" : assessing ? "Checking…" : "Record"}
                   </button>
                 </>
@@ -793,13 +887,62 @@ export default function DrillPage() {
           }
           back={
             showSayReveal && currentPhoneme ? (
-              <div className="text-center space-y-3">
-                <span className="text-6xl block">
-                  {currentPhoneme.devanagari}
-                </span>
+              <div className="text-center space-y-4">
+                <span className="text-6xl block">{currentPhoneme.devanagari}</span>
                 <span className="font-mono text-xl">{currentPhoneme.iast}</span>
-                {sayResult && (
+
+                <h3 className="text-xs font-medium text-muted-foreground uppercase tracking-wide">Compare</h3>
+                <div className="flex flex-wrap items-center justify-center gap-2">
+                  {lastRecordingUrl && (
+                    <button
+                      type="button"
+                      onClick={() => {
+                        const a = new Audio(lastRecordingUrl!);
+                        a.play().catch(() => {});
+                      }}
+                      className="flex items-center gap-1.5 px-3 py-2 rounded-lg border-2 border-emerald-500/40 bg-emerald-500/5 hover:bg-emerald-500/10 text-sm"
+                    >
+                      <Volume2 className="w-4 h-4 text-emerald-600" />
+                      Your recording
+                    </button>
+                  )}
+                  <button
+                    onClick={() => handlePlay()}
+                    disabled={listenPlaying}
+                    className="flex items-center gap-1.5 px-3 py-2 rounded-lg border-2 border-amber-500/40 bg-amber-500/5 hover:bg-amber-500/10 text-sm"
+                  >
+                    {listenPlaying ? (
+                      <Loader2 className="w-4 h-4 animate-spin text-amber-600" />
+                    ) : (
+                      <Volume2 className="w-4 h-4 text-amber-600" />
+                    )}
+                    Our version
+                  </button>
+                </div>
+
+                {sayResult?.error && (
+                  <div className="p-3 rounded-lg bg-destructive/10 text-destructive text-sm">
+                    {sayResult.error}
+                  </div>
+                )}
+                {sayResult && !sayResult.error && (
                   <div className="space-y-2 p-4 rounded-lg bg-muted/50 text-left">
+                    {typeof sayResult.score === "number" && (
+                      <div className="flex items-center gap-2">
+                        <span className="text-xs font-medium text-muted-foreground uppercase tracking-wide">Score</span>
+                        <div className="flex-1 h-2 rounded-full bg-muted overflow-hidden">
+                          <div
+                            className={`h-full rounded-full transition-all ${
+                              sayResult.score >= 0.9 ? "bg-green-500" : sayResult.score >= 0.6 ? "bg-amber-500" : "bg-red-500/70"
+                            }`}
+                            style={{ width: `${Math.round(sayResult.score * 100)}%` }}
+                          />
+                        </div>
+                        <span className="text-sm font-mono tabular-nums w-10 text-right">
+                          {(sayResult.score * 100).toFixed(0)}%
+                        </span>
+                      </div>
+                    )}
                     {sayResult.correct ? (
                       <div className="flex items-center gap-2 text-green-600 font-medium">
                         <CheckCircle className="w-5 h-5" />
@@ -808,7 +951,9 @@ export default function DrillPage() {
                     ) : (
                       <div className="flex items-center gap-2 text-amber-600 font-medium">
                         <XCircle className="w-5 h-5" />
-                        Heard: <span className="font-mono">{sayResult.heard_iast ?? sayResult.heard ?? "—"}</span>
+                        Heard:{" "}
+                        <span style={{ fontFamily: "var(--font-devanagari), sans-serif" }}>{sayResult.heard ?? "—"}</span>
+                        <span className="font-mono text-muted-foreground">({sayResult.heard_iast ?? sayResult.heard ?? "—"})</span>
                       </div>
                     )}
                     {sayResult.feedback_english && (
@@ -816,18 +961,6 @@ export default function DrillPage() {
                     )}
                   </div>
                 )}
-                <button
-                  onClick={() => handlePlay()}
-                  disabled={listenPlaying}
-                  className="flex items-center gap-2 mx-auto px-4 py-2 rounded-lg bg-teal-500/20 text-teal-700 dark:text-teal-400"
-                >
-                  {listenPlaying ? (
-                    <Loader2 className="w-4 h-4 animate-spin" />
-                  ) : (
-                    <Volume2 className="w-4 h-4" />
-                  )}
-                  Play
-                </button>
               </div>
             ) : (
               <div className="text-center text-muted-foreground">
@@ -926,6 +1059,16 @@ export default function DrillPage() {
                       <p className="text-sm text-amber-600">Recognition unavailable for this character.</p>
                     )}
                   </div>
+                )}
+                {drawResult?.debug && (
+                  <details className="mt-4 text-left">
+                    <summary className="cursor-pointer text-xs text-muted-foreground hover:text-foreground">
+                      Debug: API diagnostics
+                    </summary>
+                    <pre className="mt-2 p-3 rounded-lg bg-slate-900 text-slate-100 text-xs overflow-x-auto max-h-64 overflow-y-auto">
+                      {JSON.stringify(drawResult.debug, null, 2)}
+                    </pre>
+                  </details>
                 )}
                 <button
                   onClick={() => handlePlay()}

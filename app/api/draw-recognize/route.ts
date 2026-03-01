@@ -1,18 +1,20 @@
 /**
- * Devanagari handwriting recognition via Chutes vision models.
- * POST body: { image_base64: string, prompt?: string, mode?: "char" | "word" }
+ * Devanagari handwriting recognition via Chutes vision API.
+ * POST body: { image_base64: string, prompt?: string, mode?: "char"|"word", candidates?: string[] }
  * Returns: { predicted: string, error?: string, debug?: object }
  *
- * Uses dots.ocr first (document OCR); falls back to Qwen2.5-VL for single chars.
- * Set DEBUG_DRAW_RECOGNIZE=1 to see request/response in server logs.
+ * Uses Qwen2.5-VL-32B for chars (vision model). When candidates provided, constrains to that set.
+ * Set DEBUG_DRAW_RECOGNIZE=1 to see full request/response in server logs.
  */
 
 const CHUTES_URL = "https://llm.chutes.ai/v1/chat/completions";
+const MODEL_VISION = "Qwen/Qwen2.5-VL-32B-Instruct";
 const MODEL_OCR = "rednote-hilab/dots.ocr";
-const MODEL_VISION = "Qwen/Qwen2.5-VL-72B-Instruct-TEE";
 
 const CHAR_PROMPT =
   "This image shows a single handwritten Devanagari (Sanskrit) character on a white background. Reply with ONLY that one Devanagari character, nothing else. No explanation, no punctuation, no transliteration.";
+const CHAR_CONSTRAINED_PROMPT = (candidates: string[]) =>
+  `This image shows a handwritten Devanagari character. The character is one of these: ${candidates.join(" ")}. Which one matches the drawing? Reply with ONLY that single character, nothing else.`;
 const WORD_PROMPT =
   "This image shows handwritten Devanagari (Sanskrit) text — a word or phrase. Reply with ONLY the Devanagari text as written, nothing else. No explanation, no punctuation.";
 
@@ -28,7 +30,7 @@ async function callChutes(
   imageUrl: string,
   prompt: string,
   model: string
-): Promise<{ raw: string; predicted: string | null }> {
+): Promise<{ raw: string; predicted: string | null; status: number }> {
   const body = {
     model,
     messages: [
@@ -40,7 +42,7 @@ async function callChutes(
         ],
       },
     ],
-    max_tokens: 10,
+    max_tokens: 50,
     temperature: 0,
   };
 
@@ -59,24 +61,24 @@ async function callChutes(
 
   const rawText = await res.text();
   if (DEBUG) {
-    console.log("[draw-recognize] Response:", res.status, rawText.slice(0, 500));
+    console.log("[draw-recognize] Response:", res.status, rawText);
   }
 
   if (!res.ok) {
     console.error("[draw-recognize] Chutes error:", res.status, rawText);
-    return { raw: rawText, predicted: null };
+    return { raw: rawText, predicted: null, status: res.status };
   }
 
-  let data: { choices?: Array<{ message?: { content?: string } }> };
+  let data: { choices?: Array<{ message?: { content?: string } }>; error?: unknown };
   try {
     data = JSON.parse(rawText) as typeof data;
   } catch {
-    return { raw: rawText, predicted: null };
+    return { raw: rawText, predicted: null, status: res.status };
   }
 
   const text = data.choices?.[0]?.message?.content?.trim() ?? "";
   const predicted = extractDevanagari(text) || null;
-  return { raw: text, predicted };
+  return { raw: text, predicted, status: res.status };
 }
 
 export async function POST(req: Request) {
@@ -85,12 +87,25 @@ export async function POST(req: Request) {
     const body = await req.json();
     const imageBase64 = body?.image_base64 ?? body?.image;
     const mode = (body?.mode as "char" | "word") || "char";
+    const candidates = body?.candidates as string[] | undefined;
     const customPrompt = body?.prompt as string | undefined;
-    const prompt = customPrompt ?? (mode === "char" ? CHAR_PROMPT : WORD_PROMPT);
+
+    let prompt: string;
+    if (customPrompt) {
+      prompt = customPrompt;
+    } else if (mode === "char" && candidates && candidates.length > 0) {
+      prompt = CHAR_CONSTRAINED_PROMPT(candidates);
+    } else {
+      prompt = mode === "char" ? CHAR_PROMPT : WORD_PROMPT;
+    }
 
     if (!imageBase64 || typeof imageBase64 !== "string") {
       return Response.json(
-        { error: "Missing image_base64 in request body" },
+        {
+          error: "Missing image_base64 in request body",
+          predicted: null,
+          debug: { step1_imageReceived: false, failure: "No image_base64 in body" },
+        },
         { status: 400 }
       );
     }
@@ -101,6 +116,7 @@ export async function POST(req: Request) {
         {
           error: "CHUTES_API_KEY not configured in .env.local",
           predicted: null,
+          debug: { step1_imageReceived: true, step2_apiKeyPresent: false, failure: "CHUTES_API_KEY missing" },
         },
         { status: 501 }
       );
@@ -109,25 +125,43 @@ export async function POST(req: Request) {
     const imageUrl = `data:image/png;base64,${imageBase64}`;
     debugInfo.imageBytes = Math.round((imageBase64.length * 3) / 4);
     debugInfo.mode = mode;
+    debugInfo.prompt = prompt;
 
-    // Try dots.ocr first (optimized for document OCR)
-    let result = await callChutes(apiKey, imageUrl, prompt, MODEL_OCR);
-    debugInfo.ocr = { model: MODEL_OCR, raw: result.raw.slice(0, 200), predicted: result.predicted };
+    debugInfo.step1_imageReceived = true;
+    debugInfo.step2_apiKeyPresent = !!apiKey;
 
-    // Fallback to Qwen2.5-VL if dots.ocr returns empty (better for isolated handwriting)
+    // Use Qwen2.5-VL as primary for chars (vision model, better for isolated handwriting)
+    const model = mode === "char" ? MODEL_VISION : MODEL_OCR;
+    let result = await callChutes(apiKey, imageUrl, prompt, model);
+    debugInfo.step3_chutesCall = {
+      model,
+      status: result.status,
+      rawResponse: result.raw,
+      predicted: result.predicted,
+      success: result.status === 200,
+    };
+
+    // Fallback to dots.ocr only if vision returns empty (e.g. model unavailable)
     if (!result.predicted && mode === "char") {
-      result = await callChutes(apiKey, imageUrl, prompt, MODEL_VISION);
-      debugInfo.visionFallback = { model: MODEL_VISION, raw: result.raw.slice(0, 200), predicted: result.predicted };
+      result = await callChutes(apiKey, imageUrl, prompt, MODEL_OCR);
+      debugInfo.step4_ocrFallback = {
+        model: MODEL_OCR,
+        status: result.status,
+        rawResponse: result.raw,
+        predicted: result.predicted,
+      };
     }
 
+    const clientWantsDebug = body?.debug === true;
     const response: { predicted: string | null; error?: string; debug?: Record<string, unknown> } = {
       predicted: result.predicted,
     };
-    if (DEBUG || !result.predicted) {
+    // Always return debug when client asks, or when prediction failed
+    if (clientWantsDebug || !result.predicted) {
       response.debug = debugInfo;
     }
     if (!result.predicted) {
-      response.error = "No Devanagari detected. Try drawing more clearly. Check server logs with DEBUG_DRAW_RECOGNIZE=1.";
+      response.error = "No Devanagari detected. Check server logs (DEBUG_DRAW_RECOGNIZE=1) for raw API response.";
     }
 
     return Response.json(response);

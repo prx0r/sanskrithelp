@@ -1,0 +1,33 @@
+http://www.sanskrit-linguistics.org/dcs/index.php?contents=texte how can i use this site in cool ways same for sutta central?
+5:53 PM
+Fetched: Texts
+Done
+
+That corpus is insane. Here's what you can actually do with both:
+
+DCS (Digital Corpus of Sanskrit)
+
+The killer feature is every word is morphologically tagged — meaning each word in every text has its grammatical analysis, root (dhatu), meaning attached. So you can:
+
+    Concept extraction at word level — when a user reads about "śūnyatā", you can pull every occurrence across the entire corpus, show them how it's used differently in Bodhicaryāvatāra vs Mūlamadhyamakārikāḥ vs the Upanishads
+    Etymology rabbit holes — trace a root (like √vid "to know") across Rigveda → Upanishads → Buddhist texts → show the concept evolving
+    Cross-text parallel finder — they have a parallels feature built in, you can surface "this idea also appears in these 7 other texts"
+    Word frequency maps — which concepts dominate which texts, visualise as heatmaps
+    Build your knowledge graph nodes from actual morphological data rather than hand-curating
+
+The corpus has Mahābhārata, Rāmāyaṇa, all major Upanishads, Yoga Sūtras, Kāmasūtra, Arthaśāstra, Āyurveda texts, Kashmir Shaivism (Tantrāloka), Buddhist Sanskrit — basically everything.
+
+Download the data from their GitHub: https://github.com/OliverHellwig/sanskrit
+
+SuttaCentral
+
+    API: https://suttacentral.net/api — proper REST API, query by sutta, nikaya, language
+    Data dump: https://github.com/suttacentral/sc-data — entire Pali canon in JSON, segmented line by line with parallel translations in 30+ languages
+    Bilara data (the translation layer): https://github.com/suttacentral/bilara-data — this is the gold, every segment has Pali + English + other languages aligned
+
+What you can do:
+
+    Daily sutta with Pali + translation side by side, tap any word for definition
+    Concept graph — SC already tags suttas by topic (dependent origination, four noble truths etc), grab that structure
+    Cross-tradition linker — sutta talks about impermanence → link to DCS corpus for Sanskrit anicca/anātman usage → link to your esoteric.help for parallel Hermetic concepts
+    Nikaya explorer — interactive map of the entire canon, users navigate by theme not just by book

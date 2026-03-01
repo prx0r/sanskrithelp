@@ -10,6 +10,35 @@ const SIZE = 64;
 const PADDING = 4;
 const FONT = "var(--font-devanagari), 'Noto Sans Devanagari', sans-serif";
 
+/** Load pixels from base64 PNG (e.g. hand-drawn reference). Returns SIZE×SIZE grayscale. */
+function pixelsFromBase64(base64: string): Promise<Uint8Array | null> {
+  return new Promise((resolve) => {
+    const img = new Image();
+    img.onload = () => {
+      const canvas = document.createElement("canvas");
+      canvas.width = SIZE;
+      canvas.height = SIZE;
+      const ctx = canvas.getContext("2d");
+      if (!ctx) {
+        resolve(null);
+        return;
+      }
+      ctx.fillStyle = "#ffffff";
+      ctx.fillRect(0, 0, SIZE, SIZE);
+      ctx.drawImage(img, 0, 0, SIZE, SIZE);
+      const imgData = ctx.getImageData(0, 0, SIZE, SIZE);
+      const out = new Uint8Array(SIZE * SIZE);
+      for (let i = 0; i < imgData.data.length; i += 4) {
+        const gray = 255 - (0.299 * imgData.data[i] + 0.587 * imgData.data[i + 1] + 0.114 * imgData.data[i + 2]);
+        out[i / 4] = Math.round(gray);
+      }
+      resolve(out);
+    };
+    img.onerror = () => resolve(null);
+    img.src = `data:image/png;base64,${base64}`;
+  });
+}
+
 /** Render a Devanagari character to SIZE×SIZE grayscale (0=white, 255=black). */
 function renderReference(char: string): Uint8Array {
   const canvas = document.createElement("canvas");
@@ -186,6 +215,39 @@ export function matchByPixels(
 
   for (const opt of options) {
     const refRaw = binarize(renderReference(opt.devanagari));
+    const ref = normalizeToFit(refRaw, SIZE, SIZE);
+    const score = chamferSimilarity(drawn, ref, SIZE, SIZE);
+    if (score > bestScore) {
+      bestScore = score;
+      best = opt;
+    }
+  }
+
+  return bestScore > 0.35 ? best : null;
+}
+
+/**
+ * Async version that uses hand-drawn references when available.
+ * Pass refs: { [devanagari]: base64Png } from getReferenceDrawings().
+ */
+export async function matchByPixelsWithRefs(
+  sourceCanvas: HTMLCanvasElement,
+  options: PhonemeOption[],
+  refs?: Record<string, string>
+): Promise<PhonemeOption | null> {
+  const raw = getDrawnPixels(sourceCanvas);
+  const drawn = normalizeToFit(binarize(raw), SIZE, SIZE);
+  const drawnMass = drawn.reduce((s, v) => s + v, 0);
+  if (drawnMass < 8) return null;
+
+  let best: PhonemeOption | null = null;
+  let bestScore = 0;
+
+  for (const opt of options) {
+    const refPixels = await (refs?.[opt.devanagari]
+      ? pixelsFromBase64(refs[opt.devanagari])
+      : Promise.resolve(null));
+    const refRaw = refPixels ? binarize(refPixels) : binarize(renderReference(opt.devanagari));
     const ref = normalizeToFit(refRaw, SIZE, SIZE);
     const score = chamferSimilarity(drawn, ref, SIZE, SIZE);
     if (score > bestScore) {
