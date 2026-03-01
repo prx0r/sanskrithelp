@@ -17,8 +17,8 @@ from pathlib import Path
 from datetime import datetime
 from typing import Any
 
-# Default embedding dims (Qwen3-Embedding-8B)
-EMBED_DIMS = 4096
+# Default embedding dims (Qwen3-Embedding-0.6B) — single space for RAG, grammar, pronunciation
+EMBED_DIMS = 1024
 
 # Topics for topic_mastery
 DEFAULT_TOPICS = (

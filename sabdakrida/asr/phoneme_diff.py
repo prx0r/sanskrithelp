@@ -33,14 +33,50 @@ def phoneme_diff(target: str, heard: str) -> list[tuple[str, str]]:
         if opcode == "replace":
             exp_slice = target_norm[a0:a1]
             got_slice = heard_norm[b0:b1]
-            # Pair up character-by-character where lengths differ, handle insertions/deletions
             for i, exp in enumerate(exp_slice):
                 got = got_slice[i] if i < len(got_slice) else ""
                 errors.append((exp, got))
-            # If heard has extra chars
             for i in range(len(exp_slice), len(got_slice)):
                 errors.append(("", got_slice[i]))
     return errors
+
+
+def phoneme_diff_with_positions(target: str, heard: str) -> list[tuple[str, str, int]]:
+    """
+    Return list of (expected_char, heard_char, target_index) for position-specific feedback.
+    """
+    target_norm = normalize_iast(target)
+    heard_norm = normalize_iast(heard)
+    errors = []
+    matcher = SequenceMatcher(None, target_norm, heard_norm)
+    for opcode, a0, a1, b0, b1 in matcher.get_opcodes():
+        if opcode == "replace":
+            exp_slice = target_norm[a0:a1]
+            got_slice = heard_norm[b0:b1]
+            for i, exp in enumerate(exp_slice):
+                got = got_slice[i] if i < len(got_slice) else ""
+                errors.append((exp, got, a0 + i))
+            for i in range(len(exp_slice), len(got_slice)):
+                errors.append(("", got_slice[i], -1))
+    return errors
+
+
+VOWELS_IAST = set("aāiīuūṛṝḷḹeoauṃḥ")
+
+
+def get_syllable_at(target: str, index: int) -> str:
+    """Get the syllable (akṣara) containing the character at index. IAST-aware.
+    E.g. for 'ā' in śaṅkāra → 'ṅkā' or 'kāra' (extends to next vowel for clarity)."""
+    if index < 0 or index >= len(target):
+        return ""
+    start = index
+    while start > 0 and target[start - 1] not in VOWELS_IAST:
+        start -= 1
+    end = index + 1
+    # Extend right through consonants only (don't include next syllable's vowel)
+    while end < len(target) and target[end] not in VOWELS_IAST and target[end] not in " -":
+        end += 1
+    return target[start:end].strip() or target[index]
 
 
 def phoneme_similarity(target: str, heard: str) -> float:

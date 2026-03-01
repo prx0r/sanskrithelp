@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { RootCard } from "@/components/RootCard";
+import { ZoneGate } from "@/components/ZoneGate";
 import dhatusData from "@/data/dhatus.json";
 import type { LinguisticNode } from "@/lib/types";
 
@@ -30,6 +31,9 @@ export default function RootsPage() {
           Each root is a seed. Add suffixes, apply guṇa/vṛddhi, and infinite words grow.
           Select a root to see how it becomes nouns, verbs, participles.
         </p>
+        <div className="mt-3">
+          <ZoneGate zoneId="roots" />
+        </div>
       </div>
 
       {/* Quick filter */}

@@ -29,10 +29,14 @@ export async function POST(req: Request) {
     body.append("target_text", target_text);
     body.append("user_id", user_id);
 
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 90_000);
     const res = await fetch(`${SABDAKRIDA_URL}/session/mode1`, {
       method: "POST",
       body,
+      signal: controller.signal,
     });
+    clearTimeout(timeout);
 
     if (!res.ok) {
       const err = await res.text();

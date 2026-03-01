@@ -1,0 +1,22 @@
+{
+  "zone_id": "compression",
+  "label": "Pratyāhāras",
+  "levels": [
+    {
+      "level": 1,
+      "objectives": ["Define pratyāhāra in own words", "Give one example (e.g. ac, hal)"],
+      "pass_criteria": {
+        "conceptual": [
+          "mentions shorthand or abbreviation for sound class",
+          "gives at least one valid pratyāhāra example"
+        ],
+        "production": null,
+        "pronunciation": null
+      },
+      "assessment_type": "conceptual",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "remedial_on_fail": { "prerequisite_zones": [], "retry_variant": "level_1_v2" }
+    }
+  ]
+}

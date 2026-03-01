@@ -124,8 +124,8 @@ def get_embed_fn_from_chutes():
         return None
 
     import requests
-    EMBED_URL = "https://chutes-qwen-qwen3-embedding-8b.chutes.ai"
-    EMBED_MODEL = "Qwen/Qwen3-Embedding-8B"
+    EMBED_URL = "https://chutes-qwen-qwen3-embedding-0-6b.chutes.ai"
+    EMBED_MODEL = "Qwen/Qwen3-Embedding-0.6B"
     DOC_INSTRUCTION = "Represent this Sanskrit grammar rule or sūtra for retrieval"
     QUERY_INSTRUCTION = "Given a question about Sanskrit grammar, retrieve the most relevant rule or explanation"
 

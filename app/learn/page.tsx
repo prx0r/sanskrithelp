@@ -2,9 +2,10 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { Volume2, ChevronRight, Lock } from "lucide-react";
+import { Volume2, ChevronRight, Lock, CheckCircle2 } from "lucide-react";
 import unitsData from "@/data/units.json";
 import { isUnitUnlocked } from "@/lib/lessonProgress";
+import { isZoneUnlocked, isZoneTutorUnlocked } from "@/lib/zoneProgress";
 
 const units = unitsData as Array<{
   id: string;
@@ -63,6 +64,15 @@ export default function LearnPage() {
             Speak Sanskrit, get real-time feedback. Uses Aryan voice for target words.
           </p>
         </Link>
+        <Link
+          href="/learn/tutor"
+          className="block mb-4 p-4 rounded-xl border border-border bg-card hover:border-primary hover:bg-primary/5 transition-all"
+        >
+          <h3 className="font-semibold">Conversational Tutor</h3>
+          <p className="text-sm text-muted-foreground mt-1">
+            Chat with Qwen. Replies in your language, voice via Kokoro. Sanskrit in Devanagari.
+          </p>
+        </Link>
         <div className="grid gap-3 sm:grid-cols-2">
           {units
             .sort((a, b) => a.order - b.order)
@@ -98,17 +108,45 @@ export default function LearnPage() {
 
       <section>
         <h2 className="text-lg font-semibold mb-4">Grammar Topics</h2>
+        <p className="text-sm text-muted-foreground mb-4">
+          Content unlocks as you complete prerequisites. Complete each intro to unlock the AI tutor.
+        </p>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {ISLANDS.map((island) => (
-            <button
-              key={island.id}
-              onClick={() => router.push(island.path)}
-              className="text-left p-4 rounded-xl border border-border bg-card hover:border-primary hover:bg-primary/5 transition-all"
-            >
-              <span className="text-xs text-muted-foreground">{island.num}</span>
-              <h3 className="font-semibold mt-1">{island.label}</h3>
-            </button>
-          ))}
+          {ISLANDS.map((island) => {
+            const unlocked = isZoneUnlocked(island.id);
+            const tutorUnlocked = isZoneTutorUnlocked(island.id);
+            return unlocked ? (
+              <Link
+                key={island.id}
+                href={island.path}
+                className="group flex items-center gap-3 p-4 rounded-xl border border-border bg-card hover:border-primary hover:bg-primary/5 transition-all text-left"
+              >
+                <div className="flex-1 min-w-0">
+                  <span className="text-xs text-muted-foreground">{island.num}</span>
+                  <h3 className="font-semibold mt-1">{island.label}</h3>
+                  {tutorUnlocked && (
+                    <span className="inline-flex items-center gap-1 mt-1 text-xs text-primary">
+                      <CheckCircle2 className="w-3.5 h-3.5" />
+                      Tutor unlocked
+                    </span>
+                  )}
+                </div>
+                <ChevronRight className="w-5 h-5 shrink-0 text-muted-foreground" />
+              </Link>
+            ) : (
+              <div
+                key={island.id}
+                className="flex items-center gap-4 p-4 rounded-xl border border-border bg-muted/30 opacity-70 cursor-not-allowed"
+              >
+                <Lock className="w-5 h-5 shrink-0 text-muted-foreground" />
+                <div className="flex-1 min-w-0">
+                  <span className="text-xs text-muted-foreground">{island.num}</span>
+                  <h3 className="font-semibold text-muted-foreground mt-1">{island.label}</h3>
+                  <p className="text-xs text-muted-foreground mt-0.5">Complete prerequisites</p>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </section>
     </div>

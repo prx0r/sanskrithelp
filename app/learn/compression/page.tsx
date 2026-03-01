@@ -7,6 +7,7 @@ import phonemesData from "@/data/phonemes.json";
 import { PratyaharaDrill } from "@/components/PratyaharaDrill";
 import type { Pratyahara, Phoneme } from "@/lib/types";
 import { cn } from "@/lib/utils";
+import { ZoneGate } from "@/components/ZoneGate";
 
 const pratyaharas = pratyaharasData as Pratyahara[];
 const phonemes = phonemesData as Phoneme[];
@@ -265,14 +266,17 @@ export default function CompressionPage() {
         <p className="text-muted-foreground">
           Short codes for groups of sounds. Learn the concept, then practice.
         </p>
-        {!showDrill && (
-          <button
-            onClick={() => setShowDrill(true)}
-            className="mt-2 text-sm text-primary hover:underline"
-          >
-            Skip to drills →
-          </button>
-        )}
+        <div className="mt-3 flex flex-wrap items-center gap-3">
+          <ZoneGate zoneId="compression" />
+          {!showDrill && (
+            <button
+              onClick={() => setShowDrill(true)}
+              className="text-sm text-primary hover:underline"
+            >
+              Skip to drills →
+            </button>
+          )}
+        </div>
       </div>
 
       {/* Lesson: step-by-step from first principles */}

@@ -13,11 +13,12 @@ export const RATING_LABELS: { [key in Rating]: RatingLabel } = {
   4: "Easy",
 };
 
+/** Red / yellow / green circles — Again=red, Hard=amber, Good=yellow, Easy=green */
 export const RATING_COLORS: { [key in Rating]: string } = {
-  1: "bg-rose-500",
-  2: "bg-amber-500",
-  3: "bg-emerald-500",
-  4: "bg-sky-500",
+  1: "bg-red-500 hover:bg-red-600",
+  2: "bg-amber-500 hover:bg-amber-600",
+  3: "bg-yellow-500 hover:bg-yellow-600 text-neutral-900",
+  4: "bg-green-500 hover:bg-green-600",
 };
 
 function stateToFSRSCard(cardState: FSRSState): Card {

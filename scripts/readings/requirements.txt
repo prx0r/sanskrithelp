@@ -1,0 +1,4 @@
+# Readings pipeline — Kashmir Shaivism audio generation
+indic-transliteration
+pydub
+requests

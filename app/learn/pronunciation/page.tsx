@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { Volume2, Mic, Square, Loader2, CheckCircle, XCircle, ChevronLeft } from "lucide-react";
 import { playSanskritTTS } from "@/lib/audio";
@@ -9,6 +9,8 @@ import { iastToDevanagari } from "@/lib/transliterate";
 import { cn } from "@/lib/utils";
 
 // Sanskrit drill words (IAST) — from sabdakrida DRILL_WORDS
+const TTS_CACHE_MAX = 10;
+
 const DRILL_WORDS = [
   "ṭīkā", "ḍambara", "naṭa", "nāṭya", "viṣṇu",
   "kāla", "nīla", "pūja", "āgama", "māla",
@@ -19,15 +21,24 @@ const DRILL_WORDS = [
   "namaḥ", "śāntiḥ", "puruṣaḥ",
 ];
 
+type ErrorDetail = {
+  type: string;
+  word: string;
+  syllable: string;
+  vowel: string;
+  message: string;
+};
+
 type SessionResult = {
   target: string;
   heard: string;
   heard_iast?: string;
   errors: [string, string][];
   error_types: string[];
-  audio: string | null;
+  error_details?: ErrorDetail[];
+  feedback_audio_key?: { text: string; style: string };
   correct: boolean;
-  score?: number;  // 0–1 pronunciation score
+  score?: number;
   feedback_english?: string;
 } | null;
 
@@ -38,23 +49,97 @@ export default function PronunciationTutorPage() {
   const [assessing, setAssessing] = useState(false);
   const [result, setResult] = useState<SessionResult>(null);
   const [backendError, setBackendError] = useState<string | null>(null);
+  const [lastRecordingUrl, setLastRecordingUrl] = useState<string | null>(null);
+  const [targetAudioCache, setTargetAudioCache] = useState<Record<string, string>>({});
+  const [feedbackAudioUrl, setFeedbackAudioUrl] = useState<string | null>(null);
+  const [replaying, setReplaying] = useState<"target" | "recording" | "feedback" | null>(null);
 
   const mediaRecorderRef = useRef<MediaRecorder | null>(null);
   const streamRef = useRef<MediaStream | null>(null);
   const chunksRef = useRef<Blob[]>([]);
+  const waveformRef = useRef<HTMLCanvasElement>(null);
+  const analyserRef = useRef<AnalyserNode | null>(null);
+  const rafRef = useRef<number>(0);
+  const cacheRef = useRef<Record<string, string>>({});
+  const recordingUrlRef = useRef<string | null>(null);
+  const feedbackUrlRef = useRef<string | null>(null);
+  cacheRef.current = targetAudioCache;
+  recordingUrlRef.current = lastRecordingUrl;
+  feedbackUrlRef.current = feedbackAudioUrl;
 
-  const handleListen = async () => {
+  useEffect(() => {
+    return () => {
+      recordingUrlRef.current && URL.revokeObjectURL(recordingUrlRef.current);
+      feedbackUrlRef.current && URL.revokeObjectURL(feedbackUrlRef.current);
+      Object.values(cacheRef.current).forEach(URL.revokeObjectURL);
+    };
+  }, []);
+
+  // Waveform while recording (reuse PronunciationDrill pattern)
+  useEffect(() => {
+    if (!recording || !analyserRef.current || !waveformRef.current) return;
+    const canvas = waveformRef.current;
+    const ctx = canvas.getContext("2d");
+    const analyser = analyserRef.current;
+    if (!ctx) return;
+    const data = new Uint8Array(analyser.frequencyBinCount);
+    const draw = () => {
+      rafRef.current = requestAnimationFrame(draw);
+      analyser.getByteTimeDomainData(data);
+      ctx.fillStyle = "rgb(30 41 59)";
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      ctx.lineWidth = 2;
+      ctx.strokeStyle = "rgb(59 130 246)";
+      ctx.beginPath();
+      const sliceW = canvas.width / data.length;
+      let x = 0;
+      for (let i = 0; i < data.length; i++) {
+        const v = data[i] / 128.0;
+        const y = (v * canvas.height) / 2 + canvas.height / 2;
+        if (i === 0) ctx.moveTo(x, y);
+        else ctx.lineTo(x, y);
+        x += sliceW;
+      }
+      ctx.stroke();
+    };
+    draw();
+    return () => cancelAnimationFrame(rafRef.current);
+  }, [recording]);
+
+  /** Single play-target handler: from cache if available, else generate & cache. Does not clear feedback. */
+  const handlePlayTarget = async () => {
     if (!targetWord) return;
+    const cached = targetAudioCache[targetWord];
+    if (cached) {
+      setReplaying("target");
+      const a = new Audio(cached);
+      a.onended = () => setReplaying(null);
+      a.play().catch(() => setReplaying(null));
+      return;
+    }
     setListening(true);
     setBackendError(null);
-    setResult(null);
     try {
-      await playSanskritTTS(targetWord, { style: "narration" });
+      await playSanskritTTS(targetWord, {
+        style: "narration",
+        onGenerated: (url) =>
+          setTargetAudioCache((prev) => {
+            const next = { ...prev, [targetWord]: url };
+            const keys = Object.keys(next);
+            if (keys.length > TTS_CACHE_MAX) {
+              const drop = keys[0];
+              if (next[drop]) URL.revokeObjectURL(next[drop]);
+              const { [drop]: _, ...rest } = next;
+              return rest;
+            }
+            return next;
+          }),
+      });
     } catch (e) {
       let msg = "Sanskrit TTS failed.";
       if (e instanceof Error) {
         if (e.name === "AbortError") {
-          msg = "TTS timed out (90s). First load can take ~30s—try again.";
+          msg = "TTS timed out. First load can take 1–2 min—try again.";
         } else {
           msg = e.message;
         }
@@ -65,6 +150,22 @@ export default function PronunciationTutorPage() {
     }
   };
 
+  const handleReplayRecording = () => {
+    if (!lastRecordingUrl) return;
+    setReplaying("recording");
+    const a = new Audio(lastRecordingUrl);
+    a.onended = () => setReplaying(null);
+    a.play().catch(() => setReplaying(null));
+  };
+
+  const handleReplayFeedback = () => {
+    if (!feedbackAudioUrl) return;
+    setReplaying("feedback");
+    const a = new Audio(feedbackAudioUrl);
+    a.onended = () => setReplaying(null);
+    a.play().catch(() => setReplaying(null));
+  };
+
   const handleRecord = async () => {
     if (recording) {
       const mr = mediaRecorderRef.current;
@@ -72,15 +173,26 @@ export default function PronunciationTutorPage() {
       mr.onstop = async () => {
         streamRef.current?.getTracks().forEach((t) => t.stop());
         streamRef.current = null;
+        analyserRef.current = null;
         const blob = new Blob(chunksRef.current, { type: mr.mimeType });
         chunksRef.current = [];
         mediaRecorderRef.current = null;
         setRecording(false);
 
+        const url = URL.createObjectURL(blob);
+        setLastRecordingUrl((prev) => {
+          if (prev) URL.revokeObjectURL(prev);
+          return url;
+        });
+
         if (!targetWord) return;
         setAssessing(true);
         setBackendError(null);
         setResult(null);
+        setFeedbackAudioUrl((prev) => {
+          if (prev) URL.revokeObjectURL(prev);
+          return null;
+        });
         try {
           const wavBlob = await blobToWavBlob(blob);
           const form = new FormData();
@@ -99,20 +211,32 @@ export default function PronunciationTutorPage() {
           }
           setResult(data);
 
-          // Play feedback audio if present
-          if (data.audio) {
-            try {
-              const bin = atob(data.audio);
-              const bytes = new Uint8Array(bin.length);
-              for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
-              const feedbackBlob = new Blob([bytes], { type: "audio/wav" });
-              const url = URL.createObjectURL(feedbackBlob);
-              const audio = new Audio(url);
-              await audio.play();
-              audio.onended = () => URL.revokeObjectURL(url);
-            } catch (e) {
-              console.warn("Could not play feedback audio:", e);
-            }
+          // Fetch and play feedback audio async (assessment already returned)
+          if (data.feedback_audio_key?.text) {
+            const { text, style } = data.feedback_audio_key;
+            fetch("/api/sabdakrida/feedback-audio", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ text, style }),
+            })
+              .then((r) => (r.ok ? r.blob() : null))
+              .then((blob) => {
+                if (blob) {
+                  const url = URL.createObjectURL(blob);
+                  setFeedbackAudioUrl((prev) => {
+                    if (prev) URL.revokeObjectURL(prev);
+                    return url;
+                  });
+                  const audio = new Audio(url);
+                  audio.play().catch(() => {});
+                }
+              })
+              .catch(() => {});
+          } else {
+            setFeedbackAudioUrl((prev) => {
+              if (prev) URL.revokeObjectURL(prev);
+              return null;
+            });
           }
         } catch (e) {
           setBackendError(
@@ -129,6 +253,13 @@ export default function PronunciationTutorPage() {
     try {
       const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
       streamRef.current = stream;
+      const ctx = new AudioContext();
+      const source = ctx.createMediaStreamSource(stream);
+      const analyser = ctx.createAnalyser();
+      analyser.fftSize = 2048;
+      source.connect(analyser);
+      analyserRef.current = analyser;
+
       const mime = MediaRecorder.isTypeSupported("audio/webm;codecs=opus")
         ? "audio/webm;codecs=opus"
         : "audio/webm";
@@ -161,7 +292,7 @@ export default function PronunciationTutorPage() {
       <div className="mb-8">
         <h1 className="text-3xl font-bold mb-2">Śabdakrīḍā — Pronunciation Tutor</h1>
         <p className="text-muted-foreground">
-          Tap a word below to select it, then Listen (Aryan voice) or Record. First use may take ~30s to load the model.
+          Tap a word below to select it, then Listen (Aryan voice) or Record. First Listen may take 1–2 minutes to load the model; later requests are faster.
         </p>
         <p className="text-xs text-muted-foreground mt-2">
           Requires Sabdakrida backend: <code className="bg-muted px-1 rounded">python -m uvicorn sabdakrida.main:app --port 8010</code>
@@ -179,7 +310,20 @@ export default function PronunciationTutorPage() {
               onClick={() => {
                 setTargetWord(word);
                 setResult(null);
+                // Clear previous recording when switching words — it belonged to the old word
+                setLastRecordingUrl((prev) => {
+                  if (prev) URL.revokeObjectURL(prev);
+                  return null;
+                });
+                setFeedbackAudioUrl((prev) => {
+                  if (prev) URL.revokeObjectURL(prev);
+                  return null;
+                });
                 setBackendError(null);
+                setFeedbackAudioUrl((prev) => {
+                  if (prev) URL.revokeObjectURL(prev);
+                  return null;
+                });
               }}
               className={cn(
                 "px-3 py-1.5 rounded-lg text-sm font-medium transition-colors cursor-pointer flex items-baseline gap-1.5",
@@ -207,24 +351,25 @@ export default function PronunciationTutorPage() {
               <p className="text-xs text-muted-foreground mt-1">Target (Devanagari & IAST)</p>
             </div>
 
-            <h2 className="text-sm font-medium text-muted-foreground">2. Listen or Record</h2>
-            <div className="flex flex-wrap justify-center gap-4">
+            <h2 className="text-sm font-medium text-muted-foreground">2. Play target, record, or replay</h2>
+            <div className="flex flex-wrap items-center justify-center gap-2">
               <button
                 type="button"
-                onClick={handleListen}
-                disabled={listening}
-                className="flex items-center gap-2 px-4 py-3 rounded-xl border-2 border-amber-500/50 bg-amber-500/5 hover:bg-amber-500/10 disabled:opacity-50 cursor-pointer touch-manipulation"
+                onClick={handlePlayTarget}
+                disabled={listening || (replaying !== null && replaying !== "target")}
+                title={targetAudioCache[targetWord] ? "Play Aryan voice (cached)" : "Play Aryan voice (first time 1–2 min)"}
+                className={cn(
+                  "flex items-center justify-center w-11 h-11 rounded-xl border-2 transition-colors cursor-pointer touch-manipulation",
+                  targetAudioCache[targetWord]
+                    ? "border-amber-400/60 bg-amber-500/10 hover:bg-amber-500/20"
+                    : "border-amber-500/50 bg-amber-500/5 hover:bg-amber-500/10",
+                  "disabled:opacity-50"
+                )}
               >
                 {listening ? (
-                  <>
-                    <Loader2 className="w-5 h-5 animate-spin text-amber-600" />
-                    Generating… (first time ~30s)
-                  </>
+                  <Loader2 className="w-5 h-5 animate-spin text-amber-600" />
                 ) : (
-                  <>
-                    <Volume2 className="w-5 h-5 text-amber-600" />
-                    Listen (Aryan voice)
-                  </>
+                  <Volume2 className="w-5 h-5 text-amber-600" />
                 )}
               </button>
               <button
@@ -232,30 +377,48 @@ export default function PronunciationTutorPage() {
                 onClick={handleRecord}
                 disabled={assessing}
                 className={cn(
-                  "flex items-center gap-2 px-4 py-3 rounded-xl transition-colors cursor-pointer touch-manipulation",
+                  "flex items-center justify-center w-11 h-11 rounded-xl transition-colors cursor-pointer touch-manipulation",
                   recording
                     ? "bg-red-500 text-white"
                     : "bg-primary text-primary-foreground hover:opacity-90 disabled:opacity-50"
                 )}
+                title={recording ? "Stop & submit" : "Record"}
               >
                 {recording ? (
-                  <>
-                    <Square className="w-5 h-5" />
-                    Stop & submit
-                  </>
+                  <Square className="w-5 h-5" />
                 ) : assessing ? (
-                  <>
-                    <Loader2 className="w-5 h-5 animate-spin" />
-                    Assessing…
-                  </>
+                  <Loader2 className="w-5 h-5 animate-spin" />
                 ) : (
-                  <>
-                    <Mic className="w-5 h-5" />
-                    Record
-                  </>
+                  <Mic className="w-5 h-5" />
                 )}
               </button>
+              {lastRecordingUrl && (
+                <button
+                  type="button"
+                  onClick={handleReplayRecording}
+                  disabled={replaying === "recording"}
+                  title="Replay your recording"
+                  className="flex items-center justify-center w-11 h-11 rounded-xl border-2 border-emerald-500/40 bg-emerald-500/5 hover:bg-emerald-500/10 disabled:opacity-50 cursor-pointer touch-manipulation"
+                >
+                  {replaying === "recording" ? (
+                    <Loader2 className="w-5 h-5 animate-spin text-emerald-600" />
+                  ) : (
+                    <Volume2 className="w-5 h-5 text-emerald-600" />
+                  )}
+                </button>
+              )}
             </div>
+            {recording && (
+              <div className="flex flex-col items-center gap-1">
+                <canvas
+                  ref={waveformRef}
+                  width={280}
+                  height={48}
+                  className="rounded-lg bg-slate-800"
+                />
+                <p className="text-xs text-muted-foreground">Live input — tap Stop to submit</p>
+              </div>
+            )}
 
             {backendError && (
               <div className="p-4 rounded-lg bg-destructive/10 text-destructive text-sm">
@@ -319,6 +482,21 @@ export default function PronunciationTutorPage() {
                       </p>
                     )}
                   </>
+                )}
+                {feedbackAudioUrl && (
+                  <button
+                    type="button"
+                    onClick={handleReplayFeedback}
+                    disabled={replaying === "feedback"}
+                    className="flex items-center gap-2 px-3 py-2 rounded-lg border border-primary/30 bg-primary/5 hover:bg-primary/10 text-sm"
+                  >
+                    {replaying === "feedback" ? (
+                      <Loader2 className="w-4 h-4 animate-spin" />
+                    ) : (
+                      <Volume2 className="w-4 h-4" />
+                    )}
+                    Replay feedback
+                  </button>
                 )}
               </div>
             )}

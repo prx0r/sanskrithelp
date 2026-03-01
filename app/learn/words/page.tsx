@@ -5,6 +5,7 @@ import Link from "next/link";
 import dhatusData from "@/data/dhatus.json";
 import wordsData from "@/data/words.json";
 import { cn } from "@/lib/utils";
+import { ZoneGate } from "@/components/ZoneGate";
 import { MultipleChoiceQuiz, type MCQuestion } from "@/components/MultipleChoiceQuiz";
 import { LessonPracticeSection } from "@/components/LessonPracticeSection";
 
@@ -114,6 +115,9 @@ export default function WordsPage() {
           <p className="text-muted-foreground">
             Roots in real form. Word families from our Dhātus plus common nouns. Bridge to reading.
           </p>
+          <div className="mt-3">
+            <ZoneGate zoneId="words" />
+          </div>
         </div>
         <div className="flex items-center gap-2">
           <Link href="/learn/roots/" className="text-sm text-primary hover:underline">← Dhātus</Link>

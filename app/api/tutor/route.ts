@@ -1,15 +1,17 @@
 import { NextResponse } from "next/server";
+import { retrieve } from "@/lib/sanskritRag";
 
 const CHUTES_CHAT_URL = "https://llm.chutes.ai/v1/chat/completions";
-const MODEL = "XiaomiMiMo/MiMo-V2-Flash-TEE";
+// MiMo works; Qwen3.5-397B may return empty on Chutes. Override with TUTOR_MODEL if needed.
+const MODEL = process.env.TUTOR_MODEL || "Qwen/Qwen3.5-397B-A17B-TEE";
 
-const SYSTEM_PROMPT = `You are a patient Sanskrit teacher following Pāṇini's system. You teach through conversation, not lectures.
+const SYSTEM_BASE = `You are a patient Sanskrit teacher following Pāṇini's system. You teach through conversation, not lectures.
 
 CRITICAL — SPEECH OUTPUT: Everything you output is spoken aloud by text-to-speech. So:
 - Be CONCISE. Short sentences. No long paragraphs or lists — they sound robotic when read aloud.
 - For Sanskrit vowels, words, or pronunciation guidance: use DEVANAGARI (e.g. अ आ इ) so the TTS pronounces them correctly. Do not use transliteration like "a, ā" when teaching how to say something; use the script: अ (a) — the Devanagari tells the learner how it looks and helps TTS.
 - Avoid spelling out acronyms or abbreviations — they get read letter-by-letter and sound odd.
-- When giving pronunciation hints, put the Devanagari first, then a brief note: "अ — like 'u' in but."
+- When giving pronunciation hints, put the Devanagari first, then a brief note in the learner's language: "अ — like 'u' in but."
 
 KASHMIR SHAIVISM THREAD: When relevant, gently connect grammar to Śiva Sutras / Tantrāloka. Keep it brief. Do not force it.
 
@@ -25,9 +27,16 @@ RULES:
 
 When you receive LEARNER PROGRESS, start from where they left off. If topicsIntroduced is empty, start with: "Let's begin with अ (a) — like 'u' in but. Can you say it?"`;
 
+const LANGUAGE_NAMES: Record<string, string> = {
+  en: "English", es: "Spanish", fr: "French", de: "German",
+  hi: "Hindi", pt: "Portuguese", ru: "Russian", ja: "Japanese",
+  zh: "Chinese", ar: "Arabic", it: "Italian", nl: "Dutch",
+  pl: "Polish", ko: "Korean",
+};
+
 export async function POST(req: Request) {
   try {
-    const { messages, progress } = await req.json();
+    const { messages, progress, nativeLanguage, tutorVoice, zone } = await req.json();
 
     const apiKey = process.env.CHUTES_API_KEY;
     if (!apiKey) {
@@ -37,12 +46,32 @@ export async function POST(req: Request) {
       );
     }
 
+    const lang = nativeLanguage || "en";
+    const langName = LANGUAGE_NAMES[lang] ?? lang;
+    const languageInstruction = `\n\nLANGUAGE: Respond ONLY in ${langName}. All explanations, questions, and feedback must be in ${langName}. Sanskrit words and Devanagari stay as-is, but surrounding text is in ${langName}.`;
+
     const progressContext = progress
       ? `\n\nCURRICULUM (teach in this order):\n1. Vowels: a, ā, i, ī, u, ū, ṛ, e, o, ai, au — start with अ (a)\n2. Stops: velar (ka, kha...), palatal (ca...), retroflex (ṭa...), dental (ta...), labial (pa...)\n3. Pratyāhāras, Sandhi, Dhātus\n\nLEARNER: Introduced: ${progress.topicsIntroduced?.join(", ") || "nothing"}. Mastered: ${progress.topicsMastered?.join(", ") || "nothing"}. Last: ${progress.lastTopic || "none"}\n`
       : "";
 
+    // RAG: retrieve zone-filtered context from Whitney/grammar index
+    let ragContext = "";
+    const lastUserMsg = Array.isArray(messages) ? [...messages].reverse().find((m) => m?.role === "user") : null;
+    const queryText = typeof lastUserMsg?.content === "string" ? lastUserMsg.content : "";
+    if (queryText.trim()) {
+      try {
+        const chunks = await retrieve(queryText, 4, zone ? { zone } : undefined);
+        if (chunks.length > 0) {
+          ragContext = "\n\nRELEVANT PASSAGES (use these; cite Whitney §X or source):\n" +
+            chunks.map((c) => `[${String(c.meta.source ?? "?").toUpperCase()} ${c.meta.ref ?? ""}]\n${c.text}`).join("\n\n");
+        }
+      } catch (_) {
+        // Chroma down or no index — continue without RAG
+      }
+    }
+
     const chatMessages = [
-      { role: "system" as const, content: SYSTEM_PROMPT + progressContext },
+      { role: "system" as const, content: SYSTEM_BASE + languageInstruction + progressContext + ragContext },
       ...(Array.isArray(messages) ? messages : []),
     ];
 
@@ -70,11 +99,15 @@ export async function POST(req: Request) {
     }
 
     const data = (await response.json()) as {
-      choices?: Array<{ message?: { content?: string } }>;
+      choices?: Array<{ message?: { content?: string }; text?: string }>;
     };
-    const content = data.choices?.[0]?.message?.content ?? "";
+    const choice = data.choices?.[0];
+    const content =
+      choice?.message?.content ??
+      (typeof choice?.text === "string" ? choice.text : "") ??
+      "";
 
-    return NextResponse.json({ content });
+    return NextResponse.json({ content, tutorVoice: tutorVoice ?? "af_heart" });
   } catch (error) {
     console.error("Tutor API error:", error);
     return NextResponse.json(

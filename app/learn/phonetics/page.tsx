@@ -7,6 +7,7 @@ import phonemesData from "@/data/phonemes.json";
 import { PhonemeGrid } from "@/components/PhonemeGrid";
 import { PronunciationDrill } from "@/components/PronunciationDrill";
 import type { Phoneme } from "@/lib/types";
+import { ZoneGate } from "@/components/ZoneGate";
 
 const phonemes = phonemesData as Phoneme[];
 
@@ -37,6 +38,9 @@ export default function PhoneticsPage() {
         <p className="text-muted-foreground">
           Tap any cell to hear it. Select one to practice: hear original, record yourself, compare side by side.
         </p>
+        <div className="mt-3">
+          <ZoneGate zoneId="phonetics" />
+        </div>
       </div>
 
       {/* Explainer: Place & Manner */}

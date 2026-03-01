@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
+import { ZoneGate } from "@/components/ZoneGate";
 import { MultipleChoiceQuiz, type MCQuestion } from "@/components/MultipleChoiceQuiz";
 import { LessonPracticeSection } from "@/components/LessonPracticeSection";
 
@@ -182,6 +183,9 @@ export default function ReadingPage() {
           <p className="text-muted-foreground">
             From sandhi to syntax. Ten lessons on how to read Sanskrit.
           </p>
+          <div className="mt-3">
+            <ZoneGate zoneId="reading" />
+          </div>
         </div>
         <div className="flex items-center gap-2">
           <Link href="/learn/compounds/" className="text-sm text-primary hover:underline">← Compounds</Link>

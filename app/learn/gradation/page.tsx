@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { GunaDrill } from "@/components/GunaDrill";
+import { ZoneGate } from "@/components/ZoneGate";
 import { cn } from "@/lib/utils";
 
 const GRADES = [
@@ -21,14 +22,17 @@ export default function GradationPage() {
         <p className="text-muted-foreground">
           Sanskrit vowels move in three levels of &quot;energy.&quot; Learn the scale, then practice.
         </p>
-        {!showDrill && (
-          <button
-            onClick={() => setShowDrill(true)}
-            className="mt-2 text-sm text-primary hover:underline"
-          >
-            Skip to drills →
-          </button>
-        )}
+        <div className="mt-3 flex flex-wrap items-center gap-3">
+          <ZoneGate zoneId="gradation" />
+          {!showDrill && (
+            <button
+              onClick={() => setShowDrill(true)}
+              className="text-sm text-primary hover:underline"
+            >
+              Skip to drills →
+            </button>
+          )}
+        </div>
       </div>
 
       {/* Explainer */}

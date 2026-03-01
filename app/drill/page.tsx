@@ -17,7 +17,7 @@ import {
 } from "@/lib/storage";
 import { playPhonemeAudio } from "@/lib/audio";
 import {
-  getSameGroupOptions,
+  getMixedOptions,
   getSameGroupRomanOptions,
 } from "@/lib/drillUtils";
 import { Volume2, Loader2, Ear, Mic, Sparkles } from "lucide-react";
@@ -48,6 +48,63 @@ function shuffle<T>(arr: T[]): T[] {
     [out[i], out[j]] = [out[j], out[i]];
   }
   return out;
+}
+
+/** Need score: higher = more in need of practice (difficult, low stability, lapses). */
+function getNeedScore(
+  phoneme: Phoneme,
+  mode: string,
+  cardStates: Record<string, { difficulty?: number; stability?: number; lapses?: number }>
+): number {
+  const key = `${phoneme.id}:${mode}`;
+  const state = cardStates[key];
+  if (!state) return 5; // New cards: medium priority
+  const d = state.difficulty ?? 5;
+  const s = state.stability ?? 0;
+  const l = state.lapses ?? 0;
+  return d + l * 3 + (s < 1 ? 8 : 0) + 5 / (1 + s);
+}
+
+/** Build deck with difficult phonemes first; then light shuffle within tiers. */
+function buildWeightedDeck(
+  due: Phoneme[],
+  cardStates: Record<string, { difficulty?: number; stability?: number; lapses?: number }>,
+  mode: string
+): Phoneme[] {
+  const getNeed = mode === "combined"
+    ? (p: Phoneme) => getNeedScoreCombined(p, cardStates)
+    : (p: Phoneme) => getNeedScore(p, mode, cardStates);
+  const scored = due.map((p) => ({ p, need: getNeed(p) }));
+  scored.sort((a, b) => b.need - a.need);
+  const ordered = scored.map((s) => s.p);
+  return shuffle(ordered.slice(0, Math.ceil(ordered.length * 0.7))).concat(
+    shuffle(ordered.slice(Math.ceil(ordered.length * 0.7)))
+  );
+}
+
+/** For combined mode: max need across all drill modes. */
+function getNeedScoreCombined(
+  phoneme: Phoneme,
+  cardStates: Record<string, { difficulty?: number; stability?: number; lapses?: number }>
+): number {
+  const modes = ["hear:easy", "hear:medium", "hear:hard", "see-say:easy", "see-say:medium", "see-say:hard", "hear-say:easy", "hear-say:medium", "hear-say:hard"];
+  return Math.max(...modes.map((m) => getNeedScore(phoneme, m, cardStates)));
+}
+
+function getWeakPhonemes(
+  phonemes: Phoneme[],
+  cardStates: Record<string, { difficulty?: number; stability?: number; lapses?: number }>,
+  mode: string,
+  limit: number
+): Phoneme[] {
+  const getNeed = mode === "combined"
+    ? (p: Phoneme) => getNeedScoreCombined(p, cardStates)
+    : (p: Phoneme) => getNeedScore(p, mode, cardStates);
+  const withState = phonemes
+    .map((p) => ({ p, need: getNeed(p) }))
+    .filter((x) => x.need > 6);
+  withState.sort((a, b) => b.need - a.need);
+  return withState.slice(0, limit).map((x) => x.p);
 }
 
 export default function DrillPage() {
@@ -98,13 +155,13 @@ export default function DrillPage() {
       duePhonemes.length > 0 &&
       mode !== "combined"
     ) {
-      setSessionDeck(shuffle(duePhonemes));
+      setSessionDeck(buildWeightedDeck(duePhonemes, cardStates, mode));
       setListenPlayed(false);
       setChoice(null);
       setOptions([]);
       setHasRecorded(false);
     }
-  }, [showLevelPicker, duePhonemes.length, sessionDeck.length, mode]);
+  }, [showLevelPicker, duePhonemes, sessionDeck.length, mode, cardStates]);
 
   useEffect(() => {
     if (
@@ -118,18 +175,18 @@ export default function DrillPage() {
         "see-say:easy", "see-say:medium", "see-say:hard",
         "hear-say:easy", "hear-say:medium", "hear-say:hard",
       ];
-      const shuffled = shuffle(duePhonemes);
-      const levs = shuffled.map(
+      const deck = buildWeightedDeck(duePhonemes, cardStates, mode);
+      const levs = deck.map(
         () => levels[Math.floor(Math.random() * levels.length)]
       );
       setCombinedLevels(levs);
-      setSessionDeck(shuffled);
+      setSessionDeck(deck);
       setListenPlayed(false);
       setChoice(null);
       setOptions([]);
       setHasRecorded(false);
     }
-  }, [mode, sessionDeck.length, duePhonemes, combinedLevels.length]);
+  }, [mode, sessionDeck.length, duePhonemes, combinedLevels.length, cardStates]);
 
   const currentPhoneme = sessionDeck[0];
   const currentCombinedLevel =
@@ -150,9 +207,7 @@ export default function DrillPage() {
   useEffect(() => {
     if (!currentPhoneme) return;
     if (effGroup === "hear" && optionCount > 0 && options.length === 0 && !choice) {
-      setOptions(
-        getSameGroupOptions(currentPhoneme, phonemes, optionCount)
-      );
+      setOptions(getMixedOptions(currentPhoneme, phonemes, optionCount));
     }
     if (
       effGroup === "see-say" &&
@@ -170,6 +225,39 @@ export default function DrillPage() {
     options.length,
     choice,
   ]);
+
+  /** Autoplay when a new card is shown. */
+  useEffect(() => {
+    if (!currentPhoneme || showLevelPicker) return;
+    const play = async () => {
+      setListenPlaying(true);
+      try {
+        await playPhonemeAudio(currentPhoneme);
+        setListenPlayed(true);
+        if (effGroup === "hear" && optionCount > 0) {
+          setOptions(getMixedOptions(currentPhoneme, phonemes, optionCount));
+        }
+        if (effGroup === "see-say" && effDiff === "medium") {
+          setOptions(getSameGroupRomanOptions(currentPhoneme, phonemes, 4));
+        }
+      } finally {
+        setListenPlaying(false);
+      }
+    };
+    play();
+  }, [currentPhoneme?.id, showLevelPicker]);
+
+  /** Autoplay when answer is revealed (back of card). */
+  const hearBack = effGroup === "hear" && choice !== null;
+  const seeSayBack =
+    effGroup === "see-say" &&
+    (effDiff === "medium" ? choice !== null && hasRecorded : hasRecorded);
+  const hearSayBack = effGroup === "hear-say" && listenPlayed && hasRecorded;
+  const showingBack = hearBack || seeSayBack || hearSayBack;
+  useEffect(() => {
+    if (!currentPhoneme || !showingBack) return;
+    playPhonemeAudio(currentPhoneme).catch(() => {});
+  }, [showingBack, currentPhoneme?.id]);
 
   const getState = useCallback(
     (p: Phoneme, m: string) =>
@@ -215,7 +303,7 @@ export default function DrillPage() {
       setListenPlayed(true);
       if (effGroup === "hear" && optionCount > 0) {
         setOptions(
-          getSameGroupOptions(currentPhoneme, phonemes, optionCount)
+          getMixedOptions(currentPhoneme, phonemes, optionCount)
         );
       }
       if (effGroup === "see-say" && effDiff === "medium") {
@@ -276,12 +364,38 @@ export default function DrillPage() {
     return "bg-muted";
   };
 
+  const weakPhonemes = useMemo(
+    () => getWeakPhonemes(phonemes, cardStates, mode, 5),
+    [cardStates, mode]
+  );
+
   if (sessionDeck.length === 0 || showLevelPicker) {
     return (
       <div className="space-y-8">
         <h1 className="text-2xl font-bold">Pronunciation Drill</h1>
         <p className="text-muted-foreground text-sm">
-          Choose a group and difficulty. <span className="text-amber-500 dark:text-amber-500/90">●</span> Easy · <span className="text-slate-400">○</span> Medium · <span className="text-rose-400">◆</span> Hard
+          Practice vowels and consonants. Harder phonemes surface more often based on your ratings.
+        </p>
+
+        {duePhonemes.length > 0 && (
+          <div className="rounded-xl border border-primary/30 bg-primary/5 p-4 space-y-2">
+            <button
+              type="button"
+              onClick={() => handleLevelSelect("hear:easy")}
+              className="w-full py-3 px-4 rounded-lg bg-primary text-primary-foreground font-semibold hover:opacity-90 transition-opacity"
+            >
+              Start practice — {duePhonemes.length} phoneme{duePhonemes.length !== 1 ? "s" : ""} due
+            </button>
+            {weakPhonemes.length > 0 && (
+              <p className="text-xs text-muted-foreground">
+                Focus today: {weakPhonemes.map((p) => p.devanagari).join(", ")} ({weakPhonemes.map((p) => p.iast).join(", ")})
+              </p>
+            )}
+          </div>
+        )}
+
+        <p className="text-sm text-muted-foreground">
+          Or choose a group and difficulty: <span className="text-amber-500 dark:text-amber-500/90">●</span> Easy · <span className="text-slate-400">○</span> Medium · <span className="text-rose-400">◆</span> Hard
           {duePhonemes.length === 0 && selectedLevel && mode !== "combined" && (
             <span className="block mt-2 text-amber-500/90">No cards due for current level.</span>
           )}
@@ -422,11 +536,6 @@ export default function DrillPage() {
             <div className="text-center space-y-4">
               <p className="text-muted-foreground text-sm">
                 Listen, then pick the Devanagari you heard.
-                {effDiff === "easy" && (
-                  <span className="block mt-1 font-mono text-amber-400">
-                    Hint: {currentPhoneme.iast}
-                  </span>
-                )}
               </p>
               <button
                 onClick={handlePlay}
@@ -449,11 +558,6 @@ export default function DrillPage() {
                       className="flex flex-col items-center justify-center gap-1 py-4 px-3 rounded-xl border-2 border-border hover:border-primary bg-card touch-target"
                     >
                       <span className="text-4xl font-bold">{p.devanagari}</span>
-                      {effDiff === "easy" && (
-                        <span className="font-mono text-sm text-muted-foreground" style={{ fontVariant: "normal" }}>
-                          {p.iast}
-                        </span>
-                      )}
                     </button>
                   ))}
                 </div>
@@ -469,14 +573,23 @@ export default function DrillPage() {
                 <span className="font-mono text-xl tracking-wide" style={{ fontVariant: "normal" }}>
                   {currentPhoneme.iast}
                 </span>
+                <button
+                  onClick={() => handlePlay()}
+                  disabled={listenPlaying}
+                  className="flex items-center gap-2 mx-auto px-4 py-2 rounded-lg bg-amber-500/20 text-amber-700 dark:text-amber-400 hover:bg-amber-500/30 disabled:opacity-70"
+                >
+                  {listenPlaying ? (
+                    <Loader2 className="w-5 h-5 animate-spin" />
+                  ) : (
+                    <Volume2 className="w-5 h-5" />
+                  )}
+                  {listenPlaying ? "Playing…" : "Play"}
+                </button>
                 {choice?.id !== currentPhoneme.id && (
                   <p className="text-sm text-rose-400">
                     You chose {choice?.devanagari} ({choice?.iast})
                   </p>
                 )}
-                <p className="text-muted-foreground text-sm">
-                  How well did you know it?
-                </p>
               </div>
             ) : (
               <div className="text-center text-muted-foreground">
@@ -501,7 +614,20 @@ export default function DrillPage() {
                   "See Devanagari, pick the correct roman, then say it."}
                 {effDiff === "hard" && "See the symbol. Say it. No hints."}
               </p>
-              <span className="text-7xl block">{currentPhoneme.devanagari}</span>
+              <div className="flex items-center justify-center gap-3">
+                <span className="text-7xl block">{currentPhoneme.devanagari}</span>
+                <button
+                  onClick={() => handlePlay()}
+                  disabled={listenPlaying}
+                  className="shrink-0 p-2 rounded-lg bg-amber-500/20 text-amber-700 dark:text-amber-400 hover:bg-amber-500/30 disabled:opacity-70"
+                >
+                  {listenPlaying ? (
+                    <Loader2 className="w-6 h-6 animate-spin" />
+                  ) : (
+                    <Volume2 className="w-6 h-6" />
+                  )}
+                </button>
+              </div>
               {effDiff === "easy" && (
                 <span className="font-mono text-xl text-muted-foreground">
                   {currentPhoneme.iast}
@@ -571,15 +697,12 @@ export default function DrillPage() {
                   ) : (
                     <Volume2 className="w-4 h-4" />
                   )}
-                  Play model again
+                  Play
                 </button>
-                <p className="text-muted-foreground text-sm">
-                  Rate yourself:
-                </p>
               </div>
             ) : (
               <div className="text-center text-muted-foreground">
-                Record and tap Play model to compare.
+                Record and tap Play to hear the model.
               </div>
             )
           }
@@ -596,11 +719,6 @@ export default function DrillPage() {
             <div className="text-center space-y-4">
               <p className="text-muted-foreground text-sm">
                 Hear it. Say it back. Hear the model to compare.
-                {effDiff === "easy" && (
-                  <span className="block mt-1 font-mono text-amber-400">
-                    Hint: {currentPhoneme.iast}
-                  </span>
-                )}
                 {effDiff === "medium" && (
                   <span className="block mt-1 text-2xl">
                     {currentPhoneme.devanagari}
@@ -650,15 +768,12 @@ export default function DrillPage() {
                   ) : (
                     <Volume2 className="w-4 h-4" />
                   )}
-                  Play model again
+                  Play
                 </button>
-                <p className="text-muted-foreground text-sm">
-                  Rate yourself:
-                </p>
               </div>
             ) : (
               <div className="text-center text-muted-foreground">
-                Play, record, then tap Play model.
+                Play, record, then tap Play.
               </div>
             )
           }

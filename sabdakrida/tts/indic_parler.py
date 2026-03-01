@@ -19,6 +19,10 @@ import torch
 from transformers import AutoTokenizer
 
 _DEVANAGARI_RE = re.compile(r"[\u0900-\u097F]+")
+# Punctuation that signals end of utterance (reduce TTS continuation/hallucination)
+_END_PUNCT = set(".!?।॥,;:")
+# Max sec per character — trim audio if model generates way beyond this
+_SEC_PER_CHAR = 0.2
 
 
 def _to_devanagari(text: str) -> str:
@@ -53,6 +57,9 @@ _model = None
 _tokenizer = None
 _description_tokenizer = None
 
+# Cache (text, style) -> WAV bytes — feedback phrases repeat, cache avoids slow TTS
+_tts_cache: dict[tuple[str, str], bytes] = {}
+
 
 def _load_tts():
     global _model, _tokenizer, _description_tokenizer
@@ -76,24 +83,36 @@ def _synthesize_sync(text: str, style: str = "command", save: bool = False):
     device = next(model.parameters()).device
 
     devanagari_text = _to_devanagari(text)
+    # For short prompts without end punctuation, add Devanagari danda to reduce TTS continuation
+    text_stripped = text.strip()
+    if (
+        len(text_stripped) < 25
+        and text_stripped
+        and text_stripped[-1] not in _END_PUNCT
+    ):
+        devanagari_text = (devanagari_text.rstrip() + " ।").strip()
 
     desc_inputs = desc_tokenizer(description, return_tensors="pt").to(device)
     prompt_inputs = tokenizer(devanagari_text, return_tensors="pt").to(device)
 
     with torch.no_grad():
-        # Deterministic generation for consistent voice (no random sampling)
         generation = model.generate(
             input_ids=desc_inputs.input_ids,
             attention_mask=desc_inputs.attention_mask,
             prompt_input_ids=prompt_inputs.input_ids,
             prompt_attention_mask=prompt_inputs.attention_mask,
-            do_sample=False,  # Greedy decode — same input = same voice output
         )
 
-    audio_arr = generation.cpu().numpy().squeeze()
-    if audio_arr.ndim == 1:
-        audio_arr = np.expand_dims(audio_arr, axis=1)  # (n,) -> (n, 1) for soundfile
+    audio_arr = np.asarray(generation.cpu().numpy().squeeze(), dtype=np.float32)
+    if audio_arr.ndim < 2:
+        audio_arr = np.reshape(audio_arr, (-1, 1))  # (n,) or scalar -> (n, 1) for soundfile
     sr = model.config.sampling_rate
+
+    # Trim hallucinated tail: for short text, cap duration to avoid random extra speech
+    n_samples = audio_arr.shape[0]
+    max_samples = int((0.5 + _SEC_PER_CHAR * max(1, len(text_stripped))) * sr)
+    if n_samples > max_samples:
+        audio_arr = audio_arr[:max_samples]
 
     if save:
         fd, out_path = tempfile.mkstemp(suffix=".wav")
@@ -108,7 +127,13 @@ def _synthesize_sync(text: str, style: str = "command", save: bool = False):
 
 async def tts_speak(text: str, style: str = "command", save: bool = False) -> bytes | str:
     """Synthesize Sanskrit text to speech. Returns WAV bytes or path if save=True."""
+    key = (text.strip(), style)
+    if not save and key in _tts_cache:
+        return _tts_cache[key]
     loop = asyncio.get_event_loop()
-    return await loop.run_in_executor(
+    out = await loop.run_in_executor(
         None, partial(_synthesize_sync, text, style, save)
     )
+    if not save and isinstance(out, bytes):
+        _tts_cache[key] = out
+    return out

@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
+import { ZoneGate } from "@/components/ZoneGate";
 import { MultipleChoiceQuiz, type MCQuestion } from "@/components/MultipleChoiceQuiz";
 import { LessonPracticeSection } from "@/components/LessonPracticeSection";
 
@@ -192,6 +193,9 @@ export default function KarakasPage() {
           <p className="text-muted-foreground">
             Six semantic roles connect meaning to grammar. Eleven lessons from first principles.
           </p>
+          <div className="mt-3">
+            <ZoneGate zoneId="karakas" />
+          </div>
         </div>
         <div className="flex items-center gap-2">
           <Link href="/learn/suffixes/" className="text-sm text-primary hover:underline">← Suffixes</Link>

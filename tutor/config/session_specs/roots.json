@@ -1,0 +1,91 @@
+{
+  "zone_id": "roots",
+  "label": "Dhātus",
+  "levels": [
+    {
+      "level": 1,
+      "objectives": ["Define dhātu in own words", "Give one example of a root and a derived form"],
+      "pass_criteria": {
+        "conceptual": [
+          "mentions verbal root or equivalent",
+          "distinguishes root from inflected form",
+          "gives at least one correct example"
+        ],
+        "production": null,
+        "pronunciation": null
+      },
+      "assessment_type": "conceptual",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "retrieval_context": { "zone": "roots", "max_difficulty": 1 },
+      "remedial_on_fail": {
+        "prerequisite_zones": ["phonetics", "gradation"],
+        "retry_variant": "level_1_v2"
+      }
+    },
+    {
+      "level": 2,
+      "objectives": ["Identify the root in given inflected form", "Name the root for गच्छति"],
+      "pass_criteria": {
+        "conceptual": null,
+        "production": ["correct_root_for_gacchati"],
+        "pronunciation": null
+      },
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "retrieval_context": { "zone": "roots", "max_difficulty": 2 },
+      "remedial_on_fail": {
+        "prerequisite_zones": ["phonetics"],
+        "retry_variant": "level_2_v2"
+      }
+    },
+    {
+      "level": 3,
+      "objectives": ["Produce 3 valid forms from √bhū"],
+      "pass_criteria": {
+        "conceptual": null,
+        "production": ["produces_3_valid_forms", "root_bhu"],
+        "pronunciation": null
+      },
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "retrieval_context": { "zone": "roots", "max_difficulty": 2 },
+      "remedial_on_fail": {
+        "prerequisite_zones": ["gradation"],
+        "retry_variant": "level_3_v2"
+      }
+    },
+    {
+      "level": 4,
+      "objectives": ["Produce present 3rd person singular of √gam"],
+      "pass_criteria": {
+        "conceptual": null,
+        "production": ["gacchati"],
+        "pronunciation": null
+      },
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "retrieval_context": { "zone": "roots", "max_difficulty": 3 },
+      "remedial_on_fail": {
+        "prerequisite_zones": ["roots"],
+        "retry_variant": "level_4_v2"
+      }
+    },
+    {
+      "level": 5,
+      "objectives": ["Produce 5 forms from √kṛ across different tenses/moods"],
+      "pass_criteria": {
+        "conceptual": null,
+        "production": ["produces_5_valid_forms", "root_kri"],
+        "pronunciation": null
+      },
+      "assessment_type": "production",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "retrieval_context": { "zone": "roots", "max_difficulty": 3 }
+    }
+  ]
+}

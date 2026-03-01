@@ -46,6 +46,17 @@ export function getSameGroupOptions(
   return shuffled;
 }
 
+/** Generative: ~60% same-group (plausible), ~40% random from all — varied pairings. */
+export function getMixedOptions(
+  correct: Phoneme,
+  allPhonemes: Phoneme[],
+  count: number
+): Phoneme[] {
+  return Math.random() < 0.4
+    ? getRandomOptions(correct, allPhonemes, count)
+    : getSameGroupOptions(correct, allPhonemes, count);
+}
+
 function shuffle<T>(arr: T[]): T[] {
   const out = [...arr];
   for (let i = out.length - 1; i > 0; i--) {

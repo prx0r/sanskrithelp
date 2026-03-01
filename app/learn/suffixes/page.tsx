@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import dhatusData from "@/data/dhatus.json";
 import { cn } from "@/lib/utils";
+import { ZoneGate } from "@/components/ZoneGate";
 import { MultipleChoiceQuiz, type MCQuestion } from "@/components/MultipleChoiceQuiz";
 import { LessonPracticeSection } from "@/components/LessonPracticeSection";
 
@@ -209,6 +210,9 @@ export default function SuffixesPage() {
           <p className="text-muted-foreground">
             Kṛt and taddhita suffixes turn roots and nouns into new words. Twelve lessons from first principles.
           </p>
+          <div className="mt-3">
+            <ZoneGate zoneId="suffixes" />
+          </div>
         </div>
         <div className="flex items-center gap-2">
           <Link href="/learn/words/" className="text-sm text-primary hover:underline">← Words</Link>

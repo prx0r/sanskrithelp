@@ -64,3 +64,7 @@ xml/
 app/games/
 components/games/
 components/games3d/
+
+# Local test files and DB
+_test.wav
+sabdakrida/sabdakrida.db

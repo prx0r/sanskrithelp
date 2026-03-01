@@ -1,0 +1,30 @@
+{
+  "topic_to_zone": {
+    "phonology": "phonetics",
+    "sandhi": "sandhi",
+    "dhatu": "roots",
+    "suffix": "suffixes",
+    "karaka": "karakas",
+    "compound": "compounds",
+    "conjugation": "verbs",
+    "declension": "words",
+    "sabdadvaita": "philosophy",
+    "matrka": "philosophy",
+    "dictionary": "words",
+    "general": "reading"
+  },
+  "zones": {
+    "compression": { "order": 1, "prerequisites": [] },
+    "phonetics": { "order": 2, "prerequisites": [] },
+    "gradation": { "order": 3, "prerequisites": ["phonetics"] },
+    "sandhi": { "order": 4, "prerequisites": ["phonetics", "gradation"] },
+    "roots": { "order": 5, "prerequisites": ["phonetics", "gradation"] },
+    "words": { "order": 6, "prerequisites": [] },
+    "suffixes": { "order": 7, "prerequisites": ["roots"] },
+    "karakas": { "order": 8, "prerequisites": ["words"] },
+    "verbs": { "order": 9, "prerequisites": ["roots"] },
+    "compounds": { "order": 10, "prerequisites": ["sandhi", "karakas"] },
+    "reading": { "order": 11, "prerequisites": ["sandhi", "verbs"] },
+    "philosophy": { "order": 12, "prerequisites": ["compounds", "reading"], "zone_11_threshold": 0.7 }
+  }
+}

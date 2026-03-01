@@ -73,6 +73,33 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Daily Drills — own section, prominent */}
+      <section className="mb-8">
+        <h2 className="text-sm font-medium text-muted-foreground mb-3">Daily Drills</h2>
+        <Link
+          href="/drill"
+          className="block p-5 rounded-xl border-2 border-primary/40 bg-primary/10 hover:bg-primary/15 transition-all group"
+        >
+          <div className="flex items-center justify-between gap-4">
+            <div className="flex items-center gap-4">
+              <div className="w-14 h-14 rounded-xl bg-primary/30 flex items-center justify-center">
+                <Zap className="w-7 h-7 text-primary" />
+              </div>
+              <div>
+                <h3 className="font-semibold text-lg group-hover:text-primary">Pronunciation Drill</h3>
+                <p className="text-sm text-muted-foreground">
+                  Hear → pick · See → say · Spaced repetition
+                </p>
+                {stats.dueCount > 0 && (
+                  <p className="text-xs text-primary font-medium mt-1">{stats.dueCount} due today</p>
+                )}
+              </div>
+            </div>
+            <ChevronRight className="w-6 h-6 text-primary shrink-0" />
+          </div>
+        </Link>
+      </section>
+
       <section className="space-y-3">
         <Link
           href="/learn/"
@@ -85,22 +112,6 @@ export default function HomePage() {
             <h3 className="font-semibold group-hover:text-primary">Pronunciation</h3>
             <p className="text-sm text-muted-foreground">
               Units, phoneme grid, guided lessons
-            </p>
-          </div>
-          <ChevronRight className="w-5 h-5 text-muted-foreground shrink-0" />
-        </Link>
-
-        <Link
-          href="/drill"
-          className="flex items-center gap-4 p-4 rounded-xl border border-border bg-card hover:border-primary hover:bg-primary/5 transition-all group"
-        >
-          <div className="w-12 h-12 rounded-xl bg-primary/20 flex items-center justify-center">
-            <Zap className="w-6 h-6 text-primary" />
-          </div>
-          <div className="flex-1 min-w-0">
-            <h3 className="font-semibold group-hover:text-primary">Drill</h3>
-            <p className="text-sm text-muted-foreground">
-              Anki-style practice · Learn → See → Hear
             </p>
           </div>
           <ChevronRight className="w-5 h-5 text-muted-foreground shrink-0" />

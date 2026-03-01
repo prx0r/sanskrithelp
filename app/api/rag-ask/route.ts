@@ -33,7 +33,11 @@ export async function POST(req: Request) {
     }
 
     const context = chunks
-      .map((c) => `[${c.meta.source.toUpperCase()} ${c.meta.ref}]\n${c.text}`)
+      .map((c) => {
+        const src = String(c.meta.source ?? "unknown").toUpperCase();
+        const ref = c.meta.ref ?? c.meta.head ?? c.meta.chapter ?? "";
+        return `[${src} ${ref}]\n${c.text}`;
+      })
       .join("\n\n");
 
     const res = await fetch(CHUTES_CHAT_URL, {
@@ -72,7 +76,7 @@ export async function POST(req: Request) {
         error: "RAG query failed",
         detail: msg,
         hint: isEmbed
-          ? "Chutes embedding may be cold. Retry or check chutes.ai for Qwen3-Embedding-8B endpoint."
+          ? "Chutes embedding may be cold. Retry or check Chutes for Qwen3-Embedding-0.6B endpoint."
           : msg.includes("fetch") || msg.includes("ECONNREFUSED")
             ? "Is Chroma running? Run: chroma run --path ./sanskrit_db"
             : undefined,

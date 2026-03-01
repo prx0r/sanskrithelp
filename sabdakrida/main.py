@@ -15,6 +15,7 @@ if str(_project_root) not in sys.path:
     sys.path.insert(0, str(_project_root))
 
 from fastapi import FastAPI, File, Form, UploadFile
+from pydantic import BaseModel
 from fastapi.responses import Response
 
 from sabdakrida.assessment.mode1 import pronunciation_session
@@ -28,6 +29,13 @@ app = FastAPI(title="Śabdakrīḍā", version="1.0")
 try:
     from sabdakrida.routers.games import router as games_router
     app.include_router(games_router)
+except ImportError:
+    pass
+
+# Mount tutor router (proactive tutor, Navigator, sessions)
+try:
+    from sabdakrida.routers.tutor import router as tutor_router
+    app.include_router(tutor_router)
 except ImportError:
     pass
 
@@ -74,6 +82,22 @@ async def speak(
     style: str = Form(default="narration"),
 ):
     """Speak Sanskrit text — used for teacher demonstrations."""
+    audio_bytes = await tts_speak(text, style=style)
+    if isinstance(audio_bytes, str):
+        with open(audio_bytes, "rb") as f:
+            audio_bytes = f.read()
+    return Response(content=audio_bytes, media_type="audio/wav")
+
+
+class FeedbackAudioBody(BaseModel):
+    text: str
+    style: str = "command"
+
+
+@app.post("/feedback-audio")
+async def feedback_audio(body: FeedbackAudioBody):
+    """Fetch feedback TTS. Called after assessment so result returns fast (Whisper-only)."""
+    text, style = body.text, body.style
     audio_bytes = await tts_speak(text, style=style)
     if isinstance(audio_bytes, str):
         with open(audio_bytes, "rb") as f:

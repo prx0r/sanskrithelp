@@ -27,9 +27,13 @@ import chromadb
 
 # ── CONFIG ────────────────────────────────────────────────────────
 CHUTES_API_KEY = os.environ.get("CHUTES_API_KEY") or os.environ.get("CHUTES_API_TOKEN", "")
-EMBED_URL = "https://chutes-qwen-qwen3-embedding-8b.chutes.ai"
-EMBED_MODEL = "Qwen/Qwen3-Embedding-8B"
-EMBED_DIMS = 4096
+EMBED_URL = os.environ.get("EMBED_URL", "https://chutes-qwen-qwen3-embedding-0-6b.chutes.ai")
+EMBED_MODEL = os.environ.get("EMBED_MODEL", "Qwen/Qwen3-Embedding-0.6B")
+EMBED_DIMS = int(os.environ.get("EMBED_DIMS", "1024"))  # LOCKED: run scripts/check_embed_dims.py to verify
+
+RAG_OUTPUT = Path(__file__).resolve().parent / "output"
+CHUNKS_JSON = RAG_OUTPUT / "chunks.json"
+CACHE_JSON = RAG_OUTPUT / "embedding_cache.json"
 
 # ── WHITNEY CHAPTERS (Wikisource flat structure) ───────────────────
 WHITNEY_CHAPTERS = [
@@ -59,6 +63,7 @@ PARA_RE = re.compile(r"(?m)^(\d{1,4}[a-e]?)\.\s+")
 # Data paths (relative to project root)
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 PANINI_DATA = PROJECT_ROOT / "panini_data"
+ZONES_JSON = Path(__file__).resolve().parent / "config" / "zones.json"
 RAG_DATA = Path(__file__).resolve().parent / "data"
 MW_DATA = RAG_DATA / "mw"
 XML_ROOT = PROJECT_ROOT / "xml"  # Cologne mw.xml often in ./xml/
@@ -93,10 +98,67 @@ def infer_topic(text: str) -> str:
     return "general"
 
 
+def infer_difficulty(chunk: dict) -> int:
+    """
+    Difficulty 1–5 at chunk level. Heuristics: intro→1, exception catalogues→5,
+    long text with many terms→4–5, dictionary→2, sūtra+gloss→2.
+    """
+    text = chunk.get("text", "")
+    meta = chunk.get("meta", {})
+    source = meta.get("source", "")
+    text_len = len(text)
+    t = text.lower()
+    # Exception catalogues, long lists
+    if "exception" in t or "except" in t or "irregular" in t:
+        if text_len > 500:
+            return 5
+        return 4
+    if source == "whitney" and meta.get("chapter") in ("intro", "ch1"):
+        return 1
+    if source == "panini":
+        return 2
+    if source == "dhatupatha" or source == "mw":
+        return 2
+    if source in ("vakyapadiya", "abhinavagupta"):
+        return 4 if text_len > 300 else 3
+    # Whitney: chapter-based heuristic
+    ch = meta.get("chapter", "")
+    if ch in ("intro", "ch1", "ch2"):
+        return 1
+    if ch in ("ch3", "ch4", "ch5"):
+        return 2
+    if ch in ("ch6", "ch7", "ch8"):
+        return 3
+    if ch in ("ch9", "ch10", "ch11"):
+        return 4
+    return 3
+
+
+def load_zones_config() -> dict:
+    """Load topic→zone mapping and zone metadata."""
+    if not ZONES_JSON.exists():
+        return {"topic_to_zone": {}, "zones": {}}
+    return json.loads(ZONES_JSON.read_text(encoding="utf-8"))
+
+
+def enrich_chunk_with_zone_and_difficulty(chunk: dict, zones_cfg: dict) -> dict:
+    """Add zone and difficulty to chunk meta. Chroma metadata must be JSON-serialisable."""
+    meta = dict(chunk.get("meta", {}))
+    topic = meta.get("topic", "general")
+    topic_to_zone = zones_cfg.get("topic_to_zone", {})
+    zone = topic_to_zone.get(topic, "reading")
+    meta["zone"] = zone
+    meta["difficulty"] = infer_difficulty(chunk)
+    return {**chunk, "meta": meta}
+
+
 # ── WHITNEY SCRAPER ──────────────────────────────────────────────────
-def scrape_whitney() -> list[dict]:
+def scrape_whitney(minimal: bool = False, max_chunks_per_chapter: int | None = None) -> list[dict]:
+    """Scrape Whitney. If minimal: intro + ch1–ch4 only, ~25 chunks/chapter. Full: all 18 chapters."""
+    chapters = WHITNEY_CHAPTERS[:5] if minimal else WHITNEY_CHAPTERS  # intro, ch1-4 for minimal
+    cap = max_chunks_per_chapter or (25 if minimal else 9999)
     chunks = []
-    for chapter_id, slug in WHITNEY_CHAPTERS:
+    for chapter_id, slug in chapters:
         url = f"https://en.wikisource.org/wiki/{slug}"
         try:
             r = requests.get(url, headers={"User-Agent": "sanskrit-rag/1.0"}, timeout=30)
@@ -111,11 +173,12 @@ def scrape_whitney() -> list[dict]:
             if len(parts) >= 3:
                 wi = 0
                 for i in range(1, len(parts) - 1, 2):
+                    if wi >= cap:
+                        break
                     num = parts[i].strip()
                     body = parts[i + 1].strip()
                     if len(body) < 40:
                         continue
-                    # Full document: no truncation
                     wi += 1
                     chunks.append({
                         "id": f"whitney_{chapter_id}_{wi}_{num.replace('.', '_').replace(' ', '_')}",
@@ -131,7 +194,7 @@ def scrape_whitney() -> list[dict]:
             else:
                 # Fallback for Intro etc: chunk by paragraph
                 paras = [p.strip() for p in text.split("\n\n") if len(p.strip()) >= 80]
-                for idx, body in enumerate(paras[:80]):
+                for idx, body in enumerate(paras[:min(80, cap)]):
                     # Full document: no truncation
                     chunks.append({
                         "id": f"whitney_{chapter_id}_p{idx}_{abs(hash(body)) % 100000}",
@@ -349,13 +412,12 @@ DOC_INSTRUCTION = "Represent this Sanskrit grammar rule or sūtra for retrieval"
 QUERY_INSTRUCTION = "Given a question about Sanskrit grammar, retrieve the most relevant rule or explanation"
 
 
-def embed(texts: list[str], instruction: str) -> list[list[float]]:
+def embed_batch(texts: list[str], instruction: str) -> list[list[float]]:
     prefixed = [f"Instruct: {instruction}\nQuery: {t}" for t in texts]
     headers = {
         "Authorization": f"Bearer {CHUTES_API_KEY}",
         "Content-Type": "application/json",
     }
-    # Chutes 8B: { input, model: null } or { input, model }, outputs 4096 dims
     payloads = [
         {"input": prefixed, "model": None},
         {"input": prefixed, "model": EMBED_MODEL},
@@ -376,30 +438,85 @@ def embed(texts: list[str], instruction: str) -> list[list[float]]:
         except Exception as e:
             last_err = str(e)
             continue
-    raise RuntimeError(f"Embedding failed: {last_err}. Ensure {EMBED_MODEL} (4096 dims).")
+    raise RuntimeError(f"Embedding failed: {last_err}. Ensure {EMBED_MODEL} ({EMBED_DIMS} dims).")
+
+
+def load_embedding_cache() -> dict[str, list[float]]:
+    """Load chunk_id → embedding from cache."""
+    if not CACHE_JSON.exists():
+        return {}
+    try:
+        return json.loads(CACHE_JSON.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
+def save_embedding_cache(cache: dict[str, list[float]]) -> None:
+    RAG_OUTPUT.mkdir(parents=True, exist_ok=True)
+    CACHE_JSON.write_text(json.dumps(cache, ensure_ascii=False), encoding="utf-8")
+
+
+# ── INGEST ──────────────────────────────────────────────────────────
+def ingest_all(skip_panini_data: bool = True, minimal: bool = False) -> list[dict]:
+    """Load sources. minimal=True: Whitney intro+ch1–4 only (~100 chunks), no MW/Abhinava. Good for testing."""
+    zones_cfg = load_zones_config()
+    whitney_chunks = scrape_whitney(minimal=minimal)
+    mw_chunks = [] if minimal else load_mw_cologne()
+    abhinava_chunks = [] if minimal else load_abhinavagupta()
+    all_chunks = whitney_chunks + mw_chunks + abhinava_chunks
+    if not skip_panini_data:
+        panini_chunks = load_panini(str(PANINI_DATA))
+        dhatu_chunks = load_dhatupatha()
+        vakyapadiya_chunks = load_vakyapadiya()
+        all_chunks = all_chunks + panini_chunks + dhatu_chunks + vakyapadiya_chunks
+    enriched = [enrich_chunk_with_zone_and_difficulty(c, zones_cfg) for c in all_chunks]
+    return enriched
 
 
 # ── BUILD CHROMADB INDEX ────────────────────────────────────────────
-def build_index(chunks: list[dict], db_path: str = "./sanskrit_db") -> chromadb.Collection:
-    db = chromadb.PersistentClient(path=db_path)
+def build_index(
+    chunks: list[dict],
+    db_path: str | Path | None = None,
+    use_cache: bool = True,
+) -> chromadb.Collection:
+    db_path = Path(db_path or PROJECT_ROOT / "sanskrit_db")
+    cache = load_embedding_cache() if use_cache else {}
+    to_embed = [c for c in chunks if c["id"] not in cache]
+
+    if to_embed:
+        print(f"  Embedding {len(to_embed)} new chunks (cached: {len(cache)})...", flush=True)
+        BATCH = 16  # 0.6B is faster; larger batches ok
+        for i in range(0, len(to_embed), BATCH):
+            batch = to_embed[i : i + BATCH]
+            vecs = embed_batch([c["text"] for c in batch], DOC_INSTRUCTION)
+            for c, v in zip(batch, vecs):
+                cache[c["id"]] = v
+            print(f"    embedded {min(i + BATCH, len(to_embed))}/{len(to_embed)}", flush=True)
+            time.sleep(0.2)
+        save_embedding_cache(cache)
+
+    # Build Chroma index
+    db = chromadb.PersistentClient(path=str(db_path))
     try:
         db.delete_collection("sanskrit")
     except Exception:
         pass
     col = db.create_collection("sanskrit", metadata={"hnsw:space": "cosine"})
 
-    BATCH = 8  # 8B is slower; smaller batches
+    BATCH = 50
     for i in range(0, len(chunks), BATCH):
         batch = chunks[i : i + BATCH]
-        vecs = embed([c["text"] for c in batch], DOC_INSTRUCTION)
+        vecs = [cache[c["id"]] for c in batch]
         col.add(
             ids=[c["id"] for c in batch],
             embeddings=vecs,
             documents=[c["text"] for c in batch],
-            metadatas=[c["meta"] for c in batch],
+            metadatas=[
+                {k: v for k, v in c["meta"].items() if v is not None and isinstance(v, (str, int, float))}
+                for c in batch
+            ],
         )
         print(f"  indexed {min(i + BATCH, len(chunks))}/{len(chunks)}", flush=True)
-        time.sleep(0.3)
 
     print(f"Index built. {len(chunks)} chunks in {db_path}/")
     return col
@@ -413,29 +530,39 @@ if __name__ == "__main__":
         print("Set CHUTES_API_KEY or CHUTES_API_TOKEN")
         sys.exit(1)
 
-    if "--build" in sys.argv:
-        print("Loading Whitney...")
-        whitney_chunks = scrape_whitney()
-        print("Loading Panini...")
-        panini_chunks = load_panini(str(PANINI_DATA))
-        print("Loading Dhatupatha...")
-        dhatu_chunks = load_dhatupatha()
-        print("Loading Vakyapadiya...")
-        vakyapadiya_chunks = load_vakyapadiya()
-        print("Loading Monier-Williams...")
-        mw_chunks = load_mw_cologne()
-        print("Loading Abhinavagupta...")
-        abhinava_chunks = load_abhinavagupta()
-        all_chunks = (
-            whitney_chunks + panini_chunks + dhatu_chunks + vakyapadiya_chunks
-            + mw_chunks + abhinava_chunks
+    minimal = "--minimal" in sys.argv
+
+    if "--ingest" in sys.argv:
+        RAG_OUTPUT.mkdir(parents=True, exist_ok=True)
+        chunks = ingest_all(minimal=minimal)
+        CHUNKS_JSON.write_text(
+            json.dumps([{"id": c["id"], "text": c["text"], "meta": c["meta"]} for c in chunks], ensure_ascii=False),
+            encoding="utf-8",
         )
-        print(f"\nTotal: {len(all_chunks)} chunks")
-        print("Embedding and indexing (this takes several minutes)...")
-        build_index(all_chunks)
+        print(f"Saved {len(chunks)} chunks to {CHUNKS_JSON}")
+
+    elif "--build" in sys.argv:
+        # Minimal: always re-ingest (never use old chunks.json with 45k MW). Full: use cache if exists.
+        if minimal or not CHUNKS_JSON.exists():
+            print("Ingesting..." + (" (minimal: Whitney intro+ch1-4 only)" if minimal else ""))
+            chunks = ingest_all(minimal=minimal)
+        else:
+            print(f"Loading chunks from {CHUNKS_JSON}")
+            raw = json.loads(CHUNKS_JSON.read_text(encoding="utf-8"))
+            chunks = [{"id": c["id"], "text": c["text"], "meta": c.get("meta", {})} for c in raw]
+            RAG_OUTPUT.mkdir(parents=True, exist_ok=True)
+            CHUNKS_JSON.write_text(
+                json.dumps([{"id": c["id"], "text": c["text"], "meta": c["meta"]} for c in chunks], ensure_ascii=False),
+                encoding="utf-8",
+            )
+        print(f"Total: {len(chunks)} chunks")
+        print("Embedding and indexing (0.6B, 1024 dims)...")
+        build_index(chunks, use_cache=True)
+
     else:
-        print("Usage: python rag/build_sanskrit_rag.py --build")
+        print("Usage:")
+        print("  python rag/build_sanskrit_rag.py --build --minimal   # ~100 Whitney chunks, fast test")
+        print("  python rag/build_sanskrit_rag.py --ingest            # Chunk only -> chunks.json")
+        print("  python rag/build_sanskrit_rag.py --build             # Full Whitney + MW + Abhinava")
         print("Requires: CHUTES_API_KEY")
-        print("Data: git clone https://github.com/ashtadhyayi-com/data ./panini_data")
-        print("MW: download mwxml.zip from Cologne, extract to rag/data/mw/")
-        print("Abhinavagupta: add .txt/.md to rag/data/abhinavagupta/")
+        print("--minimal: Whitney intro+ch1-4 only, no MW. Builds user-vector-ready index in ~2-5 min.")

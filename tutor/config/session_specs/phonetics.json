@@ -1,0 +1,22 @@
+{
+  "zone_id": "phonetics",
+  "label": "Phoneme Grid",
+  "levels": [
+    {
+      "level": 1,
+      "objectives": ["Name the five places of articulation", "Give one example from each"],
+      "pass_criteria": {
+        "conceptual": [
+          "mentions at least 3 places (velar, palatal, dental, labial, etc.)",
+          "gives at least one consonant example"
+        ],
+        "production": null,
+        "pronunciation": null
+      },
+      "assessment_type": "conceptual",
+      "format": "chat",
+      "max_duration_minutes": 15,
+      "remedial_on_fail": { "prerequisite_zones": [], "retry_variant": "level_1_v2" }
+    }
+  ]
+}

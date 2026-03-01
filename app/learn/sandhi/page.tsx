@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import sandhiData from "@/data/sandhi-rules.json";
+import { ZoneGate } from "@/components/ZoneGate";
 import { SandhiDrill } from "@/components/SandhiDrill";
 import { RuleContext } from "@/components/RuleContext";
 import type { SandhiRule } from "@/lib/types";
@@ -51,14 +52,17 @@ export default function SandhiPage() {
         <p className="text-muted-foreground">
           Sandhi = &quot;junction.&quot; When words meet, sounds change for euphony. Learn the main types, then practice.
         </p>
-        {!showDrill && (
-          <button
-            onClick={() => setShowDrill(true)}
-            className="mt-2 text-sm text-primary hover:underline"
-          >
-            Skip to drills →
-          </button>
-        )}
+        <div className="mt-3 flex flex-wrap items-center gap-3">
+          <ZoneGate zoneId="sandhi" />
+          {!showDrill && (
+            <button
+              onClick={() => setShowDrill(true)}
+              className="text-sm text-primary hover:underline"
+            >
+              Skip to drills →
+            </button>
+          )}
+        </div>
       </div>
 
       {/* Explainer */}

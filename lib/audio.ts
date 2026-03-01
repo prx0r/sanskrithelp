@@ -78,7 +78,10 @@ export async function playSanskritTTS(
     if (onGenerated) onGenerated(audioUrl);
     const audio = new Audio(audioUrl);
     await audio.play();
-    audio.addEventListener("ended", () => URL.revokeObjectURL(audioUrl));
+    // Don't revoke when caller caches it (onGenerated) — they own the URL lifecycle
+    if (!onGenerated) {
+      audio.addEventListener("ended", () => URL.revokeObjectURL(audioUrl));
+    }
   } catch (error) {
     console.error("Sanskrit TTS error:", error);
     throw error;

@@ -1,14 +1,19 @@
 "use client";
 
 import { useState } from "react";
-import { RATING_LABELS, RATING_COLORS, type Rating } from "@/lib/fsrs";
 import type { FSRSState } from "@/lib/types";
-import { cn } from "@/lib/utils";
+
+/** Red = Hard, Yellow = Good, Green = Easy. No Again, no text. */
+const RING_COLORS = [
+  "bg-red-500 hover:bg-red-600",      // 2 = Hard
+  "bg-yellow-500 hover:bg-yellow-600 text-neutral-900", // 3 = Good
+  "bg-green-500 hover:bg-green-600",  // 4 = Easy
+] as const;
 
 interface DrillCardProps {
   front: React.ReactNode;
   back?: React.ReactNode;
-  onRate: (rating: Rating) => void;
+  onRate: (rating: 2 | 3 | 4) => void;
   cardState?: FSRSState | null;
   flipped?: boolean;
   hideRevealButton?: boolean;
@@ -58,18 +63,14 @@ export function DrillCard({
       ) : (
         <div className="rounded-xl border border-border bg-card p-6 flex flex-col items-center justify-center">
           {back}
-          <div className="mt-6 flex flex-wrap gap-2 justify-center">
-            {([1, 2, 3, 4] as Rating[]).map((r) => (
+          <div className="mt-6 flex gap-4 justify-center">
+            {([2, 3, 4] as const).map((r, i) => (
               <button
                 key={r}
                 onClick={() => onRate(r)}
-                className={cn(
-                  "touch-target py-2 px-4 rounded-lg text-white font-medium text-sm",
-                  RATING_COLORS[r]
-                )}
-              >
-                {RATING_LABELS[r]}
-              </button>
+                title={r === 2 ? "Hard" : r === 3 ? "Good" : "Easy"}
+                className={`touch-target w-12 h-12 rounded-full ${RING_COLORS[i]}`}
+              />
             ))}
           </div>
         </div>

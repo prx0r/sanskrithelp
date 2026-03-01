@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { BookOpen, Zap, Menu, Gamepad2 } from "lucide-react";
+import { BookOpen, Zap, Menu, Gamepad2, BookMarked } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const CHAPTERS = [
@@ -47,6 +47,13 @@ export function Nav() {
             Drill
           </Link>
           <Link
+            href="/content"
+            className="flex items-center gap-1 px-3 py-2 rounded-lg hover:bg-accent text-sm touch-target"
+          >
+            <BookMarked className="w-4 h-4" />
+            Content
+          </Link>
+          <Link
             href="/games"
             className="flex items-center gap-1 px-3 py-2 rounded-lg hover:bg-accent text-sm touch-target"
           >
@@ -58,6 +65,15 @@ export function Nav() {
               <Menu className="w-5 h-5" />
             </summary>
             <div className="absolute right-0 top-full mt-1 py-2 rounded-lg border border-border bg-card shadow-lg min-w-[200px]">
+              <Link
+                href="/content"
+                className={cn(
+                  "block px-4 py-2 text-sm",
+                  path.startsWith("/content") ? "bg-accent" : "hover:bg-accent/50"
+                )}
+              >
+                Content
+              </Link>
               <Link
                 href="/games"
                 className={cn(

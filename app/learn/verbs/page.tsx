@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import dhatusData from "@/data/dhatus.json";
 import { cn } from "@/lib/utils";
+import { ZoneGate } from "@/components/ZoneGate";
 import { MultipleChoiceQuiz, type MCQuestion } from "@/components/MultipleChoiceQuiz";
 import { LessonPracticeSection } from "@/components/LessonPracticeSection";
 
@@ -195,6 +196,9 @@ export default function VerbsPage() {
           <p className="text-muted-foreground">
             Person, number, tense, mood, voice. Eleven lessons on the Sanskrit verb system.
           </p>
+          <div className="mt-3">
+            <ZoneGate zoneId="verbs" />
+          </div>
         </div>
         <div className="flex items-center gap-2">
           <Link href="/learn/karakas/" className="text-sm text-primary hover:underline">← Kārakas</Link>

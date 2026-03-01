@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
+import { ZoneGate } from "@/components/ZoneGate";
 import { MultipleChoiceQuiz, type MCQuestion } from "@/components/MultipleChoiceQuiz";
 import { LessonPracticeSection } from "@/components/LessonPracticeSection";
 
@@ -185,6 +186,9 @@ export default function CompoundsPage() {
           <p className="text-muted-foreground">
             Four main types with distinct logic. Ten lessons from first principles.
           </p>
+          <div className="mt-3">
+            <ZoneGate zoneId="compounds" />
+          </div>
         </div>
         <div className="flex items-center gap-2">
           <Link href="/learn/verbs/" className="text-sm text-primary hover:underline">← Verbs</Link>
