@@ -1,0 +1,162 @@
+[
+  {
+    "id": "ta_001",
+    "sequence": 1,
+    "devanagari": "चैतन्यं स्वतन्त्रं विश्वोत्तीर्णं विश्वगं विश्वबीजम्",
+    "iast": "caitanyaṃ svatantraṃ viśvottīrṇaṃ viśvagaṃ viśvabījam",
+    "english": "Consciousness is autonomous, transcending the universe, pervading the universe, and the seed of the universe.",
+    "source": "Tantrāloka 1, Abhinavagupta (c. 1000 CE)"
+  },
+  {
+    "id": "ta_002",
+    "sequence": 2,
+    "devanagari": "इच्छा ज्ञानं क्रिया चैव त्रितयं शक्तिलक्षणम्",
+    "iast": "icchā jñānaṃ kriyā caiva tritayaṃ śaktilakṣaṇam",
+    "english": "Will, knowledge, and action — these three are the characteristics of Śakti.",
+    "source": "Tantrāloka 1, Abhinavagupta"
+  },
+  {
+    "id": "ta_003",
+    "sequence": 3,
+    "devanagari": "शाम्भवं शाक्तमाणवं च त्रिधोपायं वदन्ति हि",
+    "iast": "śāmbhavaṃ śāktamāṇavaṃ ca tridhopāyaṃ vadanti hi",
+    "english": "They speak of the means (upāya) as threefold: Śāmbhava (divine will), Śākta (empowered thought), and Āṇava (individual effort).",
+    "source": "Tantrāloka 1, Abhinavagupta"
+  },
+  {
+    "id": "ta_004",
+    "sequence": 4,
+    "devanagari": "अनुपायस्तु यः प्रोक्तः स शाम्भवपदं स्मृतम्",
+    "iast": "anupāyastu yaḥ proktaḥ sa śāmbhavapadaṃ smṛtam",
+    "english": "That which is called 'no means' (anupāya) is considered the state of Śāmbhava itself — the recognition that was never absent.",
+    "source": "Tantrāloka 1, Abhinavagupta"
+  },
+  {
+    "id": "ta_005",
+    "sequence": 5,
+    "devanagari": "परा वाग् वैखरी मध्या पश्यन्ती च चतुर्विधा",
+    "iast": "parā vāg vaikharī madhyā paśyantī ca caturvidhā",
+    "english": "Speech (vāc) is fourfold: Parā (transcendent), Paśyantī (visionary), Madhyamā (inner), and Vaikharī (gross).",
+    "source": "Tantrāloka 1, Abhinavagupta"
+  },
+  {
+    "id": "ta_006",
+    "sequence": 6,
+    "devanagari": "प्रतिभा सैव संवित्तिः प्रकाशते स्वतन्त्रतः",
+    "iast": "pratibhā saiva saṃvittiḥ prakāśate svatantrataḥ",
+    "english": "Pratibhā (creative intuition) is consciousness itself, shining forth autonomously.",
+    "source": "Tantrāloka 1, Abhinavagupta"
+  },
+  {
+    "id": "ta_007",
+    "sequence": 7,
+    "devanagari": "कुण्डलिनी परा शक्तिः स्वात्मन्येव व्यवस्थिता",
+    "iast": "kuṇḍalinī parā śaktiḥ svātmany eva vyavasthitā",
+    "english": "Kuṇḍalinī is the supreme Energy (Śakti), established in the Self itself.",
+    "source": "Tantrāloka 1, Abhinavagupta"
+  },
+  {
+    "id": "ta_008",
+    "sequence": 8,
+    "devanagari": "त्रयस्त्रिंशत्तत्त्वानि शिवान्तानि प्रकीर्तिताः",
+    "iast": "trayastriṃśattattvāni śivāntāni prakīrtitāḥ",
+    "english": "The Thirty-six Principles (tattvas) are declared, culminating in Śiva — from Earth to the Supreme.",
+    "source": "Tantrāloka 1, Abhinavagupta"
+  },
+  {
+    "id": "ta_009",
+    "sequence": 9,
+    "devanagari": "शिवः शक्तिः सदाशिव ईश्वरश्च शुद्धविद्या च पञ्चकम्",
+    "iast": "śivaḥ śaktiḥ sadāśiva īśvaraś ca śuddhavidyā ca pañcakam",
+    "english": "Śiva, Śakti, Sadāśiva, Īśvara, and Śuddhavidyā — these five are the pure (śuddha) tattvas.",
+    "source": "Tantrāloka 1, Abhinavagupta"
+  },
+  {
+    "id": "ta_010",
+    "sequence": 10,
+    "devanagari": "माया कला विद्या रागः कालो नियतिरित्यमी कञ्चुकाः",
+    "iast": "māyā kalā vidyā rāgaḥ kālo niyatir ity amī kañcukāḥ",
+    "english": "Māyā, Kalā, Vidyā, Rāga, Kāla, and Niyati — these are the six coverings (kañcukas) that limit consciousness into finite experience.",
+    "source": "Tantrāloka 1, Abhinavagupta"
+  },
+  {
+    "id": "ta_011",
+    "sequence": 11,
+    "devanagari": "यः स्याद्विमर्शरूपोऽसौ स्वात्मन्येव प्रकाशते",
+    "iast": "yaḥ syād vimarśarūpo 'sau svātmany eva prakāśate",
+    "english": "That which is of the nature of self-awareness (vimarśa) shines forth in its own Self alone.",
+    "source": "Tantrāloka 1, Abhinavagupta"
+  },
+  {
+    "id": "ta_012",
+    "sequence": 12,
+    "devanagari": "द्वादशान्तं परं स्थानं कुण्डलिन्या विचक्षणः",
+    "iast": "dvādaśāntaṃ paraṃ sthānaṃ kuṇḍalyā vicakṣaṇaḥ",
+    "english": "The wise know the End of the Twelve (dvādaśānta, twelve finger-widths above the head) as the supreme place of Kuṇḍalinī.",
+    "source": "Tantrāloka 1, Abhinavagupta"
+  },
+  {
+    "id": "ta_013",
+    "sequence": 13,
+    "devanagari": "समस्तजगदाधारं सर्वशक्तिसमन्वितम्",
+    "iast": "samastajagadādhāraṃ sarvaśaktisamanvitam",
+    "english": "It is the support of the entire universe, endowed with all powers (śaktis).",
+    "source": "Tantrāloka 1, Abhinavagupta"
+  },
+  {
+    "id": "ta_014",
+    "sequence": 14,
+    "devanagari": "विषयेषु विकल्पानां संस्कारः शाक्त उच्यते",
+    "iast": "viṣayeṣu vikalpānāṃ saṃskāraḥ śākta ucyate",
+    "english": "The purification of thought-constructs (vikalpasaṃskāra) with respect to objects is called the Empowered Means (Śāktopāya).",
+    "source": "Tantrāloka 1, Abhinavagupta"
+  },
+  {
+    "id": "ta_015",
+    "sequence": 15,
+    "devanagari": "अणुपायः स्मृतो देहे मन्त्रध्यानादिसाधनैः",
+    "iast": "aṇupāyaḥ smṛto dehe mantradhyānādisādhanaiḥ",
+    "english": "The Individual Means (Āṇavopāya) is taught as practice through the body, mantra, meditation, and other supports.",
+    "source": "Tantrāloka 1, Abhinavagupta"
+  },
+  {
+    "id": "ta_016",
+    "sequence": 16,
+    "devanagari": "न किञ्चिदपि चिन्वानः स्वात्मन्येव निलीयते",
+    "iast": "na kiñcid api cinvānaḥ svātmany eva nilīyate",
+    "english": "Contemplating nothing at all, one merges into one's own Self — this is the Divine Means (Śāmbhavopāya).",
+    "source": "Tantrāloka 1, Abhinavagupta"
+  },
+  {
+    "id": "ta_017",
+    "sequence": 17,
+    "devanagari": "प्रकाशविमर्शमयी परा संवित् प्रकाशते",
+    "iast": "prakāśavimarśamayī parā saṃvit prakāśate",
+    "english": "The Supreme Consciousness, consisting of light (prakāśa) and self-awareness (vimarśa), shines forth.",
+    "source": "Tantrāloka 1, Abhinavagupta"
+  },
+  {
+    "id": "ta_018",
+    "sequence": 18,
+    "devanagari": "यथा यथा निवर्तते तथा तथा प्रकाशते",
+    "iast": "yathā yathā nivartate tathā tathā prakāśate",
+    "english": "In whatever way the mind turns away (from objects), in that very way consciousness shines forth.",
+    "source": "Tantrāloka 1, Abhinavagupta"
+  },
+  {
+    "id": "ta_019",
+    "sequence": 19,
+    "devanagari": "शिवः स्वतन्त्रः कर्ता च ज्ञानक्रियासमन्वितः",
+    "iast": "śivaḥ svatantraḥ kartā ca jñānakriyāsamanvitaḥ",
+    "english": "Śiva is autonomous, the agent, endowed with knowledge (jñāna) and action (kriyā).",
+    "source": "Tantrāloka 1, Abhinavagupta"
+  },
+  {
+    "id": "ta_020",
+    "sequence": 20,
+    "devanagari": "सैव शक्तिः परा प्रोक्ता सर्वज्ञानक्रियात्मिका",
+    "iast": "saiva śaktiḥ parā proktā sarvajñānakriyātmikā",
+    "english": "That very Śakti is called the Supreme, consisting of all knowledge and all action.",
+    "source": "Tantrāloka 1, Abhinavagupta"
+  }
+]

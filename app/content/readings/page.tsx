@@ -32,6 +32,20 @@ const TEXTS = [
     sutras: 53,
     author: "Vasugupta / Kallata",
   },
+  {
+    slug: "tantraloka_vol1",
+    title: "Tantrāloka Vol. 1",
+    subtitle: "Light on the Tantras — Āhnika 1",
+    sutras: 20,
+    author: "Abhinavagupta (c. 1000 CE)",
+  },
+  {
+    slug: "layayoga",
+    title: "Layayoga",
+    subtitle: "The Yoga of Dissolution",
+    sutras: 20,
+    author: "S. C. Goswami",
+  },
 ];
 
 export default function ReadingsPage() {

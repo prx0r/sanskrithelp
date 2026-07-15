@@ -1,11 +1,9 @@
 import { NextResponse } from "next/server";
+import { chatCompletion, type ChatMessage } from "@/lib/ai";
 import unitsData from "@/data/units.json";
 import phonemesData from "@/data/phonemes.json";
 import drillsData from "@/data/drills.json";
 import { searchSource } from "@/lib/rag";
-
-const CHUTES_CHAT_URL = "https://llm.chutes.ai/v1/chat/completions";
-const MODEL = "XiaomiMiMo/MiMo-V2-Flash-TEE";
 
 const units = unitsData as Array<{ id: string; title: string; subtitle: string; overview?: string; phonemeIds: string[] }>;
 const phonemes = phonemesData as Array<{ id: string; devanagari: string; iast: string }>;
@@ -15,11 +13,6 @@ const phonemeMap = new Map(phonemes.map((p) => [p.id, p]));
 export async function POST(req: Request) {
   try {
     const { unitId, messages } = await req.json();
-
-    const apiKey = process.env.CHUTES_API_KEY;
-    if (!apiKey) {
-      return NextResponse.json({ error: "CHUTES_API_KEY not configured" }, { status: 501 });
-    }
 
     const unit = units.find((u) => u.id === unitId);
     const unitPhonemes = unit
@@ -55,33 +48,12 @@ RULES:
 - For "listen and identify": say you'll play one (they use the app to hear), they respond.
 - No (a) or (ā) after Devanagari in speech — TTS pronounces it wrong.`;
 
-    const chatMessages = [
-      { role: "system" as const, content: systemPrompt },
+    const chatMessages: ChatMessage[] = [
+      { role: "system", content: systemPrompt },
       ...(Array.isArray(messages) ? messages : []),
     ];
 
-    const response = await fetch(CHUTES_CHAT_URL, {
-      method: "POST",
-      headers: {
-        Authorization: `Bearer ${apiKey}`,
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        model: MODEL,
-        messages: chatMessages,
-        max_tokens: 300,
-        temperature: 0.6,
-      }),
-    });
-
-    if (!response.ok) {
-      const err = await response.text();
-      console.error("Unit coach error:", response.status, err);
-      return NextResponse.json({ error: `Chat failed: ${response.status}` }, { status: response.status });
-    }
-
-    const data = (await response.json()) as { choices?: Array<{ message?: { content?: string } }> };
-    const content = data.choices?.[0]?.message?.content ?? "";
+    const content = await chatCompletion(chatMessages, { temperature: 0.3, maxTokens: 400 });
     return NextResponse.json({ content });
   } catch (error) {
     console.error("Unit coach error:", error);

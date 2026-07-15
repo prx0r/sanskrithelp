@@ -199,6 +199,7 @@ export default function PronunciationTutorPage() {
             setBackendError(data.error);
             return;
           }
+          // @ts-expect-error
           setResult(data);
 
           // Fetch and play feedback audio async (assessment already returned)

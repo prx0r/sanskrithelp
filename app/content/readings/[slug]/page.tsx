@@ -29,6 +29,17 @@ const TEXT_META: Record<
     subtitle: "Vibratory Reality",
     slug: "spanda_karikas",
   },
+  tantraloka_vol1: {
+    title: "Tantrāloka Vol. 1",
+    subtitle: "Light on the Tantras — Āhnika 1",
+    slug: "tantraloka_vol1",
+  },
+  layayoga: {
+    title: "Layayoga",
+    subtitle: "The Yoga of Dissolution",
+    slug: "layayoga",
+  },
+
 };
 
 type Unit = {

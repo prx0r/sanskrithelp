@@ -1,22 +1,9 @@
 import { NextResponse } from "next/server";
-
-// Chutes MiMo chat for contextual explanations
-// POST: llm.chutes.ai/v1/chat/completions
-
-const CHUTES_CHAT_URL = "https://llm.chutes.ai/v1/chat/completions";
-const MODEL = "XiaomiMiMo/MiMo-V2-Flash-TEE";
+import { chatCompletion } from "@/lib/ai";
 
 export async function POST(req: Request) {
   try {
     const { cardId, cardType, userAnswer, correctAnswer, context } = await req.json();
-
-    const apiKey = process.env.CHUTES_API_KEY;
-    if (!apiKey) {
-      return NextResponse.json(
-        { explanation: "AI feedback not configured. Add CHUTES_API_KEY to .env.local" },
-        { status: 200 }
-      );
-    }
 
     const systemPrompt = `You are a Sanskrit grammar teacher following Pāṇini's system.
 Your explanations always:
@@ -32,38 +19,14 @@ Correct answer: ${correctAnswer}
 Context: ${JSON.stringify(context || {})}
 Please explain what went wrong and how the correct form is derived.`;
 
-    const response = await fetch(CHUTES_CHAT_URL, {
-      method: "POST",
-      headers: {
-        Authorization: `Bearer ${apiKey}`,
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        model: MODEL,
-        messages: [
-          { role: "system", content: systemPrompt },
-          { role: "user", content: userPrompt },
-        ],
-        max_tokens: 300,
-        temperature: 0.3,
-      }),
-    });
-
-    if (!response.ok) {
-      const err = await response.text();
-      console.error("Chutes chat error:", response.status, err);
-      throw new Error(`Chutes API error: ${response.status}`);
-    }
-
-    const data = (await response.json()) as { choices?: Array<{ message?: { content?: string } }> };
-    const explanation = data.choices?.[0]?.message?.content ?? "Unable to generate explanation.";
+    const explanation = await chatCompletion([
+      { role: "system", content: systemPrompt },
+      { role: "user", content: userPrompt },
+    ], { temperature: 0.3, maxTokens: 300 });
 
     return NextResponse.json({ explanation });
   } catch (error) {
     console.error("Feedback API error:", error);
-    return NextResponse.json(
-      { explanation: "Something went wrong. Please try again." },
-      { status: 500 }
-    );
+    return NextResponse.json({ explanation: "Something went wrong. Please try again." }, { status: 500 });
   }
 }

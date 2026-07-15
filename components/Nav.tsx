@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Zap, Menu, Gamepad2, BookMarked, Home } from "lucide-react";
+import { Zap, Menu, Gamepad2, BookMarked, Home, Layers } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { LearnOverlay } from "@/components/LearnOverlay";
 
@@ -14,6 +14,7 @@ const MAIN_TABS: Array<
   { href: "/", label: "Home", icon: Home, isOverlay: false },
   { label: "Learn", icon: null, isOverlay: true },
   { href: "/drill", label: "Drill", icon: Zap, isOverlay: false },
+  { href: "/tantra", label: "Tantra", icon: Layers, isOverlay: false },
   { href: "/content", label: "Content", icon: BookMarked, isOverlay: false },
   { href: "/games", label: "Games", icon: Gamepad2, isOverlay: false },
 ];
@@ -22,6 +23,7 @@ const MOBILE_MENU_LINKS = [
   { href: "/", label: "Home" },
   { href: "/learn/", label: "Learn hub" },
   { href: "/drill", label: "Drill" },
+  { href: "/tantra", label: "Tantra" },
   { href: "/content", label: "Content" },
   { href: "/games", label: "Games" },
 ];

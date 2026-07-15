@@ -20,7 +20,7 @@ const CHARLIST_URL = "/dhcd/charlist.json";
 type LayersModel = import("@tensorflow/tfjs").LayersModel;
 
 let charModelPromise: Promise<LayersModel> | null = null;
-let wordModelPromise: Promise<LayersModel> | null = null;
+let wordModelPromise: Promise<LayersModel | null> | null = null;
 let classLabelsPromise: Promise<string[]> | null = null;
 let charlistPromise: Promise<string[]> | null = null;
 
@@ -206,8 +206,8 @@ export async function wordRecognize(
   (out as import("@tensorflow/tfjs").Tensor).dispose();
 
   const shape = (out as import("@tensorflow/tfjs").Tensor).shape;
-  const timeSteps = shape[1];
-  const numClasses = shape[2];
+  const timeSteps = shape[1]!;
+  const numClasses = shape[2]!;
   const logitsArr = new Float32Array(data.length);
   for (let i = 0; i < data.length; i++) logitsArr[i] = data[i];
   const indices = ctcGreedyDecode(logitsArr, timeSteps, numClasses, 0);
