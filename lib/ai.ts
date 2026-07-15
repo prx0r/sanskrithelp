@@ -41,7 +41,7 @@ export async function chatCompletion(
 
   const data = await res.json();
   const msg = data.choices?.[0]?.message;
-  // Some models return reasoning_content instead of content
+  // DeepSeek models may return content in reasoning_content
   return msg?.content || msg?.reasoning_content || "";
 }
 

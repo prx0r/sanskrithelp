@@ -248,14 +248,24 @@ export default function PracticePage() {
         <p className="text-sm text-muted-foreground mb-3">
           For a full-featured breath visualizer with animated rings, focus mode, and meditation timer:
         </p>
+        <div className="flex gap-3">
         <a
-          href="https://github.com/prx0r/meditate"
+          href="https://prx0r.github.io/meditate/layayoga_meditate.html"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80"
+          className="inline-flex items-center gap-2 text-sm font-medium text-emerald-400 hover:text-emerald-300"
         >
-          Open Breath Companion →
+          Layayoga Companion →
         </a>
+        <a
+          href="https://prx0r.github.io/meditate/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-foreground"
+        >
+          Original Breath App →
+        </a>
+      </div>
       </div>
     </div>
   );
