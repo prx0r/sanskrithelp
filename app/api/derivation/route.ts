@@ -15,7 +15,7 @@ export async function POST(req: Request) {
         content: `Parse Sanskrit words. Output JSON only: {"root": "...", "suffixes": [], "sandhi_applied": [], "meaning": "..."}`,
       },
       { role: "user", content: `Parse: ${word}` },
-    ], { temperature: 0.1, maxTokens: 200 });
+    ], { temperature: 0.1, maxTokens: 400 });
 
     try {
       const parsed = JSON.parse(content);

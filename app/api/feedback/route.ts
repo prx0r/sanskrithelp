@@ -22,7 +22,7 @@ Please explain what went wrong and how the correct form is derived.`;
     const explanation = await chatCompletion([
       { role: "system", content: systemPrompt },
       { role: "user", content: userPrompt },
-    ], { temperature: 0.3, maxTokens: 300 });
+    ], { temperature: 0.3, maxTokens: 500 });
 
     return NextResponse.json({ explanation });
   } catch (error) {

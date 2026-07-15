@@ -88,6 +88,25 @@ export async function playSanskritTTS(
   }
 }
 
+function browserSpeak(text: string): Promise<void> {
+  return new Promise((resolve, reject) => {
+    if (!window.speechSynthesis) {
+      reject(new Error("SpeechSynthesis not available"));
+      return;
+    }
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = "hi-IN";
+    utterance.rate = 0.75;
+    utterance.onend = () => resolve();
+    utterance.onerror = (e) => reject(e);
+    // Try to find a Hindi voice
+    const voices = window.speechSynthesis.getVoices();
+    const hindiVoice = voices.find(v => v.lang.startsWith("hi"));
+    if (hindiVoice) utterance.voice = hindiVoice;
+    window.speechSynthesis.speak(utterance);
+  });
+}
+
 export async function playTTSAudio(
   text: string,
   opts?: { speed?: number; onGenerated?: (audioUrl: string) => void }
@@ -104,8 +123,13 @@ export async function playTTSAudio(
       }),
     });
 
-    if (!response.ok) {
-      throw new Error(`TTS request failed: ${response.statusText}`);
+    const data = await response.json();
+
+    // Server returned a fallback hint — use browser TTS
+    if (data?.fallback) {
+      await browserSpeak(text);
+      if (onGenerated) onGenerated("");
+      return;
     }
 
     const audioBlob = await response.blob();
@@ -116,13 +140,17 @@ export async function playTTSAudio(
     const audio = new Audio(audioUrl);
     await audio.play();
 
-    // Clean up after playback
     audio.addEventListener("ended", () => {
       URL.revokeObjectURL(audioUrl);
     });
   } catch (error) {
-    console.error("Failed to play TTS audio:", error);
-    throw error;
+    console.error("TTS failed, trying browser speech:", error);
+    try {
+      await browserSpeak(text);
+      if (onGenerated) onGenerated("");
+    } catch {
+      throw error;
+    }
   }
 }
 

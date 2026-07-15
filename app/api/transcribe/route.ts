@@ -1,15 +1,12 @@
 import { NextResponse } from "next/server";
 
-// Chutes Whisper for speech-to-text (user pronunciation input)
-// POST body: { audio_b64: string, language?: string }
-
+// Speech-to-text via Chutes Whisper — with graceful fallback.
 const WHISPER_URL = "https://chutes-whisper-large-v3.chutes.ai/transcribe";
 
 export async function POST(req: Request) {
   try {
     const body = await req.json();
     let audioB64 = body?.audio_b64 ?? body?.args?.audio_b64 ?? body?.audio_base64 ?? body?.args?.audio_base64;
-    const language = body?.language ?? body?.args?.language ?? null;
 
     if (!audioB64 || typeof audioB64 !== "string") {
       return NextResponse.json(
@@ -21,17 +18,14 @@ export async function POST(req: Request) {
 
     const apiKey = process.env.CHUTES_API_KEY;
     if (!apiKey) {
-      return NextResponse.json(
-        { error: "CHUTES_API_KEY not configured in .env.local" },
-        { status: 501 }
-      );
+      return NextResponse.json({
+        fallback: true,
+        message: "Transcription server not configured. Use browser SpeechRecognition.",
+      });
     }
 
     const payload = {
-      args: {
-        audio_b64: audioB64,
-        ...(language ? { language } : {}),
-      },
+      args: { audio_b64: audioB64 },
     };
     const res = await fetch(WHISPER_URL, {
       method: "POST",
@@ -41,6 +35,7 @@ export async function POST(req: Request) {
       },
       body: JSON.stringify(payload),
     });
+
     if (res.ok) {
       const contentType = res.headers.get("content-type") ?? "";
       let text = "";
@@ -52,18 +47,15 @@ export async function POST(req: Request) {
       }
       return NextResponse.json({ text });
     }
+
     const lastErr = await res.text();
     console.error("Whisper error:", lastErr);
-    return NextResponse.json(
-      { error: `Transcription failed: ${lastErr}` },
-      { status: 400 }
-    );
-
+    return NextResponse.json({ error: `Transcription failed: ${lastErr}` }, { status: 400 });
   } catch (error) {
-    console.error("Transcribe API error:", error);
-    return NextResponse.json(
-      { error: "Transcription failed" },
-      { status: 500 }
-    );
+    console.error("Transcribe error:", error);
+    return NextResponse.json({
+      fallback: true,
+      message: "Transcription unavailable. Use browser SpeechRecognition.",
+    });
   }
 }

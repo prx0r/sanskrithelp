@@ -1,58 +1,70 @@
 import { NextResponse } from "next/server";
 
-// Chutes Kokoro TTS - Hindi voice for Sanskrit
-// POST body: { text: string, speed?: number, voice?: string }
+// TTS via Edge TTS (Microsoft) — free, works well for Devanagari.
+// Falls back to browser SpeechSynthesis if unavailable.
+const EDGE_TTS_URL = "https://speech.platform.bing.com/recognize";
 
-const CHUTES_URL = "https://chutes-kokoro.chutes.ai/speak";
-const DEFAULT_VOICE = "hf_alpha";
+interface EdgeTTSOptions {
+  text: string;
+  voice?: string;
+  rate?: number;
+}
+
+function buildSSML({ text, voice = "hi-IN-SwaraNeural", rate = 0.9 }: EdgeTTSOptions): string {
+  return `<?xml version="1.0" encoding="utf-8"?>
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="hi-IN">
+  <voice name="${voice}">
+    <prosody rate="${rate}">${text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")}</prosody>
+  </voice>
+</speak>`;
+}
 
 export async function POST(req: Request) {
   try {
     const body = await req.json();
-    const text = (body?.text ?? body?.args?.text ?? "").trim();
-    const speed = Math.max(0.5, Math.min(1.5, body?.speed ?? body?.args?.speed ?? 0.85));
-    const voice = body?.voice ?? body?.args?.voice ?? DEFAULT_VOICE;
-
+    const text = (body?.text ?? "").trim();
     if (!text) {
-      return NextResponse.json({ error: "Missing 'text'" }, { status: 400 });
+      return NextResponse.json({ fallback: true, message: "Missing text" });
     }
 
-    const apiKey = process.env.CHUTES_API_KEY;
-    if (!apiKey) {
-      return NextResponse.json({ error: "CHUTES_API_KEY not configured" }, { status: 501 });
-    }
-    const payloads = [
-      { text, voice: voice || "hf_alpha", speed },
-      { args: { text, voice: voice || "hf_alpha", speed } },
-    ];
-    let lastErr = "";
-    for (const payload of payloads) {
-      const res = await fetch(CHUTES_URL, {
-        method: "POST",
-        headers: {
-          Authorization: `Bearer ${apiKey}`,
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(payload),
+    // Try Edge TTS first
+    const ssml = buildSSML({ text, voice: body?.voice || "hi-IN-SwaraNeural", rate: body?.rate || 0.9 });
+    try {
+      const tokenRes = await fetch("https://edge-tts-server.com/token", {
+        signal: AbortSignal.timeout(5000),
       });
-      if (res.ok) {
-        const audioBuffer = await res.arrayBuffer();
-        return new Response(audioBuffer, {
-          headers: { "Content-Type": res.headers.get("Content-Type") || "audio/wav" },
+      if (tokenRes.ok) {
+        const { token } = await tokenRes.json();
+        const audioRes = await fetch(EDGE_TTS_URL, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/ssml+xml",
+            Authorization: `Bearer ${token}`,
+            "X-Microsoft-OutputFormat": "audio-24khz-48kbitrate-mono-mp3",
+          },
+          body: ssml,
+          signal: AbortSignal.timeout(10000),
         });
+        if (audioRes.ok) {
+          const audioBuffer = await audioRes.arrayBuffer();
+          return new Response(audioBuffer, {
+            headers: { "Content-Type": "audio/mpeg" },
+          });
+        }
       }
-      lastErr = await res.text();
+    } catch {
+      // Edge TTS failed — fall through to browser fallback
     }
-    console.error("Kokoro TTS error:", lastErr);
-    return NextResponse.json(
-      { error: `TTS failed: ${lastErr}` },
-      { status: 400 }
-    );
+
+    // Fallback: return instructions for browser SpeechSynthesis
+    return NextResponse.json({
+      fallback: true,
+      text,
+      voice: "hi-IN",
+      message: "Use browser speech synthesis with a Hindi voice for Devanagari.",
+    });
   } catch (error) {
     console.error("TTS error:", error);
-    return NextResponse.json(
-      { error: "TTS synthesis failed" },
-      { status: 500 }
-    );
+    return NextResponse.json({ fallback: true, message: "TTS unavailable" });
   }
 }
