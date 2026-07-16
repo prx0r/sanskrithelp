@@ -1,0 +1,217 @@
+{
+  "ro_id": "ro:dyczkowski-doctrine-vibration",
+  "schema_version": 1,
+  "title": "The Doctrine of Vibration — Mark S.G. Dyczkowski",
+  "subtitle": "An analysis of the doctrines and practices of Kashmir Shaivism, covering Spanda, Prakāśa-Vimarśa, the Śakti Cakra, and the path to liberation",
+  "family": "thinker-topic",
+  "status": "draft",
+  "current_version": "0.1.0",
+  "summary": {
+    "one_line": "Dyczkowski's definitive study of the Spanda school of Kashmir Shaivism — the vibration of consciousness as the universal activity of the absolute, the nature of Śakti, the wheel of energies, and the four upāyas to liberation.",
+    "scope": "Covers the integral monism of Kashmiri Śaivism (Chapter I), Prakāśa and Vimarśa as the two aspects of consciousness (Chapter II), Spanda as the universal activity of the absolute with its three moments (Chapter III), Śiva and Śakti (Chapter IV), the Śakti Cakra / wheel of energies including the Wheel of Vāmeśvarī and the Wheel of the Senses (Chapter V), the Divine Body and the sacred circle of the senses (Chapter VI), and the Path to Liberation with the four upāyas — Anupāya, Śāmbhavopāya, Śāktopāya, and Āṇavopāya (Chapter VII).",
+    "traditions": [
+      "kashmir-shaivism",
+      "trika",
+      "spanda",
+      "pratyabhijna"
+    ]
+  },
+  "sources": [
+    {
+      "source_id": "dyczkowski-doctrine-vibration",
+      "tier": 1,
+      "label": "Mark S.G. Dyczkowski — The Doctrine of Vibration: An Analysis of the Doctrines and Practices of Kashmir Shaivism (SUNY 1987, Motilal Banarsidass 1989). Full PDF.",
+      "first_added_in": "0.1.0",
+      "last_reviewed_in": "0.1.0",
+      "contribution": [
+        "spanda_theory",
+        "prakasa_vimarsa",
+        "sakti_cakra",
+        "four_upayas",
+        "integral_monism",
+        "divine_body",
+        "wheel_of_energies"
+      ],
+      "sections_affected": ["theory", "practice", "cosmology"],
+      "status": "active"
+    }
+  ],
+  "body": [
+    {
+      "passage_id": "p_001",
+      "section": "theory",
+      "subsection": "integral_monism",
+      "kind": "source",
+      "text": "The integral monism of Kashmiri Śaivism is the doctrine that absolute consciousness (Caitanya) is the one and only reality. This consciousness is not merely the subject of experience but the substance of all that exists — both subject and object, both internal and external. The world is not separate from consciousness but is its expression, its play (līlā). The individual self (jīva) is not other than Śiva but is Śiva in a contracted state. The goal of spiritual practice is not to attain something new but to recognize (pratyabhijñā) what one already is. (Introduction, pp. 1-8; Chapter I, pp. 33-58)",
+      "source_ids": ["dyczkowski-doctrine-vibration"],
+      "topics": ["integral_monism", "caitanya", "pratyabhijna", "lila"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_002",
+      "section": "theory",
+      "subsection": "prakasa_and_vimarsa",
+      "kind": "source",
+      "text": "Consciousness has two aspects: Prakāśa, the pure light of consciousness, the static ground of awareness that illuminates all objects; and Vimarśa, the dynamic self-awareness, the reflective power by which consciousness knows itself. Prakāśa is the condition for the possibility of any experience — it is the light by which all things are seen. Vimarśa is consciousness's awareness of itself, its power of self-reference (ahantā, 'I-ness'). Without Vimarśa, consciousness would be inert like a lamp that lights everything but itself. The two are not separate — they are the same reality, static and dynamic aspects of a single pulsation (spanda). (Chapter II, pp. 59-95)",
+      "source_ids": ["dyczkowski-doctrine-vibration"],
+      "topics": ["prakasa", "vimarsa", "ahanta", "self_awareness"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_003",
+      "section": "theory",
+      "subsection": "spanda_as_universal_activity",
+      "kind": "source",
+      "text": "Spanda is the universal activity of the absolute — the vibration or pulse of consciousness that is both the substrate and the dynamism of all existence. It is not movement in the physical sense but the creative, rhythmic self-articulation of consciousness. Spanda has three moments: (1) the impulse to create (unmeṣa — opening, emission), (2) the maintenance of what is created (sthiti — persistence), and (3) the withdrawal of creation back into the source (nimeṣa — closing, reabsorption). These three moments correspond to the triad of Śiva's powers: icchā (will), jñāna (knowledge), and kriyā (action). The yogī who experiences Spanda directly realizes that his own consciousness is identical with the absolute. (Chapter III, pp. 96-113)",
+      "source_ids": ["dyczkowski-doctrine-vibration"],
+      "topics": ["spanda", "unmesa", "nimesa", "iccha", "jnana", "kriya"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_004",
+      "section": "theory",
+      "subsection": "siva_and_sakti",
+      "kind": "source",
+      "text": "Śiva and Śakti are not two distinct realities but the same absolute in its two aspects: Śiva is the static, transcendent aspect — pure consciousness at rest; Śakti is the dynamic, immanent aspect — consciousness in action. Śiva without Śakti is śava (a corpse) — inert, incapable of any manifestation. Śakti is the power by which Śiva becomes the universe while remaining what He is. She is the vimarśa aspect of consciousness — the self-awareness that is also the creative power. The relationship is one of identity-in-difference: Śiva-Śakti are one reality (abheda) seen from two perspectives. (Chapter IV, pp. 114-138)",
+      "source_ids": ["dyczkowski-doctrine-vibration"],
+      "topics": ["siva", "sakti", "abheda", "sava", "identity_in_difference"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_005",
+      "section": "theory",
+      "subsection": "sakti_cakra_wheel_of_energies",
+      "kind": "source",
+      "text": "The Śakti Cakra (Wheel of Energies) is the self-articulation of the absolute as a complex of powers that are both the means of manifestation and the path of return. The two principal wheels are: (1) The Wheel of Vāmeśvarī (Vāmeśvarī Cakra) — the hierarchy of the powers of consciousness from the supreme (Parā) through the intermediate (Parāparā) to the lower (Aparā), encompassing the cognitive, conative, and active faculties of the subject. (2) The Wheel of the Senses — the projection of consciousness outward through the five senses (buddhindriyas), five actions (karmendriyas), and five subtle elements (tanmātras). These wheels are not outside consciousness but are its own energies, through which it experiences itself as the world. The practitioner reverses the outward flow, drawing the energies back into their source. (Chapter V, pp. 139-172)",
+      "source_ids": ["dyczkowski-doctrine-vibration"],
+      "topics": ["sakti_cakra", "vamesvari", "para", "parapara", "apara", "senses"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_006",
+      "section": "theory",
+      "subsection": "divine_body_and_sacred_circle",
+      "kind": "source",
+      "text": "The Divine Body (divya-deha) is the subtle body of the absolute which is also the body of the realized yogī. It is the sacred circle (maṇḍala) of the senses, through which consciousness experiences the world and through which the world is recognized as consciousness. The body is not a prison but a temple — the senses are not obstacles but doors of perception that, when purified, become the very organs of spiritual vision. The yogī's body becomes the maṇḍala of the deities — each sense-organ corresponds to a divinity, each cakra to a level of manifestation. The transformation of the ordinary body into the divine body is the work of the upāyas. (Chapter VI, pp. 173-196)",
+      "source_ids": ["dyczkowski-doctrine-vibration"],
+      "topics": ["divine_body", "mandala", "senses", "cakras", "transformation"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_007",
+      "section": "practice",
+      "subsection": "anupaya_no_means",
+      "kind": "source",
+      "text": "Anupāya (No-Means) is the highest means — or rather, the recognition that no means are necessary because the goal is already attained. It is the direct, effortless realization of one's identity with Śiva through an act of grace (śaktipāta) that requires no ritual, no meditation, no purification. It is the sudden recognition that the absolute is already fully present and that all seeking is a search for what was never lost. Anupāya is not a practice but the dissolution of all practice — the recognition that the practitioner, the practice, and the goal are one. It corresponds to the state of the absolute before any movement of Spanda — pure, contentless consciousness at rest in itself. (Chapter VII, pp. 197-205)",
+      "source_ids": ["dyczkowski-doctrine-vibration"],
+      "topics": ["anupaya", "saktipata", "grace", "no_means"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_008",
+      "section": "practice",
+      "subsection": "sambhavopaya_divine_means",
+      "kind": "source",
+      "text": "Śāmbhavopāya (the Divine Means) is the means pertaining to Śiva — realization through will (icchā) without thought-constructs (vikalpa). It is the path of sudden, intuitive recognition, likened to a lion's leap that bypasses all gradual ascent and goes directly to the goal. The practitioner, through an intense act of will that is not effort but recognition, abides in the awareness of pure subjectivity, free from all objective content. In this means, consciousness turns back upon itself and recognizes its identity with Śiva through the power of its own self-awareness (vimarśa). It is the path of those whose grace (śaktipāta) is intense and who have the capacity for direct realization without the support of ritual or reflection. (Chapter VII, pp. 205-212)",
+      "source_ids": ["dyczkowski-doctrine-vibration"],
+      "topics": ["sambhavopaya", "iccha", "vikalpa", "lion_leap"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_009",
+      "section": "practice",
+      "subsection": "saktopaya_empowered_means",
+      "kind": "source",
+      "text": "Śāktopāya (the Empowered Means) is the means of Śakti — realization through knowledge (jñāna) that operates within the sphere of thought-constructs (vikalpa) but uses them as a ladder to climb beyond them. The practitioner works with purified concepts — reflection on the nature of consciousness, discrimination between the real and the unreal, contemplation of the unity behind diversity. Thought is not suppressed but transformed: it becomes a vehicle for realization rather than an obstacle. This is the path of the aspirant who cannot leap directly (Śāmbhava) but can ascend through the power of understanding. It corresponds to the second moment of Spanda — the maintenance of creation as a field for recognition. (Chapter VII, pp. 212-220)",
+      "source_ids": ["dyczkowski-doctrine-vibration"],
+      "topics": ["saktopaya", "jnana", "vikalpa", "purification"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_010",
+      "section": "practice",
+      "subsection": "anavopaya_individual_means",
+      "kind": "source",
+      "text": "Āṇavopāya (the Individual Means) is the means of the individual soul (aṇu) — realization through action (kriyā), the path of external supports: ritual, mantra, breath-control, posture, visualization, and all the ancillary practices of yoga. This is the path for those whose grace is minimal and who require concrete supports to turn consciousness inward. The practices are not ends in themselves but means to purify the nāḍīs, concentrate the mind, and gradually withdraw the senses from their outward orientation. Āṇavopāya corresponds to the first and third moments of Spanda — the emission and withdrawal of creation — and encompasses the entire range of tantric ritual technology: nyāsa, mudrā, mandala, homa, and the six acts (ṣaṭkarman). (Chapter VII, pp. 220-230)",
+      "source_ids": ["dyczkowski-doctrine-vibration"],
+      "topics": ["anavopaya", "kriya", "mantra", "pranayama", "nyasa", "mudra"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_011",
+      "section": "theory",
+      "subsection": "three_powers_will_knowledge_action",
+      "kind": "source",
+      "text": "The three powers of consciousness — icchā (will), jñāna (knowledge), and kriyā (action) — are not separate faculties but three aspects of a single spanda (vibration). Will is the power of self-determination by which consciousness projects itself as a subject; knowledge is the power by which consciousness articulates its content; action is the power by which consciousness externalizes itself as the world. Together, they constitute the dynamics of the absolute. In the bound soul (paśu), these powers are contracted (saṃkucita) and appear as limited will, limited knowledge, and limited action. The path of liberation is the expansion (vikāsa) of these contracted powers back to their full, universal nature. (Chapter III, pp. 100-113)",
+      "source_ids": ["dyczkowski-doctrine-vibration"],
+      "topics": ["iccha", "jnana", "kriya", "samkoca", "vikasa"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_012",
+      "section": "theory",
+      "subsection": "pratyabhijna_recognition",
+      "kind": "source",
+      "text": "Pratyabhijñā (Recognition) is the central teaching of the Trika — not the attainment of a new state but the recognition of what has always been the case. It is the direct, immediate knowledge that 'I am Śiva' — not as a conceptual conclusion but as a lived actuality. The Pratyabhijñā school, founded by Somananda and developed by Utpaladeva, provides the philosophical foundation for the Spanda doctrine. Recognition is not a gradual process but a sudden flash of insight (pratibhā) that transforms the entire framework of experience. Once recognized, the world is no longer experienced as other — it is seen as the play (līlā) of one's own consciousness. (Chapter I, pp. 33-58; Introduction, pp. 11-14)",
+      "source_ids": ["dyczkowski-doctrine-vibration"],
+      "topics": ["pratyabhijna", "recognition", "pratibha", "aham_siva"],
+      "status": "active"
+    }
+  ],
+  "coverage": {
+    "theory": {
+      "status": "comprehensive",
+      "sources": ["dyczkowski-doctrine-vibration"],
+      "passage_count": 9,
+      "estimated_completeness": 0.85,
+      "gaps": ["Full treatment of the Wheel of Vāmeśvarī with all its energies; detailed analysis of the three Kuṇḍalinīs"]
+    },
+    "practice": {
+      "status": "good",
+      "sources": ["dyczkowski-doctrine-vibration"],
+      "passage_count": 3,
+      "estimated_completeness": 0.7,
+      "gaps": ["Detailed ritual practices from the Āṇavopāya section; specific meditation techniques from Śāktopāya"]
+    }
+  },
+  "issues": [
+    {
+      "id": "issue-001",
+      "type": "coverage_gap",
+      "title": "The Wheel of the Senses needs expansion",
+      "description": "Chapter V's treatment of the Wheel of the Senses is currently summarized. The full mapping of senses to deities and tattvas should be extracted.",
+      "status": "open",
+      "created": "2026-07-14",
+      "auto_generated": true
+    },
+    {
+      "id": "issue-002",
+      "type": "coverage_gap",
+      "title": "Comparative mapping to the existing Tantraloka ROs needed",
+      "description": "This text by Dyczkowski is the theoretical companion to his Tantraloka translation. Cross-references between the two would strengthen both ROs.",
+      "status": "open",
+      "created": "2026-07-14",
+      "auto_generated": true
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.1.0",
+      "date": "2026-07-14",
+      "type": "initial",
+      "summary": "Initial RO created from Dyczkowski's The Doctrine of Vibration (1989 Motilal Banarsidass edition). 12 passages covering the integral monism, Prakāśa-Vimarśa, Spanda theory, Śiva-Śakti, Śakti Cakra, Divine Body, and the four Upāyas (Anupāya, Śāmbhavopāya, Śāktopāya, Āṇavopāya).",
+      "sources_added": ["dyczkowski-doctrine-vibration"],
+      "passage_count": 12,
+      "status": "draft"
+    }
+  ],
+  "appendices": [],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "event": "RO created in draft state from PDF (7.7 MB, ~13,700 lines text). Dyczkowski's companion volume to his Tantraloka translation.",
+      "sources_total": 1,
+      "passages_total": 12
+    }
+  ]
+}

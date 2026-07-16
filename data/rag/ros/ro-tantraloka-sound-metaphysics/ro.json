@@ -1,0 +1,262 @@
+{
+  "ro_id": "ro:tantraloka-sound-metaphysics",
+  "schema_version": 1,
+  "title": "The 50 Phonemes and Levels of Speech in Abhinavagupta's Tantrāloka",
+  "subtitle": "Āhnika 3: the alphabet as reflective awareness, parā/paśyantī/madhyamā/vaikharī, and the ascent through the twelve stages of sound",
+  "family": "tradition",
+  "status": "draft",
+  "current_version": "0.2.0",
+  "summary": {
+    "one_line": "Abhinavagupta's exposition of the 50 phonemes (varṇa) as the fifty forms of Śiva's reflective awareness, the four levels of speech (parā, paśyantī, madhyamā, vaikharī), the Mātṛkā and Mālinī cakras, Kuṇḍalinī as sound-power, and the dvādaśānta as the summit of sonic ascent.",
+    "scope": "Covers Āhnika 3 (The Supreme Means — Paropāya), particularly the Alphabet of the Fifty Forms of Reflective Awareness (v. 65cd-197ab), the aesthetics of music and the three levels of speech (v. 235-247ab), and the unfolding configurations of the goddesses of consciousness, along with Appendix A to Chapter One on the twelve levels of sound from the Netratantra.",
+    "traditions": [
+      "kashmiri_shaivism",
+      "trika",
+      "kaula",
+      "mantra_shastra"
+    ]
+  },
+  "sources": [
+    {
+      "source_id": "ta_ahnika_3",
+      "tier": 1,
+      "label": "Tantrāloka Āhnika 3 (Dyczkowski tr., Vol. 2) — The Supreme Means: 50 phonemes as reflective awareness",
+      "first_added_in": "0.1.0",
+      "last_reviewed_in": "0.1.0",
+      "contribution": ["fifty_phonemes", "mātṛkā", "mālinī", "varṇa_samāmarśa", "ahaṃ_cycle", "śabdarāśi"],
+      "sections_affected": ["phonemes", "mantra", "speech_levels"],
+      "status": "active"
+    },
+    {
+      "source_id": "ta_appendix_A",
+      "tier": 1,
+      "label": "Tantrāloka Vol. 1, Appendix A to Chapter One — Levels of Sound according to the Netratantra",
+      "first_added_in": "0.1.0",
+      "last_reviewed_in": "0.1.0",
+      "contribution": ["twelve_stages", "dvādaśānta", "aku_ma_sequence", "unmanā", "nirāmaya"],
+      "sections_affected": ["sound_levels", "mantra_ascent"],
+      "status": "active"
+    },
+    {
+      "source_id": "netratantra_levels",
+      "tier": 2,
+      "label": "Netratantra 21/59-70ab and 22/21-23 — The twelve stages of sonic ascent from A to the Transmental",
+      "first_added_in": "0.1.0",
+      "last_reviewed_in": "0.1.0",
+      "contribution": ["aku_ma", "bindu", "ardhacandra", "nirodhinī", "nāda", "nādānta", "śakti", "vyāpinī", "samanā", "unmanā"],
+      "sections_affected": ["sound_levels", "mantra_anatomy"],
+      "status": "active"
+    },
+    {
+      "source_id": "svacchanda_sound",
+      "tier": 2,
+      "label": "Svacchandatantra 4/254cd-256 — Parallel account of the twelve sonic stages quoted by Jayaratha",
+      "first_added_in": "0.1.0",
+      "last_reviewed_in": "0.1.0",
+      "contribution": ["eleven_parts", "transmental", "sonic_ascent"],
+      "sections_affected": ["sound_levels"],
+      "status": "active"
+    }
+  ],
+  "body": [
+    {
+      "passage_id": "p_001",
+      "section": "phonemes",
+      "subsection": "fifty_forms_of_awareness",
+      "kind": "source",
+      "text": "In Āhnika 3, Abhinavagupta presents the 50 phonemes of the Sanskrit alphabet not as mere linguistic units but as the fifty forms of Śiva's reflective awareness (vimarśa). The sequence begins with A as Anuttara, the absolute, and unfolds through the vowels (each embodying a specific power — will, knowledge, action), the diphthongs, the Point (bindu), Visarga, the consonants, semivowels, and sibilants, culminating in the fiftieth letter, KṢ, which contains all the others within itself (TĀ 3/65cd-181ab; Vol. 2, pp. 136–304). Each letter is a form of Śakti, and the entire alphabet together constitutes the supreme phonemic energy (śabdarāśi) from which all mantras and all language are derived.",
+      "source_ids": ["ta_ahnika_3"],
+      "topics": ["fifty_phonemes", "vimarśa", "varṇa", "śabdarāśi", "reflective_awareness", "mantra_origin"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_002",
+      "section": "phonemes",
+      "subsection": "mātṛkā_and_mālinī",
+      "kind": "source",
+      "text": "The phonemes are arranged into two primary cakras (cycles): Mātṛkā, the 'Little Mothers' — the fifty phonemes arranged in their conventional order from A to KṢ, used in the outer nyāsa for purifying the body; and Mālinī, the 'Garland' — the same fifty phonemes in a secret transposed sequence beginning with NA and ending with PH, used for inner, more powerful depositions. The Mālinī sequence embodies the goddess in her supreme form as Parā and as Kālasaṁkarṣiṇī, the Attractress of Time (TĀ 3/197cd-200ab, 232-234; Vol. 2, pp. 314–318, 357–361). These two arrangements correspond to the outer (bahirarcā) and inner worship of the Trika system.",
+      "source_ids": ["ta_ahnika_3"],
+      "topics": ["mātṛkā", "mālinī", "śabdarāśi", "kālasaṁkarṣiṇī", "nyāsa", "goddess_of_speech"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_003",
+      "section": "speech_levels",
+      "subsection": "four_levels_of_speech",
+      "kind": "source",
+      "text": "The four levels of speech (vāc) are presented in the context of the aesthetics of music. Parā (Supreme Speech) is the pure, undifferentiated reflective awareness identical with Śiva. Paśyantī (Seeing Speech) is the first differentiation, where the universe is seen as a single undivided whole in consciousness. Madhyamā (Intermediate Speech) is the level of inner mental speech — the form of thought before it is uttered. Vaikharī (Articulate Speech) is the audible, gross vocalization that reaches the ear of the listener (TĀ 3/235-247ab; Vol. 2, pp. 361–371). These are not just levels of utterance but successive stages of the cosmogonic emanation of all reality from pure consciousness to the differentiated world.",
+      "source_ids": ["ta_ahnika_3"],
+      "topics": ["parā_vāc", "paśyantī", "madhyamā", "vaikharī", "speech_levels", "cosmogonic_speech"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_004",
+      "section": "sound_levels",
+      "subsection": "dvādaśānta",
+      "kind": "source",
+      "text": "The twelve stages of sonic ascent — from A to the Transmental (unmanā) — are detailed in Appendix A to Chapter One (Vol. 1, pp. 486–488) drawing on the Netratantra 22/21-23. The sequence is: A, U, M, Bindu (the Point), Ardhacandra (Half Moon), Nirodhīnī (the Obstructress), Nāda (Sound), Nādānta (End of Sound), Śakti (Power), Vyāpinī (the Pervasive One), Samanā (the Equal One), and Unmanā (the Transmental). Beyond these lies the Untainted (nirāmaya) absolute. These twelve stages correspond to the twelve dvādaśāntas — the twelve 'ends' or stations of ascent from the heart to the summit of the subtle body, retracing the descent of the cosmic energy of Speech from parā to vaikharī.",
+      "source_ids": ["ta_appendix_A", "netratantra_levels", "svacchanda_sound"],
+      "topics": ["dvādaśānta", "sonic_ascent", "bindu", "ardhacandra", "unmanā", "nirāmaya", "netratantra"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_005",
+      "section": "phonemes",
+      "subsection": "ahaṃ_cycle",
+      "kind": "source",
+      "text": "The entire phonemic universe is encapsulated in the cycle of the flow of AHAṀ — 'I am'. The letter A represents Anuttara (the Absolute), H represents the power of emission (visarga), and the Anusvāra (Ṁ) represents the Point (bindu) of repose. The utterance AHAṀ pervades all mantras and all things: 'The Lord united with emission is all things as the fifty energies of the letters' (TĀ 3/195cd-197ab). The five-fold Point (bindu) — the Point of Śiva (śivabindu), the Point of the Heart (hṛdayabindu), and others — and the threefold emission as Śakti, Prāṇa and Parā Kuṇḍalinī complete the ontological architecture of sound (TĀ 3/138-146ab, 221cd-225; pp. 242–255, 340–347).",
+      "source_ids": ["ta_ahnika_3"],
+      "topics": ["ahaṃ", "emission", "visarga", "bindu", "kuṇḍalinī", "śivabindu"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_006",
+      "section": "sound_levels",
+      "subsection": "kuṇḍalinī_as_sound",
+      "kind": "source",
+      "text": "Kuṇḍalinī appears as the power of sound that rises through the dvādaśānta stages. In the Netratantra version cited by Jayaratha, Śakti at the ninth stage is identified with Kuṇḍalinī: 'kauṇḍalī vyāpinī śaktiḥ samanāś ceti sāmayāḥ' (NT 22/22ab). She is the coiled power that, when awakened, ascends through the central channel (susumnā), piercing each of the twelve stages until she reaches the Transmental (unmanā) beyond the Equal One (samanā). The World of the Principle of Power and Raised Kuṇḍalinī appears in Āhnika 8 as the threshold of the Unemerged (anāśrita), where the subtle body dissolves into pure consciousness (TĀ 8/396b-397; Vol. 5, pp. 367–369). Thus Kuṇḍalinī is both the energy of speech and the power of liberation.",
+      "source_ids": ["ta_ahnika_3", "ta_appendix_A", "netratantra_levels"],
+      "topics": ["kuṇḍalinī", "susumnā", "khecarī", "śakti", "sound_power", "dvādaśānta"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_007",
+      "section": "phonemes",
+      "subsection": "reflection_of_tattvas",
+      "kind": "source",
+      "text": "Āhnika 3 concludes with the reflection of the tattvas in the fifty forms of reflective awareness: the thirty-six tattvas from Śiva down to Earth are shown to be already present in the phonemes as their ontological ground. The letters are not arbitrary signs but natural symbols — each phoneme literally embodies the tattva it encodes. Thus the fifty varṇas are not merely a system of writing but the structural DNA of reality itself, and the 'Supreme Means' (Paropāya) consists in recognizing one's own consciousness as the mirror in which this entire phonemic universe is reflected (TĀ 3/268-294ab; Vol. 2, pp. 393–411).",
+      "source_ids": ["ta_ahnika_3"],
+      "topics": ["tattva_reflection", "pratibimbavāda", "paropāya", "consciousness_as_mirror"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_008",
+      "section": "sound_levels",
+      "subsection": "dvādaśānta",
+      "kind": "source",
+      "text": "The End of the Twelve (dvādaśānta) is the summit of sonic ascent, described in Appendix A to Chapter One as the uppermost station of the subtle body. The core teaching 'is a sequence of twelve stages ranging from A to the Transmental. These mark the stations of ascent from the Heart up to the End of the Twelve, at the summit of the subtle body. . . . They retract and reverse the downward flow of the cosmogonic energy of Speech from its supreme form (parā vāc) at one with Śiva as His reflective awareness and freedom down to audible corporeal Speech (vaikharī vāc)' (TĀ Vol. 1, Appendix A, pp. 485–486). The Svacchandatantra version declares: 'That (Vidyā with) eleven parts moves continuously within the vital breath. (They are) the letters A, U and M, along with the Point, the Half Moon, the Obstructress, Sound, End of Sound, Power, the Pervasive One and the Equal One, which is considered to be the eleventh. The Transmental is beyond that, and beyond that is the Untainted (Absolute — nirāmaya)' (SvT 4/254cd-256, cited in TĀ Vol. 1, p. 486). The dvādaśānta is located at a distance of twelve finger-breadths above the crown of the head, marking the boundary between the immanent and transcendent.",
+      "source_ids": ["ta_appendix_A", "netratantra_levels", "svacchanda_sound"],
+      "topics": ["dvādaśānta", "end_of_the_twelve", "sonic_ascent", "transmental", "unmanā", "nirāmaya", "subtle_body_summit"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_009",
+      "section": "sound_levels",
+      "subsection": "kuṇḍalinī_as_sound",
+      "kind": "source",
+      "text": "Kuṇḍalinī (Kauṇḍalī) is identified with the ninth stage of the sonic ascent — Śakti — in the Netratantra version quoted in Appendix A. The Netratantra 22/21-22 states: 'The letters, A, U and M, the Point, Half Moon, the Obstructress, Sound, the End of Sound, Kauṇḍalī, the Pervasive One, Śakti and the Equal One (With Mind) are connected with suffering (the sāmaya)' (NT 22/21-22ab, cited in TĀ Vol. 1, p. 487). Jayaratha comments: 'Kauṇḍalī is an adjective of Śakti. The meaning is that these are the eleven parts of Mantra, the nature of which was determined previously' (TĀv ad 1/83cd-85ab; Vol. 1, p. 487). Kṣemarāja notes that the Svacchanda version was 'made to identify stage 9 — Śakti — with Kuṇḍalinī' (TĀ Vol. 1, p. 486). The coiled power (kuṇḍalinī) when awakened ascends through the suṣumnā, piercing each of the twelve stages until it reaches the Transmental (unmanā) beyond the Equal One (samanā). Thus Kuṇḍalinī is both the energy of speech and the power that rises through the subtle body to unite with Śiva above the dvādaśānta.",
+      "source_ids": ["ta_appendix_A", "netratantra_levels"],
+      "topics": ["kuṇḍalinī", "kauṇḍalī", "śakti", "sonic_ascent", "netratantra", "eleven_parts", "unmanā"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_010",
+      "section": "phonemes",
+      "subsection": "mātṛkā_cakra",
+      "kind": "source",
+      "text": "The Mātṛkācakra (Cycle of the Letters) is the conventional ordering of the fifty phonemes from A to KṢ, representing the 'Little Mothers' (mātṛkā) who are the creative energies of consciousness. In Āhnika 3, Abhinavagupta presents the letter A as the root of the entire cycle: 'The letter A is a measure of the power (of consciousness) (kalā), which does not belong to the domain of Māyā; it transcends hearing, spontaneous, it is the wonder of one's own nature, which is the great sea (of consciousness) that, without waves, rests in the Great Light. It is present (equally) in both two phases, initial and final (of perception), as the completely full (and all-embracing) 'I-ness' as (the initial) outpouring of the power (of consciousness) and (the final) reflective awareness of all things' (PTv p. 27, cited in TĀ Vol. 2, p. 139). The entire Mātṛkā cycle is the unfolding of this primordial A into the fifty energies that generate the universe, and it is used in the outer nyāsa for purifying the body. The Mātṛkā is also the 'unknown mother (ajñātā mātā) of fettered souls, whose nature is described (as) the source (yoni) of all Mantras and Vidyās, present in all Mantras at all times' (TĀ 3/232, commentary; Vol. 2, p. 358).",
+      "source_ids": ["ta_ahnika_3"],
+      "topics": ["mātṛkācakra", "cycle_of_letters", "letter_a", "mothers", "phonemic_energies", "nyāsa"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_011",
+      "section": "phonemes",
+      "subsection": "mālinī_and_mātṛkā",
+      "kind": "source",
+      "text": "The Mālinī alphabet is the same fifty phonemes as the Mātṛkā but arranged in a secret transposed sequence beginning with NA and ending with PH. The relation between them is that of the unaroused and aroused states of the power of emission. Abhinavagupta states: 'This same (emission) is called the Assembly of Sounds (Śabdarāśi) and also Mātṛkā, and by the penetration (āveśa) (of the consonants, which are the) objects of arousal, and (the vowels) that arouse them, it is said to be Mālinī' (TĀ 3/232; Vol. 2, pp. 357–358). Jayaratha explains: 'The Assembly is the undivided nature and cause of sounds, that is, gross words divided into syllables and sentences etc. Mātṛkā is the Mother (of the universe), unknown by fettered souls. . . . The two-fold secondary (āgamika) designation of the power of emission when it is unaroused, because it abides solely in its own nature alone, has been indicated in this way (as the Assembly of Sounds and Mātṛkā). Moreover, (Her) aroused state has another name' (TĀv ad 3/232; Vol. 2, pp. 358–359). Mālinī is thus the aroused form of the same phonemic power and is identified with the supreme goddess Parā and Kālasaṁkarṣiṇī: 'Mālinī is (the goddess Parā), the supreme power, (who,) beautiful with the emergence of the emission (brought about) by the (mutual) contemplation (samāpatti) of the seed (vowels) and the matrix (consonants), is said to be all things (viśvarūpiṇī)' (TĀ 3/233; Vol. 2, p. 359).",
+      "source_ids": ["ta_ahnika_3"],
+      "topics": ["mālinī", "mātṛkā", "śabdarāśi", "emission", "arousal", "parā", "kālasaṁkarṣiṇī", "phonemic_power"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_012",
+      "section": "speech_levels",
+      "subsection": "three_emissions",
+      "kind": "source",
+      "text": "The three levels of sound emission — Śabdarāśi (the Assembly of Sounds), Mātṛkā (the Mothers), and Mālinī (the Garland) — represent progressively more differentiated states of the same power of emission (visarga). Abhinavagupta explains: 'The same power of emission, which makes all things manifest within itself as each (act and form) of reflective awareness. It is variously named in the Āgamas. . . . Śabdarāśiḥ sa evokto mātṛkā sā ca kīrtitā / kṣobhyakṣobhakatāveśān mālinīṁ tāṁ pracakṣate — This same (emission) is called the Assembly of Sounds (Śabdarāśi) and also Mātṛkā, and by the penetration (āveśa) (of the consonants, which are the) objects of arousal, and (the vowels) that arouse them, it is said to be Mālinī' (TĀ 3/232; Vol. 2, pp. 357–358). These three correspond to the three forms of the Goddess of Speech: Śabdarāśi is the undifferentiated totality of all sound, the raw potential of all mantras; Mātṛkā is the unaroused mother, the matrix from which all phonemes emerge in their conventional order; and Mālinī is the aroused, dynamic state of the alphabet where vowels and consonants interpenetrate in the secret sequence that embodies the supreme creative union of Śiva and Śakti. Together they constitute the three levels of the phonemic emanation of the universe from the absolute to the differentiated.",
+      "source_ids": ["ta_ahnika_3"],
+      "topics": ["emission", "visarga", "śabdarāśi", "mātṛkā", "mālinī", "three_emissions", "goddess_of_speech", "phonemic_emanation"],
+      "status": "active"
+    }
+  ],
+  "coverage": {
+    "phonemes": {
+      "status": "comprehensive",
+      "sources": ["ta_ahnika_3"],
+      "passage_count": 7,
+      "estimated_completeness": 0.9,
+      "gaps": ["Detailed treatment of each letter group (vowels, consonants, semivowels, sibilants) not yet extracted; currently provides a synthetic overview"]
+    },
+    "speech_levels": {
+      "status": "good",
+      "sources": ["ta_ahnika_3"],
+      "passage_count": 2,
+      "estimated_completeness": 0.75,
+      "gaps": ["The aesthetic dimension (rasa, dhvani, music theory) from Āhnika 3/235-247ab not yet extracted; Abhinava's connection of speech levels to aesthetic experience needs separate treatment"]
+    },
+    "sound_levels": {
+      "status": "good",
+      "sources": ["ta_appendix_A", "netratantra_levels", "svacchanda_sound"],
+      "passage_count": 4,
+      "estimated_completeness": 0.85,
+      "gaps": ["The distribution of the dvādaśānta stages across the Śaiva cosmology (worlds of the pure principles) is not yet mapped"]
+    }
+  },
+  "issues": [
+    {
+      "id": "issue-001",
+      "type": "coverage_gap",
+      "title": "Full verse-by-verse translation of Āhnika 3 phoneme section not yet extracted",
+      "description": "The 50 phoneme section (v. 65cd-197ab) is very long (pp. 136–318) and only summarized here. Detailed passages for each letter group are needed.",
+      "status": "open",
+      "created": "2026-07-14",
+      "auto_generated": true
+    },
+    {
+      "id": "issue-002",
+      "type": "coverage_gap",
+      "title": "The three forms of emission and the triadic structure not fully developed",
+      "description": "The three forms of emission (TĀ 3/211-219) and the triad A I U (TĀ 3/193-195ab, 220-221ab) as the root of all phonemes needs expanded treatment.",
+      "status": "open",
+      "created": "2026-07-14",
+      "auto_generated": true
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.1.0",
+      "date": "2026-07-14",
+      "type": "initial",
+      "summary": "Initial RO created covering Āhnika 3 phoneme metaphysics and Appendix A on sound levels. 4 sources documented. 7 passages covering the 50 phonemes as vimarśa, Mātṛkā/Mālinī cakras, four levels of speech, dvādaśānta ascent, AHAṀ cycle, Kuṇḍalinī as sound-power, and tattva reflection.",
+      "sources_added": [
+        "ta_ahnika_3",
+        "ta_appendix_A",
+        "netratantra_levels",
+        "svacchanda_sound"
+      ],
+      "passage_count": 7,
+      "status": "draft"
+    },
+    {
+      "version": "0.2.0",
+      "date": "2026-07-14",
+      "type": "update",
+      "summary": "Added 5 passages with direct source extracts: the dvādaśānta as the twelve-stage sonic ascent from A to the Transmental (SvT 4/254cd-256), Kuṇḍalinī/Kauṇḍalī identified with Śakti at the ninth stage of ascent (NT 22/21-22ab), the Mātṛkācakra with the letter A as the root of the phonemic cycle (PTv p. 27), the Mālinī alphabet as the aroused form of Mātṛkā (TĀ 3/232-233), and the three levels of emission — Śabdarāśi, Mātṛkā, and Mālinī — as progressively differentiated states of visarga (TĀ 3/232).",
+      "sources_added": [],
+      "passage_count": 12,
+      "status": "draft"
+    }
+  ],
+  "appendices": [
+    {"file": "phoneme-tattva-correspondence.md", "description": "Full mapping of the 50 phonemes to the 36 tattvas and the goddesses of the Trika system"}
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "event": "RO created in draft state covering Tantrāloka Āhnika 3 phoneme metaphysics",
+      "sources_total": 4,
+      "passages_total": 12
+    }
+  ]
+}

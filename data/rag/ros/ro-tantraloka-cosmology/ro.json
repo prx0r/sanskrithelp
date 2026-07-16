@@ -1,0 +1,282 @@
+{
+  "ro_id": "ro:tantraloka-cosmology",
+  "schema_version": 1,
+  "title": "The Path of Worlds (Bhuvanādhvan) and the 36 Tattvas in Abhinavagupta's Tantrāloka",
+  "subtitle": "Āhnikas 8–10: cosmic geography, tattva-evolution, seven perceivers, and the architecture of liberation",
+  "family": "tradition",
+  "status": "draft",
+  "current_version": "0.2.0",
+  "summary": {
+    "one_line": "Abhinavagupta's systematic exposition of the Śaiva cosmos: the 207 worlds of the Bhuvanādhvan, the 36 tattvas with the five kañcukas, the seven perceivers, and the subtle body (puryaṣṭaka/vigrahāṣṭaka) as the vehicle of transmigration and liberation.",
+    "scope": "Covers Āhnika 8 (Bhuvanādhvan — the Path of Worlds, from the Egg of Brahmā through the netherworlds, Mount Meru, the seven lokas, and the ascent through the tattvas up to Śiva), Āhnika 9 (the 36 tattvas, causality, kañcukas, māyā as the knot, the pure and impure paths), and Āhnika 10 (the seven perceivers, their states, and the relation of tattvas to consciousness).",
+    "traditions": [
+      "kashmiri_shaivism",
+      "trika",
+      "saiva_siddhanta"
+    ]
+  },
+  "sources": [
+    {
+      "source_id": "ta_ahnika_8",
+      "tier": 1,
+      "label": "Tantrāloka Āhnika 8 (Dyczkowski tr., Vol. 5) — The Path of Space (deśādhavan): Bhuvanādhvan cosmology",
+      "first_added_in": "0.1.0",
+      "last_reviewed_in": "0.1.0",
+      "contribution": ["bhuvana_cosmology", "egg_of_brahma", "meru_geography", "seven_lokas", "subtle_body", "kañcukas", "maaya_granthi"],
+      "sections_affected": ["cosmology", "tattvas", "subtle_body"],
+      "status": "active"
+    },
+    {
+      "source_id": "ta_ahnika_9",
+      "tier": 1,
+      "label": "Tantrāloka Āhnika 9 (Dyczkowski tr., Vol. 6) — The Path of the Principles (tattvādhvan): 36 tattvas, causality, kañcukas",
+      "first_added_in": "0.1.0",
+      "last_reviewed_in": "0.1.0",
+      "contribution": ["tattva_definition", "cause_effect", "kañcukas", "mala", "karma", "maaya"],
+      "sections_affected": ["tattvas", "metaphysics"],
+      "status": "active"
+    },
+    {
+      "source_id": "ta_ahnika_10",
+      "tier": 1,
+      "label": "Tantrāloka Āhnika 10 (Dyczkowski tr., Vol. 6) — The Division of the Principles: seven perceivers and consciousness states",
+      "first_added_in": "0.1.0",
+      "last_reviewed_in": "0.1.0",
+      "contribution": ["seven_perceivers", "consciousness_states", "jagrat_svapna_sushupti", "turiya_turiyatita"],
+      "sections_affected": ["perceivers", "consciousness"],
+      "status": "active"
+    },
+    {
+      "source_id": "mvg",
+      "tier": 2,
+      "label": "Mālinīvijayottaratantra (MV) — cited by Abhinavagupta for tattva and bhuvana classifications",
+      "first_added_in": "0.1.0",
+      "last_reviewed_in": "0.1.0",
+      "contribution": ["tattva_worlds", "bhuvana_series", "trident_throne_correspondence"],
+      "sections_affected": ["cosmology", "tattvas"],
+      "status": "active"
+    },
+    {
+      "source_id": "svacchanda_reference",
+      "tier": 2,
+      "label": "Svacchandatantra — cited for the summary of worlds distributed in the five kalās",
+      "first_added_in": "0.1.0",
+      "last_reviewed_in": "0.1.0",
+      "contribution": ["five_kalas", "world_summary", "bhuvana_distribution"],
+      "sections_affected": ["cosmology"],
+      "status": "active"
+    }
+  ],
+  "body": [
+    {
+      "passage_id": "p_001",
+      "section": "cosmology",
+      "subsection": "egg_of_brahma",
+      "kind": "source",
+      "text": "Abhinavagupta opens Āhnika 8 with the physical cosmos: the Egg of Brahmā, a vast cosmic egg containing the earth, the thirty-five hells (Avīci, Kumbhīpāka, Mahāraurava), the eight netherworlds (pātāla), Mount Meru with its surrounding mountains, Jambudvīpa and its nine regions, the six concentric islands and oceans, and Mount Lokāloka at the edge of the visible world (TĀ 8/19cd-118ab; Dyczkowski Vol. 5, pp. 68–161). Beyond Lokāloka lies an ocean of Garbhoda and the region of darkness. This entire physical universe is the lowest stratum of a graded cosmos that ascends through increasingly subtle levels.",
+      "source_ids": ["ta_ahnika_8"],
+      "topics": ["egg_of_brahma", "meru", "lokāloka", "pātāla"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_002",
+      "section": "cosmology",
+      "subsection": "seven_lokas",
+      "kind": "source",
+      "text": "Above the physical Egg rise the seven lokas: Bhūrloka (Earth), Bhuvarloka (Atmosphere with the paths of the wind), Svarloka (Heaven), Maharloka (the Great World), Janaloka (the World of People), Tapoloka (the World of Austerities), and Satyaloka (the World of Truth). Beyond these lie the worlds of Brahmā, Viṣṇu, and Rudra, then the elements gross and subtle from which the Egg is fashioned, culminating in the sphere of the Hundred Rudras (TĀ 8/118cd-186ab; pp. 161–208). The entire structure is measured and graded: from the Earth principle up to Śiva, each successive principle subtends a larger sphere and brings the soul proportionally closer to liberation.",
+      "source_ids": ["ta_ahnika_8"],
+      "topics": ["seven_lokas", "brahmanda", "hundred_rudras", "graded_cosmos"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_003",
+      "section": "cosmology",
+      "subsection": "subtle_body",
+      "kind": "source",
+      "text": "The subtle body (puryaṣṭaka / vigrahāṣṭaka) is described in Āhnika 8 as comprising eight components: the five subtle elements (tanmātras), manas (mind), ahaṁkāra (ego), and buddhi (intellect). The Spheres of the Subtle Elements and the Eight Bodies of Śiva (TĀ 8/215cd-221ab; pp. 239–243) are followed by the deities of the organs of action and knowledge, the Moon as the sphere of manas, and the worlds of the Rudras of the ego (TĀ 8/221cd-238ab; pp. 243–256). This subtle body is the vehicle of transmigration, bearing the soul's karmic residues through the cycle of rebirth until purified by initiation.",
+      "source_ids": ["ta_ahnika_8"],
+      "topics": ["puryaṣṭaka", "vigrahāṣṭaka", "subtle_body", "tanmātras", "karmic_vehicle"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_004",
+      "section": "tattvas",
+      "subsection": "tattva_definition",
+      "kind": "source",
+      "text": "Āhnika 9 opens by defining what a tattva is. Drawing on the Mataṅgatantra, Abhinavagupta explains that a tattva is a generic nature (sāmānya) that pervades its own effects, its properties, and the group of perceivers similar to itself. The Earth tattva, for example, extends from Kālāgnī to Vīrabhadra and is recognized by the qualities of solidity (kāṭhinya), weight (garimā), and sustaining power (dhṛti) that manifest throughout its domain (TĀ 9/2-3; Vol. 6, pp. 2–7). The Śaiva system extends the Sāṁkhya 25 tattvas by adding eleven more — from Śiva to Śuddhavidyā — to account for the pure universe, plus Māyā and the five kañcukas, reaching the standard 36 principles of Śaiva Siddhānta.",
+      "source_ids": ["ta_ahnika_9"],
+      "topics": ["tattva_definition", "generic_nature", "36_tattvas", "universal_pervasion"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_005",
+      "section": "tattvas",
+      "subsection": "kañcukas_and_māyā",
+      "kind": "source",
+      "text": "The five kañcukas (coverings) are the principles that contract Śiva's infinite capacities into the finite experience of the bounded soul: kalā (limited agency), vidyā (limited knowledge), rāga (attachment), kāla (time), and niyati (necessity). These emerge from Māyā and together constitute the apparatus of finitude. Māyā itself is the 'knot' (māyāgranthi) — the root principle of differentiation that, when pierced, releases the soul from the impure universe into the pure path (TĀ 9/147cd-220ab; Vol. 6, pp. 121–208). The relation between Māyā and the individual soul is carefully distinguished: Māyā is the principle of obscuration, while the soul is the conscious subject whose innate freedom is veiled by it.",
+      "source_ids": ["ta_ahnika_9"],
+      "topics": ["kañcukas", "māyā", "māyāgranthi", "limited_agency", "knot_of_māyā"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_006",
+      "section": "perceivers",
+      "subsection": "seven_perceivers",
+      "kind": "source",
+      "text": "Āhnika 10 introduces the seven perceivers (pramātṛ), ranging from the fully conditioned (sakala) to the unconditioned (śiva). These are: 1) sakala (bound soul with all coverings), 2) pralayākala (deconditioned by dissolution but still impure), 3) vijñānākala (consciousness deconditioned), 4) mantreśa (lord of mantras), 5) mantreśvara (superior lord of mantras), 6) sadāśiva, and 7) śiva. Each perceives reality at a different level of universality, and the same object manifests differently to each (TĀ 10/2-18; pp. 269–285). The fifteen divisions of the perceivers are also projected into the vital breath (prāṇa), linking cosmology to embodied practice.",
+      "source_ids": ["ta_ahnika_10"],
+      "topics": ["seven_perceivers", "sakala", "pralayākala", "vijñānākala", "mantreśa", "pramātṛ_hierarchy"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_007",
+      "section": "cosmology",
+      "subsection": "five_kalas",
+      "kind": "source",
+      "text": "The 207 worlds enumerated in Āhnika 8 are summarized in relation to the five kalās (forces of contraction and expansion): nivṛtti (cessation), pratiṣṭhā (establishment), vidyā (knowledge), śānti (peace), and śāntyātīta (beyond peace). These kalās distribute the worlds across the spectrum from the Earth principle up to Sadāśiva. The summary according to the Svacchandatantra (TĀ 8/407-428ab; pp. 375–384) and alternative arrangements from the Mataṅgatantra (8/428cd-436; pp. 384–388) and Mālinīvijayottara (8/437-452; pp. 388–397) demonstrate that the Bhuvanādhvan admits of multiple systematic arrangements.",
+      "source_ids": ["ta_ahnika_8", "svacchanda_reference", "mvg"],
+      "topics": ["five_kalas", "world_arrangement", "nivṛtti", "śāntyātīta"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_008",
+      "section": "tattvas",
+      "subsection": "pure_and_impure",
+      "kind": "source",
+      "text": "The 36 tattvas are divided into the Pure Path (śuddhādhvan) of five principles — Śiva, Śakti, Sadāśiva, Īśvara, and Śuddhavidyā — and the Impure Path (aśuddhādhvan) of thirty-one principles from Māyā down to Earth. The five pure principles are themselves subjects (pramātṛ), not objects; they are the levels of Śiva's self-awareness progressively 'descending' into manifestation. The six causes (kalā, vidyā, rāga, kāla, niyati, and māyā) are not themselves tattvas but the limiting conditions that produce the impure categories (TĀ 9/49cd-61; pp. 56–65). Abhinavagupta adds two principles above the 36 — Supreme Śiva (Bhairava) and the Inexplicable (Anākhyā) Kālī — distinctive of his Trika system (TĀ 9 intro; p. 3).",
+      "source_ids": ["ta_ahnika_9"],
+      "topics": ["śuddhādhvan", "aśuddhādhvan", "anākhyā_kālī", "bhairava", "trika"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_009",
+      "section": "cosmology",
+      "subsection": "egg_of_brahma",
+      "kind": "source",
+      "text": "The Egg of Brahmā (brahmāṇḍa) is described with precise measurements in Āhnika 8. Jayaratha, commenting on the Nandiśikhā, transmits: 'The thickness (sthaulya) of the shell of the Egg of Brahmā is ten million leagues (yojana). O beloved, it is said that one should know that above it there is a gap (antara) which is of the same extent. The Egg of Brahmā extends for a thousand million (leagues) all around. The shell is said to be ten million (leagues thick) and it has a hundred Rudras' (TĀ 8, quoting SvT 10/2cd; Dyczkowski Vol. 5, pp. 308–309). Further, 'There are ninety-eight hundred million (leagues) from Kālāgni to Daṇḍapāṇi. Thus, the upper (like the lower) shell of the Egg (of Brahmā) is ten million leagues thick. There are five hundred million leagues from the surface of the earth (up to the upper limit). The same is the case with the lower section' (TĀ 8/165cd-166; Vol. 5, pp. 195–196). From the earth's surface to the Pole Star the distance is fifteen hundred thousand leagues; beyond that, the heavens of Maharloka, Janaloka, Tapoloka and Satyaloka extend for progressively greater spans, crowned by the worlds of Brahmā, Viṣṇu, Rudra and finally the upper shell.",
+      "source_ids": ["ta_ahnika_8"],
+      "topics": ["egg_of_brahma", "brahmāṇḍa", "measurements", "shell_thickness", "hundred_rudras"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_010",
+      "section": "tattvas",
+      "subsection": "kañcukas_and_māyā",
+      "kind": "source",
+      "text": "The five kañcukas (obscuring coverings) are described in Āhnika 9 as the powers of contraction that reduce Śiva's infinite capacities to the finitude of the individual soul. Abhinavagupta writes: 'Thus the Supreme Lord renders (the individual souls) subject to (the chain of) cause and effect of Fundamental Nature. This is heralded by the progressive operation (kalanā) of the obscuring coverings (kañcuka) Kalā, Vidyā, Rāga, Kāla and Niyati. (They are in the form of) limited agency, limited noetic subjectivity (jñatva), craving, temporal differentiation, and its emergence due to the necessity (of karmic consequence) (respectively). They consist of the lack of reflective awareness (of the essential) nature (of the soul) which does and knows everything, is free of craving, is undifferentiated by time and is all things' (TĀ 9/166cd-170; Vol. 6, pp. 144–147). Kalā (the Force of limited agency) arises first from Māyā: 'The Force (of limited agency) arises from the principle of Māyā, and its characteristic is limited agency (kiñcitkartṛtva). This, the first of the obscuring coverings, not only obscures its essentially omnipotent Śiva nature, it enlivens its limited consciousness' (TĀ 9/174; Vol. 6, pp. 150–151).",
+      "source_ids": ["ta_ahnika_9"],
+      "topics": ["kañcukas", "kalā", "vidyā", "rāga", "kāla", "niyati", "limited_agency", "obscuring_coverings"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_011",
+      "section": "cosmology",
+      "subsection": "māyā_as_knot",
+      "kind": "source",
+      "text": "Māyā is presented in Āhnika 8 under three aspects: the Knot (māyāgranthi), the Cavity (māyābila), and the Cave (guhā) — the Womb of the universe. 'The great plane is the pure current, of which the distinguishing mark is union with Śiva's divine qualities. Ananta is the presiding Lord of the Principle of Māyā. The Cavity of Māyā is Māyā in the form of the Knot, and the Cave is (Māyā) in the form of the Principle' (TĀ 8/307cd-308; Vol. 5, pp. 309–310). She is called the Womb (bhaga) because 'all beings are generated in those cavities of her wombs (yoni) that abound with many desires, in accord with the arousing effect the Lord's power (has upon them). If the Lord passionately desires this goddess and she behaves in accord with (his) will, then the creatures from Unmanifest Nature onwards are born from each of her wombs' (TĀ 8/309-310; Vol. 5, pp. 310–311). Within the three cavities (puṭa) of Māyā reside twelve Rudras: six in the lower cavity (Gahana, Asādhya, Harihara, Daśeśvara, Trikala, Gopati), Ananta in the centre, and five in the upper cavity (Kṣema, Dvijeśa, Vidyeśa, Viśva, Śiva). 'The members of these groups of five and six who reside in the cavities can exchange places with one another. However, the Lord Ananta is (always) in every case in the centre' (TĀ 8/317cd-320ab; Vol. 5, pp. 314–315).",
+      "source_ids": ["ta_ahnika_8"],
+      "topics": ["māyāgranthi", "māyābila", "guhā", "māyā_cavities", "knot_of_māyā", "twelve_rudras", "ananta"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_012",
+      "section": "cosmology",
+      "subsection": "subtle_body",
+      "kind": "source",
+      "text": "The subtle body (puryaṣṭaka / vigrahāṣṭaka) is described in Āhnika 8 as the 'City of Eight' that transmigrates after death, bearing the karmic residues. Kṣemarāja explains that there are three bodies: 'the gross (sthūla) physical body, the subtle (sūkṣma) body and the supreme (para) body. The subtle body is the City of Eight (puryaṣṭaka), that transmigrates after the death of the gross, physical body to a new one. The individual soul (jīva) who transmigrates in this way is the subjectivity that identifies itself with the City of Eight, and consists of Karma (karmātma). Deposited in the City of Eight are the latent traces of past action, that are at the root of the many desires that govern the behaviour of the fettered. Not only of those operant in a single lifespan, but also those that are transmitted from life to life. When active in the physical body, the City of Eight contains not only all the physical sensations transmitted through the senses, but also the conflicting turmoil of inner sensations. Identification with the City of Eight is bondage. When this identification is overcome, the soul discovers its authentic subjectivity' (Kṣemarāja on SpKā 49, cited in TĀ 8/163cd-165ab; Vol. 5, pp. 192–193). The components of the subtle body are the five subtle elements (tanmātras), manas, ahaṁkāra, and buddhi.",
+      "source_ids": ["ta_ahnika_8"],
+      "topics": ["puryaṣṭaka", "vigrahāṣṭaka", "subtle_body", "city_of_eight", "karmātma", "latent_traces", "transmigration"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_013",
+      "section": "cosmology",
+      "subsection": "sixfold_path",
+      "kind": "source",
+      "text": "The Sixfold Path (ṣaḍadhvan) — the six initiatory paths that constitute the Śaiva cosmic order — are described in Appendix A to Āhnika 8 in relation to the cosmology of the Svacchandatantra. These six paths are the Path of the Principles (tattvādhvan), the Path of Worlds (bhuvanādhvan), the Path of Phonemes (varṇādhvan), the Path of Mantras (mantrādhvan), the Path of the Pads (padādhvan), and the Path of the Kalās (kalādhvan). Goodall notes that the sixfold path 'make their first appearance in the Svāyambhuvasūtrasaṁgraha' and that 'there are six initiatory paths (ṣaḍadhvan) that lead from earthly existence to the liberated state of śivatva. Much of Svāyambhuvasūtrasaṁgraha 4 is dedicated to setting out the correspondences between these paths' (TĀ Vol. 5, p. 382, citing Goodall 2015: 43). The doctrine of the six paths 'may seem to be almost ubiquitous in Śaiva literature, but it is in fact conspicuously absent in several pre-tenth-century Siddhāntatantras' (ibid.). The Bhuvanādhvan — the Path of Worlds detailed in Āhnika 8 — is one of these six, and the entire cosmology serves as the ritual basis for the purifications performed in initiation (dīkṣā).",
+      "source_ids": ["ta_ahnika_8"],
+      "topics": ["ṣaḍadhvan", "sixfold_path", "initiatory_paths", "bhuvanādhvan", "tattvādhvan", "mantrādhvan", "varṇādhvan", "padādhvan", "kalādhvan"],
+      "status": "active"
+    }
+  ],
+  "coverage": {
+    "cosmology": {
+      "status": "comprehensive",
+      "sources": ["ta_ahnika_8"],
+      "passage_count": 7,
+      "estimated_completeness": 0.9,
+      "gaps": ["Detailed verse-by-verse mapping of each world to its tattva still needed; the full Bhuvanādhvan lists 207 worlds but only representative samples are given here"]
+    },
+    "tattvas": {
+      "status": "comprehensive",
+      "sources": ["ta_ahnika_9"],
+      "passage_count": 4,
+      "estimated_completeness": 0.85,
+      "gaps": ["The Pratyabhijñā-based exegesis of the higher tattvas from the nondualist perspective needs fuller treatment"]
+    },
+    "perceivers": {
+      "status": "good",
+      "sources": ["ta_ahnika_10"],
+      "passage_count": 1,
+      "estimated_completeness": 0.65,
+      "gaps": ["The detailed mapping of the fifteen divisions of each perceiver and their projection into the breath cycle needs expansion"]
+    }
+  },
+  "issues": [
+    {
+      "id": "issue-001",
+      "type": "coverage_gap",
+      "title": "The bhuvana-tattva correspondence not fully mapped",
+      "description": "Āhnika 8 associates each world with a tattva, but the precise mapping of all 207 worlds to the 36 tattvas across the five kalās needs a dedicated lookup table or appendix.",
+      "status": "open",
+      "created": "2026-07-14",
+      "auto_generated": true
+    },
+    {
+      "id": "issue-002",
+      "type": "coverage_gap",
+      "title": "Relation of cosmology to initiation (dīkṣā) not yet traced",
+      "description": "The purpose of the Bhuvanādhvan is primarily ritual: the soul's karmic residues must be purified in every world and tattva where they bear fruit. This connection to the initiation system of Āhnikas 15–27 is not yet articulated here.",
+      "status": "open",
+      "created": "2026-07-14",
+      "auto_generated": true
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.1.0",
+      "date": "2026-07-14",
+      "type": "initial",
+      "summary": "Initial RO created covering Āhnikas 8–10. Cosmology (Egg of Brahmā, 7 lokas, subtle body), tattva system (36 tattvas, kañcukas, māyāgranthi), and seven perceivers documented with 8 passages.",
+      "sources_added": [
+        "ta_ahnika_8",
+        "ta_ahnika_9",
+        "ta_ahnika_10",
+        "mvg",
+        "svacchanda_reference"
+      ],
+      "passage_count": 8,
+      "status": "draft"
+    },
+    {
+      "version": "0.2.0",
+      "date": "2026-07-14",
+      "type": "update",
+      "summary": "Added 5 passages with direct source extracts: Egg of Brahmā measurements (TĀ 8/165cd-166), detailed kañcuka description (TĀ 9/174), Māyā as Knot/Cave with the three cavities and twelve Rudras (TĀ 8/307cd-320ab), subtle body as City of Eight with karmic vehicle explanation (Kṣemarāja on SpKā 49), and the Sixfold Path (ṣaḍadhvan) from the appendix (Goodall on Svāyambhuvasūtrasaṁgraha 4).",
+      "sources_added": [],
+      "passage_count": 13,
+      "status": "draft"
+    }
+  ],
+  "appendices": [
+    {"file": "bhuvana-tattva-map.md", "description": "Full mapping of the 207 worlds to the 36 tattvas and five kalās, with verse references"}
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "event": "RO created in draft state covering Tantrāloka Āhnikas 8–10 on cosmology and tattvas",
+      "sources_total": 5,
+      "passages_total": 13
+    }
+  ]
+}

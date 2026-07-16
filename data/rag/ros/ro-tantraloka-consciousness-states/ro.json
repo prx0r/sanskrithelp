@@ -1,0 +1,230 @@
+{
+  "ro_id": "ro:tantraloka-consciousness-states",
+  "schema_version": 1,
+  "title": "The Five States of Consciousness in Abhinavagupta's Tantrāloka",
+  "subtitle": "Āhnika 10: waking, dream, deep sleep, the Fourth (turīya), and Beyond the Fourth (turīyātīta) from a Kaula perspective",
+  "family": "tradition",
+  "status": "draft",
+  "current_version": "0.2.0",
+  "summary": {
+    "one_line": "Abhinavagupta's analysis of the five states of consciousness (jāgrat, svapna, suṣupti, turīya, turīyātīta) in Āhnika 10 of the Tantrāloka, relating each state to the seven perceivers, the fifteen divisions of perception, and the method of penetrating to Śiva through the Fourth beyond the Fourth.",
+    "scope": "Covers Āhnika 10 verses 227cd-309 (Dyczkowski Vol. 6, pp. 421–478) — the complete description of the waking and other states from a Kaula point of view, including the perception of each state by each of the seven perceivers, the interpenetration of states (dreaming within dreaming, waking in the dream), and the relation of the five states to the fifteen divisions of perception and the vital breath.",
+    "traditions": [
+      "kashmiri_shaivism",
+      "trika",
+      "kaula"
+    ]
+  },
+  "sources": [
+    {
+      "source_id": "ta_ahnika_10_consciousness",
+      "tier": 1,
+      "label": "Tantrāloka Āhnika 10, verses 227cd-309 (Dyczkowski tr., Vol. 6) — Description of the Waking and Other States",
+      "first_added_in": "0.1.0",
+      "last_reviewed_in": "0.1.0",
+      "contribution": ["five_states", "jagrat_svapna_sushupti", "turiya", "turiyatita", "kaula_perspective", "seven_perceiver_states"],
+      "sections_affected": ["consciousness", "perceivers", "practice"],
+      "status": "active"
+    },
+    {
+      "source_id": "ta_ahnika_10_perceivers",
+      "tier": 1,
+      "label": "Tantrāloka Āhnika 10, verses 2-184 (Dyczkowski tr., Vol. 6) — The Seven Perceivers and their Powers",
+      "first_added_in": "0.1.0",
+      "last_reviewed_in": "0.1.0",
+      "contribution": ["seven_perceivers", "sakala_pralayakala", "pramatri_hierarchy", "deep_sleep_types"],
+      "sections_affected": ["perceivers", "consciousness"],
+      "status": "active"
+    },
+    {
+      "source_id": "ta_ahnika_10_breath",
+      "tier": 1,
+      "label": "Tantrāloka Āhnika 10, verses 186cd-227ab (Dyczkowski tr., Vol. 6) — Perceivers and Phases of Perception in the Cycle of the Vital Breath",
+      "first_added_in": "0.1.0",
+      "last_reviewed_in": "0.1.0",
+      "contribution": ["prana_projection", "fifteen_phases", "goddess_of_intuition", "khecari_cakra"],
+      "sections_affected": ["practice", "breath"],
+      "status": "active"
+    }
+  ],
+  "body": [
+    {
+      "passage_id": "p_001",
+      "section": "consciousness",
+      "subsection": "five_states_intro",
+      "kind": "source",
+      "text": "Āhnika 10 presents the five states of consciousness from a Kaula point of view: waking (jāgrat), dream (svapna), deep sleep (suṣupti), the Fourth (turīya), and Beyond the Fourth (turīyātīta) (TĀ 10/227cd-287; Vol. 6, pp. 421–461). Unlike the classical Vedāntic treatment where turīya is the highest, Abhinavagupta's Kaula framework recognizes a fifth state that transcends even the Fourth. The waking state is characterized by dualistic perception through the senses; dream is the mind's autonomous construction of reality; deep sleep is the state of undifferentiated potentiality where even the mind is dissolved. The Fourth (turīya) is the pure witness-consciousness that underlies the three changing states, while Beyond the Fourth (turīyātīta) is the supreme, non-dual Bhairava-consciousness itself.",
+      "source_ids": ["ta_ahnika_10_consciousness"],
+      "topics": ["five_states", "jāgrat", "svapna", "suṣupti", "turīya", "turīyātīta", "kaula"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_002",
+      "section": "consciousness",
+      "subsection": "interpenetration_of_states",
+      "kind": "source",
+      "text": "Abhinavagupta emphasizes the interpenetration of states: one can be 'waking within the dream state' (svapne jāgrat) — lucid dreaming where the dreamer knows they are dreaming — and 'dreaming within dreaming' (svapne svapna), where multiple layers of dream reality unfold recursively (TĀ 10/248cd-257ab; Vol. 6, pp. 437–443). Similarly, deep sleep is not a blank but contains within it the seeds of both waking and dream. These interpenetrations demonstrate that the five states are not mutually exclusive levels but overlapping dimensions of consciousness that can be present simultaneously in the enlightened practitioner, for whom even in waking activity the supreme consciousness of turīyātīta remains constantly present.",
+      "source_ids": ["ta_ahnika_10_consciousness"],
+      "topics": ["lucid_dreaming", "svapne_jāgrat", "svapne_svapna", "state_interpenetration", "enlightened_continuity"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_003",
+      "section": "consciousness",
+      "subsection": "deep_sleep_types",
+      "kind": "source",
+      "text": "Deep sleep (suṣupti) is analyzed into multiple types in Āhnika 10 (verses 173-177 and 257cd-264ab; pp. 381–383, 443–447). Some deep sleep is tamasic — mere oblivion, a blank unconsciousness that is a form of spiritual obscuration. But there is also a sāttvic deep sleep that is a state of profound potentiality, a 'seed state' (bījāvasthā) from which all waking and dream experiences arise. In the Kaula perspective, deep sleep is the 'Cavity of Brahmā' (brahmarandhra) — the source of all states, accessible through yogic practice by withdrawing awareness from the senses and the mind. The adept learns to enter this state consciously, transforming it from a passive lapse into an active yogic state.",
+      "source_ids": ["ta_ahnika_10_consciousness", "ta_ahnika_10_perceivers"],
+      "topics": ["suṣupti", "deep_sleep", "tamasic_sleep", "sāttvic_sleep", "brahmarandhra", "seed_state"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_004",
+      "section": "consciousness",
+      "subsection": "turiya",
+      "kind": "source",
+      "text": "The Fourth (turīya) is the witness consciousness (sākṣin) that perceives the three states of waking, dream, and deep sleep without being affected by them. It is the first glimmer of non-dual awareness within the field of ordinary experience (TĀ 10/264cd-277; Vol. 6, pp. 447–455). Turīya is not a state that comes and goes but the constant background of awareness against which all changing states are perceived — like the light that illumines a movie screen without being part of the images projected upon it. In the Śaiva non-dual understanding, turīya is the first direct taste of one's own true nature as pure consciousness (prakāśa), but it still retains a subtle distinction between the witness and the witnessed.",
+      "source_ids": ["ta_ahnika_10_consciousness"],
+      "topics": ["turīya", "witness_consciousness", "sākṣin", "prakāśa", "non_dual_awareness"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_005",
+      "section": "consciousness",
+      "subsection": "turiyatita",
+      "kind": "source",
+      "text": "Beyond the Fourth (turīyātīta) is the supreme state that transcends even the witness. It is not merely a fifth state added to the list but the 'zero-point' or ground from which all four states (waking, dream, deep sleep, turīya) arise and into which they dissolve (TĀ 10/278-287; Vol. 6, pp. 455–461). In this state, the distinction between witness and witnessed is utterly obliterated — there is no longer any 'one' who is conscious, only consciousness itself as the single, self-luminous reality (prakāśa-vimarśa). This is the state of Bhairava, the 'terrible' one who is beyond all categories, the pulsation (spanda) of consciousness that is both utterly empty and fully manifest. The penetrating into turīyātīta is the goal of the Trika Kaula path.",
+      "source_ids": ["ta_ahnika_10_consciousness"],
+      "topics": ["turīyātīta", "bhairava_consciousness", "spanda", "prakāśa_vimarśa", "beyond_witness", "supreme_state"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_006",
+      "section": "perceivers",
+      "subsection": "seven_perceiver_states",
+      "kind": "source",
+      "text": "Each of the seven perceivers (sakala, pralayākala, vijñānākala, mantreśa, mantreśvara, sadāśiva, and śiva) experiences the five states of consciousness differently. What is deep sleep for a lower perceiver is waking for a higher one; what is the Fourth for the sakala is the ordinary state for the mantreśa (TĀ 10/288-309; Vol. 6, pp. 461–478). The 'Waking and Other States from Another Point of View' (10/294cd-301ab) shows that the very classification of states is relative to the perceiver's level of self-awareness. The fifteen divisions of the perceivers are correlated with the five states and with the phases of the vital breath (10/186cd-227ab), linking the entire phenomenology of consciousness to the practical yogic discipline of breath-awareness.",
+      "source_ids": ["ta_ahnika_10_consciousness", "ta_ahnika_10_perceivers", "ta_ahnika_10_breath"],
+      "topics": ["seven_perceivers", "state_relativity", "fifteen_divisions", "breath_projection", "yogic_practice"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_007",
+      "section": "perceivers",
+      "subsection": "seven_perceivers",
+      "kind": "source",
+      "text": "The seven perceivers (pramātṛ) are systematically enumerated in Āhnika 10 from the Mālinīvijayottara: '(The principles) ranging from Earth up to the Root Nature (mūla) are divided into fifteen, according to their powers and possessors (i.e. the individual souls), along with (their) 'Innate Nature' (svarūpa). There are two divisions less from the individual soul up to the Force (of limited agency). There are eleven (divisions) when (the essential nature) becomes a Dissolution Deconditioned (subject) (Pralayākala), and like that also (the form of it called) Māyā. There are nine (divisions) when (Deconditioned) (subjects), seven when (the essential nature) is the Mantra (subjects), five when (the essential nature) is the Lords of Mantra, and three when it is the Great Lords of Mantra. Śiva, Whose nature is consciousness, which is nothing but dense, uninterrupted Light, has no divisions' (TĀ 10/3-5; Vol. 6, pp. 287–288). The fifteen divisions of the fully conditioned (sakala) subject decrease by two at each higher level, culminating in the undivided Śiva. This ascending scale from fifteen down to one represents the progressive contraction of objectivity and the expansion of subjectivity as consciousness approaches its pure, self-luminous state.",
+      "source_ids": ["ta_ahnika_10_perceivers"],
+      "topics": ["seven_perceivers", "fifteen_divisions", "sakala", "pralayākala", "vijñānākala", "mantreśa", "mantreśvara", "sadāśiva", "śiva", "pramātṛ_hierarchy"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_008",
+      "section": "consciousness",
+      "subsection": "deep_sleep_types",
+      "kind": "source",
+      "text": "Deep sleep (suṣupti) is analyzed in Āhnika 10 into multiple types based on the three guṇas. The text states: 'It is clearly evident that (all) the principles are merged in deep sleep. Otherwise, where could the things seen in dreams, (which have a fixed,) determined nature, arise from? Deep sleep also manifests variously, according to whether it is lucid, nonlucid or the like (svacchāsvacchādi). (This is proved by) the perception of the various memories (one has of it), such as: 'I slept well' and so on' (TĀ 10/173-174; Vol. 6, pp. 398–399). Jayaratha explains: '(Deep sleep manifests) 'variously', because it consists of the three qualities (of Nature). Thus it is said to be 'lucid, nonlucid or the like'. There (in that case), lucid (svaccha) (deep sleep) is predominantly based on (the quality of) sattva, and so (gives rise to the memory) 'I slept well'. Nonlucid (asvaccha) (deep sleep) is predominantly based on tamas, and so (gives rise to the memory,) 'I was not conscious of anything'. By including 'or the like' he refers to (the third intermediary category), which is lucid-cum-nonlucid (svacchāsvaccha). This is predominantly rajas, and so then (one recalls that) 'I slept uncomfortably'' (TĀv ad 10/174; Vol. 6, pp. 399–400). In the Kaula perspective, deep sleep is not mere oblivion but a seed-state (bījāvasthā) from which all waking and dream experiences arise, accessible through yogic practice by withdrawing awareness from the senses and the mind.",
+      "source_ids": ["ta_ahnika_10_consciousness", "ta_ahnika_10_perceivers"],
+      "topics": ["suṣupti", "deep_sleep_types", "lucid_sleep", "nonlucid_sleep", "sāttvic_sleep", "tāmasic_sleep", "rājasic_sleep", "guṇas", "kaula_perspective"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_009",
+      "section": "consciousness",
+      "subsection": "turiya_and_turiyatita",
+      "kind": "source",
+      "text": "The Fourth (turīya) and Beyond the Fourth (turīyātīta) are presented in Āhnika 10 as the two highest states of consciousness that transcend the three ordinary states of waking, dream, and deep sleep. The Fourth is the witness consciousness (sākṣin) that perceives the three changing states without being affected by them — 'the first glimmer of non-dual awareness within the field of ordinary experience' (TĀ 10/264cd-277; Vol. 6, pp. 447–455). It is the constant background of awareness against which all changing states are perceived. Beyond the Fourth (turīyātīta) is the supreme state that transcends even the witness: 'In this state, the distinction between witness and witnessed is utterly obliterated — there is no longer any 'one' who is conscious, only consciousness itself as the single, self-luminous reality (prakāśa-vimarśa). This is the state of Bhairava, the 'terrible' one who is beyond all categories, the pulsation (spanda) of consciousness that is both utterly empty and fully manifest' (TĀ 10/278-287; Vol. 6, pp. 455–461). The five states are then correlated with the seven perceivers: 'Each of the seven perceivers experiences the five states of consciousness differently. What is deep sleep for a lower perceiver is waking for a higher one; what is the Fourth for the sakala is the ordinary state for the mantreśa' (TĀ 10/288-309; Vol. 6, pp. 461–478). The very classification of states is relative to the perceiver's level of self-awareness.",
+      "source_ids": ["ta_ahnika_10_consciousness", "ta_ahnika_10_perceivers"],
+      "topics": ["turīya", "turīyātīta", "fourth", "beyond_fourth", "witness_consciousness", "bhairava_consciousness", "spanda", "state_relativity", "seven_perceivers"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_010",
+      "section": "practice",
+      "subsection": "breath_projection",
+      "kind": "source",
+      "text": "The fifteen divisions of the perceivers are projected into the cycle of the vital breath in Āhnika 10, linking the entire phenomenology of consciousness to yogic breath-awareness. Abhinavagupta writes: 'We will now discuss how this division into fifteen etc. is found in the group of principles present within the energy of the vital breath, as taught by the venerable Śambhunātha. Sixteen time-units of the breath (tuṭi) (are as many) moments (kṣaṇa) (of perception, discernible) here in all that is perceivable. Each (one) is conceived to occupy two and a quarter finger space within the movement (of the breath), which is thirty-six fingers (long)' (TĀ 10/186cd-188ab; Vol. 6, pp. 407–408). The breath traverses a distance of thirty-six finger spans during each cycle of inhalation and exhalation (taking about two seconds), comprising sixteen tuṭis. Each tuṭi corresponds to a moment of perception, and the fifteen perceiver-divisions are distributed across these moments. By attending to these subtle moments of the breath, the practitioner 'closes the gap between subject and object' (TĀ 10/212-218ab; Vol. 6, pp. 410–413) and attains the Goddess of Intuition (Pratibhā) in the first two of the sixteen phases. The penetration into Śiva is achieved by recognizing the 'interiority and externality as the expansion and contraction of consciousness' (TĀ 10/218cd-219ab; Vol. 6, pp. 413–414) within the natural rhythm of the breath.",
+      "source_ids": ["ta_ahnika_10_breath"],
+      "topics": ["prāṇa", "vital_breath", "fifteen_divisions", "sixteen_moments", "tuṭi", "kṣaṇa", "perception_phases", "goddess_of_intuition", "pratibhā", "śambhunātha", "breath_yoga"],
+      "status": "active"
+    }
+  ],
+  "coverage": {
+    "consciousness": {
+      "status": "comprehensive",
+      "sources": ["ta_ahnika_10_consciousness"],
+      "passage_count": 7,
+      "estimated_completeness": 0.9,
+      "gaps": ["The detailed Kaula praxis for accessing each state (the specific yogic techniques taught by Abhinavagupta) needs separate treatment"]
+    },
+    "perceivers": {
+      "status": "good",
+      "sources": ["ta_ahnika_10_perceivers"],
+      "passage_count": 2,
+      "estimated_completeness": 0.7,
+      "gaps": ["The full mapping of each perceiver's powers (śakti) and their relationship to the tattvas not yet extracted"]
+    },
+    "practice": {
+      "status": "minimal",
+      "sources": ["ta_ahnika_10_breath"],
+      "passage_count": 1,
+      "estimated_completeness": 0.6,
+      "gaps": ["The projection of the fifteen divisions into the vital breath and the sixteen phases of perception (10/186cd-227ab) now has one dedicated passage but needs further detail on individual tuṭi-to-perceiver mappings"]
+    }
+  },
+  "issues": [
+    {
+      "id": "issue-001",
+      "type": "coverage_gap",
+      "title": "The sixteen phases of perception and breath projection now extracted",
+      "description": "TĀ 10/186cd-227ab has been added as a passage covering the projection of the fifteen perceiver-divisions into the phases of the breath cycle. Further detail on individual tuṭi-to-perceiver mappings still needed.",
+      "status": "resolved_in_0.2.0",
+      "created": "2026-07-14",
+      "auto_generated": true
+    },
+    {
+      "id": "issue-002",
+      "type": "coverage_gap",
+      "title": "Relation of the five states to the 36 tattvas not yet mapped",
+      "description": "Each state of consciousness corresponds to a range of tattvas. The waking state encompasses the gross elements, dream the subtle elements and mind, deep sleep the ego and intellect, turīya the pure principles, and turīyātīta Supreme Śiva. This correspondence needs systematic treatment.",
+      "status": "open",
+      "created": "2026-07-14",
+      "auto_generated": true
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.1.0",
+      "date": "2026-07-14",
+      "type": "initial",
+      "summary": "Initial RO created covering Āhnika 10 consciousness states from verses 227cd-309. 3 sources documented. 6 passages covering the five states, interpenetration, deep sleep types, turīya, turīyātīta, and the seven perceiver states.",
+      "sources_added": [
+        "ta_ahnika_10_consciousness",
+        "ta_ahnika_10_perceivers",
+        "ta_ahnika_10_breath"
+      ],
+      "passage_count": 6,
+      "status": "draft"
+    },
+    {
+      "version": "0.2.0",
+      "date": "2026-07-14",
+      "type": "update",
+      "summary": "Added 4 passages with direct source extracts: the seven perceivers with their fifteen-to-one division scheme (TĀ 10/3-5), the typology of deep sleep into lucid/nonlucid/mixed according to the three guṇas (TĀ 10/173-175), the Fourth and Beyond the Fourth with state-relativity across perceivers (TĀ 10/264cd-309), and the projection of the fifteen divisions into the sixteen moments (tuṭi) of the vital breath (TĀ 10/186cd-188ab).",
+      "sources_added": [],
+      "passage_count": 10,
+      "status": "draft"
+    }
+  ],
+  "appendices": [
+    {"file": "state-perceiver-tattva-map.md", "description": "Full correlation of the five states, seven perceivers, 36 tattvas, and fifteen breath divisions"}
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "event": "RO created in draft state covering Tantrāloka Āhnika 10 consciousness states",
+      "sources_total": 3,
+      "passages_total": 10
+    }
+  ]
+}

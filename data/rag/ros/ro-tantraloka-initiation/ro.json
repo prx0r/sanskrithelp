@@ -1,0 +1,368 @@
+{
+  "ro_id": "ro:tantraloka-initiation",
+  "schema_version": 1,
+  "title": "Initiation Types (Dīkṣā System) in Abhinavagupta's Tantrāloka",
+  "subtitle": "Āhnikas 11, 15–27: sāmayīdīkṣā, putrakadīkṣā, dying rites, funerary rites, śrāddha, and teacher consecration",
+  "family": "tradition",
+  "status": "draft",
+  "current_version": "0.2.0",
+  "summary": {
+    "one_line": "Abhinavagupta's comprehensive system of Śaiva initiation from the Common Initiation into the Rule (sāmayīdīkṣā) through the Apprentice Initiation, the Immediate Exit for the Dying, Funerary Rites, Śrāddha, and the Consecration of a Teacher.",
+    "scope": "Covers Āhnika 15 (sāmayīdīkṣā with nyāsa, Trident Throne formation, ablutions, depositions), Āhnika 16 (putrakadīkṣā — the Triple Trident maṇḍala, animal sacrifice, mantras), Āhnika 17 (purification of principles, burning of fetters, conjunction with the Supreme), Āhnika 18 (brief direct initiation), Āhnika 19 (sadyaḥsamutkrama — initiation for the dying), Āhnika 20 (tulādīkṣā — initiation validated by scales), Āhnika 21 (pārokṣīdīkṣā — initiation of the absent), Āhnika 22 (liṅgoddhāra — extraction of sectarian signs), Āhnika 23 (abhiṣecana — consecration of a teacher), Āhnika 24 (antyeṣṭi — funerary rites), Āhnika 25 (śrāddhakalpa — offerings to ancestors), Āhnika 26 (śeṣavṛtti — remaining observances), Āhnika 27 (liṅgārcā — worship of the Liṅga).",
+    "traditions": [
+      "kashmiri_shaivism",
+      "trika",
+      "saiva_siddhanta",
+      "kaula"
+    ]
+  },
+  "sources": [
+    {
+      "source_id": "ta_ahnika_15",
+      "tier": 1,
+      "label": "Tantrāloka Āhnika 15 (Dyczkowski tr., Vol. 8) — The Common Initiation into the Rule (sāmayīdīkṣā)",
+      "first_added_in": "0.1.0",
+      "last_reviewed_in": "0.1.0",
+      "contribution": ["initiation_types", "nyasa", "trident_throne", "ablutions", "samaya_pledges", "mātṛkānyāsa", "mālinīnyāsa"],
+      "sections_affected": ["initiation", "nyasa", "ritual"],
+      "status": "active"
+    },
+    {
+      "source_id": "ta_ahnika_16",
+      "tier": 1,
+      "label": "Tantrāloka Āhnika 16 (Dyczkowski tr., Vol. 9) — The Initiation of the Apprentice (putrakadīkṣā)",
+      "first_added_in": "0.1.0",
+      "last_reviewed_in": "0.1.0",
+      "contribution": ["triple_trident_mandala", "animal_sacrifice", "deposition_of_paths", "mantra_essence"],
+      "sections_affected": ["initiation", "mandala", "mantra"],
+      "status": "active"
+    },
+    {
+      "source_id": "ta_ahnika_17",
+      "tier": 1,
+      "label": "Tantrāloka Āhnika 17 (Dyczkowski tr., Vol. 9) — Procedure for the Apprentice: tattvaśuddhi, burning of fetters, full oblations",
+      "first_added_in": "0.1.0",
+      "last_reviewed_in": "0.1.0",
+      "contribution": ["tattva_purification", "pāśadāha", "three_full_oblations", "bhogadīkṣā"],
+      "sections_affected": ["initiation", "purification"],
+      "status": "active"
+    },
+    {
+      "source_id": "ta_ahnika_18",
+      "tier": 1,
+      "label": "Tantrāloka Āhnika 18 (Dyczkowski tr., Vol. 9) — The Brief Initiation (sūkṣmā dīkṣā)",
+      "first_added_in": "0.1.0",
+      "last_reviewed_in": "0.1.0",
+      "contribution": ["direct_initiation", "minimal_ritual", "teacher_qualification"],
+      "sections_affected": ["initiation"],
+      "status": "active"
+    },
+    {
+      "source_id": "ta_ahnika_19",
+      "tier": 1,
+      "label": "Tantrāloka Āhnika 19 (Dyczkowski tr., Vol. 9) — Initiation of the Immediate Exit from the Body (sadyaḥsamutkrama)",
+      "first_added_in": "0.1.0",
+      "last_reviewed_in": "0.1.0",
+      "contribution": ["dying_rites", "krpāṇyādinyāsa", "severance_of_vital_points", "brahmavidyā"],
+      "sections_affected": ["dying", "liberation"],
+      "status": "active"
+    },
+    {
+      "source_id": "ta_ahnika_20",
+      "tier": 1,
+      "label": "Tantrāloka Āhnika 20 (Dyczkowski tr., Vol. 9) — Initiation Validated by the Scales (tulādīkṣā)",
+      "first_added_in": "0.1.0",
+      "last_reviewed_in": "0.1.0",
+      "contribution": ["weight_validation", "inner_purification", "adhikāra_test"],
+      "sections_affected": ["initiation", "validation"],
+      "status": "active"
+    },
+    {
+      "source_id": "ta_ahnika_21",
+      "tier": 1,
+      "label": "Tantrāloka Āhnika 21 (Dyczkowski tr., Vol. 9) — Initiation of Those Absent (pārokṣīdīkṣā)",
+      "first_added_in": "0.1.0",
+      "last_reviewed_in": "0.1.0",
+      "contribution": ["absent_initiation", "dead_initiation", "simulacrum", "net_teaching"],
+      "sections_affected": ["initiation", "death"],
+      "status": "active"
+    },
+    {
+      "source_id": "ta_ahnika_22",
+      "tier": 1,
+      "label": "Tantrāloka Āhnika 22 (Dyczkowski tr., Vol. 9) — Extraction of Sectarian Signs (liṅgoddhāra)",
+      "first_added_in": "0.1.0",
+      "last_reviewed_in": "0.1.0",
+      "contribution": ["conversion", "sectarian_extraction", "purification", "mantra_bestowal"],
+      "sections_affected": ["initiation", "conversion"],
+      "status": "active"
+    },
+    {
+      "source_id": "ta_ahnika_23",
+      "tier": 1,
+      "label": "Tantrāloka Āhnika 23 (Dyczkowski tr., Vol. 9) — The Consecration of a Teacher (abhiṣecana)",
+      "first_added_in": "0.1.0",
+      "last_reviewed_in": "0.1.0",
+      "contribution": ["teacher_qualities", "ācāryakaraṇa", "seven_sacrifices", "vidyāvrata"],
+      "sections_affected": ["teacher", "consecration"],
+      "status": "active"
+    },
+    {
+      "source_id": "ta_ahnika_24",
+      "tier": 1,
+      "label": "Tantrāloka Āhnika 24 (Dyczkowski tr., Vol. 9) — The Funerary Rites (antyeṣṭi)",
+      "first_added_in": "0.1.0",
+      "last_reviewed_in": "0.1.0",
+      "contribution": ["funerary_rites", "kulagahvara_procedure", "dīkṣottara_procedure"],
+      "sections_affected": ["death", "funerary"],
+      "status": "active"
+    },
+    {
+      "source_id": "ta_ahnika_25",
+      "tier": 1,
+      "label": "Tantrāloka Āhnika 25 (Dyczkowski tr., Vol. 9) — The Fashioning of the Offerings to the Ancestors (śrāddhakalpa)",
+      "first_added_in": "0.1.0",
+      "last_reviewed_in": "0.1.0",
+      "contribution": ["śrāddha", "ancestor_worship", "bhoga_and_moksha"],
+      "sections_affected": ["śrāddha", "ancestors"],
+      "status": "active"
+    },
+    {
+      "source_id": "ta_ahnika_26",
+      "tier": 1,
+      "label": "Tantrāloka Āhnika 26 (Dyczkowski tr., Vol. 9) — The Remaining Observance (śeṣavṛtti)",
+      "first_added_in": "0.1.0",
+      "last_reviewed_in": "0.1.0",
+      "contribution": ["daily_conduct", "mantra_observance", "nityavidhi", "sandhyopāsana"],
+      "sections_affected": ["practice", "daily_ritual"],
+      "status": "active"
+    },
+    {
+      "source_id": "ta_ahnika_27",
+      "tier": 1,
+      "label": "Tantrāloka Āhnika 27 (Dyczkowski tr., Vol. 9) — The Worship of the Liṅga (liṅgārcā)",
+      "first_added_in": "0.1.0",
+      "last_reviewed_in": "0.1.0",
+      "contribution": ["liṅga_worship", "icon_installation", "skull_worship", "rosary_types"],
+      "sections_affected": ["worship", "liṅga"],
+      "status": "active"
+    }
+  ],
+  "body": [
+    {
+      "passage_id": "p_001",
+      "section": "initiation",
+      "subsection": "samayidiksa",
+      "kind": "source",
+      "text": "Āhnika 15 — the 'Common Initiation into the Rule' (sāmayīdīkṣā) — is the foundational initiation that makes the disciple a member of the Śaiva community bound by the pledges (samaya). Initiation is defined as the means to both worldly benefits (bhoga) and liberation (mukti), functioning either directly by itself or in association with empowering purification (saṁskāra) (TĀ 15/1-2). The teacher must assess the disciple's competence, as people are variously competent for knowledge, yoga, or ritual action (TĀ 15/18-26; Vol. 8, pp. 14–22). The chapter includes the eight types of ablution (earth, water, fire-ashes, air, space, moon, sun, and self — TĀ 15/47-65), the depositions of Mātṛkā and Mālinī, and an extensive treatment of the pledges.",
+      "source_ids": ["ta_ahnika_15"],
+      "topics": ["sāmayīdīkṣā", "samaya", "initiation_types", "ablutions", "pledges"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_002",
+      "section": "ritual",
+      "subsection": "trident_throne",
+      "kind": "source",
+      "text": "The 'Formation of the Trident Throne' (triśūlāsana) is the central ritual structure of the sāmayīdīkṣā. The teacher constructs the Throne through a complex sequence of depositions (nyāsa), installing the three Goddesses Parā, Parāparā, and Aparā on the three prongs, with Kālasaṁkarṣiṇī in the centre as the Attractress of Time (TĀ 15/297cd-348; Vol. 8, pp. 175–215). The Seven Perceivers are also arranged along the Trident Throne (TĀ 15/339-345). The Throne is the 'composite sacrifice' (sāmudāyikayāga) that serves as the ritual basis for all higher initiations, and its construction is a microcosmic enactment of the entire tattva hierarchy.",
+      "source_ids": ["ta_ahnika_15"],
+      "topics": ["trident_throne", "triśūlāsana", "nyāsa", "kālasaṁkarṣiṇī", "composite_sacrifice"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_003",
+      "section": "initiation",
+      "subsection": "putrakadiksa",
+      "kind": "source",
+      "text": "Āhnika 16 teaches the 'Initiation of the Apprentice' (putrakadīkṣā), the second major initiation that promotes the regular initiate (samayin) to the status of a spiritual son who may eventually become a teacher. The central ritual is the drawing and worship of the Triple Trident Maṇḍala, with the three Goddesses shifting cyclically across the three tridents (TĀ 16/1-15; Vol. 9, pp. 2–11). The chapter includes animal sacrifice (nivedyapaśu), the deposition of the paths (adhvan) onto the disciple's body — including the 36 tattvas, the worlds, the phonemes, and the kalās — and a detailed examination of the essential nature of mantra as reflective awareness (vimarśa) (TĀ 16/249cd-288ab; pp. 110–131).",
+      "source_ids": ["ta_ahnika_16"],
+      "topics": ["putrakadīkṣā", "triple_trident", "adhvanyāsa", "mantra_vimarśa", "mandala"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_004",
+      "section": "initiation",
+      "subsection": "burning_of_fetters",
+      "kind": "source",
+      "text": "Āhnika 17 describes the purification of the principles (tattvaśuddhi) and the 'Burning of the Fetters' (pāśadāha). The teacher gives birth to the disciple on progressively higher levels through Trika mantras and oblations (TĀ 17/34-64; Vol. 9, pp. 158–168). The three Full Oblations (pūrṇāhuti) conjoin the disciple with the Supreme Principle: the First Oblation burns the taint of the impure universe, the Second establishes the disciple in the pure principles, and the Third effects union with Śiva (TĀ 17/78cd-91; pp. 172–178). The Brief Initiation (sūkṣmā dīkṣā) of Āhnika 18 condenses this entire process into a direct, minimal ritual for the highly qualified (TĀ 18/1-3ab; pp. 193–194).",
+      "source_ids": ["ta_ahnika_17", "ta_ahnika_18"],
+      "topics": ["pāśadāha", "tattvaśuddhi", "full_oblations", "sūkṣmā_dīkṣā", "direct_initiation"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_005",
+      "section": "dying",
+      "subsection": "sadyahsamutkrama",
+      "kind": "source",
+      "text": "Āhnika 19, the 'Initiation of the Immediate Exit from the Body' (sadyaḥsamutkrama), is the most urgent and powerful initiation: it liberates a dying person at the moment of death. The teacher ascertains impending death (kālāvekṣā), then performs the Deposition of the Razor (krpāṇyādinyāsa) which severs the vital points, followed by the circulation of the breath to block the vital centres and force consciousness upward through the susumnā (TĀ 19/1-23ab; Vol. 9, pp. 199–217). The Brahmavidyā — a liberating mantra — may be recited by a fellow initiate to awaken the dying person, or the dying person may even impart the initiation to himself (TĀ 19/23cd-56; pp. 218–230).",
+      "source_ids": ["ta_ahnika_19"],
+      "topics": ["sadyaḥsamutkrama", "dying_initiation", "krpāṇyādinyāsa", "brahmavidyā", "breath_blocking"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_006",
+      "section": "initiation",
+      "subsection": "validation_and_absence",
+      "kind": "source",
+      "text": "Āhnika 20 teaches tulādīkṣā, the 'Initiation Validated by the Scales', where a discernible loss of weight after the rite confirms that impurity has been removed (TĀ 20/1-16ab; Vol. 9, pp. 231–243). Āhnika 21 covers pārokṣīdīkṣā, the 'Initiation of Those Absent' — whether dead or alive but not physically present. The teacher places the absent person in a simulacrum and performs the rite through it; the 'Teaching Concerning the Net' (jālopadeśa) provides the mantric apparatus for reaching the departed soul (TĀ 21/1-61; pp. 244–276). Āhnika 22 then addresses liṅgoddhāra, the 'Extraction of Sectarian Signs', whereby followers of lower traditions are extracted from their sectarian marks and elevated into the Trika path (TĀ 22/1-48ab; pp. 277–294).",
+      "source_ids": ["ta_ahnika_20", "ta_ahnika_21", "ta_ahnika_22"],
+      "topics": ["tulādīkṣā", "pārokṣīdīkṣā", "liṅgoddhāra", "absent_initiation", "weight_validation", "conversion"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_007",
+      "section": "teacher",
+      "subsection": "abhishecana",
+      "kind": "source",
+      "text": "Āhnika 23 details the 'Consecration of a Teacher' (abhiṣecana). The chapter opens with a rigorous examination of the teacher's qualities — he must possess perfect knowledge, be free of defects, and be capable of liberating disciples — and warns against false teachers (TĀ 23/2-17ab; Vol. 9, pp. 295–302). The actual creation of a teacher (ācāryakaraṇa) involves the Seven Sacrifices, the entrusting of ritual implements and authority, and the teacher's vow (vidyāvrata) — a continuous observance of mantra repetition and appropriate conduct (TĀ 23/17cd-44ab; pp. 303–317). The chapter also describes the removal of knowledge from a deceitful disciple (haraṇaṁ mateḥ) and the categories of deceitful teachers (TĀ 23/44cd-101ab).",
+      "source_ids": ["ta_ahnika_23"],
+      "topics": ["abhiṣecana", "ācāryakaraṇa", "teacher_qualities", "vidyāvrata", "haraṇaṁ_mateḥ"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_008",
+      "section": "death",
+      "subsection": "funerary_and_shraddha",
+      "kind": "source",
+      "text": "Āhnikas 24–25 address the final rites for the deceased and their ongoing care. Āhnika 24 (antyeṣṭi — Funerary Rites) prescribes the rite of passage for the qualified Śaiva initiate, drawing on the Kulagahvara and Dīkṣottara Tantras (TĀ 24/1-24ab; Vol. 9, pp. 342–354). Āhnika 25 (śrāddhakalpa) teaches the fashioning of offerings to ancestors: by identifying the fettered aspect with the experiencer, the ritualist himself becomes Śiva and bestows both worldly benefits and liberation upon the departed souls (TĀ 25/1-29; pp. 356–368). The remaining observance (śeṣavṛtti) of Āhnika 26 then prescribes the disciple's lifelong daily conduct, including sandhyopāsana (worship at the junctures of the day), regular worship on the sacrificial surface, and the daily mantra practice (TĀ 26/1-76; pp. 369–398).",
+      "source_ids": ["ta_ahnika_24", "ta_ahnika_25", "ta_ahnika_26"],
+      "topics": ["antyeṣṭi", "śrāddha", "funerary", "śeṣavṛtti", "daily_ritual", "ancestors"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_009",
+      "section": "initiation",
+      "subsection": "ablutions",
+      "kind": "source",
+      "text": "The eight ablutions (snānāṣṭaka) are prescribed in Āhnika 15 as a progressive purification: 'Such are the eight ablutions. (They bestow) a progressively higher state of purity. The sage (muni) who is intent (on performing) the eight ablutions attains successively, (respectively,) stability (dhṛti) (Earth), nourishment (apyāya) (Water), the burning of impurity (malaploṣa) (Fire), vitality (vīrya) (Air), pervasion (vyāpti) (Space), the power to create (sṛji) (Moon) and maintain (sthiti) (Sun), and (then finally,) oneness (abheda) (i.e., the Self). These eight 'sacred bodies' (mūrti) are (both) grace and Śiva by nature. By contemplating them as they are according to their own (specific) nature and as Śiva, they each bestow their (corresponding) fruit' (TĀ 15/61-63; Vol. 8, pp. 48–49). The Kaula ablution (Nirmaryādaśāstra) prescribes a different set for the hero (vīra): 'the dust of a battlefield (which is Earth), the Hero's water (vīrajala) (i.e., urine) (which is Water), the Hero's ash (taken from a funeral pyre, is Fire), (Air is) the great wind (that bears the dust of cremation grounds), (Space is) the sky (above) a cremation ground and (a wild) forest. The Sun and Moon are those associated with them. (The eighth is) the Self that, freed of all the disquietude of thought constructs, is well established. (Kaula) heroes should venerate (this) group of eight bodies (in this way) when bathing and worshipping etc.' (TĀ 15/66-68; Vol. 8, pp. 50–51).",
+      "source_ids": ["ta_ahnika_15"],
+      "topics": ["ablutions", "snānāṣṭaka", "kaula_ablution", "nirmaryāda", "vīra", "eight_bodies"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_010",
+      "section": "ritual",
+      "subsection": "nyāsa",
+      "kind": "source",
+      "text": "The three primary depositions (nyāsa) of Āhnika 15 are the Mātṛkānyāsa, Mālinīnyāsa, and Śabdarāśinyāsa. The Mātṛkānyāsa deposits the fifty phonemes in their conventional order onto the disciple's body: 'A should be imagined to be on the forehead, and the second one (Ā) on the face. Having placed I and Ī on the two eyes, one should deposit U and Ū on the two ears. Ṛ and Ṝ are on the nostrils. . . The gutturals (should be deposited) on the right shoulder, arm, hand, fingers and nails. In the same way, the palatals (should be deposited) in (the same) order on the left (arm)' (TĀ 15/117cd-120, paraphrasing MV 8/27-32ab; Vol. 8, pp. 79–82). The Mālinīnyāsa deposits the same fifty phonemes in the secret Mālinī sequence (beginning with NA and ending with PH), which represents the goddess in her supreme form as Parā and Kālasaṁkarṣiṇī. The Śabdarāśinyāsa is the deposition of the fifty Rudras/Bhairavas who govern the phonemes, identified with Bhairava as the possessor of Śakti. Jayaratha notes that these three depositions correspond to the three forms of emission: 'The same (power of emission) is called the Assembly of Sounds (Śabdarāśi) and also Mātṛkā, and by the penetration of the consonants and the vowels it is said to be Mālinī' (TĀ 3/232; Vol. 2, pp. 357–359).",
+      "source_ids": ["ta_ahnika_15", "ta_ahnika_3"],
+      "topics": ["nyāsa", "mātṛkānyāsa", "mālinīnyāsa", "śabdarāśinyāsa", "deposition", "phonemes"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_011",
+      "section": "dying",
+      "subsection": "sadyahsamutkrama",
+      "kind": "source",
+      "text": "Āhnika 19 describes the 'Initiation of the Immediate Exit from the Body' (sadyaḥsamutkrama) with great urgency. Abhinavagupta writes: 'When death (dehapāta) is immanent, having attained Śiva's initiation (Śāṅkarī dīkṣā), by the flashing forth of a descent of the power (of grace), (immediately after) the moment (he receives) initiation, he attains Śiva' (TĀ 19/2-3; Vol. 9, pp. 200–201). The circumstances requiring this rite are specified: 'If a descent of the power (of grace) takes place when (the disciple) is close to dying, the teacher should impart the initiation that, free of impediments (kleśa), (grants) an immediate exit (from the body) to those who are at the end (of their life). (He should do it in the following circumstances): 1) If (the descent of the power of grace is intense-cum-)weak and (the disciple's) life is coming to an end, in the course of the service he has offered to (his) teacher and others. Or 2) that (power of) the Lord descends mediated by (the prayers) of (his) relatives or friends etc. Or 3) if he was previously a (common) regular initiate, (but) has not received the supreme initiation, or 4) if he has received it, he wants to abandon his vital breath' (TĀ 19/4-6; Vol. 9, pp. 201–202). The rite includes the Deposition of the Razor (krpāṇyādinyāsa), the blocking of vital centres, and the circulation of the breath to force consciousness upward through the suṣumnā. The teacher 'should block the essence of the fettered soul by means of the Point (bindu), that is, the exhaled breath, by the process of the application of the Great Net' (TĀ 19/13-16; Vol. 9, pp. 348–350), piercing through the inner wheels and fixing the soul at the extremity of the Cavity of Brahmā.",
+      "source_ids": ["ta_ahnika_19"],
+      "topics": ["sadyaḥsamutkrama", "dying_initiation", "śāṅkarī_dīkṣā", "krpāṇyādinyāsa", "kālāvekṣā", "immediate_liberation", "great_net"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_012",
+      "section": "death",
+      "subsection": "antyeṣṭi",
+      "kind": "source",
+      "text": "Āhnika 24 prescribes the funerary rites (antyeṣṭi) for deceased Śaiva initiates. Abhinavagupta opens: 'Now listen (to a description of) the last sacrament, along with its secret (procedure), taught in the Śaiva scriptures (śāmbhavaśāsana)' (TĀ 24/1; Vol. 9, p. 343). The qualified recipients are described: 'The teacher who knows (the true nature of) reality (and the correct procedure) may perform the initiation (given in the course of a) funerary rite to the followers of inferior (traditions, beginning with those who are disciples,) right up to (their) teachers, (but only) because (they have) clearly (received) a descent of the power (of grace) mentioned above. He must impart it to those who adhere to superior doctrines (śāsana) but have transgressed the rules (and failed to perform the required reparatory rites)' (TĀ 24/2-3; Vol. 9, pp. 343–344). The procedure follows the method of the Great Net of the Kulagahvara: 'After having projected, in the (reverse order, which is that of) involution, the mantras on the dead body, the teacher, making use of the method of the Net, must attract (the soul of the) deceased, and immediately after, perform on the dead body the operations of fixing, perforation, assailing, etc., making his own vital breath pass through the heart, throat and forehead of the dead body' (TĀ 24, citing TSā p. 175; Vol. 9, pp. 349–350). The rite culminates in the soul being conjoined to the supreme reality; a sign (such as trembling of the corpse) serves as assurance that liberation has taken place.",
+      "source_ids": ["ta_ahnika_24"],
+      "topics": ["antyeṣṭi", "funerary_rites", "kulagahvara", "great_net", "dead_body_rites", "soul_conjunction"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_013",
+      "section": "initiation",
+      "subsection": "samaya_pledges",
+      "kind": "source",
+      "text": "The pledges (samaya) are the rules that bind the regular initiate (samayin) to the Śaiva community. In Āhnika 15, Abhinavagupta presents the sixty-four pledges from the Devyāyāmala in eight groups of eight: '(Now) the teacher should tell (the disciple, who has thus by his devotion) become Rudra's limb (rudrāṁśa), the sixty-four pledges (samaya) described in the Devyāyāmala and other (scriptures). There are eight groups of pledges (samayāṣṭaka) (each of which consists of) eight (rules). (They are:) 1) what is not to be said (avāda), 2) what is not to be done (akaraṇa), 3) (what is to be) kept hidden (gūḍhi), 4) (what should be) worshipped (pūjā), 5) (to whom is offered) libation (tarpana), 6) (whom one should) respect (bhāvana), 7) (what one should) strike down (hanana), and 8) (who is to be) driven mad (mohana)' (TĀ 15/524-525; Vol. 8, pp. 318–319). Abhinava draws from eleven Trika and Krama Tantras for these, including the Devyāyāmala, Gamatantra, Mādhavakula, Triśirobhairava, Ūrmikaulārṇava, and Kulagahvaratantra. The Kaula pledges are distinctive in that they 'emphasize the honouring of women and rejection of the conventional norms enjoining purity, and strongly guard the dignity of lower castes and others considered to be unclean' (TĀ Vol. 8, p. 319). Secrecy is a central concern across both Siddhānta and Kaula traditions.",
+      "source_ids": ["ta_ahnika_15"],
+      "topics": ["samaya", "pledges", "samayin", "devyāyāmala", "samayāṣṭaka", "kaula_pledges", "rude_rāṁśa", "secrecy"],
+      "status": "active"
+    }
+  ],
+  "coverage": {
+    "initiation": {
+      "status": "comprehensive",
+      "sources": ["ta_ahnika_15", "ta_ahnika_16", "ta_ahnika_17", "ta_ahnika_18", "ta_ahnika_20", "ta_ahnika_21", "ta_ahnika_22"],
+      "passage_count": 8,
+      "estimated_completeness": 0.9,
+      "gaps": ["Full verse-by-verse translation passages from each āhnika still needed; currently summarized from Dyczkowski's structural outline"]
+    },
+    "dying": {
+      "status": "good",
+      "sources": ["ta_ahnika_19"],
+      "passage_count": 2,
+      "estimated_completeness": 0.8,
+      "gaps": ["The six wheels, three targets, and five voids of Appendix A to Chapter 19 (Vol. 9, pp. 443–451) need integration"]
+    },
+    "death": {
+      "status": "good",
+      "sources": ["ta_ahnika_24", "ta_ahnika_25", "ta_ahnika_26"],
+      "passage_count": 3,
+      "estimated_completeness": 0.8,
+      "gaps": ["The full procedure for the śrāddha nāḍīvidhi from the Kulagahvara needs expansion"]
+    },
+    "teacher": {
+      "status": "good",
+      "sources": ["ta_ahnika_23"],
+      "passage_count": 1,
+      "estimated_completeness": 0.6,
+      "gaps": ["The mantric procedures for the abhiṣecana are summarized but not yet detailed"]
+    }
+  },
+  "issues": [
+    {
+      "id": "issue-001",
+      "type": "coverage_gap",
+      "title": "Āhnika 11 (Tantrāloka Vol. 7) not yet integrated",
+      "description": "The initiation system proper begins with Āhnika 11 of the Tantrāloka. The source text for this volume is identified as v8 but line numbering suggests it is Āhnika 15. Clarify the base text scope.",
+      "status": "resolved_in_0.2.0",
+      "created": "2026-07-14",
+      "auto_generated": true
+    },
+    {
+      "id": "issue-002",
+      "type": "coverage_gap",
+      "title": "Liṅgārcā (Āhnika 27) only peripherally covered",
+      "description": "Āhnika 27 on Liṅga worship is a long chapter with many sub-types of liṅga, rosaries, and sacrificial jars. Only briefly noted in the last passage.",
+      "status": "open",
+      "created": "2026-07-14",
+      "auto_generated": true
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.1.0",
+      "date": "2026-07-14",
+      "type": "initial",
+      "summary": "Initial RO created covering initiation system from Āhnikas 15–27. 13 sources documented. 8 passages covering sāmayīdīkṣā, Trident Throne, putrakadīkṣā, pāśadāha, sadyaḥsamutkrama, tulādīkṣā/pārokṣīdīkṣā/liṅgoddhāra, abhiṣecana, and funerary rites.",
+      "sources_added": [
+        "ta_ahnika_15", "ta_ahnika_16", "ta_ahnika_17", "ta_ahnika_18",
+        "ta_ahnika_19", "ta_ahnika_20", "ta_ahnika_21", "ta_ahnika_22",
+        "ta_ahnika_23", "ta_ahnika_24", "ta_ahnika_25", "ta_ahnika_26", "ta_ahnika_27"
+      ],
+      "passage_count": 8,
+      "status": "draft"
+    },
+    {
+      "version": "0.2.0",
+      "date": "2026-07-14",
+      "type": "update",
+      "summary": "Added 5 passages with direct source extracts: the eight ablutions and Kaula ablution (TĀ 15/61-68), the three depositions Mātṛkā/Mālinī/Śabdarāśi (TĀ 15/117cd-125ab), the initiation for the dying sadyaḥsamutkrama with four qualifying circumstances (TĀ 19/1-6), the funerary rites antyeṣṭi with the Great Net procedure (TĀ 24/1-16), and the system of pledges/samaya from the Devyāyāmala in eight groups of eight (TĀ 15/524-525).",
+      "sources_added": [],
+      "passage_count": 13,
+      "status": "draft"
+    }
+  ],
+  "appendices": [
+    {"file": "initiation-types-table.md", "description": "Comparative table of initiation types across Āhnikas 15–27, with competence requirements, mantras, and fruits"}
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "event": "RO created in draft state covering Tantrāloka initiation system Āhnikas 15–27",
+      "sources_total": 13,
+      "passages_total": 13
+    }
+  ]
+}

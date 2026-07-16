@@ -1,0 +1,217 @@
+{
+  "ro_id": "ro:layayoga-kundalini",
+  "schema_version": 1,
+  "title": "Kuṇḍalinī as Samādhi-Force from Layayoga (Goswami)",
+  "subtitle": "Goswami's refutation of materialist theories, the threefold light, the uncoiling and recoiling process, and Kuṇḍalinī as yoga-śakti",
+  "family": "topic-across-thinkers",
+  "status": "draft",
+  "current_version": "0.2.0",
+  "summary": {
+    "one_line": "A compilation of Goswami's treatment of Kuṇḍalinī from Layayoga: what it is not (refutation of physical-energy theories), what it is (samādhi-force, yoga-śakti), its threefold light-aspect (sun/moon/fire), and the mechanics of uncoiling and recoiling.",
+    "scope": "Covers the neti-neti delimitation of Kuṇḍalinī (not chemical, muscular, nervous, or vagus-nerve energy), the three aspects of Kuṇḍalinī-light, the uncoiling through the cakras and recoiling process, the relation of prāṇa to Kuṇḍalinī as static-dynamic polarity, and the identification of Kuṇḍalinī as yoga-śakti (Aurobindo).",
+    "traditions": [
+      "tantra",
+      "layayoga",
+      "kundalini_yoga"
+    ]
+  },
+  "sources": [
+    {
+      "source_id": "layayoga-goswami-kundalini",
+      "tier": 1,
+      "label": "Goswami, Shyam Sundar — Layayoga (1980/1999), Introduction: Nature of Kuṇḍalī-Energy, pp. 29–38; Kundalini-rousing, pp. 88ff",
+      "first_added_in": "0.1.0",
+      "last_reviewed_in": "0.1.0",
+      "contribution": ["refutation_materialist", "threefold_light", "uncoiling_recoiling", "yoga_shakti", "prana_kundalini_polarity"],
+      "sections_affected": ["kundalini", "samadhi_force"],
+      "status": "active"
+    }
+  ],
+  "body": [
+    {
+      "passage_id": "p_001",
+      "section": "kundalini",
+      "subsection": "refutation_of_materialist_theories",
+      "kind": "source",
+      "text": "Goswami systematically argues that Kuṇḍalinī cannot be identified with any form of physical energy. Kuṇḍalinī is not chemical energy, because chemical energy is derived from food and tissue — a gross transformation contradictory to Kuṇḍalinī's real nature. It is not muscular energy, which is also chemical in origin, nor nerve energy, which operates on a physicochemical basis. Kuṇḍalinī cannot be the right vagus nerve (as Dr. Rele proposed), because this would make it a material, fragmented, and limited nerve impulse — 'Is it this material Kuṇḍalinī that the yogis strive to realize in deep concentration? Is the yogi's Kuṇḍalinī so fragmented and limited? Is Kuṇḍalinī a chemical phenomenon?' (Layayoga, p. 30). Neither is Kuṇḍalinī the solar plexus, which is a gross nervous plexus outside the vertebral column, whereas Kuṇḍalinī resides in the subtle mūlādhāra within the vertebral column.",
+      "source_ids": ["layayoga-goswami-kundalini"],
+      "topics": ["refutation_materialist", "neti_neti", "kundalini_not_physical", "vagus_nerve_critique"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_002",
+      "section": "kundalini",
+      "subsection": "the_wireless_nadi_system",
+      "kind": "source",
+      "text": "Goswami argues that consciousness is beyond the brain — the whole nervous paths and brain are not utilized in subconscious (extrasensory) perception, which clearly shows that consciousness is beyond the brain. Therefore there must be a form of energy not based on the physicochemical system of the body but operative in its superphysical character. This subtle energy-system is the 'wireless' system operating without being vehicled by the nerves — technically the nāḍī system. The 'wired' or nervous system is an extension of the 'wireless' nāḍī system into the material field. In the nāḍī-field, dynamic prāṇa energy is in constant motion; Kuṇḍalinī is its static counterpart, the 'nucleus' of the prāṇic 'atom' (Layayoga, p. 32).",
+      "source_ids": ["layayoga-goswami-kundalini"],
+      "topics": ["wireless_system", "nadis", "consciousness_beyond_brain", "prana_kundalini"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_003",
+      "section": "kundalini",
+      "subsection": "threefold_light",
+      "kind": "source",
+      "text": "Kuṇḍalinī is splendorous. Kuṇḍalinī-'light' has three aspects: sunlike bright light by which subtle phenomena are illuminated and experienced in concentration; moonlike 'cool' light which deepens concentration; and firelike burning light which exhibits great absorption-power and develops absorptive concentration. Kuṇḍalī-power is in the nature of illumination — it first illuminates appropriate objects and then they are absorbed into it. When everything is absorbed, Kuṇḍalinī as Supreme and splendorous power remains, and this power is all consciousness, mind-transcendent — Kuṇḍalinī-consciousness (Layayoga, p. 36). This threefold light corresponds to the sun, moon and fire placed in the pericarp of the hrit chakra (Skandapurāṇa, cited at Layayoga, p. 199).",
+      "source_ids": ["layayoga-goswami-kundalini"],
+      "topics": ["threefold_light", "sun_moon_fire", "illumination", "absorptive_power"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_004",
+      "section": "kundalini",
+      "subsection": "prana_kundalini_polarity",
+      "kind": "source",
+      "text": "Goswami develops a polarity model: energy polarizes itself as static and dynamic. The dynamic form is prāṇic force; its static support is Kuṇḍalinī. The sum total of activities in which body, life-force, and mind are involved is the dynamic aspect of existence — prāṇic dynamism. But prāṇa cannot function without a static background. Though in normal functioning there is no indication of this static aspect, the polarization of energy demands that the dynamic form must have a static form; this static form is Kuṇḍalinī. Three states of prāṇic operation are distinguished: control influence on prāṇic forces (nāḍīśuddhi), prāṇic concentration (intensification), and prāṇic latency (suspended animation) — the last being the step-by-step absorption of prāṇa into Kuṇḍalinī. This unknown power, ordinarily latent, becomes patent under the special conditions of yoga (Layayoga, pp. 32-33).",
+      "source_ids": ["layayoga-goswami-kundalini"],
+      "topics": ["static_dynamic_polarity", "prana_kundalini", "pranic_latency", "nadishuddhi"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_005",
+      "section": "kundalini",
+      "subsection": "uncoiling_and_recoiling",
+      "kind": "source",
+      "text": "After the union with Supreme Śiva, Kuṇḍalinī goes back to the mūlādhāra, and in its descent the cakras, their powers and divinities — all are restored. This recoiling process is essentially the spiritualization of consciousness which functions in everyday life: a transference of spiritual reality, developed in concentrated consciousness, to sense-consciousness to be able to realize spiritual truth in daily life. In the uncoiling and recoiling of Kuṇḍalinī, the practitioner experiences the Divine in its formless aspect in supreme concentration as well as in form in post-concentration waking consciousness. Aurobinda's characterization of Kuṇḍalinī as yoga-śakti (yoga-power) and as a divine force is cited approvingly: Kuṇḍalinī may be termed samādhi-force, or yoga-power (Layayoga, pp. 37-38).",
+      "source_ids": ["layayoga-goswami-kundalini"],
+      "topics": ["uncoiling", "recoiling", "spiritualization", "yoga_shakti", "aurobinna"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_006",
+      "section": "kundalini",
+      "subsection": "kundalini_as_yama_power",
+      "kind": "source",
+      "text": "The roused Kuṇḍalinī-energy is actually yama (control)-power which develops stage by stage as āsana, prāṇāyāma, and pratyāhāra, and becomes saṃyama (supercontrol) when dhāraṇā, dhyāna and samprajñāta samādhi are attained. Finally saṃyama is transformed into asamprajñāta samādhi, the supreme control power. The Kuṇḍalinī-emanations exercise a control influence on body and mind, resulting in fully regulated and forceful physical and mental activities. The first sign of prāṇic withdrawal is the natural establishment of āsana — the body posture held still, painless and effortless. Second, a gradual decrease of animation with prolonged breath-suspension occurs. Third, complete suspension of sensory functions (pratyāhāra). Thereafter the fully internalized consciousness undergoes dhāraṇā, dhyāna, and samprajñāta samādhi. When Kuṇḍalinī comes to the sahasrāra, samprajñāta samādhi takes place (Layayoga, pp. 36-37).",
+      "source_ids": ["layayoga-goswami-kundalini"],
+      "topics": ["yama_power", "samyama", "ashtanga_yoga", "samadhi_stages", "pranic_withdrawal"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_007",
+      "section": "kundalini",
+      "subsection": "kundalini_subtler_than_mind",
+      "kind": "source",
+      "text": "When roused Kuṇḍalinī passes through the cakras, they are at first fully illuminated, then concentration becomes deeper, and finally they are absorbed into Kuṇḍalinī. All principles located in the different cakras are absorbed step by step until there is nothing but Kuṇḍalinī in its subtlest, splendorous, mind-transcendent form. The meaning of 'subtlest' is that Kuṇḍalinī is subtler than anything else: prāṇa-vāyu is subtler than elementary particles; as prāṇa-vāyu is absorbed into Kuṇḍalinī, the latter is subtler again. The most refined mind is also absorbed into Kuṇḍalinī, so it is subtler than mind. The subtler the power, the more forceful it is. Therefore Kuṇḍalinī cannot function in the material, vital and mental fields — it tends to absorb them, creating a nonmaterial, nonvital, nonmental stratum where it is in full power and illumination (Layayoga, pp. 35-36).",
+      "source_ids": ["layayoga-goswami-kundalini"],
+      "topics": ["subtlest_power", "absorption_of_principles", "mind_transcendent", "illumination"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_008",
+      "section": "kundalini",
+      "subsection": "etymology_and_spiral_nature",
+      "kind": "source",
+      "text": "Goswami notes that the term 'Kuṇḍalinī' has been called Spirit-fire, Serpent-fire, Serpent-power, Serpentine Power, Annular Power, Cosmic Electricity, and so on, but observes that naming does not help very much in understanding the real nature of Kuṇḍalī-power. He prefers the technical sense: Kuṇḍalinī is the spiraliform power or energy, and may be called 'spiraline'. The coiled form in the mūlādhāra is eight coils in relation to eight creative principles (Darshanopaniṣad, 4.1-2, 11). The seat of Kuṇḍalinī is within a very bright triangle at the perineal region, within the mūlādhāra. This is why Kuṇḍalinī is called Ādhāra-Śakti (Power in mūlādhāra). The three nāḍīs unite in this seat; when inspiration and expiration through left and right nostrils are controlled, the suṣumṇā flow starts and Kuṇḍalinī is aroused (Layayoga, pp. 29, 88-89).",
+      "source_ids": ["layayoga-goswami-kundalini"],
+      "topics": ["etymology", "spiraline", "eight_coils", "adhara_shakti", "muladhara"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_009",
+      "section": "kundalini",
+      "subsection": "coiled_power_definition",
+      "kind": "source",
+      "text": "The term 'Kuṇḍalinī' is used in yoga in a technical sense and can be called the spiraliform power, or energy. Goswami notes that Kuṇḍalinī may be called 'spiraline'. The coiled form in the mūlādhāra is eight coils in relation to the eight creative principles (Darshanopaniṣad, 4.1-2, 11). Kuṇḍalinī is also known as Ādhāra-Śakti (Power in mūlādhāra). The seat of Kuṇḍalinī is within a very bright triangle at the perineal region, within the mūlādhāra. Here the three nāḍīs unite; when inspiration and expiration through left and right nostrils are controlled, the suṣumṇā flow starts and Kuṇḍalinī is aroused (Layayoga, pp. 29, 88-89).",
+      "source_ids": ["layayoga-goswami-kundalini"],
+      "topics": ["coiled_power", "spiraline", "eight_coils", "adhara_shakti"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_010",
+      "section": "kundalini",
+      "subsection": "adamantine_control",
+      "kind": "source",
+      "text": "The Master's teaching on Adamantine Control (Vajra-samkalpa) is integral to the path of Kuṇḍalinī-yoga. Goswami records: 'The Master observed brahmacharya (sexual control) up to the age of twenty-eight years... Thereafter, he had children. Then he devoted himself to perfect the process of Adamantine Control.' Sexual efficiency, Goswami explains, is closely related to physical vigour, mental creativity and concentration, and should be developed by appropriate means. Its component parts are: (1) sexual passivity while alone and also together; (2) sexual creativity at will; (3) sexual purity; (4) adamantine control. Premature continence does not help; sexual excesses are enervating; sensible sexual gratification decreases power; sexual efficiency demands control while alone as well as in contact (Layayoga, pp. 11-12).",
+      "source_ids": ["layayoga-goswami-kundalini"],
+      "topics": ["adamantine_control", "vajra_samkalpa", "sexual_control", "brahmacharya"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_011",
+      "section": "kundalini",
+      "subsection": "four_forms_of_breath_control",
+      "kind": "source",
+      "text": "Sahita breath-control — the foundational form of prāṇāyāma leading to Kuṇḍalinī-rousing — includes four varieties: sūryabheda (right-nostril breath-control), ujjāyī (both-nostrils breath-control), śītalī (lingual breath-control) and bhastrī (thoracico-short-quick breath-control) (Yogakuṇḍalyupaniṣad, 1.20-21). During these four forms of breath-suspension, three bandhas are executed: mūlabandha (anal-lock), uḍḍīyāna (abdomino-retraction) and jālandhara (chin-lock) (Yogakuṇḍalyupaniṣad, 1.40-41). By the application of these bandhas in conjunction with sahita kumbhaka, Kuṇḍalinī is roused and enters the suṣumṇā (Layayoga, pp. 51, 27).",
+      "source_ids": ["layayoga-goswami-kundalini"],
+      "topics": ["four_breath_controls", "suryabheda", "ujjayi", "sitali", "bhastri", "bandhas"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_012",
+      "section": "kundalini",
+      "subsection": "three_stages_of_pranayama",
+      "kind": "source",
+      "text": "The three stages of breath-control correspond to increasingly powerful effects on the body and Kuṇḍalinī. As the Śāradātilaka (25.21-22) states: 'The early or first stage is that in which perspiration occurs due to the practice of breath-control. In the middle or second stage the body shakes (due to the arousing of inner power). In the highest or third stage the body levitates. The breath-control should be regularly practised until the third stage is reached.' The Tantrarājatantra (27.64-66) adds: 'At the highest stage, the body becomes light and levitates and the mind becomes calm. At the first stage perspiration is produced in the whole body, and at the second stage the body shakes. These signs appear after long practice. By regular practice the third stage is reached from the first and through the second stage' (Layayoga, pp. 52-53).",
+      "source_ids": ["layayoga-goswami-kundalini"],
+      "topics": ["three_stages", "perspiration", "shaking", "levitation", "pranayama_effects"],
+      "status": "active"
+    },
+    {
+      "passage_id": "p_013",
+      "section": "kundalini",
+      "subsection": "yoga_shakti_and_recoiling",
+      "kind": "source",
+      "text": "The roused Kuṇḍalinī-energy is yama (control)-power, which develops stage by stage as āsana, prāṇāyāma, and pratyāhāra, and becomes saṃyama (supercontrol) when dhāraṇā, dhyāna and samprajñāta samādhi are attained; finally saṃyama is transformed into asamprajñāta samādhi, the supreme control power. 'So kundalini may be termed samadhi force, or yoga power. Arawinda has aptly called kundalini yoga-shakti (-power). Yoga power actually operates in kundalini-yoga' (Layayoga, pp. 36-37). After the union with Supreme Śiva, Kuṇḍalinī goes back to the mūlādhāra, and in its descent the cakras, their powers and divinities — all are restored. 'This recoiling process is essentially the spiritualization of consciousness which functions in everyday life. That is, it is a transference of spiritual reality, developed in concentrated consciousness, to sense-consciousness to be able to realize spiritual truth in our daily life. In the uncoiling and recoiling of kundalini, the practitioner of kundaliniyoga experiences the Divine in its formless aspect in supreme concentration as well as in form in post-concentration waking consciousness' (Layayoga, p. 37).",
+      "source_ids": ["layayoga-goswami-kundalini"],
+      "topics": ["yoga_shakti", "samadhi_force", "recoiling", "spiritualization", "asamprajnata"],
+      "status": "active"
+    }
+  ],
+  "coverage": {
+    "kundalini": {
+      "status": "comprehensive",
+      "sources": ["layayoga-goswami-kundalini"],
+      "passage_count": 13,
+      "estimated_completeness": 0.9,
+      "gaps": ["The relation of Kuṇḍalinī to mantra-śakti not extracted here", "The bhūta-śuddhi process involving Kuṇḍalinī covered in separate RO"]
+    }
+  },
+  "issues": [
+    {
+      "id": "issue-001",
+      "type": "coverage_gap",
+      "title": "Tantrāloka threefold Kuṇḍalinī emission not integrated",
+      "description": "Tantrāloka describes Kuṇḍalinī as threefold emission (Śakti, Prāṇa, Parā Kuṇḍalinī) at Vol. 2 lines 463 and 1287. This should be cross-referenced with Goswami's threefold light.",
+      "status": "open",
+      "created": "2026-07-14",
+      "auto_generated": true
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.1.0",
+      "date": "2026-07-14",
+      "type": "initial",
+      "summary": "Initial RO created from Layayoga kuṇḍalinī sections. Eight passages covering refutation of materialist theories, wireless nāḍī system, threefold light, prāṇa-Kuṇḍalinī polarity, uncoiling/recoiling, yama-power, subtlest force, and etymology.",
+      "sources_added": ["layayoga-goswami-kundalini"],
+      "passage_count": 8,
+      "status": "draft"
+    },
+    {
+      "version": "0.2.0",
+      "date": "2026-07-14",
+      "type": "update",
+      "summary": "Added 5 new passages: definition of Kuṇḍalinī as coiled spiraliform power, Adamantine Control (Vajra-samkalpa), the four forms of breath-control with bandhas, the three stages of prāṇāyāma (perspiration/shaking/levitation), and Kuṇḍalinī as yoga-śakti / samādhi-force with the recoiling process.",
+      "sources_added": [],
+      "passage_count": 13,
+      "status": "draft"
+    }
+  ],
+  "appendices": [],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "event": "RO created in draft state",
+      "sources_total": 1,
+      "passages_total": 8
+    },
+    {
+      "date": "2026-07-14",
+      "event": "Updated to v0.2.0 — added 5 passages on coiled power definition, Adamantine Control, four breath-controls, three prāṇāyāma stages, and yoga-śakti/recoiling",
+      "sources_total": 1,
+      "passages_total": 13
+    }
+  ]
+}

@@ -1,17 +1,19 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, useCallback } from "react";
 import Link from "next/link";
-import { ArrowLeft, Send, Bot, User, Loader2 } from "lucide-react";
+import { ArrowLeft, Send, Bot, User, Loader2, BookOpen } from "lucide-react";
 
-const SYSTEM_PROMPT = `You are a knowledgeable guide to Kashmir Shaivism (Tantraloka, Pratyabhijñā), Layayoga, the Mātṛkā (50 Sanskrit phonemes), the Vijñāna Bhairava (112 techniques), and the 36 tattvas. You also know Sanskrit grammar (Pāṇini), phonetics, and the relationships between these systems.
+const BASE_PROMPT = `You are a knowledgeable guide to Kashmir Shaivism (Tantraloka, Pratyabhijñā), Layayoga, the Mātṛkā (50 Sanskrit phonemes), the Vijñāna Bhairava (112 techniques), and the 36 tattvas. You also know Sanskrit grammar (Pāṇini), phonetics, and the relationships between these systems.
 
 When answering:
 - Cite specific tattvas, upāyas, or verses when relevant
 - Use Devanagari and IAST for Sanskrit terms
 - Be precise about which tradition a concept comes from
 - If asked about practice, be clear about what's traditional vs modern interpretation
-- Keep responses concise unless the user asks for depth`;
+- Keep responses concise unless the user asks for depth
+
+Below is relevant source material from the project's texts to help answer the question. Use it when it adds value, but don't force it:`;
 
 interface Message {
   role: "user" | "assistant";
@@ -27,6 +29,7 @@ export default function TantraChatPage() {
   ]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
+  const [usingRag, setUsingRag] = useState(false);
   const endRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -41,11 +44,26 @@ export default function TantraChatPage() {
     setLoading(true);
 
     try {
+      // Fetch RAG context from the server
+      let ragContext = "";
+      try {
+        const ragRes = await fetch("/api/tantra-rag", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ query: q }),
+        });
+        const ragData = await ragRes.json();
+        if (ragData.context) {
+          ragContext = "\n\n" + ragData.context;
+          setUsingRag(true);
+        }
+      } catch {}
+
       const res = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          systemPrompt: SYSTEM_PROMPT,
+          systemPrompt: BASE_PROMPT + ragContext,
           messages: [...messages, { role: "user", content: q }].map((m) => ({
             role: m.role === "assistant" ? "assistant" : "user",
             content: m.content,
@@ -88,9 +106,17 @@ export default function TantraChatPage() {
           <ArrowLeft className="w-4 h-4" /> Back to Tantra
         </Link>
 
-        <div className="mb-4">
-          <h1 className="font-display text-2xl font-bold">Tantra Chat</h1>
-          <p className="text-sm text-muted-foreground">Ask about the Tantraloka, 36 tattvas, Mātṛkā, or any Kashmir Shaivism topic</p>
+        <div className="mb-4 flex items-start justify-between">
+          <div>
+            <h1 className="font-display text-2xl font-bold">Tantra Chat</h1>
+            <p className="text-sm text-muted-foreground">Ask about the Tantraloka, 36 tattvas, Mātṛkā, or any Kashmir Shaivism topic</p>
+          </div>
+          {usingRag && (
+            <div className="flex items-center gap-1.5 text-[11px] text-emerald-400/70 bg-emerald-950/30 px-2.5 py-1.5 rounded-full shrink-0 mt-1">
+              <BookOpen className="w-3 h-3" />
+              Sources loaded
+            </div>
+          )}
         </div>
 
         <div className="flex-1 overflow-y-auto space-y-4 mb-4 min-h-0">
