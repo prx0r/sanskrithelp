@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowLeft, Layers, CircleDot, Wind, BookMarked } from "lucide-react";
+import { ArrowLeft, Layers, CircleDot, Wind, BookMarked, MessageSquare } from "lucide-react";
 
 const SECTIONS = [
   {
@@ -24,6 +24,14 @@ const SECTIONS = [
     subtitle: "Nāḍī Śodhana, 1:4:2 ratio, and the 5 voids",
     desc: "Breath techniques from the Tantraloka tradition — balance iḍā and piṅgalā, enter suṣumṇā, and dissolve through the tattvas.",
     icon: Wind,
+  },
+  {
+    href: "/tantra/chat",
+    title: "Tantra Chat",
+    subtitle: "Ask anything about Kashmir Shaivism",
+    desc: "Ask about the Tantraloka, 36 tattvas, Mātṛkā phonemes, Layayoga, or Vijñāna Bhairava — answers with Sanskrit terms and textual references.",
+    icon: MessageSquare,
+    external: false,
   },
   {
     href: "https://prx0r.github.io/meditate/layayoga_meditate.html",
