@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowLeft, Layers, CircleDot, Wind, BookMarked, MessageSquare } from "lucide-react";
+import { ArrowLeft, Layers, CircleDot, Wind, BookMarked, MessageSquare, Flame } from "lucide-react";
 
 const SECTIONS = [
   {
@@ -24,6 +24,14 @@ const SECTIONS = [
     subtitle: "Nāḍī Śodhana, 1:4:2 ratio, and the 5 voids",
     desc: "Breath techniques from the Tantraloka tradition — balance iḍā and piṅgalā, enter suṣumṇā, and dissolve through the tattvas.",
     icon: Wind,
+  },
+  {
+    href: "/tantra/practice-log",
+    title: "Practice Log",
+    subtitle: "Track your daily sadhana",
+    desc: "Log Mātṛkā chanting, breath practice, VB sessions, or meditation. The AI tutor sees your recent practice and adapts its guidance.",
+    icon: Flame,
+    external: false,
   },
   {
     href: "/tantra/chat",

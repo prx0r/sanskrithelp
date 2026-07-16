@@ -2,7 +2,8 @@
 
 import { useState, useRef, useEffect, useCallback } from "react";
 import Link from "next/link";
-import { ArrowLeft, Send, Bot, User, Loader2, BookOpen } from "lucide-react";
+import { ArrowLeft, Send, Bot, User, Loader2, BookOpen, Flame } from "lucide-react";
+import { getRecentPracticeSummary } from "@/lib/practiceLog";
 
 const BASE_PROMPT = `You are a knowledgeable guide to Kashmir Shaivism (Tantraloka, Pratyabhijñā), Layayoga, the Mātṛkā (50 Sanskrit phonemes), the Vijñāna Bhairava (112 techniques), and the 36 tattvas. You also know Sanskrit grammar (Pāṇini), phonetics, and the relationships between these systems.
 
@@ -13,7 +14,10 @@ When answering:
 - If asked about practice, be clear about what's traditional vs modern interpretation
 - Keep responses concise unless the user asks for depth
 
-Below is relevant source material from the project's texts to help answer the question. Use it when it adds value, but don't force it:`;
+Below is relevant source material from the project's texts to help answer the question. Use it when it adds value, but don't force it:
+
+RECENT PRACTICE:
+{practiceSummary}`;
 
 interface Message {
   role: "user" | "assistant";
@@ -44,6 +48,9 @@ export default function TantraChatPage() {
     setLoading(true);
 
     try {
+      // Get practice summary (client-side, from localStorage)
+      const practiceSummary = getRecentPracticeSummary(7);
+
       // Fetch RAG context from the server
       let ragContext = "";
       try {
@@ -59,11 +66,13 @@ export default function TantraChatPage() {
         }
       } catch {}
 
+      const systemPrompt = BASE_PROMPT.replace("{practiceSummary}", practiceSummary) + ragContext;
+
       const res = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          systemPrompt: BASE_PROMPT + ragContext,
+          systemPrompt,
           messages: [...messages, { role: "user", content: q }].map((m) => ({
             role: m.role === "assistant" ? "assistant" : "user",
             content: m.content,
