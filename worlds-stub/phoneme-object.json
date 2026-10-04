@@ -1,0 +1,124 @@
+{
+  "schema": "grimoirer.phoneme-object.v0",
+  "description": "Atomic multi-layer phoneme object. Source-attested Trika claims only in 'trika'. Mnemonic layer is yours.",
+  "phonemes": [
+    {
+      "id": "a",
+      "devanagari": "अ",
+      "iast": "a",
+      "linguistic": {
+        "type": "vowel",
+        "articulation": "open central",
+        "sthana": "kanthya-open",
+        "row": "vowels",
+        "color_scaffold": "white",
+        "cakra_scaffold": "beyond",
+        "emotion_seed": "undifferentiated field",
+        "source_scaffold": "tantrica2.md (study map — not a universal Abhinavagupta chart)"
+      },
+      "paninian": {
+        "matrika_position": "first vowel",
+        "pratyaharas": ["ac", "aK"],
+        "notes": "Core vowel; Māheśvara sequence begins the phonological system."
+      },
+      "trika": [
+        {
+          "claim": "Letter A as Anuttara / root of the phonemic cycle",
+          "source": "Tantrāloka Āhnika 3 · RO ro-tantraloka-sound-metaphysics · Parātrīśikā working copy",
+          "kind": "source-attested"
+        },
+        {
+          "claim": "Mātṛkā cakra begins with A as measure of consciousness-power",
+          "source": "TĀ Vol.2 p.139 (PTv p.27 cited) — RO sound-metaphysics",
+          "kind": "source-attested"
+        }
+      ],
+      "mnemonic": {
+        "zone": "sound_gate.vowels",
+        "shape": "open mouth / expanding field",
+        "locus_id": null,
+        "emotion": null,
+        "being": null,
+        "monument": null,
+        "notes": "Fill as you install. Mnemonic only."
+      }
+    },
+    {
+      "id": "ka",
+      "devanagari": "क",
+      "iast": "ka",
+      "linguistic": {
+        "type": "consonant",
+        "row": "gutturals",
+        "sthana": "kanthya",
+        "voice": "unaspirated",
+        "color_scaffold": "red",
+        "cakra_scaffold": "muladhara",
+        "emotion_seed": "grounded rooted force",
+        "source_scaffold": "tantrica2.md (study map)"
+      },
+      "paninian": {
+        "matrika_position": "guttural series start",
+        "pratyaharas": ["ka", "hal"],
+        "notes": "First consonant series in conventional Mātṛkā order."
+      },
+      "trika": [
+        {
+          "claim": "Mātṛkā gutturals associated with root/body in practice maps (tantrica2)",
+          "source": "tantrica2.md — study scaffold; cross-check TA/nyāsa texts before treating as universal",
+          "kind": "practice-scaffold"
+        }
+      ],
+      "mnemonic": {
+        "zone": "sound_gate.gutturals",
+        "shape": "gate post / pillar at root",
+        "locus_id": null,
+        "emotion": null,
+        "being": "row-elder-root (mnemonic)",
+        "monument": "guttural gate (sketch)",
+        "notes": "Install: hear→produce→feel red/root→draw→locus→recall."
+      }
+    },
+    {
+      "id": "ta",
+      "devanagari": "त",
+      "iast": "ta",
+      "linguistic": {
+        "type": "consonant",
+        "row": "dentals",
+        "sthana": "dantya",
+        "voice": "unaspirated",
+        "color_scaffold": "green",
+        "cakra_scaffold": "anahata",
+        "emotion_seed": "centered open heart",
+        "source_scaffold": "tantrica2.md dental row = green core"
+      },
+      "paninian": {
+        "matrika_position": "dental series",
+        "pratyaharas": ["ta", "hal"],
+        "notes": "Dental row used heavily in sandhi drills."
+      },
+      "trika": [
+        {
+          "claim": "Color meditation on varṇa attested in Tantrāloka 5.148–150",
+          "source": "Tantrāloka 5.148–150 (blue and other colors in heart practice) — general color practice, not this letter specifically",
+          "kind": "source-attested-general"
+        },
+        {
+          "claim": "Dental row = heart / green in tantrica2 practice schema",
+          "source": "tantrica2.md — study scaffold",
+          "kind": "practice-scaffold"
+        }
+      ],
+      "mnemonic": {
+        "zone": "sound_gate.dentals",
+        "shape": "leaf / heart-temple",
+        "locus_id": null,
+        "emotion": null,
+        "being": "row-elder-heart (mnemonic)",
+        "monument": "heart temple (sketch)",
+        "notes": "Deepen session here — green core, longer pause."
+      }
+    }
+  ]
+}
