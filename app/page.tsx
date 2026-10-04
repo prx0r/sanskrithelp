@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { Volume2, Zap, BookOpen, ChevronRight, Gamepad2 } from "lucide-react";
+import { Volume2, Zap, BookOpen, ChevronRight, Gamepad2, Brain } from "lucide-react";
 import { getLessonProgress } from "@/lib/lessonProgress";
 import { getAllCardStates } from "@/lib/storage";
 import unitsData from "@/data/units.json";
@@ -93,6 +93,32 @@ export default function HomePage() {
                 {stats.dueCount > 0 && (
                   <p className="text-xs text-primary font-medium mt-1">{stats.dueCount} due today</p>
                 )}
+              </div>
+            </div>
+            <ChevronRight className="w-6 h-6 text-primary shrink-0" />
+          </div>
+        </Link>
+      </section>
+
+      {/* Memory — Bruno + Pāṇini + Nyāsa */}
+      <section className="mb-8">
+        <h2 className="text-sm font-medium text-muted-foreground mb-3">Memory</h2>
+        <Link
+          href="/memory"
+          className="block p-5 rounded-xl border border-border bg-card hover:border-primary hover:bg-primary/5 transition-all group"
+        >
+          <div className="flex items-center justify-between gap-4">
+            <div className="flex items-center gap-4">
+              <div className="w-14 h-14 rounded-xl bg-primary/20 flex items-center justify-center">
+                <Brain className="w-7 h-7 text-primary" />
+              </div>
+              <div>
+                <h3 className="font-semibold text-lg group-hover:text-primary">
+                  Nyāsa · Bruno · Pāṇini
+                </h3>
+                <p className="text-sm text-muted-foreground">
+                  Phoneme body install · memory wheels · pratyāhāra compression
+                </p>
               </div>
             </div>
             <ChevronRight className="w-6 h-6 text-primary shrink-0" />

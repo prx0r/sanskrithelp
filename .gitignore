@@ -77,3 +77,4 @@ components/games3d/
 # Local test files and DB
 _test.wav
 sabdakrida/sabdakrida.db
+tsconfig.tsbuildinfo

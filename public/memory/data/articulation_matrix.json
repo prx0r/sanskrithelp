@@ -1,0 +1,175 @@
+{
+  "id": "articulation-matrix-v0",
+  "name": "Varṇamālā as 5×5 mouth instrument",
+  "principle": "Sanskrit consonants are arranged from back of vocal tract toward front. Within each group, voicing/aspiration/nasality change systematically. The alphabet is already a somatic matrix.",
+  "places": [
+    {
+      "id": "kanthya",
+      "name": "kaṇṭhya",
+      "en": "throat / velar",
+      "devanagari_zone": "क-ङ zone",
+      "bruno_env": "cave"
+    },
+    {
+      "id": "talavya",
+      "name": "tālavya",
+      "en": "palate",
+      "devanagari_zone": "च-ञ zone",
+      "bruno_env": "vaulted hall"
+    },
+    {
+      "id": "murdhanya",
+      "name": "mūrdhanya",
+      "en": "retroflex",
+      "devanagari_zone": "ट-ण zone",
+      "bruno_env": "dome"
+    },
+    {
+      "id": "dantya",
+      "name": "dantya",
+      "en": "dental",
+      "devanagari_zone": "त-न zone",
+      "bruno_env": "gate of teeth"
+    },
+    {
+      "id": "oshtya",
+      "name": "oṣṭhya",
+      "en": "lips",
+      "devanagari_zone": "प-म zone",
+      "bruno_env": "pair of doors / lips"
+    }
+  ],
+  "manners": [
+    {
+      "id": "voiceless_unasp",
+      "short": "V",
+      "en": "voiceless unaspirated",
+      "bruno_actor": "same actor, plain stop"
+    },
+    {
+      "id": "voiceless_asp",
+      "short": "Kh",
+      "en": "voiceless aspirated",
+      "bruno_actor": "actor blows wind"
+    },
+    {
+      "id": "voiced",
+      "short": "G",
+      "en": "voiced unaspirated",
+      "bruno_actor": "actor glows / hums"
+    },
+    {
+      "id": "voiced_asp",
+      "short": "Gh",
+      "en": "voiced aspirated",
+      "bruno_actor": "hum + wind"
+    },
+    {
+      "id": "nasal",
+      "short": "N",
+      "en": "nasal",
+      "bruno_actor": "resonance travels through tunnel / nose"
+    }
+  ],
+  "vargas": {
+    "kanthya": {
+      "place": {
+        "id": "kanthya",
+        "name": "kaṇṭhya",
+        "en": "throat / velar",
+        "devanagari_zone": "क-ङ zone",
+        "bruno_env": "cave"
+      },
+      "phonemes": [
+        "ka",
+        "kha",
+        "ga",
+        "gha",
+        "ṅa"
+      ]
+    },
+    "talavya": {
+      "place": {
+        "id": "talavya",
+        "name": "tālavya",
+        "en": "palate",
+        "devanagari_zone": "च-ञ zone",
+        "bruno_env": "vaulted hall"
+      },
+      "phonemes": [
+        "ca",
+        "cha",
+        "ja",
+        "jha",
+        "ña"
+      ]
+    },
+    "murdhanya": {
+      "place": {
+        "id": "murdhanya",
+        "name": "mūrdhanya",
+        "en": "retroflex",
+        "devanagari_zone": "ट-ण zone",
+        "bruno_env": "dome"
+      },
+      "phonemes": [
+        "ṭa",
+        "ṭha",
+        "ḍa",
+        "ḍha",
+        "ṇa"
+      ]
+    },
+    "dantya": {
+      "place": {
+        "id": "dantya",
+        "name": "dantya",
+        "en": "dental",
+        "devanagari_zone": "त-न zone",
+        "bruno_env": "gate of teeth"
+      },
+      "phonemes": [
+        "ta",
+        "tha",
+        "da",
+        "dha",
+        "na"
+      ]
+    },
+    "oshtya": {
+      "place": {
+        "id": "oshtya",
+        "name": "oṣṭhya",
+        "en": "lips",
+        "devanagari_zone": "प-म zone",
+        "bruno_env": "pair of doors / lips"
+      },
+      "phonemes": [
+        "pa",
+        "pha",
+        "ba",
+        "bha",
+        "ma"
+      ]
+    }
+  },
+  "bruno_rule": "The image must teach the property — not merely remind you of a symbol. Exaggerate the actual phonetic feature.",
+  "first_wheel": {
+    "ring1_place": [
+      "kanthya",
+      "talavya",
+      "murdhanya",
+      "dantya",
+      "oshtya"
+    ],
+    "ring2_manner": [
+      "voiceless_unasp",
+      "voiceless_asp",
+      "voiced",
+      "voiced_asp",
+      "nasal"
+    ],
+    "rotate_example": "place=kanthya + manner=voiceless_unasp → ka; manner=nasal → ṅa"
+  },
+  "claims_policy": "articulatory phonetics + pedagogical bruno images; not medical; not Hz doctrine"
+}

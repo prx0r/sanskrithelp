@@ -35,3 +35,19 @@ See synthesis contract: shadow → scriptorium → zone drill → Bruno recall/p
 ## Data
 
 `data/phonemes.json` · `pratyaharas.json` · `sandhi-rules.json` · `dhatus.json` · `rag/vijnana-bhairava*` · `worlds-stub/*`
+
+## Memory tab (added 2026-10-04)
+
+New main-nav **Memory** tab — Bruno + Pāṇini memorisation + deitybody nyāsa practice.
+
+| Route | What |
+|-------|------|
+| `/memory` | Hub |
+| `/memory/nyasa` | 2 phonemes/night practice + audio cycles |
+| `/memory/maps` | Mātṛkā / Mālinī body maps (iframe + JSON) |
+| `/memory/bruno` | Dual-coordinate wheel drill |
+| `/memory/panini` | 5×5 varga · pratyāhāra · Mālinī order · locus quiz |
+| `/memory/audio` | Clip → locus → gap reference tracks |
+
+Assets: `public/memory/{audio,clips,loci,data,icons}/`
+Research source: `/root/deitybody` · technique: stonedoorway.com/reference/deitybody-nyasa

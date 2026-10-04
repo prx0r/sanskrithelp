@@ -1,0 +1,353 @@
+{
+  "id": "matrika-body-map-v0",
+  "name": "Mātṛkā body map (ordered alphabet)",
+  "provenance": {
+    "primary": "Owner synthesis + Tantrāloka 15 apparatus (Dyczkowski appendix: tattvamudrā / aṅganyāsa)",
+    "corroboration": [
+      "TĀ 15 karanyāsa + aṅganyāsa",
+      "Tantrasāra varṇa-uccāra",
+      "sanskrithelp phoneme-object contracts"
+    ],
+    "labels": "Body loci are source-attested practice maps; color fields are PEDAGOGICAL if used at all"
+  },
+  "practice_rule": "See Devanāgarī glyph internally + pronounce once + feel bodily location. Glyph is the primary visual object — not a chakra color chart.",
+  "order": "Mātṛkā forward (emission). Reverse is a withdrawal mode; true Mālinī order lives in malini_order.json.",
+  "vowels": [
+    {
+      "iast": "a",
+      "devanagari": "अ",
+      "locus": "forehead",
+      "group": "vowel-head",
+      "note": "open, unmodified"
+    },
+    {
+      "iast": "ā",
+      "devanagari": "आ",
+      "locus": "mouth/face",
+      "group": "vowel-head",
+      "note": "long open"
+    },
+    {
+      "iast": "i",
+      "devanagari": "इ",
+      "locus": "right eye",
+      "group": "vowel-head"
+    },
+    {
+      "iast": "ī",
+      "devanagari": "ई",
+      "locus": "left eye",
+      "group": "vowel-head"
+    },
+    {
+      "iast": "u",
+      "devanagari": "उ",
+      "locus": "right ear",
+      "group": "vowel-head"
+    },
+    {
+      "iast": "ū",
+      "devanagari": "ऊ",
+      "locus": "left ear",
+      "group": "vowel-head"
+    },
+    {
+      "iast": "ṛ",
+      "devanagari": "ऋ",
+      "locus": "right nostril (piṅgalā)",
+      "group": "vowel-head"
+    },
+    {
+      "iast": "ṝ",
+      "devanagari": "ॠ",
+      "locus": "left nostril (iḍā)",
+      "group": "vowel-head"
+    },
+    {
+      "iast": "ḷ",
+      "devanagari": "ऌ",
+      "locus": "right cheek",
+      "group": "vowel-head"
+    },
+    {
+      "iast": "ḹ",
+      "devanagari": "ॡ",
+      "locus": "left cheek",
+      "group": "vowel-head"
+    },
+    {
+      "iast": "e",
+      "devanagari": "ए",
+      "locus": "lower teeth",
+      "group": "vowel-head"
+    },
+    {
+      "iast": "ai",
+      "devanagari": "ऐ",
+      "locus": "upper teeth",
+      "group": "vowel-head"
+    },
+    {
+      "iast": "o",
+      "devanagari": "ओ",
+      "locus": "lower lip",
+      "group": "vowel-head"
+    },
+    {
+      "iast": "au",
+      "devanagari": "औ",
+      "locus": "upper lip",
+      "group": "vowel-head"
+    },
+    {
+      "iast": "aṃ",
+      "devanagari": "अं",
+      "locus": "crown / śikhā / topknot",
+      "group": "vowel-mark"
+    },
+    {
+      "iast": "aḥ",
+      "devanagari": "अः",
+      "locus": "tongue",
+      "group": "vowel-mark"
+    }
+  ],
+  "vargas": [
+    {
+      "name": "ka-varga",
+      "place": "guttural / velar",
+      "limb": "right upper limb",
+      "sequence": [
+        {
+          "iast": "ka",
+          "devanagari": "क",
+          "locus": "right shoulder"
+        },
+        {
+          "iast": "kha",
+          "devanagari": "ख",
+          "locus": "right arm"
+        },
+        {
+          "iast": "ga",
+          "devanagari": "ग",
+          "locus": "right elbow"
+        },
+        {
+          "iast": "gha",
+          "devanagari": "घ",
+          "locus": "right wrist"
+        },
+        {
+          "iast": "ṅa",
+          "devanagari": "ङ",
+          "locus": "fingers of right hand"
+        }
+      ]
+    },
+    {
+      "name": "ca-varga",
+      "place": "palatal",
+      "limb": "left upper limb",
+      "sequence": [
+        {
+          "iast": "ca",
+          "devanagari": "च",
+          "locus": "left shoulder"
+        },
+        {
+          "iast": "cha",
+          "devanagari": "छ",
+          "locus": "left arm"
+        },
+        {
+          "iast": "ja",
+          "devanagari": "ज",
+          "locus": "left elbow"
+        },
+        {
+          "iast": "jha",
+          "devanagari": "झ",
+          "locus": "left wrist"
+        },
+        {
+          "iast": "ña",
+          "devanagari": "ञ",
+          "locus": "fingers of left hand"
+        }
+      ]
+    },
+    {
+      "name": "ṭa-varga",
+      "place": "retroflex",
+      "limb": "right lower limb",
+      "sequence": [
+        {
+          "iast": "ṭa",
+          "devanagari": "ट",
+          "locus": "right buttock"
+        },
+        {
+          "iast": "ṭha",
+          "devanagari": "ठ",
+          "locus": "right thigh"
+        },
+        {
+          "iast": "ḍa",
+          "devanagari": "ड",
+          "locus": "right knee"
+        },
+        {
+          "iast": "ḍha",
+          "devanagari": "ढ",
+          "locus": "right shank"
+        },
+        {
+          "iast": "ṇa",
+          "devanagari": "ण",
+          "locus": "toes of right foot"
+        }
+      ]
+    },
+    {
+      "name": "ta-varga",
+      "place": "dental",
+      "limb": "left lower limb",
+      "sequence": [
+        {
+          "iast": "ta",
+          "devanagari": "त",
+          "locus": "left buttock"
+        },
+        {
+          "iast": "tha",
+          "devanagari": "थ",
+          "locus": "left thigh"
+        },
+        {
+          "iast": "da",
+          "devanagari": "द",
+          "locus": "left knee"
+        },
+        {
+          "iast": "dha",
+          "devanagari": "ध",
+          "locus": "left shank"
+        },
+        {
+          "iast": "na",
+          "devanagari": "न",
+          "locus": "toes of left foot"
+        }
+      ],
+      "practice_note": "Chakra-scaffold traditions often call this the green-core/heart row. In the TA limb map it is the left lower limb. Keep both labels; do not collapse them into one doctrine."
+    },
+    {
+      "name": "pa-varga",
+      "place": "labial",
+      "limb": "torso / trunk",
+      "sequence": [
+        {
+          "iast": "pa",
+          "devanagari": "प",
+          "locus": "right diaphragm / right side"
+        },
+        {
+          "iast": "pha",
+          "devanagari": "फ",
+          "locus": "left diaphragm / left side"
+        },
+        {
+          "iast": "ba",
+          "devanagari": "ब",
+          "locus": "spine / back"
+        },
+        {
+          "iast": "bha",
+          "devanagari": "भ",
+          "locus": "stomach / belly"
+        },
+        {
+          "iast": "ma",
+          "devanagari": "म",
+          "locus": "heart"
+        }
+      ]
+    },
+    {
+      "name": "semivowels",
+      "place": "ya ra la va",
+      "limb": "deeper constituents",
+      "sequence": [
+        {
+          "iast": "ya",
+          "devanagari": "य",
+          "locus": "skin (chest)"
+        },
+        {
+          "iast": "ra",
+          "devanagari": "र",
+          "locus": "blood (right shoulder path)"
+        },
+        {
+          "iast": "la",
+          "devanagari": "ल",
+          "locus": "flesh (neck / left shoulder path)"
+        },
+        {
+          "iast": "va",
+          "devanagari": "व",
+          "locus": "sinews / connective structures"
+        }
+      ]
+    },
+    {
+      "name": "sibilants-plus",
+      "place": "śa ṣa sa ha kṣa",
+      "limb": "deep constituents / generative",
+      "sequence": [
+        {
+          "iast": "śa",
+          "devanagari": "श",
+          "locus": "bone"
+        },
+        {
+          "iast": "ṣa",
+          "devanagari": "ष",
+          "locus": "marrow"
+        },
+        {
+          "iast": "sa",
+          "devanagari": "स",
+          "locus": "reproductive essence"
+        },
+        {
+          "iast": "ha",
+          "devanagari": "ह",
+          "locus": "prāṇa"
+        },
+        {
+          "iast": "kṣa",
+          "devanagari": "क्ष",
+          "locus": "generative organs"
+        }
+      ]
+    }
+  ],
+  "ta_15_aṅganyāsa_crosswalk": {
+    "note": "Compressed aṅganyāsa formula from TĀ 15 appendix — useful as a rapid install sequence",
+    "heart": "aṅ kaṁ khaṁ ghaṁ ṅaṁ āṁ hr̥dayāya namaḥ",
+    "head": "iṁ caṁ chaṁ jaṁ jhaṁ ñaṁ īṁ śirase svāhā",
+    "kavaca_shoulders": "eṁ taṁ thaṁ daṁ dhaṁ naṁ aiṁ kavacāya hūṃ",
+    "netratraya_eyes": "oṁ paṁ phaṁ baṁ bhaṁ maṁ auṁ netratrayāya vauṣaṭ",
+    "astra_hands": "arṁ yaṁ raṁ laṁ vaṁ śaṁ ṣaṁ haṁ laṁ kṣaṁ aḥ karatalapṛṣṭhābhyām astrāya phaṭ"
+  },
+  "short_night_subset": [
+    "vowels a/ā/i/ī",
+    "ka-varga",
+    "ta-varga",
+    "vowels full field"
+  ],
+  "phoneme_audio": "/root/sanskrithelp/public/audio/phonemes/*.ogg",
+  "claims_policy": "practice_scaffold_not_medical_not_hz_per_phoneme"
+}
