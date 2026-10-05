@@ -5,6 +5,7 @@ import {
   ArrowLeft,
   Brain,
   BookMarked,
+  Boxes,
   Ear,
   Compass,
   Hash,
@@ -14,6 +15,13 @@ import {
 } from "lucide-react";
 
 const SECTIONS = [
+  {
+    href: "/memory/simulator",
+    title: "Sanskrit Simulator",
+    subtitle: "v2 · state → operator → world",
+    desc: "Cognitive machine: live objects, global operators, Pāṇini as physics, sandhi collision, derivation wheel. Four modes: INHABIT · DECOMPILE · GENERATE · PLAY.",
+    icon: Boxes,
+  },
   {
     href: "/memory/nyasa",
     title: "Nyāsa Practice",
