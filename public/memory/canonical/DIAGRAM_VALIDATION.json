@@ -1,0 +1,139 @@
+{
+  "id": "diagram-validation-v1",
+  "method": "data-driven checks against deitybody JSON + generated HTML (not visual guesswork)",
+  "sources": [
+    "/root/deitybody/data/matrika_body_map.json",
+    "/root/deitybody/data/malini_order.json",
+    "/root/deitybody/data/architecture.json",
+    "/root/deitybody/docs/PHONEME_BODY_DIAGRAM.html"
+  ],
+  "summary": {
+    "pass": 24,
+    "fail": 0,
+    "warn": 0,
+    "total": 24,
+    "verdict": "PASS"
+  },
+  "findings": [
+    {
+      "rule": "matrika.count",
+      "status": "pass",
+      "detail": "50 phonemes"
+    },
+    {
+      "rule": "matrika.unique",
+      "status": "pass",
+      "detail": "no duplicate iast"
+    },
+    {
+      "rule": "matrika.devanagari_locus",
+      "status": "pass",
+      "detail": "all 50 have glyph + locus"
+    },
+    {
+      "rule": "night1.a",
+      "status": "pass",
+      "detail": "a → forehead"
+    },
+    {
+      "rule": "night1.ā",
+      "status": "pass",
+      "detail": "ā → mouth/face"
+    },
+    {
+      "rule": "malini.order",
+      "status": "pass",
+      "detail": "50 unique letters na→pha"
+    },
+    {
+      "rule": "malini.nadiphanta",
+      "status": "pass",
+      "detail": "begins na ends pha"
+    },
+    {
+      "rule": "malini.body_map",
+      "status": "pass",
+      "detail": "all 50 have loci"
+    },
+    {
+      "rule": "conflict.ka.matrika",
+      "status": "pass",
+      "detail": "ka matrika=right shoulder"
+    },
+    {
+      "rule": "conflict.ka.malini",
+      "status": "pass",
+      "detail": "ka malini=teeth"
+    },
+    {
+      "rule": "conflict.ma.heart.matrika",
+      "status": "pass",
+      "detail": "ma matrika=heart"
+    },
+    {
+      "rule": "conflict.pa.heart.malini",
+      "status": "pass",
+      "detail": "pa malini=heart"
+    },
+    {
+      "rule": "canonical.tantraloka",
+      "status": "pass",
+      "detail": "locked in architecture.json"
+    },
+    {
+      "rule": "goswami.tool",
+      "status": "pass",
+      "detail": "TOOL_NOT_BACKBONE"
+    },
+    {
+      "rule": "html.matrika_title",
+      "status": "pass",
+      "detail": "found 'MĀTṚKĀ'"
+    },
+    {
+      "rule": "html.malini_title",
+      "status": "pass",
+      "detail": "found 'MĀLINĪ'"
+    },
+    {
+      "rule": "html.forehead",
+      "status": "pass",
+      "detail": "found 'forehead'"
+    },
+    {
+      "rule": "html.teeth_label",
+      "status": "pass",
+      "detail": "found 'teeth'"
+    },
+    {
+      "rule": "html.start_here",
+      "status": "pass",
+      "detail": "found 'Start here'"
+    },
+    {
+      "rule": "html.large_glyphs",
+      "status": "pass",
+      "detail": "found 'font-size:22px'"
+    },
+    {
+      "rule": "html.no_mermaid_cdn",
+      "status": "pass",
+      "detail": "no mermaid CDN dependency"
+    },
+    {
+      "rule": "objects.count",
+      "status": "pass",
+      "detail": "41 objects"
+    },
+    {
+      "rule": "objects.tantric_locus",
+      "status": "pass",
+      "detail": "all have tantric_locus"
+    },
+    {
+      "rule": "readability.glyph_px",
+      "status": "pass",
+      "detail": "Devanagari ~22px"
+    }
+  ]
+}
