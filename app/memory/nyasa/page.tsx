@@ -124,7 +124,7 @@ export default function MemoryNyasaPage() {
           </table>
         </div>
         <p className="text-xs text-muted-foreground mt-2">
-          Our training calendar — two phonemes a sitting is modern pacing, not Abhinavagupta's
+          Our training calendar — two phonemes a sitting is modern pacing, not Abhinavagupta&apos;s
           instruction (the texts set no schedule). Nights 1–8 = vowels. 9–10 = first
           consonant contrasts. Loci follow the TĀ 15 apparatus tables; the verse reads
           hand/fingers/nails where the tables give elbow/wrist/fingers — never mix maps

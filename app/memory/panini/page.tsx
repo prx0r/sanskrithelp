@@ -179,7 +179,7 @@ export default function MemoryPaniniPage() {
       {mode === "pratyahara" && (
         <div className="rounded-xl border border-border bg-card p-4">
           <p className="text-sm text-muted-foreground mb-3">
-            Pāṇini's own compression codes from the Māheśvara sūtras (capitals = IT-markers).
+            Pāṇini&apos;s own compression codes from the Māheśvara sūtras (capitals = IT-markers).
             Teaching subset of 5 — say the code, then expand.
           </p>
           <div className="text-center py-4">
