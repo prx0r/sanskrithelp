@@ -27,6 +27,8 @@ const ISLANDS = [
   { id: "verbs", num: 9, label: "Verbs", path: "/learn/verbs/" },
   { id: "compounds", num: 10, label: "Compounds", path: "/learn/compounds/" },
   { id: "reading", num: 11, label: "Reading", path: "/learn/reading/" },
+  { id: "bruno", num: 12, label: "Bruno Wheels", path: "/learn/bruno" },
+  { id: "world", num: 13, label: "World Compiler", path: "/learn/world" },
 ];
 
 export default function LearnPage() {

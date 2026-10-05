@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900">
+<rect width="100%" height="100%" fill="white"/>
+<text x="450" y="38" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700">Bruno Five-Ring Scene Encoder</text>
+<circle cx="450" cy="450" r="390.0" fill="none" stroke="black" stroke-width="1"/>
+<circle cx="450" cy="450" r="342.0" fill="none" stroke="black" stroke-width=".6" opacity=".5"/>
+<line x1="450.0" y1="108.0" x2="450.0" y2="60.0" stroke="black" stroke-width=".5" opacity=".4"/>
+<text x="450.0" y="88.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11">personal A</text>
+<line x1="775.3" y1="344.3" x2="820.9" y2="329.5" stroke="black" stroke-width=".5" opacity=".4"/>
+<text x="794.3" y="338.1" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11">personal B</text>
+<line x1="651.0" y1="726.7" x2="679.2" y2="765.5" stroke="black" stroke-width=".5" opacity=".4"/>
+<text x="662.8" y="742.9" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11">personal C</text>
+<line x1="249.0" y1="726.7" x2="220.8" y2="765.5" stroke="black" stroke-width=".5" opacity=".4"/>
+<text x="237.2" y="742.9" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11">personal D</text>
+<line x1="124.7" y1="344.3" x2="79.1" y2="329.5" stroke="black" stroke-width=".5" opacity=".4"/>
+<text x="105.7" y="338.1" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11">personal E</text>
+<text x="68.0" y="450.0" font-family="sans-serif" font-size="10" transform="rotate(-90 68.0 450.0)">agent</text>
+<circle cx="450" cy="450" r="334.0" fill="none" stroke="black" stroke-width="1"/>
+<circle cx="450" cy="450" r="286.0" fill="none" stroke="black" stroke-width=".6" opacity=".5"/>
+<line x1="450.0" y1="164.0" x2="450.0" y2="116.0" stroke="black" stroke-width=".5" opacity=".4"/>
+<text x="450.0" y="144.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11">cuts</text>
+<line x1="722.0" y1="361.6" x2="767.7" y2="346.8" stroke="black" stroke-width=".5" opacity=".4"/>
+<text x="741.0" y="355.4" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11">pulls</text>
+<line x1="618.1" y1="681.4" x2="646.3" y2="720.2" stroke="black" stroke-width=".5" opacity=".4"/>
+<text x="629.9" y="697.6" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11">spins</text>
+<line x1="281.9" y1="681.4" x2="253.7" y2="720.2" stroke="black" stroke-width=".5" opacity=".4"/>
+<text x="270.1" y="697.6" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11">opens</text>
+<line x1="178.0" y1="361.6" x2="132.3" y2="346.8" stroke="black" stroke-width=".5" opacity=".4"/>
+<text x="159.0" y="355.4" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11">melts</text>
+<text x="124.0" y="450.0" font-family="sans-serif" font-size="10" transform="rotate(-90 124.0 450.0)">action</text>
+<circle cx="450" cy="450" r="278.0" fill="none" stroke="black" stroke-width="1"/>
+<circle cx="450" cy="450" r="230.0" fill="none" stroke="black" stroke-width=".6" opacity=".5"/>
+<line x1="450.0" y1="220.0" x2="450.0" y2="172.0" stroke="black" stroke-width=".5" opacity=".4"/>
+<text x="450.0" y="200.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11">chain</text>
+<line x1="668.7" y1="378.9" x2="714.4" y2="364.1" stroke="black" stroke-width=".5" opacity=".4"/>
+<text x="687.8" y="372.7" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11">ring</text>
+<line x1="585.2" y1="636.1" x2="613.4" y2="674.9" stroke="black" stroke-width=".5" opacity=".4"/>
+<text x="596.9" y="652.3" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11">staff</text>
+<line x1="314.8" y1="636.1" x2="286.6" y2="674.9" stroke="black" stroke-width=".5" opacity=".4"/>
+<text x="303.1" y="652.3" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11">mirror</text>
+<line x1="231.3" y1="378.9" x2="185.6" y2="364.1" stroke="black" stroke-width=".5" opacity=".4"/>
+<text x="212.2" y="372.7" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11">thread</text>
+<text x="180.0" y="450.0" font-family="sans-serif" font-size="10" transform="rotate(-90 180.0 450.0)">ensign</text>
+<circle cx="450" cy="450" r="222.0" fill="none" stroke="black" stroke-width="1"/>
+<circle cx="450" cy="450" r="174.0" fill="none" stroke="black" stroke-width=".6" opacity=".5"/>
+<line x1="450.0" y1="276.0" x2="450.0" y2="228.0" stroke="black" stroke-width=".5" opacity=".4"/>
+<text x="450.0" y="256.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11">huge</text>
+<line x1="615.5" y1="396.2" x2="661.1" y2="381.4" stroke="black" stroke-width=".5" opacity=".4"/>
+<text x="634.5" y="390.1" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11">cold</text>
+<line x1="552.3" y1="590.8" x2="580.5" y2="629.6" stroke="black" stroke-width=".5" opacity=".4"/>
+<text x="564.0" y="606.9" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11">vibrating</text>
+<line x1="347.7" y1="590.8" x2="319.5" y2="629.6" stroke="black" stroke-width=".5" opacity=".4"/>
+<text x="336.0" y="606.9" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11">bright</text>
+<line x1="284.5" y1="396.2" x2="238.9" y2="381.4" stroke="black" stroke-width=".5" opacity=".4"/>
+<text x="265.5" y="390.1" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11">weightless</text>
+<text x="236.0" y="450.0" font-family="sans-serif" font-size="10" transform="rotate(-90 236.0 450.0)">attribute</text>
+<circle cx="450" cy="450" r="166.0" fill="none" stroke="black" stroke-width="1"/>
+<circle cx="450" cy="450" r="118.0" fill="none" stroke="black" stroke-width=".6" opacity=".5"/>
+<line x1="450.0" y1="332.0" x2="450.0" y2="284.0" stroke="black" stroke-width=".5" opacity=".4"/>
+<text x="450.0" y="312.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11">threshold</text>
+<line x1="562.2" y1="413.5" x2="607.9" y2="398.7" stroke="black" stroke-width=".5" opacity=".4"/>
+<text x="581.2" y="407.4" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11">cave</text>
+<line x1="519.4" y1="545.5" x2="547.6" y2="584.3" stroke="black" stroke-width=".5" opacity=".4"/>
+<text x="531.1" y="561.6" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11">body</text>
+<line x1="380.6" y1="545.5" x2="352.4" y2="584.3" stroke="black" stroke-width=".5" opacity=".4"/>
+<text x="368.9" y="561.6" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11">open space</text>
+<line x1="337.8" y1="413.5" x2="292.1" y2="398.7" stroke="black" stroke-width=".5" opacity=".4"/>
+<text x="318.8" y="407.4" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="11">between sounds</text>
+<text x="292.0" y="450.0" font-family="sans-serif" font-size="10" transform="rotate(-90 292.0 450.0)">circumstance</text>
+<circle cx="450" cy="450" r="55" fill="none" stroke="black"/>
+<text x="450" y="446" text-anchor="middle" font-family="sans-serif" font-size="14">BRUNO ×</text>
+<text x="450" y="465" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700">SANSKRIT</text>
+</svg>

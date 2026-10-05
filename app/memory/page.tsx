@@ -48,6 +48,27 @@ const SECTIONS = [
     desc: "Reference cycles from sanskrithelp phoneme clips + locus TTS. Replay the file; you do the work in the gap.",
     icon: Volume2,
   },
+  {
+    href: "/memory/bruno-wheels/",
+    title: "Bruno Wheels (R2 pack)",
+    subtitle: "Varṇa · five-ring · dhātu · kāraka · verse",
+    desc: "Standalone wheel lab from stallshark pack. Personal bindings in localStorage. Sound → binding → manipulation → Pāṇinian validation.",
+    icon: Compass,
+  },
+  {
+    href: "/memory/world-compiler/",
+    title: "World Compiler",
+    subtitle: "Verse → world JSON",
+    desc: "Compile Sanskrit passages (asato ma · citih svatantra) into world IR for StoneDoorway / Memory.",
+    icon: Hash,
+  },
+  {
+    href: "/learn/bruno",
+    title: "Bruno Wheel Lab (app)",
+    subtitle: "/learn/bruno",
+    desc: "In-app overlay component from the R2 pack — five wheels, no new npm deps.",
+    icon: Compass,
+  },
 ];
 
 export default function MemoryHubPage() {

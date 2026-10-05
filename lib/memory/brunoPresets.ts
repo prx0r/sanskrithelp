@@ -1,0 +1,794 @@
+export const VARNA_GRID = {
+  "places": [
+    "velar",
+    "palatal",
+    "retroflex",
+    "dental",
+    "labial"
+  ],
+  "manners": [
+    "unvoiced",
+    "unvoiced aspirated",
+    "voiced",
+    "voiced aspirated",
+    "nasal"
+  ],
+  "grid": {
+    "velar": [
+      "k",
+      "kh",
+      "g",
+      "gh",
+      "ṅ"
+    ],
+    "palatal": [
+      "c",
+      "ch",
+      "j",
+      "jh",
+      "ñ"
+    ],
+    "retroflex": [
+      "ṭ",
+      "ṭh",
+      "ḍ",
+      "ḍh",
+      "ṇ"
+    ],
+    "dental": [
+      "t",
+      "th",
+      "d",
+      "dh",
+      "n"
+    ],
+    "labial": [
+      "p",
+      "ph",
+      "b",
+      "bh",
+      "m"
+    ]
+  }
+} as const;
+
+export const STARTER_ROOTS = [
+  {
+    "id": "gam",
+    "devanagari": "गम्",
+    "iast": "√gam",
+    "meaning": "go; move",
+    "present": "gacchati",
+    "voice": "P",
+    "note": "Present stem gaccha-; do not teach as a reduplicative class formation."
+  },
+  {
+    "id": "bhu",
+    "devanagari": "भू",
+    "iast": "√bhū",
+    "meaning": "become; be",
+    "present": "bhavati",
+    "voice": "P"
+  },
+  {
+    "id": "kr",
+    "devanagari": "कृ",
+    "iast": "√kṛ",
+    "meaning": "do; make",
+    "present": "karoti / kurute",
+    "voice": "U"
+  },
+  {
+    "id": "jna",
+    "devanagari": "ज्ञा",
+    "iast": "√jñā",
+    "meaning": "know",
+    "present": "jānāti",
+    "voice": "P"
+  },
+  {
+    "id": "drs",
+    "devanagari": "दृश्",
+    "iast": "√dṛś",
+    "meaning": "see",
+    "present": "paśyati",
+    "voice": "P",
+    "note": "Suppletive/irregular present; do not label 'causal-like'."
+  },
+  {
+    "id": "sru",
+    "devanagari": "श्रु",
+    "iast": "√śru",
+    "meaning": "hear",
+    "present": "śṛṇoti",
+    "voice": "P"
+  },
+  {
+    "id": "stha",
+    "devanagari": "स्था",
+    "iast": "√sthā",
+    "meaning": "stand; remain",
+    "present": "tiṣṭhati",
+    "voice": "P"
+  },
+  {
+    "id": "ni",
+    "devanagari": "नी",
+    "iast": "√nī",
+    "meaning": "lead; carry",
+    "present": "nayati",
+    "voice": "P"
+  },
+  {
+    "id": "labh",
+    "devanagari": "लभ्",
+    "iast": "√labh",
+    "meaning": "obtain; receive",
+    "present": "labhate",
+    "voice": "Ā",
+    "note": "Starter data treats the common classical present as ātmanepada."
+  }
+] as const;
+
+export const WHEEL_PRESETS = [
+  {
+    "id": "varna-formation",
+    "title": "Varṇa Formation Wheel",
+    "historicalBasis": "Brunian combinatorial form adapted to the real Sanskrit place × manner grid.",
+    "mode": "prediction",
+    "rings": [
+      {
+        "id": "place",
+        "label": "PLACE / sthāna",
+        "items": [
+          {
+            "id": "velar",
+            "label": "velar"
+          },
+          {
+            "id": "palatal",
+            "label": "palatal"
+          },
+          {
+            "id": "retroflex",
+            "label": "retroflex"
+          },
+          {
+            "id": "dental",
+            "label": "dental"
+          },
+          {
+            "id": "labial",
+            "label": "labial"
+          }
+        ]
+      },
+      {
+        "id": "manner",
+        "label": "MANNER / prayatna",
+        "items": [
+          {
+            "id": "unvoiced",
+            "label": "unvoiced"
+          },
+          {
+            "id": "unvoiced-aspirated",
+            "label": "unvoiced aspirated"
+          },
+          {
+            "id": "voiced",
+            "label": "voiced"
+          },
+          {
+            "id": "voiced-aspirated",
+            "label": "voiced aspirated"
+          },
+          {
+            "id": "nasal",
+            "label": "nasal"
+          }
+        ]
+      }
+    ],
+    "rule": "Selection resolves to a real Sanskrit stop/nasal. This wheel is deterministic."
+  },
+  {
+    "id": "bruno-five-ring",
+    "title": "Bruno Five-Ring Scene Encoder",
+    "historicalBasis": "De umbris idearum: agent × action × ensign × adstans/attribute × circumstance. Here the mappings are deliberately personal rather than mythological defaults.",
+    "mode": "encode",
+    "rings": [
+      {
+        "id": "agent",
+        "label": "AGENT",
+        "items": [
+          {
+            "id": "a1",
+            "label": "your agent 1"
+          },
+          {
+            "id": "a2",
+            "label": "your agent 2"
+          },
+          {
+            "id": "a3",
+            "label": "your agent 3"
+          },
+          {
+            "id": "a4",
+            "label": "your agent 4"
+          },
+          {
+            "id": "a5",
+            "label": "your agent 5"
+          }
+        ]
+      },
+      {
+        "id": "action",
+        "label": "ACTION",
+        "items": [
+          {
+            "id": "x1",
+            "label": "cuts"
+          },
+          {
+            "id": "x2",
+            "label": "pulls"
+          },
+          {
+            "id": "x3",
+            "label": "spins"
+          },
+          {
+            "id": "x4",
+            "label": "opens"
+          },
+          {
+            "id": "x5",
+            "label": "melts"
+          }
+        ]
+      },
+      {
+        "id": "ensign",
+        "label": "ENSIGN",
+        "items": [
+          {
+            "id": "e1",
+            "label": "chain"
+          },
+          {
+            "id": "e2",
+            "label": "ring"
+          },
+          {
+            "id": "e3",
+            "label": "staff"
+          },
+          {
+            "id": "e4",
+            "label": "mirror"
+          },
+          {
+            "id": "e5",
+            "label": "thread"
+          }
+        ]
+      },
+      {
+        "id": "attribute",
+        "label": "ATTRIBUTE / ADSTANS",
+        "items": [
+          {
+            "id": "q1",
+            "label": "huge"
+          },
+          {
+            "id": "q2",
+            "label": "cold"
+          },
+          {
+            "id": "q3",
+            "label": "vibrating"
+          },
+          {
+            "id": "q4",
+            "label": "bright"
+          },
+          {
+            "id": "q5",
+            "label": "weightless"
+          }
+        ]
+      },
+      {
+        "id": "circumstance",
+        "label": "CIRCUMSTANCE",
+        "items": [
+          {
+            "id": "c1",
+            "label": "at a threshold"
+          },
+          {
+            "id": "c2",
+            "label": "inside a cave"
+          },
+          {
+            "id": "c3",
+            "label": "on the body"
+          },
+          {
+            "id": "c4",
+            "label": "in open space"
+          },
+          {
+            "id": "c5",
+            "label": "between two sounds"
+          }
+        ]
+      }
+    ],
+    "rule": "Use this only after assigning stable personal mappings to the Sanskrit sound units you want to encode."
+  },
+  {
+    "id": "dhatu-operator",
+    "title": "Dhātu × Operator Prediction Wheel",
+    "historicalBasis": "Llull/Bruno combinatorics adapted to Sanskrit morphology. Pāṇini is the validator.",
+    "mode": "predict",
+    "rings": [
+      {
+        "id": "root",
+        "label": "DHĀTU / AGENT",
+        "items": [
+          {
+            "id": "gam",
+            "label": "√gam",
+            "gloss": "go; move"
+          },
+          {
+            "id": "bhu",
+            "label": "√bhū",
+            "gloss": "become; be"
+          },
+          {
+            "id": "kr",
+            "label": "√kṛ",
+            "gloss": "do; make"
+          },
+          {
+            "id": "jna",
+            "label": "√jñā",
+            "gloss": "know"
+          },
+          {
+            "id": "drs",
+            "label": "√dṛś",
+            "gloss": "see"
+          },
+          {
+            "id": "sru",
+            "label": "√śru",
+            "gloss": "hear"
+          },
+          {
+            "id": "stha",
+            "label": "√sthā",
+            "gloss": "stand; remain"
+          },
+          {
+            "id": "ni",
+            "label": "√nī",
+            "gloss": "lead; carry"
+          },
+          {
+            "id": "labh",
+            "label": "√labh",
+            "gloss": "obtain; receive"
+          }
+        ]
+      },
+      {
+        "id": "upasarga",
+        "label": "UPASARGA",
+        "items": [
+          {
+            "id": "none",
+            "label": "—",
+            "gloss": "bare root"
+          },
+          {
+            "id": "aa",
+            "label": "ā-",
+            "gloss": "toward/near; lexical meaning must be checked"
+          },
+          {
+            "id": "pra",
+            "label": "pra-",
+            "gloss": "forth/forward; lexical meaning must be checked"
+          },
+          {
+            "id": "pari",
+            "label": "pari-",
+            "gloss": "around/fully; lexical meaning must be checked"
+          },
+          {
+            "id": "sam",
+            "label": "sam-",
+            "gloss": "together/completely; lexical meaning must be checked"
+          },
+          {
+            "id": "vi",
+            "label": "vi-",
+            "gloss": "apart/distinctly; lexical meaning must be checked"
+          },
+          {
+            "id": "ni",
+            "label": "ni-",
+            "gloss": "down/in; lexical meaning must be checked"
+          },
+          {
+            "id": "upa",
+            "label": "upa-",
+            "gloss": "toward/near; lexical meaning must be checked"
+          }
+        ]
+      },
+      {
+        "id": "operator",
+        "label": "MORPHOLOGICAL OPERATOR",
+        "items": [
+          {
+            "id": "lat",
+            "label": "laṭ",
+            "gloss": "present-system challenge"
+          },
+          {
+            "id": "nic",
+            "label": "ṇic",
+            "gloss": "causative: cause X-event"
+          },
+          {
+            "id": "kta",
+            "label": "kta",
+            "gloss": "result/completed participle"
+          },
+          {
+            "id": "ktva",
+            "label": "ktvā",
+            "gloss": "absolutive: having X-ed"
+          },
+          {
+            "id": "tumun",
+            "label": "tumun",
+            "gloss": "infinitival purpose"
+          },
+          {
+            "id": "trc",
+            "label": "tṛ",
+            "gloss": "agent/doer formation"
+          }
+        ]
+      },
+      {
+        "id": "person",
+        "label": "PERSON",
+        "items": [
+          {
+            "id": "1",
+            "label": "1st"
+          },
+          {
+            "id": "2",
+            "label": "2nd"
+          },
+          {
+            "id": "3",
+            "label": "3rd"
+          }
+        ]
+      },
+      {
+        "id": "number",
+        "label": "NUMBER",
+        "items": [
+          {
+            "id": "sg",
+            "label": "singular"
+          },
+          {
+            "id": "du",
+            "label": "dual"
+          },
+          {
+            "id": "pl",
+            "label": "plural"
+          }
+        ]
+      }
+    ],
+    "rule": "Do not auto-generate a Sanskrit surface form unless a grammar engine validates it. Learner predicts first; engine checks second."
+  },
+  {
+    "id": "karaka-scene",
+    "title": "Kāraka Event Wheel",
+    "historicalBasis": "Brunian agent/action/circumstance logic mapped to Pāṇinian semantic relations.",
+    "mode": "scene",
+    "rings": [
+      {
+        "id": "event",
+        "label": "EVENT",
+        "items": [
+          {
+            "id": "gam",
+            "label": "√gam",
+            "gloss": "go; move"
+          },
+          {
+            "id": "bhu",
+            "label": "√bhū",
+            "gloss": "become; be"
+          },
+          {
+            "id": "kr",
+            "label": "√kṛ",
+            "gloss": "do; make"
+          },
+          {
+            "id": "jna",
+            "label": "√jñā",
+            "gloss": "know"
+          },
+          {
+            "id": "drs",
+            "label": "√dṛś",
+            "gloss": "see"
+          },
+          {
+            "id": "sru",
+            "label": "√śru",
+            "gloss": "hear"
+          }
+        ]
+      },
+      {
+        "id": "relation",
+        "label": "KĀRAKA",
+        "items": [
+          {
+            "id": "kartr",
+            "label": "kartṛ",
+            "gloss": "independent agent/doer"
+          },
+          {
+            "id": "karma",
+            "label": "karman",
+            "gloss": "most desired object/result of action"
+          },
+          {
+            "id": "karana",
+            "label": "karaṇa",
+            "gloss": "most effective means/instrument"
+          },
+          {
+            "id": "sampradana",
+            "label": "sampradāna",
+            "gloss": "recipient/destination"
+          },
+          {
+            "id": "apadana",
+            "label": "apādāna",
+            "gloss": "source/separation point"
+          },
+          {
+            "id": "adhikarana",
+            "label": "adhikaraṇa",
+            "gloss": "locus/substrate"
+          }
+        ]
+      },
+      {
+        "id": "participant",
+        "label": "PARTICIPANT",
+        "items": [
+          {
+            "id": "rama",
+            "label": "Rāma"
+          },
+          {
+            "id": "forest",
+            "label": "forest"
+          },
+          {
+            "id": "staff",
+            "label": "staff"
+          },
+          {
+            "id": "teacher",
+            "label": "teacher"
+          },
+          {
+            "id": "village",
+            "label": "village"
+          },
+          {
+            "id": "heart",
+            "label": "heart"
+          }
+        ]
+      },
+      {
+        "id": "motion",
+        "label": "SPATIAL FEEL",
+        "items": [
+          {
+            "id": "toward",
+            "label": "toward"
+          },
+          {
+            "id": "away",
+            "label": "away"
+          },
+          {
+            "id": "through",
+            "label": "through"
+          },
+          {
+            "id": "within",
+            "label": "within"
+          },
+          {
+            "id": "around",
+            "label": "around"
+          },
+          {
+            "id": "still",
+            "label": "still"
+          }
+        ]
+      }
+    ],
+    "rule": "Kāraka ≠ case ending. Train semantic relation first, morphology second."
+  },
+  {
+    "id": "verse-compiler",
+    "title": "Verse Decompiler / Memory Compiler",
+    "historicalBasis": "Bruno's compositional memory plus Catena/Interpres-style staging; modern synthesis.",
+    "mode": "compile",
+    "rings": [
+      {
+        "id": "sound",
+        "label": "SOUND",
+        "items": [
+          {
+            "id": "hear",
+            "label": "hear"
+          },
+          {
+            "id": "shadow",
+            "label": "shadow"
+          },
+          {
+            "id": "chant",
+            "label": "chant"
+          },
+          {
+            "id": "internal",
+            "label": "inner-hear"
+          }
+        ]
+      },
+      {
+        "id": "boundary",
+        "label": "BOUNDARY",
+        "items": [
+          {
+            "id": "phoneme",
+            "label": "phoneme"
+          },
+          {
+            "id": "sandhi",
+            "label": "sandhi split"
+          },
+          {
+            "id": "pada",
+            "label": "pada"
+          },
+          {
+            "id": "compound",
+            "label": "compound"
+          }
+        ]
+      },
+      {
+        "id": "morphology",
+        "label": "MORPHOLOGY",
+        "items": [
+          {
+            "id": "root",
+            "label": "root"
+          },
+          {
+            "id": "suffix",
+            "label": "suffix"
+          },
+          {
+            "id": "ending",
+            "label": "ending"
+          },
+          {
+            "id": "operator",
+            "label": "operator"
+          }
+        ]
+      },
+      {
+        "id": "relation",
+        "label": "RELATION",
+        "items": [
+          {
+            "id": "karaka",
+            "label": "kāraka"
+          },
+          {
+            "id": "agreement",
+            "label": "agreement"
+          },
+          {
+            "id": "dependency",
+            "label": "dependency"
+          },
+          {
+            "id": "sequence",
+            "label": "sequence"
+          }
+        ]
+      },
+      {
+        "id": "experience",
+        "label": "EXPERIENCE",
+        "items": [
+          {
+            "id": "colour",
+            "label": "colour"
+          },
+          {
+            "id": "body",
+            "label": "body"
+          },
+          {
+            "id": "rhythm",
+            "label": "rhythm"
+          },
+          {
+            "id": "motion",
+            "label": "motion"
+          }
+        ]
+      },
+      {
+        "id": "recall",
+        "label": "RECALL",
+        "items": [
+          {
+            "id": "cold",
+            "label": "cold reconstruct"
+          },
+          {
+            "id": "generate",
+            "label": "generate variant"
+          },
+          {
+            "id": "dream",
+            "label": "dream question"
+          },
+          {
+            "id": "silence",
+            "label": "release into silence"
+          }
+        ]
+      }
+    ],
+    "rule": "Every verse passes from raw sound → analysis → personal world → closed-book reconstruction."
+  }
+] as const;

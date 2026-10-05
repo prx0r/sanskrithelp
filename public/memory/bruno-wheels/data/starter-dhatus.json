@@ -1,0 +1,77 @@
+[
+  {
+    "id": "gam",
+    "devanagari": "गम्",
+    "iast": "√gam",
+    "meaning": "go; move",
+    "present": "gacchati",
+    "voice": "P",
+    "note": "Present stem gaccha-; do not teach as a reduplicative class formation."
+  },
+  {
+    "id": "bhu",
+    "devanagari": "भू",
+    "iast": "√bhū",
+    "meaning": "become; be",
+    "present": "bhavati",
+    "voice": "P"
+  },
+  {
+    "id": "kr",
+    "devanagari": "कृ",
+    "iast": "√kṛ",
+    "meaning": "do; make",
+    "present": "karoti / kurute",
+    "voice": "U"
+  },
+  {
+    "id": "jna",
+    "devanagari": "ज्ञा",
+    "iast": "√jñā",
+    "meaning": "know",
+    "present": "jānāti",
+    "voice": "P"
+  },
+  {
+    "id": "drs",
+    "devanagari": "दृश्",
+    "iast": "√dṛś",
+    "meaning": "see",
+    "present": "paśyati",
+    "voice": "P",
+    "note": "Suppletive/irregular present; do not label 'causal-like'."
+  },
+  {
+    "id": "sru",
+    "devanagari": "श्रु",
+    "iast": "√śru",
+    "meaning": "hear",
+    "present": "śṛṇoti",
+    "voice": "P"
+  },
+  {
+    "id": "stha",
+    "devanagari": "स्था",
+    "iast": "√sthā",
+    "meaning": "stand; remain",
+    "present": "tiṣṭhati",
+    "voice": "P"
+  },
+  {
+    "id": "ni",
+    "devanagari": "नी",
+    "iast": "√nī",
+    "meaning": "lead; carry",
+    "present": "nayati",
+    "voice": "P"
+  },
+  {
+    "id": "labh",
+    "devanagari": "लभ्",
+    "iast": "√labh",
+    "meaning": "obtain; receive",
+    "present": "labhate",
+    "voice": "Ā",
+    "note": "Starter data treats the common classical present as ātmanepada."
+  }
+]

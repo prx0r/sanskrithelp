@@ -1,0 +1,4 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema","title":"MemoryOverlay","type":"object","required":["version","worldId","bindings"],
+  "properties":{"version":{"const":"0.1"},"worldId":{"type":"string"},"bindings":{"type":"array","items":{"type":"object","required":["node"],"properties":{"node":{"type":"string"},"colour":{"type":"string"},"emotion":{"type":"string"},"bodyLocation":{"type":"string"},"rhythm":{"type":"string"},"tone":{"type":"string"},"motion":{"type":"string"},"image":{"type":"string"},"texture":{"type":"string"},"notes":{"type":"string"}}}}}
+}

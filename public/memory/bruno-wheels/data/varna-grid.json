@@ -1,0 +1,53 @@
+{
+  "places": [
+    "velar",
+    "palatal",
+    "retroflex",
+    "dental",
+    "labial"
+  ],
+  "manners": [
+    "unvoiced",
+    "unvoiced aspirated",
+    "voiced",
+    "voiced aspirated",
+    "nasal"
+  ],
+  "grid": {
+    "velar": [
+      "k",
+      "kh",
+      "g",
+      "gh",
+      "ṅ"
+    ],
+    "palatal": [
+      "c",
+      "ch",
+      "j",
+      "jh",
+      "ñ"
+    ],
+    "retroflex": [
+      "ṭ",
+      "ṭh",
+      "ḍ",
+      "ḍh",
+      "ṇ"
+    ],
+    "dental": [
+      "t",
+      "th",
+      "d",
+      "dh",
+      "n"
+    ],
+    "labial": [
+      "p",
+      "ph",
+      "b",
+      "bh",
+      "m"
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "ac": {
+    "baseMembers": [
+      "a",
+      "i",
+      "u",
+      "ṛ",
+      "ḷ",
+      "e",
+      "o",
+      "ai",
+      "au"
+    ],
+    "note": "Vowels in the Śiva-sūtra sequence; long homogeneous vowels are handled through Pāṇinian savarṇa conventions, not by pretending they are explicit members of the sūtra string."
+  },
+  "ik": {
+    "baseMembers": [
+      "i",
+      "u",
+      "ṛ",
+      "ḷ"
+    ],
+    "note": "Core iK class."
+  },
+  "ec": {
+    "baseMembers": [
+      "e",
+      "o",
+      "ai",
+      "au"
+    ],
+    "note": "eC class."
+  },
+  "yaṇ": {
+    "baseMembers": [
+      "y",
+      "v",
+      "r",
+      "l"
+    ],
+    "note": "Semivowels."
+  },
+  "hal": {
+    "baseMembers": [
+      "h",
+      "y",
+      "v",
+      "r",
+      "l",
+      "ñ",
+      "m",
+      "ṅ",
+      "ṇ",
+      "n",
+      "jh",
+      "bh",
+      "gh",
+      "ḍh",
+      "dh",
+      "j",
+      "b",
+      "g",
+      "ḍ",
+      "d",
+      "kh",
+      "ph",
+      "ch",
+      "ṭh",
+      "th",
+      "c",
+      "ṭ",
+      "t",
+      "k",
+      "p",
+      "ś",
+      "ṣ",
+      "s",
+      "h"
+    ],
+    "note": "All consonants; represented here as the base Śiva-sūtra sequence."
+  }
+}

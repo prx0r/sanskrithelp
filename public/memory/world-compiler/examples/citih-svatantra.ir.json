@@ -1,0 +1,12 @@
+{
+ "version":"0.1","id":"citih-svatantra","title":"Pratyabhijñāhṛdayam 1 — concept dome","text":"चितिः स्वतन्त्रा विश्वसिद्धिहेतुः","iast":"citiḥ svatantrā viśvasiddhihetuḥ",
+ "tokens":[
+  {"id":"t1","surface":"citiḥ","lemma":"citi","pos":"NOUN","morph":{"case":"nominative","number":"singular","gender":"feminine"},"phonemes":["c","i","t","i"]},
+  {"id":"t2","surface":"svatantrā","lemma":"svatantra","pos":"ADJ","morph":{"case":"nominative","number":"singular","gender":"feminine"},"phonemes":["s","v","t","n","t","r"]},
+  {"id":"t3","surface":"viśvasiddhihetuḥ","lemma":"viśva-siddhi-hetu","pos":"NOUN","morph":{"case":"nominative","number":"singular","gender":"masculine","compound":true},"phonemes":["v","s","d","dh","h","t"]}
+ ],
+ "syntax":[{"source":"t2","target":"t1","relation":"predicate_attribute"},{"source":"t3","target":"t1","relation":"predicate_nominal"}],
+ "concepts":[{"id":"c:citi","label":"citi / consciousness"},{"id":"c:svatantrya","label":"svātantrya / autonomy"},{"id":"c:visva","label":"viśva / universe"},{"id":"c:siddhi","label":"siddhi / manifestation"},{"id":"c:hetu","label":"hetu / cause"}],
+ "semanticEdges":[{"source":"c:citi","target":"c:svatantrya","relation":"has_quality"},{"source":"c:citi","target":"c:visva","relation":"grounds"},{"source":"c:hetu","target":"c:siddhi","relation":"causes"},{"source":"c:siddhi","target":"c:visva","relation":"of"}],
+ "provenance":{"text":"Pratyabhijñāhṛdayam 1","analysis":"starter conceptual graph; philological review recommended"}
+}

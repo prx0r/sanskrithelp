@@ -1,0 +1,24 @@
+{
+  "version":"0.1","id":"asato-ma","title":"Asato Mā — movement architecture",
+  "text":"असतो मा सद्गमय । तमसो मा ज्योतिर्गमय । मृत्योर्मा अमृतं गमय ॥",
+  "iast":"asato mā sad gamaya | tamaso mā jyotir gamaya | mṛtyor mā amṛtaṃ gamaya",
+  "tokens":[
+    {"id":"t1","surface":"asato","lemma":"asat","pos":"NOUN","morph":{"case":"ablative","number":"singular"},"phonemes":["a","s","a","t","o"],"derivation":[{"provider":"manual-reviewed","operation":"visarga-sandhi","underlying":"asataḥ","surface":"asato"}]},
+    {"id":"t2","surface":"mā","lemma":"mā","pos":"PART","phonemes":["m"]},
+    {"id":"t3","surface":"sad","lemma":"sat","pos":"NOUN","morph":{"case":"accusative","number":"singular"},"phonemes":["s","a","d"],"derivation":[{"provider":"manual-reviewed","operation":"consonant-voicing","underlying":"sat","surface":"sad","environment":"before g"}]},
+    {"id":"t4","surface":"gamaya","root":"gam","rootMeaning":"go, move","pos":"VERB","morph":{"derivation":"causative","mood":"imperative","person":"2","number":"singular"},"phonemes":["g","m"],"derivation":[{"provider":"manual-reviewed","operation":"causative","label":"ṇic","result":"gamay-"},{"provider":"manual-reviewed","operation":"imperative-2sg","result":"gamaya"}]},
+    {"id":"t5","surface":"tamaso","lemma":"tamas","pos":"NOUN","morph":{"case":"ablative","number":"singular"},"phonemes":["t","m","s","o"],"derivation":[{"provider":"manual-reviewed","operation":"visarga-sandhi","underlying":"tamasaḥ","surface":"tamaso"}]},
+    {"id":"t6","surface":"mā","lemma":"mā","pos":"PART","phonemes":["m"]},
+    {"id":"t7","surface":"jyotir","lemma":"jyotis","pos":"NOUN","morph":{"case":"accusative","number":"singular"},"phonemes":["j","y","o","t","i","r"]},
+    {"id":"t8","surface":"gamaya","root":"gam","rootMeaning":"go, move","pos":"VERB","morph":{"derivation":"causative","mood":"imperative","person":"2","number":"singular"},"phonemes":["g","m"],"derivation":[{"provider":"shared","operation":"same_as_t4"}]},
+    {"id":"t9","surface":"mṛtyor","lemma":"mṛtyu","pos":"NOUN","morph":{"case":"ablative","number":"singular"},"phonemes":["m","r","t","y","u","r"]},
+    {"id":"t10","surface":"mā","lemma":"mā","pos":"PART","phonemes":["m"]},
+    {"id":"t11","surface":"amṛtaṃ","lemma":"amṛta","pos":"NOUN","morph":{"case":"accusative","number":"singular"},"phonemes":["m","r","t"]},
+    {"id":"t12","surface":"gamaya","root":"gam","rootMeaning":"go, move","pos":"VERB","morph":{"derivation":"causative","mood":"imperative","person":"2","number":"singular"},"phonemes":["g","m"],"derivation":[{"provider":"shared","operation":"same_as_t4"}]}
+  ],
+  "sandhi":[{"id":"s1","left":"t1","right":"t2","label":"asataḥ + mā → asato mā"},{"id":"s2","left":"t3","right":"t4","label":"sat + gamaya → sad gamaya"},{"id":"s3","left":"t5","right":"t6","label":"tamasaḥ + mā → tamaso mā"},{"id":"s4","left":"t9","right":"t10","label":"mṛtyoḥ + mā → mṛtyor mā"}],
+  "syntax":[{"source":"t1","target":"t4","relation":"apādāna"},{"source":"t3","target":"t4","relation":"karman"},{"source":"t5","target":"t8","relation":"apādāna"},{"source":"t7","target":"t8","relation":"karman"},{"source":"t9","target":"t12","relation":"apādāna"},{"source":"t11","target":"t12","relation":"karman"}],
+  "concepts":[{"id":"c:asat","label":"asat"},{"id":"c:sat","label":"sat"},{"id":"c:tamas","label":"tamas"},{"id":"c:jyotis","label":"jyotis"},{"id":"c:mrtyu","label":"mṛtyu"},{"id":"c:amrta","label":"amṛta"},{"id":"c:motion","label":"directed transformation / gamaya"}],
+  "semanticEdges":[{"source":"c:asat","target":"c:sat","relation":"opposition_and_transition"},{"source":"c:tamas","target":"c:jyotis","relation":"opposition_and_transition"},{"source":"c:mrtyu","target":"c:amrta","relation":"opposition_and_transition"},{"source":"c:motion","target":"c:sat","relation":"destination"},{"source":"c:motion","target":"c:jyotis","relation":"destination"},{"source":"c:motion","target":"c:amrta","relation":"destination"}],
+  "provenance":{"analysis":"starter manually reviewed pedagogical analysis; replace or augment with Vidyut/Sanskrit Heritage outputs"}
+}

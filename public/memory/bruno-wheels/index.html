@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bruno × Sanskrit Wheel Lab</title>
+<style>
+:root{--bg:#0e0a13;--card:#17111f;--text:#ece6df;--muted:#a99caf;--line:#4a3c55;--accent:#d3ad63}
+*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font:15px/1.45 system-ui,sans-serif}
+main{max-width:1180px;margin:auto;padding:24px} h1{margin:.2rem 0} .muted{color:var(--muted)} .tabs{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0}
+button,select,input{font:inherit} button{background:var(--card);color:var(--text);border:1px solid var(--line);border-radius:9px;padding:8px 11px;cursor:pointer}
+button.active{border-color:var(--accent)} .grid{display:grid;grid-template-columns:minmax(0,1fr) 370px;gap:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px} #wheel{width:100%;aspect-ratio:1;max-height:650px}
+.control{padding:12px 0;border-bottom:1px solid var(--line)} .control:last-child{border:0} .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.binding{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px} input{width:100%;background:#0f0b14;color:var(--text);border:1px solid var(--line);border-radius:8px;padding:9px}
+.result{font-size:28px;font-weight:700;color:var(--accent)} pre{white-space:pre-wrap;overflow:auto;background:#0b0810;padding:12px;border-radius:10px}
+@media(max-width:820px){.grid{grid-template-columns:1fr}.binding{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<main>
+  <h1>Bruno × Sanskrit Wheel Lab</h1>
+  <p class="muted">Bruno supplies the combinatorial memory interface. Sanskrit phonology/Pāṇini supply validity. Personal colour, emotion, body and rhythm are your own mnemonic bindings.</p>
+  <div class="tabs" id="tabs"></div>
+  <div class="card"><h2 id="title"></h2><p id="basis" class="muted"></p><p><b>Constraint:</b> <span id="rule"></span></p></div>
+  <div class="grid" style="margin-top:18px">
+    <div class="card"><svg id="wheel" viewBox="0 0 600 600"></svg></div>
+    <div class="card" id="controls"></div>
+  </div>
+  <div class="card" style="margin-top:18px">
+    <h2>Personal binding</h2>
+    <p class="muted">Store the felt representation you actually discover. These fields are not claims about traditional Sanskrit correspondences.</p>
+    <input id="primitive" value="phoneme:ka" placeholder="phoneme:ka / dhatu:gam / operator:nic">
+    <div class="binding" style="margin-top:8px">
+      <input data-bind="colour" placeholder="colour">
+      <input data-bind="emotion" placeholder="emotion">
+      <input data-bind="bodyLocation" placeholder="body location">
+      <input data-bind="rhythm" placeholder="rhythm">
+      <input data-bind="tone" placeholder="tone">
+      <input data-bind="motion" placeholder="motion">
+      <input data-bind="image" placeholder="image / figure">
+      <input data-bind="notes" placeholder="notes">
+    </div>
+    <div class="row" style="margin-top:10px">
+      <button onclick="saveBinding()">Save binding</button>
+      <button onclick="exportWorld()">Export StoneDoorway JSON</button>
+      <span id="saved" class="muted"></span>
+    </div>
+  </div>
+</main>
+<script>
+const PRESETS=[{"id": "varna-formation", "title": "Varṇa Formation Wheel", "historicalBasis": "Brunian combinatorial form adapted to the real Sanskrit place × manner grid.", "mode": "prediction", "rings": [{"id": "place", "label": "PLACE / sthāna", "items": [{"id": "velar", "label": "velar"}, {"id": "palatal", "label": "palatal"}, {"id": "retroflex", "label": "retroflex"}, {"id": "dental", "label": "dental"}, {"id": "labial", "label": "labial"}]}, {"id": "manner", "label": "MANNER / prayatna", "items": [{"id": "unvoiced", "label": "unvoiced"}, {"id": "unvoiced-aspirated", "label": "unvoiced aspirated"}, {"id": "voiced", "label": "voiced"}, {"id": "voiced-aspirated", "label": "voiced aspirated"}, {"id": "nasal", "label": "nasal"}]}], "rule": "Selection resolves to a real Sanskrit stop/nasal. This wheel is deterministic."}, {"id": "bruno-five-ring", "title": "Bruno Five-Ring Scene Encoder", "historicalBasis": "De umbris idearum: agent × action × ensign × adstans/attribute × circumstance. Here the mappings are deliberately personal rather than mythological defaults.", "mode": "encode", "rings": [{"id": "agent", "label": "AGENT", "items": [{"id": "a1", "label": "your agent 1"}, {"id": "a2", "label": "your agent 2"}, {"id": "a3", "label": "your agent 3"}, {"id": "a4", "label": "your agent 4"}, {"id": "a5", "label": "your agent 5"}]}, {"id": "action", "label": "ACTION", "items": [{"id": "x1", "label": "cuts"}, {"id": "x2", "label": "pulls"}, {"id": "x3", "label": "spins"}, {"id": "x4", "label": "opens"}, {"id": "x5", "label": "melts"}]}, {"id": "ensign", "label": "ENSIGN", "items": [{"id": "e1", "label": "chain"}, {"id": "e2", "label": "ring"}, {"id": "e3", "label": "staff"}, {"id": "e4", "label": "mirror"}, {"id": "e5", "label": "thread"}]}, {"id": "attribute", "label": "ATTRIBUTE / ADSTANS", "items": [{"id": "q1", "label": "huge"}, {"id": "q2", "label": "cold"}, {"id": "q3", "label": "vibrating"}, {"id": "q4", "label": "bright"}, {"id": "q5", "label": "weightless"}]}, {"id": "circumstance", "label": "CIRCUMSTANCE", "items": [{"id": "c1", "label": "at a threshold"}, {"id": "c2", "label": "inside a cave"}, {"id": "c3", "label": "on the body"}, {"id": "c4", "label": "in open space"}, {"id": "c5", "label": "between two sounds"}]}], "rule": "Use this only after assigning stable personal mappings to the Sanskrit sound units you want to encode."}, {"id": "dhatu-operator", "title": "Dhātu × Operator Prediction Wheel", "historicalBasis": "Llull/Bruno combinatorics adapted to Sanskrit morphology. Pāṇini is the validator.", "mode": "predict", "rings": [{"id": "root", "label": "DHĀTU / AGENT", "items": [{"id": "gam", "label": "√gam", "gloss": "go; move"}, {"id": "bhu", "label": "√bhū", "gloss": "become; be"}, {"id": "kr", "label": "√kṛ", "gloss": "do; make"}, {"id": "jna", "label": "√jñā", "gloss": "know"}, {"id": "drs", "label": "√dṛś", "gloss": "see"}, {"id": "sru", "label": "√śru", "gloss": "hear"}, {"id": "stha", "label": "√sthā", "gloss": "stand; remain"}, {"id": "ni", "label": "√nī", "gloss": "lead; carry"}, {"id": "labh", "label": "√labh", "gloss": "obtain; receive"}]}, {"id": "upasarga", "label": "UPASARGA", "items": [{"id": "none", "label": "—", "gloss": "bare root"}, {"id": "aa", "label": "ā-", "gloss": "toward/near; lexical meaning must be checked"}, {"id": "pra", "label": "pra-", "gloss": "forth/forward; lexical meaning must be checked"}, {"id": "pari", "label": "pari-", "gloss": "around/fully; lexical meaning must be checked"}, {"id": "sam", "label": "sam-", "gloss": "together/completely; lexical meaning must be checked"}, {"id": "vi", "label": "vi-", "gloss": "apart/distinctly; lexical meaning must be checked"}, {"id": "ni", "label": "ni-", "gloss": "down/in; lexical meaning must be checked"}, {"id": "upa", "label": "upa-", "gloss": "toward/near; lexical meaning must be checked"}]}, {"id": "operator", "label": "MORPHOLOGICAL OPERATOR", "items": [{"id": "lat", "label": "laṭ", "gloss": "present-system challenge"}, {"id": "nic", "label": "ṇic", "gloss": "causative: cause X-event"}, {"id": "kta", "label": "kta", "gloss": "result/completed participle"}, {"id": "ktva", "label": "ktvā", "gloss": "absolutive: having X-ed"}, {"id": "tumun", "label": "tumun", "gloss": "infinitival purpose"}, {"id": "trc", "label": "tṛ", "gloss": "agent/doer formation"}]}, {"id": "person", "label": "PERSON", "items": [{"id": "1", "label": "1st"}, {"id": "2", "label": "2nd"}, {"id": "3", "label": "3rd"}]}, {"id": "number", "label": "NUMBER", "items": [{"id": "sg", "label": "singular"}, {"id": "du", "label": "dual"}, {"id": "pl", "label": "plural"}]}], "rule": "Do not auto-generate a Sanskrit surface form unless a grammar engine validates it. Learner predicts first; engine checks second."}, {"id": "karaka-scene", "title": "Kāraka Event Wheel", "historicalBasis": "Brunian agent/action/circumstance logic mapped to Pāṇinian semantic relations.", "mode": "scene", "rings": [{"id": "event", "label": "EVENT", "items": [{"id": "gam", "label": "√gam", "gloss": "go; move"}, {"id": "bhu", "label": "√bhū", "gloss": "become; be"}, {"id": "kr", "label": "√kṛ", "gloss": "do; make"}, {"id": "jna", "label": "√jñā", "gloss": "know"}, {"id": "drs", "label": "√dṛś", "gloss": "see"}, {"id": "sru", "label": "√śru", "gloss": "hear"}]}, {"id": "relation", "label": "KĀRAKA", "items": [{"id": "kartr", "label": "kartṛ", "gloss": "independent agent/doer"}, {"id": "karma", "label": "karman", "gloss": "most desired object/result of action"}, {"id": "karana", "label": "karaṇa", "gloss": "most effective means/instrument"}, {"id": "sampradana", "label": "sampradāna", "gloss": "recipient/destination"}, {"id": "apadana", "label": "apādāna", "gloss": "source/separation point"}, {"id": "adhikarana", "label": "adhikaraṇa", "gloss": "locus/substrate"}]}, {"id": "participant", "label": "PARTICIPANT", "items": [{"id": "rama", "label": "Rāma"}, {"id": "forest", "label": "forest"}, {"id": "staff", "label": "staff"}, {"id": "teacher", "label": "teacher"}, {"id": "village", "label": "village"}, {"id": "heart", "label": "heart"}]}, {"id": "motion", "label": "SPATIAL FEEL", "items": [{"id": "toward", "label": "toward"}, {"id": "away", "label": "away"}, {"id": "through", "label": "through"}, {"id": "within", "label": "within"}, {"id": "around", "label": "around"}, {"id": "still", "label": "still"}]}], "rule": "Kāraka ≠ case ending. Train semantic relation first, morphology second."}, {"id": "verse-compiler", "title": "Verse Decompiler / Memory Compiler", "historicalBasis": "Bruno's compositional memory plus Catena/Interpres-style staging; modern synthesis.", "mode": "compile", "rings": [{"id": "sound", "label": "SOUND", "items": [{"id": "hear", "label": "hear"}, {"id": "shadow", "label": "shadow"}, {"id": "chant", "label": "chant"}, {"id": "internal", "label": "inner-hear"}]}, {"id": "boundary", "label": "BOUNDARY", "items": [{"id": "phoneme", "label": "phoneme"}, {"id": "sandhi", "label": "sandhi split"}, {"id": "pada", "label": "pada"}, {"id": "compound", "label": "compound"}]}, {"id": "morphology", "label": "MORPHOLOGY", "items": [{"id": "root", "label": "root"}, {"id": "suffix", "label": "suffix"}, {"id": "ending", "label": "ending"}, {"id": "operator", "label": "operator"}]}, {"id": "relation", "label": "RELATION", "items": [{"id": "karaka", "label": "kāraka"}, {"id": "agreement", "label": "agreement"}, {"id": "dependency", "label": "dependency"}, {"id": "sequence", "label": "sequence"}]}, {"id": "experience", "label": "EXPERIENCE", "items": [{"id": "colour", "label": "colour"}, {"id": "body", "label": "body"}, {"id": "rhythm", "label": "rhythm"}, {"id": "motion", "label": "motion"}]}, {"id": "recall", "label": "RECALL", "items": [{"id": "cold", "label": "cold reconstruct"}, {"id": "generate", "label": "generate variant"}, {"id": "dream", "label": "dream question"}, {"id": "silence", "label": "release into silence"}]}], "rule": "Every verse passes from raw sound → analysis → personal world → closed-book reconstruction."}];
+const GRID={"places": ["velar", "palatal", "retroflex", "dental", "labial"], "manners": ["unvoiced", "unvoiced aspirated", "voiced", "voiced aspirated", "nasal"], "grid": {"velar": ["k", "kh", "g", "gh", "ṅ"], "palatal": ["c", "ch", "j", "jh", "ñ"], "retroflex": ["ṭ", "ṭh", "ḍ", "ḍh", "ṇ"], "dental": ["t", "th", "d", "dh", "n"], "labial": ["p", "ph", "b", "bh", "m"]}};
+const ROOTS=[{"id": "gam", "devanagari": "गम्", "iast": "√gam", "meaning": "go; move", "present": "gacchati", "voice": "P", "note": "Present stem gaccha-; do not teach as a reduplicative class formation."}, {"id": "bhu", "devanagari": "भू", "iast": "√bhū", "meaning": "become; be", "present": "bhavati", "voice": "P"}, {"id": "kr", "devanagari": "कृ", "iast": "√kṛ", "meaning": "do; make", "present": "karoti / kurute", "voice": "U"}, {"id": "jna", "devanagari": "ज्ञा", "iast": "√jñā", "meaning": "know", "present": "jānāti", "voice": "P"}, {"id": "drs", "devanagari": "दृश्", "iast": "√dṛś", "meaning": "see", "present": "paśyati", "voice": "P", "note": "Suppletive/irregular present; do not label 'causal-like'."}, {"id": "sru", "devanagari": "श्रु", "iast": "√śru", "meaning": "hear", "present": "śṛṇoti", "voice": "P"}, {"id": "stha", "devanagari": "स्था", "iast": "√sthā", "meaning": "stand; remain", "present": "tiṣṭhati", "voice": "P"}, {"id": "ni", "devanagari": "नी", "iast": "√nī", "meaning": "lead; carry", "present": "nayati", "voice": "P"}, {"id": "labh", "devanagari": "लभ्", "iast": "√labh", "meaning": "obtain; receive", "present": "labhate", "voice": "Ā", "note": "Starter data treats the common classical present as ātmanepada."}];
+let current=0, state={}, bindings=JSON.parse(localStorage.getItem("brunoBindings")||"[]");
+const svg=document.getElementById("wheel");
+function el(name,attrs={}){const x=document.createElementNS("http://www.w3.org/2000/svg",name);for(const [k,v] of Object.entries(attrs))x.setAttribute(k,v);return x}
+function renderTabs(){const t=document.getElementById("tabs");t.innerHTML="";PRESETS.forEach((p,i)=>{const b=document.createElement("button");b.textContent=p.title;b.className=i===current?"active":"";b.onclick=()=>{current=i;state={};render()};t.appendChild(b)})}
+function selected(r){return r.items[state[r.id]||0]}
+function renderWheel(p){
+  svg.innerHTML=""; const cx=300,cy=300,maxR=258, rw=Math.max(34,190/p.rings.length);
+  p.rings.forEach((r,ri)=>{const rad=maxR-ri*rw, items=r.items;
+    const c=el("circle",{cx,cy,r:rad,fill:"none",stroke:"#7d6d84","stroke-opacity":.55});svg.appendChild(c);
+    items.forEach((it,i)=>{const a=-Math.PI/2+i/items.length*Math.PI*2; const rr=rad-rw/2;
+      const tx=cx+Math.cos(a)*rr, ty=cy+Math.sin(a)*rr;
+      const txt=el("text",{x:tx,y:ty,fill:i===(state[r.id]||0)?"#d3ad63":"#c5b9c9","font-size":i===(state[r.id]||0)?13:10,"text-anchor":"middle","dominant-baseline":"middle"});
+      txt.textContent=it.label.length>16?it.label.slice(0,15)+"…":it.label;svg.appendChild(txt);
+    });
+  });
+  const hub=el("circle",{cx,cy,r:48,fill:"#d3ad63","fill-opacity":.08,stroke:"#7d6d84"});svg.appendChild(hub);
+  const tx=el("text",{x:cx,y:cy,fill:"#ece6df","font-size":14,"font-weight":"700","text-anchor":"middle","dominant-baseline":"middle"});tx.textContent="BRUNO × SANSKRIT";svg.appendChild(tx);
+}
+function rotate(rid,n,d){state[rid]=((state[rid]||0)+d+n)%n;render()}
+function renderControls(p){
+  const box=document.getElementById("controls");box.innerHTML="";
+  p.rings.forEach(r=>{const it=selected(r),d=document.createElement("div");d.className="control";
+    d.innerHTML=`<div class="muted">${r.label}</div><div style="font-size:19px;font-weight:700">${it.label}</div>${it.gloss?`<div class="muted">${it.gloss}</div>`:""}<div class="row" style="margin-top:8px"><button>←</button><button>→</button></div>`;
+    const bs=d.querySelectorAll("button");bs[0].onclick=()=>rotate(r.id,r.items.length,-1);bs[1].onclick=()=>rotate(r.id,r.items.length,1);box.appendChild(d);
+  });
+  if(p.id==="varna-formation"){
+    const place=selected(p.rings[0]).label, manner=selected(p.rings[1]).label;
+    const out=GRID.grid[place][GRID.manners.indexOf(manner)];
+    const d=document.createElement("div");d.className="control";d.innerHTML=`<div class="muted">DETERMINISTIC RESULT</div><div class="result">${out}</div><div class="muted">Say it; feel the articulation; then bind your personal sensory qualities.</div>`;box.appendChild(d);
+  }
+}
+function render(){renderTabs();const p=PRESETS[current];document.getElementById("title").textContent=p.title;document.getElementById("basis").textContent=p.historicalBasis;document.getElementById("rule").textContent=p.rule;renderWheel(p);renderControls(p);document.getElementById("saved").textContent=bindings.length+" primitives stored";}
+function saveBinding(){
+  const primitiveId=document.getElementById("primitive").value.trim();if(!primitiveId)return;
+  const b={primitiveId,sourceAttested:false};document.querySelectorAll("[data-bind]").forEach(x=>b[x.dataset.bind]=x.value);
+  bindings=bindings.filter(x=>x.primitiveId!==primitiveId);bindings.push(b);localStorage.setItem("brunoBindings",JSON.stringify(bindings));render();
+}
+function exportWorld(){
+  const p=PRESETS[current];
+  const world={version:"0.1",kind:"sanskrit-memory-world",source:"sanskrithelp-bruno",generatedAt:new Date().toISOString(),associations:bindings,
+    wheelStates:[{wheelId:p.id,selections:state,timestamp:new Date().toISOString()}],
+    nightHandoff:{installed:bindings.map(x=>x.primitiveId),recallPrompt:"Cold reconstruct today's Sanskrit structures before looking.",dreamPrompt:"Hold one unresolved relation lightly; record whatever appears without treating it as authoritative.",provenanceNote:"Personal bindings are pedagogical inventions unless explicitly source-attested."}
+  };
+  const blob=new Blob([JSON.stringify(world,null,2)],{type:"application/json"}),a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="sanskrit-memory-world.json";a.click();
+}
+render();
+</script>
+</body></html>

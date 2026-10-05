@@ -1,0 +1,16 @@
+"use client";
+import {useEffect,useRef,useState} from "react";
+
+type World={title:string;text:string;nodes:any[];edges:any[]};
+const COLORS:Record<string,string>={phoneme:"#697a91",token:"#e5c07b",dhatu:"#c678dd",lemma:"#abb2bf",derivation_step:"#56b6c2",sandhi_gate:"#e06c75",concept:"#98c379",predicate:"#61afef",operator:"#d19a66"};
+
+export default function SanskritWorldViewer(){
+ const canvas=useRef<HTMLCanvasElement>(null); const [world,setWorld]=useState<World|null>(null); const [info,setInfo]=useState<any>(null); const camera=useRef({rx:-.45,ry:.45,zoom:31,drag:false,last:[0,0] as [number,number]});
+ useEffect(()=>{if(!world||!canvas.current)return;const c=canvas.current,ctx=c.getContext("2d")!;
+  const project=(n:any)=>{let{x,y,z}=n,s=camera.current,cy=Math.cos(s.ry),sy=Math.sin(s.ry),cx=Math.cos(s.rx),sx=Math.sin(s.rx);let x1=x*cy-z*sy,z1=x*sy+z*cy,y1=y*cx-z1*sx,z2=y*sx+z1*cx,sc=s.zoom*(38/(38+z2));return{x:c.width/2+x1*sc,y:c.height/2+y1*sc,z:z2}};
+  const draw=()=>{let dpr=devicePixelRatio||1,r=c.getBoundingClientRect();c.width=Math.max(650,r.width*dpr);c.height=560*dpr;ctx.fillStyle="#0b0910";ctx.fillRect(0,0,c.width,c.height);let m=new Map(world.nodes.map(n=>[n.id,project(n)]));ctx.strokeStyle="#887b9250";for(const e of world.edges){let a:any=m.get(e.source),b:any=m.get(e.target);if(!a||!b)continue;ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke()}for(const n of [...world.nodes].sort((a,b)=>(m.get(a.id) as any).z-(m.get(b.id) as any).z)){let p:any=m.get(n.id);ctx.fillStyle=COLORS[n.kind]||"#aaa";ctx.beginPath();ctx.arc(p.x,p.y,(n.kind==="phoneme"?4:6)*dpr,0,Math.PI*2);ctx.fill();if(n.kind!=="phoneme"){ctx.fillStyle="#eee";ctx.font=`${11*dpr}px system-ui`;ctx.textAlign="center";ctx.fillText(n.label,p.x,p.y-9*dpr)}}};
+  draw(); const down=(e:PointerEvent)=>{camera.current.drag=true;camera.current.last=[e.clientX,e.clientY]},up=()=>camera.current.drag=false,move=(e:PointerEvent)=>{if(!camera.current.drag)return;camera.current.ry+=(e.clientX-camera.current.last[0])*.008;camera.current.rx+=(e.clientY-camera.current.last[1])*.008;camera.current.last=[e.clientX,e.clientY];draw()},wheel=(e:WheelEvent)=>{e.preventDefault();camera.current.zoom=Math.max(10,Math.min(80,camera.current.zoom-e.deltaY*.03));draw()};
+  c.addEventListener("pointerdown",down);c.addEventListener("pointerup",up);c.addEventListener("pointermove",move);c.addEventListener("wheel",wheel,{passive:false});return()=>{c.removeEventListener("pointerdown",down);c.removeEventListener("pointerup",up);c.removeEventListener("pointermove",move);c.removeEventListener("wheel",wheel)};
+ },[world]);
+ return <div className="space-y-4"><label className="inline-flex px-4 py-2 rounded-lg border border-border cursor-pointer">Load compiled world<input type="file" accept=".json" className="hidden" onChange={async e=>{const f=e.target.files?.[0];if(f)setWorld(JSON.parse(await f.text()))}}/></label>{world&&<><div><h2 className="font-semibold">{world.title}</h2><p className="text-sm text-muted-foreground">{world.text}</p></div><canvas ref={canvas} className="w-full rounded-xl border border-border bg-black touch-none"/></>}{info&&<pre>{JSON.stringify(info,null,2)}</pre>}</div>;
+}

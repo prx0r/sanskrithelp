@@ -1,0 +1,9 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"SanskritWorldIR","type":"object","required":["version","id","text","tokens"],
+  "properties":{
+    "version":{"const":"0.1"},"id":{"type":"string"},"title":{"type":"string"},"text":{"type":"string"},"iast":{"type":"string"},
+    "tokens":{"type":"array","items":{"type":"object","required":["id","surface"],"properties":{"id":{"type":"string"},"surface":{"type":"string"},"lemma":{"type":["string","null"]},"root":{"type":["string","null"]},"rootMeaning":{"type":["string","null"]},"pos":{"type":["string","null"]},"phonemes":{"type":"array","items":{"type":"string"}},"morph":{"type":"object"},"provider":{"type":["string","null"]},"derivation":{"type":"array","items":{"type":"object"}}}}},
+    "sandhi":{"type":"array"},"syntax":{"type":"array"},"concepts":{"type":"array"},"semanticEdges":{"type":"array"},"provenance":{"type":"object"}
+  }
+}
