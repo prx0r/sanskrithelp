@@ -4,6 +4,7 @@ import Link from "next/link";
 import {
   ArrowLeft,
   Brain,
+  BookMarked,
   Ear,
   Compass,
   Hash,
@@ -19,6 +20,13 @@ const SECTIONS = [
     subtitle: "Phoneme → body locus",
     desc: "2 phonemes a night. Play the cycle, say the sound, touch the locus, try yourself in the gap. Sound + articulation + touch first — visualization later.",
     icon: Ear,
+  },
+  {
+    href: "/memory/canonical/TANTRALOKA_CANONICAL.md",
+    title: "Tantrāloka Canonical",
+    subtitle: "Volume corpus · locked spine",
+    desc: "Dyczkowski volume Tantrāloka = canonical practice spine. MV = root scripture. 37 āhnika files + 11 vols on attached disk. Practice loci: TĀ 15 nyāsa · TĀ 4.91 breath.",
+    icon: BookMarked,
   },
   {
     href: "/memory/body-diagram.html",

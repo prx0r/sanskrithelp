@@ -1,0 +1,41 @@
+# Āhnika index (volume)
+
+| File | Lines | Title hint |
+|------|------:|------------|
+| `ahnika-01.txt` | 36860 | ĀHNIKA 1 |
+| `ahnika-02.txt` | 375 | ĀHNIKA 2 |
+| `ahnika-03.txt` | 72 | ĀHNIKA 3 |
+| `ahnika-04.txt` | 35812 | ĀHNIKA 4 |
+| `ahnika-05.txt` | 315 | ĀHNIKA 5 |
+| `ahnika-06.txt` | 57 | ĀHNIKA 6 |
+| `ahnika-07.txt` | 598 | ĀHNIKA 7 |
+| `ahnika-08.txt` | 69 | ĀHNIKA 8 |
+| `ahnika-09.txt` | 136 | ĀHNIKA 9 |
+| `ahnika-10.txt` | 111 | ĀHNIKA 10 |
+| `ahnika-11.txt` | 48 | ĀHNIKA 11 |
+| `ahnika-12.txt` | 122 | ĀHNIKA 12 |
+| `ahnika-13.txt` | 135 | ĀHNIKA 13 |
+| `ahnika-14.txt` | 135 | ĀHNIKA 14 |
+| `ahnika-15.txt` | 10764 | ĀHNIKA 15 |
+| `ahnika-16.txt` | 58 | ĀHNIKA 16 |
+| `ahnika-17.txt` | 12 | ĀHNIKA 17 |
+| `ahnika-18.txt` | 35 | ĀHNIKA 18 |
+| `ahnika-19.txt` | 24 | ĀHNIKA 19 |
+| `ahnika-20.txt` | 24 | ĀHNIKA 20 |
+| `ahnika-21.txt` | 42 | ĀHNIKA 21 |
+| `ahnika-22.txt` | 65 | ĀHNIKA 22 |
+| `ahnika-23.txt` | 19 | ĀHNIKA 23 |
+| `ahnika-24.txt` | 33 | ĀHNIKA 24 |
+| `ahnika-25.txt` | 49 | ĀHNIKA 25 |
+| `ahnika-26.txt` | 251 | ĀHNIKA 26 |
+| `ahnika-27.txt` | 58 | ĀHNIKA 27 |
+| `ahnika-28.txt` | 163 | ĀHNIKA 28 |
+| `ahnika-29.txt` | 110 | ĀHNIKA 29 |
+| `ahnika-30.txt` | 112 | ĀHNIKA 30 |
+| `ahnika-31.txt` | 135 | ĀHNIKA 31 |
+| `ahnika-32.txt` | 136 | ĀHNIKA 32 |
+| `ahnika-33.txt` | 142 | ĀHNIKA 33 |
+| `ahnika-34.txt` | 163 | ĀHNIKA 34 |
+| `ahnika-35.txt` | 144 | ĀHNIKA 35 |
+| `ahnika-36.txt` | 119 | ĀHNIKA 36 |
+| `ahnika-37.txt` | 136 | ĀHNIKA 37 |

@@ -1,0 +1,730 @@
+{
+  "id": "tantraloka-volume-canonical-v0",
+  "canonical_decision": "Tantrāloka (volume Dyczkowski corpus) is CANONICAL for deitybody practice. MV remains root scripture for Mālinī content that Abhinavagupta unfolds. PTv = Abhinavagupta on madhyamā / Mālinī letters. VBT = selected techniques.",
+  "volume_root": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra",
+  "complete_text": {
+    "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/tantraloka-complete.txt",
+    "bytes": 3974304,
+    "lines": 87675
+  },
+  "gretil": {
+    "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/gretil_tantraloka.txt",
+    "bytes": 771436
+  },
+  "ahnika_files": [
+    {
+      "file": "ahnika-01.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/ahnika-01.txt",
+      "lines": 36860,
+      "bytes": 1717226,
+      "title_hint": "ĀHNIKA 1"
+    },
+    {
+      "file": "ahnika-02.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/ahnika-02.txt",
+      "lines": 375,
+      "bytes": 9993,
+      "title_hint": "ĀHNIKA 2"
+    },
+    {
+      "file": "ahnika-03.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/ahnika-03.txt",
+      "lines": 72,
+      "bytes": 3664,
+      "title_hint": "ĀHNIKA 3"
+    },
+    {
+      "file": "ahnika-04.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/ahnika-04.txt",
+      "lines": 35812,
+      "bytes": 1685047,
+      "title_hint": "ĀHNIKA 4"
+    },
+    {
+      "file": "ahnika-05.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/ahnika-05.txt",
+      "lines": 315,
+      "bytes": 7132,
+      "title_hint": "ĀHNIKA 5"
+    },
+    {
+      "file": "ahnika-06.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/ahnika-06.txt",
+      "lines": 57,
+      "bytes": 2866,
+      "title_hint": "ĀHNIKA 6"
+    },
+    {
+      "file": "ahnika-07.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/ahnika-07.txt",
+      "lines": 598,
+      "bytes": 13866,
+      "title_hint": "ĀHNIKA 7"
+    },
+    {
+      "file": "ahnika-08.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/ahnika-08.txt",
+      "lines": 69,
+      "bytes": 3800,
+      "title_hint": "ĀHNIKA 8"
+    },
+    {
+      "file": "ahnika-09.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/ahnika-09.txt",
+      "lines": 136,
+      "bytes": 6054,
+      "title_hint": "ĀHNIKA 9"
+    },
+    {
+      "file": "ahnika-10.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/ahnika-10.txt",
+      "lines": 111,
+      "bytes": 4316,
+      "title_hint": "ĀHNIKA 10"
+    },
+    {
+      "file": "ahnika-11.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/ahnika-11.txt",
+      "lines": 48,
+      "bytes": 1904,
+      "title_hint": "ĀHNIKA 11"
+    },
+    {
+      "file": "ahnika-12.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/ahnika-12.txt",
+      "lines": 122,
+      "bytes": 4752,
+      "title_hint": "ĀHNIKA 12"
+    },
+    {
+      "file": "ahnika-13.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/ahnika-13.txt",
+      "lines": 135,
+      "bytes": 5727,
+      "title_hint": "ĀHNIKA 13"
+    },
+    {
+      "file": "ahnika-14.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/ahnika-14.txt",
+      "lines": 135,
+      "bytes": 4375,
+      "title_hint": "ĀHNIKA 14"
+    },
+    {
+      "file": "ahnika-15.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/ahnika-15.txt",
+      "lines": 10764,
+      "bytes": 425119,
+      "title_hint": "ĀHNIKA 15"
+    },
+    {
+      "file": "ahnika-16.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/ahnika-16.txt",
+      "lines": 58,
+      "bytes": 2027,
+      "title_hint": "ĀHNIKA 16"
+    },
+    {
+      "file": "ahnika-17.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/ahnika-17.txt",
+      "lines": 12,
+      "bytes": 391,
+      "title_hint": "ĀHNIKA 17"
+    },
+    {
+      "file": "ahnika-18.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/ahnika-18.txt",
+      "lines": 35,
+      "bytes": 1429,
+      "title_hint": "ĀHNIKA 18"
+    },
+    {
+      "file": "ahnika-19.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/ahnika-19.txt",
+      "lines": 24,
+      "bytes": 713,
+      "title_hint": "ĀHNIKA 19"
+    },
+    {
+      "file": "ahnika-20.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/ahnika-20.txt",
+      "lines": 24,
+      "bytes": 872,
+      "title_hint": "ĀHNIKA 20"
+    },
+    {
+      "file": "ahnika-21.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/ahnika-21.txt",
+      "lines": 42,
+      "bytes": 1389,
+      "title_hint": "ĀHNIKA 21"
+    },
+    {
+      "file": "ahnika-22.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/ahnika-22.txt",
+      "lines": 65,
+      "bytes": 2197,
+      "title_hint": "ĀHNIKA 22"
+    },
+    {
+      "file": "ahnika-23.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/ahnika-23.txt",
+      "lines": 19,
+      "bytes": 539,
+      "title_hint": "ĀHNIKA 23"
+    },
+    {
+      "file": "ahnika-24.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/ahnika-24.txt",
+      "lines": 33,
+      "bytes": 936,
+      "title_hint": "ĀHNIKA 24"
+    },
+    {
+      "file": "ahnika-25.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/ahnika-25.txt",
+      "lines": 49,
+      "bytes": 1381,
+      "title_hint": "ĀHNIKA 25"
+    },
+    {
+      "file": "ahnika-26.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/ahnika-26.txt",
+      "lines": 251,
+      "bytes": 4397,
+      "title_hint": "ĀHNIKA 26"
+    },
+    {
+      "file": "ahnika-27.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/ahnika-27.txt",
+      "lines": 58,
+      "bytes": 2191,
+      "title_hint": "ĀHNIKA 27"
+    },
+    {
+      "file": "ahnika-28.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/ahnika-28.txt",
+      "lines": 163,
+      "bytes": 8479,
+      "title_hint": "ĀHNIKA 28"
+    },
+    {
+      "file": "ahnika-29.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/ahnika-29.txt",
+      "lines": 110,
+      "bytes": 5185,
+      "title_hint": "ĀHNIKA 29"
+    },
+    {
+      "file": "ahnika-30.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/ahnika-30.txt",
+      "lines": 112,
+      "bytes": 5164,
+      "title_hint": "ĀHNIKA 30"
+    },
+    {
+      "file": "ahnika-31.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/ahnika-31.txt",
+      "lines": 135,
+      "bytes": 5326,
+      "title_hint": "ĀHNIKA 31"
+    },
+    {
+      "file": "ahnika-32.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/ahnika-32.txt",
+      "lines": 136,
+      "bytes": 4986,
+      "title_hint": "ĀHNIKA 32"
+    },
+    {
+      "file": "ahnika-33.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/ahnika-33.txt",
+      "lines": 142,
+      "bytes": 7340,
+      "title_hint": "ĀHNIKA 33"
+    },
+    {
+      "file": "ahnika-34.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/ahnika-34.txt",
+      "lines": 163,
+      "bytes": 5701,
+      "title_hint": "ĀHNIKA 34"
+    },
+    {
+      "file": "ahnika-35.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/ahnika-35.txt",
+      "lines": 144,
+      "bytes": 5639,
+      "title_hint": "ĀHNIKA 35"
+    },
+    {
+      "file": "ahnika-36.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/ahnika-36.txt",
+      "lines": 119,
+      "bytes": 4391,
+      "title_hint": "ĀHNIKA 36"
+    },
+    {
+      "file": "ahnika-37.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/ahnika-37.txt",
+      "lines": 136,
+      "bytes": 7718,
+      "title_hint": "ĀHNIKA 37"
+    }
+  ],
+  "volumes": [
+    {
+      "file": "tantraloka-vol1-dyczkowski.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/tantraloka-vol1-dyczkowski.txt",
+      "bytes": 1763559,
+      "lines": 38190
+    },
+    {
+      "file": "tantraloka-vol10-dyczkowski.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/tantraloka-vol10-dyczkowski.txt",
+      "bytes": 1419809,
+      "lines": 33618
+    },
+    {
+      "file": "tantraloka-vol11-dyczkowski.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/tantraloka-vol11-dyczkowski.txt",
+      "bytes": 1179447,
+      "lines": 29079
+    },
+    {
+      "file": "tantraloka-vol2-dyczkowski.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/tantraloka-vol2-dyczkowski.txt",
+      "bytes": 1474347,
+      "lines": 30867
+    },
+    {
+      "file": "tantraloka-vol3-dyczkowski.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/tantraloka-vol3-dyczkowski.txt",
+      "bytes": 1731185,
+      "lines": 37093
+    },
+    {
+      "file": "tantraloka-vol4-dyczkowski.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/tantraloka-vol4-dyczkowski.txt",
+      "bytes": 1678418,
+      "lines": 38456
+    },
+    {
+      "file": "tantraloka-vol5-dyczkowski.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/tantraloka-vol5-dyczkowski.txt",
+      "bytes": 1189898,
+      "lines": 28879
+    },
+    {
+      "file": "tantraloka-vol6-dyczkowski.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/tantraloka-vol6-dyczkowski.txt",
+      "bytes": 1516642,
+      "lines": 34681
+    },
+    {
+      "file": "tantraloka-vol7-dyczkowski.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/tantraloka-vol7-dyczkowski.txt",
+      "bytes": 1227452,
+      "lines": 28840
+    },
+    {
+      "file": "tantraloka-vol8-dyczkowski.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/tantraloka-vol8-dyczkowski.txt",
+      "bytes": 1239456,
+      "lines": 29315
+    },
+    {
+      "file": "tantraloka-vol9-dyczkowski.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/abhinavagupta/tantraloka-vol9-dyczkowski.txt",
+      "bytes": 1301790,
+      "lines": 30369
+    },
+    {
+      "file": "tantraloka-complete.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/texts-clean/tantraloka-complete.txt",
+      "bytes": 3865030,
+      "lines": 56251
+    },
+    {
+      "file": "tantraloka-verses.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/texts-clean/tantraloka-verses.txt",
+      "bytes": 85673,
+      "lines": 828
+    },
+    {
+      "file": "tantraloka-vol1-dyczkowski_clean.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/texts-clean/tantraloka-vol1-dyczkowski_clean.txt",
+      "bytes": 1729468,
+      "lines": 36468
+    },
+    {
+      "file": "tantraloka-vol10-dyczkowski_clean.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/texts-clean/tantraloka-vol10-dyczkowski_clean.txt",
+      "bytes": 1371250,
+      "lines": 31286
+    },
+    {
+      "file": "tantraloka-vol11-dyczkowski_clean.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/texts-clean/tantraloka-vol11-dyczkowski_clean.txt",
+      "bytes": 1146631,
+      "lines": 27254
+    },
+    {
+      "file": "tantraloka-vol2-dyczkowski_clean.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/texts-clean/tantraloka-vol2-dyczkowski_clean.txt",
+      "bytes": 1446444,
+      "lines": 29374
+    },
+    {
+      "file": "tantraloka-vol3-dyczkowski_clean.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/texts-clean/tantraloka-vol3-dyczkowski_clean.txt",
+      "bytes": 1701718,
+      "lines": 35421
+    },
+    {
+      "file": "tantraloka-vol4-dyczkowski_clean.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/texts-clean/tantraloka-vol4-dyczkowski_clean.txt",
+      "bytes": 1645807,
+      "lines": 36424
+    },
+    {
+      "file": "tantraloka-vol5-dyczkowski_clean.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/texts-clean/tantraloka-vol5-dyczkowski_clean.txt",
+      "bytes": 1150159,
+      "lines": 27033
+    },
+    {
+      "file": "tantraloka-vol6-dyczkowski_clean.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/texts-clean/tantraloka-vol6-dyczkowski_clean.txt",
+      "bytes": 1476727,
+      "lines": 32628
+    },
+    {
+      "file": "tantraloka-vol7-dyczkowski_clean.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/texts-clean/tantraloka-vol7-dyczkowski_clean.txt",
+      "bytes": 1192557,
+      "lines": 27004
+    },
+    {
+      "file": "tantraloka-vol8-dyczkowski_clean.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/texts-clean/tantraloka-vol8-dyczkowski_clean.txt",
+      "bytes": 1187093,
+      "lines": 26929
+    },
+    {
+      "file": "tantraloka-vol9-dyczkowski_clean.txt",
+      "path": "/mnt/HC_Volume_106959365/root/projects/source-library/tantra/texts-clean/tantraloka-vol9-dyczkowski_clean.txt",
+      "bytes": 1249452,
+      "lines": 27953
+    }
+  ],
+  "practice_loci": [
+    {
+      "ref": "TĀ contents ch.3",
+      "topic": "Śabdarāśi / Mātṛkā / Mālinī; Mālinī as Parā; alphabet of 50 forms",
+      "where": "ahnika-02.txt contents"
+    },
+    {
+      "ref": "TĀ 4.91",
+      "topic": "prāṇāyāma must not torment the body",
+      "where": "ahnika-04.txt ~7333"
+    },
+    {
+      "ref": "TĀ 15/115cd-145",
+      "topic": "Three nyāsas: Mātṛkā · Mālinī · śabdarāśi",
+      "where": "ahnika-15.txt appendix A"
+    },
+    {
+      "ref": "TĀ 15/117-120",
+      "topic": "Karanyāsa + aṅganyāsa formulas",
+      "where": "ahnika-15.txt appendix A"
+    },
+    {
+      "ref": "TĀ 15/121-125ab",
+      "topic": "Mālinī alphabet order (from MV 3/37-41)",
+      "where": "ahnika-15.txt appendix B"
+    },
+    {
+      "ref": "TĀ 15/128cd-130ab",
+      "topic": "Mālinī tattva distribution",
+      "where": "ahnika-15.txt appendix B"
+    },
+    {
+      "ref": "TĀ 15/130cd-133ab",
+      "topic": "Śabdarāśinyāsa",
+      "where": "ahnika-15.txt appendix C"
+    },
+    {
+      "ref": "PTv",
+      "topic": "Mālinī at madhyamā-vāc; letters as powers",
+      "where": "corpus/primary/paratrisika_jaideva_singh*"
+    },
+    {
+      "ref": "MV 3.36-41",
+      "topic": "Bhinna-yoni nyāsa for śākta-śarīra + body map",
+      "where": "extract MV_CH3_MALINI.md + volume apparatus"
+    }
+  ],
+  "ahinka_toc_sample": [
+    "The Light of Consciousness Within Which Everything is Reflected: verses 1-4,",
+    "Only Form is Reflected in a Medium with Form: verses 5-7, pages 70-73",
+    "Definition of the Purity of the Medium of Reflection: verses 8-9, pages 73-76",
+    "10-15, pages 76-85",
+    "Only Form is Reflected in a Mirror: verses 16-18, pages 86-88",
+    "The Substratum of Reflection and Attendant Causes: verses 19-20, pages 88-91",
+    "verses 21-23, pages 92-99",
+    "The Reflection of Sound: verses 24-34ab (24-34cd), pages 99-108",
+    "The Reflection of Touch: verses 34cd-42ab (35-43), pages 108-118",
+    "Consciousness as the Most Excellent Medium of Reflection: verses 42cd-47ab",
+    "(44-48), pages 118-123",
+    "47cd-59 (49-60), pages 123-132",
+    "The Energies of the Lord are the Instrumental Cause of Reflection: verses 60-65ab",
+    "(61-65), pages 132-136",
+    "65cd-66ab (66), pages 136-138",
+    "Kaulikīśakti: verses 66cd-67ab (67), pages 138-160",
+    "The Letter Ā as the Union of Śiva and Śakti: verses 67cd-70 (68-71ab), pages",
+    "The Letter I as the Power of the Will: verses 71 (71cd-72ab), pages 166-169",
+    "The Letter Ī as the Power of Sovereignty: verses 72 (72cd-73ab), page 169",
+    "The Letter U as the Power of Knowledge: verses 73 (73cd-74ab), pages 170-172",
+    "The Letter Ū as the Decrease of Subjectivity: verses 75 (75cd-76ab), pages 172175",
+    "The Neuter Vowels ṛ Ṛ | Ḷ: verses 77cd-81ab (78-81), pages 175-184",
+    "The State of Arousal and the Aroused Seed: verses 81cd-87 (82ab-87), pages 185192",
+    "The Matrix of Arousal: verses 88-90, pages 192-194",
+    "The Neuter Vowels Continued: verses 91-92ab, pages 194-195",
+    "The Diphthongs: verses 92cd-93ab, pages 195-196",
+    "The Letter E as the Yoni: verses 93cd-95ab, pages 196-200",
+    "The Letter AI as the Hexagon: verses 95cd-96ab, pages 201-202",
+    "The Letters O and AU as the Powers of Action and the Trident: verses 96cd104ab, pages 202-209",
+    "The Trident and the Stainless Principle: verses 104cd-109ab (104cd-108), pages",
+    "The Eight Groups of Eight: verses 109cd-110ab (109), pages 213-215",
+    "Bindu — the Point: verses 110cd-114 (110-114ab), pages 215-221",
+    "The Sun of the Senses, the Fire and Moon of Subject and Object: verses 115118ab (114cd-117), pages 221-224",
+    "The Sun of the Senses: verses 118cd-121ab (118-120), pages 224-226",
+    "The Moon of Objectivity and the Fire of the Subject: verses 121cd-123, pages",
+    "The Subject and its Subjectivity: verses 124-131 (123cd-131ab), pages 228-237",
+    "Short, Long and Prolate Vowels as Sun, Moon and Fire: verses 132-133 (131cd-",
+    "133ab), pages 237-239",
+    "The Point of Śiva (śivabindu) as the Light of the Three Abodes: verses 134-136",
+    "(133cd-136ab), pages 239-242",
+    "Visarga: verses 137 (136cd-137ab), page 242",
+    "(137cd-141ab), pages 242-251",
+    "The Dynamics and Forms of Visarga: verses 142ab-146ab (141cd-145), pages",
+    "The Principle of Passion: verses 146cd-148 (146-148ab), pages 256-264",
+    "The Emergence of the Consonants: verses 149-154ab (148cd-153), pages 264-272",
+    "The Emergence of the Semivowels: verses 154cd-162 (154-162ab), pages 272-",
+    "The Emergence of the Śibilants: verses 163-165 (162cd-165ab), pages 278-280",
+    "The Sibilant S as the Principle of the Nectar of Poison: verses 166-170ab (165cd-",
+    "169), pages 280-289",
+    "The Principles of Passion, Poison and the Stainless: verses 170cd-175ab (170-",
+    "174), pages 289-298",
+    "The Neuter Vowels ṛr Ṛ I LḶ and the Sibilants: verses 175cd-180ab (175-179),",
+    "The Fiftieth Letter, KS: verses 180cd-181ab (180ab-180cd), pages 301-303",
+    "The Two Tetrads Y, R, L, V and , S, S, KṢ: verses 181cd-184 (181-184ab),",
+    "The Group of Six Vowels A, Ā, I, I, U and Ū: verses 185-192 (184cd-192ab),",
+    "The Triad A I U: verses 193-195ab (192cd-194), pages 311-312",
+    "verses 195cd-197ab, pages 312-314",
+    "The Goddess with Eighty-one Parts, Śabdarāśi, Mātṛkā and Mālinī; verses 197cd200ab, pages 314-318",
+    "The Cycle of the Flow of AHAṀ that Encapsulates All Things: verses 200cd-",
+    "208ab, pages 318-327",
+    "The Aesthetic Delight of Śiva’s Power of Emission: verses 208cd-210, pages 327331",
+    "The Three Forms of Emission: verses 211-219, pages 331-337",
+    "The Triad A IU Continued: verses 220-221ab, pages 338-339",
+    "The Five-fold Point (bindu): verses 221cd-223ab, pages 340-344",
+    "Mantras are Effective Encompassed by the A and H of AHAṀ: verses 223cd-225,",
+    "The Power of Emission Taught in the Aitareyāraṇyaka: verses 226-228, pages",
+    "Aesthetic Experience as the Arousal of the Vitality of Consciousness: verses 229230ab, pages 351-356",
+    "This Vitality is the Source of Life and so Emission is AIl Things: verses 230cd-",
+    "231, pages 356-357",
+    "Emission is Śabdarāśi, Mātṛkā and Mālinī: verses 232, pages 357-359",
+    "Mālinī as Parā and Kālasaṁkarṣaṇī: verses 233-234, pages 359-361",
+    "The Aesthetics of Music and the Three Levels of Speech: verses 235-247ab, pages",
+    "The Supreme Triad and the Groups of Six: verses 247cd-250ab, pages 371-373",
+    "The All-embracing Wheel of the Twelve Kālikās: verses 250cd-259ab, pages 373-",
+    "259cd-260ab, page 381",
+    "Peaceful Cessation and the Process of Violent Digestion: verses 260cd-265ab,",
+    "The Unfolding Configurations of the Goddesses of Consciousness: verses 265cd-",
+    "267 (265-267ab), pages 390-392",
+    "Mirror of Consciousness: verses 268-271ab (267cd-270), pages 393-395",
+    "Liberation in This Life (jīvanmukti): verses 271cd-274ab (271-273), pages 395396"
+  ],
+  "ta491_context": "‘they all operate externally°.\nThat is not established just by reason alone; (this view) is also\n(sustained) by the scriptures. Thus, he says:\n\nJG JĪTTITaT 1| ¢ 1\n\ncšṝ ahTR aīl a-̄N\n\nJ. T J HĨI- 82 1|\n\nśrīmadvīrāvalau coktaṁ bodhamātre śivātmake |\ncittapralayabandhena pralīne śaśibhāskare || 89 ||\n\nprāpte ca dvādaśe bhāge jīvāditye svabodhake |\nmokṣaḥ sa eva kathitaḥ prāṇāyāmo nirarthakaḥ | 90 |I\nprāṇāyāmo na kartavyaḥ śarīraṁ yena pīḍyate |\nrahasyaṁ vetti yo yatra sa muktaḥ sa ca mocakaḥ || 91 11\n\nItis saidin the venerable Virāvali: “By dissolving the one-pointed\n\nmind into Śiva’s nature, which is just (pure awakened) consciousness\n\n(bodhamātra), the Moon (of apāna) and the Sun (of prāṇa) dissolve away.\n\nPurification is either external (by using external things) or internal (i.e. removal\n",
+  "nyasa_headings": [
+    "The Deposition of the Mātṛkās - Mātṛkānyāsa - according to the",
+    "depositions see TA 15/115cd-145. We begin with Mātṛkānyāsa with which the",
+    "The Deposition onto the Hands - karanyāsa",
+    "By performing the deposition of the hands (karanyāsa), that is,",
+    "The Deposition on the Limbs - aṅganyāsa",
+    "Mālinī Deposition",
+    "Mālinīnyāsa the Deposition of Mālinī",
+    "Mālinīnyāsa",
+    "The Deposition of Mālinī according to the Triśirobhairava",
+    "A Comparative Chart of the Mālinī Alphabet",
+    "Comparative Chart of the Mālinī Alphabet",
+    "Śabdarāśinyāsa",
+    "A Comparative Chart of the Contents of the Assembly of Śounds",
+    "The Deposition of the Throne (āsananyāsa)"
+  ],
+  "ptv_hits": [
+    {
+      "line": 434,
+      "text": "3. The arrangement of letters according to Matrka"
+    },
+    {
+      "line": 449,
+      "text": "4. Arrangement of letters according to Matrka in"
+    },
+    {
+      "line": 453,
+      "text": "5. Letters of Malini together with their representa¬"
+    },
+    {
+      "line": 463,
+      "text": "Matrka-letters ... ... ... 145"
+    },
+    {
+      "line": 465,
+      "text": "8. Arrangement of letters according to Matrka in"
+    },
+    {
+      "line": 469,
+      "text": "9. Malini in apara sarnvitti and Matrka in pa§yantl or"
+    },
+    {
+      "line": 733,
+      "text": "four stages of vak as para, paiyanti, madhyama and vaikhari represent"
+    },
+    {
+      "line": 785,
+      "text": "Malim consists in the arrangement of letters. In Mdtfkd, they"
+    },
+    {
+      "line": 1068,
+      "text": "Malinivijaya Tantra (also Malinivijayottara)"
+    },
+    {
+      "line": 1394,
+      "text": "The Devi is the pardMH who on the plane oipaiyanti and madhyama"
+    },
+    {
+      "line": 1523,
+      "text": "even at the level oi paiyantl, madhyama and vaikhari. Therefore,"
+    },
+    {
+      "line": 1536,
+      "text": "Madhyama, however, which shows the difference between the"
+    },
+    {
+      "line": 1579,
+      "text": "ence, in the madhyamd state in which there is an appearance"
+    },
+    {
+      "line": 1587,
+      "text": "paiyanti and madhyamd actually experiences Herself as the Supreme"
+    },
+    {
+      "line": 1618,
+      "text": "stage of madhyamd, only in a subtle mental state; it has not yet"
+    },
+    {
+      "line": 1700,
+      "text": "From evam bhagavati paiyanti madhyama ca on p. 3, 1. 14 upto"
+    },
+    {
+      "line": 1705,
+      "text": "When the glorious pardvdk becoming paiyanti and madhyama (i.e."
+    },
+    {
+      "line": 1706,
+      "text": "in the stage of paiyanti and madhyamd) thus recollects Herself,"
+    },
+    {
+      "line": 1722,
+      "text": "(in the case oimadhyamd) and outer senses (in the case oivaikhari)^"
+    },
+    {
+      "line": 1783,
+      "text": "expression in the stage of paiyanti and madhyamdJ*^ This is the"
+    },
+    {
+      "line": 1888,
+      "text": "with a sense of separateness in the madhyamd stage in a determinate"
+    },
+    {
+      "line": 1946,
+      "text": "there is only the germ of difference. In madhyama, the distinction"
+    },
+    {
+      "line": 1951,
+      "text": "Moreover, madhyama or pasyanti fully relying on para which is"
+    },
+    {
+      "line": 3653,
+      "text": "supreme Sakti {madhyama-akrtrima-pardtmaka-iaktindlikdpratibim-"
+    },
+    {
+      "line": 3782,
+      "text": "reflection. As A.G. puts it, ^^Tatpasyanti-madhyamdtmikdsvdtmdnam"
+    },
+    {
+      "line": 3784,
+      "text": "ing as paiyanti and madhyamd knows Herself to be the Supreme"
+    },
+    {
+      "line": 3802,
+      "text": "pada-vakya-vibhajayisaya pardmrstam, madhyamdpade ca bhedena"
+    },
+    {
+      "line": 3813,
+      "text": "madhyamd stage, and is finally e.xpressed, in vaikhari stage, in"
+    },
+    {
+      "line": 3891,
+      "text": "anuttara-dhruva-visarga-virydveiena akdlakalitena prdnadimadhyama-"
+    },
+    {
+      "line": 4580,
+      "text": "ksanddicakrasya madhya-madhyama-rupd)^ and on the plane of nara,"
+    },
+    {
+      "line": 4666,
+      "text": "apard or madhyama^ form etc.**"
+    },
+    {
+      "line": 4713,
+      "text": "3. Madhyamd is that stage of expression in wltich diversity has"
+    },
+    {
+      "line": 4974,
+      "text": "japa.” In this the Self alone hears in madhyama stage, not any¬"
+    },
+    {
+      "line": 4990,
+      "text": "bhdbhdvdt)^ for the japa is being performed only in the madhyama"
+    },
+    {
+      "line": 5554,
+      "text": "ternal expansion consisting of paiyanti and madhyama denoting"
+    },
+    {
+      "line": 5574,
+      "text": "and madhyama forms, it is througliont the display of tire immutable"
+    },
+    {
+      "line": 6853,
+      "text": "sastra (i.e. Malinivijayottara) that the Vijnanakalas have only"
+    },
+    {
+      "line": 6861,
+      "text": "^vara and Mantramahesvara. In Malinivijaya itself {tatraiv^"
+    },
+    {
+      "line": 6909,
+      "text": "In all the Sastras e.g. in Malinivijayottara, Siddliatantra, Svac-"
+    },
+    {
+      "line": 6910,
+      "text": "chanda Tantra, the arrangement of letters denoting the various"
+    }
+  ],
+  "clean_vols_count": 13
+}
