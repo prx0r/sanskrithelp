@@ -23,6 +23,13 @@ const SECTIONS = [
     icon: Boxes,
   },
   {
+    href: "/memory/panini/PATH.md",
+    title: "Pāṇini Path (Bruno)",
+    subtitle: "Aṣṭādhyāyī · compile structure",
+    desc: "3983 sūtras already on disk. Don't flashcard them. Laghu-Kaumudī construction order + Bruno operators + simulator physics. Strategy doc.",
+    icon: Hash,
+  },
+  {
     href: "/memory/nyasa",
     title: "Nyāsa Practice",
     subtitle: "Phoneme → body locus",

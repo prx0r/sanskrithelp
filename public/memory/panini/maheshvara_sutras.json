@@ -1,0 +1,34 @@
+{
+  "name": "Maheshvara sutras",
+  "note": "Extracted from Vidyut sutrapatha codes 1.1.1-1.1.7 (IAST). Verify against GRETIL/astadhyayi before treating as sole authority.",
+  "suras": [
+    {
+      "code": "1.1.1",
+      "text": "vfdDirAdEc"
+    },
+    {
+      "code": "1.1.2",
+      "text": "adeN guRaH"
+    },
+    {
+      "code": "1.1.3",
+      "text": "iko guRavfdDI"
+    },
+    {
+      "code": "1.1.4",
+      "text": "na DAtulopa ArDaDAtuke"
+    },
+    {
+      "code": "1.1.5",
+      "text": "kNiti ca"
+    },
+    {
+      "code": "1.1.6",
+      "text": "dIDIvevIwAm"
+    },
+    {
+      "code": "1.1.7",
+      "text": "halo'nantarAH saMyogaH"
+    }
+  ]
+}
