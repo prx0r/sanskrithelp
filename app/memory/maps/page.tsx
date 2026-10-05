@@ -14,60 +14,33 @@ export default function MemoryMapsPage() {
         Memory
       </Link>
 
-      <div className="mb-4">
+      <div className="mb-6">
         <h1 className="font-display text-3xl font-bold mb-1">Phoneme Body Maps</h1>
-        <p className="text-muted-foreground text-sm">
-          Mātṛkā (ordered) · Mālinī (bhinna-yoni) · varṇamālā 5×5.
-          Accuracy: tradition-specific practice coordinates — not biomedical anatomy, not a universal chakra chart.
+        <p className="text-muted-foreground text-sm max-w-2xl">
+          Clean diagrams — large readable labels. Mātṛkā limb map vs Mālinī MV 3.37–41.
+          One primary map per night. Start with Mātṛkā · Night 1 = a + ā.
         </p>
       </div>
 
       <a
         href="/memory/body-diagram.html"
-        className="mb-4 inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm"
+        className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-primary text-primary-foreground text-base font-semibold"
       >
-        Full body diagram (Mātṛkā · Mālinī · variations) →
+        Open full body diagrams →
       </a>
-      <div className="rounded-xl border border-border bg-card overflow-hidden">
-        <iframe
-          src="/memory/phoneme-maps.html"
-          title="Phoneme body maps"
-          className="w-full h-[70vh] min-h-[480px] bg-background"
-        />
-      </div>
 
       <div className="mt-4 grid gap-3 sm:grid-cols-2">
-        <a
-          href="/memory/phoneme-maps.html"
-          target="_blank"
-          rel="noreferrer"
-          className="p-4 rounded-xl border border-border bg-card hover:border-primary text-sm"
-        >
-          Open maps full page →
+        <a href="/memory/nyasa" className="p-4 rounded-xl border border-border bg-card hover:border-primary">
+          Nyāsa practice
         </a>
-        <a
-          href="https://stonedoorway.com/reference/phoneme-maps"
-          target="_blank"
-          rel="noreferrer"
-          className="p-4 rounded-xl border border-border bg-card hover:border-primary text-sm"
-        >
-          Stonedoorway maps ↗
+        <a href="/memory/audio/cycle_night1_a_aa.mp3" className="p-4 rounded-xl border border-border bg-card hover:border-primary">
+          Night 1 audio cycle
         </a>
-        <a
-          href="/memory/data/matrika_body_map.json"
-          target="_blank"
-          rel="noreferrer"
-          className="p-4 rounded-xl border border-border bg-card hover:border-primary text-sm"
-        >
-          matrika_body_map.json →
+        <a href="/memory/bruno-wheels/index.html" className="p-4 rounded-xl border border-border bg-card hover:border-primary">
+          Bruno wheels
         </a>
-        <a
-          href="/memory/data/malini_order.json"
-          target="_blank"
-          rel="noreferrer"
-          className="p-4 rounded-xl border border-border bg-card hover:border-primary text-sm"
-        >
-          malini_order.json →
+        <a href="/memory/canonical/TANTRALOKA_CANONICAL.md" className="p-4 rounded-xl border border-border bg-card hover:border-primary">
+          Tantrāloka canonical
         </a>
       </div>
     </div>

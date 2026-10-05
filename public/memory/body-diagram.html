@@ -3,372 +3,525 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Full Body Diagram — Phonemes · Mātṛkā &amp; Mālinī</title>
+<title>Phoneme Body Diagrams — Mātṛkā &amp; Mālinī</title>
 <style>
-:root{--bg:#0b0d12;--panel:#12161f;--ink:#e8e6df;--mut:#9aa3b5;--gold:#c9a45c;--teal:#5ec4b6;--rose:#d4899a;--line:#2a3142;--ok:#7dcea0}
-*{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 Georgia,serif}
-a{color:var(--teal)}
-header{padding:1.2rem 1rem .8rem;max-width:1100px;margin:0 auto;border-bottom:1px solid var(--line);display:flex;gap:12px;align-items:center}
-header img{width:44px;height:44px}
-h1{font-size:1.4rem;margin:0;font-weight:600}
-header p{margin:.2rem 0 0;color:var(--mut);font-size:.9rem}
-main{max-width:1100px;margin:0 auto;padding:1rem}
-section{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:1rem;margin:1rem 0}
-h2{font:600 .9rem ui-sans-serif,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);margin:0 0 .7rem}
-h3{font-family:Georgia,serif;margin:0 0 .4rem}
-.callout{border-left:3px solid var(--gold);background:rgba(201,164,92,.08);padding:.7rem 1rem;border-radius:0 8px 8px 0;margin:.7rem 0;font-size:.93rem}
-.callout.warn{border-left-color:var(--rose);background:rgba(212,137,154,.08)}
-.callout.ok{border-left-color:var(--ok);background:rgba(125,206,160,.08)}
-.toolbar{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:1rem;align-items:center}
-.toolbar button,.toolbar a{padding:.45rem .85rem;border-radius:8px;border:1px solid var(--line);background:var(--panel);color:var(--ink);font:13px ui-sans-serif,sans-serif;cursor:pointer;text-decoration:none}
-.toolbar button.on{border-color:var(--gold);color:var(--gold);background:rgba(201,164,92,.12)}
-.stage{display:grid;gap:1rem;grid-template-columns:1fr}
-@media(min-width:900px){.stage{grid-template-columns:1.15fr .85fr}}
-.figure-wrap{background:#0e1219;border:1px solid var(--line);border-radius:12px;padding:.5rem;overflow:auto}
-svg.body{width:100%;max-width:480px;height:auto;display:block;margin:0 auto}
-.legend{display:flex;flex-wrap:wrap;gap:8px;font:12px ui-sans-serif,sans-serif;color:var(--mut);margin:.5rem 0}
-.legend span{display:inline-flex;align-items:center;gap:4px}
-.sw{width:10px;height:10px;border-radius:2px;display:inline-block}
-.panel{background:#0e1219;border:1px solid var(--line);border-radius:12px;padding:.8rem;max-height:70vh;overflow:auto}
-.panel h3{font:600 .8rem ui-sans-serif,sans-serif;color:var(--gold);margin:0 0 .5rem;letter-spacing:.06em}
-table{width:100%;border-collapse:collapse;font-size:.88rem}
-th,td{border-bottom:1px solid var(--line);padding:.35rem .4rem;text-align:left;vertical-align:top}
-th{color:var(--mut);font:600 .7rem ui-sans-serif,sans-serif;text-transform:uppercase;letter-spacing:.05em}
-td .dev,.dev{color:var(--gold);font-size:1.1rem}
-td .ia,.ia{color:var(--teal);font-family:ui-monospace,monospace;font-size:.85rem}
-.conflict td{font-size:.85rem}
-.ph{cursor:pointer}
-.ph:hover .halo{opacity:.35}
-.ph .halo{opacity:0;transition:opacity .15s}
-.ph.sel .halo{opacity:.45}
-.nav{font:.9rem ui-sans-serif,sans-serif;margin-top:.8rem}
-.nav a{margin-right:.9rem}
-.grid2{display:grid;gap:1rem;grid-template-columns:1fr}
-@media(min-width:800px){.grid2{grid-template-columns:1fr 1fr}}
-.rec{border:2px solid var(--ok);border-radius:12px;padding:1rem;background:rgba(125,206,160,.06)}
-.rec h3{color:var(--ok)}
-small,.small{color:var(--mut)}
-#tblMatrika,#tblMalini{max-height:420px;overflow:auto}
+:root {
+  --bg: #0b0d12; --panel: #12161f; --ink: #f0ebe0; --mut: #a8a294;
+  --gold: #c9a45c; --teal: #5ec4b6; --green: #7dcea0; --line: #2a3142;
+  --rose: #d4899a;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font: 17px/1.6 Georgia, 'Times New Roman', serif;
+}
+a { color: var(--teal); }
+header {
+  max-width: 980px; margin: 0 auto; padding: 1.2rem 1rem .8rem;
+  border-bottom: 1px solid var(--line);
+  display: flex; gap: 14px; align-items: center;
+}
+header img { width: 52px; height: 52px; }
+h1 { font-size: clamp(1.4rem, 4vw, 1.9rem); margin: 0; font-weight: 700; }
+header p { margin: .25rem 0 0; color: var(--mut); font-size: 1rem; }
+main { max-width: 980px; margin: 0 auto; padding: 1rem 1rem 4rem; }
+.nav { margin-top: .7rem; font-family: ui-sans-serif, system-ui, sans-serif; font-size: .95rem; }
+.nav a { margin-right: 1rem; }
+.tabs {
+  display: flex; flex-wrap: wrap; gap: .5rem; margin: 1.2rem 0;
+  position: sticky; top: 0; z-index: 5;
+  background: var(--bg); padding: .6rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.tabs button, .tabs a {
+  font-family: ui-sans-serif, system-ui, sans-serif; font-size: 1rem;
+  padding: .65rem 1.1rem; border-radius: 10px; border: 1px solid var(--line);
+  background: var(--panel); color: var(--ink); cursor: pointer; text-decoration: none;
+  min-height: 44px;
+}
+.tabs button.on {
+  border-color: var(--gold); color: #0b0d12; background: var(--gold); font-weight: 700;
+}
+.panel { display: none; }
+.panel.on { display: block; }
+.card {
+  background: var(--panel); border: 1px solid var(--line);
+  border-radius: 14px; padding: 1rem; margin: 1rem 0;
+}
+.card h2 {
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 1rem; letter-spacing: .08em; text-transform: uppercase;
+  color: var(--gold); margin: 0 0 .8rem;
+}
+.rec {
+  border: 2px solid var(--green); background: rgba(125,206,160,.08);
+  border-radius: 14px; padding: 1rem 1.2rem; margin: 1rem 0;
+}
+.rec h2 { color: var(--green); }
+.rec p { margin: .45rem 0; }
+.warn {
+  border-left: 4px solid var(--rose); background: rgba(212,137,154,.1);
+  padding: .8rem 1rem; border-radius: 0 10px 10px 0; margin: 1rem 0;
+}
+.figure {
+  background: #0e1219; border: 1px solid var(--line); border-radius: 14px;
+  padding: .6rem; overflow-x: auto; text-align: center;
+}
+svg.diagram {
+  width: 100%; max-width: 520px; height: auto; display: block; margin: 0 auto;
+  min-height: 640px;
+}
+table {
+  width: 100%; border-collapse: collapse; font-size: 1rem;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+}
+th, td {
+  border-bottom: 1px solid var(--line); padding: .55rem .6rem;
+  text-align: left; vertical-align: top;
+}
+th {
+  color: var(--mut); font-size: .85rem; letter-spacing: .06em; text-transform: uppercase;
+  background: #0e1219;
+}
+td.dev { color: var(--gold); font-size: 1.45rem; font-family: Georgia, serif; }
+td.ia { color: var(--teal); font-family: ui-monospace, Menlo, monospace; font-size: 1.05rem; }
+.conflict td { font-size: .98rem; }
+.tables {
+  display: grid; gap: 1rem; grid-template-columns: 1fr;
+}
+@media (min-width: 800px) { .tables { grid-template-columns: 1fr 1fr; } }
+.scroll { max-height: 420px; overflow: auto; border: 1px solid var(--line); border-radius: 10px; }
+.scroll table { font-size: .95rem; }
+p, li { color: var(--ink); }
+.muted, small { color: var(--mut); }
+code {
+  font-family: ui-monospace, Menlo, monospace; color: var(--teal);
+  background: #0e1219; padding: .1rem .35rem; border-radius: 4px;
+}
+.btn-row { display: flex; flex-wrap: wrap; gap: .6rem; margin: 1rem 0; }
+.btn-row a {
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  padding: .7rem 1.1rem; border-radius: 10px; border: 1px solid var(--line);
+  background: var(--panel); text-decoration: none; color: var(--ink);
+  min-height: 44px; display: inline-flex; align-items: center;
+}
+.btn-row a.primary { background: var(--gold); color: #0b0d12; border-color: var(--gold); font-weight: 700; }
 </style>
 </head>
 <body>
 <header>
-<img src="/memory/icons/nyasa-icon.svg" alt=""/>
-<div>
-<h1>Full body diagram — phoneme locations</h1>
-<p>Mātṛkā limb map · Mālinī MV 3.37–41 · variations &amp; what to start with</p>
-<div class="nav"><a href="/memory">Memory</a><a href="/memory/nyasa">Nyāsa</a><a href="/memory/maps">Maps</a></div>
-</div>
+  <img src="/memory/icons/nyasa-icon.svg" alt=""/>
+  <div>
+    <h1>Phoneme body diagrams</h1>
+    <p>Large, readable · Mātṛkā limb map · Mālinī MV 3.37–41</p>
+    <div class="nav">
+      <a href="/memory">Memory</a>
+      <a href="/memory/nyasa">Nyāsa practice</a>
+      <a href="/memory/audio/cycle_night1_a_aa.mp3">▶ Night 1 audio</a>
+    </div>
+  </div>
 </header>
 <main>
 
-<section>
-<h2>Start here — recommendation</h2>
 <div class="rec">
-<h3>Start with Mātṛkā ordered limb map · Night 1 = a + ā</h3>
-<p>
-TĀ 15 normally begins with <strong>Mātṛkānyāsa</strong>. MV 3.36 authorises Mālinī for śākta-śarīra
-when nyāsa has no special procedure — authorization, not a beginner mandate.
-Pathway Phase 6 adds Mālinī only after Mātṛkā is automatic (months 3–4).
-</p>
-<p>
-<strong>Why not Mālinī first?</strong> Mālinī is a reconfiguration. Know what you are permuteing first.
-Night 1 <code>na</code> (śikhā) skips sounds you already produce; <code>a</code>/<code>ā</code> + forehead/mouth are precise touch targets.
-</p>
-<p>
-<strong>Why not the green-core chakra map first?</strong> Pedagogical scaffold (tantrica2), not the TĀ limb body.
-Keep dual labels; never collapse into one doctrine.
-</p>
-<p><a href="/memory/nyasa">→ Start Night 1 practice</a> · <a href="/memory/audio/cycle_night1_a_aa.mp3">▶ audio cycle</a></p>
-</div>
-</section>
-
-<section>
-<h2>Variations — same phoneme, different map</h2>
-<div class="callout warn">
-<strong>There is not one body chart.</strong> Sources hold at least three systems called “nyāsa maps.”
-Blending them collapses the coordinate you are installing. Pick one primary; overlay later.
-</div>
-<div class="grid2">
-<div>
-<h3>Map A · Mātṛkā limb (TĀ 15 / MV 8)</h3>
-<p class="small">Normal alphabetical order. Vowels on head/face. Vargas run down limbs.</p>
-<table class="conflict">
-<tr><th>Phoneme</th><th>Limb map</th></tr>
-<tr><td><span class="dev">क</span> <span class="ia">ka</span></td><td>right shoulder</td></tr>
-<tr><td><span class="dev">त</span> <span class="ia">ta</span></td><td>left lower limb (buttock→toes)</td></tr>
-<tr><td><span class="dev">प</span> <span class="ia">pa</span></td><td>right diaphragm / torso</td></tr>
-<tr><td><span class="dev">म</span> <span class="ia">ma</span></td><td>heart</td></tr>
-<tr><td><span class="dev">ए</span> <span class="ia">e</span></td><td>lower teeth</td></tr>
-</table>
-</div>
-<div>
-<h3>Map B · Mālinī (MV 3.37–41)</h3>
-<p class="small">Bhinna-yoni — mixed order na→pha. Install for śākta-śarīra.</p>
-<table class="conflict">
-<tr><th>Phoneme</th><th>Mālinī body</th></tr>
-<tr><td><span class="dev">न</span> <span class="ia">na</span></td><td>śikhā / crown flame</td></tr>
-<tr><td><span class="dev">क</span> <span class="ia">ka</span></td><td><strong>teeth</strong></td></tr>
-<tr><td><span class="dev">त</span> <span class="ia">ta</span></td><td>left thigh cluster</td></tr>
-<tr><td><span class="dev">प</span> <span class="ia">pa</span></td><td><strong>heart</strong></td></tr>
-<tr><td><span class="dev">ए</span> <span class="ia">e</span></td><td>right knee</td></tr>
-</table>
-</div>
-</div>
-<div class="grid2" style="margin-top:1rem">
-<div>
-<h3>Map C · Batch aṅganyāsa (TĀ 15 formula)</h3>
-<p class="small">Compressed deposits: heart / head / kavaca / netratraya / astra — different ritual unit.</p>
-<table class="conflict">
-<tr><th>Batch</th><th>Example</th></tr>
-<tr><td>Heart</td><td>ka-varga sounds on heart</td></tr>
-<tr><td>Head</td><td>ca-varga on head</td></tr>
-<tr><td>Kavaca</td><td>ta-varga on shoulders</td></tr>
-</table>
-</div>
-<div>
-<h3>Map D · Chakra-scaffold (PEDAGOGICAL)</h3>
-<p class="small">tantrica2 / modern charts — NOT early Trika body.</p>
-<table class="conflict">
-<tr><th>Claim</th><th>vs TĀ limb</th></tr>
-<tr><td>ka-varga = root/red</td><td>limb map: right upper limb</td></tr>
-<tr><td>ta-tha-da-dha-na = heart/green</td><td>limb map: left lower limb</td></tr>
-<tr><td>pa-varga = throat/blue</td><td>limb map: torso; Mālinī pa = heart</td></tr>
-</table>
-</div>
-</div>
-<div class="callout" style="margin-top:1rem">
-<strong>Tripwires:</strong> Where does <code>ka</code> sit? Limb=shoulder · Mālinī=teeth · scaffold=root · batch=heart.
-Where is the heart letter? Mātṛkā=<code>ma</code> · Mālinī=<code>pa</code> · green-core=<code>ta</code>-varga row.
-<strong>Rule:</strong> one primary map per night. Dual-label later. Don’t “fix” one map to match another.
-</div>
-</section>
-
-<section>
-<h2>Interactive body — toggle maps</h2>
-<div class="toolbar">
-  <button type="button" id="btnMatrika" class="on">Mātṛkā limb map</button>
-  <button type="button" id="btnMalini">Mālinī map</button>
-  <button type="button" id="btnBoth">Both (ghost)</button>
-  <a href="/memory/audio/cycle_night1_a_aa.mp3">▶ Night 1 audio</a>
-</div>
-<div class="legend">
-  <span><i class="sw" style="background:#c9a45c"></i> head/face</span>
-  <span><i class="sw" style="background:#5ec4b6"></i> upper limbs</span>
-  <span><i class="sw" style="background:#d4899a"></i> lower limbs</span>
-  <span><i class="sw" style="background:#e8d5a3"></i> torso</span>
-  <span><i class="sw" style="background:#9aa3b5"></i> deep</span>
-  <span><i class="sw" style="background:#7dcea0"></i> Mālinī active</span>
-</div>
-<div class="stage">
-  <div class="figure-wrap">
-    <svg class="body" id="bodySvg" viewBox="0 0 420 700" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <style>
-          .fig{fill:#12161f;stroke:#c9a45c;stroke-width:1.4;opacity:.9}
-          .limb{fill:none;stroke:#c9a45c;stroke-width:7;stroke-linecap:round;opacity:.28}
-          .dev{fill:#c9a45c;font-family:Georgia,serif}
-          .ia{fill:#5ec4b6;font-family:ui-monospace,monospace;font-size:11px}
-          .loc{fill:#9aa3b5;font:9px ui-sans-serif,sans-serif}
-          .halo{fill:#c9a45c;opacity:0}
-          .zone{fill:#9aa3b5;font:10px ui-sans-serif,sans-serif;letter-spacing:.08em}
-        </style>
-      </defs>
-      <rect width="420" height="700" fill="#0b0d12"/>
-      <text x="210" y="22" text-anchor="middle" class="zone" id="svgTitle">MĀTṚKĀ · ordered alphabet on body</text>
-      <ellipse cx="210" cy="95" rx="30" ry="34" class="fig"/>
-      <rect x="172" y="132" width="76" height="125" rx="20" class="fig"/>
-      <path d="M172 148 L115 205 L108 295" class="limb"/>
-      <path d="M248 148 L305 205 L312 295" class="limb"/>
-      <path d="M192 257 L175 365 L168 485 L162 565" class="limb" stroke-width="8"/>
-      <path d="M228 257 L245 365 L252 485 L258 565" class="limb" stroke-width="8"/>
-      <circle cx="108" cy="305" r="8" class="fig"/>
-      <circle cx="312" cy="305" r="8" class="fig"/>
-      <circle cx="160" cy="575" r="9" class="fig"/>
-      <circle cx="260" cy="575" r="9" class="fig"/>
-      <g id="layerMatrika"></g>
-      <g id="layerMalini"></g>
-    </svg>
-  </div>
-  <div class="panel" id="sidePanel">
-    <h3 id="panelTitle">Mātṛkā loci</h3>
-    <div id="panelBody"><p class="small">Click any phoneme on the body.</p></div>
+  <h2>Start here</h2>
+  <p><strong>Use the Mātṛkā map first.</strong> Night 1 = <code>a</code> (forehead) + <code>ā</code> (mouth).</p>
+  <p>TĀ 15 begins with Mātṛkānyāsa. Mālinī comes after the alphabet is automatic.
+  Same phonemes, different body — don’t mix maps on the same night.</p>
+  <div class="btn-row">
+    <a class="primary" href="/memory/nyasa">Start Night 1</a>
+    <a href="/memory/audio/cycle_night1_a_aa.mp3">▶ Play cycle</a>
   </div>
 </div>
-</section>
 
-<section>
-<h2>Full tables</h2>
-<div class="grid2">
-<div>
-<h3>Mātṛkā · install points</h3>
-<div id="tblMatrika"></div>
+<div class="tabs" role="tablist">
+  <button type="button" id="tabM" class="on" data-panel="panelM">Mātṛkā body</button>
+  <button type="button" id="tabL" data-panel="panelL">Mālinī body</button>
+  <button type="button" id="tabC" data-panel="panelC">Compare maps</button>
+  <button type="button" id="tabT" data-panel="panelT">Full tables</button>
 </div>
-<div>
-<h3>Mālinī · na → pha</h3>
-<div id="tblMalini"></div>
-</div>
-</div>
-</section>
 
-<section>
-<h2>Progression — when to switch maps</h2>
-<table>
-<tr><th>Phase</th><th>Map</th><th>What</th></tr>
-<tr><td>Nights 1–8</td><td><strong>Mātṛkā</strong></td><td>16 vowels head/face · Night 1 = a+ā</td></tr>
-<tr><td>Nights 9–14</td><td><strong>Mātṛkā</strong></td><td>ka kha · ca cha · ta tha contrasts</td></tr>
-<tr><td>Full install</td><td><strong>Mātṛkā</strong></td><td>a→kṣa totalization + aham</td></tr>
-<tr><td>Months 3–4</td><td><strong>+ Mālinī</strong></td><td>Only when Mātṛkā automatic · na→pha order</td></tr>
-<tr><td>Later</td><td>Batch aṅganyāsa</td><td>Compressed TĀ 15 formula — different granularity</td></tr>
-<tr><td>Optional</td><td>Śabdarāśi</td><td>After both maps stable</td></tr>
-<tr><td>Never first</td><td>Green-core chakra</td><td>Overlay labels only</td></tr>
+<!-- MATRIKA -->
+<div class="panel on" id="panelM">
+  <div class="figure">
+    
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 720" class="diagram">
+<style>
+  .fig{fill:#151a24;stroke:#c9a45c;stroke-width:2}
+  .limb{fill:none;stroke:#c9a45c;stroke-width:10;stroke-linecap:round;opacity:.35}
+  .limb.thick{stroke-width:12;opacity:.4}
+  .dev{fill:#f0e6c8;font-family:Georgia,'Times New Roman',serif;font-size:22px;font-weight:700}
+  .ia{fill:#5ec4b6;font-family:ui-monospace,'Cascadia Code',Menlo,monospace;font-size:15px}
+  .loc{fill:#c5c0b0;font-family:ui-sans-serif,system-ui,sans-serif;font-size:11px}
+  .zone{fill:#c9a45c;font-family:ui-sans-serif,system-ui,sans-serif;font-size:12px;letter-spacing:.12em}
+  .panel{fill:#12161f;stroke:#2a3142;stroke-width:1}
+  .title{fill:#e8e6df;font-family:Georgia,serif;font-size:20px;font-weight:700}
+  .sub{fill:#9aa3b5;font-family:ui-sans-serif,system-ui,sans-serif;font-size:12px}
+</style>
+<rect width="420" height="720" fill="#0b0d12"/>
+<text x="210" y="28" text-anchor="middle" class="title">MĀTṚKĀ — ordered alphabet on body</text>
+<text x="210" y="46" text-anchor="middle" class="sub">TĀ 15 limb map · Night 1 = a + ā</text>
+
+  <ellipse cx="210" cy="90" rx="38" ry="42" class="fig"/>
+  <rect x="165" y="135" width="90" height="130" rx="22" class="fig"/>
+  <path d="M165 155 L95 220 L88 340" class="limb"/>
+  <path d="M255 155 L325 220 L332 340" class="limb"/>
+  <path d="M185 265 L160 400 L145 530 L135 600" class="limb thick"/>
+  <path d="M235 265 L260 400 L275 530 L285 600" class="limb thick"/>
+  <circle cx="88" cy="345" r="10" class="fig"/>
+  <circle cx="332" cy="345" r="10" class="fig"/>
+  <circle cx="132" cy="610" r="11" class="fig"/>
+  <circle cx="288" cy="610" r="11" class="fig"/>
+
+<g class="lab "><text x="210" y="48" text-anchor="middle" class="dev">अं</text><text x="210" y="64" text-anchor="middle" class="ia">aṃ</text><text x="210" y="76" text-anchor="middle" class="loc">crown</text></g>
+<g class="lab "><text x="210" y="72" text-anchor="middle" class="dev">अ</text><text x="210" y="88" text-anchor="middle" class="ia">a</text><text x="210" y="100" text-anchor="middle" class="loc">forehead</text></g>
+<g class="lab "><text x="210" y="98" text-anchor="middle" class="dev">आ</text><text x="210" y="114" text-anchor="middle" class="ia">ā</text><text x="210" y="126" text-anchor="middle" class="loc">mouth</text></g>
+<g class="lab "><text x="175" y="72" text-anchor="middle" class="dev">इ</text><text x="175" y="88" text-anchor="middle" class="ia">i</text><text x="175" y="100" text-anchor="middle" class="loc">R eye</text></g>
+<g class="lab "><text x="245" y="72" text-anchor="middle" class="dev">ई</text><text x="245" y="88" text-anchor="middle" class="ia">ī</text><text x="245" y="100" text-anchor="middle" class="loc">L eye</text></g>
+<g class="lab "><text x="155" y="68" text-anchor="middle" class="dev">उ</text><text x="155" y="84" text-anchor="middle" class="ia">u</text><text x="155" y="96" text-anchor="middle" class="loc">R ear</text></g>
+<g class="lab "><text x="265" y="68" text-anchor="middle" class="dev">ऊ</text><text x="265" y="84" text-anchor="middle" class="ia">ū</text><text x="265" y="96" text-anchor="middle" class="loc">L ear</text></g>
+<g class="lab "><text x="175" y="88" text-anchor="middle" class="dev">ऋ</text><text x="175" y="104" text-anchor="middle" class="ia">ṛ</text><text x="175" y="116" text-anchor="middle" class="loc">R nostril</text></g>
+<g class="lab "><text x="245" y="88" text-anchor="middle" class="dev">ॠ</text><text x="245" y="104" text-anchor="middle" class="ia">ṝ</text><text x="245" y="116" text-anchor="middle" class="loc">L nostril</text></g>
+<g class="lab "><text x="150" y="95" text-anchor="middle" class="dev">ऌ</text><text x="150" y="111" text-anchor="middle" class="ia">ḷ</text><text x="150" y="123" text-anchor="middle" class="loc">R cheek</text></g>
+<g class="lab "><text x="270" y="95" text-anchor="middle" class="dev">ॡ</text><text x="270" y="111" text-anchor="middle" class="ia">ḹ</text><text x="270" y="123" text-anchor="middle" class="loc">L cheek</text></g>
+<g class="lab "><text x="185" y="112" text-anchor="middle" class="dev">ए</text><text x="185" y="128" text-anchor="middle" class="ia">e</text><text x="185" y="140" text-anchor="middle" class="loc">low teeth</text></g>
+<g class="lab "><text x="235" y="112" text-anchor="middle" class="dev">ऐ</text><text x="235" y="128" text-anchor="middle" class="ia">ai</text><text x="235" y="140" text-anchor="middle" class="loc">up teeth</text></g>
+<g class="lab "><text x="185" y="128" text-anchor="middle" class="dev">ओ</text><text x="185" y="144" text-anchor="middle" class="ia">o</text><text x="185" y="156" text-anchor="middle" class="loc">low lip</text></g>
+<g class="lab "><text x="235" y="128" text-anchor="middle" class="dev">औ</text><text x="235" y="144" text-anchor="middle" class="ia">au</text><text x="235" y="156" text-anchor="middle" class="loc">up lip</text></g>
+<g class="lab "><text x="210" y="140" text-anchor="middle" class="dev">अः</text><text x="210" y="156" text-anchor="middle" class="ia">aḥ</text><text x="210" y="168" text-anchor="middle" class="loc">tongue</text></g>
+<g class="lab "><text x="125" y="160" text-anchor="middle" class="dev">क</text><text x="125" y="176" text-anchor="middle" class="ia">ka</text><text x="125" y="188" text-anchor="middle" class="loc">R shoulder</text></g>
+<g class="lab "><text x="105" y="205" text-anchor="middle" class="dev">ख</text><text x="105" y="221" text-anchor="middle" class="ia">kha</text><text x="105" y="233" text-anchor="middle" class="loc">R arm</text></g>
+<g class="lab "><text x="95" y="250" text-anchor="middle" class="dev">ग</text><text x="95" y="266" text-anchor="middle" class="ia">ga</text><text x="95" y="278" text-anchor="middle" class="loc">R elbow</text></g>
+<g class="lab "><text x="90" y="295" text-anchor="middle" class="dev">घ</text><text x="90" y="311" text-anchor="middle" class="ia">gha</text><text x="90" y="323" text-anchor="middle" class="loc">R wrist</text></g>
+<g class="lab "><text x="92" y="330" text-anchor="middle" class="dev">ङ</text><text x="92" y="346" text-anchor="middle" class="ia">ṅa</text><text x="92" y="358" text-anchor="middle" class="loc">R fingers</text></g>
+<g class="lab "><text x="295" y="160" text-anchor="middle" class="dev">च</text><text x="295" y="176" text-anchor="middle" class="ia">ca</text><text x="295" y="188" text-anchor="middle" class="loc">L shoulder</text></g>
+<g class="lab "><text x="315" y="205" text-anchor="middle" class="dev">छ</text><text x="315" y="221" text-anchor="middle" class="ia">cha</text><text x="315" y="233" text-anchor="middle" class="loc">L arm</text></g>
+<g class="lab "><text x="325" y="250" text-anchor="middle" class="dev">ज</text><text x="325" y="266" text-anchor="middle" class="ia">ja</text><text x="325" y="278" text-anchor="middle" class="loc">L elbow</text></g>
+<g class="lab "><text x="330" y="295" text-anchor="middle" class="dev">झ</text><text x="330" y="311" text-anchor="middle" class="ia">jha</text><text x="330" y="323" text-anchor="middle" class="loc">L wrist</text></g>
+<g class="lab "><text x="328" y="330" text-anchor="middle" class="dev">ञ</text><text x="328" y="346" text-anchor="middle" class="ia">ña</text><text x="328" y="358" text-anchor="middle" class="loc">L fingers</text></g>
+<g class="lab "><text x="175" y="160" text-anchor="middle" class="dev">प</text><text x="175" y="176" text-anchor="middle" class="ia">pa</text><text x="175" y="188" text-anchor="middle" class="loc">R side</text></g>
+<g class="lab "><text x="245" y="160" text-anchor="middle" class="dev">फ</text><text x="245" y="176" text-anchor="middle" class="ia">pha</text><text x="245" y="188" text-anchor="middle" class="loc">L side</text></g>
+<g class="lab "><text x="210" y="190" text-anchor="middle" class="dev">ब</text><text x="210" y="206" text-anchor="middle" class="ia">ba</text><text x="210" y="218" text-anchor="middle" class="loc">back</text></g>
+<g class="lab "><text x="210" y="220" text-anchor="middle" class="dev">भ</text><text x="210" y="236" text-anchor="middle" class="ia">bha</text><text x="210" y="248" text-anchor="middle" class="loc">belly</text></g>
+<g class="lab "><text x="210" y="250" text-anchor="middle" class="dev">म</text><text x="210" y="266" text-anchor="middle" class="ia">ma</text><text x="210" y="278" text-anchor="middle" class="loc">heart</text></g>
+<g class="lab "><text x="155" y="340" text-anchor="middle" class="dev">ट</text><text x="155" y="356" text-anchor="middle" class="ia">ṭa</text><text x="155" y="368" text-anchor="middle" class="loc">R buttock</text></g>
+<g class="lab "><text x="140" y="400" text-anchor="middle" class="dev">ठ</text><text x="140" y="416" text-anchor="middle" class="ia">ṭha</text><text x="140" y="428" text-anchor="middle" class="loc">R thigh</text></g>
+<g class="lab "><text x="130" y="460" text-anchor="middle" class="dev">ड</text><text x="130" y="476" text-anchor="middle" class="ia">ḍa</text><text x="130" y="488" text-anchor="middle" class="loc">R knee</text></g>
+<g class="lab "><text x="125" y="520" text-anchor="middle" class="dev">ढ</text><text x="125" y="536" text-anchor="middle" class="ia">ḍha</text><text x="125" y="548" text-anchor="middle" class="loc">R shank</text></g>
+<g class="lab "><text x="130" y="585" text-anchor="middle" class="dev">ण</text><text x="130" y="601" text-anchor="middle" class="ia">ṇa</text><text x="130" y="613" text-anchor="middle" class="loc">R toes</text></g>
+<g class="lab "><text x="265" y="340" text-anchor="middle" class="dev">त</text><text x="265" y="356" text-anchor="middle" class="ia">ta</text><text x="265" y="368" text-anchor="middle" class="loc">L buttock</text></g>
+<g class="lab "><text x="280" y="400" text-anchor="middle" class="dev">थ</text><text x="280" y="416" text-anchor="middle" class="ia">tha</text><text x="280" y="428" text-anchor="middle" class="loc">L thigh</text></g>
+<g class="lab "><text x="290" y="460" text-anchor="middle" class="dev">द</text><text x="290" y="476" text-anchor="middle" class="ia">da</text><text x="290" y="488" text-anchor="middle" class="loc">L knee</text></g>
+<g class="lab "><text x="295" y="520" text-anchor="middle" class="dev">ध</text><text x="295" y="536" text-anchor="middle" class="ia">dha</text><text x="295" y="548" text-anchor="middle" class="loc">L shank</text></g>
+<g class="lab "><text x="290" y="585" text-anchor="middle" class="dev">न</text><text x="290" y="601" text-anchor="middle" class="ia">na</text><text x="290" y="613" text-anchor="middle" class="loc">L toes</text></g>
+<g class="deep-band">
+<rect x="20" y="625" width="380" height="70" rx="10" class="panel"/>
+<text x="210" y="642" text-anchor="middle" class="zone">DEEP CONSTITUENTS</text>
+<g class="lab deep"><text x="40" y="648" text-anchor="middle" class="dev">य</text><text x="40" y="664" text-anchor="middle" class="ia">ya</text><text x="40" y="676" text-anchor="middle" class="loc">skin</text></g>
+<g class="lab deep"><text x="110" y="648" text-anchor="middle" class="dev">र</text><text x="110" y="664" text-anchor="middle" class="ia">ra</text><text x="110" y="676" text-anchor="middle" class="loc">blood</text></g>
+<g class="lab deep"><text x="180" y="648" text-anchor="middle" class="dev">ल</text><text x="180" y="664" text-anchor="middle" class="ia">la</text><text x="180" y="676" text-anchor="middle" class="loc">flesh</text></g>
+<g class="lab deep"><text x="250" y="648" text-anchor="middle" class="dev">व</text><text x="250" y="664" text-anchor="middle" class="ia">va</text><text x="250" y="676" text-anchor="middle" class="loc">sinews</text></g>
+<g class="lab deep"><text x="40" y="678" text-anchor="middle" class="dev">श</text><text x="40" y="694" text-anchor="middle" class="ia">śa</text><text x="40" y="706" text-anchor="middle" class="loc">bone</text></g>
+<g class="lab deep"><text x="110" y="678" text-anchor="middle" class="dev">ष</text><text x="110" y="694" text-anchor="middle" class="ia">ṣa</text><text x="110" y="706" text-anchor="middle" class="loc">marrow</text></g>
+<g class="lab deep"><text x="180" y="678" text-anchor="middle" class="dev">स</text><text x="180" y="694" text-anchor="middle" class="ia">sa</text><text x="180" y="706" text-anchor="middle" class="loc">essence</text></g>
+<g class="lab deep"><text x="250" y="678" text-anchor="middle" class="dev">ह</text><text x="250" y="694" text-anchor="middle" class="ia">ha</text><text x="250" y="706" text-anchor="middle" class="loc">prāṇa</text></g>
+<g class="lab deep"><text x="330" y="663" text-anchor="middle" class="dev">क्ष</text><text x="330" y="679" text-anchor="middle" class="ia">kṣa</text><text x="330" y="691" text-anchor="middle" class="loc">generative</text></g>
+</g>
+</svg>
+
+  </div>
+  <div class="card">
+    <h2>How to read this</h2>
+    <p>Gold figure = Mātṛkā limb map (Tantrāloka 15).</p>
+    <ul>
+      <li><strong>Head/face</strong> — all 16 vowels (crown, forehead, mouth, eyes, ears, nostrils, cheeks, teeth, lips, tongue)</li>
+      <li><strong>Right arm</strong> — ka kha ga gha ṅa (shoulder → fingers)</li>
+      <li><strong>Left arm</strong> — ca cha ja jha ña</li>
+      <li><strong>Legs</strong> — ṭa-varga right · ta-varga left</li>
+      <li><strong>Torso</strong> — pa pha ba bha <strong>ma=heart</strong></li>
+      <li><strong>Bottom band</strong> — deep constituents (skin → generative)</li>
+    </ul>
+    <p class="muted">Touch + chant each locus. Mouth decides the sound. Locus decides the install.</p>
+  </div>
+</div>
+
+<!-- MALINI -->
+<div class="panel" id="panelL">
+  <div class="figure">
+    
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 720" class="diagram">
+<style>
+  .fig{fill:#151a24;stroke:#7dcea0;stroke-width:2}
+  .limb{fill:none;stroke:#7dcea0;stroke-width:10;stroke-linecap:round;opacity:.35}
+  .limb.thick{stroke-width:12;opacity:.4}
+  .dev{fill:#f0e6c8;font-family:Georgia,'Times New Roman',serif;font-size:22px;font-weight:700}
+  .ia{fill:#7dcea0;font-family:ui-monospace,'Cascadia Code',Menlo,monospace;font-size:15px}
+  .loc{fill:#c5c0b0;font-family:ui-sans-serif,system-ui,sans-serif;font-size:11px}
+  .zone{fill:#7dcea0;font-family:ui-sans-serif,system-ui,sans-serif;font-size:12px;letter-spacing:.12em}
+  .title{fill:#e8e6df;font-family:Georgia,serif;font-size:20px;font-weight:700}
+  .sub{fill:#9aa3b5;font-family:ui-sans-serif,system-ui,sans-serif;font-size:12px}
+</style>
+<rect width="420" height="720" fill="#0b0d12"/>
+<text x="210" y="28" text-anchor="middle" class="title">MĀLINĪ — bhinna-yoni na → pha</text>
+<text x="210" y="46" text-anchor="middle" class="sub">MV 3.37–41 · after Mātṛkā is stable</text>
+
+  <ellipse cx="210" cy="90" rx="38" ry="42" class="fig"/>
+  <rect x="165" y="135" width="90" height="130" rx="22" class="fig"/>
+  <path d="M165 155 L95 220 L88 340" class="limb"/>
+  <path d="M255 155 L325 220 L332 340" class="limb"/>
+  <path d="M185 265 L160 400 L145 530 L135 600" class="limb thick"/>
+  <path d="M235 265 L260 400 L275 530 L285 600" class="limb thick"/>
+  <circle cx="88" cy="345" r="10" class="fig"/>
+  <circle cx="332" cy="345" r="10" class="fig"/>
+  <circle cx="132" cy="610" r="11" class="fig"/>
+  <circle cx="288" cy="610" r="11" class="fig"/>
+
+<g class="lab mal"><text x="210" y="42" text-anchor="middle" class="dev">न</text><text x="210" y="58" text-anchor="middle" class="ia">na</text><text x="210" y="70" text-anchor="middle" class="loc">śikhā</text></g>
+<g class="lab mal"><text x="190" y="38" text-anchor="middle" class="dev">ऋ</text><text x="190" y="54" text-anchor="middle" class="ia">ṛ</text><text x="190" y="66" text-anchor="middle" class="loc">headband</text></g>
+<g class="lab mal"><text x="200" y="38" text-anchor="middle" class="dev">ॠ</text><text x="200" y="54" text-anchor="middle" class="ia">ṝ</text><text x="200" y="66" text-anchor="middle" class="loc">headband</text></g>
+<g class="lab mal"><text x="220" y="38" text-anchor="middle" class="dev">ऌ</text><text x="220" y="54" text-anchor="middle" class="ia">ḷ</text><text x="220" y="66" text-anchor="middle" class="loc">headband</text></g>
+<g class="lab mal"><text x="230" y="38" text-anchor="middle" class="dev">ॡ</text><text x="230" y="54" text-anchor="middle" class="ia">ḹ</text><text x="230" y="66" text-anchor="middle" class="loc">headband</text></g>
+<g class="lab mal"><text x="210" y="55" text-anchor="middle" class="dev">थ</text><text x="210" y="71" text-anchor="middle" class="ia">tha</text><text x="210" y="83" text-anchor="middle" class="loc">top head</text></g>
+<g class="lab mal"><text x="175" y="72" text-anchor="middle" class="dev">च</text><text x="175" y="88" text-anchor="middle" class="ia">ca</text><text x="175" y="100" text-anchor="middle" class="loc">R eye</text></g>
+<g class="lab mal"><text x="245" y="72" text-anchor="middle" class="dev">ध</text><text x="245" y="88" text-anchor="middle" class="ia">dha</text><text x="245" y="100" text-anchor="middle" class="loc">L eye</text></g>
+<g class="lab mal"><text x="210" y="88" text-anchor="middle" class="dev">ई</text><text x="210" y="104" text-anchor="middle" class="ia">ī</text><text x="210" y="116" text-anchor="middle" class="loc">nose</text></g>
+<g class="lab mal"><text x="155" y="68" text-anchor="middle" class="dev">ण</text><text x="155" y="84" text-anchor="middle" class="ia">ṇa</text><text x="155" y="96" text-anchor="middle" class="loc">ears</text></g>
+<g class="lab mal"><text x="150" y="68" text-anchor="middle" class="dev">उ</text><text x="150" y="84" text-anchor="middle" class="ia">u</text><text x="150" y="96" text-anchor="middle" class="loc">ear R</text></g>
+<g class="lab mal"><text x="270" y="68" text-anchor="middle" class="dev">ऊ</text><text x="270" y="84" text-anchor="middle" class="ia">ū</text><text x="270" y="96" text-anchor="middle" class="loc">ear L</text></g>
+<g class="lab mal"><text x="210" y="100" text-anchor="middle" class="dev">ब</text><text x="210" y="116" text-anchor="middle" class="ia">ba</text><text x="210" y="128" text-anchor="middle" class="loc">mouth</text></g>
+<g class="lab mal"><text x="180" y="112" text-anchor="middle" class="dev">क</text><text x="180" y="128" text-anchor="middle" class="ia">ka</text><text x="180" y="140" text-anchor="middle" class="loc">teeth</text></g>
+<g class="lab mal"><text x="192" y="112" text-anchor="middle" class="dev">ख</text><text x="192" y="128" text-anchor="middle" class="ia">kha</text><text x="192" y="140" text-anchor="middle" class="loc">teeth</text></g>
+<g class="lab mal"><text x="204" y="112" text-anchor="middle" class="dev">ग</text><text x="204" y="128" text-anchor="middle" class="ia">ga</text><text x="204" y="140" text-anchor="middle" class="loc">teeth</text></g>
+<g class="lab mal"><text x="216" y="112" text-anchor="middle" class="dev">घ</text><text x="216" y="128" text-anchor="middle" class="ia">gha</text><text x="216" y="140" text-anchor="middle" class="loc">teeth</text></g>
+<g class="lab mal"><text x="228" y="112" text-anchor="middle" class="dev">ङ</text><text x="228" y="128" text-anchor="middle" class="ia">ṅa</text><text x="228" y="140" text-anchor="middle" class="loc">teeth</text></g>
+<g class="lab mal"><text x="210" y="122" text-anchor="middle" class="dev">इ</text><text x="210" y="138" text-anchor="middle" class="ia">i</text><text x="210" y="150" text-anchor="middle" class="loc">tongue</text></g>
+<g class="lab mal"><text x="210" y="132" text-anchor="middle" class="dev">अ</text><text x="210" y="148" text-anchor="middle" class="ia">a</text><text x="210" y="160" text-anchor="middle" class="loc">speech</text></g>
+<g class="lab mal"><text x="210" y="145" text-anchor="middle" class="dev">व</text><text x="210" y="161" text-anchor="middle" class="ia">va</text><text x="210" y="173" text-anchor="middle" class="loc">throat</text></g>
+<g class="lab mal"><text x="125" y="160" text-anchor="middle" class="dev">भ</text><text x="125" y="176" text-anchor="middle" class="ia">bha</text><text x="125" y="188" text-anchor="middle" class="loc">R shoulder</text></g>
+<g class="lab mal"><text x="295" y="160" text-anchor="middle" class="dev">य</text><text x="295" y="176" text-anchor="middle" class="ia">ya</text><text x="295" y="188" text-anchor="middle" class="loc">L shoulder</text></g>
+<g class="lab mal"><text x="105" y="205" text-anchor="middle" class="dev">ड</text><text x="105" y="221" text-anchor="middle" class="ia">ḍa</text><text x="105" y="233" text-anchor="middle" class="loc">R arm</text></g>
+<g class="lab mal"><text x="315" y="205" text-anchor="middle" class="dev">ढ</text><text x="315" y="221" text-anchor="middle" class="ia">ḍha</text><text x="315" y="233" text-anchor="middle" class="loc">L arm</text></g>
+<g class="lab mal"><text x="210" y="185" text-anchor="middle" class="dev">ठ</text><text x="210" y="201" text-anchor="middle" class="ia">ṭha</text><text x="210" y="213" text-anchor="middle" class="loc">hands</text></g>
+<g class="lab mal"><text x="92" y="330" text-anchor="middle" class="dev">झ</text><text x="92" y="346" text-anchor="middle" class="ia">jha</text><text x="92" y="358" text-anchor="middle" class="loc">R fingers</text></g>
+<g class="lab mal"><text x="328" y="330" text-anchor="middle" class="dev">ञ</text><text x="328" y="346" text-anchor="middle" class="ia">ña</text><text x="328" y="358" text-anchor="middle" class="loc">L fingers</text></g>
+<g class="lab mal"><text x="80" y="200" text-anchor="middle" class="dev">ज</text><text x="80" y="216" text-anchor="middle" class="ia">ja</text><text x="80" y="228" text-anchor="middle" class="loc">trident</text></g>
+<g class="lab mal"><text x="85" y="240" text-anchor="middle" class="dev">र</text><text x="85" y="256" text-anchor="middle" class="ia">ra</text><text x="85" y="268" text-anchor="middle" class="loc">shaft</text></g>
+<g class="lab mal"><text x="340" y="200" text-anchor="middle" class="dev">ट</text><text x="340" y="216" text-anchor="middle" class="ia">ṭa</text><text x="340" y="228" text-anchor="middle" class="loc">skull</text></g>
+<g class="lab mal"><text x="210" y="250" text-anchor="middle" class="dev">प</text><text x="210" y="266" text-anchor="middle" class="ia">pa</text><text x="210" y="278" text-anchor="middle" class="loc">heart</text></g>
+<g class="lab mal"><text x="175" y="185" text-anchor="middle" class="dev">छ</text><text x="175" y="201" text-anchor="middle" class="ia">cha</text><text x="175" y="213" text-anchor="middle" class="loc">R chest</text></g>
+<g class="lab mal"><text x="245" y="185" text-anchor="middle" class="dev">ल</text><text x="245" y="201" text-anchor="middle" class="ia">la</text><text x="245" y="213" text-anchor="middle" class="loc">L chest</text></g>
+<g class="lab mal"><text x="210" y="185" text-anchor="middle" class="dev">आ</text><text x="210" y="201" text-anchor="middle" class="ia">ā</text><text x="210" y="213" text-anchor="middle" class="loc">milk</text></g>
+<g class="lab mal"><text x="210" y="200" text-anchor="middle" class="dev">स</text><text x="210" y="216" text-anchor="middle" class="ia">sa</text><text x="210" y="228" text-anchor="middle" class="loc">jīva</text></g>
+<g class="lab mal"><text x="210" y="210" text-anchor="middle" class="dev">अः</text><text x="210" y="226" text-anchor="middle" class="ia">aḥ</text><text x="210" y="238" text-anchor="middle" class="loc">prāṇa</text></g>
+<g class="lab mal"><text x="210" y="220" text-anchor="middle" class="dev">ह</text><text x="210" y="236" text-anchor="middle" class="ia">ha</text><text x="210" y="248" text-anchor="middle" class="loc">prāṇa</text></g>
+<g class="lab mal"><text x="210" y="235" text-anchor="middle" class="dev">ष</text><text x="210" y="251" text-anchor="middle" class="ia">ṣa</text><text x="210" y="263" text-anchor="middle" class="loc">belly</text></g>
+<g class="lab mal"><text x="210" y="245" text-anchor="middle" class="dev">क्ष</text><text x="210" y="261" text-anchor="middle" class="ia">kṣa</text><text x="210" y="273" text-anchor="middle" class="loc">navel</text></g>
+<g class="lab mal"><text x="155" y="340" text-anchor="middle" class="dev">म</text><text x="155" y="356" text-anchor="middle" class="ia">ma</text><text x="155" y="368" text-anchor="middle" class="loc">buttocks</text></g>
+<g class="lab mal"><text x="210" y="340" text-anchor="middle" class="dev">श</text><text x="210" y="356" text-anchor="middle" class="ia">śa</text><text x="210" y="368" text-anchor="middle" class="loc">guhya</text></g>
+<g class="lab mal"><text x="265" y="370" text-anchor="middle" class="dev">अं</text><text x="265" y="386" text-anchor="middle" class="ia">aṃ</text><text x="265" y="398" text-anchor="middle" class="loc">R thigh</text></g>
+<g class="lab mal"><text x="265" y="400" text-anchor="middle" class="dev">त</text><text x="265" y="416" text-anchor="middle" class="ia">ta</text><text x="265" y="428" text-anchor="middle" class="loc">L thigh</text></g>
+<g class="lab mal"><text x="290" y="460" text-anchor="middle" class="dev">ए</text><text x="290" y="476" text-anchor="middle" class="ia">e</text><text x="290" y="488" text-anchor="middle" class="loc">R knee</text></g>
+<g class="lab mal"><text x="300" y="460" text-anchor="middle" class="dev">ऐ</text><text x="300" y="476" text-anchor="middle" class="ia">ai</text><text x="300" y="488" text-anchor="middle" class="loc">L knee</text></g>
+<g class="lab mal"><text x="295" y="520" text-anchor="middle" class="dev">ओ</text><text x="295" y="536" text-anchor="middle" class="ia">o</text><text x="295" y="548" text-anchor="middle" class="loc">R shank</text></g>
+<g class="lab mal"><text x="305" y="520" text-anchor="middle" class="dev">औ</text><text x="305" y="536" text-anchor="middle" class="ia">au</text><text x="305" y="548" text-anchor="middle" class="loc">L shank</text></g>
+<g class="lab mal"><text x="290" y="585" text-anchor="middle" class="dev">द</text><text x="290" y="601" text-anchor="middle" class="ia">da</text><text x="290" y="613" text-anchor="middle" class="loc">R foot</text></g>
+<g class="lab mal"><text x="305" y="585" text-anchor="middle" class="dev">फ</text><text x="305" y="601" text-anchor="middle" class="ia">pha</text><text x="305" y="613" text-anchor="middle" class="loc">L foot</text></g>
+</svg>
+
+  </div>
+  <div class="card">
+    <h2>How to read this</h2>
+    <p>Green figure = Mālinī map (Mālinīvijayottaratantra 3.37–41).</p>
+    <ul>
+      <li>Order runs <strong>na → pha</strong> (bhinna-yoni — vowels mixed with consonants)</li>
+      <li><strong>ka-varga = teeth</strong> (not shoulders — that’s Mātṛkā)</li>
+      <li><strong>pa = heart</strong> (Mātṛkā heart letter is <code>ma</code>)</li>
+      <li><code>na</code> = crown flame · <code>da/pha</code> = feet</li>
+    </ul>
+    <p class="muted">Use this only after Mātṛkā order feels automatic.</p>
+  </div>
+</div>
+
+<!-- COMPARE -->
+<div class="panel" id="panelC">
+  <div class="card">
+    <h2>Same phoneme, different map</h2>
+    <div class="warn">
+      <strong>Don’t blend maps.</strong> One primary per night.
+      Yoginī names vary across sources; body loci from MV 3.37–41 are the stable Mālinī core.
+    </div>
+    
+<table class="conflict">
+<thead><tr><th>Phoneme</th><th>Mātṛkā limb</th><th>Mālinī MV 3.37–41</th></tr></thead>
+<tbody>
+<tr><td class="ia">ka</td><td>right shoulder</td><td><strong>teeth</strong></td></tr>
+<tr><td class="ia">ta</td><td>left lower limb</td><td>left thigh cluster</td></tr>
+<tr><td class="ia">pa</td><td>right diaphragm</td><td><strong>heart</strong></td></tr>
+<tr><td class="ia">ma</td><td><strong>heart</strong></td><td>buttocks</td></tr>
+<tr><td class="ia">e</td><td>lower teeth</td><td>right knee</td></tr>
+<tr><td class="ia">na</td><td>left toes</td><td>śikhā / crown</td></tr>
+</tbody>
 </table>
-<div class="callout ok">
-<strong>Switch rule:</strong> You can say the full alphabet and feel its Mātṛkā loci without hunting — then add Mālinī.
-Before that, Mālinī is not practice; it is confusion with a harder chart.
-</div>
-</section>
 
-<section>
-<h2>Sources</h2>
-<ul class="small">
-<li>Tantrāloka 15 — Mātṛkānyāsa / Mālinīnyāsa / śabdarāśinyāsa (Dyczkowski apparatus on volume)</li>
-<li>Mālinīvijayottaratantra 3.36–41 — bhinna-yoni · śākta-śarīra · body chart (Pradīpaka)</li>
-<li>Tantrāloka 4.91 — don’t torment the body with prāṇāyāma</li>
-<li>Flood, <em>The Tantric Body</em> — entextualisation; cakra maps late/variable</li>
-<li>deitybody: <code>matrika_body_map.json</code> · <code>malini_order.json</code> · <code>docs/PATHWAY.md</code> · <code>corpus/extracts/MALINI_VARIATIONS.md</code></li>
-<li>Practise: <a href="/memory/nyasa">Nyāsa</a> · audio cycles · Bruno wheels</li>
-</ul>
-<p class="small">Tradition-specific practice coordinates · not biomedical anatomy · no Hz doctrine · stop always available.</p>
-</section>
+  </div>
+  <div class="card">
+    <h2>When to switch</h2>
+    <table>
+      <thead><tr><th>Phase</th><th>Map</th></tr></thead>
+      <tbody>
+        <tr><td>Nights 1–14 + full install</td><td><strong>Mātṛkā</strong></td></tr>
+        <tr><td>Months 3–4</td><td><strong>+ Mālinī</strong> (only when Mātṛkā automatic)</td></tr>
+        <tr><td>Optional later</td><td>Batch aṅganyāsa · śabdarāśi</td></tr>
+        <tr><td>Never first</td><td>Green-core chakra scaffold</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- TABLES -->
+<div class="panel" id="panelT">
+  <div class="tables">
+    <div class="card">
+      <h2>Mātṛkā — 50 loci</h2>
+      <div class="scroll"><table><thead><tr><th>IAST</th><th>Glyph</th><th>Locus</th></tr></thead><tbody>
+<tr><td class="ia">aṃ</td><td class="dev">अं</td><td>crown</td></tr>
+<tr><td class="ia">a</td><td class="dev">अ</td><td>forehead</td></tr>
+<tr><td class="ia">ā</td><td class="dev">आ</td><td>mouth</td></tr>
+<tr><td class="ia">i</td><td class="dev">इ</td><td>R eye</td></tr>
+<tr><td class="ia">ī</td><td class="dev">ई</td><td>L eye</td></tr>
+<tr><td class="ia">u</td><td class="dev">उ</td><td>R ear</td></tr>
+<tr><td class="ia">ū</td><td class="dev">ऊ</td><td>L ear</td></tr>
+<tr><td class="ia">ṛ</td><td class="dev">ऋ</td><td>R nostril</td></tr>
+<tr><td class="ia">ṝ</td><td class="dev">ॠ</td><td>L nostril</td></tr>
+<tr><td class="ia">ḷ</td><td class="dev">ऌ</td><td>R cheek</td></tr>
+<tr><td class="ia">ḹ</td><td class="dev">ॡ</td><td>L cheek</td></tr>
+<tr><td class="ia">e</td><td class="dev">ए</td><td>low teeth</td></tr>
+<tr><td class="ia">ai</td><td class="dev">ऐ</td><td>up teeth</td></tr>
+<tr><td class="ia">o</td><td class="dev">ओ</td><td>low lip</td></tr>
+<tr><td class="ia">au</td><td class="dev">औ</td><td>up lip</td></tr>
+<tr><td class="ia">aḥ</td><td class="dev">अः</td><td>tongue</td></tr>
+<tr><td class="ia">ka</td><td class="dev">क</td><td>R shoulder</td></tr>
+<tr><td class="ia">kha</td><td class="dev">ख</td><td>R arm</td></tr>
+<tr><td class="ia">ga</td><td class="dev">ग</td><td>R elbow</td></tr>
+<tr><td class="ia">gha</td><td class="dev">घ</td><td>R wrist</td></tr>
+<tr><td class="ia">ṅa</td><td class="dev">ङ</td><td>R fingers</td></tr>
+<tr><td class="ia">ca</td><td class="dev">च</td><td>L shoulder</td></tr>
+<tr><td class="ia">cha</td><td class="dev">छ</td><td>L arm</td></tr>
+<tr><td class="ia">ja</td><td class="dev">ज</td><td>L elbow</td></tr>
+<tr><td class="ia">jha</td><td class="dev">झ</td><td>L wrist</td></tr>
+<tr><td class="ia">ña</td><td class="dev">ञ</td><td>L fingers</td></tr>
+<tr><td class="ia">pa</td><td class="dev">प</td><td>R side</td></tr>
+<tr><td class="ia">pha</td><td class="dev">फ</td><td>L side</td></tr>
+<tr><td class="ia">ba</td><td class="dev">ब</td><td>back</td></tr>
+<tr><td class="ia">bha</td><td class="dev">भ</td><td>belly</td></tr>
+<tr><td class="ia">ma</td><td class="dev">म</td><td>heart</td></tr>
+<tr><td class="ia">ṭa</td><td class="dev">ट</td><td>R buttock</td></tr>
+<tr><td class="ia">ṭha</td><td class="dev">ठ</td><td>R thigh</td></tr>
+<tr><td class="ia">ḍa</td><td class="dev">ड</td><td>R knee</td></tr>
+<tr><td class="ia">ḍha</td><td class="dev">ढ</td><td>R shank</td></tr>
+<tr><td class="ia">ṇa</td><td class="dev">ण</td><td>R toes</td></tr>
+<tr><td class="ia">ta</td><td class="dev">त</td><td>L buttock</td></tr>
+<tr><td class="ia">tha</td><td class="dev">थ</td><td>L thigh</td></tr>
+<tr><td class="ia">da</td><td class="dev">द</td><td>L knee</td></tr>
+<tr><td class="ia">dha</td><td class="dev">ध</td><td>L shank</td></tr>
+<tr><td class="ia">na</td><td class="dev">न</td><td>L toes</td></tr>
+</tbody></table></div>
+    </div>
+    <div class="card">
+      <h2>Mālinī — na → pha</h2>
+      <div class="scroll"><table><thead><tr><th>#</th><th>IAST</th><th>Glyph</th><th>Locus</th></tr></thead><tbody>
+<tr><td>1</td><td class="ia">na</td><td class="dev">न</td><td>śikhā — flame / tuft on head</td></tr>
+<tr><td>2</td><td class="ia">ṛ</td><td class="dev">ऋ</td><td>śiromālā — headband / garland around head</td></tr>
+<tr><td>3</td><td class="ia">ṝ</td><td class="dev">ॠ</td><td>śiromālā</td></tr>
+<tr><td>4</td><td class="ia">ḷ</td><td class="dev">ऌ</td><td>śiromālā</td></tr>
+<tr><td>5</td><td class="ia">ḹ</td><td class="dev">ॡ</td><td>śiromālā</td></tr>
+<tr><td>6</td><td class="ia">tha</td><td class="dev">थ</td><td>mastaka — top of head</td></tr>
+<tr><td>7</td><td class="ia">ca</td><td class="dev">च</td><td>right eye (dakṣanetra)</td></tr>
+<tr><td>8</td><td class="ia">dha</td><td class="dev">ध</td><td>left eye (vāmanetra)</td></tr>
+<tr><td>9</td><td class="ia">ī</td><td class="dev">ई</td><td>nose</td></tr>
+<tr><td>10</td><td class="ia">ṇa</td><td class="dev">ण</td><td>ears</td></tr>
+<tr><td>11</td><td class="ia">u</td><td class="dev">उ</td><td>ear (right)</td></tr>
+<tr><td>12</td><td class="ia">ū</td><td class="dev">ऊ</td><td>ear (left)</td></tr>
+<tr><td>13</td><td class="ia">ba</td><td class="dev">ब</td><td>mouth (vaktra)</td></tr>
+<tr><td>14</td><td class="ia">ka</td><td class="dev">क</td><td>teeth</td></tr>
+<tr><td>15</td><td class="ia">kha</td><td class="dev">ख</td><td>teeth</td></tr>
+<tr><td>16</td><td class="ia">ga</td><td class="dev">ग</td><td>teeth</td></tr>
+<tr><td>17</td><td class="ia">gha</td><td class="dev">घ</td><td>teeth</td></tr>
+<tr><td>18</td><td class="ia">ṅa</td><td class="dev">ङ</td><td>teeth</td></tr>
+<tr><td>19</td><td class="ia">i</td><td class="dev">इ</td><td>tongue</td></tr>
+<tr><td>20</td><td class="ia">a</td><td class="dev">अ</td><td>speech (vāk)</td></tr>
+<tr><td>21</td><td class="ia">va</td><td class="dev">व</td><td>throat</td></tr>
+<tr><td>22</td><td class="ia">bha</td><td class="dev">भ</td><td>right shoulder</td></tr>
+<tr><td>23</td><td class="ia">ya</td><td class="dev">य</td><td>left shoulder</td></tr>
+<tr><td>24</td><td class="ia">ḍa</td><td class="dev">ड</td><td>right arm</td></tr>
+<tr><td>25</td><td class="ia">ḍha</td><td class="dev">ढ</td><td>left arm</td></tr>
+<tr><td>26</td><td class="ia">ṭha</td><td class="dev">ठ</td><td>hands</td></tr>
+<tr><td>27</td><td class="ia">jha</td><td class="dev">झ</td><td>fingers right hand</td></tr>
+<tr><td>28</td><td class="ia">ña</td><td class="dev">ञ</td><td>fingers left hand</td></tr>
+<tr><td>29</td><td class="ia">ja</td><td class="dev">ज</td><td>trident prongs (śūlaśikhā)</td></tr>
+<tr><td>30</td><td class="ia">ra</td><td class="dev">र</td><td>trident shaft (śūladaṇḍa)</td></tr>
+<tr><td>31</td><td class="ia">ṭa</td><td class="dev">ट</td><td>skull (kapāla)</td></tr>
+<tr><td>32</td><td class="ia">pa</td><td class="dev">प</td><td>heart</td></tr>
+<tr><td>33</td><td class="ia">cha</td><td class="dev">छ</td><td>right chest / breast</td></tr>
+<tr><td>34</td><td class="ia">la</td><td class="dev">ल</td><td>left chest / breast</td></tr>
+<tr><td>35</td><td class="ia">ā</td><td class="dev">आ</td><td>milk / kṣīra (amṛta)</td></tr>
+<tr><td>36</td><td class="ia">sa</td><td class="dev">स</td><td>jīva / Self</td></tr>
+<tr><td>37</td><td class="ia">aḥ</td><td class="dev">अः</td><td>general prāṇa</td></tr>
+<tr><td>38</td><td class="ia">ha</td><td class="dev">ह</td><td>particular prāṇa</td></tr>
+<tr><td>39</td><td class="ia">ṣa</td><td class="dev">ष</td><td>belly</td></tr>
+<tr><td>40</td><td class="ia">kṣa</td><td class="dev">क्ष</td><td>navel</td></tr>
+<tr><td>41</td><td class="ia">ma</td><td class="dev">म</td><td>buttocks / hips</td></tr>
+<tr><td>42</td><td class="ia">śa</td><td class="dev">श</td><td>guhya — genitals/anus</td></tr>
+<tr><td>43</td><td class="ia">aṃ</td><td class="dev">अं</td><td>right thigh</td></tr>
+<tr><td>44</td><td class="ia">ta</td><td class="dev">त</td><td>left thigh</td></tr>
+<tr><td>45</td><td class="ia">e</td><td class="dev">ए</td><td>right knee</td></tr>
+<tr><td>46</td><td class="ia">ai</td><td class="dev">ऐ</td><td>left knee</td></tr>
+<tr><td>47</td><td class="ia">o</td><td class="dev">ओ</td><td>right shank</td></tr>
+<tr><td>48</td><td class="ia">au</td><td class="dev">औ</td><td>left shank</td></tr>
+<tr><td>49</td><td class="ia">da</td><td class="dev">द</td><td>right foot</td></tr>
+<tr><td>50</td><td class="ia">pha</td><td class="dev">फ</td><td>left foot</td></tr>
+</tbody></table></div>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <h2>Audio + practice</h2>
+  <div class="btn-row">
+    <a class="primary" href="/memory/nyasa">Nyāsa practice</a>
+    <a href="/memory/audio/cycle_night1_a_aa.mp3">▶ Night 1 cycle</a>
+    <a href="/memory/audio/cycle_vowels.mp3">▶ Vowels</a>
+    <a href="/memory/bruno-wheels/index.html">Bruno wheels</a>
+  </div>
+  <p class="muted">
+    Pattern: phoneme clip → locus word → gap for you → next.
+    Mouth decides how it sounds. Locus decides where it is installed.
+  </p>
+</div>
+
+<div class="card">
+  <h2>Sources</h2>
+  <ul class="muted">
+    <li>Tantrāloka 15 — Mātṛkā / Mālinī / śabdarāśi nyāsa (volume Dyczkowski corpus)</li>
+    <li>Mālinīvijayottaratantra 3.36–41 — bhinna-yoni · śākta-śarīra body map</li>
+    <li>Tantrāloka 4.91 — don’t torment the body with prāṇāyāma</li>
+    <li>Practice scaffold · not biomedical anatomy · no Hz doctrine</li>
+  </ul>
+</div>
 
 </main>
 <script>
-const M = {items: [{"iast": "aṃ", "dev": "अं", "locus": "crown", "group": "head", "x": 210, "y": 58, "note": ""}, {"iast": "a", "dev": "अ", "locus": "forehead", "group": "head", "x": 210, "y": 78, "note": ""}, {"iast": "ā", "dev": "आ", "locus": "mouth/face", "group": "head", "x": 210, "y": 100, "note": ""}, {"iast": "i", "dev": "इ", "locus": "R eye", "group": "head", "x": 186, "y": 82, "note": ""}, {"iast": "ī", "dev": "ई", "locus": "L eye", "group": "head", "x": 234, "y": 82, "note": ""}, {"iast": "u", "dev": "उ", "locus": "R ear", "group": "head", "x": 174, "y": 78, "note": ""}, {"iast": "ū", "dev": "ऊ", "locus": "L ear", "group": "head", "x": 246, "y": 78, "note": ""}, {"iast": "ṛ", "dev": "ऋ", "locus": "R nostril", "group": "head", "x": 186, "y": 94, "note": ""}, {"iast": "ṝ", "dev": "ॠ", "locus": "L nostril", "group": "head", "x": 234, "y": 94, "note": ""}, {"iast": "ḷ", "dev": "ऌ", "locus": "R cheek", "group": "head", "x": 172, "y": 94, "note": ""}, {"iast": "ḹ", "dev": "ॡ", "locus": "L cheek", "group": "head", "x": 248, "y": 94, "note": ""}, {"iast": "e", "dev": "ए", "locus": "low teeth", "group": "head", "x": 198, "y": 112, "note": ""}, {"iast": "ai", "dev": "ऐ", "locus": "up teeth", "group": "head", "x": 222, "y": 112, "note": ""}, {"iast": "o", "dev": "ओ", "locus": "low lip", "group": "head", "x": 198, "y": 124, "note": ""}, {"iast": "au", "dev": "औ", "locus": "up lip", "group": "head", "x": 222, "y": 124, "note": ""}, {"iast": "aḥ", "dev": "अः", "locus": "tongue", "group": "head", "x": 210, "y": 134, "note": ""}, {"iast": "ka", "dev": "क", "locus": "right shoulder", "group": "arm-r", "x": 130, "y": 155, "note": ""}, {"iast": "kha", "dev": "ख", "locus": "right arm", "group": "arm-r", "x": 118, "y": 195, "note": ""}, {"iast": "ga", "dev": "ग", "locus": "right elbow", "group": "arm-r", "x": 110, "y": 235, "note": ""}, {"iast": "gha", "dev": "घ", "locus": "right wrist", "group": "arm-r", "x": 108, "y": 270, "note": ""}, {"iast": "ṅa", "dev": "ङ", "locus": "R fingers", "group": "arm-r", "x": 110, "y": 300, "note": ""}, {"iast": "ca", "dev": "च", "locus": "left shoulder", "group": "arm-l", "x": 290, "y": 155, "note": ""}, {"iast": "cha", "dev": "छ", "locus": "left arm", "group": "arm-l", "x": 302, "y": 195, "note": ""}, {"iast": "ja", "dev": "ज", "locus": "left elbow", "group": "arm-l", "x": 310, "y": 235, "note": ""}, {"iast": "jha", "dev": "झ", "locus": "left wrist", "group": "arm-l", "x": 312, "y": 270, "note": ""}, {"iast": "ña", "dev": "ञ", "locus": "L fingers", "group": "arm-l", "x": 310, "y": 300, "note": ""}, {"iast": "pa", "dev": "प", "locus": "R side", "group": "torso", "x": 188, "y": 155, "note": ""}, {"iast": "pha", "dev": "फ", "locus": "L side", "group": "torso", "x": 232, "y": 155, "note": ""}, {"iast": "ba", "dev": "ब", "locus": "back/spine", "group": "torso", "x": 210, "y": 185, "note": ""}, {"iast": "bha", "dev": "भ", "locus": "belly", "group": "torso", "x": 210, "y": 215, "note": ""}, {"iast": "ma", "dev": "म", "locus": "heart", "group": "torso", "x": 210, "y": 240, "note": ""}, {"iast": "ṭa", "dev": "ट", "locus": "R buttock", "group": "leg-r", "x": 158, "y": 315, "note": ""}, {"iast": "ṭha", "dev": "ठ", "locus": "R thigh", "group": "leg-r", "x": 150, "y": 375, "note": ""}, {"iast": "ḍa", "dev": "ड", "locus": "R knee", "group": "leg-r", "x": 145, "y": 435, "note": ""}, {"iast": "ḍha", "dev": "ढ", "locus": "R shank", "group": "leg-r", "x": 142, "y": 495, "note": ""}, {"iast": "ṇa", "dev": "ण", "locus": "R toes", "group": "leg-r", "x": 148, "y": 560, "note": ""}, {"iast": "ta", "dev": "त", "locus": "L buttock", "group": "leg-l", "x": 262, "y": 315, "note": ""}, {"iast": "tha", "dev": "थ", "locus": "L thigh", "group": "leg-l", "x": 270, "y": 375, "note": ""}, {"iast": "da", "dev": "द", "locus": "L knee", "group": "leg-l", "x": 275, "y": 435, "note": ""}, {"iast": "dha", "dev": "ध", "locus": "L shank", "group": "leg-l", "x": 278, "y": 495, "note": ""}, {"iast": "na", "dev": "न", "locus": "L toes", "group": "leg-l", "x": 272, "y": 560, "note": ""}, {"iast": "ya", "dev": "य", "locus": "skin", "group": "deep", "x": 50, "y": 620, "note": ""}, {"iast": "ra", "dev": "र", "locus": "blood", "group": "deep", "x": 120, "y": 620, "note": ""}, {"iast": "la", "dev": "ल", "locus": "flesh", "group": "deep", "x": 190, "y": 620, "note": ""}, {"iast": "va", "dev": "व", "locus": "sinews", "group": "deep", "x": 260, "y": 620, "note": ""}, {"iast": "śa", "dev": "श", "locus": "bone", "group": "deep", "x": 50, "y": 648, "note": ""}, {"iast": "ṣa", "dev": "ष", "locus": "marrow", "group": "deep", "x": 120, "y": 648, "note": ""}, {"iast": "sa", "dev": "स", "locus": "essence", "group": "deep", "x": 190, "y": 648, "note": ""}, {"iast": "ha", "dev": "ह", "locus": "prāṇa", "group": "deep", "x": 260, "y": 648, "note": ""}, {"iast": "kṣa", "dev": "क्ष", "locus": "generative", "group": "deep", "x": 330, "y": 648, "note": ""}]};
-const ML = {items: [{"iast": "na", "dev": "न", "locus": "śikhā — flame / tuft on head", "note": "śikhā", "x": 210, "y": 52}, {"iast": "ṛ", "dev": "ऋ", "locus": "śiromālā — headband / garland around head", "note": "headband", "x": 195, "y": 48}, {"iast": "ṝ", "dev": "ॠ", "locus": "śiromālā", "note": "headband", "x": 205, "y": 48}, {"iast": "ḷ", "dev": "ऌ", "locus": "śiromālā", "note": "headband", "x": 215, "y": 48}, {"iast": "ḹ", "dev": "ॡ", "locus": "śiromālā", "note": "headband", "x": 225, "y": 48}, {"iast": "tha", "dev": "थ", "locus": "mastaka — top of head", "note": "top of head", "x": 210, "y": 62}, {"iast": "ca", "dev": "च", "locus": "right eye (dakṣanetra)", "note": "R eye", "x": 186, "y": 82}, {"iast": "dha", "dev": "ध", "locus": "left eye (vāmanetra)", "note": "L eye", "x": 234, "y": 82}, {"iast": "ī", "dev": "ई", "locus": "nose", "note": "nose", "x": 210, "y": 94}, {"iast": "ṇa", "dev": "ण", "locus": "ears", "note": "ears", "x": 178, "y": 78}, {"iast": "u", "dev": "उ", "locus": "ear (right)", "note": "ear R", "x": 174, "y": 78}, {"iast": "ū", "dev": "ऊ", "locus": "ear (left)", "note": "ear L", "x": 246, "y": 78}, {"iast": "ba", "dev": "ब", "locus": "mouth (vaktra)", "note": "mouth", "x": 210, "y": 104}, {"iast": "ka", "dev": "क", "locus": "teeth", "note": "teeth", "x": 198, "y": 112}, {"iast": "kha", "dev": "ख", "locus": "teeth", "note": "teeth", "x": 205, "y": 112}, {"iast": "ga", "dev": "ग", "locus": "teeth", "note": "teeth", "x": 212, "y": 112}, {"iast": "gha", "dev": "घ", "locus": "teeth", "note": "teeth", "x": 219, "y": 112}, {"iast": "ṅa", "dev": "ङ", "locus": "teeth", "note": "teeth", "x": 226, "y": 112}, {"iast": "i", "dev": "इ", "locus": "tongue", "note": "tongue", "x": 210, "y": 122}, {"iast": "a", "dev": "अ", "locus": "speech (vāk)", "note": "speech", "x": 210, "y": 130}, {"iast": "va", "dev": "व", "locus": "throat", "note": "throat", "x": 210, "y": 140}, {"iast": "bha", "dev": "भ", "locus": "right shoulder", "note": "R shoulder", "x": 130, "y": 155}, {"iast": "ya", "dev": "य", "locus": "left shoulder", "note": "L shoulder", "x": 290, "y": 155}, {"iast": "ḍa", "dev": "ड", "locus": "right arm", "note": "R arm", "x": 118, "y": 195}, {"iast": "ḍha", "dev": "ढ", "locus": "left arm", "note": "L arm", "x": 302, "y": 195}, {"iast": "ṭha", "dev": "ठ", "locus": "hands", "note": "hands", "x": 210, "y": 190}, {"iast": "jha", "dev": "झ", "locus": "fingers right hand", "note": "R fingers", "x": 110, "y": 300}, {"iast": "ña", "dev": "ञ", "locus": "fingers left hand", "note": "L fingers", "x": 310, "y": 300}, {"iast": "ja", "dev": "ज", "locus": "trident prongs (śūlaśikhā)", "note": "trident", "x": 100, "y": 200}, {"iast": "ra", "dev": "र", "locus": "trident shaft (śūladaṇḍa)", "note": "shaft", "x": 105, "y": 220}, {"iast": "ṭa", "dev": "ट", "locus": "skull (kapāla)", "note": "skull", "x": 320, "y": 200}, {"iast": "pa", "dev": "प", "locus": "heart", "note": "heart", "x": 210, "y": 240}, {"iast": "cha", "dev": "छ", "locus": "right chest / breast", "note": "R chest", "x": 188, "y": 170}, {"iast": "la", "dev": "ल", "locus": "left chest / breast", "note": "L chest", "x": 232, "y": 170}, {"iast": "ā", "dev": "आ", "locus": "milk / kṣīra (amṛta)", "note": "milk", "x": 210, "y": 175}, {"iast": "sa", "dev": "स", "locus": "jīva / Self", "note": "jīva", "x": 210, "y": 180}, {"iast": "aḥ", "dev": "अः", "locus": "general prāṇa", "note": "prāṇa", "x": 210, "y": 185}, {"iast": "ha", "dev": "ह", "locus": "particular prāṇa", "note": "prāṇa", "x": 210, "y": 195}, {"iast": "ṣa", "dev": "ष", "locus": "belly", "note": "belly", "x": 210, "y": 220}, {"iast": "kṣa", "dev": "क्ष", "locus": "navel", "note": "navel", "x": 210, "y": 230}, {"iast": "ma", "dev": "म", "locus": "buttocks / hips", "note": "buttocks", "x": 160, "y": 320}, {"iast": "śa", "dev": "श", "locus": "guhya — genitals/anus", "note": "guhya", "x": 210, "y": 320}, {"iast": "aṃ", "dev": "अं", "locus": "right thigh", "note": "R thigh", "x": 262, "y": 340}, {"iast": "ta", "dev": "त", "locus": "left thigh", "note": "L thigh", "x": 262, "y": 360}, {"iast": "e", "dev": "ए", "locus": "right knee", "note": "R knee", "x": 262, "y": 435}, {"iast": "ai", "dev": "ऐ", "locus": "left knee", "note": "L knee", "x": 275, "y": 435}, {"iast": "o", "dev": "ओ", "locus": "right shank", "note": "R shank", "x": 262, "y": 495}, {"iast": "au", "dev": "औ", "locus": "left shank", "note": "L shank", "x": 278, "y": 495}, {"iast": "da", "dev": "द", "locus": "right foot", "note": "R foot", "x": 272, "y": 560}, {"iast": "pha", "dev": "फ", "locus": "left foot", "note": "L foot", "x": 285, "y": 560}]};
-
-function ns(tag) { return document.createElementNS('http://www.w3.org/2000/svg', tag); }
-
-function groupColor(g) {
-  if (g === 'head') return '#c9a45c';
-  if (g === 'arm-r' || g === 'arm-l') return '#5ec4b6';
-  if (g === 'leg-r' || g === 'leg-l') return '#d4899a';
-  if (g === 'torso') return '#e8d5a3';
-  if (g === 'deep') return '#9aa3b5';
-  return '#7dcea0';
-}
-
-function addPh(layer, it, cls, color) {
-  const g = ns('g');
-  g.setAttribute('class', 'ph ' + cls);
-  g.dataset.iast = it.iast;
-  g.dataset.cls = cls;
-  const halo = ns('circle');
-  halo.setAttribute('cx', it.x);
-  halo.setAttribute('cy', it.y - 6);
-  halo.setAttribute('r', 13);
-  halo.setAttribute('class', 'halo');
-  halo.setAttribute('fill', color);
-  const dev = ns('text');
-  dev.setAttribute('x', it.x);
-  dev.setAttribute('y', it.y - 4);
-  dev.setAttribute('text-anchor', 'middle');
-  dev.setAttribute('class', 'dev');
-  dev.setAttribute('font-size', '13');
-  dev.textContent = it.dev || it.iast;
-  const ia = ns('text');
-  ia.setAttribute('x', it.x);
-  ia.setAttribute('y', it.y + 8);
-  ia.setAttribute('text-anchor', 'middle');
-  ia.setAttribute('class', 'ia');
-  ia.textContent = it.iast;
-  const loc = ns('text');
-  loc.setAttribute('x', it.x);
-  loc.setAttribute('y', it.y + 18);
-  loc.setAttribute('text-anchor', 'middle');
-  loc.setAttribute('class', 'loc');
-  loc.textContent = String(it.note || it.locus || '').slice(0, 18);
-  g.appendChild(halo);
-  g.appendChild(dev);
-  g.appendChild(ia);
-  g.appendChild(loc);
-  g.addEventListener('click', function () { select(it, cls); });
-  layer.appendChild(g);
-}
-
-function render(mode) {
-  const lm = document.getElementById('layerMatrika');
-  const ll = document.getElementById('layerMalini');
-  lm.innerHTML = '';
-  ll.innerHTML = '';
-  const title = document.getElementById('svgTitle');
-  lm.style.opacity = '1';
-  ll.style.opacity = '1';
-  if (mode === 'matrika' || mode === 'both') {
-    title.textContent = mode === 'both' ? 'MĀTṚKĀ + MĀLINĪ (compare)' : 'MĀTṚKĀ · ordered alphabet on body';
-    M.items.forEach(function (it) { addPh(lm, it, 'm', groupColor(it.group)); });
-    if (mode === 'both') lm.style.opacity = '0.35';
+(function () {
+  var tabs = document.querySelectorAll('.tabs button');
+  var panels = document.querySelectorAll('.panel');
+  function show(id) {
+    panels.forEach(function (p) { p.classList.toggle('on', p.id === id); });
+    tabs.forEach(function (t) { t.classList.toggle('on', t.dataset.panel === id); });
   }
-  if (mode === 'malini' || mode === 'both') {
-    title.textContent = mode === 'both' ? 'MĀTṚKĀ + MĀLINĪ (compare)' : 'MĀLINĪ · bhinna-yoni na→pha';
-    ML.items.forEach(function (it) { addPh(ll, it, 'l', '#7dcea0'); });
-  }
-  if (mode === 'malini') lm.style.opacity = '0.12';
-}
-
-function select(it, cls) {
-  document.querySelectorAll('.ph').forEach(function (p) { p.classList.remove('sel'); });
-  document.querySelectorAll('.ph').forEach(function (p) {
-    if (p.dataset.iast === it.iast && p.dataset.cls === cls) p.classList.add('sel');
+  tabs.forEach(function (t) {
+    t.addEventListener('click', function () { show(t.dataset.panel); });
   });
-  document.getElementById('panelTitle').textContent =
-    (cls === 'm' ? 'Mātṛkā' : 'Mālinī') + ' · ' + it.iast;
-  document.getElementById('panelBody').innerHTML =
-    '<div style="text-align:center;margin:.4rem 0"><div style="font-size:2.5rem;color:#c9a45c">' +
-    (it.dev || it.iast) + '</div><div style="color:#5ec4b6">' + it.iast + '</div></div>' +
-    '<table><tr><th>Locus</th><td>' + it.locus + '</td></tr>' +
-    (it.note ? '<tr><th>Note</th><td>' + it.note + '</td></tr>' : '') +
-    '<tr><th>Map</th><td>' + (cls === 'm' ? 'Mātṛkā limb / TĀ 15' : 'Mālinī / MV 3.37–41') +
-    '</td></tr></table>' +
-    '<p class="small">Mouth decides how it sounds. Locus decides where it is installed.</p>';
-}
-
-function buildTables() {
-  let h = '<table><tr><th>#</th><th>Glyph</th><th>IAST</th><th>Locus</th><th>Group</th></tr>';
-  M.items.forEach(function (it, i) {
-    h += '<tr><td>' + (i + 1) + '</td><td class="dev">' + it.dev +
-      '</td><td class="ia">' + it.iast + '</td><td>' + it.locus +
-      '</td><td>' + it.group + '</td></tr>';
-  });
-  h += '</table>';
-  document.getElementById('tblMatrika').innerHTML = h;
-
-  h = '<table><tr><th>#</th><th>Glyph</th><th>IAST</th><th>Locus</th></tr>';
-  ML.items.forEach(function (it, i) {
-    h += '<tr><td>' + (i + 1) + '</td><td class="dev">' + (it.dev || '') +
-      '</td><td class="ia">' + it.iast + '</td><td>' + it.locus + '</td></tr>';
-  });
-  h += '</table>';
-  document.getElementById('tblMalini').innerHTML = h;
-}
-
-function setMode(m) {
-  ['btnMatrika', 'btnMalini', 'btnBoth'].forEach(function (id) {
-    document.getElementById(id).classList.remove('on');
-  });
-  if (m === 'matrika') document.getElementById('btnMatrika').classList.add('on');
-  if (m === 'malini') document.getElementById('btnMalini').classList.add('on');
-  if (m === 'both') document.getElementById('btnBoth').classList.add('on');
-  render(m);
-}
-
-document.getElementById('btnMatrika').onclick = function () { setMode('matrika'); };
-document.getElementById('btnMalini').onclick = function () { setMode('malini'); };
-document.getElementById('btnBoth').onclick = function () { setMode('both'); };
-
-render('matrika');
-buildTables();
+})();
 </script>
 </body>
 </html>
