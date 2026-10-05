@@ -13,7 +13,7 @@ const NIGHTS = [
   { night: 7, pair: ["o", "au"], loci: ["lower lip", "upper lip"] },
   { night: 8, pair: ["aṃ", "aḥ"], loci: ["crown", "tongue"] },
   { night: 9, pair: ["ka", "kha"], loci: ["right shoulder", "right arm"] },
-  { night: 10, pair: ["ga", "gha"], loci: ["right elbow", "right wrist"] },
+  { night: 10, pair: ["ga", "gha"], loci: ["right hand", "right fingers"] },
 ];
 
 const LADDER = [

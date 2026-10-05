@@ -16,7 +16,7 @@
 
 | Map | Source | ka | ta | pa | ma | e |
 |-----|--------|----|----|----|----|---|
-| **Mātṛkā limb** | TĀ 15 apparatus | right shoulder | left buttock | right side | heart | lower teeth |
+| **Mātṛkā limb** | TĀ 15 verse (canonical) | right shoulder | left hip | right side | heart | lower teeth |
 | **Mālinī** | MV 3.37–41 | **teeth** | left thigh cluster | **heart** | buttocks | right knee |
 | **Batch aṅganyāsa** | TĀ 15 formulas | heart batch | kavaca batch | netratraya | netratraya | face batches |
 | **Chakra-scaffold** | tantrica2 (PEDAGOGICAL) | root/red | heart/green | throat/blue | throat | — |

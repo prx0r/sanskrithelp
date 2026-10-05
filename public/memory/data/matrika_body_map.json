@@ -1,8 +1,8 @@
 {
-  "id": "matrika-body-map-v0",
+  "id": "matrika-body-map-v1",
   "name": "Mātṛkā body map (ordered alphabet)",
   "provenance": {
-    "primary": "Tantrāloka 15 apparatus tables (Dyczkowski vol 8, App. A + C, mantra↔locus number-paired) — the practice-touch reading: arm series elbow/wrist/fingers, legs buttock/thigh/knee/shank/toes",
+    "primary": "TĀ 15.117-120 verse-literal (GRETIL-verified). Apparatus tables (Dyczkowski vol 8, App. A+C) recorded as apparatus_variant per entry.",
     "verse_variant": "TĀ 15.118-119 (GRETIL) reads skandha-bāhu-kara-aṅguli-nakha (shoulder/arm/hand/fingers/nails) and kaṭi (hip); TĀ 15.117 reads lalāṭa (forehead) where App. A locus 1 gives Topknot. Both readings recorded in TA15_NYASA.md §'Verse vs apparatus' and shown per phoneme on the integrated Mātṛkā wheel. Never mix maps in one sitting.",
     "corroboration": [
       "TĀ 15 karanyāsa + aṅganyāsa",
@@ -19,98 +19,163 @@
       "devanagari": "अ",
       "locus": "forehead",
       "group": "vowel-head",
-      "note": "open, unmodified"
+      "note": "open, unmodified",
+      "source": {
+        "text": "TĀ 15.117-118",
+        "sanskrit": "lalāṭavaktre dṛkkarṇanāsāgaṇḍaradauṣṭhage; śikhājihve"
+      },
+      "apparatus_variant": "Topknot (App. A locus 1)"
     },
     {
       "iast": "ā",
       "devanagari": "आ",
-      "locus": "mouth/face",
+      "locus": "mouth",
       "group": "vowel-head",
-      "note": "long open"
+      "note": "long open",
+      "source": {
+        "text": "TĀ 15.117-118",
+        "sanskrit": "lalāṭavaktre dṛkkarṇanāsāgaṇḍaradauṣṭhage; śikhājihve"
+      }
     },
     {
       "iast": "i",
       "devanagari": "इ",
       "locus": "right eye",
-      "group": "vowel-head"
+      "group": "vowel-head",
+      "source": {
+        "text": "TĀ 15.117-118",
+        "sanskrit": "lalāṭavaktre dṛkkarṇanāsāgaṇḍaradauṣṭhage; śikhājihve"
+      }
     },
     {
       "iast": "ī",
       "devanagari": "ई",
       "locus": "left eye",
-      "group": "vowel-head"
+      "group": "vowel-head",
+      "source": {
+        "text": "TĀ 15.117-118",
+        "sanskrit": "lalāṭavaktre dṛkkarṇanāsāgaṇḍaradauṣṭhage; śikhājihve"
+      }
     },
     {
       "iast": "u",
       "devanagari": "उ",
       "locus": "right ear",
-      "group": "vowel-head"
+      "group": "vowel-head",
+      "source": {
+        "text": "TĀ 15.117-118",
+        "sanskrit": "lalāṭavaktre dṛkkarṇanāsāgaṇḍaradauṣṭhage; śikhājihve"
+      }
     },
     {
       "iast": "ū",
       "devanagari": "ऊ",
       "locus": "left ear",
-      "group": "vowel-head"
+      "group": "vowel-head",
+      "source": {
+        "text": "TĀ 15.117-118",
+        "sanskrit": "lalāṭavaktre dṛkkarṇanāsāgaṇḍaradauṣṭhage; śikhājihve"
+      }
     },
     {
       "iast": "ṛ",
       "devanagari": "ऋ",
-      "locus": "right nostril (piṅgalā)",
-      "group": "vowel-head"
+      "locus": "right nostril",
+      "group": "vowel-head",
+      "source": {
+        "text": "TĀ 15.117-118",
+        "sanskrit": "lalāṭavaktre dṛkkarṇanāsāgaṇḍaradauṣṭhage; śikhājihve"
+      }
     },
     {
       "iast": "ṝ",
       "devanagari": "ॠ",
-      "locus": "left nostril (iḍā)",
-      "group": "vowel-head"
+      "locus": "left nostril",
+      "group": "vowel-head",
+      "source": {
+        "text": "TĀ 15.117-118",
+        "sanskrit": "lalāṭavaktre dṛkkarṇanāsāgaṇḍaradauṣṭhage; śikhājihve"
+      }
     },
     {
       "iast": "ḷ",
       "devanagari": "ऌ",
       "locus": "right cheek",
-      "group": "vowel-head"
+      "group": "vowel-head",
+      "source": {
+        "text": "TĀ 15.117-118",
+        "sanskrit": "lalāṭavaktre dṛkkarṇanāsāgaṇḍaradauṣṭhage; śikhājihve"
+      }
     },
     {
       "iast": "ḹ",
       "devanagari": "ॡ",
       "locus": "left cheek",
-      "group": "vowel-head"
+      "group": "vowel-head",
+      "source": {
+        "text": "TĀ 15.117-118",
+        "sanskrit": "lalāṭavaktre dṛkkarṇanāsāgaṇḍaradauṣṭhage; śikhājihve"
+      }
     },
     {
       "iast": "e",
       "devanagari": "ए",
       "locus": "lower teeth",
-      "group": "vowel-head"
+      "group": "vowel-head",
+      "source": {
+        "text": "TĀ 15.117-118",
+        "sanskrit": "lalāṭavaktre dṛkkarṇanāsāgaṇḍaradauṣṭhage; śikhājihve"
+      }
     },
     {
       "iast": "ai",
       "devanagari": "ऐ",
       "locus": "upper teeth",
-      "group": "vowel-head"
+      "group": "vowel-head",
+      "source": {
+        "text": "TĀ 15.117-118",
+        "sanskrit": "lalāṭavaktre dṛkkarṇanāsāgaṇḍaradauṣṭhage; śikhājihve"
+      }
     },
     {
       "iast": "o",
       "devanagari": "ओ",
       "locus": "lower lip",
-      "group": "vowel-head"
+      "group": "vowel-head",
+      "source": {
+        "text": "TĀ 15.117-118",
+        "sanskrit": "lalāṭavaktre dṛkkarṇanāsāgaṇḍaradauṣṭhage; śikhājihve"
+      }
     },
     {
       "iast": "au",
       "devanagari": "औ",
       "locus": "upper lip",
-      "group": "vowel-head"
+      "group": "vowel-head",
+      "source": {
+        "text": "TĀ 15.117-118",
+        "sanskrit": "lalāṭavaktre dṛkkarṇanāsāgaṇḍaradauṣṭhage; śikhājihve"
+      }
     },
     {
       "iast": "aṃ",
       "devanagari": "अं",
-      "locus": "crown / śikhā / topknot",
-      "group": "vowel-mark"
+      "locus": "crown (śikhā)",
+      "group": "vowel-mark",
+      "source": {
+        "text": "TĀ 15.117-118",
+        "sanskrit": "lalāṭavaktre dṛkkarṇanāsāgaṇḍaradauṣṭhage; śikhājihve"
+      }
     },
     {
       "iast": "aḥ",
       "devanagari": "अः",
       "locus": "tongue",
-      "group": "vowel-mark"
+      "group": "vowel-mark",
+      "source": {
+        "text": "TĀ 15.117-118",
+        "sanskrit": "lalāṭavaktre dṛkkarṇanāsāgaṇḍaradauṣṭhage; śikhājihve"
+      }
     }
   ],
   "vargas": [
@@ -122,27 +187,50 @@
         {
           "iast": "ka",
           "devanagari": "क",
-          "locus": "right shoulder"
+          "locus": "right shoulder",
+          "source": {
+            "text": "TĀ 15.118",
+            "sanskrit": "dakṣānyayoḥ skandha-bāhu-kara-aṅguli-nakhe kacau vargau"
+          }
         },
         {
           "iast": "kha",
           "devanagari": "ख",
-          "locus": "right arm"
+          "locus": "right arm",
+          "source": {
+            "text": "TĀ 15.118",
+            "sanskrit": "dakṣānyayoḥ skandha-bāhu-kara-aṅguli-nakhe kacau vargau"
+          }
         },
         {
           "iast": "ga",
           "devanagari": "ग",
-          "locus": "right elbow"
+          "locus": "right hand",
+          "source": {
+            "text": "TĀ 15.118",
+            "sanskrit": "dakṣānyayoḥ skandha-bāhu-kara-aṅguli-nakhe kacau vargau"
+          },
+          "apparatus_variant": "right elbow"
         },
         {
           "iast": "gha",
           "devanagari": "घ",
-          "locus": "right wrist"
+          "locus": "right fingers",
+          "source": {
+            "text": "TĀ 15.118",
+            "sanskrit": "dakṣānyayoḥ skandha-bāhu-kara-aṅguli-nakhe kacau vargau"
+          },
+          "apparatus_variant": "right wrist"
         },
         {
           "iast": "ṅa",
           "devanagari": "ङ",
-          "locus": "fingers of right hand"
+          "locus": "right nails",
+          "source": {
+            "text": "TĀ 15.118",
+            "sanskrit": "dakṣānyayoḥ skandha-bāhu-kara-aṅguli-nakhe kacau vargau"
+          },
+          "apparatus_variant": "fingers of right hand"
         }
       ]
     },
@@ -154,27 +242,50 @@
         {
           "iast": "ca",
           "devanagari": "च",
-          "locus": "left shoulder"
+          "locus": "left shoulder",
+          "source": {
+            "text": "TĀ 15.118",
+            "sanskrit": "dakṣānyayoḥ skandha-bāhu-kara-aṅguli-nakhe kacau vargau"
+          }
         },
         {
           "iast": "cha",
           "devanagari": "छ",
-          "locus": "left arm"
+          "locus": "left arm",
+          "source": {
+            "text": "TĀ 15.118",
+            "sanskrit": "dakṣānyayoḥ skandha-bāhu-kara-aṅguli-nakhe kacau vargau"
+          }
         },
         {
           "iast": "ja",
           "devanagari": "ज",
-          "locus": "left elbow"
+          "locus": "left hand",
+          "source": {
+            "text": "TĀ 15.118",
+            "sanskrit": "dakṣānyayoḥ skandha-bāhu-kara-aṅguli-nakhe kacau vargau"
+          },
+          "apparatus_variant": "left elbow"
         },
         {
           "iast": "jha",
           "devanagari": "झ",
-          "locus": "left wrist"
+          "locus": "left fingers",
+          "source": {
+            "text": "TĀ 15.118",
+            "sanskrit": "dakṣānyayoḥ skandha-bāhu-kara-aṅguli-nakhe kacau vargau"
+          },
+          "apparatus_variant": "left wrist"
         },
         {
           "iast": "ña",
           "devanagari": "ञ",
-          "locus": "fingers of left hand"
+          "locus": "left nails",
+          "source": {
+            "text": "TĀ 15.118",
+            "sanskrit": "dakṣānyayoḥ skandha-bāhu-kara-aṅguli-nakhe kacau vargau"
+          },
+          "apparatus_variant": "fingers of left hand"
         }
       ]
     },
@@ -186,27 +297,49 @@
         {
           "iast": "ṭa",
           "devanagari": "ट",
-          "locus": "right buttock"
+          "locus": "right hip",
+          "source": {
+            "text": "TĀ 15.119",
+            "sanskrit": "vargau ṭatau kramāt kaṭyām ūrvādiṣu (knee/shank/toes = standard descending sequence; apparatus agrees)"
+          },
+          "apparatus_variant": "right buttock"
         },
         {
           "iast": "ṭha",
           "devanagari": "ठ",
-          "locus": "right thigh"
+          "locus": "right thigh",
+          "source": {
+            "text": "TĀ 15.119",
+            "sanskrit": "vargau ṭatau kramāt kaṭyām ūrvādiṣu (knee/shank/toes = standard descending sequence; apparatus agrees)"
+          }
         },
         {
           "iast": "ḍa",
           "devanagari": "ड",
-          "locus": "right knee"
+          "locus": "right knee",
+          "source": {
+            "text": "TĀ 15.119",
+            "sanskrit": "vargau ṭatau kramāt kaṭyām ūrvādiṣu (knee/shank/toes = standard descending sequence; apparatus agrees)"
+          }
         },
         {
           "iast": "ḍha",
           "devanagari": "ढ",
-          "locus": "right shank"
+          "locus": "right shank",
+          "source": {
+            "text": "TĀ 15.119",
+            "sanskrit": "vargau ṭatau kramāt kaṭyām ūrvādiṣu (knee/shank/toes = standard descending sequence; apparatus agrees)"
+          }
         },
         {
           "iast": "ṇa",
           "devanagari": "ण",
-          "locus": "toes of right foot"
+          "locus": "right toes",
+          "source": {
+            "text": "TĀ 15.119",
+            "sanskrit": "vargau ṭatau kramāt kaṭyām ūrvādiṣu (knee/shank/toes = standard descending sequence; apparatus agrees)"
+          },
+          "apparatus_variant": "toes of right foot"
         }
       ]
     },
@@ -218,27 +351,49 @@
         {
           "iast": "ta",
           "devanagari": "त",
-          "locus": "left buttock"
+          "locus": "left hip",
+          "source": {
+            "text": "TĀ 15.119",
+            "sanskrit": "vargau ṭatau kramāt kaṭyām ūrvādiṣu (knee/shank/toes = standard descending sequence; apparatus agrees)"
+          },
+          "apparatus_variant": "left buttock"
         },
         {
           "iast": "tha",
           "devanagari": "थ",
-          "locus": "left thigh"
+          "locus": "left thigh",
+          "source": {
+            "text": "TĀ 15.119",
+            "sanskrit": "vargau ṭatau kramāt kaṭyām ūrvādiṣu (knee/shank/toes = standard descending sequence; apparatus agrees)"
+          }
         },
         {
           "iast": "da",
           "devanagari": "द",
-          "locus": "left knee"
+          "locus": "left knee",
+          "source": {
+            "text": "TĀ 15.119",
+            "sanskrit": "vargau ṭatau kramāt kaṭyām ūrvādiṣu (knee/shank/toes = standard descending sequence; apparatus agrees)"
+          }
         },
         {
           "iast": "dha",
           "devanagari": "ध",
-          "locus": "left shank"
+          "locus": "left shank",
+          "source": {
+            "text": "TĀ 15.119",
+            "sanskrit": "vargau ṭatau kramāt kaṭyām ūrvādiṣu (knee/shank/toes = standard descending sequence; apparatus agrees)"
+          }
         },
         {
           "iast": "na",
           "devanagari": "न",
-          "locus": "toes of left foot"
+          "locus": "left toes",
+          "source": {
+            "text": "TĀ 15.119",
+            "sanskrit": "vargau ṭatau kramāt kaṭyām ūrvādiṣu (knee/shank/toes = standard descending sequence; apparatus agrees)"
+          },
+          "apparatus_variant": "toes of left foot"
         }
       ],
       "practice_note": "Chakra-scaffold traditions often call this the green-core/heart row. In the TA limb map it is the left lower limb. Keep both labels; do not collapse them into one doctrine."
@@ -251,27 +406,47 @@
         {
           "iast": "pa",
           "devanagari": "प",
-          "locus": "right diaphragm / right side"
+          "locus": "right side",
+          "source": {
+            "text": "TĀ 15.119",
+            "sanskrit": "pavargaṃ pārśvayoḥ pṛṣṭhe jaṭhare hṛdi"
+          }
         },
         {
           "iast": "pha",
           "devanagari": "फ",
-          "locus": "left diaphragm / left side"
+          "locus": "left side",
+          "source": {
+            "text": "TĀ 15.119",
+            "sanskrit": "pavargaṃ pārśvayoḥ pṛṣṭhe jaṭhare hṛdi"
+          }
         },
         {
           "iast": "ba",
           "devanagari": "ब",
-          "locus": "spine / back"
+          "locus": "back",
+          "source": {
+            "text": "TĀ 15.119",
+            "sanskrit": "pavargaṃ pārśvayoḥ pṛṣṭhe jaṭhare hṛdi"
+          }
         },
         {
           "iast": "bha",
           "devanagari": "भ",
-          "locus": "stomach / belly"
+          "locus": "belly",
+          "source": {
+            "text": "TĀ 15.119",
+            "sanskrit": "pavargaṃ pārśvayoḥ pṛṣṭhe jaṭhare hṛdi"
+          }
         },
         {
           "iast": "ma",
           "devanagari": "म",
-          "locus": "heart"
+          "locus": "heart",
+          "source": {
+            "text": "TĀ 15.119",
+            "sanskrit": "pavargaṃ pārśvayoḥ pṛṣṭhe jaṭhare hṛdi"
+          }
         }
       ]
     },
@@ -283,22 +458,38 @@
         {
           "iast": "ya",
           "devanagari": "य",
-          "locus": "skin (chest)"
+          "locus": "skin",
+          "source": {
+            "text": "TĀ 15.119-120",
+            "sanskrit": "atho nava: tvak-rakta-māṃsa-sūtra-asthi-vasā-śukra-purogamān"
+          }
         },
         {
           "iast": "ra",
           "devanagari": "र",
-          "locus": "blood (right shoulder path)"
+          "locus": "blood",
+          "source": {
+            "text": "TĀ 15.119-120",
+            "sanskrit": "atho nava: tvak-rakta-māṃsa-sūtra-asthi-vasā-śukra-purogamān"
+          }
         },
         {
           "iast": "la",
           "devanagari": "ल",
-          "locus": "flesh (neck / left shoulder path)"
+          "locus": "flesh",
+          "source": {
+            "text": "TĀ 15.119-120",
+            "sanskrit": "atho nava: tvak-rakta-māṃsa-sūtra-asthi-vasā-śukra-purogamān"
+          }
         },
         {
           "iast": "va",
           "devanagari": "व",
-          "locus": "sinews / connective structures"
+          "locus": "sinews",
+          "source": {
+            "text": "TĀ 15.119-120",
+            "sanskrit": "atho nava: tvak-rakta-māṃsa-sūtra-asthi-vasā-śukra-purogamān"
+          }
         }
       ]
     },
@@ -310,27 +501,48 @@
         {
           "iast": "śa",
           "devanagari": "श",
-          "locus": "bone"
+          "locus": "bone",
+          "source": {
+            "text": "TĀ 15.119-120",
+            "sanskrit": "atho nava: tvak-rakta-māṃsa-sūtra-asthi-vasā-śukra-purogamān"
+          }
         },
         {
           "iast": "ṣa",
           "devanagari": "ष",
-          "locus": "marrow"
+          "locus": "marrow",
+          "source": {
+            "text": "TĀ 15.119-120",
+            "sanskrit": "atho nava: tvak-rakta-māṃsa-sūtra-asthi-vasā-śukra-purogamān"
+          }
         },
         {
           "iast": "sa",
           "devanagari": "स",
-          "locus": "reproductive essence"
+          "locus": "śukra / generative fluid",
+          "source": {
+            "text": "TĀ 15.119-120",
+            "sanskrit": "atho nava: tvak-rakta-māṃsa-sūtra-asthi-vasā-śukra-purogamān"
+          },
+          "apparatus_variant": "reproductive essence"
         },
         {
           "iast": "ha",
           "devanagari": "ह",
-          "locus": "prāṇa"
+          "locus": "prāṇa",
+          "source": {
+            "text": "TĀ 15.119-120",
+            "sanskrit": "atho nava: tvak-rakta-māṃsa-sūtra-asthi-vasā-śukra-purogamān"
+          }
         },
         {
           "iast": "kṣa",
           "devanagari": "क्ष",
-          "locus": "generative organs"
+          "locus": "generative organ",
+          "source": {
+            "text": "TĀ 15.119-120",
+            "sanskrit": "atho nava: tvak-rakta-māṃsa-sūtra-asthi-vasā-śukra-purogamān"
+          }
         }
       ]
     }
@@ -350,5 +562,10 @@
     "vowels full field"
   ],
   "phoneme_audio": "/root/sanskrithelp/public/audio/phonemes/*.ogg",
-  "claims_policy": "practice_scaffold_not_medical_not_hz_per_phoneme"
+  "claims_policy": "practice_scaffold_not_medical_not_hz_per_phoneme",
+  "canonical": {
+    "doctrine": "Verse-literal TĀ 15.117-120 is canonical. Apparatus tables recorded per-entry, never used for install.",
+    "rule": "One map per sitting. Verse and apparatus never mixed.",
+    "peer_review": "2026-10-05: elbow/wrist removed; hand/fingers/nails, hip, śukra locked + regression-tested."
+  }
 }

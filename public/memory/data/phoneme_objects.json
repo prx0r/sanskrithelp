@@ -70,16 +70,17 @@
       "manner_en": "voiced unaspirated",
       "manner_short": "G",
       "production_locus": "velar voiced",
-      "tantric_locus": "right elbow",
+      "tantric_locus": "right hand",
       "bruno_env": "cave",
       "bruno_actor": "actor glows / hums",
       "dual_coordinates": {
         "production": "velar voiced",
-        "tantric": "right elbow"
+        "tantric": "right hand"
       },
       "imaginal_signature_rule": "cave + actor glows / hums → glyph ग",
       "example_words": [],
-      "audio": null
+      "audio": null,
+      "apparatus_variant": "right elbow"
     },
     {
       "iast": "gha",
@@ -92,16 +93,17 @@
       "manner_en": "voiced aspirated",
       "manner_short": "Gh",
       "production_locus": "velar voiced+aspiration",
-      "tantric_locus": "right wrist",
+      "tantric_locus": "right fingers",
       "bruno_env": "cave",
       "bruno_actor": "hum + wind",
       "dual_coordinates": {
         "production": "velar voiced+aspiration",
-        "tantric": "right wrist"
+        "tantric": "right fingers"
       },
       "imaginal_signature_rule": "cave + hum + wind → glyph घ",
       "example_words": [],
-      "audio": null
+      "audio": null,
+      "apparatus_variant": "right wrist"
     },
     {
       "iast": "ṅa",
@@ -114,16 +116,17 @@
       "manner_en": "nasal",
       "manner_short": "N",
       "production_locus": "velar nasal",
-      "tantric_locus": "fingers of right hand",
+      "tantric_locus": "right nails",
       "bruno_env": "cave",
       "bruno_actor": "resonance travels through tunnel / nose",
       "dual_coordinates": {
         "production": "velar nasal",
-        "tantric": "fingers of right hand"
+        "tantric": "right nails"
       },
       "imaginal_signature_rule": "cave + resonance travels through tunnel / nose → glyph ङ",
       "example_words": [],
-      "audio": null
+      "audio": null,
+      "apparatus_variant": "fingers of right hand"
     },
     {
       "iast": "ca",
@@ -180,16 +183,17 @@
       "manner_en": "voiced unaspirated",
       "manner_short": "G",
       "production_locus": "palate voiced",
-      "tantric_locus": "left elbow",
+      "tantric_locus": "left hand",
       "bruno_env": "vaulted hall",
       "bruno_actor": "actor glows / hums",
       "dual_coordinates": {
         "production": "palate voiced",
-        "tantric": "left elbow"
+        "tantric": "left hand"
       },
       "imaginal_signature_rule": "vaulted hall + actor glows / hums → glyph ज",
       "example_words": [],
-      "audio": null
+      "audio": null,
+      "apparatus_variant": "left elbow"
     },
     {
       "iast": "jha",
@@ -202,16 +206,17 @@
       "manner_en": "voiced aspirated",
       "manner_short": "Gh",
       "production_locus": "palate voiced+asp",
-      "tantric_locus": "left wrist",
+      "tantric_locus": "left fingers",
       "bruno_env": "vaulted hall",
       "bruno_actor": "hum + wind",
       "dual_coordinates": {
         "production": "palate voiced+asp",
-        "tantric": "left wrist"
+        "tantric": "left fingers"
       },
       "imaginal_signature_rule": "vaulted hall + hum + wind → glyph झ",
       "example_words": [],
-      "audio": null
+      "audio": null,
+      "apparatus_variant": "left wrist"
     },
     {
       "iast": "ña",
@@ -224,16 +229,17 @@
       "manner_en": "nasal",
       "manner_short": "N",
       "production_locus": "palate nasal",
-      "tantric_locus": "fingers of left hand",
+      "tantric_locus": "left nails",
       "bruno_env": "vaulted hall",
       "bruno_actor": "resonance travels through tunnel / nose",
       "dual_coordinates": {
         "production": "palate nasal",
-        "tantric": "fingers of left hand"
+        "tantric": "left nails"
       },
       "imaginal_signature_rule": "vaulted hall + resonance travels through tunnel / nose → glyph ञ",
       "example_words": [],
-      "audio": null
+      "audio": null,
+      "apparatus_variant": "fingers of left hand"
     },
     {
       "iast": "ṭa",
@@ -246,16 +252,17 @@
       "manner_en": "voiceless unaspirated",
       "manner_short": "V",
       "production_locus": "tongue tip curls back to palate",
-      "tantric_locus": "right buttock",
+      "tantric_locus": "right hip",
       "bruno_env": "dome",
       "bruno_actor": "same actor, plain stop",
       "dual_coordinates": {
         "production": "tongue tip curls back to palate",
-        "tantric": "right buttock"
+        "tantric": "right hip"
       },
       "imaginal_signature_rule": "dome + same actor, plain stop → glyph ट",
       "example_words": [],
-      "audio": null
+      "audio": null,
+      "apparatus_variant": "right buttock"
     },
     {
       "iast": "ṭha",
@@ -334,16 +341,17 @@
       "manner_en": "nasal",
       "manner_short": "N",
       "production_locus": "retroflex nasal",
-      "tantric_locus": "toes of right foot",
+      "tantric_locus": "right toes",
       "bruno_env": "dome",
       "bruno_actor": "resonance travels through tunnel / nose",
       "dual_coordinates": {
         "production": "retroflex nasal",
-        "tantric": "toes of right foot"
+        "tantric": "right toes"
       },
       "imaginal_signature_rule": "dome + resonance travels through tunnel / nose → glyph ण",
       "example_words": [],
-      "audio": null
+      "audio": null,
+      "apparatus_variant": "toes of right foot"
     },
     {
       "iast": "ta",
@@ -356,16 +364,17 @@
       "manner_en": "voiceless unaspirated",
       "manner_short": "V",
       "production_locus": "tongue tip at teeth",
-      "tantric_locus": "left buttock",
+      "tantric_locus": "left hip",
       "bruno_env": "gate of teeth",
       "bruno_actor": "same actor, plain stop",
       "dual_coordinates": {
         "production": "tongue tip at teeth",
-        "tantric": "left buttock"
+        "tantric": "left hip"
       },
       "imaginal_signature_rule": "gate of teeth + same actor, plain stop → glyph त",
       "example_words": [],
-      "audio": null
+      "audio": null,
+      "apparatus_variant": "left buttock"
     },
     {
       "iast": "tha",
@@ -444,16 +453,17 @@
       "manner_en": "nasal",
       "manner_short": "N",
       "production_locus": "dental nasal",
-      "tantric_locus": "toes of left foot",
+      "tantric_locus": "left toes",
       "bruno_env": "gate of teeth",
       "bruno_actor": "resonance travels through tunnel / nose",
       "dual_coordinates": {
         "production": "dental nasal",
-        "tantric": "toes of left foot"
+        "tantric": "left toes"
       },
       "imaginal_signature_rule": "gate of teeth + resonance travels through tunnel / nose → glyph न",
       "example_words": [],
-      "audio": null
+      "audio": null,
+      "apparatus_variant": "toes of left foot"
     },
     {
       "iast": "pa",
@@ -466,12 +476,12 @@
       "manner_en": "voiceless unaspirated",
       "manner_short": "V",
       "production_locus": "both lips close",
-      "tantric_locus": "right diaphragm / side",
+      "tantric_locus": "right side",
       "bruno_env": "pair of doors / lips",
       "bruno_actor": "same actor, plain stop",
       "dual_coordinates": {
         "production": "both lips close",
-        "tantric": "right diaphragm / side"
+        "tantric": "right side"
       },
       "imaginal_signature_rule": "pair of doors / lips + same actor, plain stop → glyph प",
       "example_words": [],
@@ -488,12 +498,12 @@
       "manner_en": "voiceless aspirated",
       "manner_short": "Kh",
       "production_locus": "lips + aspiration",
-      "tantric_locus": "left diaphragm / side",
+      "tantric_locus": "left side",
       "bruno_env": "pair of doors / lips",
       "bruno_actor": "actor blows wind",
       "dual_coordinates": {
         "production": "lips + aspiration",
-        "tantric": "left diaphragm / side"
+        "tantric": "left side"
       },
       "imaginal_signature_rule": "pair of doors / lips + actor blows wind → glyph फ",
       "example_words": [],
@@ -510,12 +520,12 @@
       "manner_en": "voiced unaspirated",
       "manner_short": "G",
       "production_locus": "lips voiced",
-      "tantric_locus": "spine / back",
+      "tantric_locus": "back",
       "bruno_env": "pair of doors / lips",
       "bruno_actor": "actor glows / hums",
       "dual_coordinates": {
         "production": "lips voiced",
-        "tantric": "spine / back"
+        "tantric": "back"
       },
       "imaginal_signature_rule": "pair of doors / lips + actor glows / hums → glyph ब",
       "example_words": [],
@@ -585,7 +595,8 @@
       },
       "imaginal_signature_rule": "cave mouth / open sky + unmodified openness → glyph अ",
       "example_words": [],
-      "audio": null
+      "audio": null,
+      "apparatus_variant": "Topknot (App. A locus 1)"
     },
     {
       "iast": "ā",
@@ -598,12 +609,12 @@
       "manner_en": "long open",
       "manner_short": "V",
       "production_locus": "long open",
-      "tantric_locus": "mouth/face",
+      "tantric_locus": "mouth",
       "bruno_env": "cave mouth wide",
       "bruno_actor": "long openness",
       "dual_coordinates": {
         "production": "long open",
-        "tantric": "mouth/face"
+        "tantric": "mouth"
       },
       "imaginal_signature_rule": "cave mouth wide + long openness → glyph आ",
       "example_words": [],
@@ -708,12 +719,12 @@
       "manner_en": "r-coloured",
       "manner_short": "V",
       "production_locus": "r-coloured",
-      "tantric_locus": "right nostril (piṅgalā)",
+      "tantric_locus": "right nostril",
       "bruno_env": "nostril wind tunnel right",
       "bruno_actor": "r-colour",
       "dual_coordinates": {
         "production": "r-coloured",
-        "tantric": "right nostril (piṅgalā)"
+        "tantric": "right nostril"
       },
       "imaginal_signature_rule": "nostril wind tunnel right + r-colour → glyph ऋ",
       "example_words": [],
@@ -730,12 +741,12 @@
       "manner_en": "long r-coloured",
       "manner_short": "V",
       "production_locus": "long r-coloured",
-      "tantric_locus": "left nostril (iḍā)",
+      "tantric_locus": "left nostril",
       "bruno_env": "nostril wind tunnel left",
       "bruno_actor": "long r-colour",
       "dual_coordinates": {
         "production": "long r-coloured",
-        "tantric": "left nostril (iḍā)"
+        "tantric": "left nostril"
       },
       "imaginal_signature_rule": "nostril wind tunnel left + long r-colour → glyph ॠ",
       "example_words": [],
@@ -884,12 +895,12 @@
       "manner_en": "nasal mark",
       "manner_short": "V",
       "production_locus": "nasal mark",
-      "tantric_locus": "crown / śikhā",
+      "tantric_locus": "crown (śikhā)",
       "bruno_env": "crown flame mark",
       "bruno_actor": "nasal closure upward",
       "dual_coordinates": {
         "production": "nasal mark",
-        "tantric": "crown / śikhā"
+        "tantric": "crown (śikhā)"
       },
       "imaginal_signature_rule": "crown flame mark + nasal closure upward → glyph अं",
       "example_words": [],
@@ -920,5 +931,6 @@
   ],
   "audio_root": "/root/sanskrithelp/public/audio/phonemes/",
   "ptv_local": "corpus/primary/paratrisika_jaideva_singh_text.pdf",
-  "mv_ch3_source": "https://www.sanskrit-trikashaivism.sanskrit-sanscrito.com/en/malinivijayottaratantra-chapter-3-trika-scriptures-non-dual-shaivism-of-kashmir/833"
+  "mv_ch3_source": "https://www.sanskrit-trikashaivism.sanskrit-sanscrito.com/en/malinivijayottaratantra-chapter-3-trika-scriptures-non-dual-shaivism-of-kashmir/833",
+  "canonical": "matrika-body-map-v1 (verse-literal TĀ 15.117-120). tantric_locus follows it; apparatus_variant recorded where Dyczkowski tables differ."
 }

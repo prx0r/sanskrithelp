@@ -121,6 +121,10 @@ Extract script: `scripts/deepdive_tantraloka.py`.
 
 Two Abhinavagupta-tradition readings of the arm series. Both source-attested — never collapse them.
 
+**Project decision (peer review 2026-10-05): verse-literal is canonical**
+(`matrika-body-map-v1`, regression-tested). The apparatus survives only as a
+recorded per-entry variant, never used for install.
+
 | Phonemes | Verse (TĀ 15.118 GRETIL) | Apparatus (Dyczkowski vol 8, App. A + C, number-paired) |
 |----------|--------------------------|----------------------------------------------------------|
 | ka / ca | skandha — shoulder | Right/Left shoulder (agree) |

@@ -25,10 +25,10 @@ flowchart TB
   end
   subgraph LIMBS["LIMBS · vargas"]
     direction TB
-    KA["ka-varga RIGHT upper<br/>क ख ग घ ङ<br/>shoulder→arm→elbow→wrist→fingers"]
-    CA["ca-varga LEFT upper<br/>च छ ज झ ञ<br/>shoulder→arm→elbow→wrist→fingers"]
-    TA["ṭa-varga RIGHT lower<br/>ट ठ ड ढ ण<br/>buttock→thigh→knee→shank→toes"]
-    TN["ta-varga LEFT lower<br/>त थ द ध न<br/>buttock→thigh→knee→shank→toes"]
+    KA["ka-varga RIGHT upper<br/>क ख ग घ ङ<br/>shoulder→arm→hand→fingers→nails"]
+    CA["ca-varga LEFT upper<br/>च छ ज झ ञ<br/>shoulder→arm→hand→fingers→nails"]
+    TA["ṭa-varga RIGHT lower<br/>ट ठ ड ढ ण<br/>hip→thigh→knee→shank→toes"]
+    TN["ta-varga LEFT lower<br/>त थ द ध न<br/>hip→thigh→knee→shank→toes"]
   end
   subgraph TORSO["TORSO · pa-varga"]
     direction LR
@@ -37,7 +37,7 @@ flowchart TB
   subgraph DEEP["DEEP CONSTITUENTS"]
     direction LR
     ya["य skin"] --- ra["र blood"] --- la["ल flesh"] --- va["व sinews"]
-    śa["श bone"] --- ṣa["ष marrow"] --- sa["स essence"] --- ha["ह prāṇa"] --- kṣa["क्ष generative"]
+    śa["श bone"] --- ṣa["ष marrow"] --- sa["स śukra"] --- ha["ह prāṇa"] --- kṣa["क्ष generative"]
   end
   HEAD --> LIMBS --> TORSO --> DEEP
   style HEAD fill:#1a1520,stroke:#c9a45c
