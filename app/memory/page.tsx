@@ -9,6 +9,7 @@ import {
   Ear,
   Compass,
   Hash,
+  Heart,
   Map as MapIcon,
   Volume2,
   ExternalLink,
@@ -72,6 +73,20 @@ const SECTIONS = [
     icon: Hash,
   },
   {
+    href: "/memory/canonical/MATRIKA-SYLLABUS.md",
+    title: "Mātṛkā Syllabus",
+    subtitle: "Texts-only · nothing invented",
+    desc: "Karanyāsa → 50-locus traversal → compressed formula → mind-alone → Mālinī. Every step cited; [REC] marks arrangement; §7 lists what the texts don't say.",
+    icon: BookMarked,
+  },
+  {
+    href: "/memory/canonical/GRACE-AND-THE-NEOPHYTE.md",
+    title: "Grace & the Neophyte",
+    subtitle: "TĀ reader · śaktipāta · teacher · obstacles",
+    desc: "What Abhinavagupta actually says about grace, the beginner, true/false teachers, devotion, and what goes wrong. Short extracts, exact volume pointers.",
+    icon: Heart,
+  },
+  {
     href: "/memory/audio",
     title: "Guided Audio",
     subtitle: "Clip → locus → gap",
@@ -83,6 +98,13 @@ const SECTIONS = [
     title: "Bruno Wheels (R2 pack)",
     subtitle: "Varṇa · five-ring · dhātu · kāraka · verse",
     desc: "Standalone wheel lab from stallshark pack. Personal bindings in localStorage. Sound → binding → manipulation → Pāṇinian validation.",
+    icon: Compass,
+  },
+  {
+    href: "/memory/matrka-wheel/integrated.html",
+    title: "Mātṛkā Wheel + Body + Sound",
+    subtitle: "VARṆA × ARTICULATION × NYĀSA × DHVANI × IMAGO → locus → clip",
+    desc: "Wheel drives a body marker (50 loci) + press-and-hold plays the clip (26/50 cut). Align to acquire, scramble rings to reconstruct. Provenance note inside.",
     icon: Compass,
   },
   {

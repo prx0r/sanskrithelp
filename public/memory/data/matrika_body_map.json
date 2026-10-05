@@ -2,7 +2,8 @@
   "id": "matrika-body-map-v0",
   "name": "Mātṛkā body map (ordered alphabet)",
   "provenance": {
-    "primary": "Owner synthesis + Tantrāloka 15 apparatus (Dyczkowski appendix: tattvamudrā / aṅganyāsa)",
+    "primary": "Tantrāloka 15 apparatus tables (Dyczkowski vol 8, App. A + C, mantra↔locus number-paired) — the practice-touch reading: arm series elbow/wrist/fingers, legs buttock/thigh/knee/shank/toes",
+    "verse_variant": "TĀ 15.118-119 (GRETIL) reads skandha-bāhu-kara-aṅguli-nakha (shoulder/arm/hand/fingers/nails) and kaṭi (hip); TĀ 15.117 reads lalāṭa (forehead) where App. A locus 1 gives Topknot. Both readings recorded in TA15_NYASA.md §'Verse vs apparatus' and shown per phoneme on the integrated Mātṛkā wheel. Never mix maps in one sitting.",
     "corroboration": [
       "TĀ 15 karanyāsa + aṅganyāsa",
       "Tantrasāra varṇa-uccāra",

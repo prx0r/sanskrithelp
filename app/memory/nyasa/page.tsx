@@ -8,6 +8,7 @@ const NIGHTS = [
   { night: 2, pair: ["i", "ī"], loci: ["right eye", "left eye"] },
   { night: 3, pair: ["u", "ū"], loci: ["right ear", "left ear"] },
   { night: 4, pair: ["ṛ", "ṝ"], loci: ["right nostril", "left nostril"] },
+  { night: 5, pair: ["ḷ", "ḹ"], loci: ["right cheek", "left cheek"] },
   { night: 6, pair: ["e", "ai"], loci: ["lower teeth", "upper teeth"] },
   { night: 7, pair: ["o", "au"], loci: ["lower lip", "upper lip"] },
   { night: 8, pair: ["aṃ", "aḥ"], loci: ["crown", "tongue"] },
@@ -123,16 +124,19 @@ export default function MemoryNyasaPage() {
           </table>
         </div>
         <p className="text-xs text-muted-foreground mt-2">
-          Nights 1–8 = vowels. 9–14 = first consonant contrasts. After vowels feel automatic,
-          continue pairs or run a short full install with sounds you know.
+          Our training calendar — two phonemes a sitting is modern pacing, not Abhinavagupta's
+          instruction (the texts set no schedule). Nights 1–8 = vowels. 9–10 = first
+          consonant contrasts. Loci follow the TĀ 15 apparatus tables; the verse reads
+          hand/fingers/nails where the tables give elbow/wrist/fingers — never mix maps
+          in one sitting (see integrated Mātṛkā wheel).
         </p>
       </section>
 
       <section className="rounded-xl border border-border bg-card p-4">
         <h2 className="text-sm font-medium text-muted-foreground mb-2">Sources</h2>
         <ul className="text-sm text-muted-foreground space-y-1">
-          <li>Mālinīvijayottaratantra 2.21 (uccāra · karaṇa · dhyāna · varṇa · sthāna)</li>
-          <li>MV 3.36–41 — Mālinī nyāsa for śākta-śarīra</li>
+          <li>Mālinīvijayottaratantra 2.21 = TĀ 1.170, verified on volume (uccāra · karaṇa · dhyāna · varṇa · sthāna-prakalpanā — the āṇava method)</li>
+          <li>MV 3.36–41 via TĀ 15/121–125ab (verified on volume) — Mālinī nyāsa for śākta-śarīra</li>
           <li>Tantrāloka 15 — Mātṛkā / Mālinī body maps</li>
           <li>Tantrāloka 4.91 — don’t torment the body with prāṇāyāma</li>
           <li>Flood, <em>The Tantric Body</em> — entextualisation</li>

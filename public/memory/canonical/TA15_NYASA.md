@@ -114,3 +114,25 @@ Body loci largely mirror the Mātṛkā tattvamudrā list (forehead → mouth �
 | TĀ Āhnika 11 | varṇa as pramā; ṣaḍadhvan |
 
 Extract script: `scripts/deepdive_tantraloka.py`.
+
+---
+
+## Verse vs apparatus (resolved 2026-10-05, volume-checked)
+
+Two Abhinavagupta-tradition readings of the arm series. Both source-attested — never collapse them.
+
+| Phonemes | Verse (TĀ 15.118 GRETIL) | Apparatus (Dyczkowski vol 8, App. A + C, number-paired) |
+|----------|--------------------------|----------------------------------------------------------|
+| ka / ca | skandha — shoulder | Right/Left shoulder (agree) |
+| kha / cha | bāhu — arm | Right/Left arm (agree) |
+| ga / ja | **kara — hand** | Right/Left **elbow** |
+| gha / jha | **aṅguli — fingers** | Right/Left **wrist** |
+| ṅa / ña | **nakha — nails** | **Fingers** of the hand |
+
+Verse text: `dakṣānyayoḥ skandha-bāhu-kara-aṅguli-nakhe kacau vargau` (TĀ 15.118).
+Apparatus tables (Mātṛkānyāsa App. A + Śabdarāśinyāsa App. C) agree with each other — deliberate, not a slip.
+Same split: ṭa/ta verse `kaṭi` (**hip**, TĀ 15.119) vs apparatus **buttock**; `a` verse `lalāṭa` (**forehead**, TĀ 15.117) vs App. A locus 1 = **Topknot**.
+
+**Encoding rule:** `matrika_body_map.json` follows the apparatus (practice-touch loci).
+The Mātṛkā wheel (`matrka-data.json`) follows the verse literally. Integrated wheel page shows both per phoneme.
+Unresolved from disk: whether apparatus follows MV 8/27–32 wording against the verse, or a kara-as-joints gloss (needs MV Sanskrit or Jayaratha — neither on volume).

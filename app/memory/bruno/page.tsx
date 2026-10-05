@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { ArrowLeft, RotateCcw, Shuffle, Volume2 } from "lucide-react";
 
@@ -65,7 +65,7 @@ export default function MemoryBrunoPage() {
   const [revealed, setRevealed] = useState(false);
   const [mode, setMode] = useState<"ray" | "locus">("ray");
 
-  useMemo(() => {
+  useEffect(() => {
     loadObjects().then((o) => setObjs(o));
   }, []);
 
@@ -129,13 +129,19 @@ export default function MemoryBrunoPage() {
           <div className="text-center mb-4">
             <div className="text-6xl font-display text-primary mb-2">{cur.devanagari}</div>
             <div className="text-2xl text-foreground">{cur.iast}</div>
+            {/* 26/50 clips on disk — button disables honestly where uncut */}
             <button
               type="button"
               onClick={playClip}
-              className="mt-3 inline-flex items-center gap-2 px-3 py-1.5 rounded-lg border border-border text-sm hover:bg-accent"
+              disabled={!cur || !CLIP[cur.iast]}
+              title={cur && !CLIP[cur.iast] ? "clip not yet cut — use night audio cycles" : "play clip"}
+              className="mt-3 inline-flex items-center gap-2 px-3 py-1.5 rounded-lg border border-border text-sm hover:bg-accent disabled:opacity-40"
             >
               <Volume2 className="w-4 h-4" /> Hear
             </button>
+            {cur && !CLIP[cur.iast] && (
+              <p className="text-xs text-muted-foreground mt-1">clip not yet cut</p>
+            )}
           </div>
           <div className="grid gap-3 sm:grid-cols-2 text-sm">
             <div className="p-3 rounded-lg bg-background border border-border">
@@ -144,7 +150,7 @@ export default function MemoryBrunoPage() {
               <div className="text-muted-foreground mt-1">{cur.production_locus}</div>
             </div>
             <div className="p-3 rounded-lg bg-background border border-border">
-              <div className="text-xs text-muted-foreground mb-1">Ring 3 · Tantric locus</div>
+              <div className="text-xs text-muted-foreground mb-1">Ring 3 · Tantric locus (apparatus reading — verse differs; see integrated wheel)</div>
               <div className="text-primary">{cur.tantric_locus}</div>
             </div>
             <div className="p-3 rounded-lg bg-background border border-border sm:col-span-2">

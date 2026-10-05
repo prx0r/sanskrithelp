@@ -48,14 +48,11 @@ const VOWEL_LOCUS: Record<string, string> = {
 };
 
 const PRATYAHARAS = [
-  { code: "aṭ", expands: ["a", "ā", "i", "ī", "u", "ū", "ṛ", "ṝ", "ḷ", "ḹ", "e", "ai", "o", "au", "aṃ", "aḥ"], note: "all vowels" },
-  { code: "ka", expands: ["ka", "kha", "ga", "gha", "ṅa"], note: "gutturals" },
-  { code: "ca", expands: ["ca", "cha", "ja", "jha", "ña"], note: "palatals" },
-  { code: "ṭa", expands: ["ṭa", "ṭha", "ḍa", "ḍha", "ṇa"], note: "retroflex" },
-  { code: "ta", expands: ["ta", "tha", "da", "dha", "na"], note: "dentals" },
-  { code: "pa", expands: ["pa", "pha", "ba", "bha", "ma"], note: "labials" },
-  { code: "ya", expands: ["ya", "ra", "la", "va"], note: "semivowels" },
-  { code: "śa", expands: ["śa", "ṣa", "sa", "ha"], note: "sibilants" },
+  { code: "aC", expands: ["a", "i", "u", "ṛ", "ḷ", "e", "o", "ai", "au"], note: "vowels (savarṇa longs by convention — see data file)" },
+  { code: "iK", expands: ["i", "u", "ṛ", "ḷ"], note: "core iK class" },
+  { code: "eC", expands: ["e", "o", "ai", "au"], note: "eC class" },
+  { code: "yaṆ", expands: ["ya", "ra", "la", "va"], note: "semivowels" },
+  { code: "haL", expands: ["(all consonants — 30 members)"], note: "full list in public/memory/bruno-wheels/data/key-pratyaharas.json" },
 ];
 
 const MALINI = "na ṛ ṝ ḷ ḹ tha ca dha ī ṇa u ū ba ka kha ga gha ṅa i a va bha ya ḍa ḍha ṭha jha ña ja ra ṭa pa cha la ā sa aḥ ha ṣa kṣa ma śa aṃ ta e ai o au da pha".split(" ");
@@ -182,7 +179,8 @@ export default function MemoryPaniniPage() {
       {mode === "pratyahara" && (
         <div className="rounded-xl border border-border bg-card p-4">
           <p className="text-sm text-muted-foreground mb-3">
-            Pāṇini compression: one code expands to a class. Say the code, then expand.
+            Pāṇini's own compression codes from the Māheśvara sūtras (capitals = IT-markers).
+            Teaching subset of 5 — say the code, then expand.
           </p>
           <div className="text-center py-4">
             <div className="text-5xl text-primary font-display">{pr.code}</div>
@@ -217,7 +215,7 @@ export default function MemoryPaniniPage() {
       {mode === "malini" && (
         <div className="rounded-xl border border-border bg-card p-4">
           <p className="text-sm text-muted-foreground mb-3">
-            Mālinī order (MV 3.37–41) — bhinna-yoni. Learn after Mātṛkā is stable. na → pha.
+            Mālinī order (TĀ 15.121–125ab reproduces MV 3.37–41 — verified on volume) — bhinna-yoni. Learn after Mātṛkā is stable. na → pha.
           </p>
           <div className="text-center py-4">
             <div className="text-2xl text-primary">
@@ -266,7 +264,7 @@ export default function MemoryPaniniPage() {
       {mode === "locus" && (
         <div className="rounded-xl border border-border bg-card p-4">
           <p className="text-sm text-muted-foreground mb-3">
-            Where does this varga phoneme sit in the Mātṛkā body map?
+            Where does this varga phoneme sit in the Mātṛkā body map? (Apparatus reading — verse differs on arm series; see integrated Mātṛkā wheel.)
           </p>
           <div className="text-center py-3">
             <div className="text-5xl text-primary font-display">{DEV[quizPh]}</div>
@@ -321,7 +319,7 @@ export default function MemoryPaniniPage() {
       <section className="mt-6 rounded-xl border border-border bg-card p-4 text-sm text-muted-foreground">
         <h2 className="text-sm font-medium text-foreground mb-2">How Pāṇini plugs into Memory</h2>
         <ul className="space-y-1 list-disc pl-5">
-          <li><strong className="text-foreground">Pratyāhāra</strong> = compression codes (aṭ, ka, ca…) — memorise classes, not 50 isolated letters.</li>
+          <li><strong className="text-foreground">Pratyāhāra</strong> = real compression codes (aC, iK…) — memorise classes, not 50 isolated letters.</li>
           <li><strong className="text-foreground">Varga geometry</strong> = 5 places × 5 manners — the instrument in the mouth.</li>
           <li><strong className="text-foreground">Sandhi</strong> later = felt transformation of articulations, not rule cards.</li>
           <li><strong className="text-foreground">Bruno wheels</strong> add dual coordinates + imaginal signatures on top.</li>

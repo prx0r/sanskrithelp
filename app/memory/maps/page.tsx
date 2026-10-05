@@ -17,7 +17,9 @@ export default function MemoryMapsPage() {
       <div className="mb-6">
         <h1 className="font-display text-3xl font-bold mb-1">Phoneme Body Maps</h1>
         <p className="text-muted-foreground text-sm max-w-2xl">
-          Clean diagrams — large readable labels. Mātṛkā limb map vs Mālinī MV 3.37–41.
+          Placement diagrams from the TĀ 15 apparatus tables and MV 3 (order verified
+          TĀ 15.121–125). Arm-series loci follow the tables; the verse reads
+          hand/fingers/nails — both recorded, never mixed (see integrated Mātṛkā wheel).
           One primary map per night. Start with Mātṛkā · Night 1 = a + ā.
         </p>
       </div>

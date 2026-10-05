@@ -1,5 +1,11 @@
 # Phoneme body maps
 
+> Provenance: limb loci follow the TĀ 15 **apparatus** tables (elbow/wrist/fingers,
+> buttock chain); the **verse** (15.118–119) reads hand/fingers/nails + hip — see
+> TA15_NYASA.md §Verse vs apparatus, never mix in one sitting. Mālinī nodes are
+> verse-backed (TĀ 15.121–125ab: śikhā, headband, mouth-teeth-tongue, trident/skull,
+> heart, milk, jīva, belly/navel, hidden/thighs, knees, shanks, feet).
+
 Live: https://stonedoorway.com/reference/phoneme-maps
 
 ## Mātṛkā mermaid

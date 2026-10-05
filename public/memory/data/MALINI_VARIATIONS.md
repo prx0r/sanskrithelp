@@ -16,7 +16,7 @@
 
 | Map | Source | ka | ta | pa | ma | e |
 |-----|--------|----|----|----|----|---|
-| **Mātṛkā limb** | TĀ 15 / MV 8 | right shoulder | left lower limb | right diaphragm | heart | lower teeth |
+| **Mātṛkā limb** | TĀ 15 apparatus | right shoulder | left buttock | right side | heart | lower teeth |
 | **Mālinī** | MV 3.37–41 | **teeth** | left thigh cluster | **heart** | buttocks | right knee |
 | **Batch aṅganyāsa** | TĀ 15 formulas | heart batch | kavaca batch | netratraya | netratraya | face batches |
 | **Chakra-scaffold** | tantrica2 (PEDAGOGICAL) | root/red | heart/green | throat/blue | throat | — |
@@ -44,7 +44,7 @@
 | MV 3.36 authorises Mālinī for śākta-śarīra when nyāsa has no special procedure | authorization, not beginner mandate |
 | Pathway Phase 6 = Mālinī **after** Mātṛkā automatic | `docs/PATHWAY.md` |
 | START_HERE forbids Mālinī-na first | `practice/START_HERE_TWO_PHONEMES.md` |
-| 2/night fits limb map | vowels = head/face easy touch; ka kha = clear limb arc |
+| 2/night fits limb map (OUR pacing, not textual) | vowels = head/face easy touch; ka kha = clear limb arc |
 
 **Why not Mālinī first:** it is a reconfiguration. Know what you are permuteing first.
 **Why not green-core first:** pedagogical scaffold, not early Trika body (Flood: cakra maps late/variable).
@@ -55,8 +55,8 @@
 
 | Phase | Map | Action |
 |------:|-----|--------|
-| Nights 1–8 | Mātṛkā | vowels head/face · Night 1 a+ā |
-| Nights 9–14 | Mātṛkā | ka kha · ca cha · ta tha |
+| Nights 1–8 (OUR calendar) | Mātṛkā | vowels head/face · Night 1 a+ā |
+| Nights 9–10 (so far) | Mātṛkā | ka kha · ga gha |
 | Full install | Mātṛkā | a→kṣa + aham |
 | Months 3–4 | **+ Mālinī** | only when Mātṛkā automatic |
 | Later | batch aṅganyāsa | compressed TĀ 15 formula |
