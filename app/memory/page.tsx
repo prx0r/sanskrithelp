@@ -21,6 +21,13 @@ const SECTIONS = [
     icon: Ear,
   },
   {
+    href: "/memory/body-diagram.html",
+    title: "Full Body Diagram",
+    subtitle: "Mātṛkā · Mālinī · variations",
+    desc: "Interactive full human body with phoneme loci. Toggle Mātṛkā limb map vs Mālinī MV 3.37–41. Deepdive: which map to start with.",
+    icon: MapIcon,
+  },
+  {
     href: "/memory/maps",
     title: "Phoneme Body Maps",
     subtitle: "Mātṛkā · Mālinī · Varṇamālā",

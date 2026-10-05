@@ -22,6 +22,12 @@ export default function MemoryMapsPage() {
         </p>
       </div>
 
+      <a
+        href="/memory/body-diagram.html"
+        className="mb-4 inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm"
+      >
+        Full body diagram (Mātṛkā · Mālinī · variations) →
+      </a>
       <div className="rounded-xl border border-border bg-card overflow-hidden">
         <iframe
           src="/memory/phoneme-maps.html"
