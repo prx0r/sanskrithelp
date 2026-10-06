@@ -58,8 +58,16 @@ export async function POST(req: Request) {
       { temperature: 0.3, maxTokens: 512 }
     );
 
+    const cleaned = response
+      .replace(/^```(?:json)?/i, "")
+      .replace(/```$/i, "")
+      .trim();
+    const start = cleaned.indexOf("{");
+    const end = cleaned.lastIndexOf("}");
     try {
-      return NextResponse.json(JSON.parse(response));
+      const parsed =
+        start !== -1 && end > start ? JSON.parse(cleaned.slice(start, end + 1)) : JSON.parse(cleaned);
+      return NextResponse.json(parsed);
     } catch {
       return NextResponse.json({
         correct: false,
