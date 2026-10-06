@@ -281,6 +281,47 @@ export default function HindiWheelLab() {
   const [talkState, setTalkState] = useState<"idle" | "live" | "blocked">("idle");
   const [talkLog, setTalkLog] = useState<TutorTurn[]>([]);
   const [talkMsg, setTalkMsg] = useState("");
+  const [demoOn, setDemoOn] = useState(false);
+  const [demoTurn, setDemoTurn] = useState(0);
+
+  type SRWindow = Window & {
+    webkitSpeechRecognition?: new () => {
+      lang: string;
+      interimResults: boolean;
+      onresult: ((e: { results: ArrayLike<ArrayLike<{ transcript: string }>> }) => void) | null;
+      onerror: (() => void) | null;
+      onend: (() => void) | null;
+      start(): void;
+      stop(): void;
+    };
+  };
+
+  function demoListen() {
+    const W = window as unknown as SRWindow;
+    const SR = W.webkitSpeechRecognition;
+    if (!SR) {
+      setTalkMsg("demo needs Chrome speech recognition");
+      return;
+    }
+    const rec = new SR();
+    rec.lang = "hi-IN";
+    rec.interimResults = false;
+    setTalkMsg("listening… speak Hindi");
+    rec.onresult = (e) => {
+      const text = String(e.results[0]?.[0]?.transcript ?? "").trim();
+      if (!text) return;
+      setTalkLog((l) => [...l.slice(-49), { role: "user", textHindi: text, at: new Date().toISOString() }]);
+      import("@/lib/voice-tutor/demoTutor").then(({ demoTutorTurn }) => {
+        const reply = demoTutorTurn(text, demoTurn);
+        setDemoTurn((n) => n + 1);
+        setTalkLog((l) => [...l.slice(-49), { role: "tutor", textHindi: reply.say, at: new Date().toISOString() }]);
+        void speakHindi(reply.say);
+      });
+    };
+    rec.onerror = () => setTalkMsg("mic error — try again");
+    rec.onend = () => { if (demoOn) setTalkMsg("tap Talk to speak again"); };
+    rec.start();
+  }
 
   async function startTalk() {
     const world: TutorWorldState = {
@@ -1270,9 +1311,28 @@ export default function HindiWheelLab() {
             Turns are scored through the deterministic grammar, not vibes.
           </p>
           {talkState === "idle" && (
-            <button className="px-4 py-2 rounded-lg bg-primary text-primary-foreground" onClick={startTalk}>
-              Start talking
-            </button>
+            <>
+              <button className="px-4 py-2 rounded-lg bg-primary text-primary-foreground mr-2" onClick={startTalk}>
+                Start talking (Live)
+              </button>
+              <button
+                className="px-4 py-2 rounded-lg border border-border"
+                onClick={() => { setDemoOn(true); setTalkMsg("demo mode — scripted teacher, no key needed"); demoListen(); }}
+              >
+                Talk demo (no key)
+              </button>
+            </>
+          )}
+          {demoOn && talkState === "idle" && (
+            <div className="mt-3 flex gap-2">
+              <button className="px-4 py-2 rounded-lg bg-primary text-primary-foreground" onClick={demoListen}>
+                🎙 Talk
+              </button>
+              <button className="px-3 py-2 rounded-lg border border-border text-sm"
+                onClick={() => { setDemoOn(false); setTalkMsg(""); }}>
+                Stop demo
+              </button>
+            </div>
           )}
           {talkState === "blocked" && (
             <p className="text-sm text-amber-400">Blocked: {talkMsg}. Configure QWEN_API_KEY + relay (see docs/voice-tutor.md).</p>
