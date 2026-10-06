@@ -137,6 +137,6 @@ Verse text: `dakṣānyayoḥ skandha-bāhu-kara-aṅguli-nakhe kacau vargau` (T
 Apparatus tables (Mātṛkānyāsa App. A + Śabdarāśinyāsa App. C) agree with each other — deliberate, not a slip.
 Same split: ṭa/ta verse `kaṭi` (**hip**, TĀ 15.119) vs apparatus **buttock**; `a` verse `lalāṭa` (**forehead**, TĀ 15.117) vs App. A locus 1 = **Topknot**.
 
-**Encoding rule:** `matrika_body_map.json` follows the apparatus (practice-touch loci).
-The Mātṛkā wheel (`matrka-data.json`) follows the verse literally. Integrated wheel page shows both per phoneme.
+**Encoding rule:** `matrika_body_map.json` AND `matrka-data.json` both follow the verse literally
+(canonical v1, regression-tested). Apparatus survives only as `apparatus_variant` per entry + readout on the integrated wheel, never used for install.
 Unresolved from disk: whether apparatus follows MV 8/27–32 wording against the verse, or a kara-as-joints gloss (needs MV Sanskrit or Jayaratha — neither on volume).

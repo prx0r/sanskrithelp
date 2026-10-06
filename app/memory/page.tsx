@@ -27,9 +27,9 @@ type HubItem = {
 
 const START_HERE = {
   href: "/memory/practice-chart.html",
-  title: "Tonight: Practice Chart + Track 1",
-  subtitle: "Bare phoneme · body · breath",
-  desc: "16 vowels + ka/ca vargas with guided audio. Glyph → articulation → breath → sound → locus → silence. Start here every night.",
+  title: "Tonight: Full 50 Practice Chart + Track 1",
+  subtitle: "Bare phoneme · body · breath — Abhinavagupta",
+  desc: "Full 50 Mātṛkā in emission order with per-phoneme clips (26 cut, 24 to cut). Glyph → articulation → breath → sound → locus → silence. Start here every night.",
   icon: Ear,
 };
 
@@ -70,6 +70,13 @@ const GROUPS: { title: string; items: HubItem[] }[] = [
   {
     title: "Wheels & simulator",
     items: [
+      {
+        href: "/memory/bruno-50/",
+        title: "Bruno 50 Volvelle (true wheels)",
+        subtitle: "VARṆA × AGENT × ACTION — 50, spinnable",
+        desc: "After De umbris: spin three 50-fold rings like a combination lock. Bruno supplies mechanics, Abhinavagupta supplies loci. Encode words as scenes on the body.",
+        icon: Compass,
+      },
       {
         href: "/memory/bruno",
         title: "Bruno Memory Wheels",

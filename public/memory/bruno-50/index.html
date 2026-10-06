@@ -1,0 +1,114 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Bruno 50 — Mātṛkā Volvelle (after De umbris)</title><style>
+:root{--bg:#0b0d12;--panel:#12161f;--ink:#f0ebe0;--mut:#a8a294;--gold:#c9a45c;--teal:#5ec4b6;--line:#2a3142}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Georgia,serif}
+header{max-width:1100px;margin:auto;padding:1rem;display:flex;gap:1rem;align-items:end;justify-content:space-between;flex-wrap:wrap;border-bottom:1px solid var(--line)}
+h1{margin:0;font-size:clamp(1.4rem,4vw,2rem)} .sub{color:var(--mut);max-width:720px}
+main{max-width:1100px;margin:auto;padding:1rem;display:grid;gap:1rem}
+@media(min-width:960px){main{grid-template-columns:1.15fr .85fr}}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:1rem}
+.truth{border-left:4px solid #7dcea0;background:rgba(125,206,160,.08);padding:.8rem 1rem;border-radius:0 10px 10px 0;font-size:.92rem}
+svg{width:100%;height:auto;touch-action:none;user-select:none;display:block}
+.ring path{fill:rgba(201,164,92,.05);stroke:var(--line);stroke-width:1}
+.ring text{fill:var(--ink);pointer-events:none;font-family:Georgia,serif}
+.ring-label{fill:#9aa3b5;font:11px ui-sans-serif,sans-serif;letter-spacing:.08em}
+.ptr{fill:#c9a45c}.guide{stroke:#c9a45c;stroke-dasharray:4 5;opacity:.5}
+.center{fill:#0e1219;stroke:var(--gold);stroke-width:2}
+.cdev{font-size:44px;font-weight:700;text-anchor:middle;fill:var(--ink)}
+.csub{font-size:14px;text-anchor:middle;fill:var(--mut)}
+.row{display:grid;grid-template-columns:90px 1fr;gap:8px;padding:.4rem 0;border-top:1px solid var(--line);font-size:.95rem}
+.k{color:var(--mut);font-size:.75rem;text-transform:uppercase;letter-spacing:.06em}
+.controls{display:flex;gap:.4rem;flex-wrap:wrap;margin:.6rem 0}
+button,input{font:inherit;background:#0e1219;color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:.5rem .7rem}
+button{cursor:pointer}button.primary{background:var(--gold);color:#0b0d12;border-color:var(--gold);font-weight:700}
+.scene{font-size:1.05rem;background:#0e1219;border:1px solid var(--line);border-radius:10px;padding:.7rem;margin:.6rem 0}
+a{color:var(--teal)}
+</style></head><body>
+<header><div><h1>Bruno 50 — Mātṛkā Volvelle</h1><div class="sub">Spinnable wheels after <i>De umbris idearum</i> (1582). Bruno had 30 figures; ours holds 50 Mātṛkā. Drag any ring — release to snap.</div></div><div><a href="/memory">Memory</a> · <a href="/memory/practice-chart.html">Tonight 50</a> · <a href="/memory/matrka-wheel/integrated.html">Mātṛkā wheel</a></div></header>
+<main>
+<section class="card"><svg id="wheel" viewBox="0 0 900 900"><line class="guide" x1="450" y1="40" x2="450" y2="450"/><polygon class="ptr" points="450,30 438,54 462,54"/><g id="rings"></g><circle class="center" cx="450" cy="450" r="108"/><text id="cdev" class="cdev" x="450" y="440">अ</text><text id="ciast" class="csub" x="450" y="470">a · forehead</text><text id="cscene" class="csub" x="450" y="492">—</text></svg>
+<div class="controls"><button id="spinV">Spin VARṆA</button><button id="spinA">Spin AGENT</button><button id="spinX">Spin ACTION</button><button id="align" class="primary">Align</button><button id="rand">Randomize scene</button></div>
+<div class="controls"><input id="word" placeholder="encode: e.g. ka ma la" style="flex:1;min-width:200px"><button id="encode">Encode</button></div>
+<div id="encout" class="scene">Type 2–3 phonemes (IAST, space-separated) to compose one Bruno scene — e.g. ABC in Bruno becomes Lycaon ploughing stones wearing Apollo's belt. Here: agents + actions placed on the body locus.</div>
+</section>
+<aside>
+<div class="card truth"><b>Source of truth: two layers, never collapsed.</b><br><b>Bruno (mechanics):</b> outer people · middle actions · inner objects/scenes, turned against each other like a combination lock (<i>De umbris</i>, Sturlese/Warburg reading). First three pairs after Bruno's Ovid lists: Lycaon–feasting, Deucalion–ploughing stones, Apollo–prophesying.<br><b>Abhinavagupta (content):</b> VARṆA + LOCUS follow verse-literal TĀ 15.117–120 (canonical v1). The body locus is Bruno's <i>circumstance</i> — where the scene is placed. Synthetic pedagogy; Bruno and Abhinavagupta had no historical connection.</div>
+<div class="card"><h3 style="margin:.2rem 0">ACTIVE SCENE</h3>
+<div class="row"><div class="k">VARṆA</div><div id="rv">—</div></div>
+<div class="row"><div class="k">AGENT</div><div id="ra">—</div></div>
+<div class="row"><div class="k">ACTION</div><div id="rx">—</div></div>
+<div class="row"><div class="k">LOCUS</div><div id="rl">—</div></div>
+<div class="scene" id="scene">—</div>
+<div class="controls"><button id="hear" class="primary">▶ Hear varṇa</button><span id="hstat" style="color:var(--mut);font-size:.9rem"></span></div>
+<div style="font-size:.9rem;color:var(--mut)">Rule: the image must teach the property (place/manner/voicing) + locus. If it only reminds you of a symbol, it fails. Personal images save locally.</div>
+<div class="controls"><input id="imago" placeholder="your image for this varṇa…" style="flex:1;min-width:180px"><button id="save">Save image</button></div>
+</div>
+<div class="card" style="font-size:.9rem;color:var(--mut)">50 divisions per ring (7.2° each). VARṆA ring = Mātṛkā emission order 1–50. AGENT/ACTION rings spin independently — align to learn the bundle, scramble to reconstruct. Export saves your scene + personal images.<div class="controls"><button id="export">Export JSON</button></div></div>
+</aside>
+</main>
+<script>
+window.BRUNO50=[{"n": 0, "dev": "अ", "iast": "a", "locus": "forehead", "agent": "Lycaon", "action": "feasting", "clip": "a", "hasclip": true}, {"n": 1, "dev": "आ", "iast": "ā", "locus": "mouth", "agent": "Deucalion", "action": "ploughing stones", "clip": "aa", "hasclip": true}, {"n": 2, "dev": "इ", "iast": "i", "locus": "right eye", "agent": "Apollo", "action": "prophesying", "clip": "i", "hasclip": true}, {"n": 3, "dev": "ई", "iast": "ī", "locus": "left eye", "agent": "Daphne", "action": "fleeing", "clip": "ii", "hasclip": true}, {"n": 4, "dev": "उ", "iast": "u", "locus": "right ear", "agent": "Actaeon", "action": "tracking", "clip": "u", "hasclip": true}, {"n": 5, "dev": "ऊ", "iast": "ū", "locus": "left ear", "agent": "Narcissus", "action": "gazing", "clip": "uu", "hasclip": true}, {"n": 6, "dev": "ऋ", "iast": "ṛ", "locus": "right nostril", "agent": "Arachne", "action": "weaving", "clip": "r", "hasclip": true}, {"n": 7, "dev": "ॠ", "iast": "ṝ", "locus": "left nostril", "agent": "Orpheus", "action": "singing", "clip": "rr", "hasclip": true}, {"n": 8, "dev": "ऌ", "iast": "ḷ", "locus": "right cheek", "agent": "Archer", "action": "bursting plain", "clip": "l", "hasclip": false}, {"n": 9, "dev": "ॡ", "iast": "ḹ", "locus": "left cheek", "agent": "Dancer", "action": "breathing out", "clip": "ll", "hasclip": false}, {"n": 10, "dev": "ए", "iast": "e", "locus": "lower teeth", "agent": "Drummer", "action": "voicing deep", "clip": "e", "hasclip": true}, {"n": 11, "dev": "ऐ", "iast": "ai", "locus": "upper teeth", "agent": "Elephant-rider", "action": "voicing + breath", "clip": "ai", "hasclip": true}, {"n": 12, "dev": "ओ", "iast": "o", "locus": "lower lip", "agent": "Fire-keeper", "action": "humming nasal", "clip": "o", "hasclip": true}, {"n": 13, "dev": "औ", "iast": "au", "locus": "upper lip", "agent": "Gate-keeper", "action": "crisp release", "clip": "au", "hasclip": true}, {"n": 14, "dev": "अं", "iast": "aṃ", "locus": "crown (śikhā)", "agent": "Hunter", "action": "breathy burst", "clip": "anusvara", "hasclip": true}, {"n": 15, "dev": "अः", "iast": "aḥ", "locus": "tongue", "agent": "Lamp-bearer", "action": "voiced release", "clip": "visarga", "hasclip": true}, {"n": 16, "dev": "क", "iast": "ka", "locus": "right shoulder", "agent": "Mask-maker", "action": "voiced + breath", "clip": "ka", "hasclip": true}, {"n": 17, "dev": "ख", "iast": "kha", "locus": "right arm", "agent": "Net-caster", "action": "palatal hum", "clip": "kha", "hasclip": true}, {"n": 18, "dev": "ग", "iast": "ga", "locus": "right hand", "agent": "Oar-rower", "action": "dry stop", "clip": "ga", "hasclip": true}, {"n": 19, "dev": "घ", "iast": "gha", "locus": "right fingers", "agent": "Potter", "action": "retro breath", "clip": "gha", "hasclip": true}, {"n": 20, "dev": "ङ", "iast": "ṅa", "locus": "right nails", "agent": "Quiver-bearer", "action": "retro knock", "clip": "nga", "hasclip": false}, {"n": 21, "dev": "च", "iast": "ca", "locus": "left shoulder", "agent": "Rope-walker", "action": "retro + breath", "clip": "ca", "hasclip": true}, {"n": 22, "dev": "छ", "iast": "cha", "locus": "left arm", "agent": "Seed-sower", "action": "retro hum", "clip": "cha", "hasclip": true}, {"n": 23, "dev": "ज", "iast": "ja", "locus": "left hand", "agent": "Torch-bearer", "action": "clean dental stop", "clip": "ja", "hasclip": true}, {"n": 24, "dev": "झ", "iast": "jha", "locus": "left fingers", "agent": "Umbrella-holder", "action": "dental + breath", "clip": "jha", "hasclip": true}, {"n": 25, "dev": "ञ", "iast": "ña", "locus": "left nails", "agent": "Vase-painter", "action": "voiced dental", "clip": "nya", "hasclip": false}, {"n": 26, "dev": "ट", "iast": "ṭa", "locus": "right hip", "agent": "Well-digger", "action": "voiced dental + breath", "clip": "tta", "hasclip": false}, {"n": 27, "dev": "ठ", "iast": "ṭha", "locus": "right thigh", "agent": "Yoke-bearer", "action": "dental hum", "clip": "ttha", "hasclip": false}, {"n": 28, "dev": "ड", "iast": "ḍa", "locus": "right knee", "agent": "Flute-player", "action": "lip pop", "clip": "dda", "hasclip": false}, {"n": 29, "dev": "ढ", "iast": "ḍha", "locus": "right shank", "agent": "Conch-blower", "action": "lip pop + breath", "clip": "ddha", "hasclip": false}, {"n": 30, "dev": "ण", "iast": "ṇa", "locus": "right toes", "agent": "Bell-ringer", "action": "voiced lip", "clip": "nna", "hasclip": false}, {"n": 31, "dev": "त", "iast": "ta", "locus": "left hip", "agent": "Incense-bearer", "action": "voiced lip + breath", "clip": "ta", "hasclip": true}, {"n": 32, "dev": "थ", "iast": "tha", "locus": "left thigh", "agent": "Flower-garlander", "action": "closed hum", "clip": "tha", "hasclip": true}, {"n": 33, "dev": "द", "iast": "da", "locus": "left knee", "agent": "Rice-cooker", "action": "palatal glide", "clip": "da", "hasclip": true}, {"n": 34, "dev": "ध", "iast": "dha", "locus": "left shank", "agent": "Tea-pourer", "action": "rolling pulse", "clip": "dha", "hasclip": true}, {"n": 35, "dev": "न", "iast": "na", "locus": "left toes", "agent": "Weaver", "action": "side flow", "clip": "na", "hasclip": false}, {"n": 36, "dev": "प", "iast": "pa", "locus": "right side", "agent": "Woodcutter", "action": "soft glide", "clip": "pa", "hasclip": false}, {"n": 37, "dev": "फ", "iast": "pha", "locus": "left side", "agent": "Gardener", "action": "high hiss", "clip": "pha", "hasclip": false}, {"n": 38, "dev": "ब", "iast": "ba", "locus": "back", "agent": "Fisher", "action": "dense hiss", "clip": "ba", "hasclip": false}, {"n": 39, "dev": "भ", "iast": "bha", "locus": "belly", "agent": "Ferryman", "action": "forward hiss", "clip": "bha", "hasclip": false}, {"n": 40, "dev": "म", "iast": "ma", "locus": "heart", "agent": "Shepherd", "action": "open breath", "clip": "ma", "hasclip": false}, {"n": 41, "dev": "य", "iast": "ya", "locus": "skin", "agent": "Merchant", "action": "closure-into-hiss", "clip": "ya", "hasclip": false}, {"n": 42, "dev": "र", "iast": "ra", "locus": "blood", "agent": "Scribe", "action": "touching forehead", "clip": "ra", "hasclip": false}, {"n": 43, "dev": "ल", "iast": "la", "locus": "flesh", "agent": "Teacher", "action": "opening mouth", "clip": "la", "hasclip": false}, {"n": 44, "dev": "व", "iast": "va", "locus": "sinews", "agent": "Child", "action": "covering eyes", "clip": "va", "hasclip": false}, {"n": 45, "dev": "श", "iast": "śa", "locus": "bone", "agent": "Elder", "action": "cupping ears", "clip": "sha", "hasclip": false}, {"n": 46, "dev": "ष", "iast": "ṣa", "locus": "marrow", "agent": "Wrestler", "action": "pinching nose", "clip": "ssa", "hasclip": false}, {"n": 47, "dev": "स", "iast": "sa", "locus": "śukra / generative fluid", "agent": "Singer", "action": "stroking cheek", "clip": "sa", "hasclip": false}, {"n": 48, "dev": "ह", "iast": "ha", "locus": "prāṇa", "agent": "Silent watcher", "action": "baring teeth", "clip": "ha", "hasclip": false}, {"n": 49, "dev": "क्ष", "iast": "kṣa", "locus": "generative organ", "agent": "Jester", "action": "parting lips", "clip": "ksha", "hasclip": false}];
+const S={rot:[0,0,0],lock:[false,false,false],drag:null};
+const $=x=>document.getElementById(x),svg=$('wheel'),rings=$('rings'),NS='http://www.w3.org/2000/svg';
+const defs=[['varna','VARṆA',395,340],['agent','AGENT',334,278],['action','ACTION',272,216]];
+const N=50,STEP=360/N;
+function polar(r,a){let z=(a-90)*Math.PI/180;return [450+r*Math.cos(z),450+r*Math.sin(z)];}
+function path(ro,ri,a0,a1){let p1=polar(ro,a0),p2=polar(ro,a1),p3=polar(ri,a1),p4=polar(ri,a0),L=(a1-a0)>180?1:0;return `M${p1} A${ro},${ro} 0 ${L} 1 ${p2} L${p3} A${ri},${ri} 0 ${L} 0 ${p4} Z`;}
+function mod(n,m){return ((n%m)+m)%m;}
+function idx(i){return mod(Math.round(-S.rot[i]/STEP),N);}
+function txt(ri,d){
+  if(ri===0) return d.dev+' '+d.iast;
+  if(ri===1) return d.agent.toUpperCase().split(/\s+/).slice(0,2).join(' ');
+  return d.action.toUpperCase().split(/\s+/).slice(0,2).join(' ');
+}
+function fs(n){return n>30?9:12;}
+function angle(e){let p=svg.createSVGPoint();p.x=e.clientX;p.y=e.clientY;p=p.matrixTransform(svg.getScreenCTM().inverse());return Math.atan2(p.y-450,p.x-450)*180/Math.PI+90;}
+function gi(id){try{return (JSON.parse(localStorage.getItem('bruno50-imago')||'{}'))[id]||'';}catch(e){return '';}}
+function si(id,v){let m={};try{m=JSON.parse(localStorage.getItem('bruno50-imago')||'{}');}catch(e){}m[id]=v;localStorage.setItem('bruno50-imago',JSON.stringify(m));}
+function render(){
+  rings.innerHTML='';const D=window.BRUNO50;
+  defs.forEach((d,ri)=>{
+    let g=document.createElementNS(NS,'g');g.setAttribute('class','ring');g.dataset.ring=ri;
+    let ro=d[2],ri2=d[3];
+    for(let i=0;i<N;i++){
+      let a0=i*STEP+S.rot[ri],a1=(i+1)*STEP+S.rot[ri];
+      let p=document.createElementNS(NS,'path');p.setAttribute('d',path(ro,ri2,a0,a1));
+      g.appendChild(p);
+      let mid=(a0+a1)/2,[tx,ty]=polar((ro+ri2)/2,mid);
+      let t=document.createElementNS(NS,'text');t.setAttribute('x',tx);t.setAttribute('y',ty);t.setAttribute('text-anchor','middle');t.setAttribute('dominant-baseline','middle');t.setAttribute('font-size',ri===0?13:8.5);
+      t.textContent=txt(ri,D[i]);g.appendChild(t);
+    }
+    let lab=document.createElementNS(NS,'text');lab.setAttribute('x',450);lab.setAttribute('y',450-ro-8);lab.setAttribute('text-anchor','middle');lab.setAttribute('class','ring-label');lab.textContent=d[1];g.appendChild(lab);
+    rings.appendChild(g);
+  });
+  read();
+}
+function read(){
+  const D=window.BRUNO50;
+  const v=D[idx(0)],a=D[idx(1)],x=D[idx(2)];
+  $('rv').textContent=v.dev+' '+v.iast;
+  $('ra').textContent=a.agent;
+  $('rx').textContent=x.action;
+  $('rl').textContent=v.locus+' (TĀ 15 verse-literal)';
+  const personal=gi(v.iast);
+  const scene=`${a.agent} (${v.dev} ${v.iast}) — ${x.action} — on ${v.locus}${personal?' — you: '+personal:''}`;
+  $('scene').textContent=scene;
+  $('cdev').textContent=v.dev;$('ciast').textContent=v.iast+' · '+v.locus;$('cscene').textContent=a.agent+' · '+x.action;
+  const ok=v.hasclip;$('hear').disabled=!ok;$('hstat').textContent=ok?'':'clip not yet cut — speak it';
+  $('hear').onclick=()=>{if(!ok)return;try{new Audio('/memory/clips/'+v.clip+'.ogg').play().catch(()=>{});}catch(e){}};
+}
+rings.addEventListener('pointerdown',e=>{let g=e.target.closest('.ring');if(!g)return;let ri=+g.dataset.ring;S.drag={ri,a0:angle(e),r0:S.rot[ri]};svg.setPointerCapture(e.pointerId);});
+rings.addEventListener('pointermove',e=>{if(!S.drag)return;let a=angle(e);S.rot[S.drag.ri]=S.drag.r0+(a-S.drag.a0);render();});
+rings.addEventListener('pointerup',e=>{if(!S.drag)return;let ri=S.drag.ri;S.rot[ri]=Math.round(S.rot[ri]/STEP)*STEP;S.drag=null;render();});
+function spin(i){S.rot[i]=S.rot[i]-STEP*(5+Math.floor(Math.random()*45))-Math.random()*STEP;S.rot[i]=Math.round(S.rot[i]/STEP)*STEP;render();}
+$('spinV').onclick=()=>spin(0);$('spinA').onclick=()=>spin(1);$('spinX').onclick=()=>spin(2);
+$('rand').onclick=()=>{spin(0);spin(1);spin(2);};
+$('align').onclick=()=>{let k=idx(0);for(let i=0;i<3;i++)S.rot[i]=-k*STEP;render();};
+$('save').onclick=()=>{const v=window.BRUNO50[idx(0)];si(v.iast,$('imago').value);read();};
+$('export').onclick=()=>{const D=window.BRUNO50;const v=D[idx(0)],a=D[idx(1)],x=D[idx(2)];const blob=new Blob([JSON.stringify({varna:v,agent:a.agent,action:x.action,scene:$('scene').textContent},null,2)],{type:'application/json'});const u=URL.createObjectURL(blob);const l=document.createElement('a');l.href=u;l.download='bruno50-scene.json';l.click();};
+$('encode').onclick=()=>{
+  const q=$('word').value.trim().split(/\s+/).filter(Boolean);if(!q.length)return;
+  const D=window.BRUNO50;const by={};D.forEach(d=>by[d.iast]=d);
+  const parts=q.map(s=>{const d=by[s];if(!d)return s+' (?)';return `${d.agent}–${d.action} (${d.dev} on ${d.locus})`;});
+  $('encout').textContent='“'+q.join(' + ')+'” → '+parts.join(' + ');
+};
+render();
+</script></body></html>

@@ -93,4 +93,73 @@ describe("nyasa page regression", () => {
   it("labels pacing as ours, not textual", () => {
     expect(src).toMatch(/modern pacing, not Abhinavagupta/);
   });
+
+  it("follows verse-literal, not apparatus tables", () => {
+    expect(src).toMatch(/verse-literal/);
+    expect(src).not.toMatch(/Loci follow the TĀ 15 apparatus tables/);
+  });
+});
+
+describe("Tonight practice chart — full 50 canonical (Abhinavagupta truth)", () => {
+  const html = readFileSync(resolve(ROOT, "public/memory/practice-chart.html"), "utf8");
+
+  it("lists all 50 phonemes", () => {
+    expect(html.match(/<li>/g)?.length).toBe(50);
+  });
+
+  it("declares Abhinavagupta as source of truth, no old divergence warn", () => {
+    expect(html).toMatch(/Source of truth: Abhinavagupta/);
+    expect(html).not.toMatch(/Diverges from canonical/);
+  });
+
+  it("uses canonical loci (e=lower teeth, aḥ=tongue, va=sinews, kṣa=generative organ)", () => {
+    expect(html).toMatch(/e — lower teeth/);
+    expect(html).toMatch(/ai — upper teeth/);
+    expect(html).toMatch(/aḥ — tongue/);
+    expect(html).toMatch(/va — sinews/);
+    expect(html).toMatch(/kṣa — generative organ/);
+    expect(html).not.toMatch(/fat \/ medas/);
+    expect(html).not.toMatch(/mouth opening/);
+  });
+
+  it("orders pa-varga after ta-varga (Matrika emission order)", () => {
+    const pa = html.indexOf("pa — right side");
+    const ta = html.indexOf("ta — left hip");
+    const tta = html.indexOf("ṭa — right hip");
+    expect(tta).toBeGreaterThan(-1);
+    expect(ta).toBeGreaterThan(tta);
+    expect(pa).toBeGreaterThan(ta);
+  });
+});
+
+describe("Bruno 50 volvelle — true wheels, 50 divisions", () => {
+  const src = readFileSync(resolve(ROOT, "public/memory/bruno-50/index.html"), "utf8");
+
+  it("declares Bruno mechanics + Abhinavagupta content separation", () => {
+    expect(src).toMatch(/De umbris/);
+    expect(src).toMatch(/Abhinavagupta/);
+  });
+
+  it("embeds 50 varna with canonical loci", () => {
+    const m = src.match(/window\.BRUNO50=(\[.*?\]);/s);
+    expect(m).toBeTruthy();
+    const data = JSON.parse(m![1]);
+    expect(data.length).toBe(50);
+    const by = new Map(data.map((d: any) => [d.iast, d]));
+    expect(by.get("a")?.locus).toBe("forehead");
+    expect(by.get("ga")?.locus).toBe("right hand");
+    expect(by.get("sa")?.locus).toMatch(/śukra/);
+    expect(by.get("kṣa")?.locus).toBe("generative organ");
+    // every entry has agent + action (true PAO, not faceted display)
+    for (const d of data) {
+      expect(d.agent?.length, d.iast).toBeGreaterThan(2);
+      expect(d.action?.length, d.iast).toBeGreaterThan(2);
+    }
+  });
+
+  it("is spinnable (drag + snap + spin controls)", () => {
+    expect(src).toMatch(/pointerdown/);
+    expect(src).toMatch(/Spin VAR/);
+    expect(src).toMatch(/Encode/);
+  });
 });

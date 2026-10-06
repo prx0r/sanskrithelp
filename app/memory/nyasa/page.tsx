@@ -129,9 +129,9 @@ export default function MemoryNyasaPage() {
         <p className="text-xs text-muted-foreground mt-2">
           Our training calendar — two phonemes a sitting is modern pacing, not Abhinavagupta&apos;s
           instruction (the texts set no schedule). Nights 1–8 = vowels. 9–10 = first
-          consonant contrasts. Loci follow the TĀ 15 apparatus tables; the verse reads
-          hand/fingers/nails where the tables give elbow/wrist/fingers — never mix maps
-          in one sitting (see integrated Mātṛkā wheel).
+          consonant contrasts. Loci follow verse-literal TĀ 15.117–120 (hand/fingers/nails,
+          hip, forehead — canonical v1); apparatus elbow/wrist/buttock recorded only,
+          never mixed in one sitting (see integrated Mātṛkā wheel).
         </p>
       </section>
 
