@@ -1,14 +1,18 @@
-# HANDOVER — sanskrithelp (2026-10-06 cleanup)
+# HANDOVER — sanskrithelp (2026-10-06, LIVE)
 
 > Threads: A doctrine · B Hindi engine · C voice/conversation · D corpus ·
 > E music/geometry · F ops. Map: docs/visions/VISION-INDEX.md (canonical:
 > docs/visions/awesomevision.md).
 
 ## State
-- 57/57 tests green · tsc clean · build prerenders (incl. /memory/hindi, /api/tts, /api/voice-tutor).
-- Open threads: simulator/coach in-progress files (NOT committed, not mine);
-  deploy red (Workers token scope — DEPLOY-SPEC.md); Stanza blocked (torch);
-  corpus = spec only (disk rule); live voice needs QWEN/GEMINI keys + relay.
+- LIVE on sanskrit.help (deploy green since `817f47c`; verified 200s on nyasa,
+  practice-chart, Track 1, /memory/hindi with Talk + Constructicon).
+- 57/57 tests green · tsc clean · build prerenders.
+- Open threads: simulator/coach in-progress files (NOT committed);
+  Stanza blocked (torch); corpus = spec only; live voice needs
+  QWEN/GEMINI keys + relay; GitHub Pages mirror live too.
+- Deploy lesson: token was never the problem — 4 stacked build bugs, each
+  masking the next. Always read the FIRST log error. Details: DEPLOY-SPEC.md.
 
 ## Prior sessions (2026-10-05)
 

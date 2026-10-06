@@ -1,10 +1,25 @@
-# DEPLOY SPEC — get sanskrit.help live on current main
+# DEPLOY SPEC — sanskrit.help is LIVE (2026-10-06)
 
-## Goal
-`https://sanskrit.help/memory/nyasa` shows: Night 5 present, ga/gha = right
-hand / right fingers, provenance caption. Nothing else counts as done.
+> Status: GREEN since `817f47c`. Site tracks `main` on every push.
 
-## Blocker (one human step)
+## What was actually wrong (4 stacked build bugs, not the token)
+1. ESLint `react/no-unescaped-entities` errors (apostrophes) — failed `npm run build`.
+2. `vitest.config.ts` committed without tsconfig exclusion — `Cannot find module 'vitest/config'`.
+3. Missing `esbuild` dep (corrupt lockfile) — opennext bundle crash.
+4. Uncommitted `lib/learning/skills.ts` — webpack `Module not found: ./skills`.
+Each masked the next. The R2 token was NEVER the problem — it deploys fine
+with explicit `CLOUDFLARE_ACCOUNT_ID` in workflow env (kept as safety).
+
+## If deploy goes red again
+Read the failed log for the FIRST error (later errors are usually masks):
+`gh run view <ID> --repo prx0r/sanskrithelp --log` (full log — `--log-failed`
+hides webpack details).
+
+## Goal — MET 2026-10-06
+`https://sanskrit.help/memory/nyasa` shows Night 5 + hand/fingers;
+`/memory/practice-chart` + Track 1 + `/memory/hindi` (Talk, Constructicon) live.
+
+## Blocker (RESOLVED — was never the token)
 `CLOUDFLARE_API_TOKEN` repo secret is an R2-scoped token. Wrangler deploy
 fails at `/memberships` (HTTP 400) — it cannot resolve the account.
 
