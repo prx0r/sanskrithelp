@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { ArrowLeft, Volume2 } from "lucide-react";
 import { decompileHindi } from "@/lib/memory/hindiDecompile";
+import SpeakScore from "@/components/SpeakScore";
 
 type Segment = {
   sutra: string;
@@ -93,6 +94,7 @@ export default function HindiTextModePage() {
                   Decompile in wheels →
                 </Link>
               </div>
+              <SpeakScore target={s.hindi_simple} />
             </div>
           );
         })}

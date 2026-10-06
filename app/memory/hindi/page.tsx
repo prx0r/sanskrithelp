@@ -38,6 +38,10 @@ export default function HindiMemoryPage() {
           <Link className="text-primary underline" href="/memory/hindi/text-mode">
             Text Mode
           </Link>
+          , rehearse in{" "}
+          <Link className="text-primary underline" href="/memory/hindi/scenarios">
+            Field Scenarios
+          </Link>
           . Osho teaches Hindi here, not Trika authority.
         </p>
       </div>
