@@ -53,6 +53,9 @@ export default function MemoryNyasaPage() {
         </p>
         <audio controls className="w-full" src="/memory/audio/cycle_night1_a_aa.mp3" />
         <div className="mt-3 flex flex-wrap gap-2 text-xs">
+          <a className="px-3 py-1.5 rounded-lg bg-primary text-primary-foreground font-medium" href="/memory/practice-chart.html">
+            Practice chart + Track 1 audio →
+          </a>
           <a className="px-3 py-1.5 rounded-lg border border-border hover:bg-accent" href="/memory/audio/cycle_vowels.mp3">
             Vowels cycle
           </a>

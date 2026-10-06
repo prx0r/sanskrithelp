@@ -31,6 +31,13 @@ const SECTIONS = [
     icon: Hash,
   },
   {
+    href: "/memory/practice-chart.html",
+    title: "Practice Chart + Track 1",
+    subtitle: "Bare phoneme · body · breath",
+    desc: "Tonight's install: 16 vowels + ka/ca vargas with guided audio. Glyph → articulation → breath → sound → locus → silence. Divergences from canonical flagged on-page.",
+    icon: Ear,
+  },
+  {
     href: "/memory/nyasa",
     title: "Nyāsa Practice",
     subtitle: "Phoneme → body locus",
