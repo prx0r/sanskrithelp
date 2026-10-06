@@ -71,7 +71,7 @@ sounding each mantra and touching its locus (Dyczkowski vol 8, App. A):
    thigh, knee, shank, toes.
 4. **pa-varga, torso** (37–41): two sides, back, belly, **heart** *(ma)* —
    "pavargaṃ pārśvayoḥ pṛṣṭhe jaṭhare hṛdi" (TĀ 15.119).
-5. **The nine deep constituents** (42–50): skin, blood, flesh, sinews, bone,
+5. **The nine deep constituents** (42–50): skin, blood, flesh, sūtra (sinews), bone,
    marrow, generative essence, breath *(prāṇa)*, generative — "atho nava:
    tvak-rakta-māṃsa…" (TĀ 15.119–120).
 

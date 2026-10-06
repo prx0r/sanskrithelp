@@ -115,7 +115,7 @@ const GROUPS: { title: string; items: HubItem[] }[] = [
         href: "/memory/bruno-wheels/",
         title: "Bruno Wheels (R2 pack)",
         subtitle: "Varṇa · five-ring · dhātu · kāraka · verse",
-        desc: "Standalone wheel lab from stallshark pack. Personal bindings in localStorage. Sound → binding → manipulation → Pāṇinian validation.",
+        desc: "Standalone wheel lab from stallshark pack (pre-canonical: its loci follow the old apparatus tables — elbow/wrist/buttock). Canonical verse map is Tonight 50.",
         icon: Compass,
       },
       {
@@ -162,6 +162,13 @@ const GROUPS: { title: string; items: HubItem[] }[] = [
         subtitle: "Mātṛkā bridge · sentence compiler · Kumbh field Hindi",
         desc: "Keep the Sanskrit sound/body substrate; add living Hindi phonology, grammatical production wheels, and field phrases for Rishikesh, Haridwar and Varanasi.",
         icon: Compass,
+      },
+      {
+        href: "/memory/canonical/TA15_TABLE.html",
+        title: "TĀ 15 Canonical Table (frozen v2)",
+        subtitle: "50 loci + verse sources + Mālinī order",
+        desc: "Every phoneme with glyph, verse-literal locus, TĀ source tag, apparatus variant, and clip status — generated from the frozen dataset. Nothing hidden.",
+        icon: BookMarked,
       },
       {
         href: "/memory/canonical/MATRIKA-SYLLABUS.md",

@@ -1,5 +1,5 @@
 {
-  "id": "matrika-body-map-v1",
+  "id": "matrika-body-map-v2",
   "name": "Mātṛkā body map (ordered alphabet)",
   "provenance": {
     "primary": "TĀ 15.117-120 verse-literal (GRETIL-verified). Apparatus tables (Dyczkowski vol 8, App. A+C) recorded as apparatus_variant per entry.",
@@ -485,7 +485,7 @@
         {
           "iast": "va",
           "devanagari": "व",
-          "locus": "sinews",
+          "locus": "sūtra (sinews)",
           "source": {
             "text": "TĀ 15.119-120",
             "sanskrit": "atho nava: tvak-rakta-māṃsa-sūtra-asthi-vasā-śukra-purogamān"
@@ -567,5 +567,15 @@
     "doctrine": "Verse-literal TĀ 15.117-120 is canonical. Apparatus tables recorded per-entry, never used for install.",
     "rule": "One map per sitting. Verse and apparatus never mixed.",
     "peer_review": "2026-10-05: elbow/wrist removed; hand/fingers/nails, hip, śukra locked + regression-tested."
-  }
+  },
+  "frozen": "2026-10-06",
+  "corrections": [
+    "aṃ at #15 (crown/śikhā), aḥ at #16 (tongue)",
+    "e/ai = lower/upper teeth (not swapped)",
+    "aḥ = tongue (not mouth-opening)",
+    "ṭa/ta-vargas (#27-36) before pa-varga (#37-41), Mātṛkā emission order",
+    "va = sūtra (sinews), not medas/fat",
+    "kṣa = generative organ, not jīva (TĀ 15/Jayaratha reading)"
+  ],
+  "supersedes": "matrika-body-map-v1 (va was bare sinews)"
 }

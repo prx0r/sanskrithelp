@@ -57,7 +57,7 @@ Consonant limbs:
 - right lower limb: ṭa-varga
 - left lower limb: ta-varga
 - torso: pa/pha sides · ba back · bha belly · ma heart
-- deeper: ya skin · ra blood · la flesh · va sinews · śa bone · ṣa marrow · sa essence · ha prāṇa · kṣa generative
+- deeper: ya skin · ra blood · la flesh · va sūtra (sinews) · śa bone · ṣa marrow · sa essence · ha prāṇa · kṣa generative
 
 ---
 
@@ -122,7 +122,7 @@ Extract script: `scripts/deepdive_tantraloka.py`.
 Two Abhinavagupta-tradition readings of the arm series. Both source-attested — never collapse them.
 
 **Project decision (peer review 2026-10-05): verse-literal is canonical**
-(`matrika-body-map-v1`, regression-tested). The apparatus survives only as a
+(`matrika-body-map-v2`, regression-tested). The apparatus survives only as a
 recorded per-entry variant, never used for install.
 
 | Phonemes | Verse (TĀ 15.118 GRETIL) | Apparatus (Dyczkowski vol 8, App. A + C, number-paired) |

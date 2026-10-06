@@ -53,7 +53,7 @@ Mātṛkā distribution is a **totalization**:
 | Right lower limb | ṭa-varga |
 | Left lower limb | ta-varga |
 | Torso | pa-varga |
-| Deep constituents | skin, blood, flesh, sinews, bone, marrow, essence, prāṇa, generative |
+| Deep constituents | skin, blood, flesh, sūtra (sinews), bone, marrow, essence, prāṇa, generative |
 
 Alphabet **a → kṣa** fills the body until virtually nothing remains outside it.
 

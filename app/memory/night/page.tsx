@@ -24,17 +24,29 @@ function dayKey(d = new Date()): string {
   return d.toISOString().slice(0, 10);
 }
 
+type VbUnit = {
+  id: string;
+  devanagari: string;
+  iast: string;
+  english: string;
+};
+
 export default function NightHandoffPage() {
   const [installed, setInstalled] = useState("");
   const [dreamSeed, setDreamSeed] = useState("");
   const [morningLog, setMorningLog] = useState("");
   const [logs, setLogs] = useState<Record<string, string>>({});
+  const [vbt, setVbt] = useState<VbUnit[]>([]);
 
   useEffect(() => {
     try {
       setDreamSeed(localStorage.getItem("night-dream-seed") ?? "");
       setLogs(JSON.parse(localStorage.getItem("night-morning-log") ?? "{}"));
     } catch {}
+    fetch("/content/readings/vijnanabhairava/units.json")
+      .then((r) => (r.ok ? r.json() : Promise.reject()))
+      .then((u) => setVbt(Array.isArray(u) ? u.slice(0, 5) : []))
+      .catch(() => {});
   }, []);
 
   function saveDreamSeed(v: string) {
@@ -117,6 +129,27 @@ export default function NightHandoffPage() {
             Open Stonedoorway night walk →
           </a>
         </div>
+      </section>
+
+      <section className="mb-6 rounded-xl border border-border bg-card p-5">
+        <h2 className="font-semibold mb-2">VBT breath dhāraṇās — sit with one before silence</h2>
+        <p className="text-sm text-muted-foreground mb-3">
+          Vijñāna Bhairava Tantra, Jaideva Singh trans. Breath/visarga dhāraṇās that
+          belong to step 7–8 of the protocol. Nothing invented — verse + translation.
+        </p>
+        {vbt.length === 0 ? (
+          <p className="text-sm text-muted-foreground">Loading dhāraṇās…</p>
+        ) : (
+          <ul className="space-y-3">
+            {vbt.map((u) => (
+              <li key={u.id} className="border-t border-border pt-3">
+                <p className="font-display text-xl">{u.devanagari}</p>
+                <p className="text-xs text-muted-foreground">{u.iast}</p>
+                <p className="text-sm text-muted-foreground mt-1">{u.english}</p>
+              </li>
+            ))}
+          </ul>
+        )}
       </section>
 
       <section className="mb-6 rounded-xl border border-primary/40 bg-primary/5 p-5">

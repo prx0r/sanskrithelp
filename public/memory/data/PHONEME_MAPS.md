@@ -36,7 +36,7 @@ flowchart TB
   end
   subgraph DEEP["DEEP CONSTITUENTS"]
     direction LR
-    ya["य skin"] --- ra["र blood"] --- la["ल flesh"] --- va["व sinews"]
+    ya["य skin"] --- ra["र blood"] --- la["ल flesh"] --- va["व sūtra (sinews)"]
     śa["श bone"] --- ṣa["ष marrow"] --- sa["स śukra"] --- ha["ह prāṇa"] --- kṣa["क्ष generative"]
   end
   HEAD --> LIMBS --> TORSO --> DEEP

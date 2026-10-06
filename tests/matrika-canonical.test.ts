@@ -112,14 +112,15 @@ describe("Tonight practice chart — full 50 canonical (Abhinavagupta truth)", (
     expect(html).not.toMatch(/Diverges from canonical/);
   });
 
-  it("uses canonical loci (e=lower teeth, aḥ=tongue, va=sinews, kṣa=generative organ)", () => {
+  it("uses canonical loci (e=lower teeth, aḥ=tongue, va=sūtra-sinews, kṣa=generative organ)", () => {
     expect(html).toMatch(/e — lower teeth/);
     expect(html).toMatch(/ai — upper teeth/);
     expect(html).toMatch(/aḥ — tongue/);
-    expect(html).toMatch(/va — sinews/);
+    expect(html).toMatch(/va — sūtra \(sinews\)/);
     expect(html).toMatch(/kṣa — generative organ/);
     expect(html).not.toMatch(/fat \/ medas/);
     expect(html).not.toMatch(/mouth opening/);
+    expect(html).not.toMatch(/kṣa — jīva/);
   });
 
   it("orders pa-varga after ta-varga (Matrika emission order)", () => {
@@ -161,5 +162,66 @@ describe("Bruno 50 volvelle — true wheels, 50 divisions", () => {
     expect(src).toMatch(/pointerdown/);
     expect(src).toMatch(/Spin VAR/);
     expect(src).toMatch(/Encode/);
+  });
+});
+
+describe("frozen canonical dataset v2 (user-locked TĀ15_MĀTRIKĀ)", () => {
+  const map = JSON.parse(
+    readFileSync(resolve(ROOT, "public/memory/data/matrika_body_map.json"), "utf8")
+  );
+  const entries: Array<{ iast: string; locus: string }> = [
+    ...map.vowels,
+    ...map.vargas.flatMap((v: any) => v.sequence),
+  ];
+
+  it("is frozen v2 with the six corrections on record", () => {
+    expect(map.id).toBe("matrika-body-map-v2");
+    expect(map.frozen).toBeTruthy();
+    expect(map.corrections.length).toBe(6);
+  });
+
+  it("aṃ is #15, aḥ #16; e/ai lower/upper teeth", () => {
+    expect(entries[14].iast).toBe("aṃ");
+    expect(entries[15].iast).toBe("aḥ");
+    expect(entries[15].locus).toBe("tongue");
+    expect(entries.find((e) => e.iast === "e")?.locus).toBe("lower teeth");
+    expect(entries.find((e) => e.iast === "ai")?.locus).toBe("upper teeth");
+  });
+
+  it("ṭa/ta blocks (#27–36) come before pa-varga (#37–41)", () => {
+    const idx = (ia: string) => entries.findIndex((e) => e.iast === ia);
+    expect(idx("ṭa")).toBe(26);
+    expect(idx("ta")).toBe(31);
+    expect(idx("pa")).toBe(36);
+  });
+
+  it("va is sūtra (sinews), kṣa is generative organ — never medas/jīva", () => {
+    expect(entries.find((e) => e.iast === "va")?.locus).toBe("sūtra (sinews)");
+    expect(entries.find((e) => e.iast === "kṣa")?.locus).toBe("generative organ");
+    for (const e of entries) {
+      expect(e.locus, e.iast).not.toMatch(/medas|jīva/);
+    }
+  });
+});
+
+describe("canonical table page (invisible made visible)", () => {
+  const html = readFileSync(resolve(ROOT, "public/memory/canonical/TA15_TABLE.html"), "utf8");
+
+  it("shows all 50 Mātṛkā + 50 Mālinī rows from frozen v2", () => {
+    expect(html).toContain("matrika-body-map-v2");
+    expect(html.match(/<tr>/g)!.length).toBeGreaterThanOrEqual(100);
+    expect(html).toMatch(/va[\s\S]{0,40}sūtra \(sinews\)/);
+  });
+
+  it("exposes verse sources + apparatus variants per phoneme", () => {
+    expect(html).toMatch(/TĀ 15\.11[789]/);
+    expect(html).toMatch(/apparatus variant/);
+  });
+
+  it("night page surfaces VBT dhāraṇās; hub links the table", () => {
+    const night = readFileSync(resolve(ROOT, "app/memory/night/page.tsx"), "utf8");
+    expect(night).toContain("vijnanabhairava/units.json");
+    const hub = readFileSync(resolve(ROOT, "app/memory/page.tsx"), "utf8");
+    expect(hub).toContain("/memory/canonical/TA15_TABLE.html");
   });
 });

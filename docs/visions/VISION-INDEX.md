@@ -17,7 +17,7 @@
 | `geometry.md` | E music/geometry | Pāṇini algebra → Tymoczko geometry → music → QRI phenomenology; 4 coupled spaces |
 
 ## Thread map → code
-- A doctrine → `public/memory/canonical/*`, `matrika-body-map-v1`, tests/matrika-*
+- A doctrine → `public/memory/canonical/*`, `matrika-body-map-v2`, tests/matrika-*
 - B Hindi → `app/memory/hindi`, `lib/memory/hindi*`, `lib/constructicon`, `lib/hindi`
 - C voice → `lib/voice-tutor/*`, `app/api/tts`, `app/api/voice-tutor`
 - D corpus → `public/memory/hindi/corpus.json`, `scripts/corpus_ingest.py`, vidyut scripts
