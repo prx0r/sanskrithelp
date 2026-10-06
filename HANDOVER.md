@@ -1,7 +1,16 @@
-# HANDOVER — sanskrithelp Memory + Bruno wheels (2026-10-05)
+# HANDOVER — sanskrithelp (2026-10-06 cleanup)
 
-> Session: peer review → R2 wheel import → verse-vs-apparatus verdict →
-> guides → slop purge → canonical v1 → deploy triage (blocked, see DEPLOY-SPEC.md).
+> Threads: A doctrine · B Hindi engine · C voice/conversation · D corpus ·
+> E music/geometry · F ops. Map: docs/visions/VISION-INDEX.md (canonical:
+> docs/visions/awesomevision.md).
+
+## State
+- 57/57 tests green · tsc clean · build prerenders (incl. /memory/hindi, /api/tts, /api/voice-tutor).
+- Open threads: simulator/coach in-progress files (NOT committed, not mine);
+  deploy red (Workers token scope — DEPLOY-SPEC.md); Stanza blocked (torch);
+  corpus = spec only (disk rule); live voice needs QWEN/GEMINI keys + relay.
+
+## Prior sessions (2026-10-05)
 
 ## Repos & commits
 - `sanskrithelp` (branch `main`, HEAD `62f17c6`):

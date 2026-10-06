@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { buildTutorPrompt } from "../lib/voice-tutor/provider";
 import { QwenProvider } from "../lib/voice-tutor/qwen";
+import { GeminiProvider } from "../lib/voice-tutor/gemini";
 import { checkAdherence, logTurn, scoreTurn } from "../lib/voice-tutor/recordTurn";
 import { scoreSession } from "../lib/voice-tutor/ab";
 
@@ -111,8 +112,7 @@ describe("voice tutor", () => {
     expect(bad.flags.join()).toContain("क्या");
   });
 
-  it("AB scoring measures hindi-ratio and target introduction", () => {
-    const s = scoreSession(
+  it("AB scoring measures hindi-ratio and target introduction", () => {    const s = scoreSession(
       [
         { role: "tutor", textHindi: "मैं हिंदी सीख रहा हूँ।", at: "" },
         { role: "tutor", textHindi: "Hello there friend", at: "" },
@@ -125,5 +125,47 @@ describe("voice tutor", () => {
     expect(s.hindiRatio).toBeGreaterThan(0.3);
     expect(s.hindiRatio).toBeLessThan(1);
     expect(s.targetIntroduced).toBe(true);
+  });
+});
+
+describe("GeminiProvider (one-click swap target)", () => {
+  it("sends BidiGenerateContent setup on open", async () => {
+    const m = mockSocket();
+    const g = new GeminiProvider("wss://x", () => m.socket);
+    await g.connect({ backend: "gemini" }, "PROMPT");
+    m.emit("open", {});
+    const setup = JSON.parse(m.sent[0]);
+    expect(setup.setup.model).toBe("models/gemini-3.8-live");
+    expect(setup.setup.responseModalities).toEqual(["AUDIO"]);
+    expect(JSON.stringify(setup)).toContain("record_turn");
+  });
+
+  it("handles audio inlineData + transcriptions + toolCall round-trip", async () => {
+    const m = mockSocket();
+    const g = new GeminiProvider("wss://x", () => m.socket);
+    const audios: ArrayBuffer[] = [];
+    const talks: string[] = [];
+    g.onAudio((b) => audios.push(b));
+    g.onTranscript((t) => talks.push(`${t.role}:${t.textHindi}`));
+    g.onToolCall(async () => ({ ok: true }));
+    await g.connect({ backend: "gemini" }, "P");
+    m.emit("open", {});
+    const b64 = Buffer.from([9, 8, 7]).toString("base64");
+    m.emit("message", {
+      serverContent: {
+        modelTurn: { parts: [{ inlineData: { data: b64 } }] },
+        outputTranscription: { text: "नमस्ते" },
+        inputTranscription: { text: "hello" },
+      },
+    });
+    expect(audios.length).toBe(1);
+    expect(talks).toContain("tutor:नमस्ते");
+    expect(talks).toContain("user:hello");
+    m.emit("message", {
+      toolCall: { name: "record_turn", id: "t1", args: { learner_text: "x" } },
+    });
+    await new Promise((r) => setTimeout(r, 20));
+    const types = m.sent.map((s) => Object.keys(JSON.parse(s))[0]);
+    expect(types).toContain("toolResponse");
   });
 });

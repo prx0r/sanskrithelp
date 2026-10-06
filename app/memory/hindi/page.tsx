@@ -29,7 +29,7 @@ export default function HindiMemoryPage() {
           Sanskrit installs the phonemes (Mātṛkā drill) → Hindi extends them the same
           day into live sentences and conversation. Substrate and production advance
           together; neither waits for the other. See{" "}
-          <code>awesomevision.md</code>.
+          <code>docs/visions/awesomevision.md</code>.
         </p>
       </div>
 
