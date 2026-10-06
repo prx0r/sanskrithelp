@@ -1,18 +1,20 @@
-# HANDOVER — sanskrithelp (2026-10-06, LIVE)
+# HANDOVER — sanskrithelp, from `83be0e2` (2026-10-06 ~09:45 UTC)
 
-> Threads: A doctrine · B Hindi engine · C voice/conversation · D corpus ·
-> E music/geometry · F ops. Map: docs/visions/VISION-INDEX.md (canonical:
-> docs/visions/awesomevision.md).
+> LIVE on sanskrit.help (deploy green, verified 200s). Threads: A doctrine ·
+> B Hindi engine · C voice/conversation · D corpus · E music/geometry · F ops.
+> Map: docs/visions/VISION-INDEX.md (canonical: docs/visions/awesomevision.md).
 
-## State
-- LIVE on sanskrit.help (deploy green since `817f47c`; verified 200s on nyasa,
-  practice-chart, Track 1, /memory/hindi with Talk + Constructicon).
-- 57/57 tests green · tsc clean · build prerenders.
-- Open threads: simulator/coach in-progress files (NOT committed);
-  Stanza blocked (torch); corpus = spec only; live voice needs
-  QWEN/GEMINI keys + relay; GitHub Pages mirror live too.
-- Deploy lesson: token was never the problem — 4 stacked build bugs, each
-  masking the next. Always read the FIRST log error. Details: DEPLOY-SPEC.md.
+## State at this point
+- HEAD `83be0e2` "Track 1: pure reference, your-turn prompts removed".
+- Track 1 = Ryan locus cues + real grid clips (1.6MB, 136s), no synth voice,
+  no your-turn prompts. 4 clipless gaps (ḷ ḹ ṅa ña) hold silence.
+- Practice chart + Track 1 reachable: hub hero card, nyasa Night-1 button.
+- 57/57 tests green · tsc clean · build prerenders · deploy tracks main.
+- Git clean after this commit except: simulator/coach in-progress files
+  (NOT committed, other session's work).
+- Open threads: Stanza blocked (torch); corpus = spec only; live voice needs
+  QWEN/GEMINI keys + relay + account activation; 4 grid clips unrecorded;
+  GitHub Pages mirror live too.
 
 ## Prior sessions (2026-10-05)
 
