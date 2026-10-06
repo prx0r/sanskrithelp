@@ -14,6 +14,12 @@ import {
 export type DecompiledHindi = {
   /** Exact Kumbh phrase hit, if the input matches one. */
   phraseId: string | null;
+  /** Osho-register construction hit (Dataset Zero), if the input matches one. */
+  constructionId: string | null;
+  /** Topic span for construction hits (X in `X का अर्थ है कि Y`). */
+  topic: string | null;
+  /** Predicate span for construction hits (Y). */
+  predicate: string | null;
   question: boolean;
   subjectId: string | null;
   frameId: string | null;
@@ -133,15 +139,46 @@ function splitComplement(
 }
 
 /**
+ * Osho-register constructions (Dataset Zero: Osho Śiva Sūtra Hindi).
+ * These are explanatory/copular machines, disjoint from the 4 action frames.
+ * Osho teaches Hindi here, not Trika authority.
+ */
+function detectOsho(
+  clean: string
+): { constructionId: string; topic: string; predicate: string } | null {
+  // X का अर्थ है कि Y — "the meaning of X is that Y"
+  const arth = clean.match(/^(.+?) का अर्थ है कि (.+)$/);
+  if (arth) {
+    return {
+      constructionId: "X-kaa-arth-hai-ki-Y",
+      topic: arth[1].trim(),
+      predicate: arth[2].trim(),
+    };
+  }
+  // X ही Y है — emphatic equation ("X itself is Y")
+  const hii = clean.match(/^(.+?) ही (.+?) है$/);
+  if (hii) {
+    return {
+      constructionId: "X-hii-Y-hai",
+      topic: hii[1].trim(),
+      predicate: hii[2].trim(),
+    };
+  }
+  return null;
+}
+
+/**
  * Deterministic Hindi decompiler: surface string -> Bruno wheel state.
  * Covers what our compiler generates (4 frames, known lexicon, क्या-questions,
- * dative subjects). Everything else lands in `unknown` — that is the honest
+ * dative subjects) plus Osho-register constructions (Dataset Zero).
+ * Everything else lands in `unknown` — that is the honest
  * boundary where Stanza/LLM takes over (see awesomevision.md pipeline).
  */
 export function decompileHindi(input: string): DecompiledHindi {
   const clean = strip(input);
   const exact = KUMBH_PHRASES.find((p) => strip(p.dev) === clean);
   const question = /^क्या(?=\s|$)/.test(clean);
+  const osho = detectOsho(clean);
   const tokens = clean.split(" ").filter(Boolean).filter((t) => t !== "क्या");
 
   const { subject, rest: r1 } = findSubject(tokens);
@@ -150,12 +187,16 @@ export function decompileHindi(input: string): DecompiledHindi {
 
   return {
     phraseId: exact ? exact.id : null,
+    constructionId: osho ? osho.constructionId : null,
+    topic: osho ? osho.topic : null,
+    predicate: osho ? osho.predicate : null,
     question,
     subjectId: subject ? subject.id : null,
     frameId: frame ? frame.id : null,
     verbId: verb ? verb.id : null,
     complement,
     timeId: time ? time.id : null,
-    unknown,
+    // construction hits fully account for the input — no unknowns
+    unknown: osho ? [] : unknown,
   };
 }

@@ -1,0 +1,41 @@
+{
+  "audio": {
+    "bytes_max": 40008771,
+    "file_local": "public/memory/hindi/audio/osho-shiv-sutra-01.mp3 (local only, gitignored)",
+    "url": "https://oshoworld.com/wp-content/uploads/2020/11/Hindi%20Audio/OSHO-Shiv_Sutra_01.mp3"
+  },
+  "doctrine": "Osho teaches Hindi here, not Trika authority. Trika claims validated against Lakshmanjoo/Abhinavagupta only.",
+  "segments": [
+    {
+      "construction": "X-hii-Y-hai",
+      "hindi_simple": "चैतन्य ही आत्मा है।",
+      "iast": "caitanyam ātmā",
+      "offset_sec": null,
+      "sanskrit": "चैतन्यमात्मा",
+      "sutra": "1.1",
+      "unit_id": "ss_001"
+    },
+    {
+      "construction": "X-kaa-arth-hai-ki-Y",
+      "hindi_simple": "इस सूत्र का अर्थ है कि चैतन्य ही आत्मा है।",
+      "iast": "jñānaṃ bandhaḥ",
+      "offset_sec": null,
+      "sanskrit": "ज्ञानं बन्धः",
+      "sutra": "1.2",
+      "unit_id": "ss_002",
+      "note": "units.json reads अज्ञानं बन्धः; Osho Talk 1 gives ज्ञानं बन्धः (recension variant, kept as spoken)"
+    },
+    {
+      "construction": "X-hii-Y-hai",
+      "hindi_simple": "उद्यम ही भैरव है।",
+      "iast": "udyamo bhairavaḥ",
+      "offset_sec": null,
+      "sanskrit": "उद्यमो भैरवः",
+      "sutra": "1.5-in-units (3rd nucleus of Talk 1)",
+      "unit_id": "ss_005",
+      "note": "units.json orders sutras by its own sequence (ss_005); Osho Talk 1 treats it as the third nucleus"
+    }
+  ],
+  "talk": "01",
+  "transcript_status": "anchors-only (3 sutra nuclei + simple paraphrases); full-transcript alignment pending local audio + Whisper gold pass"
+}

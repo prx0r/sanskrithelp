@@ -109,12 +109,47 @@ export const HINDI_MACHINES: Machine[] = [
     ud: null,
     propbank: null,
   },
+  {
+    id: "X-kaa-arth-hai-ki-Y",
+    lang: "hindi",
+    island: "osho-island",
+    meaning: "give the meaning of X as proposition Y (Osho explanatory register, Dataset Zero)",
+    form: "[X] का अर्थ है कि [Y]",
+    slots: [
+      { name: "X", constraint: "topic-np", required: true },
+      { name: "Y", constraint: "clause", required: true },
+    ],
+    features: { interrogative: false, register: "explanatory", source: "osho-shiv-sutra-01" },
+    examples: ["इस सूत्र का अर्थ है कि चैतन्य ही आत्मा है।"],
+    connections: [{ to: "X-hii-Y-hai", relation: "generalization-of" }],
+    ucxn: null,
+    ud: null,
+    propbank: null,
+  },
+  {
+    id: "X-hii-Y-hai",
+    lang: "hindi",
+    island: "osho-island",
+    meaning: "emphatic equation: X itself is Y (Osho paraphrase register)",
+    form: "[X] ही [Y] है",
+    slots: [
+      { name: "X", constraint: "topic-np", required: true },
+      { name: "Y", constraint: "predicate-np", required: true },
+    ],
+    features: { interrogative: false, register: "paraphrase", source: "osho-shiv-sutra-01" },
+    examples: ["चैतन्य ही आत्मा है।", "उद्यम ही भैरव है।"],
+    connections: [{ to: "X-kaa-arth-hai-ki-Y", relation: "instance-of" }],
+    ucxn: null,
+    ud: null,
+    propbank: null,
+  },
 ];
 
 export const HINDI_ISLANDS: Island[] = [
   { id: "kar-island", lang: "hindi", anchor: "कर", machineIds: ["ability-question", "habitual", "desire"], abstractAt: 8 },
   { id: "sikh-island", lang: "hindi", anchor: "सीख", machineIds: ["progressive"], abstractAt: 5 },
   { id: "chunk-island", lang: "hindi", anchor: "फिर से कहिए", machineIds: ["kiske-origin", "phirse-request"], abstractAt: 4 },
+  { id: "osho-island", lang: "hindi", anchor: "अर्थ", machineIds: ["X-kaa-arth-hai-ki-Y", "X-hii-Y-hai"], abstractAt: 3 },
 ];
 
 export const HINDI_EXEMPLARS: Exemplar[] = [
@@ -125,4 +160,7 @@ export const HINDI_EXEMPLARS: Exemplar[] = [
   { id: "ex-want", surface: "मैं यह अभ्यास करना चाहता हूँ।", machineId: "desire", fills: { ACTOR: "मैं", OBJECT: "यह अभ्यास", INFINITIVE: "करना" }, world: "permission" },
   { id: "ex-lineage", surface: "आप किस परंपरा से हैं?", machineId: "kiske-origin", fills: { GROUP: "परंपरा" }, world: "teacher" },
   { id: "ex-repeat", surface: "कृपया फिर से कहिए।", machineId: "phirse-request", fills: {}, world: "comprehension" },
+  { id: "ex-artha", surface: "इस सूत्र का अर्थ है कि चैतन्य ही आत्मा है।", machineId: "X-kaa-arth-hai-ki-Y", fills: { X: "इस सूत्र", Y: "चैतन्य ही आत्मा है" }, world: "sutra" },
+  { id: "ex-caitanya", surface: "चैतन्य ही आत्मा है।", machineId: "X-hii-Y-hai", fills: { X: "चैतन्य", Y: "आत्मा" }, world: "sutra" },
+  { id: "ex-udyama", surface: "उद्यम ही भैरव है।", machineId: "X-hii-Y-hai", fills: { X: "उद्यम", Y: "भैरव" }, world: "sutra" },
 ];

@@ -31,6 +31,15 @@ export default function HindiMemoryPage() {
           together; neither waits for the other. See{" "}
           <code>docs/visions/awesomevision.md</code>.
         </p>
+        <p className="text-muted-foreground text-sm max-w-3xl mt-2">
+          <strong className="text-foreground">Dataset Zero:</strong> Osho Hindi{" "}
+          <em>Śiva Sūtra</em> 01–10 (~14h, direct MP3, free download) — Sanskrit
+          nucleus + Hindi explanation side by side. Start in{" "}
+          <Link className="text-primary underline" href="/memory/hindi/text-mode">
+            Text Mode
+          </Link>
+          . Osho teaches Hindi here, not Trika authority.
+        </p>
       </div>
 
       <HindiWheelLab />

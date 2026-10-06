@@ -78,3 +78,8 @@ components/games3d/
 _test.wav
 sabdakrida/sabdakrida.db
 tsconfig.tsbuildinfo
+
+# Osho Hindi bulk audio (31-40MB x 10, stream/range only, never commit)
+public/memory/hindi/audio/
+*.mp3.download
+scripts/hindi/.cache/

@@ -1,13 +1,22 @@
 {
   "id": "hindi-spiritual-corpus-v0",
   "doctrine": "Language input first, doctrine validated separately. Osho/Sri M/Anandamayi teach Hindi; Lakshmanjoo/Abhinavagupta validate Trika claims.",
-  "sequence": ["srim", "osho-shiv-sutra", "anandamayi", "lakshmanjoo", "sivananda"],
+  "sequence": [
+    "srim",
+    "osho-shiv-sutra",
+    "anandamayi",
+    "lakshmanjoo",
+    "sivananda"
+  ],
   "sources": [
     {
       "id": "srim",
       "name": "Sri M Hindi satsangs (Kolhapur, Kolkata Q&A)",
       "role": "corpus-zero candidate: modern clear Hindi, ASR-friendly",
-      "urls": ["https://www.youtube.com/watch?v=jqxwBgBWGbw", "https://www.youtube.com/watch?v=5V_3LZl_1yI"],
+      "urls": [
+        "https://www.youtube.com/watch?v=jqxwBgBWGbw",
+        "https://www.youtube.com/watch?v=5V_3LZl_1yI"
+      ],
       "access": "youtube-blocked-here (bot check); needs browser/cookies or owner pull",
       "status": "blocked",
       "license": "YouTube standard (streaming; no redistribution)"
@@ -15,17 +24,23 @@
     {
       "id": "osho-shiv-sutra",
       "name": "Osho Hindi Śiva Sūtra 01-10",
-      "role": "bulk philosophical Hindi (~14h), construction mining",
+      "role": "Dataset Zero: bulk philosophical Hindi (~14h over 10 talks), construction mining",
       "pattern": "https://oshoworld.com/wp-content/uploads/2020/11/Hindi%20Audio/OSHO-Shiv_Sutra_{01..10}.mp3",
       "access": "direct-mp3-ok",
-      "status": "downloading-01",
-      "license": "free download (Osho World); language-use only, not doctrinal authority"
+      "status": "ready",
+      "license": "free download (Osho World); language-use only, not doctrinal authority",
+      "verified": "2026-10-06: HEAD 200 on 01/02/03/10, Talk 01 40008771B, Talk 10 31367463B, Accept-Ranges: bytes",
+      "local": "scripts/hindi/download_osho.py -> public/memory/hindi/audio/ (gitignored, never shipped)",
+      "anchors": "public/memory/hindi/osho-shiv-sutra-01.json (3 sutra nuclei, offsets pending Whisper gold pass)",
+      "text_mode": "/memory/hindi/text-mode"
     },
     {
       "id": "anandamayi",
       "name": "Anandamayi Ma Hindi satsangs",
       "role": "stage-2 real satsang Hindi (spontaneous Q&A)",
-      "urls": ["https://www.anandamayi.org/hindi/"],
+      "urls": [
+        "https://www.anandamayi.org/hindi/"
+      ],
       "pattern": "https://www.anandamayi.org/mmedia/{Samyam1,Samyam2b,Satsang1a,Satsang1b,Satsang2a,Nadiad1a,Nadiad1b,Nadiad2a,Nadiad2b,Chaula1}.mp3",
       "access": "direct-mp3-ok (verified 2026-10-06)",
       "status": "ready",
@@ -35,7 +50,9 @@
       "id": "lakshmanjoo",
       "name": "Lakshmanjoo Academy oral archive (470+h)",
       "role": "Trika truth/reference layer + EN/SA parallel text",
-      "urls": ["https://www.lakshmanjooacademy.org/blog?tag=shiva+sutras"],
+      "urls": [
+        "https://www.lakshmanjooacademy.org/blog?tag=shiva+sutras"
+      ],
       "access": "not-yet-probed",
       "status": "pending",
       "license": "academy terms; link, don't mirror"
@@ -44,7 +61,9 @@
       "id": "sivananda",
       "name": "Sivananda lineage audio (Vishnudevananda 600+, Chidananda)",
       "role": "yoga/sadhana island expansion",
-      "urls": ["https://sivananda.org/audio-resources/"],
+      "urls": [
+        "https://sivananda.org/audio-resources/"
+      ],
       "access": "not-yet-probed",
       "status": "pending",
       "license": "verify per item"
@@ -54,5 +73,10 @@
     "draft": "vosk-model-small-hi-0.22 (local, rough on code-mixed speech)",
     "production": "Chutes whisper-large-v3 (needs CHUTES_API_KEY) or Edge-adjacent hosted STT",
     "note": "Vosk gives draft transcripts + word timestamps; Whisper gives the gold transcript"
+  },
+  "text_mode": {
+    "route": "/memory/hindi/text-mode",
+    "dataset_zero": "Osho Talk 01 first-10-min cut (pending local audio)",
+    "anchors": "osho-shiv-sutra-01.json"
   }
 }
