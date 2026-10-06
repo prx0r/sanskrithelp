@@ -73,6 +73,19 @@ export default function MatrikaPage() {
         <p className="text-muted-foreground text-sm">
           Chant each row at its cakra — feel the vibration at that body location
         </p>
+        <p className="text-muted-foreground text-xs mt-2 rounded-lg border border-border bg-card p-3">
+          <strong className="text-foreground">Provenance:</strong> cakra scaffold is
+          pedagogical (ours) — not Abhinavagupta&apos;s TĀ 15 nyāsa. The canonical
+          limb loci (hand/fingers/nails, hip — frozen v2) live at{" "}
+          <Link className="text-primary underline" href="/memory/practice-chart.html">
+            Tonight 50
+          </Link>{" "}
+          and{" "}
+          <Link className="text-primary underline" href="/memory/canonical/TA15_TABLE.html">
+            canonical table
+          </Link>
+          . One map per sitting — don&apos;t mix this grid with nyāsa install.
+        </p>
       </div>
 
       {/* The Green Core */}

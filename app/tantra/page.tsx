@@ -19,6 +19,13 @@ const SECTIONS = [
     icon: CircleDot,
   },
   {
+    href: "/memory/practice-chart.html",
+    title: "Tonight 50 — TĀ 15 Nyāsa (Memory)",
+    subtitle: "Frozen v2 limb loci · Abhinavagupta",
+    desc: "The canonical install map: 50 phonemes on limbs (hand/fingers/nails, hip) — distinct from the cakra grid above. One map per sitting.",
+    icon: CircleDot,
+  },
+  {
     href: "/tantra/practice",
     title: "Layayoga Breath Practice",
     subtitle: "Nāḍī Śodhana, 1:4:2 ratio, and the 5 voids",

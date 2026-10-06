@@ -57,3 +57,54 @@ describe("Night Handoff (dream loop UI)", () => {
     expect(hub).toContain("/memory/night");
   });
 });
+
+describe("Daily VB (dharana of the day)", () => {
+  const daily = JSON.parse(
+    readFileSync(resolve(ROOT, "public/memory/vbt-daily.json"), "utf8")
+  );
+
+  it("covers the mapped dharanas honestly (65 of 112)", () => {
+    expect(daily.entries.length).toBe(65);
+    expect(daily.count_total).toBe(112);
+    for (const e of daily.entries) {
+      expect(e.technique?.length, String(e.dharana)).toBeGreaterThan(3);
+      expect(e.upaya?.length, String(e.dharana)).toBeGreaterThan(3);
+      expect(e.coord?.length, String(e.dharana)).toBeGreaterThan(3);
+    }
+  });
+
+  it("rotation is deterministic (day-of-year mod count)", () => {
+    const idx = (day: number) => day % daily.entries.length;
+    expect(idx(65)).toBe(0);
+    expect(idx(66)).toBe(1);
+  });
+
+  it("night page renders today's dharana from the file", () => {
+    const src = readFileSync(resolve(ROOT, "app/memory/night/page.tsx"), "utf8");
+    expect(src).toContain("vbt-daily.json");
+    expect(src).toMatch(/Today.*dhāraṇā/);
+  });
+});
+
+describe("organisation (canon links + cross-links + provenance)", () => {
+  it("hub links the TA15 record + frozen table; maps links both", () => {
+    const hub = readFileSync(resolve(ROOT, "app/memory/page.tsx"), "utf8");
+    expect(hub).toContain("/memory/canonical/TA15_NYASA.md");
+    expect(hub).toContain("/memory/canonical/TA15_TABLE.html");
+    const maps = readFileSync(resolve(ROOT, "app/memory/maps/page.tsx"), "utf8");
+    expect(maps).toContain("TA15_NYASA");
+    expect(maps).toContain("TA15_TABLE");
+  });
+
+  it("tantra cakra grid carries provenance + points at the verse map", () => {
+    const src = readFileSync(resolve(ROOT, "app/tantra/matrika/page.tsx"), "utf8");
+    expect(src).toMatch(/pedagogical/);
+    expect(src).toContain("/memory/practice-chart.html");
+    expect(src).toContain("/memory/canonical/TA15_TABLE.html");
+  });
+
+  it("tantra hub links back to Memory", () => {
+    const hub = readFileSync(resolve(ROOT, "app/tantra/page.tsx"), "utf8");
+    expect(hub).toContain("/memory/practice-chart.html");
+  });
+});

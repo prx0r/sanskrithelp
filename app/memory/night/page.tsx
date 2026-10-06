@@ -31,12 +31,27 @@ type VbUnit = {
   english: string;
 };
 
+type DailyDharana = {
+  dharana: number;
+  verse: number;
+  technique: string;
+  trains: string;
+  coord: string;
+  upaya: string;
+};
+
+function dayOfYear(d = new Date()): number {
+  return Math.floor((d.getTime() - new Date(d.getFullYear(), 0, 0).getTime()) / 864e5);
+}
+
 export default function NightHandoffPage() {
   const [installed, setInstalled] = useState("");
   const [dreamSeed, setDreamSeed] = useState("");
   const [morningLog, setMorningLog] = useState("");
   const [logs, setLogs] = useState<Record<string, string>>({});
   const [vbt, setVbt] = useState<VbUnit[]>([]);
+  const [daily, setDaily] = useState<DailyDharana | null>(null);
+  const [dailyCount, setDailyCount] = useState(0);
 
   useEffect(() => {
     try {
@@ -46,6 +61,16 @@ export default function NightHandoffPage() {
     fetch("/content/readings/vijnanabhairava/units.json")
       .then((r) => (r.ok ? r.json() : Promise.reject()))
       .then((u) => setVbt(Array.isArray(u) ? u.slice(0, 5) : []))
+      .catch(() => {});
+    fetch("/memory/vbt-daily.json")
+      .then((r) => (r.ok ? r.json() : Promise.reject()))
+      .then((j) => {
+        const entries: DailyDharana[] = j.entries ?? [];
+        if (entries.length) {
+          setDailyCount(entries.length);
+          setDaily(entries[dayOfYear() % entries.length]);
+        }
+      })
       .catch(() => {});
   }, []);
 
@@ -129,6 +154,24 @@ export default function NightHandoffPage() {
             Open Stonedoorway night walk →
           </a>
         </div>
+      </section>
+
+      <section className="mb-6 rounded-xl border border-primary/40 bg-primary/5 p-5">
+        <h2 className="font-semibold mb-2">Today&apos;s dhāraṇā{daily ? ` — #${daily.dharana} (verse ${daily.verse})` : ""}</h2>
+        {daily ? (
+          <>
+            <p className="text-lg">{daily.technique}</p>
+            <p className="text-sm text-muted-foreground mt-1">
+              Trains: {daily.trains} · {daily.upaya} · {daily.coord}
+            </p>
+            <p className="text-xs text-muted-foreground mt-1">
+              Rotates daily through {dailyCount} mapped of 112 dhāraṇās. Pick 2–3
+              from one upāya and master them — not all 112.
+            </p>
+          </>
+        ) : (
+          <p className="text-sm text-muted-foreground">Loading today&apos;s dhāraṇā…</p>
+        )}
       </section>
 
       <section className="mb-6 rounded-xl border border-border bg-card p-5">

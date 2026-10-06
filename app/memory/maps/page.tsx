@@ -45,6 +45,12 @@ export default function MemoryMapsPage() {
         <a href="/memory/canonical/TANTRALOKA_CANONICAL.md" className="p-4 rounded-xl border border-border bg-card hover:border-primary">
           Tantrāloka canonical
         </a>
+        <a href="/memory/canonical/TA15_NYASA.md" className="p-4 rounded-xl border border-border bg-card hover:border-primary">
+          Verse vs apparatus record
+        </a>
+        <a href="/memory/canonical/TA15_TABLE.html" className="p-4 rounded-xl border border-border bg-card hover:border-primary">
+          Frozen v2 table (50+50)
+        </a>
       </div>
     </div>
   );

@@ -171,6 +171,13 @@ const GROUPS: { title: string; items: HubItem[] }[] = [
         icon: BookMarked,
       },
       {
+        href: "/memory/canonical/TA15_NYASA.md",
+        title: "TĀ 15 Nyāsa Record",
+        subtitle: "Verse vs apparatus · never mixed",
+        desc: "The verse-literal vs Dyczkowski-table readings side by side, with the freeze decision. Read this before arguing about elbow vs hand.",
+        icon: BookMarked,
+      },
+      {
         href: "/memory/canonical/MATRIKA-SYLLABUS.md",
         title: "Mātṛkā Syllabus",
         subtitle: "Texts-only · nothing invented",
