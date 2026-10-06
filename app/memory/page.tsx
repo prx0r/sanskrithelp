@@ -66,6 +66,13 @@ const SECTIONS = [
     icon: Compass,
   },
   {
+    href: "/memory/hindi",
+    title: "Hindi Wheels",
+    subtitle: "Mātṛkā bridge · sentence compiler · Kumbh field Hindi",
+    desc: "Keep the Sanskrit sound/body substrate; add living Hindi phonology, grammatical production wheels, and field phrases for Rishikesh, Haridwar and Varanasi.",
+    icon: Compass,
+  },
+  {
     href: "/memory/panini",
     title: "Pāṇini Machine",
     subtitle: "Pratyāhāra · varga · sandhi",

@@ -1,23 +1,11 @@
 import { NextResponse } from "next/server";
+import { buildSSML } from "@/lib/hindi/ssml";
 
-// TTS via Edge TTS (Microsoft) — free, works well for Devanagari.
-// Falls back to browser SpeechSynthesis if unavailable.
+// Ported from prx0r/hindihelp app/api/tts (Edge TTS, hi-IN-SwaraNeural).
+// Free, no key: token comes from the public edge-tts-server endpoint.
+// Always degrades to { fallback: true } -> caller uses browser speechSynthesis.
+
 const EDGE_TTS_URL = "https://speech.platform.bing.com/recognize";
-
-interface EdgeTTSOptions {
-  text: string;
-  voice?: string;
-  rate?: number;
-}
-
-function buildSSML({ text, voice = "hi-IN-SwaraNeural", rate = 0.9 }: EdgeTTSOptions): string {
-  return `<?xml version="1.0" encoding="utf-8"?>
-<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="hi-IN">
-  <voice name="${voice}">
-    <prosody rate="${rate}">${text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")}</prosody>
-  </voice>
-</speak>`;
-}
 
 export async function POST(req: Request) {
   try {
@@ -27,8 +15,8 @@ export async function POST(req: Request) {
       return NextResponse.json({ fallback: true, message: "Missing text" });
     }
 
-    // Try Edge TTS first
     const ssml = buildSSML({ text, voice: body?.voice || "hi-IN-SwaraNeural", rate: body?.rate || 0.9 });
+
     try {
       const tokenRes = await fetch("https://edge-tts-server.com/token", {
         signal: AbortSignal.timeout(5000),
@@ -52,16 +40,13 @@ export async function POST(req: Request) {
           });
         }
       }
-    } catch {
-      // Edge TTS failed — fall through to browser fallback
-    }
+    } catch {}
 
-    // Fallback: return instructions for browser SpeechSynthesis
     return NextResponse.json({
       fallback: true,
       text,
       voice: "hi-IN",
-      message: "Use browser speech synthesis with a Hindi voice for Devanagari.",
+      message: "Use browser speech synthesis.",
     });
   } catch (error) {
     console.error("TTS error:", error);
