@@ -39,7 +39,8 @@ export async function POST(req: Request) {
     });
   } catch (error) {
     console.error("Chat API error:", error);
-    return new Response(JSON.stringify({ error: "Something went wrong" }), {
+    const detail = error instanceof Error ? error.message : "Unknown error";
+    return new Response(JSON.stringify({ error: "Something went wrong", detail }), {
       status: 500,
       headers: { "Content-Type": "application/json" },
     });

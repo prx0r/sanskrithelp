@@ -11,6 +11,7 @@ import {
   Hash,
   Heart,
   Map as MapIcon,
+  Moon,
   Volume2,
   ExternalLink,
 } from "lucide-react";
@@ -64,6 +65,18 @@ const GROUPS: { title: string; items: HubItem[] }[] = [
         subtitle: "Mātṛkā · Mālinī · variations",
         desc: "Interactive full human body with phoneme loci. Toggle Mātṛkā limb map vs Mālinī MV 3.37–41. Deepdive: which map to start with.",
         icon: MapIcon,
+      },
+    ],
+  },
+  {
+    title: "Night",
+    items: [
+      {
+        href: "/memory/night",
+        title: "Night Handoff",
+        subtitle: "Day → Stonedoorway → morning check",
+        desc: "Tonight's protocol, one dream seed held lightly, handoff JSON export, morning one-line log + recall check. The dream loop, finally visible.",
+        icon: Moon,
       },
     ],
   },

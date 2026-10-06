@@ -533,7 +533,8 @@ CURRENT OBJECTIVES: ${objText || "Guide the learner."}`;
       )}
 
       <p className="text-xs text-muted-foreground">
-        Uses Chutes (Qwen) for dialogue. Ensure CHUTES_API_KEY is set.
+        Dialogue runs on the free Go model via /api/chat — no key needed. Voice
+        talk mode needs QWEN_API_KEY + relay (dev only).
       </p>
     </div>
   );
