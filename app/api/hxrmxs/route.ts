@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { chatCompletion } from "@/lib/ai";
 import { jevDecide, type JevQuestion } from "@/lib/jev";
-import { FUNCTION_IDS, voicePrompt } from "@/lib/hxrmxs";
+import { FUNCTION_IDS, retrieveExemplar, voicePrompt } from "@/lib/hxrmxs";
 
 // Full HXRMXS turn: Jev picks the move (function + loop/distress checks),
 // the voice renderer speaks it. LLM never chooses, only verbalizes.
@@ -47,6 +47,23 @@ export async function POST(req: Request) {
       system += "\nThe last turns circled the same ground — name that gently first, then make the move.";
     }
 
+    // Transmission first: the teacher's actual words for this move.
+    // Paraphrase would break lineage — quote verbatim or say rendered.
+    const exemplar = distress
+      ? null
+      : retrieveExemplar({ function_id: functionId, register, lineage });
+    if (exemplar) {
+      return NextResponse.json({
+        reply: `${exemplar.text}\n— transmitted (${exemplar.function_id} · ${exemplar.id})`,
+        mode: "transmitted",
+        function_id: functionId,
+        source: { id: exemplar.id, student_state: exemplar.student_state },
+        loopRisk,
+        distress,
+        viaJev,
+      });
+    }
+
     const history = turns.map((t) => ({
       role: (t.role === "assistant" ? "assistant" : "user") as "assistant" | "user",
       content: t.text,
@@ -57,7 +74,8 @@ export async function POST(req: Request) {
     ).catch(() => "");
 
     return NextResponse.json({
-      reply: reply || "Say that last part once more, slowly.",
+      reply: reply ? `${reply}\n— rendered (no verbatim exemplar; not transmission)` : "Say that last part once more, slowly.",
+      mode: reply ? "rendered" : "fallback",
       function_id: functionId,
       loopRisk,
       distress,

@@ -54,6 +54,61 @@ const LINEAGE_GRAMMAR: Record<string, string> = {
   Buddhist: "Impermanence and no-self levers; suffering traced to clinging.",
 };
 
+import exemplarsData from "@/data/hxrmxs-exemplars.json";
+
+export type Exemplar = {
+  id: string;
+  function_id: string;
+  lineage: string;
+  phase: string;
+  student_state: string;
+  mechanism: string;
+  register: Record<string, string>;
+  impact: string;
+  text: string;
+};
+
+/** META_01 -> ME_01 normalization (corpus variant vs taxonomy canonical). */
+export function normalizeFunction(id: string): string {
+  return id.replace(/^META_/, "ME_");
+}
+
+const EXEMPLARS: Exemplar[] = (exemplarsData as any).exemplars ?? [];
+
+/**
+ * Retrieve the teacher's actual words: same function (required), then
+ * register overlap, student-state match, lineage match. Deterministic.
+ * Returned text is transmission — quote verbatim, never paraphrase.
+ */
+export function retrieveExemplar(spec: {
+  function_id: string;
+  register?: string[];
+  student_state?: string;
+  lineage?: string;
+}): Exemplar | null {
+  const want = normalizeFunction(spec.function_id);
+  let best: Exemplar | null = null;
+  let bestScore = -1;
+  for (const e of EXEMPLARS) {
+    if (normalizeFunction(e.function_id) !== want) continue;
+    let s = 0;
+    for (const r of spec.register ?? []) {
+      const dim = r.slice(0, 2);
+      if (e.register[dim] === r) s += 2;
+    }
+    if (spec.student_state) {
+      if (e.student_state === spec.student_state) s += 3;
+      else if (e.student_state && spec.student_state.includes(e.student_state)) s += 1;
+    }
+    if (spec.lineage && e.lineage === spec.lineage) s += 1;
+    if (s > bestScore || (s === bestScore && best && e.id < best.id)) {
+      best = e;
+      bestScore = s;
+    }
+  }
+  return best;
+}
+
 export type VoiceSpec = {
   function_id: string;
   mechanism?: string;
