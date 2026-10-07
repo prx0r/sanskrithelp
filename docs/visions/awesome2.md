@@ -1,4 +1,4 @@
-> ANNEX to awesomevision.md (canonical) — Constructicon formalism. Status: ACTIVE.
+> CORE VISION #2 — Constructicon formalism. Status: ACTIVE. (Formerly labeled annex; promoted: it is the linguistic substrate to awesomevision's memory layer.)
 
 Yes. The research gives us a much cleaner formal theory for what we’ve been inventing. The missing object is a **Constructicon**: a database of reusable form↔meaning constructions. Bruno becomes the learner-facing manipulation/memory layer, while the Constructicon becomes the actual linguistic substrate.
 

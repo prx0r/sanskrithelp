@@ -1,17 +1,24 @@
 # VISION INDEX — threads across the constitution docs
 
-> All docs live in `docs/visions/`. awesomevision.md is canonical; the rest are
-> supporting annexes. Read order for a new agent: awesomevision → layers →
-> sivasutra → qna → textmode → awesome2 → architecture → voicetutor → geometry.
+> All docs live in `docs/visions/`.
+>
+> ## CORE VISIONS (read these first, in order)
+> 1. `awesomevision.md` — canonical constitution: audio is reality; wheels decompile; Mātṛkā coordinates; palaces index; schedule memorizes
+> 2. `awesome2.md` — constructicon formalism: machines/islands/chunks, collostructional ranking, coverage syllabus
+> 3. `awesomevision3.md` — pegs for the subtle body: Mātṛkā as Layer Zero, then reconfiguration → population → traversal → dissolution
+>
+> The rest are supporting annexes. Full read order for a new agent:
+> awesomevision → awesome2 → awesomevision3 → layers → sivasutra → qna → textmode → architecture → voicetutor → geometry.
 
 | Doc | Thread | One line |
 |---|---|---|
 | `awesomevision.md` | ALL (canonical) | Audio is reality; wheels decompile; Mātṛkā coordinates; palaces index; schedule memorizes |
+| `awesome2.md` | B Hindi (theory) — CORE | Constructicon formalism: machines/islands/chunks, collostructional ranking, coverage syllabus |
+| `awesomevision3.md` | ALL (core) | Pegs for the subtle body: Layer Zero lattice → reconfigure (Mālinī) → populate (Śakti) → traverse (yoga) → dissolve; Bruno = compiler/UI |
 | `layers.md` | A doctrine | 3-layer lock: phonetics substrate → TĀ-15 body → language overlays; Mātṛkā ≠ Pāṇini |
 | `sivasutra.md` | A doctrine | Śiva Sūtras = Semester Zero; concept graph; 3 upāya-worlds; text curriculum to Tantrāloka |
 | `qna.md` | B Hindi + D corpus | Q&A as first-class track; discourse constructions; 3-voice corpus; VBT recursion |
 | `textmode.md` | B Hindi + A doctrine | Trilingual TEXT MODE (see/hear/write/decompile/discuss); Sanskrit↔Hindi triangulation |
-| `awesome2.md` | B Hindi (theory) | Constructicon formalism: machines/islands/chunks, collostructional ranking, coverage syllabus |
 | `architecture.md` | C voice + B Hindi | 5 coupled layers; Gemini Live + tools; roleplay worlds; intervention levels; 8 teacher modes |
 | `voicetutor.md` | C voice | Provider comparison (Gemini/Qwen/OpenAI), pricing, A/B plan, adapter design |
 | `geometry.md` | E music/geometry | Pāṇini algebra → Tymoczko geometry → music → QRI phenomenology; 4 coupled spaces |
