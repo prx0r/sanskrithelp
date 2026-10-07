@@ -1,0 +1,252 @@
+{
+ "id": "bhatia-pack-v0-skeletons",
+ "note": "Situation skeletons from Bhatia dialogues. Roman lines are mojibake-mixed; Devanagari + glosses need a native pass. NOT wired to the scenario engine.",
+ "scenarios": [
+  {
+   "id": "bhatia-009",
+   "title": "Bhatia colloquial_hindi_009",
+   "subtitle": "Colloquial Hindi dialogue",
+   "stage": 1,
+   "level": 1,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "film kc bat par mahabharat kyõ?",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Ajit",
+     "hindi": "film kc bat par mahabharat kyõ?",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "film kc bat par mahabharat kyõ?"
+   ],
+   "gloss_en": [
+    "‘Black’ is my favourite movie.",
+    "How come?",
+    "(The) songs are very good; (the) plot and acting are great"
+   ],
+   "construction": "",
+   "config": {},
+   "source": "Bhatia Colloquial Hindi (2008), study-only",
+   "status": "needs-native-review"
+  },
+  {
+   "id": "bhatia-030",
+   "title": "Bhatia colloquial_hindi_030",
+   "subtitle": "Colloquial Hindi dialogue",
+   "stage": 1,
+   "level": 1,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "(bumps into Meenu) maf kcjiye.",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Abhilasha",
+     "hindi": "(bumps into Meenu) maf kcjiye.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Meenu",
+     "hindi": "maf kc bat nahm. bahut bhcR hai.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Abhilasha",
+     "hindi": "sac.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Meenu",
+     "hindi": "mera nam Meenu Bharati hai.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Abhilasha",
+     "hindi": "aur mera nam Abhilasha Pande hai.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Meenu",
+     "hindi": "mq yahk roz atc ho.",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "(bumps into Meenu) maf kcjiye.",
+    "maf kc bat nahm. bahut bhcR hai.",
+    "sac.",
+    "mera nam Meenu Bharati hai.",
+    "aur mera nam Abhilasha Pande hai.",
+    "mq yahk roz atc ho.",
+    "ap dillc kc hain na?",
+    "jc hk."
+   ],
+   "gloss_en": [],
+   "construction": "",
+   "config": {},
+   "source": "Bhatia Colloquial Hindi (2008), study-only",
+   "status": "needs-native-review"
+  },
+  {
+   "id": "bhatia-031",
+   "title": "Bhatia colloquial_hindi_031",
+   "subtitle": "Colloquial Hindi dialogue",
+   "stage": 1,
+   "level": 1,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "namasto.",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Waiter",
+     "hindi": "namasto.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "You",
+     "hindi": "namasto.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "You",
+     "hindi": "( maOM) zIk hUá.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Waiter",
+     "hindi": "laMca–spoSala SaakaharI (i.e. vegetarian) hO.",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "namasto.",
+    "namasto.",
+    "( maOM) zIk hUá.",
+    "laMca–spoSala SaakaharI (i.e. vegetarian) hO."
+   ],
+   "gloss_en": [],
+   "construction": "",
+   "config": {},
+   "source": "Bhatia Colloquial Hindi (2008), study-only",
+   "status": "needs-native-review"
+  },
+  {
+   "id": "bhatia-032",
+   "title": "Bhatia colloquial_hindi_032",
+   "subtitle": "Colloquial Hindi dialogue",
+   "stage": 1,
+   "level": 1,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "mauJakao dala j,ara masaalaodar caaihyao.",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "You",
+     "hindi": "mauJakao dala j,ara masaalaodar caaihyao.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Waiter",
+     "hindi": "zIk hO.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Waiter",
+     "hindi": "namaste.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "You",
+     "hindi": "namaste.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Waiter",
+     "hindi": "ap ksse hain?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "You",
+     "hindi": "(mq) Thck ho.",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "mauJakao dala j,ara masaalaodar caaihyao.",
+    "zIk hO.",
+    "namaste.",
+    "namaste.",
+    "ap ksse hain?",
+    "(mq) Thck ho.",
+    "apko menu cahiye?",
+    "nahm, lunch ke liye special kya hai?",
+    "lunch-special shakaharc (i.e.vegetarian) hai.",
+    "shakaharc-special Thck hai. vo kya hai? or vegetarian-special"
+   ],
+   "gloss_en": [],
+   "construction": "",
+   "config": {},
+   "source": "Bhatia Colloquial Hindi (2008), study-only",
+   "status": "needs-native-review"
+  }
+ ],
+ "drills": [
+  {
+   "id": "colloquial_hindi_005",
+   "blanks": 4,
+   "context": [
+    "(bumps into Meenu) maf kcjiye.",
+    "sac.",
+    "aur mera nam Abhilasha Pande hai.",
+    "ap dillc kc hain na?"
+   ]
+  },
+  {
+   "id": "colloquial_hindi_028",
+   "blanks": 2,
+   "context": [
+    "ram ne apnc kar calac."
+   ]
+  },
+  {
+   "id": "colloquial_hindi_029",
+   "blanks": 2,
+   "context": [
+    "ram apnc laRkc ko paRhata hai."
+   ]
+  }
+ ],
+ "dropped_mojibake": 22,
+ "status": "needs-native-review",
+ "interactive": false
+}

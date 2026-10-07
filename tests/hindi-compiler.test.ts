@@ -39,6 +39,6 @@ describe("Hindi sentence compiler (README examples)", () => {
     expect(r.hindi).toBe("मैं हिंदी सीख रही हूँ।");
   });
   it("no ergative/perfective in frame set (deferred by design)", () => {
-    expect(HINDI_FRAMES.map((f) => f.id)).toEqual(["habitual", "progressive", "ability", "want"]);
+    expect(HINDI_FRAMES.map((f) => f.id)).toEqual(["habitual", "progressive", "ability", "want", "imperative", "subjunctive"]);
   });
 });

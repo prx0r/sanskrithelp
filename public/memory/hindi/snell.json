@@ -1,0 +1,2873 @@
+{
+ "id": "snell-pack-v0",
+ "status": "needs-native-review",
+ "interactive": false,
+ "note": "Roman lines (standard transliteration, cleaner than Bhatia) await Devanagari conversion + native pass. NOT wired to engine.",
+ "scenarios": [
+  {
+   "id": "snell-001",
+   "title": "Snell p.2 exchange",
+   "subtitle": "Teach Yourself Hindi Conversation (2005), study-only",
+   "stage": 1,
+   "level": 1,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "1: On the aeroplane",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Part",
+     "hindi": "1: On the aeroplane",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "namaste.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "namaste. 4p dilli se hai?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "ji nahi, mai landan se hu. aur ap?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "mai dilli sc hii.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "ap thik hai?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "ji ha, lekin mai thaka hii.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "ha, mai bhi bahut thaka hu!",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "1: On the aeroplane",
+    "namaste.",
+    "namaste. 4p dilli se hai?",
+    "ji nahi, mai landan se hu. aur ap?",
+    "mai dilli sc hii.",
+    "ap thik hai?",
+    "ji ha, lekin mai thaka hii.",
+    "ha, mai bhi bahut thaka hu!",
+    "2: At the airport",
+    "apka nam kya hai?",
+    "mera nam Madhuri hai. aur apka?",
+    "mera nam Anjali hai.",
+    "kya 4p thik hai?",
+    "ji ha, Sukriya, mai thik hu.",
+    "4p thaki nahi hai?",
+    "ji nahi, mai thik hi. dp kaisi hai?",
+    "— mai bhi thik hi.",
+    "kya yah kot apka hai?",
+    "ji nahi, yah mera nahi hai.",
+    "kya yah Mohan ka hai?",
+    "ji nahi, yah Mohan ka bhi nahi hai."
+   ],
+   "construction": "",
+   "config": {},
+   "status": "needs-native-review",
+   "source": "Snell Conversation (2005) p.2, OCR, study-only"
+  },
+  {
+   "id": "snell-002",
+   "title": "Snell p.4 exchange",
+   "subtitle": "Teach Yourself Hindi Conversation (2005), study-only",
+   "stage": 1,
+   "level": 1,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "1: What people do",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Part",
+     "hindi": "1: What people do",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit Mohan",
+     "hindi": "ji, 4p kya kam karte hai?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "mai aspital mé kam karta hu.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "ap aspital mé kam karte hai?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "_ji ha, mai Apollo aspital mé kam karta hu.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "kya ap daktar hai?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "ji nahi, mai daftar mé kam karta hu.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "aur Madhuri ji, ap kya kam karti hai?",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "1: What people do",
+    "ji, 4p kya kam karte hai?",
+    "mai aspital mé kam karta hu.",
+    "ap aspital mé kam karte hai?",
+    "_ji ha, mai Apollo aspital mé kam karta hu.",
+    "kya ap daktar hai?",
+    "ji nahi, mai daftar mé kam karta hu.",
+    "aur Madhuri ji, ap kya kam karti hai?",
+    "= mai baink mé kam karti hi.",
+    "ap log kitne din kam karte hai?",
+    "mai pac din kam karta hi...",
+    "—...aur mai car din kam karti hi.",
+    "2: Where people live"
+   ],
+   "construction": "",
+   "config": {},
+   "status": "needs-native-review",
+   "source": "Snell Conversation (2005) p.4, OCR, study-only"
+  },
+  {
+   "id": "snell-003",
+   "title": "Snell p.4 exchange",
+   "subtitle": "Teach Yourself Hindi Conversation (2005), study-only",
+   "stage": 1,
+   "level": 1,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "—-vah bhi Dilli mé rahti hai — Sundarnagar mé.",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Madhuri",
+     "hindi": "—-vah bhi Dilli mé rahti hai — Sundarnagar mé.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "yah kya kam karti hai?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Madhuri",
+     "hindi": "= -vah ek bari dukan mé kam karti hai.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "uska nam kya hai?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Madhuri",
+     "hindi": "= Savita. uska nam Savita hai.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "aur apka bhai kya kam karta hai?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Madhuri",
+     "hindi": "= -vah vidyarthi hai. vah kalej mé parhta hai.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "uska nam kya hai?",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "—-vah bhi Dilli mé rahti hai — Sundarnagar mé.",
+    "yah kya kam karti hai?",
+    "= -vah ek bari dukan mé kam karti hai.",
+    "uska nam kya hai?",
+    "= Savita. uska nam Savita hai.",
+    "aur apka bhai kya kam karta hai?",
+    "= -vah vidyarthi hai. vah kalej mé parhta hai.",
+    "uska nam kya hai?",
+    "—uska nam Rohit hai.",
+    "kya vah bhi Dilli mé rahta hai?",
+    "ji nahi, vah Varanasi mé rahta hai. vah BHU mé parhta hai.",
+    "BHU? BHU kya hai?"
+   ],
+   "construction": "",
+   "config": {},
+   "status": "needs-native-review",
+   "source": "Snell Conversation (2005) p.4, OCR, study-only"
+  },
+  {
+   "id": "snell-004",
+   "title": "Snell p.6 exchange",
+   "subtitle": "Teach Yourself Hindi Conversation (2005), study-only",
+   "stage": 1,
+   "level": 1,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "3: Out on the town",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Conversation",
+     "hindi": "3: Out on the town",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Part",
+     "hindi": "1: At a restaurant",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "= Amit, kya 4pko tandiiri khana pasand hai?*",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "ha mujhko tandiri khana bahut pasand hai. murg, nan...",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Madhuri",
+     "hindi": "—lekin Anjali ko murg pasand nahi hai.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "ha, vah to gost nahi khati.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "ha, mai gost nahi khati, sirf sabzi khati ht.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "—_accha, to murg, kabab, nan, sabzi...",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "3: Out on the town",
+    "1: At a restaurant",
+    "= Amit, kya 4pko tandiiri khana pasand hai?*",
+    "ha mujhko tandiri khana bahut pasand hai. murg, nan...",
+    "—lekin Anjali ko murg pasand nahi hai.",
+    "ha, vah to gost nahi khati.",
+    "ha, mai gost nahi khati, sirf sabzi khati ht.",
+    "—_accha, to murg, kabab, nan, sabzi...",
+    "Anjali, kya apko sag-alii pasand hai? ya matar-panir?",
+    "mujhko matar-panir bahut pasand hai.",
+    "rayta bhi cahie, rayta. aur dal bhi.",
+    "accha, to ek murg, ath kabab, chah-sat nan,"
+   ],
+   "construction": "",
+   "config": {},
+   "status": "needs-native-review",
+   "source": "Snell Conversation (2005) p.6, OCR, study-only"
+  },
+  {
+   "id": "snell-005",
+   "title": "Snell p.6 exchange",
+   "subtitle": "Teach Yourself Hindi Conversation (2005), study-only",
+   "stage": 1,
+   "level": 1,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "mujhko lassi bhi cahie. mujhko lassi bahut pasand hai.",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Amit",
+     "hindi": "mujhko lassi bhi cahie. mujhko lassi bahut pasand hai.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "mujhko bhi lassi cahie.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Madhuri",
+     "hindi": "ha, mujhko bhi! Mohan, apko bhi cahie?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "nahi, gukriya. mujhko lassi nahi cahie. sirf pani cahie.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Part",
+     "hindi": "2: Planning a shopping trip",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "Madhuri, apki salvar qamiz bahut acchi hai.",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "mujhko lassi bhi cahie. mujhko lassi bahut pasand hai.",
+    "mujhko bhi lassi cahie.",
+    "ha, mujhko bhi! Mohan, apko bhi cahie?",
+    "nahi, gukriya. mujhko lassi nahi cahie. sirf pani cahie.",
+    "2: Planning a shopping trip",
+    "Madhuri, apki salvar qamiz bahut acchi hai."
+   ],
+   "construction": "",
+   "config": {},
+   "status": "needs-native-review",
+   "source": "Snell Conversation (2005) p.6, OCR, study-only"
+  },
+  {
+   "id": "snell-006",
+   "title": "Snell p.6 exchange",
+   "subtitle": "Teach Yourself Hindi Conversation (2005), study-only",
+   "stage": 1,
+   "level": 2,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "éukriya. apko aisi salvar qamiz cahie?",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Madhuri",
+     "hindi": "éukriya. apko aisi salvar qamiz cahie?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "ha, agar bahut mahagi nahi hai to...",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Madhuri",
+     "hindi": "yah kapra mahiiga nahi hai.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "mujhko bhi kuch kapre cahie.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "= apko kya cahie? kurta-payjama?",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "éukriya. apko aisi salvar qamiz cahie?",
+    "ha, agar bahut mahagi nahi hai to...",
+    "yah kapra mahiiga nahi hai.",
+    "mujhko bhi kuch kapre cahie.",
+    "= apko kya cahie? kurta-payjama?"
+   ],
+   "construction": "",
+   "config": {},
+   "status": "needs-native-review",
+   "source": "Snell Conversation (2005) p.6, OCR, study-only"
+  },
+  {
+   "id": "snell-007",
+   "title": "Snell p.7 exchange",
+   "subtitle": "Teach Yourself Hindi Conversation (2005), study-only",
+   "stage": 1,
+   "level": 2,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "= ‘Banaras Hindu University’. Rohit studies Hindi at BHU.",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Madhuri",
+     "hindi": "= ‘Banaras Hindu University’. Rohit studies Hindi at BHU.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "T see.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "Amit, do you like tandoori food?*",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit Yes",
+     "hindi": "I like tandoori food a lot. Chicken, naan...",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Madhuri But",
+     "hindi": "Anjali doesn’t like chicken.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "Yes, she doesn’t eat meat.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "That’s right, I don’t eat meat, I only eat vegetables.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "OK, so chicken, kabab, naan, vegetables...",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "= ‘Banaras Hindu University’. Rohit studies Hindi at BHU.",
+    "T see.",
+    "Amit, do you like tandoori food?*",
+    "I like tandoori food a lot. Chicken, naan...",
+    "Anjali doesn’t like chicken.",
+    "Yes, she doesn’t eat meat.",
+    "That’s right, I don’t eat meat, I only eat vegetables.",
+    "OK, so chicken, kabab, naan, vegetables...",
+    "= Anjali, do you like spinach-and-potato? Or cheese-and-peas?",
+    "I like cheese-and-peas very much,",
+    "need rayta too, rayta. And daal too.",
+    "_OK, so one chicken, eight kababs, six or seven naans,"
+   ],
+   "construction": "",
+   "config": {},
+   "status": "needs-native-review",
+   "source": "Snell Conversation (2005) p.7, OCR, study-only"
+  },
+  {
+   "id": "snell-008",
+   "title": "Snell p.7 exchange",
+   "subtitle": "Teach Yourself Hindi Conversation (2005), study-only",
+   "stage": 1,
+   "level": 2,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "I want lassi too. I like lassi very much.",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Amit",
+     "hindi": "I want lassi too. I like lassi very much.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "I too want lassi,",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Madhuri",
+     "hindi": "Yes, and me! Mohan, do you want (lassi) too?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan No",
+     "hindi": "thanks. I don’t want lassi, just water.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": ": Madhuri, your salwar-kameez is very nice.",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "I want lassi too. I like lassi very much.",
+    "I too want lassi,",
+    "Yes, and me! Mohan, do you want (lassi) too?",
+    "thanks. I don’t want lassi, just water.",
+    ": Madhuri, your salwar-kameez is very nice."
+   ],
+   "construction": "",
+   "config": {},
+   "status": "needs-native-review",
+   "source": "Snell Conversation (2005) p.7, OCR, study-only"
+  },
+  {
+   "id": "snell-009",
+   "title": "Snell p.7 exchange",
+   "subtitle": "Teach Yourself Hindi Conversation (2005), study-only",
+   "stage": 1,
+   "level": 2,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "you. Do you want a salwar-kameez like this?",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Madhuri Thank",
+     "hindi": "you. Do you want a salwar-kameez like this?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "Yes, if it’s not very expensive...",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Madhuri",
+     "hindi": "= This cloth isn’t expensive.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "I need some clothes too.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan What",
+     "hindi": "do you need? Kurta and pyjama?",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "you. Do you want a salwar-kameez like this?",
+    "Yes, if it’s not very expensive...",
+    "= This cloth isn’t expensive.",
+    "I need some clothes too.",
+    "do you need? Kurta and pyjama?"
+   ],
+   "construction": "",
+   "config": {},
+   "status": "needs-native-review",
+   "source": "Snell Conversation (2005) p.7, OCR, study-only"
+  },
+  {
+   "id": "snell-010",
+   "title": "Snell p.8 exchange",
+   "subtitle": "Teach Yourself Hindi Conversation (2005), study-only",
+   "stage": 1,
+   "level": 2,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "nahi, sirf kurta. mujhko car-pac kurte cahie.",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Amit",
+     "hindi": "nahi, sirf kurta. mujhko car-pac kurte cahie.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Madhuri",
+     "hindi": "thik hai. apko Fabindia jana cahie.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali Fabindia",
+     "hindi": "kya hai?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "ek bahut acchi dukan hai. bahut acche kapre milte hai vaha.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "kya cappalé bhi milti hai? mujhko cappalé bhi cahie.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "ha, cappalé bhi milti hai, jite bhi milte hai.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "accha, to hamko zariir jana cahie!",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Conversation",
+     "hindi": "4: Shopping",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "nahi, sirf kurta. mujhko car-pac kurte cahie.",
+    "thik hai. apko Fabindia jana cahie.",
+    "kya hai?",
+    "ek bahut acchi dukan hai. bahut acche kapre milte hai vaha.",
+    "kya cappalé bhi milti hai? mujhko cappalé bhi cahie.",
+    "ha, cappalé bhi milti hai, jite bhi milte hai.",
+    "accha, to hamko zariir jana cahie!",
+    "4: Shopping",
+    "1: Let’s buy some clothes",
+    "hello?",
+    "_ namaste Amit, mai Mohan bol raha hi.",
+    "kaun? ap kaun bol rahe hai?",
+    "mai Mohan bol raha hi! Mohan!",
+    "accha, namaste Mohan! ap log kaise hai?",
+    "ham thik hai, sukriya. aur dp?",
+    "ham bhi thik hai. aj 4p log kya kar rahe hai?",
+    "__ ham Fabindia ja rahe hai. ap bhi aie!",
+    "ap abhi ja rahe hai?"
+   ],
+   "construction": "",
+   "config": {},
+   "status": "needs-native-review",
+   "source": "Snell Conversation (2005) p.8, OCR, study-only"
+  },
+  {
+   "id": "snell-011",
+   "title": "Snell p.8 exchange",
+   "subtitle": "Teach Yourself Hindi Conversation (2005), study-only",
+   "stage": 1,
+   "level": 2,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "ham abhi khana kha rahe hai!",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Amit",
+     "hindi": "ham abhi khana kha rahe hai!",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "to aram se khana khaie. ham bis minat mé 4 rahe hai.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "rukie, rukie, Anjali kuch pich rahi hai...",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "Amit, Mohan kya kah raha hai?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "vah kah raha hai ki ve log Fabindia ja rahe hai.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "to kahie ki ham bhi 4 rahe hai.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "Mohan, 4p die, ham log bhi 4 rahe hai.",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "ham abhi khana kha rahe hai!",
+    "to aram se khana khaie. ham bis minat mé 4 rahe hai.",
+    "rukie, rukie, Anjali kuch pich rahi hai...",
+    "Amit, Mohan kya kah raha hai?",
+    "vah kah raha hai ki ve log Fabindia ja rahe hai.",
+    "to kahie ki ham bhi 4 rahe hai.",
+    "Mohan, 4p die, ham log bhi 4 rahe hai."
+   ],
+   "construction": "",
+   "config": {},
+   "status": "needs-native-review",
+   "source": "Snell Conversation (2005) p.8, OCR, study-only"
+  },
+  {
+   "id": "snell-012",
+   "title": "Snell p.9 exchange",
+   "subtitle": "Teach Yourself Hindi Conversation (2005), study-only",
+   "stage": 1,
+   "level": 2,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "No, just a kurta. I want four or five kurtas.",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Amit",
+     "hindi": "No, just a kurta. I want four or five kurtas.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Madhuri",
+     "hindi": "OK, you should go to Fabindia. a",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "What’s Fabindia?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "It’s a very good shop. You get very good clothes there.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit Can",
+     "hindi": "you get sandals too? I need sandals too.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "Yes, you can get sandals, and you can get shoes as well.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "OK, so we should certainly go!",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "Hello?",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "No, just a kurta. I want four or five kurtas.",
+    "OK, you should go to Fabindia. a",
+    "What’s Fabindia?",
+    "It’s a very good shop. You get very good clothes there.",
+    "you get sandals too? I need sandals too.",
+    "Yes, you can get sandals, and you can get shoes as well.",
+    "OK, so we should certainly go!",
+    "Hello?",
+    "Amit, this is Mohan speaking. [‘I Mohan am speaking.’]",
+    "Who? Who is that speaking?",
+    "It’s Mohan speaking! Mohan!",
+    "Oh, hello Mohan! How are you people?",
+    "We're fine, thanks. And you?"
+   ],
+   "construction": "",
+   "config": {},
+   "status": "needs-native-review",
+   "source": "Snell Conversation (2005) p.9, OCR, study-only"
+  },
+  {
+   "id": "snell-013",
+   "title": "Snell p.9 exchange",
+   "subtitle": "Teach Yourself Hindi Conversation (2005), study-only",
+   "stage": 1,
+   "level": 2,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "We're going to Fabindia. You come too!",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Mohan",
+     "hindi": "We're going to Fabindia. You come too!",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit Are",
+     "hindi": "you going right now?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "Yes, we're just leaving the house. What are you people doing?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit Just",
+     "hindi": "now we're having our meal!",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "__ So eat at leisure. We're coming in 20 minutes.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "Wait, wait, Anjali is asking something...",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "Amit, what’s Mohan saying?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "He’s saying that they’re going to Fabindia.",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "We're going to Fabindia. You come too!",
+    "you going right now?",
+    "Yes, we're just leaving the house. What are you people doing?",
+    "now we're having our meal!",
+    "__ So eat at leisure. We're coming in 20 minutes.",
+    "Wait, wait, Anjali is asking something...",
+    "Amit, what’s Mohan saying?",
+    "He’s saying that they’re going to Fabindia."
+   ],
+   "construction": "",
+   "config": {},
+   "status": "needs-native-review",
+   "source": "Snell Conversation (2005) p.9, OCR, study-only"
+  },
+  {
+   "id": "snell-014",
+   "title": "Snell p.10 exchange",
+   "subtitle": "Teach Yourself Hindi Conversation (2005), study-only",
+   "stage": 1,
+   "level": 2,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "2: Choosing colours",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Part",
+     "hindi": "2: Choosing colours",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Shopkeeper",
+     "hindi": "diye, diye. apko kya cahie?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "mujhko do-tin kurte cahic.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Shopkeeper",
+     "hindi": "—_ ye kurte dekhie. apko yah nila rang pasand hai?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "ha, nila ya hara. ha, mujhko yah nila rang bahut pasand hai.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Madhuri",
+     "hindi": "kya apko yah safed kurta pasand nahi hai? bahut accha hai.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "ha yah accha hai, lekin mujhko yah nila rang pasand hai.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "Ram, kuch lal kurte dikhaie.",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "2: Choosing colours",
+    "diye, diye. apko kya cahie?",
+    "mujhko do-tin kurte cahic.",
+    "—_ ye kurte dekhie. apko yah nila rang pasand hai?",
+    "ha, nila ya hara. ha, mujhko yah nila rang bahut pasand hai.",
+    "kya apko yah safed kurta pasand nahi hai? bahut accha hai.",
+    "ha yah accha hai, lekin mujhko yah nila rang pasand hai.",
+    "Ram, kuch lal kurte dikhaie.",
+    "Anjali, Amit kah raha hai ki nila kurta cahie, 141 nahi.",
+    "—_ yah nila kurta dekhie ji, yah bahut accha hai.",
+    "thik hai. ha yah nila rang thik hai. dijie.",
+    "_lijie. aur kya cahie’?",
+    "pahle yah bataie, yah kurta kitne ka hai?",
+    "_yah sirf pac sau rupaye ka hai.",
+    "aur yah 1al sari kitni ki hai, Ram?",
+    "Madam, yah cr hazar ki hai. yah Banarasi sari hai.",
+    "car hazar — four thousand rupees. mahagi hai lekin...."
+   ],
+   "construction": "",
+   "config": {},
+   "status": "needs-native-review",
+   "source": "Snell Conversation (2005) p.10, OCR, study-only"
+  },
+  {
+   "id": "snell-015",
+   "title": "Snell p.10 exchange",
+   "subtitle": "Teach Yourself Hindi Conversation (2005), study-only",
+   "stage": 1,
+   "level": 2,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "lekin.. .lekin...",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Amit",
+     "hindi": "lekin.. .lekin...",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Conversation",
+     "hindi": "5: Planning a trip",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Part",
+     "hindi": "1: When shall we go?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "= Anjali, ap log Agra jana cahte hai?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "ji ha, ham Taj Mahal* dekhna cahte hai.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "thik hai, ham kal jaége.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "lekin kal to muskil hoga.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "_ kal muskil hoga?",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "lekin.. .lekin...",
+    "5: Planning a trip",
+    "1: When shall we go?",
+    "= Anjali, ap log Agra jana cahte hai?",
+    "ji ha, ham Taj Mahal* dekhna cahte hai.",
+    "thik hai, ham kal jaége.",
+    "lekin kal to muskil hoga.",
+    "_ kal muskil hoga?",
+    "—_ ji hi, kyOki kal Sanivar hai."
+   ],
+   "construction": "",
+   "config": {},
+   "status": "needs-native-review",
+   "source": "Snell Conversation (2005) p.10, OCR, study-only"
+  },
+  {
+   "id": "snell-016",
+   "title": "Snell p.11 exchange",
+   "subtitle": "Teach Yourself Hindi Conversation (2005), study-only",
+   "stage": 1,
+   "level": 2,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "come in, come. What do you want? a",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Shopkeeper Please",
+     "hindi": "come in, come. What do you want? a",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "I need two or three kurtas.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Shopkeeper Please",
+     "hindi": "look at these kurtas. Do you like this blue colour?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "Yes, blue or green. Yes, I like this blue colour very much.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Madhuri",
+     "hindi": "Don’t you like this white kurta? It’s very nice.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "Yes, it’s nice, but I like this blue colour.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "Ram, please show [us] some red kurtas.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Madhuri",
+     "hindi": "Anjali, Amit says [he] wants a blue kurta, not a red one.",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "come in, come. What do you want? a",
+    "I need two or three kurtas.",
+    "look at these kurtas. Do you like this blue colour?",
+    "Yes, blue or green. Yes, I like this blue colour very much.",
+    "Don’t you like this white kurta? It’s very nice.",
+    "Yes, it’s nice, but I like this blue colour.",
+    "Ram, please show [us] some red kurtas.",
+    "Anjali, Amit says [he] wants a blue kurta, not a red one.",
+    "look at this blue kurta, sir, it’s very nice.",
+    "OK. Yes, this blue colour’s fine. Please give it. [I'll take it.]",
+    "take it. [Here you are.] What else do you need?",
+    "tell me this, how much is this kurta?",
+    "It’s only 500 rupees.",
+    "how much is this red sari, Ram?",
+    "Madam, this is 4,000. It’s a Banaras sari.",
+    "thousand rupees. It’s expensive but..."
+   ],
+   "construction": "",
+   "config": {},
+   "status": "needs-native-review",
+   "source": "Snell Conversation (2005) p.11, OCR, study-only"
+  },
+  {
+   "id": "snell-017",
+   "title": "Snell p.11 exchange",
+   "subtitle": "Teach Yourself Hindi Conversation (2005), study-only",
+   "stage": 1,
+   "level": 2,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "But...but...",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Amit",
+     "hindi": "But...but...",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "= Anjali, do you people want to go to Agra?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "Yes, we want to see the Taj Mahal.*",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "OK, we’ll go tomorrow.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali But",
+     "hindi": "tomorrow would be difficult.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan Tomorrow",
+     "hindi": "would be difficult?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "Yes, because tomorrow's Saturday. :",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "But...but...",
+    "= Anjali, do you people want to go to Agra?",
+    "Yes, we want to see the Taj Mahal.*",
+    "OK, we’ll go tomorrow.",
+    "tomorrow would be difficult.",
+    "would be difficult?",
+    "Yes, because tomorrow's Saturday. :"
+   ],
+   "construction": "",
+   "config": {},
+   "status": "needs-native-review",
+   "source": "Snell Conversation (2005) p.11, OCR, study-only"
+  },
+  {
+   "id": "snell-018",
+   "title": "Snell p.13 exchange",
+   "subtitle": "Teach Yourself Hindi Conversation (2005), study-only",
+   "stage": 1,
+   "level": 2,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "Yes, Mohan, on Saturday Anjali goes to learn the sitar.",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Amit",
+     "hindi": "Yes, Mohan, on Saturday Anjali goes to learn the sitar.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan You",
+     "hindi": "go to learn the sitar, Anjali? i",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "Yes, on Saturday I go to learn the sitar. :",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "OK, so we'll go to Agra on Sunday.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "Yes, Sunday will be all right.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "We'll go to Agra on Sunday and come back on Monday.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali But",
+     "hindi": "where will we stay in Agra? It'd be very expensive to",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "Yes, Mohan, on Saturday Anjali goes to learn the sitar.",
+    "go to learn the sitar, Anjali? i",
+    "Yes, on Saturday I go to learn the sitar. :",
+    "OK, so we'll go to Agra on Sunday.",
+    "Yes, Sunday will be all right.",
+    "We'll go to Agra on Sunday and come back on Monday.",
+    "where will we stay in Agra? It'd be very expensive to"
+   ],
+   "construction": "",
+   "config": {},
+   "status": "needs-native-review",
+   "source": "Snell Conversation (2005) p.13, OCR, study-only"
+  },
+  {
+   "id": "snell-019",
+   "title": "Snell p.13 exchange",
+   "subtitle": "Teach Yourself Hindi Conversation (2005), study-only",
+   "stage": 1,
+   "level": 2,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "sister lives in Agra.",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Mohan My",
+     "hindi": "sister lives in Agra.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit Your",
+     "hindi": "sister?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "Yes, my sister Anuradha. We'll stay at her place.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit Is",
+     "hindi": "Anuradha your younger sister, who previously lived in London?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "Yes, previously she lived in London, but nowadays she’s",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "sister lives in Agra.",
+    "sister?",
+    "Yes, my sister Anuradha. We'll stay at her place.",
+    "Anuradha your younger sister, who previously lived in London?",
+    "Yes, previously she lived in London, but nowadays she’s"
+   ],
+   "construction": "",
+   "config": {},
+   "status": "needs-native-review",
+   "source": "Snell Conversation (2005) p.13, OCR, study-only"
+  },
+  {
+   "id": "snell-020",
+   "title": "Snell p.13 exchange",
+   "subtitle": "Teach Yourself Hindi Conversation (2005), study-only",
+   "stage": 1,
+   "level": 2,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "this is our Taj Mahal. Anjali, what do you say?",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Mohan So",
+     "hindi": "this is our Taj Mahal. Anjali, what do you say?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "It’s very beautiful, but...",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Madhuri",
+     "hindi": "= What's the matter Anjali? Is your health OK? [Are you well?]",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "Yes, my health is absolutely fine, but I wanted to see the",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Taj",
+     "hindi": "on a moonlit night.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "= Ail right, we'll come at night too. It will be fun.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Madhuri",
+     "hindi": "Mohan, perhaps Amit and Anjali would like to come alone?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "No, Madhuri, it’s not like that! You come too!",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "this is our Taj Mahal. Anjali, what do you say?",
+    "It’s very beautiful, but...",
+    "= What's the matter Anjali? Is your health OK? [Are you well?]",
+    "Yes, my health is absolutely fine, but I wanted to see the",
+    "on a moonlit night.",
+    "= Ail right, we'll come at night too. It will be fun.",
+    "Mohan, perhaps Amit and Anjali would like to come alone?",
+    "No, Madhuri, it’s not like that! You come too!",
+    "=~ But perhaps Mohan and Madhuri would prefer to stay at home?",
+    "No, no, we’ll definitely come!",
+    "right, so we’ll come tonight. It’ll be great fun!",
+    "Yes, we'll have great fun! And tomorrow we’ll show you",
+    "Sikri* as well!",
+    "= And my sister will come too!",
+    "you were saying was right, Madhuri, I’m not well!"
+   ],
+   "construction": "",
+   "config": {},
+   "status": "needs-native-review",
+   "source": "Snell Conversation (2005) p.13, OCR, study-only"
+  },
+  {
+   "id": "snell-021",
+   "title": "Snell p.15 exchange",
+   "subtitle": "Teach Yourself Hindi Conversation (2005), study-only",
+   "stage": 1,
+   "level": 2,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "Anjali, Are you OK?",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Amit",
+     "hindi": "Anjali, Are you OK?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "Yes, but I’m tired.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit Your",
+     "hindi": "health is all right, isn’t it?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "Yes, perfectly all right. How are you?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "I'm just fine too.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali Do",
+     "hindi": "you want anything? Will you have [drink] some tea?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "No, I don’t want tea.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali Will",
+     "hindi": "you eat something?",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "Anjali, Are you OK?",
+    "Yes, but I’m tired.",
+    "health is all right, isn’t it?",
+    "Yes, perfectly all right. How are you?",
+    "I'm just fine too.",
+    "you want anything? Will you have [drink] some tea?",
+    "No, I don’t want tea.",
+    "you eat something?",
+    "No, nothing. I...",
+    "Yes, say it, won’t you? What are you thinking?",
+    "Mohan and Madhuri. I was thinking about Mohan"
+   ],
+   "construction": "",
+   "config": {},
+   "status": "needs-native-review",
+   "source": "Snell Conversation (2005) p.15, OCR, study-only"
+  },
+  {
+   "id": "snell-022",
+   "title": "Snell p.15 exchange",
+   "subtitle": "Teach Yourself Hindi Conversation (2005), study-only",
+   "stage": 1,
+   "level": 2,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "Yes, today we’ll plan something alone.",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Anjali",
+     "hindi": "Yes, today we’ll plan something alone.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "© Your uncle lives in Canada, doesn’t he?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "Yes, he lives in Toronto.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali And",
+     "hindi": "his name is Jagdish, isn’t it?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "Yes, Jagdish — Jagdish Soni. He’s a very good man.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali What",
+     "hindi": "work does he do?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit Uncle",
+     "hindi": "Jagdish is a teacher, he teaches history.",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "Yes, today we’ll plan something alone.",
+    "© Your uncle lives in Canada, doesn’t he?",
+    "Yes, he lives in Toronto.",
+    "his name is Jagdish, isn’t it?",
+    "Yes, Jagdish — Jagdish Soni. He’s a very good man.",
+    "work does he do?",
+    "Jagdish is a teacher, he teaches history."
+   ],
+   "construction": "",
+   "config": {},
+   "status": "needs-native-review",
+   "source": "Snell Conversation (2005) p.15, OCR, study-only"
+  },
+  {
+   "id": "snell-023",
+   "title": "Snell p.17 exchange",
+   "subtitle": "Teach Yourself Hindi Conversation (2005), study-only",
+   "stage": 1,
+   "level": 2,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "what does your aunt Prema ji do? \"",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Anjali And",
+     "hindi": "what does your aunt Prema ji do? \"",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit My",
+     "hindi": "aunt’s a doctor. But she’s not working nowadays.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali Do",
+     "hindi": "they have children?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "Yes, they have two children — two sons, Vijay and Chotu.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "Oh, so you have two cousins!",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "Yes, one’s 18 and one’s 20.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali What",
+     "hindi": "do they do? Do they go to college?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit Chotu",
+     "hindi": "goes to college, but Vijay works [does a job].",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "what does your aunt Prema ji do? \"",
+    "aunt’s a doctor. But she’s not working nowadays.",
+    "they have children?",
+    "Yes, they have two children — two sons, Vijay and Chotu.",
+    "Oh, so you have two cousins!",
+    "Yes, one’s 18 and one’s 20.",
+    "do they do? Do they go to college?",
+    "goes to college, but Vijay works [does a job].",
+    "work does Vijay do? What kind of job does he do?",
+    "works for [in] Air Canada. He wants to be a pilot.",
+    "What’s the matter Mohan? What do you need?",
+    "I want to buy some cigarettes. Do you have any money?",
+    "No, I don’t. Anjali, you’ve got [some] money haven’t you?",
+    "No, I don’t have any either. Ask Madhuri,"
+   ],
+   "construction": "",
+   "config": {},
+   "status": "needs-native-review",
+   "source": "Snell Conversation (2005) p.17, OCR, study-only"
+  },
+  {
+   "id": "snell-024",
+   "title": "Snell p.17 exchange",
+   "subtitle": "Teach Yourself Hindi Conversation (2005), study-only",
+   "stage": 1,
+   "level": 2,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "Yes, I’ve got money. But Mohan, why do you want cigarettes?",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Madhuri",
+     "hindi": "Yes, I’ve got money. But Mohan, why do you want cigarettes?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "You",
+     "hindi": "don’t smoke.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "= The cigarettes...aren’t for me.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Madhuri",
+     "hindi": "= They’re not for you? So who are they for? :",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan For",
+     "hindi": "a...a friend!",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Madhuri",
+     "hindi": "= For a friend?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "Yes, for a friend...a friend who works in my office.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali So",
+     "hindi": "doesn’t your ‘friend’ have any money, Mohan?",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "Yes, I’ve got money. But Mohan, why do you want cigarettes?",
+    "don’t smoke.",
+    "= The cigarettes...aren’t for me.",
+    "= They’re not for you? So who are they for? :",
+    "a...a friend!",
+    "= For a friend?",
+    "Yes, for a friend...a friend who works in my office.",
+    "doesn’t your ‘friend’ have any money, Mohan?",
+    "thing is that...my friend’s wife doesn’t know"
+   ],
+   "construction": "",
+   "config": {},
+   "status": "needs-native-review",
+   "source": "Snell Conversation (2005) p.17, OCR, study-only"
+  },
+  {
+   "id": "snell-025",
+   "title": "Snell p.18 exchange",
+   "subtitle": "Teach Yourself Hindi Conversation (2005), study-only",
+   "stage": 1,
+   "level": 2,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "2: Frayed tempers",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Part",
+     "hindi": "2: Frayed tempers",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "apko sigret pine ki 4dat kab se hai, Mohan?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "_ kaun kahta hai ki mujhko sigret pine ki dat hai?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "ap hi kah rahe the ki apko sigret cahie.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "hi, lekin sigret mere lie nahi the, ek dost ke lie the.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "us dost ko batiie ki sigret pine ki dat acchi nahi hai.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "mai usko zariir batauga, Iekin vah sunega nahi.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Madhuri",
+     "hindi": "ha, tumhare dost ko acchi salah sunne ki Adat nahi hai!",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "2: Frayed tempers",
+    "apko sigret pine ki 4dat kab se hai, Mohan?",
+    "_ kaun kahta hai ki mujhko sigret pine ki dat hai?",
+    "ap hi kah rahe the ki apko sigret cahie.",
+    "hi, lekin sigret mere lie nahi the, ek dost ke lie the.",
+    "us dost ko batiie ki sigret pine ki dat acchi nahi hai.",
+    "mai usko zariir batauga, Iekin vah sunega nahi.",
+    "ha, tumhare dost ko acchi salah sunne ki Adat nahi hai!",
+    "mujhko tairne ka bahut gauq hai. mai kal tairne jana cahti hil.",
+    "ham log6 ko bhi tairne ka Sauq hai. aur tennis khelne ka.",
+    "tennis? kaun kahta hai ki mujhko tennis khelne ka Sauq hai?",
+    "ha, tumko to sirf sigret pine ka Sauq hai, Mohan!",
+    "Madhuri, please! sunie, kya piyégi?",
+    "= mujhe kuch nahi cahie. mai ghar jana cahti hu.",
+    "oho! Mohan, ap kya lége?",
+    "mai kafi liga. aur ha, kuch khane ke lie...",
+    "Amit, tum kya piyoge? cay ya kafi?",
+    "mai bhi kafi liga. aur tum?",
+    "mujhe lassi cahie. kya lassi milegi yaha?",
+    "—_ lassi S4yad nahi milegi, lekin ham piichége.",
+    "Anjali, tum lassi mat piyo, kafi piyo.",
+    "afi mat piyo, Anjali. agar tum kafi piyogi to nid"
+   ],
+   "construction": "",
+   "config": {},
+   "status": "needs-native-review",
+   "source": "Snell Conversation (2005) p.18, OCR, study-only"
+  },
+  {
+   "id": "snell-026",
+   "title": "Snell p.19 exchange",
+   "subtitle": "Teach Yourself Hindi Conversation (2005), study-only",
+   "stage": 1,
+   "level": 2,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "friend’s name? His name...I don’t know.",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Mohan My",
+     "hindi": "friend’s name? His name...I don’t know.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Madhuri",
+     "hindi": "| know his name and I shan’t give him money for cigarettes!",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit How",
+     "hindi": "long have you had the smoking habit, Mohan?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan Who",
+     "hindi": "says I have the smoking habit?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit You",
+     "hindi": "were saying that you wanted cigarettes.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "Yes, but the cigarettes weren’t for me, they were for a friend.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali Tell",
+     "hindi": "that friend that the smoking habit is not good.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "I will certainly tell him, but he won’t listen.",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "friend’s name? His name...I don’t know.",
+    "| know his name and I shan’t give him money for cigarettes!",
+    "long have you had the smoking habit, Mohan?",
+    "says I have the smoking habit?",
+    "were saying that you wanted cigarettes.",
+    "Yes, but the cigarettes weren’t for me, they were for a friend.",
+    "that friend that the smoking habit is not good.",
+    "I will certainly tell him, but he won’t listen.",
+    "Yes, your friend isn’t in the habit of listening to good advice!",
+    "I'm very fond of swimming. I want to go swimming tomorrow.",
+    "= We like swimming too. And playing tennis.",
+    "Tennis? Who says I like playing tennis?",
+    "Yes, you only like smoking, Mohan!",
+    "Madhuri, please! Listen, what will you drink?",
+    "= don’t want anything. I want to go home.",
+    "Oho! Mohan, what will you have [take]?",
+    "I] have a coffee. And yes, something to eat...",
+    "Amit, what will you drink? Tea or coffee?",
+    "I'll have a coffee too. And you?",
+    "I want lassi. Can you get lassi here?",
+    "you can’t get lassi, but we'll ask,",
+    "Anjali, don’t drink lassi, drink coffee.",
+    "Don’t drink coffee, Anjali. If you drink coffee you"
+   ],
+   "construction": "",
+   "config": {},
+   "status": "needs-native-review",
+   "source": "Snell Conversation (2005) p.19, OCR, study-only"
+  },
+  {
+   "id": "snell-027",
+   "title": "Snell p.20 exchange",
+   "subtitle": "Teach Yourself Hindi Conversation (2005), study-only",
+   "stage": 1,
+   "level": 2,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "1: Amit made a pizza",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Part",
+     "hindi": "1: Amit made a pizza",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Madhuri",
+     "hindi": "kal kya hua? ap log kaha gae?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "kal ham bahar nahi gae. ham ghar par hi rahe.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Madhuri",
+     "hindi": "= ghar par apne kya kiya?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "maine kuch patra likhe aur Amit ne khana pakaya.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Madhuri",
+     "hindi": "usne kya kya pakaya?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "din mé usne dal aur sabzi bani.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Madhuri",
+     "hindi": "accha, usne dal aur sabzi banal? aur rat ko?",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "1: Amit made a pizza",
+    "kal kya hua? ap log kaha gae?",
+    "kal ham bahar nahi gae. ham ghar par hi rahe.",
+    "= ghar par apne kya kiya?",
+    "maine kuch patra likhe aur Amit ne khana pakaya.",
+    "usne kya kya pakaya?",
+    "din mé usne dal aur sabzi bani.",
+    "accha, usne dal aur sabzi banal? aur rat ko?"
+   ],
+   "construction": "",
+   "config": {},
+   "status": "needs-native-review",
+   "source": "Snell Conversation (2005) p.20, OCR, study-only"
+  },
+  {
+   "id": "snell-028",
+   "title": "Snell p.20 exchange",
+   "subtitle": "Teach Yourself Hindi Conversation (2005), study-only",
+   "stage": 1,
+   "level": 2,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "rat ko usne pizza banaya.",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Anjali",
+     "hindi": "rat ko usne pizza banaya.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Madhuri",
+     "hindi": "—_usne pizza banana kaha sikha?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "ek Italian dost ne usko sikhaya. bahut asan hai vaise.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Madhuri",
+     "hindi": "4j Amit bazar nahi aya kya?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "nahi, vah nahi aya. vah khana paka rahi hai.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Madhuri Mohan",
+     "hindi": "bhi yaha nahi hai.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "vah kahi hai?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Madhuri",
+     "hindi": "= vah kam par gaya hai. uski chutti khatm hui.",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "rat ko usne pizza banaya.",
+    "—_usne pizza banana kaha sikha?",
+    "ek Italian dost ne usko sikhaya. bahut asan hai vaise.",
+    "4j Amit bazar nahi aya kya?",
+    "nahi, vah nahi aya. vah khana paka rahi hai.",
+    "bhi yaha nahi hai.",
+    "vah kahi hai?",
+    "= vah kam par gaya hai. uski chutti khatm hui.",
+    "apne kyo piicha ki kal kya hua?",
+    "maine soca tha ki ap log hamko fon karége, milne ke lie."
+   ],
+   "construction": "",
+   "config": {},
+   "status": "needs-native-review",
+   "source": "Snell Conversation (2005) p.20, OCR, study-only"
+  },
+  {
+   "id": "snell-029",
+   "title": "Snell p.20 exchange",
+   "subtitle": "Teach Yourself Hindi Conversation (2005), study-only",
+   "stage": 1,
+   "level": 2,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "lekin aj to ham mili hai!",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Anjali",
+     "hindi": "lekin aj to ham mili hai!",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Part",
+     "hindi": "2: Who’s going to the cinema?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "_ namaste, Amit! mai Mohan bol raha hu.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Apne",
+     "hindi": "hamko ky6 nahi fon kiya?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "namaste, Mohan. aj ap daftar nahi gae?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "_ha, ha, mai daftar se hi fon kar raha hu.",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "lekin aj to ham mili hai!",
+    "2: Who’s going to the cinema?",
+    "_ namaste, Amit! mai Mohan bol raha hu.",
+    "hamko ky6 nahi fon kiya?",
+    "namaste, Mohan. aj ap daftar nahi gae?",
+    "_ha, ha, mai daftar se hi fon kar raha hu."
+   ],
+   "construction": "",
+   "config": {},
+   "status": "needs-native-review",
+   "source": "Snell Conversation (2005) p.20, OCR, study-only"
+  },
+  {
+   "id": "snell-030",
+   "title": "Snell p.22 exchange",
+   "subtitle": "Teach Yourself Hindi Conversation (2005), study-only",
+   "stage": 1,
+   "level": 2,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "bazar gai hai, aur mai khana bana raha hu.",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Amit Anjali",
+     "hindi": "bazar gai hai, aur mai khana bana raha hu.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "= 4j rat ke lie apne koi program banaya hai?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "ha, hamne sinema jane ka program banaya hai.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "to apne hamko kyé6 nahi bulaya?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "mujhko malim nahi! hamko miliim nahi tha ki apko",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "bazar gai hai, aur mai khana bana raha hu.",
+    "= 4j rat ke lie apne koi program banaya hai?",
+    "ha, hamne sinema jane ka program banaya hai.",
+    "to apne hamko kyé6 nahi bulaya?",
+    "mujhko malim nahi! hamko miliim nahi tha ki apko"
+   ],
+   "construction": "",
+   "config": {},
+   "status": "needs-native-review",
+   "source": "Snell Conversation (2005) p.22, OCR, study-only"
+  },
+  {
+   "id": "snell-031",
+   "title": "Snell p.22 exchange",
+   "subtitle": "Teach Yourself Hindi Conversation (2005), study-only",
+   "stage": 1,
+   "level": 2,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "4p kaunsi film dekhége?",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Mohan",
+     "hindi": "4p kaunsi film dekhége?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "maliim nahi. Anjali ne kaha ki Plaza mé koi nai film lagi hai.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "= Anjali ko kaisi filmé pasand hai?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "usko pyar ki kahaniya pasand hai, love stories.",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "4p kaunsi film dekhége?",
+    "maliim nahi. Anjali ne kaha ki Plaza mé koi nai film lagi hai.",
+    "= Anjali ko kaisi filmé pasand hai?",
+    "usko pyar ki kahaniya pasand hai, love stories."
+   ],
+   "construction": "",
+   "config": {},
+   "status": "needs-native-review",
+   "source": "Snell Conversation (2005) p.22, OCR, study-only"
+  },
+  {
+   "id": "snell-032",
+   "title": "Snell p.22 exchange",
+   "subtitle": "Teach Yourself Hindi Conversation (2005), study-only",
+   "stage": 1,
+   "level": 2,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "vah, vah, bahut accha!",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Mohan",
+     "hindi": "vah, vah, bahut accha!",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "to ap calége hamare sath?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "hi, ha, ky6 nahi!",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Conversation",
+     "hindi": "9: Amit and the old monk",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Part",
+     "hindi": "1: A secret drinker",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Madhuri",
+     "hindi": "kya hua, Anjali? sab thik hai na’",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "mai, to thik hii Iekin kal rat se Amit ki tabiyat kharab hai.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Madhuri",
+     "hindi": "= ky6? kya hua usko? kya uska pet kharab hai?",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "vah, vah, bahut accha!",
+    "to ap calége hamare sath?",
+    "hi, ha, ky6 nahi!",
+    "9: Amit and the old monk",
+    "1: A secret drinker",
+    "kya hua, Anjali? sab thik hai na’",
+    "mai, to thik hii Iekin kal rat se Amit ki tabiyat kharab hai.",
+    "= ky6? kya hua usko? kya uska pet kharab hai?",
+    "ha, uske sir mé dard hai aur rat mé usko ulti hui.",
+    "kal rat usne kya khaya?",
+    "kal rat sinema jane se pahle hamne ghar par hi khana khaya.",
+    "kya usne aj bhi kuch khiya hai?",
+    "nahi, vah kahta hai ki vah kuch nahi kha sakta.",
+    "—_ uske lie daktar ke pas jana muskil hoga."
+   ],
+   "construction": "",
+   "config": {},
+   "status": "needs-native-review",
+   "source": "Snell Conversation (2005) p.22, OCR, study-only"
+  },
+  {
+   "id": "snell-033",
+   "title": "Snell p.23 exchange",
+   "subtitle": "Teach Yourself Hindi Conversation (2005), study-only",
+   "stage": 1,
+   "level": 2,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "I see.",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Amit",
+     "hindi": "I see.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "~~ What are you folk doing?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "Anjali’s gone to the market, and I’m cooking.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "= Have you made any plan for tonight?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "Yes, we’ve fixed to go to the cinema.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan So",
+     "hindi": "why didn’t you call [invite] us?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "I don’t know! We didn’t know that you were",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "I see.",
+    "~~ What are you folk doing?",
+    "Anjali’s gone to the market, and I’m cooking.",
+    "= Have you made any plan for tonight?",
+    "Yes, we’ve fixed to go to the cinema.",
+    "why didn’t you call [invite] us?",
+    "I don’t know! We didn’t know that you were"
+   ],
+   "construction": "",
+   "config": {},
+   "status": "needs-native-review",
+   "source": "Snell Conversation (2005) p.23, OCR, study-only"
+  },
+  {
+   "id": "snell-034",
+   "title": "Snell p.23 exchange",
+   "subtitle": "Teach Yourself Hindi Conversation (2005), study-only",
+   "stage": 1,
+   "level": 2,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "film will you see?",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Mohan Which",
+     "hindi": "film will you see?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "I don’t know. Anjali said there’s some new film on at the Plaza.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan What",
+     "hindi": "kind of films does Anjali like?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit She",
+     "hindi": "likes love stories.",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "film will you see?",
+    "I don’t know. Anjali said there’s some new film on at the Plaza.",
+    "kind of films does Anjali like?",
+    "likes love stories."
+   ],
+   "construction": "",
+   "config": {},
+   "status": "needs-native-review",
+   "source": "Snell Conversation (2005) p.23, OCR, study-only"
+  },
+  {
+   "id": "snell-035",
+   "title": "Snell p.23 exchange",
+   "subtitle": "Teach Yourself Hindi Conversation (2005), study-only",
+   "stage": 1,
+   "level": 2,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "_ Bravo! Bravo! Excellent!",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Mohan",
+     "hindi": "_ Bravo! Bravo! Excellent!",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit So",
+     "hindi": "will you come along with us?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "Yes, yes, why not?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Madhuri What",
+     "hindi": "happened, Anjali? Everything’s OK, isn’t it?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "Me, I’m fine, but Amit’s health has been bad since last night.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Madhuri",
+     "hindi": "Why? What happened to him? Is his stomach upset?",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "_ Bravo! Bravo! Excellent!",
+    "will you come along with us?",
+    "Yes, yes, why not?",
+    "happened, Anjali? Everything’s OK, isn’t it?",
+    "Me, I’m fine, but Amit’s health has been bad since last night.",
+    "Why? What happened to him? Is his stomach upset?"
+   ],
+   "construction": "",
+   "config": {},
+   "status": "needs-native-review",
+   "source": "Snell Conversation (2005) p.23, OCR, study-only"
+  },
+  {
+   "id": "snell-036",
+   "title": "Snell p.23 exchange",
+   "subtitle": "Teach Yourself Hindi Conversation (2005), study-only",
+   "stage": 1,
+   "level": 2,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "did he eat last night?",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Madhuri What",
+     "hindi": "did he eat last night?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali Last",
+     "hindi": "night before going to the cinema we ate at home.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Madhuri Has",
+     "hindi": "he eaten anything today too?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "No, he says he can’t eat anything.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Madhuri It",
+     "hindi": "would be difficult for him to go to the doctor.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "But Mohan",
+     "hindi": "can come to your place.",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "did he eat last night?",
+    "night before going to the cinema we ate at home.",
+    "he eaten anything today too?",
+    "No, he says he can’t eat anything.",
+    "would be difficult for him to go to the doctor.",
+    "can come to your place."
+   ],
+   "construction": "",
+   "config": {},
+   "status": "needs-native-review",
+   "source": "Snell Conversation (2005) p.23, OCR, study-only"
+  },
+  {
+   "id": "snell-037",
+   "title": "Snell p.24 exchange",
+   "subtitle": "Teach Yourself Hindi Conversation (2005), study-only",
+   "stage": 1,
+   "level": 2,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "ha thori-si ‘Old Monk’. mujhe thik se yad nahi.",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Amit",
+     "hindi": "ha thori-si ‘Old Monk’. mujhe thik se yad nahi.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "= 4pne kitni pi?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit Sayad",
+     "hindi": "adhi botal, mujhe thik se yad nahi.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "kya Anjali apke sath thi?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "Anjali? kaun hai Anjali?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "are pki patni.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "mujhe thik se yad nahi,",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Mohan",
+     "hindi": "Amit, ap soie, thori der mé thik ho jaége!",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "ha thori-si ‘Old Monk’. mujhe thik se yad nahi.",
+    "= 4pne kitni pi?",
+    "adhi botal, mujhe thik se yad nahi.",
+    "kya Anjali apke sath thi?",
+    "Anjali? kaun hai Anjali?",
+    "are pki patni.",
+    "mujhe thik se yad nahi,",
+    "Amit, ap soie, thori der mé thik ho jaége!"
+   ],
+   "construction": "",
+   "config": {},
+   "status": "needs-native-review",
+   "source": "Snell Conversation (2005) p.24, OCR, study-only"
+  },
+  {
+   "id": "snell-038",
+   "title": "Snell p.27 exchange",
+   "subtitle": "Teach Yourself Hindi Conversation (2005), study-only",
+   "stage": 1,
+   "level": 2,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "a room be available? We'll come on the 10th of March.",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Will",
+     "hindi": "a room be available? We'll come on the 10th of March.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "Hello? Hello? Yes, go on [speak].",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit My",
+     "hindi": "first name? Amit, that is, Amitabh.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "No, no! Not Amitabh Bachchan! Amitabh Soni!",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "No, my wife will come with me.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit We",
+     "hindi": "will stay at least three days.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit How",
+     "hindi": "much would the cost [rent] of a big room be?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit This",
+     "hindi": "is very expensive. How much would a small room be?",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "a room be available? We'll come on the 10th of March.",
+    "Hello? Hello? Yes, go on [speak].",
+    "first name? Amit, that is, Amitabh.",
+    "No, no! Not Amitabh Bachchan! Amitabh Soni!",
+    "No, my wife will come with me.",
+    "will stay at least three days.",
+    "much would the cost [rent] of a big room be?",
+    "is very expensive. How much would a small room be?",
+    "Yes, this is all right.",
+    "No, we won’t come by car, we’ll come by bus.",
+    "will we come? We’ll come on the 10th March,"
+   ],
+   "construction": "",
+   "config": {},
+   "status": "needs-native-review",
+   "source": "Snell Conversation (2005) p.27, OCR, study-only"
+  },
+  {
+   "id": "snell-039",
+   "title": "Snell p.29 exchange",
+   "subtitle": "Teach Yourself Hindi Conversation (2005), study-only",
+   "stage": 1,
+   "level": 2,
+   "objective": "Hold this exchange: hear, repeat, answer.",
+   "pattern": "Sahab, what will you drink? A little ‘Old Monk’?",
+   "vocab": [],
+   "npcScript": [
+    {
+     "speaker": "Mohan Soni",
+     "hindi": "Sahab, what will you drink? A little ‘Old Monk’?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "How",
+     "hindi": "many bottles? One? Two? Three? Four? Ha, ha, ha!",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "What",
+     "hindi": "will you drink? What will you drink? What will you drink?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Anjali",
+     "hindi": "Amit! Amit! Amit! Amit! Wake up! Wake up! You're dreaming!",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Wake",
+     "hindi": "up! Hey, get up, won’t you?",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "Amit",
+     "hindi": "L..1...1..1 was dreaming? Yes! In the dream we were in Jaipur.",
+     "transliteration": "",
+     "english": ""
+    },
+    {
+     "speaker": "We",
+     "hindi": "saw that the hotel manager was Mohan and his wife was",
+     "transliteration": "",
+     "english": ""
+    }
+   ],
+   "hints": [
+    "Listen first, then shadow each line aloud."
+   ],
+   "targetLines": [
+    "Sahab, what will you drink? A little ‘Old Monk’?",
+    "many bottles? One? Two? Three? Four? Ha, ha, ha!",
+    "will you drink? What will you drink? What will you drink?",
+    "Amit! Amit! Amit! Amit! Wake up! Wake up! You're dreaming!",
+    "up! Hey, get up, won’t you?",
+    "L..1...1..1 was dreaming? Yes! In the dream we were in Jaipur.",
+    "saw that the hotel manager was Mohan and his wife was"
+   ],
+   "construction": "",
+   "config": {},
+   "status": "needs-native-review",
+   "source": "Snell Conversation (2005) p.29, OCR, study-only"
+  }
+ ],
+ "count": 39
+}

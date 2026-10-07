@@ -1,0 +1,8568 @@
+{
+ "id": "snell-vocab-v1",
+ "count": 1223,
+ "assumption": "first [sound:] is Hindi headword voice, second is English gloss voice — VERIFY BY EAR before trusting audio_hi mapping",
+ "items": [
+  {
+   "hindi": "अंकल",
+   "english": "uncle",
+   "tags": "",
+   "audio_hi": "vocab-audio/1897.mp3",
+   "audio_en": "vocab-audio/1407.mp3"
+  },
+  {
+   "hindi": "अंग्रेज",
+   "english": "English person",
+   "tags": "",
+   "audio_hi": "vocab-audio/104.mp3",
+   "audio_en": "vocab-audio/2295.mp3"
+  },
+  {
+   "hindi": "अंत",
+   "english": "end",
+   "tags": "",
+   "audio_hi": "vocab-audio/2302.mp3",
+   "audio_en": "vocab-audio/833.mp3"
+  },
+  {
+   "hindi": "अंतर",
+   "english": "difference",
+   "tags": "",
+   "audio_hi": "vocab-audio/593.mp3",
+   "audio_en": "vocab-audio/2032.mp3"
+  },
+  {
+   "hindi": "अंदर",
+   "english": "inside, within",
+   "tags": "",
+   "audio_hi": "vocab-audio/1236.mp3",
+   "audio_en": "vocab-audio/2329.mp3"
+  },
+  {
+   "hindi": "अँधेरा",
+   "english": "darkness",
+   "tags": "",
+   "audio_hi": "vocab-audio/727.mp3",
+   "audio_en": "vocab-audio/2340.mp3"
+  },
+  {
+   "hindi": "अकेला",
+   "english": "(adv.) alone",
+   "tags": "",
+   "audio_hi": "vocab-audio/1915.mp3",
+   "audio_en": "vocab-audio/459.mp3"
+  },
+  {
+   "hindi": "अकेलापन",
+   "english": "loneliness",
+   "tags": "",
+   "audio_hi": "vocab-audio/1206.mp3",
+   "audio_en": "vocab-audio/581.mp3"
+  },
+  {
+   "hindi": "अख़बार",
+   "english": "newspaper",
+   "tags": "",
+   "audio_hi": "vocab-audio/1598.mp3",
+   "audio_en": "vocab-audio/2033.mp3"
+  },
+  {
+   "hindi": "अगर",
+   "english": "if",
+   "tags": "",
+   "audio_hi": "vocab-audio/56.mp3",
+   "audio_en": "vocab-audio/1145.mp3"
+  },
+  {
+   "hindi": "अगला",
+   "english": "next",
+   "tags": "",
+   "audio_hi": "vocab-audio/616.mp3",
+   "audio_en": "vocab-audio/1530.mp3"
+  },
+  {
+   "hindi": "अगस्त",
+   "english": "August",
+   "tags": "",
+   "audio_hi": "vocab-audio/1854.mp3",
+   "audio_en": "vocab-audio/1069.mp3"
+  },
+  {
+   "hindi": "अच्छा",
+   "english": "good, nice",
+   "tags": "really? I see!;  well, proficiently;  really good",
+   "audio_hi": "vocab-audio/604.mp3",
+   "audio_en": "vocab-audio/2308.mp3"
+  },
+  {
+   "hindi": "अजनबी",
+   "english": "stranger",
+   "tags": "",
+   "audio_hi": "vocab-audio/179.mp3",
+   "audio_en": "vocab-audio/2276.mp3"
+  },
+  {
+   "hindi": "अजीब",
+   "english": "strange, odd",
+   "tags": "",
+   "audio_hi": "vocab-audio/1639.mp3",
+   "audio_en": "vocab-audio/38.mp3"
+  },
+  {
+   "hindi": "अठारह",
+   "english": "eighteen",
+   "tags": "",
+   "audio_hi": "vocab-audio/424.mp3",
+   "audio_en": "vocab-audio/2252.mp3"
+  },
+  {
+   "hindi": "अद्भुत",
+   "english": "remarkable",
+   "tags": "",
+   "audio_hi": "vocab-audio/2124.mp3",
+   "audio_en": "vocab-audio/508.mp3"
+  },
+  {
+   "hindi": "अधिक",
+   "english": "much, many, more",
+   "tags": "अधिक से अधिक at the most",
+   "audio_hi": "vocab-audio/1403.mp3",
+   "audio_en": "vocab-audio/1383.mp3"
+  },
+  {
+   "hindi": "अधेर",
+   "english": "middle-aged",
+   "tags": "",
+   "audio_hi": "vocab-audio/1687.mp3",
+   "audio_en": "vocab-audio/2077.mp3"
+  },
+  {
+   "hindi": "अध्यापक",
+   "english": "teacher",
+   "tags": "",
+   "audio_hi": "vocab-audio/1486.mp3",
+   "audio_en": "vocab-audio/800.mp3"
+  },
+  {
+   "hindi": "अनबन",
+   "english": "discord",
+   "tags": "",
+   "audio_hi": "vocab-audio/70.mp3",
+   "audio_en": "vocab-audio/1551.mp3"
+  },
+  {
+   "hindi": "अनुपस्थित",
+   "english": "absent",
+   "tags": "",
+   "audio_hi": "vocab-audio/80.mp3",
+   "audio_en": "vocab-audio/849.mp3"
+  },
+  {
+   "hindi": "अनुभव",
+   "english": "experience",
+   "tags": "",
+   "audio_hi": "vocab-audio/1283.mp3",
+   "audio_en": "vocab-audio/1142.mp3"
+  },
+  {
+   "hindi": "अनुवाद",
+   "english": "translation",
+   "tags": "",
+   "audio_hi": "vocab-audio/609.mp3",
+   "audio_en": "vocab-audio/1762.mp3"
+  },
+  {
+   "hindi": "अपना",
+   "english": "(one&#x27;s) own",
+   "tags": "अपने आप of one&#x27;s own accord, oneself",
+   "audio_hi": "vocab-audio/1140.mp3",
+   "audio_en": "vocab-audio/951.mp3"
+  },
+  {
+   "hindi": "अफ़सोस",
+   "english": "regret",
+   "tags": "",
+   "audio_hi": "vocab-audio/1952.mp3",
+   "audio_en": "vocab-audio/1745.mp3"
+  },
+  {
+   "hindi": "अब",
+   "english": "now",
+   "tags": "इस बार this time",
+   "audio_hi": "vocab-audio/795.mp3",
+   "audio_en": "vocab-audio/2239.mp3"
+  },
+  {
+   "hindi": "अभी",
+   "english": "at the moment, right now",
+   "tags": "still",
+   "audio_hi": "vocab-audio/1986.mp3",
+   "audio_en": "vocab-audio/1984.mp3"
+  },
+  {
+   "hindi": "अभ्यास",
+   "english": "practice",
+   "tags": "",
+   "audio_hi": "vocab-audio/2118.mp3",
+   "audio_en": "vocab-audio/789.mp3"
+  },
+  {
+   "hindi": "अमेरिकन",
+   "english": "American",
+   "tags": "",
+   "audio_hi": "vocab-audio/1798.mp3",
+   "audio_en": "vocab-audio/518.mp3"
+  },
+  {
+   "hindi": "अमेरिका",
+   "english": "America",
+   "tags": "",
+   "audio_hi": "vocab-audio/901.mp3",
+   "audio_en": "vocab-audio/1669.mp3"
+  },
+  {
+   "hindi": "अमीर",
+   "english": "rich, wealthy",
+   "tags": "",
+   "audio_hi": "vocab-audio/250.mp3",
+   "audio_en": "vocab-audio/1055.mp3"
+  },
+  {
+   "hindi": "अरे",
+   "english": "oh! what! hey!",
+   "tags": "",
+   "audio_hi": "vocab-audio/17.mp3",
+   "audio_en": "vocab-audio/680.mp3"
+  },
+  {
+   "hindi": "अर्ज़ी",
+   "english": "application",
+   "tags": "",
+   "audio_hi": "vocab-audio/1372.mp3",
+   "audio_en": "vocab-audio/2187.mp3"
+  },
+  {
+   "hindi": "अर्थ",
+   "english": "meaning",
+   "tags": "",
+   "audio_hi": "vocab-audio/1476.mp3",
+   "audio_en": "vocab-audio/1301.mp3"
+  },
+  {
+   "hindi": "अलग",
+   "english": "separate, different",
+   "tags": "separately",
+   "audio_hi": "vocab-audio/1723.mp3",
+   "audio_en": "vocab-audio/2210.mp3"
+  },
+  {
+   "hindi": "अलमारी",
+   "english": "cupboard",
+   "tags": "",
+   "audio_hi": "vocab-audio/1423.mp3",
+   "audio_en": "vocab-audio/1989.mp3"
+  },
+  {
+   "hindi": "अवक़्त",
+   "english": "certainly",
+   "tags": "",
+   "audio_hi": "vocab-audio/486.mp3",
+   "audio_en": "vocab-audio/1901.mp3"
+  },
+  {
+   "hindi": "असंभव",
+   "english": "impossible",
+   "tags": "",
+   "audio_hi": "vocab-audio/2299.mp3",
+   "audio_en": "vocab-audio/921.mp3"
+  },
+  {
+   "hindi": "असर",
+   "english": "effect, impact",
+   "tags": "असर करना to have an effect",
+   "audio_hi": "vocab-audio/286.mp3",
+   "audio_en": "vocab-audio/1584.mp3"
+  },
+  {
+   "hindi": "अस्पताल",
+   "english": "hospital",
+   "tags": "",
+   "audio_hi": "vocab-audio/1751.mp3",
+   "audio_en": "vocab-audio/930.mp3"
+  },
+  {
+   "hindi": "अहम",
+   "english": "important",
+   "tags": "",
+   "audio_hi": "vocab-audio/468.mp3",
+   "audio_en": "vocab-audio/1442.mp3"
+  },
+  {
+   "hindi": "आँख",
+   "english": "eye",
+   "tags": "आँखें तरेरना to look angrily",
+   "audio_hi": "vocab-audio/851.mp3",
+   "audio_en": "vocab-audio/1827.mp3"
+  },
+  {
+   "hindi": "आकाश",
+   "english": "sky",
+   "tags": "",
+   "audio_hi": "vocab-audio/1333.mp3",
+   "audio_en": "vocab-audio/1572.mp3"
+  },
+  {
+   "hindi": "आख़िर",
+   "english": "end",
+   "tags": "आख़िरकार (%), in the end, after all",
+   "audio_hi": "vocab-audio/2302.mp3",
+   "audio_en": "vocab-audio/1487.mp3"
+  },
+  {
+   "hindi": "आग",
+   "english": "fire",
+   "tags": "",
+   "audio_hi": "vocab-audio/420.mp3",
+   "audio_en": "vocab-audio/1676.mp3"
+  },
+  {
+   "hindi": "आगरा",
+   "english": "Agra",
+   "tags": "",
+   "audio_hi": "vocab-audio/2297.mp3",
+   "audio_en": "vocab-audio/2062.mp3"
+  },
+  {
+   "hindi": "आगे",
+   "english": "later, ahead",
+   "tags": "in future, from now on",
+   "audio_hi": "vocab-audio/2229.mp3",
+   "audio_en": "vocab-audio/1712.mp3"
+  },
+  {
+   "hindi": "आज",
+   "english": "today",
+   "tags": "",
+   "audio_hi": "vocab-audio/237.mp3",
+   "audio_en": "vocab-audio/1779.mp3"
+  },
+  {
+   "hindi": "आजकल",
+   "english": "nowadays",
+   "tags": "",
+   "audio_hi": "vocab-audio/356.mp3",
+   "audio_en": "vocab-audio/2070.mp3"
+  },
+  {
+   "hindi": "ऑटो",
+   "english": "auto-rickshaw",
+   "tags": "",
+   "audio_hi": "vocab-audio/654.mp3",
+   "audio_en": "vocab-audio/2258.mp3"
+  },
+  {
+   "hindi": "आठ",
+   "english": "eight",
+   "tags": "आठों पहर all day",
+   "audio_hi": "vocab-audio/922.mp3",
+   "audio_en": "vocab-audio/469.mp3"
+  },
+  {
+   "hindi": "आदमी",
+   "english": "man",
+   "tags": "person",
+   "audio_hi": "vocab-audio/1209.mp3",
+   "audio_en": "vocab-audio/1443.mp3"
+  },
+  {
+   "hindi": "आधा",
+   "english": "half",
+   "tags": "",
+   "audio_hi": "vocab-audio/2060.mp3",
+   "audio_en": "vocab-audio/88.mp3"
+  },
+  {
+   "hindi": "आनंद",
+   "english": "joy, enjoyment",
+   "tags": "आनंद आना to feel enjoyment",
+   "audio_hi": "vocab-audio/18.mp3",
+   "audio_en": "vocab-audio/1732.mp3"
+  },
+  {
+   "hindi": "आना",
+   "english": "to come",
+   "tags": "",
+   "audio_hi": "vocab-audio/553.mp3",
+   "audio_en": "vocab-audio/330.mp3"
+  },
+  {
+   "hindi": "आप",
+   "english": "you (formal)",
+   "tags": "",
+   "audio_hi": "vocab-audio/1124.mp3",
+   "audio_en": "vocab-audio/1377.mp3"
+  },
+  {
+   "hindi": "आपका",
+   "english": "your, yours",
+   "tags": "",
+   "audio_hi": "vocab-audio/1090.mp3",
+   "audio_en": "vocab-audio/493.mp3"
+  },
+  {
+   "hindi": "आफ़ताब",
+   "english": "sun (poetic)",
+   "tags": "",
+   "audio_hi": "vocab-audio/2100.mp3",
+   "audio_en": "vocab-audio/1792.mp3"
+  },
+  {
+   "hindi": "आबादी",
+   "english": "population, settlement",
+   "tags": "",
+   "audio_hi": "vocab-audio/2238.mp3",
+   "audio_en": "vocab-audio/476.mp3"
+  },
+  {
+   "hindi": "आम",
+   "english": "mango",
+   "tags": "",
+   "audio_hi": "vocab-audio/1507.mp3",
+   "audio_en": "vocab-audio/282.mp3"
+  },
+  {
+   "hindi": "आम",
+   "english": "ordinary, general",
+   "tags": "आम तौर पर usually, normally",
+   "audio_hi": "vocab-audio/2016.mp3",
+   "audio_en": "vocab-audio/282.mp3"
+  },
+  {
+   "hindi": "आरंभ",
+   "english": "beginning",
+   "tags": "",
+   "audio_hi": "vocab-audio/1878.mp3",
+   "audio_en": "vocab-audio/156.mp3"
+  },
+  {
+   "hindi": "आराम",
+   "english": "rest, comfort",
+   "tags": "आराम करना to rest;  आराम से comfortably, easily",
+   "audio_hi": "vocab-audio/321.mp3",
+   "audio_en": "vocab-audio/37.mp3"
+  },
+  {
+   "hindi": "आर्थिक",
+   "english": "financial",
+   "tags": "",
+   "audio_hi": "vocab-audio/395.mp3",
+   "audio_en": "vocab-audio/1694.mp3"
+  },
+  {
+   "hindi": "आवश्यकता",
+   "english": "necessity",
+   "tags": "",
+   "audio_hi": "vocab-audio/1340.mp3",
+   "audio_en": "vocab-audio/154.mp3"
+  },
+  {
+   "hindi": "आशा",
+   "english": "hope",
+   "tags": "",
+   "audio_hi": "vocab-audio/254.mp3",
+   "audio_en": "vocab-audio/837.mp3"
+  },
+  {
+   "hindi": "आश्चर्य",
+   "english": "surprise",
+   "tags": "astonishing",
+   "audio_hi": "vocab-audio/157.mp3",
+   "audio_en": "vocab-audio/484.mp3"
+  },
+  {
+   "hindi": "आसान",
+   "english": "easy",
+   "tags": "",
+   "audio_hi": "vocab-audio/1718.mp3",
+   "audio_en": "vocab-audio/27.mp3"
+  },
+  {
+   "hindi": "इंतज़ाम",
+   "english": "arrangement(s), organisation",
+   "tags": "इंतज़ाम करना to arrange",
+   "audio_hi": "vocab-audio/1197.mp3",
+   "audio_en": "vocab-audio/2306.mp3"
+  },
+  {
+   "hindi": "इंतज़ार",
+   "english": "wait, waiting",
+   "tags": "इंतज़ार करना to wait for",
+   "audio_hi": "vocab-audio/1234.mp3",
+   "audio_en": "vocab-audio/2202.mp3"
+  },
+  {
+   "hindi": "इकलौता",
+   "english": "sole, only (child)",
+   "tags": "",
+   "audio_hi": "vocab-audio/824.mp3",
+   "audio_en": "vocab-audio/2140.mp3"
+  },
+  {
+   "hindi": "इतना",
+   "english": "so, so much",
+   "tags": "",
+   "audio_hi": "vocab-audio/418.mp3",
+   "audio_en": "vocab-audio/320.mp3"
+  },
+  {
+   "hindi": "इतिहास",
+   "english": "history",
+   "tags": "",
+   "audio_hi": "vocab-audio/2078.mp3",
+   "audio_en": "vocab-audio/434.mp3"
+  },
+  {
+   "hindi": "इधर",
+   "english": "here, over here",
+   "tags": "recently, latterly",
+   "audio_hi": "vocab-audio/336.mp3",
+   "audio_en": "vocab-audio/784.mp3"
+  },
+  {
+   "hindi": "इन",
+   "english": "oblique of ये",
+   "tags": "",
+   "audio_hi": "vocab-audio/633.mp3",
+   "audio_en": "vocab-audio/218.mp3"
+  },
+  {
+   "hindi": "इमारत",
+   "english": "building",
+   "tags": "",
+   "audio_hi": "vocab-audio/656.mp3",
+   "audio_en": "vocab-audio/909.mp3"
+  },
+  {
+   "hindi": "इरादा",
+   "english": "intention",
+   "tags": "",
+   "audio_hi": "vocab-audio/1884.mp3",
+   "audio_en": "vocab-audio/2153.mp3"
+  },
+  {
+   "hindi": "इलाक़ा",
+   "english": "area",
+   "tags": "",
+   "audio_hi": "vocab-audio/1392.mp3",
+   "audio_en": "vocab-audio/2256.mp3"
+  },
+  {
+   "hindi": "इलाज",
+   "english": "treatment, cure",
+   "tags": "",
+   "audio_hi": "vocab-audio/594.mp3",
+   "audio_en": "vocab-audio/33.mp3"
+  },
+  {
+   "hindi": "इलाहाबाद",
+   "english": "Allahabad",
+   "tags": "",
+   "audio_hi": "vocab-audio/963.mp3",
+   "audio_en": "vocab-audio/2227.mp3"
+  },
+  {
+   "hindi": "इश्क़",
+   "english": "romantic love",
+   "tags": "इश्क़ होना to have an affair",
+   "audio_hi": "vocab-audio/1631.mp3",
+   "audio_en": "vocab-audio/620.mp3"
+  },
+  {
+   "hindi": "इस",
+   "english": "oblique of वह",
+   "tags": "",
+   "audio_hi": "vocab-audio/12.mp3",
+   "audio_en": "vocab-audio/1801.mp3"
+  },
+  {
+   "hindi": "इस्त्री",
+   "english": "clothes-iron",
+   "tags": "ironing",
+   "audio_hi": "vocab-audio/2191.mp3",
+   "audio_en": "vocab-audio/1886.mp3"
+  },
+  {
+   "hindi": "इस्तेमाल",
+   "english": "use",
+   "tags": "इस्तेमाल करना to use",
+   "audio_hi": "vocab-audio/1270.mp3",
+   "audio_en": "vocab-audio/169.mp3"
+  },
+  {
+   "hindi": "ईंट",
+   "english": "brick",
+   "tags": "",
+   "audio_hi": "vocab-audio/988.mp3",
+   "audio_en": "vocab-audio/2336.mp3"
+  },
+  {
+   "hindi": "ई-मेल",
+   "english": "e-mail",
+   "tags": "",
+   "audio_hi": "vocab-audio/1416.mp3",
+   "audio_en": "vocab-audio/1288.mp3"
+  },
+  {
+   "hindi": "ईव-टीजिंग",
+   "english": "&#x27;Eve-teasing&#x27; - sexual harassment of girls and women",
+   "tags": "",
+   "audio_hi": "vocab-audio/1738.mp3",
+   "audio_en": "vocab-audio/2117.mp3"
+  },
+  {
+   "hindi": "उँगली",
+   "english": "finger",
+   "tags": "",
+   "audio_hi": "vocab-audio/926.mp3",
+   "audio_en": "vocab-audio/96.mp3"
+  },
+  {
+   "hindi": "उचित",
+   "english": "proper, appropriate",
+   "tags": "",
+   "audio_hi": "vocab-audio/900.mp3",
+   "audio_en": "vocab-audio/519.mp3"
+  },
+  {
+   "hindi": "उच्चारण",
+   "english": "pronunciation",
+   "tags": "",
+   "audio_hi": "vocab-audio/1077.mp3",
+   "audio_en": "vocab-audio/570.mp3"
+  },
+  {
+   "hindi": "उठाना",
+   "english": "to pick up, lift",
+   "tags": "to take (दिक्कत उठाना) trouble etc.",
+   "audio_hi": "vocab-audio/674.mp3",
+   "audio_en": "vocab-audio/1339.mp3"
+  },
+  {
+   "hindi": "उड़ना",
+   "english": "to fly",
+   "tags": "",
+   "audio_hi": "vocab-audio/2290.mp3",
+   "audio_en": "vocab-audio/1824.mp3"
+  },
+  {
+   "hindi": "उड़ाना",
+   "english": "to make fly",
+   "tags": "to squander",
+   "audio_hi": "vocab-audio/1196.mp3",
+   "audio_en": "vocab-audio/1870.mp3"
+  },
+  {
+   "hindi": "उतरना",
+   "english": "to get down, alight",
+   "tags": "",
+   "audio_hi": "vocab-audio/762.mp3",
+   "audio_en": "vocab-audio/2167.mp3"
+  },
+  {
+   "hindi": "उतारना",
+   "english": "to take down/off",
+   "tags": "",
+   "audio_hi": "vocab-audio/782.mp3",
+   "audio_en": "vocab-audio/2241.mp3"
+  },
+  {
+   "hindi": "उत्तर",
+   "english": "reply",
+   "tags": "",
+   "audio_hi": "vocab-audio/969.mp3",
+   "audio_en": "vocab-audio/1246.mp3"
+  },
+  {
+   "hindi": "उद्घाटन",
+   "english": "inauguration",
+   "tags": "",
+   "audio_hi": "vocab-audio/1007.mp3",
+   "audio_en": "vocab-audio/496.mp3"
+  },
+  {
+   "hindi": "उधर",
+   "english": "there, over there",
+   "tags": "",
+   "audio_hi": "vocab-audio/838.mp3",
+   "audio_en": "vocab-audio/1776.mp3"
+  },
+  {
+   "hindi": "उन",
+   "english": "oblique of वे",
+   "tags": "",
+   "audio_hi": "vocab-audio/1099.mp3",
+   "audio_en": "vocab-audio/608.mp3"
+  },
+  {
+   "hindi": "उन्नीस",
+   "english": "nineteen",
+   "tags": "",
+   "audio_hi": "vocab-audio/1590.mp3",
+   "audio_en": "vocab-audio/1899.mp3"
+  },
+  {
+   "hindi": "उपन्यास",
+   "english": "novel",
+   "tags": "",
+   "audio_hi": "vocab-audio/234.mp3",
+   "audio_en": "vocab-audio/1793.mp3"
+  },
+  {
+   "hindi": "उबालना",
+   "english": "to boil",
+   "tags": "to rage",
+   "audio_hi": "vocab-audio/1406.mp3",
+   "audio_en": "vocab-audio/994.mp3"
+  },
+  {
+   "hindi": "उम्मीद",
+   "english": "hope",
+   "tags": "",
+   "audio_hi": "vocab-audio/254.mp3",
+   "audio_en": "vocab-audio/384.mp3"
+  },
+  {
+   "hindi": "उर्दू",
+   "english": "Urdu",
+   "tags": "",
+   "audio_hi": "vocab-audio/1713.mp3",
+   "audio_en": "vocab-audio/867.mp3"
+  },
+  {
+   "hindi": "उल्लू",
+   "english": "&#x27;owl&#x27;-idiot",
+   "tags": "",
+   "audio_hi": "vocab-audio/980.mp3",
+   "audio_en": "vocab-audio/1896.mp3"
+  },
+  {
+   "hindi": "उषा",
+   "english": "dawn",
+   "tags": "",
+   "audio_hi": "vocab-audio/2122.mp3",
+   "audio_en": "vocab-audio/1089.mp3"
+  },
+  {
+   "hindi": "उस",
+   "english": "oblique of वह",
+   "tags": "",
+   "audio_hi": "vocab-audio/12.mp3",
+   "audio_en": "vocab-audio/293.mp3"
+  },
+  {
+   "hindi": "ऊँचा",
+   "english": "high",
+   "tags": "",
+   "audio_hi": "vocab-audio/931.mp3",
+   "audio_en": "vocab-audio/648.mp3"
+  },
+  {
+   "hindi": "ऊपर",
+   "english": "above",
+   "tags": "up;  upstairs",
+   "audio_hi": "vocab-audio/1724.mp3",
+   "audio_en": "vocab-audio/1595.mp3"
+  },
+  {
+   "hindi": "ऊबना",
+   "english": "to be bored",
+   "tags": "",
+   "audio_hi": "vocab-audio/1803.mp3",
+   "audio_en": "vocab-audio/1465.mp3"
+  },
+  {
+   "hindi": "ऊल-जलूल",
+   "english": "silly, pointless",
+   "tags": "",
+   "audio_hi": "vocab-audio/1126.mp3",
+   "audio_en": "vocab-audio/1303.mp3"
+  },
+  {
+   "hindi": "ऋषि",
+   "english": "sage, seer",
+   "tags": "",
+   "audio_hi": "vocab-audio/1381.mp3",
+   "audio_en": "vocab-audio/1254.mp3"
+  },
+  {
+   "hindi": "एक",
+   "english": "one",
+   "tags": "एक साथ together",
+   "audio_hi": "vocab-audio/653.mp3",
+   "audio_en": "vocab-audio/1241.mp3"
+  },
+  {
+   "hindi": "एकदम",
+   "english": "completely",
+   "tags": "",
+   "audio_hi": "vocab-audio/1496.mp3",
+   "audio_en": "vocab-audio/490.mp3"
+  },
+  {
+   "hindi": "एकाध",
+   "english": "one or two, a couple (of)",
+   "tags": "",
+   "audio_hi": "vocab-audio/1972.mp3",
+   "audio_en": "vocab-audio/159.mp3"
+  },
+  {
+   "hindi": "ऐनक",
+   "english": "spectacles",
+   "tags": "",
+   "audio_hi": "vocab-audio/711.mp3",
+   "audio_en": "vocab-audio/639.mp3"
+  },
+  {
+   "hindi": "ऐश",
+   "english": "wanton luxury",
+   "tags": "ऐश करना to live a life of pleasure",
+   "audio_hi": "vocab-audio/1514.mp3",
+   "audio_en": "vocab-audio/769.mp3"
+  },
+  {
+   "hindi": "ऐसा",
+   "english": "such, thus, like this",
+   "tags": "",
+   "audio_hi": "vocab-audio/1131.mp3",
+   "audio_en": "vocab-audio/1882.mp3"
+  },
+  {
+   "hindi": "ओ",
+   "english": "o!",
+   "tags": "",
+   "audio_hi": "vocab-audio/1571.mp3",
+   "audio_en": "vocab-audio/311.mp3"
+  },
+  {
+   "hindi": "ओह",
+   "english": "oho! oh no!",
+   "tags": "",
+   "audio_hi": "vocab-audio/944.mp3",
+   "audio_en": "vocab-audio/874.mp3"
+  },
+  {
+   "hindi": "और",
+   "english": "and",
+   "tags": "more, else, other;  any other",
+   "audio_hi": "vocab-audio/2337.mp3",
+   "audio_en": "vocab-audio/767.mp3"
+  },
+  {
+   "hindi": "औरत",
+   "english": "woman",
+   "tags": "",
+   "audio_hi": "vocab-audio/1471.mp3",
+   "audio_en": "vocab-audio/2053.mp3"
+  },
+  {
+   "hindi": "कंजूस",
+   "english": "miserly, mean",
+   "tags": "",
+   "audio_hi": "vocab-audio/659.mp3",
+   "audio_en": "vocab-audio/1275.mp3"
+  },
+  {
+   "hindi": "कंपनी",
+   "english": "company, firm",
+   "tags": "",
+   "audio_hi": "vocab-audio/1542.mp3",
+   "audio_en": "vocab-audio/360.mp3"
+  },
+  {
+   "hindi": "कंप्यूटर",
+   "english": "computer",
+   "tags": "",
+   "audio_hi": "vocab-audio/2347.mp3",
+   "audio_en": "vocab-audio/276.mp3"
+  },
+  {
+   "hindi": "कंबल",
+   "english": "blanket",
+   "tags": "",
+   "audio_hi": "vocab-audio/225.mp3",
+   "audio_en": "vocab-audio/949.mp3"
+  },
+  {
+   "hindi": "कई",
+   "english": "several",
+   "tags": "",
+   "audio_hi": "vocab-audio/1616.mp3",
+   "audio_en": "vocab-audio/158.mp3"
+  },
+  {
+   "hindi": "कठिन",
+   "english": "hard, difficult",
+   "tags": "",
+   "audio_hi": "vocab-audio/209.mp3",
+   "audio_en": "vocab-audio/2075.mp3"
+  },
+  {
+   "hindi": "कथक",
+   "english": "Kathak, a North Indian dance style",
+   "tags": "",
+   "audio_hi": "vocab-audio/201.mp3",
+   "audio_en": "vocab-audio/683.mp3"
+  },
+  {
+   "hindi": "कदम",
+   "english": "step, pace",
+   "tags": "",
+   "audio_hi": "vocab-audio/1217.mp3",
+   "audio_en": "vocab-audio/444.mp3"
+  },
+  {
+   "hindi": "कपड़ा",
+   "english": "cloth",
+   "tags": "garment",
+   "audio_hi": "vocab-audio/132.mp3",
+   "audio_en": "vocab-audio/1222.mp3"
+  },
+  {
+   "hindi": "कब",
+   "english": "when?",
+   "tags": "कब से since when?",
+   "audio_hi": "vocab-audio/341.mp3",
+   "audio_en": "vocab-audio/263.mp3"
+  },
+  {
+   "hindi": "कभी",
+   "english": "sometime",
+   "tags": "sometimes;  never",
+   "audio_hi": "vocab-audio/2312.mp3",
+   "audio_en": "vocab-audio/1783.mp3"
+  },
+  {
+   "hindi": "कम",
+   "english": "less",
+   "tags": "little;  कम करना to reduce;  कम से कम at least",
+   "audio_hi": "vocab-audio/1999.mp3",
+   "audio_en": "vocab-audio/510.mp3"
+  },
+  {
+   "hindi": "कमरा",
+   "english": "room",
+   "tags": "",
+   "audio_hi": "vocab-audio/626.mp3",
+   "audio_en": "vocab-audio/1092.mp3"
+  },
+  {
+   "hindi": "कमाल",
+   "english": "miracle, wonder",
+   "tags": "",
+   "audio_hi": "vocab-audio/1656.mp3",
+   "audio_en": "vocab-audio/766.mp3"
+  },
+  {
+   "hindi": "कमी",
+   "english": "lack, want",
+   "tags": "",
+   "audio_hi": "vocab-audio/275.mp3",
+   "audio_en": "vocab-audio/1237.mp3"
+  },
+  {
+   "hindi": "करना",
+   "english": "to do",
+   "tags": "",
+   "audio_hi": "vocab-audio/611.mp3",
+   "audio_en": "vocab-audio/2301.mp3"
+  },
+  {
+   "hindi": "करीब",
+   "english": "near",
+   "tags": "about, roughly",
+   "audio_hi": "vocab-audio/1213.mp3",
+   "audio_en": "vocab-audio/2133.mp3"
+  },
+  {
+   "hindi": "करोड़",
+   "english": "ten million",
+   "tags": "",
+   "audio_hi": "vocab-audio/865.mp3",
+   "audio_en": "vocab-audio/1693.mp3"
+  },
+  {
+   "hindi": "कल",
+   "english": "yesterday",
+   "tags": "tomorrow",
+   "audio_hi": "vocab-audio/301.mp3",
+   "audio_en": "vocab-audio/1528.mp3"
+  },
+  {
+   "hindi": "कलकत्ता",
+   "english": "Calcutta",
+   "tags": "",
+   "audio_hi": "vocab-audio/1769.mp3",
+   "audio_en": "vocab-audio/1272.mp3"
+  },
+  {
+   "hindi": "कलम",
+   "english": "pen",
+   "tags": "",
+   "audio_hi": "vocab-audio/1707.mp3",
+   "audio_en": "vocab-audio/1431.mp3"
+  },
+  {
+   "hindi": "कवि",
+   "english": "poet",
+   "tags": "",
+   "audio_hi": "vocab-audio/1981.mp3",
+   "audio_en": "vocab-audio/1526.mp3"
+  },
+  {
+   "hindi": "कष्ट",
+   "english": "trouble, distress",
+   "tags": "",
+   "audio_hi": "vocab-audio/860.mp3",
+   "audio_en": "vocab-audio/3.mp3"
+  },
+  {
+   "hindi": "कसम",
+   "english": "oath",
+   "tags": "",
+   "audio_hi": "vocab-audio/712.mp3",
+   "audio_en": "vocab-audio/2017.mp3"
+  },
+  {
+   "hindi": "कसूर",
+   "english": "fault, error",
+   "tags": "",
+   "audio_hi": "vocab-audio/1885.mp3",
+   "audio_en": "vocab-audio/1153.mp3"
+  },
+  {
+   "hindi": "कहना",
+   "english": "to say (to)",
+   "tags": "to call",
+   "audio_hi": "vocab-audio/430.mp3",
+   "audio_en": "vocab-audio/405.mp3"
+  },
+  {
+   "hindi": "कहलाना",
+   "english": "to be called, named",
+   "tags": "",
+   "audio_hi": "vocab-audio/319.mp3",
+   "audio_en": "vocab-audio/636.mp3"
+  },
+  {
+   "hindi": "कहाँ",
+   "english": "where?",
+   "tags": "",
+   "audio_hi": "vocab-audio/1349.mp3",
+   "audio_en": "vocab-audio/583.mp3"
+  },
+  {
+   "hindi": "कहानी",
+   "english": "story",
+   "tags": "",
+   "audio_hi": "vocab-audio/614.mp3",
+   "audio_en": "vocab-audio/791.mp3"
+  },
+  {
+   "hindi": "कहीं",
+   "english": "somewhere",
+   "tags": "somehow;  somewhere else;  कहीं न कहीं (in insult) complete, utter;  कहीं particularly;  कहीं और somewhere or other;  nowhere;  anywhere at all",
+   "audio_hi": "vocab-audio/863.mp3",
+   "audio_en": "vocab-audio/479.mp3"
+  },
+  {
+   "hindi": "काँटा",
+   "english": "fork",
+   "tags": "thorn",
+   "audio_hi": "vocab-audio/1537.mp3",
+   "audio_en": "vocab-audio/1763.mp3"
+  },
+  {
+   "hindi": "काँपना",
+   "english": "to shiver, tremble",
+   "tags": "",
+   "audio_hi": "vocab-audio/253.mp3",
+   "audio_en": "vocab-audio/361.mp3"
+  },
+  {
+   "hindi": "का/की/के",
+   "english": "(postposition indicating possession)",
+   "tags": "",
+   "audio_hi": "vocab-audio/86.mp3",
+   "audio_en": "vocab-audio/528.mp3"
+  },
+  {
+   "hindi": "काग़ज़",
+   "english": "paper",
+   "tags": "a piece of paper",
+   "audio_hi": "vocab-audio/298.mp3",
+   "audio_en": "vocab-audio/198.mp3"
+  },
+  {
+   "hindi": "काटना",
+   "english": "to cut",
+   "tags": "",
+   "audio_hi": "vocab-audio/1444.mp3",
+   "audio_en": "vocab-audio/1778.mp3"
+  },
+  {
+   "hindi": "काठमांडू",
+   "english": "Kathmandu",
+   "tags": "",
+   "audio_hi": "vocab-audio/1356.mp3",
+   "audio_en": "vocab-audio/284.mp3"
+  },
+  {
+   "hindi": "कान",
+   "english": "ear",
+   "tags": "",
+   "audio_hi": "vocab-audio/1371.mp3",
+   "audio_en": "vocab-audio/1767.mp3"
+  },
+  {
+   "hindi": "कानपुर",
+   "english": "Kanpur",
+   "tags": "",
+   "audio_hi": "vocab-audio/1633.mp3",
+   "audio_en": "vocab-audio/1029.mp3"
+  },
+  {
+   "hindi": "कॉफ़ी",
+   "english": "coffee",
+   "tags": "",
+   "audio_hi": "vocab-audio/205.mp3",
+   "audio_en": "vocab-audio/1808.mp3"
+  },
+  {
+   "hindi": "काफ़ी",
+   "english": "quite, very",
+   "tags": "",
+   "audio_hi": "vocab-audio/425.mp3",
+   "audio_en": "vocab-audio/551.mp3"
+  },
+  {
+   "hindi": "काम",
+   "english": "work",
+   "tags": "",
+   "audio_hi": "vocab-audio/1464.mp3",
+   "audio_en": "vocab-audio/1653.mp3"
+  },
+  {
+   "hindi": "कमज़ोर",
+   "english": "work shy, lazy",
+   "tags": "",
+   "audio_hi": "vocab-audio/743.mp3",
+   "audio_en": "vocab-audio/1490.mp3"
+  },
+  {
+   "hindi": "कामयाब",
+   "english": "successful",
+   "tags": "",
+   "audio_hi": "vocab-audio/1259.mp3",
+   "audio_en": "vocab-audio/1038.mp3"
+  },
+  {
+   "hindi": "कार्यक्रम",
+   "english": "programme",
+   "tags": "",
+   "audio_hi": "vocab-audio/1573.mp3",
+   "audio_en": "vocab-audio/385.mp3"
+  },
+  {
+   "hindi": "काल",
+   "english": "time, age, period",
+   "tags": "",
+   "audio_hi": "vocab-audio/841.mp3",
+   "audio_en": "vocab-audio/435.mp3"
+  },
+  {
+   "hindi": "किन्तु",
+   "english": "but",
+   "tags": "",
+   "audio_hi": "vocab-audio/691.mp3",
+   "audio_en": "vocab-audio/878.mp3"
+  },
+  {
+   "hindi": "कि",
+   "english": "(conjunction) that",
+   "tags": "or;  when suddenly",
+   "audio_hi": "vocab-audio/550.mp3",
+   "audio_en": "vocab-audio/708.mp3"
+  },
+  {
+   "hindi": "कितना",
+   "english": "how much/many",
+   "tags": "",
+   "audio_hi": "vocab-audio/2178.mp3",
+   "audio_en": "vocab-audio/256.mp3"
+  },
+  {
+   "hindi": "किताब",
+   "english": "book",
+   "tags": "",
+   "audio_hi": "vocab-audio/1308.mp3",
+   "audio_en": "vocab-audio/869.mp3"
+  },
+  {
+   "hindi": "किधर",
+   "english": "where? whither?",
+   "tags": "",
+   "audio_hi": "vocab-audio/2181.mp3",
+   "audio_en": "vocab-audio/1067.mp3"
+  },
+  {
+   "hindi": "किन",
+   "english": "oblique plural of कौन and of क्या",
+   "tags": "",
+   "audio_hi": "vocab-audio/138.mp3",
+   "audio_en": "vocab-audio/1863.mp3"
+  },
+  {
+   "hindi": "किनारे",
+   "english": "edge, shore",
+   "tags": "",
+   "audio_hi": "vocab-audio/1531.mp3",
+   "audio_en": "vocab-audio/1548.mp3"
+  },
+  {
+   "hindi": "किराया",
+   "english": "rent, fare",
+   "tags": "",
+   "audio_hi": "vocab-audio/842.mp3",
+   "audio_en": "vocab-audio/1342.mp3"
+  },
+  {
+   "hindi": "किस",
+   "english": "oblique singular of कौन and of क्या",
+   "tags": "",
+   "audio_hi": "vocab-audio/309.mp3",
+   "audio_en": "vocab-audio/1336.mp3"
+  },
+  {
+   "hindi": "किसकी",
+   "english": "oblique of किस",
+   "tags": "",
+   "audio_hi": "vocab-audio/296.mp3",
+   "audio_en": "vocab-audio/34.mp3"
+  },
+  {
+   "hindi": "क़िस्मत",
+   "english": "fate",
+   "tags": "",
+   "audio_hi": "vocab-audio/409.mp3",
+   "audio_en": "vocab-audio/1247.mp3"
+  },
+  {
+   "hindi": "कुछ",
+   "english": "some",
+   "tags": "somewhat¬ something;  कुछ और something else, some more;  कुछ न कुछ something or other;  कुछ भी nothing",
+   "audio_hi": "vocab-audio/1390.mp3",
+   "audio_en": "vocab-audio/2170.mp3"
+  },
+  {
+   "hindi": "कुत्ता",
+   "english": "dog",
+   "tags": "",
+   "audio_hi": "vocab-audio/955.mp3",
+   "audio_en": "vocab-audio/979.mp3"
+  },
+  {
+   "hindi": "कुर्ता",
+   "english": "kurta, Indian shirt",
+   "tags": "",
+   "audio_hi": "vocab-audio/141.mp3",
+   "audio_en": "vocab-audio/213.mp3"
+  },
+  {
+   "hindi": "कुर्सी",
+   "english": "chair",
+   "tags": "",
+   "audio_hi": "vocab-audio/2249.mp3",
+   "audio_en": "vocab-audio/728.mp3"
+  },
+  {
+   "hindi": "कुली",
+   "english": "porter",
+   "tags": "",
+   "audio_hi": "vocab-audio/499.mp3",
+   "audio_en": "vocab-audio/536.mp3"
+  },
+  {
+   "hindi": "कृपया",
+   "english": "please",
+   "tags": "",
+   "audio_hi": "vocab-audio/590.mp3",
+   "audio_en": "vocab-audio/2011.mp3"
+  },
+  {
+   "hindi": "कृपा",
+   "english": "kindness, grace",
+   "tags": "कृपया kindly, please",
+   "audio_hi": "vocab-audio/1515.mp3",
+   "audio_en": "vocab-audio/597.mp3"
+  },
+  {
+   "hindi": "कैमरा",
+   "english": "camera",
+   "tags": "",
+   "audio_hi": "vocab-audio/370.mp3",
+   "audio_en": "vocab-audio/1323.mp3"
+  },
+  {
+   "hindi": "कैसा",
+   "english": "of what kind, what like, how",
+   "tags": "",
+   "audio_hi": "vocab-audio/1861.mp3",
+   "audio_en": "vocab-audio/227.mp3"
+  },
+  {
+   "hindi": "को",
+   "english": "to, on, at",
+   "tags": "",
+   "audio_hi": "vocab-audio/1449.mp3",
+   "audio_en": "vocab-audio/2228.mp3"
+  },
+  {
+   "hindi": "कोई",
+   "english": "anyone, someone",
+   "tags": "some, about;  any;  कोई और someone else;  someone or other;  कोई नहीं no-one",
+   "audio_hi": "vocab-audio/262.mp3",
+   "audio_en": "vocab-audio/2018.mp3"
+  },
+  {
+   "hindi": "कोना",
+   "english": "corner",
+   "tags": "",
+   "audio_hi": "vocab-audio/39.mp3",
+   "audio_en": "vocab-audio/439.mp3"
+  },
+  {
+   "hindi": "कोशिश",
+   "english": "attempt",
+   "tags": "कोशिश करना to try",
+   "audio_hi": "vocab-audio/692.mp3",
+   "audio_en": "vocab-audio/2346.mp3"
+  },
+  {
+   "hindi": "कौन",
+   "english": "who?",
+   "tags": "which various people?",
+   "audio_hi": "vocab-audio/919.mp3",
+   "audio_en": "vocab-audio/2004.mp3"
+  },
+  {
+   "hindi": "कौनसा/सी/से",
+   "english": "which?",
+   "tags": "",
+   "audio_hi": "vocab-audio/1497.mp3",
+   "audio_en": "vocab-audio/2080.mp3"
+  },
+  {
+   "hindi": "कोट",
+   "english": "coat",
+   "tags": "",
+   "audio_hi": "vocab-audio/1955.mp3",
+   "audio_en": "vocab-audio/2047.mp3"
+  },
+  {
+   "hindi": "कोई",
+   "english": "anyone, someone",
+   "tags": "some, about;  any;  कोई और someone else;  someone or other;  कोई नहीं no one",
+   "audio_hi": "vocab-audio/262.mp3",
+   "audio_en": "vocab-audio/2018.mp3"
+  },
+  {
+   "hindi": "कोना",
+   "english": "corner",
+   "tags": "",
+   "audio_hi": "vocab-audio/39.mp3",
+   "audio_en": "vocab-audio/439.mp3"
+  },
+  {
+   "hindi": "कोशिश",
+   "english": "attempt",
+   "tags": "कोशिश करना to try",
+   "audio_hi": "vocab-audio/692.mp3",
+   "audio_en": "vocab-audio/2346.mp3"
+  },
+  {
+   "hindi": "कौन",
+   "english": "who?",
+   "tags": "which",
+   "audio_hi": "vocab-audio/919.mp3",
+   "audio_en": "vocab-audio/2004.mp3"
+  },
+  {
+   "hindi": "कौनसा/सी/से",
+   "english": "which?",
+   "tags": "",
+   "audio_hi": "vocab-audio/1497.mp3",
+   "audio_en": "vocab-audio/2080.mp3"
+  },
+  {
+   "hindi": "क्या",
+   "english": "what?",
+   "tags": "question-marker",
+   "audio_hi": "vocab-audio/190.mp3",
+   "audio_en": "vocab-audio/1905.mp3"
+  },
+  {
+   "hindi": "क्यों",
+   "english": "why",
+   "tags": "",
+   "audio_hi": "vocab-audio/2292.mp3",
+   "audio_en": "vocab-audio/1350.mp3"
+  },
+  {
+   "hindi": "क्योंकि",
+   "english": "because",
+   "tags": "",
+   "audio_hi": "vocab-audio/558.mp3",
+   "audio_en": "vocab-audio/147.mp3"
+  },
+  {
+   "hindi": "क्लास",
+   "english": "class (in school etc.)",
+   "tags": "",
+   "audio_hi": "vocab-audio/1600.mp3",
+   "audio_en": "vocab-audio/2052.mp3"
+  },
+  {
+   "hindi": "खड़ा",
+   "english": "standing, waiting",
+   "tags": "",
+   "audio_hi": "vocab-audio/290.mp3",
+   "audio_en": "vocab-audio/1147.mp3"
+  },
+  {
+   "hindi": "ख़त",
+   "english": "letter",
+   "tags": "",
+   "audio_hi": "vocab-audio/87.mp3",
+   "audio_en": "vocab-audio/1851.mp3"
+  },
+  {
+   "hindi": "ख़त्म",
+   "english": "finished",
+   "tags": "ख़त्म करना to finish",
+   "audio_hi": "vocab-audio/1564.mp3",
+   "audio_en": "vocab-audio/1260.mp3"
+  },
+  {
+   "hindi": "ख़बर",
+   "english": "news, information",
+   "tags": "",
+   "audio_hi": "vocab-audio/31.mp3",
+   "audio_en": "vocab-audio/1354.mp3"
+  },
+  {
+   "hindi": "ख़याल",
+   "english": "opinion, thought",
+   "tags": "ख़याल रखना to take care of",
+   "audio_hi": "vocab-audio/1337.mp3",
+   "audio_en": "vocab-audio/1785.mp3"
+  },
+  {
+   "hindi": "खराब",
+   "english": "bad",
+   "tags": "",
+   "audio_hi": "vocab-audio/1786.mp3",
+   "audio_en": "vocab-audio/1665.mp3"
+  },
+  {
+   "hindi": "ख़रीदना",
+   "english": "to purchase",
+   "tags": "",
+   "audio_hi": "vocab-audio/603.mp3",
+   "audio_en": "vocab-audio/1034.mp3"
+  },
+  {
+   "hindi": "ख़रीदारी",
+   "english": "buying, shopping",
+   "tags": "",
+   "audio_hi": "vocab-audio/1977.mp3",
+   "audio_en": "vocab-audio/781.mp3"
+  },
+  {
+   "hindi": "ख़ास",
+   "english": "special, particular",
+   "tags": "",
+   "audio_hi": "vocab-audio/1117.mp3",
+   "audio_en": "vocab-audio/892.mp3"
+  },
+  {
+   "hindi": "खाट",
+   "english": "bedstead, &#x27;cot&#x27;",
+   "tags": "",
+   "audio_hi": "vocab-audio/662.mp3",
+   "audio_en": "vocab-audio/2079.mp3"
+  },
+  {
+   "hindi": "खाना",
+   "english": "food",
+   "tags": "",
+   "audio_hi": "vocab-audio/2318.mp3",
+   "audio_en": "vocab-audio/411.mp3"
+  },
+  {
+   "hindi": "खाना",
+   "english": "to eat",
+   "tags": "",
+   "audio_hi": "vocab-audio/1922.mp3",
+   "audio_en": "vocab-audio/411.mp3"
+  },
+  {
+   "hindi": "खाली",
+   "english": "empty, vacant, free",
+   "tags": "ख़ाली करना to vacate",
+   "audio_hi": "vocab-audio/1555.mp3",
+   "audio_en": "vocab-audio/95.mp3"
+  },
+  {
+   "hindi": "खास",
+   "english": "special, particular",
+   "tags": "",
+   "audio_hi": "vocab-audio/1117.mp3",
+   "audio_en": "vocab-audio/1716.mp3"
+  },
+  {
+   "hindi": "खिड़की",
+   "english": "window",
+   "tags": "",
+   "audio_hi": "vocab-audio/564.mp3",
+   "audio_en": "vocab-audio/666.mp3"
+  },
+  {
+   "hindi": "खिलौना",
+   "english": "toy",
+   "tags": "",
+   "audio_hi": "vocab-audio/149.mp3",
+   "audio_en": "vocab-audio/2099.mp3"
+  },
+  {
+   "hindi": "खींचना",
+   "english": "to draw",
+   "tags": "take (photograph)",
+   "audio_hi": "vocab-audio/460.mp3",
+   "audio_en": "vocab-audio/2183.mp3"
+  },
+  {
+   "hindi": "खुद",
+   "english": "oneself",
+   "tags": "",
+   "audio_hi": "vocab-audio/1862.mp3",
+   "audio_en": "vocab-audio/1919.mp3"
+  },
+  {
+   "hindi": "ख़ुदा",
+   "english": "God",
+   "tags": "ख़ुदा जाने God knows",
+   "audio_hi": "vocab-audio/241.mp3",
+   "audio_en": "vocab-audio/1113.mp3"
+  },
+  {
+   "hindi": "खुला",
+   "english": "open",
+   "tags": "",
+   "audio_hi": "vocab-audio/1894.mp3",
+   "audio_en": "vocab-audio/2023.mp3"
+  },
+  {
+   "hindi": "खुश",
+   "english": "happy",
+   "tags": "",
+   "audio_hi": "vocab-audio/698.mp3",
+   "audio_en": "vocab-audio/30.mp3"
+  },
+  {
+   "hindi": "खुशी",
+   "english": "happiness, pleasure",
+   "tags": "",
+   "audio_hi": "vocab-audio/1908.mp3",
+   "audio_en": "vocab-audio/2277.mp3"
+  },
+  {
+   "hindi": "खूब",
+   "english": "a lot (of)",
+   "tags": "well",
+   "audio_hi": "vocab-audio/1909.mp3",
+   "audio_en": "vocab-audio/228.mp3"
+  },
+  {
+   "hindi": "खूबसूरत",
+   "english": "beautiful",
+   "tags": "",
+   "audio_hi": "vocab-audio/306.mp3",
+   "audio_en": "vocab-audio/2076.mp3"
+  },
+  {
+   "hindi": "खेद",
+   "english": "regret",
+   "tags": "",
+   "audio_hi": "vocab-audio/1952.mp3",
+   "audio_en": "vocab-audio/1125.mp3"
+  },
+  {
+   "hindi": "खेलना",
+   "english": "to play (a game)",
+   "tags": "",
+   "audio_hi": "vocab-audio/2198.mp3",
+   "audio_en": "vocab-audio/2096.mp3"
+  },
+  {
+   "hindi": "खैर",
+   "english": "well, anyway",
+   "tags": "",
+   "audio_hi": "vocab-audio/1912.mp3",
+   "audio_en": "vocab-audio/813.mp3"
+  },
+  {
+   "hindi": "खोलना",
+   "english": "to open",
+   "tags": "",
+   "audio_hi": "vocab-audio/1162.mp3",
+   "audio_en": "vocab-audio/2046.mp3"
+  },
+  {
+   "hindi": "गंगा",
+   "english": "Ganges",
+   "tags": "",
+   "audio_hi": "vocab-audio/292.mp3",
+   "audio_en": "vocab-audio/135.mp3"
+  },
+  {
+   "hindi": "गंभीर",
+   "english": "serious, profound",
+   "tags": "",
+   "audio_hi": "vocab-audio/642.mp3",
+   "audio_en": "vocab-audio/2074.mp3"
+  },
+  {
+   "hindi": "गँवाना",
+   "english": "to waste, squander",
+   "tags": "",
+   "audio_hi": "vocab-audio/112.mp3",
+   "audio_en": "vocab-audio/2262.mp3"
+  },
+  {
+   "hindi": "गर्म",
+   "english": "warm, hot",
+   "tags": "",
+   "audio_hi": "vocab-audio/1088.mp3",
+   "audio_en": "vocab-audio/1943.mp3"
+  },
+  {
+   "hindi": "गर्मी",
+   "english": "heat",
+   "tags": "summer;  गर्मियाँ summer (pl)",
+   "audio_hi": "vocab-audio/1591.mp3",
+   "audio_en": "vocab-audio/1183.mp3"
+  },
+  {
+   "hindi": "गर्व",
+   "english": "pride",
+   "tags": "",
+   "audio_hi": "vocab-audio/91.mp3",
+   "audio_en": "vocab-audio/2278.mp3"
+  },
+  {
+   "hindi": "गलत",
+   "english": "wrong, incorrect",
+   "tags": "",
+   "audio_hi": "vocab-audio/1232.mp3",
+   "audio_en": "vocab-audio/1319.mp3"
+  },
+  {
+   "hindi": "गलती",
+   "english": "mistake",
+   "tags": "",
+   "audio_hi": "vocab-audio/1988.mp3",
+   "audio_en": "vocab-audio/1300.mp3"
+  },
+  {
+   "hindi": "गली",
+   "english": "lane",
+   "tags": "",
+   "audio_hi": "vocab-audio/2213.mp3",
+   "audio_en": "vocab-audio/1627.mp3"
+  },
+  {
+   "hindi": "गाँव",
+   "english": "village",
+   "tags": "",
+   "audio_hi": "vocab-audio/1770.mp3",
+   "audio_en": "vocab-audio/1408.mp3"
+  },
+  {
+   "hindi": "गाना",
+   "english": "song",
+   "tags": "",
+   "audio_hi": "vocab-audio/1426.mp3",
+   "audio_en": "vocab-audio/1647.mp3"
+  },
+  {
+   "hindi": "गाना",
+   "english": "to sing",
+   "tags": "",
+   "audio_hi": "vocab-audio/1626.mp3",
+   "audio_en": "vocab-audio/1647.mp3"
+  },
+  {
+   "hindi": "गाय",
+   "english": "cow",
+   "tags": "",
+   "audio_hi": "vocab-audio/1513.mp3",
+   "audio_en": "vocab-audio/1869.mp3"
+  },
+  {
+   "hindi": "गाली",
+   "english": "abuse, swearing",
+   "tags": "गाली देना to abuse, swear at",
+   "audio_hi": "vocab-audio/668.mp3",
+   "audio_en": "vocab-audio/1159.mp3"
+  },
+  {
+   "hindi": "गिरना",
+   "english": "to fall",
+   "tags": "",
+   "audio_hi": "vocab-audio/1231.mp3",
+   "audio_en": "vocab-audio/645.mp3"
+  },
+  {
+   "hindi": "गिलास",
+   "english": "tumbler (glass or metal)",
+   "tags": "",
+   "audio_hi": "vocab-audio/1334.mp3",
+   "audio_en": "vocab-audio/675.mp3"
+  },
+  {
+   "hindi": "गीत",
+   "english": "song",
+   "tags": "",
+   "audio_hi": "vocab-audio/1426.mp3",
+   "audio_en": "vocab-audio/61.mp3"
+  },
+  {
+   "hindi": "गुंडा",
+   "english": "lout, hooligan",
+   "tags": "",
+   "audio_hi": "vocab-audio/1646.mp3",
+   "audio_en": "vocab-audio/1273.mp3"
+  },
+  {
+   "hindi": "गुंडागर्दी",
+   "english": "hooliganism",
+   "tags": "",
+   "audio_hi": "vocab-audio/1051.mp3",
+   "audio_en": "vocab-audio/375.mp3"
+  },
+  {
+   "hindi": "गुजराती",
+   "english": "Gujarati",
+   "tags": "",
+   "audio_hi": "vocab-audio/1400.mp3",
+   "audio_en": "vocab-audio/1327.mp3"
+  },
+  {
+   "hindi": "गुज़रना",
+   "english": "to spend (time)",
+   "tags": "",
+   "audio_hi": "vocab-audio/619.mp3",
+   "audio_en": "vocab-audio/299.mp3"
+  },
+  {
+   "hindi": "गुज़ारा",
+   "english": "livelihood, subsistence",
+   "tags": "",
+   "audio_hi": "vocab-audio/79.mp3",
+   "audio_en": "vocab-audio/1810.mp3"
+  },
+  {
+   "hindi": "गुरु",
+   "english": "teacher, guru",
+   "tags": "",
+   "audio_hi": "vocab-audio/1143.mp3",
+   "audio_en": "vocab-audio/1523.mp3"
+  },
+  {
+   "hindi": "गुस्ताख़ी",
+   "english": "rudeness, impertinence",
+   "tags": "",
+   "audio_hi": "vocab-audio/2333.mp3",
+   "audio_en": "vocab-audio/565.mp3"
+  },
+  {
+   "hindi": "गुस्सा",
+   "english": "anger",
+   "tags": "गुस्से में angry",
+   "audio_hi": "vocab-audio/2304.mp3",
+   "audio_en": "vocab-audio/973.mp3"
+  },
+  {
+   "hindi": "गोद",
+   "english": "lap",
+   "tags": "",
+   "audio_hi": "vocab-audio/625.mp3",
+   "audio_en": "vocab-audio/1833.mp3"
+  },
+  {
+   "hindi": "गोली",
+   "english": "tablet, pill",
+   "tags": "bullet",
+   "audio_hi": "vocab-audio/2159.mp3",
+   "audio_en": "vocab-audio/1420.mp3"
+  },
+  {
+   "hindi": "गोश्त",
+   "english": "meat",
+   "tags": "",
+   "audio_hi": "vocab-audio/1612.mp3",
+   "audio_en": "vocab-audio/1570.mp3"
+  },
+  {
+   "hindi": "ग्यारह",
+   "english": "eleven",
+   "tags": "",
+   "audio_hi": "vocab-audio/170.mp3",
+   "audio_en": "vocab-audio/1557.mp3"
+  },
+  {
+   "hindi": "ग्वालियर",
+   "english": "Gwalior",
+   "tags": "",
+   "audio_hi": "vocab-audio/1310.mp3",
+   "audio_en": "vocab-audio/1765.mp3"
+  },
+  {
+   "hindi": "घंटी",
+   "english": "bell",
+   "tags": "",
+   "audio_hi": "vocab-audio/610.mp3",
+   "audio_en": "vocab-audio/1611.mp3"
+  },
+  {
+   "hindi": "घटिया",
+   "english": "inferior, low grade",
+   "tags": "",
+   "audio_hi": "vocab-audio/1814.mp3",
+   "audio_en": "vocab-audio/993.mp3"
+  },
+  {
+   "hindi": "घड़ी",
+   "english": "wristwatch",
+   "tags": "",
+   "audio_hi": "vocab-audio/598.mp3",
+   "audio_en": "vocab-audio/65.mp3"
+  },
+  {
+   "hindi": "घना",
+   "english": "dense, thick",
+   "tags": "",
+   "audio_hi": "vocab-audio/327.mp3",
+   "audio_en": "vocab-audio/2242.mp3"
+  },
+  {
+   "hindi": "घर",
+   "english": "house, home",
+   "tags": "घर पर at home",
+   "audio_hi": "vocab-audio/580.mp3",
+   "audio_en": "vocab-audio/826.mp3"
+  },
+  {
+   "hindi": "घाट",
+   "english": "(steps at) riverbank",
+   "tags": "",
+   "audio_hi": "vocab-audio/956.mp3",
+   "audio_en": "vocab-audio/2291.mp3"
+  },
+  {
+   "hindi": "घास",
+   "english": "grass",
+   "tags": "",
+   "audio_hi": "vocab-audio/1978.mp3",
+   "audio_en": "vocab-audio/1071.mp3"
+  },
+  {
+   "hindi": "घुमाना",
+   "english": "to turn, make go round",
+   "tags": "",
+   "audio_hi": "vocab-audio/2293.mp3",
+   "audio_en": "vocab-audio/1100.mp3"
+  },
+  {
+   "hindi": "घुसना",
+   "english": "to enter (forcibly, or uninvited)",
+   "tags": "",
+   "audio_hi": "vocab-audio/467.mp3",
+   "audio_en": "vocab-audio/822.mp3"
+  },
+  {
+   "hindi": "घूमना",
+   "english": "to tour, roam, turn",
+   "tags": "",
+   "audio_hi": "vocab-audio/586.mp3",
+   "audio_en": "vocab-audio/555.mp3"
+  },
+  {
+   "hindi": "घोड़ा",
+   "english": "horse",
+   "tags": "",
+   "audio_hi": "vocab-audio/2141.mp3",
+   "audio_en": "vocab-audio/1771.mp3"
+  },
+  {
+   "hindi": "चटनी",
+   "english": "chutney",
+   "tags": "",
+   "audio_hi": "vocab-audio/2055.mp3",
+   "audio_en": "vocab-audio/868.mp3"
+  },
+  {
+   "hindi": "चतुर्थ",
+   "english": "fourth, IVth",
+   "tags": "",
+   "audio_hi": "vocab-audio/1353.mp3",
+   "audio_en": "vocab-audio/740.mp3"
+  },
+  {
+   "hindi": "चपरासी",
+   "english": "peon, orderly",
+   "tags": "",
+   "audio_hi": "vocab-audio/1567.mp3",
+   "audio_en": "vocab-audio/342.mp3"
+  },
+  {
+   "hindi": "चपाती",
+   "english": "chapatti",
+   "tags": "",
+   "audio_hi": "vocab-audio/1857.mp3",
+   "audio_en": "vocab-audio/1320.mp3"
+  },
+  {
+   "hindi": "चप्पल",
+   "english": "sandal",
+   "tags": "",
+   "audio_hi": "vocab-audio/382.mp3",
+   "audio_en": "vocab-audio/1216.mp3"
+  },
+  {
+   "hindi": "चम्मच",
+   "english": "spoon",
+   "tags": "",
+   "audio_hi": "vocab-audio/2265.mp3",
+   "audio_en": "vocab-audio/1867.mp3"
+  },
+  {
+   "hindi": "चलना",
+   "english": "to move, walk",
+   "tags": "चल पड़ना to set off;  वापस चलना to come back, come away;  अपनी राह चलना to go one&#x27;s way",
+   "audio_hi": "vocab-audio/2289.mp3",
+   "audio_en": "vocab-audio/895.mp3"
+  },
+  {
+   "hindi": "चलाना",
+   "english": "to drive",
+   "tags": "to run, manage",
+   "audio_hi": "vocab-audio/1781.mp3",
+   "audio_en": "vocab-audio/1508.mp3"
+  },
+  {
+   "hindi": "चश्मा",
+   "english": "glasses, specs",
+   "tags": "",
+   "audio_hi": "vocab-audio/898.mp3",
+   "audio_en": "vocab-audio/582.mp3"
+  },
+  {
+   "hindi": "चाँद",
+   "english": "moon",
+   "tags": "",
+   "audio_hi": "vocab-audio/2028.mp3",
+   "audio_en": "vocab-audio/1720.mp3"
+  },
+  {
+   "hindi": "चाँदी",
+   "english": "silver",
+   "tags": "",
+   "audio_hi": "vocab-audio/999.mp3",
+   "audio_en": "vocab-audio/2311.mp3"
+  },
+  {
+   "hindi": "चाचा",
+   "english": "(inv.) paternal uncle, father&#x27;s younger brother",
+   "tags": "",
+   "audio_hi": "vocab-audio/1438.mp3",
+   "audio_en": "vocab-audio/705.mp3"
+  },
+  {
+   "hindi": "चाबी",
+   "english": "key",
+   "tags": "",
+   "audio_hi": "vocab-audio/606.mp3",
+   "audio_en": "vocab-audio/1996.mp3"
+  },
+  {
+   "hindi": "चाय",
+   "english": "tea",
+   "tags": "",
+   "audio_hi": "vocab-audio/1184.mp3",
+   "audio_en": "vocab-audio/383.mp3"
+  },
+  {
+   "hindi": "चार",
+   "english": "four",
+   "tags": "",
+   "audio_hi": "vocab-audio/1363.mp3",
+   "audio_en": "vocab-audio/1192.mp3"
+  },
+  {
+   "hindi": "चावल",
+   "english": "rice",
+   "tags": "",
+   "audio_hi": "vocab-audio/532.mp3",
+   "audio_en": "vocab-audio/2184.mp3"
+  },
+  {
+   "hindi": "चाहना",
+   "english": "to want, wish",
+   "tags": "to be fond of",
+   "audio_hi": "vocab-audio/359.mp3",
+   "audio_en": "vocab-audio/211.mp3"
+  },
+  {
+   "hindi": "चाहिए",
+   "english": "(is) needed",
+   "tags": "(with infinitive) should, ought to",
+   "audio_hi": "vocab-audio/58.mp3",
+   "audio_en": "vocab-audio/2362.mp3"
+  },
+  {
+   "hindi": "चिंता",
+   "english": "anxiety, concern",
+   "tags": "",
+   "audio_hi": "vocab-audio/1172.mp3",
+   "audio_en": "vocab-audio/1460.mp3"
+  },
+  {
+   "hindi": "चिट्ठी",
+   "english": "letter, note, chit",
+   "tags": "",
+   "audio_hi": "vocab-audio/552.mp3",
+   "audio_en": "vocab-audio/792.mp3"
+  },
+  {
+   "hindi": "चिड़िया",
+   "english": "bird",
+   "tags": "",
+   "audio_hi": "vocab-audio/966.mp3",
+   "audio_en": "vocab-audio/1650.mp3"
+  },
+  {
+   "hindi": "चिढ़ाना",
+   "english": "to irritate, tease",
+   "tags": "",
+   "audio_hi": "vocab-audio/723.mp3",
+   "audio_en": "vocab-audio/2317.mp3"
+  },
+  {
+   "hindi": "चिल्लाना",
+   "english": "to shout",
+   "tags": "",
+   "audio_hi": "vocab-audio/937.mp3",
+   "audio_en": "vocab-audio/1891.mp3"
+  },
+  {
+   "hindi": "चुकना",
+   "english": "(after verb stem) to have already done",
+   "tags": "",
+   "audio_hi": "vocab-audio/2305.mp3",
+   "audio_en": "vocab-audio/875.mp3"
+  },
+  {
+   "hindi": "चुनना",
+   "english": "to choose",
+   "tags": "",
+   "audio_hi": "vocab-audio/1083.mp3",
+   "audio_en": "vocab-audio/1518.mp3"
+  },
+  {
+   "hindi": "चुप",
+   "english": "silent",
+   "tags": "चुप रहना to be quiet, shut up",
+   "audio_hi": "vocab-audio/1601.mp3",
+   "audio_en": "vocab-audio/1494.mp3"
+  },
+  {
+   "hindi": "चेहरा",
+   "english": "face, features",
+   "tags": "",
+   "audio_hi": "vocab-audio/2357.mp3",
+   "audio_en": "vocab-audio/1338.mp3"
+  },
+  {
+   "hindi": "चोर",
+   "english": "thief",
+   "tags": "",
+   "audio_hi": "vocab-audio/415.mp3",
+   "audio_en": "vocab-audio/2214.mp3"
+  },
+  {
+   "hindi": "चोरी",
+   "english": "theft, robbery",
+   "tags": "चोरी करना to steal",
+   "audio_hi": "vocab-audio/489.mp3",
+   "audio_en": "vocab-audio/28.mp3"
+  },
+  {
+   "hindi": "चौकीदार",
+   "english": "watchman",
+   "tags": "",
+   "audio_hi": "vocab-audio/2179.mp3",
+   "audio_en": "vocab-audio/1424.mp3"
+  },
+  {
+   "hindi": "चौथा",
+   "english": "fourth",
+   "tags": "",
+   "audio_hi": "vocab-audio/1797.mp3",
+   "audio_en": "vocab-audio/910.mp3"
+  },
+  {
+   "hindi": "चौदह",
+   "english": "fourteen",
+   "tags": "14th of lunar month, full moon day",
+   "audio_hi": "vocab-audio/180.mp3",
+   "audio_en": "vocab-audio/2303.mp3"
+  },
+  {
+   "hindi": "छठा",
+   "english": "sixth",
+   "tags": "",
+   "audio_hi": "vocab-audio/627.mp3",
+   "audio_en": "vocab-audio/566.mp3"
+  },
+  {
+   "hindi": "छपना",
+   "english": "to be printed",
+   "tags": "",
+   "audio_hi": "vocab-audio/212.mp3",
+   "audio_en": "vocab-audio/2169.mp3"
+  },
+  {
+   "hindi": "छह",
+   "english": "six",
+   "tags": "",
+   "audio_hi": "vocab-audio/494.mp3",
+   "audio_en": "vocab-audio/199.mp3"
+  },
+  {
+   "hindi": "छाता",
+   "english": "umbrella",
+   "tags": "",
+   "audio_hi": "vocab-audio/1921.mp3",
+   "audio_en": "vocab-audio/433.mp3"
+  },
+  {
+   "hindi": "छात्र",
+   "english": "student",
+   "tags": "",
+   "audio_hi": "vocab-audio/69.mp3",
+   "audio_en": "vocab-audio/1175.mp3"
+  },
+  {
+   "hindi": "छात्रवृत्ति",
+   "english": "scholarship",
+   "tags": "",
+   "audio_hi": "vocab-audio/1696.mp3",
+   "audio_en": "vocab-audio/116.mp3"
+  },
+  {
+   "hindi": "छात्रा",
+   "english": "female student",
+   "tags": "",
+   "audio_hi": "vocab-audio/1690.mp3",
+   "audio_en": "vocab-audio/1457.mp3"
+  },
+  {
+   "hindi": "छुटभैय्या",
+   "english": "a nobody, person of no importance",
+   "tags": "",
+   "audio_hi": "vocab-audio/516.mp3",
+   "audio_en": "vocab-audio/289.mp3"
+  },
+  {
+   "hindi": "छुट्टी",
+   "english": "holiday",
+   "tags": "free time",
+   "audio_hi": "vocab-audio/1445.mp3",
+   "audio_en": "vocab-audio/1031.mp3"
+  },
+  {
+   "hindi": "छुरी",
+   "english": "knife",
+   "tags": "",
+   "audio_hi": "vocab-audio/316.mp3",
+   "audio_en": "vocab-audio/908.mp3"
+  },
+  {
+   "hindi": "छेड़ना",
+   "english": "to stir up, start up",
+   "tags": "",
+   "audio_hi": "vocab-audio/585.mp3",
+   "audio_en": "vocab-audio/2176.mp3"
+  },
+  {
+   "hindi": "छोकरी",
+   "english": "young girl, lass",
+   "tags": "",
+   "audio_hi": "vocab-audio/2255.mp3",
+   "audio_en": "vocab-audio/1546.mp3"
+  },
+  {
+   "hindi": "छोटा",
+   "english": "small, little",
+   "tags": "",
+   "audio_hi": "vocab-audio/310.mp3",
+   "audio_en": "vocab-audio/2188.mp3"
+  },
+  {
+   "hindi": "छोड़कर",
+   "english": "apart from, except for",
+   "tags": "",
+   "audio_hi": "vocab-audio/0.mp3",
+   "audio_en": "vocab-audio/365.mp3"
+  },
+  {
+   "hindi": "जंगल",
+   "english": "jungle, scrub",
+   "tags": "",
+   "audio_hi": "vocab-audio/2024.mp3",
+   "audio_en": "vocab-audio/1294.mp3"
+  },
+  {
+   "hindi": "जंगली",
+   "english": "wild",
+   "tags": "",
+   "audio_hi": "vocab-audio/328.mp3",
+   "audio_en": "vocab-audio/312.mp3"
+  },
+  {
+   "hindi": "जंभाई",
+   "english": "yawn",
+   "tags": "जम्भाई लेना to yawn",
+   "audio_hi": "vocab-audio/1193.mp3",
+   "audio_en": "vocab-audio/1550.mp3"
+  },
+  {
+   "hindi": "जगाना",
+   "english": "to arouse",
+   "tags": "",
+   "audio_hi": "vocab-audio/933.mp3",
+   "audio_en": "vocab-audio/1535.mp3"
+  },
+  {
+   "hindi": "जनता",
+   "english": "public, the people",
+   "tags": "",
+   "audio_hi": "vocab-audio/2314.mp3",
+   "audio_en": "vocab-audio/673.mp3"
+  },
+  {
+   "hindi": "जनवरी",
+   "english": "January",
+   "tags": "",
+   "audio_hi": "vocab-audio/113.mp3",
+   "audio_en": "vocab-audio/450.mp3"
+  },
+  {
+   "hindi": "जनाब",
+   "english": "sir",
+   "tags": "",
+   "audio_hi": "vocab-audio/1173.mp3",
+   "audio_en": "vocab-audio/2356.mp3"
+  },
+  {
+   "hindi": "जन्मदिन",
+   "english": "birthday",
+   "tags": "",
+   "audio_hi": "vocab-audio/716.mp3",
+   "audio_en": "vocab-audio/584.mp3"
+  },
+  {
+   "hindi": "जब",
+   "english": "when",
+   "tags": "while;  जब तक for as long as...;  तब तक for that long;  जब से since the time when...;  तब से since then",
+   "audio_hi": "vocab-audio/406.mp3",
+   "audio_en": "vocab-audio/1726.mp3"
+  },
+  {
+   "hindi": "ज़बान",
+   "english": "language, tongue",
+   "tags": "",
+   "audio_hi": "vocab-audio/1218.mp3",
+   "audio_en": "vocab-audio/793.mp3"
+  },
+  {
+   "hindi": "ज़माना",
+   "english": "period, age, time",
+   "tags": "",
+   "audio_hi": "vocab-audio/1628.mp3",
+   "audio_en": "vocab-audio/2268.mp3"
+  },
+  {
+   "hindi": "ज़मीन",
+   "english": "land",
+   "tags": "",
+   "audio_hi": "vocab-audio/1790.mp3",
+   "audio_en": "vocab-audio/1037.mp3"
+  },
+  {
+   "hindi": "ज़रा",
+   "english": "just, a little",
+   "tags": "",
+   "audio_hi": "vocab-audio/1918.mp3",
+   "audio_en": "vocab-audio/554.mp3"
+  },
+  {
+   "hindi": "ज़रूर",
+   "english": "of course",
+   "tags": "",
+   "audio_hi": "vocab-audio/1228.mp3",
+   "audio_en": "vocab-audio/500.mp3"
+  },
+  {
+   "hindi": "ज़रूरत",
+   "english": "need",
+   "tags": "",
+   "audio_hi": "vocab-audio/249.mp3",
+   "audio_en": "vocab-audio/1488.mp3"
+  },
+  {
+   "hindi": "ज़रूरी",
+   "english": "necessary, urgent",
+   "tags": "",
+   "audio_hi": "vocab-audio/1168.mp3",
+   "audio_en": "vocab-audio/1084.mp3"
+  },
+  {
+   "hindi": "जर्मन",
+   "english": "German",
+   "tags": "",
+   "audio_hi": "vocab-audio/1388.mp3",
+   "audio_en": "vocab-audio/893.mp3"
+  },
+  {
+   "hindi": "जलना",
+   "english": "to burn",
+   "tags": "",
+   "audio_hi": "vocab-audio/1039.mp3",
+   "audio_en": "vocab-audio/1185.mp3"
+  },
+  {
+   "hindi": "जल्दी",
+   "english": "quickly",
+   "tags": "soon;  early",
+   "audio_hi": "vocab-audio/471.mp3",
+   "audio_en": "vocab-audio/737.mp3"
+  },
+  {
+   "hindi": "जवान",
+   "english": "young, youthful",
+   "tags": "soldier",
+   "audio_hi": "vocab-audio/1351.mp3",
+   "audio_en": "vocab-audio/1579.mp3"
+  },
+  {
+   "hindi": "जवाब",
+   "english": "reply, answer",
+   "tags": "जवाब देना to reply",
+   "audio_hi": "vocab-audio/451.mp3",
+   "audio_en": "vocab-audio/2131.mp3"
+  },
+  {
+   "hindi": "जानना",
+   "english": "to know",
+   "tags": "जानबूझकर deliberately, knowingly;  जाना-पहचाना recognised, well known",
+   "audio_hi": "vocab-audio/2324.mp3",
+   "audio_en": "vocab-audio/1156.mp3"
+  },
+  {
+   "hindi": "जाना",
+   "english": "to go",
+   "tags": "",
+   "audio_hi": "vocab-audio/1980.mp3",
+   "audio_en": "vocab-audio/1127.mp3"
+  },
+  {
+   "hindi": "जानवर",
+   "english": "animal",
+   "tags": "",
+   "audio_hi": "vocab-audio/1602.mp3",
+   "audio_en": "vocab-audio/2095.mp3"
+  },
+  {
+   "hindi": "जापानी",
+   "english": "Japanese",
+   "tags": "",
+   "audio_hi": "vocab-audio/724.mp3",
+   "audio_en": "vocab-audio/1414.mp3"
+  },
+  {
+   "hindi": "ज़ाहिर",
+   "english": "clear, evident",
+   "tags": "",
+   "audio_hi": "vocab-audio/2243.mp3",
+   "audio_en": "vocab-audio/2123.mp3"
+  },
+  {
+   "hindi": "ज़िंदगी",
+   "english": "life",
+   "tags": "",
+   "audio_hi": "vocab-audio/886.mp3",
+   "audio_en": "vocab-audio/1825.mp3"
+  },
+  {
+   "hindi": "ज़िद",
+   "english": "obstinacy",
+   "tags": "",
+   "audio_hi": "vocab-audio/987.mp3",
+   "audio_en": "vocab-audio/1890.mp3"
+  },
+  {
+   "hindi": "ज़िद्दी",
+   "english": "obstinate, stubborn",
+   "tags": "",
+   "audio_hi": "vocab-audio/669.mp3",
+   "audio_en": "vocab-audio/2087.mp3"
+  },
+  {
+   "hindi": "जीव",
+   "english": "soul, heart (poetic)",
+   "tags": "",
+   "audio_hi": "vocab-audio/1702.mp3",
+   "audio_en": "vocab-audio/131.mp3"
+  },
+  {
+   "hindi": "जी",
+   "english": "(respect-marker)",
+   "tags": "yes;  no;  जी yes",
+   "audio_hi": "vocab-audio/222.mp3",
+   "audio_en": "vocab-audio/374.mp3"
+  },
+  {
+   "hindi": "जी-हुज़ूरी",
+   "english": "sycophancy, flattery",
+   "tags": "",
+   "audio_hi": "vocab-audio/148.mp3",
+   "audio_en": "vocab-audio/612.mp3"
+  },
+  {
+   "hindi": "जीना",
+   "english": "to live, be alive",
+   "tags": "जीते रहो bless you (&#x27;stay living&#x27;)",
+   "audio_hi": "vocab-audio/899.mp3",
+   "audio_en": "vocab-audio/1467.mp3"
+  },
+  {
+   "hindi": "जीवन",
+   "english": "life",
+   "tags": "",
+   "audio_hi": "vocab-audio/886.mp3",
+   "audio_en": "vocab-audio/1418.mp3"
+  },
+  {
+   "hindi": "ज़ुकाम",
+   "english": "a cold",
+   "tags": "",
+   "audio_hi": "vocab-audio/1923.mp3",
+   "audio_en": "vocab-audio/1233.mp3"
+  },
+  {
+   "hindi": "जूता",
+   "english": "shoe",
+   "tags": "pair of shoes",
+   "audio_hi": "vocab-audio/1782.mp3",
+   "audio_en": "vocab-audio/2002.mp3"
+  },
+  {
+   "hindi": "जून",
+   "english": "June",
+   "tags": "",
+   "audio_hi": "vocab-audio/339.mp3",
+   "audio_en": "vocab-audio/226.mp3"
+  },
+  {
+   "hindi": "जेब",
+   "english": "pocket",
+   "tags": "",
+   "audio_hi": "vocab-audio/11.mp3",
+   "audio_en": "vocab-audio/1309.mp3"
+  },
+  {
+   "hindi": "ज़ेवर",
+   "english": "(item of) jewellery",
+   "tags": "",
+   "audio_hi": "vocab-audio/171.mp3",
+   "audio_en": "vocab-audio/487.mp3"
+  },
+  {
+   "hindi": "जैसा",
+   "english": "like, such as",
+   "tags": "जैसा... वैसा... as... so...;  as if, as though;  as soon as",
+   "audio_hi": "vocab-audio/2339.mp3",
+   "audio_en": "vocab-audio/2197.mp3"
+  },
+  {
+   "hindi": "जो",
+   "english": "(the one) who/which",
+   "tags": "जो भी whatever;  whoever;  जो कोई whoever, whatever",
+   "audio_hi": "vocab-audio/1850.mp3",
+   "audio_en": "vocab-audio/231.mp3"
+  },
+  {
+   "hindi": "जोड़ना",
+   "english": "to add",
+   "tags": "to save",
+   "audio_hi": "vocab-audio/60.mp3",
+   "audio_en": "vocab-audio/2081.mp3"
+  },
+  {
+   "hindi": "ज़ोर",
+   "english": "force, strength",
+   "tags": "",
+   "audio_hi": "vocab-audio/1703.mp3",
+   "audio_en": "vocab-audio/354.mp3"
+  },
+  {
+   "hindi": "ज़्यादा",
+   "english": "much, many, more",
+   "tags": "ज़्यादा से ज़्यादा at the most",
+   "audio_hi": "vocab-audio/1403.mp3",
+   "audio_en": "vocab-audio/102.mp3"
+  },
+  {
+   "hindi": "ज़्यादातर",
+   "english": "mostly, most",
+   "tags": "",
+   "audio_hi": "vocab-audio/657.mp3",
+   "audio_en": "vocab-audio/1223.mp3"
+  },
+  {
+   "hindi": "झगड़ा",
+   "english": "quarrel, row",
+   "tags": "",
+   "audio_hi": "vocab-audio/1677.mp3",
+   "audio_en": "vocab-audio/255.mp3"
+  },
+  {
+   "hindi": "झाड़ना",
+   "english": "to spout, pour",
+   "tags": "",
+   "audio_hi": "vocab-audio/1705.mp3",
+   "audio_en": "vocab-audio/1717.mp3"
+  },
+  {
+   "hindi": "झूठ",
+   "english": "lie",
+   "tags": "",
+   "audio_hi": "vocab-audio/81.mp3",
+   "audio_en": "vocab-audio/830.mp3"
+  },
+  {
+   "hindi": "झूमना",
+   "english": "to sway",
+   "tags": "",
+   "audio_hi": "vocab-audio/1934.mp3",
+   "audio_en": "vocab-audio/1749.mp3"
+  },
+  {
+   "hindi": "झेपना",
+   "english": "to be embarrassed",
+   "tags": "",
+   "audio_hi": "vocab-audio/1122.mp3",
+   "audio_en": "vocab-audio/1811.mp3"
+  },
+  {
+   "hindi": "टकराना",
+   "english": "to collide",
+   "tags": "",
+   "audio_hi": "vocab-audio/1655.mp3",
+   "audio_en": "vocab-audio/1265.mp3"
+  },
+  {
+   "hindi": "टपकना",
+   "english": "to drop in, appear unexpectedly",
+   "tags": "",
+   "audio_hi": "vocab-audio/520.mp3",
+   "audio_en": "vocab-audio/1036.mp3"
+  },
+  {
+   "hindi": "टहलना",
+   "english": "to stroll",
+   "tags": "",
+   "audio_hi": "vocab-audio/501.mp3",
+   "audio_en": "vocab-audio/1691.mp3"
+  },
+  {
+   "hindi": "टिकट",
+   "english": "ticket",
+   "tags": "stamp",
+   "audio_hi": "vocab-audio/592.mp3",
+   "audio_en": "vocab-audio/1877.mp3"
+  },
+  {
+   "hindi": "टुकड़ा",
+   "english": "piece, bit",
+   "tags": "",
+   "audio_hi": "vocab-audio/684.mp3",
+   "audio_en": "vocab-audio/549.mp3"
+  },
+  {
+   "hindi": "टेढ़ा",
+   "english": "twisted, complex",
+   "tags": "",
+   "audio_hi": "vocab-audio/928.mp3",
+   "audio_en": "vocab-audio/1855.mp3"
+  },
+  {
+   "hindi": "टैक्सी",
+   "english": "taxi",
+   "tags": "",
+   "audio_hi": "vocab-audio/1002.mp3",
+   "audio_en": "vocab-audio/1621.mp3"
+  },
+  {
+   "hindi": "ट्रेकिंग",
+   "english": "trekking",
+   "tags": "",
+   "audio_hi": "vocab-audio/992.mp3",
+   "audio_en": "vocab-audio/2001.mp3"
+  },
+  {
+   "hindi": "ट्रेन",
+   "english": "train",
+   "tags": "",
+   "audio_hi": "vocab-audio/2332.mp3",
+   "audio_en": "vocab-audio/142.mp3"
+  },
+  {
+   "hindi": "ठंड",
+   "english": "cold",
+   "tags": "",
+   "audio_hi": "vocab-audio/1935.mp3",
+   "audio_en": "vocab-audio/1784.mp3"
+  },
+  {
+   "hindi": "ठंडा",
+   "english": "cold",
+   "tags": "",
+   "audio_hi": "vocab-audio/1935.mp3",
+   "audio_en": "vocab-audio/1545.mp3"
+  },
+  {
+   "hindi": "ठग",
+   "english": "swindler, robber",
+   "tags": "",
+   "audio_hi": "vocab-audio/322.mp3",
+   "audio_en": "vocab-audio/1263.mp3"
+  },
+  {
+   "hindi": "ठहरना",
+   "english": "to stop, wait, stay",
+   "tags": "",
+   "audio_hi": "vocab-audio/785.mp3",
+   "audio_en": "vocab-audio/305.mp3"
+  },
+  {
+   "hindi": "ठीक",
+   "english": "all right",
+   "tags": "exactly;  ठीक करना to put right, fix;  ठीक से properly;  exactly",
+   "audio_hi": "vocab-audio/192.mp3",
+   "audio_en": "vocab-audio/2345.mp3"
+  },
+  {
+   "hindi": "डरना",
+   "english": "to fear",
+   "tags": "",
+   "audio_hi": "vocab-audio/2203.mp3",
+   "audio_en": "vocab-audio/1766.mp3"
+  },
+  {
+   "hindi": "तार",
+   "english": "thread",
+   "tags": "",
+   "audio_hi": "vocab-audio/1361.mp3",
+   "audio_en": "vocab-audio/121.mp3"
+  },
+  {
+   "hindi": "डांटना",
+   "english": "to scold",
+   "tags": "",
+   "audio_hi": "vocab-audio/1614.mp3",
+   "audio_en": "vocab-audio/2257.mp3"
+  },
+  {
+   "hindi": "डाक",
+   "english": "mail, post",
+   "tags": "",
+   "audio_hi": "vocab-audio/53.mp3",
+   "audio_en": "vocab-audio/215.mp3"
+  },
+  {
+   "hindi": "डाकघर",
+   "english": "post office",
+   "tags": "",
+   "audio_hi": "vocab-audio/1326.mp3",
+   "audio_en": "vocab-audio/2039.mp3"
+  },
+  {
+   "hindi": "डाकू",
+   "english": "dacoit, bandit",
+   "tags": "",
+   "audio_hi": "vocab-audio/391.mp3",
+   "audio_en": "vocab-audio/325.mp3"
+  },
+  {
+   "hindi": "डॉक्टर",
+   "english": "doctor",
+   "tags": "",
+   "audio_hi": "vocab-audio/1802.mp3",
+   "audio_en": "vocab-audio/329.mp3"
+  },
+  {
+   "hindi": "डायलॉग",
+   "english": "dialogue",
+   "tags": "",
+   "audio_hi": "vocab-audio/419.mp3",
+   "audio_en": "vocab-audio/1817.mp3"
+  },
+  {
+   "hindi": "डाल",
+   "english": "branch (of tree)",
+   "tags": "",
+   "audio_hi": "vocab-audio/744.mp3",
+   "audio_en": "vocab-audio/2114.mp3"
+  },
+  {
+   "hindi": "डिग्री",
+   "english": "degree",
+   "tags": "",
+   "audio_hi": "vocab-audio/1893.mp3",
+   "audio_en": "vocab-audio/1815.mp3"
+  },
+  {
+   "hindi": "डिनर",
+   "english": "dinner",
+   "tags": "",
+   "audio_hi": "vocab-audio/2143.mp3",
+   "audio_en": "vocab-audio/976.mp3"
+  },
+  {
+   "hindi": "डिब्बा",
+   "english": "box",
+   "tags": "compartment",
+   "audio_hi": "vocab-audio/2104.mp3",
+   "audio_en": "vocab-audio/1102.mp3"
+  },
+  {
+   "hindi": "ड्राइवर",
+   "english": "driver",
+   "tags": "",
+   "audio_hi": "vocab-audio/366.mp3",
+   "audio_en": "vocab-audio/1519.mp3"
+  },
+  {
+   "hindi": "ढंग",
+   "english": "way, manner",
+   "tags": "",
+   "audio_hi": "vocab-audio/1421.mp3",
+   "audio_en": "vocab-audio/55.mp3"
+  },
+  {
+   "hindi": "ढूँढ़ना",
+   "english": "to look for, find",
+   "tags": "",
+   "audio_hi": "vocab-audio/1166.mp3",
+   "audio_en": "vocab-audio/1287.mp3"
+  },
+  {
+   "hindi": "ढेर",
+   "english": "pile, heap",
+   "tags": "",
+   "audio_hi": "vocab-audio/242.mp3",
+   "audio_en": "vocab-audio/1709.mp3"
+  },
+  {
+   "hindi": "ढोल",
+   "english": "drum",
+   "tags": "",
+   "audio_hi": "vocab-audio/1075.mp3",
+   "audio_en": "vocab-audio/136.mp3"
+  },
+  {
+   "hindi": "तंग",
+   "english": "narrow",
+   "tags": "तंग आना to get fed up;  तंग करना to harass",
+   "audio_hi": "vocab-audio/2226.mp3",
+   "audio_en": "vocab-audio/1946.mp3"
+  },
+  {
+   "hindi": "तक",
+   "english": "up to, as far as",
+   "tags": "for (in time)",
+   "audio_hi": "vocab-audio/637.mp3",
+   "audio_en": "vocab-audio/431.mp3"
+  },
+  {
+   "hindi": "तकलीफ",
+   "english": "trouble, distress",
+   "tags": "",
+   "audio_hi": "vocab-audio/860.mp3",
+   "audio_en": "vocab-audio/1171.mp3"
+  },
+  {
+   "hindi": "तथापि",
+   "english": "nevertheless, even so",
+   "tags": "",
+   "audio_hi": "vocab-audio/1379.mp3",
+   "audio_en": "vocab-audio/281.mp3"
+  },
+  {
+   "hindi": "तबला",
+   "english": "tabla (drum)",
+   "tags": "",
+   "audio_hi": "vocab-audio/1534.mp3",
+   "audio_en": "vocab-audio/1568.mp3"
+  },
+  {
+   "hindi": "तबियत",
+   "english": "health",
+   "tags": "",
+   "audio_hi": "vocab-audio/57.mp3",
+   "audio_en": "vocab-audio/1180.mp3"
+  },
+  {
+   "hindi": "तमाशा",
+   "english": "spectacle, show",
+   "tags": "",
+   "audio_hi": "vocab-audio/2139.mp3",
+   "audio_en": "vocab-audio/529.mp3"
+  },
+  {
+   "hindi": "तय",
+   "english": "ready",
+   "tags": "तय करना to prepare",
+   "audio_hi": "vocab-audio/1305.mp3",
+   "audio_en": "vocab-audio/295.mp3"
+  },
+  {
+   "hindi": "तैरना",
+   "english": "to swim",
+   "tags": "",
+   "audio_hi": "vocab-audio/798.mp3",
+   "audio_en": "vocab-audio/2253.mp3"
+  },
+  {
+   "hindi": "तो",
+   "english": "so, then",
+   "tags": "as for;  तो for sure",
+   "audio_hi": "vocab-audio/959.mp3",
+   "audio_en": "vocab-audio/2279.mp3"
+  },
+  {
+   "hindi": "तोहफ़ा",
+   "english": "a present",
+   "tags": "",
+   "audio_hi": "vocab-audio/153.mp3",
+   "audio_en": "vocab-audio/1134.mp3"
+  },
+  {
+   "hindi": "थकना",
+   "english": "to be tired",
+   "tags": "",
+   "audio_hi": "vocab-audio/264.mp3",
+   "audio_en": "vocab-audio/2348.mp3"
+  },
+  {
+   "hindi": "था, थी, थे, थीं",
+   "english": "was, were",
+   "tags": "",
+   "audio_hi": "vocab-audio/144.mp3",
+   "audio_en": "vocab-audio/1987.mp3"
+  },
+  {
+   "hindi": "थामना",
+   "english": "to hold, support",
+   "tags": "",
+   "audio_hi": "vocab-audio/1331.mp3",
+   "audio_en": "vocab-audio/634.mp3"
+  },
+  {
+   "hindi": "थाली",
+   "english": "platter",
+   "tags": "",
+   "audio_hi": "vocab-audio/1380.mp3",
+   "audio_en": "vocab-audio/1522.mp3"
+  },
+  {
+   "hindi": "थैला",
+   "english": "bag, cloth bag",
+   "tags": "",
+   "audio_hi": "vocab-audio/307.mp3",
+   "audio_en": "vocab-audio/1155.mp3"
+  },
+  {
+   "hindi": "थोड़ा",
+   "english": "a little, a few",
+   "tags": "a certain amount;  थोड़ा-बहुत by no means",
+   "audio_hi": "vocab-audio/1274.mp3",
+   "audio_en": "vocab-audio/1321.mp3"
+  },
+  {
+   "hindi": "दंगा",
+   "english": "riot",
+   "tags": "",
+   "audio_hi": "vocab-audio/1871.mp3",
+   "audio_en": "vocab-audio/1954.mp3"
+  },
+  {
+   "hindi": "दक्षिण",
+   "english": "south",
+   "tags": "",
+   "audio_hi": "vocab-audio/1279.mp3",
+   "audio_en": "vocab-audio/1936.mp3"
+  },
+  {
+   "hindi": "दफ़ा",
+   "english": "time, occasion",
+   "tags": "",
+   "audio_hi": "vocab-audio/1794.mp3",
+   "audio_en": "vocab-audio/1101.mp3"
+  },
+  {
+   "hindi": "दफ़्तर",
+   "english": "office",
+   "tags": "",
+   "audio_hi": "vocab-audio/1008.mp3",
+   "audio_en": "vocab-audio/133.mp3"
+  },
+  {
+   "hindi": "दबाना",
+   "english": "to yield, cower",
+   "tags": "",
+   "audio_hi": "vocab-audio/755.mp3",
+   "audio_en": "vocab-audio/2328.mp3"
+  },
+  {
+   "hindi": "दया",
+   "english": "compassion",
+   "tags": "",
+   "audio_hi": "vocab-audio/2199.mp3",
+   "audio_en": "vocab-audio/1830.mp3"
+  },
+  {
+   "hindi": "दरवाज़ा",
+   "english": "door",
+   "tags": "",
+   "audio_hi": "vocab-audio/1866.mp3",
+   "audio_en": "vocab-audio/44.mp3"
+  },
+  {
+   "hindi": "दराज़",
+   "english": "drawer",
+   "tags": "",
+   "audio_hi": "vocab-audio/1755.mp3",
+   "audio_en": "vocab-audio/432.mp3"
+  },
+  {
+   "hindi": "दर",
+   "english": "rug, mat",
+   "tags": "",
+   "audio_hi": "vocab-audio/2334.mp3",
+   "audio_en": "vocab-audio/522.mp3"
+  },
+  {
+   "hindi": "दरजन",
+   "english": "a dozen",
+   "tags": "",
+   "audio_hi": "vocab-audio/9.mp3",
+   "audio_en": "vocab-audio/1311.mp3"
+  },
+  {
+   "hindi": "दरज़ी",
+   "english": "tailor",
+   "tags": "",
+   "audio_hi": "vocab-audio/2234.mp3",
+   "audio_en": "vocab-audio/1226.mp3"
+  },
+  {
+   "hindi": "दर्शन",
+   "english": "vision, audience or auspicious meeting",
+   "tags": "",
+   "audio_hi": "vocab-audio/1879.mp3",
+   "audio_en": "vocab-audio/1727.mp3"
+  },
+  {
+   "hindi": "दल",
+   "english": "political party",
+   "tags": "",
+   "audio_hi": "vocab-audio/1925.mp3",
+   "audio_en": "vocab-audio/400.mp3"
+  },
+  {
+   "hindi": "दस",
+   "english": "ten",
+   "tags": "",
+   "audio_hi": "vocab-audio/1874.mp3",
+   "audio_en": "vocab-audio/1292.mp3"
+  },
+  {
+   "hindi": "दवा",
+   "english": "medicine",
+   "tags": "",
+   "audio_hi": "vocab-audio/1141.mp3",
+   "audio_en": "vocab-audio/1775.mp3"
+  },
+  {
+   "hindi": "दादा",
+   "english": "(inv.) paternal grandfather",
+   "tags": "",
+   "audio_hi": "vocab-audio/2259.mp3",
+   "audio_en": "vocab-audio/925.mp3"
+  },
+  {
+   "hindi": "दादी",
+   "english": "paternal grandmother",
+   "tags": "",
+   "audio_hi": "vocab-audio/477.mp3",
+   "audio_en": "vocab-audio/2212.mp3"
+  },
+  {
+   "hindi": "दम",
+   "english": "price",
+   "tags": "",
+   "audio_hi": "vocab-audio/859.mp3",
+   "audio_en": "vocab-audio/257.mp3"
+  },
+  {
+   "hindi": "दाल",
+   "english": "daal, lentils",
+   "tags": "",
+   "audio_hi": "vocab-audio/232.mp3",
+   "audio_en": "vocab-audio/2.mp3"
+  },
+  {
+   "hindi": "दावत",
+   "english": "(invitation to) a dinner",
+   "tags": "",
+   "audio_hi": "vocab-audio/2353.mp3",
+   "audio_en": "vocab-audio/1503.mp3"
+  },
+  {
+   "hindi": "दास्तान",
+   "english": "tale (poetic)",
+   "tags": "",
+   "audio_hi": "vocab-audio/2364.mp3",
+   "audio_en": "vocab-audio/1061.mp3"
+  },
+  {
+   "hindi": "दाहिना",
+   "english": "right (opp. left)",
+   "tags": "",
+   "audio_hi": "vocab-audio/1205.mp3",
+   "audio_en": "vocab-audio/125.mp3"
+  },
+  {
+   "hindi": "दिखाई देना/पड़ना",
+   "english": "to be visible, appear",
+   "tags": "",
+   "audio_hi": "vocab-audio/1524.mp3",
+   "audio_en": "vocab-audio/1739.mp3"
+  },
+  {
+   "hindi": "दिन",
+   "english": "day",
+   "tags": "दिन भर all day",
+   "audio_hi": "vocab-audio/1329.mp3",
+   "audio_en": ""
+  },
+  {
+   "hindi": "दिल",
+   "english": "heart",
+   "tags": "दिल लगाना to feel at home;  to be in love",
+   "audio_hi": "vocab-audio/1348.mp3",
+   "audio_en": "vocab-audio/1214.mp3"
+  },
+  {
+   "hindi": "दिलचस्प",
+   "english": "interesting",
+   "tags": "",
+   "audio_hi": "vocab-audio/1517.mp3",
+   "audio_en": "vocab-audio/1846.mp3"
+  },
+  {
+   "hindi": "दिलवाना",
+   "english": "to cause to be given",
+   "tags": "",
+   "audio_hi": "vocab-audio/427.mp3",
+   "audio_en": "vocab-audio/525.mp3"
+  },
+  {
+   "hindi": "दिल का",
+   "english": "of the heart",
+   "tags": "",
+   "audio_hi": "vocab-audio/2185.mp3",
+   "audio_en": "vocab-audio/854.mp3"
+  },
+  {
+   "hindi": "दिल्ली",
+   "english": "Delhi",
+   "tags": "",
+   "audio_hi": "vocab-audio/704.mp3",
+   "audio_en": "vocab-audio/920.mp3"
+  },
+  {
+   "hindi": "दीवार",
+   "english": "wall",
+   "tags": "",
+   "audio_hi": "vocab-audio/1973.mp3",
+   "audio_en": "vocab-audio/207.mp3"
+  },
+  {
+   "hindi": "दुकान",
+   "english": "shop",
+   "tags": "",
+   "audio_hi": "vocab-audio/779.mp3",
+   "audio_en": "vocab-audio/440.mp3"
+  },
+  {
+   "hindi": "दुकानदार",
+   "english": "shopkeeper",
+   "tags": "",
+   "audio_hi": "vocab-audio/26.mp3",
+   "audio_en": "vocab-audio/559.mp3"
+  },
+  {
+   "hindi": "दुनिया",
+   "english": "world",
+   "tags": "",
+   "audio_hi": "vocab-audio/1006.mp3",
+   "audio_en": "vocab-audio/1139.mp3"
+  },
+  {
+   "hindi": "दुबला",
+   "english": "thin",
+   "tags": "thin, slight of build",
+   "audio_hi": "vocab-audio/2232.mp3",
+   "audio_en": "vocab-audio/1585.mp3"
+  },
+  {
+   "hindi": "दुबारा",
+   "english": "again, second time",
+   "tags": "",
+   "audio_hi": "vocab-audio/206.mp3",
+   "audio_en": "vocab-audio/1858.mp3"
+  },
+  {
+   "hindi": "दुर्घटना",
+   "english": "accident",
+   "tags": "",
+   "audio_hi": "vocab-audio/1128.mp3",
+   "audio_en": "vocab-audio/457.mp3"
+  },
+  {
+   "hindi": "दूध",
+   "english": "milk",
+   "tags": "",
+   "audio_hi": "vocab-audio/1001.mp3",
+   "audio_en": "vocab-audio/2022.mp3"
+  },
+  {
+   "hindi": "दूर",
+   "english": "distant, far, remote",
+   "tags": "",
+   "audio_hi": "vocab-audio/998.mp3",
+   "audio_en": "vocab-audio/632.mp3"
+  },
+  {
+   "hindi": "दूरदर्शन",
+   "english": "television",
+   "tags": "दूरदर्शन (Indian TV network)",
+   "audio_hi": "vocab-audio/1207.mp3",
+   "audio_en": "vocab-audio/1082.mp3"
+  },
+  {
+   "hindi": "देखना",
+   "english": "to see, look",
+   "tags": "",
+   "audio_hi": "vocab-audio/376.mp3",
+   "audio_en": "vocab-audio/488.mp3"
+  },
+  {
+   "hindi": "देखभाल",
+   "english": "supervision, care",
+   "tags": "देखभाल करना to take care of",
+   "audio_hi": "vocab-audio/946.mp3",
+   "audio_en": "vocab-audio/1510.mp3"
+  },
+  {
+   "hindi": "देव",
+   "english": "contribution, gift",
+   "tags": "",
+   "audio_hi": "vocab-audio/1325.mp3",
+   "audio_en": "vocab-audio/1302.mp3"
+  },
+  {
+   "hindi": "देना",
+   "english": "to give",
+   "tags": "(with oblique inf.) to allow to, let",
+   "audio_hi": "vocab-audio/371.mp3",
+   "audio_en": "vocab-audio/1586.mp3"
+  },
+  {
+   "hindi": "देर",
+   "english": "delay, a while",
+   "tags": "until late;  देर से late",
+   "audio_hi": "vocab-audio/2082.mp3",
+   "audio_en": "vocab-audio/635.mp3"
+  },
+  {
+   "hindi": "देवनागरी",
+   "english": "Devanagari script",
+   "tags": "",
+   "audio_hi": "vocab-audio/1186.mp3",
+   "audio_en": "vocab-audio/2083.mp3"
+  },
+  {
+   "hindi": "देवर",
+   "english": "husband&#x27;s younger brother",
+   "tags": "",
+   "audio_hi": "vocab-audio/591.mp3",
+   "audio_en": "vocab-audio/338.mp3"
+  },
+  {
+   "hindi": "देश",
+   "english": "country",
+   "tags": "",
+   "audio_hi": "vocab-audio/1747.mp3",
+   "audio_en": "vocab-audio/426.mp3"
+  },
+  {
+   "hindi": "देहांत",
+   "english": "death, demise",
+   "tags": "देहांत होना to die",
+   "audio_hi": "vocab-audio/1768.mp3",
+   "audio_en": "vocab-audio/817.mp3"
+  },
+  {
+   "hindi": "दो",
+   "english": "two",
+   "tags": "",
+   "audio_hi": "vocab-audio/556.mp3",
+   "audio_en": "vocab-audio/985.mp3"
+  },
+  {
+   "hindi": "दोनों",
+   "english": "both",
+   "tags": "",
+   "audio_hi": "vocab-audio/839.mp3",
+   "audio_en": "vocab-audio/1543.mp3"
+  },
+  {
+   "hindi": "दोपहर",
+   "english": "noon, afternoon",
+   "tags": "दोपहर का खाना lunch",
+   "audio_hi": "vocab-audio/1559.mp3",
+   "audio_en": "vocab-audio/2309.mp3"
+  },
+  {
+   "hindi": "दोस्त",
+   "english": "friend",
+   "tags": "",
+   "audio_hi": "vocab-audio/665.mp3",
+   "audio_en": "vocab-audio/1558.mp3"
+  },
+  {
+   "hindi": "दौड़ना",
+   "english": "to run",
+   "tags": "",
+   "audio_hi": "vocab-audio/641.mp3",
+   "audio_en": "vocab-audio/1640.mp3"
+  },
+  {
+   "hindi": "द्वारा",
+   "english": "द्वारा by, by means of",
+   "tags": "",
+   "audio_hi": "vocab-audio/1860.mp3",
+   "audio_en": "vocab-audio/924.mp3"
+  },
+  {
+   "hindi": "द्वितीय",
+   "english": "second, Ilnd",
+   "tags": "",
+   "audio_hi": "vocab-audio/1700.mp3",
+   "audio_en": "vocab-audio/1242.mp3"
+  },
+  {
+   "hindi": "धंधा",
+   "english": "work, occupation",
+   "tags": "",
+   "audio_hi": "vocab-audio/1393.mp3",
+   "audio_en": "vocab-audio/1661.mp3"
+  },
+  {
+   "hindi": "धन्यवाद",
+   "english": "thank you",
+   "tags": "",
+   "audio_hi": "vocab-audio/1916.mp3",
+   "audio_en": "vocab-audio/962.mp3"
+  },
+  {
+   "hindi": "धीमा",
+   "english": "low, faint",
+   "tags": "",
+   "audio_hi": "vocab-audio/1744.mp3",
+   "audio_en": "vocab-audio/1529.mp3"
+  },
+  {
+   "hindi": "धूमधाम",
+   "english": "pomp, show",
+   "tags": "",
+   "audio_hi": "vocab-audio/1268.mp3",
+   "audio_en": "vocab-audio/507.mp3"
+  },
+  {
+   "hindi": "धोखा",
+   "english": "trick, deceit",
+   "tags": "धोखा देना to trick, deceive",
+   "audio_hi": "vocab-audio/1506.mp3",
+   "audio_en": "vocab-audio/2038.mp3"
+  },
+  {
+   "hindi": "धोना",
+   "english": "to wash",
+   "tags": "",
+   "audio_hi": "vocab-audio/2322.mp3",
+   "audio_en": "vocab-audio/2360.mp3"
+  },
+  {
+   "hindi": "धोबी",
+   "english": "dhobi, washerman",
+   "tags": "",
+   "audio_hi": "vocab-audio/2266.mp3",
+   "audio_en": "vocab-audio/2125.mp3"
+  },
+  {
+   "hindi": "ध्यान",
+   "english": "attention",
+   "tags": "ध्यान देना to pay attention;  ध्यान रखना to take care of, mind;  ध्यान से attentively",
+   "audio_hi": "vocab-audio/2102.mp3",
+   "audio_en": "vocab-audio/1865.mp3"
+  },
+  {
+   "hindi": "नंबर",
+   "english": "number",
+   "tags": "",
+   "audio_hi": "vocab-audio/880.mp3",
+   "audio_en": "vocab-audio/1641.mp3"
+  },
+  {
+   "hindi": "ना",
+   "english": "not",
+   "tags": "is it not so?;  (with commands) don&#x27;t;  और ना and not;  ना... ना neither... nor",
+   "audio_hi": "vocab-audio/629.mp3",
+   "audio_en": "vocab-audio/2008.mp3"
+  },
+  {
+   "hindi": "नज़दीक",
+   "english": "near, nearby",
+   "tags": "",
+   "audio_hi": "vocab-audio/2065.mp3",
+   "audio_en": "vocab-audio/651.mp3"
+  },
+  {
+   "hindi": "नज़र",
+   "english": "glance, look",
+   "tags": "",
+   "audio_hi": "vocab-audio/1491.mp3",
+   "audio_en": "vocab-audio/1852.mp3"
+  },
+  {
+   "hindi": "नचनिया",
+   "english": "dancer (derogatory)",
+   "tags": "",
+   "audio_hi": "vocab-audio/1182.mp3",
+   "audio_en": "vocab-audio/1097.mp3"
+  },
+  {
+   "hindi": "नदी",
+   "english": "river",
+   "tags": "",
+   "audio_hi": "vocab-audio/1225.mp3",
+   "audio_en": "vocab-audio/1632.mp3"
+  },
+  {
+   "hindi": "नफ़रत",
+   "english": "hate, dislike",
+   "tags": "",
+   "audio_hi": "vocab-audio/1914.mp3",
+   "audio_en": "vocab-audio/2271.mp3"
+  },
+  {
+   "hindi": "नमक",
+   "english": "salt",
+   "tags": "",
+   "audio_hi": "vocab-audio/221.mp3",
+   "audio_en": "vocab-audio/423.mp3"
+  },
+  {
+   "hindi": "नमस्कार",
+   "english": "hello",
+   "tags": "goodbye",
+   "audio_hi": "vocab-audio/1903.mp3",
+   "audio_en": "vocab-audio/557.mp3"
+  },
+  {
+   "hindi": "नमस्ते",
+   "english": "hello",
+   "tags": "goodbye",
+   "audio_hi": "vocab-audio/1903.mp3",
+   "audio_en": "vocab-audio/805.mp3"
+  },
+  {
+   "hindi": "नमूना",
+   "english": "example, sample, type, specimen",
+   "tags": "",
+   "audio_hi": "vocab-audio/1335.mp3",
+   "audio_en": "vocab-audio/1684.mp3"
+  },
+  {
+   "hindi": "नया",
+   "english": "new",
+   "tags": "",
+   "audio_hi": "vocab-audio/2247.mp3",
+   "audio_en": "vocab-audio/523.mp3"
+  },
+  {
+   "hindi": "नरस",
+   "english": "three days ago/ahead",
+   "tags": "",
+   "audio_hi": "vocab-audio/1544.mp3",
+   "audio_en": "vocab-audio/710.mp3"
+  },
+  {
+   "hindi": "नर्तक",
+   "english": "dancer",
+   "tags": "",
+   "audio_hi": "vocab-audio/1992.mp3",
+   "audio_en": "vocab-audio/2107.mp3"
+  },
+  {
+   "hindi": "नल",
+   "english": "pipe, tap",
+   "tags": "",
+   "audio_hi": "vocab-audio/1324.mp3",
+   "audio_en": "vocab-audio/183.mp3"
+  },
+  {
+   "hindi": "नवां",
+   "english": "ninth",
+   "tags": "",
+   "audio_hi": "vocab-audio/887.mp3",
+   "audio_en": "vocab-audio/752.mp3"
+  },
+  {
+   "hindi": "नहाना",
+   "english": "to bathe, wash",
+   "tags": "",
+   "audio_hi": "vocab-audio/751.mp3",
+   "audio_en": "vocab-audio/1161.mp3"
+  },
+  {
+   "hindi": "नहीं",
+   "english": "not",
+   "tags": "नहीं तो otherwise;  नहीं बिल्कुल नहीं not at all, of course not",
+   "audio_hi": "vocab-audio/629.mp3",
+   "audio_en": "vocab-audio/251.mp3"
+  },
+  {
+   "hindi": "नाक",
+   "english": "nose",
+   "tags": "",
+   "audio_hi": "vocab-audio/1813.mp3",
+   "audio_en": "vocab-audio/1146.mp3"
+  },
+  {
+   "hindi": "नाचना",
+   "english": "to dance",
+   "tags": "नचाना to lead one a fine dance",
+   "audio_hi": "vocab-audio/1937.mp3",
+   "audio_en": "vocab-audio/774.mp3"
+  },
+  {
+   "hindi": "नापसंद करना",
+   "english": "to dislike",
+   "tags": "",
+   "audio_hi": "vocab-audio/1024.mp3",
+   "audio_en": "vocab-audio/1103.mp3"
+  },
+  {
+   "hindi": "नाम",
+   "english": "name",
+   "tags": "नाम लेना to mention;  नाम रखना to be far from doing something",
+   "audio_hi": "vocab-audio/386.mp3",
+   "audio_en": "vocab-audio/1137.mp3"
+  },
+  {
+   "hindi": "नामुमकिन",
+   "english": "impossible",
+   "tags": "",
+   "audio_hi": "vocab-audio/2299.mp3",
+   "audio_en": "vocab-audio/1942.mp3"
+  },
+  {
+   "hindi": "नारा",
+   "english": "slogan",
+   "tags": "",
+   "audio_hi": "vocab-audio/40.mp3",
+   "audio_en": "vocab-audio/2029.mp3"
+  },
+  {
+   "hindi": "नाराज़",
+   "english": "angry, displeased",
+   "tags": "",
+   "audio_hi": "vocab-audio/972.mp3",
+   "audio_en": "vocab-audio/1536.mp3"
+  },
+  {
+   "hindi": "निंदा",
+   "english": "blame, speaking ill",
+   "tags": "निंदा करना to blame",
+   "audio_hi": "vocab-audio/1917.mp3",
+   "audio_en": "vocab-audio/1314.mp3"
+  },
+  {
+   "hindi": "निकलना",
+   "english": "to come/go out, emerge",
+   "tags": "to turn out to be",
+   "audio_hi": "vocab-audio/1352.mp3",
+   "audio_en": "vocab-audio/105.mp3"
+  },
+  {
+   "hindi": "निन्यानवे",
+   "english": "ninety-nine",
+   "tags": "",
+   "audio_hi": "vocab-audio/945.mp3",
+   "audio_en": "vocab-audio/24.mp3"
+  },
+  {
+   "hindi": "निबंध",
+   "english": "essay",
+   "tags": "",
+   "audio_hi": "vocab-audio/825.mp3",
+   "audio_en": "vocab-audio/73.mp3"
+  },
+  {
+   "hindi": "निराशा",
+   "english": "disappointment, despair",
+   "tags": "",
+   "audio_hi": "vocab-audio/1170.mp3",
+   "audio_en": "vocab-audio/1046.mp3"
+  },
+  {
+   "hindi": "निवेदन",
+   "english": "request",
+   "tags": "",
+   "audio_hi": "vocab-audio/1368.mp3",
+   "audio_en": "vocab-audio/670.mp3"
+  },
+  {
+   "hindi": "निहायत",
+   "english": "extremely",
+   "tags": "",
+   "audio_hi": "vocab-audio/333.mp3",
+   "audio_en": "vocab-audio/615.mp3"
+  },
+  {
+   "hindi": "नींद",
+   "english": "sleep",
+   "tags": "नींद आना to feel sleepy",
+   "audio_hi": "vocab-audio/1963.mp3",
+   "audio_en": "vocab-audio/1840.mp3"
+  },
+  {
+   "hindi": "नीचे",
+   "english": "below",
+   "tags": "down;  downstairs",
+   "audio_hi": "vocab-audio/1048.mp3",
+   "audio_en": "vocab-audio/186.mp3"
+  },
+  {
+   "hindi": "नृत्य",
+   "english": "dance",
+   "tags": "",
+   "audio_hi": "vocab-audio/2177.mp3",
+   "audio_en": "vocab-audio/1685.mp3"
+  },
+  {
+   "hindi": "नेक",
+   "english": "good, virtuous, decent",
+   "tags": "",
+   "audio_hi": "vocab-audio/2084.mp3",
+   "audio_en": "vocab-audio/658.mp3"
+  },
+  {
+   "hindi": "नेता",
+   "english": "leader, politician",
+   "tags": "",
+   "audio_hi": "vocab-audio/337.mp3",
+   "audio_en": "vocab-audio/1375.mp3"
+  },
+  {
+   "hindi": "नेपाल",
+   "english": "Nepal",
+   "tags": "",
+   "audio_hi": "vocab-audio/208.mp3",
+   "audio_en": "vocab-audio/2205.mp3"
+  },
+  {
+   "hindi": "नेपाली",
+   "english": "Nepali",
+   "tags": "",
+   "audio_hi": "vocab-audio/977.mp3",
+   "audio_en": "vocab-audio/502.mp3"
+  },
+  {
+   "hindi": "नोट",
+   "english": "note, banknote",
+   "tags": "",
+   "audio_hi": "vocab-audio/2098.mp3",
+   "audio_en": "vocab-audio/176.mp3"
+  },
+  {
+   "hindi": "नौ",
+   "english": "nine",
+   "tags": "",
+   "audio_hi": "vocab-audio/1461.mp3",
+   "audio_en": "vocab-audio/1525.mp3"
+  },
+  {
+   "hindi": "नौकर",
+   "english": "servant",
+   "tags": "नौकर-चाकर servants &amp; domestics",
+   "audio_hi": "vocab-audio/1822.mp3",
+   "audio_en": "vocab-audio/2194.mp3"
+  },
+  {
+   "hindi": "नौकरी",
+   "english": "job, employment, service",
+   "tags": "",
+   "audio_hi": "vocab-audio/323.mp3",
+   "audio_en": "vocab-audio/160.mp3"
+  },
+  {
+   "hindi": "नौजवान",
+   "english": "youth, young man",
+   "tags": "",
+   "audio_hi": "vocab-audio/693.mp3",
+   "audio_en": "vocab-audio/1087.mp3"
+  },
+  {
+   "hindi": "पंखा",
+   "english": "fan",
+   "tags": "",
+   "audio_hi": "vocab-audio/448.mp3",
+   "audio_en": "vocab-audio/1845.mp3"
+  },
+  {
+   "hindi": "पंचम",
+   "english": "fifth, Vth",
+   "tags": "",
+   "audio_hi": "vocab-audio/1593.mp3",
+   "audio_en": "vocab-audio/1009.mp3"
+  },
+  {
+   "hindi": "पंजाबी",
+   "english": "Punjabi",
+   "tags": "",
+   "audio_hi": "vocab-audio/177.mp3",
+   "audio_en": "vocab-audio/1286.mp3"
+  },
+  {
+   "hindi": "पंडित",
+   "english": "pandit",
+   "tags": "",
+   "audio_hi": "vocab-audio/2307.mp3",
+   "audio_en": "vocab-audio/881.mp3"
+  },
+  {
+   "hindi": "पक्का",
+   "english": "ripe",
+   "tags": "",
+   "audio_hi": "vocab-audio/2137.mp3",
+   "audio_en": "vocab-audio/216.mp3"
+  },
+  {
+   "hindi": "पछताना",
+   "english": "to regret",
+   "tags": "",
+   "audio_hi": "vocab-audio/996.mp3",
+   "audio_en": "vocab-audio/1689.mp3"
+  },
+  {
+   "hindi": "पड़ना",
+   "english": "to fall, befall",
+   "tags": "",
+   "audio_hi": "vocab-audio/465.mp3",
+   "audio_en": "vocab-audio/902.mp3"
+  },
+  {
+   "hindi": "पड़ा",
+   "english": "lying",
+   "tags": "",
+   "audio_hi": "vocab-audio/1674.mp3",
+   "audio_en": "vocab-audio/178.mp3"
+  },
+  {
+   "hindi": "पढ़ना",
+   "english": "to read, study",
+   "tags": "",
+   "audio_hi": "vocab-audio/1307.mp3",
+   "audio_en": "vocab-audio/1362.mp3"
+  },
+  {
+   "hindi": "पढ़ाई",
+   "english": "studies, studying",
+   "tags": "",
+   "audio_hi": "vocab-audio/2209.mp3",
+   "audio_en": "vocab-audio/2020.mp3"
+  },
+  {
+   "hindi": "पढ़ाना",
+   "english": "to teach",
+   "tags": "",
+   "audio_hi": "vocab-audio/1091.mp3",
+   "audio_en": "vocab-audio/2208.mp3"
+  },
+  {
+   "hindi": "पतंग",
+   "english": "kite (toy)",
+   "tags": "",
+   "audio_hi": "vocab-audio/729.mp3",
+   "audio_en": "vocab-audio/1985.mp3"
+  },
+  {
+   "hindi": "पतला",
+   "english": "thin",
+   "tags": "",
+   "audio_hi": "vocab-audio/2232.mp3",
+   "audio_en": "vocab-audio/1448.mp3"
+  },
+  {
+   "hindi": "पता",
+   "english": "address",
+   "tags": "पता चलना to come to one&#x27;s notice;  पता नहीं don&#x27;t know, no idea;  पता होना to know, be aware",
+   "audio_hi": "vocab-audio/497.mp3",
+   "audio_en": "vocab-audio/23.mp3"
+  },
+  {
+   "hindi": "पति",
+   "english": "husband",
+   "tags": "&#x27;respected husband&#x27;",
+   "audio_hi": "vocab-audio/818.mp3",
+   "audio_en": "vocab-audio/511.mp3"
+  },
+  {
+   "hindi": "पत्थर",
+   "english": "stone",
+   "tags": "",
+   "audio_hi": "vocab-audio/2310.mp3",
+   "audio_en": "vocab-audio/1035.mp3"
+  },
+  {
+   "hindi": "पत्नी",
+   "english": "wife",
+   "tags": "",
+   "audio_hi": "vocab-audio/2057.mp3",
+   "audio_en": "vocab-audio/2126.mp3"
+  },
+  {
+   "hindi": "पत्र",
+   "english": "letter",
+   "tags": "",
+   "audio_hi": "vocab-audio/87.mp3",
+   "audio_en": "vocab-audio/888.mp3"
+  },
+  {
+   "hindi": "परंतु",
+   "english": "but",
+   "tags": "",
+   "audio_hi": "vocab-audio/691.mp3",
+   "audio_en": "vocab-audio/1950.mp3"
+  },
+  {
+   "hindi": "पर",
+   "english": "but",
+   "tags": "",
+   "audio_hi": "vocab-audio/691.mp3",
+   "audio_en": "vocab-audio/2285.mp3"
+  },
+  {
+   "hindi": "पर",
+   "english": "on",
+   "tags": "at",
+   "audio_hi": "vocab-audio/1000.mp3",
+   "audio_en": "vocab-audio/2285.mp3"
+  },
+  {
+   "hindi": "परदा",
+   "english": "curtain, veil, purdah",
+   "tags": "",
+   "audio_hi": "vocab-audio/630.mp3",
+   "audio_en": "vocab-audio/1666.mp3"
+  },
+  {
+   "hindi": "परसों",
+   "english": "the day before yesterday",
+   "tags": "the day after tomorrow",
+   "audio_hi": "vocab-audio/350.mp3",
+   "audio_en": "vocab-audio/1296.mp3"
+  },
+  {
+   "hindi": "परिवर्तन",
+   "english": "alteration",
+   "tags": "",
+   "audio_hi": "vocab-audio/745.mp3",
+   "audio_en": "vocab-audio/174.mp3"
+  },
+  {
+   "hindi": "परिवार",
+   "english": "family",
+   "tags": "",
+   "audio_hi": "vocab-audio/1809.mp3",
+   "audio_en": "vocab-audio/2056.mp3"
+  },
+  {
+   "hindi": "परिस्थिति(याँ)",
+   "english": "circumstance(s)",
+   "tags": "",
+   "audio_hi": "vocab-audio/2173.mp3",
+   "audio_en": "vocab-audio/2136.mp3"
+  },
+  {
+   "hindi": "पर्याप्त",
+   "english": "enough, sufficient",
+   "tags": "",
+   "audio_hi": "vocab-audio/1990.mp3",
+   "audio_en": "vocab-audio/912.mp3"
+  },
+  {
+   "hindi": "परिक्षा",
+   "english": "examination",
+   "tags": "परीक्षा देना to sit an exam;  परीक्षा लेना to examine (a student)",
+   "audio_hi": "vocab-audio/1227.mp3",
+   "audio_en": "vocab-audio/1662.mp3"
+  },
+  {
+   "hindi": "पल",
+   "english": "moment",
+   "tags": "",
+   "audio_hi": "vocab-audio/194.mp3",
+   "audio_en": "vocab-audio/1772.mp3"
+  },
+  {
+   "hindi": "पलंग",
+   "english": "bed",
+   "tags": "",
+   "audio_hi": "vocab-audio/2260.mp3",
+   "audio_en": "vocab-audio/285.mp3"
+  },
+  {
+   "hindi": "पवन",
+   "english": "wind",
+   "tags": "",
+   "audio_hi": "vocab-audio/1617.mp3",
+   "audio_en": "vocab-audio/473.mp3"
+  },
+  {
+   "hindi": "पसंद",
+   "english": "&#x27;liked, pleasing&#x27;: पसंद करना to like, approve, choose",
+   "tags": "पसंद आना to appeal, be liked",
+   "audio_hi": "vocab-audio/1561.mp3",
+   "audio_en": "vocab-audio/2267.mp3"
+  },
+  {
+   "hindi": "पहचानना",
+   "english": "to recognize",
+   "tags": "",
+   "audio_hi": "vocab-audio/203.mp3",
+   "audio_en": "vocab-audio/1176.mp3"
+  },
+  {
+   "hindi": "पहना",
+   "english": "to put on, wear",
+   "tags": "",
+   "audio_hi": "vocab-audio/428.mp3",
+   "audio_en": "vocab-audio/1469.mp3"
+  },
+  {
+   "hindi": "पहाड़",
+   "english": "&#x27;watch&#x27;, part of day",
+   "tags": "",
+   "audio_hi": "vocab-audio/1844.mp3",
+   "audio_en": "vocab-audio/482.mp3"
+  },
+  {
+   "hindi": "पहला",
+   "english": "first",
+   "tags": "",
+   "audio_hi": "vocab-audio/2037.mp3",
+   "audio_en": "vocab-audio/1489.mp3"
+  },
+  {
+   "hindi": "पहले",
+   "english": "previously",
+   "tags": "first",
+   "audio_hi": "vocab-audio/2134.mp3",
+   "audio_en": "vocab-audio/1957.mp3"
+  },
+  {
+   "hindi": "पहाड़",
+   "english": "hill, mountain",
+   "tags": "",
+   "audio_hi": "vocab-audio/1982.mp3",
+   "audio_en": "vocab-audio/482.mp3"
+  },
+  {
+   "hindi": "पहिया",
+   "english": "wheel",
+   "tags": "",
+   "audio_hi": "vocab-audio/1357.mp3",
+   "audio_en": "vocab-audio/1482.mp3"
+  },
+  {
+   "hindi": "पहुँचाना",
+   "english": "to convey, deliver",
+   "tags": "",
+   "audio_hi": "vocab-audio/2041.mp3",
+   "audio_en": "vocab-audio/1322.mp3"
+  },
+  {
+   "hindi": "पाँच",
+   "english": "five",
+   "tags": "",
+   "audio_hi": "vocab-audio/402.mp3",
+   "audio_en": "vocab-audio/2230.mp3"
+  },
+  {
+   "hindi": "पाँचवा",
+   "english": "fifth",
+   "tags": "",
+   "audio_hi": "vocab-audio/381.mp3",
+   "audio_en": "vocab-audio/2142.mp3"
+  },
+  {
+   "hindi": "पाकिस्तान",
+   "english": "Pakistan",
+   "tags": "",
+   "audio_hi": "vocab-audio/1198.mp3",
+   "audio_en": "vocab-audio/348.mp3"
+  },
+  {
+   "hindi": "पाकिस्तानी",
+   "english": "Pakistani",
+   "tags": "",
+   "audio_hi": "vocab-audio/1086.mp3",
+   "audio_en": "vocab-audio/770.mp3"
+  },
+  {
+   "hindi": "पाठ",
+   "english": "lesson, chapter",
+   "tags": "",
+   "audio_hi": "vocab-audio/2182.mp3",
+   "audio_en": "vocab-audio/1.mp3"
+  },
+  {
+   "hindi": "पान",
+   "english": "paan",
+   "tags": "",
+   "audio_hi": "vocab-audio/13.mp3",
+   "audio_en": "vocab-audio/1078.mp3"
+  },
+  {
+   "hindi": "पाना",
+   "english": "to find, obtain",
+   "tags": "(after verb stem) to manage to",
+   "audio_hi": "vocab-audio/2042.mp3",
+   "audio_en": "vocab-audio/687.mp3"
+  },
+  {
+   "hindi": "पानी",
+   "english": "water",
+   "tags": "पानी बरसना to rain",
+   "audio_hi": "vocab-audio/923.mp3",
+   "audio_en": "vocab-audio/351.mp3"
+  },
+  {
+   "hindi": "पापा",
+   "english": "(inv.) papa, father",
+   "tags": "",
+   "audio_hi": "vocab-audio/1829.mp3",
+   "audio_en": "vocab-audio/258.mp3"
+  },
+  {
+   "hindi": "पार करना",
+   "english": "to cross",
+   "tags": "",
+   "audio_hi": "vocab-audio/1642.mp3",
+   "audio_en": "vocab-audio/2025.mp3"
+  },
+  {
+   "hindi": "पारिवारिक",
+   "english": "familial",
+   "tags": "",
+   "audio_hi": "vocab-audio/388.mp3",
+   "audio_en": "vocab-audio/579.mp3"
+  },
+  {
+   "hindi": "पास",
+   "english": "nearby (adverb)",
+   "tags": "",
+   "audio_hi": "vocab-audio/1714.mp3",
+   "audio_en": "vocab-audio/14.mp3"
+  },
+  {
+   "hindi": "पास करना",
+   "english": "to pass (exam etc.)",
+   "tags": "",
+   "audio_hi": "vocab-audio/1592.mp3",
+   "audio_en": "vocab-audio/1872.mp3"
+  },
+  {
+   "hindi": "पिछला",
+   "english": "last, previous",
+   "tags": "",
+   "audio_hi": "vocab-audio/1010.mp3",
+   "audio_en": "vocab-audio/1722.mp3"
+  },
+  {
+   "hindi": "पिता",
+   "english": "(inv.) father",
+   "tags": "",
+   "audio_hi": "vocab-audio/1150.mp3",
+   "audio_en": "vocab-audio/1596.mp3"
+  },
+  {
+   "hindi": "पीछा",
+   "english": "rear",
+   "tags": "pursuit;  पीछा करना to follow",
+   "audio_hi": "vocab-audio/1944.mp3",
+   "audio_en": "vocab-audio/168.mp3"
+  },
+  {
+   "hindi": "पीछे",
+   "english": "behind",
+   "tags": "",
+   "audio_hi": "vocab-audio/137.mp3",
+   "audio_en": "vocab-audio/974.mp3"
+  },
+  {
+   "hindi": "पीना",
+   "english": "to drink",
+   "tags": "to smoke",
+   "audio_hi": "vocab-audio/1668.mp3",
+   "audio_en": "vocab-audio/2327.mp3"
+  },
+  {
+   "hindi": "पुराना",
+   "english": "old (of things)",
+   "tags": "",
+   "audio_hi": "vocab-audio/297.mp3",
+   "audio_en": "vocab-audio/1389.mp3"
+  },
+  {
+   "hindi": "पुल",
+   "english": "bridge",
+   "tags": "",
+   "audio_hi": "vocab-audio/1477.mp3",
+   "audio_en": "vocab-audio/1868.mp3"
+  },
+  {
+   "hindi": "पुलिस",
+   "english": "police",
+   "tags": "",
+   "audio_hi": "vocab-audio/1711.mp3",
+   "audio_en": "vocab-audio/1081.mp3"
+  },
+  {
+   "hindi": "पूंछ",
+   "english": "tail",
+   "tags": "",
+   "audio_hi": "vocab-audio/1484.mp3",
+   "audio_en": "vocab-audio/1605.mp3"
+  },
+  {
+   "hindi": "पूछना",
+   "english": "to ask (of)",
+   "tags": "",
+   "audio_hi": "vocab-audio/238.mp3",
+   "audio_en": "vocab-audio/995.mp3"
+  },
+  {
+   "hindi": "पूर्ण",
+   "english": "full, complete",
+   "tags": "",
+   "audio_hi": "vocab-audio/334.mp3",
+   "audio_en": "vocab-audio/1927.mp3"
+  },
+  {
+   "hindi": "पेंसिल",
+   "english": "pencil",
+   "tags": "",
+   "audio_hi": "vocab-audio/1698.mp3",
+   "audio_en": "vocab-audio/210.mp3"
+  },
+  {
+   "hindi": "पे",
+   "english": "on, to",
+   "tags": "",
+   "audio_hi": "vocab-audio/2058.mp3",
+   "audio_en": "vocab-audio/749.mp3"
+  },
+  {
+   "hindi": "पेड़",
+   "english": "tree",
+   "tags": "",
+   "audio_hi": "vocab-audio/732.mp3",
+   "audio_en": "vocab-audio/466.mp3"
+  },
+  {
+   "hindi": "पेशा",
+   "english": "profession",
+   "tags": "",
+   "audio_hi": "vocab-audio/2158.mp3",
+   "audio_en": "vocab-audio/120.mp3"
+  },
+  {
+   "hindi": "पैदा होना",
+   "english": "to be born, produced",
+   "tags": "",
+   "audio_hi": "vocab-audio/1402.mp3",
+   "audio_en": "vocab-audio/756.mp3"
+  },
+  {
+   "hindi": "पैसा",
+   "english": "money",
+   "tags": "पैसा paisa (hundredth of a rupee)",
+   "audio_hi": "vocab-audio/271.mp3",
+   "audio_en": "vocab-audio/2215.mp3"
+  },
+  {
+   "hindi": "पौना",
+   "english": "three-quarters",
+   "tags": "",
+   "audio_hi": "vocab-audio/1856.mp3",
+   "audio_en": "vocab-audio/512.mp3"
+  },
+  {
+   "hindi": "प्याज़",
+   "english": "onion",
+   "tags": "",
+   "audio_hi": "vocab-audio/1364.mp3",
+   "audio_en": "vocab-audio/1132.mp3"
+  },
+  {
+   "hindi": "प्यार",
+   "english": "love, affection",
+   "tags": "प्यार करना to love",
+   "audio_hi": "vocab-audio/441.mp3",
+   "audio_en": "vocab-audio/560.mp3"
+  },
+  {
+   "hindi": "प्याला",
+   "english": "cup",
+   "tags": "",
+   "audio_hi": "vocab-audio/392.mp3",
+   "audio_en": "vocab-audio/204.mp3"
+  },
+  {
+   "hindi": "प्यास",
+   "english": "thirst",
+   "tags": "प्यास लगना thirst to strike - to feel thirsty",
+   "audio_hi": "vocab-audio/1269.mp3",
+   "audio_en": "vocab-audio/399.mp3"
+  },
+  {
+   "hindi": "प्रकाशक",
+   "english": "publisher",
+   "tags": "",
+   "audio_hi": "vocab-audio/151.mp3",
+   "audio_en": "vocab-audio/2216.mp3"
+  },
+  {
+   "hindi": "प्रकाशित",
+   "english": "published",
+   "tags": "",
+   "audio_hi": "vocab-audio/1828.mp3",
+   "audio_en": "vocab-audio/967.mp3"
+  },
+  {
+   "hindi": "प्रति",
+   "english": "copy (of book etc.)",
+   "tags": "",
+   "audio_hi": "vocab-audio/217.mp3",
+   "audio_en": "vocab-audio/1264.mp3"
+  },
+  {
+   "hindi": "प्रतीत होना",
+   "english": "to seem",
+   "tags": "",
+   "audio_hi": "vocab-audio/2109.mp3",
+   "audio_en": "vocab-audio/1419.mp3"
+  },
+  {
+   "hindi": "प्रथम",
+   "english": "first, 1st",
+   "tags": "",
+   "audio_hi": "vocab-audio/461.mp3",
+   "audio_en": "vocab-audio/1459.mp3"
+  },
+  {
+   "hindi": "प्रदूषण",
+   "english": "pollution",
+   "tags": "",
+   "audio_hi": "vocab-audio/1581.mp3",
+   "audio_en": "vocab-audio/134.mp3"
+  },
+  {
+   "hindi": "प्रदेश",
+   "english": "state, province",
+   "tags": "",
+   "audio_hi": "vocab-audio/270.mp3",
+   "audio_en": "vocab-audio/1057.mp3"
+  },
+  {
+   "hindi": "प्रधानमंत्री",
+   "english": "prime minister",
+   "tags": "",
+   "audio_hi": "vocab-audio/106.mp3",
+   "audio_en": "vocab-audio/2026.mp3"
+  },
+  {
+   "hindi": "प्रयोग",
+   "english": "use, usage",
+   "tags": "प्रयोग करना to use",
+   "audio_hi": "vocab-audio/1754.mp3",
+   "audio_en": "vocab-audio/259.mp3"
+  },
+  {
+   "hindi": "प्राचीन",
+   "english": "ancient",
+   "tags": "",
+   "audio_hi": "vocab-audio/1066.mp3",
+   "audio_en": "vocab-audio/2012.mp3"
+  },
+  {
+   "hindi": "प्राध्यापक",
+   "english": "lecturer",
+   "tags": "",
+   "audio_hi": "vocab-audio/533.mp3",
+   "audio_en": "vocab-audio/200.mp3"
+  },
+  {
+   "hindi": "प्राप्त करना",
+   "english": "to obtain, attain",
+   "tags": "",
+   "audio_hi": "vocab-audio/647.mp3",
+   "audio_en": "vocab-audio/1629.mp3"
+  },
+  {
+   "hindi": "प्रेम",
+   "english": "love",
+   "tags": "",
+   "audio_hi": "vocab-audio/759.mp3",
+   "audio_en": "vocab-audio/889.mp3"
+  },
+  {
+   "hindi": "प्रसिद्ध",
+   "english": "famous",
+   "tags": "",
+   "audio_hi": "vocab-audio/15.mp3",
+   "audio_en": "vocab-audio/1154.mp3"
+  },
+  {
+   "hindi": "प्रिय",
+   "english": "dear",
+   "tags": "",
+   "audio_hi": "vocab-audio/1003.mp3",
+   "audio_en": "vocab-audio/155.mp3"
+  },
+  {
+   "hindi": "प्रोग्राम",
+   "english": "programme, plan, routine",
+   "tags": "",
+   "audio_hi": "vocab-audio/408.mp3",
+   "audio_en": "vocab-audio/1818.mp3"
+  },
+  {
+   "hindi": "फँसना",
+   "english": "to be stuck, caught, snared",
+   "tags": "",
+   "audio_hi": "vocab-audio/1574.mp3",
+   "audio_en": "vocab-audio/2156.mp3"
+  },
+  {
+   "hindi": "फ़रवरी",
+   "english": "February",
+   "tags": "",
+   "audio_hi": "vocab-audio/1245.mp3",
+   "audio_en": "vocab-audio/1463.mp3"
+  },
+  {
+   "hindi": "फ़र्क",
+   "english": "difference, separation",
+   "tags": "",
+   "audio_hi": "vocab-audio/117.mp3",
+   "audio_en": "vocab-audio/1435.mp3"
+  },
+  {
+   "hindi": "फ़र्श",
+   "english": "floor",
+   "tags": "",
+   "audio_hi": "vocab-audio/733.mp3",
+   "audio_en": "vocab-audio/862.mp3"
+  },
+  {
+   "hindi": "फल",
+   "english": "fruit",
+   "tags": "",
+   "audio_hi": "vocab-audio/1098.mp3",
+   "audio_en": "vocab-audio/2073.mp3"
+  },
+  {
+   "hindi": "फ़ायदा",
+   "english": "profit, advantage",
+   "tags": "",
+   "audio_hi": "vocab-audio/1736.mp3",
+   "audio_en": "vocab-audio/2040.mp3"
+  },
+  {
+   "hindi": "फ़ारसी",
+   "english": "Persian",
+   "tags": "",
+   "audio_hi": "vocab-audio/2217.mp3",
+   "audio_en": "vocab-audio/1958.mp3"
+  },
+  {
+   "hindi": "फिर",
+   "english": "then, so, again",
+   "tags": "even so;  again",
+   "audio_hi": "vocab-audio/2105.mp3",
+   "audio_en": "vocab-audio/1020.mp3"
+  },
+  {
+   "hindi": "फिरना",
+   "english": "to turn, move",
+   "tags": "",
+   "audio_hi": "vocab-audio/2157.mp3",
+   "audio_en": "vocab-audio/1926.mp3"
+  },
+  {
+   "hindi": "फ़िलहाल",
+   "english": "in the meantime",
+   "tags": "",
+   "audio_hi": "vocab-audio/2067.mp3",
+   "audio_en": "vocab-audio/2335.mp3"
+  },
+  {
+   "hindi": "फ़िल्म",
+   "english": "film",
+   "tags": "",
+   "audio_hi": "vocab-audio/150.mp3",
+   "audio_en": "vocab-audio/1672.mp3"
+  },
+  {
+   "hindi": "फ़िल्मी",
+   "english": "of the films",
+   "tags": "",
+   "audio_hi": "vocab-audio/2152.mp3",
+   "audio_en": "vocab-audio/1938.mp3"
+  },
+  {
+   "hindi": "फ़ुर्सत",
+   "english": "leisure, free time",
+   "tags": "",
+   "audio_hi": "vocab-audio/871.mp3",
+   "audio_en": "vocab-audio/195.mp3"
+  },
+  {
+   "hindi": "फुसफुसाना",
+   "english": "to whisper",
+   "tags": "",
+   "audio_hi": "vocab-audio/1450.mp3",
+   "audio_en": "vocab-audio/173.mp3"
+  },
+  {
+   "hindi": "फूल",
+   "english": "flower",
+   "tags": "",
+   "audio_hi": "vocab-audio/1151.mp3",
+   "audio_en": "vocab-audio/1220.mp3"
+  },
+  {
+   "hindi": "फ़ैक्स",
+   "english": "fax",
+   "tags": "",
+   "audio_hi": "vocab-audio/1210.mp3",
+   "audio_en": "vocab-audio/1594.mp3"
+  },
+  {
+   "hindi": "फ़ोटो",
+   "english": "photograph",
+   "tags": "",
+   "audio_hi": "vocab-audio/2116.mp3",
+   "audio_en": "vocab-audio/1432.mp3"
+  },
+  {
+   "hindi": "फ़ोन करना",
+   "english": "to phone",
+   "tags": "",
+   "audio_hi": "vocab-audio/713.mp3",
+   "audio_en": "vocab-audio/1399.mp3"
+  },
+  {
+   "hindi": "बंगला",
+   "english": "Bengali (language)",
+   "tags": "",
+   "audio_hi": "vocab-audio/64.mp3",
+   "audio_en": "vocab-audio/421.mp3"
+  },
+  {
+   "hindi": "बंद",
+   "english": "closed, shut",
+   "tags": "बंद करना to close, shut",
+   "audio_hi": "vocab-audio/1554.mp3",
+   "audio_en": "vocab-audio/291.mp3"
+  },
+  {
+   "hindi": "बंदर",
+   "english": "monkey",
+   "tags": "",
+   "audio_hi": "vocab-audio/429.mp3",
+   "audio_en": "vocab-audio/538.mp3"
+  },
+  {
+   "hindi": "बग़ीचा",
+   "english": "garden",
+   "tags": "",
+   "audio_hi": "vocab-audio/1013.mp3",
+   "audio_en": "vocab-audio/950.mp3"
+  },
+  {
+   "hindi": "बचना",
+   "english": "to escape, survive",
+   "tags": "",
+   "audio_hi": "vocab-audio/387.mp3",
+   "audio_en": "vocab-audio/810.mp3"
+  },
+  {
+   "hindi": "बचा",
+   "english": "saved, left",
+   "tags": "",
+   "audio_hi": "vocab-audio/1974.mp3",
+   "audio_en": "vocab-audio/2363.mp3"
+  },
+  {
+   "hindi": "बच्चा",
+   "english": "child",
+   "tags": "",
+   "audio_hi": "vocab-audio/16.mp3",
+   "audio_en": "vocab-audio/422.mp3"
+  },
+  {
+   "hindi": "बजना",
+   "english": "to resound, chime",
+   "tags": "",
+   "audio_hi": "vocab-audio/1670.mp3",
+   "audio_en": "vocab-audio/445.mp3"
+  },
+  {
+   "hindi": "बजाना",
+   "english": "to play (music)",
+   "tags": "",
+   "audio_hi": "vocab-audio/235.mp3",
+   "audio_en": "vocab-audio/1606.mp3"
+  },
+  {
+   "hindi": "बजे",
+   "english": "o&#x27;clock",
+   "tags": "",
+   "audio_hi": "vocab-audio/783.mp3",
+   "audio_en": "vocab-audio/852.mp3"
+  },
+  {
+   "hindi": "बड़ा",
+   "english": "big",
+   "tags": "",
+   "audio_hi": "vocab-audio/2250.mp3",
+   "audio_en": "vocab-audio/1169.mp3"
+  },
+  {
+   "hindi": "बढ़ना",
+   "english": "to increase, grow, advance",
+   "tags": "",
+   "audio_hi": "vocab-audio/2006.mp3",
+   "audio_en": "vocab-audio/989.mp3"
+  },
+  {
+   "hindi": "बढ़िया",
+   "english": "(inv.) good quality",
+   "tags": "",
+   "audio_hi": "vocab-audio/2021.mp3",
+   "audio_en": "vocab-audio/1681.mp3"
+  },
+  {
+   "hindi": "बताना",
+   "english": "to tell",
+   "tags": "",
+   "audio_hi": "vocab-audio/51.mp3",
+   "audio_en": "vocab-audio/1715.mp3"
+  },
+  {
+   "hindi": "बत्ती",
+   "english": "light, lamp",
+   "tags": "",
+   "audio_hi": "vocab-audio/2341.mp3",
+   "audio_en": "vocab-audio/2160.mp3"
+  },
+  {
+   "hindi": "बत्तीस",
+   "english": "&#x27;set of 32&#x27; – full complement of teeth",
+   "tags": "बत्तीस निकालना to grin broadly",
+   "audio_hi": "vocab-audio/2261.mp3",
+   "audio_en": "vocab-audio/1675.mp3"
+  },
+  {
+   "hindi": "बदमाश",
+   "english": "villain, rogue",
+   "tags": "",
+   "audio_hi": "vocab-audio/1881.mp3",
+   "audio_en": "vocab-audio/72.mp3"
+  },
+  {
+   "hindi": "बदसूरत",
+   "english": "ugly",
+   "tags": "",
+   "audio_hi": "vocab-audio/828.mp3",
+   "audio_en": "vocab-audio/573.mp3"
+  },
+  {
+   "hindi": "बधाई",
+   "english": "congratulation",
+   "tags": "",
+   "audio_hi": "vocab-audio/20.mp3",
+   "audio_en": "vocab-audio/1177.mp3"
+  },
+  {
+   "hindi": "बन",
+   "english": "forest, wood, jungle",
+   "tags": "",
+   "audio_hi": "vocab-audio/1472.mp3",
+   "audio_en": "vocab-audio/2338.mp3"
+  },
+  {
+   "hindi": "बनाना",
+   "english": "to make",
+   "tags": "",
+   "audio_hi": "vocab-audio/279.mp3",
+   "audio_en": "vocab-audio/894.mp3"
+  },
+  {
+   "hindi": "बनारस",
+   "english": "Banaras, Varanasi",
+   "tags": "",
+   "audio_hi": "vocab-audio/2035.mp3",
+   "audio_en": "vocab-audio/2175.mp3"
+  },
+  {
+   "hindi": "बरदाश्त करना",
+   "english": "to tolerate, endure",
+   "tags": "",
+   "audio_hi": "vocab-audio/853.mp3",
+   "audio_en": "vocab-audio/8.mp3"
+  },
+  {
+   "hindi": "बरबाद करना",
+   "english": "to ruin",
+   "tags": "",
+   "audio_hi": "vocab-audio/1026.mp3",
+   "audio_en": "vocab-audio/2027.mp3"
+  },
+  {
+   "hindi": "बर्फ़",
+   "english": "snow, ice",
+   "tags": "",
+   "audio_hi": "vocab-audio/1708.mp3",
+   "audio_en": "vocab-audio/2350.mp3"
+  },
+  {
+   "hindi": "बर्थ",
+   "english": "berth",
+   "tags": "",
+   "audio_hi": "vocab-audio/1123.mp3",
+   "audio_en": "vocab-audio/2351.mp3"
+  },
+  {
+   "hindi": "बस",
+   "english": "bus",
+   "tags": "",
+   "audio_hi": "vocab-audio/1504.mp3",
+   "audio_en": "vocab-audio/819.mp3"
+  },
+  {
+   "hindi": "बस",
+   "english": "enough! that&#x27;s all!",
+   "tags": "",
+   "audio_hi": "vocab-audio/172.mp3",
+   "audio_en": "vocab-audio/819.mp3"
+  },
+  {
+   "hindi": "बसना",
+   "english": "to settle, inhabit",
+   "tags": "",
+   "audio_hi": "vocab-audio/1993.mp3",
+   "audio_en": "vocab-audio/1174.mp3"
+  },
+  {
+   "hindi": "बसाना",
+   "english": "to settle, found",
+   "tags": "",
+   "audio_hi": "vocab-audio/1968.mp3",
+   "audio_en": "vocab-audio/663.mp3"
+  },
+  {
+   "hindi": "बस्ती",
+   "english": "settlement, inhabited area",
+   "tags": "slum",
+   "audio_hi": "vocab-audio/219.mp3",
+   "audio_en": "vocab-audio/1104.mp3"
+  },
+  {
+   "hindi": "बहन",
+   "english": "sister",
+   "tags": "",
+   "audio_hi": "vocab-audio/243.mp3",
+   "audio_en": "vocab-audio/746.mp3"
+  },
+  {
+   "hindi": "बहुत",
+   "english": "very",
+   "tags": "बहुत सारा lots of",
+   "audio_hi": "vocab-audio/715.mp3",
+   "audio_en": "vocab-audio/1983.mp3"
+  },
+  {
+   "hindi": "बाँटना",
+   "english": "to divide",
+   "tags": "",
+   "audio_hi": "vocab-audio/346.mp3",
+   "audio_en": "vocab-audio/269.mp3"
+  },
+  {
+   "hindi": "बांसुरी",
+   "english": "bamboo flute",
+   "tags": "",
+   "audio_hi": "vocab-audio/1317.mp3",
+   "audio_en": "vocab-audio/1971.mp3"
+  },
+  {
+   "hindi": "बाह",
+   "english": "(upper) arm",
+   "tags": "",
+   "audio_hi": "vocab-audio/1512.mp3",
+   "audio_en": "vocab-audio/475.mp3"
+  },
+  {
+   "hindi": "बाक़ी",
+   "english": "remaining, left",
+   "tags": "",
+   "audio_hi": "vocab-audio/1667.mp3",
+   "audio_en": "vocab-audio/303.mp3"
+  },
+  {
+   "hindi": "बाज़ार",
+   "english": "market",
+   "tags": "",
+   "audio_hi": "vocab-audio/953.mp3",
+   "audio_en": "vocab-audio/968.mp3"
+  },
+  {
+   "hindi": "बात",
+   "english": "matter, thing",
+   "tags": "बात करना to talk, converse;  बात काटना to interrupt;  बात बनना to go well, an aim to be achieved",
+   "audio_hi": "vocab-audio/1297.mp3",
+   "audio_en": "vocab-audio/820.mp3"
+  },
+  {
+   "hindi": "बाद (में)",
+   "english": "later",
+   "tags": "",
+   "audio_hi": "vocab-audio/1799.mp3",
+   "audio_en": "vocab-audio/541.mp3"
+  },
+  {
+   "hindi": "बादल",
+   "english": "cloud",
+   "tags": "",
+   "audio_hi": "vocab-audio/1492.mp3",
+   "audio_en": "vocab-audio/1285.mp3"
+  },
+  {
+   "hindi": "बाप",
+   "english": "father",
+   "tags": "",
+   "audio_hi": "vocab-audio/2108.mp3",
+   "audio_en": "vocab-audio/1347.mp3"
+  },
+  {
+   "hindi": "बाबू",
+   "english": "clerk",
+   "tags": "",
+   "audio_hi": "vocab-audio/1965.mp3",
+   "audio_en": "vocab-audio/1883.mp3"
+  },
+  {
+   "hindi": "बायाँ",
+   "english": "left (opp. of right)",
+   "tags": "",
+   "audio_hi": "vocab-audio/1201.mp3",
+   "audio_en": "vocab-audio/1396.mp3"
+  },
+  {
+   "hindi": "बार",
+   "english": "time, occasion",
+   "tags": "बार-बार time and again",
+   "audio_hi": "vocab-audio/1794.mp3",
+   "audio_en": "vocab-audio/1059.mp3"
+  },
+  {
+   "hindi": "बारह",
+   "english": "twelve",
+   "tags": "",
+   "audio_hi": "vocab-audio/1760.mp3",
+   "audio_en": "vocab-audio/1849.mp3"
+  },
+  {
+   "hindi": "बारिश",
+   "english": "rain",
+   "tags": "बारिश होना to rain",
+   "audio_hi": "vocab-audio/1733.mp3",
+   "audio_en": "vocab-audio/2248.mp3"
+  },
+  {
+   "hindi": "बारे में",
+   "english": "about, concerning",
+   "tags": "",
+   "audio_hi": "vocab-audio/119.mp3",
+   "audio_en": "vocab-audio/934.mp3"
+  },
+  {
+   "hindi": "बाल-बच्चे",
+   "english": "children, family",
+   "tags": "",
+   "audio_hi": "vocab-audio/75.mp3",
+   "audio_en": "vocab-audio/796.mp3"
+  },
+  {
+   "hindi": "बिगड़ना",
+   "english": "to go wrong, get angry",
+   "tags": "",
+   "audio_hi": "vocab-audio/840.mp3",
+   "audio_en": "vocab-audio/622.mp3"
+  },
+  {
+   "hindi": "बिजली",
+   "english": "electricity",
+   "tags": "",
+   "audio_hi": "vocab-audio/1552.mp3",
+   "audio_en": "vocab-audio/2148.mp3"
+  },
+  {
+   "hindi": "बिठाना",
+   "english": "to make sit",
+   "tags": "",
+   "audio_hi": "vocab-audio/2085.mp3",
+   "audio_en": "vocab-audio/543.mp3"
+  },
+  {
+   "hindi": "बियर",
+   "english": "beer",
+   "tags": "",
+   "audio_hi": "vocab-audio/836.mp3",
+   "audio_en": "vocab-audio/2342.mp3"
+  },
+  {
+   "hindi": "बिलकुल",
+   "english": "completely",
+   "tags": "बिलकुल नहीं not at all",
+   "audio_hi": "vocab-audio/1496.mp3",
+   "audio_en": "vocab-audio/1105.mp3"
+  },
+  {
+   "hindi": "बिल्ली",
+   "english": "cat",
+   "tags": "",
+   "audio_hi": "vocab-audio/1391.mp3",
+   "audio_en": "vocab-audio/957.mp3"
+  },
+  {
+   "hindi": "बी.एच.यू.",
+   "english": "BHU (Banaras Hindu University)",
+   "tags": "",
+   "audio_hi": "vocab-audio/602.mp3",
+   "audio_en": "vocab-audio/1163.mp3"
+  },
+  {
+   "hindi": "बीमार",
+   "english": "ill",
+   "tags": "",
+   "audio_hi": "vocab-audio/2097.mp3",
+   "audio_en": "vocab-audio/1582.mp3"
+  },
+  {
+   "hindi": "बीस",
+   "english": "twenty",
+   "tags": "",
+   "audio_hi": "vocab-audio/1620.mp3",
+   "audio_en": "vocab-audio/2352.mp3"
+  },
+  {
+   "hindi": "बुखार",
+   "english": "fever",
+   "tags": "",
+   "audio_hi": "vocab-audio/1671.mp3",
+   "audio_en": "vocab-audio/1678.mp3"
+  },
+  {
+   "hindi": "बुढ़िया",
+   "english": "old woman",
+   "tags": "",
+   "audio_hi": "vocab-audio/1369.mp3",
+   "audio_en": "vocab-audio/595.mp3"
+  },
+  {
+   "hindi": "बुरा",
+   "english": "bad",
+   "tags": "",
+   "audio_hi": "vocab-audio/1786.mp3",
+   "audio_en": "vocab-audio/1848.mp3"
+  },
+  {
+   "hindi": "बुलाना",
+   "english": "to call, invite",
+   "tags": "",
+   "audio_hi": "vocab-audio/1928.mp3",
+   "audio_en": "vocab-audio/2072.mp3"
+  },
+  {
+   "hindi": "बूढ़ा",
+   "english": "old (of people)",
+   "tags": "old man",
+   "audio_hi": "vocab-audio/2119.mp3",
+   "audio_en": "vocab-audio/1358.mp3"
+  },
+  {
+   "hindi": "बेचना",
+   "english": "to sell",
+   "tags": "",
+   "audio_hi": "vocab-audio/681.mp3",
+   "audio_en": "vocab-audio/2135.mp3"
+  },
+  {
+   "hindi": "बेचारा",
+   "english": "poor, wretched, helpless",
+   "tags": "poor fellow",
+   "audio_hi": "vocab-audio/2066.mp3",
+   "audio_en": "vocab-audio/1831.mp3"
+  },
+  {
+   "hindi": "बेचैन",
+   "english": "restless",
+   "tags": "",
+   "audio_hi": "vocab-audio/1847.mp3",
+   "audio_en": "vocab-audio/1018.mp3"
+  },
+  {
+   "hindi": "बेटा",
+   "english": "son, child",
+   "tags": "",
+   "audio_hi": "vocab-audio/1221.mp3",
+   "audio_en": "vocab-audio/223.mp3"
+  },
+  {
+   "hindi": "बेटी",
+   "english": "daughter, child",
+   "tags": "",
+   "audio_hi": "vocab-audio/1266.mp3",
+   "audio_en": "vocab-audio/2246.mp3"
+  },
+  {
+   "hindi": "बेवक़ूफ़",
+   "english": "stupid",
+   "tags": "",
+   "audio_hi": "vocab-audio/1315.mp3",
+   "audio_en": "vocab-audio/596.mp3"
+  },
+  {
+   "hindi": "बैठक",
+   "english": "sitting room",
+   "tags": "",
+   "audio_hi": "vocab-audio/143.mp3",
+   "audio_en": "vocab-audio/664.mp3"
+  },
+  {
+   "hindi": "बैठना",
+   "english": "to sit",
+   "tags": "",
+   "audio_hi": "vocab-audio/927.mp3",
+   "audio_en": "vocab-audio/794.mp3"
+  },
+  {
+   "hindi": "बैठा",
+   "english": "seated, sitting",
+   "tags": "",
+   "audio_hi": "vocab-audio/236.mp3",
+   "audio_en": "vocab-audio/1826.mp3"
+  },
+  {
+   "hindi": "बोतल",
+   "english": "bottle",
+   "tags": "",
+   "audio_hi": "vocab-audio/50.mp3",
+   "audio_en": "vocab-audio/617.mp3"
+  },
+  {
+   "hindi": "बोर करना",
+   "english": "to bore",
+   "tags": "",
+   "audio_hi": "vocab-audio/92.mp3",
+   "audio_en": "vocab-audio/1500.mp3"
+  },
+  {
+   "hindi": "बोरियत",
+   "english": "boredom",
+   "tags": "",
+   "audio_hi": "vocab-audio/4.mp3",
+   "audio_en": "vocab-audio/2164.mp3"
+  },
+  {
+   "hindi": "बोलना",
+   "english": "to speak",
+   "tags": "",
+   "audio_hi": "vocab-audio/961.mp3",
+   "audio_en": "vocab-audio/1673.mp3"
+  },
+  {
+   "hindi": "बोल",
+   "english": "speech, dialect",
+   "tags": "",
+   "audio_hi": "vocab-audio/544.mp3",
+   "audio_en": "vocab-audio/2003.mp3"
+  },
+  {
+   "hindi": "ब्राह्मण",
+   "english": "Brahmin",
+   "tags": "",
+   "audio_hi": "vocab-audio/145.mp3",
+   "audio_en": "vocab-audio/1346.mp3"
+  },
+  {
+   "hindi": "भगवान",
+   "english": "God",
+   "tags": "",
+   "audio_hi": "vocab-audio/241.mp3",
+   "audio_en": "vocab-audio/1433.mp3"
+  },
+  {
+   "hindi": "भतीजा",
+   "english": "nephew",
+   "tags": "",
+   "audio_hi": "vocab-audio/2061.mp3",
+   "audio_en": "vocab-audio/1094.mp3"
+  },
+  {
+   "hindi": "भाई",
+   "english": "brother",
+   "tags": "",
+   "audio_hi": "vocab-audio/1014.mp3",
+   "audio_en": "vocab-audio/561.mp3"
+  },
+  {
+   "hindi": "भागना",
+   "english": "to run away, flee",
+   "tags": "",
+   "audio_hi": "vocab-audio/1746.mp3",
+   "audio_en": "vocab-audio/1889.mp3"
+  },
+  {
+   "hindi": "भाभी",
+   "english": "elder brother&#x27;s wife",
+   "tags": "",
+   "audio_hi": "vocab-audio/458.mp3",
+   "audio_en": "vocab-audio/1939.mp3"
+  },
+  {
+   "hindi": "भारत",
+   "english": "India",
+   "tags": "",
+   "audio_hi": "vocab-audio/247.mp3",
+   "audio_en": "vocab-audio/1920.mp3"
+  },
+  {
+   "hindi": "भारी",
+   "english": "heavy",
+   "tags": "",
+   "audio_hi": "vocab-audio/1135.mp3",
+   "audio_en": "vocab-audio/1064.mp3"
+  },
+  {
+   "hindi": "भाषा",
+   "english": "language",
+   "tags": "",
+   "audio_hi": "vocab-audio/90.mp3",
+   "audio_en": "vocab-audio/2331.mp3"
+  },
+  {
+   "hindi": "भी",
+   "english": "also, too",
+   "tags": "",
+   "audio_hi": "vocab-audio/1951.mp3",
+   "audio_en": "vocab-audio/936.mp3"
+  },
+  {
+   "hindi": "भीगा",
+   "english": "wet",
+   "tags": "भीगी बिल्ली &#x27;drenched cat&#x27;, timid person",
+   "audio_hi": "vocab-audio/1261.mp3",
+   "audio_en": "vocab-audio/1887.mp3"
+  },
+  {
+   "hindi": "भूख",
+   "english": "hunger",
+   "tags": "भूख लगना hunger to strike – to feel hungry",
+   "audio_hi": "vocab-audio/1332.mp3",
+   "audio_en": "vocab-audio/1679.mp3"
+  },
+  {
+   "hindi": "भूत",
+   "english": "ghost",
+   "tags": "",
+   "audio_hi": "vocab-audio/272.mp3",
+   "audio_en": "vocab-audio/416.mp3"
+  },
+  {
+   "hindi": "भूल",
+   "english": "mistake",
+   "tags": "भूल करना to make a mistake",
+   "audio_hi": "vocab-audio/1988.mp3",
+   "audio_en": "vocab-audio/2086.mp3"
+  },
+  {
+   "hindi": "भूलना",
+   "english": "to forget, err",
+   "tags": "भूलकर भी even by mistake",
+   "audio_hi": "vocab-audio/2359.mp3",
+   "audio_en": "vocab-audio/864.mp3"
+  },
+  {
+   "hindi": "भेंट",
+   "english": "gift, presentation",
+   "tags": "meeting, encounter",
+   "audio_hi": "vocab-audio/108.mp3",
+   "audio_en": "vocab-audio/1904.mp3"
+  },
+  {
+   "hindi": "भेजना",
+   "english": "to send",
+   "tags": "",
+   "audio_hi": "vocab-audio/913.mp3",
+   "audio_en": "vocab-audio/462.mp3"
+  },
+  {
+   "hindi": "भेद",
+   "english": "difference",
+   "tags": "",
+   "audio_hi": "vocab-audio/593.mp3",
+   "audio_en": "vocab-audio/514.mp3"
+  },
+  {
+   "hindi": "भैया",
+   "english": "(inv.) brother",
+   "tags": "",
+   "audio_hi": "vocab-audio/1740.mp3",
+   "audio_en": "vocab-audio/62.mp3"
+  },
+  {
+   "hindi": "भोजन",
+   "english": "food",
+   "tags": "भोजन करना to dine, eat",
+   "audio_hi": "vocab-audio/2318.mp3",
+   "audio_en": "vocab-audio/1056.mp3"
+  },
+  {
+   "hindi": "भोला",
+   "english": "innocent, guileless",
+   "tags": "",
+   "audio_hi": "vocab-audio/2049.mp3",
+   "audio_en": "vocab-audio/1341.mp3"
+  },
+  {
+   "hindi": "भौंकना",
+   "english": "to bark",
+   "tags": "",
+   "audio_hi": "vocab-audio/513.mp3",
+   "audio_en": "vocab-audio/396.mp3"
+  },
+  {
+   "hindi": "भ्रष्ट",
+   "english": "corrupted",
+   "tags": "भ्रष्ट करना to corrupt",
+   "audio_hi": "vocab-audio/857.mp3",
+   "audio_en": "vocab-audio/161.mp3"
+  },
+  {
+   "hindi": "मँगवाना",
+   "english": "to order, send for",
+   "tags": "",
+   "audio_hi": "vocab-audio/1427.mp3",
+   "audio_en": "vocab-audio/1409.mp3"
+  },
+  {
+   "hindi": "मंदिर",
+   "english": "temple",
+   "tags": "",
+   "audio_hi": "vocab-audio/1252.mp3",
+   "audio_en": "vocab-audio/1276.mp3"
+  },
+  {
+   "hindi": "मकान",
+   "english": "house",
+   "tags": "",
+   "audio_hi": "vocab-audio/2221.mp3",
+   "audio_en": "vocab-audio/89.mp3"
+  },
+  {
+   "hindi": "मक्खन",
+   "english": "butter",
+   "tags": "",
+   "audio_hi": "vocab-audio/483.mp3",
+   "audio_en": "vocab-audio/446.mp3"
+  },
+  {
+   "hindi": "मक्खी",
+   "english": "fly",
+   "tags": "मक्खियाँ मारना to &#x27;kill flies&#x27;, laze about",
+   "audio_hi": "vocab-audio/265.mp3",
+   "audio_en": "vocab-audio/1022.mp3"
+  },
+  {
+   "hindi": "मगर",
+   "english": "crocodile",
+   "tags": "",
+   "audio_hi": "vocab-audio/1538.mp3",
+   "audio_en": "vocab-audio/1520.mp3"
+  },
+  {
+   "hindi": "मगर",
+   "english": "but",
+   "tags": "",
+   "audio_hi": "vocab-audio/691.mp3",
+   "audio_en": "vocab-audio/1520.mp3"
+  },
+  {
+   "hindi": "मच",
+   "english": "to break out, be caused",
+   "tags": "",
+   "audio_hi": "vocab-audio/474.mp3",
+   "audio_en": "vocab-audio/2237.mp3"
+  },
+  {
+   "hindi": "मचाना",
+   "english": "to create (noise etc.)",
+   "tags": "",
+   "audio_hi": "vocab-audio/2014.mp3",
+   "audio_en": "vocab-audio/799.mp3"
+  },
+  {
+   "hindi": "मच्छर",
+   "english": "mosquito",
+   "tags": "",
+   "audio_hi": "vocab-audio/809.mp3",
+   "audio_en": "vocab-audio/2171.mp3"
+  },
+  {
+   "hindi": "मज़दूर",
+   "english": "labourer",
+   "tags": "",
+   "audio_hi": "vocab-audio/478.mp3",
+   "audio_en": "vocab-audio/491.mp3"
+  },
+  {
+   "hindi": "मजबूरी",
+   "english": "compulsion",
+   "tags": "",
+   "audio_hi": "vocab-audio/587.mp3",
+   "audio_en": "vocab-audio/99.mp3"
+  },
+  {
+   "hindi": "मज़ा",
+   "english": "fun, pleasure, enjoyment",
+   "tags": "मज़ा आना to have fun",
+   "audio_hi": "vocab-audio/71.mp3",
+   "audio_en": "vocab-audio/801.mp3"
+  },
+  {
+   "hindi": "मज़ाक",
+   "english": "joke",
+   "tags": "",
+   "audio_hi": "vocab-audio/1610.mp3",
+   "audio_en": "vocab-audio/1804.mp3"
+  },
+  {
+   "hindi": "मत",
+   "english": "don&#x27;t (in commands)",
+   "tags": "",
+   "audio_hi": "vocab-audio/748.mp3",
+   "audio_en": "vocab-audio/1638.mp3"
+  },
+  {
+   "hindi": "मतलब",
+   "english": "meaning",
+   "tags": "",
+   "audio_hi": "vocab-audio/1476.mp3",
+   "audio_en": "vocab-audio/412.mp3"
+  },
+  {
+   "hindi": "मदद",
+   "english": "help",
+   "tags": "मदद देना to help;  मदद करना to help",
+   "audio_hi": "vocab-audio/1913.mp3",
+   "audio_en": "vocab-audio/667.mp3"
+  },
+  {
+   "hindi": "मनाही",
+   "english": "forbidden, prohibited",
+   "tags": "",
+   "audio_hi": "vocab-audio/916.mp3",
+   "audio_en": "vocab-audio/524.mp3"
+  },
+  {
+   "hindi": "मरना",
+   "english": "to die",
+   "tags": "",
+   "audio_hi": "vocab-audio/335.mp3",
+   "audio_en": "vocab-audio/876.mp3"
+  },
+  {
+   "hindi": "मरम्मत",
+   "english": "repair",
+   "tags": "मरम्मत करना to repair, set right",
+   "audio_hi": "vocab-audio/1439.mp3",
+   "audio_en": "vocab-audio/239.mp3"
+  },
+  {
+   "hindi": "मर्द",
+   "english": "man, male",
+   "tags": "",
+   "audio_hi": "vocab-audio/187.mp3",
+   "audio_en": "vocab-audio/2319.mp3"
+  },
+  {
+   "hindi": "मशहूर",
+   "english": "famous",
+   "tags": "",
+   "audio_hi": "vocab-audio/15.mp3",
+   "audio_en": "vocab-audio/2211.mp3"
+  },
+  {
+   "hindi": "मसूरी",
+   "english": "Mussoorie",
+   "tags": "",
+   "audio_hi": "vocab-audio/261.mp3",
+   "audio_en": "vocab-audio/1725.mp3"
+  },
+  {
+   "hindi": "मस्त",
+   "english": "joyous, delighted",
+   "tags": "",
+   "audio_hi": "vocab-audio/162.mp3",
+   "audio_en": "vocab-audio/1473.mp3"
+  },
+  {
+   "hindi": "महँगा",
+   "english": "expensive",
+   "tags": "",
+   "audio_hi": "vocab-audio/2283.mp3",
+   "audio_en": "vocab-audio/699.mp3"
+  },
+  {
+   "hindi": "महल",
+   "english": "palace",
+   "tags": "",
+   "audio_hi": "vocab-audio/107.mp3",
+   "audio_en": "vocab-audio/280.mp3"
+  },
+  {
+   "hindi": "महाभारत",
+   "english": "India&#x27;s mythical epic war",
+   "tags": "",
+   "audio_hi": "vocab-audio/1789.mp3",
+   "audio_en": "vocab-audio/343.mp3"
+  },
+  {
+   "hindi": "महायुद्ध",
+   "english": "great war",
+   "tags": "",
+   "audio_hi": "vocab-audio/948.mp3",
+   "audio_en": "vocab-audio/537.mp3"
+  },
+  {
+   "hindi": "महाराजा",
+   "english": "maharaja",
+   "tags": "",
+   "audio_hi": "vocab-audio/1360.mp3",
+   "audio_en": "vocab-audio/821.mp3"
+  },
+  {
+   "hindi": "महिला",
+   "english": "lady",
+   "tags": "",
+   "audio_hi": "vocab-audio/2092.mp3",
+   "audio_en": "vocab-audio/377.mp3"
+  },
+  {
+   "hindi": "महीन",
+   "english": "fine, delicate",
+   "tags": "",
+   "audio_hi": "vocab-audio/302.mp3",
+   "audio_en": "vocab-audio/380.mp3"
+  },
+  {
+   "hindi": "महीना",
+   "english": "month",
+   "tags": "",
+   "audio_hi": "vocab-audio/389.mp3",
+   "audio_en": "vocab-audio/688.mp3"
+  },
+  {
+   "hindi": "महाशय",
+   "english": "gentleman",
+   "tags": "term of address",
+   "audio_hi": "vocab-audio/1118.mp3",
+   "audio_en": "vocab-audio/562.mp3"
+  },
+  {
+   "hindi": "माँ",
+   "english": "ma, mother",
+   "tags": "",
+   "audio_hi": "vocab-audio/1566.mp3",
+   "audio_en": "vocab-audio/49.mp3"
+  },
+  {
+   "hindi": "माँस",
+   "english": "meat",
+   "tags": "",
+   "audio_hi": "vocab-audio/1612.mp3",
+   "audio_en": "vocab-audio/628.mp3"
+  },
+  {
+   "hindi": "माता",
+   "english": "mother",
+   "tags": "",
+   "audio_hi": "vocab-audio/1930.mp3",
+   "audio_en": "vocab-audio/548.mp3"
+  },
+  {
+   "hindi": "मानना",
+   "english": "to accept, believe",
+   "tags": "",
+   "audio_hi": "vocab-audio/1148.mp3",
+   "audio_en": "vocab-audio/1773.mp3"
+  },
+  {
+   "hindi": "मानव",
+   "english": "man",
+   "tags": "",
+   "audio_hi": "vocab-audio/1209.mp3",
+   "audio_en": "vocab-audio/1485.mp3"
+  },
+  {
+   "hindi": "माँगना",
+   "english": "to ask for, demand",
+   "tags": "",
+   "audio_hi": "vocab-audio/1618.mp3",
+   "audio_en": "vocab-audio/93.mp3"
+  },
+  {
+   "hindi": "माफ़ करना",
+   "english": "to forgive, excuse",
+   "tags": "",
+   "audio_hi": "vocab-audio/63.mp3",
+   "audio_en": "vocab-audio/410.mp3"
+  },
+  {
+   "hindi": "माफ़ी",
+   "english": "forgiveness",
+   "tags": "माफ़ी माँगना to apologize",
+   "audio_hi": "vocab-audio/1255.mp3",
+   "audio_en": "vocab-audio/495.mp3"
+  },
+  {
+   "hindi": "मामला",
+   "english": "matter, affair",
+   "tags": "",
+   "audio_hi": "vocab-audio/1970.mp3",
+   "audio_en": "vocab-audio/1052.mp3"
+  },
+  {
+   "hindi": "मारना",
+   "english": "to beat, hit, kill",
+   "tags": "",
+   "audio_hi": "vocab-audio/605.mp3",
+   "audio_en": "vocab-audio/472.mp3"
+  },
+  {
+   "hindi": "मारुति",
+   "english": "Maruti (car make)",
+   "tags": "",
+   "audio_hi": "vocab-audio/202.mp3",
+   "audio_en": "vocab-audio/94.mp3"
+  },
+  {
+   "hindi": "मार्च",
+   "english": "March",
+   "tags": "",
+   "audio_hi": "vocab-audio/1516.mp3",
+   "audio_en": "vocab-audio/1043.mp3"
+  },
+  {
+   "hindi": "मालिक",
+   "english": "boss",
+   "tags": "",
+   "audio_hi": "vocab-audio/252.mp3",
+   "audio_en": "vocab-audio/390.mp3"
+  },
+  {
+   "hindi": "माली",
+   "english": "gardener",
+   "tags": "",
+   "audio_hi": "vocab-audio/1047.mp3",
+   "audio_en": "vocab-audio/1367.mp3"
+  },
+  {
+   "hindi": "मालूम",
+   "english": "known",
+   "tags": "मालूम नहीं don&#x27;t know;  मालूम करना to ascertain",
+   "audio_hi": "vocab-audio/1495.mp3",
+   "audio_en": "vocab-audio/906.mp3"
+  },
+  {
+   "hindi": "माहिर",
+   "english": "expert, skilled",
+   "tags": "",
+   "audio_hi": "vocab-audio/2030.mp3",
+   "audio_en": "vocab-audio/1224.mp3"
+  },
+  {
+   "hindi": "मीठाई",
+   "english": "sweet, sweet dish",
+   "tags": "",
+   "audio_hi": "vocab-audio/1565.mp3",
+   "audio_en": "vocab-audio/1312.mp3"
+  },
+  {
+   "hindi": "मित्र",
+   "english": "friend",
+   "tags": "",
+   "audio_hi": "vocab-audio/665.mp3",
+   "audio_en": "vocab-audio/914.mp3"
+  },
+  {
+   "hindi": "मिनट",
+   "english": "minute",
+   "tags": "",
+   "audio_hi": "vocab-audio/2161.mp3",
+   "audio_en": "vocab-audio/1729.mp3"
+  },
+  {
+   "hindi": "मिलना",
+   "english": "to meet",
+   "tags": "to be available;  to resemble;  मिलते-जुलते resemble;  साथ मिलकर together, jointly",
+   "audio_hi": "vocab-audio/1478.mp3",
+   "audio_en": "vocab-audio/1474.mp3"
+  },
+  {
+   "hindi": "मिलाना",
+   "english": "to dial, phone",
+   "tags": "to join (e.g. hands);  to mix",
+   "audio_hi": "vocab-audio/1719.mp3",
+   "audio_en": "vocab-audio/1373.mp3"
+  },
+  {
+   "hindi": "मिस्त्री",
+   "english": "mechanic, artisan",
+   "tags": "",
+   "audio_hi": "vocab-audio/1947.mp3",
+   "audio_en": "vocab-audio/2225.mp3"
+  },
+  {
+   "hindi": "मीटिंग",
+   "english": "meeting",
+   "tags": "",
+   "audio_hi": "vocab-audio/1157.mp3",
+   "audio_en": "vocab-audio/1208.mp3"
+  },
+  {
+   "hindi": "मीठा",
+   "english": "sweet",
+   "tags": "",
+   "audio_hi": "vocab-audio/36.mp3",
+   "audio_en": "vocab-audio/2361.mp3"
+  },
+  {
+   "hindi": "मुँह",
+   "english": "mouth, face",
+   "tags": "",
+   "audio_hi": "vocab-audio/100.mp3",
+   "audio_en": "vocab-audio/1634.mp3"
+  },
+  {
+   "hindi": "मुझ",
+   "english": "oblique of मैं",
+   "tags": "",
+   "audio_hi": "vocab-audio/369.mp3",
+   "audio_en": "vocab-audio/1597.mp3"
+  },
+  {
+   "hindi": "मुड़ना",
+   "english": "to turn",
+   "tags": "",
+   "audio_hi": "vocab-audio/1079.mp3",
+   "audio_en": "vocab-audio/1378.mp3"
+  },
+  {
+   "hindi": "मुन्ना",
+   "english": "&#x27;Munna&#x27; – nickname for little boy",
+   "tags": "",
+   "audio_hi": "vocab-audio/1892.mp3",
+   "audio_en": "vocab-audio/812.mp3"
+  },
+  {
+   "hindi": "मुमकिन",
+   "english": "possible",
+   "tags": "",
+   "audio_hi": "vocab-audio/1044.mp3",
+   "audio_en": "vocab-audio/46.mp3"
+  },
+  {
+   "hindi": "मुलाक़ात",
+   "english": "meeting, encounter",
+   "tags": "",
+   "audio_hi": "vocab-audio/2349.mp3",
+   "audio_en": "vocab-audio/1643.mp3"
+  },
+  {
+   "hindi": "मुश्किल",
+   "english": "difficult",
+   "tags": "difficulty",
+   "audio_hi": "vocab-audio/903.mp3",
+   "audio_en": "vocab-audio/1695.mp3"
+  },
+  {
+   "hindi": "मुसलमान",
+   "english": "Muslim",
+   "tags": "",
+   "audio_hi": "vocab-audio/1199.mp3",
+   "audio_en": "vocab-audio/25.mp3"
+  },
+  {
+   "hindi": "मुसाफ़िर",
+   "english": "traveller",
+   "tags": "",
+   "audio_hi": "vocab-audio/1613.mp3",
+   "audio_en": "vocab-audio/1298.mp3"
+  },
+  {
+   "hindi": "मुस्कराना",
+   "english": "to smile",
+   "tags": "",
+   "audio_hi": "vocab-audio/2288.mp3",
+   "audio_en": "vocab-audio/1910.mp3"
+  },
+  {
+   "hindi": "मूर्ख",
+   "english": "fool",
+   "tags": "",
+   "audio_hi": "vocab-audio/59.mp3",
+   "audio_en": "vocab-audio/1021.mp3"
+  },
+  {
+   "hindi": "मूल",
+   "english": "origin",
+   "tags": "",
+   "audio_hi": "vocab-audio/362.mp3",
+   "audio_en": "vocab-audio/1295.mp3"
+  },
+  {
+   "hindi": "में",
+   "english": "in",
+   "tags": "में से from among, out of",
+   "audio_hi": "vocab-audio/726.mp3",
+   "audio_en": "vocab-audio/1164.mp3"
+  },
+  {
+   "hindi": "मेज़",
+   "english": "table",
+   "tags": "",
+   "audio_hi": "vocab-audio/671.mp3",
+   "audio_en": "vocab-audio/66.mp3"
+  },
+  {
+   "hindi": "मेरा",
+   "english": "my, mine",
+   "tags": "मेरे पाँवों तले ज़मीन नहीं &#x27;my foot!&#x27;",
+   "audio_hi": "vocab-audio/2088.mp3",
+   "audio_en": "vocab-audio/1070.mp3"
+  },
+  {
+   "hindi": "मेहनत",
+   "english": "hard work",
+   "tags": "",
+   "audio_hi": "vocab-audio/1966.mp3",
+   "audio_en": "vocab-audio/1428.mp3"
+  },
+  {
+   "hindi": "मेहनती",
+   "english": "hardworking",
+   "tags": "",
+   "audio_hi": "vocab-audio/196.mp3",
+   "audio_en": "vocab-audio/1011.mp3"
+  },
+  {
+   "hindi": "मेहरबानी",
+   "english": "kindness",
+   "tags": "मेहरबानी से kindly, please",
+   "audio_hi": "vocab-audio/527.mp3",
+   "audio_en": "vocab-audio/2089.mp3"
+  },
+  {
+   "hindi": "मैं",
+   "english": "I",
+   "tags": "",
+   "audio_hi": "vocab-audio/2120.mp3",
+   "audio_en": "vocab-audio/1119.mp3"
+  },
+  {
+   "hindi": "मैडम",
+   "english": "madam",
+   "tags": "",
+   "audio_hi": "vocab-audio/709.mp3",
+   "audio_en": "vocab-audio/1304.mp3"
+  },
+  {
+   "hindi": "मोड़",
+   "english": "turn, bend",
+   "tags": "",
+   "audio_hi": "vocab-audio/1940.mp3",
+   "audio_en": "vocab-audio/19.mp3"
+  },
+  {
+   "hindi": "मोती",
+   "english": "pearl",
+   "tags": "",
+   "audio_hi": "vocab-audio/1795.mp3",
+   "audio_en": "vocab-audio/2193.mp3"
+  },
+  {
+   "hindi": "मोर",
+   "english": "peacock",
+   "tags": "",
+   "audio_hi": "vocab-audio/1758.mp3",
+   "audio_en": "vocab-audio/274.mp3"
+  },
+  {
+   "hindi": "मौक़ा",
+   "english": "chance, opportunity",
+   "tags": "",
+   "audio_hi": "vocab-audio/2155.mp3",
+   "audio_en": "vocab-audio/1063.mp3"
+  },
+  {
+   "hindi": "मौसम",
+   "english": "weather",
+   "tags": "",
+   "audio_hi": "vocab-audio/1240.mp3",
+   "audio_en": "vocab-audio/1229.mp3"
+  },
+  {
+   "hindi": "यदि",
+   "english": "if",
+   "tags": "",
+   "audio_hi": "vocab-audio/56.mp3",
+   "audio_en": "vocab-audio/347.mp3"
+  },
+  {
+   "hindi": "यद्यपि",
+   "english": "although",
+   "tags": "",
+   "audio_hi": "vocab-audio/1116.mp3",
+   "audio_en": "vocab-audio/140.mp3"
+  },
+  {
+   "hindi": "यह",
+   "english": "he, she, it, this",
+   "tags": "",
+   "audio_hi": "vocab-audio/2050.mp3",
+   "audio_en": "vocab-audio/1107.mp3"
+  },
+  {
+   "hindi": "यहाँ",
+   "english": "here",
+   "tags": "",
+   "audio_hi": "vocab-audio/1800.mp3",
+   "audio_en": "vocab-audio/1451.mp3"
+  },
+  {
+   "hindi": "यही",
+   "english": "right here, in this very place",
+   "tags": "",
+   "audio_hi": "vocab-audio/1475.mp3",
+   "audio_en": "vocab-audio/2121.mp3"
+  },
+  {
+   "hindi": "या",
+   "english": "or",
+   "tags": "या तो... या either... or",
+   "audio_hi": "vocab-audio/2051.mp3",
+   "audio_en": "vocab-audio/1842.mp3"
+  },
+  {
+   "hindi": "यात्रा",
+   "english": "journey, travel",
+   "tags": "",
+   "audio_hi": "vocab-audio/393.mp3",
+   "audio_en": "vocab-audio/2015.mp3"
+  },
+  {
+   "hindi": "यात्री",
+   "english": "traveller, passenger",
+   "tags": "",
+   "audio_hi": "vocab-audio/2154.mp3",
+   "audio_en": "vocab-audio/975.mp3"
+  },
+  {
+   "hindi": "याद",
+   "english": "memory",
+   "tags": "याद आना to be recalled, come to mind, be missed;  याद करना to remember, memorize;  to think of, summon (e.g. an employee);  याद दिलाना to remind;  याद रखना to keep in mind, not to forget;  याद रहना to be remembered;  याद रखना to be remembered",
+   "audio_hi": "vocab-audio/84.mp3",
+   "audio_en": "vocab-audio/2272.mp3"
+  },
+  {
+   "hindi": "यानि",
+   "english": "that is to say",
+   "tags": "",
+   "audio_hi": "vocab-audio/2321.mp3",
+   "audio_en": "vocab-audio/1412.mp3"
+  },
+  {
+   "hindi": "यार",
+   "english": "friend (esp. vocative)",
+   "tags": "",
+   "audio_hi": "vocab-audio/1441.mp3",
+   "audio_en": "vocab-audio/1680.mp3"
+  },
+  {
+   "hindi": "यू.पी.",
+   "english": "UP, Uttar Pradesh",
+   "tags": "",
+   "audio_hi": "vocab-audio/1511.mp3",
+   "audio_en": "vocab-audio/1280.mp3"
+  },
+  {
+   "hindi": "ये",
+   "english": "these, they",
+   "tags": "he, she (formal)",
+   "audio_hi": "vocab-audio/1924.mp3",
+   "audio_en": "vocab-audio/1764.mp3"
+  },
+  {
+   "hindi": "रंग",
+   "english": "colour",
+   "tags": "",
+   "audio_hi": "vocab-audio/2280.mp3",
+   "audio_en": "vocab-audio/1547.mp3"
+  },
+  {
+   "hindi": "रखना",
+   "english": "to put",
+   "tags": "to keep",
+   "audio_hi": "vocab-audio/991.mp3",
+   "audio_en": "vocab-audio/891.mp3"
+  },
+  {
+   "hindi": "रवानी",
+   "english": "fluency",
+   "tags": "",
+   "audio_hi": "vocab-audio/52.mp3",
+   "audio_en": "vocab-audio/984.mp3"
+  },
+  {
+   "hindi": "रविवार",
+   "english": "Sunday",
+   "tags": "",
+   "audio_hi": "vocab-audio/2112.mp3",
+   "audio_en": "vocab-audio/1563.mp3"
+  },
+  {
+   "hindi": "रसोईघर",
+   "english": "kitchen",
+   "tags": "",
+   "audio_hi": "vocab-audio/858.mp3",
+   "audio_en": "vocab-audio/577.mp3"
+  },
+  {
+   "hindi": "रस्सी",
+   "english": "string, cord",
+   "tags": "",
+   "audio_hi": "vocab-audio/1049.mp3",
+   "audio_en": "vocab-audio/1686.mp3"
+  },
+  {
+   "hindi": "रहना",
+   "english": "to stay, remain, live",
+   "tags": "",
+   "audio_hi": "vocab-audio/695.mp3",
+   "audio_en": "vocab-audio/649.mp3"
+  },
+  {
+   "hindi": "राजधानी",
+   "english": "capital",
+   "tags": "name of some Delhi express trains",
+   "audio_hi": "vocab-audio/413.mp3",
+   "audio_en": "vocab-audio/2273.mp3"
+  },
+  {
+   "hindi": "राजस्थान",
+   "english": "Rajasthan",
+   "tags": "",
+   "audio_hi": "vocab-audio/2031.mp3",
+   "audio_en": "vocab-audio/2150.mp3"
+  },
+  {
+   "hindi": "राजा",
+   "english": "king",
+   "tags": "",
+   "audio_hi": "vocab-audio/1072.mp3",
+   "audio_en": "vocab-audio/643.mp3"
+  },
+  {
+   "hindi": "राज़ी",
+   "english": "agreeable, content",
+   "tags": "",
+   "audio_hi": "vocab-audio/82.mp3",
+   "audio_en": "vocab-audio/1108.mp3"
+  },
+  {
+   "hindi": "रात",
+   "english": "night",
+   "tags": "रात भर all night",
+   "audio_hi": "vocab-audio/1823.mp3",
+   "audio_en": "vocab-audio/1115.mp3"
+  },
+  {
+   "hindi": "रामायण",
+   "english": "Ramayan (epic poem)",
+   "tags": "",
+   "audio_hi": "vocab-audio/398.mp3",
+   "audio_en": "vocab-audio/481.mp3"
+  },
+  {
+   "hindi": "राय",
+   "english": "opinion",
+   "tags": "",
+   "audio_hi": "vocab-audio/1562.mp3",
+   "audio_en": "vocab-audio/1837.mp3"
+  },
+  {
+   "hindi": "रिक्शा",
+   "english": "rickshaw",
+   "tags": "",
+   "audio_hi": "vocab-audio/750.mp3",
+   "audio_en": "vocab-audio/1446.mp3"
+  },
+  {
+   "hindi": "रिश्तेदार",
+   "english": "relative",
+   "tags": "",
+   "audio_hi": "vocab-audio/1483.mp3",
+   "audio_en": "vocab-audio/1683.mp3"
+  },
+  {
+   "hindi": "रुकना",
+   "english": "to stop",
+   "tags": "to stay on",
+   "audio_hi": "vocab-audio/2009.mp3",
+   "audio_en": "vocab-audio/340.mp3"
+  },
+  {
+   "hindi": "रुपया",
+   "english": "rupee",
+   "tags": "money",
+   "audio_hi": "vocab-audio/2101.mp3",
+   "audio_en": "vocab-audio/2068.mp3"
+  },
+  {
+   "hindi": "रूबरू",
+   "english": "face to face",
+   "tags": "",
+   "audio_hi": "vocab-audio/917.mp3",
+   "audio_en": "vocab-audio/352.mp3"
+  },
+  {
+   "hindi": "रूसी",
+   "english": "Russian",
+   "tags": "",
+   "audio_hi": "vocab-audio/2010.mp3",
+   "audio_en": "vocab-audio/690.mp3"
+  },
+  {
+   "hindi": "रे",
+   "english": "eh, oh, hey",
+   "tags": "",
+   "audio_hi": "vocab-audio/1366.mp3",
+   "audio_en": "vocab-audio/363.mp3"
+  },
+  {
+   "hindi": "रेडियो",
+   "english": "radio",
+   "tags": "",
+   "audio_hi": "vocab-audio/1682.mp3",
+   "audio_en": "vocab-audio/1609.mp3"
+  },
+  {
+   "hindi": "रेलगाड़ी",
+   "english": "train",
+   "tags": "",
+   "audio_hi": "vocab-audio/2332.mp3",
+   "audio_en": "vocab-audio/1539.mp3"
+  },
+  {
+   "hindi": "रेशम",
+   "english": "silk",
+   "tags": "",
+   "audio_hi": "vocab-audio/866.mp3",
+   "audio_en": "vocab-audio/686.mp3"
+  },
+  {
+   "hindi": "रोकना",
+   "english": "to stop",
+   "tags": "",
+   "audio_hi": "vocab-audio/2009.mp3",
+   "audio_en": "vocab-audio/719.mp3"
+  },
+  {
+   "hindi": "रोज़",
+   "english": "every day, daily",
+   "tags": "",
+   "audio_hi": "vocab-audio/1699.mp3",
+   "audio_en": "vocab-audio/1120.mp3"
+  },
+  {
+   "hindi": "रोटी",
+   "english": "bread",
+   "tags": "food",
+   "audio_hi": "vocab-audio/1181.mp3",
+   "audio_en": "vocab-audio/122.mp3"
+  },
+  {
+   "hindi": "रोना",
+   "english": "to weep, cry",
+   "tags": "",
+   "audio_hi": "vocab-audio/802.mp3",
+   "audio_en": "vocab-audio/2296.mp3"
+  },
+  {
+   "hindi": "लंदन",
+   "english": "London",
+   "tags": "",
+   "audio_hi": "vocab-audio/2264.mp3",
+   "audio_en": "vocab-audio/725.mp3"
+  },
+  {
+   "hindi": "लंबा",
+   "english": "tall, high",
+   "tags": "",
+   "audio_hi": "vocab-audio/1025.mp3",
+   "audio_en": "vocab-audio/2326.mp3"
+  },
+  {
+   "hindi": "लंबाई",
+   "english": "height, length",
+   "tags": "",
+   "audio_hi": "vocab-audio/355.mp3",
+   "audio_en": "vocab-audio/152.mp3"
+  },
+  {
+   "hindi": "लकड़ी",
+   "english": "wood",
+   "tags": "stick",
+   "audio_hi": "vocab-audio/2054.mp3",
+   "audio_en": "vocab-audio/1706.mp3"
+  },
+  {
+   "hindi": "लखनऊ",
+   "english": "Lucknow",
+   "tags": "",
+   "audio_hi": "vocab-audio/2103.mp3",
+   "audio_en": "vocab-audio/2233.mp3"
+  },
+  {
+   "hindi": "लखपति",
+   "english": "rich man, &#x27;millionaire&#x27;",
+   "tags": "",
+   "audio_hi": "vocab-audio/1701.mp3",
+   "audio_en": "vocab-audio/1160.mp3"
+  },
+  {
+   "hindi": "लगना",
+   "english": "to strike",
+   "tags": "to appeal;  to seem;  to catch (of illness, fire);  to be related, attached;  to gather (of crowds);  to be expended (of time);  (with obi. inf.) to begin to",
+   "audio_hi": "vocab-audio/1743.mp3",
+   "audio_en": "vocab-audio/618.mp3"
+  },
+  {
+   "hindi": "लगाना",
+   "english": "to apply, affix",
+   "tags": "",
+   "audio_hi": "vocab-audio/1479.mp3",
+   "audio_en": "vocab-audio/1979.mp3"
+  },
+  {
+   "hindi": "लड़का",
+   "english": "boy",
+   "tags": "",
+   "audio_hi": "vocab-audio/847.mp3",
+   "audio_en": "vocab-audio/787.mp3"
+  },
+  {
+   "hindi": "लड़की",
+   "english": "girl",
+   "tags": "",
+   "audio_hi": "vocab-audio/547.mp3",
+   "audio_en": "vocab-audio/1697.mp3"
+  },
+  {
+   "hindi": "लदना",
+   "english": "to be loaded",
+   "tags": "",
+   "audio_hi": "vocab-audio/2235.mp3",
+   "audio_en": "vocab-audio/404.mp3"
+  },
+  {
+   "hindi": "लहसुन",
+   "english": "garlic",
+   "tags": "",
+   "audio_hi": "vocab-audio/722.mp3",
+   "audio_en": "vocab-audio/1603.mp3"
+  },
+  {
+   "hindi": "लाख",
+   "english": "hundred thousand",
+   "tags": "",
+   "audio_hi": "vocab-audio/2294.mp3",
+   "audio_en": "vocab-audio/644.mp3"
+  },
+  {
+   "hindi": "लाजवाब",
+   "english": "beyond compare",
+   "tags": "",
+   "audio_hi": "vocab-audio/1991.mp3",
+   "audio_en": "vocab-audio/1328.mp3"
+  },
+  {
+   "hindi": "लाठी",
+   "english": "lathi, stick",
+   "tags": "",
+   "audio_hi": "vocab-audio/288.mp3",
+   "audio_en": "vocab-audio/1599.mp3"
+  },
+  {
+   "hindi": "लादना",
+   "english": "to load",
+   "tags": "",
+   "audio_hi": "vocab-audio/2106.mp3",
+   "audio_en": "vocab-audio/935.mp3"
+  },
+  {
+   "hindi": "लाना",
+   "english": "to bring",
+   "tags": "",
+   "audio_hi": "vocab-audio/1791.mp3",
+   "audio_en": "vocab-audio/1281.mp3"
+  },
+  {
+   "hindi": "लाभ",
+   "english": "profit, advantage",
+   "tags": "",
+   "audio_hi": "vocab-audio/1736.mp3",
+   "audio_en": "vocab-audio/1040.mp3"
+  },
+  {
+   "hindi": "लायक़",
+   "english": "worth (doing)",
+   "tags": "",
+   "audio_hi": "vocab-audio/965.mp3",
+   "audio_en": "vocab-audio/2325.mp3"
+  },
+  {
+   "hindi": "लाल",
+   "english": "red",
+   "tags": "",
+   "audio_hi": "vocab-audio/905.mp3",
+   "audio_en": "vocab-audio/344.mp3"
+  },
+  {
+   "hindi": "लिखना",
+   "english": "to write",
+   "tags": "",
+   "audio_hi": "vocab-audio/1017.mp3",
+   "audio_en": "vocab-audio/2146.mp3"
+  },
+  {
+   "hindi": "लिटाना",
+   "english": "to make lie down",
+   "tags": "",
+   "audio_hi": "vocab-audio/1251.mp3",
+   "audio_en": "vocab-audio/378.mp3"
+  },
+  {
+   "hindi": "लिपि",
+   "english": "script, alphabet",
+   "tags": "",
+   "audio_hi": "vocab-audio/266.mp3",
+   "audio_en": "vocab-audio/1498.mp3"
+  },
+  {
+   "hindi": "लिफ़ाफ़ा",
+   "english": "envelope",
+   "tags": "",
+   "audio_hi": "vocab-audio/843.mp3",
+   "audio_en": "vocab-audio/2127.mp3"
+  },
+  {
+   "hindi": "लूटना",
+   "english": "to loot, steal",
+   "tags": "",
+   "audio_hi": "vocab-audio/638.mp3",
+   "audio_en": "vocab-audio/2284.mp3"
+  },
+  {
+   "hindi": "लाना",
+   "english": "to bring",
+   "tags": "",
+   "audio_hi": "vocab-audio/1791.mp3",
+   "audio_en": "vocab-audio/1281.mp3"
+  },
+  {
+   "hindi": "ले जाना",
+   "english": "to take away",
+   "tags": "",
+   "audio_hi": "vocab-audio/904.mp3",
+   "audio_en": "vocab-audio/1455.mp3"
+  },
+  {
+   "hindi": "लेकिन",
+   "english": "but",
+   "tags": "",
+   "audio_hi": "vocab-audio/691.mp3",
+   "audio_en": "vocab-audio/2240.mp3"
+  },
+  {
+   "hindi": "लेटना",
+   "english": "to lie, recline",
+   "tags": "",
+   "audio_hi": "vocab-audio/1821.mp3",
+   "audio_en": "vocab-audio/2063.mp3"
+  },
+  {
+   "hindi": "लेख",
+   "english": "article (written)",
+   "tags": "",
+   "audio_hi": "vocab-audio/1470.mp3",
+   "audio_en": "vocab-audio/731.mp3"
+  },
+  {
+   "hindi": "लेखक",
+   "english": "writer",
+   "tags": "",
+   "audio_hi": "vocab-audio/1995.mp3",
+   "audio_en": "vocab-audio/1619.mp3"
+  },
+  {
+   "hindi": "लेना",
+   "english": "to take, receive",
+   "tags": "लेन-देन dealings, connection",
+   "audio_hi": "vocab-audio/2195.mp3",
+   "audio_en": "vocab-audio/1109.mp3"
+  },
+  {
+   "hindi": "लोकप्रिय",
+   "english": "popular",
+   "tags": "",
+   "audio_hi": "vocab-audio/1306.mp3",
+   "audio_en": "vocab-audio/503.mp3"
+  },
+  {
+   "hindi": "लोग",
+   "english": "people",
+   "tags": "",
+   "audio_hi": "vocab-audio/129.mp3",
+   "audio_en": "vocab-audio/981.mp3"
+  },
+  {
+   "hindi": "लोटपोट",
+   "english": "rolling, helpless (with laughter)",
+   "tags": "",
+   "audio_hi": "vocab-audio/349.mp3",
+   "audio_en": "vocab-audio/191.mp3"
+  },
+  {
+   "hindi": "लौटना",
+   "english": "to return",
+   "tags": "",
+   "audio_hi": "vocab-audio/1807.mp3",
+   "audio_en": "vocab-audio/1258.mp3"
+  },
+  {
+   "hindi": "वक़्त",
+   "english": "time",
+   "tags": "",
+   "audio_hi": "vocab-audio/844.mp3",
+   "audio_en": "vocab-audio/1248.mp3"
+  },
+  {
+   "hindi": "वगैरह",
+   "english": "and so on, etc.",
+   "tags": "",
+   "audio_hi": "vocab-audio/442.mp3",
+   "audio_en": "vocab-audio/607.mp3"
+  },
+  {
+   "hindi": "वर्णन",
+   "english": "description",
+   "tags": "वर्णन करना to describe",
+   "audio_hi": "vocab-audio/823.mp3",
+   "audio_en": "vocab-audio/546.mp3"
+  },
+  {
+   "hindi": "वर्ष",
+   "english": "year",
+   "tags": "",
+   "audio_hi": "vocab-audio/1005.mp3",
+   "audio_en": "vocab-audio/741.mp3"
+  },
+  {
+   "hindi": "वह",
+   "english": "he, she, it, that",
+   "tags": "",
+   "audio_hi": "vocab-audio/480.mp3",
+   "audio_en": "vocab-audio/940.mp3"
+  },
+  {
+   "hindi": "वहाँ",
+   "english": "there",
+   "tags": "right there, in that very place",
+   "audio_hi": "vocab-audio/437.mp3",
+   "audio_en": "vocab-audio/417.mp3"
+  },
+  {
+   "hindi": "वाक्य",
+   "english": "sentence",
+   "tags": "",
+   "audio_hi": "vocab-audio/2113.mp3",
+   "audio_en": "vocab-audio/1777.mp3"
+  },
+  {
+   "hindi": "वाराणसी",
+   "english": "Varanasi, Banaras",
+   "tags": "",
+   "audio_hi": "vocab-audio/1994.mp3",
+   "audio_en": "vocab-audio/2281.mp3"
+  },
+  {
+   "hindi": "-वाल/वाली",
+   "english": "suffix linking following word to preceding noun",
+   "tags": "",
+   "audio_hi": "vocab-audio/1413.mp3",
+   "audio_en": "vocab-audio/707.mp3"
+  },
+  {
+   "hindi": "वाह",
+   "english": "(expresses admiration or scorn) wonderful!",
+   "tags": "",
+   "audio_hi": "vocab-audio/816.mp3",
+   "audio_en": "vocab-audio/1969.mp3"
+  },
+  {
+   "hindi": "विदेश",
+   "english": "foreign country",
+   "tags": "abroad",
+   "audio_hi": "vocab-audio/1076.mp3",
+   "audio_en": "vocab-audio/2059.mp3"
+  },
+  {
+   "hindi": "विदेशी",
+   "english": "foreigner",
+   "tags": "",
+   "audio_hi": "vocab-audio/2128.mp3",
+   "audio_en": "vocab-audio/1997.mp3"
+  },
+  {
+   "hindi": "विद्यार्थी",
+   "english": "student",
+   "tags": "",
+   "audio_hi": "vocab-audio/69.mp3",
+   "audio_en": "vocab-audio/2236.mp3"
+  },
+  {
+   "hindi": "विलंब",
+   "english": "delay",
+   "tags": "",
+   "audio_hi": "vocab-audio/1293.mp3",
+   "audio_en": "vocab-audio/2344.mp3"
+  },
+  {
+   "hindi": "विवाह",
+   "english": "marriage, wedding",
+   "tags": "",
+   "audio_hi": "vocab-audio/964.mp3",
+   "audio_en": "vocab-audio/403.mp3"
+  },
+  {
+   "hindi": "विषय",
+   "english": "subject",
+   "tags": "",
+   "audio_hi": "vocab-audio/1138.mp3",
+   "audio_en": "vocab-audio/1657.mp3"
+  },
+  {
+   "hindi": "विशेष",
+   "english": "particular",
+   "tags": "",
+   "audio_hi": "vocab-audio/1244.mp3",
+   "audio_en": "vocab-audio/578.mp3"
+  },
+  {
+   "hindi": "विश्वविद्यालय",
+   "english": "university",
+   "tags": "",
+   "audio_hi": "vocab-audio/1032.mp3",
+   "audio_en": "vocab-audio/941.mp3"
+  },
+  {
+   "hindi": "विश्वास",
+   "english": "belief, confidence",
+   "tags": "",
+   "audio_hi": "vocab-audio/353.mp3",
+   "audio_en": "vocab-audio/763.mp3"
+  },
+  {
+   "hindi": "विस्तार से",
+   "english": "at length, in detail",
+   "tags": "",
+   "audio_hi": "vocab-audio/300.mp3",
+   "audio_en": "vocab-audio/1556.mp3"
+  },
+  {
+   "hindi": "वे",
+   "english": "those, they",
+   "tags": "he, she (formal)",
+   "audio_hi": "vocab-audio/1578.mp3",
+   "audio_en": "vocab-audio/545.mp3"
+  },
+  {
+   "hindi": "वेतन",
+   "english": "pay, salary",
+   "tags": "",
+   "audio_hi": "vocab-audio/1165.mp3",
+   "audio_en": "vocab-audio/1906.mp3"
+  },
+  {
+   "hindi": "वैर",
+   "english": "hostility",
+   "tags": "",
+   "audio_hi": "vocab-audio/1796.mp3",
+   "audio_en": "vocab-audio/2275.mp3"
+  },
+  {
+   "hindi": "वैसे",
+   "english": "actually, in fact",
+   "tags": "",
+   "audio_hi": "vocab-audio/1417.mp3",
+   "audio_en": "vocab-audio/1839.mp3"
+  },
+  {
+   "hindi": "व्यंग्य",
+   "english": "sarcasm",
+   "tags": "",
+   "audio_hi": "vocab-audio/2129.mp3",
+   "audio_en": "vocab-audio/1929.mp3"
+  },
+  {
+   "hindi": "व्यक्ति",
+   "english": "person, individual",
+   "tags": "",
+   "audio_hi": "vocab-audio/939.mp3",
+   "audio_en": "vocab-audio/640.mp3"
+  },
+  {
+   "hindi": "व्यक्तिगत रूप से",
+   "english": "personally",
+   "tags": "",
+   "audio_hi": "vocab-audio/224.mp3",
+   "audio_en": "vocab-audio/1394.mp3"
+  },
+  {
+   "hindi": "व्यवस्था",
+   "english": "arrangement",
+   "tags": "",
+   "audio_hi": "vocab-audio/942.mp3",
+   "audio_en": "vocab-audio/1129.mp3"
+  },
+  {
+   "hindi": "शंका",
+   "english": "doubt, suspicion",
+   "tags": "",
+   "audio_hi": "vocab-audio/1757.mp3",
+   "audio_en": "vocab-audio/1788.mp3"
+  },
+  {
+   "hindi": "शक्ति",
+   "english": "power",
+   "tags": "",
+   "audio_hi": "vocab-audio/661.mp3",
+   "audio_en": "vocab-audio/2162.mp3"
+  },
+  {
+   "hindi": "शख़्स",
+   "english": "individual, fellow",
+   "tags": "",
+   "audio_hi": "vocab-audio/845.mp3",
+   "audio_en": "vocab-audio/2206.mp3"
+  },
+  {
+   "hindi": "शनिवार",
+   "english": "Saturday",
+   "tags": "",
+   "audio_hi": "vocab-audio/682.mp3",
+   "audio_en": "vocab-audio/1191.mp3"
+  },
+  {
+   "hindi": "शब्द",
+   "english": "word",
+   "tags": "",
+   "audio_hi": "vocab-audio/1167.mp3",
+   "audio_en": "vocab-audio/1434.mp3"
+  },
+  {
+   "hindi": "शब्दकोश",
+   "english": "dictionary",
+   "tags": "",
+   "audio_hi": "vocab-audio/233.mp3",
+   "audio_en": "vocab-audio/1178.mp3"
+  },
+  {
+   "hindi": "शराब",
+   "english": "alcoholic drink",
+   "tags": "",
+   "audio_hi": "vocab-audio/2219.mp3",
+   "audio_en": "vocab-audio/54.mp3"
+  },
+  {
+   "hindi": "शराबी",
+   "english": "drunkard",
+   "tags": "",
+   "audio_hi": "vocab-audio/742.mp3",
+   "audio_en": "vocab-audio/10.mp3"
+  },
+  {
+   "hindi": "शरारत",
+   "english": "mischief",
+   "tags": "",
+   "audio_hi": "vocab-audio/2286.mp3",
+   "audio_en": "vocab-audio/1576.mp3"
+  },
+  {
+   "hindi": "शर्म",
+   "english": "shame",
+   "tags": "शर्म आना to feel ashamed",
+   "audio_hi": "vocab-audio/571.mp3",
+   "audio_en": "vocab-audio/2244.mp3"
+  },
+  {
+   "hindi": "शहर",
+   "english": "town, city",
+   "tags": "",
+   "audio_hi": "vocab-audio/283.mp3",
+   "audio_en": "vocab-audio/1967.mp3"
+  },
+  {
+   "hindi": "शादी",
+   "english": "marriage, wedding",
+   "tags": "शादी करना to marry Uma to Ram;  Uma का Ram से शादी करना Uma to marry Ram;  शादीशुदा (inv.) married",
+   "audio_hi": "vocab-audio/964.mp3",
+   "audio_en": "vocab-audio/1188.mp3"
+  },
+  {
+   "hindi": "शाबाश",
+   "english": "well done! bravo!",
+   "tags": "",
+   "audio_hi": "vocab-audio/530.mp3",
+   "audio_en": "vocab-audio/240.mp3"
+  },
+  {
+   "hindi": "शाम",
+   "english": "evening",
+   "tags": "",
+   "audio_hi": "vocab-audio/229.mp3",
+   "audio_en": "vocab-audio/1133.mp3"
+  },
+  {
+   "hindi": "शायद",
+   "english": "perhaps",
+   "tags": "",
+   "audio_hi": "vocab-audio/971.mp3",
+   "audio_en": "vocab-audio/2132.mp3"
+  },
+  {
+   "hindi": "शिकायत",
+   "english": "complaint",
+   "tags": "शिकायत करना to complain;  Uma की Ram से शिकायत करना to complain about Uma to Ram",
+   "audio_hi": "vocab-audio/646.mp3",
+   "audio_en": "vocab-audio/1945.mp3"
+  },
+  {
+   "hindi": "शिष्य",
+   "english": "disciple",
+   "tags": "",
+   "audio_hi": "vocab-audio/313.mp3",
+   "audio_en": "vocab-audio/907.mp3"
+  },
+  {
+   "hindi": "शीघ्र",
+   "english": "soon, quickly",
+   "tags": "",
+   "audio_hi": "vocab-audio/22.mp3",
+   "audio_en": "vocab-audio/1608.mp3"
+  },
+  {
+   "hindi": "शुक्रवार",
+   "english": "Friday",
+   "tags": "",
+   "audio_hi": "vocab-audio/1395.mp3",
+   "audio_en": "vocab-audio/1257.mp3"
+  },
+  {
+   "hindi": "शुक्रिया",
+   "english": "thank you",
+   "tags": "",
+   "audio_hi": "vocab-audio/1916.mp3",
+   "audio_en": "vocab-audio/1527.mp3"
+  },
+  {
+   "hindi": "शुद्ध",
+   "english": "pure, unmixed",
+   "tags": "",
+   "audio_hi": "vocab-audio/943.mp3",
+   "audio_en": "vocab-audio/1436.mp3"
+  },
+  {
+   "hindi": "शुरुआत",
+   "english": "beginning",
+   "tags": "शुरू करना to begin (something);  शुरू होना (something) to begin",
+   "audio_hi": "vocab-audio/1878.mp3",
+   "audio_en": "vocab-audio/575.mp3"
+  },
+  {
+   "hindi": "शूटिंग",
+   "english": "shooting, filming",
+   "tags": "",
+   "audio_hi": "vocab-audio/317.mp3",
+   "audio_en": "vocab-audio/1880.mp3"
+  },
+  {
+   "hindi": "शैतान",
+   "english": "devil",
+   "tags": "",
+   "audio_hi": "vocab-audio/1291.mp3",
+   "audio_en": "vocab-audio/702.mp3"
+  },
+  {
+   "hindi": "श्रावण",
+   "english": "Shravan, a monsoon month (July-August)",
+   "tags": "",
+   "audio_hi": "vocab-audio/1130.mp3",
+   "audio_en": "vocab-audio/78.mp3"
+  },
+  {
+   "hindi": "श्री",
+   "english": "Mr",
+   "tags": "Lord (with deity)",
+   "audio_hi": "vocab-audio/873.mp3",
+   "audio_en": "vocab-audio/83.mp3"
+  },
+  {
+   "hindi": "श्रीमती",
+   "english": "Mrs",
+   "tags": "",
+   "audio_hi": "vocab-audio/2223.mp3",
+   "audio_en": "vocab-audio/358.mp3"
+  },
+  {
+   "hindi": "संतुष्ट",
+   "english": "satisfied",
+   "tags": "",
+   "audio_hi": "vocab-audio/515.mp3",
+   "audio_en": "vocab-audio/443.mp3"
+  },
+  {
+   "hindi": "संतोष",
+   "english": "satisfaction",
+   "tags": "",
+   "audio_hi": "vocab-audio/734.mp3",
+   "audio_en": "vocab-audio/1731.mp3"
+  },
+  {
+   "hindi": "संभव",
+   "english": "possible",
+   "tags": "",
+   "audio_hi": "vocab-audio/1044.mp3",
+   "audio_en": "vocab-audio/267.mp3"
+  },
+  {
+   "hindi": "संस्कृत",
+   "english": "Sanskrit",
+   "tags": "",
+   "audio_hi": "vocab-audio/2144.mp3",
+   "audio_en": "vocab-audio/1838.mp3"
+  },
+  {
+   "hindi": "सकना",
+   "english": "(after verb stem) to be able",
+   "tags": "",
+   "audio_hi": "vocab-audio/1073.mp3",
+   "audio_en": "vocab-audio/1262.mp3"
+  },
+  {
+   "hindi": "सख्त",
+   "english": "stern, strict, intense",
+   "tags": "",
+   "audio_hi": "vocab-audio/1741.mp3",
+   "audio_en": "vocab-audio/1114.mp3"
+  },
+  {
+   "hindi": "सड़क",
+   "english": "street, road",
+   "tags": "",
+   "audio_hi": "vocab-audio/714.mp3",
+   "audio_en": "vocab-audio/2166.mp3"
+  },
+  {
+   "hindi": "सच",
+   "english": "TRUE",
+   "tags": "",
+   "audio_hi": "vocab-audio/32.mp3",
+   "audio_en": "vocab-audio/2000.mp3"
+  },
+  {
+   "hindi": "सचमुच",
+   "english": "really",
+   "tags": "",
+   "audio_hi": "vocab-audio/123.mp3",
+   "audio_en": "vocab-audio/978.mp3"
+  },
+  {
+   "hindi": "सदस्य",
+   "english": "member",
+   "tags": "",
+   "audio_hi": "vocab-audio/2111.mp3",
+   "audio_en": "vocab-audio/2330.mp3"
+  },
+  {
+   "hindi": "सदा",
+   "english": "always, ever",
+   "tags": "",
+   "audio_hi": "vocab-audio/1179.mp3",
+   "audio_en": "vocab-audio/954.mp3"
+  },
+  {
+   "hindi": "सन",
+   "english": "year (of calendar, era)",
+   "tags": "",
+   "audio_hi": "vocab-audio/938.mp3",
+   "audio_en": "vocab-audio/613.mp3"
+  },
+  {
+   "hindi": "सपना",
+   "english": "dream",
+   "tags": "सपना देखना to dream, have a dream",
+   "audio_hi": "vocab-audio/1832.mp3",
+   "audio_en": "vocab-audio/572.mp3"
+  },
+  {
+   "hindi": "सप्ताह",
+   "english": "week",
+   "tags": "",
+   "audio_hi": "vocab-audio/77.mp3",
+   "audio_en": "vocab-audio/1560.mp3"
+  },
+  {
+   "hindi": "सफ़र",
+   "english": "journey, travel",
+   "tags": "",
+   "audio_hi": "vocab-audio/393.mp3",
+   "audio_en": "vocab-audio/1053.mp3"
+  },
+  {
+   "hindi": "सफल",
+   "english": "successful, fruitful",
+   "tags": "",
+   "audio_hi": "vocab-audio/401.mp3",
+   "audio_en": "vocab-audio/1900.mp3"
+  },
+  {
+   "hindi": "सफ़ाई",
+   "english": "cleaning",
+   "tags": "",
+   "audio_hi": "vocab-audio/1998.mp3",
+   "audio_en": "vocab-audio/811.mp3"
+  },
+  {
+   "hindi": "सफ़ेद",
+   "english": "white",
+   "tags": "",
+   "audio_hi": "vocab-audio/2071.mp3",
+   "audio_en": "vocab-audio/2149.mp3"
+  },
+  {
+   "hindi": "सब",
+   "english": "everything, all",
+   "tags": "सब कुछ everything",
+   "audio_hi": "vocab-audio/1415.mp3",
+   "audio_en": "vocab-audio/273.mp3"
+  },
+  {
+   "hindi": "सब्ज़ी",
+   "english": "vegetable(s)",
+   "tags": "",
+   "audio_hi": "vocab-audio/1110.mp3",
+   "audio_en": "vocab-audio/394.mp3"
+  },
+  {
+   "hindi": "समझ",
+   "english": "understanding",
+   "tags": "समझ में आना to be understood",
+   "audio_hi": "vocab-audio/379.mp3",
+   "audio_en": "vocab-audio/700.mp3"
+  },
+  {
+   "hindi": "समझना",
+   "english": "to understand, consider, reckon",
+   "tags": "",
+   "audio_hi": "vocab-audio/1532.mp3",
+   "audio_en": "vocab-audio/2138.mp3"
+  },
+  {
+   "hindi": "समय",
+   "english": "time",
+   "tags": "",
+   "audio_hi": "vocab-audio/844.mp3",
+   "audio_en": "vocab-audio/397.mp3"
+  },
+  {
+   "hindi": "समाचार",
+   "english": "news",
+   "tags": "समाचारपत्र newspaper",
+   "audio_hi": "vocab-audio/1637.mp3",
+   "audio_en": "vocab-audio/2163.mp3"
+  },
+  {
+   "hindi": "समाप्त",
+   "english": "finished, concluded",
+   "tags": "",
+   "audio_hi": "vocab-audio/997.mp3",
+   "audio_en": "vocab-audio/970.mp3"
+  },
+  {
+   "hindi": "समुद्र",
+   "english": "sea, ocean",
+   "tags": "",
+   "audio_hi": "vocab-audio/1630.mp3",
+   "audio_en": "vocab-audio/982.mp3"
+  },
+  {
+   "hindi": "समोसा",
+   "english": "samosa",
+   "tags": "",
+   "audio_hi": "vocab-audio/2269.mp3",
+   "audio_en": "vocab-audio/1096.mp3"
+  },
+  {
+   "hindi": "सर",
+   "english": "sir",
+   "tags": "",
+   "audio_hi": "vocab-audio/1173.mp3",
+   "audio_en": "vocab-audio/1742.mp3"
+  },
+  {
+   "hindi": "सरकारी",
+   "english": "governmental",
+   "tags": "",
+   "audio_hi": "vocab-audio/2186.mp3",
+   "audio_en": "vocab-audio/621.mp3"
+  },
+  {
+   "hindi": "सरल",
+   "english": "simple",
+   "tags": "",
+   "audio_hi": "vocab-audio/1907.mp3",
+   "audio_en": "vocab-audio/509.mp3"
+  },
+  {
+   "hindi": "सलवार-कमीज़",
+   "english": "salwar kameez",
+   "tags": "",
+   "audio_hi": "vocab-audio/85.mp3",
+   "audio_en": "vocab-audio/109.mp3"
+  },
+  {
+   "hindi": "सलाह",
+   "english": "advice",
+   "tags": "",
+   "audio_hi": "vocab-audio/130.mp3",
+   "audio_en": "vocab-audio/1204.mp3"
+  },
+  {
+   "hindi": "सवा",
+   "english": "one and a quarter",
+   "tags": "",
+   "audio_hi": "vocab-audio/1841.mp3",
+   "audio_en": "vocab-audio/588.mp3"
+  },
+  {
+   "hindi": "सवाल",
+   "english": "question",
+   "tags": "",
+   "audio_hi": "vocab-audio/1658.mp3",
+   "audio_en": "vocab-audio/1282.mp3"
+  },
+  {
+   "hindi": "सवेरा",
+   "english": "early morning",
+   "tags": "",
+   "audio_hi": "vocab-audio/2196.mp3",
+   "audio_en": "vocab-audio/1401.mp3"
+  },
+  {
+   "hindi": "सस्ता",
+   "english": "cheap",
+   "tags": "",
+   "audio_hi": "vocab-audio/1902.mp3",
+   "audio_en": "vocab-audio/127.mp3"
+  },
+  {
+   "hindi": "सहमत",
+   "english": "in agreement",
+   "tags": "",
+   "audio_hi": "vocab-audio/1774.mp3",
+   "audio_en": "vocab-audio/1136.mp3"
+  },
+  {
+   "hindi": "सही",
+   "english": "true, correct",
+   "tags": "सही कहना for sure",
+   "audio_hi": "vocab-audio/1058.mp3",
+   "audio_en": "vocab-audio/244.mp3"
+  },
+  {
+   "hindi": "सहेली",
+   "english": "girl&#x27;s female friend",
+   "tags": "",
+   "audio_hi": "vocab-audio/2200.mp3",
+   "audio_en": "vocab-audio/163.mp3"
+  },
+  {
+   "hindi": "साँस",
+   "english": "sigh",
+   "tags": "साँस लेना to heave a deep sigh",
+   "audio_hi": "vocab-audio/318.mp3",
+   "audio_en": "vocab-audio/1652.mp3"
+  },
+  {
+   "hindi": "-सा",
+   "english": "-like, -ish",
+   "tags": "",
+   "audio_hi": "vocab-audio/1961.mp3",
+   "audio_en": "vocab-audio/753.mp3"
+  },
+  {
+   "hindi": "साइकिल",
+   "english": "bicycle",
+   "tags": "",
+   "audio_hi": "vocab-audio/407.mp3",
+   "audio_en": "vocab-audio/364.mp3"
+  },
+  {
+   "hindi": "साड़ी",
+   "english": "sari",
+   "tags": "",
+   "audio_hi": "vocab-audio/877.mp3",
+   "audio_en": "vocab-audio/1843.mp3"
+  },
+  {
+   "hindi": "साढ़े",
+   "english": "plus a half",
+   "tags": "",
+   "audio_hi": "vocab-audio/2323.mp3",
+   "audio_en": "vocab-audio/128.mp3"
+  },
+  {
+   "hindi": "सात",
+   "english": "seven",
+   "tags": "",
+   "audio_hi": "vocab-audio/1074.mp3",
+   "audio_en": "vocab-audio/1410.mp3"
+  },
+  {
+   "hindi": "साथ",
+   "english": "along, with, in company",
+   "tags": "साथ-साथ together",
+   "audio_hi": "vocab-audio/2045.mp3",
+   "audio_en": "vocab-audio/326.mp3"
+  },
+  {
+   "hindi": "साथी",
+   "english": "companion, friend",
+   "tags": "",
+   "audio_hi": "vocab-audio/776.mp3",
+   "audio_en": "vocab-audio/1941.mp3"
+  },
+  {
+   "hindi": "साधन",
+   "english": "means",
+   "tags": "",
+   "audio_hi": "vocab-audio/1911.mp3",
+   "audio_en": "vocab-audio/2315.mp3"
+  },
+  {
+   "hindi": "साधारण",
+   "english": "ordinary",
+   "tags": "",
+   "audio_hi": "vocab-audio/1541.mp3",
+   "audio_en": "vocab-audio/757.mp3"
+  },
+  {
+   "hindi": "साफ़",
+   "english": "clean, clear",
+   "tags": "साफ़-साफ़ clearly;  साफ़ करना to clean",
+   "audio_hi": "vocab-audio/589.mp3",
+   "audio_en": "vocab-audio/1976.mp3"
+  },
+  {
+   "hindi": "साबुन",
+   "english": "soap",
+   "tags": "",
+   "audio_hi": "vocab-audio/915.mp3",
+   "audio_en": "vocab-audio/846.mp3"
+  },
+  {
+   "hindi": "सामान",
+   "english": "furniture, things, luggage",
+   "tags": "",
+   "audio_hi": "vocab-audio/2355.mp3",
+   "audio_en": "vocab-audio/1256.mp3"
+  },
+  {
+   "hindi": "सारा",
+   "english": "all, whole",
+   "tags": "",
+   "audio_hi": "vocab-audio/808.mp3",
+   "audio_en": "vocab-audio/1604.mp3"
+  },
+  {
+   "hindi": "साल",
+   "english": "year",
+   "tags": "",
+   "audio_hi": "vocab-audio/1005.mp3",
+   "audio_en": "vocab-audio/41.mp3"
+  },
+  {
+   "hindi": "साला",
+   "english": "wife&#x27;s brother",
+   "tags": "term of abuse",
+   "audio_hi": "vocab-audio/1278.mp3",
+   "audio_en": "vocab-audio/911.mp3"
+  },
+  {
+   "hindi": "सावधानी",
+   "english": "care",
+   "tags": "",
+   "audio_hi": "vocab-audio/1030.mp3",
+   "audio_en": "vocab-audio/1735.mp3"
+  },
+  {
+   "hindi": "साहब",
+   "english": "Mr",
+   "tags": "sir",
+   "audio_hi": "vocab-audio/873.mp3",
+   "audio_en": "vocab-audio/118.mp3"
+  },
+  {
+   "hindi": "साहित्य",
+   "english": "literature",
+   "tags": "",
+   "audio_hi": "vocab-audio/29.mp3",
+   "audio_en": "vocab-audio/164.mp3"
+  },
+  {
+   "hindi": "सिगरेट",
+   "english": "cigarette",
+   "tags": "",
+   "audio_hi": "vocab-audio/372.mp3",
+   "audio_en": "vocab-audio/1853.mp3"
+  },
+  {
+   "hindi": "सितार",
+   "english": "sitar",
+   "tags": "",
+   "audio_hi": "vocab-audio/453.mp3",
+   "audio_en": "vocab-audio/1933.mp3"
+  },
+  {
+   "hindi": "सितारा",
+   "english": "star",
+   "tags": "",
+   "audio_hi": "vocab-audio/35.mp3",
+   "audio_en": "vocab-audio/463.mp3"
+  },
+  {
+   "hindi": "सिनेमाघर",
+   "english": "cinema",
+   "tags": "",
+   "audio_hi": "vocab-audio/1045.mp3",
+   "audio_en": "vocab-audio/697.mp3"
+  },
+  {
+   "hindi": "सिर",
+   "english": "head",
+   "tags": "सिर खाना to plague, pester",
+   "audio_hi": "vocab-audio/2320.mp3",
+   "audio_en": "vocab-audio/2168.mp3"
+  },
+  {
+   "hindi": "सिर्फ",
+   "english": "only",
+   "tags": "",
+   "audio_hi": "vocab-audio/1284.mp3",
+   "audio_en": "vocab-audio/1211.mp3"
+  },
+  {
+   "hindi": "सिलवाना",
+   "english": "to cause to be sewn",
+   "tags": "",
+   "audio_hi": "vocab-audio/2270.mp3",
+   "audio_en": "vocab-audio/2115.mp3"
+  },
+  {
+   "hindi": "सिलसिला",
+   "english": "connection",
+   "tags": "के सिलसिले में in connection with",
+   "audio_hi": "vocab-audio/1615.mp3",
+   "audio_en": "vocab-audio/1106.mp3"
+  },
+  {
+   "hindi": "सीखना",
+   "english": "to learn",
+   "tags": "",
+   "audio_hi": "vocab-audio/1622.mp3",
+   "audio_en": "vocab-audio/1027.mp3"
+  },
+  {
+   "hindi": "सीट",
+   "english": "seat",
+   "tags": "",
+   "audio_hi": "vocab-audio/67.mp3",
+   "audio_en": "vocab-audio/542.mp3"
+  },
+  {
+   "hindi": "सीढ़ी",
+   "english": "stair, step, staircase",
+   "tags": "",
+   "audio_hi": "vocab-audio/1041.mp3",
+   "audio_en": "vocab-audio/1359.mp3"
+  },
+  {
+   "hindi": "सीधा",
+   "english": "straight, straightforward",
+   "tags": "straight;  सीधे हाथ to the right",
+   "audio_hi": "vocab-audio/2043.mp3",
+   "audio_en": "vocab-audio/689.mp3"
+  },
+  {
+   "hindi": "सुझाव",
+   "english": "suggestion",
+   "tags": "सुझाव देना to make a suggestion",
+   "audio_hi": "vocab-audio/277.mp3",
+   "audio_en": "vocab-audio/1898.mp3"
+  },
+  {
+   "hindi": "सुधारना",
+   "english": "to improve, be put right",
+   "tags": "",
+   "audio_hi": "vocab-audio/1759.mp3",
+   "audio_en": "vocab-audio/1202.mp3"
+  },
+  {
+   "hindi": "सुधरना",
+   "english": "to improve, put right",
+   "tags": "",
+   "audio_hi": "vocab-audio/1704.mp3",
+   "audio_en": "vocab-audio/1239.mp3"
+  },
+  {
+   "hindi": "सुनाई देना/पड़ना",
+   "english": "to be heard, be audible",
+   "tags": "",
+   "audio_hi": "vocab-audio/1384.mp3",
+   "audio_en": "vocab-audio/1959.mp3"
+  },
+  {
+   "hindi": "सुंदर",
+   "english": "beautiful",
+   "tags": "",
+   "audio_hi": "vocab-audio/306.mp3",
+   "audio_en": "vocab-audio/1580.mp3"
+  },
+  {
+   "hindi": "सुलाना",
+   "english": "to make sleep",
+   "tags": "",
+   "audio_hi": "vocab-audio/455.mp3",
+   "audio_en": "vocab-audio/2145.mp3"
+  },
+  {
+   "hindi": "सुझना",
+   "english": "to occur to the mind",
+   "tags": "",
+   "audio_hi": "vocab-audio/623.mp3",
+   "audio_en": "vocab-audio/1750.mp3"
+  },
+  {
+   "hindi": "सूरज",
+   "english": "sun",
+   "tags": "",
+   "audio_hi": "vocab-audio/97.mp3",
+   "audio_en": "vocab-audio/1780.mp3"
+  },
+  {
+   "hindi": "से",
+   "english": "by, since, from, with",
+   "tags": "",
+   "audio_hi": "vocab-audio/730.mp3",
+   "audio_en": "vocab-audio/1243.mp3"
+  },
+  {
+   "hindi": "से पहले",
+   "english": "before",
+   "tags": "",
+   "audio_hi": "vocab-audio/1873.mp3",
+   "audio_en": "vocab-audio/1093.mp3"
+  },
+  {
+   "hindi": "सेब",
+   "english": "apple",
+   "tags": "",
+   "audio_hi": "vocab-audio/1060.mp3",
+   "audio_en": "vocab-audio/831.mp3"
+  },
+  {
+   "hindi": "सैंतालीस",
+   "english": "forty-seven",
+   "tags": "",
+   "audio_hi": "vocab-audio/775.mp3",
+   "audio_en": "vocab-audio/2034.mp3"
+  },
+  {
+   "hindi": "सैकड़ा",
+   "english": "a hundred",
+   "tags": "",
+   "audio_hi": "vocab-audio/331.mp3",
+   "audio_en": "vocab-audio/990.mp3"
+  },
+  {
+   "hindi": "सैर",
+   "english": "walk, trip",
+   "tags": "सैर करना to go for a walk, trip",
+   "audio_hi": "vocab-audio/2254.mp3",
+   "audio_en": "vocab-audio/246.mp3"
+  },
+  {
+   "hindi": "सो",
+   "english": "he, she, it (archaic)",
+   "tags": "",
+   "audio_hi": "vocab-audio/1875.mp3",
+   "audio_en": "vocab-audio/1425.mp3"
+  },
+  {
+   "hindi": "सोचना",
+   "english": "to think",
+   "tags": "सोच में पड़ना to think of doing",
+   "audio_hi": "vocab-audio/652.mp3",
+   "audio_en": "vocab-audio/2218.mp3"
+  },
+  {
+   "hindi": "सोना",
+   "english": "gold",
+   "tags": "",
+   "audio_hi": "vocab-audio/1330.mp3",
+   "audio_en": "vocab-audio/1111.mp3"
+  },
+  {
+   "hindi": "सोना",
+   "english": "to sleep",
+   "tags": "",
+   "audio_hi": "vocab-audio/2207.mp3",
+   "audio_en": "vocab-audio/1111.mp3"
+  },
+  {
+   "hindi": "सोमवार",
+   "english": "Monday",
+   "tags": "",
+   "audio_hi": "vocab-audio/42.mp3",
+   "audio_en": "vocab-audio/492.mp3"
+  },
+  {
+   "hindi": "सोलह",
+   "english": "sixteen",
+   "tags": "",
+   "audio_hi": "vocab-audio/760.mp3",
+   "audio_en": "vocab-audio/829.mp3"
+  },
+  {
+   "hindi": "स्टेशन",
+   "english": "station",
+   "tags": "",
+   "audio_hi": "vocab-audio/2220.mp3",
+   "audio_en": "vocab-audio/1549.mp3"
+  },
+  {
+   "hindi": "स्थायी रूप से",
+   "english": "permanently",
+   "tags": "",
+   "audio_hi": "vocab-audio/1397.mp3",
+   "audio_en": "vocab-audio/2298.mp3"
+  },
+  {
+   "hindi": "स्थिति",
+   "english": "situation",
+   "tags": "",
+   "audio_hi": "vocab-audio/1405.mp3",
+   "audio_en": "vocab-audio/1931.mp3"
+  },
+  {
+   "hindi": "स्नान",
+   "english": "bath, ritual bathing",
+   "tags": "",
+   "audio_hi": "vocab-audio/797.mp3",
+   "audio_en": "vocab-audio/314.mp3"
+  },
+  {
+   "hindi": "स्वभाव",
+   "english": "nature, disposition",
+   "tags": "",
+   "audio_hi": "vocab-audio/1820.mp3",
+   "audio_en": "vocab-audio/1692.mp3"
+  },
+  {
+   "hindi": "स्वर्ग",
+   "english": "heaven",
+   "tags": "",
+   "audio_hi": "vocab-audio/1502.mp3",
+   "audio_en": "vocab-audio/1152.mp3"
+  },
+  {
+   "hindi": "हँसना",
+   "english": "to laugh",
+   "tags": "",
+   "audio_hi": "vocab-audio/706.mp3",
+   "audio_en": "vocab-audio/1095.mp3"
+  },
+  {
+   "hindi": "हँसाना",
+   "english": "to make laugh",
+   "tags": "",
+   "audio_hi": "vocab-audio/947.mp3",
+   "audio_en": "vocab-audio/1212.mp3"
+  },
+  {
+   "hindi": "हँसी-मज़ाक",
+   "english": "laughter, fun, joking",
+   "tags": "",
+   "audio_hi": "vocab-audio/1462.mp3",
+   "audio_en": "vocab-audio/1960.mp3"
+  },
+  {
+   "hindi": "हड़ताल",
+   "english": "strike, lockout",
+   "tags": "हड़ताल करना to strike",
+   "audio_hi": "vocab-audio/110.mp3",
+   "audio_en": "vocab-audio/2354.mp3"
+  },
+  {
+   "hindi": "हफ़्ता",
+   "english": "week",
+   "tags": "",
+   "audio_hi": "vocab-audio/77.mp3",
+   "audio_en": "vocab-audio/1121.mp3"
+  },
+  {
+   "hindi": "हम",
+   "english": "we, us",
+   "tags": "",
+   "audio_hi": "vocab-audio/1267.mp3",
+   "audio_en": "vocab-audio/43.mp3"
+  },
+  {
+   "hindi": "हमारा",
+   "english": "our, ours",
+   "tags": "",
+   "audio_hi": "vocab-audio/1019.mp3",
+   "audio_en": "vocab-audio/1454.mp3"
+  },
+  {
+   "hindi": "हमेशा",
+   "english": "always",
+   "tags": "",
+   "audio_hi": "vocab-audio/764.mp3",
+   "audio_en": "vocab-audio/2064.mp3"
+  },
+  {
+   "hindi": "हर",
+   "english": "each, every",
+   "tags": "हर एक everyone",
+   "audio_hi": "vocab-audio/2222.mp3",
+   "audio_en": "vocab-audio/197.mp3"
+  },
+  {
+   "hindi": "हल",
+   "english": "solution",
+   "tags": "हल होना to be solved",
+   "audio_hi": "vocab-audio/1509.mp3",
+   "audio_en": "vocab-audio/1663.mp3"
+  },
+  {
+   "hindi": "हलो",
+   "english": "hello",
+   "tags": "",
+   "audio_hi": "vocab-audio/1903.mp3",
+   "audio_en": "vocab-audio/76.mp3"
+  },
+  {
+   "hindi": "हवा",
+   "english": "air",
+   "tags": "",
+   "audio_hi": "vocab-audio/735.mp3",
+   "audio_en": "vocab-audio/1648.mp3"
+  },
+  {
+   "hindi": "हवाई जहाज़",
+   "english": "aeroplane",
+   "tags": "",
+   "audio_hi": "vocab-audio/165.mp3",
+   "audio_en": "vocab-audio/1664.mp3"
+  },
+  {
+   "hindi": "हवाई डाक",
+   "english": "airmail",
+   "tags": "",
+   "audio_hi": "vocab-audio/1623.mp3",
+   "audio_en": "vocab-audio/505.mp3"
+  },
+  {
+   "hindi": "हवादार",
+   "english": "airy",
+   "tags": "",
+   "audio_hi": "vocab-audio/1834.mp3",
+   "audio_en": "vocab-audio/438.mp3"
+  },
+  {
+   "hindi": "हाँ",
+   "english": "yes",
+   "tags": "",
+   "audio_hi": "vocab-audio/896.mp3",
+   "audio_en": "vocab-audio/1644.mp3"
+  },
+  {
+   "hindi": "हाथ",
+   "english": "hand",
+   "tags": "हाथ लगना to come to hand;  हाथ बंटाना to lend a hand;  हाथ मिलाना to join hands",
+   "audio_hi": "vocab-audio/788.mp3",
+   "audio_en": "vocab-audio/2147.mp3"
+  },
+  {
+   "hindi": "हाल",
+   "english": "condition, state",
+   "tags": "",
+   "audio_hi": "vocab-audio/855.mp3",
+   "audio_en": "vocab-audio/1387.mp3"
+  },
+  {
+   "hindi": "हालत",
+   "english": "state, condition",
+   "tags": "",
+   "audio_hi": "vocab-audio/1249.mp3",
+   "audio_en": "vocab-audio/1456.mp3"
+  },
+  {
+   "hindi": "हालांकि",
+   "english": "although",
+   "tags": "",
+   "audio_hi": "vocab-audio/1116.mp3",
+   "audio_en": "vocab-audio/1313.mp3"
+  },
+  {
+   "hindi": "हिंदी",
+   "english": "Hindi",
+   "tags": "",
+   "audio_hi": "vocab-audio/1806.mp3",
+   "audio_en": "vocab-audio/245.mp3"
+  },
+  {
+   "hindi": "हिंदुस्तान",
+   "english": "Indian",
+   "tags": "",
+   "audio_hi": "vocab-audio/373.mp3",
+   "audio_en": "vocab-audio/2110.mp3"
+  },
+  {
+   "hindi": "हिंदू",
+   "english": "Hindu",
+   "tags": "",
+   "audio_hi": "vocab-audio/1501.mp3",
+   "audio_en": "vocab-audio/1028.mp3"
+  },
+  {
+   "hindi": "हिलना",
+   "english": "to move, stir",
+   "tags": "",
+   "audio_hi": "vocab-audio/1589.mp3",
+   "audio_en": "vocab-audio/1949.mp3"
+  },
+  {
+   "hindi": "ही",
+   "english": "only",
+   "tags": "(emphatic)",
+   "audio_hi": "vocab-audio/1284.mp3",
+   "audio_en": "vocab-audio/1200.mp3"
+  },
+  {
+   "hindi": "हीरो",
+   "english": "&#x27;hero&#x27;, male film-star",
+   "tags": "",
+   "audio_hi": "vocab-audio/1649.mp3",
+   "audio_en": "vocab-audio/1343.mp3"
+  },
+  {
+   "hindi": "हूँ",
+   "english": "am",
+   "tags": "",
+   "audio_hi": "vocab-audio/175.mp3",
+   "audio_en": "vocab-audio/1376.mp3"
+  },
+  {
+   "hindi": "हाय",
+   "english": "Oh!",
+   "tags": "",
+   "audio_hi": "vocab-audio/1112.mp3",
+   "audio_en": "vocab-audio/139.mp3"
+  },
+  {
+   "hindi": "है",
+   "english": "is",
+   "tags": "",
+   "audio_hi": "vocab-audio/694.mp3",
+   "audio_en": "vocab-audio/535.mp3"
+  },
+  {
+   "hindi": "हैं",
+   "english": "are",
+   "tags": "",
+   "audio_hi": "vocab-audio/526.mp3",
+   "audio_en": "vocab-audio/765.mp3"
+  },
+  {
+   "hindi": "होना",
+   "english": "to be, become, happen",
+   "tags": "",
+   "audio_hi": "vocab-audio/870.mp3",
+   "audio_en": "vocab-audio/872.mp3"
+  },
+  {
+   "hindi": "होली",
+   "english": "Holi, springtime festival of colours",
+   "tags": "",
+   "audio_hi": "vocab-audio/768.mp3",
+   "audio_en": "vocab-audio/786.mp3"
+  },
+  {
+   "hindi": "होल्ड करना",
+   "english": "to hold (phone line)",
+   "tags": "",
+   "audio_hi": "vocab-audio/1015.mp3",
+   "audio_en": "vocab-audio/739.mp3"
+  },
+  {
+   "hindi": "होशियार",
+   "english": "clever, intelligent",
+   "tags": "",
+   "audio_hi": "vocab-audio/1748.mp3",
+   "audio_en": "vocab-audio/815.mp3"
+  },
+  {
+   "hindi": "व्हिस्की",
+   "english": "whisky",
+   "tags": "",
+   "audio_hi": "vocab-audio/506.mp3",
+   "audio_en": "vocab-audio/986.mp3"
+  },
+  {
+   "hindi": "अक्सर",
+   "english": "often",
+   "tags": "usually",
+   "audio_hi": "vocab-audio/771.mp3",
+   "audio_en": "vocab-audio/879.mp3"
+  },
+  {
+   "hindi": "अचानक",
+   "english": "suddenly, unexpectedly",
+   "tags": "",
+   "audio_hi": "vocab-audio/7.mp3",
+   "audio_en": "vocab-audio/167.mp3"
+  },
+  {
+   "hindi": "असली",
+   "english": "real",
+   "tags": "",
+   "audio_hi": "vocab-audio/1289.mp3",
+   "audio_en": "vocab-audio/1050.mp3"
+  },
+  {
+   "hindi": "आलसी",
+   "english": "lazy",
+   "tags": "",
+   "audio_hi": "vocab-audio/1587.mp3",
+   "audio_en": "vocab-audio/599.mp3"
+  },
+  {
+   "hindi": "आवाज़",
+   "english": "voice, sound",
+   "tags": "",
+   "audio_hi": "vocab-audio/68.mp3",
+   "audio_en": "vocab-audio/181.mp3"
+  },
+  {
+   "hindi": "इक्कीस",
+   "english": "twenty-one",
+   "tags": "",
+   "audio_hi": "vocab-audio/47.mp3",
+   "audio_en": "vocab-audio/1737.mp3"
+  },
+  {
+   "hindi": "इंसान",
+   "english": "human being, person",
+   "tags": "",
+   "audio_hi": "vocab-audio/747.mp3",
+   "audio_en": "vocab-audio/721.mp3"
+  },
+  {
+   "hindi": "उठना",
+   "english": "to get up, rise",
+   "tags": "",
+   "audio_hi": "vocab-audio/624.mp3",
+   "audio_en": "vocab-audio/539.mp3"
+  },
+  {
+   "hindi": "उदाहरण",
+   "english": "example",
+   "tags": "",
+   "audio_hi": "vocab-audio/1203.mp3",
+   "audio_en": "vocab-audio/1023.mp3"
+  },
+  {
+   "hindi": "उधार",
+   "english": "loan",
+   "tags": "उधार लेना to borrow",
+   "audio_hi": "vocab-audio/1429.mp3",
+   "audio_en": "vocab-audio/1422.mp3"
+  },
+  {
+   "hindi": "उपहार",
+   "english": "present, gift",
+   "tags": "",
+   "audio_hi": "vocab-audio/918.mp3",
+   "audio_en": "vocab-audio/1948.mp3"
+  },
+  {
+   "hindi": "कटना",
+   "english": "to be cut",
+   "tags": "",
+   "audio_hi": "vocab-audio/856.mp3",
+   "audio_en": "vocab-audio/115.mp3"
+  },
+  {
+   "hindi": "कमाना",
+   "english": "to earn",
+   "tags": "",
+   "audio_hi": "vocab-audio/1805.mp3",
+   "audio_en": "vocab-audio/807.mp3"
+  },
+  {
+   "hindi": "कविता",
+   "english": "poem",
+   "tags": "poetry",
+   "audio_hi": "vocab-audio/1645.mp3",
+   "audio_en": "vocab-audio/717.mp3"
+  },
+  {
+   "hindi": "कारण",
+   "english": "reason, cause",
+   "tags": "",
+   "audio_hi": "vocab-audio/2090.mp3",
+   "audio_en": "vocab-audio/701.mp3"
+  },
+  {
+   "hindi": "खाँसना",
+   "english": "to cough",
+   "tags": "",
+   "audio_hi": "vocab-audio/1230.mp3",
+   "audio_en": "vocab-audio/1440.mp3"
+  },
+  {
+   "hindi": "खिलाना",
+   "english": "to give to eat",
+   "tags": "",
+   "audio_hi": "vocab-audio/563.mp3",
+   "audio_en": "vocab-audio/932.mp3"
+  },
+  {
+   "hindi": "खोना",
+   "english": "to lose",
+   "tags": "",
+   "audio_hi": "vocab-audio/2358.mp3",
+   "audio_en": "vocab-audio/2251.mp3"
+  },
+  {
+   "hindi": "गंदा",
+   "english": "dirty",
+   "tags": "",
+   "audio_hi": "vocab-audio/2282.mp3",
+   "audio_en": "vocab-audio/504.mp3"
+  },
+  {
+   "hindi": "गरीब",
+   "english": "poor",
+   "tags": "",
+   "audio_hi": "vocab-audio/567.mp3",
+   "audio_en": "vocab-audio/2044.mp3"
+  },
+  {
+   "hindi": "गला",
+   "english": "throat, neck",
+   "tags": "गले लगाना to embrace",
+   "audio_hi": "vocab-audio/676.mp3",
+   "audio_en": "vocab-audio/861.mp3"
+  },
+  {
+   "hindi": "गाड़ी",
+   "english": "car",
+   "tags": "train",
+   "audio_hi": "vocab-audio/780.mp3",
+   "audio_en": "vocab-audio/531.mp3"
+  },
+  {
+   "hindi": "गोरा",
+   "english": "fair",
+   "tags": "white person",
+   "audio_hi": "vocab-audio/1453.mp3",
+   "audio_en": "vocab-audio/2048.mp3"
+  },
+  {
+   "hindi": "घंटा",
+   "english": "hour",
+   "tags": "",
+   "audio_hi": "vocab-audio/188.mp3",
+   "audio_en": "vocab-audio/1238.mp3"
+  },
+  {
+   "hindi": "घमंड",
+   "english": "pride, arrogance",
+   "tags": "",
+   "audio_hi": "vocab-audio/568.mp3",
+   "audio_en": "vocab-audio/703.mp3"
+  },
+  {
+   "hindi": "चीज़",
+   "english": "thing",
+   "tags": "",
+   "audio_hi": "vocab-audio/1493.mp3",
+   "audio_en": "vocab-audio/2231.mp3"
+  },
+  {
+   "hindi": "चोट",
+   "english": "hurt, injury",
+   "tags": "चोट लगना to get hurt",
+   "audio_hi": "vocab-audio/1819.mp3",
+   "audio_en": "vocab-audio/540.mp3"
+  },
+  {
+   "hindi": "छूटना",
+   "english": "to depart",
+   "tags": "to be left, fall back",
+   "audio_hi": "vocab-audio/2189.mp3",
+   "audio_en": "vocab-audio/287.mp3"
+  },
+  {
+   "hindi": "छूना",
+   "english": "to touch",
+   "tags": "",
+   "audio_hi": "vocab-audio/1033.mp3",
+   "audio_en": "vocab-audio/1624.mp3"
+  },
+  {
+   "hindi": "छोड़ना",
+   "english": "to leave, abandon, give up",
+   "tags": "",
+   "audio_hi": "vocab-audio/456.mp3",
+   "audio_en": "vocab-audio/193.mp3"
+  },
+  {
+   "hindi": "जगह",
+   "english": "place",
+   "tags": "",
+   "audio_hi": "vocab-audio/1411.mp3",
+   "audio_en": "vocab-audio/958.mp3"
+  },
+  {
+   "hindi": "जारी",
+   "english": "current, continuing",
+   "tags": "जारी रखना to maintain",
+   "audio_hi": "vocab-audio/2287.mp3",
+   "audio_en": "vocab-audio/1876.mp3"
+  },
+  {
+   "hindi": "ज़िम्मेदारी",
+   "english": "responsibility",
+   "tags": "",
+   "audio_hi": "vocab-audio/1895.mp3",
+   "audio_en": "vocab-audio/1625.mp3"
+  },
+  {
+   "hindi": "टूटना",
+   "english": "to break, be broken",
+   "tags": "",
+   "audio_hi": "vocab-audio/1458.mp3",
+   "audio_en": "vocab-audio/485.mp3"
+  },
+  {
+   "hindi": "डर",
+   "english": "fear",
+   "tags": "",
+   "audio_hi": "vocab-audio/2151.mp3",
+   "audio_en": "vocab-audio/655.mp3"
+  },
+  {
+   "hindi": "डालना",
+   "english": "to throw, cast, pour",
+   "tags": "",
+   "audio_hi": "vocab-audio/1144.mp3",
+   "audio_en": "vocab-audio/1271.mp3"
+  },
+  {
+   "hindi": "डूबना",
+   "english": "to sink, drown",
+   "tags": "",
+   "audio_hi": "vocab-audio/2274.mp3",
+   "audio_en": "vocab-audio/1651.mp3"
+  },
+  {
+   "hindi": "डेढ़",
+   "english": "one and a half",
+   "tags": "",
+   "audio_hi": "vocab-audio/260.mp3",
+   "audio_en": "vocab-audio/230.mp3"
+  },
+  {
+   "hindi": "तोड़ना",
+   "english": "to break",
+   "tags": "",
+   "audio_hi": "vocab-audio/1859.mp3",
+   "audio_en": "vocab-audio/1956.mp3"
+  },
+  {
+   "hindi": "थकान",
+   "english": "tiredness",
+   "tags": "",
+   "audio_hi": "vocab-audio/449.mp3",
+   "audio_en": "vocab-audio/1752.mp3"
+  },
+  {
+   "hindi": "दिखना",
+   "english": "to appear, seem",
+   "tags": "",
+   "audio_hi": "vocab-audio/1452.mp3",
+   "audio_en": "vocab-audio/315.mp3"
+  },
+  {
+   "hindi": "दुःख",
+   "english": "grief, pain, suffering",
+   "tags": "",
+   "audio_hi": "vocab-audio/685.mp3",
+   "audio_en": "vocab-audio/882.mp3"
+  },
+  {
+   "hindi": "दूसरा",
+   "english": "other, second",
+   "tags": "",
+   "audio_hi": "vocab-audio/1190.mp3",
+   "audio_en": "vocab-audio/45.mp3"
+  },
+  {
+   "hindi": "धुलना",
+   "english": "to be washed",
+   "tags": "",
+   "audio_hi": "vocab-audio/1215.mp3",
+   "audio_en": "vocab-audio/214.mp3"
+  },
+  {
+   "hindi": "नाश्ता",
+   "english": "breakfast",
+   "tags": "",
+   "audio_hi": "vocab-audio/1187.mp3",
+   "audio_en": "vocab-audio/332.mp3"
+  },
+  {
+   "hindi": "निकालना",
+   "english": "to extract, bring out, discover",
+   "tags": "",
+   "audio_hi": "vocab-audio/832.mp3",
+   "audio_en": "vocab-audio/2201.mp3"
+  },
+  {
+   "hindi": "नुकसान",
+   "english": "harm",
+   "tags": "",
+   "audio_hi": "vocab-audio/464.mp3",
+   "audio_en": "vocab-audio/2069.mp3"
+  },
+  {
+   "hindi": "पकड़ना",
+   "english": "to catch, grab, hold",
+   "tags": "",
+   "audio_hi": "vocab-audio/650.mp3",
+   "audio_en": "vocab-audio/452.mp3"
+  },
+  {
+   "hindi": "पच्चीस",
+   "english": "twenty-five",
+   "tags": "",
+   "audio_hi": "vocab-audio/983.mp3",
+   "audio_en": "vocab-audio/1219.mp3"
+  },
+  {
+   "hindi": "पड़ोसी",
+   "english": "neighbour",
+   "tags": "",
+   "audio_hi": "vocab-audio/1012.mp3",
+   "audio_en": "vocab-audio/111.mp3"
+  },
+  {
+   "hindi": "परवाह करना",
+   "english": "to care",
+   "tags": "",
+   "audio_hi": "vocab-audio/114.mp3",
+   "audio_en": "vocab-audio/1734.mp3"
+  },
+  {
+   "hindi": "परेशान",
+   "english": "troubled, upset",
+   "tags": "",
+   "audio_hi": "vocab-audio/827.mp3",
+   "audio_en": "vocab-audio/126.mp3"
+  },
+  {
+   "hindi": "पहुँचना",
+   "english": "to arrive, reach",
+   "tags": "",
+   "audio_hi": "vocab-audio/470.mp3",
+   "audio_en": "vocab-audio/850.mp3"
+  },
+  {
+   "hindi": "पागल",
+   "english": "mad, crazy",
+   "tags": "",
+   "audio_hi": "vocab-audio/1062.mp3",
+   "audio_en": "vocab-audio/1437.mp3"
+  },
+  {
+   "hindi": "पुस्तक",
+   "english": "book",
+   "tags": "",
+   "audio_hi": "vocab-audio/1308.mp3",
+   "audio_en": "vocab-audio/1583.mp3"
+  },
+  {
+   "hindi": "पेट",
+   "english": "stomach",
+   "tags": "",
+   "audio_hi": "vocab-audio/814.mp3",
+   "audio_en": "vocab-audio/1569.mp3"
+  },
+  {
+   "hindi": "प्यारा",
+   "english": "dear, lovely",
+   "tags": "beloved",
+   "audio_hi": "vocab-audio/1065.mp3",
+   "audio_en": "vocab-audio/2204.mp3"
+  },
+  {
+   "hindi": "प्रश्न",
+   "english": "question",
+   "tags": "",
+   "audio_hi": "vocab-audio/1658.mp3",
+   "audio_en": "vocab-audio/2036.mp3"
+  },
+  {
+   "hindi": "फाड़ना",
+   "english": "to tear",
+   "tags": "",
+   "audio_hi": "vocab-audio/2165.mp3",
+   "audio_en": "vocab-audio/1636.mp3"
+  },
+  {
+   "hindi": "बचपन",
+   "english": "childhood",
+   "tags": "",
+   "audio_hi": "vocab-audio/101.mp3",
+   "audio_en": "vocab-audio/2190.mp3"
+  },
+  {
+   "hindi": "बचाना",
+   "english": "to rescue, save",
+   "tags": "",
+   "audio_hi": "vocab-audio/1521.mp3",
+   "audio_en": "vocab-audio/1080.mp3"
+  },
+  {
+   "hindi": "बदलना",
+   "english": "to change",
+   "tags": "",
+   "audio_hi": "vocab-audio/835.mp3",
+   "audio_en": "vocab-audio/1344.mp3"
+  },
+  {
+   "hindi": "बनना",
+   "english": "to be, become, be made, act",
+   "tags": "",
+   "audio_hi": "vocab-audio/601.mp3",
+   "audio_en": "vocab-audio/1194.mp3"
+  },
+  {
+   "hindi": "बहू",
+   "english": "daughter-in-law",
+   "tags": "",
+   "audio_hi": "vocab-audio/1499.mp3",
+   "audio_en": "vocab-audio/718.mp3"
+  },
+  {
+   "hindi": "बातचीत",
+   "english": "conversation, negotiation",
+   "tags": "",
+   "audio_hi": "vocab-audio/1355.mp3",
+   "audio_en": "vocab-audio/803.mp3"
+  },
+  {
+   "hindi": "बाहर",
+   "english": "out",
+   "tags": "outside;  away",
+   "audio_hi": "vocab-audio/2313.mp3",
+   "audio_en": "vocab-audio/5.mp3"
+  },
+  {
+   "hindi": "बिकना",
+   "english": "to be sold",
+   "tags": "",
+   "audio_hi": "vocab-audio/1447.mp3",
+   "audio_en": "vocab-audio/1962.mp3"
+  },
+  {
+   "hindi": "बीतना",
+   "english": "to pass (of time)",
+   "tags": "",
+   "audio_hi": "vocab-audio/1054.mp3",
+   "audio_en": "vocab-audio/345.mp3"
+  },
+  {
+   "hindi": "बेकार",
+   "english": "useless",
+   "tags": "",
+   "audio_hi": "vocab-audio/720.mp3",
+   "audio_en": "vocab-audio/1468.mp3"
+  },
+  {
+   "hindi": "भविष्य",
+   "english": "future",
+   "tags": "",
+   "audio_hi": "vocab-audio/678.mp3",
+   "audio_en": "vocab-audio/1964.mp3"
+  },
+  {
+   "hindi": "भिखारी",
+   "english": "beggar",
+   "tags": "",
+   "audio_hi": "vocab-audio/1730.mp3",
+   "audio_en": "vocab-audio/1761.mp3"
+  },
+  {
+   "hindi": "भीड़",
+   "english": "crowd",
+   "tags": "भीड़ लगना a crowd to gather",
+   "audio_hi": "vocab-audio/1753.mp3",
+   "audio_en": "vocab-audio/777.mp3"
+  },
+  {
+   "hindi": "भूखा",
+   "english": "hungry",
+   "tags": "",
+   "audio_hi": "vocab-audio/1756.mp3",
+   "audio_en": "vocab-audio/1345.mp3"
+  },
+  {
+   "hindi": "मज़बूत",
+   "english": "strong",
+   "tags": "",
+   "audio_hi": "vocab-audio/166.mp3",
+   "audio_en": "vocab-audio/631.mp3"
+  },
+  {
+   "hindi": "मन",
+   "english": "mind",
+   "tags": "heart;  मन लगाना to feel at home",
+   "audio_hi": "vocab-audio/1836.mp3",
+   "audio_en": "vocab-audio/1004.mp3"
+  },
+  {
+   "hindi": "महसूस करना",
+   "english": "to feel, experience",
+   "tags": "महसूस होना to be felt, experienced",
+   "audio_hi": "vocab-audio/790.mp3",
+   "audio_en": "vocab-audio/248.mp3"
+  },
+  {
+   "hindi": "माला",
+   "english": "garland",
+   "tags": "",
+   "audio_hi": "vocab-audio/1728.mp3",
+   "audio_en": "vocab-audio/2174.mp3"
+  },
+  {
+   "hindi": "मूर्ति",
+   "english": "statue, image",
+   "tags": "",
+   "audio_hi": "vocab-audio/569.mp3",
+   "audio_en": "vocab-audio/189.mp3"
+  },
+  {
+   "hindi": "मेहमान",
+   "english": "guest",
+   "tags": "",
+   "audio_hi": "vocab-audio/2093.mp3",
+   "audio_en": "vocab-audio/1787.mp3"
+  },
+  {
+   "hindi": "मोटा",
+   "english": "fat, thick, coarse",
+   "tags": "",
+   "audio_hi": "vocab-audio/1250.mp3",
+   "audio_en": "vocab-audio/1016.mp3"
+  },
+  {
+   "hindi": "यक़ीन",
+   "english": "confidence, faith",
+   "tags": "",
+   "audio_hi": "vocab-audio/1042.mp3",
+   "audio_en": "vocab-audio/182.mp3"
+  },
+  {
+   "hindi": "योजना",
+   "english": "plan, scheme",
+   "tags": "",
+   "audio_hi": "vocab-audio/2130.mp3",
+   "audio_en": "vocab-audio/1688.mp3"
+  },
+  {
+   "hindi": "रोशनी",
+   "english": "light",
+   "tags": "",
+   "audio_hi": "vocab-audio/2094.mp3",
+   "audio_en": "vocab-audio/2343.mp3"
+  },
+  {
+   "hindi": "लड़ाई",
+   "english": "to fight, quarrel",
+   "tags": "",
+   "audio_hi": "vocab-audio/1505.mp3",
+   "audio_en": "vocab-audio/576.mp3"
+  },
+  {
+   "hindi": "वजह",
+   "english": "reason, cause",
+   "tags": "",
+   "audio_hi": "vocab-audio/2090.mp3",
+   "audio_en": "vocab-audio/2005.mp3"
+  },
+  {
+   "hindi": "वापस",
+   "english": "&#x27;back&#x27;: वापस आना to come back",
+   "tags": "वापस जाना to go back;  वापस मिलना to be got back;  वापस लेना to take back",
+   "audio_hi": "vocab-audio/2172.mp3",
+   "audio_en": "vocab-audio/1386.mp3"
+  },
+  {
+   "hindi": "विचार",
+   "english": "thought, idea, opinion",
+   "tags": "",
+   "audio_hi": "vocab-audio/1277.mp3",
+   "audio_en": "vocab-audio/890.mp3"
+  },
+  {
+   "hindi": "शानदार",
+   "english": "magnificent",
+   "tags": "",
+   "audio_hi": "vocab-audio/1189.mp3",
+   "audio_en": "vocab-audio/736.mp3"
+  },
+  {
+   "hindi": "सफलता",
+   "english": "success",
+   "tags": "",
+   "audio_hi": "vocab-audio/1816.mp3",
+   "audio_en": "vocab-audio/1721.mp3"
+  },
+  {
+   "hindi": "समझाना",
+   "english": "to explain",
+   "tags": "to console",
+   "audio_hi": "vocab-audio/804.mp3",
+   "audio_en": "vocab-audio/436.mp3"
+  },
+  {
+   "hindi": "समस्या",
+   "english": "problem",
+   "tags": "",
+   "audio_hi": "vocab-audio/2300.mp3",
+   "audio_en": "vocab-audio/1299.mp3"
+  },
+  {
+   "hindi": "सरकार",
+   "english": "government",
+   "tags": "",
+   "audio_hi": "vocab-audio/2091.mp3",
+   "audio_en": "vocab-audio/1607.mp3"
+  },
+  {
+   "hindi": "सुनना",
+   "english": "to listen, hear",
+   "tags": "",
+   "audio_hi": "vocab-audio/1385.mp3",
+   "audio_en": "vocab-audio/268.mp3"
+  },
+  {
+   "hindi": "सुनाना",
+   "english": "to relate, tell, recite, sing",
+   "tags": "",
+   "audio_hi": "vocab-audio/124.mp3",
+   "audio_en": "vocab-audio/1533.mp3"
+  },
+  {
+   "hindi": "सुबह",
+   "english": "morning",
+   "tags": "",
+   "audio_hi": "vocab-audio/294.mp3",
+   "audio_en": "vocab-audio/48.mp3"
+  },
+  {
+   "hindi": "सौ",
+   "english": "hundred",
+   "tags": "",
+   "audio_hi": "vocab-audio/2245.mp3",
+   "audio_en": "vocab-audio/454.mp3"
+  },
+  {
+   "hindi": "स्वयं",
+   "english": "oneself",
+   "tags": "",
+   "audio_hi": "vocab-audio/1862.mp3",
+   "audio_en": "vocab-audio/848.mp3"
+  },
+  {
+   "hindi": "स्वादिष्ट",
+   "english": "tasty",
+   "tags": "",
+   "audio_hi": "vocab-audio/184.mp3",
+   "audio_en": "vocab-audio/754.mp3"
+  },
+  {
+   "hindi": "स्वीकार करना",
+   "english": "to accept",
+   "tags": "",
+   "audio_hi": "vocab-audio/2192.mp3",
+   "audio_en": "vocab-audio/1710.mp3"
+  },
+  {
+   "hindi": "हज़ार",
+   "english": "thousand",
+   "tags": "",
+   "audio_hi": "vocab-audio/952.mp3",
+   "audio_en": "vocab-audio/74.mp3"
+  },
+  {
+   "hindi": "अनौपचारिक रूप से",
+   "english": "informally",
+   "tags": "",
+   "audio_hi": "vocab-audio/672.mp3",
+   "audio_en": "vocab-audio/1480.mp3"
+  },
+  {
+   "hindi": "असल में",
+   "english": "really, in fact",
+   "tags": "",
+   "audio_hi": "vocab-audio/884.mp3",
+   "audio_en": "vocab-audio/1953.mp3"
+  },
+  {
+   "hindi": "आदमीयत से",
+   "english": "cordially",
+   "tags": "",
+   "audio_hi": "vocab-audio/679.mp3",
+   "audio_en": "vocab-audio/1588.mp3"
+  },
+  {
+   "hindi": "आधी रात",
+   "english": "midnight",
+   "tags": "",
+   "audio_hi": "vocab-audio/1158.mp3",
+   "audio_en": "vocab-audio/220.mp3"
+  },
+  {
+   "hindi": "आपस में",
+   "english": "between/among themselves",
+   "tags": "",
+   "audio_hi": "vocab-audio/1812.mp3",
+   "audio_en": "vocab-audio/1540.mp3"
+  },
+  {
+   "hindi": "आसानी से",
+   "english": "easily",
+   "tags": "",
+   "audio_hi": "vocab-audio/6.mp3",
+   "audio_en": "vocab-audio/897.mp3"
+  },
+  {
+   "hindi": "इंकार करना",
+   "english": "to refuse (to)",
+   "tags": "",
+   "audio_hi": "vocab-audio/1575.mp3",
+   "audio_en": "vocab-audio/1370.mp3"
+  },
+  {
+   "hindi": "उम्र, उमर",
+   "english": "age",
+   "tags": "",
+   "audio_hi": "vocab-audio/1864.mp3",
+   "audio_en": "vocab-audio/98.mp3"
+  },
+  {
+   "hindi": "औपचारिक से रूप",
+   "english": "formally",
+   "tags": "",
+   "audio_hi": "vocab-audio/738.mp3",
+   "audio_en": "vocab-audio/534.mp3"
+  },
+  {
+   "hindi": "की तरफ़",
+   "english": "towards",
+   "tags": "",
+   "audio_hi": "vocab-audio/2316.mp3",
+   "audio_en": "vocab-audio/1635.mp3"
+  },
+  {
+   "hindi": "की तरह",
+   "english": "like",
+   "tags": "",
+   "audio_hi": "vocab-audio/2224.mp3",
+   "audio_en": "vocab-audio/806.mp3"
+  },
+  {
+   "hindi": "की बगल में",
+   "english": "next to, close by",
+   "tags": "",
+   "audio_hi": "vocab-audio/772.mp3",
+   "audio_en": "vocab-audio/1654.mp3"
+  },
+  {
+   "hindi": "की वजह से",
+   "english": "because of",
+   "tags": "",
+   "audio_hi": "vocab-audio/929.mp3",
+   "audio_en": "vocab-audio/1085.mp3"
+  },
+  {
+   "hindi": "की क़ीमत",
+   "english": "price, value, cost",
+   "tags": "क़ीमती costly, valuable",
+   "audio_hi": "vocab-audio/357.mp3",
+   "audio_en": "vocab-audio/1975.mp3"
+  },
+  {
+   "hindi": "के अंदर",
+   "english": "inside",
+   "tags": "",
+   "audio_hi": "vocab-audio/1382.mp3",
+   "audio_en": "vocab-audio/447.mp3"
+  },
+  {
+   "hindi": "के आगे",
+   "english": "in front of, ahead of",
+   "tags": "",
+   "audio_hi": "vocab-audio/278.mp3",
+   "audio_en": "vocab-audio/1195.mp3"
+  },
+  {
+   "hindi": "के आस-पास",
+   "english": "around, in vicinity of",
+   "tags": "",
+   "audio_hi": "vocab-audio/1404.mp3",
+   "audio_en": "vocab-audio/1932.mp3"
+  },
+  {
+   "hindi": "के ऊपर",
+   "english": "on top of",
+   "tags": "",
+   "audio_hi": "vocab-audio/517.mp3",
+   "audio_en": "vocab-audio/2007.mp3"
+  },
+  {
+   "hindi": "के कारण",
+   "english": "because of",
+   "tags": "",
+   "audio_hi": "vocab-audio/929.mp3",
+   "audio_en": "vocab-audio/414.mp3"
+  },
+  {
+   "hindi": "के द्वारा",
+   "english": "by (means of)",
+   "tags": "",
+   "audio_hi": "vocab-audio/1149.mp3",
+   "audio_en": "vocab-audio/1290.mp3"
+  },
+  {
+   "hindi": "के नज़दीक",
+   "english": "near",
+   "tags": "",
+   "audio_hi": "vocab-audio/1213.mp3",
+   "audio_en": "vocab-audio/1835.mp3"
+  },
+  {
+   "hindi": "के नीचे",
+   "english": "beneath, below",
+   "tags": "",
+   "audio_hi": "vocab-audio/521.mp3",
+   "audio_en": "vocab-audio/498.mp3"
+  },
+  {
+   "hindi": "के पहले",
+   "english": "before",
+   "tags": "",
+   "audio_hi": "vocab-audio/1873.mp3",
+   "audio_en": "vocab-audio/1398.mp3"
+  },
+  {
+   "hindi": "के पास",
+   "english": "near",
+   "tags": "in (one&#x27;s) possession",
+   "audio_hi": "vocab-audio/1213.mp3",
+   "audio_en": "vocab-audio/1888.mp3"
+  },
+  {
+   "hindi": "के पीछे",
+   "english": "behind",
+   "tags": "",
+   "audio_hi": "vocab-audio/137.mp3",
+   "audio_en": "vocab-audio/574.mp3"
+  },
+  {
+   "hindi": "के बजाय",
+   "english": "instead of",
+   "tags": "",
+   "audio_hi": "vocab-audio/677.mp3",
+   "audio_en": "vocab-audio/885.mp3"
+  },
+  {
+   "hindi": "के बाद",
+   "english": "after",
+   "tags": "",
+   "audio_hi": "vocab-audio/1253.mp3",
+   "audio_en": "vocab-audio/146.mp3"
+  },
+  {
+   "hindi": "के बारे में",
+   "english": "about, concerning",
+   "tags": "",
+   "audio_hi": "vocab-audio/119.mp3",
+   "audio_en": "vocab-audio/1553.mp3"
+  },
+  {
+   "hindi": "के बाहर",
+   "english": "outside",
+   "tags": "",
+   "audio_hi": "vocab-audio/367.mp3",
+   "audio_en": "vocab-audio/960.mp3"
+  },
+  {
+   "hindi": "के बिना",
+   "english": "without",
+   "tags": "",
+   "audio_hi": "vocab-audio/103.mp3",
+   "audio_en": "vocab-audio/368.mp3"
+  },
+  {
+   "hindi": "के बीच",
+   "english": "between",
+   "tags": "बीच में in the middle of",
+   "audio_hi": "vocab-audio/2180.mp3",
+   "audio_en": "vocab-audio/1466.mp3"
+  },
+  {
+   "hindi": "के मारे",
+   "english": "on account of, through",
+   "tags": "",
+   "audio_hi": "vocab-audio/2263.mp3",
+   "audio_en": "vocab-audio/308.mp3"
+  },
+  {
+   "hindi": "के लिए",
+   "english": "for",
+   "tags": "",
+   "audio_hi": "vocab-audio/600.mp3",
+   "audio_en": "vocab-audio/1316.mp3"
+  },
+  {
+   "hindi": "के यहाँ",
+   "english": "at the place of",
+   "tags": "",
+   "audio_hi": "vocab-audio/2013.mp3",
+   "audio_en": "vocab-audio/778.mp3"
+  },
+  {
+   "hindi": "के साथ",
+   "english": "with, in company of",
+   "tags": "",
+   "audio_hi": "vocab-audio/1659.mp3",
+   "audio_en": "vocab-audio/1577.mp3"
+  },
+  {
+   "hindi": "के सामने",
+   "english": "facing, opposite",
+   "tags": "",
+   "audio_hi": "vocab-audio/761.mp3",
+   "audio_en": "vocab-audio/1481.mp3"
+  },
+  {
+   "hindi": "के सिवाय, सिवाय",
+   "english": "apart from",
+   "tags": "",
+   "audio_hi": "vocab-audio/834.mp3",
+   "audio_en": "vocab-audio/696.mp3"
+  },
+  {
+   "hindi": "गप, गपशप",
+   "english": "gossip",
+   "tags": "",
+   "audio_hi": "vocab-audio/2019.mp3",
+   "audio_en": "vocab-audio/1235.mp3"
+  },
+  {
+   "hindi": "गृह मंत्री",
+   "english": "Home Minister",
+   "tags": "",
+   "audio_hi": "vocab-audio/1365.mp3",
+   "audio_en": "vocab-audio/1068.mp3"
+  },
+  {
+   "hindi": "चाहे...चाहे",
+   "english": "whether... or",
+   "tags": "",
+   "audio_hi": "vocab-audio/758.mp3",
+   "audio_en": "vocab-audio/1374.mp3"
+  },
+  {
+   "hindi": "जन्म, जनम",
+   "english": "birth",
+   "tags": "जन्म लेना to be born",
+   "audio_hi": "vocab-audio/660.mp3",
+   "audio_en": "vocab-audio/304.mp3"
+  },
+  {
+   "hindi": "जहाँ...वहाँ",
+   "english": "where... there",
+   "tags": "",
+   "audio_hi": "vocab-audio/185.mp3",
+   "audio_en": "vocab-audio/773.mp3"
+  },
+  {
+   "hindi": "जितना...उतना",
+   "english": "as much as...",
+   "tags": "",
+   "audio_hi": "vocab-audio/1660.mp3",
+   "audio_en": "vocab-audio/1430.mp3"
+  },
+  {
+   "hindi": "जिधर... उधर",
+   "english": "whither... thither",
+   "tags": "",
+   "audio_hi": "vocab-audio/324.mp3",
+   "audio_en": "vocab-audio/21.mp3"
+  },
+  {
+   "hindi": "झट से",
+   "english": "suddenly, briskly",
+   "tags": "",
+   "audio_hi": "vocab-audio/1318.mp3",
+   "audio_en": "vocab-audio/883.mp3"
+  }
+ ]
+}

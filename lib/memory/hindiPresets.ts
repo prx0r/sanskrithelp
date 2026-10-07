@@ -29,7 +29,7 @@ export type HindiComplement = {
 };
 
 export type HindiFrame = {
-  id: "habitual" | "progressive" | "ability" | "want";
+  id: "habitual" | "progressive" | "ability" | "want" | "imperative" | "subjunctive";
   label: string;
   en: string;
   note: string;
@@ -304,6 +304,18 @@ export const HINDI_FRAMES: readonly HindiFrame[] = [
     label: "WANT",
     en: "want to",
     note: "infinitive + चाहता/चाहती/चाहते + auxiliary",
+  },
+  {
+    id: "imperative",
+    label: "PLEASE-DO",
+    en: "polite imperative request",
+    note: "honorific -िए/-ीजिए on known root (कीजिए→कर); decompile-only v1",
+  },
+  {
+    id: "subjunctive",
+    label: "LET-IT-BE-DONE",
+    en: "subjunctive request (-ें)",
+    note: "stem + ें (दें/करें/लगाएं); verb may be null; decompile-only v1",
   },
 ] as const;
 

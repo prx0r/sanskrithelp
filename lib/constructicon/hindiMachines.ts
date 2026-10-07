@@ -143,10 +143,43 @@ export const HINDI_MACHINES: Machine[] = [
     ud: null,
     propbank: null,
   },
+  {
+    id: "imperative-request",
+    lang: "hindi",
+    island: "kar-island",
+    meaning: "polite imperative request (honorific -िए/-ीजिए)",
+    form: "[कृपया] [ROOT]-िए",
+    slots: [
+      { name: "ROOT", constraint: "verb", required: true },
+    ],
+    features: { interrogative: false, modality: "request", politeness: "honorific", source: "bhatia-colloquial" },
+    examples: ["माफ़ कीजिए।", "देखिए।", "समझिए।"],
+    connections: [{ to: "phirse-request", relation: "instance-of" }],
+    ucxn: null,
+    ud: null,
+    propbank: null,
+  },
+  {
+    id: "subjunctive-request",
+    lang: "hindi",
+    island: "kar-island",
+    meaning: "subjunctive request, let-it-be-done (-ें)",
+    form: "[कृपया] [X] [STEM]-ें",
+    slots: [
+      { name: "X", constraint: "object-np", required: false },
+      { name: "STEM", constraint: "verb-stem", required: true },
+    ],
+    features: { interrogative: false, modality: "request", politeness: "honorific", source: "jiniac-commands" },
+    examples: ["जगदीश के नए ईमेल का जवाब दें।", "रोशनी की चमक कम करें।"],
+    connections: [{ to: "imperative-request", relation: "generalization-of" }],
+    ucxn: null,
+    ud: null,
+    propbank: null,
+  },
 ];
 
 export const HINDI_ISLANDS: Island[] = [
-  { id: "kar-island", lang: "hindi", anchor: "कर", machineIds: ["ability-question", "habitual", "desire"], abstractAt: 8 },
+  { id: "kar-island", lang: "hindi", anchor: "कर", machineIds: ["ability-question", "habitual", "desire", "imperative-request", "subjunctive-request"], abstractAt: 8 },
   { id: "sikh-island", lang: "hindi", anchor: "सीख", machineIds: ["progressive"], abstractAt: 5 },
   { id: "chunk-island", lang: "hindi", anchor: "फिर से कहिए", machineIds: ["kiske-origin", "phirse-request"], abstractAt: 4 },
   { id: "osho-island", lang: "hindi", anchor: "अर्थ", machineIds: ["X-kaa-arth-hai-ki-Y", "X-hii-Y-hai"], abstractAt: 3 },
@@ -163,4 +196,8 @@ export const HINDI_EXEMPLARS: Exemplar[] = [
   { id: "ex-artha", surface: "इस सूत्र का अर्थ है कि चैतन्य ही आत्मा है।", machineId: "X-kaa-arth-hai-ki-Y", fills: { X: "इस सूत्र", Y: "चैतन्य ही आत्मा है" }, world: "sutra" },
   { id: "ex-caitanya", surface: "चैतन्य ही आत्मा है।", machineId: "X-hii-Y-hai", fills: { X: "चैतन्य", Y: "आत्मा" }, world: "sutra" },
   { id: "ex-udyama", surface: "उद्यम ही भैरव है।", machineId: "X-hii-Y-hai", fills: { X: "उद्यम", Y: "भैरव" }, world: "sutra" },
+  { id: "ex-maaf", surface: "माफ़ कीजिए।", machineId: "imperative-request", fills: { ROOT: "कर" }, world: "courtesy" },
+  { id: "ex-dekhiye", surface: "देखिए।", machineId: "imperative-request", fills: { ROOT: "देख" }, world: "courtesy" },
+  { id: "ex-jawaab", surface: "जगदीश के नए ईमेल का जवाब दें।", machineId: "subjunctive-request", fills: { X: "जगदीश के नए ईमेल का जवाब", STEM: "दें" }, world: "request" },
+  { id: "ex-roshni", surface: "रोशनी की चमक कम करें।", machineId: "subjunctive-request", fills: { X: "रोशनी की चमक", STEM: "करें" }, world: "request" },
 ];

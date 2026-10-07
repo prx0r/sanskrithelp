@@ -78,7 +78,36 @@ function findVerb(tokens: string[]): {
   unknown: string[];
 } {
   const text = tokens.join(" ");
+  // generalized -ें (e + anusvara) subjunctive, minus auxiliaries/pronouns/postpositions.
+  // stem = token minus ें, then minus trailing े (करें→कर, बनाएं→बना).
+  const SUBJ_EXCLUDE = new Set(["हैं", "में", "उन्हें", "इन्हें", "जिन्हें", "किन्हें", "तुम्हें", "हमें"]);
+  for (const t of tokens) {
+    if (t.endsWith("ें") && !SUBJ_EXCLUDE.has(t)) {
+      const frame = HINDI_FRAMES.find((f) => f.id === "subjunctive") ?? null;
+      const stem = t.slice(0, -1).replace(/े$/, "");
+      const verb = HINDI_VERBS.find((v) => stem === v.root) ?? null;
+      const { complement, unknown } = verb
+        ? splitComplement(verb, tokens, [t])
+        : { complement: null, unknown: tokens.filter((x) => x !== t) };
+      return { frame, verb, complement, unknown };
+    }
+  }
   for (const verb of HINDI_VERBS) {
+    // honorific imperative: root + िए (समझिए/देखिए/बोलिए), plus कीजिए→कर
+    const impForms = [verb.root + "िए"];
+    if (verb.id === "kar") impForms.push("कीजिए");
+    if (tokens.some((t) => impForms.includes(t))) {
+      const frame = HINDI_FRAMES.find((f) => f.id === "imperative") ?? null;
+      const { complement, unknown } = splitComplement(verb, tokens, impForms);
+      return { frame, verb, complement, unknown };
+    }
+    // subjunctive request: stem + ें on known roots
+    const subForms = [verb.root + "ें"];
+    if (tokens.some((t) => subForms.includes(t))) {
+      const frame = HINDI_FRAMES.find((f) => f.id === "subjunctive") ?? null;
+      const { complement, unknown } = splitComplement(verb, tokens, subForms);
+      return { frame, verb, complement, unknown };
+    }
     // want-frame: infinitive present
     if (text.includes(verb.infinitive)) {
       const frame = HINDI_FRAMES.find((f) => f.id === "want") ?? null;
@@ -177,9 +206,10 @@ function detectOsho(
 export function decompileHindi(input: string): DecompiledHindi {
   const clean = strip(input);
   const exact = KUMBH_PHRASES.find((p) => strip(p.dev) === clean);
-  const question = /^क्या(?=\s|$)/.test(clean);
+  const tokens0 = clean.split(" ").filter(Boolean);
+  const question = tokens0.includes("क्या");
   const osho = detectOsho(clean);
-  const tokens = clean.split(" ").filter(Boolean).filter((t) => t !== "क्या");
+  const tokens = tokens0.filter((t) => t !== "क्या");
 
   const { subject, rest: r1 } = findSubject(tokens);
   const { time, rest: r2 } = findTime(r1);
