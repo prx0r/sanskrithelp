@@ -57,7 +57,33 @@ function parseAnswer(key: string, q: JevQuestion, data: any): JevAnswer | null {
   return null;
 }
 
-/** One round trip: many typed questions, answered in parallel. Null = no key / failure. */
+/** Prose fallback: OpenRouter routing may answer in words, not JSON. */
+export function parseProse(text: string, questions: Record<string, JevQuestion>): Record<string, JevAnswer> | null {
+  const out: Record<string, JevAnswer> = {};
+  for (const [k, q] of Object.entries(questions)) {
+    if (q.type === "choice") {
+      const hit = q.options.find((o) => new RegExp(`\\b${o.replace(/_/g, "[_\\s]")}\\b`, "i").test(text));
+      if (!hit) return null;
+      out[k] = { kind: "choice", pick: hit, probs: {}, confidence: 0.5 };
+    } else if (q.type === "score") {
+      const m = text.match(new RegExp(`\\b([1-9]|${q.levels})\\b`));
+      const mPct = text.match(/(\d+(?:\.\d+)?)\s*%/);
+      const mProb = text.match(/probability\D{0,10}(\d(?:\.\d+)?)/i);
+      if (!m) return null;
+      const conf = mPct ? Math.min(1, parseFloat(mPct[1]) / 100) : mProb ? parseFloat(mProb[1]) : 0.5;
+      out[k] = { kind: "score", value: parseInt(m[1], 10), confidence: conf };
+    } else {
+      const yes = /\bYES\b/i.test(text);
+      const no = /\bNO\b/i.test(text);
+      if (!yes && !no) return null;
+      const mPct = text.match(/(\d+(?:\.\d+)?)\s*%/);
+      const mProb = text.match(/probability\D{0,10}(\d(?:\.\d+)?)/i);
+      const conf = mPct ? Math.min(1, parseFloat(mPct[1]) / 100) : mProb ? parseFloat(mProb[1]) : 0.5;
+      out[k] = { kind: "noul", p: yes && !no ? 1 : 0, confidence: conf };
+    }
+  }
+  return out;
+}
 export async function jevDecide(
   state: string,
   questions: Record<string, JevQuestion>,
@@ -78,23 +104,30 @@ export async function jevDecide(
         model: opts?.model || JEV_MODEL,
         messages: [{ role: "user", content: toSystemOnePrompt(state, questions) }],
         temperature: 0,
-        max_tokens: 512,
+        max_tokens: 1024,
+        reasoning: { exclude: true },
       }),
     });
     if (!res.ok) return null;
     const data = await res.json();
-    let text: string = data?.choices?.[0]?.message?.content ?? "";
-    const s = text.indexOf("{");
-    const e = text.lastIndexOf("}");
-    if (s === -1 || e <= s) return null;
-    const parsed = JSON.parse(text.slice(s, e + 1));
-    const out: Record<string, JevAnswer> = {};
-    for (const [k, q] of Object.entries(questions)) {
-      const a = parseAnswer(k, q, parsed.answers ? parsed : { answers: parsed });
-      if (!a) return null;
-      out[k] = a;
-    }
-    return out;
+    const text: string = data?.choices?.[0]?.message?.content ?? "";
+    // Strict path first: typed JSON. Lenient fallback: router prose ("Loop: YES — 0.95").
+    try {
+      const s = text.indexOf("{");
+      const e = text.lastIndexOf("}");
+      if (s !== -1 && e > s) {
+        const parsed = JSON.parse(text.slice(s, e + 1));
+        const out: Record<string, JevAnswer> = {};
+        let ok = true;
+        for (const [k, q] of Object.entries(questions)) {
+          const a = parseAnswer(k, q, parsed.answers ? parsed : { answers: parsed });
+          if (!a) { ok = false; break; }
+          out[k] = a;
+        }
+        if (ok) return out;
+      }
+    } catch {}
+    return parseProse(text, questions);
   } catch {
     return null;
   }
