@@ -55,3 +55,26 @@ describe("audio course scope", () => {
     expect(s).toMatch(/Human recordings only/);
   });
 });
+
+describe("padoux theory base", () => {
+  const src = readFileSync(resolve(ROOT, "docs/padoux.md"), "utf8");
+
+  it("covers all four deep-read chapters with page refs", () => {
+    for (const marker of ["nādānta", "sāmānādhikaraṇya", "AHAM", "ṣaḍadhvan", "anusamdhāna", "divyadeha"]) {
+      expect(src, marker).toContain(marker);
+    }
+    expect(src).toMatch(/PDF p\.\d+/);
+  });
+
+  it("keeps quotes short and carries honesty constraints", () => {
+    expect(src).toContain("Honesty constraints");
+    expect(src).toMatch(/CHOSEN recension|chosen recension/i);
+    expect(src).toMatch(/hygiene-only|modern apparatus/);
+  });
+
+  it("wires findings to curriculum elements", () => {
+    for (const el of ["Checkpoint 3", "Audio 14", "Wheel II", "Night protocol", "Text Mode"]) {
+      expect(src, el).toContain(el);
+    }
+  });
+});
