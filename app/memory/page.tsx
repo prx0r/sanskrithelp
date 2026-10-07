@@ -171,6 +171,13 @@ const GROUPS: { title: string; items: HubItem[] }[] = [
         icon: BookMarked,
       },
       {
+        href: "/memory/canonical/THEORY_SHELF.html",
+        title: "Theory Shelf",
+        subtitle: "7 works · why each matters",
+        desc: "Journey, Bang (open), Kubjikā, Vasudeva ×2, Padoux, Yantra — mapped to program phases with legitimate links. R2 holds private study copies.",
+        icon: BookMarked,
+      },
+      {
         href: "/memory/canonical/TA15_NYASA.md",
         title: "TĀ 15 Nyāsa Record",
         subtitle: "Verse vs apparatus · never mixed",

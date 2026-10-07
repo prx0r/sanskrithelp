@@ -258,5 +258,15 @@ describe("canonical table page (invisible made visible)", () => {
     expect(night).toContain("vijnanabhairava/units.json");
     const hub = readFileSync(resolve(ROOT, "app/memory/page.tsx"), "utf8");
     expect(hub).toContain("/memory/canonical/TA15_TABLE.html");
+    expect(hub).toContain("/memory/canonical/THEORY_SHELF.html");
+  });
+
+  it("theory shelf names all seven works with legitimate access", () => {
+    const shelf = readFileSync(resolve(ROOT, "public/memory/canonical/THEORY_SHELF.html"), "utf8");
+    for (const name of ["Journey", "Bang", "Kubjik", "Synaesthetic", "Mālinī", "Padoux", "Yantra"]) {
+      expect(shelf, name).toContain(name);
+    }
+    expect(shelf).toContain("ediss");
+    expect(shelf).not.toMatch(/z-library|Anna.?s Archive|pdfcoffee/i);
   });
 });
