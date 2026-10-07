@@ -1,4 +1,26 @@
-# HANDOVER — sanskrithelp, from `83be0e2` (2026-10-06 ~09:45 UTC)
+# HANDOVER — sanskrithelp, session 2026-10-07 (HEAD `87f57ee`)
+
+> LIVE on sanskrit.help (deploy green). 154/154 tests · tsc clean.
+> Big session: Mātṛkā v2 freeze → Hindi engine → Jev/transmission → audio v2 → corpus batches.
+
+## What landed (all live, verified 200s)
+- **Canon**: matrika-body-map-v2 (sūtra-sinews), Tonight 50, Bruno 50 volvelle, TA15 table (50+50), Theory Shelf.
+- **Audio v2**: RyanNeural cues + verse loci (espeak retired); 47/50 human clips mapped (ḷ ḹ kṣa missing); TRANSCRIPTS.md per file.
+- **Hindi**: Osho Dataset Zero + Text Mode + scenarios with 3-stage audio scenes, speak-and-score (/api/assess), adaptive difficulty, daily loop, Glot spec, Snell vocab (1223 + audio), Bhatia/Snell skeletons (gated), pathway v1, 3 new machines (imperative/subjunctive/habitual-q), 1781 drills.
+- **LLM backend**: free-model default (was 500ing) + honest errors; `/api/enquiry` (self-enquiry), `/api/hxrmxs` (transmission-first: 723 verbatim exemplars, retrieve-first).
+- **Jev**: real Decisions API pinned 1.13 (router was wrong endpoint); trajectory position in state; prod needs dashboard secret (fallbacks live).
+- **Corpus**: missing-corpus batches 1+2 pulled (731 eps normalized, 12 lineages, arcs to 63; synthetics flagged).
+- **Course**: syllabus.json (26 units, validated) + Word-level axis; curriculum + audio-course scope docs.
+- **Org**: dup clip dirs deleted, cakra audio fixed, README added, TA15_NYASA linked, tantra↔memory crosslinks.
+
+## Open / pending (no-push rule: batch commits held locally unless asked)
+- Working tree should hold ONLY the other session's simulator/coach files. If anything else is uncommitted, it is Hindi/HXRMXS follow-ups — ask before pushing.
+- Other session's simulator/coach files STILL untouched (never stage).
+- Ears needed: EdgeSanskrit drafts, vocab-audio voice assumption.
+- Keys: OPENROUTER in local .env only (prod needs dashboard secret); Cloudflare token in chat history (rotate if one-job).
+- Gated: chant v2 + diarization (HF clicks); Mālinī loci verify; Sprint-1; Osho 02–10.
+
+## Prior sessions (2026-10-06 and earlier — see below)
 
 > LIVE on sanskrit.help (deploy green, verified 200s). Threads: A doctrine ·
 > B Hindi engine · C voice/conversation · D corpus · E music/geometry · F ops.
