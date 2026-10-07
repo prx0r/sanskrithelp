@@ -1,0 +1,2266 @@
+{
+  "episodes": [
+    {
+      "episode_id": "ug_mind_myth_01_anger_talk",
+      "source_text": "MIND IS A MYTH",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "U.G.",
+          "text": "I can never sit on a platform and talk. It is too artificial. It is a waste of time to sit and discuss things in hypothetical or abstract terms. An angry man does not sit and talk and converse pleasantly about anger; he is too angry. So don't tell me that you are in crisis, that you are angry. Why talk of anger? You live and die in the hope that someday, somehow, you will no longer be angry. You are burdened with hope, and if this life seems hopeless, you invent the next life. There are no lives to come."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Q",
+          "text": "Well, it certainly cannot be said that your talking gives hope to anyone. Why do you talk if not to console or instruct?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "U.G.",
+          "text": "What am I to do? You come, I talk. Do you want me to criticize you, to throw stones? It is useless, for you are affected by nothing, having erected an impenetrable armor around yourself. You feel nothing. Unable to understand your situation, you react through thought, which is your ideas and mentations. Reaction is thought."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "META",
+          "UNMAKING"
+        ],
+        "dominant_phase": "META",
+        "start_state_desc": "The student expects a standard discourse on resolving anger.",
+        "end_state_desc": "U.G. deconstructs the setting itself, arguing that discussing anger proves the absence of anger.",
+        "closure_type": "failure"
+      },
+      "training_value": {
+        "pedagogical_shape": "Meta-Refutation of the Format. Denying the validity of the discussion context.",
+        "what_model_should_learn": [
+          "How to challenge the premise of a conversation ('If you were angry, you wouldn't be talking').",
+          "How to refuse the role of consoler or instructor."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "I. The Certainty That Blasts Everything",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "ug_mind_myth_02_ball_wall",
+      "source_text": "MIND IS A MYTH",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Q",
+          "text": "But surely your sitting here and talking hour after hour indicates that you have a philosophy, a message to give, even if it is poorly understood by your listeners."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "U.G.",
+          "text": "Not at all. There is nobody here talking, giving advice, feeling pain, or experiencing anything at all. Like a ball thrown against the wall, it bounces back, that is all. My talking is the direct result of your question, I have nothing here of my own, no obvious or hidden agenda, no product to sell, no axe to grind, nothing to prove."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "META",
+          "UNMAKING"
+        ],
+        "dominant_phase": "META",
+        "start_state_desc": "Student projects agency and intent ('message') onto the teacher.",
+        "end_state_desc": "U.G. defines himself as a mechanical reflective surface (wall) with no agency.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "The Empty Mirror / Mechanical Response geometry.",
+        "what_model_should_learn": [
+          "How to describe the teaching function as a mechanical reflex rather than an intentional act.",
+          "Use of the 'ball against the wall' analogy for reactive dialogue."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "I. The Certainty That Blasts Everything",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "ug_mind_myth_03_suicide_logic",
+      "source_text": "MIND IS A MYTH",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Q",
+          "text": "You have mercilessly cut off every possibility of rehabilitation, obliterating even the faint hope of escaping this unhappiness. There seems to be nothing left but self-destruction. Why not suicide?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "U.G.",
+          "text": "If you commit suicide, it does not help the situation in any way. The moment after suicide the body begins to decay, returning back to other, differently organized forms of life, putting an end to nothing. Life has no beginning and no end. A dead and dying body feeds the hungry ants there in the grave, and rotting corpses give off soil-enriching chemicals, which in turn nourish other life forms. You cannot put an end to your life, it is impossible."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "U.G.",
+          "text": "The body is immortal and never asks silly questions like, \"Is there immortality?\" It knows that it will come to an end in that particular form, only to continue on in others. Questions about life after death are always asked out of fear."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "REMAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Student proposes suicide as the logical escape from U.G.'s bleak picture.",
+        "end_state_desc": "U.G. deconstructs suicide not as moral wrong, but as functionally useless because biology (life) continues.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Absurdist Biological Re-framing. Suicide fails because 'you' are just food for ants.",
+        "what_model_should_learn": [
+          "How to refute existential despair with cold biological fact.",
+          "Inverting the concept of 'immortality' from soul-survival to material recycling."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "I. The Certainty That Blasts Everything",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "ug_mind_myth_04_neurotic_peace_bomb",
+      "source_text": "MIND IS A MYTH",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Q",
+          "text": "But for many of us life is a sacred thing. We struggle to protect our children, the environment, to avert another war ...."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "U.G.",
+          "text": "You are all neurotic people. You talk against birth control, drone on and on about the preciousness of life, then bomb and massacre. It is too absurd. You are concerned with an unborn life while you are killing thousands and thousands of people by bombing, starvation, poverty and terrorism. Your \"concern\" about life is only to make a political issue out of it. It is just an academic discussion. I am not interested in that."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Q",
+          "text": "Yes, but many of us see all this and nevertheless are interested in changing things. It is not just egoism on our parts."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "U.G.",
+          "text": "Are you really interested? Are you interested in the future of mankind? Your expressions of anger, righteousness, and caring have no meaning to me. It is just a ritual. You sit and talk, that's all. You are not at all angry. If you were angry at this moment, you would not ask this question, even to yourself. You sit everlastingly talking of anger. The angry wouldn't talk about it."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "SELF-MAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Student claims moral high ground (life is sacred, we want peace).",
+        "end_state_desc": "U.G. exposes this 'concern' as neurotic ritual, proving their lack of seriousness by their inaction.",
+        "closure_type": "failure"
+      },
+      "training_value": {
+        "pedagogical_shape": "Aggressive Testing of Moral Posture. Exposing 'concern' as entertainment.",
+        "what_model_should_learn": [
+          "How to attack the 'sacred' hypocrisy of the student.",
+          "How to distinguish between 'talking about anger' (ritual) and 'being angry' (action)."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "I. The Certainty That Blasts Everything",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "ug_mind_myth_05_harbor_pilot",
+      "source_text": "MIND IS A MYTH",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Q",
+          "text": "So we must become aware of death, making it an object of our meditations, and treating it in such a romantic, mystical way. Is that it?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "U.G.",
+          "text": "To describe that state as a meditative state full of awareness is romantic hogwash. Awareness! What a fantastic gimmick used to fool themselves and others. You can't be aware of every step, you only become self-conscious and awkward if you do. I once knew a man who was a harbor pilot. He had been reading about \"passive awareness\" and attempted to put it into practice. He, for the first time, nearly wrecked the ship he was guiding. Walking is automatic, and if you try to be aware of every step, you will go crazy. So don't invent meditative steps."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "REMAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Student asks about 'awareness of death' as a practice.",
+        "end_state_desc": "U.G. uses the Harbor Pilot anecdote to show that 'awareness' disrupts natural function (wrecking the ship).",
+        "closure_type": "shock"
+      },
+      "training_value": {
+        "pedagogical_shape": "Humor/Absurdity. The 'Harbor Pilot' anecdote against mindfulness.",
+        "what_model_should_learn": [
+          "How to use concrete, humorous anecdotes to debunk abstract spiritual practices.",
+          "Framing 'awareness' as interference with biological intelligence."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "I. The Certainty That Blasts Everything",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "ug_mind_myth_06_the_cheat",
+      "source_text": "MIND IS A MYTH",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Q",
+          "text": "It is the act of a person free from self-absorption, neurotic episodes, and self-pity. Is there any way to teach this? Can people be educated to be sane?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "U.G.",
+          "text": "I don't believe in education. You can teach a technique -- mathematics, auto mechanics, but not integrity. How can you teach them about non-greed and non-ambition in an insanely greedy and ambitious society? You will only succeed in making them more neurotic. Look; you are a cheat. Your religious ambitions are just like the businessman's there. If you can't cheat there is something wrong. How do you think the rich man there got his great wealth? Through lectures about non-greed and selflessness? Not at all. He got it by cheating somebody."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "U.G.",
+          "text": "It is the guilt you have that compels you to talk of non-greed while you continue on with your greedy life. Your non-greed is invented by thought to keep you from facing the fact that greed is all that is there."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "SELF-MAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Student asks about educating people for sanity/integrity.",
+        "end_state_desc": "U.G. attacks the student directly ('You are a cheat') to show that moral ideals are cover-ups for actual nature.",
+        "closure_type": "shock"
+      },
+      "training_value": {
+        "pedagogical_shape": "Aggressive Ad Hominem as Pedagogy. 'You are a cheat'.",
+        "what_model_should_learn": [
+          "How to pivot from abstract social questions to personal accusation to break the student's dissociation.",
+          "Defining 'virtue' (non-greed) as a defense mechanism against 'vice' (greed)."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "I. The Certainty That Blasts Everything",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "ug_mind_myth_07_silence_burn",
+      "source_text": "MIND IS A MYTH",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Q",
+          "text": "Then why do you talk at all?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "U.G.",
+          "text": "There is no particular charm in being antisocial. I don't give people what they want. When they realize they will not get what they want here, they invariably go away. ... When people come to talk they find themselves confronted with silence itself. That is why everybody who comes is automatically silent thereafter. If he cannot stand the silence and insists upon talking and discussing things, he will be forced to disagree and walk out. But if you stay long, you will be silenced, not because it is over-persuasive, more rational than you are, but because it is silence itself silencing that movement there. That silence burns everything here."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "META"
+        ],
+        "dominant_phase": "META",
+        "start_state_desc": "Student questions the utility of U.G.'s talking.",
+        "end_state_desc": "U.G. reframes the interaction not as 'talking' but as an energetic silencing/burning process.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Meta-Energetic Explanation. Conversation as 'silencing' rather than 'informing'.",
+        "what_model_should_learn": [
+          "How to explain the 'transmission' of silence as a destructive force.",
+          "How to differentiate between rational persuasion and existential silencing."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "I. The Certainty That Blasts Everything",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "ug_mind_myth_08_karma_reaction",
+      "source_text": "MIND IS A MYTH",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Q",
+          "text": "How does intelligence fit into all this? You seem to indicate that there is a native intelligence that has nothing to do with the accumulation of knowledge and technique."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "U.G.",
+          "text": "Accepting the limitations is intelligence. You are trying to free yourself from these natural limitations and that is the cause of your sorrow and pain. Your actions are such that one action limits the next action. Your action at this moment is limiting the next action. This action is a reaction. the question of freedom of action does not even arise. Therefore no fatalistic philosophy is needed. The word \"karma\" means an action without a reaction. ... Pure, spontaneous action free of all previous actions is meaningless. The one and only action is the response of this living organism to the stimuli around it."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING",
+          "UNMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "Student asks about 'native intelligence' vs knowledge.",
+        "end_state_desc": "U.G. redefines intelligence as 'accepting limitations' and karma as 'action without reaction' (pure biological response).",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Biological Redefinition of Spiritual Terms.",
+        "what_model_should_learn": [
+          "How to strip metaphysical terms (karma) down to biological mechanics (stimulus-response).",
+          "Defining 'freedom' as the absence of the illusion of choice."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "I. The Certainty That Blasts Everything",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "ug_mind_myth_09_sugar_cube",
+      "source_text": "MIND IS A MYTH",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Q",
+          "text": "But still it seem to us that J. Krishnamurti, and perhaps a few others in history, have something to say. J. Krishnamurti appears to be what he claims he is, a free man."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "U.G.",
+          "text": "He has something. I am fond of saying that he has SEEN the sugar cube, but has not TASTED the sugar cube. Whether that man, myself, or any other person is free or not is not your problem; it is the shibboleth of escapist minds, an amusement invented to avoid the real issue, which is your unfreedom. You may be sure of one thing; he who says he is a free man is a phoney."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "SELF-MAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Student appeals to the authority/freedom of J. Krishnamurti.",
+        "end_state_desc": "U.G. uses the 'Sugar Cube' metaphor to dismiss J.K. and pivots back to the student's unfreedom.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "De-authorization. Attacking the idol to throw the student back on themselves.",
+        "what_model_should_learn": [
+          "How to distinguish between intellectual grasp (seeing sugar) and realization (tasting).",
+          "The axiom: 'He who says he is free is a phoney.'"
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "I. The Certainty That Blasts Everything",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "ug_mind_myth_10_computer_glands",
+      "source_text": "MIND IS A MYTH",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "U.G.",
+          "text": "When these thoughts are not there, what is left is the simple, harmonious physical functioning of the organism. I am able to describe the way this organism is functioning because your question has created the challenge here. ... It functions in a state of not knowing. I never ask myself how I am functioning. I never question my actions, before, during, or after they occur. Does a computer ask how it is functioning?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Q",
+          "text": "But computers have no feeling, no psyche, no spiritual dimension. How can you compare ...?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "U.G.",
+          "text": "You can't fit me into that religious framework. Any attempt on your part to translate what I am saying into your religious framework is to miss the point. I am not one of your holy men who say, \"I am hanging, so come hang with me.\" All that stuff is a form of madness."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING",
+          "UNMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "Student resists the 'computer' analogy, clinging to 'psyche' and 'spirit'.",
+        "end_state_desc": "U.G. rejects the religious framework entirely, insisting on the machine analogy.",
+        "closure_type": "failure"
+      },
+      "training_value": {
+        "pedagogical_shape": "Radical Materialism/Functionalism.",
+        "what_model_should_learn": [
+          "How to use the 'Computer' analogy to describe enlightened functioning (automatic, unquestioning).",
+          "Refusing to accept 'spiritual dimension' as a valid category."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "I. The Certainty That Blasts Everything",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "ug_mind_myth_11_microphones_past",
+      "source_text": "MIND IS A MYTH",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Q",
+          "text": "Philosophers are often heard talking of a \"now\", independent of past and future. Is there such a thing as an eternal present?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "U.G.",
+          "text": "The demand for more and more experience constitutes your \"present\", which is born out of the past. Look. Here is a microphone before you. You are looking at it. Is it possible for you to look at it without the word \"Microphone\"? The instrument you are using to look at and experience the microphone is the past, your past. If that is seen there is no future at all."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "U.G.",
+          "text": "When the past is not in operation there is no \"present\" at all, for what you are calling the \"present\" is the past repeating itself. In an actual state of \"here and now\" there is no past in operation and, therefore, no future."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Student asks about the 'eternal present'.",
+        "end_state_desc": "U.G. deconstructs the 'present' as merely the past (recognition/naming) projecting itself.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Epistemological Collapse. Recognition = Past.",
+        "what_model_should_learn": [
+          "How to use a concrete object (microphone) to prove that perception is memory.",
+          "Defining 'now' as the absence of the 'present' (which is just the past)."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "I. The Certainty That Blasts Everything",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "ug_mind_myth_12_horizon_goal",
+      "source_text": "MIND IS A MYTH",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Q",
+          "text": "Is there any higher goal at all?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "U.G.",
+          "text": "The so-called \"highest goal\" is like the horizon. The further you move towards it, the further it recedes. The goal, like the horizon, is not really there. It is a projection of your own fear and it moves away from you as you pursue it. How can you keep up with it? There is nothing that you can do. Still, it is desire that keeps you moving; no matter in which direction you move, it is the same."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Student asks about higher goals.",
+        "end_state_desc": "U.G. destroys the concept of 'goal' using the 'Horizon' analogy (it recedes as you approach).",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry: The Receding Horizon.",
+        "what_model_should_learn": [
+          "How to use the horizon analogy to explain the impossibility of spiritual attainment.",
+          "Linking 'goal' to 'fear projection'."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "I. The Certainty That Blasts Everything",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "ug_mind_myth_13_guts_challenge",
+      "source_text": "MIND IS A MYTH",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Q",
+          "text": "You are ruthlessly condemning whatever people have said so far. You may, in time, also be condemned and blasted for what you are saying."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "U.G.",
+          "text": "If you have the guts, I will be the very first to salute you. But you must not rely on your holy books -- the Bhagavad Gita or Upanishads. You must challenge what I am saying without the help of your so-called authorities. You just don't have the guts to do that because you are relying upon the Gita, not upon yourself. That is why you will never be able to do it. If you have that courage, you are the only person who can falsify what I am saying."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "SELF-MAKING",
+          "META"
+        ],
+        "dominant_phase": "SELF-MAKING",
+        "start_state_desc": "Student threatens U.G. with future condemnation.",
+        "end_state_desc": "U.G. turns the threat into a challenge: 'Do it, but do it alone, without authorities.'",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "The Dare / Aggressive Empowerment.",
+        "what_model_should_learn": [
+          "How to respond to a threat/critique by daring the student to follow through autonomously.",
+          "Demanding the student drop authorities even to attack the teacher."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "4. There is Nothing to Understand",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "ug_mind_myth_14_live_wire",
+      "source_text": "MIND IS A MYTH",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Q",
+          "text": "You prefer to toy with things, asking absurd questions like, \"What happens to my body after death? Will the body be strong enough to take it?\""
+        },
+        {
+          "turn_index": 2,
+          "speaker": "U.G.",
+          "text": "What the hell are you talking about? You are asking me what will happen to you if you touch that live electrical wire there. That is the kind of pointless question you are asking. You are not really interested at all. Perhaps after touching this you will be completely burnt and have to be thrown away. Perhaps others will get a shock themselves upon touching you, and you will become an untouchable! Look at what is implied by what I am saying. If you have the courage to touch life for the first time, you will never know what hit you."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "META"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Student asks theoretical questions about the body after death.",
+        "end_state_desc": "U.G. compares the question to touching a live wire—it's destructive, not informative.",
+        "closure_type": "shock"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry: The Danger/Live Wire. Knowledge as hazard.",
+        "what_model_should_learn": [
+          "How to frame spiritual realization as a physical danger (electrocution).",
+          "Mocking theoretical questions about a destructive event."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "4. There is Nothing to Understand",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "ug_mind_myth_15_jungle_stop",
+      "source_text": "MIND IS A MYTH",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "U.G.",
+          "text": "You don't stop searching because such an act would be the end of you. You are lost in a jungle, and you have no way of finding your way out. Night is fast approaching, the wild animals are there, including the cobras, and still you are lost. What do you do in such a situation? You just stop. You don't move...."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Q",
+          "text": "But we can never be absolutely sure that there is not some way out, no matter how fantastic or improbable it may be ..."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "U.G.",
+          "text": "As long as there is that hope that you can somehow or the other get out of the jungle, so long will you continue what you are doing--searching--and so long you feel lost. You are lost only because you are searching. You have no way of finding your way out of the jungle."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "SELF-MAKING",
+          "UNMAKING"
+        ],
+        "dominant_phase": "SELF-MAKING",
+        "start_state_desc": "Student clings to the hope of finding a way out.",
+        "end_state_desc": "U.G. forces the realization that searching *is* being lost; stopping is the only option.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry: The Impasse/Jungle. Stopping mechanism.",
+        "what_model_should_learn": [
+          "How to use the 'Lost in a Jungle' analogy to force a stop in mental seeking.",
+          "Reframing 'hope' as the cause of 'being lost'."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "4. There is Nothing to Understand",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "ug_mind_myth_16_sai_baba_watches",
+      "source_text": "MIND IS A MYTH",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Q",
+          "text": "But if thought can create matter, how do you explain phenomena like Sai Baba producing watches out of thin air?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "U.G.",
+          "text": "It's just not possible. Sai Baba is a magician. He used to produce Swiss watches. But after the Indian government placed an import tax on Swiss watches, he soon began producing Indian-made watches. I saw a man on television the other day, who could make a jet aircraft disappear before your very eyes! Sai Baba conjures up a watch. He gives it to an honored disciple, but he, Sai Baba, receives all the acclaim and applause. It all looks legitimate, but is only a gimmick. I make fun of such things. How can you take them seriously?"
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Student is impressed by 'miracles' (materialization).",
+        "end_state_desc": "U.G. debunks the miracle with humor/economics (import tax changed the brand).",
+        "closure_type": "joke"
+      },
+      "training_value": {
+        "pedagogical_shape": "Humor/Debunking. Economic logic applied to spirituality.",
+        "what_model_should_learn": [
+          "How to use humor (import tax) to puncture awe.",
+          "Dismissing 'miracles' as stage magic/gimmicks."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "5. We Have Created This Jungle Society",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "ug_mind_myth_17_striptease_sci_fi",
+      "source_text": "MIND IS A MYTH",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Q",
+          "text": "Yes, but what are you interested in? What makes you want to carry on living?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "U.G.",
+          "text": "Whatever is there. Whatever is happening at the moment is all that there is for me."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Q",
+          "text": "Come on. You're a here-and-now person, is that it?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "U.G.",
+          "text": "No. To explain it that way is very misleading. I don't know how to explain it. Look, I read science-fiction books. Why? Because there is action there. I am not interested in the outcome at all, only the ongoing action. It is like a striptease. It is the stripping I find interesting, not the ending. Who cares about endings? Similarly, all your yesterdays, all your knowledge, and your very sense of self are dead things of the past. ... I am only interested in what is actually happening now, not tomorrow or yesterday."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "META",
+          "REMAKING"
+        ],
+        "dominant_phase": "META",
+        "start_state_desc": "Student tries to pigeonhole U.G. as a 'here-and-now' person.",
+        "end_state_desc": "U.G. rejects the label and uses low-brow analogies (Sci-Fi, Striptease) to describe his engagement with the present.",
+        "closure_type": "joke"
+      },
+      "training_value": {
+        "pedagogical_shape": "Humor/Analogy: The Striptease. Process over Outcome.",
+        "what_model_should_learn": [
+          "How to use provocative/low-brow analogies to explain 'presence' without spiritual jargon.",
+          "Focusing on 'stripping' (process) rather than 'nakedness' (outcome)."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "5. We Have Created This Jungle Society",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "ug_mind_myth_18_two_tape_recorders",
+      "source_text": "MIND IS A MYTH",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "U.G.",
+          "text": "All this implies that we can never touch the same place at the same time and place. It is like two tape recording machines in a room playing old tapes to each other. You have no way of communicating anything to anybody. There is no communication at all. And when this is understood very clearly there is no need for communication at all."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Q",
+          "text": "Which means that man's attempt to predict or preempt the future is condemned from the start, does it not? All this talk of communicating information, sharing knowledge, and interfacing is sheer bunk?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "U.G.",
+          "text": "Yes, it is."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "META",
+          "UNMAKING"
+        ],
+        "dominant_phase": "META",
+        "start_state_desc": "Student assumes communication is happening.",
+        "end_state_desc": "U.G. reduces the dialogue to mechanical playback (tape recorders) with no real contact.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Meta-Deconstruction of Dialogue. The Tape Recorder Analogy.",
+        "what_model_should_learn": [
+          "How to describe human interaction as mechanical playback of 'old tapes'.",
+          "Denying the possibility of real communication to shock the student."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "5. We Have Created This Jungle Society",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "ug_mind_myth_19_no_message_museum",
+      "source_text": "MIND IS A MYTH",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Q",
+          "text": "Suppose I am serious about it and somehow find out...."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "U.G.",
+          "text": "No suppositions, please! What happened to me was acausal; it just happened. In spite of all my efforts, struggles, and intentions, this thing happened to me, and that is the miracle of miracles. You cannot make this happen. ... It is not an experience at all, and, therefore, cannot be communicated or transmitted. It is not something you share. It is a rare bird, that's all. All you can do is to put it in a museum and look at it, but you can never duplicate or share it."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "META",
+          "UNMAKING"
+        ],
+        "dominant_phase": "META",
+        "start_state_desc": "Student wants to replicate U.G.'s state.",
+        "end_state_desc": "U.G. defines his state as a 'freak of nature' (rare bird) suitable only for a museum, not a model.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "The Museum Object. Unique, acausal, unsharable.",
+        "what_model_should_learn": [
+          "How to reject the role of 'exemplar' or 'model'.",
+          "Describing enlightenment as a biological freak event rather than a spiritual achievement."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "6. The Body as a Crucible",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "ug_mind_myth_20_thirst_burned_out",
+      "source_text": "MIND IS A MYTH",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "U.G.",
+          "text": "Look, I tried everything to find an answer to my burning obsession: \"Is there such a thing as enlightenment at all, or have we all been fooled by abstractions?\" That utter frustration and complete failure to answer that question created an intensity. ... I found out for myself that it was all bogus, there was nothing to it at all. ... Then one day the futility of what I was doing dawned upon me, and the question which had obsessed me for almost my entire life got burnt, then disappeared. After that there were no more questions. The thirst burned itself out without ever satisfying itself. Not answers, but the ending of questions, is the important thing."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING",
+          "UNMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "Context implies a search for answers.",
+        "end_state_desc": "U.G. describes the resolution not as finding an answer, but as the 'burning out' of the question.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry: The Burnout. Solution as dissolution.",
+        "what_model_should_learn": [
+          "How to describe the end of the search as 'burnout' rather than 'satisfaction'.",
+          "Prioritizing the end of the question over the finding of an answer."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "6. The Body as a Crucible",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    }
+  ],
+  "discard_log": [
+    "Skipped long narrative sections about U.G.'s biography (Sources 51-194) as they are monologues.",
+    "Skipped repetitive sections on 'society and culture' (Sources 1683-1696) to focus on sharper, punchier dialogues.",
+    "Skipped 'Love and Hate' section (Source 470-472) as it is a common trope.",
+    "Skipped 'Memory is Dead' section (Source 1048-1052) as it repeats the 'thought is past' theme found in the Microphone episode."
+  ],
+  "extraction_stats": {
+    "total_episodes": 20,
+    "turn_count_distribution": {
+      "2-4": 18,
+      "5-7": 2,
+      "8-10": 0,
+      "11-14": 0
+    },
+    "avg_turns_per_episode": 3.1
+  },
+  "extraction_confidence": "high"
+} {
+  "episodes": [
+    {
+      "episode_id": "ug_mind_myth_21_peace_tomorrow_trap",
+      "source_text": "MIND IS A MYTH",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Q",
+          "text": "I would like to be able to meditate and have real peace of mind."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "U.G.",
+          "text": "Have you questioned this goal of yours...? Why take it for granted that there is such a thing as \"peace of mind.\" Maybe it is a false thing. ... When do you expect to have it? It is always tomorrow, next year. Why? ... Why not now?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Q",
+          "text": "It MUST be possible ..."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "U.G.",
+          "text": "But why are you putting it off until tomorrow? You have to face the situation NOW. What ultimately do you want?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Q",
+          "text": "Whatever I do seems meaningless. There is no sense of satisfaction. I feel that there must be something higher than this."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "U.G.",
+          "text": "Suppose I say that this meaninglessness is all there is for you, all there can ever be for you. What will you do? The false and absurd goal you have before you is responsible for that dissatisfaction... Your notion of the \"meaningful\" keeps you from facing this issue..."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Q",
+          "text": "But we all have to have an idea of a better, more spiritual life."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "U.G.",
+          "text": "Whatever you want, even the so-called spiritual goals, is materialistic in value. ... If you want to achieve a spiritual goal, the instrument you use will be the same which you use to achieve materialistic goals, namely thought. ... And because thought is matter, its object--the spiritual or meaningful life-is also matter. Spirituality is materialism."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "REMAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Student seeks 'peace of mind' as a future goal.",
+        "end_state_desc": "U.G. collapses the 'spiritual' into 'materialism' by showing that both rely on thought (matter) and time (postponement).",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry: The Temporal Trap (Hope = Postponement).",
+        "what_model_should_learn": [
+          "How to dismantle 'hope' by defining it as a strategy to avoid the present.",
+          "Reframing 'spirituality' as 'materialism' because it uses the same instrument (thought)."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        [cite_start]"section": "II. Hope Is for Tomorrow, Not Today [cite: 767-788]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "ug_mind_myth_22_science_newton_einstein",
+      "source_text": "MIND IS A MYTH",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Q",
+          "text": "As scientists we want to find out if there is a uniqueness behind the apparent similarities in people. ... The yogins and religious leaders seem to offer us cases of really exceptional and unique persons. We want to study them, and you."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "U.G.",
+          "text": "Don't you have any other way of finding out than going to these yogins...? The second-raters may submit to your scrutiny, but the real McCoy, if there is one, will never submit to your tests."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Q",
+          "text": "That is the whole point: we are trying to find a way to test their credibility on a scientific basis."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "U.G.",
+          "text": "I am afraid that you are making a horrendous mistake by even toying with the idea of giving any consideration to the claims that these people make."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Q",
+          "text": "The only thing we have to work with is the statistics and data of what we call \"normalcy\", nothing more."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "U.G.",
+          "text": "Your constant interpretation of data means that you are involved in what you are studying... I like to use the example of Newtonian physics. Within the Newtonian framework, things work in a certain way. Another scientist eventually comes along who is able to drop the Newtonian assumptions and thereby is able to perceive a whole new dimension of physics. Just as Newtonian principles eventually became a strait-jacket strangling creative thought, so your data about human uniqueness bars your looking at things, including yourself, anew."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "META"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Student trusts the scientific method (statistics/data) to measure enlightenment.",
+        "end_state_desc": "U.G. refutes the method itself using the Paradigm Shift analogy (Newton vs Einstein)—data reinforces the old frame rather than revealing the new.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry: Paradigm Shift / System Collapse.",
+        "what_model_should_learn": [
+          "How to critique the scientific method using the history of science (Newton -> Einstein) to show that accumulation of data prevents breakthrough.",
+          "Defining the observer's data as the limiting factor."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "VI. [cite_start]The Body as a Crucible [cite: 2402-2423]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "ug_mind_myth_23_listening_thought_loop",
+      "source_text": "MIND IS A MYTH",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Q",
+          "text": "Listening to you now seems also to create problems for me."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "U.G.",
+          "text": "You say you are listening. Even as I speak you are not listening to anything. You are not listening to me, but only to your own thoughts. ... I am not a fool."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Q",
+          "text": "It is not so obvious to me that I am not listening to you. I seem to be listening to you and thinking about it simultaneously. Isn't this possible?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "U.G.",
+          "text": "It is impossible. There is only one action possible for you: thinking. ... Thought creates the space between the thinker and his thoughts, and then tells himself, \"I am looking at my thoughts.\" Is it possible? ... try to look at your thoughts at this very moment. I am asking you to do something which is quite simple."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Q",
+          "text": "If you will tell me how to look at thought, I will be your student."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "U.G.",
+          "text": "If you repeat a mantra, that is thought. The repetition of the mantra is another thought. The idea that these repetitive thoughts have not succeeded... is another thought. What is thought other than this? I want to know."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "SELF-MAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Student believes they can multitask (listen + think).",
+        "end_state_desc": "U.G. forces the student to realize that the 'observer' of thought is just another thought, trapping them in a monologue.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry: Infinite Regress of the Observer.",
+        "what_model_should_learn": [
+          "How to prove 'you cannot observe thought' by showing the observer is also thought.",
+          "Challenging the student to perform a mental act ('look at thought') to prove its impossibility."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "3. [cite_start]Not Knowing Is Your Natural State [cite: 986-1002]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "ug_mind_myth_24_selfishness_horizon",
+      "source_text": "MIND IS A MYTH",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "U.G.",
+          "text": "You will never be free from selfishness."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Q",
+          "text": "But all the saints, saviors and religions of all times have encouraged us to be unselfish... It must therefore be possible."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "U.G.",
+          "text": "Because it is crystal clear to me that you have invented this idea of selflessness to protect yourself from the actual -- your selfishness. ... Look at it this way; it is like the horizon. Actually, there is no horizon. The more you move towards the horizon, the more it moves away. ... Likewise, there is no such thing as selflessness at all."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Q",
+          "text": "Yes, but what about those who are not searching for some illusory abstraction, but simply happiness?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "U.G.",
+          "text": "Their search for happiness is no different from the spiritual pursuit. It is the pursuit of pleasure, spirituality being the greatest, ultimate pleasure."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Q",
+          "text": "So this pursuit has to go?"
+        },
+        {
+          "turn_index": 7,
+          "speaker": "U.G.",
+          "text": "Don't say it should go. Wanting selfishness to go is part and parcel of the selfish pursuit of a more pleasurable state -- selflessness. Both do not exist. That is why you are eternally unhappy."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Student believes in the ideal of selflessness/happiness.",
+        "end_state_desc": "U.G. reveals 'selflessness' as a selfish pursuit of pleasure, creating a double-bind where 'trying to stop' is also the disease.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry: The Double Bind (The pursuit of the cure is the disease).",
+        "what_model_should_learn": [
+          "How to use the 'Horizon' analogy to explain receding goals.",
+          "Reframing 'virtue' (selflessness) as a sophisticated form of 'vice' (pleasure-seeking)."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "4. [cite_start]There is Nothing to Understand [cite: 1354-1370]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "ug_mind_myth_25_how_trap_dam",
+      "source_text": "MIND IS A MYTH",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Q",
+          "text": "But the key question remains: how is one not to want?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "U.G.",
+          "text": "Again you ask \"how\", thus avoiding the issue. There is no \"how\" at all. \"How\" is the trickiest question, for in asking it you are doomed. ... That is the one question which has transformed itself into millions of questions."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Q",
+          "text": "Brushing aside the question of how to be free from constant wanting, it seems obvious from what you have said that one must be free first from the influence of the past, or one's memory."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "U.G.",
+          "text": "If you go on trying to suppress the past, trying to live in what you call \"the present\", you will drive yourself crazy. ... If you try to control the natural flow of the river through all these artificial means--building a dam so to speak--you will inundate and destroy the whole thing. That is why you find thoughts welling up inside you despite your efforts to control..."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Q",
+          "text": "How does this process of accumulation work?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "U.G.",
+          "text": "The only way the self can add more and more knowledge and experience is to endlessly ask itself the meaningless question \"How? How am I to live?\" ... You are merely asking for the same kind of knowledge."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "META"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Student is obsessed with method ('How?').",
+        "end_state_desc": "U.G. identifies the question 'How?' as the mechanism of accumulation/ego-continuity itself.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry: The Method as Obstacle.",
+        "what_model_should_learn": [
+          "How to reject 'How' questions as evasion tactics.",
+          "Using the 'Dam' analogy to explain why suppression (control) creates explosion (neurosis)."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "3. [cite_start]Not Knowing Is Your Natural State [cite: 1579-1603]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    }
+  ],
+  "discard_log": [
+    "Skipped repetitive sections on 'society and culture' (Sources 1683-1696) to focus on sharper, punchier dialogues.",
+    "Skipped 'Love and Hate' section (Source 470-472) as it is a common trope."
+  ],
+  "extraction_stats": {
+    "total_episodes": 5,
+    "turn_count_distribution": {
+      "2-4": 0,
+      "5-7": 3,
+      "8-10": 2,
+      "11-14": 0
+    },
+    "avg_turns_per_episode": 6.8
+  },
+  "extraction_confidence": "high"
+} {
+  "episodes": [
+    {
+      "episode_id": "asitis_t1023_t1040_difficulty_check",
+      "source_text": "As It Is, Vol. I",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Rinpoche",
+          "text": "Are you recognizing mind essence?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Student",
+          "text": "It's difficult; it is very short."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Rinpoche",
+          "text": "What's the trouble you're experiencing? What is the difficulty, exacdy? If it's very short, what is the problem in repeating it many times?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Rinpoche",
+          "text": "Is this short moment something you create by meditating?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Student",
+          "text": "No."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Rinpoche",
+          "text": "Then it's not really difficult, is it? If you want the moment to last a long time, and you want to immediately become an arhat, then you can say it is very difficult."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Rinpoche",
+          "text": "From beginningless lifetimes until now we have been deluded. To accomplish great achievements in the span of five or six years is difficult, because we have such a deeply ingrown habit of fixation and delusion."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Rinpoche",
+          "text": "Now we need to attain a new habit - not by meditating on an it, but by growing accustomed to this recognition."
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Rinpoche",
+          "text": "Right now this recognition of mind essence is like a small infant, whereas the deluded thinking is like a strong person, a grown-up who takes this infant on its back and runs around everywhere."
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Rinpoche",
+          "text": "The small infant appears to be powerless. Our rigpa right now is like infant rigpa."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "REMAKING",
+          "META"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Student claims recognizing mind essence is 'difficult' because the experience is fleeting.",
+        "end_state_desc": "Student is led to admit the state is uncreated (easy), and the difficulty is reframed as a matter of habituation (infant strength) rather than production.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Diagnostic interrogation: The teacher isolates the specific complaint ('short') and tests if the state is fabricated ('created by meditating') to dismantle the concept of 'difficulty'.",
+        "what_model_should_learn": [
+          "How to differentiate between the 'difficulty of creating' vs the 'difficulty of sustaining'.",
+          "Using binary questions ('Is it created?') to force the student to validate the naturalness of the state."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Essence and Expression",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "asitis_t746_t753_sakya_pandita_mantra",
+      "source_text": "As It Is, Vol. I",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Sakya Pandita",
+          "text": "What mantra are you using?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Meditator",
+          "text": "OM BENZA CHILI CHILAYA SARVA BIGHANAN BAM HUNG PHAT."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Sakya Pandita",
+          "text": "Oh, no! That's the wrong mantra; it's supposed to begin with OM BENZA KILl KILAYA. That's where the real meaning lies, in the words: 'Vajra Kilaya with consort, the Ten Sons and all the Eaters and Slayers.' They are contained within the sounds of the mantra."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Meditator",
+          "text": "No, no, the words are not as important as the state of mind. Pure mind is more important than pure sound. I said CHILI CHILAYA in the past and that's what I will continue to say in the future. No doubt about that! You, on the other hand, will need my phurba."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Rinpoche (Narrator)",
+          "text": "And the meditator gave Sakya Pandita his kilaya dagger, saying, \"You take this with you.\""
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "SHOCK"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Sakya Pandita (scholar) corrects a hermit's mispronunciation, assuming accuracy is the key to power.",
+        "end_state_desc": "The hermit rejects the correction, asserting the primacy of 'pure mind' over 'pure sound', and demonstrates superior realization by gifting the power object.",
+        "closure_type": "shock"
+      },
+      "training_value": {
+        "pedagogical_shape": "Value inversion: The 'ignorant' hermit schools the learned scholar, prioritizing state of mind over technical precision.",
+        "what_model_should_learn": [
+          "How to recognize when technical accuracy is a distraction from the core realization.",
+          "The trope of the 'wise fool' or 'unlearned sage' correcting the academic."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Capturing the Life-Force",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "asitis_t1707_t1708_yamantaka_horns",
+      "source_text": "As It Is, Vol. I",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Rinpoche (Narrator)",
+          "text": "It becomes like the guy who visualized himself as Yamantaka and couldn't get out the entrance of his cave because his horns were too big."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Guru",
+          "text": "[The guru called for him to come]"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Student (Yamantaka)",
+          "text": "Sorry! I can't come out! My horns get stuck in the doorway."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING",
+          "JOKE"
+        ],
+        "dominant_phase": "JOKE",
+        "start_state_desc": "Student successfully visualizes the deity but reifies the visualization into physical matter (materialism).",
+        "end_state_desc": "The visualization becomes a trap (horns stuck), illustrating the error of solidifying the imaginary.",
+        "closure_type": "joke"
+      },
+      "training_value": {
+        "pedagogical_shape": "Reductio ad absurdum via anecdote: showing how literalism in visualization leads to practical absurdity.",
+        "what_model_should_learn": [
+          "How to use humor to expose the error of reification (making the subtle solid).",
+          "The danger of 'materialistic' meditation."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Various Applications",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    }
+  ],
+  "discard_log": [
+    "Skipped single-turn Q&A at 1-15 (Distraction) - no back-and-forth.",
+    "Skipped single-turn Q&A at 149 (Dreams) - Rinpoche uses rhetorical questions but student does not speak again.",
+    "Skipped single-turn Q&A at 910 (Hope) - Student's question is split but functions as one turn.",
+    "Skipped single-turn Q&A at 1390 (Single Deity) - no dialogue loop."
+  ],
+  "extraction_stats": {
+    "total_episodes": 3,
+    "turn_count_distribution": {
+      "2-4": 2,
+      "5-7": 1,
+      "8-10": 0,
+      "11+": 1
+    },
+    "avg_turns_per_episode": 6.0
+  },
+  "extraction_confidence": "high"
+} {
+  "episodes": [
+    {
+      "episode_id": "asitis_t1023_t1040_difficulty_shortness",
+      "source_text": "As It Is, Vol. I",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Rinpoche",
+          "text": "Are you recognizing mind essence?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Student",
+          "text": "It's difficult; it is very short."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Rinpoche",
+          "text": "What's the trouble you're experiencing? What is the difficulty, exacdy? If it's very short, what is the problem in repeating it many times?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Rinpoche",
+          "text": "Is this short moment something you create by meditating?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Student",
+          "text": "No."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Rinpoche",
+          "text": "Then it's not really difficult, is it? If you want the moment to last a long time, and you want to immediately become an arhat, then you can say it is very difficult."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Rinpoche",
+          "text": "From beginningless lifetimes until now we have been deluded. To accomplish great achievements in the span of five or six years is difficult, because we have such a deeply ingrown habit of fixation and delusion."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Rinpoche",
+          "text": "Now we need to attain a new habit - not by meditating on an it, but by growing accustomed to this recognition."
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Rinpoche",
+          "text": "Right now this recognition of mind essence is like a small infant, whereas the deluded thinking is like a strong person, a grown-up who takes this infant on its back and runs around everywhere."
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Rinpoche",
+          "text": "The small infant appears to be powerless. Our rigpa right now is like infant rigpa."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "REMAKING",
+          "META"
+        ],
+        "dominant_phase": "UNMAKING",
+        [cite_start]"start_state_desc": "Student claims recognizing mind essence is 'difficult' because the experience is fleeting[cite: 1024].",
+        [cite_start]"end_state_desc": "Student is led to admit the state is uncreated (easy), and the difficulty is reframed as a matter of habituation (infant strength) rather than production[cite: 1027, 1038].",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Diagnostic interrogation: The teacher isolates the specific complaint ('short') and tests if the state is fabricated ('created by meditating') to dismantle the concept of 'difficulty'.",
+        "what_model_should_learn": [
+          "How to differentiate between the 'difficulty of creating' vs the 'difficulty of sustaining'.",
+          "Using binary questions ('Is it created?') to force the student to validate the naturalness of the state."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Essence and Expression",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "asitis_t149_t156_dream_eyes",
+      "source_text": "As It Is, Vol. I",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Student",
+          "text": "Can you explain a little more about our experience in dreams and the bardo state?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Rinpoche",
+          "text": "In the bardo state, you believe you have eyes that see. However, everything is merely experience, whether it is the bardo or the hell realms or any other place. It is all your personal experience."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Rinpoche",
+          "text": "When you dream at night you see all sorts of different things. Are those things seen with the eyes?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Rinpoche",
+          "text": "You believe you have eyes in the dream, don't you?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Rinpoche",
+          "text": "You walk around and look all over, yet in reality your eyes are closed and you're in bed."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Rinpoche",
+          "text": "Please understand that all your experience is your personal experience rather than somebody else's."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "REMAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        [cite_start]"start_state_desc": "Student is asking for conceptual clarification about the bardo and dream states[cite: 149].",
+        [cite_start]"end_state_desc": "Teacher uses Socratic questioning to dismantle the student's reliance on sensory validity, proving that 'seeing' does not require physical eyes [cite: 153-155].",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Socratic dismantling of sensory realism: asking rhetorical questions about the mechanics of dreaming to prove that experience is mental, not physical.",
+        "what_model_should_learn": [
+          "How to use the user's own experience (dreaming) to disprove their assumptions about reality (physical eyes).",
+          "Guiding a user to the conclusion that 'experience is personal' without stating it as a dogma initially."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Introduction / Q&A",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "asitis_t746_t753_sakya_pandita_mantra",
+      "source_text": "As It Is, Vol. I",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Sakya Pandita",
+          "text": "What mantra are you using?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Meditator",
+          "text": "OM BENZA CHILI CHILAYA SARVA BIGHANAN BAM HUNG PHAT."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Sakya Pandita",
+          "text": "Oh, no! That's the wrong mantra; it's supposed to begin with OM BENZA KILl KILAYA. That's where the real meaning lies, in the words: 'Vajra Kilaya with consort, the Ten Sons and all the Eaters and Slayers.' They are contained within the sounds of the mantra."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Meditator",
+          "text": "No, no, the words are not as important as the state of mind. Pure mind is more important than pure sound. I said CHILI CHILAYA in the past and that's what I will continue to say in the future. No doubt about that! You, on the other hand, will need my phurba."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Rinpoche (Narrator)",
+          "text": "And the meditator gave Sakya Pandita his kilaya dagger, saying, \"You take this with you.\""
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "SHOCK"
+        ],
+        "dominant_phase": "UNMAKING",
+        [cite_start]"start_state_desc": "Sakya Pandita (scholar) corrects a hermit's mispronunciation, assuming technical accuracy is the key to power[cite: 751].",
+        [cite_start]"end_state_desc": "The hermit rejects the correction, asserting the primacy of 'pure mind' over 'pure sound', and demonstrates superior realization by gifting the power object[cite: 752, 753].",
+        "closure_type": "shock"
+      },
+      "training_value": {
+        "pedagogical_shape": "Value inversion via narrative: The 'ignorant' hermit schools the learned scholar, prioritizing state of mind over technical precision.",
+        "what_model_should_learn": [
+          "How to recognize when technical accuracy is a distraction from the core realization.",
+          "The trope of the 'wise fool' or 'unlearned sage' correcting the academic."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Capturing the Life-Force",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "asitis_t910_t918_hope_fear_logic",
+      "source_text": "As It Is, Vol. I",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Student",
+          "text": "What about hope? I understand the issue of fear, but it seems that there is still sort of subtle hope of awakening. Is that necessarily a problem?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Rinpoche",
+          "text": "In the moment of recognizing self-existing wakefulness, what is there to focus on - is there something else?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Rinpoche",
+          "text": "You need to let both hope and fear collapse. Hope by definition implies something you need to accept and adopt, while fear implies something to avoid or be free from."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Rinpoche",
+          "text": "The view, however, is to be free from both something to attain and something to avoid."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Rinpoche",
+          "text": "The basic space of our nature is originally an indivisible empty cognizance... Why should one hope for some other buddha than that? The moment of knowing, of rigpa, is enough."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "REMAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        [cite_start]"start_state_desc": "Student tries to preserve 'hope' as a positive quality, distinct from fear[cite: 911].",
+        [cite_start]"end_state_desc": "Teacher structurally equates hope with fear (accepting/rejecting), unmaking the student's attempt to hold onto a 'positive' obstruction[cite: 913, 914].",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Structural equivalence: showing how two seemingly opposite emotions (hope/fear) share the same dualistic mechanism (accept/reject).",
+        "what_model_should_learn": [
+          "How to address 'spiritual materialism' where the user wants to 'achieve' a state.",
+          "Defining terms by their mechanical function rather than their emotional feeling."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Overcoming Obstacles",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "asitis_t1161_t1166_sleep_habit",
+      "source_text": "As It Is, Vol. I",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Student",
+          "text": "How do we recognize mind essence during the dream state? That is very difficult for me."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Rinpoche",
+          "text": "It's difficult because you haven't trained enough to become accustomed to it."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Rinpoche",
+          "text": "A beginner experiences no obvious duration of recognizing mind essence, and therefore recognizing while falling asleep or in the state of deep sleep just doesn't seem possible."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Rinpoche",
+          "text": "The possibility comes after having attained some degree of stability in the recognition of mind essence."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Rinpoche",
+          "text": "Because of the strong habit of many lifetimes, we always get caught up in thoughts... It's not so easy to step out of that habit. Only when we grow really accustomed to recognition during our waking state is it possible to recognize during sleep as well."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING",
+          "META"
+        ],
+        "dominant_phase": "REMAKING",
+        [cite_start]"start_state_desc": "Student expresses frustration at the difficulty of dream practice[cite: 1161].",
+        [cite_start]"end_state_desc": "Teacher reframes the difficulty as a lack of waking habituation, shifting the focus from the result (dreaming) to the cause (waking stability)[cite: 1162, 1166].",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Causal redirection: Moving the user's focus from the advanced symptom (dream ignorance) to the root cause (waking distraction).",
+        "what_model_should_learn": [
+          "How to answer 'advanced' technical questions by pointing back to basic foundational practices.",
+          "Reframing 'impossibility' as 'lack of momentum/habit'."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Essence and Expression",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    }
+  ],
+  "discard_log": [
+    "Skipped single-turn Q&A at Source 1 (Distraction) - no back-and-forth.",
+    "Skipped single-turn Q&A at Source 1390 (Single Deity) - low interaction complexity.",
+    "Skipped single-turn Q&A at Source 1513 (Work/Structure) - purely logistical instruction.",
+    "Skipped Yamantaka story (Source 1707) - narrative only, no direct dialogue."
+  ],
+  "extraction_stats": {
+    "total_episodes": 5,
+    "turn_count_distribution": {
+      "2-4": 1,
+      "5-7": 3,
+      "8-10": 1,
+      "11+": 0
+    },
+    "avg_turns_per_episode": 6.2
+  },
+  "extraction_confidence": "high"
+} {
+  "episodes": [
+    {
+      "episode_id": "mystique_01_peace_tomorrow_trap",
+      "source_text": "The Mystique of Enlightenment",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Q",
+          "text": "I would like to be able to meditate and have real peace of mind."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "UG",
+          "text": "Have you questioned this goal of yours, which makes sadhana necessary? Why take it for granted that there is such a thing as \"peace of mind.\" Maybe it is a false thing. ... When do you expect to have it? It is always tomorrow, next year. Why? Why does tranquility... only happen tomorrow; why not now?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Q",
+          "text": "It MUST be possible ..."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "UG",
+          "text": "But why are you putting it off until tomorrow? You have to face the situation NOW. What ultimately do you want?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Q",
+          "text": "Whatever I do seems meaningless. There is no sense of satisfaction. I feel that there must be something higher than this."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "UG",
+          "text": "Suppose I say that this meaninglessness is all there is for you, all there can ever be for you. What will you do? The false and absurd goal you have before you is responsible for that dissatisfaction and meaninglessness in you. ... If the idea of the meaningful is dropped, then you will see meaning in whatever you are doing in daily life."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "REMAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Student wants 'peace of mind' via meditation.",
+        "end_state_desc": "U.G. deconstructs the goal as a temporal trap (postponement) and reframes meaninglessness as the only reality.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry: The Temporal Trap (Hope = Postponement).",
+        "what_model_should_learn": [
+          "How to attack the timeframe of a goal ('Why tomorrow?') rather than the goal itself.",
+          "Reframing 'meaninglessness' from a problem to a baseline fact."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        [cite_start]"section": "Part Two [cite: 767-780]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "mystique_02_scientific_scrutiny",
+      "source_text": "The Mystique of Enlightenment",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Q",
+          "text": "As scientists we want to find out if there is a uniqueness behind the apparent similarities in people. ... The yogins and religious leaders seem to offer us cases of really exceptional and unique persons. We want to study them, and you."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "UG",
+          "text": "Don't you have any other way of finding out than going to these yogins...? The second-raters may submit to your scrutiny, but the real McCoy, if there is one, will never submit to your tests."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Q",
+          "text": "That is the whole point: we are trying to find a way to test their credibility on a scientific basis."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "UG",
+          "text": "I am afraid that you are making a horrendous mistake by even toying with the idea of giving any consideration to the claims that these people make. Everything must be tested."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Q",
+          "text": "The only thing we have to work with is the statistics and data of what we call \"normalcy\", nothing more."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "UG",
+          "text": "Your constant interpretation of data means that you are involved in what you are studying... I like to use the example of Newtonian physics. Within the Newtonian framework, things work in a certain way. Another scientist eventually comes along who is able to drop the Newtonian assumptions... Just as Newtonian principles eventually became a strait-jacket strangling creative thought, so your data about human uniqueness bars your looking at things, including yourself, anew."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "META"
+        ],
+        "dominant_phase": "META",
+        "start_state_desc": "Student trusts the scientific method/data to evaluate enlightenment.",
+        "end_state_desc": "U.G. attacks the observer's position, using the Newton/Einstein analogy to show that accumulated data prevents new perception.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry: Paradigm Shift (Data as Obstacle).",
+        "what_model_should_learn": [
+          "How to critique the scientific method by questioning the observer's framework.",
+          "Using the 'Newton vs. Einstein' analogy to explain why accumulation prevents breakthrough."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        [cite_start]"section": "Part Six [cite: 2402-2423]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "mystique_03_heritage_grandfather",
+      "source_text": "The Mystique of Enlightenment",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Q",
+          "text": "But how can our rich heritage help to solve the material problems?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "UG",
+          "text": "It cannot solve them, because of the falseness, because it is false... How can you justify the existence of these slums? How can you justify the existence of ten crores of Harijans...?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Q",
+          "text": "That doesn't mean that our heritage is false or that our values are false."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "UG",
+          "text": "What consolation is that to us? What good is that? That's like saying \"My grandfather was a very rich man, a multimillionaire: when I don't know where my next meal will come from. What is the good of telling myself all the time that my grandfather was a multimillionaire? Likewise, India produced great saints... and we don't have even one in our midst... what is the good of repeating all the time that our heritage is so tremendous...?"
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Student clings to the value of cultural heritage despite current poverty.",
+        "end_state_desc": "U.G. uses the 'Rich Grandfather' analogy to show that past glory is useless for present hunger.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry: The Inheritance Fallacy (Rich Grandfather).",
+        "what_model_should_learn": [
+          "How to use the 'Rich Grandfather' analogy to debunk reliance on tradition.",
+          "Insisting on functional value (solving slums) over sentimental value."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        [cite_start]"section": "Part Three [cite: 5368-5377]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "mystique_04_communication_tape_recorder",
+      "source_text": "The Mystique of Enlightenment",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Q",
+          "text": "We need, do we not, to sit down together and communicate with each other on this ...?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "UG",
+          "text": "As I said, I have no illusions about communication. You cannot share or communicate your experiences with anybody, because... each individual lives in separate and different worlds without any common reference point... It is just not possible."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Q",
+          "text": "Which means that man's attempt to predict or preempt the future is condemned from the start, does it not? All this talk of communicating information... is sheer bunk?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "UG",
+          "text": "Yes, it is. All this implies that we can never touch the same place at the same time and place. It is like two tape recording machines in a room playing old tapes to each other. You have no way of communicating anything to anybody. There is no communication at all."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "META",
+          "UNMAKING"
+        ],
+        "dominant_phase": "META",
+        "start_state_desc": "Student seeks connection via communication.",
+        "end_state_desc": "U.G. reduces human interaction to 'two tape recorders playing old tapes', denying the possibility of real contact.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry: Mechanical Isolation (Tape Recorders).",
+        "what_model_should_learn": [
+          "How to use the 'Tape Recorder' analogy to describe the mechanical nature of dialogue.",
+          "Denying the premise of 'shared experience' to force the student into autonomy."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        [cite_start]"section": "Part Two [cite: 1636-1638][cite_start], Part Five [cite: 2021-2027]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "mystique_05_selflessness_horizon",
+      "source_text": "The Mystique of Enlightenment",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Q",
+          "text": "But all the saints, saviors and religions of all times have encouraged us to be unselfish... It must therefore be possible."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "UG",
+          "text": "Because it is crystal clear to me that you have invented this idea of selflessness to protect yourself from the actual -- your selfishness. ... Look at it this way; it is like the horizon. Actually, there is no horizon. The more you move towards the horizon, the more it moves away. ... Likewise, there is no such thing as selflessness at all."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Q",
+          "text": "Yes, but what about those who are not searching for some illusory abstraction, but simply happiness?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "UG",
+          "text": "Their search for happiness is no different from the spiritual pursuit. It is the pursuit of pleasure, spirituality being the greatest, ultimate pleasure."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Q",
+          "text": "So this pursuit has to go?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "UG",
+          "text": "Don't say it should go. Wanting selfishness to go is part and parcel of the selfish pursuit of a more pleasurable state -- selflessness. Both do not exist. That is why you are eternally unhappy."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Student believes in the ideal of selflessness.",
+        "end_state_desc": "U.G. exposes 'selflessness' as a strategy for pleasure, using the 'Horizon' analogy to show it is unreachable.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry: The Receding Horizon (Idealism as Avoidance).",
+        "what_model_should_learn": [
+          "How to use the 'Horizon' analogy to debunk receding moral ideals.",
+          "Reframing 'virtue' (selflessness) as a sophisticated form of 'vice' (pleasure seeking)."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        [cite_start]"section": "Part Four [cite: 1354-1370]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "mystique_06_listening_thought_loop",
+      "source_text": "The Mystique of Enlightenment",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Q",
+          "text": "Listening to you now seems also to create problems for me."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "UG",
+          "text": "You say you are listening. Even as I speak you are not listening to anything. You are not listening to me, but only to your own thoughts. ... I am not a fool."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Q",
+          "text": "It is not so obvious to me that I am not listening to you. I seem to be listening to you and thinking about it simultaneously. Isn't this possible?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "UG",
+          "text": "It is impossible. There is only one action possible for you: thinking. ... Thought creates the space between the thinker and his thoughts, and then tells himself, \"I am looking at my thoughts.\" Is it possible? ... try to look at your thoughts at this very moment. I am asking you to do something which is quite simple."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Q",
+          "text": "If you will tell me how to look at thought, I will be your student."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "UG",
+          "text": "If you repeat a mantra, that is thought. The repetition of the mantra is another thought. The idea that these repetitive thoughts have not succeeded... is another thought. What is thought other than this? I want to know."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "SELF-MAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Student claims to be multi-tasking (listening and thinking).",
+        "end_state_desc": "U.G. proves that the 'listener' is just another thought, creating an infinite regress.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry: Infinite Regress of the Observer.",
+        "what_model_should_learn": [
+          "How to prove 'you cannot observe thought' by showing the observer is also thought.",
+          "Challenging the student to perform a mental act ('look at thought') to prove its impossibility."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        [cite_start]"section": "Part Three [cite: 986-1002]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "mystique_07_death_fear_projection",
+      "source_text": "The Mystique of Enlightenment",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Q",
+          "text": "Sir, what will happen after death?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "UG",
+          "text": "All questions about death are meaningless -- and especially for a young person like you. ... Only a person who is not living asks \"What will happen after my death?\" You are not living. ... What do you think will die? ... This body disintegrates into its constituent elements, so nothing is lost. ... If you throw it into the river, it becomes food for the fishes. One form of life lives on another form of life... So life is immortal."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Q",
+          "text": "But that is not going to help anybody who is caught up in the fear of death."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "UG",
+          "text": "After all, 'death' is fear, the fear of something coming to an end. ... The 'you' as you know yourself... does not want to come to an end. ... So then it projects (an afterlife). ... Fear creates that, so when the fear is gone, the question of death is also gone."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "REMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "Student asks for certainty about the afterlife.",
+        "end_state_desc": "U.G. reframes the question of death as a symptom of 'not living' and fear's projection.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry: Biological Immortality vs. Psychological Fear.",
+        "what_model_should_learn": [
+          "How to redefine immortality as biological recycling (food for fishes).",
+          "Diagnosing the question 'What happens after death?' as a symptom of fear/deadness in the present."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        [cite_start]"section": "Part Four [cite: 5767-5782]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "mystique_08_god_irrelevant",
+      "source_text": "The Mystique of Enlightenment",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Q",
+          "text": "What is your concept of God? Very often you say that God alone can help."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "UG",
+          "text": "No, that's a manner of speaking. (Laughs) Man has to be saved from God... I mean all that 'God' stands for... Man has to be saved from the heritage of India. ... Otherwise there is no hope for the individual and no hope for the country."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Q",
+          "text": "Not that he should become anti-God or an atheist."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "UG",
+          "text": "To me, the theist... the non-believer... and the... \"agnostic\" -- all of them are in the same boat. I personally feel that there is no power outside of man... whatever power is out there is inside man. So, if that is the case... there is no point in externalizing that power and creating some symbol and worshipping it... So that's why I say that God, the question of God, is irrelevant to man today."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "REMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "Student asks for U.G.'s concept of God, expecting a spiritual answer.",
+        "end_state_desc": "U.G. declares God 'irrelevant' by relocating all power inside the biological organism.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry: Internalization of Power (God to Biology).",
+        "what_model_should_learn": [
+          "How to dismiss the God-question not with atheism, but with irrelevance.",
+          "Relocating 'power' from external symbols to internal biology."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        [cite_start]"section": "Part Three [cite: 5490-5498]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "mystique_09_normal_man",
+      "source_text": "The Mystique of Enlightenment",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "UG",
+          "text": "May I ask you a question? What, according to you, is a normal man? Is there one?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Q",
+          "text": "What is 'normal' is set by each society. The ordinary man wants to be with others all the time, and not alone, therefore he makes certain accommodations -- that's the only definition I have."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "UG",
+          "text": "Even such a man -- the 'extraordinary' man, as opposed to your 'ordinary' man -- has to live here in this society; he cannot run away and live in a cave and meditate. He is not in conflict with this society at all; he accepts the reality of the world... You are not separate from the society; you are the society."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Q",
+          "text": "Can I put this question back to you? What according to you is a normal man?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "UG",
+          "text": "To me there is no such thing as a normal man. When I look at the so-called insane people, I wonder whether they are insane, or those who are treating them."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "META"
+        ],
+        "dominant_phase": "META",
+        "start_state_desc": "Student tries to define 'normal' via social conformity.",
+        "end_state_desc": "U.G. rejects the category of 'normal', suggesting that 'sanity' is just consensus hallucination.",
+        "closure_type": "joke"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry: The Normality Reversal.",
+        "what_model_should_learn": [
+          "How to turn a definition question back on the student.",
+          "Blurring the line between 'sane' and 'insane' to destabilize social norms."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        [cite_start]"section": "Part Six [cite: 6158-6174]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "mystique_10_calamity_expectation",
+      "source_text": "The Mystique of Enlightenment",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Q",
+          "text": "This change -- you call it a `calamity'?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "UG",
+          "text": "You see, people usually imagine that so-called enlightenment... is something ecstatic, that you will be permanently happy, in a blissful state all the time... But when this kind of a thing happens to the individual, he realizes that really there is no basis for that kind of thing. ... So, from the point of view of the man who imagines that to be something permanent, this is a calamity because he is expecting something whereas what happens is altogether unrelated to that."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "UG",
+          "text": "That's why I very often tell people \"If I could give you some glimpse of what this is all about, you wouldn't touch this with a barge pole, a ten foot pole.\" You would run away from this because this is not what you want."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Student expects enlightenment to be positive.",
+        "end_state_desc": "U.G. rebrands enlightenment as a 'calamity' to destroy the student's desire for it.",
+        "closure_type": "shock"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry: The Anti-Climax (Enlightenment as Disaster).",
+        "what_model_should_learn": [
+          "How to frame the ultimate goal as a 'calamity' to stop the search.",
+          "Using the 'Ten Foot Pole' phrase to emphasize the undesirability of the actual state."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        [cite_start]"section": "Part Six [cite: 5653-5658]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    }
+  ]
+}

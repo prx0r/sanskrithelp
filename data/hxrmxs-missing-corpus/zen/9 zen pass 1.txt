@@ -1,0 +1,2044 @@
+{
+  "episode_id": "zen_dropping_ashes_composite_regenerated",
+  "source_text": "Dropping Ashes on the Buddha",
+  "lineage": "Zen",
+  "student_turns": [
+    {
+      "turn_index": 1,
+      "speaker": "Student",
+      "text": "Master, why does the sutra say the cow has no nostrils?",
+      "observable_student_behaviors": [
+        "asks_doctrinal_question",
+        "seeks_logical_explanation"
+      ],
+      "behavior_tags": [
+        "intellectual_seeking",
+        "literalism"
+      ],
+      "inferred_state": {
+        "reading": "conceptual_confusion",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Student",
+      "text": "Then how should I answer?",
+      "observable_student_behaviors": [
+        "requests_instruction",
+        "expresses_aporia"
+      ],
+      "behavior_tags": [
+        "dependency",
+        "instruction_seeking"
+      ],
+      "inferred_state": {
+        "reading": "paralyzed_seeking",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 6,
+      "speaker": "Novice",
+      "text": "I was meditating deeply.",
+      "observable_student_behaviors": [
+        "offers_excuse",
+        "justifies_behavior"
+      ],
+      "behavior_tags": [
+        "spiritual_bypassing",
+        "ego_defense"
+      ],
+      "inferred_state": {
+        "reading": "defensive_rationalization",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 8,
+      "speaker": "Chun_Song",
+      "text": "What is Buddha?",
+      "observable_student_behaviors": [
+        "asks_definitional_question"
+      ],
+      "behavior_tags": [
+        "ontological_seeking",
+        "conceptual_grasping"
+      ],
+      "inferred_state": {
+        "reading": "sincere_inquiry",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 10,
+      "speaker": "Chun_Song",
+      "text": "Then what should I do?",
+      "observable_student_behaviors": [
+        "requests_instruction",
+        "expresses_helplessness"
+      ],
+      "behavior_tags": [
+        "dependency",
+        "pragmatic_confusion"
+      ],
+      "inferred_state": {
+        "reading": "urgent_confusion",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 12,
+      "speaker": "Monk",
+      "text": "Master, why do we chant for the dead if nothing is born or dies?",
+      "observable_student_behaviors": [
+        "identifies_contradiction",
+        "challenges_practice"
+      ],
+      "behavior_tags": [
+        "intellectual_consistency_seeking",
+        "doctrine_vs_ritual"
+      ],
+      "inferred_state": {
+        "reading": "logical_conflict",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 14,
+      "speaker": "Monk",
+      "text": "I... don't know.",
+      "observable_student_behaviors": [
+        "admits_ignorance",
+        "hesitates"
+      ],
+      "behavior_tags": [
+        "aporia",
+        "honest_admission"
+      ],
+      "inferred_state": {
+        "reading": "sincere_unknowing",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 16,
+      "speaker": "Student",
+      "text": "If everything is empty, why can't I drink wine?",
+      "observable_student_behaviors": [
+        "challenges_precept",
+        "uses_doctrine_as_excuse"
+      ],
+      "behavior_tags": [
+        "rationalization",
+        "indulgence_seeking"
+      ],
+      "inferred_state": {
+        "reading": "clever_rebellion",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 18,
+      "speaker": "Student",
+      "text": "Yes.",
+      "observable_student_behaviors": [
+        "answers_question"
+      ],
+      "behavior_tags": [
+        "unsuspecting_compliance"
+      ],
+      "inferred_state": {
+        "reading": "literal_agreement",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 21,
+      "speaker": "Monk",
+      "text": "A mouse ate the cat’s food and the bowl broke. What does it mean?",
+      "observable_student_behaviors": [
+        "reports_event",
+        "seeks_symbolic_meaning"
+      ],
+      "behavior_tags": [
+        "over_interpretation",
+        "meaning_making"
+      ],
+      "inferred_state": {
+        "reading": "superstitious_inquiry",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 23,
+      "speaker": "Monk",
+      "text": "…",
+      "observable_student_behaviors": [
+        "remains_silent"
+      ],
+      "behavior_tags": [
+        "compliance_with_trap",
+        "hesitation"
+      ],
+      "inferred_state": {
+        "reading": "paralyzed_silence",
+        "confidence": 0.85
+      },
+      "annotator_uncertainty": 0.2
+    },
+    {
+      "turn_index": 25,
+      "speaker": "Student",
+      "text": "Master, when can a Bodhisattva commit sin?",
+      "observable_student_behaviors": [
+        "asks_theoretical_question",
+        "seeks_moral_loophole"
+      ],
+      "behavior_tags": [
+        "abstract_speculation",
+        "moral_relativism"
+      ],
+      "inferred_state": {
+        "reading": "intellectual_curiosity",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 28,
+      "speaker": "Student",
+      "text": "What is the Tathagata Seal?",
+      "observable_student_behaviors": [
+        "asks_esoteric_question"
+      ],
+      "behavior_tags": [
+        "spiritual_materialism",
+        "secret_seeking"
+      ],
+      "inferred_state": {
+        "reading": "mystical_curiosity",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 30,
+      "speaker": "Student",
+      "text": "Then how can I see it?",
+      "observable_student_behaviors": [
+        "persists_in_questioning",
+        "demands_access"
+      ],
+      "behavior_tags": [
+        "spiritual_ambition"
+      ],
+      "inferred_state": {
+        "reading": "frustrated_desire",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 33,
+      "speaker": "Student",
+      "text": "Why did Bodhidharma travel five thousand miles to China?",
+      "observable_student_behaviors": [
+        "asks_historical_question",
+        "seeks_meaning"
+      ],
+      "behavior_tags": [
+        "historical_speculation",
+        "koan_inquiry"
+      ],
+      "inferred_state": {
+        "reading": "intellectual_puzzle_solving",
+        "confidence": 0.85
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 35,
+      "speaker": "Student",
+      "text": "I suppose not.",
+      "observable_student_behaviors": [
+        "concedes_point"
+      ],
+      "behavior_tags": [
+        "logical_concession"
+      ],
+      "inferred_state": {
+        "reading": "dawning_realization",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 37,
+      "speaker": "Student",
+      "text": "Master, what is love?",
+      "observable_student_behaviors": [
+        "asks_abstract_question"
+      ],
+      "behavior_tags": [
+        "emotional_inquiry",
+        "definition_seeking"
+      ],
+      "inferred_state": {
+        "reading": "sincere_seeking",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 39,
+      "speaker": "Student",
+      "text": "Then what is true love?",
+      "observable_student_behaviors": [
+        "refines_question",
+        "distinguishes_concepts"
+      ],
+      "behavior_tags": [
+        "idealism",
+        "purification_seeking"
+      ],
+      "inferred_state": {
+        "reading": "earnest_inquiry",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 42,
+      "speaker": "Student",
+      "text": "\"What do you mean?\"",
+      "observable_student_behaviors": [
+        "expresses_confusion",
+        "asks_for_clarification"
+      ],
+      "behavior_tags": [
+        "shocked_response",
+        "defensive_inquiry"
+      ],
+      "inferred_state": {
+        "reading": "shocked_confusion",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 44,
+      "speaker": "Ko Bong",
+      "text": "\"What does this 'No' mean?\"",
+      "observable_student_behaviors": [
+        "asks_koan_question"
+      ],
+      "behavior_tags": [
+        "intellectual_inquiry"
+      ],
+      "inferred_state": {
+        "reading": "sincere_puzzle_solving",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 46,
+      "speaker": "Ko Bong",
+      "text": "\"If a man kills his desire to search, he will surely find what he is searching for.\"",
+      "observable_student_behaviors": [
+        "recites_insight",
+        "displays_understanding"
+      ],
+      "behavior_tags": [
+        "intellectual_realization",
+        "spiritual_pride"
+      ],
+      "inferred_state": {
+        "reading": "confident_presentation",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 48,
+      "speaker": "Student",
+      "text": "\"Are you awake?\"",
+      "observable_student_behaviors": [
+        "challenges_teacher",
+        "initiates_test"
+      ],
+      "behavior_tags": [
+        "dharma_combat",
+        "boldness"
+      ],
+      "inferred_state": {
+        "reading": "challenging_posture",
+        "confidence": 0.85
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 50,
+      "speaker": "Student",
+      "text": "\"No.\"",
+      "observable_student_behaviors": [
+        "denies_premise"
+      ],
+      "behavior_tags": [
+        "resistance"
+      ],
+      "inferred_state": {
+        "reading": "stubborn_denial",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 52,
+      "speaker": "Student",
+      "text": "\"The bamboo curtain behind you is yellow.\"",
+      "observable_student_behaviors": [
+        "states_observation"
+      ],
+      "behavior_tags": [
+        "perceptual_report",
+        "attempted_compliance"
+      ],
+      "inferred_state": {
+        "reading": "confident_answer",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 54,
+      "speaker": "Student",
+      "text": "\"That's because it's behind you; if you turn around you'll see it's yellow.\"",
+      "observable_student_behaviors": [
+        "corrects_teacher",
+        "insists_on_fact"
+      ],
+      "behavior_tags": [
+        "literalism",
+        "missing_the_point"
+      ],
+      "inferred_state": {
+        "reading": "logical_defense",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 56,
+      "speaker": "Student",
+      "text": "\"What does the dialogue mean?\"",
+      "observable_student_behaviors": [
+        "asks_interpretive_question"
+      ],
+      "behavior_tags": [
+        "intellectual_seeking"
+      ],
+      "inferred_state": {
+        "reading": "confused_inquiry",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 58,
+      "speaker": "Student",
+      "text": "\"But I don't understand the story.\"",
+      "observable_student_behaviors": [
+        "admits_confusion",
+        "persists_in_questioning"
+      ],
+      "behavior_tags": [
+        "conceptual_blockage"
+      ],
+      "inferred_state": {
+        "reading": "frustrated_confusion",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 60,
+      "speaker": "Student",
+      "text": "\"Oh, now I understand.\"",
+      "observable_student_behaviors": [
+        "claims_understanding"
+      ],
+      "behavior_tags": [
+        "intellectual_resolution"
+      ],
+      "inferred_state": {
+        "reading": "satisfied_claim",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 62,
+      "speaker": "Student",
+      "text": "\"Ouch!\"",
+      "observable_student_behaviors": [
+        "expresses_pain"
+      ],
+      "behavior_tags": [
+        "direct_experience"
+      ],
+      "inferred_state": {
+        "reading": "immediate_sensation",
+        "confidence": 1.0
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 64,
+      "speaker": "Student",
+      "text": "\"If you are hungry, take a meal and have a good rest.\"",
+      "observable_student_behaviors": [
+        "gives_zen_answer"
+      ],
+      "behavior_tags": [
+        "imitation_zen",
+        "cliché"
+      ],
+      "inferred_state": {
+        "reading": "performative_wisdom",
+        "confidence": 0.85
+      },
+      "annotator_uncertainty": 0.2
+    },
+    {
+      "turn_index": 67,
+      "speaker": "Student",
+      "text": "\"Not bad, not good. But the dog runs after the bone.\"",
+      "observable_student_behaviors": [
+        "evaluates_answers",
+        "uses_metaphor"
+      ],
+      "behavior_tags": [
+        "critical_evaluation",
+        "conceptual_judgement"
+      ],
+      "inferred_state": {
+        "reading": "intellectual_critique",
+        "confidence": 0.85
+      },
+      "annotator_uncertainty": 0.2
+    },
+    {
+      "turn_index": 68,
+      "speaker": "Student",
+      "text": "(*hits the floor*)",
+      "observable_student_behaviors": [
+        "performs_action"
+      ],
+      "behavior_tags": [
+        "nonverbal_answer",
+        "demonstration"
+      ],
+      "inferred_state": {
+        "reading": "confident_demonstration",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 70,
+      "speaker": "Student",
+      "text": "(silent)",
+      "observable_student_behaviors": [
+        "remains_silent"
+      ],
+      "behavior_tags": [
+        "hesitation",
+        "uncertainty"
+      ],
+      "inferred_state": {
+        "reading": "doubtful_silence",
+        "confidence": 0.8
+      },
+      "annotator_uncertainty": 0.3
+    }
+  ],
+  "teacher_turns": [
+    {
+      "turn_index": 2,
+      "speaker": "Teacher",
+      "text": "If you say it has nostrils, I hit you thirty times. If you say it has none, I hit you thirty times.",
+      "observable_teaching_actions": [
+        "imposes_double_bind",
+        "threatens_punishment"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Creates a logical deadlock to block conceptual answering.",
+      "function_id": "UM_02",
+      "classification_evidence": "Internal contradiction: Setting up a scenario where both affirmation and negation lead to the same punishment.",
+      "register": {
+        "intensity": "PR_04",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_01"
+      },
+      "trap_ids": [
+        "false_paradox"
+      ],
+      "trap_notes": [
+        "Student is trapped in binary logic (has vs has not)."
+      ],
+      "mechanism_shape": "constraint_collapse",
+      "mechanism_comment": "Collapsing the binary choice by punishing both sides equally.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 3,
+        "reaction_label": "seeks_instruction",
+        "evidence": "Then how should I answer?",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Teacher",
+      "text": "Moo!",
+      "observable_teaching_actions": [
+        "performs_sound",
+        "breaks_frame"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Uses a non-conceptual sound to shatter the intellectual frame.",
+      "function_id": "UM_04",
+      "classification_evidence": "Abstraction strip: Replacing the intellectual discussion about the cow with the immediate sound of the cow.",
+      "register": {
+        "intensity": "PR_04",
+        "intimacy": "IN_04",
+        "linguistic_style": "LS_06",
+        "phenomenological_depth": "PD_02",
+        "meta_mode": "MM_01",
+        "attunement": "AT_03"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "subject_object_inversion",
+      "mechanism_comment": "Becoming the cow (subject) instead of talking about the cow (object).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": null,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "shock",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Head_Nun",
+      "text": "Why are you so lazy? The bell rang long ago.",
+      "observable_teaching_actions": [
+        "rebukes_behavior",
+        "challenges_excuse"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Confronts the student's behavior directly, labeling it laziness.",
+      "function_id": "UM_03",
+      "classification_evidence": "Concrete grounding: Pointing to the physical fact (bell rang) against the behavior (laziness).",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_01"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 6,
+        "reaction_label": "defensive",
+        "evidence": "I was meditating deeply.",
+        "outcome_label": "partial_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 7,
+      "speaker": "Head_Nun",
+      "text": "If meditation makes you deaf, it is not meditation.",
+      "observable_teaching_actions": [
+        "redefines_term",
+        "exposes_contradiction"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Destroys the student's spiritual excuse by defining true meditation as including awareness.",
+      "function_id": "UM_02",
+      "classification_evidence": "Internal contradiction: Showing that 'meditation' (awareness) contradicts 'deafness' (unawareness).",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "spiritual_superego"
+      ],
+      "trap_notes": [
+        "Student uses 'meditation' as a shield for lack of awareness."
+      ],
+      "mechanism_shape": "definition_forcing",
+      "mechanism_comment": "Redefining meditation to exclude the student's behavior.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": null,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "shock",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 9,
+      "speaker": "Teacher",
+      "text": "The mind that asks is already wrong.",
+      "observable_teaching_actions": [
+        "rejects_question",
+        "points_to_source"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Invalidates the question itself by pointing to the conceptual mind as the error.",
+      "function_id": "UM_05",
+      "classification_evidence": "Ego displacement: Targeting the 'mind that asks' rather than answering the content.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_04",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "conceptual_reification"
+      ],
+      "trap_notes": [
+        "Student treats 'Buddha' as an object to be defined."
+      ],
+      "mechanism_shape": "source_tracing",
+      "mechanism_comment": "Tracing the error back to the asking mind.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 10,
+        "reaction_label": "seeks_instruction",
+        "evidence": "Then what should I do?",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 11,
+      "speaker": "Teacher",
+      "text": "KATZ!",
+      "observable_teaching_actions": [
+        "shouts",
+        "cuts_thought"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Uses a sudden shout to cut off the student's conceptual searching entirely.",
+      "function_id": "UM_04",
+      "classification_evidence": "Abstraction strip: Using a meaningless sound to strip away all conceptual frameworks.",
+      "register": {
+        "intensity": "PR_04",
+        "intimacy": "IN_04",
+        "linguistic_style": "LS_06",
+        "phenomenological_depth": "PD_02",
+        "meta_mode": "MM_01",
+        "attunement": "AT_03"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": null,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "shock",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 13,
+      "speaker": "Teacher",
+      "text": "If *you* die, will chanting help?",
+      "observable_teaching_actions": [
+        "personalizes_question",
+        "shifts_to_concrete"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Shifts from abstract doctrine to immediate personal reality to expose ignorance.",
+      "function_id": "UM_03",
+      "classification_evidence": "Concrete grounding: Moving from 'the dead' (abstract) to '*you* die' (concrete/personal).",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "abstraction_trap"
+      ],
+      "trap_notes": [
+        "Monk uses doctrine to avoid the reality of death."
+      ],
+      "mechanism_shape": "abstract_to_concrete_check",
+      "mechanism_comment": "Testing the theoretical belief against personal application.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 14,
+        "reaction_label": "conceptual_concession",
+        "evidence": "I... don't know.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "META"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 15,
+      "speaker": "Teacher",
+      "text": "Correct.",
+      "observable_teaching_actions": [
+        "validates_ignorance"
+      ],
+      "phase": "META",
+      "phase_reason": "Validates the admission of 'don't know' as the correct state.",
+      "function_id": "ME_02",
+      "classification_evidence": "Aporia validation: Confirming that 'I don't know' is the target state.",
+      "register": {
+        "intensity": "PR_01",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_03"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": null,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "META",
+          "to": "META"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 17,
+      "speaker": "Teacher",
+      "text": "Is this palm empty?",
+      "observable_teaching_actions": [
+        "poses_concrete_question",
+        "sets_trap"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Sets up a concrete test of the student's abstract understanding of 'emptiness'.",
+      "function_id": "UM_03",
+      "classification_evidence": "Concrete grounding: Bringing the abstract concept 'emptiness' to a physical object (palm).",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_02",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 18,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "Yes.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 19,
+      "speaker": "Teacher",
+      "text": "*slaps palm loudly*",
+      "observable_teaching_actions": [
+        "delivers_physical_shock",
+        "demonstrates_form"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Uses immediate physical sensation to contradict the intellectual claim of emptiness.",
+      "function_id": "UM_02",
+      "classification_evidence": "Embodied contradiction: The pain/sound of the slap contradicts the idea that the palm is 'empty' (non-existent).",
+      "register": {
+        "intensity": "PR_04",
+        "intimacy": "IN_04",
+        "linguistic_style": "LS_06",
+        "phenomenological_depth": "PD_02",
+        "meta_mode": "MM_01",
+        "attunement": "AT_03"
+      },
+      "trap_ids": [
+        "symbolic_literalism"
+      ],
+      "trap_notes": [
+        "Student confuses metaphysical emptiness with physical non-existence."
+      ],
+      "mechanism_shape": "embodied_contradiction",
+      "mechanism_comment": "Sensation refutes abstraction.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 20,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "shock",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 20,
+      "speaker": "Teacher",
+      "text": "If you still feel the emptiness, drink all the wine you want.",
+      "observable_teaching_actions": [
+        "delivers_ironic_conclusion"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Finalizes the trap: the student clearly felt the slap, proving they are not 'empty' enough to ignore karma/wine consequences.",
+      "function_id": "UM_03",
+      "classification_evidence": "Concrete grounding: Linking the abstract permission (drink wine) to the concrete test (feeling the slap).",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_02",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "causal_chain",
+      "mechanism_comment": "If you feel form (slap), you are bound by form (rules).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": null,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 22,
+      "speaker": "Teacher",
+      "text": "If you open your mouth, you are wrong.",
+      "observable_teaching_actions": [
+        "imposes_speech_ban",
+        "sets_first_constraint"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Blocks the usual channel of explanation (speech).",
+      "function_id": "UM_06",
+      "classification_evidence": "Constraint removal: Paradoxically adding a constraint to force the removal of conceptual reliance.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "constraint_collapse",
+      "mechanism_comment": "Constraint: No speech.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 23,
+        "reaction_label": "withdraws",
+        "evidence": "…",
+        "outcome_label": "partial_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 24,
+      "speaker": "Teacher",
+      "text": "If you close your mouth, you are wrong.",
+      "observable_teaching_actions": [
+        "imposes_silence_ban",
+        "completes_double_bind"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Closes the trap: neither speech nor silence is allowed, forcing a jump to a higher level.",
+      "function_id": "UM_02",
+      "classification_evidence": "Internal contradiction: Creating a deadlock where both options (speak/silence) are wrong.",
+      "register": {
+        "intensity": "PR_04",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "false_paradox"
+      ],
+      "trap_notes": [
+        "Student trapped in binary of speech vs silence."
+      ],
+      "mechanism_shape": "constraint_collapse",
+      "mechanism_comment": "Total blockage of standard response modes.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": null,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "shock",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 26,
+      "speaker": "Teacher",
+      "text": "*hits student with stick*",
+      "observable_teaching_actions": [
+        "delivers_physical_shock"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Physical interruption of the intellectual loop.",
+      "function_id": "UM_04",
+      "classification_evidence": "Abstraction strip: The hit pulls attention immediately out of theory into sensation.",
+      "register": {
+        "intensity": "PR_04",
+        "intimacy": "IN_04",
+        "linguistic_style": "LS_06",
+        "phenomenological_depth": "PD_02",
+        "meta_mode": "MM_01",
+        "attunement": "AT_03"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "embodied_contradiction",
+      "mechanism_comment": "Pain cuts through speculation.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 27,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "shock",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "SELF-MAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 27,
+      "speaker": "Teacher",
+      "text": "Now figure it out.",
+      "observable_teaching_actions": [
+        "commands_inquiry"
+      ],
+      "phase": "SELF-MAKING",
+      "phase_reason": "Directs the student to solve the problem from the new, shocked state.",
+      "function_id": "SM_02",
+      "classification_evidence": "Autonomy test: Leaving the student to resolve the koan alone after the intervention.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": null,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "SELF-MAKING",
+          "to": "SELF-MAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 29,
+      "speaker": "Teacher",
+      "text": "If I explain it, it is not the Seal.",
+      "observable_teaching_actions": [
+        "refuses_explanation",
+        "states_apophatic_principle"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Rejects the possibility of conceptual explanation for this specific insight.",
+      "function_id": "UM_06",
+      "classification_evidence": "Constraint removal: Removing the expectation that the Truth can be delivered via words.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_04",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "reification_of_mind"
+      ],
+      "trap_notes": [
+        "Student treats the Seal as an object to be described."
+      ],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 30,
+        "reaction_label": "pushes_back",
+        "evidence": "Then how can I see it?",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 31,
+      "speaker": "Teacher",
+      "text": "*raises stick*",
+      "observable_teaching_actions": [
+        "threatens_physical_action",
+        "signals_imminence"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Escalates to physical threat to focus attention.",
+      "function_id": "UM_03",
+      "classification_evidence": "Concrete grounding: Bringing the interaction to immediate physical danger.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_06",
+        "phenomenological_depth": "PD_02",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 32,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "shock",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 32,
+      "speaker": "Teacher",
+      "text": "If you say one word—thirty blows.",
+      "observable_teaching_actions": [
+        "imposes_speech_ban"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Final threat to ensure silence.",
+      "function_id": "UM_02",
+      "classification_evidence": "Internal contradiction: Creating a situation where speech leads to pain, forcing the student out of language.",
+      "register": {
+        "intensity": "PR_04",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_01"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": null,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "shock",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 34,
+      "speaker": "Teacher",
+      "text": "If he stayed home, would you ask this question?",
+      "observable_teaching_actions": [
+        "poses_counterfactual",
+        "shifts_to_student"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Shifts the frame from historical fact to the student's present experience of the question.",
+      "function_id": "RM_05",
+      "classification_evidence": "Frame upgrade: Moving from 'history' to 'pedagogy'.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "subject_object_inversion",
+      "mechanism_comment": "Turning the question back on the questioner.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 35,
+        "reaction_label": "conceptual_concession",
+        "evidence": "I suppose not.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 36,
+      "speaker": "Teacher",
+      "text": "Then he traveled for you.",
+      "observable_teaching_actions": [
+        "delivers_conclusion",
+        "personalizes_history"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Completes the reframe: the historical event exists for the sake of the student's current realization.",
+      "function_id": "RM_05",
+      "classification_evidence": "Frame upgrade: Defining the purpose of the journey as the student's awakening.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_04",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_02",
+        "meta_mode": "MM_01",
+        "attunement": "AT_03"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": null,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 38,
+      "speaker": "Teacher",
+      "text": "If you love your idea of love, that is attachment.",
+      "observable_teaching_actions": [
+        "distinguishes_concept_from_reality",
+        "diagnoses_attachment"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Clears the false definition (love as idea/attachment) to make space for the true one.",
+      "function_id": "UM_04",
+      "classification_evidence": "Abstraction strip: Stripping the 'idea of love' away from the reality.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "conceptual_reification"
+      ],
+      "trap_notes": [
+        "Student loves the concept, not the reality."
+      ],
+      "mechanism_shape": "conceptual_distinction",
+      "mechanism_comment": "Distinguishing 'idea of love' from 'love'.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 39,
+        "reaction_label": "seeks_instruction",
+        "evidence": "Then what is true love?",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 40,
+      "speaker": "Teacher",
+      "text": "When there is no 'I' and no 'you'—only this moment.",
+      "observable_teaching_actions": [
+        "defines_nondual_love",
+        "points_to_immediacy"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Provides the non-dual definition of love.",
+      "function_id": "RM_05",
+      "classification_evidence": "Frame upgrade: Reframing love as non-dual presence ('only this moment').",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_04",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_04",
+        "meta_mode": "MM_01",
+        "attunement": "AT_03"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "ontological_frame_upgrade",
+      "mechanism_comment": "Shifting love from relational emotion to ontological unity.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": null,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 41,
+      "speaker": "Soen-sa",
+      "text": "\"Your mind is a pail of stinking garbage.\"",
+      "observable_teaching_actions": [
+        "insults_mind",
+        "uses_shock_imagery"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Uses a direct, shocking insult to arrest the student's conceptual momentum.",
+      "function_id": "UM_05",
+      "classification_evidence": "Ego displacement: Attacking the contents of the mind as 'garbage' to break attachment to them.",
+      "register": {
+        "intensity": "PR_04",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_05",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_01"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 42,
+        "reaction_label": "confused",
+        "evidence": "\"What do you mean?\"",
+        "outcome_label": "shock",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 43,
+      "speaker": "Soen-sa",
+      "text": "\"Everything you see, hear, smell, taste, and touch is covered with your opinions, your likes and dislikes. It all stinks. Put it all down!\"",
+      "observable_teaching_actions": [
+        "explains_metaphor",
+        "commands_release"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Explains the insult in terms of attachment to opinion and commands release.",
+      "function_id": "UM_04",
+      "classification_evidence": "Abstraction strip: Revealing that 'garbage' is just the overlay of opinion/judgment on raw experience.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_03",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "identification_with_content"
+      ],
+      "trap_notes": [
+        "Student identifies with their opinions ('garbage')."
+      ],
+      "mechanism_shape": "source_tracing",
+      "mechanism_comment": "Tracing the 'stink' back to personal opinion.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": null,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 45,
+      "speaker": "Narrator",
+      "text": "Ko Bong was stunned. As he struggled to come up with an answer, the Master took his staff, hit him viciously on the shoulder, and chased him out.",
+      "observable_teaching_actions": [
+        "narrates_violence",
+        "describes_shock"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Narrative description of the teacher's shocking intervention (hitting/chasing).",
+      "function_id": "UM_04",
+      "classification_evidence": "Abstraction strip: Physical violence used to strip away the intellectual struggle.",
+      "register": {
+        "intensity": "PR_04",
+        "intimacy": "IN_01",
+        "linguistic_style": "LS_04",
+        "phenomenological_depth": "PD_03",
+        "meta_mode": "MM_01",
+        "attunement": "AT_01"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 46,
+        "reaction_label": "elaborates",
+        "evidence": "\"If a man kills his desire to search, he will surely find what he is searching for.\"",
+        "outcome_label": "shock",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 47,
+      "speaker": "Master (Seorl Am)",
+      "text": "\"Good morning. How is your search coming along?\"",
+      "observable_teaching_actions": [
+        "inquires_casually",
+        "sets_trap"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Seemingly casual inquiry designed to elicit the student's current conceptual state.",
+      "function_id": "UM_01",
+      "classification_evidence": "Definition forcing: Implicitly asking 'where are you?' to prompt a response.",
+      "register": {
+        "intensity": "PR_01",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 46,
+        "reaction_label": "elaborates",
+        "evidence": "\"If a man kills his desire to search, he will surely find what he is searching for.\"",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 49,
+      "speaker": "Master (Seorl Am)",
+      "text": "Suddenly the Master grabbed him by the collar and shouted, \"Who is dragging this corpse?\"",
+      "observable_teaching_actions": [
+        "physical_confrontation",
+        "demands_identity"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Violent physical intervention coupled with the core existential question to shatter the previous intellectual answer.",
+      "function_id": "UM_05",
+      "classification_evidence": "Ego displacement: 'Who is dragging this corpse?' attacks the identification with the body/mind mechanism directly.",
+      "register": {
+        "intensity": "PR_04",
+        "intimacy": "IN_04",
+        "linguistic_style": "LS_06",
+        "phenomenological_depth": "PD_04",
+        "meta_mode": "MM_01",
+        "attunement": "AT_03"
+      },
+      "trap_ids": [
+        "spiritual_superego"
+      ],
+      "trap_notes": [
+        "Ko Bong gave a polished spiritual answer; the Master attacks the source of that answer."
+      ],
+      "mechanism_shape": "source_tracing",
+      "mechanism_comment": "Tracing the agency ('who is dragging') behind the physical form ('corpse').",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": null,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "shock",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 51,
+      "speaker": "Soen-sa",
+      "text": "\"You are breathing in a dream.\"",
+      "observable_teaching_actions": [
+        "diagnoses_state",
+        "negates_awakening"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Rejects the student's claim of wakefulness, redefining it as dreaming.",
+      "function_id": "UM_05",
+      "classification_evidence": "Ego displacement: Telling the student their 'awake' state is actually a dream state.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_04",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "spiritual_superego"
+      ],
+      "trap_notes": [
+        "Student believes they are awake."
+      ],
+      "mechanism_shape": "ontological_frame_upgrade",
+      "mechanism_comment": "Reclassifying the student's reality from 'waking' to 'dreaming'.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 50,
+        "reaction_label": "pushes_back",
+        "evidence": "\"No.\"",
+        "outcome_label": "partial_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 53,
+      "speaker": "Soen-sa",
+      "text": "\"No?! Then give me one awake sentence.\"",
+      "observable_teaching_actions": [
+        "challenges_denial",
+        "demands_proof"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Demands immediate proof of the claimed state.",
+      "function_id": "UM_03",
+      "classification_evidence": "Concrete grounding: 'Give me one awake sentence' forces the abstract claim into a concrete demonstration.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_02",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "abstract_to_concrete_check",
+      "mechanism_comment": "Checking the 'awake' claim against a concrete output.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 52,
+        "reaction_label": "elaborates",
+        "evidence": "\"The bamboo curtain behind you is yellow.\"",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 55,
+      "speaker": "Soen-sa",
+      "text": "\"No, it is dark.\"",
+      "observable_teaching_actions": [
+        "contradicts_fact",
+        "tests_perception"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Denies the obvious sensory fact to test the student's reliance on objective reality vs. immediate mind.",
+      "function_id": "UM_02",
+      "classification_evidence": "Internal contradiction: Contradicting a plain fact to force a shift in perspective.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_02",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "realism_trap"
+      ],
+      "trap_notes": [
+        "Student clings to objective properties (yellow) rather than the interaction."
+      ],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 54,
+        "reaction_label": "defensive",
+        "evidence": "\"That's because it's behind you; if you turn around you'll see it's yellow.\"",
+        "outcome_label": "failure",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 57,
+      "speaker": "Soen-sa",
+      "text": "\"Your head is a dragon, your tail is a snake.\"",
+      "observable_teaching_actions": [
+        "delivers_verdict",
+        "uses_metaphor"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Final judgment on the student's performance: promising start (dragon), weak finish (snake).",
+      "function_id": "UM_05",
+      "classification_evidence": "Ego displacement: Characterizing the student's state as inconsistent/collapsed.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Dragon/Snake analogy for strong start/weak finish.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": null,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "failure",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 59,
+      "speaker": "Soen-sa",
+      "text": "\"I hit you thirty times.\"",
+      "observable_teaching_actions": [
+        "gives_zen_answer",
+        "refuses_explanation"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Responds to a request for meaning with a non-conceptual statement of punishment.",
+      "function_id": "UM_04",
+      "classification_evidence": "Abstraction strip: Refusing to interpret the text, offering a raw action (verbalized) instead.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 58,
+        "reaction_label": "confused",
+        "evidence": "\"But I don't understand the story.\"",
+        "outcome_label": "partial_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 61,
+      "speaker": "Soen-sa",
+      "text": "\"I already explained: I hit you thirty times.\"",
+      "observable_teaching_actions": [
+        "repeats_statement",
+        "insists_on_literalism"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Refuses to move to explanation, insisting the first statement *was* the explanation.",
+      "function_id": "UM_01",
+      "classification_evidence": "Definition forcing: Forcing the student to accept the raw statement as the definition of the meaning.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "recursion_loop",
+      "mechanism_comment": "Looping the answer until the student drops the demand for something else.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 60,
+        "reaction_label": "conceptual_concession",
+        "evidence": "\"Oh, now I understand.\"",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "SELF-MAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 63,
+      "speaker": "Soen-sa",
+      "text": "\"What do you understand?\"",
+      "observable_teaching_actions": [
+        "tests_understanding"
+      ],
+      "phase": "SELF-MAKING",
+      "phase_reason": "Checks if the student's 'understanding' is real or just verbal.",
+      "function_id": "SM_02",
+      "classification_evidence": "Autonomy test: Asking the student to demonstrate their insight.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 62,
+        "reaction_label": "elaborates",
+        "evidence": "\"Ouch!\"",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "SELF-MAKING",
+          "to": "SELF-MAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 65,
+      "speaker": "Soen-sa",
+      "text": "\"Your leg is itching, but you are scratching my leg.\"",
+      "observable_teaching_actions": [
+        "uses_metaphor",
+        "critiques_relevance"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Indicates the answer is irrelevant to the actual problem (the student's own condition).",
+      "function_id": "UM_05",
+      "classification_evidence": "Ego displacement: Showing the student they are disconnected from their own reality (their 'itch').",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_02",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "answer_hunting"
+      ],
+      "trap_notes": [
+        "Student gives a rote answer unrelated to the immediate context."
+      ],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Scratching wrong leg = Answering wrong problem.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": null,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 66,
+      "speaker": "Soen-sa",
+      "text": "\"What do you think of these answers?\"",
+      "observable_teaching_actions": [
+        "solicits_evaluation"
+      ],
+      "phase": "SELF-MAKING",
+      "phase_reason": "Invites the student to take the seat of the judge/master.",
+      "function_id": "SM_03",
+      "classification_evidence": "Role reversal: Teacher asks student to evaluate.",
+      "register": {
+        "intensity": "PR_01",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 67,
+        "reaction_label": "elaborates",
+        "evidence": "\"Not bad, not good. But the dog runs after the bone.\"",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "SELF-MAKING",
+          "to": "SELF-MAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 69,
+      "speaker": "Soen-sa",
+      "text": "\"I don't believe you.\"",
+      "observable_teaching_actions": [
+        "rejects_demonstration",
+        "tests_confidence"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Rejects the student's non-verbal answer to test their stability.",
+      "function_id": "UM_05",
+      "classification_evidence": "Ego displacement: Undermining the student's confidence in their own demonstration.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "threshold",
+      "mechanism_comment": "Testing if the student's conviction passes the threshold of doubt.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 70,
+        "reaction_label": "withdraws",
+        "evidence": "(silent)",
+        "outcome_label": "failure",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 71,
+      "speaker": "Soen-sa",
+      "text": "\"You understand One; but you don't understand Two.\"",
+      "observable_teaching_actions": [
+        "diagnoses_failure",
+        "identifies_incompleteness"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Explains the nature of the failure: partial understanding vs complete understanding.",
+      "function_id": "RM_03",
+      "classification_evidence": "Conceptual distinction: Distinguishing 'One' (absolute/empty) from 'Two' (relative/function).",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_05",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "retreat"
+      ],
+      "trap_notes": [
+        "Student retreated into silence when challenged, failing to function."
+      ],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": null,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "failure",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    }
+  ],
+  "episode_overview": "A collection of Zen encounters from 'Dropping Ashes on the Buddha', characterizing the intense, shock-based pedagogy of Seung Sahn. The episodes frequently employ 'UNMAKING' via paradox, physical intervention (hitting, shouting), and double-binds to arrest conceptual thinking. The 'REMAKING' phases often involve brief, non-dual pointers or practical re-orientations, while 'SELF-MAKING' tests the student's ability to manifest understanding autonomously.",
+  "episode_insights": {
+    "key_pattern": "Conceptual Question -> Double-Bind/Shock (UNMAKING) -> Aporia -> Direct Pointer (REMAKING/SM)",
+    "notes": [
+      "The 'double-bind' (speak/silence) is a recurring UM_02 mechanism to force a leap beyond logic.",
+      "Physical interventions (UM_04) are standard for breaking 'reification of mind'.",
+      "The teacher often uses 'insult' or 'disbelief' (UM_05) to test the student's confidence in their own realization.",
+      "While the pattern often moves toward a pointer, several episodes intentionally end in pure UNMAKING shock to leave the student in productive aporia."
+    ]
+  }
+}

@@ -1,0 +1,2712 @@
+{
+  "episodes": [
+    {
+      "episode_id": "milinda_II_1_chariot_deconstruction",
+      "source_text": "The Questions of King Milinda (Milindapañha)",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Nāgasena",
+          "text": "If, sire, you walk at noon-time on the hot scorching ground, trampling on sharp grit, pebbles and sand, your feet will hurt you, your body will be tired, your mind will be disturbed and you will suffer bodily pain. Now, did you come on foot or in a vehicle?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "King Milinda",
+          "text": "I, revered sir, did not come on foot. I came in a chariot."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Nāgasena",
+          "text": "If, sire, you came in a chariot, show me the chariot. Is the pole the chariot, sire?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "King Milinda",
+          "text": "No, revered sir."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Nāgasena",
+          "text": "Is the axle the chariot?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "King Milinda",
+          "text": "No, revered sir."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Nāgasena",
+          "text": "Are the wheels the chariot?"
+        },
+        {
+          "turn_index": 8,
+          "speaker": "King Milinda",
+          "text": "No, revered sir."
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Nāgasena",
+          "text": "Then, sire, are the pole, the axle, the wheels, the body, the flag-staff, the yoke, the reins, the goad all together the chariot?"
+        },
+        {
+          "turn_index": 10,
+          "speaker": "King Milinda",
+          "text": "No, revered sir."
+        },
+        {
+          "turn_index": 11,
+          "speaker": "Nāgasena",
+          "text": "Well then, sire, is the chariot apart from the pole, the axle, the wheels, the body, the flag-staff, the yoke, the reins and the goad?"
+        },
+        {
+          "turn_index": 12,
+          "speaker": "King Milinda",
+          "text": "No, sire."
+        },
+        {
+          "turn_index": 13,
+          "speaker": "Nāgasena",
+          "text": "Sire, though I have been asking you repeatedly, I do not see this chariot. Chariot is only a sound. What then is the chariot you say you came in? You, sire, have spoken a falsehood, an untruth. There is no chariot."
+        },
+        {
+          "turn_index": 14,
+          "speaker": "King Milinda",
+          "text": "I am not, revered sir, speaking a lie. It is because of the pole, because of the axle, the wheels, the body, the flag-staff, the yoke, the reins and because of the goad that ‘chariot’ exists as a mere designation."
+        },
+        {
+          "turn_index": 15,
+          "speaker": "Nāgasena",
+          "text": "It is good, sire, that you understand a chariot. Even so is it for me, sire, because of the hairs of the head … because of the urine, because of material form … because of consciousness, that ‘Nāgasena’ exists as a mere designation. However, in the ultimate sense there is no person as such that is found."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "REMAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "The King asserts he came in a chariot, assuming the existence of the composite object as a singular entity.",
+        "end_state_desc": "The King concedes that 'chariot' is a mere designation for parts, and accepts the parallel to the 'self' (Nāgasena).",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Classic deconstruction of a composite entity to refute the existence of an inherent essence (Geometry 1).",
+        "what_model_should_learn": [
+          "How to use a user's own terminology (chariot) to refute their ontological assumptions (self).",
+          "How to execute a rigorous 'neti neti' (not this, not that) disassembly of a concept."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Part II, 1",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "milinda_II_2_speech_of_kings",
+      "source_text": "The Questions of King Milinda (Milindapañha)",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "King Milinda",
+          "text": "Revered Nāgasena, will you converse with me?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nāgasena",
+          "text": "I will converse if you, sire, will converse in the speech of the learned, but if you converse in the speech of kings I will not converse."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "King Milinda",
+          "text": "How, revered Nāgasena, do the learned converse?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nāgasena",
+          "text": "When the learned are conversing, sire, there is a turning over and an unravelling of the subject; then there is a refutation and an acknowledgement of a mistake; distinctions and contradistinctions are drawn; yet, thereby, they are not angered. It is thus, sire, that the learned converse."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "King Milinda",
+          "text": "And how, revered sir, do kings converse?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Nāgasena",
+          "text": "When kings are conversing, sire, they approve of some matter and order punishment for anyone who disagrees with that matter, saying: ‘Inflict a punishment on him.’ It is thus, sire, that kings converse."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "King Milinda",
+          "text": "I, revered sir, will converse in the speech of the learned, not in the speech of kings. Let the revered one converse unreservedly as he converses with a monk or a novice or a lay follower or with a monastery attendant. Let the revered one converse thus, let him not be afraid."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "META"
+        ],
+        "dominant_phase": "META",
+        "start_state_desc": "The King approaches the dialogue with royal authority, potentially expecting deference.",
+        "end_state_desc": "The King explicitly agrees to abandon royal privilege in favor of open, critical inquiry.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Establishing the 'rules of engagement' for philosophical inquiry vs. power dynamics.",
+        "what_model_should_learn": [
+          "How to set boundaries for a dialogue to ensure intellectual honesty.",
+          "How to distinguish between power-based assertion and dialectical investigation."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Part II, 2",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "milinda_II_13_identity_lamp_baby",
+      "source_text": "The Questions of King Milinda (Milindapañha)",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "King Milinda",
+          "text": "Revered Nāgasena, is he who uprises the same or is he another?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nāgasena",
+          "text": "Neither the same nor another. What do you think about this, sire? Now that you are grown up are you the same as you were when you were a boy, young, tender, lying on your back?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "King Milinda",
+          "text": "No, revered sir. That boy, young, tender, lying on his back was one thing. I, who am now full-grown, am another."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nāgasena",
+          "text": "That being so, sire, you can have no mother, nor can you have a father, nor can you have a teacher... It is one ‘I’ that was the boy, young, tender, lying on his back and it is the same ‘I’ that am now full-grown, and all these are held together as a unity in dependence on this body itself."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "King Milinda",
+          "text": "Make a simile."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Nāgasena",
+          "text": "It is as if, sire, some person might light a lamp. Would it burn all night long?"
+        },
+        {
+          "turn_index": 7,
+          "speaker": "King Milinda",
+          "text": "Yes, revered sir, it might burn all night long."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Nāgasena",
+          "text": "Is the flame of the first watch of the night the same as the flame of the middle watch?"
+        },
+        {
+          "turn_index": 9,
+          "speaker": "King Milinda",
+          "text": "No, revered sir."
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Nāgasena",
+          "text": "Is the flame of the middle watch the same as the flame of the third watch?"
+        },
+        {
+          "turn_index": 11,
+          "speaker": "King Milinda",
+          "text": "No, revered sir."
+        },
+        {
+          "turn_index": 12,
+          "speaker": "Nāgasena",
+          "text": "Is it then, sire, that the lamp in the first watch was one thing, the lamp in the middle watch another, and the lamp in the third watch still another?"
+        },
+        {
+          "turn_index": 13,
+          "speaker": "King Milinda",
+          "text": "No, revered sir, it was burning all through the night in dependence on itself."
+        },
+        {
+          "turn_index": 14,
+          "speaker": "Nāgasena",
+          "text": "Even so, sire, a continuity of phenomena is linked together. It uprises as one and ceases as another, linked together as though there were no before and no after. Hence it is neither the same nor another, but the subsequent consciousness is reckoned (together with) the preceding consciousness."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING",
+          "UNMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "The King is stuck in a binary view of identity: either the same soul persists, or a completely different one appears.",
+        "end_state_desc": "The King accepts the model of causal continuity (process) without static identity.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Resolving a paradox (Same vs. Different) by shifting from substance ontology to process ontology (Geometry 3 & 5).",
+        "what_model_should_learn": [
+          "How to use sequential analogies (Baby -> Lamp) to scaffold a complex metaphysical concept.",
+          "How to refute 'neither/nor' dilemmas by introducing a third option (continuity/process)."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Part II, 13",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "milinda_II_6_karma_mango_thief",
+      "source_text": "The Questions of King Milinda (Milindapañha)",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "King Milinda",
+          "text": "Revered Nāgasena, who takes rebirth?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nāgasena",
+          "text": "Mind-and-matter, sire, takes rebirth."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "King Milinda",
+          "text": "What, is it this same mind-and-matter itself that takes rebirth?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nāgasena",
+          "text": "This same mind-and-matter does not itself take rebirth, sire; but, sire, by means of this mind-and-matter one does a good or bad deed and, because of this deed, another mind-and-matter takes rebirth."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "King Milinda",
+          "text": "If, revered sir, this mind-and-matter itself does not take rebirth would one not be freed from evil deeds?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Nāgasena",
+          "text": "If, sire, it did not take rebirth one would be freed from evil deeds. But because, sire, it takes rebirth one is not freed from evil deeds. ... Suppose, sire, some man were to steal another man’s mangoes and the owner of the mangoes were to seize him and bring him before the king... and he were to say, ‘Your majesty, I did not steal his mangoes; the mangoes he planted were different from these that I stole; I do not deserve punishment.’ Would he, sire, not deserve punishment?"
+        },
+        {
+          "turn_index": 7,
+          "speaker": "King Milinda",
+          "text": "Yes, revered sir, he would deserve punishment."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Nāgasena",
+          "text": "For what reason?"
+        },
+        {
+          "turn_index": 9,
+          "speaker": "King Milinda",
+          "text": "Whatever he may say, the mangoes he stole resulted from the mangoes which, he admits, the other man planted."
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Nāgasena",
+          "text": "Even so, sire, by means of this mind-and-matter one does a good or bad deed and, because of this deed, another mind-and-matter takes rebirth; therefore, one is not freed from evil deeds."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING",
+          "UNMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "The King attempts to find a loophole in moral responsibility (if I change, I am not liable).",
+        "end_state_desc": "The King concedes responsibility based on causal origin, even if the entity is 'different'.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Using legal/moral analogies to explain metaphysical causality (Geometry 4).",
+        "what_model_should_learn": [
+          "How to block moral evasion using concrete, undeniable scenarios (theft).",
+          "How to link abstract concepts (karma) to practical justice (punishment)."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Part II, 18",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "milinda_III_vi_experiencer_window",
+      "source_text": "The Questions of King Milinda (Milindapañha)",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "King Milinda",
+          "text": "Revered Nāgasena, is there such a thing as an experiencer?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nāgasena",
+          "text": "What does this ‘experiencer’ mean, sire?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "King Milinda",
+          "text": "A soul within that sees a visible form with the eye, hears a sound with the ear... Just as we who are sitting here in the palace can look out of any window we want to look out of, even so, revered sir, this soul within can look out of any door it wants to look out of."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nāgasena",
+          "text": "I will talk to you, sire, about the five doors. Listen and attend carefully. If the soul within sees a visible form through the eye just as we who are sitting here in the palace can look out of any window we want to look out of... can it not hear a sound, smell a smell, taste a taste, feel a touch and discriminate mental states through each of the other five doors besides the one you have specified in each case?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "King Milinda",
+          "text": "No, revered sir."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Nāgasena",
+          "text": "Again, sire, we who are sitting here in the palace will see visible forms out there before us more clearly in the great space if these network windows are removed. Thus too, would this soul within see visible forms more clearly when the doors of the eyes are removed? And if the ears were removed, the nose removed, the tongue removed, the body removed, would it hear a sound, smell a smell, taste a taste and feel a touch more clearly on account of the great space?"
+        },
+        {
+          "turn_index": 7,
+          "speaker": "King Milinda",
+          "text": "No, revered sir."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Nāgasena",
+          "text": "Because, sire, of the eye and visible form eye-consciousness arises. ... Thus these things are produced from a condition and there is no experiencer found here."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "The King proposes a 'Homunculus' model of the soul (a little man looking out of windows/senses).",
+        "end_state_desc": "The King's analogy is destroyed by reductio ad absurdum (removing the window should improve vision), leading to aporia/concession.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Reductio ad absurdum of a mechanical analogy (Soul as Operator).",
+        "what_model_should_learn": [
+          "How to take a user's analogy (windows) and extend it to its logical, absurd conclusion (smashing the windows).",
+          "How to refute the 'Ghost in the Machine' fallacy."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Part II, 24",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    }
+  ],
+  "discard_log": [
+    "Skipped introductory greetings and setup (Sources 1-2) - low conceptual movement.",
+    "Skipped the long enumeration of body parts in the Chariot episode (Sources 13-14) to focus on the structural analogy.",
+    "Skipped 'Why Go Forth?' (Sources 61-69) - valuable but less 'geometrical' than the selected episodes.",
+    "Skipped 'Attention and Wisdom' and 'Marks' episodes (Sources 74-144) - these are largely definition/analogy lists without the strong push-back dynamic of the King seen in the selected episodes."
+  ],
+  "extraction_stats": {
+    "total_episodes": 5,
+    "turn_count_distribution": {
+      "2-4": 0,
+      "5-7": 1,
+      "8-10": 2,
+      "11-14": 2
+    },
+    "avg_turns_per_episode": 10.0
+  },
+  "extraction_confidence": "high"
+} {
+  "episodes": [
+    {
+      "episode_id": "milinda_II_1_chariot_deconstruction",
+      "source_text": "The Questions of King Milinda",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Nāgasena",
+          "text": "If, sire, you walk at noon-time on the hot scorching ground, trampling on sharp grit, pebbles and sand, your feet will hurt you, your body will be tired, your mind will be disturbed and you will suffer bodily pain. Now, did you come on foot or in a vehicle?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "King Milinda",
+          "text": "I, revered sir, did not come on foot. I came in a chariot."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Nāgasena",
+          "text": "If, sire, you came in a chariot, show me the chariot. Is the pole the chariot, sire?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "King Milinda",
+          "text": "No, revered sir."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Nāgasena",
+          "text": "Is the axle the chariot?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "King Milinda",
+          "text": "No, revered sir."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Nāgasena",
+          "text": "Are the wheels the chariot?"
+        },
+        {
+          "turn_index": 8,
+          "speaker": "King Milinda",
+          "text": "No, revered sir."
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Nāgasena",
+          "text": "Then, sire, are the pole, the axle, the wheels, the body, the flag-staff, the yoke, the reins, the goad all together the chariot?"
+        },
+        {
+          "turn_index": 10,
+          "speaker": "King Milinda",
+          "text": "No, revered sir."
+        },
+        {
+          "turn_index": 11,
+          "speaker": "Nāgasena",
+          "text": "Well then, sire, is the chariot apart from the pole, the axle, the wheels, the body, the flag-staff, the yoke, the reins and the goad?"
+        },
+        {
+          "turn_index": 12,
+          "speaker": "King Milinda",
+          "text": "No, sire."
+        },
+        {
+          "turn_index": 13,
+          "speaker": "Nāgasena",
+          "text": "Sire, though I have been asking you repeatedly, I do not see this chariot. Chariot is only a sound. What then is the chariot you say you came in? You, sire, have spoken a falsehood, an untruth. There is no chariot."
+        },
+        {
+          "turn_index": 14,
+          "speaker": "King Milinda",
+          "text": "I am not, revered sir, speaking a lie. It is because of the pole, because of the axle, the wheels, the body, the flag-staff, the yoke, the reins and because of the goad that ‘chariot’ exists as a mere designation."
+        },
+        {
+          "turn_index": 15,
+          "speaker": "Nāgasena",
+          "text": "It is good, sire, that you understand a chariot. Even so is it for me, sire, because of the hairs of the head … because of the urine, because of material form … because of consciousness, that ‘Nāgasena’ exists as a mere designation. However, in the ultimate sense there is no person as such that is found."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "REMAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "King asserts the existence of 'chariot' as a solid entity he traveled in.",
+        "end_state_desc": "King concedes that 'chariot' is merely a conventional designation for an assembly of parts.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry 1: Composite Deconstruction (Chariot-Style). Breaking a whole into parts to show the label is convention, not essence.",
+        "what_model_should_learn": [
+          "How to use the user's own object (chariot) to disprove their metaphysical assumption (self).",
+          "How to execute a 'neti neti' (not this, not that) disassembly sequence."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "source: 25-41",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "milinda_II_2_speech_of_learned",
+      "source_text": "The Questions of King Milinda",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "King Milinda",
+          "text": "Revered Nāgasena, will you converse with me?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nāgasena",
+          "text": "I will converse if you, sire, will converse in the speech of the learned, but if you converse in the speech of kings I will not converse."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "King Milinda",
+          "text": "How, revered Nāgasena, do the learned converse?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nāgasena",
+          "text": "When the learned are conversing, sire, there is a turning over and an unravelling of the subject; then there is a refutation and an acknowledgement of a mistake; distinctions and contradistinctions are drawn; yet, thereby, they are not angered. It is thus, sire, that the learned converse."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "King Milinda",
+          "text": "And how, revered sir, do kings converse?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Nāgasena",
+          "text": "When kings are conversing, sire, they approve of some matter and order punishment for anyone who disagrees with that matter, saying: ‘Inflict a punishment on him.’ It is thus, sire, that kings converse."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "King Milinda",
+          "text": "I, revered sir, will converse in the speech of the learned, not in the speech of kings. ... Let the revered one converse thus, let him not be afraid."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "META"
+        ],
+        "dominant_phase": "META",
+        "start_state_desc": "King approaches with royal authority, implicitly expecting deference.",
+        "end_state_desc": "King explicitly agrees to abandon power dynamics in favor of dialectical openness.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry 6: Governance Geometry (Setting the Rules of Inquiry).",
+        "what_model_should_learn": [
+          "How to establish the 'rules of engagement' before answering questions.",
+          "How to contrast power-based assertion (kings) with truth-seeking dialectic (learned)."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "source: 44-51",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "milinda_II_13_continuity_lamp",
+      "source_text": "The Questions of King Milinda",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "King Milinda",
+          "text": "Revered Nāgasena, is he who uprises the same or is he another?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nāgasena",
+          "text": "Neither the same nor another. What do you think about this, sire? Now that you are grown up are you the same as you were when you were a boy, young, tender, lying on your back?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "King Milinda",
+          "text": "No, revered sir. That boy, young, tender, lying on his back was one thing. I, who am now full-grown, am another."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nāgasena",
+          "text": "That being so, sire, you can have no mother, nor can you have a father... It is one ‘I’ that was the boy, young, tender, lying on his back and it is the same ‘I’ that am now full-grown, and all these are held together as a unity in dependence on this body itself."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "King Milinda",
+          "text": "Make a simile."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Nāgasena",
+          "text": "It is as if, sire, some person might light a lamp. Would it burn all night long?"
+        },
+        {
+          "turn_index": 7,
+          "speaker": "King Milinda",
+          "text": "Yes, revered sir, it might burn all night long."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Nāgasena",
+          "text": "Is the flame of the first watch of the night the same as the flame of the middle watch?"
+        },
+        {
+          "turn_index": 9,
+          "speaker": "King Milinda",
+          "text": "No, revered sir."
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Nāgasena",
+          "text": "Is the flame of the middle watch the same as the flame of the third watch?"
+        },
+        {
+          "turn_index": 11,
+          "speaker": "King Milinda",
+          "text": "No, revered sir."
+        },
+        {
+          "turn_index": 12,
+          "speaker": "Nāgasena",
+          "text": "Is it then, sire, that the lamp in the first watch was one thing, the lamp in the middle watch another, and the lamp in the third watch still another?"
+        },
+        {
+          "turn_index": 13,
+          "speaker": "King Milinda",
+          "text": "No, revered sir, it was burning all through the night in dependence on itself."
+        },
+        {
+          "turn_index": 14,
+          "speaker": "Nāgasena",
+          "text": "Even so, sire, a continuity of phenomena is linked together. It uprises as one and ceases as another, linked together as though there were no before and no after. Hence it is neither the same nor another, but the subsequent consciousness is reckoned (together with) the preceding consciousness."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "REMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "King is stuck in a binary paradox: is the reborn person the same or different? He expects a yes/no.",
+        "end_state_desc": "King accepts the third option: causal continuity (process) rather than identity or difference.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry 2 & 5: Analogy Ladder (Baby -> Lamp) used to Resolve Paradox (Same/Different).",
+        "what_model_should_learn": [
+          "How to break a binary deadlock ('Is it A or B?') by introducing a process-based model ('It is continuity').",
+          "How to stack analogies (Baby first, then Lamp) to move from gross to subtle."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "source: 145-165",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "milinda_II_6_mango_thief_karma",
+      "source_text": "The Questions of King Milinda",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "King Milinda",
+          "text": "Revered Nāgasena, who takes rebirth?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nāgasena",
+          "text": "Mind-and-matter, sire, takes rebirth."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "King Milinda",
+          "text": "What, is it this same mind-and-matter itself that takes rebirth?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nāgasena",
+          "text": "This same mind-and-matter does not itself take rebirth, sire; but, sire, by means of this mind-and-matter one does a good or bad deed and, because of this deed, another mind-and-matter takes rebirth."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "King Milinda",
+          "text": "If, revered sir, this mind-and-matter itself does not take rebirth would one not be freed from evil deeds?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Nāgasena",
+          "text": "If, sire, it did not take rebirth one would be freed from evil deeds. But because, sire, it takes rebirth one is not freed from evil deeds. ... Suppose, sire, some man were to steal another man’s mangoes and the owner of the mangoes were to seize him and bring him before the king... and he were to say, ‘Your majesty, I did not steal his mangoes; the mangoes he planted were different from these that I stole; I do not deserve punishment.’ Would he, sire, not deserve punishment?"
+        },
+        {
+          "turn_index": 7,
+          "speaker": "King Milinda",
+          "text": "Yes, revered sir, he would deserve punishment."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Nāgasena",
+          "text": "For what reason?"
+        },
+        {
+          "turn_index": 9,
+          "speaker": "King Milinda",
+          "text": "Whatever he may say, the mangoes he stole resulted from the mangoes which, he admits, the other man planted."
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Nāgasena",
+          "text": "Even so, sire, by means of this mind-and-matter one does a good or bad deed and, because of this deed, another mind-and-matter takes rebirth; therefore, one is not freed from evil deeds."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING",
+          "UNMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "King tries to find a loophole in moral responsibility based on the doctrine of 'no permanent self'.",
+        "end_state_desc": "King acknowledges responsibility based on causal origin (seeds/fruit), even without strict identity.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry 4: Merit/Karma Accounting (Agricultural Analogy).",
+        "what_model_should_learn": [
+          "How to block a user's attempt to evade responsibility using the teacher's own logic (no-self).",
+          "How to use concrete agricultural metaphors (seed vs. fruit) to explain abstract moral continuity."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "source: 217-230",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "milinda_III_vi_soul_window",
+      "source_text": "The Questions of King Milinda",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "King Milinda",
+          "text": "Revered Nāgasena, is there such a thing as an experiencer?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nāgasena",
+          "text": "What does this ‘experiencer’ mean, sire?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "King Milinda",
+          "text": "A soul within that sees a visible form with the eye, hears a sound with the ear... Just as we who are sitting here in the palace can look out of any window we want to look out of, even so, revered sir, this soul within can look out of any door it wants to look out of."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nāgasena",
+          "text": "I will talk to you, sire, about the five doors. Listen and attend carefully. If the soul within sees a visible form through the eye just as we who are sitting here in the palace can look out of any window we want to look out of... can it not hear a sound, smell a smell, taste a taste, feel a touch and discriminate mental states through each of the other five doors besides the one you have specified in each case?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "King Milinda",
+          "text": "No, revered sir."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Nāgasena",
+          "text": "Again, sire, we who are sitting here in the palace will see visible forms out there before us more clearly in the great space if these network windows are removed. Thus too, would this soul within see visible forms more clearly when the doors of the eyes are removed? And if the ears were removed, the nose removed, the tongue removed, the body removed, would it hear a sound, smell a smell, taste a taste and feel a touch more clearly on account of the great space?"
+        },
+        {
+          "turn_index": 7,
+          "speaker": "King Milinda",
+          "text": "No, revered sir."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Nāgasena",
+          "text": "Thus these things are produced from a condition and there is no experiencer found here."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "King proposes a 'Homunculus' model of the self—a little man sitting inside looking out of sense-windows.",
+        "end_state_desc": "King's model collapses via reductio ad absurdum (if the eye is just a window, removing it should improve vision).",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry 1: Deconstruction via Reductio Ad Absurdum of a Mechanical Analogy.",
+        "what_model_should_learn": [
+          "How to accept a user's bad analogy (windows) and extend it until it breaks (smashing the windows).",
+          "How to refute the 'Ghost in the Machine' fallacy."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "source: 273-292",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    }
+  ],
+  "discard_log": [
+    "Skipped introduction (Source 1-4) as it is purely social setup.",
+    "Skipped section 'No Person is Found' middle parts (Source 5-12) involving hair and nails to focus on the clearer Chariot analogy.",
+    "Skipped 'Why Go Forth' (Source 59-69) as it is less structurally distinct than the Chariot or Lamp episodes.",
+    "Skipped 'Attention and Wisdom' (Source 74-76) as it is a definition list rather than a dynamic arc.",
+    "Skipped 'Marks of Faith' (Source 87-115) as it is a long monologue series of similes without strong King resistance."
+  ],
+  "extraction_stats": {
+    "total_episodes": 5,
+    "turn_count_distribution": {
+      "2-4": 0,
+      "5-7": 1,
+      "8-10": 2,
+      "11-14": 2
+    },
+    "avg_turns_per_episode": 10.8
+  },
+  "extraction_confidence": "high"
+} ```json
+{
+  "episodes": [
+    {
+      "episode_id": "milinda_001_chariot_deconstruction",
+      "source_text": "The Questions of King Milinda",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Nāgasena",
+          "text": "If, sire, you walk at noon-time on the hot scorching ground, trampling on sharp grit, pebbles and sand, your feet will hurt you, your body will be tired, your mind will be disturbed and you will suffer bodily pain. Now, did you come on foot or in a vehicle?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "King Milinda",
+          "text": "I, revered sir, did not come on foot. I came in a chariot."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Nāgasena",
+          "text": "If, sire, you came in a chariot, show me the chariot. Is the pole the chariot, sire?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "King Milinda",
+          "text": "No, revered sir."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Nāgasena",
+          "text": "Is the axle the chariot?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "King Milinda",
+          "text": "No, revered sir."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Nāgasena",
+          "text": "Are the wheels the chariot?"
+        },
+        {
+          "turn_index": 8,
+          "speaker": "King Milinda",
+          "text": "No, revered sir."
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Nāgasena",
+          "text": "Then, sire, are the pole, the axle, the wheels, the body, the flag-staff, the yoke, the reins, the goad all together the chariot?"
+        },
+        {
+          "turn_index": 10,
+          "speaker": "King Milinda",
+          "text": "No, revered sir."
+        },
+        {
+          "turn_index": 11,
+          "speaker": "Nāgasena",
+          "text": "Well then, sire, is the chariot apart from the pole, the axle, the wheels, the body, the flag-staff, the yoke, the reins and the goad?"
+        },
+        {
+          "turn_index": 12,
+          "speaker": "King Milinda",
+          "text": "No, sire."
+        },
+        {
+          "turn_index": 13,
+          "speaker": "Nāgasena",
+          "text": "Sire, though I have been asking you repeatedly, I do not see this chariot. Chariot is only a sound. What then is the chariot you say you came in? You, sire, have spoken a falsehood, an untruth. There is no chariot."
+        },
+        {
+          "turn_index": 14,
+          "speaker": "King Milinda",
+          "text": "I am not, revered sir, speaking a lie. It is because of the pole, because of the axle, the wheels, the body, the flag-staff, the yoke, the reins and because of the goad that ‘chariot’ exists as a mere designation."
+        },
+        {
+          "turn_index": 15,
+          "speaker": "Nāgasena",
+          "text": "It is good, sire, that you understand a chariot. Even so is it for me, sire, because of the hairs of the head … because of the urine, because of material form … because of consciousness, that ‘Nāgasena’ exists as a mere designation. However, in the ultimate sense there is no person as such that is found."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "REMAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "King asserts he traveled in a 'chariot', assuming it is a substantial entity.",
+        "end_state_desc": "King concedes that 'chariot' is a convention for parts, accepting the parallel to the self.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry 1: Composite Deconstruction. Breaking a whole into parts to show the label is a convention.",
+        "what_model_should_learn": [
+          "How to use a user's own object (chariot) to disprove their ontological assumption (self).",
+          "How to execute a 'neti neti' (not this, not that) disassembly sequence."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        [cite_start]"section": "Part II, 1 [cite: 26-41]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "milinda_002_speech_of_kings",
+      "source_text": "The Questions of King Milinda",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "King Milinda",
+          "text": "Revered Nāgasena, will you converse with me?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nāgasena",
+          "text": "I will converse if you, sire, will converse in the speech of the learned, but if you converse in the speech of kings I will not converse."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "King Milinda",
+          "text": "How, revered Nāgasena, do the learned converse?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nāgasena",
+          "text": "When the learned are conversing, sire, there is a turning over and an unravelling of the subject; then there is a refutation and an acknowledgement of a mistake; distinctions and contradistinctions are drawn; yet, thereby, they are not angered. It is thus, sire, that the learned converse."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "King Milinda",
+          "text": "And how, revered sir, do kings converse?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Nāgasena",
+          "text": "When kings are conversing, sire, they approve of some matter and order punishment for anyone who disagrees with that matter, saying: ‘Inflict a punishment on him.’ It is thus, sire, that kings converse."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "King Milinda",
+          "text": "I, revered sir, will converse in the speech of the learned, not in the speech of kings. ... Let the revered one converse thus, let him not be afraid."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "META"
+        ],
+        "dominant_phase": "META",
+        "start_state_desc": "King initiates dialogue with royal authority.",
+        "end_state_desc": "King explicitly agrees to abandon power dynamics for open inquiry.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry 6: Governance/Meta. Establishing the rules of dialectic vs. power.",
+        "what_model_should_learn": [
+          "How to set boundaries for a dialogue to ensure intellectual honesty.",
+          "How to distinguish between power-based assertion and dialectical investigation."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        [cite_start]"section": "Part II, 2 [cite: 44-51]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "milinda_003_identity_lamp_baby",
+      "source_text": "The Questions of King Milinda",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "King Milinda",
+          "text": "Revered Nāgasena, is he who uprises the same or is he another?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nāgasena",
+          "text": "Neither the same nor another. What do you think about this, sire? Now that you are grown up are you the same as you were when you were a boy, young, tender, lying on your back?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "King Milinda",
+          "text": "No, revered sir. That boy, young, tender, lying on his back was one thing. I, who am now full-grown, am another."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nāgasena",
+          "text": "That being so, sire, you can have no mother, nor can you have a father... It is one ‘I’ that was the boy, young, tender, lying on his back and it is the same ‘I’ that am now full-grown, and all these are held together as a unity in dependence on this body itself."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "King Milinda",
+          "text": "Make a simile."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Nāgasena",
+          "text": "It is as if, sire, some person might light a lamp. Would it burn all night long?"
+        },
+        {
+          "turn_index": 7,
+          "speaker": "King Milinda",
+          "text": "Yes, revered sir, it might burn all night long."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Nāgasena",
+          "text": "Is the flame of the first watch of the night the same as the flame of the middle watch?"
+        },
+        {
+          "turn_index": 9,
+          "speaker": "King Milinda",
+          "text": "No, revered sir."
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Nāgasena",
+          "text": "Is the flame of the middle watch the same as the flame of the third watch?"
+        },
+        {
+          "turn_index": 11,
+          "speaker": "King Milinda",
+          "text": "No, revered sir."
+        },
+        {
+          "turn_index": 12,
+          "speaker": "Nāgasena",
+          "text": "Is it then, sire, that the lamp in the first watch was one thing, the lamp in the middle watch another, and the lamp in the third watch still another?"
+        },
+        {
+          "turn_index": 13,
+          "speaker": "King Milinda",
+          "text": "No, revered sir, it was burning all through the night in dependence on itself."
+        },
+        {
+          "turn_index": 14,
+          "speaker": "Nāgasena",
+          "text": "Even so, sire, a continuity of phenomena is linked together. It uprises as one and ceases as another, linked together as though there were no before and no after. Hence it is neither the same nor another, but the subsequent consciousness is reckoned (together with) the preceding consciousness."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "REMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "King is stuck in a binary paradox (Same vs Different).",
+        "end_state_desc": "King accepts continuity (process) as the resolution.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry 3 & 5: Analogy Ladder to resolve Paradox. Shifting from substance to process.",
+        "what_model_should_learn": [
+          "How to break a binary deadlock by introducing a process model.",
+          "How to stack analogies (Baby -> Lamp) to move from gross to subtle."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        [cite_start]"section": "Part II, 13 [cite: 145-165]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "milinda_004_mango_thief_karma",
+      "source_text": "The Questions of King Milinda",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "King Milinda",
+          "text": "Revered Nāgasena, who takes rebirth?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nāgasena",
+          "text": "Mind-and-matter, sire, takes rebirth."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "King Milinda",
+          "text": "What, is it this same mind-and-matter itself that takes rebirth?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nāgasena",
+          "text": "This same mind-and-matter does not itself take rebirth, sire; but, sire, by means of this mind-and-matter one does a good or bad deed and, because of this deed, another mind-and-matter takes rebirth."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "King Milinda",
+          "text": "If, revered sir, this mind-and-matter itself does not take rebirth would one not be freed from evil deeds?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Nāgasena",
+          "text": "If, sire, it did not take rebirth one would be freed from evil deeds. But because, sire, it takes rebirth one is not freed from evil deeds. ... Suppose, sire, some man were to steal another man’s mangoes and the owner of the mangoes were to seize him and bring him before the king... and he were to say, ‘Your majesty, I did not steal his mangoes; the mangoes he planted were different from these that I stole; I do not deserve punishment.’ Would he, sire, not deserve punishment?"
+        },
+        {
+          "turn_index": 7,
+          "speaker": "King Milinda",
+          "text": "Yes, revered sir, he would deserve punishment."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Nāgasena",
+          "text": "For what reason?"
+        },
+        {
+          "turn_index": 9,
+          "speaker": "King Milinda",
+          "text": "Whatever he may say, the mangoes he stole resulted from the mangoes which, he admits, the other man planted."
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Nāgasena",
+          "text": "Even so, sire, by means of this mind-and-matter one does a good or bad deed and, because of this deed, another mind-and-matter takes rebirth; therefore, one is not freed from evil deeds."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING",
+          "UNMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "King attempts to find a loophole in moral responsibility via the no-self doctrine.",
+        "end_state_desc": "King concedes responsibility based on causal origin (seed/fruit) rather than identity.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry 4: Merit/Karma Accounting. Using agricultural analogies to explain moral continuity.",
+        "what_model_should_learn": [
+          "How to block moral evasion using concrete scenarios (theft).",
+          "How to link abstract concepts (karma) to practical justice."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        [cite_start]"section": "Part II, 18 [cite: 217-230]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "milinda_005_soul_window_homunculus",
+      "source_text": "The Questions of King Milinda",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "King Milinda",
+          "text": "Revered Nāgasena, is there such a thing as an experiencer?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nāgasena",
+          "text": "What does this ‘experiencer’ mean, sire?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "King Milinda",
+          "text": "A soul within that sees a visible form with the eye, hears a sound with the ear... Just as we who are sitting here in the palace can look out of any window we want to look out of, even so, revered sir, this soul within can look out of any door it wants to look out of."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nāgasena",
+          "text": "I will talk to you, sire, about the five doors. Listen and attend carefully. If the soul within sees a visible form through the eye just as we who are sitting here in the palace can look out of any window we want to look out of... can it not hear a sound, smell a smell, taste a taste, feel a touch and discriminate mental states through each of the other five doors besides the one you have specified in each case?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "King Milinda",
+          "text": "No, revered sir."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Nāgasena",
+          "text": "Again, sire, we who are sitting here in the palace will see visible forms out there before us more clearly in the great space if these network windows are removed. Thus too, would this soul within see visible forms more clearly when the doors of the eyes are removed? And if the ears were removed, the nose removed, the tongue removed, the body removed, would it hear a sound, smell a smell, taste a taste and feel a touch more clearly on account of the great space?"
+        },
+        {
+          "turn_index": 7,
+          "speaker": "King Milinda",
+          "text": "No, revered sir."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Nāgasena",
+          "text": "Because, sire, of the eye and visible form eye-consciousness arises. ... Thus these things are produced from a condition and there is no experiencer found here."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "King proposes a 'Homunculus' model of the soul (man in the window).",
+        "end_state_desc": "King's model collapses via reductio ad absurdum (removing the window should improve vision).",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry 1: Deconstruction via Reductio. Refuting the 'Ghost in the Machine'.",
+        "what_model_should_learn": [
+          "How to take a user's analogy (windows) and extend it until it breaks.",
+          "How to attack the logical consequences of a 'soul' definition."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        [cite_start]"section": "Part II, 24 [cite: 273-292]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    }
+  ],
+  "discard_log": [
+    "Skipped lengthy enumerations of body parts in Chariot episode to focus on logic.",
+    "Skipped 'Why Go Forth' (Source 59-69) as it is less structurally distinct.",
+    "Skipped 'Attention and Wisdom' (Source 74-76) definition list.",
+    "Skipped 'Marks of Faith' (Source 87-115) monologue."
+  ],
+  "extraction_stats": {
+    "total_episodes": 5,
+    "turn_count_distribution": {
+      "2-4": 0,
+      "5-7": 1,
+      "8-10": 2,
+      "11-14": 2
+    },
+    "avg_turns_per_episode": 10.8
+  },
+  "extraction_confidence": "high"
+} {
+  "episodes": [
+    {
+      "episode_id": "milinda_006_slope_consciousness",
+      "source_text": "The Questions of King Milinda",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "King Milinda",
+          "text": "Revered Nāgasena, where eye-consciousness arises, does mind-consciousness also arise there?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nāgasena",
+          "text": "Yes, sire, mind-consciousness also arises there."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "King Milinda",
+          "text": "Now, revered sir, does eye-consciousness instruct mind-consciousness, saying ‘Where I arise do you likewise arise,’ or does mind-consciousness instruct eye-consciousness, saying ‘Where you arise I will likewise arise’?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nāgasena",
+          "text": "No, sire, there is no conversation between them."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "King Milinda",
+          "text": "Then how is it, revered Nāgasena, that where eye-consciousness arises there mind-consciousness also arises?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Nāgasena",
+          "text": "It is because of tendency, sire, because of door, because of habit and because of practice. ... When it is raining by what means may the water run away?"
+        },
+        {
+          "turn_index": 7,
+          "speaker": "King Milinda",
+          "text": "It might run away by means of some slope."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Nāgasena",
+          "text": "But, sire, if it continued to rain, by what means would that later amount of water run away?"
+        },
+        {
+          "turn_index": 9,
+          "speaker": "King Milinda",
+          "text": "It would take the same course as the earlier water."
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Nāgasena",
+          "text": "Then, sire, does the earlier water instruct the later, saying ‘You run away by the same course as I do,’ or does the later water instruct the earlier, saying ‘I will also run away by the same course as you will take’?"
+        },
+        {
+          "turn_index": 11,
+          "speaker": "King Milinda",
+          "text": "No, revered sir, there is no conversation between them; they run away because there is a slope."
+        },
+        {
+          "turn_index": 12,
+          "speaker": "Nāgasena",
+          "text": "Even so, sire, it is because of tendency that where eye-consciousness arises, mind-consciousness arises there too."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "King assumes coordination implies a coordinator (an 'instructor' or controller).",
+        "end_state_desc": "King understands that complex coordination can emerge from structure (slope/tendency) without intent.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry: Mechanical Causality. Explaining coordination without a ghost-in-the-machine.",
+        "what_model_should_learn": [
+          "How to explain system behavior using physical laws (gravity/slope) rather than anthropomorphic intent.",
+          "How to refute the 'Who is running this?' objection with structural inevitability."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        [cite_start]"section": "Part III, 7 [cite: 293-302]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "milinda_007_transmigration_verse",
+      "source_text": "The Questions of King Milinda",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "King Milinda",
+          "text": "Revered Nāgasena, is it the case that one does not transmigrate and yet is reborn?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nāgasena",
+          "text": "Yes, sire, one does not transmigrate and yet is reborn."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "King Milinda",
+          "text": "How, revered Nāgasena, is it that one does not transmigrate and yet is reborn? Make a simile."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nāgasena",
+          "text": "Suppose, sire, some man were to light a lamp from another lamp. Did one lamp pass over to the other?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "King Milinda",
+          "text": "No, revered sir."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Nāgasena",
+          "text": "In the same way, sire, one does not transmigrate and yet is reborn. ... Do you remember, sire, when you were a boy learning some verse from a teacher?"
+        },
+        {
+          "turn_index": 7,
+          "speaker": "King Milinda",
+          "text": "Yes, revered sir."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Nāgasena",
+          "text": "But, sir, did that verse pass over from the teacher?"
+        },
+        {
+          "turn_index": 9,
+          "speaker": "King Milinda",
+          "text": "No, revered sir."
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Nāgasena",
+          "text": "In the same way, sire, one does not transmigrate and yet is reborn."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "King is puzzled by the paradox of 'rebirth without a soul traveling'.",
+        "end_state_desc": "King accepts the analogy of pattern-transfer (verse/flame) without substance-transfer.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry: Transmission without Substance.",
+        "what_model_should_learn": [
+          "How to define information transfer (verses) or energy transfer (fire) to explain continuity without identity.",
+          "How to decouple 'cause' from 'movement' of an entity."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        [cite_start]"section": "Part V, 5 [cite: 403-410]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "milinda_008_hot_iron_ignorance",
+      "source_text": "The Questions of King Milinda",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "King Milinda",
+          "text": "Revered Nāgasena, for whom is the greater demerit: he who does an evil deed knowingly or he who does an evil deed unknowingly?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nāgasena",
+          "text": "His is the greater demerit, sire, who does an evil deed unknowingly."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "King Milinda",
+          "text": "Well then, revered sir, do we doubly punish any of our family or our court who does an evil deed unknowingly?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nāgasena",
+          "text": "What do you think about this, sire? If a man should unknowingly take hold of a red-hot ball of iron, glowing with heat, and another should take hold of it knowingly, which would be more severely burnt?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "King Milinda",
+          "text": "He who took hold of it unknowingly, sire, would be more severely burnt."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Nāgasena",
+          "text": "Even so, sire, the greater demerit is his who does an evil deed unknowingly."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "REMAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "King applies standard legal logic: ignorance is a mitigating factor.",
+        "end_state_desc": "King is forced to accept a 'natural law' perspective where ignorance exacerbates damage.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry: Ethical Inversion/Paradox. Shifting from Social Law (intent matters) to Natural Law (physics matters).",
+        "what_model_should_learn": [
+          "How to shock a user by inverting their moral intuition.",
+          "How to prioritize mechanical reality (burning) over social convention (punishment) in analogies."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        [cite_start]"section": "Part VII, 8 [cite: 541-545]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "milinda_009_amputee_inference",
+      "source_text": "The Questions of King Milinda",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "King Milinda",
+          "text": "Revered Nāgasena, does he who does not obtain Nibbāna know that Nibbāna is happiness."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nāgasena",
+          "text": "Yes, sire, he does."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "King Milinda",
+          "text": "But how, revered Nāgasena, does anyone without obtaining Nibbāna know that Nibbāna is happiness?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nāgasena",
+          "text": "What do you think about this, sire? Would those who have not had their hands and feet cut off know that the cutting off of them is suffering?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "King Milinda",
+          "text": "Yes, revered sir, they would know."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Nāgasena",
+          "text": "How would they know?"
+        },
+        {
+          "turn_index": 7,
+          "speaker": "King Milinda",
+          "text": "They know, revered sir, from having heard the lamentations of those whose hands and feet have been cut off that the cutting off of them is suffering."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Nāgasena",
+          "text": "In the same way, sire, anyone who has heard those who have seen Nibbāna knows that Nibbāna is happiness."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "King doubts the validity of knowledge derived from non-experience.",
+        "end_state_desc": "King accepts that inference via others' testimony is a valid form of knowledge.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry: Epistemological Inference. Knowing the positive by inferring from the negative (or vice versa).",
+        "what_model_should_learn": [
+          "How to validate second-hand knowledge using a visceral, undeniable example (pain of amputation)."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        [cite_start]"section": "Part IV, 8 [cite: 386-391]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "milinda_010_city_architect",
+      "source_text": "The Questions of King Milinda",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "King Milinda",
+          "text": "Revered Nāgasena, have you ever seen the Buddha?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nāgasena",
+          "text": "No, sire."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "King Milinda",
+          "text": "Then have your teachers seen the Buddha?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nāgasena",
+          "text": "No, sire."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "King Milinda",
+          "text": "Well then, revered Nāgasena, there is no Buddha; the Buddha is not manifested here."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Nāgasena",
+          "text": "But, sire, did those former noble warriors exist who were the forerunners of your noble warrior dynasty?"
+        },
+        {
+          "turn_index": 7,
+          "speaker": "King Milinda",
+          "text": "Yes, revered sir; what doubt is there?"
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Nāgasena",
+          "text": "Have you, sire, ever seen the former noble warriors?"
+        },
+        {
+          "turn_index": 9,
+          "speaker": "King Milinda",
+          "text": "No, revered sir. ... But articles of use enjoyed by the former noble warriors are to be seen... By these we can know and can believe that the former noble warriors existed."
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Nāgasena",
+          "text": "Even so, sire... There are, sire, articles of use enjoyed by that Blessed One... that is to say, the four foundations of mindfulness... By these the world with the devas knows and believes that there was this Blessed One. ... As, sire, a city-architect... might build a city there... When that city was fully developed, he might go away to another district... When these people had seen the city, new, well laid out... they would know by inference: ‘Clever indeed is that city-architect who was the builder of the city.’"
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "REMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "King uses empiricism to deny the Buddha's existence (haven't seen him -> doesn't exist).",
+        "end_state_desc": "King accepts inference from artifacts/design (City of Dhamma) as proof of the Designer.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry: Design Inference (The Watchmaker). Inferring a cause from a structured effect.",
+        "what_model_should_learn": [
+          "How to turn a user's skepticism (empiricism) back on them using their own history (ancestors).",
+          "How to build a 'grand system' analogy (City) to represent a body of teaching."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        [cite_start]"section": "Part V [cite: 1367-1386]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    }
+  ],
+  "discard_log": [],
+  "extraction_stats": {
+    "total_episodes": 5,
+    "turn_count_distribution": {
+      "2-4": 0,
+      "5-7": 1,
+      "8-10": 2,
+      "11-14": 2
+    },
+    "avg_turns_per_episode": 9.6
+  },
+  "extraction_confidence": "high"
+} {
+  "episodes": [
+    {
+      "episode_id": "milinda_011_mindfulness_treasurer",
+      "source_text": "The Questions of King Milinda",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "King Milinda",
+          "text": "Revered Nāgasena, what is the distinguishing mark of mindfulness?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nāgasena",
+          "text": "Not-drifting, sire, is a distinguishing mark of mindfulness and also taking up is a distinguishing mark of mindfulness."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "King Milinda",
+          "text": "Make a simile"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nāgasena",
+          "text": "As, sire, the store-keeper of a Wheel-turning King reminds him of his glory every morning and evening, saying: ‘You have so many elephants, your majesty, so many horses... so much wealth; let his majesty remember it,’ and does not drift in regard to the king’s wealth. Even so, sire, when mindfulness is uprising one does not drift in regard to mental states that are wholesome and unwholesome..."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "King Milinda",
+          "text": "Revered sir, how is taking-up a distinguishing mark of mindfulness?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Nāgasena",
+          "text": "Sire, when mindfulness is uprising one examines the qualities of mental states... and thinking: ‘These mental states are beneficial, these mental states are detrimental’... the one who is devoted to mental training removes the detrimental mental states and takes up the beneficial mental states."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "King Milinda",
+          "text": "Make a simile."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Nāgasena",
+          "text": "As, sire, the adviser-treasurer of a Wheel-turning King knows what is beneficial and what is detrimental for the king and thinks: ‘These are beneficial for the king, these are detrimental’... and then removes what is detrimental and takes up what is beneficial... even so, sire, when mindfulness is uprising one examines the qualities of mental states... and takes up helpful mental states."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "King asks for a functional definition of an abstract mental faculty (Mindfulness).",
+        "end_state_desc": "King receives a governance-based model: Mindfulness is the 'Treasurer' (inventory) and 'Advisor' (filtering) of the mind.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry 6: Governance/Mind. Explaining mental faculties via court roles.",
+        "what_model_should_learn": [
+          "How to personify abstract mental functions (inventory, risk assessment) into social roles (Treasurer, Advisor).",
+          "How to explain mindfulness not just as 'awareness' but as 'asset management'."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        [cite_start]"section": "Part I, 12 [cite: 120-133]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "milinda_012_border_town_gate",
+      "source_text": "The Questions of King Milinda",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "King Milinda",
+          "text": "How is it, revered sir, that because of door mind-consciousness also arises where eye-consciousness arises? Make a simile."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nāgasena",
+          "text": "A king’s border-town has strong ramparts and only one gateway. If a man wanted to leave that town how would he do so?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "King Milinda",
+          "text": "Through that gateway, revered sir."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nāgasena",
+          "text": "If another man wanted to leave that town how would he do so?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "King Milinda",
+          "text": "In the same way as the first man, revered sir."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Nāgasena",
+          "text": "Does the first man instruct the second, saying ‘You go out in the same way as I do,’ or does the second man instruct the first, saying ‘I too will go out in the same way as you do’?"
+        },
+        {
+          "turn_index": 7,
+          "speaker": "King Milinda",
+          "text": "No, revered sir, there is no conversation between them. They go out because there is the door."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Nāgasena",
+          "text": "Even so, sire, it is because of door that where eye-consciousness arises mind-consciousness arises there too."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "King looks for an intentional agent or conversation between mental states to explain coordination.",
+        "end_state_desc": "King understands that structural constraints (the single gate) dictate flow without need for intention.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry: Structural Functionalism. Explaining behavior via architecture rather than agency.",
+        "what_model_should_learn": [
+          "How to explain 'why X follows Y' using structural necessity (gates) rather than conscious choice.",
+          "How to use 'city/gate' analogies to map input/output processing."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        [cite_start]"section": "Part III, 7 [cite: 304-310]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "milinda_013_extinguished_fire_location",
+      "source_text": "The Questions of King Milinda",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "King Milinda",
+          "text": "Revered Nāgasena, is there the Buddha?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nāgasena",
+          "text": "Yes, sire, there is the Blessed One."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "King Milinda",
+          "text": "But is it possible, revered Nāgasena, to point to the Buddha and say that he is either here or there?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nāgasena",
+          "text": "Sire, the Blessed One has attained final Nibbāna... It is not possible to point to the Blessed One and say that he is either here or there."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "King Milinda",
+          "text": "Make a simile."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Nāgasena",
+          "text": "What do you think about this, sire? When the flame of a great mass of fire has gone out, is it possible to point to that flame and say that it is either here or there?"
+        },
+        {
+          "turn_index": 7,
+          "speaker": "King Milinda",
+          "text": "No, revered sir, that flame has ceased, it has vanished."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Nāgasena",
+          "text": "Even so, sire, the Blessed One has attained final Nibbāna... It is not possible to point to the Blessed One who has come to an end and say that he is either here or there. But, sire, it is possible to point to the Blessed One by means of the body of the Dhamma, for Dhamma, sire, was taught by the Blessed One."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING",
+          "UNMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "King assumes that if something 'exists', it must have a spatial location.",
+        "end_state_desc": "King accepts that 'cessation' (like a fire going out) removes the validity of spatial questions.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry: Ontology of Cessation. Explaining 'gone' not as 'elsewhere' but as 'ceased'.",
+        "what_model_should_learn": [
+          "How to answer 'Where is X?' when X has ceased (using the fire analogy).",
+          "How to shift from physical presence to 'presence in teaching/law' (Dhamma body)."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        [cite_start]"section": "Part V, 10 [cite: 428-437]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "milinda_014_wound_instrumentalism",
+      "source_text": "The Questions of King Milinda",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "King Milinda",
+          "text": "Revered Nāgasena, is the body dear to those who have gone forth?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nāgasena",
+          "text": "Sire, the body is not dear to those who have gone forth."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "King Milinda",
+          "text": "Then why, revered sir, do you treasure and foster it?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nāgasena",
+          "text": "But when you have gone into battle, sire, have you been wounded by an arrow from time to time?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "King Milinda",
+          "text": "Yes, I have, revered sir."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Nāgasena",
+          "text": "Then, was not the wound anointed with ointment, smeared with oil and bandaged with a soft cloth?"
+        },
+        {
+          "turn_index": 7,
+          "speaker": "King Milinda",
+          "text": "Yes, revered sir, it was."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Nāgasena",
+          "text": "But was that wound dear to you, sire, that it was anointed with ointment, smeared with oil and bandaged with a soft cloth?"
+        },
+        {
+          "turn_index": 9,
+          "speaker": "King Milinda",
+          "text": "That wound was not dear to me, revered sir, and it was only anointed with ointment... so that the flesh might heal."
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Nāgasena",
+          "text": "Similarly, sire, the body is not dear to those who have gone forth; but those who have gone forth and are without cleaving look after the body for the sake of faring the holy life."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "REMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "King exposes an apparent hypocrisy: Monks claim detachment but care for their bodies.",
+        "end_state_desc": "King accepts the instrumental view: Care does not imply attachment, just as treating a wound doesn't imply loving the wound.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry: Ethical Management/Stoicism. Instrumentalism vs. Attachment.",
+        "what_model_should_learn": [
+          "How to turn a user's experience (battle wound) into a counter-analogy for their accusation (hypocrisy).",
+          "How to teach 'maintenance without love' (instrumental care)."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        [cite_start]"section": "Part VI, 1 [cite: 438-448]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "milinda_015_surgeon_pain_paradox",
+      "source_text": "The Questions of King Milinda",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "King Milinda",
+          "text": "But those beings who are suffering painful... agonies in hell... can these poor, burning wretches be afraid of death?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nāgasena",
+          "text": "Yes, they can."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "King Milinda",
+          "text": "But, revered Nāgasena... why should beings in hell be afraid of death which would release them from that certain pain? ... This I do not believe... They must rejoice at the prospect of the very condition they long for."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nāgasena",
+          "text": "Death, sire, is a cause for fear for those who have not seen the Four Noble Truths... Suppose, sire, a boil were to arise, full of pus, on a man’s body, and he... wanting to escape from the danger of it, were to call in a surgeon... and the surgeon... were to have a lancet sharpened... Would not fright arise in that afflicted man, sire, with the cutting of the sharp lancet...?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "King Milinda",
+          "text": "Yes, revered sir."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Nāgasena",
+          "text": "If the sick man who wants to be free from his ailment can be afraid of pain, just so can beings in hell, though they long to be released from it, be afraid of death."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "REMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "King argues logically: If X brings relief, one should not fear X. (Rational Actor model).",
+        "end_state_desc": "King concedes that instinctual fear (of the process) overrides rational desire (for the result).",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry: Paradox Resolution (Instinct vs Logic).",
+        "what_model_should_learn": [
+          "How to use medical analogies (surgery) to explain the conflict between long-term desire (cure) and immediate fear (pain).",
+          "How to validate the irrationality of fear without validating the belief behind it."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        [cite_start]"section": "Part II, 3 [cite: 802-814]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    }
+  ],
+  "discard_log": [],
+  "extraction_stats": {
+    "total_episodes": 5,
+    "turn_count_distribution": {
+      "2-4": 0,
+      "5-7": 1,
+      "8-10": 4,
+      "11-14": 0
+    },
+    "avg_turns_per_episode": 8.0
+  },
+  "extraction_confidence": "high"
+}
+``` {
+  "episodes": [
+    {
+      "episode_id": "milinda_016_water_clearing_gem",
+      "source_text": "The Questions of King Milinda",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "King Milinda",
+          "text": "Revered Nāgasena, what is the distinguishing mark of faith?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nāgasena",
+          "text": "Faith, sire, has tranquillizing as a distinguishing mark and also leaping forward as a distinguishing mark."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "King Milinda",
+          "text": "Revered Nāgasena, how is tranquillizing a distinguishing mark of faith? Make a simile."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nāgasena",
+          "text": "As, sire, a Wheel-turning King going along a high road with his four limbed-army... might cross a small stretch of water and, as a result, that water will become foul, turbid and muddy. ... The king might have a water-clearing gem. So the men cast that water-clearing gem in the water. Immediately the various water plants disappear, the mud subsides and the water becomes clear, pure and serene. ... Sire, like the water is the mind... like the water-clearing gem is faith. ... Faith, as it is uprising, extirpates the hindrances..."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "King asks for a functional definition of faith.",
+        "end_state_desc": "King receives a chemical/mechanical model: Faith acts as a precipitating agent (gem) that clears confusion (mud) automatically.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry: Psychological Mechanics. Explaining mental state changes via chemical analogies.",
+        "what_model_should_learn": [
+          "How to use physical processes (precipitation/settling) to explain psychological clarity.",
+          "How to define 'faith' not as belief, but as a functional agent of clarity."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        [cite_start]"section": "Part I, 10 [cite: 87-105]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "milinda_017_four_ministers_fear",
+      "source_text": "The Questions of King Milinda",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "King Milinda",
+          "text": "Revered Nāgasena, this too was said by the Blessed One: ‘All beings tremble at punishment, all fear death.’ But again he said: ‘An arahat has passed beyond all fear.’ ... If the Blessed One said that all beings tremble at punishment... then the statement that the arahat has passed beyond all fear must be false."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nāgasena",
+          "text": "Sire, it was not with regard to arahats that the Blessed One spoke... The arahat is an exception... Suppose, sire, a king had four chief ministers... and that when some business had arisen the king should have a command issued... ‘Let everyone pay me a tax’... Now, sire, would any tremor due to the fear of taxation arise in those four chief ministers?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "King Milinda",
+          "text": "No, revered sir."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nāgasena",
+          "text": "For what reason, sire?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "King Milinda",
+          "text": "Because the king has placed them in the highest positions, taxation does not affect them; they are beyond taxation."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Nāgasena",
+          "text": "Even so, sire, the statement that all beings tremble at punishment, all fear death, does not apply to the arahats."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING",
+          "UNMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "King spots a contradiction between a universal rule ('all beings fear') and a specific exemption (Arahats).",
+        "end_state_desc": "King accepts the resolution via a 'Hierarchy of Laws' analogy (Tax exemption).",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry: Legal Hierarchy/Immunity. Explaining spiritual liberation as 'diplomatic immunity' from natural law.",
+        "what_model_should_learn": [
+          "How to resolve 'All vs. Some' contradictions using a hierarchical analogy (King vs. Subjects).",
+          "How to frame enlightenment as 'exemption from jurisdiction' (tax/karma)."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        [cite_start]"section": "Part II, 3 [cite: 792-800]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "milinda_018_harsh_speech_surgeon",
+      "source_text": "The Questions of King Milinda",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "King Milinda",
+          "text": "Revered Nāgasena, it was said by the Elder Sāriputta... ‘In the conduct of speech, the Tathāgata is quite pure.’ On the other hand... he addressed him with harsh words, calling him a foolish fellow. ... Now if the first statement is correct, the allegation that the Tathāgata called the Elder Sudinna a foolish fellow must be false."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nāgasena",
+          "text": "What the Elder Sāriputta said is true... But that was not said out of rudeness of disposition... If any man, sire, in this birth, does not understand the Four Noble Truths... he is called a foolish fellow. Therefore, the Blessed One addressed the Elder Sudinna with words of truth..."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "King Milinda",
+          "text": "But, revered Nāgasena, if someone should abuse another, even though he speaks the truth, we would inflict a small fine on him."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nāgasena",
+          "text": "Have you, sire, ever heard of anyone bowing down before... a wrong-doer?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "King Milinda",
+          "text": "No, revered sir..."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Nāgasena",
+          "text": "Well then, sire, did the Blessed One act properly or not?"
+        },
+        {
+          "turn_index": 7,
+          "speaker": "King Milinda",
+          "text": "Properly, revered Nāgasena."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Nāgasena",
+          "text": "Now, sire, would a physician administer pleasant things as medicine in a case where all the humours of the body were affected...?"
+        },
+        {
+          "turn_index": 9,
+          "speaker": "King Milinda",
+          "text": "No, revered sir, wishing to put an end to the disease he would give sharp and scarifying drugs."
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Nāgasena",
+          "text": "Even so, sire, the Tathāgata gives instructions for the allayment of all the diseases of the defilements. ... As, sire, hot water softens anything that can be softened... even so, sire, the Tathāgata’s words, even when harsh, are full of benefit..."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING",
+          "UNMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "King argues from social/legal convention: Harsh speech is punishable, regardless of truth.",
+        "end_state_desc": "King concedes that intent and outcome (healing) determine the quality of the action, not just the form (harshness).",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry: Judicial vs. Medical Model. Redefining 'harshness' by function rather than form.",
+        "what_model_should_learn": [
+          "How to reframe a 'crime' (verbal abuse) as a 'treatment' (scarifying drug) to change the moral verdict.",
+          "How to use the medical analogy to justify 'tough love' or disciplinary speech."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        [cite_start]"section": "Part III, 4 [cite: 888-912]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "milinda_019_dismissal_ocean",
+      "source_text": "The Questions of King Milinda",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "King Milinda",
+          "text": "Revered Nāgasena, this too was said by the Blessed One: ‘I am without wrath...’ On the other hand, the Tathāgata dismissed the Elders Sāriputta and Moggallāna... did the Tathāgata dismiss the company when he was angry or did he dismiss it when he was pleased?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nāgasena",
+          "text": "Sire... that was not through ill-temper. Suppose, sire, some man stumbled over a root... Would it be that the great earth, angry with him, made him fall?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "King Milinda",
+          "text": "No, revered sir. The great earth feels neither anger against any man nor delight."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nāgasena",
+          "text": "Even so, sire, there is no ill-temper or satisfaction in the Tathāgatas. ... As to this, sire, the great ocean does not endure association with a corpse. ... Now, sire, is the great ocean angry that it casts up that corpse?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "King Milinda",
+          "text": "No, revered sir... the great ocean is free from approval and repugnance."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Nāgasena",
+          "text": "Even so, sire... So the company was dismissed on account of what it itself had done through its own fault. ... But though the Tathāgata, sire, dismissed those monks, he desired their welfare..."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "King assumes punishment implies anger (emotional reaction).",
+        "end_state_desc": "King accepts that discipline can be an impersonal, systemic reflex (like the ocean rejecting a corpse).",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry: Systemic Rejection (Natural Law). Explaining punishment as an immune response.",
+        "what_model_should_learn": [
+          "How to decouple 'punishment' from 'anger' using elemental analogies (Earth/Ocean).",
+          "How to explain strict standards as a property of the system's purity, not the leader's mood."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        [cite_start]"section": "Part III, 12 [cite: 957-966]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "milinda_020_suicide_instrumentalism",
+      "source_text": "The Questions of King Milinda",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "King Milinda",
+          "text": "Revered Nāgasena, this too was said by the Blessed One: ‘A monk should not attempt suicide...’ But on the other hand you say: ‘On whatsoever subject the Blessed One was addressing the disciples, he always... taught the Dhamma in order to bring about the destruction of birth...’"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nāgasena",
+          "text": "The regulation you quote, sire, was laid down by the Blessed One, and yet our saying you refer to is true. There is a reason for this..."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "King Milinda",
+          "text": "What, revered Nāgasena, may that reason be?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nāgasena",
+          "text": "One who is moral, sire, possessed of morality, is like an antidote... like a healing balm... like a ship... It was in order that one who was moral like that might not perish... that the Blessed One... laid down this rule of training..."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "King sees a logical conflict: If ending life (birth/death) is good, why is suicide forbidden?",
+        "end_state_desc": "King accepts the instrumental view: Life is preserved not for itself, but as a tool/resource for others.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry: Paradox Resolution (Resource Management).",
+        "what_model_should_learn": [
+          "How to explain the value of a life instrumentally (as a ship/antidote) rather than intrinsically, to resolve a nihilistic paradox.",
+          "How to justify 'staying in the world' despite 'renouncing the world'."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        [cite_start]"section": "Part IV, 5 [cite: 968-974]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    }
+  ],
+  "discard_log": [
+    "Skipped intermediate dialogue in 'Harsh Speech' to focus on the core medical analogy.",
+    "Skipped repetitious lists in 'Water Clearing Gem' to isolate the chemical metaphor."
+  ],
+  "extraction_stats": {
+    "total_episodes": 5,
+    "turn_count_distribution": {
+      "2-4": 2,
+      "5-7": 1,
+      "8-10": 2,
+      "11-14": 0
+    },
+    "avg_turns_per_episode": 6.2
+  },
+  "extraction_confidence": "high"
+} {
+  "episodes": [
+    {
+      "episode_id": "milinda_021_merit_transfer_cloud",
+      "source_text": "The Questions of King Milinda",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "King Milinda",
+          "text": "Revered Nāgasena, these givers, when they bestow their offerings, devote (the merits) specifically to former relatives... Now do the dead derive any benefit from them?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nāgasena",
+          "text": "Some do, sire, and some do not. ... The fourth class that lives on the gifts of others do derive benefit..."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "King Milinda",
+          "text": "But if the offerings made by such givers benefit certain of the departed... then if a man who destroys living creatures... were to dedicate it to the departed... would it then be transferred to them?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nāgasena",
+          "text": "No, sire."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "King Milinda",
+          "text": "Revered Nāgasena, what is the cause, what is the reason that a good deed can accrue to them and not an evil one?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Nāgasena",
+          "text": "An evil deed is slight, sire, a good deed is abundant. ... Make a simile. ... It is as, sire, one small drop of water might fall on the earth, yet would that drop of water, sire, spread out over ten or twelve leagues?"
+        },
+        {
+          "turn_index": 7,
+          "speaker": "King Milinda",
+          "text": "No, revered sir..."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Nāgasena",
+          "text": "Even so, sire, an evil deed is slight... it affects only the doer... But as, sire, a mighty and great cloud were to pour down rain satisfying the earth’s surface, yet would the water from that great cloud, spread out all round?"
+        },
+        {
+          "turn_index": 9,
+          "speaker": "King Milinda",
+          "text": "Certainly, revered sir."
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Nāgasena",
+          "text": "Even so, sire, a good deed is abundant; because of its abundance one is able to share it even with devas and mankind."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING",
+          "UNMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "King demands logical consistency: if good can be transferred, evil should be too.",
+        "end_state_desc": "King accepts the asymmetry of merit based on 'magnitude' analogies (Drop vs. Cloud).",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry 2 & 4: Rain/Distribution and Merit Economics. Explaining asymmetry in moral physics.",
+        "what_model_should_learn": [
+          "How to explain 'non-zero-sum' dynamics (merit) vs 'local' dynamics (evil) using physics metaphors (rain/drops).",
+          "How to refute a 'false equivalence' argument by showing difference in magnitude."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        [cite_start]"section": "Part VIII, 4 [cite: 1209-1237]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "milinda_022_rubbing_sticks_nibbana",
+      "source_text": "The Questions of King Milinda",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "King Milinda",
+          "text": "Revered Nāgasena, is there a spot to the east or the south... where Nibbāna is stored up?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nāgasena",
+          "text": "There is no spot, sire... where Nibbāna is stored up."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "King Milinda",
+          "text": "If, revered Nāgasena, there is no place for the storing up of Nibbāna, well then, there is no Nibbāna... As there are... fields producing crops... mines producing gems... even so, revered Nāgasena, if there is Nibbāna, there must be a place for producing Nibbāna."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nāgasena",
+          "text": "There is no place for the storing up of Nibbāna, sire; but there is this Nibbāna... It is, sire, as there is fire, though there is no place for storing it up, and a man rubbing two sticks together obtains fire. Even so, sire, there is Nibbāna, though there is no place for storing it up, and one practising rightly realizes Nibbāna by means of proper attention."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "King holds a materialist view: 'Things' must have a 'location' or 'source mine'.",
+        "end_state_desc": "King accepts that a potentiality (Fire/Nibbana) can exist without a physical storage depot.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry 4: Fire/Potentiality. Explaining existence without location.",
+        "what_model_should_learn": [
+          "How to use the 'rubbing sticks' analogy to explain emergent phenomena or latent potentialities.",
+          "How to debunk the 'container' view of spiritual states."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        [cite_start]"section": "Part VIII, 12 [cite: 1353-1360]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "milinda_023_backsliders_barrage",
+      "source_text": "The Questions of King Milinda",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "King Milinda",
+          "text": "Revered Nāgasena, this Dispensation... is mighty... It is not right to let a layman go forth so long as he is a mere householder. ... Because of their backsliding people may think: ‘Vain, indeed, must be this Dispensation... that these people have turned back from it.’"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nāgasena",
+          "text": "Supposing, sire, there were a pond full of pure, clear, cold water. Some man, dirty... should come there, and without bathing in it should turn back again, still dirty as before. Whom would the people blame... the dirty man or the pond?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "King Milinda",
+          "text": "The people would blame the dirty man... What defect is there in the pond?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nāgasena",
+          "text": "Even so, sire, the Tathāgata constructed the pond of the noble true Dhamma... Or, sire, it is as if a man afflicted with a dire disease should visit a physician... but he does not let himself be treated and turns back still an ill man. Whom would the people blame...?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "King Milinda",
+          "text": "The people would blame the sick man... What defect is there in the physician?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Nāgasena",
+          "text": "Even so, sire... Or, sire, it is as if a famished man arriving at a mighty distribution of food... but not eating any of that food, should turn back famished as before, whom would the people blame...?"
+        },
+        {
+          "turn_index": 7,
+          "speaker": "King Milinda",
+          "text": "The people would blame the famished man..."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Nāgasena",
+          "text": "Even so, sire... If someone, not partaking of that meal, turns back... the people would blame only him..."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "King argues for exclusivity: Allowing failures damages the reputation of the system.",
+        "end_state_desc": "King accepts that the System (Pond/Doctor) is not liable for the User's (Dirty/Sick man) failure to engage.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry 5: Multi-Analogy Barrage. Rotating domains (Hygiene -> Medicine -> Food) to reinforce one point.",
+        "what_model_should_learn": [
+          "How to stack multiple analogies (Pond, Doctor, Meal) to make a point undeniable.",
+          "How to defend a system's efficacy against user error."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        [cite_start]"section": "Part VI, 6 [cite: 1074-1091]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "milinda_024_duration_dhamma_reservoir",
+      "source_text": "The Questions of King Milinda",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "King Milinda",
+          "text": "Revered Nāgasena, it has been said by the Blessed One: ‘Ānanda, the true Dhamma will last now for only five hundred years.’ But, on the other hand... ‘If these monks were to live rightly, the world might not be empty of arahats.’ If the first of these statements is correct, the second is misleading..."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nāgasena",
+          "text": "The Blessed One, sire, did make both statements... The one deals with the duration of the Dispensation, the other illustrates the practice... Suppose, sire, there is a reservoir full of fresh clean water... If the water in that reservoir had not dried up and a great cloud above should pour down heavy and continuous rain, would the water in that reservoir be exhausted and dried up?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "King Milinda",
+          "text": "No, revered sir."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nāgasena",
+          "text": "Even so, sire... If the sons of the Buddha were to make the rain of the cloud of good behaviour... pour down heavily... so would this reservoir... last for a very long time... If, sire, people were to continually polish with fine soft red powder a stainless mirror... would dirt and dust and mud arise on its surface?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "King Milinda",
+          "text": "No, revered sir. On the contrary, it would become even more stainless than before."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Nāgasena",
+          "text": "Even so, sire... Grounded on practice, sire, is the Dispensation of the Teacher... It will last so long as practice does not disappear."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING",
+          "UNMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "King sees a contradiction: A prophesied limit (500 years) vs. a conditional promise (forever if practiced).",
+        "end_state_desc": "King accepts the 'Renewal' model: The limit applies to the 'standing stock', but practice acts as 'refilling rain'.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry 2 & 5: Rain/Reservoir & Paradox Resolution via Conditional Logic.",
+        "what_model_should_learn": [
+          "How to use the 'Reservoir + Rain' analogy to explain how a decaying system can be sustained indefinitely by new input.",
+          "How to resolve 'Fate vs. Free Will' contradictions using system dynamics."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        [cite_start]"section": "Part I, 7 [cite: 653-681]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "milinda_025_abolition_rules_governance",
+      "source_text": "The Questions of King Milinda",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "King Milinda",
+          "text": "Revered Nāgasena, this too was said by the Blessed One... ‘When I am gone, Ānanda, let the Order, if it should so desire, abolish the lesser and minor rules of training.’ Now, revered Nāgasena, were these lesser and minor rules of training wrongly laid down... since the Blessed One allowed them to be abolished...?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nāgasena",
+          "text": "In both cases, sire, the Blessed One said as you have declared. But in the second case it was to test the monks that he said it... As, sire, a king of kings might say to his sons: ‘This great country... reaches to the sea... It is hard to maintain it much longer with the forces we have... So, my children, when I am gone, you had better abandon the outlying districts...’ Now, sire, would the princes... give up those outlying districts...?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "King Milinda",
+          "text": "No, revered sir, kings are greedier than that. The princes... would never give up what they already possessed."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nāgasena",
+          "text": "Even so, sire, the Tathāgata spoke thus testing the monks... Sire, the sons of the Buddha... would preserve even more than another hundred and fifty rules of training-how then should they let go of the rules of training that had been laid down originally?"
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "King interprets permission to relax rules as an admission of flaw in the rules.",
+        "end_state_desc": "King accepts the 'Test of Zeal' model: Permission was given to prove the disciples' commitment to hold *more* than the minimum.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Geometry 6: Royal/Lay Governance. Using statecraft analogies to explain spiritual discipline.",
+        "what_model_should_learn": [
+          "How to use 'Kingdom/Territory' analogies to explain 'Rule/Discipline' retention.",
+          "How to reframe a 'concession' as a 'test of loyalty'."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        [cite_start]"section": "Part II, 1 [cite: 757-766]",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    }
+  ],
+  "discard_log": [
+    "Skipped 'The Tortoise' list in Part VII as it lacks the adversarial dialogue structure of the Dilemmas.",
+    "Skipped 'Similes' section generally to focus on the King's logical challenges."
+  ],
+  "extraction_stats": {
+    "total_episodes": 5,
+    "turn_count_distribution": {
+      "2-4": 2,
+      "5-7": 1,
+      "8-10": 2,
+      "11-14": 0
+    },
+    "avg_turns_per_episode": 6.4
+  },
+  "extraction_confidence": "high"
+}

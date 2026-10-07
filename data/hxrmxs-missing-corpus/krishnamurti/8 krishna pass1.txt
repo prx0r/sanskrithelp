@@ -1,0 +1,1829 @@
+{
+  "episodes": [
+    {
+      "episode_id": "krishna_001_t01_t11_hopeless_ideal",
+      "source_text": "Commentaries On Living Series 1",
+      "lineage": "Krishnamurti",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Visitor",
+          "text": "Don’t answer, just listen. Do you feel incapable of becoming somebody?",
+          "observable_student_behaviors": [
+            "states_vulnerability",
+            "asks_rhetorical_question"
+          ],
+          "behavior_tags": [
+            "existential_insecurity"
+          ],
+          "inferred_state": {
+            "reading": "initial_disclosure",
+            "confidence": 0.8
+          },
+          "annotator_uncertainty": 0.2
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Visitor",
+          "text": "You are perfectly right. Ever since I heard you some years ago as a boy, it has been my ideal, if I may say so, to be like you. It’s in our blood to be religious, and I have felt I could be like that; but there has always been a deep fear of never coming near it.",
+          "observable_student_behaviors": [
+            "confesses_ideal",
+            "admits_fear"
+          ],
+          "behavior_tags": [
+            "identification_with_guru",
+            "unmet_aspiration"
+          ],
+          "inferred_state": {
+            "reading": "guilty_admiration",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Visitor",
+          "text": "Now that you point it out, that is exactly it.",
+          "observable_student_behaviors": [
+            "acknowledges_insight"
+          ],
+          "behavior_tags": [
+            "concession"
+          ],
+          "inferred_state": {
+            "reading": "epistemic_shift",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 11,
+          "speaker": "Visitor",
+          "text": "Yes, I really do.",
+          "observable_student_behaviors": [
+            "confirms_realization"
+          ],
+          "behavior_tags": [
+            "direct_affirmation"
+          ],
+          "inferred_state": {
+            "reading": "genuine_understanding",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Krishnamurti",
+          "text": "Probably you have a religious ideal; and do you feel you have not the capacity to live up to or achieve it? Do you feel a sense of hopelessness about it, a sense of guilt or frustration?",
+          "observable_teaching_actions": [
+            "probes_core_issue",
+            "reflects_feeling_state"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Probing the core conflict (Ideal vs Capacity) that drives the visitor’s suffering.",
+          "function_id": "UM_02",
+          "classification_evidence": "Contradiction exposure: High Ideal vs Low Capacity results in hopelessness/guilt.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_03",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [
+            "spiritual_superego"
+          ],
+          "trap_notes": [
+            "Visitor is trapped by the impossible demand of the ideal."
+          ],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Ideal + Incapacity $\\rightarrow$ Guilt/Hopelessness.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 3,
+            "reaction_label": "elaborates",
+            "evidence": "You are perfectly right. Ever since I heard you some years ago as a boy...",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Krishnamurti",
+          "text": "Let us go slowly. Though you are not frightened of being outwardly insecure, you are frightened of being insecure inwardly.",
+          "observable_teaching_actions": [
+            "sets_pacing",
+            "draws_distinction"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Establishing a key distinction between external and internal security as the terrain of the problem.",
+          "function_id": "RM_03",
+          "classification_evidence": "Conceptual distinction: Outward Insecurity vs Inward Insecurity.",
+          "register": {
+            "intensity": "PR_01",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_03",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "comparison",
+          "mechanism_comment": "Comparison of two types of fear/insecurity.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 7,
+            "reaction_label": "conceptual_concession",
+            "evidence": "Now that you point it out, that is exactly it.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Krishnamurti",
+          "text": "Why do you want to become or achieve an ideal? Isn’t it only to be secure, to feel safe?",
+          "observable_teaching_actions": [
+            "questions_motive",
+            "substitutes_ideal_with_security"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Collapsing the spiritual motive (ideal) into the psychological motive (security).",
+          "function_id": "UM_05",
+          "classification_evidence": "Ego displacement: Idealism is displaced by the underlying craving for safety.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_03",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [
+            "identification_with_content"
+          ],
+          "trap_notes": [
+            "Visitor identifies aspiration (the ideal) rather than the underlying fear (insecurity)."
+          ],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Idealism collapses to security.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 7,
+            "reaction_label": "conceptual_concession",
+            "evidence": "Now that you point it out, that is exactly it.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Krishnamurti",
+          "text": "This refuge you call an ideal; but actually you want to be safe, protected. Is that it?",
+          "observable_teaching_actions": [
+            "reasserts_collapse",
+            "seeks_confirmation"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Verifying the collapse of the motive: Ideal = Refuge.",
+          "function_id": "UM_05",
+          "classification_evidence": "Ego displacement: Re-stating the displacement to force acknowledgement.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_03",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Final verification of the collapse.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 7,
+            "reaction_label": "conceptual_concession",
+            "evidence": "Now that you point it out, that is exactly it.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "META"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Krishnamurti",
+          "text": "You have discovered this now, have you not? But let us proceed further.",
+          "observable_teaching_actions": [
+            "validates_insight",
+            "signals_continuation"
+          ],
+          "phase": "META",
+          "phase_reason": "Acknowledging the completion of the psychological insight stage before moving deeper.",
+          "function_id": "ME_01",
+          "classification_evidence": "Process discipline: Validating the current insight and steering the inquiry forward.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_02",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "feedback",
+          "mechanism_comment": "Acknowledging the correct input from the student to reinforce learning.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 11,
+            "reaction_label": "conceptual_concession",
+            "evidence": "Yes, I really do.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "META",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Krishnamurti",
+          "text": "You see the obvious shallowness of outward security; but do you also see the falseness of seeking inward security through becoming the ideal?",
+          "observable_teaching_actions": [
+            "draws_distinction",
+            "elevates_challenge"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Building a clear model: distinguishing obvious vs hidden security traps (inward vs outward).",
+          "function_id": "RM_03",
+          "classification_evidence": "Conceptual distinction: Distinguishing the falseness of seeking inward security through the Ideal.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "comparison",
+          "mechanism_comment": "Comparing the two modes of security seeking.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 11,
+            "reaction_label": "conceptual_concession",
+            "evidence": "Yes, I really do.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Krishnamurti",
+          "text": "The ideal is your refuge, instead of money. Do you really see this?",
+          "observable_teaching_actions": [
+            "uses_analogy",
+            "demands_sincere_seeing"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Building clarity by equating the Ideal to money (as functional objects of security).",
+          "function_id": "RM_01",
+          "classification_evidence": "Structural mapping: Ideal = Money, functionally equivalent as a security refuge.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_03",
+            "phenomenological_depth": "PD_04",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [
+            "conceptual_reification"
+          ],
+          "trap_notes": [
+            "Ideal is reified as something sacred rather than a psychological object."
+          ],
+          "mechanism_shape": "structural_analogy",
+          "mechanism_comment": "Ideal and money serve the same function in the pursuit of security.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 11,
+            "reaction_label": "conceptual_concession",
+            "evidence": "Yes, I really do.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ]
+    },
+    {
+      "episode_id": "krishna_002_t01_t12_desire_conflict_loop",
+      "source_text": "Commentaries On Living Series 1",
+      "lineage": "Krishnamurti",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Visitor",
+          "text": "Both pleasure and conflict are disturbing, are they not?",
+          "observable_student_behaviors": [
+            "states_opinion",
+            "seeks_confirmation"
+          ],
+          "behavior_tags": [
+            "conceptual_generalization"
+          ],
+          "inferred_state": {
+            "reading": "initial_theory",
+            "confidence": 0.8
+          },
+          "annotator_uncertainty": 0.2
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Visitor",
+          "text": "Or do you think pleasure does not disturb?",
+          "observable_student_behaviors": [
+            "questions_teacher"
+          ],
+          "behavior_tags": [
+            "seeking_dichotomy"
+          ],
+          "inferred_state": {
+            "reading": "seeking_clarity",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Visitor",
+          "text": "If we have no desire we will die; if we have no conflict we will go to sleep.",
+          "observable_student_behaviors": [
+            "asserts_necessity",
+            "uses_hyperbole"
+          ],
+          "behavior_tags": [
+            "existential_defense",
+            "theoretical_resistance"
+          ],
+          "inferred_state": {
+            "reading": "fear_of_nihilism",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Visitor",
+          "text": "In this process, what is it that gives rise to conflict? Can we be free from conflict? And what is beyond conflict?",
+          "observable_student_behaviors": [
+            "accepts_reframe",
+            "asks_process_questions"
+          ],
+          "behavior_tags": [
+            "shifting_to_method",
+            "multi-part_inquiry"
+          ],
+          "inferred_state": {
+            "reading": "receptive_inquiry",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 3,
+          "speaker": "Krishnamurti",
+          "text": "Is that true? Have you never noticed the pain of pleasure?",
+          "observable_teaching_actions": [
+            "challenges_premise",
+            "introduces_contradiction"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Attacking the premise that pleasure is simple/harmless by introducing the internal contradiction (pain of pleasure).",
+          "function_id": "UM_02",
+          "classification_evidence": "Contradiction exposure: Pleasure contains its own pain (craving/anxiety).",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_03",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "category_conflation"
+          ],
+          "trap_notes": [
+            "Visitor separates Pleasure (good) from Conflict (bad)."
+          ],
+          "mechanism_shape": "embodied_contradiction",
+          "mechanism_comment": "Pointing to the lived, painful experience within the sought-after pleasure.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 6,
+            "reaction_label": "pushes_back",
+            "evidence": "If we have no desire we will die; if we have no conflict we will go to sleep.",
+            "outcome_label": "partial_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Krishnamurti",
+          "text": "Is not the craving for pleasure ever on the increase, ever demanding more and more?",
+          "observable_teaching_actions": [
+            "maps_causal_chain",
+            "highlights_craving"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Continuing the dismantling by showing craving as the root disturbance.",
+          "function_id": "UM_02",
+          "classification_evidence": "Contradiction exposure: Craving for pleasure = disturbance/conflict.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Pleasure $\\rightarrow$ Craving $\\rightarrow$ Conflict.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 6,
+            "reaction_label": "pushes_back",
+            "evidence": "If we have no desire we will die; if we have no conflict we will go to sleep.",
+            "outcome_label": "partial_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Krishnamurti",
+          "text": "Is not the craving for more as disturbing as the urgency of avoidance?",
+          "observable_teaching_actions": [
+            "equates_opposing_forces"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Equating two forces (craving/avoidance) to reveal their functional identity as conflict.",
+          "function_id": "UM_02",
+          "classification_evidence": "Contradiction exposure: Equating craving (desire) and avoidance (fear) as two sides of the same conflict.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "comparison",
+          "mechanism_comment": "Equating approach (craving) and withdrawal (avoidance).",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 6,
+            "reaction_label": "pushes_back",
+            "evidence": "If we have no desire we will die; if we have no conflict we will go to sleep.",
+            "outcome_label": "partial_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "META"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Krishnamurti",
+          "text": "Are you speaking from experience, or have you merely an idea about it?",
+          "observable_teaching_actions": [
+            "challenges_source_of_claim",
+            "forces_phenomenological_check"
+          ],
+          "phase": "META",
+          "phase_reason": "Challenging the source of the resistance (experience vs idea) to enforce process discipline.",
+          "function_id": "ME_01",
+          "classification_evidence": "Process discipline: Enforcing the rule that claims must be grounded in immediate experience, not theoretical belief.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_02",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [
+            "conceptual_reification"
+          ],
+          "trap_notes": [
+            "Visitor reifies conflict/desire as existential necessities without checking experience."
+          ],
+          "mechanism_shape": "source_tracing",
+          "mechanism_comment": "Tracing the assertion back to its foundation: thought vs direct perception.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 10,
+            "reaction_label": "elaborates",
+            "evidence": "In this process, what is it that gives rise to conflict? Can we be free from conflict?...",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "META",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "experience_vs_idea_check",
+            "shape": "source_of_knowledge_challenge",
+            "canonical_candidate": true
+          }
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Krishnamurti",
+          "text": "We are imagining what it would be like to have no conflict and so are preventing the experiencing of whatever that state is in which all conflict has ceased.",
+          "observable_teaching_actions": [
+            "diagnoses_resistance",
+            "identifies_mental_block"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Dismantling the resistance itself by showing that imagination blocks insight.",
+          "function_id": "UM_06",
+          "classification_evidence": "Constraint removal: Removing the constraint that 'imagining freedom' is the path to freedom.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "problem_solving_stance"
+          ],
+          "trap_notes": [
+            "Visitor is attempting to solve the problem by theorizing about the ideal state."
+          ],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Imagination $\\rightarrow$ Blocking Experience.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 10,
+            "reaction_label": "elaborates",
+            "evidence": "In this process, what is it that gives rise to conflict? Can we be free from conflict?...",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Krishnamurti",
+          "text": "Our problem is, what causes conflict?",
+          "observable_teaching_actions": [
+            "redefines_problem",
+            "sets_focus"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Shifting the focus from the impossible theory of 'no conflict' to the immediate question of 'cause'.",
+          "function_id": "RM_03",
+          "classification_evidence": "Conceptual distinction: Problem is Cause of Conflict, not State Beyond Conflict.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "none",
+          "mechanism_comment": null,
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 10,
+            "reaction_label": "elaborates",
+            "evidence": "In this process, what is it that gives rise to conflict? Can we be free from conflict?...",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 11,
+          "speaker": "Krishnamurti",
+          "text": "It is naming that gives rise to conflict, is it not?",
+          "observable_teaching_actions": [
+            "names_root_cause",
+            "seeks_confirmation"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Providing the key distinction: naming/labeling as the genesis of conflict.",
+          "function_id": "RM_03",
+          "classification_evidence": "Conceptual distinction: Naming (Thought) $\\rightarrow$ Conflict.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Identifying Naming as the first cause.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "unclear",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 12,
+          "speaker": "Krishnamurti",
+          "text": "The interval between response and naming is experiencing. Experiencing, in which there is neither the experiencer nor the experienced, is beyond conflict.",
+          "observable_teaching_actions": [
+            "defines_experiential_gap",
+            "defines_state_beyond_conflict"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Final definition of the mechanism and the resultant state (experiencing).",
+          "function_id": "RM_05",
+          "classification_evidence": "Frame upgrade: Defining true 'Experiencing' as a non-dual state (no experiencer/experienced) which is beyond conflict.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_04",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "ontological_frame_upgrade",
+          "mechanism_comment": "Introducing the non-dual observer/observed relationship.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ]
+    },
+    {
+      "episode_id": "krishna_003_t01_t10_dissatisfaction_reframed",
+      "source_text": "Commentaries On Living Series 1",
+      "lineage": "Krishnamurti",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Doctor",
+          "text": "I have been through all that yet I am completely dissatisfied.",
+          "observable_student_behaviors": [
+            "states_global_dissatisfaction",
+            "claims_experience"
+          ],
+          "behavior_tags": [
+            "existential_vague",
+            "suffering_posturing"
+          ],
+          "inferred_state": {
+            "reading": "intellectual_despair",
+            "confidence": 0.85
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Doctor",
+          "text": "I have been through that too, but I am still dissatisfied.",
+          "observable_student_behaviors": [
+            "reasserts_claim",
+            "rejects_diagnosis"
+          ],
+          "behavior_tags": [
+            "resistance"
+          ],
+          "inferred_state": {
+            "reading": "defensive_entrenchment",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Doctor",
+          "text": "It looks that way, doesn’t it?",
+          "observable_student_behaviors": [
+            "seeks_confirmation",
+            "concedes_point"
+          ],
+          "behavior_tags": [
+            "skeptical_concession"
+          ],
+          "inferred_state": {
+            "reading": "ambivalent_realization",
+            "confidence": 0.75
+          },
+          "annotator_uncertainty": 0.2
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Krishnamurti",
+          "text": "You may be dissatisfied with outward relationships, but perhaps you are seeking some psychological attachment that will give full satisfaction.",
+          "observable_teaching_actions": [
+            "offers_diagnosis",
+            "shifts_locus_inward"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Challenging the premise of global dissatisfaction by suggesting a specific, attachment-based motive.",
+          "function_id": "UM_05",
+          "classification_evidence": "Ego displacement: Suggesting dissatisfaction is merely unfulfilled desire for attachment/security.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_03",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "vagueness"
+          ],
+          "trap_notes": [
+            "The term 'dissatisfied' is used vaguely to cover specific unfulfilled craving."
+          ],
+          "mechanism_shape": "none",
+          "mechanism_comment": null,
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 3,
+            "reaction_label": "pushes_back",
+            "evidence": "I have been through that too, but I am still dissatisfied.",
+            "outcome_label": "partial_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Krishnamurti",
+          "text": "I wonder if you really are?",
+          "observable_teaching_actions": [
+            "challenges_claim_authenticity"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Attacking the truthfulness of the initial claim to destabilize the user’s narrative.",
+          "function_id": "UM_02",
+          "classification_evidence": "Contradiction exposure: Questioning the veracity of the claim based on the user's continued search/movement.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "ego_defense"
+          ],
+          "trap_notes": [
+            "The Doctor derives status/identity from his claim of existential dissatisfaction."
+          ],
+          "mechanism_shape": "none",
+          "mechanism_comment": null,
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 8,
+            "reaction_label": "conceptual_concession",
+            "evidence": "It looks that way, doesn’t it?",
+            "outcome_label": "partial_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Krishnamurti",
+          "text": "If you were wholly discontented, there would be no movement in any particular direction, would there?",
+          "observable_teaching_actions": [
+            "defines_true_discontent",
+            "uses_logical_test"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Establishing a behavioral test for genuine discontent (no movement).",
+          "function_id": "UM_01",
+          "classification_evidence": "Definition collapse: Defining true discontent as the cessation of movement/search.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "threshold",
+          "mechanism_comment": "Movement acts as a threshold indicator of unacknowledged desire.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 8,
+            "reaction_label": "conceptual_concession",
+            "evidence": "It looks that way, doesn’t it?",
+            "outcome_label": "partial_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Krishnamurti",
+          "text": "If you are thoroughly dissatisfied with being in a room, you do not seek a bigger room with nicer furniture; yet this desire to find a better room is what you call dissatisfaction.",
+          "observable_teaching_actions": [
+            "uses_analogy",
+            "exposes_desire_as_dissatisfaction"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Using the 'room' analogy to show the difference between searching (craving) and true non-movement (discontent).",
+          "function_id": "UM_05",
+          "classification_evidence": "Ego displacement: Collapsing 'dissatisfaction' into a concrete craving for a 'nicer room'.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_03",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "structural_analogy",
+          "mechanism_comment": "Better Room analogy reveals the underlying search motive.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 8,
+            "reaction_label": "conceptual_concession",
+            "evidence": "It looks that way, doesn’t it?",
+            "outcome_label": "partial_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Krishnamurti",
+          "text": "Your dissatisfaction arises from not having found complete satisfaction.",
+          "observable_teaching_actions": [
+            "redefines_cause"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Shifting the cause from outward world to inward unfulfilled desire.",
+          "function_id": "UM_05",
+          "classification_evidence": "Ego displacement: Dissatisfaction is revealed as the frustration of the seeking mechanism itself.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Lack of satisfaction $\\rightarrow$ Dissatisfaction.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 8,
+            "reaction_label": "conceptual_concession",
+            "evidence": "It looks that way, doesn’t it?",
+            "outcome_label": "partial_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Krishnamurti",
+          "text": "So you are really not dissatisfied; it is simply that you have not so far been able to find complete and lasting satisfaction in anything.",
+          "observable_teaching_actions": [
+            "states_conclusion",
+            "redefines_state"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Building the clearer model: The true state is unfulfilled craving, not existential insight.",
+          "function_id": "RM_03",
+          "classification_evidence": "Conceptual distinction: True dissatisfaction (cessation of search) vs Unfulfilled craving (continued search).",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "comparison",
+          "mechanism_comment": "Comparing the claimed emotional state with the observed motivational state.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 10,
+            "reaction_label": "elaborates",
+            "evidence": "What you really want is lasting self-gratification.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Krishnamurti",
+          "text": "What you really want is lasting self-gratification.",
+          "observable_teaching_actions": [
+            "names_core_motive"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Final and clearest statement of the true underlying motive.",
+          "function_id": "RM_03",
+          "classification_evidence": "Conceptual distinction: Identifying the pursuit of 'self-gratification' as the core driver.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "conceptual_reification"
+          ],
+          "trap_notes": [
+            "The abstract term 'dissatisfaction' is collapsed into the motive of self-gratification."
+          ],
+          "mechanism_shape": "source_tracing",
+          "mechanism_comment": "Tracing the emotional experience back to the central desire for gratification.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ]
+    },
+    {
+      "episode_id": "krishna_004_t01_t13_attachment_exploitation",
+      "source_text": "Commentaries On Living Series 1",
+      "lineage": "Krishnamurti",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Man",
+          "text": "Why shouldn’t I be exploited? I don’t mind being used for the cause, which has great significance, and I want to be completely identified with it.",
+          "observable_student_behaviors": [
+            "asserts_willingness_to_be_used",
+            "claims_identification"
+          ],
+          "behavior_tags": [
+            "self_sacrificial_posture",
+            "spiritual_ego"
+          ],
+          "inferred_state": {
+            "reading": "proud_self_subordination",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Man",
+          "text": "But I have a problem of personal attachment which distracts me from the work. It is this attachment I want to understand.",
+          "observable_student_behaviors": [
+            "shifts_topic",
+            "names_distraction"
+          ],
+          "behavior_tags": [
+            "seeking_instruction",
+            "internal_conflict"
+          ],
+          "inferred_state": {
+            "reading": "pragmatic_idealist",
+            "confidence": 0.85
+          },
+          "annotator_uncertainty": 0.15
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Man",
+          "text": "I don’t mind being exploited for the cause, which I consider has great beauty and worth in the world.",
+          "observable_student_behaviors": [
+            "reasserts_sacrifice"
+          ],
+          "behavior_tags": [
+            "resistance"
+          ],
+          "inferred_state": {
+            "reading": "defensive_entrenchment",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Man",
+          "text": "Those with whom I work are spiritual people with high ideals, and they know better than I do what should be done.",
+          "observable_student_behaviors": [
+            "externalizes_authority",
+            "claims_humility"
+          ],
+          "behavior_tags": [
+            "spiritual_hierarchy"
+          ],
+          "inferred_state": {
+            "reading": "dependent_adoration",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Man",
+          "text": "It is a beautiful cause, and I offered my services because I felt that I must help it.",
+          "observable_student_behaviors": [
+            "reasserts_emotional_motive"
+          ],
+          "behavior_tags": [
+            "idealistic_motive"
+          ],
+          "inferred_state": {
+            "reading": "reasserting_narrative",
+            "confidence": 0.85
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 11,
+          "speaker": "Man",
+          "text": "Of course you are right. I was in the army for four years during the last war.",
+          "observable_student_behaviors": [
+            "concedes_analogy",
+            "discloses_personal_history"
+          ],
+          "behavior_tags": [
+            "experiential_link"
+          ],
+          "inferred_state": {
+            "reading": "emotional_realization",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 12,
+          "speaker": "Man",
+          "text": "But the people I am helping now are spiritual.",
+          "observable_student_behaviors": [
+            "pushes_back",
+            "reasserts_special_category"
+          ],
+          "behavior_tags": [
+            "spiritual_exception",
+            "resistance"
+          ],
+          "inferred_state": {
+            "reading": "clinging_to_hierarchy",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 3,
+          "speaker": "Krishnamurti",
+          "text": "But why should you be exploited? Are you not as important as the individual or the group that is exploiting you?",
+          "observable_teaching_actions": [
+            "challenges_acceptance_of_exploitation",
+            "questions_self_valuation"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Attacking the premise that exploitation is acceptable by challenging the user's implicit self-devaluation.",
+          "function_id": "UM_06",
+          "classification_evidence": "Constraint removal: Removing the assumption that the 'cause' is more important than the individual's self-worth.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "identification_with_content"
+          ],
+          "trap_notes": [
+            "Man identifies self-worth with the cause rather than inherent self."
+          ],
+          "mechanism_shape": "comparison",
+          "mechanism_comment": "Comparing the worth of the exploited individual vs the exploiting group/cause.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 4,
+            "reaction_label": "pushes_back",
+            "evidence": "I don’t mind being exploited for the cause...",
+            "outcome_label": "partial_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Krishnamurti",
+          "text": "Why do you think they are more capable of doing good than you are?",
+          "observable_teaching_actions": [
+            "challenges_external_authority",
+            "questions_dependency"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Dismantling the perceived superiority and authority of the exploiting group.",
+          "function_id": "UM_06",
+          "classification_evidence": "Constraint removal: Removing the assumption that the other group has superior competence/vision.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "looking_outward"
+          ],
+          "trap_notes": [
+            "Man places authority and capability entirely outside himself."
+          ],
+          "mechanism_shape": "source_tracing",
+          "mechanism_comment": "Tracing the source of perceived superiority.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 8,
+            "reaction_label": "elaborates",
+            "evidence": "It is a beautiful cause, and I offered my services...",
+            "outcome_label": "partial_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Krishnamurti",
+          "text": "How do you know they are ‘spiritual,’ to use your own word, and have wider vision?",
+          "observable_teaching_actions": [
+            "challenges_label_validity",
+            "forces_verification"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Attacking the labels the man uses to justify his deference.",
+          "function_id": "UM_01",
+          "classification_evidence": "Definition collapse: Challenging the vague definition of 'spiritual' and 'wider vision'.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "semantic_fog"
+          ],
+          "trap_notes": [
+            "Labels like 'spiritual' are used without concrete verification."
+          ],
+          "mechanism_shape": "abstract_to_concrete_check",
+          "mechanism_comment": "Demanding objective evidence for an abstract label.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 8,
+            "reaction_label": "elaborates",
+            "evidence": "It is a beautiful cause, and I offered my services...",
+            "outcome_label": "partial_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Krishnamurti",
+          "text": "You are like those men who join the army to kill or to be killed for a noble cause. Do they know what they are doing?",
+          "observable_teaching_actions": [
+            "uses_high_contrast_analogy",
+            "equates_ideals_to_killing"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Equating the man's idealism to military violence to expose the self-deception in his motives.",
+          "function_id": "UM_03",
+          "classification_evidence": "Reductio extension: Comparing 'spiritual service' to 'killing for a noble cause' to test the purity of his intent.",
+          "register": {
+            "intensity": "PR_04",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_03",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "structural_analogy",
+          "mechanism_comment": "Spiritual Cause $\\sim$ War Cause (Functionally identical self-sacrifice).",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 11,
+            "reaction_label": "conceptual_concession",
+            "evidence": "Of course you are right. I was in the army for four years during the last war.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Krishnamurti",
+          "text": "Do you know what you are doing?",
+          "observable_teaching_actions": [
+            "forces_self_reflection"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Forcing the man to apply the principle derived from the army analogy to his own current action.",
+          "function_id": "UM_04",
+          "classification_evidence": "Abstraction strip: Demanding immediate recognition of the motive/action.",
+          "register": {
+            "intensity": "PR_04",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "looking_outward"
+          ],
+          "trap_notes": [
+            "Man focuses on external cause rather than internal action/motive."
+          ],
+          "mechanism_shape": "source_tracing",
+          "mechanism_comment": "Tracing the action back to the source (his own immediate awareness).",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 11,
+            "reaction_label": "conceptual_concession",
+            "evidence": "Of course you are right. I was in the army for four years during the last war.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 13,
+          "speaker": "Krishnamurti",
+          "text": "Is it beautiful to be ambitious and cover it up with a lot of high-sounding words about Masters, humanity, art, brotherhood?",
+          "observable_teaching_actions": [
+            "names_core_motive",
+            "attacks_idealistic_labels"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Final exposure of the hidden motive (ambition) beneath the spiritual narrative.",
+          "function_id": "UM_05",
+          "classification_evidence": "Ego displacement: Suggesting the noble cause is merely a cover for ambition.",
+          "register": {
+            "intensity": "PR_04",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "spiritual_superego"
+          ],
+          "trap_notes": [
+            "Man is using high-sounding words to mask self-interest/ambition."
+          ],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Collapsing the spiritual label into the singular psychological term 'ambitious'.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ]
+    },
+    {
+      "episode_id": "krishna_005_t01_t11_fear_loneliness_observer_observed",
+      "source_text": "Commentaries On Living Series 1",
+      "lineage": "Krishnamurti",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Visitor",
+          "text": "I see that all right, and it is true; but what am I to do about it?",
+          "observable_student_behaviors": [
+            "accepts_fact",
+            "seeks_instruction"
+          ],
+          "behavior_tags": [
+            "problem_solving_stance"
+          ],
+          "inferred_state": {
+            "reading": "receptive_pragmatism",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Visitor",
+          "text": "Then what is love?",
+          "observable_student_behaviors": [
+            "changes_topic",
+            "asks_definitional_question"
+          ],
+          "behavior_tags": [
+            "conceptual_pivot"
+          ],
+          "inferred_state": {
+            "reading": "intellectual_integration",
+            "confidence": 0.8
+          },
+          "annotator_uncertainty": 0.2
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Krishnamurti",
+          "text": "You cannot do anything about it. Whatever you do is an activity of escape.",
+          "observable_teaching_actions": [
+            "rejects_instruction_seeking",
+            "diagnoses_activity_as_escape"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Dismantling the primary trap (the belief that an action/method can solve the problem).",
+          "function_id": "UM_06",
+          "classification_evidence": "Constraint removal: Removing the assumption that action (method) is necessary or helpful.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "problem_solving_stance"
+          ],
+          "trap_notes": [
+            "Visitor seeks method ('what am I to do') to escape loneliness."
+          ],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Collapsing the solution space (method $\\rightarrow$ escape).",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 8,
+            "reaction_label": "elaborates",
+            "evidence": "Then what is love?",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "SELF-MAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Krishnamurti",
+          "text": "Then you will see that you are not different or separate from that hollowness.",
+          "observable_teaching_actions": [
+            "points_to_non_separation"
+          ],
+          "phase": "SELF-MAKING",
+          "phase_reason": "Pointing directly to the non-dual identity (observer is observed).",
+          "function_id": "SM_01",
+          "classification_evidence": "Direct seeing: Pointing to the unity of observer and feeling (loneliness/hollowness).",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_04",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_04",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [
+            "reification_of_mind"
+          ],
+          "trap_notes": [],
+          "mechanism_shape": "ontological_frame_upgrade",
+          "mechanism_comment": "Shifting frame from dualistic separation to non-dual unity.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 8,
+            "reaction_label": "elaborates",
+            "evidence": "Then what is love?",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "SELF-MAKING",
+              "to": "SELF-MAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Krishnamurti",
+          "text": "You are that insufficiency. The observer is the observed emptiness.",
+          "observable_teaching_actions": [
+            "asserts_identity_collapse",
+            "names_non_dual_state"
+          ],
+          "phase": "SELF-MAKING",
+          "phase_reason": "Final and direct assertion of the observer/observed collapse.",
+          "function_id": "SM_01",
+          "classification_evidence": "Direct seeing: Asserting the identity of the 'observer' and the 'observed emptiness'.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_04",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_04",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [
+            "identification_with_content"
+          ],
+          "trap_notes": [],
+          "mechanism_shape": "subject_object_inversion",
+          "mechanism_comment": "The observer (thinker) is inverted into the substance of the observation (emptiness).",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 8,
+            "reaction_label": "elaborates",
+            "evidence": "Then what is love?",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "SELF-MAKING",
+              "to": "SELF-MAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "observer_is_observed",
+            "shape": "non_dual_identity_collapse",
+            "canonical_candidate": true
+          }
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Krishnamurti",
+          "text": "Then if you proceed further, there is no longer calling it loneliness; the terming of it has ceased.",
+          "observable_teaching_actions": [
+            "maps_consequence",
+            "points_to_naming_cessation"
+          ],
+          "phase": "SELF-MAKING",
+          "phase_reason": "Mapping the consequence of the collapse: the psychological state (loneliness) ceases to be named.",
+          "function_id": "SM_01",
+          "classification_evidence": "Direct seeing: Describing the phenomenological reality after collapse.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_04",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_04",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Collapse $\\rightarrow$ Cessation of Naming.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 8,
+            "reaction_label": "elaborates",
+            "evidence": "Then what is love?",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "SELF-MAKING",
+              "to": "SELF-MAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Krishnamurti",
+          "text": "If you proceed still further, which is rather arduous, the thing known as loneliness is not.",
+          "observable_teaching_actions": [
+            "describes_final_state"
+          ],
+          "phase": "SELF-MAKING",
+          "phase_reason": "Describing the final, absolute state where the problem itself (loneliness) ceases to exist.",
+          "function_id": "SM_01",
+          "classification_evidence": "Direct seeing: Describing the existential reality where the phenomenon is absent.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_04",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_04",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "threshold",
+          "mechanism_comment": "Describing the threshold of existence/non-existence for the psychological state.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 8,
+            "reaction_label": "elaborates",
+            "evidence": "Then what is love?",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "SELF-MAKING",
+              "to": "SELF-MAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Krishnamurti",
+          "text": "There is a complete cessation of loneliness, emptiness, of the thinker as the thought.",
+          "observable_teaching_actions": [
+            "defines_cessation",
+            "equates_thinker_with_thought"
+          ],
+          "phase": "SELF-MAKING",
+          "phase_reason": "Synthesizing the final state of non-duality and cessation of suffering.",
+          "function_id": "SM_01",
+          "classification_evidence": "Direct seeing: Final synthesis of the non-dual insight.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_04",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_04",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "ontological_frame_upgrade",
+          "mechanism_comment": "Final statement of the collapse of the dualistic thinker/thought structure.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 8,
+            "reaction_label": "elaborates",
+            "evidence": "Then what is love?",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "SELF-MAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Krishnamurti",
+          "text": "Love is not identification; it is not thought about the loved.",
+          "observable_teaching_actions": [
+            "defines_love_negatively",
+            "draws_distinction"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Building a clear model of love by distinguishing it from psychological constructs (identification, thought).",
+          "function_id": "RM_03",
+          "classification_evidence": "Conceptual distinction: Love vs Identification/Thought.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_04",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_04",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [
+            "category_conflation"
+          ],
+          "trap_notes": [
+            "Visitor conflates thought/identification with the actual state of love."
+          ],
+          "mechanism_shape": "comparison",
+          "mechanism_comment": "Definition by negation.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 8,
+            "reaction_label": "elaborates",
+            "evidence": "Then what is love?",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Krishnamurti",
+          "text": "You do not think about love when it is there; you think about it only when it is absent.",
+          "observable_teaching_actions": [
+            "maps_state_of_mind",
+            "identifies_absence_as_thought"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Building the distinction between the actual state (love) and the thinking about the state (its absence).",
+          "function_id": "RM_03",
+          "classification_evidence": "Conceptual distinction: Thinking about Love vs Being in Love.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_04",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_04",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "comparison",
+          "mechanism_comment": "Comparing the function of thought in presence vs absence.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 11,
+          "speaker": "Krishnamurti",
+          "text": "When the smoke is not, the flame is. The two cannot exist together.",
+          "observable_teaching_actions": [
+            "uses_metaphor",
+            "states_final_distinction"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Final definition of the mechanism of love/thought via metaphor.",
+          "function_id": "RM_01",
+          "classification_evidence": "Structural mapping: Smoke $\\sim$ Thought, Flame $\\sim$ Love.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_04",
+            "linguistic_style": "LS_03",
+            "phenomenological_depth": "PD_04",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "structural_analogy",
+          "mechanism_comment": "Love and thought are mutually exclusive states.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ]
+    }
+  ]
+}

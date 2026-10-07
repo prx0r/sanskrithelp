@@ -1,0 +1,5536 @@
+{
+  "episode_id": "milinda_composite_spine",
+  "source_text": "The Questions of King Milinda (Milindapañha)",
+  "lineage": "Buddhist",
+  "student_turns": [
+    {
+      "turn_index": 2,
+      "speaker": "King Milinda",
+      "text": "I, revered sir, did not come on foot. I came in a chariot.",
+      "observable_student_behaviors": [
+        "asserts_fact",
+        "identifies_composite_object"
+      ],
+      "behavior_tags": [
+        "naive_realism",
+        "conventional_language"
+      ],
+      "inferred_state": {
+        "reading": "confident_assertion",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 4,
+      "speaker": "King Milinda",
+      "text": "No, revered sir.",
+      "observable_student_behaviors": [
+        "denies_part_is_whole"
+      ],
+      "behavior_tags": [
+        "logical_consistency"
+      ],
+      "inferred_state": {
+        "reading": "compliant_denial",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 6,
+      "speaker": "King Milinda",
+      "text": "No, revered sir.",
+      "observable_student_behaviors": [
+        "denies_part_is_whole"
+      ],
+      "behavior_tags": [
+        "logical_consistency"
+      ],
+      "inferred_state": {
+        "reading": "compliant_denial",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 8,
+      "speaker": "King Milinda",
+      "text": "No, revered sir.",
+      "observable_student_behaviors": [
+        "denies_part_is_whole"
+      ],
+      "behavior_tags": [
+        "logical_consistency"
+      ],
+      "inferred_state": {
+        "reading": "compliant_denial",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 10,
+      "speaker": "King Milinda",
+      "text": "No, revered sir.",
+      "observable_student_behaviors": [
+        "denies_sum_is_whole"
+      ],
+      "behavior_tags": [
+        "logical_consistency"
+      ],
+      "inferred_state": {
+        "reading": "compliant_denial",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 12,
+      "speaker": "King Milinda",
+      "text": "No, sire.",
+      "observable_student_behaviors": [
+        "denies_separation"
+      ],
+      "behavior_tags": [
+        "logical_consistency"
+      ],
+      "inferred_state": {
+        "reading": "compliant_denial",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 14,
+      "speaker": "King Milinda",
+      "text": "I am not, revered sir, speaking a lie. It is because of the pole, because of the axle, the wheels, the body, the flag-staff, the yoke, the reins and because of the goad that ‘chariot’ exists as a mere designation.",
+      "observable_student_behaviors": [
+        "defends_truthfulness",
+        "defines_conventional_existence"
+      ],
+      "behavior_tags": [
+        "conceptual_breakthrough",
+        "nominalism"
+      ],
+      "inferred_state": {
+        "reading": "clarified_understanding",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 16,
+      "speaker": "King Milinda",
+      "text": "Revered Nāgasena, will you converse with me?",
+      "observable_student_behaviors": [
+        "initiates_dialogue",
+        "requests_engagement"
+      ],
+      "behavior_tags": [
+        "royal_protocol",
+        "formal_request"
+      ],
+      "inferred_state": {
+        "reading": "polite_authority",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 18,
+      "speaker": "King Milinda",
+      "text": "How, revered Nāgasena, do the learned converse?",
+      "observable_student_behaviors": [
+        "asks_for_definition",
+        "seeks_clarification"
+      ],
+      "behavior_tags": [
+        "rule_seeking",
+        "intellectual_curiosity"
+      ],
+      "inferred_state": {
+        "reading": "curious_inquiry",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 20,
+      "speaker": "King Milinda",
+      "text": "And how, revered sir, do kings converse?",
+      "observable_student_behaviors": [
+        "asks_for_contrast"
+      ],
+      "behavior_tags": [
+        "comparison_seeking"
+      ],
+      "inferred_state": {
+        "reading": "curious_inquiry",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 22,
+      "speaker": "King Milinda",
+      "text": "I, revered sir, will converse in the speech of the learned, not in the speech of kings. Let the revered one converse unreservedly as he converses with a monk or a novice or a lay follower or with a monastery attendant. Let the revered one converse thus, let him not be afraid.",
+      "observable_student_behaviors": [
+        "accepts_terms",
+        "renounces_privilege",
+        "grants_permission"
+      ],
+      "behavior_tags": [
+        "humility",
+        "commitment_to_inquiry"
+      ],
+      "inferred_state": {
+        "reading": "sincere_submission",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 23,
+      "speaker": "King Milinda",
+      "text": "Revered Nāgasena, is he who uprises the same or is he another?",
+      "observable_student_behaviors": [
+        "poses_binary_question",
+        "seeks_metaphysical_clarity"
+      ],
+      "behavior_tags": [
+        "binary_thinking",
+        "identity_confusion"
+      ],
+      "inferred_state": {
+        "reading": "sincere_confusion",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 25,
+      "speaker": "King Milinda",
+      "text": "No, revered sir. That boy, young, tender, lying on his back was one thing. I, who am now full-grown, am another.",
+      "observable_student_behaviors": [
+        "asserts_difference",
+        "identifies_change"
+      ],
+      "behavior_tags": [
+        "literalism",
+        "discontinuity"
+      ],
+      "inferred_state": {
+        "reading": "logical_deduction",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 27,
+      "speaker": "King Milinda",
+      "text": "Make a simile.",
+      "observable_student_behaviors": [
+        "requests_analogy"
+      ],
+      "behavior_tags": [
+        "instruction_seeking"
+      ],
+      "inferred_state": {
+        "reading": "receptive_seeking",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 29,
+      "speaker": "King Milinda",
+      "text": "Yes, revered sir, it might burn all night long.",
+      "observable_student_behaviors": [
+        "accepts_premise"
+      ],
+      "behavior_tags": [
+        "hypothetical_agreement"
+      ],
+      "inferred_state": {
+        "reading": "compliant_agreement",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 31,
+      "speaker": "King Milinda",
+      "text": "No, revered sir.",
+      "observable_student_behaviors": [
+        "denies_identity"
+      ],
+      "behavior_tags": [
+        "logical_consistency"
+      ],
+      "inferred_state": {
+        "reading": "compliant_denial",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 33,
+      "speaker": "King Milinda",
+      "text": "No, revered sir.",
+      "observable_student_behaviors": [
+        "denies_identity"
+      ],
+      "behavior_tags": [
+        "logical_consistency"
+      ],
+      "inferred_state": {
+        "reading": "compliant_denial",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 35,
+      "speaker": "King Milinda",
+      "text": "No, revered sir, it was burning all through the night in dependence on itself.",
+      "observable_teaching_actions": [],
+      "observable_student_behaviors": [
+        "identifies_continuity",
+        "rejects_discontinuity"
+      ],
+      "behavior_tags": [
+        "process_recognition"
+      ],
+      "inferred_state": {
+        "reading": "dawning_realization",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 37,
+      "speaker": "King Milinda",
+      "text": "Revered Nāgasena, who takes rebirth?",
+      "observable_student_behaviors": [
+        "asks_for_agent"
+      ],
+      "behavior_tags": [
+        "agency_seeking"
+      ],
+      "inferred_state": {
+        "reading": "sincere_inquiry",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 39,
+      "speaker": "King Milinda",
+      "text": "What, is it this same mind-and-matter itself that takes rebirth?",
+      "observable_student_behaviors": [
+        "asks_for_identity_confirmation"
+      ],
+      "behavior_tags": [
+        "identity_fixation"
+      ],
+      "inferred_state": {
+        "reading": "skeptical_clarification",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 41,
+      "speaker": "King Milinda",
+      "text": "If, revered sir, this mind-and-matter itself does not take rebirth would one not be freed from evil deeds?",
+      "observable_student_behaviors": [
+        "proposes_loophole",
+        "tests_moral_consequence"
+      ],
+      "behavior_tags": [
+        "moral_evasion",
+        "legalistic_reasoning"
+      ],
+      "inferred_state": {
+        "reading": "clever_challenge",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 43,
+      "speaker": "King Milinda",
+      "text": "Yes, revered sir, he would deserve punishment.",
+      "observable_student_behaviors": [
+        "concedes_justice"
+      ],
+      "behavior_tags": [
+        "moral_intuition"
+      ],
+      "inferred_state": {
+        "reading": "honest_concession",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 45,
+      "speaker": "King Milinda",
+      "text": "Whatever he may say, the mangoes he stole resulted from the mangoes which, he admits, the other man planted.",
+      "observable_student_behaviors": [
+        "explains_causality",
+        "links_origin_to_result"
+      ],
+      "behavior_tags": [
+        "causal_recognition"
+      ],
+      "inferred_state": {
+        "reading": "conceptual_grasp",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 47,
+      "speaker": "King Milinda",
+      "text": "Revered Nāgasena, is there such a thing as an experiencer?",
+      "observable_student_behaviors": [
+        "asks_ontological_question"
+      ],
+      "behavior_tags": [
+        "self_inquiry"
+      ],
+      "inferred_state": {
+        "reading": "philosophical_curiosity",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 49,
+      "speaker": "King Milinda",
+      "text": "A soul within that sees a visible form with the eye, hears a sound with the ear... Just as we who are sitting here in the palace can look out of any window we want to look out of, even so, revered sir, this soul within can look out of any door it wants to look out of.",
+      "observable_student_behaviors": [
+        "defines_experiencer",
+        "uses_homunculus_analogy"
+      ],
+      "behavior_tags": [
+        "dualism",
+        "mechanical_model"
+      ],
+      "inferred_state": {
+        "reading": "confident_definition",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 51,
+      "speaker": "King Milinda",
+      "text": "No, revered sir.",
+      "observable_student_behaviors": [
+        "denies_capability"
+      ],
+      "behavior_tags": [
+        "empirical_honesty"
+      ],
+      "inferred_state": {
+        "reading": "reluctant_denial",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 53,
+      "speaker": "King Milinda",
+      "text": "No, revered sir.",
+      "observable_student_behaviors": [
+        "concedes_absurdity"
+      ],
+      "behavior_tags": [
+        "logical_defeat"
+      ],
+      "inferred_state": {
+        "reading": "defeated_acceptance",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    }
+  ],
+  "teacher_turns": [
+    {
+      "turn_index": 1,
+      "speaker": "Nāgasena",
+      "text": "If, sire, you walk at noon-time on the hot scorching ground, trampling on sharp grit, pebbles and sand, your feet will hurt you, your body will be tired, your mind will be disturbed and you will suffer bodily pain. Now, did you come on foot or in a vehicle?",
+      "observable_teaching_actions": [
+        "sets_context",
+        "poses_dilemma"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Sets up the trap by forcing the King to identify with the 'chariot' as a distinct entity.",
+      "function_id": "UM_01",
+      "classification_evidence": "Definition forcing: Forcing the King to define his mode of arrival to set up the deconstruction.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 2,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "I came in a chariot.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Nāgasena",
+      "text": "If, sire, you came in a chariot, show me the chariot. Is the pole the chariot, sire?",
+      "observable_teaching_actions": [
+        "challenges_definition",
+        "begins_neti_neti"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Begins the deconstruction process by isolating parts and asking if they are the whole.",
+      "function_id": "UM_01",
+      "classification_evidence": "Definition forcing: Forcing the King to identify the object 'chariot' within its parts.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "abstract_to_concrete_check",
+      "mechanism_comment": "Checking the abstract label 'chariot' against concrete parts.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 4,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "No, revered sir.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Nāgasena",
+      "text": "Is the axle the chariot?",
+      "observable_teaching_actions": [
+        "continues_deconstruction"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Continues the iterative negation of parts.",
+      "function_id": "UM_01",
+      "classification_evidence": "Definition forcing: Continuing the part-by-part elimination.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 6,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "No, revered sir.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 7,
+      "speaker": "Nāgasena",
+      "text": "Are the wheels the chariot?",
+      "observable_teaching_actions": [
+        "continues_deconstruction"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Continues the iterative negation of parts.",
+      "function_id": "UM_01",
+      "classification_evidence": "Definition forcing: Continuing the part-by-part elimination.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 8,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "No, revered sir.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 9,
+      "speaker": "Nāgasena",
+      "text": "Then, sire, are the pole, the axle, the wheels, the body, the flag-staff, the yoke, the reins, the goad all together the chariot?",
+      "observable_teaching_actions": [
+        "tests_sum_of_parts"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Tests if the mere heap of parts constitutes the essence.",
+      "function_id": "UM_01",
+      "classification_evidence": "Definition forcing: Asking if the aggregate equals the entity.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 10,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "No, revered sir.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 11,
+      "speaker": "Nāgasena",
+      "text": "Well then, sire, is the chariot apart from the pole, the axle, the wheels, the body, the flag-staff, the yoke, the reins and the goad?",
+      "observable_teaching_actions": [
+        "tests_separation"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Tests if the essence exists independently of the parts.",
+      "function_id": "UM_01",
+      "classification_evidence": "Definition forcing: Checking for a platonic essence separate from the physical components.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 12,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "No, sire.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 13,
+      "speaker": "Nāgasena",
+      "text": "Sire, though I have been asking you repeatedly, I do not see this chariot. Chariot is only a sound. What then is the chariot you say you came in? You, sire, have spoken a falsehood, an untruth. There is no chariot.",
+      "observable_teaching_actions": [
+        "delivers_conclusion",
+        "accuses_of_falsehood"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Delivers the shock conclusion: the object does not exist as an entity.",
+      "function_id": "UM_02",
+      "classification_evidence": "Internal contradiction: The King claimed to come in a chariot, but logic proves no chariot exists.",
+      "register": {
+        "intensity": "PR_04",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "conceptual_reification"
+      ],
+      "trap_notes": [
+        "King reified the label 'chariot' into an existing thing."
+      ],
+      "mechanism_shape": "constraint_collapse",
+      "mechanism_comment": "Collapsing the existence of the object entirely.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 14,
+        "reaction_label": "conceptual_concession",
+        "evidence": "‘chariot’ exists as a mere designation.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 15,
+      "speaker": "Nāgasena",
+      "text": "It is good, sire, that you understand a chariot. Even so is it for me, sire, because of the hairs of the head … because of the urine, because of material form … because of consciousness, that ‘Nāgasena’ exists as a mere designation. However, in the ultimate sense there is no person as such that is found.",
+      "observable_teaching_actions": [
+        "maps_analogy_to_self",
+        "defines_anatta"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Reconstructs the understanding: just as 'chariot' is a label for parts, 'self' is a label for aggregates.",
+      "function_id": "RM_01",
+      "classification_evidence": "Structural mapping: Mapping the chariot decomposition onto the human personality (Nāgasena).",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_04",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Chariot = Self; Parts = Aggregates.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 16,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "META"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 17,
+      "speaker": "Nāgasena",
+      "text": "I will converse if you, sire, will converse in the speech of the learned, but if you converse in the speech of kings I will not converse.",
+      "observable_teaching_actions": [
+        "sets_conditions",
+        "refuses_power_dynamic"
+      ],
+      "phase": "META",
+      "phase_reason": "Establishes the rules of the dialogue itself.",
+      "function_id": "ME_01",
+      "classification_evidence": "Process normalization: Defining the mode of discourse ('speech of the learned') required for the interaction.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_02",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 18,
+        "reaction_label": "seeks_instruction",
+        "evidence": "How, revered Nāgasena, do the learned converse?",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "META",
+          "to": "META"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 19,
+      "speaker": "Nāgasena",
+      "text": "When the learned are conversing, sire, there is a turning over and an unravelling of the subject; then there is a refutation and an acknowledgement of a mistake; distinctions and contradistinctions are drawn; yet, thereby, they are not angered. It is thus, sire, that the learned converse.",
+      "observable_teaching_actions": [
+        "defines_learned_speech",
+        "emphasizes_openness"
+      ],
+      "phase": "META",
+      "phase_reason": "Defines the dialectical method (refutation, no anger).",
+      "function_id": "ME_03",
+      "classification_evidence": "Method explanation: Explaining the mechanics of proper philosophical debate.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_02",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 20,
+        "reaction_label": "seeks_instruction",
+        "evidence": "And how, revered sir, do kings converse?",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "META",
+          "to": "META"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 21,
+      "speaker": "Nāgasena",
+      "text": "When kings are conversing, sire, they approve of some matter and order punishment for anyone who disagrees with that matter, saying: ‘Inflict a punishment on him.’ It is thus, sire, that kings converse.",
+      "observable_teaching_actions": [
+        "defines_royal_speech",
+        "contrasts_power_with_truth"
+      ],
+      "phase": "META",
+      "phase_reason": "Contrasts the previous definition with power-based discourse to force a choice.",
+      "function_id": "ME_01",
+      "classification_evidence": "Process normalization: distinguishing the forbidden mode (punishment/power) from the allowed mode.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_02",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "comparison",
+      "mechanism_comment": "Contrasting learned speech (truth) with royal speech (power).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 22,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "I, revered sir, will converse in the speech of the learned",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "META",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 24,
+      "speaker": "Nāgasena",
+      "text": "Neither the same nor another. What do you think about this, sire? Now that you are grown up are you the same as you were when you were a boy, young, tender, lying on your back?",
+      "observable_teaching_actions": [
+        "rejects_binary",
+        "uses_analogy_from_experience"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Rejects the binary choice (same/other) and introduces a continuity model via personal history.",
+      "function_id": "RM_03",
+      "classification_evidence": "Conceptual distinction: Distinguishing continuity ('neither same nor another') from identity or difference.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_02",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "false_paradox"
+      ],
+      "trap_notes": [
+        "King is trapped in 'same vs different'."
+      ],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 25,
+        "reaction_label": "pushes_back",
+        "evidence": "I, who am now full-grown, am another.",
+        "outcome_label": "partial_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 26,
+      "speaker": "Nāgasena",
+      "text": "That being so, sire, you can have no mother, nor can you have a father... It is one ‘I’ that was the boy, young, tender, lying on his back and it is the same ‘I’ that am now full-grown, and all these are held together as a unity in dependence on this body itself.",
+      "observable_teaching_actions": [
+        "reductio_ad_absurdum",
+        "asserts_continuity"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Shows the absurd consequence of the King's 'different' view (no parents/teachers).",
+      "function_id": "UM_03",
+      "classification_evidence": "Reductio extension: Extending 'difference' to its logical conclusion (disconnection from parents).",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "causal_chain",
+      "mechanism_comment": "If distinct, then no relation to past (parents).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 27,
+        "reaction_label": "seeks_instruction",
+        "evidence": "Make a simile.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 28,
+      "speaker": "Nāgasena",
+      "text": "It is as if, sire, some person might light a lamp. Would it burn all night long?",
+      "observable_teaching_actions": [
+        "uses_lamp_analogy",
+        "establishes_process"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Uses the lamp analogy to model process continuity without static substance.",
+      "function_id": "RM_01",
+      "classification_evidence": "Structural mapping: Mapping the flame's continuity onto the self's continuity.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Flame continuity = Self continuity.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 29,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "Yes, revered sir, it might burn all night long.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 30,
+      "speaker": "Nāgasena",
+      "text": "Is the flame of the first watch of the night the same as the flame of the middle watch?",
+      "observable_teaching_actions": [
+        "tests_identity"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Deconstructs the identity of the flame moments.",
+      "function_id": "UM_01",
+      "classification_evidence": "Definition forcing: Forcing a distinction between moments of the flame.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 31,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "No, revered sir.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 32,
+      "speaker": "Nāgasena",
+      "text": "Is the flame of the middle watch the same as the flame of the third watch?",
+      "observable_teaching_actions": [
+        "tests_identity"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Continuing the deconstruction.",
+      "function_id": "UM_01",
+      "classification_evidence": "Definition forcing: Forcing the distinction across time.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 33,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "No, revered sir.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 34,
+      "speaker": "Nāgasena",
+      "text": "Is it then, sire, that the lamp in the first watch was one thing, the lamp in the middle watch another, and the lamp in the third watch still another?",
+      "observable_teaching_actions": [
+        "tests_discontinuity"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Tests if the lack of identity implies total separation (three different lamps).",
+      "function_id": "UM_02",
+      "classification_evidence": "Internal contradiction: Testing if the parts are discrete entities.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 35,
+        "reaction_label": "conceptual_concession",
+        "evidence": "No, revered sir, it was burning all through the night in dependence on itself.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 36,
+      "speaker": "Nāgasena",
+      "text": "Even so, sire, a continuity of phenomena is linked together. It uprises as one and ceases as another, linked together as though there were no before and no after. Hence it is neither the same nor another, but the subsequent consciousness is reckoned (together with) the preceding consciousness.",
+      "observable_teaching_actions": [
+        "defines_continuity",
+        "resolves_paradox"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Formalizes the 'continuity' model: dependence without identity.",
+      "function_id": "RM_03",
+      "classification_evidence": "Conceptual distinction: Defining 'continuity' as distinct from 'identity' or 'difference'.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_04",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "system_dynamics",
+      "mechanism_comment": "Process flow (uprising/ceasing) creates continuity.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 37,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 38,
+      "speaker": "Nāgasena",
+      "text": "Mind-and-matter, sire, takes rebirth.",
+      "observable_teaching_actions": [
+        "defines_rebirth_agent"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Provides the technical definition of what is reborn (namarupa).",
+      "function_id": "RM_03",
+      "classification_evidence": "Conceptual distinction: Replacing 'person' with 'mind-and-matter'.",
+      "register": {
+        "intensity": "PR_01",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_05",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 39,
+        "reaction_label": "seeks_instruction",
+        "evidence": "What, is it this same mind-and-matter itself that takes rebirth?",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 40,
+      "speaker": "Nāgasena",
+      "text": "This same mind-and-matter does not itself take rebirth, sire; but, sire, by means of this mind-and-matter one does a good or bad deed and, because of this deed, another mind-and-matter takes rebirth.",
+      "observable_teaching_actions": [
+        "explains_causal_link",
+        "refines_rebirth_definition"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Clarifies the mechanism: deeds cause the new birth, not the transference of the old substance.",
+      "function_id": "RM_05",
+      "classification_evidence": "Frame upgrade: Shifting from 'transmigration' to 'causal regeneration'.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "causal_chain",
+      "mechanism_comment": "Deeds (Cause) -> New Mind-Matter (Effect).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 41,
+        "reaction_label": "pushes_back",
+        "evidence": "would one not be freed from evil deeds?",
+        "outcome_label": "partial_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 42,
+      "speaker": "Nāgasena",
+      "text": "If, sire, it did not take rebirth one would be freed from evil deeds. But because, sire, it takes rebirth one is not freed from evil deeds. ... Suppose, sire, some man were to steal another man’s mangoes... and he were to say, ‘Your majesty, I did not steal his mangoes; the mangoes he planted were different from these that I stole; I do not deserve punishment.’ Would he, sire, not deserve punishment?",
+      "observable_teaching_actions": [
+        "uses_legal_analogy",
+        "poses_moral_dilemma"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Uses a concrete legal case (theft) to expose the flaw in the King's moral loophole.",
+      "function_id": "UM_03",
+      "classification_evidence": "Reductio extension: Extending the 'different entity' logic to a theft case where it obviously fails.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "ego_defense"
+      ],
+      "trap_notes": [
+        "King tries to evade responsibility via metaphysical technicality."
+      ],
+      "mechanism_shape": "abstract_to_concrete_check",
+      "mechanism_comment": "Checking the 'no responsibility' claim against a theft case.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 43,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "Yes, revered sir, he would deserve punishment.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 44,
+      "speaker": "Nāgasena",
+      "text": "For what reason?",
+      "observable_teaching_actions": [
+        "demands_reasoning"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Forces the King to articulate the causal link himself.",
+      "function_id": "UM_01",
+      "classification_evidence": "Definition forcing: Asking the King to define the basis of the punishment.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 45,
+        "reaction_label": "elaborates",
+        "evidence": "the mangoes he stole resulted from the mangoes which... the other man planted.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 46,
+      "speaker": "Nāgasena",
+      "text": "Even so, sire, by means of this mind-and-matter one does a good or bad deed and, because of this deed, another mind-and-matter takes rebirth; therefore, one is not freed from evil deeds.",
+      "observable_teaching_actions": [
+        "maps_analogy_to_karma",
+        "delivers_verdict"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Applies the legal logic (causal origin) back to the metaphysical problem.",
+      "function_id": "RM_01",
+      "classification_evidence": "Structural mapping: Mapping the mango causality onto the rebirth causality.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Planted Mango = Past Deed; Stolen Mango = Present Life.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 47,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 48,
+      "speaker": "Nāgasena",
+      "text": "What does this ‘experiencer’ mean, sire?",
+      "observable_teaching_actions": [
+        "requests_definition"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Asks the King to define the term 'experiencer' to set up the deconstruction.",
+      "function_id": "UM_01",
+      "classification_evidence": "Definition forcing: Forcing the King to make his implicit dualism explicit.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 49,
+        "reaction_label": "elaborates",
+        "evidence": "A soul within that sees... Just as we... can look out of any window...",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 50,
+      "speaker": "Nāgasena",
+      "text": "I will talk to you, sire, about the five doors. Listen and attend carefully. If the soul within sees a visible form through the eye just as we who are sitting here in the palace can look out of any window we want to look out of... can it not hear a sound, smell a smell, taste a taste, feel a touch and discriminate mental states through each of the other five doors besides the one you have specified in each case?",
+      "observable_teaching_actions": [
+        "extends_analogy",
+        "tests_functional_independence"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Tests the analogy: if the soul is free like a man in a room, why is it bound to specific senses for specific data?",
+      "function_id": "UM_02",
+      "classification_evidence": "Internal contradiction: If the soul is a free agent inside, it should be able to use any 'window' for any purpose, but it cannot.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "structural_analogy"
+      ],
+      "trap_notes": [
+        "King uses a mechanical/spatial analogy (Homunculus) for consciousness."
+      ],
+      "mechanism_shape": "abstract_to_concrete_check",
+      "mechanism_comment": "Testing the 'window' analogy against the reality of sense specificity.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 51,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "No, revered sir.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 52,
+      "speaker": "Nāgasena",
+      "text": "Again, sire, we who are sitting here in the palace will see visible forms out there before us more clearly in the great space if these network windows are removed. Thus too, would this soul within see visible forms more clearly when the doors of the eyes are removed? And if the ears were removed, the nose removed, the tongue removed, the body removed, would it hear a sound, smell a smell, taste a taste and feel a touch more clearly on account of the great space?",
+      "observable_teaching_actions": [
+        "reductio_ad_absurdum",
+        "proposes_removing_organs"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Pushes the analogy to absurdity: if the eyes are just windows blocking the view, removing them should improve vision.",
+      "function_id": "UM_03",
+      "classification_evidence": "Reductio extension: Extending the 'window' analogy to the logical conclusion of removing the window/eye.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "causal_chain",
+      "mechanism_comment": "If Eye = Window, then No Eye = Better View. (Absurd).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 53,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "No, revered sir.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 54,
+      "speaker": "Nāgasena",
+      "text": "Because, sire, of the eye and visible form eye-consciousness arises. ... Thus these things are produced from a condition and there is no experiencer found here.",
+      "observable_teaching_actions": [
+        "states_dependent_origination",
+        "denies_experiencer"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Replaces the Homunculus model with the model of dependent origination (eye + form -> consciousness).",
+      "function_id": "RM_05",
+      "classification_evidence": "Frame upgrade: Replacing 'Agent/Experiencer' with 'Condition/Process'.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_04",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "ontological_frame_upgrade",
+      "mechanism_comment": "Upgrading from 'Soul in Window' to 'Conditioned Arising'.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": null,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    }
+  ],
+  "episode_overview": "A composite of five dialogues from the Milindapañha, showcasing Nagasena's deconstruction of the self and identity. The episodes move from the famous Chariot analogy (deconstructing the composite object) to the Lamp analogy (explaining continuity without identity), the Mango Thief (moral responsibility without a permanent self), and the Palace Window (refuting the homunculus soul). The dialogue also establishes the meta-rules of inquiry, distinguishing 'royal speech' from 'learned speech'.",
+  "episode_insights": {
+    "key_pattern": "Object/Concept Deconstruction -> Analogy Laddering -> Reductio Ad Absurdum -> Process Model Replacement",
+    "notes": [
+      "Nagasena consistently uses the King's own examples (chariots, palace windows, royal authority) to refute the King's assumptions.",
+      "The transition from 'Unmaking' (No Chariot) to 'Remaking' (Process Continuity) is handled via concrete analogies like the Lamp and the Mango.",
+      "The 'Speech of Kings' episode is a crucial META move that changes the power dynamic for the rest of the text."
+    ]
+  }
+}
+
+
+{
+  "episode_id": "milinda_batch_2_slope_to_city",
+  "source_text": "The Questions of King Milinda (Milindapañha)",
+  "lineage": "Buddhist",
+  "student_turns": [
+    {
+      "turn_index": 1,
+      "speaker": "King Milinda",
+      "text": "Revered Nāgasena, where eye-consciousness arises, does mind-consciousness also arise there?",
+      "observable_student_behaviors": [
+        "poses_structural_question",
+        "seeks_correlation"
+      ],
+      "behavior_tags": [
+        "system_inquiry"
+      ],
+      "inferred_state": {
+        "reading": "analytical_curiosity",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 3,
+      "speaker": "King Milinda",
+      "text": "Now, revered sir, does eye-consciousness instruct mind-consciousness, saying ‘Where I arise do you likewise arise,’ or does mind-consciousness instruct eye-consciousness, saying ‘Where you arise I will likewise arise’?",
+      "observable_student_behaviors": [
+        "proposes_anthropomorphic_mechanism",
+        "suggests_instruction"
+      ],
+      "behavior_tags": [
+        "intentionality_bias",
+        "agent_seeking"
+      ],
+      "inferred_state": {
+        "reading": "mechanistic_confusion",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 5,
+      "speaker": "King Milinda",
+      "text": "Then how is it, revered Nāgasena, that where eye-consciousness arises there mind-consciousness also arises?",
+      "observable_student_behaviors": [
+        "reiterates_question",
+        "expresses_puzzlement"
+      ],
+      "behavior_tags": [
+        "causal_confusion"
+      ],
+      "inferred_state": {
+        "reading": "sincere_aporia",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 7,
+      "speaker": "King Milinda",
+      "text": "It might run away by means of some slope.",
+      "observable_student_behaviors": [
+        "answers_analogy",
+        "identifies_physical_cause"
+      ],
+      "behavior_tags": [
+        "logical_compliance"
+      ],
+      "inferred_state": {
+        "reading": "compliant_reasoning",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 9,
+      "speaker": "King Milinda",
+      "text": "It would take the same course as the earlier water.",
+      "observable_student_behaviors": [
+        "extends_analogy"
+      ],
+      "behavior_tags": [
+        "pattern_recognition"
+      ],
+      "inferred_state": {
+        "reading": "compliant_reasoning",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 11,
+      "speaker": "King Milinda",
+      "text": "No, revered sir, there is no conversation between them; they run away because there is a slope.",
+      "observable_student_behaviors": [
+        "denies_agency",
+        "affirms_structural_cause"
+      ],
+      "behavior_tags": [
+        "conceptual_breakthrough"
+      ],
+      "inferred_state": {
+        "reading": "structural_understanding",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 13,
+      "speaker": "King Milinda",
+      "text": "Revered Nāgasena, is it the case that one does not transmigrate and yet is reborn?",
+      "observable_student_behaviors": [
+        "poses_paradox",
+        "highlights_contradiction"
+      ],
+      "behavior_tags": [
+        "logical_consistency_check",
+        "paradox_identification"
+      ],
+      "inferred_state": {
+        "reading": "skeptical_inquiry",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 15,
+      "speaker": "King Milinda",
+      "text": "How, revered Nāgasena, is it that one does not transmigrate and yet is reborn? Make a simile.",
+      "observable_student_behaviors": [
+        "requests_analogy",
+        "admits_confusion"
+      ],
+      "behavior_tags": [
+        "instruction_seeking"
+      ],
+      "inferred_state": {
+        "reading": "receptive_confusion",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 17,
+      "speaker": "King Milinda",
+      "text": "No, revered sir.",
+      "observable_student_behaviors": [
+        "denies_transfer"
+      ],
+      "behavior_tags": [
+        "empirical_observation"
+      ],
+      "inferred_state": {
+        "reading": "compliant_denial",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 19,
+      "speaker": "King Milinda",
+      "text": "Yes, revered sir.",
+      "observable_student_behaviors": [
+        "confirms_experience"
+      ],
+      "behavior_tags": [
+        "memory_access"
+      ],
+      "inferred_state": {
+        "reading": "compliant_agreement",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 21,
+      "speaker": "King Milinda",
+      "text": "No, revered sir.",
+      "observable_student_behaviors": [
+        "denies_transfer"
+      ],
+      "behavior_tags": [
+        "logical_consistency"
+      ],
+      "inferred_state": {
+        "reading": "compliant_denial",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 23,
+      "speaker": "King Milinda",
+      "text": "Revered Nāgasena, for whom is the greater demerit: he who does an evil deed knowingly or he who does an evil deed unknowingly?",
+      "observable_student_behaviors": [
+        "poses_ethical_dilemma",
+        "compares_scenarios"
+      ],
+      "behavior_tags": [
+        "moral_accounting",
+        "legalistic_reasoning"
+      ],
+      "inferred_state": {
+        "reading": "ethical_curiosity",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 25,
+      "speaker": "King Milinda",
+      "text": "Well then, revered sir, do we doubly punish any of our family or our court who does an evil deed unknowingly?",
+      "observable_student_behaviors": [
+        "challenges_assertion",
+        "cites_legal_precedent"
+      ],
+      "behavior_tags": [
+        "social_convention_defense",
+        "logic_check"
+      ],
+      "inferred_state": {
+        "reading": "confident_rebuttal",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 27,
+      "speaker": "King Milinda",
+      "text": "He who took hold of it unknowingly, sire, would be more severely burnt.",
+      "observable_student_behaviors": [
+        "concedes_physical_fact",
+        "applies_common_sense"
+      ],
+      "behavior_tags": [
+        "empirical_concession"
+      ],
+      "inferred_state": {
+        "reading": "forced_agreement",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 29,
+      "speaker": "King Milinda",
+      "text": "Revered Nāgasena, does he who does not obtain Nibbāna know that Nibbāna is happiness.",
+      "observable_student_behaviors": [
+        "questions_epistemology"
+      ],
+      "behavior_tags": [
+        "skepticism"
+      ],
+      "inferred_state": {
+        "reading": "logical_doubt",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 31,
+      "speaker": "King Milinda",
+      "text": "But how, revered Nāgasena, does anyone without obtaining Nibbāna know that Nibbāna is happiness?",
+      "observable_student_behaviors": [
+        "challenges_possibility",
+        "demands_mechanism"
+      ],
+      "behavior_tags": [
+        "empiricism"
+      ],
+      "inferred_state": {
+        "reading": "insistent_skepticism",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 33,
+      "speaker": "King Milinda",
+      "text": "Yes, revered sir, they would know.",
+      "observable_student_behaviors": [
+        "accepts_premise"
+      ],
+      "behavior_tags": [
+        "common_knowledge"
+      ],
+      "inferred_state": {
+        "reading": "compliant_agreement",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 35,
+      "speaker": "King Milinda",
+      "text": "They know, revered sir, from having heard the lamentations of those whose hands and feet have been cut off that the cutting off of them is suffering.",
+      "observable_student_behaviors": [
+        "explains_mechanism",
+        "identifies_inference_source"
+      ],
+      "behavior_tags": [
+        "inference_recognition"
+      ],
+      "inferred_state": {
+        "reading": "conceptual_grasp",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 37,
+      "speaker": "King Milinda",
+      "text": "Revered Nāgasena, have you ever seen the Buddha?",
+      "observable_student_behaviors": [
+        "asks_empirical_question",
+        "challenges_authority"
+      ],
+      "behavior_tags": [
+        "empirical_test"
+      ],
+      "inferred_state": {
+        "reading": "probing_inquiry",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 39,
+      "speaker": "King Milinda",
+      "text": "Then have your teachers seen the Buddha?",
+      "observable_student_behaviors": [
+        "extends_empirical_question"
+      ],
+      "behavior_tags": [
+        "lineage_check"
+      ],
+      "inferred_state": {
+        "reading": "investigative_rigor",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 41,
+      "speaker": "King Milinda",
+      "text": "Well then, revered Nāgasena, there is no Buddha; the Buddha is not manifested here.",
+      "observable_student_behaviors": [
+        "draws_conclusion",
+        "denies_existence"
+      ],
+      "behavior_tags": [
+        "materialist_inference",
+        "provocation"
+      ],
+      "inferred_state": {
+        "reading": "triumphant_conclusion",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 43,
+      "speaker": "King Milinda",
+      "text": "Yes, revered sir; what doubt is there?",
+      "observable_student_behaviors": [
+        "affirms_history",
+        "expresses_certainty"
+      ],
+      "behavior_tags": [
+        "historical_acceptance"
+      ],
+      "inferred_state": {
+        "reading": "unquestioning_belief",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 45,
+      "speaker": "King Milinda",
+      "text": "No, revered sir. ... But articles of use enjoyed by the former noble warriors are to be seen... By these we can know and can believe that the former noble warriors existed.",
+      "observable_student_behaviors": [
+        "admits_lack_of_sight",
+        "defines_inference_method"
+      ],
+      "behavior_tags": [
+        "archeological_inference"
+      ],
+      "inferred_state": {
+        "reading": "reasoned_belief",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    }
+  ],
+  "teacher_turns": [
+    {
+      "turn_index": 2,
+      "speaker": "Nāgasena",
+      "text": "Yes, sire, mind-consciousness also arises there.",
+      "observable_teaching_actions": [
+        "confirms_fact"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Establishes the basic premise of the system (co-arising) before explaining the mechanism.",
+      "function_id": "RM_04",
+      "classification_evidence": "Instruction protocol: Establishing the baseline fact of the system.",
+      "register": {
+        "intensity": "PR_01",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 3,
+        "reaction_label": "elaborates",
+        "evidence": "does eye-consciousness instruct mind-consciousness...",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Nāgasena",
+      "text": "No, sire, there is no conversation between them.",
+      "observable_teaching_actions": [
+        "denies_anthropomorphism",
+        "rejects_agency"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Rejects the student's projection of 'conversation' (intent) onto a mechanical process.",
+      "function_id": "UM_04",
+      "classification_evidence": "Abstraction strip: Stripping away the 'social' metaphor of instruction from the biological process.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "conceptual_reification"
+      ],
+      "trap_notes": [
+        "King treats mental functions as little people who talk to each other."
+      ],
+      "mechanism_shape": "constraint_collapse",
+      "mechanism_comment": "Removing the 'agent' constraint from the system.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 5,
+        "reaction_label": "confused",
+        "evidence": "Then how is it... that where eye-consciousness arises there mind-consciousness also arises?",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 6,
+      "speaker": "Nāgasena",
+      "text": "It is because of tendency, sire, because of door, because of habit and because of practice. ... When it is raining by what means may the water run away?",
+      "observable_teaching_actions": [
+        "defines_structural_causes",
+        "introduces_rain_analogy"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Introduces a physical analogy (rain/slope) to explain coordination without intention.",
+      "function_id": "RM_01",
+      "classification_evidence": "Structural mapping: Mapping the flow of water (physics) to the flow of consciousness (mind).",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_02",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Water flow = Consciousness flow; Slope = Tendency.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 7,
+        "reaction_label": "elaborates",
+        "evidence": "It might run away by means of some slope.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 8,
+      "speaker": "Nāgasena",
+      "text": "But, sire, if it continued to rain, by what means would that later amount of water run away?",
+      "observable_teaching_actions": [
+        "extends_analogy",
+        "tests_consistency"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Extends the analogy to the 'following' behavior, paralleling the eye-to-mind sequence.",
+      "function_id": "RM_02",
+      "classification_evidence": "Example instantiation: elaborating the rain model to include sequential flow.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "system_dynamics",
+      "mechanism_comment": "Describing how a system handles continuous flow.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 9,
+        "reaction_label": "elaborates",
+        "evidence": "It would take the same course as the earlier water.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 10,
+      "speaker": "Nāgasena",
+      "text": "Then, sire, does the earlier water instruct the later, saying ‘You run away by the same course as I do,’ or does the later water instruct the earlier, saying ‘I will also run away by the same course as you will take’?",
+      "observable_teaching_actions": [
+        "applies_anthropomorphism_to_analogy",
+        "reductio_ad_absurdum"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Applying the 'instruction' theory to the water to show how absurd it sounds.",
+      "function_id": "UM_03",
+      "classification_evidence": "Reductio extension: Taking the King's 'instruction' theory and applying it to the rain example to expose its silliness.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "If minds talk, then water must talk (absurd).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 11,
+        "reaction_label": "conceptual_concession",
+        "evidence": "No, revered sir, there is no conversation between them; they run away because there is a slope.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 12,
+      "speaker": "Nāgasena",
+      "text": "Even so, sire, it is because of tendency that where eye-consciousness arises, mind-consciousness arises there too.",
+      "observable_teaching_actions": [
+        "maps_analogy_back",
+        "concludes_mechanism"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Finalizes the structural model: Tendency acts like the slope, creating order without intent.",
+      "function_id": "RM_01",
+      "classification_evidence": "Structural mapping: Tendency = Slope.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "system_dynamics",
+      "mechanism_comment": "System behaves via structural tendency, not agentic instruction.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 13,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 14,
+      "speaker": "Nāgasena",
+      "text": "Yes, sire, one does not transmigrate and yet is reborn.",
+      "observable_teaching_actions": [
+        "affirms_paradox"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Validates the paradoxical view (rebirth without transmigration) as the correct doctrine.",
+      "function_id": "RM_03",
+      "classification_evidence": "Conceptual distinction: Affirming the distinction between transmigration (soul travel) and rebirth (causal continuity).",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 15,
+        "reaction_label": "seeks_instruction",
+        "evidence": "How... is it that one does not transmigrate and yet is reborn? Make a simile.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 16,
+      "speaker": "Nāgasena",
+      "text": "Suppose, sire, some man were to light a lamp from another lamp. Did one lamp pass over to the other?",
+      "observable_teaching_actions": [
+        "uses_lamp_analogy",
+        "questions_transfer"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Uses the flame analogy to model transmission of pattern/energy without transmission of substance.",
+      "function_id": "RM_02",
+      "classification_evidence": "Example instantiation: Lighting a lamp to demonstrate causal connection without substance movement.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Lighting a lamp = Rebirth.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 17,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "No, revered sir.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 18,
+      "speaker": "Nāgasena",
+      "text": "In the same way, sire, one does not transmigrate and yet is reborn. ... Do you remember, sire, when you were a boy learning some verse from a teacher?",
+      "observable_teaching_actions": [
+        "applies_analogy",
+        "introduces_second_analogy"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Reinforces the first analogy with a second, intellectual one (learning a verse) to make it personal to the King.",
+      "function_id": "RM_02",
+      "classification_evidence": "Example instantiation: Learning a verse as a model of information transfer without object transfer.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Verse transfer = Rebirth.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 19,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "Yes, revered sir.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 20,
+      "speaker": "Nāgasena",
+      "text": "But, sir, did that verse pass over from the teacher?",
+      "observable_teaching_actions": [
+        "questions_transfer_mechanics"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Clarifies that the teacher did not lose the verse when the student gained it (non-subtractive transmission).",
+      "function_id": "RM_03",
+      "classification_evidence": "Conceptual distinction: Distinguishing 'passing over' (subtractive) from 'replication' (additive/causal).",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "causal_chain",
+      "mechanism_comment": "Teacher knows -> Student learns; nothing moves, yet it appears.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 21,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "No, revered sir.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 22,
+      "speaker": "Nāgasena",
+      "text": "In the same way, sire, one does not transmigrate and yet is reborn.",
+      "observable_teaching_actions": [
+        "concludes_mechanism"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Final confirmation of the doctrine using the established analogies.",
+      "function_id": "RM_05",
+      "classification_evidence": "Frame upgrade: Cementing the 'replication without transfer' model of rebirth.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 23,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 24,
+      "speaker": "Nāgasena",
+      "text": "His is the greater demerit, sire, who does an evil deed unknowingly.",
+      "observable_teaching_actions": [
+        "states_inversion",
+        "defies_convention"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "States a counter-intuitive thesis (ignorance worsens sin) to break the King's legalistic frame.",
+      "function_id": "UM_05",
+      "classification_evidence": "Ego displacement: Challenging the 'intent' based morality of the ego with a stricter 'natural law' morality.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_01"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "subject_object_inversion",
+      "mechanism_comment": "Inverting the value of 'knowing': knowing is better than unknowing.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 25,
+        "reaction_label": "pushes_back",
+        "evidence": "do we doubly punish any of our family... who does an evil deed unknowingly?",
+        "outcome_label": "shock",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 26,
+      "speaker": "Nāgasena",
+      "text": "What do you think about this, sire? If a man should unknowingly take hold of a red-hot ball of iron, glowing with heat, and another should take hold of it knowingly, which would be more severely burnt?",
+      "observable_teaching_actions": [
+        "uses_hot_iron_analogy",
+        "shifts_domain"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Shifts from the legal domain (punishment) to the physical domain (burning) to prove the cost of ignorance.",
+      "function_id": "UM_03",
+      "classification_evidence": "Concrete grounding: Grounding the 'demerit' in the physical reality of being burned, which ignores intent.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_02",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "category_conflation"
+      ],
+      "trap_notes": [
+        "King conflates social law (intent matters) with natural law (karma/physics, where ignorance hurts)."
+      ],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Evil deed = Hot iron; Karma = Burning.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 27,
+        "reaction_label": "conceptual_concession",
+        "evidence": "He who took hold of it unknowingly, sire, would be more severely burnt.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 28,
+      "speaker": "Nāgasena",
+      "text": "Even so, sire, the greater demerit is his who does an evil deed unknowingly.",
+      "observable_teaching_actions": [
+        "maps_analogy_back",
+        "concludes_inversion"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Applies the physical truth back to the moral claim, cementing the inversion.",
+      "function_id": "UM_02",
+      "classification_evidence": "Internal contradiction: Showing that if karma acts like fire, ignorance increases suffering, contradicting the King's legal intuition.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Ignorance (lack of caution) -> Greater Pain.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 29,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 30,
+      "speaker": "Nāgasena",
+      "text": "Yes, sire, he does.",
+      "observable_teaching_actions": [
+        "affirms_possibility"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Asserts that knowledge without direct experience is possible, setting the stage for the inference model.",
+      "function_id": "RM_05",
+      "classification_evidence": "Frame upgrade: Validating 'inference' as a legitimate mode of knowing alongside 'experience'.",
+      "register": {
+        "intensity": "PR_01",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 31,
+        "reaction_label": "pushes_back",
+        "evidence": "But how... does anyone without obtaining Nibbāna know that Nibbāna is happiness?",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 32,
+      "speaker": "Nāgasena",
+      "text": "What do you think about this, sire? Would those who have not had their hands and feet cut off know that the cutting off of them is suffering?",
+      "observable_teaching_actions": [
+        "uses_amputee_analogy",
+        "tests_empathy"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Uses a visceral negative example (pain of amputation) to prove that we can know states we haven't experienced.",
+      "function_id": "RM_02",
+      "classification_evidence": "Example instantiation: Using the amputation example to prove the validity of inference from others' testimony.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_02",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "abstract_to_concrete_check",
+      "mechanism_comment": "Checking the abstract claim (inference is impossible) against a concrete reality (knowing pain without feeling it).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 33,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "Yes, revered sir, they would know.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 34,
+      "speaker": "Nāgasena",
+      "text": "How would they know?",
+      "observable_teaching_actions": [
+        "demands_mechanism"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Forces the King to articulate the mechanism of inference (listening to others).",
+      "function_id": "RM_04",
+      "classification_evidence": "Instruction protocol: Guiding the student to identify the source of knowledge (testimony).",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "source_tracing",
+      "mechanism_comment": "Tracing knowledge back to its source (hearing lamentations).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 35,
+        "reaction_label": "elaborates",
+        "evidence": "from having heard the lamentations...",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 36,
+      "speaker": "Nāgasena",
+      "text": "In the same way, sire, anyone who has heard those who have seen Nibbāna knows that Nibbāna is happiness.",
+      "observable_teaching_actions": [
+        "maps_analogy_to_nibbana"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Completes the mapping: hearing lamentations (pain) is parallel to hearing teachings (bliss).",
+      "function_id": "RM_01",
+      "classification_evidence": "Structural mapping: Mapping 'lamentations -> knowledge of pain' to 'teaching -> knowledge of bliss'.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Inference of Pain = Inference of Bliss.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 37,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 38,
+      "speaker": "Nāgasena",
+      "text": "No, sire.",
+      "observable_teaching_actions": [
+        "admits_fact"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Admits the lack of direct empirical evidence to set up the trap.",
+      "function_id": "UM_04",
+      "classification_evidence": "Ground reality check: Admitting the literal truth (no seeing) to disarm the opponent.",
+      "register": {
+        "intensity": "PR_01",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 39,
+        "reaction_label": "elaborates",
+        "evidence": "Then have your teachers seen the Buddha?",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 40,
+      "speaker": "Nāgasena",
+      "text": "No, sire.",
+      "observable_teaching_actions": [
+        "admits_fact"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Continuing the admission of lack of direct lineage witness.",
+      "function_id": "UM_04",
+      "classification_evidence": "Ground reality check: Further admission of lack of empirical contact.",
+      "register": {
+        "intensity": "PR_01",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 41,
+        "reaction_label": "elaborates",
+        "evidence": "Well then... there is no Buddha",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 42,
+      "speaker": "Nāgasena",
+      "text": "But, sire, did those former noble warriors exist who were the forerunners of your noble warrior dynasty?",
+      "observable_teaching_actions": [
+        "turns_tables",
+        "uses_historical_analogy"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Challenges the King's skepticism by applying it to his own lineage (which he cannot see but believes in).",
+      "function_id": "RM_02",
+      "classification_evidence": "Example instantiation: Using the King's ancestors as a parallel case for belief in un-seen figures.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "hypocrisy"
+      ],
+      "trap_notes": [
+        "King denies Buddha due to lack of sighting but believes in ancestors he never saw."
+      ],
+      "mechanism_shape": "subject_object_inversion",
+      "mechanism_comment": "Turning the 'unseen' argument back on the King's own identity.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 43,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "Yes, revered sir; what doubt is there?",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 44,
+      "speaker": "Nāgasena",
+      "text": "Have you, sire, ever seen the former noble warriors?",
+      "observable_teaching_actions": [
+        "exposes_lack_of_sight"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Forces the King to admit he relies on inference for his own history.",
+      "function_id": "RM_03",
+      "classification_evidence": "Conceptual distinction: Distinguishing 'seeing' from 'knowing/believing'.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 45,
+        "reaction_label": "elaborates",
+        "evidence": "No, revered sir. ... But articles of use... are to be seen...",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 46,
+      "speaker": "Nāgasena",
+      "text": "Even so, sire... There are, sire, articles of use enjoyed by that Blessed One... that is to say, the four foundations of mindfulness... By these the world with the devas knows and believes that there was this Blessed One. ... As, sire, a city-architect... might build a city there... When that city was fully developed, he might go away to another district... When these people had seen the city, new, well laid out... they would know by inference: ‘Clever indeed is that city-architect who was the builder of the city.’",
+      "observable_teaching_actions": [
+        "maps_analogy_to_dhamma",
+        "uses_architect_analogy"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Completes the model: The Dhamma is the 'City' left behind, from which we infer the 'Architect' (Buddha).",
+      "function_id": "RM_01",
+      "classification_evidence": "Structural mapping: Artifacts/City = Dhamma; Ancestors/Architect = Buddha.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_04",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "City implies Architect; Dhamma implies Buddha.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": null,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    }
+  ],
+  "episode_overview": "A second batch of dialogues from the Milindapañha, focusing on causality, moral responsibility, and the nature of knowledge. Nagasena uses structural analogies (slope, lamp) to explain how processes continue without a self, legal analogies (theft, punishment) to establish moral liability without identity, and inference analogies (amputation, city architect) to validate knowledge of the un-seen.",
+  "episode_insights": {
+    "key_pattern": "Anthropomorphic Rejection -> Structural/Physical Analogy -> Inversion of Moral Intuition -> Inference Validation",
+    "notes": [
+      "Nagasena systematically replaces the King's 'agency' models (instruction, conversation) with 'structural' models (slope, door).",
+      "The 'Hot Iron' analogy (Episode 8) is a powerful UM_03 move that inverts the standard legal assumption that ignorance mitigates punishment.",
+      "The 'City Architect' (Episode 10) is a classic argument from design/effect to cause, used here to prove the historical reality of the Buddha."
+    ]
+  }
+}
+
+
+{
+  "episode_id": "milinda_batch_3_mindfulness_treasurer",
+  "source_text": "The Questions of King Milinda (Milindapañha)",
+  "lineage": "Buddhist",
+  "student_turns": [
+    {
+      "turn_index": 1,
+      "speaker": "King Milinda",
+      "text": "Revered Nāgasena, what is the distinguishing mark of mindfulness?",
+      "observable_student_behaviors": [
+        "asks_definition_question"
+      ],
+      "behavior_tags": [
+        "conceptual_inquiry"
+      ],
+      "inferred_state": {
+        "reading": "sincere_inquiry",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 3,
+      "speaker": "King Milinda",
+      "text": "Make a simile",
+      "observable_student_behaviors": [
+        "requests_analogy"
+      ],
+      "behavior_tags": [
+        "instruction_seeking"
+      ],
+      "inferred_state": {
+        "reading": "receptive_seeking",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 5,
+      "speaker": "King Milinda",
+      "text": "Revered sir, how is taking-up a distinguishing mark of mindfulness?",
+      "observable_student_behaviors": [
+        "asks_clarification"
+      ],
+      "behavior_tags": [
+        "conceptual_inquiry"
+      ],
+      "inferred_state": {
+        "reading": "curious_inquiry",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 7,
+      "speaker": "King Milinda",
+      "text": "Make a simile.",
+      "observable_student_behaviors": [
+        "requests_analogy"
+      ],
+      "behavior_tags": [
+        "instruction_seeking"
+      ],
+      "inferred_state": {
+        "reading": "receptive_seeking",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 9,
+      "speaker": "King Milinda",
+      "text": "How is it, revered sir, that because of door mind-consciousness also arises where eye-consciousness arises? Make a simile.",
+      "observable_student_behaviors": [
+        "asks_causal_question",
+        "requests_analogy"
+      ],
+      "behavior_tags": [
+        "mechanism_inquiry"
+      ],
+      "inferred_state": {
+        "reading": "mechanistic_confusion",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 11,
+      "speaker": "King Milinda",
+      "text": "Through that gateway, revered sir.",
+      "observable_student_behaviors": [
+        "answers_analogy"
+      ],
+      "behavior_tags": [
+        "logical_compliance"
+      ],
+      "inferred_state": {
+        "reading": "compliant_reasoning",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 13,
+      "speaker": "King Milinda",
+      "text": "In the same way as the first man, revered sir.",
+      "observable_student_behaviors": [
+        "extends_analogy"
+      ],
+      "behavior_tags": [
+        "pattern_recognition"
+      ],
+      "inferred_state": {
+        "reading": "compliant_reasoning",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 15,
+      "speaker": "King Milinda",
+      "text": "No, revered sir, there is no conversation between them. They go out because there is the door.",
+      "observable_student_behaviors": [
+        "denies_agency",
+        "affirms_structural_cause"
+      ],
+      "behavior_tags": [
+        "conceptual_breakthrough"
+      ],
+      "inferred_state": {
+        "reading": "structural_understanding",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 17,
+      "speaker": "King Milinda",
+      "text": "Revered Nāgasena, is there the Buddha?",
+      "observable_student_behaviors": [
+        "asks_ontological_question"
+      ],
+      "behavior_tags": [
+        "skepticism"
+      ],
+      "inferred_state": {
+        "reading": "probing_inquiry",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 19,
+      "speaker": "King Milinda",
+      "text": "But is it possible, revered Nāgasena, to point to the Buddha and say that he is either here or there?",
+      "observable_student_behaviors": [
+        "demands_location"
+      ],
+      "behavior_tags": [
+        "spatial_thinking",
+        "materialism"
+      ],
+      "inferred_state": {
+        "reading": "spatial_confusion",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 21,
+      "speaker": "King Milinda",
+      "text": "Make a simile.",
+      "observable_student_behaviors": [
+        "requests_analogy"
+      ],
+      "behavior_tags": [
+        "instruction_seeking"
+      ],
+      "inferred_state": {
+        "reading": "receptive_seeking",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 23,
+      "speaker": "King Milinda",
+      "text": "No, revered sir, that flame has ceased, it has vanished.",
+      "observable_teaching_actions": [],
+      "observable_student_behaviors": [
+        "concedes_cessation"
+      ],
+      "behavior_tags": [
+        "logical_concession"
+      ],
+      "inferred_state": {
+        "reading": "logical_acceptance",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 25,
+      "speaker": "King Milinda",
+      "text": "Revered Nāgasena, is the body dear to those who have gone forth?",
+      "observable_student_behaviors": [
+        "questions_attachment"
+      ],
+      "behavior_tags": [
+        "hypocrisy_check"
+      ],
+      "inferred_state": {
+        "reading": "suspicious_inquiry",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 27,
+      "speaker": "King Milinda",
+      "text": "Then why, revered sir, do you treasure and foster it?",
+      "observable_student_behaviors": [
+        "points_out_contradiction"
+      ],
+      "behavior_tags": [
+        "accusation_of_hypocrisy"
+      ],
+      "inferred_state": {
+        "reading": "triumphant_challenge",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 29,
+      "speaker": "King Milinda",
+      "text": "Yes, I have, revered sir.",
+      "observable_student_behaviors": [
+        "confirms_experience"
+      ],
+      "behavior_tags": [
+        "memory_access"
+      ],
+      "inferred_state": {
+        "reading": "compliant_agreement",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 31,
+      "speaker": "King Milinda",
+      "text": "Yes, revered sir, it was.",
+      "observable_student_behaviors": [
+        "confirms_fact"
+      ],
+      "behavior_tags": [
+        "factual_agreement"
+      ],
+      "inferred_state": {
+        "reading": "compliant_agreement",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 33,
+      "speaker": "King Milinda",
+      "text": "That wound was not dear to me, revered sir, and it was only anointed with ointment... so that the flesh might heal.",
+      "observable_student_behaviors": [
+        "distinguishes_care_from_love",
+        "identifies_purpose"
+      ],
+      "behavior_tags": [
+        "instrumental_reasoning"
+      ],
+      "inferred_state": {
+        "reading": "clarified_understanding",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 35,
+      "speaker": "King Milinda",
+      "text": "But those beings who are suffering painful... agonies in hell... can these poor, burning wretches be afraid of death?",
+      "observable_student_behaviors": [
+        "questions_psychology",
+        "poses_paradox"
+      ],
+      "behavior_tags": [
+        "rational_choice_model"
+      ],
+      "inferred_state": {
+        "reading": "logical_doubt",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 37,
+      "speaker": "King Milinda",
+      "text": "But, revered Nāgasena... why should beings in hell be afraid of death which would release them from that certain pain? ... This I do not believe... They must rejoice at the prospect of the very condition they long for.",
+      "observable_student_behaviors": [
+        "challenges_assertion",
+        "applies_logic"
+      ],
+      "behavior_tags": [
+        "rational_actor_assumption"
+      ],
+      "inferred_state": {
+        "reading": "logical_disbelief",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 39,
+      "speaker": "King Milinda",
+      "text": "Yes, revered sir.",
+      "observable_student_behaviors": [
+        "concedes_analogy"
+      ],
+      "behavior_tags": [
+        "instinctual_recognition"
+      ],
+      "inferred_state": {
+        "reading": "forced_agreement",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    }
+  ],
+  "teacher_turns": [
+    {
+      "turn_index": 2,
+      "speaker": "Nāgasena",
+      "text": "Not-drifting, sire, is a distinguishing mark of mindfulness and also taking up is a distinguishing mark of mindfulness.",
+      "observable_teaching_actions": [
+        "provides_definition"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Defines mindfulness functionally (not-drifting, taking up) to replace vague notions.",
+      "function_id": "RM_03",
+      "classification_evidence": "Conceptual distinction: Defining mindfulness by its specific functions.",
+      "register": {
+        "intensity": "PR_01",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_05",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 3,
+        "reaction_label": "seeks_instruction",
+        "evidence": "Make a simile",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Nāgasena",
+      "text": "As, sire, the store-keeper of a Wheel-turning King reminds him of his glory every morning and evening, saying: ‘You have so many elephants, your majesty, so many horses... so much wealth; let his majesty remember it,’ and does not drift in regard to the king’s wealth. Even so, sire, when mindfulness is uprising one does not drift in regard to mental states that are wholesome and unwholesome...",
+      "observable_teaching_actions": [
+        "uses_court_analogy",
+        "personifies_function"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Uses the 'Treasurer' analogy to model the inventory/reminder function of mindfulness.",
+      "function_id": "RM_01",
+      "classification_evidence": "Structural mapping: Mapping the Treasurer's role (inventory) to Mindfulness's role (not-drifting).",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Mindfulness = Treasurer; Mental States = Wealth.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 5,
+        "reaction_label": "seeks_instruction",
+        "evidence": "Revered sir, how is taking-up a distinguishing mark of mindfulness?",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 6,
+      "speaker": "Nāgasena",
+      "text": "Sire, when mindfulness is uprising one examines the qualities of mental states... and thinking: ‘These mental states are beneficial, these mental states are detrimental’... the one who is devoted to mental training removes the detrimental mental states and takes up the beneficial mental states.",
+      "observable_teaching_actions": [
+        "elaborates_function",
+        "defines_taking_up"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Clarifies the second function (taking up) as active selection/filtering.",
+      "function_id": "RM_03",
+      "classification_evidence": "Conceptual distinction: Distinguishing the 'taking up' (selection) function from simple awareness.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "system_dynamics",
+      "mechanism_comment": "Selection process: examine -> filter -> keep/discard.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 7,
+        "reaction_label": "seeks_instruction",
+        "evidence": "Make a simile.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 8,
+      "speaker": "Nāgasena",
+      "text": "As, sire, the adviser-treasurer of a Wheel-turning King knows what is beneficial and what is detrimental for the king and thinks: ‘These are beneficial for the king, these are detrimental’... and then removes what is detrimental and takes up what is beneficial... even so, sire, when mindfulness is uprising one examines the qualities of mental states... and takes up helpful mental states.",
+      "observable_teaching_actions": [
+        "uses_advisor_analogy",
+        "completes_mapping"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Reinforces the model with the 'Advisor' analogy to explain the discriminative function.",
+      "function_id": "RM_01",
+      "classification_evidence": "Structural mapping: Mapping the Advisor's role (counsel) to Mindfulness's role (taking up/filtering).",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Mindfulness = Advisor; Beneficial States = Good Policy.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 9,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 10,
+      "speaker": "Nāgasena",
+      "text": "A king’s border-town has strong ramparts and only one gateway. If a man wanted to leave that town how would he do so?",
+      "observable_teaching_actions": [
+        "uses_city_analogy",
+        "establishes_constraint"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Introduces the border-town analogy to explain structural causality without intent.",
+      "function_id": "RM_01",
+      "classification_evidence": "Structural mapping: Mapping the mind/senses system to a fortified town with gates.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Mind = Town; Sense-Door = Gate.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 11,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "Through that gateway, revered sir.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 12,
+      "speaker": "Nāgasena",
+      "text": "If another man wanted to leave that town how would he do so?",
+      "observable_teaching_actions": [
+        "extends_analogy",
+        "tests_sequential_flow"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Extends the analogy to a second event to model the sequential arising of consciousness.",
+      "function_id": "RM_02",
+      "classification_evidence": "Example instantiation: Adding a second man to represent the second consciousness (mind-consciousness).",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "system_dynamics",
+      "mechanism_comment": "Sequential processing through a single channel.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 13,
+        "reaction_label": "elaborates",
+        "evidence": "In the same way as the first man, revered sir.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 14,
+      "speaker": "Nāgasena",
+      "text": "Does the first man instruct the second, saying ‘You go out in the same way as I do,’ or does the second man instruct the first, saying ‘I too will go out in the same way as you do’?",
+      "observable_teaching_actions": [
+        "questions_agency",
+        "reductio_ad_absurdum"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Applies the 'instruction' hypothesis to the analogy to show its absurdity.",
+      "function_id": "RM_03",
+      "classification_evidence": "Conceptual distinction: Distinguishing structural necessity from intentional instruction.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "conceptual_reification"
+      ],
+      "trap_notes": [
+        "King reifies mental processes into agents who talk."
+      ],
+      "mechanism_shape": "constraint_collapse",
+      "mechanism_comment": "Removing the 'conversation' constraint.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 15,
+        "reaction_label": "conceptual_concession",
+        "evidence": "No, revered sir, there is no conversation between them. They go out because there is the door.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 16,
+      "speaker": "Nāgasena",
+      "text": "Even so, sire, it is because of door that where eye-consciousness arises mind-consciousness arises there too.",
+      "observable_teaching_actions": [
+        "maps_analogy_back",
+        "concludes_structural_causality"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Finalizes the model: structure (door/sense-base) dictates flow, not conversation.",
+      "function_id": "RM_01",
+      "classification_evidence": "Structural mapping: Gate = Sense Door.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "system_dynamics",
+      "mechanism_comment": "Structure determines behavior.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 17,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 18,
+      "speaker": "Nāgasena",
+      "text": "Yes, sire, there is the Blessed One.",
+      "observable_teaching_actions": [
+        "affirms_existence"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Asserts existence to provoke the King's spatial assumption.",
+      "function_id": "UM_01",
+      "classification_evidence": "Definition forcing: Asserting existence to force the King to reveal his criteria for existence (location).",
+      "register": {
+        "intensity": "PR_01",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 19,
+        "reaction_label": "pushes_back",
+        "evidence": "But is it possible... to point to the Buddha and say that he is either here or there?",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 20,
+      "speaker": "Nāgasena",
+      "text": "Sire, the Blessed One has attained final Nibbāna... It is not possible to point to the Blessed One and say that he is either here or there.",
+      "observable_teaching_actions": [
+        "denies_spatial_location",
+        "introduces_cessation"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Introduces the concept of Nibbana as cessation of location/being.",
+      "function_id": "RM_03",
+      "classification_evidence": "Conceptual distinction: Distinguishing 'existence' from 'spatial location'.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_04",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "realism_trap"
+      ],
+      "trap_notes": [
+        "King assumes all existing things must have coordinates."
+      ],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 21,
+        "reaction_label": "seeks_instruction",
+        "evidence": "Make a simile.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 22,
+      "speaker": "Nāgasena",
+      "text": "What do you think about this, sire? When the flame of a great mass of fire has gone out, is it possible to point to that flame and say that it is either here or there?",
+      "observable_teaching_actions": [
+        "uses_fire_analogy",
+        "questions_location"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Uses the extinguished fire analogy to model cessation.",
+      "function_id": "RM_01",
+      "classification_evidence": "Structural mapping: Extinguished Flame = Parinibbana.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_02",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Cessation of fire implies no location, not 'elsewhere'.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 23,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "No, revered sir, that flame has ceased, it has vanished.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 24,
+      "speaker": "Nāgasena",
+      "text": "Even so, sire, the Blessed One has attained final Nibbāna... It is not possible to point to the Blessed One who has come to an end and say that he is either here or there. But, sire, it is possible to point to the Blessed One by means of the body of the Dhamma, for Dhamma, sire, was taught by the Blessed One.",
+      "observable_teaching_actions": [
+        "applies_analogy",
+        "redefines_presence"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Completes the model: physical presence is gone (extinguished), but structural presence (Dhamma) remains.",
+      "function_id": "RM_05",
+      "classification_evidence": "Frame upgrade: Shifting focus from the 'Physical Body' to the 'Dhamma Body'.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_04",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "ontological_frame_upgrade",
+      "mechanism_comment": "Replacing the person (Buddha) with the teaching (Dhamma) as the locus of presence.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 25,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 26,
+      "speaker": "Nāgasena",
+      "text": "Sire, the body is not dear to those who have gone forth.",
+      "observable_teaching_actions": [
+        "affirms_detachment"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Asserts the ideal of detachment to provoke the King's charge of hypocrisy.",
+      "function_id": "UM_01",
+      "classification_evidence": "Definition forcing: Stating the definition of the monk's attitude (detachment).",
+      "register": {
+        "intensity": "PR_01",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 27,
+        "reaction_label": "pushes_back",
+        "evidence": "Then why, revered sir, do you treasure and foster it?",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 28,
+      "speaker": "Nāgasena",
+      "text": "But when you have gone into battle, sire, have you been wounded by an arrow from time to time?",
+      "observable_teaching_actions": [
+        "uses_wound_analogy",
+        "appeals_to_experience"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Uses the King's own experience (battle) to introduce the concept of instrumental care.",
+      "function_id": "RM_02",
+      "classification_evidence": "Example instantiation: Using the battle wound as a concrete case of care without love.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Wound care = Body care.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 29,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "Yes, I have, revered sir.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 30,
+      "speaker": "Nāgasena",
+      "text": "Then, was not the wound anointed with ointment, smeared with oil and bandaged with a soft cloth?",
+      "observable_teaching_actions": [
+        "describes_care"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Establishing the fact of care.",
+      "function_id": "RM_04",
+      "classification_evidence": "Instruction protocol: Describing the procedure of care.",
+      "register": {
+        "intensity": "PR_01",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 31,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "Yes, revered sir, it was.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 32,
+      "speaker": "Nāgasena",
+      "text": "But was that wound dear to you, sire, that it was anointed with ointment, smeared with oil and bandaged with a soft cloth?",
+      "observable_teaching_actions": [
+        "questions_motive",
+        "separates_care_from_attachment"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "The core distinction: care does not equal attachment.",
+      "function_id": "RM_03",
+      "classification_evidence": "Conceptual distinction: Distinguishing 'care/maintenance' from 'being dear/attachment'.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "category_conflation"
+      ],
+      "trap_notes": [
+        "King conflates care (action) with attachment (feeling)."
+      ],
+      "mechanism_shape": "conceptual_distinction",
+      "mechanism_comment": "Separating instrumental care from emotional attachment.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 33,
+        "reaction_label": "conceptual_concession",
+        "evidence": "That wound was not dear to me... it was only anointed... so that the flesh might heal.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 34,
+      "speaker": "Nāgasena",
+      "text": "Similarly, sire, the body is not dear to those who have gone forth; but those who have gone forth and are without cleaving look after the body for the sake of faring the holy life.",
+      "observable_teaching_actions": [
+        "maps_analogy_back",
+        "defines_instrumentalism"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Applies the wound logic to the body: the body is a tool (instrument) for the holy life, not an object of love.",
+      "function_id": "RM_01",
+      "classification_evidence": "Structural mapping: Body = Wound (thing needing care); Holy Life = Healing.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Body is treated like a wound: maintained only for function.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 35,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 36,
+      "speaker": "Nāgasena",
+      "text": "Yes, they can.",
+      "observable_teaching_actions": [
+        "affirms_paradox"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Affirms the counter-intuitive fact (suffering beings fear the cure of death) to provoke inquiry.",
+      "function_id": "UM_02",
+      "classification_evidence": "Internal contradiction: Stating that those in pain fear the end of pain (death).",
+      "register": {
+        "intensity": "PR_01",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 37,
+        "reaction_label": "pushes_back",
+        "evidence": "This I do not believe...",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 38,
+      "speaker": "Nāgasena",
+      "text": "Death, sire, is a cause for fear for those who have not seen the Four Noble Truths... Suppose, sire, a boil were to arise, full of pus, on a man’s body, and he... wanting to escape from the danger of it, were to call in a surgeon... and the surgeon... were to have a lancet sharpened... Would not fright arise in that afflicted man, sire, with the cutting of the sharp lancet...?",
+      "observable_teaching_actions": [
+        "uses_medical_analogy",
+        "distinguishes_process_from_result"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Uses the surgery analogy to explain the conflict between fearing the process (pain) and desiring the result (cure).",
+      "function_id": "RM_02",
+      "classification_evidence": "Example instantiation: Surgery as a case where we fear the cure.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_02",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "rational_choice_model"
+      ],
+      "trap_notes": [
+        "King assumes people are purely rational actors who always welcome relief."
+      ],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Surgery (painful cure) = Death (painful release).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 39,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "Yes, revered sir.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 40,
+      "speaker": "Nāgasena",
+      "text": "If the sick man who wants to be free from his ailment can be afraid of pain, just so can beings in hell, though they long to be released from it, be afraid of death.",
+      "observable_teaching_actions": [
+        "concludes_analogy"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Finalizes the resolution of the paradox: Instinct (fear) overrides Logic (desire for release).",
+      "function_id": "RM_05",
+      "classification_evidence": "Frame upgrade: Shifting from 'Rational Actor' model to 'Instinctual Being' model.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_02",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": null,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    }
+  ],
+  "episode_overview": "A collection of five dialogues from the Milindapañha covering functional definitions of mental states and the resolution of ethical paradoxes. Nagasena uses bureaucratic analogies (Treasurer/Advisor) to define mindfulness, structural analogies (City Gate) to explain consciousness, and medical analogies (Wound/Surgery) to explain non-attachment and the fear of death. The 'Extinguished Fire' analogy is used to explain the ontological status of the Buddha after Nibbana.",
+  "episode_insights": {
+    "key_pattern": "Functional Definition -> Structural Analogy -> Paradox Resolution -> Instrumental Reframing",
+    "notes": [
+      "Nagasena frequently uses 'role-based' analogies (Treasurer, Advisor, Surgeon) to explain abstract mental functions.",
+      "The 'Wound' analogy (Episode 14) is a classic example of instrumentalism: caring for something purely for its utility.",
+      "The 'Extinguished Fire' (Episode 13) is a key Move for explaining cessation without annihilation or location."
+    ]
+  }
+}
+
+
+{
+  "episode_id": "milinda_batch_4_faith_ethics_paradoxes",
+  "source_text": "The Questions of King Milinda (Milindapañha)",
+  "lineage": "Buddhist",
+  "student_turns": [
+    {
+      "turn_index": 1,
+      "speaker": "King Milinda",
+      "text": "Revered Nāgasena, what is the distinguishing mark of faith?",
+      "observable_student_behaviors": [
+        "asks_definition_question"
+      ],
+      "behavior_tags": [
+        "conceptual_inquiry"
+      ],
+      "inferred_state": {
+        "reading": "sincere_inquiry",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 3,
+      "speaker": "King Milinda",
+      "text": "Revered Nāgasena, how is tranquillizing a distinguishing mark of faith? Make a simile.",
+      "observable_student_behaviors": [
+        "requests_mechanism",
+        "requests_analogy"
+      ],
+      "behavior_tags": [
+        "instruction_seeking"
+      ],
+      "inferred_state": {
+        "reading": "receptive_seeking",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 5,
+      "speaker": "King Milinda",
+      "text": "Revered Nāgasena, this too was said by the Blessed One: ‘All beings tremble at punishment, all fear death.’ But again he said: ‘An arahat has passed beyond all fear.’ ... If the Blessed One said that all beings tremble at punishment... then the statement that the arahat has passed beyond all fear must be false.",
+      "observable_student_behaviors": [
+        "poses_paradox",
+        "identifies_contradiction"
+      ],
+      "behavior_tags": [
+        "logical_consistency_check",
+        "textual_criticism"
+      ],
+      "inferred_state": {
+        "reading": "logical_challenge",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 7,
+      "speaker": "King Milinda",
+      "text": "No, revered sir.",
+      "observable_student_behaviors": [
+        "denies_effect"
+      ],
+      "behavior_tags": [
+        "logical_compliance"
+      ],
+      "inferred_state": {
+        "reading": "compliant_denial",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 9,
+      "speaker": "King Milinda",
+      "text": "Because the king has placed them in the highest positions, taxation does not affect them; they are beyond taxation.",
+      "observable_student_behaviors": [
+        "explains_exception",
+        "identifies_immunity"
+      ],
+      "behavior_tags": [
+        "analogical_reasoning"
+      ],
+      "inferred_state": {
+        "reading": "conceptual_grasp",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 11,
+      "speaker": "King Milinda",
+      "text": "Revered Nāgasena, it was said by the Elder Sāriputta... ‘In the conduct of speech, the Tathāgata is quite pure.’ On the other hand... he addressed him with harsh words, calling him a foolish fellow. ... Now if the first statement is correct, the allegation that the Tathāgata called the Elder Sudinna a foolish fellow must be false.",
+      "observable_student_behaviors": [
+        "poses_paradox",
+        "contrasts_behavior_with_attribute"
+      ],
+      "behavior_tags": [
+        "moral_consistency_check"
+      ],
+      "inferred_state": {
+        "reading": "skeptical_challenge",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 13,
+      "speaker": "King Milinda",
+      "text": "But, revered Nāgasena, if someone should abuse another, even though he speaks the truth, we would inflict a small fine on him.",
+      "observable_student_behaviors": [
+        "appeals_to_social_law",
+        "prioritizes_politeness"
+      ],
+      "behavior_tags": [
+        "social_convention_defense",
+        "legalism"
+      ],
+      "inferred_state": {
+        "reading": "cultural_objection",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 15,
+      "speaker": "King Milinda",
+      "text": "No, revered sir...",
+      "observable_student_behaviors": [
+        "concedes_social_reality"
+      ],
+      "behavior_tags": [
+        "compliance"
+      ],
+      "inferred_state": {
+        "reading": "reluctant_agreement",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 17,
+      "speaker": "King Milinda",
+      "text": "Properly, revered Nāgasena.",
+      "observable_student_behaviors": [
+        "concedes_propriety"
+      ],
+      "behavior_tags": [
+        "moral_concession"
+      ],
+      "inferred_state": {
+        "reading": "forced_agreement",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 19,
+      "speaker": "King Milinda",
+      "text": "No, revered sir, wishing to put an end to the disease he would give sharp and scarifying drugs.",
+      "observable_student_behaviors": [
+        "completes_medical_analogy",
+        "prioritizes_cure_over_comfort"
+      ],
+      "behavior_tags": [
+        "instrumental_reasoning"
+      ],
+      "inferred_state": {
+        "reading": "conceptual_alignment",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 21,
+      "speaker": "King Milinda",
+      "text": "Revered Nāgasena, this too was said by the Blessed One: ‘I am without wrath...’ On the other hand, the Tathāgata dismissed the Elders Sāriputta and Moggallāna... did the Tathāgata dismiss the company when he was angry or did he dismiss it when he was pleased?",
+      "observable_student_behaviors": [
+        "poses_dilemma",
+        "assumes_emotional_cause"
+      ],
+      "behavior_tags": [
+        "psychological_projection",
+        "binary_thinking"
+      ],
+      "inferred_state": {
+        "reading": "logical_entrapment",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 23,
+      "speaker": "King Milinda",
+      "text": "No, revered sir. The great earth feels neither anger against any man nor delight.",
+      "observable_teaching_actions": [],
+      "observable_student_behaviors": [
+        "acknowledges_nature_neutrality"
+      ],
+      "behavior_tags": [
+        "natural_law_recognition"
+      ],
+      "inferred_state": {
+        "reading": "compliant_recognition",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 25,
+      "speaker": "King Milinda",
+      "text": "No, revered sir... the great ocean is free from approval and repugnance.",
+      "observable_student_behaviors": [
+        "acknowledges_nature_neutrality",
+        "accepts_analogy"
+      ],
+      "behavior_tags": [
+        "pattern_confirmation"
+      ],
+      "inferred_state": {
+        "reading": "compliant_recognition",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 27,
+      "speaker": "King Milinda",
+      "text": "Revered Nāgasena, this too was said by the Blessed One: ‘A monk should not attempt suicide...’ But on the other hand you say: ‘On whatsoever subject the Blessed One was addressing the disciples, he always... taught the Dhamma in order to bring about the destruction of birth...’",
+      "observable_student_behaviors": [
+        "poses_paradox",
+        "contrasts_rule_with_goal"
+      ],
+      "behavior_tags": [
+        "consistency_check",
+        "teleological_confusion"
+      ],
+      "inferred_state": {
+        "reading": "sincere_confusion",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 29,
+      "speaker": "King Milinda",
+      "text": "What, revered Nāgasena, may that reason be?",
+      "observable_student_behaviors": [
+        "asks_for_rationale"
+      ],
+      "behavior_tags": [
+        "curiosity"
+      ],
+      "inferred_state": {
+        "reading": "receptive_inquiry",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    }
+  ],
+  "teacher_turns": [
+    {
+      "turn_index": 2,
+      "speaker": "Nāgasena",
+      "text": "Faith, sire, has tranquillizing as a distinguishing mark and also leaping forward as a distinguishing mark.",
+      "observable_teaching_actions": [
+        "defines_concept",
+        "lists_attributes"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Provides a precise functional definition of faith to replace vague notions.",
+      "function_id": "RM_03",
+      "classification_evidence": "Conceptual distinction: Defining faith by two specific functions (tranquillizing, leaping forward).",
+      "register": {
+        "intensity": "PR_01",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 3,
+        "reaction_label": "seeks_instruction",
+        "evidence": "Revered Nāgasena, how is tranquillizing a distinguishing mark of faith? Make a simile.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Nāgasena",
+      "text": "As, sire, a Wheel-turning King going along a high road with his four limbed-army... might cross a small stretch of water and, as a result, that water will become foul, turbid and muddy. ... The king might have a water-clearing gem. So the men cast that water-clearing gem in the water. Immediately the various water plants disappear, the mud subsides and the water becomes clear, pure and serene. ... Sire, like the water is the mind... like the water-clearing gem is faith. ... Faith, as it is uprising, extirpates the hindrances...",
+      "observable_teaching_actions": [
+        "uses_gem_analogy",
+        "explains_purification"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Uses the water-clearing gem analogy to model how faith acts mechanically to clarify the mind.",
+      "function_id": "RM_01",
+      "classification_evidence": "Structural mapping: Gem = Faith; Mud = Hindrances; Clearing = Tranquillizing.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_03",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Chemical precipitation model for psychological clarity.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 5,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 6,
+      "speaker": "Nāgasena",
+      "text": "Sire, it was not with regard to arahats that the Blessed One spoke... The arahat is an exception... Suppose, sire, a king had four chief ministers... and that when some business had arisen the king should have a command issued... ‘Let everyone pay me a tax’... Now, sire, would any tremor due to the fear of taxation arise in those four chief ministers?",
+      "observable_teaching_actions": [
+        "introduces_exception",
+        "uses_political_analogy"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Resolves the contradiction by introducing a hierarchical model where the general rule ('all fear') has specific exemptions.",
+      "function_id": "RM_01",
+      "classification_evidence": "Structural mapping: Ministers = Arahats; Tax = Fear/Death; Common People = Non-Arahats.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "false_paradox"
+      ],
+      "trap_notes": [
+        "King treats 'all beings' as an absolute set without structural exceptions."
+      ],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Exemption from tax = Exemption from fear.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 7,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "No, revered sir.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 8,
+      "speaker": "Nāgasena",
+      "text": "For what reason, sire?",
+      "observable_teaching_actions": [
+        "demands_mechanism"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Forces the King to articulate the logic of immunity.",
+      "function_id": "RM_04",
+      "classification_evidence": "Instruction protocol: Guiding the student to explain the mechanism of the exception.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "source_tracing",
+      "mechanism_comment": "Tracing the immunity back to status/position.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 9,
+        "reaction_label": "elaborates",
+        "evidence": "Because the king has placed them in the highest positions... they are beyond taxation.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 10,
+      "speaker": "Nāgasena",
+      "text": "Even so, sire, the statement that all beings tremble at punishment, all fear death, does not apply to the arahats.",
+      "observable_teaching_actions": [
+        "maps_analogy_back",
+        "resolves_paradox"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Finalizes the resolution: Arahats are structurally immune to the 'tax' of fear.",
+      "function_id": "RM_05",
+      "classification_evidence": "Frame upgrade: Redefining enlightenment as 'immunity from jurisdiction'.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Political immunity = Spiritual immunity.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 11,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 12,
+      "speaker": "Nāgasena",
+      "text": "What the Elder Sāriputta said is true... But that was not said out of rudeness of disposition... If any man, sire, in this birth, does not understand the Four Noble Truths... he is called a foolish fellow. Therefore, the Blessed One addressed the Elder Sudinna with words of truth...",
+      "observable_teaching_actions": [
+        "validates_both_premises",
+        "redefines_harshness"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Reframes the 'harshness' as factual accuracy, challenging the social definition of politeness.",
+      "function_id": "UM_01",
+      "classification_evidence": "Definition forcing: Redefining 'harsh speech' based on intent/truth rather than tone.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "semantic_fog"
+      ],
+      "trap_notes": [
+        "King conflates 'impolite' with 'impure'."
+      ],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 13,
+        "reaction_label": "pushes_back",
+        "evidence": "if someone should abuse another... we would inflict a small fine on him.",
+        "outcome_label": "partial_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 14,
+      "speaker": "Nāgasena",
+      "text": "Have you, sire, ever heard of anyone bowing down before... a wrong-doer?",
+      "observable_teaching_actions": [
+        "poses_counter_question",
+        "challenges_social_norm"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Uses the King's own social logic (respect/disrespect) to show that 'abuse' is sometimes appropriate status recognition.",
+      "function_id": "UM_03",
+      "classification_evidence": "Concrete grounding: Checking the King's abstract legalism against his concrete social behavior (bowing).",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "abstract_to_concrete_check",
+      "mechanism_comment": "Testing the 'politeness' rule against the reality of dealing with criminals.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 15,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "No, revered sir...",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 16,
+      "speaker": "Nāgasena",
+      "text": "Well then, sire, did the Blessed One act properly or not?",
+      "observable_teaching_actions": [
+        "forces_judgment"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Forces the King to concede the propriety of the act based on the previous admission.",
+      "function_id": "UM_02",
+      "classification_evidence": "Internal contradiction: If you don't bow to wrongdoers, then identifying them as 'foolish' is consistent.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "causal_chain",
+      "mechanism_comment": "Wrong-doer -> No Respect -> Truthful Labeling.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 17,
+        "reaction_label": "concedes",
+        "evidence": "Properly, revered Nāgasena.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 18,
+      "speaker": "Nāgasena",
+      "text": "Now, sire, would a physician administer pleasant things as medicine in a case where all the humours of the body were affected...?",
+      "observable_teaching_actions": [
+        "uses_medical_analogy",
+        "reorients_perspective"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Reframes the 'harshness' as medical necessity (instrumental pain for cure).",
+      "function_id": "RM_01",
+      "classification_evidence": "Structural mapping: Physician = Buddha; Disease = Defilements; Harsh Drug = Harsh Speech.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Harsh words = Scarifying drugs.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 19,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "No, revered sir, wishing to put an end to the disease he would give sharp and scarifying drugs.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 20,
+      "speaker": "Nāgasena",
+      "text": "Even so, sire, the Tathāgata gives instructions for the allayment of all the diseases of the defilements. ... As, sire, hot water softens anything that can be softened... even so, sire, the Tathāgata’s words, even when harsh, are full of benefit...",
+      "observable_teaching_actions": [
+        "maps_analogy_back",
+        "concludes_justification"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Finalizes the model: Harshness is a tool for softening/healing, not an expression of anger.",
+      "function_id": "RM_05",
+      "classification_evidence": "Frame upgrade: Shifting from 'Judicial Frame' (harshness = crime) to 'Medical Frame' (harshness = cure).",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Words are like hot water (softening agent).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 21,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 22,
+      "speaker": "Nāgasena",
+      "text": "Sire... that was not through ill-temper. Suppose, sire, some man stumbled over a root... Would it be that the great earth, angry with him, made him fall?",
+      "observable_teaching_actions": [
+        "uses_nature_analogy",
+        "depersonalizes_reaction"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Reframes the dismissal as an impersonal reaction (like gravity) rather than an emotional one (anger).",
+      "function_id": "RM_01",
+      "classification_evidence": "Structural mapping: Mapping Buddha's reaction to the Earth's reaction (impersonal physics).",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Dismissal = Stumbling (Natural consequence).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 23,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "No, revered sir. The great earth feels neither anger... nor delight.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 24,
+      "speaker": "Nāgasena",
+      "text": "Even so, sire, there is no ill-temper or satisfaction in the Tathāgatas. ... As to this, sire, the great ocean does not endure association with a corpse. ... Now, sire, is the great ocean angry that it casts up that corpse?",
+      "observable_teaching_actions": [
+        "uses_ocean_analogy",
+        "reinforces_impersonality"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Strengthens the 'impersonal system' model with the Ocean analogy (active rejection without emotion).",
+      "function_id": "RM_02",
+      "classification_evidence": "Example instantiation: Using the Ocean's rejection of corpses as a parallel to the Sangha's rejection of faults.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Sangha/Buddha = Ocean; Fault = Corpse; Rejection = Natural Law.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 25,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "No, revered sir... the great ocean is free from approval and repugnance.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 26,
+      "speaker": "Nāgasena",
+      "text": "Even so, sire... So the company was dismissed on account of what it itself had done through its own fault. ... But though the Tathāgata, sire, dismissed those monks, he desired their welfare...",
+      "observable_teaching_actions": [
+        "concludes_mechanism",
+        "reconciles_compassion"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Finalizes the model: systemic rejection (mechanism) is compatible with desire for welfare (intent).",
+      "function_id": "RM_05",
+      "classification_evidence": "Frame upgrade: Establishing 'Systemic Integrity' as distinct from 'Personal Anger'.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "system_dynamics",
+      "mechanism_comment": "System auto-corrects faults.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 27,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 28,
+      "speaker": "Nāgasena",
+      "text": "The regulation you quote, sire, was laid down by the Blessed One, and yet our saying you refer to is true. There is a reason for this...",
+      "observable_teaching_actions": [
+        "accepts_paradox",
+        "signals_resolution"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Validates the paradox as real but resolvable.",
+      "function_id": "RM_03",
+      "classification_evidence": "Conceptual distinction: Preparing to distinguish the Rule (suicide ban) from the Principle (end of birth).",
+      "register": {
+        "intensity": "PR_01",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 29,
+        "reaction_label": "seeks_instruction",
+        "evidence": "What, revered Nāgasena, may that reason be?",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 30,
+      "speaker": "Nāgasena",
+      "text": "One who is moral, sire, possessed of morality, is like an antidote... like a healing balm... like a ship... It was in order that one who was moral like that might not perish... that the Blessed One... laid down this rule of training...",
+      "observable_teaching_actions": [
+        "uses_resource_analogy",
+        "defines_instrumental_value"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Reframes life not as an intrinsic good to be clung to, nor an evil to be destroyed, but as a resource (ship/antidote) for others.",
+      "function_id": "RM_05",
+      "classification_evidence": "Frame upgrade: Shifting from 'Life vs Death' to 'Life as Instrument/Resource'.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "false_paradox"
+      ],
+      "trap_notes": [
+        "King sees 'destroy birth' and 'ban suicide' as contradictory."
+      ],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Moral person = Ship/Antidote (Tool for salvation).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": null,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    }
+  ],
+  "episode_overview": "A collection of five dialogues from the Milindapañha addressing paradoxes of faith, ethics, and the nature of the Buddha. Nagasena uses chemical analogies (Water-Clearing Gem) for faith, political analogies (Tax Exemption) for Arahats, medical analogies (Surgeon) for harsh speech, and natural law analogies (Ocean/Earth) for the impersonal nature of the Buddha's discipline. The final episode resolves the suicide paradox via an instrumental view of the moral life.",
+  "episode_insights": {
+    "key_pattern": "Functional Analogy -> Hierarchy Exception -> Intent vs Form Reframing -> Impersonal Systems View",
+    "notes": [
+      "Nagasena repeatedly uses 'Role' analogies (King, Minister, Physician) to explain spiritual functions.",
+      "The 'Medical Model' (Episode 18) is a key move to justify 'skillful means' that appear harsh.",
+      "The 'Natural Law' analogies (Episode 19) effectively depersonalize spiritual authority, framing it as a force of nature rather than a human mood."
+    ]
+  }
+}
+
+
+{
+  "episode_id": "milinda_batch_5_final_paradoxes",
+  "source_text": "The Questions of King Milinda (Milindapañha)",
+  "lineage": "Buddhist",
+  "student_turns": [
+    {
+      "turn_index": 1,
+      "speaker": "King Milinda",
+      "text": "Revered Nāgasena, these givers, when they bestow their offerings, devote (the merits) specifically to former relatives... Now do the dead derive any benefit from them?",
+      "observable_student_behaviors": [
+        "asks_doctrinal_question",
+        "questions_efficacy_of_ritual"
+      ],
+      "behavior_tags": [
+        "pragmatic_inquiry",
+        "ritual_skepticism"
+      ],
+      "inferred_state": {
+        "reading": "curious_skepticism",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 3,
+      "speaker": "King Milinda",
+      "text": "But if the offerings made by such givers benefit certain of the departed... then if a man who destroys living creatures... were to dedicate it to the departed... would it then be transferred to them?",
+      "observable_student_behaviors": [
+        "poses_hypothetical",
+        "tests_symmetry"
+      ],
+      "behavior_tags": [
+        "logical_consistency_check",
+        "moral_equivalence"
+      ],
+      "inferred_state": {
+        "reading": "logical_challenge",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 5,
+      "speaker": "King Milinda",
+      "text": "Revered Nāgasena, what is the cause, what is the reason that a good deed can accrue to them and not an evil one?",
+      "observable_student_behaviors": [
+        "demands_mechanism",
+        "questions_asymmetry"
+      ],
+      "behavior_tags": [
+        "causal_inquiry"
+      ],
+      "inferred_state": {
+        "reading": "insistent_inquiry",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 7,
+      "speaker": "King Milinda",
+      "text": "No, revered sir...",
+      "observable_student_behaviors": [
+        "concedes_analogy_limit"
+      ],
+      "behavior_tags": [
+        "logical_compliance"
+      ],
+      "inferred_state": {
+        "reading": "compliant_agreement",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 9,
+      "speaker": "King Milinda",
+      "text": "Certainly, revered sir.",
+      "observable_student_behaviors": [
+        "accepts_cloud_analogy"
+      ],
+      "behavior_tags": [
+        "analogy_acceptance"
+      ],
+      "inferred_state": {
+        "reading": "convinced_agreement",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 11,
+      "speaker": "King Milinda",
+      "text": "Revered Nāgasena, is there a spot to the east or the south... where Nibbāna is stored up?",
+      "observable_student_behaviors": [
+        "asks_spatial_question"
+      ],
+      "behavior_tags": [
+        "materialism",
+        "reification"
+      ],
+      "inferred_state": {
+        "reading": "concrete_thinking",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 13,
+      "speaker": "King Milinda",
+      "text": "If, revered Nāgasena, there is no place for the storing up of Nibbāna, well then, there is no Nibbāna... As there are... fields producing crops... mines producing gems... even so, revered Nāgasena, if there is Nibbāna, there must be a place for producing Nibbāna.",
+      "observable_teaching_actions": [],
+      "observable_student_behaviors": [
+        "draws_negative_inference",
+        "uses_material_analogy"
+      ],
+      "behavior_tags": [
+        "materialist_fallacy",
+        "location_bias"
+      ],
+      "inferred_state": {
+        "reading": "logical_rejection",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 15,
+      "speaker": "King Milinda",
+      "text": "Revered Nāgasena, this Dispensation... is mighty... It is not right to let a layman go forth so long as he is a mere householder. ... Because of their backsliding people may think: ‘Vain, indeed, must be this Dispensation... that these people have turned back from it.’",
+      "observable_student_behaviors": [
+        "critiques_policy",
+        "worries_about_reputation"
+      ],
+      "behavior_tags": [
+        "institutional_concern",
+        "reputation_management"
+      ],
+      "inferred_state": {
+        "reading": "critical_concern",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 17,
+      "speaker": "King Milinda",
+      "text": "The people would blame the dirty man... What defect is there in the pond?",
+      "observable_student_behaviors": [
+        "identifies_fault",
+        "exonerates_system"
+      ],
+      "behavior_tags": [
+        "moral_judgment"
+      ],
+      "inferred_state": {
+        "reading": "clear_judgment",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 19,
+      "speaker": "King Milinda",
+      "text": "The people would blame the sick man... What defect is there in the physician?",
+      "observable_student_behaviors": [
+        "confirms_pattern"
+      ],
+      "behavior_tags": [
+        "pattern_confirmation"
+      ],
+      "inferred_state": {
+        "reading": "confident_judgment",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 21,
+      "speaker": "King Milinda",
+      "text": "The people would blame the famished man...",
+      "observable_student_behaviors": [
+        "confirms_pattern"
+      ],
+      "behavior_tags": [
+        "pattern_confirmation"
+      ],
+      "inferred_state": {
+        "reading": "confident_judgment",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 23,
+      "speaker": "King Milinda",
+      "text": "Revered Nāgasena, it has been said by the Blessed One: ‘Ānanda, the true Dhamma will last now for only five hundred years.’ But, on the other hand... ‘If these monks were to live rightly, the world might not be empty of arahats.’ If the first of these statements is correct, the second is misleading...",
+      "observable_student_behaviors": [
+        "poses_textual_contradiction",
+        "contrasts_fate_with_condition"
+      ],
+      "behavior_tags": [
+        "scriptural_analysis",
+        "consistency_check"
+      ],
+      "inferred_state": {
+        "reading": "logical_confusion",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 25,
+      "speaker": "King Milinda",
+      "text": "No, revered sir.",
+      "observable_student_behaviors": [
+        "accepts_reservoir_logic"
+      ],
+      "behavior_tags": [
+        "logical_compliance"
+      ],
+      "inferred_state": {
+        "reading": "compliant_agreement",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 27,
+      "speaker": "King Milinda",
+      "text": "No, revered sir. On the contrary, it would become even more stainless than before.",
+      "observable_student_behaviors": [
+        "confirms_cleaning_effect",
+        "corrects_implication"
+      ],
+      "behavior_tags": [
+        "common_sense"
+      ],
+      "inferred_state": {
+        "reading": "obvious_agreement",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 29,
+      "speaker": "King Milinda",
+      "text": "Revered Nāgasena, this too was said by the Blessed One... ‘When I am gone, Ānanda, let the Order, if it should so desire, abolish the lesser and minor rules of training.’ Now, revered Nāgasena, were these lesser and minor rules of training wrongly laid down... since the Blessed One allowed them to be abolished...?",
+      "observable_student_behaviors": [
+        "questions_legislative_intent",
+        "suggests_error"
+      ],
+      "behavior_tags": [
+        "legal_skepticism",
+        "authority_challenge"
+      ],
+      "inferred_state": {
+        "reading": "critical_doubt",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 31,
+      "speaker": "King Milinda",
+      "text": "No, revered sir, kings are greedier than that. The princes... would never give up what they already possessed.",
+      "observable_student_behaviors": [
+        "rejects_hypothetical_outcome",
+        "asserts_human_nature"
+      ],
+      "behavior_tags": [
+        "political_realism",
+        "psychological_insight"
+      ],
+      "inferred_state": {
+        "reading": "cynical_certainty",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    }
+  ],
+  "teacher_turns": [
+    {
+      "turn_index": 2,
+      "speaker": "Nāgasena",
+      "text": "Some do, sire, and some do not. ... The fourth class that lives on the gifts of others do derive benefit...",
+      "observable_teaching_actions": [
+        "nuances_position",
+        "identifies_beneficiaries"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Clarifies the doctrine by distinguishing who can and cannot receive merit, resolving the blanket question.",
+      "function_id": "RM_03",
+      "classification_evidence": "Conceptual distinction: Distinguishing classes of beings who can receive merit from those who cannot.",
+      "register": {
+        "intensity": "PR_01",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 3,
+        "reaction_label": "pushes_back",
+        "evidence": "if a man who destroys living creatures... were to dedicate it... would it then be transferred?",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Nāgasena",
+      "text": "No, sire.",
+      "observable_teaching_actions": [
+        "denies_equivalence"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Flatly denies the student's logical extension (that evil transfers like good) to set up the distinction.",
+      "function_id": "UM_02",
+      "classification_evidence": "Internal contradiction: Rejecting the symmetry the King assumes between good and evil transfer.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 5,
+        "reaction_label": "seeks_instruction",
+        "evidence": "what is the cause... that a good deed can accrue to them and not an evil one?",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 6,
+      "speaker": "Nāgasena",
+      "text": "An evil deed is slight, sire, a good deed is abundant. ... Make a simile. ... It is as, sire, one small drop of water might fall on the earth, yet would that drop of water, sire, spread out over ten or twelve leagues?",
+      "observable_teaching_actions": [
+        "introduces_magnitude_distinction",
+        "uses_water_drop_analogy"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Explains the non-transfer of evil via the 'Drop' analogy (lack of volume/magnitude).",
+      "function_id": "RM_01",
+      "classification_evidence": "Structural mapping: Evil = Water Drop (Small magnitude, local impact).",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "false_paradox"
+      ],
+      "trap_notes": [
+        "King assumes good and evil obey symmetrical laws of transfer."
+      ],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Evil does not spread because it lacks magnitude (like a drop).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 7,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "No, revered sir...",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 8,
+      "speaker": "Nāgasena",
+      "text": "Even so, sire, an evil deed is slight... it affects only the doer... But as, sire, a mighty and great cloud were to pour down rain satisfying the earth’s surface, yet would the water from that great cloud, spread out all round?",
+      "observable_teaching_actions": [
+        "uses_cloud_analogy",
+        "contrasts_magnitude"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Uses the 'Cloud' analogy to explain why good (merit) spreads and can be shared.",
+      "function_id": "RM_02",
+      "classification_evidence": "Example instantiation: Using the Rain Cloud to represent the abundance and spread of Good.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Good spreads because it has magnitude (like a cloud).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 9,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "Certainly, revered sir.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 10,
+      "speaker": "Nāgasena",
+      "text": "Even so, sire, a good deed is abundant; because of its abundance one is able to share it even with devas and mankind.",
+      "observable_teaching_actions": [
+        "concludes_asymmetry"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Finalizes the doctrine: merit transfer depends on the 'abundance' property of the deed.",
+      "function_id": "RM_05",
+      "classification_evidence": "Frame upgrade: Shifting from 'Symmetry of Transfer' to 'Physics of Abundance'.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "threshold",
+      "mechanism_comment": "Transfer requires crossing a threshold of abundance.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 11,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 12,
+      "speaker": "Nāgasena",
+      "text": "There is no spot, sire... where Nibbāna is stored up.",
+      "observable_teaching_actions": [
+        "denies_location"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Denies the spatial premise of the King's question.",
+      "function_id": "RM_03",
+      "classification_evidence": "Conceptual distinction: Distinguishing 'existence' from 'storage location'.",
+      "register": {
+        "intensity": "PR_01",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 13,
+        "reaction_label": "defensive",
+        "evidence": "well then, there is no Nibbāna... if there is Nibbāna, there must be a place for producing Nibbāna.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 14,
+      "speaker": "Nāgasena",
+      "text": "There is no place for the storing up of Nibbāna, sire; but there is this Nibbāna... It is, sire, as there is fire, though there is no place for storing it up, and a man rubbing two sticks together obtains fire. Even so, sire, there is Nibbāna, though there is no place for storing it up, and one practising rightly realizes Nibbāna by means of proper attention.",
+      "observable_teaching_actions": [
+        "uses_fire_analogy",
+        "defines_latency"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Uses the friction/fire analogy to explain how something can exist as a potentiality without a location until conditions are met.",
+      "function_id": "RM_01",
+      "classification_evidence": "Structural mapping: Fire (latent) = Nibbana (latent); Rubbing Sticks = Practice; Spark = Realization.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_04",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "realism_trap"
+      ],
+      "trap_notes": [
+        "King believes existence requires spatial storage (fields/mines)."
+      ],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Nibbana exists as potential (like fire in wood), not as stuff in a box.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 15,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 16,
+      "speaker": "Nāgasena",
+      "text": "Supposing, sire, there were a pond full of pure, clear, cold water. Some man, dirty... should come there, and without bathing in it should turn back again, still dirty as before. Whom would the people blame... the dirty man or the pond?",
+      "observable_teaching_actions": [
+        "uses_pond_analogy",
+        "shifts_blame"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Uses the 'Pond' analogy to shift the locus of failure from the System (Dispensation) to the User (Backslider).",
+      "function_id": "RM_01",
+      "classification_evidence": "Structural mapping: Pond = Dispensation; Dirty Man = Backslider.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "System efficacy vs User compliance.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 17,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "The people would blame the dirty man... What defect is there in the pond?",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 18,
+      "speaker": "Nāgasena",
+      "text": "Even so, sire, the Tathāgata constructed the pond of the noble true Dhamma... Or, sire, it is as if a man afflicted with a dire disease should visit a physician... but he does not let himself be treated and turns back still an ill man. Whom would the people blame...?",
+      "observable_teaching_actions": [
+        "stacks_analogy",
+        "uses_medical_analogy"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Reinforces the point with a second analogy (Doctor/Patient) to make the user error undeniable.",
+      "function_id": "RM_02",
+      "classification_evidence": "Example instantiation: Adding the Doctor case to the Pond case.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Doctor = Buddha; Sick Man = Backslider.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 19,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "The people would blame the sick man... What defect is there in the physician?",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 20,
+      "speaker": "Nāgasena",
+      "text": "Even so, sire... Or, sire, it is as if a famished man arriving at a mighty distribution of food... but not eating any of that food, should turn back famished as before, whom would the people blame...?",
+      "observable_teaching_actions": [
+        "stacks_analogy",
+        "uses_food_analogy"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Third analogy (Food/Famished Man) to overwhelm any remaining resistance to the argument.",
+      "function_id": "RM_02",
+      "classification_evidence": "Example instantiation: Adding the Food case.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Food = Dhamma; Starving Man = Backslider.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 21,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "The people would blame the famished man...",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 22,
+      "speaker": "Nāgasena",
+      "text": "Even so, sire... If someone, not partaking of that meal, turns back... the people would blame only him...",
+      "observable_teaching_actions": [
+        "concludes_liability"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Finalizes the argument: The System (Dhamma) is perfect; the failure lies entirely with the User who does not engage.",
+      "function_id": "RM_05",
+      "classification_evidence": "Frame upgrade: Upgrading the view of the Dispensation from 'Ineffective' to 'Available but requires participation'.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 23,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 24,
+      "speaker": "Nāgasena",
+      "text": "The Blessed One, sire, did make both statements... The one deals with the duration of the Dispensation, the other illustrates the practice... Suppose, sire, there is a reservoir full of fresh clean water... If the water in that reservoir had not dried up and a great cloud above should pour down heavy and continuous rain, would the water in that reservoir be exhausted and dried up?",
+      "observable_teaching_actions": [
+        "validates_contradiction",
+        "uses_reservoir_analogy"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Resolves the time-limit paradox by introducing a dynamic system model (Reservoir + Rain).",
+      "function_id": "RM_01",
+      "classification_evidence": "Structural mapping: Reservoir = Dispensation (Static limit); Rain = Practice (Dynamic renewal).",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "false_paradox"
+      ],
+      "trap_notes": [
+        "King sees 'finite duration' and 'indefinite possibility' as contradictory."
+      ],
+      "mechanism_shape": "system_dynamics",
+      "mechanism_comment": "Stock (Reservoir) vs Flow (Rain). Flow renews Stock.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 25,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "No, revered sir.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 26,
+      "speaker": "Nāgasena",
+      "text": "Even so, sire... If the sons of the Buddha were to make the rain of the cloud of good behaviour... pour down heavily... so would this reservoir... last for a very long time... If, sire, people were to continually polish with fine soft red powder a stainless mirror... would dirt and dust and mud arise on its surface?",
+      "observable_teaching_actions": [
+        "maps_analogy_to_practice",
+        "uses_mirror_analogy"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Links the 'Rain' element to 'Practice', showing how human agency extends the system's life.",
+      "function_id": "RM_01",
+      "classification_evidence": "Structural mapping: Rain/Polishing = Active Practice.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_02",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "system_dynamics",
+      "mechanism_comment": "Maintenance extends lifespan.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 27,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "No, revered sir. On the contrary, it would become even more stainless than before.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 28,
+      "speaker": "Nāgasena",
+      "text": "In both cases, sire, the Blessed One said as you have declared. But in the second case it was to test the monks that he said it... As, sire, a king of kings might say to his sons: ‘This great country... reaches to the sea... It is hard to maintain it much longer with the forces we have... So, my children, when I am gone, you had better abandon the outlying districts...’ Now, sire, would the princes... give up those outlying districts...?",
+      "observable_teaching_actions": [
+        "recontextualizes_quote",
+        "uses_royal_analogy"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Reframes the permission to abolish rules as a 'loyalty test' using a political analogy.",
+      "function_id": "RM_01",
+      "classification_evidence": "Structural mapping: Buddha = King; Monks = Princes; Rules = Territory.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "symbolic_literalism"
+      ],
+      "trap_notes": [
+        "King takes the permission to abolish rules literally rather than pedagogically."
+      ],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Permission to abandon territory is a test of strength.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 29,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "No, revered sir, kings are greedier than that.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 30,
+      "speaker": "Nāgasena",
+      "text": "Even so, sire, the Tathāgata spoke thus testing the monks... Sire, the sons of the Buddha... would preserve even more than another hundred and fifty rules of training-how then should they let go of the rules of training that had been laid down originally?",
+      "observable_teaching_actions": [
+        "concludes_test"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Finalizes the reframe: The monks' refusal to abolish rules proves their zeal, validating the test.",
+      "function_id": "RM_05",
+      "classification_evidence": "Frame upgrade: Shifting from 'Admission of Flaw' to 'Test of Zeal'.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 31,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    }
+  ],
+  "episode_overview": "A final batch of dialogues from the Milindapañha dealing with complex doctrinal paradoxes. Nagasena uses analogies of magnitude (Cloud vs Drop) to explain merit transfer, analogies of potentiality (Fire from Sticks) to explain Nibbana's existence without location, and analogies of system dynamics (Reservoir/Rain) to explain the durability of the Dhamma. He also reframes user failure (Backsliders) as separate from system failure, and reinterprets a controversial permission (abolishing rules) as a pedagogical test.",
+  "episode_insights": {
+    "key_pattern": "Asymmetry (Magnitude) -> Potentiality vs Location -> System vs User -> Dynamic Renewal -> Loyalty Test",
+    "notes": [
+      "The 'Cloud vs Drop' analogy (Episode 21) is a key move for explaining why positive feedback loops (merit) are stronger than negative ones.",
+      "The 'Rubbing Sticks' analogy (Episode 22) effectively shifts ontology from 'things in places' to 'events from conditions'.",
+      "The 'Reservoir' analogy (Episode 24) introduces the concept of 'maintenance' (practice) as the factor that defeats entropy (time limit)."
+    ]
+  }
+}

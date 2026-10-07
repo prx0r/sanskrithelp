@@ -1,0 +1,304 @@
+user_turns	msgs	size	lineage	episode_id	file
+7	15	25108	Buddhist	milinda_003_identity_lamp_baby	cxx.txt
+7	15	24755	Buddhist	milinda_001_chariot_deconstruction	cxx.txt
+7	15	13110	Buddhist	milinda_003_identity_lamp_baby	finale.txt
+7	15	13110	Buddhist	milinda_003_identity_lamp_baby	budda.txt
+7	15	12232	Buddhist	milinda_001_chariot_deconstruction	finale.txt
+7	15	12232	Buddhist	milinda_001_chariot_deconstruction	budda.txt
+7	15	5464	Buddhist	milinda_003_identity_lamp_baby	9 buddha.txt
+7	15	5464	Buddhist	milinda_003_identity_lamp_baby	3 buddha.txt
+7	15	5446	Buddhist	milinda_001_chariot_deconstruction	9 buddha.txt
+7	15	5446	Buddhist	milinda_001_chariot_deconstruction	3 buddha.txt
+6	13	21038	Buddhist	milinda_006_slope_consciousness	cxx.txt
+6	13	11960	Buddhist	milinda_006_slope_consciousness	finale.txt
+6	13	11960	Buddhist	milinda_006_slope_consciousness	budda.txt
+6	13	4958	Buddhist	milinda_006_slope_consciousness	9 buddha.txt
+6	13	4958	Buddhist	milinda_006_slope_consciousness	3 buddha.txt
+6	13	2309	Krishnamurti	krishna_012_t01_t13_ambition_and_conflict	cum.txt
+6	13	2309	Krishnamurti	krishna_012_t01_t13_ambition_and_conflict	corpusss.txt
+6	6	38902	jhana_active_inference_precision	ep_jhana_active_inference_001	39 jhanas baby.txt
+6	6	37605	lamrim_curriculum_learning_intelligence	ep_lamrim_curriculum_002	22 tsongkhapa ai training.txt
+6	6	36296	iit_llms_animism_moral_status	ep_iit_llm_animism_001	42 machines consciousness.txt
+5	12	2134	Krishnamurti	krishna_009_t01_t12_boredom_and_escape	cum.txt
+5	12	2134	Krishnamurti	krishna_009_t01_t12_boredom_and_escape	corpusss.txt
+5	11	18052	Buddhist	milinda_018_harsh_speech_surgeon	cxx.txt
+5	11	14192	Buddhist	milinda_014_wound_instrumentalism	cxx.txt
+5	11	11764	Buddhist	mn44_visakha_full	finale.txt
+5	11	11764	Buddhist	mn44_visakha_full	cxx.txt
+5	11	11764	Buddhist	mn44_visakha_full	budda.txt
+5	11	11534	Buddhist	mn74_dighanakha_full	finale.txt
+5	11	11534	Buddhist	mn74_dighanakha_full	cxx.txt
+5	11	11534	Buddhist	mn74_dighanakha_full	budda.txt
+5	11	11279	Buddhist	mn35_saccaka_full	finale.txt
+5	11	11279	Buddhist	mn35_saccaka_full	cxx.txt
+5	11	11279	Buddhist	mn35_saccaka_full	budda.txt
+5	11	10027	Buddhist	milinda_018_harsh_speech_surgeon	finale.txt
+5	11	10027	Buddhist	milinda_018_harsh_speech_surgeon	budda.txt
+5	11	9227	Buddhist	milinda_014_wound_instrumentalism	finale.txt
+5	11	9227	Buddhist	milinda_014_wound_instrumentalism	budda.txt
+5	11	5075	Buddhist	mn35_saccaka_full	9 buddha.txt
+5	11	5075	Buddhist	mn35_saccaka_full	3 buddha.txt
+5	11	4866	Buddhist	mn74_dighanakha_full	9 buddha.txt
+5	11	4866	Buddhist	mn74_dighanakha_full	9 buddha.txt
+5	11	4866	Buddhist	mn74_dighanakha_full	3 buddha.txt
+5	11	4866	Buddhist	mn74_dighanakha_full	3 buddha.txt
+5	11	4631	Buddhist	mn35_saccaka_full	9 buddha.txt
+5	11	4631	Buddhist	mn35_saccaka_full	3 buddha.txt
+5	11	4511	Buddhist	mn44_visakha_full	9 buddha.txt
+5	11	4511	Buddhist	mn44_visakha_full	3 buddha.txt
+5	11	4437	Buddhist	mn74_dighanakha_full	9 buddha.txt
+5	11	4437	Buddhist	mn74_dighanakha_full	3 buddha.txt
+5	11	4304	Buddhist	milinda_018_harsh_speech_surgeon	9 buddha.txt
+5	11	4304	Buddhist	milinda_018_harsh_speech_surgeon	3 buddha.txt
+5	11	4102	Buddhist	mn44_visakha_full	9 buddha.txt
+5	11	4102	Buddhist	mn44_visakha_full	3 buddha.txt
+5	11	3543	Buddhist	milinda_014_wound_instrumentalism	9 buddha.txt
+5	11	3543	Buddhist	milinda_014_wound_instrumentalism	3 buddha.txt
+5	5	36284	philosophy_of_mathematics_platonism	ep_plato_forms_math_realism_001	14 plato math 1.txt
+5	5	35666	history_of_medicine_paracelsus_homeopathy	ep_paracelsus_homeopathy_001	6 paraclesian medicine.txt
+5	5	35062	timewave_zero_complexity_teleology	ep_timewave_complexity_001	13 mckenna singularity.txt
+5	5	34433	tantra_mantra_neuroscience	ep_mantra_sound_power_001	16 mantra power.txt
+5	5	31952	dzogchen_consciousness_minimal_self	ep_dzogchen_rigpa_minimal_self_001	21 dzogchen consciousness.txt
+5	5	31651	alchemy_biology	ep_alchemy_biology_001	4 alchemical autophagy.txt
+5	5	31489	hermetic_correspondences_biology	ep_hermetic_planets_001	10 - hermetic metal.txt
+5	5	29041	death_consciousness_mysticism	ep_bardos_dying_brain_001	trifecta gen.txt
+5	5	28669	damascius_ineffable_godel_incompleteness	ep_damascius_godel_ineffable_001	47 neoplatanism godel.txt
+5	5	28237	?	ep_human_photosynthesis_001	gold 20 breatharian.txt
+5	5	28079	akashic_holography	ep_akashic_holography_001	11 akashik spacetime.txt
+5	5	28041	?	ep_many_worlds_001	gold 15 many worlds.txt
+5	5	28007	?	ep_002	gold 5 agi.txt
+5	5	27954	pythagoreanism_string_theory_music_of_spheres	ep_pythagoras_string_theory_001	44 pythagorus string theory.txt
+5	5	27893	?	ep_003	gold 8 archon simulation.txt
+5	5	27641	tulpas_ai_personas	ep_tulpas_ai_personas_001	48 tulpas ai.txt
+5	5	26643	?	ep_002	golden 3 death.txt
+5	5	26529	?	ep_006	gold 13 information spirits.txt
+5	5	26471	?	ep_tantra_001	gold 22 scientific basis to tantric practises.txt
+5	5	26327	?	ep_004	gold 9 jesus real.txt
+5	5	26260	yin_yang_symmetry	ep_yinyang_symmetry_001	9 taoist physics.txt
+5	5	25593	?	ep_002	checker script.txt
+5	5	25238	?	ep_qm_interpretations_001	gold 16 quantum interpretations.txt
+5	5	24797	?	ep_agents_crypto_001	gold 12 ai crypto.txt
+5	5	24757	kant_euclid_relativity	ep_kant_euclid_relativity_001	46 kant euclid relativity.txt
+5	5	24745	mythology_cosmology	ep_vedic_cycles_cosmology_001	12 vedic universe.txt
+5	5	24561	dust_theory_yogacara_subjective_immortality	ep_dust_theory_alaya_immortality_001	25 storehouse egan.txt
+5	5	24560	phowa_mind_uploading	ep_phowa_mind_uploading_001	43 phowa uploading.txt
+5	5	24560	phowa_mind_uploading	ep_phowa_mind_uploading_001	23 phowa uploading.txt
+5	5	23992	tms_savant_siddhi_topdown_inhibition	ep_tms_snyder_siddhis_filters_001	30 snyder yoga.txt
+5	5	23713	morphic_resonance_samskara_karma_field	ep_morphic_resonance_samskara_karmafield_001	27 sheldrake samskara.txt
+5	5	23667	?	ep_qbio_mito_001	gold 18 mitochondria quantum.txt
+5	5	22909	?	ep_008	gold 21 disruptive domains.txt
+5	5	22647	?	ep_008	gold 17 crypto career.txt
+5	5	22570	?	ep_qft_agents_001	gold 10 hoffman agents.txt
+5	5	22135	astral_plane_hilbert_space	ep_astral_hilbert_phase_001	34 hilbert astral.txt
+5	5	21810	?	ep_007	gold 14 quantum crypto.txt
+5	5	21510	?	ep_occult_001	gold 6 picatrix.txt
+5	5	21444	?	ep_whoami_001	gold standard 2 who am i.txt
+5	5	21189	?	ep_008	gold 23 kabbalah neuro.txt
+5	5	20793	?	ep_prana_nadis_001	1 prana nadis.txt
+5	5	20500	?	ep_009	gold 19 coding language crpyot quantum.txt
+5	5	20492	?	ep_qc_001	gold 4 quantum encryption.txt
+5	5	20044	machine_elves_latent_space	ep_machine_elves_latent_space_001	41 machine elves latent.txt
+5	5	19203	?	ep_001	gold standard 1.txt
+5	5	18153	madhyamaka_relational_qm	ep_madhyamaka_relational_qm_001	32 madhyamaka rovelli.txt
+5	5	17846	abhidharma_mind_moments_gamma	ep_mind_moments_gamma_001	37 abhidharma mind moments.txt
+5	5	17728	precognition_transactional_qm	ep_precognition_transactional_qm_001	33 precognition quantum.txt
+5	5	16937	?	ep_003	gold 7 is god real.txt
+5	5	15812	amulet_entanglement_puttapisek	ep_puttapisek_entanglement_amulets_001	36 amulets enlightnement quantum.txt
+5	5	15406	goetia_ifs_dissociation	ep_goetia_ifs_dissociation_001	31 solomon demon disaccotiaon.txt
+5	5	15299	madhyamaka_topos_logic	ep_madhyamaka_topos_001	24 nagarjuna truths math.txt
+5	5	15219	illusory_body_predictive_coding	ep_illusory_body_predictive_coding_001	26 illusory body predictive.txt
+5	5	14762	godel_apophatic_theology	ep_godel_apophatic_theology_001	28 godel god.txt
+5	5	14205	karma_block_universe	ep_karma_block_universe_001	29 karma relativity.txt
+4	9	14038	Buddhist	milinda_005_soul_window_homunculus	cxx.txt
+4	9	13986	Buddhist	milinda_021_merit_transfer_cloud	cxx.txt
+4	9	13957	Buddhist	milinda_023_backsliders_barrage	cxx.txt
+4	9	13718	Buddhist	milinda_011_mindfulness_treasurer	cxx.txt
+4	9	11469	Buddhist	milinda_013_extinguished_fire_location	cxx.txt
+4	9	11417	Buddhist	milinda_012_border_town_gate	cxx.txt
+4	9	11141	Buddhist	milinda_007_transmigration_verse	cxx.txt
+4	9	9948	Buddhist	sn12_15_right_view_full	finale.txt
+4	9	9948	Buddhist	sn12_15_right_view_full	cxx.txt
+4	9	9948	Buddhist	sn12_15_right_view_full	budda.txt
+4	9	8510	Buddhist	milinda_021_merit_transfer_cloud	finale.txt
+4	9	8510	Buddhist	milinda_021_merit_transfer_cloud	budda.txt
+4	9	8293	Buddhist	milinda_023_backsliders_barrage	finale.txt
+4	9	8293	Buddhist	milinda_023_backsliders_barrage	budda.txt
+4	9	7877	Buddhist	milinda_007_transmigration_verse	finale.txt
+4	9	7877	Buddhist	milinda_007_transmigration_verse	budda.txt
+4	9	7757	Buddhist	milinda_012_border_town_gate	finale.txt
+4	9	7757	Buddhist	milinda_012_border_town_gate	budda.txt
+4	9	7714	Buddhist	milinda_005_soul_window_homunculus	finale.txt
+4	9	7714	Buddhist	milinda_005_soul_window_homunculus	budda.txt
+4	9	7614	Buddhist	milinda_011_mindfulness_treasurer	finale.txt
+4	9	7614	Buddhist	milinda_011_mindfulness_treasurer	budda.txt
+4	9	7437	Buddhist	milinda_013_extinguished_fire_location	finale.txt
+4	9	7437	Buddhist	milinda_013_extinguished_fire_location	budda.txt
+4	9	4136	Buddhist	sn12_15_right_view_full	9 buddha.txt
+4	9	4136	Buddhist	sn12_15_right_view_full	9 buddha.txt
+4	9	4136	Buddhist	sn12_15_right_view_full	3 buddha.txt
+4	9	4136	Buddhist	sn12_15_right_view_full	3 buddha.txt
+4	9	3980	Buddhist	milinda_005_soul_window_homunculus	9 buddha.txt
+4	9	3980	Buddhist	milinda_005_soul_window_homunculus	3 buddha.txt
+4	9	3854	Buddhist	milinda_011_mindfulness_treasurer	9 buddha.txt
+4	9	3854	Buddhist	milinda_011_mindfulness_treasurer	3 buddha.txt
+4	9	3816	Buddhist	sn12_15_right_view_full	9 buddha.txt
+4	9	3816	Buddhist	sn12_15_right_view_full	3 buddha.txt
+4	9	3605	Buddhist	milinda_023_backsliders_barrage	9 buddha.txt
+4	9	3605	Buddhist	milinda_023_backsliders_barrage	3 buddha.txt
+4	9	3497	Buddhist	milinda_021_merit_transfer_cloud	9 buddha.txt
+4	9	3497	Buddhist	milinda_021_merit_transfer_cloud	3 buddha.txt
+4	9	3127	Buddhist	milinda_012_border_town_gate	9 buddha.txt
+4	9	3127	Buddhist	milinda_012_border_town_gate	3 buddha.txt
+4	9	3127	Buddhist	milinda_007_transmigration_verse	9 buddha.txt
+4	9	3127	Buddhist	milinda_007_transmigration_verse	3 buddha.txt
+4	9	3065	Buddhist	milinda_013_extinguished_fire_location	9 buddha.txt
+4	9	3065	Buddhist	milinda_013_extinguished_fire_location	3 buddha.txt
+4	8	8764	Buddhist	milinda_002_speech_of_kings	cxx.txt
+4	8	5266	Buddhist	milinda_002_speech_of_kings	finale.txt
+4	8	5266	Buddhist	milinda_002_speech_of_kings	budda.txt
+4	8	2889	Buddhist	milinda_002_speech_of_kings	9 buddha.txt
+4	8	2889	Buddhist	milinda_002_speech_of_kings	3 buddha.txt
+4	8	977	Zen	ep_wake_up_003	corpusss.txt
+4	8	977	Zen	ep_wake_up_003	9 ZEN.txt
+4	8	971	Zen	dropping_ch57_dragon_snake	corpusss.txt
+4	8	971	Zen	dropping_ch57_dragon_snake	9 ZEN.txt
+4	7	995	Dropping Ashes on the Buddha, section 31	dropping_ep_bodhisattva_attachment	corpusss.txt
+4	7	995	Dropping Ashes on the Buddha, section 31	dropping_ep_bodhisattva_attachment	9 ZEN.txt
+4	7	833	Zen	dropping_ch86_thirty_times_a	corpusss.txt
+4	7	833	Zen	dropping_ch86_thirty_times_a	9 ZEN.txt
+4	7	745	Zen	dropping_ep_96_terrible_answer	corpusss.txt
+4	7	745	Zen	dropping_ep_96_terrible_answer	9 ZEN.txt
+4	7	693	Zen	dropping_ep_94_hit_you	corpusss.txt
+4	7	693	Zen	dropping_ep_94_hit_you	9 ZEN.txt
+3	7	10726	Buddhist	milinda_024_duration_dhamma_reservoir	cxx.txt
+3	7	10350	Buddhist	milinda_004_mango_thief_karma	cxx.txt
+3	7	9880	Buddhist	milinda_019_dismissal_ocean	cxx.txt
+3	7	9226	Buddhist	milinda_017_four_ministers_fear	cxx.txt
+3	7	8952	Buddhist	milinda_015_surgeon_pain_paradox	cxx.txt
+3	7	6643	Buddhist	milinda_024_duration_dhamma_reservoir	finale.txt
+3	7	6643	Buddhist	milinda_024_duration_dhamma_reservoir	budda.txt
+3	7	6514	Buddhist	milinda_019_dismissal_ocean	finale.txt
+3	7	6514	Buddhist	milinda_019_dismissal_ocean	budda.txt
+3	7	6037	Buddhist	milinda_017_four_ministers_fear	finale.txt
+3	7	6037	Buddhist	milinda_017_four_ministers_fear	budda.txt
+3	7	5982	Buddhist	milinda_004_mango_thief_karma	finale.txt
+3	7	5982	Buddhist	milinda_004_mango_thief_karma	budda.txt
+3	7	5904	Buddhist	milinda_015_surgeon_pain_paradox	finale.txt
+3	7	5904	Buddhist	milinda_015_surgeon_pain_paradox	budda.txt
+3	7	3128	Buddhist	milinda_004_mango_thief_karma	9 buddha.txt
+3	7	3128	Buddhist	milinda_004_mango_thief_karma	3 buddha.txt
+3	7	3054	Buddhist	milinda_024_duration_dhamma_reservoir	9 buddha.txt
+3	7	3054	Buddhist	milinda_024_duration_dhamma_reservoir	3 buddha.txt
+3	7	2899	Advaita	i_am_that1_t45_t72_experiencer_continuity_illusion	n7nisargaddahta.txt
+3	7	2899	Advaita	i_am_that1_t45_t72_experiencer_continuity_illusion	9 nisarga.txt
+3	7	2875	Advaita	i_am_that2_t01_t18_prison_self_focus_method	n7nisargaddahta.txt
+3	7	2875	Advaita	i_am_that2_t01_t18_prison_self_focus_method	9 nisarga.txt
+3	7	2860	Buddhist	milinda_019_dismissal_ocean	9 buddha.txt
+3	7	2860	Buddhist	milinda_019_dismissal_ocean	3 buddha.txt
+3	7	2717	Buddhist	milinda_017_four_ministers_fear	9 buddha.txt
+3	7	2717	Buddhist	milinda_017_four_ministers_fear	3 buddha.txt
+3	7	2681	Buddhist	milinda_015_surgeon_pain_paradox	9 buddha.txt
+3	7	2681	Buddhist	milinda_015_surgeon_pain_paradox	3 buddha.txt
+3	7	2086	Buddhist	dropping_ep_bodhisattva_attachment	9 buddha.txt
+3	7	2086	Buddhist	dropping_ep_bodhisattva_attachment	9 buddha.txt
+3	7	2086	Buddhist	dropping_ep_bodhisattva_attachment	3 buddha.txt
+3	7	2086	Buddhist	dropping_ep_bodhisattva_attachment	3 buddha.txt
+3	7	1816	Buddhist	dropping_ep_mouse_catfood_004	9 buddha.txt
+3	7	1816	Buddhist	dropping_ep_mouse_catfood_004	9 buddha.txt
+3	7	1816	Buddhist	dropping_ep_mouse_catfood_004	3 buddha.txt
+3	7	1816	Buddhist	dropping_ep_mouse_catfood_004	3 buddha.txt
+3	7	1652	Buddhist	dropping_ep_96_terrible_answer	9 buddha.txt
+3	7	1652	Buddhist	dropping_ep_96_terrible_answer	9 buddha.txt
+3	7	1652	Buddhist	dropping_ep_96_terrible_answer	3 buddha.txt
+3	7	1652	Buddhist	dropping_ep_96_terrible_answer	3 buddha.txt
+2	7	1963	Advaita	i_am_that1_t45_t72_experiencer_continuity_illusion	corpusss.txt
+2	7	1963	Advaita	i_am_that1_t45_t72_experiencer_continuity_illusion	7nisargadatta.txt
+0	40	6220	Modern	therapy1_t492_t538_long_spiral_consensus	16 psycho.txt
+0	28	3829	Modern	therapy1_t1455_t1491_fragile_somatic_scan	16 psycho.txt
+0	27	4149	ISTDP	therapy2_t1138_t1163_panic_denial_in_fantasy	16 psycho.txt
+0	19	2847	ISTDP	therapy2_t750_t764_deactivating_projection_will	16 psycho.txt
+0	18	3567	Modern	therapy1_t69_t111_highly_resistant_denial	16 psycho.txt
+0	18	3318	Modern	therapy1_t129_t160_externalization_undoing	16 psycho.txt
+0	18	2973	Modern	therapy1_t409_t425_victim_entitlement_loop	16 psycho.txt
+0	16	2647	Modern	therapy1_t1235_t1247_somatization_headache	16 psycho.txt
+0	15	3982	Modern	therapy1_t1889_t1917_contempt_head_on_collision	16 psycho.txt
+0	15	3469	Buddhist	milinda_II_1_chariot_deconstruction	corpusss.txt
+0	15	3469	Buddhist	milinda_II_1_chariot_deconstruction	13 milinda.txt
+0	15	3396	Buddhist	milinda_II_1_chariot_deconstruction	corpusss.txt
+0	15	3396	Buddhist	milinda_II_1_chariot_deconstruction	13 milinda.txt
+0	15	2786	ISTDP	therapy2_t1756_t1770_identification_with_aggressor	16 psycho.txt
+0	14	3357	Buddhist	milinda_II_13_identity_lamp_baby	corpusss.txt
+0	14	3357	Buddhist	milinda_II_13_identity_lamp_baby	13 milinda.txt
+0	14	3282	Buddhist	milinda_II_13_continuity_lamp	corpusss.txt
+0	14	3282	Buddhist	milinda_II_13_continuity_lamp	13 milinda.txt
+0	14	2902	ISTDP	therapy2_t686_t703_graded_format_migraine	16 psycho.txt
+0	14	2720	Modern	therapy1_t38_t56_fragile_anxiety_regulation	16 psycho.txt
+0	14	2618	Stoic	discourses_b2_c12_consular_horse_care	corpusss.txt
+0	14	2618	Stoic	discourses_b2_c12_consular_horse_care	10 epictetus.txt
+0	14	2617	ISTDP	therapy2_t1420_t1433_transference_resistance_wall	16 psycho.txt
+0	14	2356	Krishnamurti	krishna_015_t01_t14_escape_through_activity	cum.txt
+0	14	2356	Krishnamurti	krishna_015_t01_t14_escape_through_activity	corpusss.txt
+0	13	2916	ISTDP	therapy2_t332_t345_defense_identification_loop	16 psycho.txt
+0	13	2777	Modern	therapy1_t474_t485_corrective_self_doubt	16 psycho.txt
+0	13	2204	Krishnamurti	krishna_008_t01_t13_jealousy_as_self_centered_fear	cum.txt
+0	13	2204	Krishnamurti	krishna_008_t01_t13_jealousy_as_self_centered_fear	corpusss.txt
+0	12	2704	ISTDP	therapy3.1_t3130_t3141_medical_leave_guilt	16 psycho.txt
+0	12	2589	Modern	therapy3_t458_t472_helplessness_capability_challenge	16 psycho.txt
+0	12	2421	ISTDP	therapy3.1_t3030_t3049_talking_fast_self_dismissal	16 psycho.txt
+0	12	2316	Krishnamurti	krishna_006_t01_t12_fear_of_death_projection	cum.txt
+0	12	2316	Krishnamurti	krishna_006_t01_t12_fear_of_death_projection	corpusss.txt
+0	12	2239	Krishnamurti	krishna_011_t01_t12_insecurity_and_self_image	cum.txt
+0	12	2239	Krishnamurti	krishna_011_t01_t12_insecurity_and_self_image	corpusss.txt
+0	12	1912	Modern	therapy3_t1128_t1134_unlocking_grief_goodbye	16 psycho.txt
+0	11	2192	ISTDP	therapy3.1_t3089_t3098_cheating_husband_projection	16 psycho.txt
+0	11	2172	ISTDP	therapy3.1_t3089_t3098_cheating_husband_projection	16 psycho.txt
+0	11	1934	Krishnamurti	krishna_014_t01_t11_guilt_and_moral_weight	cum.txt
+0	11	1934	Krishnamurti	krishna_014_t01_t11_guilt_and_moral_weight	corpusss.txt
+0	10	2834	Buddhist	milinda_II_6_mango_thief_karma	corpusss.txt
+0	10	2834	Buddhist	milinda_II_6_mango_thief_karma	13 milinda.txt
+0	10	2804	Buddhist	milinda_II_6_karma_mango_thief	corpusss.txt
+0	10	2804	Buddhist	milinda_II_6_karma_mango_thief	13 milinda.txt
+0	10	2611	ISTDP	therapy2_t1090_t1114_relationship_in_stereo	16 psycho.txt
+0	10	1870	Krishnamurti	krishna_013_t01_t10_confusion_and_clarity	cum.txt
+0	10	1870	Krishnamurti	krishna_013_t01_t10_confusion_and_clarity	corpusss.txt
+0	10	1858	Krishnamurti	krishna_010_t01_t10_habitual_fear_and_repetition	cum.txt
+0	10	1858	Krishnamurti	krishna_010_t01_t10_habitual_fear_and_repetition	corpusss.txt
+0	9	2189	ISTDP	therapy3.1_t3467_t3475_pleasure_in_distancing	16 psycho.txt
+0	9	2175	ISTDP	therapy3.1_t2622_t2649_late_daughter_externalization	16 psycho.txt
+0	9	2147	ISTDP	therapy3.1_t3467_t3475_pleasure_in_distancing_loop	16 psycho.txt
+0	9	2136	ISTDP	therapy3.1_t3421_t3431_non_committal_paradox	16 psycho.txt
+0	8	4045	?	hx_synth_advaita_goal_guru_demo_001	passes.txt
+0	8	2880	Buddhist	milinda_III_vi_experiencer_window	corpusss.txt
+0	8	2880	Buddhist	milinda_III_vi_experiencer_window	13 milinda.txt
+0	8	2780	Buddhist	milinda_III_vi_soul_window	corpusss.txt
+0	8	2780	Buddhist	milinda_III_vi_soul_window	13 milinda.txt
+0	8	2266	Buddhist	an3.65_t01_t08_kalama_epistemic_independence_test	mn72.txt
+0	8	2266	Buddhist	an3.65_t01_t08_kalama_epistemic_independence_test	cum.txt
+0	8	2266	Buddhist	an3.65_t01_t08_kalama_epistemic_independence_test	corpusss.txt
+0	8	2130	Modern	therapy3_t147_t152_projection_superego_sick	16 psycho.txt
+0	8	1847	ISTDP	therapy3.1_t2950_t2965_terrible_mother_objectification	16 psycho.txt
+0	8	1827	ISTDP	therapy2_t402_t408_head_on_collision_will	16 psycho.txt
+0	8	1602	Buddhist	mn35_t25_t33_five_aggregate_collapse	mn72.txt
+0	8	1602	Buddhist	mn35_t25_t33_five_aggregate_collapse	cum.txt
+0	8	1602	Buddhist	mn35_t25_t33_five_aggregate_collapse	corpusss.txt
+0	7	2366	Buddhist	milinda_II_2_speech_of_kings	corpusss.txt
+0	7	2366	Buddhist	milinda_II_2_speech_of_kings	13 milinda.txt
+0	7	2186	Buddhist	milinda_II_2_speech_of_learned	corpusss.txt
+0	7	2186	Buddhist	milinda_II_2_speech_of_learned	13 milinda.txt
+0	7	2168	ISTDP	therapy3.1_t3059_t3069_deadened_obligation_paradox	16 psycho.txt
+0	7	2168	ISTDP	therapy3.1_t3059_t3069_deadened_obligation_paradox	16 psycho.txt
+0	7	2162	Modern	therapy1_t2225_t2236_fantasy_grief_opening	16 psycho.txt
+0	7	2155	ISTDP	therapy3.1_t2387_t2403_provocation_water_glass	16 psycho.txt
+0	7	2028	Buddhist	mn19_t01_t07_two_sorts_of_thought_binning_algorithm	mn72.txt
+0	7	2028	Buddhist	mn19_t01_t07_two_sorts_of_thought_binning_algorithm	cum.txt
+0	7	2028	Buddhist	mn19_t01_t07_two_sorts_of_thought_binning_algorithm	corpusss.txt
+0	7	1962	Buddhist	mn61_t01_t07_mirror_loop_rahula_conduct_check	mn72.txt
+0	7	1962	Buddhist	mn61_t01_t07_mirror_loop_rahula_conduct_check	cum.txt
+0	7	1962	Buddhist	mn61_t01_t07_mirror_loop_rahula_conduct_check	corpusss.txt
+0	7	1732	Modern	therapy3_t839_t850_portrayal_acting_out_prevention	16 psycho.txt
+0	7	1660	Buddhist	sn12_15_t07_t14_dependent_origination_remaking	mn72.txt
+0	7	1660	Buddhist	sn12_15_t07_t14_dependent_origination_remaking	cum.txt
+0	7	1660	Buddhist	sn12_15_t07_t14_dependent_origination_remaking	corpusss.txt
+0	7	1610	Buddhist	mn74_t01_t07_universal_negation_refuted	mn72.txt
+0	7	1610	Buddhist	mn74_t01_t07_universal_negation_refuted	cum.txt
+0	7	1610	Buddhist	mn74_t01_t07_universal_negation_refuted	corpusss.txt
