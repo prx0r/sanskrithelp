@@ -30,7 +30,7 @@ const START_HERE = {
   href: "/memory/practice-chart.html",
   title: "Tonight: Full 50 Practice Chart + Track 1",
   subtitle: "Bare phoneme · body · breath — Abhinavagupta",
-  desc: "Full 50 Mātṛkā in emission order with per-phoneme clips (26 cut, 24 to cut). Glyph → articulation → breath → sound → locus → silence. Start here every night.",
+  desc: "Full 50 Mātṛkā in emission order with per-phoneme clips (47 human-cut, 3 to cut: ḷ ḹ kṣa). Glyph → articulation → breath → sound → locus → silence. Start here every night.",
   icon: Ear,
 };
 
@@ -101,7 +101,7 @@ const GROUPS: { title: string; items: HubItem[] }[] = [
         href: "/memory/matrka-wheel/integrated.html",
         title: "Mātṛkā Wheel + Body + Sound",
         subtitle: "VARṆA × ARTICULATION × NYĀSA × DHVANI × IMAGO → locus → clip",
-        desc: "Wheel drives a body marker (50 loci) + press-and-hold plays the clip (26/50 cut). Align to acquire, scramble rings to reconstruct. Provenance note inside.",
+        desc: "Wheel drives a body marker (50 loci) + press-and-hold plays the clip (47/50 human-cut). Align to acquire, scramble rings to reconstruct. Provenance note inside.",
         icon: Compass,
       },
       {

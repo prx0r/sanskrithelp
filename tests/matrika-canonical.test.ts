@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { readFileSync } from "node:fs";
+import { readFileSync, readdirSync } from "node:fs";
 import { resolve } from "node:path";
 
 const ROOT = resolve(__dirname, "..");
@@ -142,9 +142,11 @@ describe("Bruno 50 volvelle — true wheels, 50 divisions", () => {
   });
 
   it("embeds 50 varna with canonical loci", () => {
-    const m = src.match(/window\.BRUNO50=(\[.*?\]);/s);
-    expect(m).toBeTruthy();
-    const data = JSON.parse(m![1]);
+    const start = src.indexOf("window.BRUNO50=");
+    const end = src.indexOf(";\nconst S=", start);
+    expect(start).toBeGreaterThan(-1);
+    expect(end).toBeGreaterThan(start);
+    const data = JSON.parse(src.slice(start + "window.BRUNO50=".length, end));
     expect(data.length).toBe(50);
     const by = new Map(data.map((d: any) => [d.iast, d]));
     expect(by.get("a")?.locus).toBe("forehead");
@@ -165,6 +167,39 @@ describe("Bruno 50 volvelle — true wheels, 50 divisions", () => {
   });
 });
 
+describe("clip sync (human grid mapped to canonical ids)", () => {
+  const wheel: Array<{ id: string; iast: string }> = JSON.parse(
+    readFileSync(resolve(ROOT, "public/memory/matrka-wheel/matrka-data.json"), "utf8")
+  );
+  const dir = resolve(ROOT, "public/memory/clips");
+  const files = new Set(readdirSync(dir).filter((f) => f.endsWith(".ogg")).map((f) => f.replace(".ogg", "")));
+
+  it("47/50 human clips present; only ḷ ḹ kṣa missing", () => {
+    expect(files.size).toBe(47);
+    for (const w of wheel) {
+      const has = files.has(w.id);
+      if (["l", "ll", "ksha"].includes(w.id)) expect(has, w.id).toBe(false);
+      else expect(has, w.id).toBe(true);
+    }
+  });
+
+  it("grid filename mapping is pinned (ta1=ṭa, na_j=ña, na_k=ṅa, shha=ṣa)", () => {
+    const grid = resolve(ROOT, "public/audio/phonemes");
+    const pairs: Array<[string, string]> = [["ta1", "tta"], ["tha1", "ttha"], ["da1", "dda"],
+      ["dha1", "ddha"], ["na1", "nna"], ["na_j", "nya"], ["na_k", "nga"], ["shha", "ssa"]];
+    for (const [src, dst] of pairs) {
+      const a = readFileSync(resolve(grid, `${src}.ogg`));
+      const b = readFileSync(resolve(dir, `${dst}.ogg`));
+      expect(a.equals(b), `${src}→${dst}`).toBe(true);
+    }
+  });
+
+  it("chart shows 47 ▶ and 3 ○", () => {
+    const html = readFileSync(resolve(ROOT, "public/memory/practice-chart.html"), "utf8");
+    expect(html.match(/▶<\/button>/g)?.length).toBe(47);
+    expect(html.match(/>○<\/span>/g)?.length).toBe(3);
+  });
+});
 describe("frozen canonical dataset v2 (user-locked TĀ15_MĀTRIKĀ)", () => {
   const map = JSON.parse(
     readFileSync(resolve(ROOT, "public/memory/data/matrika_body_map.json"), "utf8")

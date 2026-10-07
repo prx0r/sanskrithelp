@@ -1,6 +1,14 @@
 # Audio transcripts — public/memory/audio/
 
-> Voices: phoneme clips = human grid recordings (learnsanskrit.org set, 26 cut). Locus cues in cycles + guided circuit = espeak en-us 135–140wpm (robotic, local, free). Track 1 locus cues = Ryan (human). No full Sanskrit TTS exists; `/api/tts` (Edge hi-IN, keyless) is available but unused in these tracks.
+> Voices: phoneme clips = human grid recordings (learnsanskrit.org set).
+> Grid filename mapping (verified against their templates 2026-10-07):
+> `ta1/tha1/da1/dha1/na1` = retroflex ṭa ṭha ḍa ḍha ṇa; `na_j` = ña; `na_k` = ṅa;
+> `sha` = śa; `shha` = ṣa; `r` = ṛ; `hma`/`jna` = conjuncts (unused).
+> Canonical clip ids live in `public/memory/clips/` (47/50; missing ḷ ḹ kṣa —
+> absent upstream too). Locus cues in cycles + guided circuit = espeak en-us
+> 135–140wpm (robotic, local, free). Track 1 locus cues = Ryan (human).
+> No full Sanskrit TTS exists; `/api/tts` (Edge hi-IN, keyless) is available
+> but unused in these tracks.
 
 Pattern for all cycles: 1s lead → per item [clip + 0.6s + locus + gap] → tail.
 
