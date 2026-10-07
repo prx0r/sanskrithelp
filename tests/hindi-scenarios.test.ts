@@ -98,6 +98,7 @@ describe("adaptive difficulty (config + suggestion)", () => {
     expect(page).toContain("suggestionFor");
     expect(page).toContain("playbackRate");
   });
+});
 
 describe("audio scenes (islands as listenable scenes)", () => {
   const j = JSON.parse(
