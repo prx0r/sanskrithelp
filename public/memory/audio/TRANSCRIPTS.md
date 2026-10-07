@@ -14,7 +14,9 @@ Same structures, gaps and event orders as v1 below, with two changes:
 ## track_full50_installation.mp3 — Full 50 (RyanNeural cues + 47 human clips, 8:15)
 
 Same per-item pattern (clip + 0.6s + locus + 6s gap). All 50 in Mātṛkā emission
-order, verse-literal v2 loci. ḷ ḹ kṣa have no clips: 1.2s silence held instead.
+order, verse-literal v2 loci — fully voiced, no silences: 47 human grid clips +
+ḷ ḹ (EdgeSanskrit v1 direct-IPA `l̩`/`l̩ː`, short/long contrast preserved) +
+kṣa (EdgeSanskrit v1 `kʂa` draft). VERIFY BY EAR — synth lines are new.
 Built by `build_v2_ryan_cycles.py` FULL50 list (grid filenames mapped: na_k=ṅa,
 na_j=ña, ta1=ṭa, shha=ṣa).
 

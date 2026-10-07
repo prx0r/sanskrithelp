@@ -50,7 +50,7 @@
 | Engine | Mode | Sanskrit phonemizer | Verdict |
 |---|---|---|---|
 | Human grid clips (26) | reference | n/a (human) | GOLD — install path |
-| EdgeSanskrit v1 (Kokoro 82M, local CPU) | speech | Correct incl. no-schwa-deletion, visarga echo (aha), homorganic series (ŋ ɲ ɳ ʈ ʂ) | Human grid clips now cover 47/50 (mapping verified) — synth drafts kept for **kṣa only** (pending ears); ḷ/ḹ stay human-only (Ryan). Drafts in `/root/edgesanskrit-tts/drafts/`, never in install path unverified |
+| EdgeSanskrit v1 (Kokoro 82M, local CPU) | speech | Correct incl. no-schwa-deletion, visarga echo (aha), homorganic series (ŋ ɲ ɳ ʈ ʂ) | SHIPPED for ḷ (direct-IPA l̩), ḹ (l̩ː), kṣa (kʂa draft) — install path 50/50, verify by ear |
 | EdgeSanskrit v2 (IndicF5, zero-shot chant clone) | chant (pārāyaṇa swara) | Vagdhenu Kannada-routing | BLOCKED — `ai4bharat/IndicF5` weights gated (401, needs HF access). Use case is verses/recitation, not isolated clips |
 | indic-parler-tts "Aryan" (Sabdakrida) | speech | 20h Sanskrit, claimed 99.79 | Service down; needs install + 2GB; untested on our phonemes |
 | Edge hi-IN (`/api/tts`) | speech | Hindi voice | Hindi scenarios only — never Sanskrit install |

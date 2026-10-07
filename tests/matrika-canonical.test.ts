@@ -175,11 +175,10 @@ describe("clip sync (human grid mapped to canonical ids)", () => {
   const files = new Set(readdirSync(dir).filter((f) => f.endsWith(".ogg")).map((f) => f.replace(".ogg", "")));
 
   it("47/50 human clips present; only ḷ ḹ kṣa missing", () => {
-    expect(files.size).toBe(47);
+    expect(files.size).toBe(50);
     for (const w of wheel) {
       const has = files.has(w.id);
-      if (["l", "ll", "ksha"].includes(w.id)) expect(has, w.id).toBe(false);
-      else expect(has, w.id).toBe(true);
+      expect(has, w.id).toBe(true);
     }
   });
 
@@ -196,8 +195,8 @@ describe("clip sync (human grid mapped to canonical ids)", () => {
 
   it("chart shows 47 ▶ and 3 ○", () => {
     const html = readFileSync(resolve(ROOT, "public/memory/practice-chart.html"), "utf8");
-    expect(html.match(/▶<\/button>/g)?.length).toBe(47);
-    expect(html.match(/>○<\/span>/g)?.length).toBe(3);
+    expect(html.match(/▶<\/button>/g)?.length).toBe(50);
+    expect(html.match(/>○<\/span>/g) ?? []).toEqual([]);
   });
 });
 describe("frozen canonical dataset v2 (user-locked TĀ15_MĀTRIKĀ)", () => {
