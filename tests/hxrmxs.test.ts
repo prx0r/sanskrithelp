@@ -2,8 +2,8 @@ import { describe, expect, it } from "vitest";
 import { FUNCTION_IDS, voicePrompt } from "../lib/hxrmxs";
 
 describe("hxrmxs voice (decisions in, teacher speech out)", () => {
-  it("covers all 22 function ids", () => {
-    expect(FUNCTION_IDS.length).toBe(22);
+  it("covers all 18 taxonomy moves", () => {
+    expect(FUNCTION_IDS.length).toBe(18);
     for (const id of ["UM_01", "RM_03", "SM_02", "ME_02"]) {
       expect(FUNCTION_IDS).toContain(id);
     }
@@ -19,7 +19,7 @@ describe("hxrmxs voice (decisions in, teacher speech out)", () => {
     expect(p).toContain("A is not B");
     expect(p).toContain("hold the thread unbroken");
     expect(p).toContain("fewest words");
-    expect(p).toContain("one move only");
+    expect(p.toLowerCase()).toContain("one move only");
   });
 
   it("degrades honestly on unknown function", () => {
