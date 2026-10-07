@@ -6,7 +6,18 @@ import { ArrowLeft, Volume2, Play } from "lucide-react";
 import phonemesData from "@/data/phonemes.json";
 import type { Phoneme } from "@/lib/types";
 
-const AUDIO_BASE = "/audio/phonemes";
+const AUDIO_BASE = "/memory/clips";
+
+// Grid rows use IAST ids; clip files use canonical ascii ids.
+const CLIP_FILE: Record<string, string> = {
+  "ṅa": "nga", "ña": "nya",
+  "ṭa": "tta", "ṭha": "ttha", "ḍa": "dda", "ḍha": "ddha", "ṇa": "nna",
+  "śa": "sha", "ṣa": "ssa",
+};
+
+function clipFile(id: string): string {
+  return CLIP_FILE[id] ?? id;
+}
 
 const ROWS = [
   { name: "Guttural (kaṇṭhya)", row: ["ka", "kha", "ga", "gha", "ṅa"], cakra: "Mūlādhāra", color: "#ef4444", location: "Root (perineum)", label: "Red — Root" },
@@ -34,7 +45,7 @@ export default function MatrikaPage() {
   const playAudio = useCallback((id: string) => {
     try {
       if (audioRef.current) { audioRef.current.pause(); audioRef.current = null; }
-      const audio = new Audio(`${AUDIO_BASE}/${id}.ogg`);
+      const audio = new Audio(`${AUDIO_BASE}/${clipFile(id)}.ogg`);
       audioRef.current = audio;
       audio.play().catch(() => {
         // Fallback: browser TTS
