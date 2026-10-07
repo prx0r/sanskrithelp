@@ -1,6 +1,10 @@
 import { describe, expect, it } from "vitest";
+import { existsSync, readFileSync } from "node:fs";
+import { resolve } from "node:path";
 import { FUNCTION_IDS, normalizeFunction, retrieveExemplar, voicePrompt } from "../lib/hxrmxs";
 import exemplarsData from "../data/hxrmxs-exemplars.json";
+
+const ROOT = resolve(__dirname, "..");
 
 describe("hxrmxs voice (decisions in, teacher speech out)", () => {
   it("covers all 18 taxonomy moves", () => {
@@ -57,5 +61,34 @@ describe("transmission (verbatim teacher words)", () => {
 
   it("unknown function retrieves nothing (rendered path)", () => {
     expect(retrieveExemplar({ function_id: "XX_99" })).toBeNull();
+  });
+});
+
+describe("missing corpus normalized (long arcs integrated)", () => {
+  const eps = readFileSync(resolve(ROOT, "data/hxrmxs-missing-normalized.jsonl"), "utf8")
+    .trim().split("\n").map((l) => JSON.parse(l));
+
+  it("392 episodes across 10+ lineages incl ISTDP/Zen/Socratic", () => {
+    expect(eps.length).toBe(392);
+    const lins = new Set(eps.map((e: any) => e.lineage));
+    for (const l of ["ISTDP", "Zen", "Socratic", "Buddhist", "Krishnamurti", "Modern"]) {
+      expect(lins.has(l), l).toBe(true);
+    }
+  });
+
+  it("contains the long arcs (20/14/13/12)", () => {
+    const lens = eps.map((e: any) => e.turns.filter((t: any) => t.role === "assistant").length);
+    for (const n of [20, 14, 13, 12]) {
+      expect(lens.includes(n), String(n)).toBe(true);
+    }
+  });
+
+  it("turns are clean: no pedagogy leak, no raw speaker codes as roles", () => {
+    for (const e of eps) {
+      for (const t of e.turns) {
+        expect(["user", "assistant", "other"]).toContain(t.role);
+        expect(t.text || "").not.toContain("[PEDAGOGY]");
+      }
+    }
   });
 });
