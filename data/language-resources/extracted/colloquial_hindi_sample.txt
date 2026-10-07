@@ -1,0 +1,2203 @@
+Colloquial
+
+
+Hindi
+The Colloquial Series
+The following languages are available in the Colloquial series:
+
+Afrikaans                German                 Romanian
+Albanian                 Greek                  Russian
+Amharic                  Gujarati               Scottish Gaelic
+Arabic (Levantine)       Hebrew                 Serbian
+Arabic of Egypt          Hindi                  Slovak
+Arabic of the Gulf and   Hungarian              Slovene
+   Saudi Arabia          Icelandic              Somali
+Basque                   Indonesian             Spanish
+Breton                   Irish (forthcoming)    Spanish of Latin
+Bulgarian                Italian                   America
+Cambodian                Japanese               Swahili
+Cantonese                Korean                 Swedish
+Catalan                  Latvian                Tamil
+Chinese                  Lithuanian             Thai
+Croatian                 Malay                  Turkish
+Czech                    Mongolian              Ukrainian
+Danish                   Norwegian              Urdu
+Dutch                    Panjabi                Vietnamese
+English                  Persian                Welsh
+Estonian                 Polish                 Yoruba
+Finnish                  Portuguese
+French                   Portuguese of Brazil
+
+COLLOQUIAL 2s Series
+The Next Step in Language Learning
+Chinese                  Italian                Spanish
+Dutch                    Portuguese of Brazil   Spanish of Latin
+French                      (forthcoming)         America
+German (forthcoming)     Russian
+All these Colloquials are available in book and CD packs, or sold
+separately. You can order them from http://www.routledge.com or
+from your bookseller.
+Colloquial
+Hindi
+The Complete Course
+for Beginners
+
+Tej K. Bhatia
+First published 1996
+by Routledge
+This edition first published 2008
+by Routledge
+2 Park Square, Milton Park, Abingdon, Oxon OX14 4RN
+Simultaneously published in the USA and Canada
+by Routledge
+270 Madison Ave, New York, NY 10016
+Routledge is an imprint of the Taylor & Francis Group, an informa business
+© 2008 Tej K. Bhatia
+Typeset in 10/12 pt Times by Graphicraft Limited, Hong Kong
+
+
+
+All rights reserved. No part of this book may be reprinted or
+reproduced or utilised in any form or by any electronic,
+mechanical, or other means, now known or hereafter invented,
+including photocopying and recording, or in any information
+storage or retrieval system, without permission in writing from
+the publishers.
+British Library Cataloguing in Publication Data
+A catalogue record for this book is available from the
+British Library
+Library of Congress Cataloging-in-Publication Data
+Bhatia, Tej K.
+  Colloquial Hindi : a complete course for beginners /
+  Tej K. Bhatia. – [2nd, rev. ed.].
+       p. cm.
+    Previously published: 1996.
+    Includes index.
+  1. Hindi language – Textbooks for foreign speakers – English. 2. Hindi
+  language – Conversation and phrase books – English. 3. Hindi language
+  – Grammar. I. Title.
+  PK1935.B525 2007
+  491′. 4382421–dc22                                           2007001478
+
+ISBN10: 0–415–41956–5 (pbk)
+ISBN10: 0–415–39528–3 (audio CDs)
+ISBN10: 0–415–39527–5 (pack)
+
+ISBN13: 978–0–415–41956–7 (pbk)
+ISBN13: 978–0–415–39528–1 (audio CDs)
+ISBN13: 978–0–415–39527–4 (pack)
+ISBN13: 978–1–315–74137–6 (eBook Pack)
+              In memory of
+my mother, Shrimati Krishna Wanti Bhatia
+                   and
+   my father, Shri Parma Nand Bhatia
+Contents
+
+Preface                                   ix
+Acknowledgements                         xi
+Introduction                               1
+Hindi writing system and pronunciation     9
+Transcription table                      24
+
+ilaip AaOr laoKna                        27
+Script and handwriting
+ 1 phlaa paz – ilaip                     29
+   Script unit 1
+ 2 dUsara paz – ilaip                    34
+   Script unit 2
+ 3 tIsara paz – ilaip                    41
+   Script unit 3
+ 4 caaOqaa paz – ilaip                   46
+   Script unit 4
+ 5 paácavaaá paz – ilaip                 53
+   Script unit 5
+
+Paaz                                     63
+Units
+ 1 namasto/ namaskar.                    65
+   namaste/namaskar
+   Greetings and social etiquette
+ 2 Aap khaá ko/ kI hOMÆ                  81
+   Where are you from?
+viii                                              Contents
+
+
+        3 Aapkao @yaa caaiheÆ                          98
+          apko kya cahiye?
+          What would you like?
+        4 Aapko SaaOk @yaa hOMÆ                       117
+          ap ke shauk kya hq?
+          What are your hobbies?
+        5 Cui+yaaoM maoM @yaa kroMgaoÆ                138
+          chuTTiyõ mg kya kargge?
+          What will you do during the break?
+        6 kla @yaa ikyaaÆ                             157
+          kal kya kiya?
+          What did you do yesterday?
+        7 @yaa Aap ihndI baaola sakto hOMÆ            175
+          kya ap hindc bol sakte hq?
+          Can you speak Hindi?
+        8 mauJao caOk kOSa krvaanao hOM.              199
+          mujhe cheque cash karvane hq
+          I need to get cheques cashed
+        9 facaU-na kukI maoM @yaa ilaKa hOÆ           221
+          ‘fortune cookies’ mg kya likha hs?
+          What’s written in the fortune cookie?
+       10 BaartIya %yaaOhar.                          243
+          bharatiya tyauhara
+          Indian festivals
+
+
+       Reference grammar                              259
+       Key to exercises                               285
+       Dictionary order                               308
+       English–Hindi glossary                         309
+       Hindi–English glossary                         328
+       Index                                          343
+Preface
+
+
+Since the publication of this book over a decade ago, it has under-
+gone several reprints. Nothing is more gratifying for an author than
+to hear from his/her readers. I consider myself privileged to be the
+beneficiary of my readers’ reactions, suggestions, compliments and
+wish-lists which poured in from a highly diverse cross-section of
+readers around the globe. This encouraged me to create a revised
+and expanded version of the book. Based on the input that I have
+received, I know it is not the ideal solution to the multitudes of
+topics (ranging from the treatment of the Hindi script, grammatical
+details and cross-cultural insights) that one wishes to address; how-
+ever, it is a modest step toward that goal.
+   Many changes have occurred since the first publication of the
+book. India is fast becoming a major global power. The dynamics
+of communicative situations further call for changes to reflect new
+situations and realities. Readers will find the following new changes
+and additions in this book:
+
+• Facts and figures have been updated.
+• The section dealing with the script has been beefed up considerably.
+• Dialogues and prose texts integrate the Roman as well as the
+  Devanagari in a way that reflects a mutually-feeding relationship
+  between the two. As one of the anonymous reviewers of the book
+  rightly noted, the execution of the Devanagari version of conversa-
+  tions and prose texts was cumbersome in the first edition. This
+  limitation has been addressed.
+• Roman is a non-syllabic script whereas Devanagari is syllabic.
+  Whenever relevant, the complementary strengths of the two writing
+  systems are exploited, particularly in explanations of grammar.
+• While the new guidelines issued by the Government of India
+  have been followed throughout the book (e.g. the letter jha; pref-
+  erence for e instead of ye in words such as cahie; not separating
+  the postpositions with the pronouns), readers are also exposed to
+x                                                                  Preface
+
+
+        variation (e.g. two ways of writing the third person singular,
+        polite imperative forms and the past tense).
+    •   Whenever relevant, the content has been modernized.
+    •   New topics of cross-cultural communication have been introduced
+        in the cultural notes (e.g. how to say ‘no’ in socially sensitive
+        situations, linguistic attitudes and hyper-politeness, etiquettes of
+        gift-giving).
+    •   Another innovation is the Online Resource Guide and the Internet
+        links.
+    •   Old errors and misprints have been corrected.
+
+    In spite of this, I am acutely aware that this work is not free from
+    limitations. Therefore, I would be grateful for any comments, criti-
+    cisms or suggestions that perceptive scholars may have on this book.
+    Please send them to me at the following address: Linguistic Studies
+    Program, 312 HBC, Syracuse University, Syracuse, New York-13244-
+    1160, USA or send an email to: tkbhatia@syr.edu.
+Acknowledgements
+
+
+I am especially indebted to Sophie Oliver, Senior Editor, Language
+Learning, for agreeing to consider and produce the new and revised
+version of this book and for her commendable patience and encour-
+agement. I am equally indebted to three anonymous reviewers for
+their constructive and insightful input.
+    I have contracted many debts in the process of writing this
+book and its earlier edition. I am also grateful to my teachers
+and colleagues, Yamuna and Braj Kachru who have taught me and
+influenced me since my graduate school. I am also indebted to my
+friends and colleagues Rajeshwari Pandharipande, James W. Gair,
+Hans Hock, Meena and S.N. Sridhar, Rakesh Bhatt, Rajesh
+Kumar, William C. Ritchie, Jaklin Kornfilt, Jennifer L. Smith, Vasu
+Reganathan, Afroz Taj, Amer Bridger, Cassidy Perraeault and
+Dr Mangat R. Bhardwaj, the author of the companion volume on
+Punjabi, for their valuable discussions on matters of Hindi teach-
+ing and linguistics. Finally, I also owe my thanks to Dr P.R.
+Mehandiratta (Director General, American Institute of Indian
+Studies, New Delhi) and to my colleagues at the South Asia Center,
+Ann Gold, Jishnu Shankar and Susan Wadley, for their comments,
+support and encouragement.
+    My mother passed away before the first edition of this book
+became a reality. This has left a permanent vacuum in my life. My
+family migrated from the North West Frontier province close to the
+Pakistan and Afghanistan border, so Hindi was my mother’s third
+language and according to the value system of that time she never
+had any formal schooling. During the writing of this book I remem-
+bered how at the insistence of her children she learned to sign her
+name in Hindi instead of using a thumb print as a signature. It is
+still a mystery to me how and when she learned to read the Gita in
+Hindi. I had thought there would still be a lot of time for us and that
+these questions were not urgent. I was wrong. This work is especi-
+ally dedicated to her memory.
+xii                                                Acknowledgements
+
+
+          I owe special thanks to my wife, Shobha, for her encouragement
+      and support and to my daughter, Kanika, and my son, Ankit, who
+      first inspired me to write this book so that they could learn Hindi.
+      My special thanks are also due to my niece, Nandita. No words can
+      express my deepest appreciation of my brothers in India for their
+      constant support during my entire career.
+          The pictures produced in this book were taken by the author as
+      part of the ongoing collaborative project, Hindi OnLine, between
+      Syracuse University and the University of Illinois at Urbana-
+      Champaign and the University of Texas at Austin. The project is
+      funded by a grant from the South Asia Research Center (SALRC),
+      the University of Chicago and the US Department of Education.
+      I gratefully acknowledge the support of Dr Steven M. Poulos,
+      Director, SALRC, for making this work possible.
+          My heartfelt thanks are also due to: Professor Omkar Koul for
+      his technical assistance in the preparation of the manuscript and
+      his perceptive comments; and to the College of Arts and Sciences’
+      Dean Cathryn R. Newton, Associate Dean Dr Gerold Greeenberg
+      and Dr Ben Ware, Vice President, Research and Computing, for
+      their support of this work.
+Introduction                                                                  1
+
+
+
+
+BaUimaka
+b humika
+Introduction
+
+
+
+
+A word to the learner
+Welcome to Colloquial Hindi. Very often at social get-togethers in
+the West, I am asked with utmost sincerity whether or not I speak
+Hindu. Although I have no difficulty in understanding the real
+intent of the question, unwittingly I find myself in an embarrassing
+situation. This is particularly true if this inquiry happens to come
+directly from my host. You see, Hindu is the name of the predomin-
+ant religion in India and Nepal; Hindi is the name of the language
+that is the lingua franca of South Asia.
+
+
+About the language
+Hindi is a modern Indo-Aryan language spoken in South Asian
+countries (India, Pakistan, Nepal) and also in other countries out-
+side Asia (Mauritius, Trinidad, Fiji, Surinam, Guyana, South Africa
+and other countries). Approximately eight hundred million people
+speak Hindi, as either a first (480 million) or second language. It is
+the second most widely spoken language in the world. Along with
+English, it is the official language of India. In addition, it is the state
+language of Bihar, Chattisgarh, Delhi, Haryana, Himachal Pradesh,
+Jarkhand, Madhya Pradesh, Rajasthan and Uttar Pradesh. Also, I
+should point out that Hindi is the language of Agra (the city of the
+Taj Mahal).
+   Hindi, which is a descendant of the Sanskrit language, is not
+strictly the name of any chief dialect of the area but is an adjective,
+Persian in origin, meaning Indian. Historically, it was synonymous
+with Hindui, Hindawi, Rexta and Rexti. The terms Urdu and
+Hindustani are also used to refer to this language. All these labels
+2                                                               Introduction
+
+
+    denote a mixed speech spoken around the area of Delhi, North India,
+    which gained currency during the twelfth and thirteenth century as a
+    contact language between the Arabs, Afghans, Persian and Turks,
+    and native residents.
+        Hindi is written in the Devanagari script which is ranked as the
+    most scientific writing system among the existing writing systems
+    of the world. The Devanagari script is written from left to right and
+    is a descendant of the Brahmi script which was well established in
+    India before 500 BC. The script is phonetic in nature and there is
+    a fairly regular correspondence between the letters and their pro-
+    nunciation. For more details see the section on the Hindi writing
+    system and pronunciation.
+        The literary history of Hindi goes back to the twelfth century.
+    Some notable literary figures of Hindi are Kabir, Surdas and Tulsidas.
+    The two notable linguistic features of the language are as follows:
+    (1) Hindi still retains the original Indo-European (1500 BC) distinc-
+    tion between aspirated and unaspirated consonants which results in
+    a four-way contrast as shown by the following examples: kAl, ‘time’,
+    k hAl, ‘skin’, gAl, ‘cheek’ and g hAl, ‘to put into’; (2) it has the feature
+    of retroflexion in its consonant inventory, cf. TAl, ‘to put off’ and
+    tAl, ‘pond’. The retroflex consonant is transcribed as the capital T.
+    For more details see the section on the Hindi writing system and
+    pronunciation.
+        Hindi has an approximately three-century-old, well-attested and
+    rich grammatical tradition of its own. It is a by-product of the colo-
+    nial era and was born shortly after the arrival of Europeans in India.
+    For a detailed treatment of this topic in general and the grammatical
+    tradition in particular, see Bhatia (1987).
+
+
+    About this book
+    This book is designed as a complete first-year language course,
+    keeping in mind the proficiency guidelines of the American Council
+    on the Teaching of Foreign Languages (ACTFL) and the Euro-
+    pean Language Community. Every attempt is made to optimize this
+    goal by integrating the linguistic content with the culture of South
+    Asia in general and India in particular. In fact, while teaching the
+    language I have attempted to answer those questions that are often
+    asked about the culture of India.
+       In my professional life I have often witnessed the fact that
+    the teaching of non-Western languages, including Hindi, is more
+Introduction                                                              3
+
+
+challenging in the West than the teaching of Western languages.
+If you have experienced any of the following problems, this book
+will enable you to achieve the goals described above:
+
+• You sweat at the mere thought of learning a foreign language
+  and/or foreign script.
+• You think Hindi is a very difficult language to learn, so why
+  try?
+• You have some serious business, research interests or not-so-
+  serious interests (such as travel) in India but you have been led
+  to believe that everybody in India speaks English.
+• You have learned Hindi from tools and settings which make
+  native speakers laugh secretly or openly at your language use.
+• India is culturally and linguistically so distant from the West that
+  one cannot help but shy away from it.
+• You haven’t heard of Bollywood movies.
+• You consider French the only language fit for romance.
+
+If you subscribe to one or all of the above, you are in for a surprise.
+First, you might discover in the process of learning the language
+that learning about Hindi is learning about one’s own roots. The
+only difference is that European migration to India is perhaps the
+oldest of all migrations from Europe, or vice versa as shown by recent
+DNA research. For this reason, you will still find some striking
+similarities between Hindi and English. For example, the Hindi word
+for English ‘name’ is nam. The list goes on and on. The important
+thing to know is that Hindi belongs to the Indo-European language
+family and is similar to English in a number of ways. Learning to
+note these similarities will make the process of learning this lan-
+guage full of pleasant surprises.
+   The book is grounded in the current theories of language acquisi-
+tion, learnability and language use. Unlike other books (even some
+of the latest ones), it never loses sight of the social–psychological
+aspects of language use. In this book, I have not attempted to act
+like a protector or saviour of language by engaging in linguistic
+prescriptivism and puritanism. What you will find in this book is
+how Hindi speakers use Hindi and communicate with each other in
+meaningful ways. No attempt is made to translate the English word
+artificially into Hindi if Hindi speakers treat the English word like
+any other Hindi word. I was outraged when I noticed in a widely
+circulated course on Hindi in which the waiter asks his customers
+for their order, the word ‘order’ translated using the same verb as
+4                                                             Introduction
+
+
+    the English ‘obey my order!’ For more details see the section entitled
+    ‘English Prohibition?’ in Unit 2.
+
+
+    Beware . . .
+    These prescriptivist tendencies defeat the real goal of learning a
+    language in order to communicate with native speakers. Even some
+    of the latest books on Hindi suffer from such problems and un-
+    wittingly do a disservice to their learners because of their authors’
+    lack of familiarity with the social–psychological dimensions of lan-
+    guage use. I came across some examples in one of the most recent
+    books on Hindi which teaches learners how to introduce themselves
+    to native speakers. The sentences are grammatically correct but
+    the author(s) fail to take into account the invisible dimension of
+    the phenomenon of ‘turn taking’. For example, it is acceptable for
+    English speakers to introduce themselves with a string of two clauses
+    following the word ‘Hi’ (e.g. ‘Hi, my name is John and what is
+    yours?’). However, the Hindi speaker will pause after the Hindi
+    equivalent of ‘Hi’ and wait for the listener to respond with a greet-
+    ing, and only after that will the Hindi speaker perform the task of
+    telling his name and asking about his listener’s name. The failure
+    to teach learners about ‘turn taking’ through naturalistic conversa-
+    tions makes them run the risk of being seen as ‘pushy’ or ‘impatient’
+    by native speakers. This book is particularly aware of such ‘non-
+    linguistic’ or invisible dimensions of language use. Therefore, this
+    book never loses sight of cross-cultural communication while teaching
+    linguistic communication.
+        This book deals with the four main linguistic skills:
+
+
+                     receptive                       productive
+
+    Aural–oral       listening comprehension         speaking comprehension
+    Visual           reading comprehension           writing comprehension
+
+
+    These skills are introduced in a manner consistent with the insights
+    of modern Chomskyan linguistics. The learners are exposed to
+    rules and discovery procedures, similar to those employed by native
+    speakers, which enable them to generate an infinite number of sen-
+    tences in their native language. Not only that, these rules enable native
+Introduction                                                              5
+
+
+speakers to generate new sentences they have never encountered
+before (see Bhatia and Ritchie 2006 for details). This is the concep-
+tual framework, combined with my twenty-five years of classroom
+experience, which has gone into the makeup of this book. Unlike
+other phrasebooks which emphasize parroting sentences without
+gaining insight into the linguistic system, this book emphasizes and
+serves as a catalyst to promote linguistic creativity and optimization.
+This goal is achieved in a simple and unpretentious way avoiding
+system overload.
+
+
+How this book is organized
+This book attempts to accommodate two types of learners: (1) those
+who want to learn the language through the Hindi script called the
+Devanagari script; and (2) those who wish to learn the language in
+a relatively short period of time without the aid of the Devanagari
+writing system (henceforth, Hindi script). Such pragmatic considera-
+tions are an important feature of this book.
+   The book begins with Hindi script and pronunciation. The main
+body deals with ten conversational units which consist of the follow-
+ing parts: (1) vocabulary; (2) dialogues with English translation;
+(3) notes detailing pronunciation, grammar and usage relating to
+the unit; and (4) exercises. The dialogues with ‘Tell me why?’ and
+humour columns together with the notes explicitly deal with those
+aspects of Indian culture about which I am most often asked. The
+vocabulary or the new words used in the dialogues are given in
+English and Devanagari script. You may wish to consult the voca-
+bulary sections while doing exercises.
+   The grammar summary gives an overview of the Hindi grammat-
+ical tradition with full paradigms. This section complements the
+section ‘Notes and grammar’ given in each lesson.
+   The vocabulary section gives all the Hindi words used in the
+dialogues. The words are listed alphabetically both in Hindi and
+English. The basic vocabulary section classifies Hindi words into
+different semantic groups.
+
+
+How to use this book
+This book focuses on two types of track: (1) for those learners who
+want to adopt the English script path; and (2) for those who want
+6                                                           Introduction
+
+
+    to learn the Hindi script. Although learning Hindi script is highly
+    recommended, if you decide to choose the first track, you can bypass
+    the lessons on the writing system. For every learner, on both tracks,
+    the lesson on the ‘Hindi writing system and pronunciation’ is a must
+    and familiarity with the salient phonetic features of Hindi together
+    with the ‘Transcription table’ is imperative. Please make sure that
+    you learn the transcription of conversations, which differs from media
+    convention. As shown in the transcription table, media convention
+    is often broad and unsystematic. Examples of pronunciation are
+    also recorded on the CD. The exercises with the audio icon are
+    recorded on the CD. If you wish, you can refer to the listening
+    exercises transcripts at the end of the book.
+       If you are on the Hindi script track, you should start from script
+    unit 1: you will learn Devanagari script in its printed as well as its
+    handwritten form. Conversations and keys are given in Roman as
+    well as in Hindi script. While working on the script units, you can
+    make a start on the conversation units. There is an added incent-
+    ive to consult the script units: their exercise sections give some of
+    the most common expressions any visitor to India may need. They
+    deal with situations such as customs and immigration, baggage, read-
+    ing weather charts, making reservations, sending mail, gift-giving,
+    annoying and cautionary settings, shopping, food, entertainment and
+    renting.
+       Naturally, you will need to memorize the vocabulary. The notes
+    sections give you help on pronunciation, grammar and usage. Read-
+    ing and learning these notes will stimulate your linguistic creativity.
+       The reference grammar goes hand in hand with the grammatical
+    notes given at the end of each dialogue. Answers to the exercises
+    can be found in the key to exercises, in both Hindi and English
+    scripts.
+
+
+    Icons used in this book
+
+    Icons are used throughout this book for several reasons, the most
+    important of which is to draw attention to those sections that
+    require careful reading.
+
+    Audio Symbol        This symbol means that the corresponding exer-
+                        cise requires the use of the CD that accompanies
+                        this course.
+Introduction                                                               7
+
+
+Magic Key            Information next to this icon is critical for cre-
+                     ativity and is worth memorizing.
+
+
+
+Sherlock Holmes      This icon appears next to important examples
+                     of regular usage, the understanding of which is
+                     a primary source of creativity for the native
+                     speakers.
+Remember             This icon reminds you of material covered earlier.
+
+
+
+
+Caution              The material marked by this icon deserves special
+                     attention. It warns you about common mistakes
+                     and sources of misunderstanding.
+
+
+Web links            For additional practice or materials, web links
+                     are provided.
+
+
+
+The other icons used in the book are thematic in nature and should
+prove self-explanatory.
+
+
+Where to go from here
+Of course, I do not pretend to teach you everything that needs to be
+known about Hindi. Language learning can be a life-long venture if
+you set your goals very high. Your next step is to look for books
+offering the intermediate and advanced Hindi courses listed at the
+end of the book. I give this information to alleviate the misconcep-
+tion, quite widespread in the West, that there is a lack of inter-
+mediate and advanced-level courses in Asian and African languages.
+There is no shortage of material, in print or on the web, at these
+levels. The only difficulty you might face is that this material will
+invariably be in Hindi script. If that poses a problem for you, there
+are still many ways you can continue to sharpen your linguistic
+skills, the most important of which is Hindi films. India is the world’s
+largest producer of films which are widely accessible in the East and
+8                                                         Introduction
+
+
+    the West on video and DVD. To develop a taste for Hindi films is
+    most important in taking you to advanced Hindi language learning.
+       Readers will find the following web resources useful. Please re-
+    member, however, that the links may not always be active and that
+    the content may change. The following links were active at the time
+    of writing:
+
+      http://www.latrobe.edu.au/indiangallery/hin11.htm
+      http://www.ncsu.edu/project/hindi_lessons/
+
+       Due to limitations of space, detailed descriptions of monuments
+    such as the Taj Mahal could not be included in this book; for the
+    sight and sounds of Indian monuments, lessons 2 and 9 from the
+    www.ncsu.edu website are particularly recommended.
+
+    For intermediate and advance readings, the following sites deserve
+    attention:
+
+      http://ccat.sas.upenn.edu/plc/hindi/video/
+      http://lrrc3.sas.upenn.edu/hindi_unicode/
+      http://philae.sas.upenn.edu/Hindi/hindi.html
+      http://munshi-premchand.blogspot.com/
+      http://www.abhivyakti-hindi.org/
+      http://www.anubhuti-hindi.org/
+
+    Newspaper and media sites:
+
+      http://www.bbc.co.uk/hindi/
+      http://www.naidunia.com/
+
+    Collection of Indian Newspaper sites:
+
+      http://www.indiapress.org/index.php/Hindi/400x60
+
+    Best wishes.
+
+
+    Reference
+    Bhatia, Tej K. 1987. A History of the Hindi Grammatical Tradition.
+      Leiden: E.J. Brill.
+    Bhatia, Tej K. and William C. Ritchie. 2006. Handbook of Bilingu-
+      alism. Oxford: Blackwell Publishing.
+Hindi writing system and pronunciation                                     9
+
+
+
+
+ihndI laoKna AaOr ]ccaarNa
+hindc lekhan aur
+uccaraN
+Hindi writing system and
+pronunciation
+
+
+
+
+Introduction              (CD 1; 2)
+
+This chapter briefly outlines the salient properties of Devanagari
+script and Hindi pronunciation. Hindi is written in Devanagari script.
+Even if you are not learning the script, this chapter is indispensable
+because you need to know the pronunciation values of the Roman/
+English letters used in the conversational units. Also, one or two
+unfamiliar symbols are drawn from the International Phonetic
+Alphabet (IPA). The transcription scheme followed here is widely
+used in the teaching of Hindi and in Hindi language, literature and
+linguistics. As I have said, the best way to learn Hindi is to learn the
+script as well. However, if this is not possible due to consideration of
+time, you will still need to refer to the transcription table until you
+have mastered the letters and their pronunciation value.
+   Listen to and repeat the pronunciation of Hindi vowels and con-
+sonants together with their minimal pairs, recorded on the CD
+accompanying this book.
+
+
+Devanagari script
+A number of languages are written in Devanagari script. Besides
+Hindi, Nepali, Marathi and Sanskrit are also written in this script.
+Other languages such as Punjabi, Bengali, Gujarati use a slight vari-
+ation of this script. This means that roughly half of humanity use
+10                              Hindi writing system and pronunciation
+
+
+     either this script or its close variant which follows the same under-
+     lying organizational system.
+         All scripts of Indic origin, including Devanagari script, are de-
+     scendants of the Brahmi script which was well established some time
+     before 500 BC in India. These scripts are considered the most scien-
+     tific among the existing writing systems of the world for a number
+     of reasons. (1) The arrangement and classification of the letters or
+     symbols follow a system based on physiological or phonetic prin-
+     ciples, namely the point and manner of articulation. Other writing
+     systems, including the Roman system, employ arbitrary, random
+     criteria to arrange and categorize the letters. (2) Each letter repres-
+     ents one sound only (at least in most cases). For example, in English
+     the [k] sound can be represented by the letters k, q, c and ch. This
+     does not happen in Devanagari. Because of its scientific and pho-
+     netic nature, this script has become the foundation of modern speech
+     science and the International Phonetic Alphabet (IPA.) The IPA is
+     basically the romanized version of Devanagari script. As a result
+     there is fairly regular correspondence between script and pronuncia-
+     tion. In other words, the words are pronounced as they are written,
+     and that is good news for our learners.
+         Devanagari script is written from left to right and from the top of
+     the page down, like Roman script. It does not distinguish between
+     upper-case and the lower-case letters. It is syllabic in nature, i.e.
+     every consonant letter/symbol represents the consonant plus the
+     inherent vowel A a. The pronunciation of the inherent vowel is the
+     major exception to the rule of correspondence between script and
+     pronunciation. These exceptions are detailed in script unit 1 and script
+     unit 4. Other minor exceptions are indicated by angular brackets < >
+     with the words listed in the vocabulary of each unit.
+         Below you will find Hindi vowel and consonant charts. In
+     Devanagari vowels and consonants are listed separately because they
+     involve distinct articulations.
+
+
+     Hindi vowels
+     Independent forms
+
+       A      Aa     [     [-      ]     }     e     eo     Aao    AaO    ?
+       a      a      i     c       u     e     e     s      o      au     ri
+Hindi writing system and pronunciation                                        11
+
+
+Dependent forms: following a consonant
+
+  ø      a       i        I       u        U       o       O   ao   aO    R
+  a      a       i        c       u    e           e   s       o    au   ri
+
+Notes on Hindi vowels
+
+Hindi vowels do not distinguish between capital and non-capital.
+However, they do distinguish between independent and dependent
+forms. The independent forms are often called ‘the main’ or ‘full’
+vowels, whereas the corresponding dependent forms are called
+‘matra’ vowels and are connected to the preceding consonant.
+
+Nasalization
+
+In the production of a nasal vowel, a vowel is pronounced through
+the mouth and the nose at the same time. Using either the symbol á
+or M with the vowel indicates nasalization in Hindi. Long vowels are
+usually nasalized in Hindi. In our transcription, the tilde symbol ˜
+is used to indicate vowel nasalization, as in
+
+  Aaá        k       }á       o       eá       q
+
+The symbol M is used to indicate vowel nasalization when any stroke
+of the vowel crosses the top horizontal line, as in eoM.
+
+Diphthongs
+
+eo s and AaO au are pronounced as a + i and a + u in the Eastern
+variety of Hindi, but are pronounced as single vowels in Standard
+Hindi. They receive dipthongal pronunciation only if they are fol-
+lowed by y and w/v, respectively.
+   ? ri does not occur in Hindi. It is used in the writing of a handful
+of words which are borrowed by Hindi from Sanskrit.
+12                            Hindi writing system and pronunciation
+
+
+     Hindi consonants
+
+                Voiceless      Voiceless   Voiced        Voiced      Nasal
+                unaspirated    aspirated   unaspirated   aspirated
+
+     k-group    k              K           ga            Ga          =
+                ka             kha         ga            gha         ra
+     c-group    ca             C           ja            Ja          Ha
+                ca             cha         ja            jh a        ña
+     T-group    T              z           D             Z           Na
+                Ta             Th a        Da            Dha         Na
+     t-group    t              qa          d             Qa          na
+                ta             th a        da            dha         na
+     p-group    p              f           ba            Ba          ma
+                pa             Ph a        ba            bha         ma
+     Others     ya             r           la            va          Sa
+                ya             ra          la            wa/va       sha
+                Ya             sa          h
+                SHa            sa          ha
+                D,             Z,
+                Ra             Rha
+
+
+     Sanskrit letters used infrequently:   xa ksha ~ tra & gya
+
+     Notes on Hindi consonants
+
+     The first five groups of consonants are called stops because they are
+     pronounced by stopping outgoing air from the mouth. The fifth
+     column of these five groups of consonants is called nasal because the
+     air is released through the nose while it is stopped from the mouth.
+     The nasal consonants of the first two groups, i.e. = ra and Ha ña are
+     never used in their syllabic form in Hindi, so you will not find them
+     in this book. They are included here because they are part of the
+     traditional Devanagari consonant chart.
+
+     Place of articulation
+
+     All consonants arranged within each of the five groups share the
+     same place of articulation, as described below:
+Hindi writing system and pronunciation                                   13
+
+
+k-vaga- k-group
+These consonants are also called ‘velar’ because the back of the
+tongue touches the back of the soft palate, called the velum. They
+are similar to the English k and g.
+
+  k       K        ga     Ga       =
+  ka      kha      ga     gha      ra
+
+ca-vaga- c-group
+These sounds are the closest equivalent to the English sound ch in
+‘church.’ The main body of the tongue touches the hard palate in
+the articulation of these sounds.
+
+  ca      C        ja     Ja       Ha
+  ca      cha      ja     jha      ña
+
+T-vaga- T-group (the ‘capital T group’)
+  T       z        D      Z        Na
+  Ta      Tha      Da     Dha      Na
+
+These consonants represent the most colourful features of the lan-
+guages of the Indian subcontinent. They are also called ‘retroflex’
+consonants. There is no equivalent of these sounds in English. In the
+articulation of these sounds, the tip of the tongue is curled back and
+the underside of the tongue touches the hard palate. The following
+diagram can help in the production of these sounds:
+
+
+
+
+Note that D, R and Z, Rh are also pronounced with the same point of
+articulation.
+14                               Hindi writing system and pronunciation
+
+
+     t-vaga- t-group
+     The tip of the tongue touches the back of the teeth, and not the gum
+     ridge behind the teeth as is the case in the pronunciation of the
+     English t or d.
+
+       t      qa        d        Qa      na
+       ta     th a      da       dha     na
+
+     Study the following diagrams carefully in order to distinguish Hindi
+     t-group of sounds from the English t-group of sounds.
+
+
+
+
+                     English                           Hindi
+
+
+     p-vaga- p-group
+     These sounds are similar to English p or b sounds. They are pro-
+     nounced by closing or nearly closing the lips.
+
+       p       f            ba     Ba         ma
+       pa      pha          ba     bha        ma
+
+     Manner of articulation
+
+     All columns in the five groups involve the same manner of articulation.
+
+     Voiceless unaspirated
+
+       k       ca       T         t      p
+       ka      ca       Ta        ta     pa
+Hindi writing system and pronunciation                                      15
+
+
+These sounds are like the English k (as in ‘skin’ but not as in ‘kin’),
+p (as in ‘spin’ but not as in ‘pin’). In ‘kin’ and ‘pin’, the English
+sounds k and p are slightly aspirated, i.e. they are followed by a
+slight ‘puff of air’. In order to pronounce the corresponding Hindi k
+and p, you need to reduce the flow of breath.
+
+Voiceless aspirated
+
+   K       C         z          qa          f
+   kha     cha       Tha        tha         pha
+
+The superscripted h means that these sounds are pronounced with a
+strong ‘puff of air’. All you have to do is to increase the air flow
+slightly in the pronunciation of the English k and p sounds.
+
+Voiced unaspirated
+
+   ga     ja     D         d          ba
+   ga     ja     Da        da         ba
+
+In the production of these sounds the vocal cords vibrate and
+produce a buzzing sound, like that of a bee. You should have no
+difficulty producing these sounds as they are like English g and b.
+
+Voiced aspirated (breathy voiced)
+
+If you pronounce voiced unaspirated consonants with a ‘puff of
+air’, you will produce voiced aspirated sounds. The superscripted h
+indicates the presence of the ‘puff of air’. If this seems difficult, try
+pronouncing the voiced unaspirated consonants with an h (as in
+hog-hog). If you pronounce the words fast enough, you will obtain
+the voiced aspirate g h at the end of the first break between the two
+words.
+
+   Ga      Ja        Z          Qa          Ba
+   gha     jha       Dha        dha         bha
+
+Nasal
+
+   =      Ha      Na       na          ma
+   ra     ña      Na       na          ma
+16                              Hindi writing system and pronunciation
+
+
+     These sounds are similar to English nasal consonants such as n and
+     m. The velar and palatal nasals are similar to the nasal consonants
+     in the English words ‘king’ and ‘bunch’, respectively.
+
+     ya-h vaga- Other consonants (miscellaneous)
+     The following consonants grouped together as ‘others’ are very
+     similar to English sounds, so do not call for detailed phonetic
+     description. The English transcription is sufficient to give you
+     information about their pronunciation.
+
+       ya       r       la      va                 Sa       sa   h
+       ya       ra      la      wa/va              sha      sa   ha
+
+     As mentioned above, the following two consonants are pronounced
+     with a curled tongue. However, the underside of the tongue is flapped
+     forward quickly, touching the hard palate slightly, instead of articu-
+     lating the stop with the hard palate. Z, Rha is the aspirated counter-
+     part of D, Ra.
+
+       D,        Z,
+       Ra        Rha
+
+     Sanskrit letters
+     The following four consonants are from Sanskrit. They do not exist
+     in Hindi except in the handful of words borrowed from Sanskrit.
+
+       Ya SHa         xa ksha        ~ tra          & gya
+     Ya SHa is pronounced like Sa sha, and the other three letters represent
+     consonant clusters in Hindi.
+
+     Borrowed Perso-Arabic and English sounds
+     By placing a dot under the following five consonant symbols, the
+     five Perso-Arabic sounds are represented:
+
+       f,       j,a     K,      k,           g,a
+       fa       za      xa      qa           Ga
+
+     Out of these five, the first two are used quite frequently in Hindi.
+     The reason for this is that fa and za are also found in English. The
+Hindi writing system and pronunciation                                                  17
+
+
+other three consonants are usually pronounced as kha, ka and ga,
+respectively. Even the first two sounds fa and za can be pronounced
+as pha and ja, respectively.
+   It should be noted that English alveolar sounds t and d are usu-
+ally perceived and written as T and D, respectively. So the t and d
+in the proper name ‘Todd’ are written with the letters T and D,
+respectively.
+
+
+Pronunciation practice
+Minimal pair practice                           (CD 1; 3)
+
+Vowels
+Oral vowels
+
+Vowel       Pronunciation cue                        Hindi words
+            (English near-equivalent)
+
+A      a    about                                    kla    kal   yesterday/tomorrow
+Aa     a    father                                   kala   kal   time, tense
+[      i    sit                                      idna   din   day
+[-     c    seat                                     dIna   dcn   poor
+]      u    book                                     kula   kul   total, family
+}      e    boot, loot                               kUla   kel   shore
+e      e    late, date (without a glide)             hoo    he    hey
+eo     s    bet                                      hO     hs    is
+Aao    o    boat (without a glide)                   Aaor   or    side, towards
+AaO    au   bought                                   AaOr   aur   and
+
+
+Nasalized vowels á M
+
+Nasalized vowels (long)                    Hindi words
+
+Aaá    k                                   maaáM      mk      mother
+[- M   m                                   khIM       kahm    somewhere
+}á     o                                   hUá        ho      am
+eá     g                                   maMo       mg      in
+eoM    q                                   maOOOoM    mq      I
+AaMo   õ                                   gaaoMd     gõd     gum
+AaOM   ãj                                  caaMOk     cãjk    be alarmed, be startled
+18                            Hindi writing system and pronunciation
+
+
+     Minimal pair practice: words with oral and
+     nasalized vowels
+
+     Oral vowels                     Nasalized vowels
+
+     Aa a kha kaha said (m.sg)       Aaá k khaá kahk where
+     [- c khI kahc said (f.sg)       [M- m khIM kahm somewhere
+     } e pUC pech ask                }á o pUáC poch a tail
+     e e lao le        take          eá g laoM lg        take (optative)
+     eo s hO hs        is            eoM q hOM hq        are
+     Aao o gaaod god the lap         AaoM õ gaaoMd gõd gum
+     AaO au caaOk cauk a crossing    AaOM ãj caaOMk cãjk be alarmed, be startled
+
+
+     Consonants              (CD 1; 4)
+
+     Listen to the recording and repeat the words.
+
+     Remember, the contrasts shown below are very critical in Hindi.
+     Failing to maintain such contrasts will result in a breakdown of
+     communication. If you want to ask for food, Kanaa khana failing to
+     aspirate will result in saying kanaa kana and you will end up asking for
+     a one-eyed person. Similarly, if you do not distinguish the T-group
+     of consonants from the t-group of consonants, rather than asking
+     for raoTI roTc, ‘bread’, you will end up reporting that the girl is crying
+     (i.e. raotI rotc).
+
+     Minimal pair practice: words with unvoiced
+     unaspirated stops and unvoiced aspirated stops
+
+     Unvoiced unaspirated                            Unvoiced aspirated
+
+     k ka    kala kal   time                         K kha    Kala khal    skin
+     ca ca   cala cal   walk                         C cha    Cla chal     cheat
+     T Ta    Tala Tal   postpone                     z Tha    zala Thal    sit idle
+     t ta    tana tan   tune                         qa tha   qaala thal   plate
+     p pa    pla pal    moment                       f pha    fla phal     fruit
+Hindi writing system and pronunciation                                            19
+
+
+Minimal pair practice: words with voiced
+unaspirated stops and voiced aspirated stops
+
+Voiced unaspirated                 Voiced aspirated
+
+ga ga   gaa ga      sing           Ga gha   Gaa gha  the fourth letter of the
+                                                       k-series
+ja ja   jala jal    water          Ja jha Jala jhal fan
+D Da    Dala Dal    a branch       Z Dha Zala Dhal shield
+d da    dana dan    charity        Qa dha Qaana dhan paddy
+ba ba   baala bal   hair           Ba bha Baala bhal forehead
+
+
+Minimal pair practice: words with unvoiced
+aspirated stops and voiced aspirated stops
+
+Unvoiced aspirated                      Voiced aspirated
+
+K kha Kanaa khana food                  Ga gha Gaanaa ghana Ghana, the name
+                                                                 of a country
+C cha Cla chal        cheat             Ja jha Jala jhal       fan
+z Tha zk Thak         tapping sound     Z Dha Zk Dhak          cover
+qa tha qaana than     roll of cloth     Qa dha Qaana dhan      paddy
+f pha fUla phel       flower            Ba bha BaUla bhel      mistake
+
+
+Minimal pair practice: words with the T-group
+(retroflex) stops and the t-group (dental) stops
+
+T-vaga- T-group                              t-vaga- t-group
+T Ta     Tala Tal     postpone               t ta     tala tal    pond
+Z Tha    zk Thak      tapping (sound)        qa tha   qak thak    be tired
+D Da     Dala Dal     branch                 d da     dala dal    lentil
+Z Dha    Zk Dhak      cover                  Qa dha   Qak dhak    palpitation,
+                                                                     excitement
+
+Listen to the following:
+20                          Hindi writing system and pronunciation
+
+
+     Nasal consonants
+
+     Nasal consonant                                  Hindi word
+
+     = ra                                             AMga arg     body, limb
+     Ha ña                                            AMjaU añje   female name
+     Na Na                                            baaNa baN    arrow
+     na na                                            naana nan    bread
+     ma ma                                            maana man    respect
+
+
+     Other consonants
+
+     Listen to the following words:
+
+     Consonant                                     Hindi word
+
+     ya ya                                         yaar yar     friend
+     r ma                                          rajaa raja   king
+     la la                                         laala lal    red
+     va wa/va                                      vaar var     an attack
+     Sa sha                                        Saala shal   shawl
+     sa sa                                         saala sal    year
+     h ha                                          hala hal     condition, state
+
+
+     Minimal pair practice: words with r, R and Rh
+
+     Consonant                                          Hindi word
+
+     r ra                                               pr par on, at
+     D, Ra                                              pD, paR lie, fall
+     Z, Rha                                             pZ, paRh read, study
+
+
+     Borrowed consonants
+
+        f,       j,a   K,    k,       g,a
+        fa       za    xa    qa       Ga
+
+     As pointed out earlier, these consonants were not present in Hindi
+     originally. Many speakers of Hindi still substitute the closest corres-
+     ponding Hindi consonant for them, as shown below:
+Hindi writing system and pronunciation                                                  21
+
+
+   f,,     fa         becomes             f        pha
+   j,a     za         becomes             ja       ja
+   K,      xa         becomes             K        kha
+   k,,     qa         becomes             k        ka
+   ga,     Ga         becomes             ga       ga
+
+In other words, the dots are added to the native symbols to rep-
+resent the borrowed sounds.
+   Now listen to the two possible pronunciations of the following
+words.
+
+Consonant Word                                                   Consonant Word
+
+f, fa    f,Isa f cs      tuition, fee                            f pha   fIsa phcs
+ja, za   ja,ra zara      just, a little                          ja ja   jara jara
+K, xa    K,rId xarcd     buy                                     K kha   KrId kharcd
+k, qa    k,lama qalam    pen                                     k ka    klama kalam
+ga, Ga   ga,rIba Garcb   poor                                    ga ga   garIba garcb
+
+Syllables, stress and intonation: see Script Unit 5.
+
+
+   Punctuation marks
+
+   With the exception of the full stop, which is represented by the
+   sign ., Hindi uses the same punctuation marks as English. For
+   abbreviation purposes, a small circle • is used after the first
+   syllable. For example, pM• stands for Pandit. Sometimes the sign ^
+   is used over the vowel Aa a to represent the English sound o, as
+   in jaa^na ‘John’ and yaa^k- ‘York’.
+
+
+
+Numerals
+
+
+   1       2      3       4       5            6     7   8   9       0
+
+If you do not have the recording, either skip the following section or
+seek the assistance of a native speaker.
+22                            Hindi writing system and pronunciation
+
+
+     AByaasa abhyas Exercises
+     Exercise 1          (CD 1; 5)
+
+     Listen to each group of three words and circle the word that is
+     different.
+
+                                  A     B       C
+                                  kr    Kr      kr
+         Example: you hear        kar   khar    kar
+         Answer:                        B
+
+     1   A     B     C
+     2   A     B     C
+     3   A     B     C
+     4   A     B     C
+     5   A     B     C
+
+
+     Exercise 2          (CD 1; 6)
+
+     Listen to each group of four words and circle the aspirated words.
+
+                                  A     B       C       D
+                                  kr    Kr      gar     Gar
+         Example: you hear:       kar   khar    gar     ghar
+         Answer:                        B, D
+
+     1   A     B     C        D
+     2   A     B     C        D
+     3   A     B     C        D
+     4   A     B     C        D
+     5   A     B     C        D
+
+     Exercise 3          (CD 1; 7)
+
+     Listen to pairs of words contrasting the T-group (retroflex) and the
+     t-group of consonants.
+
+         A           B
+         iTk Tik     itk tik
+Hindi writing system and pronunciation                                 23
+
+
+After each pair has been pronounced, you will hear either ‘A’ or ‘B’
+again. Underline the word that you hear this time.
+
+    Example: you hear iTk Tik, then underline Tik.
+
+1   tak     tak         Tak     Tak
+2   qak     thak        zk      Thak
+3   daga    dag         Daga    Dag
+4   Qak     dhak        Zk      Dhak
+5   Par     par         PaD,    paR
+6   sar     sar         saD,    saR
+7   krI     karc        kZ,I    kaRh c
+8   qaIk    th ck       zIk     Th ck
+
+Exercise 4                   (CD 1; 8)
+
+Listen to pairs of words with constrasting vowel sounds.
+
+    A               B
+    idna din        dIna dcn
+After each pair has been pronounced, you will hear either ‘A’ or ‘B’
+again. Underline the word that you hear this time.
+
+    Example: you hear dIna dcn, then underline dcn.
+
+    A                B
+1   kala    kal      kla       kal
+2   idna    din      dIna      dcn
+3   imala   mil      maIla     mcl
+4   cauk    cuk      caUk      cek
+5   maola   mel      maOla     msl
+6   saor    ser      saOr      ssr
+7   ibana   bin      baIna     bcn
+8   baala   bal      bala      bal
+24                                                             Transcription table
+
+
+
+
+     Transcription table
+
+     If you wish to learn Hindi principally via the Roman/English path
+     or if you are used to seeing Hindi words in the English or Bollywood
+     media, you might find the transcription of Hindi words a little odd
+     or unfamiliar at first. However, a quick glance will reveal that media
+     transcription is usually very broad, ambiguous and inconsistent.
+     English–Hindi bilinguals/native speakers can cope with such trans-
+     cription because they know the target word. Foreign learners do not
+     have this advantage.
+        It is imperative that learners make themselves familiar with the
+     scientific transcription used in this book – SALT, the transcription
+     system widely used in South Asian language and literature. Such
+     familiarity is critical to avoiding mishaps in communication and
+     to increase learning efficiency: see the section entitled ‘Hindi writing
+     system and pronunciation’ for details. The table below provides you
+     with a convenient source of reference for Hindi sounds.
+
+     Letter         SALT (South                     Media      As in English words
+     (Devanagari)   Asian Language
+                    Transcription)
+
+     Vowels
+
+     A              a                               uh/a       about
+     Aa             a                               aa/ah/a    father
+     [              i                               i/e        sit
+     [-             c                               ee         seat
+     ]              u                               u          book
+     }              e                               oo/u       boot, loot
+     e              e                               ay/e       late, date (without
+                                                                   a glide)
+     eo             s (ai)                          ai/aye     bet
+     Aao            o                               o          boat (without a glide)
+     AaO            au                              au         bought
+     Nasal vowels   (e.g. ã, h, k, m . . . ); see    vowel +
+                       ‘Hindi writing system           n/m
+                       and pronunciation’
+Transcription table                                                                 25
+
+
+Letter           SALT (South                  Media      As in English words
+(Devanagari)     Asian Language
+                 Transcription)
+
+Consonants
+
+k                ka                           ka/ca      back
+K                k ha                         kha/ka     cat
+ga               ga                           ga         gate
+Ga               g ha                         gha        hog-hog
+=                ra                           na         king
+ca               ca                           cha        church
+C                c ha                         chha       church (with slight puff
+                                                           of air)
+ja               ja                           ja         jug
+Ja               j ha                         jha/ja     hedge-hog
+Ha               ña                           na         bunch
+T                Ta                           ta         Not in English: see
+z                Tha                          t ha         ‘Hindi writing system
+D/D,             Da/Ra                        da/da        and pronunciation’
+Z/Z,             Dha/Rha                      dha/da
+Na               Na                           na
+t                ta                           ta         cat
+qa               t ha                         t ha       tin
+d                da                           da         dog
+Qa               d ha                         dha        dharma
+na               na                           na         nab
+p                pa                           pa         zip
+f/f,             p ha                         pha        Pat
+ba               ba                           ba         bat
+Ba               b ha                         bha        tab-let
+ma               ma                           ma         mat
+ya               ya                           ya         yes
+r                ra                           ra         rat
+la               la                           la         late
+va               wa/va                        wa/va      vat
+Sa               sha                          sha        she
+Ya               SHa                          SHa        Like retroflex; not in
+                                                             English
+sa               sa                           sa         sit
+h                ha                           ha         hat
+
+Source: Adapted from Bhatia, Tej K. (2000). Advertising in Rural India: Language,
+Marketing Communication and Consumerism. Tokyo: Institute for the Study of
+Languages and Cultures of Asia and Africa, Tokyo University of Foreign Studies.
+26                                         Transcription table
+
+
+     A sample of transcriptional variation
+
+     Media              SALT
+
+     Mahabharat         Mahabharata ‘Sanskrit epic’
+     Ramayan            ramayaNa ‘Sanskrit epic’
+     gharana            gharana ‘lineage’
+     akashvani          akashvaNc ‘radio’
+     doordarshan        derdharshan ‘television’
+     beedi, beeri       bcRc ‘native cigarette’
+     Chaay              cay ‘tea’
+     Chaarpay           carpac ‘a string bed with four wooden legs’
+     Amitabh Bachhan    Amitabh Baccan (famous actor)
+Script unit 1            27
+
+
+
+
+ilaip AaOr laoKna
+lipi aur lekhan
+Script and handwriting
+Script unit 1                                                               29
+
+
+
+
+1 phlaa paz – ilaip
+  pshla paTh – lipi
+          Script unit 1
+
+
+
+
+The first letter of the Devanagari script is A a.
+   When the preceding sound is a consonant, it is inherent in the
+consonant, so it is not written separately (as in the Hindi word
+pr par ‘on/at’). In all other situations, however, it is written separ-
+ately (e.g. Aba ab ‘now’).
+   Look at the following combinations of consonants with the vowel
+A a and try to read them aloud first. You may need to refer to the
+consonant chart in the transcription table.
+
+
+Letters                   Word                             Pronunciation
+
+p         +   r     =     pr
+pa        +   ra    =     para     on/at                   par
+A         +   ba    =     Aba
+a         +   ba    =     aba      now                     ab
+k         +   la    =     kla
+ka        +   la    =     kala     yesterday/tomorrow      kal
+
+
+   Note that with a preceding p, r, b, k or l the independent shape of
+the vowel A is not used. In such cases the vowel is absorbed into the
+consonant. It is for this reason that Hindi script is called a ‘syllabic’
+script, i.e. a consonant letter such as k stands for k + a. Each con-
+sonant letter is not written separately, as is the case with the Roman
+script. So, k + a cannot be written as k + A. Of course, there are
+ways to write a consonant without a vowel; we will learn to do this
+at a later stage.
+   If you thought that the vowel -a at the end of a word is absorbed
+into the preceding consonant, but is not pronounced (i.e. silent) in
+Standard Hindi speech, you would be right. So, a word written as
+30                                                            Script unit 1
+
+
+     pr para ‘on/at’ is actually pronounced as par. Some dialects of Hindi
+     do not drop the word-final a in pronunciation.
+        Combinations of three or more consonants follow the same
+     pattern.
+
+
+     Letters                               Word                Pronunciation
+
+     sa        +   D,   +    k         =   saD,k
+     sa        +   Ra   +    ka        =   saRakx      road    saRak
+     ma        +   ga   +    r         =   magar
+     ma        +   ga   +    ra        =   magarx      but     magar
+     A         +   ga   +    r         =   Agar
+     a         +   ga   +    ra        =   agarx       if      agar
+
+
+
+
+     Handwriting
+
+     Stroke order
+
+     Letter/            Stroke order          Head stroke/      Handwriting
+     Pronunciation                            Head bar
+
+
+     k – vaga-
+     k ka
+     Kka  h
+
+
+     ga ga
+     Ga g a
+          h
+
+
+
+
+     ca – vaga-
+     ca ca
+     C ca h
+
+
+     ja ja
+     Ja j a
+          h
+Script unit 1                                               31
+
+
+Letter/         Stroke order   Head stroke/   Handwriting
+Pronunciation                  Head bar
+
+
+T – vaga-
+T Ta
+z Ta    h
+
+
+D Da
+Z Da    h
+
+
+Na Na
+t – vaga-
+t ta
+qa t a
+    h
+
+
+d da
+Qa d a
+    h
+
+
+na na
+p – vaga-
+p pa
+fpa h
+
+
+ba ba
+Ba b a
+    h
+
+
+ma ma
+ya – h vaga-
+ya ya
+r ra
+la la
+va va
+Sa sha
+Ya SHa
+32                                                              Script unit 1
+
+
+     Letter/                 Stroke order        Head stroke/     Handwriting
+     Pronunciation                               Head bar
+
+     sa sa
+     h ha
+     saMskRt
+     xa ksha
+     ~ tra
+     & gya/jya
+     Anya Other retroflex letters
+     Dº Ra
+     Zº R a h
+
+
+
+
+     Observation exercise
+     Similar-looking characters
+       Ga       gha    Qa   dha
+       K        kha    r    ra        va wa/va
+       ba       ba     va   wa/va
+       Ba       bha    ma   ma
+       d        da     D    Da        Z Dha          D, Ra      Z, Rha
+       qa       t ha   ya   ya
+
+
+     AByaasa abhyas Exercises
+     Exercise 1
+     Read aloud the Hindi words given below. Feel free to consult the
+     consonant chart in the transcription table. However, resist the
+     temptation to transcribe and write every letter before you pronounce
+     the word. Treat this as an exercise in simple arithmetic addition. The
+     difference is that you have words rather than numbers here.
+Script unit 1                                                                 33
+
+
+  You can compare your pronunciation against the recording, if
+you have it.
+
+1 Amana 2 Asala 3 jalana 4 klama 5 kmala 6 garma 7 jaba 8 kba 9 tba 10 saba
+
+Exercise 2
+
+Identify and transcribe the following letters. Also, observe some
+similarities between these letters.
+
+    k      ya      qa     t    Ga    Qa    Ba     ma    va    ba
+
+Exercise 3
+
+Write the following in the Devanagari alphabet.
+
+1   kha, ra, wa/va
+2   Ta, ta, Tha, tha
+3   da, Da, dha, Dha
+4   pa, pha, ba, ya
+5   ra, Ra, Rha
+
+Exercise 4
+
+Write the following words in Hindi script. Assume that the word-
+final vowel a is dropped.
+
+1 kaT           2 gal     3 cal      4 namak        5 sabak        6 parakh
+7 sadar         8 calan   9 man     10 pal         11 garam
+
+
+    Web resources
+    For the dynamics of stroke order, see Syracuse University’s
+    Hindi web page:
+        http://faculty.maxwell.syr.edu/jishnu/101/alphabet/
+          default.asp?section=0
+    The following link is also recommended:
+        http://www.avashy.com/hindiscripttutor.htm
+34                                                         Script unit 2
+
+
+
+
+     2 dUsara paz – ilaip
+       desra paTh – lipi
+              Script unit 2
+
+
+
+
+     In Script Unit 1, we learnt how to use the independent form of short
+     A a and about its absorption into the preceding consonant.
+        Now, let us learn to combine dependent forms of more vowel
+     symbols. The independent and dependent forms (maa~a matra) of Hindi
+     vowels are given below:
+
+
+
+     Independent          Dependent (maa~a mAtrA)      Position
+                          ‘Following a consonant’
+
+     A a                  0 (zero)
+     Aa a                 a                            after a consonant
+     [ i                  i                            before a consonant
+     [- c                 I                            after a consonant
+     ] u                     u                         under a consonant
+     } e                   U                           under a consonant
+     e e                     o                         top of a consonant
+     eo s                    O                         top of a consonant
+     Aao o                ao                           after a consonant
+     AaO au               aO                           after a consonant
+
+
+
+     Now let us consider the following three dependent vowel symbols:
+
+        a     long    a
+        i     short   i
+        I     long    c
+
+     As mentioned above, a and I are placed after a consonant, whereas
+     i is placed before a consonant, as shown below:
+Script unit 2                                                                       35
+
+
+    ga   + a                       k + I                        k   + i
+    ga + a                         ka + c                       ka + i
+      gaa ga                         kI kc                        ik ki
+Notice when a dependent form of the vowel is adjoined to a con-
+sonant, the invisible short A a is actually absorbed. As mentioned in
+script unit 1, the word-final short a is silent.
+
+    baa  + t                       ba          + ta             tI       + na
+   ba + ta                         ba          + ta             tc       + na
+     baat bat                             bata bata                   tIna tcn
+  thing, matter                              tell                     three
+
+Now look at the following examples:
+
+    baa+          rI               ca        + naa              iga     +      ra
+    ba +          rc               ca        + na               gi      +      ra
+          baarI                             canaa                      igara
+          turn                     chick pea                           fell
+
+Observe the following three-syllable words:
+
+  k       + ha                 + naI           khanaI story
+  ka      + ha                 + nc
+
+  ma + saa                     + laa           masaalaa spice
+  ma + sa                      + la
+
+  ik      + Qa                 + r             ikQar where, which direction
+  ki      + dha                + ra
+
+  kI      + ma                 + t             kImat price
+  kc      + ma                 + ta
+
+Now let us turn our attention to the next four dependent vowel
+forms.
+
+      u      U             o          O
+   u        e          e          s
+
+These vowel symbols are either placed above or below a consonant
+symbol, as shown here:
+36                                                            Script unit 2
+
+
+       tu            tU         to         tO
+       tu            te         te         ts
+
+     Read the following words. (In what follows the absence of the word-
+     final short a is assumed.)
+
+       cau       +        k     =    cauk            finish
+       cu        +        ka         cuk
+
+       pU        +        C     = pUC                ask
+       pe        +        cha   = pech
+
+       jao       +        la    = jaola              jail
+       je        +        la    = jel
+
+       pO        +        saa   = pOsaa              money
+       ps        +        sa    = pssa
+
+
+       Exceptions
+       When u and U are joined to r ra, they are joined to the middle
+       joint of the r, as shown below:
+             r   +        u          r    +      e
+             r + u                   r + U
+
+
+                 É                         $
+
+
+     It is incorrect to place u and U below the r as in ru ru and rU re.
+         Also, notice the difference in the shape of u. With r the symbol of
+     the dependent vowel u becomes º
+         Now here are the last two dependent vowel forms:
+
+       ao            aO
+       o         au
+
+     They are placed to the right of a consonant like a and c, as shown
+     below:
+
+       Cao       + Ta =                  CaoTa       small
+       cho       + Ta
+Script unit 2                                                                                            37
+
+
+      caaO        + k          =   caaOk             crossing
+      cau         + k
+
+Observe some more examples of the vowels in question:
+
+      p           + D,aO       + saI =               pD,aOsaI           neighbour
+      pa          + rau        + sc
+
+      haO         + sa         + laa =               haOsalaa           courage
+      hau         + sa         + la
+
+      paO         + Saa        + k         =         paOSaak            dress
+      pao         + sha        + k
+
+      ina         + caao       + D,        =         inacaaoD,          squeeze, essence
+      ni          + co         + R
+
+The use of maa~a matra vowels with preceding consonants is shown
+below. The consonants that never occur with matra vowels are not
+listed here.
+
+
+k            ka         ik         kI          ku                kU        ko     kO       kao    kaO
+ka           ka         ki         kc          ku                ke        ke     ks       ko     kau
+K            Ka         iK         KI          Ku                KU        Ko     KO       Kao    KaO
+kha          kha        khi        khc         khu               khe       khe    khs      kho    khau
+ga           gaa        iga        gaI         gau               gaU       gao    gaO      gaao   gaaO
+ga           ga         gi         gc          gu                ge        ge     gs       go     gau
+Ga           Gaa        iGa        GaI         Gau               GaU       Gao    GaO      Gaao   GaaO
+gha          gha        ghi        ghc         ghu               ghe       ghe    ghs      gho    ghau
+
+ca           caa        ica        caI         cau               caU       cao    caO      caao   caaO
+ca           ca         ci         cc          cu                ce        ce     cs       co     cau
+C            Ca         iC         CI          Cu                CU        Co     CO       Cao    CaO
+cha          cha        chi        chc         chu               che       che    chs      c ho   chau
+ja           jaa        ija        jaI         jau               jaU       jao    jaO      jaao   jaaO
+ja           ja         ji         jc          ju                je        je     js       jo     jau
+Ja           Jaa        iJa        JaI         Jau               JaU       Jao    JaO      Jaao   JaaO
+jha          jha        jhi        jhc         jhu               jhe       jh e   jhs      jho    jhau
+
+T            Ta         iT         TI          Tu                TU        To     TO       Tao    TaO
+Ta           Ta         Ti         Tc          Tu                Te        Te     Ts       To     Tau
+z            za         iz         zI          zu                zU        zo     zO       zao    zaO
+Th a         Th a       Th i       Thc         Thu               Th e      Th e   Th s     Th o   Thau
+38                                                          Script unit 2
+
+
+     D      Da     iD     DI    Du     DU     Do     DO      Dao    DaO
+     Da     Da     Di     Dc    Du     De     De     Ds      Do     Dau
+     Z      Za     iZ     ZI    Zu     ZU     Zo     ZO      Zao    ZaO
+     Dha    Dha    Dhi    Dhc   D hu   Dhe    Dhe    Dhs     Dho    Dhau
+     Na     Naa    iNa    NaI   Nau    NaU    Nao    NaO     Naao   NaaO
+     Na     Na     Ni     Nc    Nu     Ne     Ne     Ns      No     Nau
+     t      ta     it     tI    tu     tU     to     tO      tao    taO
+     ta     ta     ti     tc    tu     te     te     ts      to     tau
+     qa     qaa    iqa    qaI   qau    qaU    qao    qaO     qaao   qaaO
+     th a   th a   th i   thc   th u   th e   th e   th s    th o   thau
+     d      da     id     dI    du     dU     do     dO      dao    daO
+     da     da     di     dc    du     de     de     ds      do     dau
+     Qa     Qaa    iQa    QaI   Qau    QaU    Qao    QaO     Qaao   QaaO
+     dha    dha    dhi    dhc   dhu    dhe    dhe    dhs     dho    dhau
+     na     naa    ina    naI   nau    naU    nao    naO     naao   naaO
+     na     na     ni     nc    nu     ne     ne     ns      no     nau
+     p      pa     ip     pI    pu     pU     po     pO      pao    paO
+     pa     pa     pi     pc    pu     pe     pe     ps      po     pau
+     f      fa     if     fI    fu     fU     fo     fO      fao    faO
+     pha    pha    phi    phc   phu    phe    phe    phs     pho    phau
+     ba     baa    iba    baI   bau    baU    bao    baO     baao   baaO
+     ba     ba     bi     bc    bu     be     be     bs      bo     bau
+     Ba     Baa    iBa    BaI   Bau    BaU    Bao    BaO     Baao   BaaO
+     bha    bha    bhi    bhc   bhu    bhe    bhe    bhs     bho    bhau
+     ma     maa    ima    maI   mau    maU    mao    maO     maao   maaO
+     ma     ma     mi     mc    mu     me     me     ms      mo     mau
+     ya     yaa    iya    yaI   yau    yaU    yao    yaO     yaao   yaaO
+     ya     ya     yi     yc    yu     ye     ye     ys      yo     yau
+     r      ra     ir     rI    É      $      ro     rO      rao    raO
+     ra     ra     ri     rc    ru     re     re     rs      ro     rau
+     la     laa    ila    laI   lau    laU    lao    laO     laao   laaO
+     la     la     li     lc    lu     le     le     ls      lo     lau
+     va     vaa    iva    vaI   vau    vaU    vao    vaO     vaao   vaaO
+     va     va     vi     vc    vu     ve     ve     vs      vo     vau
+     Sa     Saa    iSa    SaI   Sau    SaU    Sao    SaO     Saao   SaaO
+     sha    sha    shi    shc   shu    she    she    shs     sho    shau
+     Ya     Yaa    iYa    YaI   Yau    YaU    Yao    YaO     Yaao   YaaO
+     SHa    SHa    SHi    SHc   SHu    SHe    She    SHs     SHo    SHau
+     sa     saa    isa    saI   sau    saU    sao    saO     saao   saaO
+     sa     sa     si     sc    su     se     se     ss      so     sau
+     h      ha     ih     hI    hu     hU     ho     hO      hao    haO
+     ha     ha     hi     hc    hu     he     he     hs      ho     hau
+Script unit 2                                                                     39
+
+
+The horizontal bar/head stroke and words
+
+The horizontal bar is placed on a word. Thus kam k a ma = kama but
+not ka ma.
+
+
+AByaasa abhyas Exercises
+Exercise 1
+
+Read the following Hindi words aloud and transcribe them. Note
+that your transcription should take into account the word-final
+absence of the short vowel A a.
+
+ 1 BaarI    2 baD,a    3 iktnaa 4 kalaa      5 Baart         6 gaaD,I 7 iknaara
+ 8 gaIt     9 gaayaba 10 caavala 11 caahnaa 12 icaiD,yaaGar 13 j,ara 14 jaIvana
+15 jaapana 16 caaor 17 maaor     18 fla     19 BaUt         20 caaOqaa 21 DaOla
+22 puilasa 23 haqaI 24 isatar 25 Saama
+
+
+Exercise 2
+
+Write the following words in Devanagari script:
+
+ 1 jabki 2 kc        3 bazar    4 raja    5 ranc 6 pahacan
+ 7 nac    8 banaras 9 kanapur 10 mata    11 pita 12 kabhc
+13 milan 14 zamcn 15 kar       16 mahcna 17 sal 18 din
+19 car   20 sat     21 savera  22 cay    23 panc 24 pati
+25 bhale 26 rat     27 dopahar 28 khol   29 sau 30 sona
+
+
+Exercise 3
+
+Practise writing the following names:
+
+1 Richard     2 Bill   3 Sarah (seyra)     4 Jennifer     5 Don
+
+
+Exercise 4
+
+The following words are written incorrectly in Hindi. Look at their
+transcription and write their correct form in Hindi:
+40                                                     Script unit 2
+
+
+     Correct   Incorrect   Correct   Correct   Incorrect     Correct
+
+     rupaya    rupyaa                Dar       dr
+     rekha     rUKa                  nam       naaBa
+     kar       kAr                   than      Qaana
+     ki        ki                    ghar      Qar
+     aur       Aar                   Dal       D,ala
+Script unit 3                                                               41
+
+
+
+
+3 tIsara paz – ilaip
+  tcsra paTh – lipi
+          Script unit 3
+
+
+
+
+Independent vowels
+In this unit we will learn how to use independent vowel forms and
+nasalized vowels. In the last unit we showed that dependent counter-
+parts are used with a preceding consonant. In all other cases, the
+independent form is used. Here is the list of the independent vowels
+again. These vowels are also called ‘main’ vowels.
+
+  A        Aa     [     [-        ]     }        e     eo    Aaoo     AaO
+  a        a      i     c         u     e        e     s     o        au
+
+When the word begins with a vowel, the independent form of the
+vowel is used, as in
+
+  Aa + ma        = Aama          mango, common
+  a    +       m = am
+
+but not the dependent form
+
+  a + ma = ama
+
+Similarly:
+
+  [ + Qa          + r        =   [Qar       in this direction, here
+  i   + dha       + r
+
+but not
+
+  i + Qa          +   r = iQar
+42                                                           Script unit 3
+
+
+     Also, observe in the following example:
+
+       AaO + r = AaOr                and
+       au +        r
+
+     but not
+
+       aO + r = aOr
+     If the preceding sound is a vowel, the independent form of a vowel is
+     used, e.g.:
+
+       a     +     i   + e
+       Aa + [ + e = Aa[e                   please come
+
+     but not any of the following ways:
+
+       a + i + e = aie
+       a + i + o = ai o
+       Aa + i + o = Aai o
+     Now you should be able to distinguish between the following two
+     words:
+
+       k + c             ka +        c
+
+           kI of         k[- several
+     Notice that the independent form of [- c is used in k[- kac because its
+     preceding sound is the vowel a A.
+
+
+     Nasalized vowels
+     In our transcription, vowel nasalization is indicated by a tilde ~ over
+     the transliterated vowel.
+        In Hindi, the two symbols which are used to mark vowel nasal-
+     ization are: candrabindu (moon dot) á and bindu (dot) M. The former
+     is used either over the head stroke of the vowel itself or over the
+     head stroke of the consonant to which the vowel is attached. If any
+     part of the vowel is written above the head stroke, then the dot is
+     used rather than the moon dot. Note the following examples:
+
+       moon dot á            dot M
+Script unit 3                                                                         43
+
+
+Nasalized vowel             Independent vowel           Dependent vowel (matra)
+
+k                           Aaá                         aá
+m                           [- M                        IM
+o                           }á                          áU
+g                           eá                          oM
+q                           eoM                         OM
+õ                           AaoM                        aoM
+ãj                          AaOM                        aOM
+
+
+Now examine the usage of the nasalized vowels in the following
+words:
+
+     h   + aá     =   haá          yes             h    + áU =    háU      am
+     h   + k                                       h    + o
+
+     Aaá + K      = AaáK           eye             ma+ aá = maaá mother
+     k   + kh     = kkh                            m + k = mk
+
+     }á + T       = }áT            camel           ma + oM = maoM in
+     o   + T      = oT                             m + g = mg
+
+     AaOM + Qaa
+              = AaOOOOMQaa overturned              ma+ OM = maOM I
+     ãj + dha = ãjdha                              m + q = mq
+
+
+lao#ana lekhan Writing
+
+Letter/               Stroke order              Head stroke/            Handwriting
+pronunciation                                   Head bar
+
+Aa
+Aa a
+[ i
+[- c
+] u
+}e
+e e
+44                                                          Script unit 3
+
+
+     Letter/               Stroke order      Head stroke/     Handwriting
+     pronunciation                           Head bar
+
+
+     eo s
+     Aao o
+     AaO au
+     AByaasa abhyas Exercises
+     Exercise 1
+
+     Write the following expressions in Devanagari script. Since they are
+     useful, their English translation is also provided.
+
+      1 thana vahm hs.
+        The police station is right there.
+      2 ap merc madad kar sakte hq?
+        Can you help me?
+      3 mq vahk ksse jao?
+        How shall I get there?
+      4 ye merc galatc nahm.
+        This is not my mistake.
+      5 yahk xatra hs.
+        There is danger here.
+      6 bacao!
+        Save! (or help!)
+      7 ye (written as yah) bahut zarerc hs.
+        This is very urgent.
+      8 Dak-khana kahk hs?
+        Where is the post office?
+      9 kis khiRkc par jao?
+        Which window should I go to?
+     10 TikaT (ticket) kitna lagega?
+        How much postage will (it) need?
+Script unit 3                                                      45
+
+
+11 e-mail amrcka (America) bhejana cahata ho.
+   (I) want to send an e-mail to America.
+12 mujhe cinta/fikr hs.
+   I am worried.
+
+
+Exercise 2
+
+If you have the recording, listen to the above expressions while
+silently reading them.
+
+Exercise 3
+
+Write the following words in Devanagari script:
+
+1 aie 2 ao    3 khaie     4 khao 5 kha lo 6 maika (Mike)
+
+
+Exercise 4
+
+Oral vs nasal vowels
+
+1   ha exclamatory sound vs haá yes
+2   hU a sound              háU am
+3   hO is                   hOM are
+4   mao May                 maoM in
+
+Now transcribe the above words into Roman.
+46                                                            Script unit 4
+
+
+
+
+     4 caaOqaa paz – ilaip
+       cautha paTh – lipi
+              Script unit 4
+
+
+
+
+     Conjunct letters
+     In script unit 1 I mentioned that since Devanagari script is syllabic,
+     every consonant symbol contains an invisible A a in it. Now let us
+     learn to write consonants without this vowel. Such consonants are
+     also called ‘half’ consonants.
+        The simplest way to drop the A a is to use the sign \ called ‘hal’ or
+     ‘halant’. For example, if you want to write the word kya, just put
+     the halant sign under k and then go on to write the next syllable.
+     However, Hindi speakers, particularly in handwriting, tend to prefer
+     special conjunct symbols over the halant sign. The halant is more
+     prevalent in word processing and the Internet. These special conjuncts
+     are described in this section.
+        If the consonant has a right vertical stroke a, the vertical line is
+     dropped, as in:
+
+     Consonant            Conjunct form              Word with a conjunct
+                          (half consonant)
+
+     #,a xa               #, x                       sa#,t saxt         hard
+     ga ga                gg                         Aigna agni         fire
+     ca ca                cc                         AcCa accha         good
+     ja ja                jj                         jyaaoM jyõ         as
+     Na Na                NN                         zNDa ThaNDa        cold
+     t ta                 % t                        %yaaOhar tyauhar   festival
+     na na                n n                        AnQaa andha        blind
+     sa sa                ss                         sasta sasta        cheap
+
+
+     Notice the placement of the dependent form of the vowel i i which is
+     placed before the conjunct letter g g but is pronounced after the n n.
+Script unit 4                                                            47
+
+
+   Consonants which contain the stroke a in their middle have the
+following forms:
+
+  k ka         @k       @yaa kya      what
+  f,, fa       F, f     hF,ta hafta   week
+
+For all other letters, either the halant sign is used or the conjunct
+letter sits on the top of the full consonant letter, as in:
+
+  T\ T + T Ta         T\ + T    T + Ta       or      TR
+                      pT\TI     paTTc        or      p+I bandage
+
+  D\ D + D Da         D\ + D    D + Da       or      â
+                      AD\Da     aDDa         or      Aâa station (bus)
+
+With the emergence of new printing technology, the halant form is
+gaining more prominence.
+
+
+Exceptions
+Once again r ra is notorious and it needs special attention. The
+symbol for the conjunct r is - , as in
+
+  k  +     - + ma     = kma-             but not   k-ma
+  ka +     r     + ma = karma            fate
+
+The conjunct r is placed at the very end of the syllable it precedes,
+e.g.
+
+  va   +   - + maa    = vamaa-           but not va-maa
+  va   +   r     + ma = Varma            a last name
+
+When r is the second member of the conjunct, it is realized as `.
+Note the following clusters with r.
+
+  P    + `        =   P`a
+  p    + ra       =   pra
+  %    + `        =   t`
+  t    + ra       =   tra
+48                                                           Script unit 4
+
+
+       S    + `      =   Ea
+       sh   + ra     =   shra
+
+     With T Ta and D Da, / is added rather than -.
+
+       T\   + /      =   T/
+       T    + ra     =   Tra
+       D\   + /      =   D/
+       D    + ra     =   Dra
+
+
+     Long consonants
+     With the exception of tta, the long consonants follow the conjunct
+     formation rules described above.
+
+       %    + t      =   <a but not %t
+       t    + ta     =   tta
+
+
+     Nasal consonants
+     In Script Unit 3 we saw that the moon dot and the simple dot can
+     express vowel nasalization. However, the dot has yet another func-
+     tion. When it appears over either a short vowel or a consonant, it
+     shows the presence of a homorganic nasal consonant. ‘Homorganic’
+     means the sound is produced by the same speech organ. The con-
+     sonants listed in each of the five groups in the consonant chart
+     are homorganic. For example, the five consonant sounds listed in
+     the fifth column – = r, Ha ñ, Na N, na n and ma m are homorganic to the
+     rest of the velar, palatal, retroflex, dental and labial consonants,
+     respectively.
+        When a dot is placed either over a short vowel or a consonant, it
+     indicates the corresponding homorganic conjunct nasal consonant
+     of the following consonant. So the dot can also be written with a
+     conjunct nasal consonant, as in
+
+       AMga =    A=\ga        arg      limb
+       pMca =    pHca         pañc     juror
+       zMD =     zND          ThaND    cold
+       ihMdI =   ihndI        hindc    the Hindi language
+       KMbaa =   Kmbaa        khamba   pole
+Script unit 4                                                                 49
+
+
+
+    Web resources
+    For more details, see Syracuse University’s Hindi web page:
+
+         http://faculty.maxwell.syr.edu/jishnu/101/alphabet/
+           default.asp?section=0
+    For more on consonant clusters:
+
+         http://www.avashy.com/hindiscripttutor.htm
+         http://acharya.iitm.ac.in/sanskrit/lessons/Devan/conj_1.html
+
+
+
+
+The hide and seek game of A a
+
+I mentioned in the chapter on the Hindi writing system and pro-
+nunciation that the Devanagari script is a phonetic script and that
+the words are primarily written in the way they are pronounced.
+However, one should keep in mind that language is a living thing;
+it keeps changing and even the most scientific script cannot keep
+up with all the changes. We have already discussed the case of the
+word-final silence of A a in Script Units 1 and 2. Now do some detect-
+ive work and see another situation in which A a is written but not
+pronounced.
+
+
+Word              Written Pronounced Word             Written    Pronounced
+
+saD,k             saRak    saRak         saD,koM      saRak+g    saRkg
+road                                     road
+AaOrt             aurat    aurat         AaOrtoM      aurat+g    aurtg
+woman                                    women
+laD,k             laRak    laRak         laD,ka       laRak+a    laRka
+child (not                               boy
+  used alone)
+laD,k             laRak    laRak         laD,kI       laRak+c    laRkc
+child (not                               girl
+  used alone)
+samaJa            samajh   samajh        samaJaa      samajh+a samjha
+understand                               understood
+

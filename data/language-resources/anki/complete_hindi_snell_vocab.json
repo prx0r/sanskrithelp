@@ -1,0 +1,8568 @@
+{
+  "id": "complete-hindi-snell-vocab-v0",
+  "source": "Complete Hindi Teach Yourself (Rupert Snell) via Anki deck",
+  "count": 1223,
+  "items": [
+    {
+      "hindi": "अंकल",
+      "english": "uncle",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "अंग्रेज",
+      "english": "English person",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "अंत",
+      "english": "end",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "अंतर",
+      "english": "difference",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "अंदर",
+      "english": "inside, within",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "अँधेरा",
+      "english": "darkness",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "अकेला",
+      "english": "(adv.) alone",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "अकेलापन",
+      "english": "loneliness",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "अख़बार",
+      "english": "newspaper",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "अगर",
+      "english": "if",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "अगला",
+      "english": "next",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "अगस्त",
+      "english": "August",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "अच्छा",
+      "english": "good, nice",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "अजनबी",
+      "english": "stranger",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "अजीब",
+      "english": "strange, odd",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "अठारह",
+      "english": "eighteen",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "अद्भुत",
+      "english": "remarkable",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "अधिक",
+      "english": "much, many, more",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "अधेर",
+      "english": "middle-aged",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "अध्यापक",
+      "english": "teacher",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "अनबन",
+      "english": "discord",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "अनुपस्थित",
+      "english": "absent",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "अनुभव",
+      "english": "experience",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "अनुवाद",
+      "english": "translation",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "अपना",
+      "english": "(one&#x27;s) own",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "अफ़सोस",
+      "english": "regret",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "अब",
+      "english": "now",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "अभी",
+      "english": "at the moment, right now",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "अभ्यास",
+      "english": "practice",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "अमेरिकन",
+      "english": "American",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "अमेरिका",
+      "english": "America",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "अमीर",
+      "english": "rich, wealthy",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "अरे",
+      "english": "oh! what! hey!",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "अर्ज़ी",
+      "english": "application",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "अर्थ",
+      "english": "meaning",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "अलग",
+      "english": "separate, different",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "अलमारी",
+      "english": "cupboard",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "अवक़्त",
+      "english": "certainly",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "असंभव",
+      "english": "impossible",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "असर",
+      "english": "effect, impact",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "अस्पताल",
+      "english": "hospital",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "अहम",
+      "english": "important",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "आँख",
+      "english": "eye",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "आकाश",
+      "english": "sky",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "आख़िर",
+      "english": "end",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "आग",
+      "english": "fire",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "आगरा",
+      "english": "Agra",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "आगे",
+      "english": "later, ahead",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "आज",
+      "english": "today",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "आजकल",
+      "english": "nowadays",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "ऑटो",
+      "english": "auto-rickshaw",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "आठ",
+      "english": "eight",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "आदमी",
+      "english": "man",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "आधा",
+      "english": "half",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "आनंद",
+      "english": "joy, enjoyment",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "आना",
+      "english": "to come",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "आप",
+      "english": "you (formal)",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "आपका",
+      "english": "your, yours",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "आफ़ताब",
+      "english": "sun (poetic)",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "आबादी",
+      "english": "population, settlement",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "आम",
+      "english": "mango",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "आम",
+      "english": "ordinary, general",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "आरंभ",
+      "english": "beginning",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "आराम",
+      "english": "rest, comfort",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "आर्थिक",
+      "english": "financial",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "आवश्यकता",
+      "english": "necessity",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "आशा",
+      "english": "hope",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "आश्चर्य",
+      "english": "surprise",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "आसान",
+      "english": "easy",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "इंतज़ाम",
+      "english": "arrangement(s), organisation",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "इंतज़ार",
+      "english": "wait, waiting",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "इकलौता",
+      "english": "sole, only (child)",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "इतना",
+      "english": "so, so much",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "इतिहास",
+      "english": "history",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "इधर",
+      "english": "here, over here",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "इन",
+      "english": "oblique of ये",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "इमारत",
+      "english": "building",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "इरादा",
+      "english": "intention",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "इलाक़ा",
+      "english": "area",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "इलाज",
+      "english": "treatment, cure",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "इलाहाबाद",
+      "english": "Allahabad",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "इश्क़",
+      "english": "romantic love",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "इस",
+      "english": "oblique of वह",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "इस्त्री",
+      "english": "clothes-iron",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "इस्तेमाल",
+      "english": "use",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "ईंट",
+      "english": "brick",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "ई-मेल",
+      "english": "e-mail",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "ईव-टीजिंग",
+      "english": "&#x27;Eve-teasing&#x27; - sexual harassment of girls and women",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "उँगली",
+      "english": "finger",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "उचित",
+      "english": "proper, appropriate",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "उच्चारण",
+      "english": "pronunciation",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "उठाना",
+      "english": "to pick up, lift",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "उड़ना",
+      "english": "to fly",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "उड़ाना",
+      "english": "to make fly",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "उतरना",
+      "english": "to get down, alight",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "उतारना",
+      "english": "to take down/off",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "उत्तर",
+      "english": "reply",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "उद्घाटन",
+      "english": "inauguration",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "उधर",
+      "english": "there, over there",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "उन",
+      "english": "oblique of वे",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "उन्नीस",
+      "english": "nineteen",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "उपन्यास",
+      "english": "novel",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "उबालना",
+      "english": "to boil",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "उम्मीद",
+      "english": "hope",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "उर्दू",
+      "english": "Urdu",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "उल्लू",
+      "english": "&#x27;owl&#x27;-idiot",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "उषा",
+      "english": "dawn",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "उस",
+      "english": "oblique of वह",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "ऊँचा",
+      "english": "high",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "ऊपर",
+      "english": "above",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "ऊबना",
+      "english": "to be bored",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "ऊल-जलूल",
+      "english": "silly, pointless",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "ऋषि",
+      "english": "sage, seer",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "एक",
+      "english": "one",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "एकदम",
+      "english": "completely",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "एकाध",
+      "english": "one or two, a couple (of)",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "ऐनक",
+      "english": "spectacles",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "ऐश",
+      "english": "wanton luxury",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "ऐसा",
+      "english": "such, thus, like this",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "ओ",
+      "english": "o!",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "ओह",
+      "english": "oho! oh no!",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "और",
+      "english": "and",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "औरत",
+      "english": "woman",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "कंजूस",
+      "english": "miserly, mean",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "कंपनी",
+      "english": "company, firm",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "कंप्यूटर",
+      "english": "computer",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "कंबल",
+      "english": "blanket",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "कई",
+      "english": "several",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "कठिन",
+      "english": "hard, difficult",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "कथक",
+      "english": "Kathak, a North Indian dance style",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "कदम",
+      "english": "step, pace",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "कपड़ा",
+      "english": "cloth",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "कब",
+      "english": "when?",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "कभी",
+      "english": "sometime",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "कम",
+      "english": "less",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "कमरा",
+      "english": "room",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "कमाल",
+      "english": "miracle, wonder",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "कमी",
+      "english": "lack, want",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "करना",
+      "english": "to do",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "करीब",
+      "english": "near",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "करोड़",
+      "english": "ten million",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "कल",
+      "english": "yesterday",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "कलकत्ता",
+      "english": "Calcutta",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "कलम",
+      "english": "pen",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "कवि",
+      "english": "poet",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "कष्ट",
+      "english": "trouble, distress",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "कसम",
+      "english": "oath",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "कसूर",
+      "english": "fault, error",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "कहना",
+      "english": "to say (to)",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "कहलाना",
+      "english": "to be called, named",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "कहाँ",
+      "english": "where?",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "कहानी",
+      "english": "story",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "कहीं",
+      "english": "somewhere",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "काँटा",
+      "english": "fork",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "काँपना",
+      "english": "to shiver, tremble",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "का/की/के",
+      "english": "(postposition indicating possession)",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "काग़ज़",
+      "english": "paper",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "काटना",
+      "english": "to cut",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "काठमांडू",
+      "english": "Kathmandu",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "कान",
+      "english": "ear",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "कानपुर",
+      "english": "Kanpur",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "कॉफ़ी",
+      "english": "coffee",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "काफ़ी",
+      "english": "quite, very",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "काम",
+      "english": "work",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "कमज़ोर",
+      "english": "work shy, lazy",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "कामयाब",
+      "english": "successful",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "कार्यक्रम",
+      "english": "programme",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "काल",
+      "english": "time, age, period",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "किन्तु",
+      "english": "but",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "कि",
+      "english": "(conjunction) that",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "कितना",
+      "english": "how much/many",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "किताब",
+      "english": "book",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "किधर",
+      "english": "where? whither?",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "किन",
+      "english": "oblique plural of कौन and of क्या",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "किनारे",
+      "english": "edge, shore",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "किराया",
+      "english": "rent, fare",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "किस",
+      "english": "oblique singular of कौन and of क्या",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "किसकी",
+      "english": "oblique of किस",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "क़िस्मत",
+      "english": "fate",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "कुछ",
+      "english": "some",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "कुत्ता",
+      "english": "dog",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "कुर्ता",
+      "english": "kurta, Indian shirt",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "कुर्सी",
+      "english": "chair",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "कुली",
+      "english": "porter",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "कृपया",
+      "english": "please",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "कृपा",
+      "english": "kindness, grace",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "कैमरा",
+      "english": "camera",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "कैसा",
+      "english": "of what kind, what like, how",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "को",
+      "english": "to, on, at",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "कोई",
+      "english": "anyone, someone",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "कोना",
+      "english": "corner",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "कोशिश",
+      "english": "attempt",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "कौन",
+      "english": "who?",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "कौनसा/सी/से",
+      "english": "which?",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "कोट",
+      "english": "coat",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "कोई",
+      "english": "anyone, someone",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "कोना",
+      "english": "corner",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "कोशिश",
+      "english": "attempt",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "कौन",
+      "english": "who?",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "कौनसा/सी/से",
+      "english": "which?",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "क्या",
+      "english": "what?",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "क्यों",
+      "english": "why",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "क्योंकि",
+      "english": "because",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "क्लास",
+      "english": "class (in school etc.)",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "खड़ा",
+      "english": "standing, waiting",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "ख़त",
+      "english": "letter",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "ख़त्म",
+      "english": "finished",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "ख़बर",
+      "english": "news, information",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "ख़याल",
+      "english": "opinion, thought",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "खराब",
+      "english": "bad",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "ख़रीदना",
+      "english": "to purchase",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "ख़रीदारी",
+      "english": "buying, shopping",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "ख़ास",
+      "english": "special, particular",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "खाट",
+      "english": "bedstead, &#x27;cot&#x27;",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "खाना",
+      "english": "food",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "खाना",
+      "english": "to eat",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "खाली",
+      "english": "empty, vacant, free",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "खास",
+      "english": "special, particular",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "खिड़की",
+      "english": "window",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "खिलौना",
+      "english": "toy",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "खींचना",
+      "english": "to draw",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "खुद",
+      "english": "oneself",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "ख़ुदा",
+      "english": "God",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "खुला",
+      "english": "open",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "खुश",
+      "english": "happy",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "खुशी",
+      "english": "happiness, pleasure",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "खूब",
+      "english": "a lot (of)",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "खूबसूरत",
+      "english": "beautiful",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "खेद",
+      "english": "regret",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "खेलना",
+      "english": "to play (a game)",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "खैर",
+      "english": "well, anyway",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "खोलना",
+      "english": "to open",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "गंगा",
+      "english": "Ganges",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "गंभीर",
+      "english": "serious, profound",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "गँवाना",
+      "english": "to waste, squander",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "गर्म",
+      "english": "warm, hot",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "गर्मी",
+      "english": "heat",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "गर्व",
+      "english": "pride",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "गलत",
+      "english": "wrong, incorrect",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "गलती",
+      "english": "mistake",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "गली",
+      "english": "lane",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "गाँव",
+      "english": "village",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "गाना",
+      "english": "song",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "गाना",
+      "english": "to sing",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "गाय",
+      "english": "cow",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "गाली",
+      "english": "abuse, swearing",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "गिरना",
+      "english": "to fall",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "गिलास",
+      "english": "tumbler (glass or metal)",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "गीत",
+      "english": "song",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "गुंडा",
+      "english": "lout, hooligan",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "गुंडागर्दी",
+      "english": "hooliganism",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "गुजराती",
+      "english": "Gujarati",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "गुज़रना",
+      "english": "to spend (time)",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "गुज़ारा",
+      "english": "livelihood, subsistence",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "गुरु",
+      "english": "teacher, guru",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "गुस्ताख़ी",
+      "english": "rudeness, impertinence",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "गुस्सा",
+      "english": "anger",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "गोद",
+      "english": "lap",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "गोली",
+      "english": "tablet, pill",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "गोश्त",
+      "english": "meat",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "ग्यारह",
+      "english": "eleven",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "ग्वालियर",
+      "english": "Gwalior",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "घंटी",
+      "english": "bell",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "घटिया",
+      "english": "inferior, low grade",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "घड़ी",
+      "english": "wristwatch",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "घना",
+      "english": "dense, thick",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "घर",
+      "english": "house, home",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "घाट",
+      "english": "(steps at) riverbank",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "घास",
+      "english": "grass",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "घुमाना",
+      "english": "to turn, make go round",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "घुसना",
+      "english": "to enter (forcibly, or uninvited)",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "घूमना",
+      "english": "to tour, roam, turn",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "घोड़ा",
+      "english": "horse",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "चटनी",
+      "english": "chutney",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "चतुर्थ",
+      "english": "fourth, IVth",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "चपरासी",
+      "english": "peon, orderly",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "चपाती",
+      "english": "chapatti",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "चप्पल",
+      "english": "sandal",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "चम्मच",
+      "english": "spoon",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "चलना",
+      "english": "to move, walk",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "चलाना",
+      "english": "to drive",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "चश्मा",
+      "english": "glasses, specs",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "चाँद",
+      "english": "moon",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "चाँदी",
+      "english": "silver",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "चाचा",
+      "english": "(inv.) paternal uncle, father&#x27;s younger brother",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "चाबी",
+      "english": "key",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "चाय",
+      "english": "tea",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "चार",
+      "english": "four",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "चावल",
+      "english": "rice",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "चाहना",
+      "english": "to want, wish",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "चाहिए",
+      "english": "(is) needed",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "चिंता",
+      "english": "anxiety, concern",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "चिट्ठी",
+      "english": "letter, note, chit",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "चिड़िया",
+      "english": "bird",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "चिढ़ाना",
+      "english": "to irritate, tease",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "चिल्लाना",
+      "english": "to shout",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "चुकना",
+      "english": "(after verb stem) to have already done",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "चुनना",
+      "english": "to choose",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "चुप",
+      "english": "silent",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "चेहरा",
+      "english": "face, features",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "चोर",
+      "english": "thief",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "चोरी",
+      "english": "theft, robbery",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "चौकीदार",
+      "english": "watchman",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "चौथा",
+      "english": "fourth",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "चौदह",
+      "english": "fourteen",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "छठा",
+      "english": "sixth",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "छपना",
+      "english": "to be printed",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "छह",
+      "english": "six",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "छाता",
+      "english": "umbrella",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "छात्र",
+      "english": "student",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "छात्रवृत्ति",
+      "english": "scholarship",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "छात्रा",
+      "english": "female student",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "छुटभैय्या",
+      "english": "a nobody, person of no importance",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "छुट्टी",
+      "english": "holiday",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "छुरी",
+      "english": "knife",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "छेड़ना",
+      "english": "to stir up, start up",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "छोकरी",
+      "english": "young girl, lass",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "छोटा",
+      "english": "small, little",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "छोड़कर",
+      "english": "apart from, except for",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "जंगल",
+      "english": "jungle, scrub",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "जंगली",
+      "english": "wild",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "जंभाई",
+      "english": "yawn",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "जगाना",
+      "english": "to arouse",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "जनता",
+      "english": "public, the people",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "जनवरी",
+      "english": "January",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "जनाब",
+      "english": "sir",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "जन्मदिन",
+      "english": "birthday",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "जब",
+      "english": "when",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "ज़बान",
+      "english": "language, tongue",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "ज़माना",
+      "english": "period, age, time",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "ज़मीन",
+      "english": "land",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "ज़रा",
+      "english": "just, a little",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "ज़रूर",
+      "english": "of course",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "ज़रूरत",
+      "english": "need",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "ज़रूरी",
+      "english": "necessary, urgent",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "जर्मन",
+      "english": "German",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "जलना",
+      "english": "to burn",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "जल्दी",
+      "english": "quickly",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "जवान",
+      "english": "young, youthful",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "जवाब",
+      "english": "reply, answer",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "जानना",
+      "english": "to know",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "जाना",
+      "english": "to go",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "जानवर",
+      "english": "animal",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "जापानी",
+      "english": "Japanese",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "ज़ाहिर",
+      "english": "clear, evident",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "ज़िंदगी",
+      "english": "life",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "ज़िद",
+      "english": "obstinacy",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "ज़िद्दी",
+      "english": "obstinate, stubborn",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "जीव",
+      "english": "soul, heart (poetic)",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "जी",
+      "english": "(respect-marker)",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "जी-हुज़ूरी",
+      "english": "sycophancy, flattery",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "जीना",
+      "english": "to live, be alive",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "जीवन",
+      "english": "life",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "ज़ुकाम",
+      "english": "a cold",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "जूता",
+      "english": "shoe",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "जून",
+      "english": "June",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "जेब",
+      "english": "pocket",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "ज़ेवर",
+      "english": "(item of) jewellery",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "जैसा",
+      "english": "like, such as",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "जो",
+      "english": "(the one) who/which",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "जोड़ना",
+      "english": "to add",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "ज़ोर",
+      "english": "force, strength",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "ज़्यादा",
+      "english": "much, many, more",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "ज़्यादातर",
+      "english": "mostly, most",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "झगड़ा",
+      "english": "quarrel, row",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "झाड़ना",
+      "english": "to spout, pour",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "झूठ",
+      "english": "lie",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "झूमना",
+      "english": "to sway",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "झेपना",
+      "english": "to be embarrassed",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "टकराना",
+      "english": "to collide",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "टपकना",
+      "english": "to drop in, appear unexpectedly",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "टहलना",
+      "english": "to stroll",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "टिकट",
+      "english": "ticket",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "टुकड़ा",
+      "english": "piece, bit",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "टेढ़ा",
+      "english": "twisted, complex",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "टैक्सी",
+      "english": "taxi",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "ट्रेकिंग",
+      "english": "trekking",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "ट्रेन",
+      "english": "train",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "ठंड",
+      "english": "cold",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "ठंडा",
+      "english": "cold",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "ठग",
+      "english": "swindler, robber",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "ठहरना",
+      "english": "to stop, wait, stay",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "ठीक",
+      "english": "all right",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "डरना",
+      "english": "to fear",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "तार",
+      "english": "thread",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "डांटना",
+      "english": "to scold",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "डाक",
+      "english": "mail, post",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "डाकघर",
+      "english": "post office",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "डाकू",
+      "english": "dacoit, bandit",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "डॉक्टर",
+      "english": "doctor",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "डायलॉग",
+      "english": "dialogue",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "डाल",
+      "english": "branch (of tree)",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "डिग्री",
+      "english": "degree",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "डिनर",
+      "english": "dinner",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "डिब्बा",
+      "english": "box",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "ड्राइवर",
+      "english": "driver",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "ढंग",
+      "english": "way, manner",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "ढूँढ़ना",
+      "english": "to look for, find",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "ढेर",
+      "english": "pile, heap",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "ढोल",
+      "english": "drum",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "तंग",
+      "english": "narrow",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "तक",
+      "english": "up to, as far as",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "तकलीफ",
+      "english": "trouble, distress",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "तथापि",
+      "english": "nevertheless, even so",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "तबला",
+      "english": "tabla (drum)",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "तबियत",
+      "english": "health",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "तमाशा",
+      "english": "spectacle, show",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "तय",
+      "english": "ready",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "तैरना",
+      "english": "to swim",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "तो",
+      "english": "so, then",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "तोहफ़ा",
+      "english": "a present",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "थकना",
+      "english": "to be tired",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "था, थी, थे, थीं",
+      "english": "was, were",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "थामना",
+      "english": "to hold, support",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "थाली",
+      "english": "platter",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "थैला",
+      "english": "bag, cloth bag",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "थोड़ा",
+      "english": "a little, a few",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "दंगा",
+      "english": "riot",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "दक्षिण",
+      "english": "south",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "दफ़ा",
+      "english": "time, occasion",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "दफ़्तर",
+      "english": "office",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "दबाना",
+      "english": "to yield, cower",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "दया",
+      "english": "compassion",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "दरवाज़ा",
+      "english": "door",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "दराज़",
+      "english": "drawer",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "दर",
+      "english": "rug, mat",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "दरजन",
+      "english": "a dozen",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "दरज़ी",
+      "english": "tailor",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "दर्शन",
+      "english": "vision, audience or auspicious meeting",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "दल",
+      "english": "political party",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "दस",
+      "english": "ten",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "दवा",
+      "english": "medicine",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "दादा",
+      "english": "(inv.) paternal grandfather",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "दादी",
+      "english": "paternal grandmother",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "दम",
+      "english": "price",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "दाल",
+      "english": "daal, lentils",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "दावत",
+      "english": "(invitation to) a dinner",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "दास्तान",
+      "english": "tale (poetic)",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "दाहिना",
+      "english": "right (opp. left)",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "दिखाई देना/पड़ना",
+      "english": "to be visible, appear",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "दिन",
+      "english": "day",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "दिल",
+      "english": "heart",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "दिलचस्प",
+      "english": "interesting",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "दिलवाना",
+      "english": "to cause to be given",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "दिल का",
+      "english": "of the heart",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "दिल्ली",
+      "english": "Delhi",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "दीवार",
+      "english": "wall",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "दुकान",
+      "english": "shop",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "दुकानदार",
+      "english": "shopkeeper",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "दुनिया",
+      "english": "world",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "दुबला",
+      "english": "thin",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "दुबारा",
+      "english": "again, second time",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "दुर्घटना",
+      "english": "accident",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "दूध",
+      "english": "milk",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "दूर",
+      "english": "distant, far, remote",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "दूरदर्शन",
+      "english": "television",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "देखना",
+      "english": "to see, look",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "देखभाल",
+      "english": "supervision, care",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "देव",
+      "english": "contribution, gift",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "देना",
+      "english": "to give",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "देर",
+      "english": "delay, a while",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "देवनागरी",
+      "english": "Devanagari script",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "देवर",
+      "english": "husband&#x27;s younger brother",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "देश",
+      "english": "country",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "देहांत",
+      "english": "death, demise",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "दो",
+      "english": "two",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "दोनों",
+      "english": "both",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "दोपहर",
+      "english": "noon, afternoon",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "दोस्त",
+      "english": "friend",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "दौड़ना",
+      "english": "to run",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "द्वारा",
+      "english": "द्वारा by, by means of",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "द्वितीय",
+      "english": "second, Ilnd",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "धंधा",
+      "english": "work, occupation",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "धन्यवाद",
+      "english": "thank you",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "धीमा",
+      "english": "low, faint",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "धूमधाम",
+      "english": "pomp, show",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "धोखा",
+      "english": "trick, deceit",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "धोना",
+      "english": "to wash",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "धोबी",
+      "english": "dhobi, washerman",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "ध्यान",
+      "english": "attention",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "नंबर",
+      "english": "number",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "ना",
+      "english": "not",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "नज़दीक",
+      "english": "near, nearby",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "नज़र",
+      "english": "glance, look",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "नचनिया",
+      "english": "dancer (derogatory)",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "नदी",
+      "english": "river",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "नफ़रत",
+      "english": "hate, dislike",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "नमक",
+      "english": "salt",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "नमस्कार",
+      "english": "hello",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "नमस्ते",
+      "english": "hello",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "नमूना",
+      "english": "example, sample, type, specimen",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "नया",
+      "english": "new",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "नरस",
+      "english": "three days ago/ahead",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "नर्तक",
+      "english": "dancer",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "नल",
+      "english": "pipe, tap",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "नवां",
+      "english": "ninth",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "नहाना",
+      "english": "to bathe, wash",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "नहीं",
+      "english": "not",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "नाक",
+      "english": "nose",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "नाचना",
+      "english": "to dance",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "नापसंद करना",
+      "english": "to dislike",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "नाम",
+      "english": "name",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "नामुमकिन",
+      "english": "impossible",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "नारा",
+      "english": "slogan",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "नाराज़",
+      "english": "angry, displeased",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "निंदा",
+      "english": "blame, speaking ill",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "निकलना",
+      "english": "to come/go out, emerge",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "निन्यानवे",
+      "english": "ninety-nine",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "निबंध",
+      "english": "essay",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "निराशा",
+      "english": "disappointment, despair",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "निवेदन",
+      "english": "request",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "निहायत",
+      "english": "extremely",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "नींद",
+      "english": "sleep",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "नीचे",
+      "english": "below",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "नृत्य",
+      "english": "dance",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "नेक",
+      "english": "good, virtuous, decent",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "नेता",
+      "english": "leader, politician",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "नेपाल",
+      "english": "Nepal",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "नेपाली",
+      "english": "Nepali",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "नोट",
+      "english": "note, banknote",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "नौ",
+      "english": "nine",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "नौकर",
+      "english": "servant",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "नौकरी",
+      "english": "job, employment, service",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "नौजवान",
+      "english": "youth, young man",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "पंखा",
+      "english": "fan",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "पंचम",
+      "english": "fifth, Vth",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "पंजाबी",
+      "english": "Punjabi",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "पंडित",
+      "english": "pandit",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "पक्का",
+      "english": "ripe",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "पछताना",
+      "english": "to regret",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "पड़ना",
+      "english": "to fall, befall",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "पड़ा",
+      "english": "lying",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "पढ़ना",
+      "english": "to read, study",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "पढ़ाई",
+      "english": "studies, studying",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "पढ़ाना",
+      "english": "to teach",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "पतंग",
+      "english": "kite (toy)",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "पतला",
+      "english": "thin",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "पता",
+      "english": "address",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "पति",
+      "english": "husband",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "पत्थर",
+      "english": "stone",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "पत्नी",
+      "english": "wife",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "पत्र",
+      "english": "letter",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "परंतु",
+      "english": "but",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "पर",
+      "english": "but",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "पर",
+      "english": "on",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "परदा",
+      "english": "curtain, veil, purdah",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "परसों",
+      "english": "the day before yesterday",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "परिवर्तन",
+      "english": "alteration",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "परिवार",
+      "english": "family",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "परिस्थिति(याँ)",
+      "english": "circumstance(s)",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "पर्याप्त",
+      "english": "enough, sufficient",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "परिक्षा",
+      "english": "examination",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "पल",
+      "english": "moment",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "पलंग",
+      "english": "bed",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "पवन",
+      "english": "wind",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "पसंद",
+      "english": "&#x27;liked, pleasing&#x27;: पसंद करना to like, approve, choose",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "पहचानना",
+      "english": "to recognize",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "पहना",
+      "english": "to put on, wear",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "पहाड़",
+      "english": "&#x27;watch&#x27;, part of day",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "पहला",
+      "english": "first",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "पहले",
+      "english": "previously",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "पहाड़",
+      "english": "hill, mountain",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "पहिया",
+      "english": "wheel",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "पहुँचाना",
+      "english": "to convey, deliver",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "पाँच",
+      "english": "five",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "पाँचवा",
+      "english": "fifth",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "पाकिस्तान",
+      "english": "Pakistan",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "पाकिस्तानी",
+      "english": "Pakistani",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "पाठ",
+      "english": "lesson, chapter",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "पान",
+      "english": "paan",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "पाना",
+      "english": "to find, obtain",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "पानी",
+      "english": "water",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "पापा",
+      "english": "(inv.) papa, father",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "पार करना",
+      "english": "to cross",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "पारिवारिक",
+      "english": "familial",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "पास",
+      "english": "nearby (adverb)",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "पास करना",
+      "english": "to pass (exam etc.)",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "पिछला",
+      "english": "last, previous",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "पिता",
+      "english": "(inv.) father",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "पीछा",
+      "english": "rear",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "पीछे",
+      "english": "behind",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "पीना",
+      "english": "to drink",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "पुराना",
+      "english": "old (of things)",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "पुल",
+      "english": "bridge",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "पुलिस",
+      "english": "police",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "पूंछ",
+      "english": "tail",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "पूछना",
+      "english": "to ask (of)",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "पूर्ण",
+      "english": "full, complete",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "पेंसिल",
+      "english": "pencil",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "पे",
+      "english": "on, to",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "पेड़",
+      "english": "tree",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "पेशा",
+      "english": "profession",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "पैदा होना",
+      "english": "to be born, produced",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "पैसा",
+      "english": "money",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "पौना",
+      "english": "three-quarters",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "प्याज़",
+      "english": "onion",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "प्यार",
+      "english": "love, affection",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "प्याला",
+      "english": "cup",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "प्यास",
+      "english": "thirst",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "प्रकाशक",
+      "english": "publisher",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "प्रकाशित",
+      "english": "published",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "प्रति",
+      "english": "copy (of book etc.)",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "प्रतीत होना",
+      "english": "to seem",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "प्रथम",
+      "english": "first, 1st",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "प्रदूषण",
+      "english": "pollution",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "प्रदेश",
+      "english": "state, province",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "प्रधानमंत्री",
+      "english": "prime minister",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "प्रयोग",
+      "english": "use, usage",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "प्राचीन",
+      "english": "ancient",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "प्राध्यापक",
+      "english": "lecturer",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "प्राप्त करना",
+      "english": "to obtain, attain",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "प्रेम",
+      "english": "love",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "प्रसिद्ध",
+      "english": "famous",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "प्रिय",
+      "english": "dear",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "प्रोग्राम",
+      "english": "programme, plan, routine",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "फँसना",
+      "english": "to be stuck, caught, snared",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "फ़रवरी",
+      "english": "February",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "फ़र्क",
+      "english": "difference, separation",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "फ़र्श",
+      "english": "floor",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "फल",
+      "english": "fruit",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "फ़ायदा",
+      "english": "profit, advantage",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "फ़ारसी",
+      "english": "Persian",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "फिर",
+      "english": "then, so, again",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "फिरना",
+      "english": "to turn, move",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "फ़िलहाल",
+      "english": "in the meantime",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "फ़िल्म",
+      "english": "film",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "फ़िल्मी",
+      "english": "of the films",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "फ़ुर्सत",
+      "english": "leisure, free time",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "फुसफुसाना",
+      "english": "to whisper",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "फूल",
+      "english": "flower",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "फ़ैक्स",
+      "english": "fax",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "फ़ोटो",
+      "english": "photograph",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "फ़ोन करना",
+      "english": "to phone",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "बंगला",
+      "english": "Bengali (language)",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "बंद",
+      "english": "closed, shut",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "बंदर",
+      "english": "monkey",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "बग़ीचा",
+      "english": "garden",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "बचना",
+      "english": "to escape, survive",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "बचा",
+      "english": "saved, left",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "बच्चा",
+      "english": "child",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "बजना",
+      "english": "to resound, chime",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "बजाना",
+      "english": "to play (music)",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "बजे",
+      "english": "o&#x27;clock",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "बड़ा",
+      "english": "big",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "बढ़ना",
+      "english": "to increase, grow, advance",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "बढ़िया",
+      "english": "(inv.) good quality",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "बताना",
+      "english": "to tell",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "बत्ती",
+      "english": "light, lamp",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "बत्तीस",
+      "english": "&#x27;set of 32&#x27; – full complement of teeth",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "बदमाश",
+      "english": "villain, rogue",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "बदसूरत",
+      "english": "ugly",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "बधाई",
+      "english": "congratulation",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "बन",
+      "english": "forest, wood, jungle",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "बनाना",
+      "english": "to make",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "बनारस",
+      "english": "Banaras, Varanasi",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "बरदाश्त करना",
+      "english": "to tolerate, endure",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "बरबाद करना",
+      "english": "to ruin",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "बर्फ़",
+      "english": "snow, ice",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "बर्थ",
+      "english": "berth",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "बस",
+      "english": "bus",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "बस",
+      "english": "enough! that&#x27;s all!",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "बसना",
+      "english": "to settle, inhabit",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "बसाना",
+      "english": "to settle, found",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "बस्ती",
+      "english": "settlement, inhabited area",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "बहन",
+      "english": "sister",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "बहुत",
+      "english": "very",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "बाँटना",
+      "english": "to divide",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "बांसुरी",
+      "english": "bamboo flute",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "बाह",
+      "english": "(upper) arm",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "बाक़ी",
+      "english": "remaining, left",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "बाज़ार",
+      "english": "market",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "बात",
+      "english": "matter, thing",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "बाद (में)",
+      "english": "later",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "बादल",
+      "english": "cloud",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "बाप",
+      "english": "father",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "बाबू",
+      "english": "clerk",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "बायाँ",
+      "english": "left (opp. of right)",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "बार",
+      "english": "time, occasion",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "बारह",
+      "english": "twelve",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "बारिश",
+      "english": "rain",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "बारे में",
+      "english": "about, concerning",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "बाल-बच्चे",
+      "english": "children, family",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "बिगड़ना",
+      "english": "to go wrong, get angry",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "बिजली",
+      "english": "electricity",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "बिठाना",
+      "english": "to make sit",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "बियर",
+      "english": "beer",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "बिलकुल",
+      "english": "completely",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "बिल्ली",
+      "english": "cat",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "बी.एच.यू.",
+      "english": "BHU (Banaras Hindu University)",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "बीमार",
+      "english": "ill",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "बीस",
+      "english": "twenty",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "बुखार",
+      "english": "fever",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "बुढ़िया",
+      "english": "old woman",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "बुरा",
+      "english": "bad",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "बुलाना",
+      "english": "to call, invite",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "बूढ़ा",
+      "english": "old (of people)",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "बेचना",
+      "english": "to sell",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "बेचारा",
+      "english": "poor, wretched, helpless",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "बेचैन",
+      "english": "restless",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "बेटा",
+      "english": "son, child",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "बेटी",
+      "english": "daughter, child",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "बेवक़ूफ़",
+      "english": "stupid",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "बैठक",
+      "english": "sitting room",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "बैठना",
+      "english": "to sit",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "बैठा",
+      "english": "seated, sitting",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "बोतल",
+      "english": "bottle",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "बोर करना",
+      "english": "to bore",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "बोरियत",
+      "english": "boredom",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "बोलना",
+      "english": "to speak",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "बोल",
+      "english": "speech, dialect",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "ब्राह्मण",
+      "english": "Brahmin",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "भगवान",
+      "english": "God",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "भतीजा",
+      "english": "nephew",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "भाई",
+      "english": "brother",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "भागना",
+      "english": "to run away, flee",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "भाभी",
+      "english": "elder brother&#x27;s wife",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "भारत",
+      "english": "India",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "भारी",
+      "english": "heavy",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "भाषा",
+      "english": "language",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "भी",
+      "english": "also, too",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "भीगा",
+      "english": "wet",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "भूख",
+      "english": "hunger",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "भूत",
+      "english": "ghost",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "भूल",
+      "english": "mistake",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "भूलना",
+      "english": "to forget, err",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "भेंट",
+      "english": "gift, presentation",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "भेजना",
+      "english": "to send",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "भेद",
+      "english": "difference",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "भैया",
+      "english": "(inv.) brother",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "भोजन",
+      "english": "food",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "भोला",
+      "english": "innocent, guileless",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "भौंकना",
+      "english": "to bark",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "भ्रष्ट",
+      "english": "corrupted",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "मँगवाना",
+      "english": "to order, send for",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "मंदिर",
+      "english": "temple",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "मकान",
+      "english": "house",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "मक्खन",
+      "english": "butter",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "मक्खी",
+      "english": "fly",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "मगर",
+      "english": "crocodile",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "मगर",
+      "english": "but",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "मच",
+      "english": "to break out, be caused",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "मचाना",
+      "english": "to create (noise etc.)",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "मच्छर",
+      "english": "mosquito",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "मज़दूर",
+      "english": "labourer",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "मजबूरी",
+      "english": "compulsion",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "मज़ा",
+      "english": "fun, pleasure, enjoyment",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "मज़ाक",
+      "english": "joke",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "मत",
+      "english": "don&#x27;t (in commands)",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "मतलब",
+      "english": "meaning",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "मदद",
+      "english": "help",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "मनाही",
+      "english": "forbidden, prohibited",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "मरना",
+      "english": "to die",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "मरम्मत",
+      "english": "repair",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "मर्द",
+      "english": "man, male",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "मशहूर",
+      "english": "famous",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "मसूरी",
+      "english": "Mussoorie",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "मस्त",
+      "english": "joyous, delighted",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "महँगा",
+      "english": "expensive",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "महल",
+      "english": "palace",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "महाभारत",
+      "english": "India&#x27;s mythical epic war",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "महायुद्ध",
+      "english": "great war",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "महाराजा",
+      "english": "maharaja",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "महिला",
+      "english": "lady",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "महीन",
+      "english": "fine, delicate",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "महीना",
+      "english": "month",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "महाशय",
+      "english": "gentleman",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "माँ",
+      "english": "ma, mother",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "माँस",
+      "english": "meat",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "माता",
+      "english": "mother",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "मानना",
+      "english": "to accept, believe",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "मानव",
+      "english": "man",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "माँगना",
+      "english": "to ask for, demand",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "माफ़ करना",
+      "english": "to forgive, excuse",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "माफ़ी",
+      "english": "forgiveness",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "मामला",
+      "english": "matter, affair",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "मारना",
+      "english": "to beat, hit, kill",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "मारुति",
+      "english": "Maruti (car make)",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "मार्च",
+      "english": "March",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "मालिक",
+      "english": "boss",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "माली",
+      "english": "gardener",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "मालूम",
+      "english": "known",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "माहिर",
+      "english": "expert, skilled",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "मीठाई",
+      "english": "sweet, sweet dish",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "मित्र",
+      "english": "friend",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "मिनट",
+      "english": "minute",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "मिलना",
+      "english": "to meet",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "मिलाना",
+      "english": "to dial, phone",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "मिस्त्री",
+      "english": "mechanic, artisan",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "मीटिंग",
+      "english": "meeting",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "मीठा",
+      "english": "sweet",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "मुँह",
+      "english": "mouth, face",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "मुझ",
+      "english": "oblique of मैं",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "मुड़ना",
+      "english": "to turn",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "मुन्ना",
+      "english": "&#x27;Munna&#x27; – nickname for little boy",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "मुमकिन",
+      "english": "possible",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "मुलाक़ात",
+      "english": "meeting, encounter",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "मुश्किल",
+      "english": "difficult",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "मुसलमान",
+      "english": "Muslim",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "मुसाफ़िर",
+      "english": "traveller",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "मुस्कराना",
+      "english": "to smile",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "मूर्ख",
+      "english": "fool",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "मूल",
+      "english": "origin",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "में",
+      "english": "in",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "मेज़",
+      "english": "table",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "मेरा",
+      "english": "my, mine",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "मेहनत",
+      "english": "hard work",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "मेहनती",
+      "english": "hardworking",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "मेहरबानी",
+      "english": "kindness",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "मैं",
+      "english": "I",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "मैडम",
+      "english": "madam",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "मोड़",
+      "english": "turn, bend",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "मोती",
+      "english": "pearl",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "मोर",
+      "english": "peacock",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "मौक़ा",
+      "english": "chance, opportunity",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "मौसम",
+      "english": "weather",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "यदि",
+      "english": "if",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "यद्यपि",
+      "english": "although",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "यह",
+      "english": "he, she, it, this",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "यहाँ",
+      "english": "here",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "यही",
+      "english": "right here, in this very place",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "या",
+      "english": "or",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "यात्रा",
+      "english": "journey, travel",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "यात्री",
+      "english": "traveller, passenger",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "याद",
+      "english": "memory",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "यानि",
+      "english": "that is to say",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "यार",
+      "english": "friend (esp. vocative)",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "यू.पी.",
+      "english": "UP, Uttar Pradesh",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "ये",
+      "english": "these, they",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "रंग",
+      "english": "colour",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "रखना",
+      "english": "to put",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "रवानी",
+      "english": "fluency",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "रविवार",
+      "english": "Sunday",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "रसोईघर",
+      "english": "kitchen",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "रस्सी",
+      "english": "string, cord",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "रहना",
+      "english": "to stay, remain, live",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "राजधानी",
+      "english": "capital",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "राजस्थान",
+      "english": "Rajasthan",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "राजा",
+      "english": "king",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "राज़ी",
+      "english": "agreeable, content",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "रात",
+      "english": "night",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "रामायण",
+      "english": "Ramayan (epic poem)",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "राय",
+      "english": "opinion",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "रिक्शा",
+      "english": "rickshaw",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "रिश्तेदार",
+      "english": "relative",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "रुकना",
+      "english": "to stop",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "रुपया",
+      "english": "rupee",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "रूबरू",
+      "english": "face to face",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "रूसी",
+      "english": "Russian",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "रे",
+      "english": "eh, oh, hey",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "रेडियो",
+      "english": "radio",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "रेलगाड़ी",
+      "english": "train",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "रेशम",
+      "english": "silk",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "रोकना",
+      "english": "to stop",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "रोज़",
+      "english": "every day, daily",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "रोटी",
+      "english": "bread",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "रोना",
+      "english": "to weep, cry",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "लंदन",
+      "english": "London",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "लंबा",
+      "english": "tall, high",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "लंबाई",
+      "english": "height, length",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "लकड़ी",
+      "english": "wood",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "लखनऊ",
+      "english": "Lucknow",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "लखपति",
+      "english": "rich man, &#x27;millionaire&#x27;",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "लगना",
+      "english": "to strike",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "लगाना",
+      "english": "to apply, affix",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "लड़का",
+      "english": "boy",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "लड़की",
+      "english": "girl",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "लदना",
+      "english": "to be loaded",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "लहसुन",
+      "english": "garlic",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "लाख",
+      "english": "hundred thousand",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "लाजवाब",
+      "english": "beyond compare",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "लाठी",
+      "english": "lathi, stick",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "लादना",
+      "english": "to load",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "लाना",
+      "english": "to bring",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "लाभ",
+      "english": "profit, advantage",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "लायक़",
+      "english": "worth (doing)",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "लाल",
+      "english": "red",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "लिखना",
+      "english": "to write",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "लिटाना",
+      "english": "to make lie down",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "लिपि",
+      "english": "script, alphabet",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "लिफ़ाफ़ा",
+      "english": "envelope",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "लूटना",
+      "english": "to loot, steal",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "लाना",
+      "english": "to bring",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "ले जाना",
+      "english": "to take away",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "लेकिन",
+      "english": "but",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "लेटना",
+      "english": "to lie, recline",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "लेख",
+      "english": "article (written)",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "लेखक",
+      "english": "writer",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "लेना",
+      "english": "to take, receive",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "लोकप्रिय",
+      "english": "popular",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "लोग",
+      "english": "people",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "लोटपोट",
+      "english": "rolling, helpless (with laughter)",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "लौटना",
+      "english": "to return",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "वक़्त",
+      "english": "time",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "वगैरह",
+      "english": "and so on, etc.",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "वर्णन",
+      "english": "description",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "वर्ष",
+      "english": "year",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "वह",
+      "english": "he, she, it, that",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "वहाँ",
+      "english": "there",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "वाक्य",
+      "english": "sentence",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "वाराणसी",
+      "english": "Varanasi, Banaras",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "-वाल/वाली",
+      "english": "suffix linking following word to preceding noun",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "वाह",
+      "english": "(expresses admiration or scorn) wonderful!",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "विदेश",
+      "english": "foreign country",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "विदेशी",
+      "english": "foreigner",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "विद्यार्थी",
+      "english": "student",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "विलंब",
+      "english": "delay",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "विवाह",
+      "english": "marriage, wedding",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "विषय",
+      "english": "subject",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "विशेष",
+      "english": "particular",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "विश्वविद्यालय",
+      "english": "university",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "विश्वास",
+      "english": "belief, confidence",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "विस्तार से",
+      "english": "at length, in detail",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "वे",
+      "english": "those, they",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "वेतन",
+      "english": "pay, salary",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "वैर",
+      "english": "hostility",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "वैसे",
+      "english": "actually, in fact",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "व्यंग्य",
+      "english": "sarcasm",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "व्यक्ति",
+      "english": "person, individual",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "व्यक्तिगत रूप से",
+      "english": "personally",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "व्यवस्था",
+      "english": "arrangement",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "शंका",
+      "english": "doubt, suspicion",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "शक्ति",
+      "english": "power",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "शख़्स",
+      "english": "individual, fellow",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "शनिवार",
+      "english": "Saturday",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "शब्द",
+      "english": "word",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "शब्दकोश",
+      "english": "dictionary",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "शराब",
+      "english": "alcoholic drink",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "शराबी",
+      "english": "drunkard",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "शरारत",
+      "english": "mischief",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "शर्म",
+      "english": "shame",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "शहर",
+      "english": "town, city",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "शादी",
+      "english": "marriage, wedding",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "शाबाश",
+      "english": "well done! bravo!",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "शाम",
+      "english": "evening",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "शायद",
+      "english": "perhaps",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "शिकायत",
+      "english": "complaint",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "शिष्य",
+      "english": "disciple",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "शीघ्र",
+      "english": "soon, quickly",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "शुक्रवार",
+      "english": "Friday",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "शुक्रिया",
+      "english": "thank you",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "शुद्ध",
+      "english": "pure, unmixed",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "शुरुआत",
+      "english": "beginning",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "शूटिंग",
+      "english": "shooting, filming",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "शैतान",
+      "english": "devil",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "श्रावण",
+      "english": "Shravan, a monsoon month (July-August)",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "श्री",
+      "english": "Mr",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "श्रीमती",
+      "english": "Mrs",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "संतुष्ट",
+      "english": "satisfied",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "संतोष",
+      "english": "satisfaction",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "संभव",
+      "english": "possible",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "संस्कृत",
+      "english": "Sanskrit",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "सकना",
+      "english": "(after verb stem) to be able",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "सख्त",
+      "english": "stern, strict, intense",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "सड़क",
+      "english": "street, road",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "सच",
+      "english": "TRUE",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "सचमुच",
+      "english": "really",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "सदस्य",
+      "english": "member",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "सदा",
+      "english": "always, ever",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "सन",
+      "english": "year (of calendar, era)",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "सपना",
+      "english": "dream",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "सप्ताह",
+      "english": "week",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "सफ़र",
+      "english": "journey, travel",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "सफल",
+      "english": "successful, fruitful",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "सफ़ाई",
+      "english": "cleaning",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "सफ़ेद",
+      "english": "white",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "सब",
+      "english": "everything, all",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "सब्ज़ी",
+      "english": "vegetable(s)",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "समझ",
+      "english": "understanding",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "समझना",
+      "english": "to understand, consider, reckon",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "समय",
+      "english": "time",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "समाचार",
+      "english": "news",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "समाप्त",
+      "english": "finished, concluded",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "समुद्र",
+      "english": "sea, ocean",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "समोसा",
+      "english": "samosa",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "सर",
+      "english": "sir",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "सरकारी",
+      "english": "governmental",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "सरल",
+      "english": "simple",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "सलवार-कमीज़",
+      "english": "salwar kameez",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "सलाह",
+      "english": "advice",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "सवा",
+      "english": "one and a quarter",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "सवाल",
+      "english": "question",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "सवेरा",
+      "english": "early morning",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "सस्ता",
+      "english": "cheap",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "सहमत",
+      "english": "in agreement",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "सही",
+      "english": "true, correct",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "सहेली",
+      "english": "girl&#x27;s female friend",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "साँस",
+      "english": "sigh",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "-सा",
+      "english": "-like, -ish",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "साइकिल",
+      "english": "bicycle",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "साड़ी",
+      "english": "sari",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "साढ़े",
+      "english": "plus a half",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "सात",
+      "english": "seven",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "साथ",
+      "english": "along, with, in company",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "साथी",
+      "english": "companion, friend",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "साधन",
+      "english": "means",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "साधारण",
+      "english": "ordinary",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "साफ़",
+      "english": "clean, clear",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "साबुन",
+      "english": "soap",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "सामान",
+      "english": "furniture, things, luggage",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "सारा",
+      "english": "all, whole",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "साल",
+      "english": "year",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "साला",
+      "english": "wife&#x27;s brother",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "सावधानी",
+      "english": "care",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "साहब",
+      "english": "Mr",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "साहित्य",
+      "english": "literature",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "सिगरेट",
+      "english": "cigarette",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "सितार",
+      "english": "sitar",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "सितारा",
+      "english": "star",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "सिनेमाघर",
+      "english": "cinema",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "सिर",
+      "english": "head",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "सिर्फ",
+      "english": "only",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "सिलवाना",
+      "english": "to cause to be sewn",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "सिलसिला",
+      "english": "connection",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "सीखना",
+      "english": "to learn",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "सीट",
+      "english": "seat",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "सीढ़ी",
+      "english": "stair, step, staircase",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "सीधा",
+      "english": "straight, straightforward",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "सुझाव",
+      "english": "suggestion",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "सुधारना",
+      "english": "to improve, be put right",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "सुधरना",
+      "english": "to improve, put right",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "सुनाई देना/पड़ना",
+      "english": "to be heard, be audible",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "सुंदर",
+      "english": "beautiful",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "सुलाना",
+      "english": "to make sleep",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "सुझना",
+      "english": "to occur to the mind",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "सूरज",
+      "english": "sun",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "से",
+      "english": "by, since, from, with",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "से पहले",
+      "english": "before",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "सेब",
+      "english": "apple",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "सैंतालीस",
+      "english": "forty-seven",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "सैकड़ा",
+      "english": "a hundred",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "सैर",
+      "english": "walk, trip",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "सो",
+      "english": "he, she, it (archaic)",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "सोचना",
+      "english": "to think",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "सोना",
+      "english": "gold",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "सोना",
+      "english": "to sleep",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "सोमवार",
+      "english": "Monday",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "सोलह",
+      "english": "sixteen",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "स्टेशन",
+      "english": "station",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "स्थायी रूप से",
+      "english": "permanently",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "स्थिति",
+      "english": "situation",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "स्नान",
+      "english": "bath, ritual bathing",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "स्वभाव",
+      "english": "nature, disposition",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "स्वर्ग",
+      "english": "heaven",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "हँसना",
+      "english": "to laugh",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "हँसाना",
+      "english": "to make laugh",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "हँसी-मज़ाक",
+      "english": "laughter, fun, joking",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "हड़ताल",
+      "english": "strike, lockout",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "हफ़्ता",
+      "english": "week",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "हम",
+      "english": "we, us",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "हमारा",
+      "english": "our, ours",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "हमेशा",
+      "english": "always",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "हर",
+      "english": "each, every",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "हल",
+      "english": "solution",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "हलो",
+      "english": "hello",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "हवा",
+      "english": "air",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "हवाई जहाज़",
+      "english": "aeroplane",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "हवाई डाक",
+      "english": "airmail",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "हवादार",
+      "english": "airy",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "हाँ",
+      "english": "yes",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "हाथ",
+      "english": "hand",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "हाल",
+      "english": "condition, state",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "हालत",
+      "english": "state, condition",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "हालांकि",
+      "english": "although",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "हिंदी",
+      "english": "Hindi",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "हिंदुस्तान",
+      "english": "Indian",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "हिंदू",
+      "english": "Hindu",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "हिलना",
+      "english": "to move, stir",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "ही",
+      "english": "only",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "हीरो",
+      "english": "&#x27;hero&#x27;, male film-star",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "हूँ",
+      "english": "am",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "हाय",
+      "english": "Oh!",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "है",
+      "english": "is",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "हैं",
+      "english": "are",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "होना",
+      "english": "to be, become, happen",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "होली",
+      "english": "Holi, springtime festival of colours",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "होल्ड करना",
+      "english": "to hold (phone line)",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "होशियार",
+      "english": "clever, intelligent",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "व्हिस्की",
+      "english": "whisky",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "अक्सर",
+      "english": "often",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "अचानक",
+      "english": "suddenly, unexpectedly",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "असली",
+      "english": "real",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "आलसी",
+      "english": "lazy",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "आवाज़",
+      "english": "voice, sound",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "इक्कीस",
+      "english": "twenty-one",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "इंसान",
+      "english": "human being, person",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "उठना",
+      "english": "to get up, rise",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "उदाहरण",
+      "english": "example",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "उधार",
+      "english": "loan",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "उपहार",
+      "english": "present, gift",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "कटना",
+      "english": "to be cut",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "कमाना",
+      "english": "to earn",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "कविता",
+      "english": "poem",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "कारण",
+      "english": "reason, cause",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "खाँसना",
+      "english": "to cough",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "खिलाना",
+      "english": "to give to eat",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "खोना",
+      "english": "to lose",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "गंदा",
+      "english": "dirty",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "गरीब",
+      "english": "poor",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "गला",
+      "english": "throat, neck",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "गाड़ी",
+      "english": "car",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "गोरा",
+      "english": "fair",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "घंटा",
+      "english": "hour",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "घमंड",
+      "english": "pride, arrogance",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "चीज़",
+      "english": "thing",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "चोट",
+      "english": "hurt, injury",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "छूटना",
+      "english": "to depart",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "छूना",
+      "english": "to touch",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "छोड़ना",
+      "english": "to leave, abandon, give up",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "जगह",
+      "english": "place",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "जारी",
+      "english": "current, continuing",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "ज़िम्मेदारी",
+      "english": "responsibility",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "टूटना",
+      "english": "to break, be broken",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "डर",
+      "english": "fear",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "डालना",
+      "english": "to throw, cast, pour",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "डूबना",
+      "english": "to sink, drown",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "डेढ़",
+      "english": "one and a half",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "तोड़ना",
+      "english": "to break",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "थकान",
+      "english": "tiredness",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "दिखना",
+      "english": "to appear, seem",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "दुःख",
+      "english": "grief, pain, suffering",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "दूसरा",
+      "english": "other, second",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "धुलना",
+      "english": "to be washed",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "नाश्ता",
+      "english": "breakfast",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "निकालना",
+      "english": "to extract, bring out, discover",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "नुकसान",
+      "english": "harm",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "पकड़ना",
+      "english": "to catch, grab, hold",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "पच्चीस",
+      "english": "twenty-five",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "पड़ोसी",
+      "english": "neighbour",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "परवाह करना",
+      "english": "to care",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "परेशान",
+      "english": "troubled, upset",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "पहुँचना",
+      "english": "to arrive, reach",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "पागल",
+      "english": "mad, crazy",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "पुस्तक",
+      "english": "book",
+      "tags": [
+        "8"
+      ]
+    },
+    {
+      "hindi": "पेट",
+      "english": "stomach",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "प्यारा",
+      "english": "dear, lovely",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "प्रश्न",
+      "english": "question",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "फाड़ना",
+      "english": "to tear",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "बचपन",
+      "english": "childhood",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "बचाना",
+      "english": "to rescue, save",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "बदलना",
+      "english": "to change",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "बनना",
+      "english": "to be, become, be made, act",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "बहू",
+      "english": "daughter-in-law",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "बातचीत",
+      "english": "conversation, negotiation",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "बाहर",
+      "english": "out",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "बिकना",
+      "english": "to be sold",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "बीतना",
+      "english": "to pass (of time)",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "बेकार",
+      "english": "useless",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "भविष्य",
+      "english": "future",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "भिखारी",
+      "english": "beggar",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "भीड़",
+      "english": "crowd",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "भूखा",
+      "english": "hungry",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "मज़बूत",
+      "english": "strong",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "मन",
+      "english": "mind",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "महसूस करना",
+      "english": "to feel, experience",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "माला",
+      "english": "garland",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "मूर्ति",
+      "english": "statue, image",
+      "tags": [
+        "1"
+      ]
+    },
+    {
+      "hindi": "मेहमान",
+      "english": "guest",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "मोटा",
+      "english": "fat, thick, coarse",
+      "tags": [
+        "2"
+      ]
+    },
+    {
+      "hindi": "यक़ीन",
+      "english": "confidence, faith",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "योजना",
+      "english": "plan, scheme",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "रोशनी",
+      "english": "light",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "लड़ाई",
+      "english": "to fight, quarrel",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "वजह",
+      "english": "reason, cause",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "वापस",
+      "english": "&#x27;back&#x27;: वापस आना to come back",
+      "tags": [
+        "10"
+      ]
+    },
+    {
+      "hindi": "विचार",
+      "english": "thought, idea, opinion",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "शानदार",
+      "english": "magnificent",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "सफलता",
+      "english": "success",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "समझाना",
+      "english": "to explain",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "समस्या",
+      "english": "problem",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "सरकार",
+      "english": "government",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "सुनना",
+      "english": "to listen, hear",
+      "tags": [
+        "5"
+      ]
+    },
+    {
+      "hindi": "सुनाना",
+      "english": "to relate, tell, recite, sing",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "सुबह",
+      "english": "morning",
+      "tags": [
+        "3"
+      ]
+    },
+    {
+      "hindi": "सौ",
+      "english": "hundred",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "स्वयं",
+      "english": "oneself",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "स्वादिष्ट",
+      "english": "tasty",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "स्वीकार करना",
+      "english": "to accept",
+      "tags": [
+        "17"
+      ]
+    },
+    {
+      "hindi": "हज़ार",
+      "english": "thousand",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "अनौपचारिक रूप से",
+      "english": "informally",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "असल में",
+      "english": "really, in fact",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "आदमीयत से",
+      "english": "cordially",
+      "tags": [
+        "18"
+      ]
+    },
+    {
+      "hindi": "आधी रात",
+      "english": "midnight",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "आपस में",
+      "english": "between/among themselves",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "आसानी से",
+      "english": "easily",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "इंकार करना",
+      "english": "to refuse (to)",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "उम्र, उमर",
+      "english": "age",
+      "tags": [
+        "4"
+      ]
+    },
+    {
+      "hindi": "औपचारिक से रूप",
+      "english": "formally",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "की तरफ़",
+      "english": "towards",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "की तरह",
+      "english": "like",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "की बगल में",
+      "english": "next to, close by",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "की वजह से",
+      "english": "because of",
+      "tags": [
+        "13"
+      ]
+    },
+    {
+      "hindi": "की क़ीमत",
+      "english": "price, value, cost",
+      "tags": [
+        "11"
+      ]
+    },
+    {
+      "hindi": "के अंदर",
+      "english": "inside",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "के आगे",
+      "english": "in front of, ahead of",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "के आस-पास",
+      "english": "around, in vicinity of",
+      "tags": [
+        "9"
+      ]
+    },
+    {
+      "hindi": "के ऊपर",
+      "english": "on top of",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "के कारण",
+      "english": "because of",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "के द्वारा",
+      "english": "by (means of)",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "के नज़दीक",
+      "english": "near",
+      "tags": [
+        "7"
+      ]
+    },
+    {
+      "hindi": "के नीचे",
+      "english": "beneath, below",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "के पहले",
+      "english": "before",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "के पास",
+      "english": "near",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "के पीछे",
+      "english": "behind",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "के बजाय",
+      "english": "instead of",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "के बाद",
+      "english": "after",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "के बारे में",
+      "english": "about, concerning",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "के बाहर",
+      "english": "outside",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "के बिना",
+      "english": "without",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "के बीच",
+      "english": "between",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "के मारे",
+      "english": "on account of, through",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "के लिए",
+      "english": "for",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "के यहाँ",
+      "english": "at the place of",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "के साथ",
+      "english": "with, in company of",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "के सामने",
+      "english": "facing, opposite",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "के सिवाय, सिवाय",
+      "english": "apart from",
+      "tags": [
+        "15"
+      ]
+    },
+    {
+      "hindi": "गप, गपशप",
+      "english": "gossip",
+      "tags": [
+        "6"
+      ]
+    },
+    {
+      "hindi": "गृह मंत्री",
+      "english": "Home Minister",
+      "tags": [
+        "12"
+      ]
+    },
+    {
+      "hindi": "चाहे...चाहे",
+      "english": "whether... or",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "जन्म, जनम",
+      "english": "birth",
+      "tags": [
+        "16"
+      ]
+    },
+    {
+      "hindi": "जहाँ...वहाँ",
+      "english": "where... there",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "जितना...उतना",
+      "english": "as much as...",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "जिधर... उधर",
+      "english": "whither... thither",
+      "tags": [
+        "14"
+      ]
+    },
+    {
+      "hindi": "झट से",
+      "english": "suddenly, briskly",
+      "tags": [
+        "18"
+      ]
+    }
+  ]
+}
