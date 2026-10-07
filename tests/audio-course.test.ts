@@ -63,7 +63,7 @@ describe("padoux theory base", () => {
     for (const marker of ["nādānta", "sāmānādhikaraṇya", "AHAM", "ṣaḍadhvan", "anusamdhāna", "divyadeha"]) {
       expect(src, marker).toContain(marker);
     }
-    expect(src).toMatch(/PDF p\.\d+/);
+    expect(src).toMatch(/\(p\.\d+\)/);
   });
 
   it("keeps quotes short and carries honesty constraints", () => {
