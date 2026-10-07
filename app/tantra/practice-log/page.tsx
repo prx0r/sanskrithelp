@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
-import { ArrowLeft, Check, Flame, CalendarDays, BookOpen, Wind, CircleDot, MessageSquare } from "lucide-react";
+import { ArrowLeft, Check, Flame, CalendarDays, BookOpen, Wind, CircleDot, MessageSquare, Languages } from "lucide-react";
 import { loadEntries, saveEntries, getRecentPracticeSummary, type PracticeType, type Entry } from "@/lib/practiceLog";
 
 const PRACTICE_TYPES: { type: PracticeType; label: string; icon: typeof BookOpen }[] = [
@@ -11,6 +11,7 @@ const PRACTICE_TYPES: { type: PracticeType; label: string; icon: typeof BookOpen
   { type: "vb", label: "Vijñāna Bhairava", icon: BookOpen },
   { type: "tattvas", label: "Tattvas Study", icon: BookOpen },
   { type: "meditation", label: "Silent Meditation", icon: MessageSquare },
+  { type: "hindi", label: "Hindi Practice", icon: Languages },
 ];
 
 function today(): string {

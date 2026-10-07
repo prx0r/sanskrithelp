@@ -1,8 +1,45 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Link from "next/link";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, CalendarDays } from "lucide-react";
 import HindiWheelLab from "@/components/HindiWheelLab";
+
+function dayOfYear(d = new Date()): number {
+  return Math.floor((d.getTime() - new Date(d.getFullYear(), 0, 0).getTime()) / 864e5);
+}
+
+function TodayHindi() {
+  const [line, setLine] = useState("");
+  useEffect(() => {
+    Promise.all([
+      fetch("/memory/hindi/scenarios.json").then((r) => (r.ok ? r.json() : null)).catch(() => null),
+      fetch("/memory/hindi/osho-shiv-sutra-01.json").then((r) => (r.ok ? r.json() : null)).catch(() => null),
+    ]).then(([sc, osho]) => {
+      const targets: string[] = [];
+      for (const s of sc?.scenarios ?? []) targets.push(...(s.targetLines ?? []));
+      for (const s of osho?.segments ?? []) targets.push(s.hindi_simple);
+      if (targets.length) setLine(targets[dayOfYear() % targets.length]);
+    });
+  }, []);
+  if (!line) return null;
+  return (
+    <div className="mb-6 p-4 rounded-xl border-2 border-primary bg-primary/10">
+      <p className="text-xs text-primary/80 mb-1 flex items-center gap-1">
+        <CalendarDays className="w-3 h-3" /> Today&apos;s Hindi — say it, then score it
+      </p>
+      <p className="text-xl font-display">{line}</p>
+      <div className="mt-2 flex flex-wrap gap-2 text-sm">
+        <Link className="px-3 py-1.5 rounded-lg bg-primary text-primary-foreground" href="/memory/hindi/scenarios">
+          Practice in scenarios →
+        </Link>
+        <Link className="px-3 py-1.5 rounded-lg border border-border hover:bg-accent" href="/memory/hindi/text-mode">
+          Text Mode →
+        </Link>
+      </div>
+    </div>
+  );
+}
 
 export default function HindiMemoryPage() {
   return (
@@ -46,6 +83,7 @@ export default function HindiMemoryPage() {
         </p>
       </div>
 
+      <TodayHindi />
       <HindiWheelLab />
     </div>
   );

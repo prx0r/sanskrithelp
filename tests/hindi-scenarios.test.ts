@@ -67,3 +67,22 @@ describe("field scenarios (NPC shape, own lines)", () => {
     expect(hub).toContain("/memory/hindi/scenarios");
   });
 });
+
+describe("daily Hindi loop (islands spec, closed)", () => {
+  it("practice log accepts hindi entries (shared sadhana log)", () => {
+    const src = readFileSync(resolve(ROOT, "lib/practiceLog.ts"), "utf8");
+    expect(src).toContain('"hindi"');
+    const log = readFileSync(resolve(ROOT, "app/tantra/practice-log/page.tsx"), "utf8");
+    expect(log).toContain('"hindi"');
+  });
+
+  it("scoring logs the attempt; hindi page shows today's line", () => {
+    const sp = readFileSync(resolve(ROOT, "components/SpeakScore.tsx"), "utf8");
+    expect(sp).toContain("practiceLog");
+    expect(sp).toContain('type: "hindi"');
+    const hub = readFileSync(resolve(ROOT, "app/memory/hindi/page.tsx"), "utf8");
+    expect(hub).toMatch(/Today.*Hindi/);
+    expect(hub).toContain("scenarios.json");
+    expect(hub).toContain("osho-shiv-sutra-01.json");
+  });
+});

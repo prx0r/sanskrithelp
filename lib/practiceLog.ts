@@ -3,7 +3,7 @@
  * Shared between the practice-log page and the chat (for AI context).
  */
 
-export type PracticeType = "matrika" | "breath" | "vb" | "tattvas" | "meditation";
+export type PracticeType = "matrika" | "breath" | "vb" | "tattvas" | "meditation" | "hindi";
 
 export interface Entry {
   date: string;

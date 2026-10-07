@@ -2,6 +2,20 @@
 
 import { useState } from "react";
 import { Mic, Loader2 } from "lucide-react";
+import { loadEntries, saveEntries } from "@/lib/practiceLog";
+
+function logHindiPractice(label: string, score: number) {
+  try {
+    const entries = loadEntries();
+    entries.push({
+      date: new Date().toISOString().split("T")[0],
+      type: "hindi",
+      label: `Scored ${score}: ${label.slice(0, 60)}`,
+      duration: 1,
+    });
+    saveEntries(entries);
+  } catch {}
+}
 
 type AssessResult = {
   correct: boolean;
@@ -34,6 +48,7 @@ export default function SpeakScore({ target }: { target: string }) {
         setErr(j.error);
       } else {
         setResult(j as AssessResult);
+        if (typeof j.score === "number") logHindiPractice(target, j.score);
       }
     } catch {
       setErr("Assessment unreachable. Your attempt was heard — keep practicing.");
