@@ -1,0 +1,62 @@
+{
+ "नमस्ते। आप किस सूत्र पर बैठे हैं?": {
+  "file": "l00.mp3",
+  "voice": "hi-IN-MadhurNeural"
+ },
+ "हाँ — चैतन्य ही आत्मा है।": {
+  "file": "l01.mp3",
+  "voice": "hi-IN-MadhurNeural"
+ },
+ "चैतन्यमात्मा": {
+  "file": "l02.mp3",
+  "voice": "hi-IN-SwaraNeural"
+ },
+ "चैतन्य ही आत्मा है।": {
+  "file": "l03.mp3",
+  "voice": "hi-IN-SwaraNeural"
+ },
+ "इस सूत्र का अर्थ है कि चैतन्य ही आत्मा है।": {
+  "file": "l04.mp3",
+  "voice": "hi-IN-SwaraNeural"
+ },
+ "नमस्ते! आप कहाँ से आए हैं?": {
+  "file": "l05.mp3",
+  "voice": "hi-IN-MadhurNeural"
+ },
+ "वाराणसी में स्वागत है। क्या आप हिंदी सीख रहे हैं?": {
+  "file": "l06.mp3",
+  "voice": "hi-IN-MadhurNeural"
+ },
+ "मेरा नाम Tom है।": {
+  "file": "l07.mp3",
+  "voice": "hi-IN-SwaraNeural"
+ },
+ "मैं इंग्लैंड से हूँ।": {
+  "file": "l08.mp3",
+  "voice": "hi-IN-SwaraNeural"
+ },
+ "मैं हिंदी सीख रहा हूँ।": {
+  "file": "l09.mp3",
+  "voice": "hi-IN-SwaraNeural"
+ },
+ "क्या आप प्रवचन के लिए आए हैं?": {
+  "file": "l10.mp3",
+  "voice": "hi-IN-MadhurNeural"
+ },
+ "आप किस परंपरा से जुड़े हैं?": {
+  "file": "l11.mp3",
+  "voice": "hi-IN-MadhurNeural"
+ },
+ "आप किस परंपरा से हैं?": {
+  "file": "l12.mp3",
+  "voice": "hi-IN-SwaraNeural"
+ },
+ "मुझे समझ नहीं आया।": {
+  "file": "l13.mp3",
+  "voice": "hi-IN-SwaraNeural"
+ },
+ "कृपया फिर से कहिए।": {
+  "file": "l14.mp3",
+  "voice": "hi-IN-SwaraNeural"
+ }
+}

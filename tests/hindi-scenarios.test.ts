@@ -98,6 +98,18 @@ describe("adaptive difficulty (config + suggestion)", () => {
     expect(page).toContain("suggestionFor");
     expect(page).toContain("playbackRate");
   });
+
+  it("NPC lines play pre-rendered Hindi voices, never browser TTS first", () => {
+    const man = JSON.parse(
+      readFileSync(resolve(ROOT, "public/memory/hindi/scenes/voices.json"), "utf8"));
+    expect(Object.keys(man).length).toBeGreaterThanOrEqual(15);
+    for (const [text, v] of Object.entries(man) as Array<[string, any]>) {
+      expect(existsSync(resolve(ROOT, "public/memory/hindi/scenes", v.file)), text.slice(0, 30)).toBe(true);
+      expect(["hi-IN-MadhurNeural", "hi-IN-SwaraNeural"]).toContain(v.voice);
+    }
+    const page = readFileSync(resolve(ROOT, "app/memory/hindi/scenarios/page.tsx"), "utf8");
+    expect(page).toContain("scenes/voices.json");
+  });
 });
 
 describe("audio scenes (islands as listenable scenes)", () => {

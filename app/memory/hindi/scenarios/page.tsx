@@ -70,6 +70,7 @@ export default function HindiScenariosPage() {
   const [hintsShown, setHintsShown] = useState<Record<string, number>>({});
   const [difficulty, setDifficultyState] = useState<Difficulty>("normal");
   const [tick, setTick] = useState(0);
+  const [voices, setVoices] = useState<Record<string, { file: string }>>({});
 
   useEffect(() => {
     setDifficultyState(getDifficulty());
@@ -77,7 +78,20 @@ export default function HindiScenariosPage() {
       .then((r) => (r.ok ? r.json() : Promise.reject()))
       .then((j) => setScenarios(j.scenarios ?? []))
       .catch(() => {});
+    fetch("/memory/hindi/scenes/voices.json")
+      .then((r) => (r.ok ? r.json() : Promise.reject()))
+      .then((j) => setVoices(j))
+      .catch(() => {});
   }, []);
+
+  function hear(text: string) {
+    const v = voices[text];
+    if (v) {
+      new Audio(`/memory/hindi/scenes/${v.file}`).play().catch(() => speakHindi(text));
+    } else {
+      speakHindi(text);
+    }
+  }
 
   function pickDifficulty(d: Difficulty) {
     setDifficulty(d);
@@ -147,7 +161,7 @@ export default function HindiScenariosPage() {
                     <p className="text-base">{d.hindi}</p>
                     <p className="text-xs text-muted-foreground">{d.transliteration} — {d.english}</p>
                     <button
-                      onClick={() => speakHindi(d.hindi)}
+                      onClick={() => hear(d.hindi)}
                       className="inline-flex items-center gap-1 text-xs text-primary mt-1"
                     >
                       <Volume2 className="w-3 h-3" /> Hear
