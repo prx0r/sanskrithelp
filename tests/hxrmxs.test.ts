@@ -83,6 +83,18 @@ describe("missing corpus normalized (long arcs integrated)", () => {
     }
   });
 
+  it("lineages are real traditions; synthetic work is flagged at source", () => {
+    const lins = new Set(eps.map((e: any) => e.lineage));
+    for (const l of lins) {
+      expect(String(l)).not.toMatch(/_|\(/);
+    }
+    const synth = eps.filter((e: any) => e.synthetic);
+    expect(synth.length).toBeGreaterThan(0);
+    for (const e of synth) {
+      expect(e.source_file, e.id).toMatch(/diamond-numbered/);
+    }
+  });
+
   it("turns are clean: no pedagogy leak, no raw speaker codes as roles", () => {
     for (const e of eps) {
       for (const t of e.turns) {

@@ -190,7 +190,9 @@ def main():
                                           "intention": t.get("intention", "")})
                 if turns:
                     eps.append({"id": d.get("episode_id", os.path.basename(path)),
-                                "lineage": d.get("topic", "Modern"),
+                                "lineage": "Modern",
+                                "topic": d.get("topic", "") or None,
+                                "synthetic": rel.startswith("diamond-numbered/"),
                                 "source_file": rel, "turns": turns,
                                 "annotated": "partial"})
                 continue
@@ -231,8 +233,11 @@ def main():
                             turns.append({"role": tk, "text": txt})
                         annotated = False
                 if turns:
+                    lin = ep.get("lineage", "Unknown") or "Unknown"
+                    if lin.startswith("Mixed"):
+                        lin = "Modern"
                     eps.append({"id": ep.get("episode_id", os.path.basename(path)),
-                                "lineage": ep.get("lineage", "Unknown"),
+                                "lineage": lin,
                                 "source_file": rel, "turns": turns,
                                 "annotated": annotated})
         if flat_buffer:
