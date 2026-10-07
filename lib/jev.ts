@@ -125,15 +125,27 @@ export const ENQUIRY_THREADS = [
   "close_session",
 ] as const;
 
+export type Trajectory = {
+  turnIndex: number;
+  totalTurns?: number;
+  movesUsed?: string[];
+  arcDirection?: string;
+};
+
 export function enquiryState(
   turns: Array<{ role: string; text: string }>,
-  context?: { island?: string; recentScores?: string }
+  context?: { island?: string; recentScores?: string; trajectory?: Trajectory }
 ): string {
   const last = turns.slice(-6).map((t) => `${t.role}: ${t.text}`).join("\n");
+  const tj = context?.trajectory;
+  const where = tj
+    ? `Turn ${tj.turnIndex}${tj.totalTurns ? ` of ~${tj.totalTurns}` : ""}. Moves used: ${(tj.movesUsed ?? []).join(", ") || "none"}.${tj.arcDirection ? ` Arc direction: ${tj.arcDirection}.` : ""} Interpret this turn IN this trajectory position: the same words opening differ from the same words after 8 turns.`
+    : "";
   return [
     "Self-enquiry session (Ramana-style noticing: who notices? gaps between thoughts).",
     context?.island ? `Active island: ${context.island}.` : "",
     context?.recentScores ? `Recent practice: ${context.recentScores}.` : "",
+    where,
     "Last turns:",
     last,
   ].filter(Boolean).join("\n");

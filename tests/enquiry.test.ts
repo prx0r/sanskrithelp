@@ -26,6 +26,18 @@ describe("jev enquiry partner (no key = safe fallback)", () => {
     expect(s).toContain("X-hii-Y-hai");
   });
 
+  it("state carries trajectory position (same words differ by turn)", () => {
+    const early = enquiryState([{ role: "user", text: "i don't know" }], {
+      trajectory: { turnIndex: 1, totalTurns: 10, movesUsed: [] },
+    });
+    const late = enquiryState([{ role: "user", text: "i don't know" }], {
+      trajectory: { turnIndex: 9, totalTurns: 10, movesUsed: ["RM_03", "UM_02"], arcDirection: "toward aporia" },
+    });
+    expect(early).not.toBe(late);
+    expect(late).toContain("Turn 9");
+    expect(late).toContain("RM_03");
+  });
+
   it("decides to fallback without a key (deterministic)", async () => {
     const r = await enquiryDecide([{ role: "user", text: "i keep looping on this thought" }]);
     expect(r.viaJev).toBe(false);
