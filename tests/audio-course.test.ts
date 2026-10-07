@@ -23,7 +23,8 @@ describe("curriculum doc (verbatim)", () => {
 
 describe("transcripts beside the audio", () => {
   const files = ["cycle_night1_a_aa.mp3", "cycle_vowels.mp3", "cycle_consonants.mp3",
-    "cycle_full_starter.mp3", "track1-installation.mp3", "night1_guided_circuit.mp3"];
+    "cycle_full_starter.mp3", "track1-installation.mp3", "night1_guided_circuit.mp3",
+    "track_full50_installation.mp3"];
 
   it("every shipped audio file is documented", () => {
     const t = readFileSync(resolve(AUDIO, "TRANSCRIPTS.md"), "utf8");
