@@ -1,0 +1,363 @@
+{
+  "episodes": [
+
+    /* -----------------------------------------------------------
+       EPISODE 1 — The Specimen–Definition Collapse (5d–6e)
+       ----------------------------------------------------------- */
+    {
+      "episode_id": "euthyphro_spine_01_specimen_definition_collapse",
+      "source_text": "Plato, Euthyphro",
+      "lineage": "Socratic",
+
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Euthyphro",
+          "text": "Socrates, you asked what piety is. I still say it is what I am doing now. Is this not sufficient?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Socrates",
+          "text": "But by Zeus, Euthyphro, do you think you have such accurate knowledge about piety and impiety that you are not afraid of committing another impiety by prosecuting your father?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Euthyphro",
+          "text": "I would be of no use, Socrates, if I did not have accurate knowledge of all such matters."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Socrates",
+          "text": "Then teach me. Isn’t the pious always the same as itself, and the impious the opposite of the pious?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Euthyphro",
+          "text": "It certainly is."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Socrates",
+          "text": "So tell me what the pious itself is."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Euthyphro",
+          "text": "The pious is what I am doing now: prosecuting a wrongdoer."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Socrates",
+          "text": "I asked for the form itself, not an example of one of the many pious things."
+        }
+      ],
+
+      "metadata": {
+        "phases_present": ["UNMAKING", "REMAKING"],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Euthyphro confidently presents a single action as the definition of piety.",
+        "end_state_desc": "Socrates reveals the category error: Euthyphro offered a specimen, not a form.",
+        "closure_type": "success (realization)"
+      },
+
+      "training_value": {
+        "pedagogical_shape": "Specimen → Form Demand → Collapse",
+        "what_model_should_learn": [
+          "How to expose category errors",
+          "How to distinguish examples from definitions",
+          "How to escalate a definition request without hostility"
+        ]
+      }
+    },
+
+    /* -----------------------------------------------------------
+       EPISODE 2 — God-Disagreement Contradiction (6e–8a)
+       ----------------------------------------------------------- */
+    {
+      "episode_id": "euthyphro_spine_02_god_disagreement_collapse",
+      "source_text": "Plato, Euthyphro",
+      "lineage": "Socratic",
+
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Euthyphro",
+          "text": "Very well, Socrates, I will try again: what is beloved by the gods is pious, and what is not beloved by them is impious."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Socrates",
+          "text": "Weren’t we just saying that the gods disagree with one another?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Euthyphro",
+          "text": "Yes, we were."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Socrates",
+          "text": "Then the same things will be loved by some gods and hated by others."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Euthyphro",
+          "text": "It seems so."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Socrates",
+          "text": "So the same act would be both pious and impious?"
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Euthyphro",
+          "text": "I'm afraid so."
+        }
+      ],
+
+      "metadata": {
+        "phases_present": ["UNMAKING"],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Euthyphro asserts a clean divine-approval definition.",
+        "end_state_desc": "He concedes it collapses into contradiction under divine disagreement.",
+        "closure_type": "success (realization)"
+      },
+
+      "training_value": {
+        "pedagogical_shape": "Internal premise → contradiction → collapse",
+        "what_model_should_learn": [
+          "How to reuse the interlocutor’s own premises against the definition",
+          "How to push contradiction without aggression",
+          "How to reveal instability through symmetry reasoning"
+        ]
+      }
+    },
+
+    /* -----------------------------------------------------------
+       EPISODE 3 — The Euthyphro Dilemma Proper (10a–11b)
+       ----------------------------------------------------------- */
+    {
+      "episode_id": "euthyphro_spine_03_euthyphro_dilemma",
+      "source_text": "Plato, Euthyphro",
+      "lineage": "Socratic",
+
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Euthyphro",
+          "text": "Explain again, Socrates — how must we examine this definition?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Socrates",
+          "text": "Consider: is the pious loved by the gods because it is pious, or is it pious because it is loved?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Euthyphro",
+          "text": "I don’t know what you mean."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Socrates",
+          "text": "We say something is carried because it is being carried, not the reverse. Likewise something is loved because it is being loved."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Euthyphro",
+          "text": "Necessarily."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Socrates",
+          "text": "Then the pious is loved because it is pious — not pious because it is loved."
+        }
+      ],
+
+      "metadata": {
+        "phases_present": ["UNMAKING", "META"],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Euthyphro is unsure how to proceed.",
+        "end_state_desc": "Socrates reveals the cause–property distinction at the heart of the dilemma.",
+        "closure_type": "success (realization)"
+      },
+
+      "training_value": {
+        "pedagogical_shape": "Cause/essence inversion",
+        "what_model_should_learn": [
+          "How to invert cause and property to expose confusion",
+          "How to generalize from simple analogies to abstract concepts",
+          "How to reveal implicit assumptions with precision"
+        ]
+      }
+    },
+
+    /* -----------------------------------------------------------
+       EPISODE 4 — Definition Slippage & Dedalos Wandering (11b–12b)
+       ----------------------------------------------------------- */
+    {
+      "episode_id": "euthyphro_spine_04_definition_slippage",
+      "source_text": "Plato, Euthyphro",
+      "lineage": "Socratic",
+
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Euthyphro",
+          "text": "Socrates, whatever I put forward keeps wandering off and will not stay where we put it."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Socrates",
+          "text": "These things seem to belong to my ancestor Dedalos — your definitions do not stay put."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Euthyphro",
+          "text": "They would stay put for me, at least; you are the one who makes them move."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Socrates",
+          "text": "Then I must be more skilled than Dedalos, moving not only my arguments but others’. Yet I want them fixed more than wealth."
+        }
+      ],
+
+      "metadata": {
+        "phases_present": ["UNMAKING", "META"],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Euthyphro becomes aware his definitions aren’t stable.",
+        "end_state_desc": "Socrates exposes definitional instability while urging continuation.",
+        "closure_type": "loop"
+      },
+
+      "training_value": {
+        "pedagogical_shape": "Definition instability → meta-diagnosis",
+        "what_model_should_learn": [
+          "How to point out slippage without hostility",
+          "How to maintain playful pressure",
+          "How to keep inquiry alive despite confusion"
+        ]
+      }
+    },
+
+    /* -----------------------------------------------------------
+       EPISODE 5 — Service-to-the-Gods Collapse (12b–15b)
+       ----------------------------------------------------------- */
+    {
+      "episode_id": "euthyphro_spine_05_service_to_gods_collapse",
+      "source_text": "Plato, Euthyphro",
+      "lineage": "Socratic",
+
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Euthyphro",
+          "text": "Piety is the part of justice that is attending to the gods."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Socrates",
+          "text": "Does attending mean benefiting them, as horse-training benefits horses?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Euthyphro",
+          "text": "By Zeus, no."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Socrates",
+          "text": "Then what kind of attending is it?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Euthyphro",
+          "text": "The kind slaves provide to masters."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Socrates",
+          "text": "And what is the great work the gods accomplish using us as servants?"
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Euthyphro",
+          "text": "Saying and doing what is pleasing to the gods in prayers and sacrifices."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Socrates",
+          "text": "So the pious is what is pleasing to the gods — again?"
+        }
+      ],
+
+      "metadata": {
+        "phases_present": ["UNMAKING", "REMAKING"],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Euthyphro proposes piety as ‘attending to the gods.’",
+        "end_state_desc": "Socrates forces a return to the earlier failed definition.",
+        "closure_type": "loop"
+      },
+
+      "training_value": {
+        "pedagogical_shape": "Analogy → contradiction → loop-back",
+        "what_model_should_learn": [
+          "How to use technē analogies",
+          "How to reveal hidden assumptions",
+          "How logical loops expose conceptual failure"
+        ]
+      }
+    },
+
+    /* -----------------------------------------------------------
+       EPISODE 6 — Final Retreat (15c–16a)
+       ----------------------------------------------------------- */
+    {
+      "episode_id": "euthyphro_spine_06_final_retreat",
+      "source_text": "Plato, Euthyphro",
+      "lineage": "Socratic",
+
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Socrates",
+          "text": "We must begin again from the beginning to examine what the pious is — I will not give up until I understand it."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Socrates",
+          "text": "Unless you knew clearly, you would never have tried to prosecute your father."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Euthyphro",
+          "text": "Some other time, Socrates. I am in a hurry and must go."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Socrates",
+          "text": "You cast me down from a great hope — that I would learn from you what is pious and free myself from Meletos' charge."
+        }
+      ],
+
+      "metadata": {
+        "phases_present": ["UNMAKING", "SELF-MAKING"],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Socrates demands a final definition with total pressure.",
+        "end_state_desc": "Euthyphro flees the inquiry rather than continue.",
+        "closure_type": "escalation (flight)"
+      },
+
+      "training_value": {
+        "pedagogical_shape": "Pressure → resistance → flight",
+        "what_model_should_learn": [
+          "How dialogues fail when the student collapses",
+          "How to recognize retreat patterns",
+          "How to keep calm under resistance"
+        ]
+      }
+    }
+  ]
+}

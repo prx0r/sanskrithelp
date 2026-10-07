@@ -1,0 +1,1166 @@
+{
+  "episodes": [
+    {
+      "episode_id": "apology_20a_20c_callias_educator",
+      "source_text": "Plato’s Apology of Socrates",
+      "lineage": "Socratic",
+      "student_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "CALLIAS",
+          "text": "Quite so,",
+          "observable_student_behaviors": [
+            "agrees_to_premise"
+          ],
+          "behavior_tags": [
+            "cooperative_assent"
+          ],
+          "inferred_state": {
+            "reading": "mild_agreement",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 4,
+          "speaker": "CALLIAS",
+          "text": "Evenus, Socrates, from Paros: five minae.",
+          "observable_student_behaviors": [
+            "answers_question"
+          ],
+          "behavior_tags": [
+            "transactional_response"
+          ],
+          "inferred_state": {
+            "reading": "confident_resourcefulness",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "SOCRATES",
+          "text": "Callias, If your two sons had been born colts or calves, we would have been able to get and hire an overseer for them who could make the two of them noble and good in their appropriate virtue, and he would have been someone from among those skilled with horses or skilled in farming. But as it is, since they are two human beings, whom do you have in mind to get as an overseer for the two of them? Who is knowledgeable in such virtue, that of human being and citizen? For I suppose you have considered it, since you possess sons. Is there someone, or not?",
+          "observable_teaching_actions": [
+            "uses_craft_analogy",
+            "challenges_expertise"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Establishing a structural analogy between animal husbandry expertise and human virtue expertise.",
+          "function_id": "RM_01",
+          "classification_evidence": "Structural mapping: Horse/Colt expertise is used to define the rare expertise required for human virtue.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_03",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "conceptual_reification"
+          ],
+          "trap_notes": [
+            "The question implicitly attacks the idea that 'virtue' can be treated like a technical skill bought from an 'overseer'."
+          ],
+          "mechanism_shape": "structural_analogy",
+          "mechanism_comment": "Horses/Calves : Skilled Overseer :: Sons : Virtue Expert.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 2,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "Quite so,",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "SOCRATES",
+          "text": "Who, and where is he from, and for how much does he teach?",
+          "observable_teaching_actions": [
+            "presses_for_details",
+            "demands_concrete_price"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Reducing the noble claim of teaching virtue to a transactional, verifiable fact (fee/location).",
+          "function_id": "UM_03",
+          "classification_evidence": "Concrete grounding: Forcing Callias to ground the abstract 'virtue training' into literal transactional facts.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "shopping_mindset"
+          ],
+          "trap_notes": [
+            "Callias views virtue training as a market transaction."
+          ],
+          "mechanism_shape": "abstract_to_concrete_check",
+          "mechanism_comment": "Checks the price and location to verify the expert's existence.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 4,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "Evenus, Socrates, from Paros: five minae.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Socrates uses the analogy of craft expertise (horse training) to establish a standard for knowledge, then ironically forces the wealthy Callias to name the cheap sophist he hired to teach human virtue.",
+      "episode_insights": {
+        "key_pattern": "Structural Analogy (Colt/Calf) → Challenge for Human Expert → Concrete Grounding (Price/Place)",
+        "notes": [
+          "The turn is highly ironic: Socrates uses the lowest possible price point to attack the perceived value of the expertise.",
+          "Establishes Socrates's method of questioning authority and expertise."
+        ]
+      }
+    },
+    {
+      "episode_id": "apology_24d_25a_who_improves_youth",
+      "source_text": "Plato’s Apology of Socrates",
+      "lineage": "Socratic",
+      "student_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "MELETUS",
+          "text": "I do.",
+          "observable_student_behaviors": [
+            "affirms_care"
+          ],
+          "behavior_tags": [
+            "moral_righteousness"
+          ],
+          "inferred_state": {
+            "reading": "confident_self_regard",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 4,
+          "speaker": "MELETUS",
+          "text": "The laws.",
+          "observable_student_behaviors": [
+            "names_abstraction"
+          ],
+          "behavior_tags": [
+            "avoidance",
+            "imprecise_answer"
+          ],
+          "inferred_state": {
+            "reading": "initial_evasion",
+            "confidence": 0.85
+          },
+          "annotator_uncertainty": 0.15
+        },
+        {
+          "turn_index": 6,
+          "speaker": "MELETUS",
+          "text": "These men, Socrates, the judges.",
+          "observable_student_behaviors": [
+            "names_specific_group"
+          ],
+          "behavior_tags": [
+            "political_flattery"
+          ],
+          "inferred_state": {
+            "reading": "strategic_flattery",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 8,
+          "speaker": "MELETUS",
+          "text": "Very much so.",
+          "observable_student_behaviors": [
+            "affirms_assertion"
+          ],
+          "behavior_tags": [
+            "unquestioning_assent"
+          ],
+          "inferred_state": {
+            "reading": "following_Socrates's_lead",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 10,
+          "speaker": "MELETUS",
+          "text": "All of them.",
+          "observable_student_behaviors": [
+            "universalizes_claim"
+          ],
+          "behavior_tags": [
+            "amplification"
+          ],
+          "inferred_state": {
+            "reading": "trapped_by_overstatement",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 12,
+          "speaker": "MELETUS",
+          "text": "These too.",
+          "observable_student_behaviors": [
+            "agrees_to_expansion"
+          ],
+          "behavior_tags": [
+            "automatic_assent"
+          ],
+          "inferred_state": {
+            "reading": "loss_of_focus",
+            "confidence": 0.8
+          },
+          "annotator_uncertainty": 0.2
+        },
+        {
+          "turn_index": 14,
+          "speaker": "MELETUS",
+          "text": "The Councilmen too.",
+          "observable_student_behaviors": [
+            "agrees_to_expansion"
+          ],
+          "behavior_tags": [
+            "automatic_assent"
+          ],
+          "inferred_state": {
+            "reading": "loss_of_focus",
+            "confidence": 0.8
+          },
+          "annotator_uncertainty": 0.2
+        },
+        {
+          "turn_index": 16,
+          "speaker": "MELETUS",
+          "text": "Those too.",
+          "observable_student_behaviors": [
+            "agrees_to_expansion"
+          ],
+          "behavior_tags": [
+            "automatic_assent"
+          ],
+          "inferred_state": {
+            "reading": "loss_of_focus",
+            "confidence": 0.8
+          },
+          "annotator_uncertainty": 0.2
+        },
+        {
+          "turn_index": 18,
+          "speaker": "MELETUS",
+          "text": "I do say this, most vehemently.",
+          "observable_student_behaviors": [
+            "vehemently_affirms_absurdity"
+          ],
+          "behavior_tags": [
+            "final_entrapment"
+          ],
+          "inferred_state": {
+            "reading": "commitment_to_absurdity",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "SOCRATES",
+          "text": "Now come here, Meletus, tell me: do you not regard it as most important how the youth will be the best possible?",
+          "observable_teaching_actions": [
+            "establishes_premise",
+            "requests_affirmation"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Establishing the core moral premise (caring for the youth) to expose Meletus's subsequent failure to care.",
+          "function_id": "UM_02",
+          "classification_evidence": "Contradiction exposure: Setting up the 'caring' claim against the lack of knowledge.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "system_dynamics",
+          "mechanism_comment": "Establishing the priority in the moral system.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 2,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "I do.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "SOCRATES",
+          "text": "Come now, tell these men, who makes them better? For it is clear that you know, since you care, at least... Do you see, Meletus, that you are silent and have nothing to say? And yet does it not seem to be shameful to you, and a sufficient proof of just what I say, that you have never cared? But tell, my good man, who makes them better?",
+          "observable_teaching_actions": [
+            "demands_concrete_name",
+            "uses_silence_as_evidence",
+            "challenges_care"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Exposing the initial ignorance (lack of a name for the improver) which contradicts the claim of caring.",
+          "function_id": "UM_04",
+          "classification_evidence": "Abstraction strip: Demanding the concrete 'who' (human being), rather than an abstraction.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_03",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "vagueness"
+          ],
+          "trap_notes": [
+            "Meletus attempts to use silence to evade the contradiction."
+          ],
+          "mechanism_shape": "abstract_to_concrete_check",
+          "mechanism_comment": "Silence proves Meletus lacks the required concrete knowledge.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 4,
+            "reaction_label": "elaborates",
+            "evidence": "The laws.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 5,
+          "speaker": "SOCRATES",
+          "text": "But I am not asking this, best of men, but rather what human being is it who knows first of all this very thing, the laws?",
+          "observable_teaching_actions": [
+            "rejects_abstraction",
+            "forces_concrete_answer"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Rejecting the abstract answer ('laws') and forcing Meletus to name the human expert, moving toward the Reductio.",
+          "function_id": "UM_03",
+          "classification_evidence": "Concrete grounding: Refusing to accept the law and demanding the human expert who knows the law.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "semantic_fog"
+          ],
+          "trap_notes": [],
+          "mechanism_shape": "abstract_to_concrete_check",
+          "mechanism_comment": "Refocusing the query on agency.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 6,
+            "reaction_label": "elaborates",
+            "evidence": "These men, Socrates, the judges.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 7,
+          "speaker": "SOCRATES",
+          "text": "What are you saying, Meletus? Are these men here able to educate the young, and do they make them better?",
+          "observable_teaching_actions": [
+            "questions_universalization",
+            "tests_claim_validity"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Initiating the stepwise expansion leading to the universalizing absurdity.",
+          "function_id": "UM_03",
+          "classification_evidence": "Reductio extension: Testing the generalization of the 'improver' role to a large, non-expert group (the judges).",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Testing the assumption: Are the judges educators?",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 8,
+            "reaction_label": "elaborates",
+            "evidence": "Very much so.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 9,
+          "speaker": "SOCRATES",
+          "text": "All of them, or some of them, and some not?",
+          "observable_teaching_actions": [
+            "forces_universalization"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Forcing the quantitative claim to its extreme (All or Some).",
+          "function_id": "UM_03",
+          "classification_evidence": "Reductio extension: Forcing Meletus to commit to 'All' to expand the absurdity.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "threshold",
+          "mechanism_comment": "Pushing the claim past the threshold of believability (All).",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 10,
+            "reaction_label": "elaborates",
+            "evidence": "All of them.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 11,
+          "speaker": "SOCRATES",
+          "text": "Well said, by Hera, and you speak of a great abundance of benefiters. What then? Do the listeners here make them better or not?",
+          "observable_teaching_actions": [
+            "expands_scope",
+            "mocks_quantity"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Continuing the Reductio by expanding the improving population (from Judges to Listeners).",
+          "function_id": "UM_03",
+          "classification_evidence": "Reductio extension: Expanding the group of 'benefiters'.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "system_dynamics",
+          "mechanism_comment": "Testing the system's limits under universal positive feedback.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 12,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "These too.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 13,
+          "speaker": "SOCRATES",
+          "text": "And what about the Councilmen?",
+          "observable_teaching_actions": [
+            "expands_scope"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Continuing the Reductio (expanding to the Councilmen).",
+          "function_id": "UM_03",
+          "classification_evidence": "Reductio extension: Expanding the group of 'benefiters'.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "system_dynamics",
+          "mechanism_comment": "Testing the system's limits under universal positive feedback.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 14,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "The Councilmen too.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 15,
+          "speaker": "SOCRATES",
+          "text": "Well, Meletus, then surely those in the Assembly, the Assemblymen, do not corrupt the youth? Or do all those too make them better?",
+          "observable_teaching_actions": [
+            "expands_scope",
+            "forces_final_universalization"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Continuing the Reductio (expanding to the entire Assembly).",
+          "function_id": "UM_03",
+          "classification_evidence": "Reductio extension: Expanding the group of 'benefiters' to cover virtually all citizens.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "system_dynamics",
+          "mechanism_comment": "Testing the system's limits under universal positive feedback.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 16,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "Those too.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 17,
+          "speaker": "SOCRATES",
+          "text": "Then all the Athenians, as it appears, make them noble and good except me, and I alone corrupt them. Is this what you are saying?",
+          "observable_teaching_actions": [
+            "delivers_absurd_conclusion",
+            "isolates_self"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Final statement of the Reductio: the absurdity of everyone improving vs one person corrupting.",
+          "function_id": "UM_02",
+          "classification_evidence": "Contradiction exposure: Exposing the absurdity of the claim that one person could be the sole corrupting agent against universal benefiters.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "realism_trap"
+          ],
+          "trap_notes": [
+            "Meletus has affirmed a claim that defies common sense and experience."
+          ],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "The accusation collapses under the weight of universal counter-evidence.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 18,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "I do say this, most vehemently.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Socrates traps his accuser, Meletus, by forcing him to name the human agents who improve the youth. By stepwise expansion (Judges, Listeners, Councilmen, Assemblymen), Meletus is led to the absurd conclusion that every single Athenian citizen improves the youth, and Socrates alone corrupts them.",
+      "episode_insights": {
+        "key_pattern": "Premise Establishment (Caring) → Abstraction Rejection (Laws) → Reductio Ad Absurdum (Judges → All Athenians) → Contradiction Exposure",
+        "notes": [
+          "The power of the move is in getting Meletus to commit to the universalizer ('All of them').",
+          "The core Socratic idea that expertise is rare is set up against the democratic belief in universal competence."
+        ]
+      }
+    },
+    {
+      "episode_id": "apology_25a_25c_horse_analogy",
+      "source_text": "Plato’s Apology of Socrates",
+      "lineage": "Socratic",
+      "student_turns": [],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "SOCRATES",
+          "text": "You have charged me with great misfortune. Now answer me. Does it seem to you to be so also concerning horses? That all human beings make them better, while one certain one is the corrupter? Or is it wholly opposite to this, that one certain one is able to make them better—or very few, those skilled with horses—while the many, if they ever associate with horses and use them, corrupt them? Is this not so, Meletus, both concerning horses, and all the other animals?",
+          "observable_teaching_actions": [
+            "uses_craft_analogy",
+            "reverses_logic_of_accusation"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Building a structured analogy (horses) to argue that expertise is rare and generalized corruption is common.",
+          "function_id": "RM_01",
+          "classification_evidence": "Structural mapping: Horse training logic applied to human training logic.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "realism_trap"
+          ],
+          "trap_notes": [
+            "Meletus's claim defies common sense expertise (the many corrupt, the few improve)."
+          ],
+          "mechanism_shape": "structural_analogy",
+          "mechanism_comment": "Flipping the many/one dynamic.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 2,
+            "reaction_label": "elaborates",
+            "evidence": "Of course it is, altogether so, whether you and Anytus deny or affirm it.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "horse_analogy_many_one",
+            "shape": "expertise_inversion_analogy",
+            "canonical_candidate": false
+          }
+        },
+        {
+          "turn_index": 2,
+          "speaker": "SOCRATES",
+          "text": "Of course it is, altogether so, whether you and Anytus deny or affirm it. For it would be a great happiness for the young if one alone corrupts them, while the others benefit them. But in fact, Meletus, you have sufficiently displayed that you never yet gave an thought to the young.",
+          "observable_teaching_actions": [
+            "states_conclusion",
+            "attacks_accuser's_intent"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Exposing the contradiction between Meletus's claim of care and his lack of knowledge concerning youth improvement.",
+          "function_id": "UM_02",
+          "classification_evidence": "Contradiction exposure: Meletus's accusation contradicts obvious expertise/corrupting facts (the analogy).",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "looking_outward"
+          ],
+          "trap_notes": [
+            "Meletus's claim of 'caring' is dissolved by his display of ignorance."
+          ],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "The argument collapses Meletus's moral authority.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Socrates argues that Meletus's claim (one corrupts, many improve) is absurd by using the universally accepted horse analogy, where the few experts improve animals while the many corrupt them.",
+      "episode_insights": {
+        "key_pattern": "Analogy Establishment (Few Improve/Many Corrupt) → Structural Mapping to Youth → Conclusion (Accuser's Ignorance)",
+        "notes": [
+          "Uses the certainty of craft knowledge to undermine the uncertainty of political/moral claims.",
+          "The monologue style in T2 implies Meletus refused to answer, so Socrates affirms the logic himself."
+        ]
+      }
+    },
+    {
+      "episode_id": "apology_25c_26a_voluntary_harm",
+      "source_text": "Plato’s Apology of Socrates",
+      "lineage": "Socratic",
+      "student_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "MELETUS",
+          "text": "Quite so.",
+          "observable_student_behaviors": [
+            "agrees_to_premise"
+          ],
+          "behavior_tags": [
+            "universal_assent"
+          ],
+          "inferred_state": {
+            "reading": "cooperative_agreement",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 4,
+          "speaker": "MELETUS",
+          "text": "Of course not.",
+          "observable_student_behaviors": [
+            "agrees_to_impossibility"
+          ],
+          "behavior_tags": [
+            "self_interest_principle"
+          ],
+          "inferred_state": {
+            "reading": "commitment_to_safety",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 6,
+          "speaker": "MELETUS",
+          "text": "Voluntarily, I say.",
+          "observable_student_behaviors": [
+            "asserts_malicious_intent"
+          ],
+          "behavior_tags": [
+            "accusation"
+          ],
+          "inferred_state": {
+            "reading": "commitment_to_accusation",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "SOCRATES",
+          "text": "But tell us further, Meletus, before Zeus, whether it is better to dwell among upright citizens or villainous ones? Sir, answer. For surely I am asking nothing hard. Do not the villainous do something bad to whoever are nearest to them, while the good do something good?",
+          "observable_teaching_actions": [
+            "establishes_premise",
+            "requests_binary_choice"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Establishing the universal principle of self-interest (no one wants bad neighbors/harm).",
+          "function_id": "RM_03",
+          "classification_evidence": "Conceptual distinction: Villainous (harm) vs Upright (good).",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Villainous citizens cause bad consequences for neighbors.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 2,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "Quite so.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "SOCRATES",
+          "text": "Is there anyone, then, who wishes to be harmed by those he associates with, rather than to be benefited? Keep answering, my good man. For the law orders you to answer. Is there anyone who wishes to be harmed?",
+          "observable_teaching_actions": [
+            "universalizes_principle",
+            "forces_assent"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Universalizing the self-interest principle: no one wants harm.",
+          "function_id": "RM_03",
+          "classification_evidence": "Conceptual distinction: Distinguishing 'wishing to be harmed' (impossible) from 'wishing to be benefited'.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "system_dynamics",
+          "mechanism_comment": "Testing the universal law of psychological motivation.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 4,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "Of course not.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 5,
+          "speaker": "SOCRATES",
+          "text": "Come then, do you bring me in here saying that I voluntarily corrupt the young and make them more villainous, or involuntarily?",
+          "observable_teaching_actions": [
+            "forces_accusation_choice"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Forcing Meletus to commit to the impossible claim (voluntary corruption).",
+          "function_id": "UM_02",
+          "classification_evidence": "Contradiction exposure: Setting the stage for the syllogism's collapse.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "threshold",
+          "mechanism_comment": "Forcing commitment to the specific moral charge.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 6,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "Voluntarily, I say.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 7,
+          "speaker": "SOCRATES",
+          "text": "What then, Meletus? Are you so much wiser at your age than I at mine, that you have become cognizant that the bad always do something bad to those who are closest to them, and the good do something good; whereas I have come into so much ignorance that I am not even cognizant that if I ever do something wretched to any of my associates, I will risk getting back something bad from him? So that I do so much bad voluntarily, as you assert? Of this I am not convinced by you, Meletus, nor, do I suppose, is any other human being. But either I do not corrupt, or if I do corrupt, I do it involuntarily, so in both cases what you say is false.",
+          "observable_teaching_actions": [
+            "completes_syllogism",
+            "proves_impossibility",
+            "reverses_wisdom_claim"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Final exposure of the contradiction: voluntary corruption is impossible due to the risk of reciprocal harm.",
+          "function_id": "UM_02",
+          "classification_evidence": "Contradiction exposure: Syllogism 1 (No one wants harm) contradicts Syllogism 2 (Socrates voluntarily risks harm).",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "realism_trap"
+          ],
+          "trap_notes": [
+            "Meletus's claim of voluntary harm defies common sense motivation."
+          ],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "If corruption is voluntary, harm is risked; harm is not risked; therefore, corruption is not voluntary.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Socrates proves that the accusation of 'voluntary corruption' is impossible. Since no one wishes to be harmed by their neighbors, no one would willingly create villainous people nearby (by corrupting them), as this would risk reciprocal harm.",
+      "episode_insights": {
+        "key_pattern": "Premise (No one wants harm) → Forced Accusation (Voluntary Harm) → Syllogistic Collapse (Impossibility of Voluntary Harm)",
+        "notes": [
+          "Socratic axiom: All wrongdoing is due to involuntary ignorance, not voluntary malice.",
+          "The structural focus is on reciprocal harm and self-interest."
+        ]
+      }
+    },
+    {
+      "episode_id": "apology_27b_27e_daimonia_trap",
+      "source_text": "Plato’s Apology of Socrates",
+      "lineage": "Socratic",
+      "student_turns": [
+        {
+          "turn_index": 3,
+          "speaker": "MELETUS",
+          "text": "There is not.",
+          "observable_student_behaviors": [
+            "agrees_to_impossibility"
+          ],
+          "behavior_tags": [
+            "logical_assent"
+          ],
+          "inferred_state": {
+            "reading": "trapped_by_logic",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 6,
+          "speaker": "MELETUS",
+          "text": "Quite so.",
+          "observable_student_behaviors": [
+            "agrees_to_premise"
+          ],
+          "behavior_tags": [
+            "logical_assent"
+          ],
+          "inferred_state": {
+            "reading": "trapped_by_logic",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "SOCRATES",
+          "text": "Is there any human being, Meletus, who believes that there are human matters, but does not believe in human beings?",
+          "observable_teaching_actions": [
+            "establishes_analogy_premise"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Establishing the rule that 'matters of X' implies the existence of 'X'.",
+          "function_id": "RM_01",
+          "classification_evidence": "Structural mapping: Setting up the logical equivalence (Human Matters $\\iff$ Human Beings).",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "structural_analogy",
+          "mechanism_comment": "Establishing the ontological link between the quality and the substance.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 2,
+            "reaction_label": "elaborates",
+            "evidence": "Is there anyone who does not believe in horses, but believes in horse-matters?",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 2,
+          "speaker": "SOCRATES",
+          "text": "Is there anyone who does not believe in horses, but believes in horse-matters? Or anyone who does not believe in flute-players, but believes in flute-matters? There is not, best of men... But at least answer what comes next. Is there anyone who believes that there are daimonic matters, but does not believe in daimons?",
+          "observable_teaching_actions": [
+            "extends_analogy",
+            "applies_trap"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Extending the analogy to the core point (daimonic matters) and forcing assent to the non-existence claim.",
+          "function_id": "RM_01",
+          "classification_evidence": "Structural mapping: Extending the logical chain to Daimonic Matters $\\iff$ Daimons.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "structural_analogy",
+          "mechanism_comment": "Expanding the analogical set.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 3,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "There is not.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "SOCRATES",
+          "text": "How helpful you were by answering reluctantly when compelled by these men! Now then, you say that I believe in and teach daimonia; so whether they are novel or ancient, at any rate I do believe in daimonia according to your speech... But if I believe in daimonia, then surely there is also a great necessity that I believe in daimons. Is this not so?",
+          "observable_teaching_actions": [
+            "mocks_reluctance",
+            "completes_logical_chain"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Completing the trap: belief in 'daimonia' necessitates belief in 'daimons'.",
+          "function_id": "UM_02",
+          "classification_evidence": "Contradiction exposure: Meletus's charge (Daimonia) contradicts his other charge (Atheism).",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "false_paradox"
+          ],
+          "trap_notes": [
+            "Meletus has trapped himself in a logical paradox."
+          ],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Daimonia $\\rightarrow$ Daimons $\\rightarrow$ God/Children of God.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 5,
+            "reaction_label": "elaborates",
+            "evidence": "And do we not believe that daimons are either gods or children of gods?",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 7,
+          "speaker": "SOCRATES",
+          "text": "Therefore if I do believe in daimons, as you say, and if, on the one hand, daimons are gods of some sort, then this would be what I say you are riddling and jesting about, when you say that I do not believe in gods, and again that I believe in gods, since in fact I do believe in daimons. On the other hand, if daimons are certain bastard children of gods... then what human being would believe that there are children of gods, but not gods?",
+          "observable_teaching_actions": [
+            "states_final_dilemma",
+            "exposes_illogicality"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Final exposure of the contradiction: Meletus's two charges are mutually exclusive.",
+          "function_id": "UM_02",
+          "classification_evidence": "Contradiction exposure: The two branches of the dilemma (daimons as gods or children of gods) both lead to the conclusion that Socrates is not an atheist.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "false_paradox"
+          ],
+          "trap_notes": [
+            "Meletus's original charge is revealed to be a senseless paradox."
+          ],
+          "mechanism_shape": "system_dynamics",
+          "mechanism_comment": "Closing the system by forcing a logically impossible state.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "matters_of_x_trap",
+            "shape": "ontological_necessity_syllogism",
+            "canonical_candidate": false
+          }
+        }
+      ],
+      "episode_overview": "Socrates proves that Meletus's charge of atheism is impossible, arguing that belief in 'daimonic matters' (which Meletus charged him with) necessarily implies belief in 'daimons,' which are gods or children of gods, thus disproving the atheism charge.",
+      "episode_insights": {
+        "key_pattern": "Analogy Establishment (Matters of X $\\iff$ X) → Logical Extension to Daimonia → Contradiction Exposure (Atheism/Heresy Paradox)",
+        "notes": [
+          "A foundational Socratic move: challenging the ontological assumptions behind the accuser's language.",
+          "The move disarms the legal charge by proving it is logically inconsistent."
+        ]
+      }
+    }
+  ]
+}

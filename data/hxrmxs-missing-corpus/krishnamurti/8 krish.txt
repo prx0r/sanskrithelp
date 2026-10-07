@@ -1,0 +1,244 @@
+🔥 BEGIN BATCH 1 (5 EPISODES) — PURE JSON BELOW
+{
+  "episodes": [
+    {
+      "episode_id": "krishna_001_t01_t11_hopeless_ideal",
+      "source_text": "Commentaries On Living Series 1",
+      "lineage": "Krishnamurti",
+
+      "transcript": [
+        { "turn_index": 1, "speaker": "Visitor", "text": "Don’t answer, just listen. Do you feel incapable of becoming somebody?" },
+        { "turn_index": 2, "speaker": "Krishnamurti", "text": "Probably you have a religious ideal; and do you feel you have not the capacity to live up to or achieve it? Do you feel a sense of hopelessness about it, a sense of guilt or frustration?" },
+        { "turn_index": 3, "speaker": "Visitor", "text": "You are perfectly right. Ever since I heard you some years ago as a boy, it has been my ideal, if I may say so, to be like you. It’s in our blood to be religious, and I have felt I could be like that; but there has always been a deep fear of never coming near it." },
+        { "turn_index": 4, "speaker": "Krishnamurti", "text": "Let us go slowly. Though you are not frightened of being outwardly insecure, you are frightened of being insecure inwardly." },
+        { "turn_index": 5, "speaker": "Krishnamurti", "text": "Why do you want to become or achieve an ideal? Isn’t it only to be secure, to feel safe?" },
+        { "turn_index": 6, "speaker": "Krishnamurti", "text": "This refuge you call an ideal; but actually you want to be safe, protected. Is that it?" },
+        { "turn_index": 7, "speaker": "Visitor", "text": "Now that you point it out, that is exactly it." },
+        { "turn_index": 8, "speaker": "Krishnamurti", "text": "You have discovered this now, have you not? But let us proceed further." },
+        { "turn_index": 9, "speaker": "Krishnamurti", "text": "You see the obvious shallowness of outward security; but do you also see the falseness of seeking inward security through becoming the ideal?" },
+        { "turn_index": 10, "speaker": "Krishnamurti", "text": "The ideal is your refuge, instead of money. Do you really see this?" },
+        { "turn_index": 11, "speaker": "Visitor", "text": "Yes, I really do." }
+      ],
+
+      "metadata": {
+        "phases_present": ["UNMAKING", "REMAKING"],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Visitor feels guilty, inadequate, striving to achieve a spiritual ideal.",
+        "end_state_desc": "Visitor realizes ideal-seeking is a search for inward security, not truth.",
+        "closure_type": "success"
+      },
+
+      "training_value": {
+        "pedagogical_shape": "Emotional unmasking via reframing idealism as fear-driven security-seeking.",
+        "what_model_should_learn": [
+          "How to dissolve a user’s self-image of spiritual aspiration into the underlying fear structure.",
+          "How to reveal the emotional motive beneath an ideal without attacking the person."
+        ]
+      },
+
+      "source_location": {
+        "page_number": "206",
+        "section": "CHAPTER 85 – ‘SECURITY’",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+
+
+    {
+      "episode_id": "krishna_002_t01_t12_desire_conflict_loop",
+      "source_text": "Commentaries On Living Series 1",
+      "lineage": "Krishnamurti",
+
+      "transcript": [
+        { "turn_index": 1, "speaker": "Visitor", "text": "Both pleasure and conflict are disturbing, are they not?" },
+        { "turn_index": 2, "speaker": "Visitor", "text": "Or do you think pleasure does not disturb?" },
+        { "turn_index": 3, "speaker": "Krishnamurti", "text": "Is that true? Have you never noticed the pain of pleasure?" },
+        { "turn_index": 4, "speaker": "Krishnamurti", "text": "Is not the craving for pleasure ever on the increase, ever demanding more and more?" },
+        { "turn_index": 5, "speaker": "Krishnamurti", "text": "Is not the craving for more as disturbing as the urgency of avoidance?" },
+        { "turn_index": 6, "speaker": "Visitor", "text": "If we have no desire we will die; if we have no conflict we will go to sleep." },
+        { "turn_index": 7, "speaker": "Krishnamurti", "text": "Are you speaking from experience, or have you merely an idea about it?" },
+        { "turn_index": 8, "speaker": "Krishnamurti", "text": "We are imagining what it would be like to have no conflict and so are preventing the experiencing of whatever that state is in which all conflict has ceased." },
+        { "turn_index": 9, "speaker": "Krishnamurti", "text": "Our problem is, what causes conflict?" },
+        { "turn_index": 10, "speaker": "Visitor", "text": "In this process, what is it that gives rise to conflict? Can we be free from conflict? And what is beyond conflict?" },
+        { "turn_index": 11, "speaker": "Krishnamurti", "text": "It is naming that gives rise to conflict, is it not?" },
+        { "turn_index": 12, "speaker": "Krishnamurti", "text": "The interval between response and naming is experiencing. Experiencing, in which there is neither the experiencer nor the experienced, is beyond conflict." }
+      ],
+
+      "metadata": {
+        "phases_present": ["REMAKING", "UNMAKING"],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "Visitor asserts conflict is necessary and pleasure harmless.",
+        "end_state_desc": "Visitor is pushed toward understanding naming as the root of conflict.",
+        "closure_type": "success"
+      },
+
+      "training_value": {
+        "pedagogical_shape": "Causal dismantling of psychological conflict by exposing the naming process.",
+        "what_model_should_learn": [
+          "How to shift a user from conceptual opinions to phenomenological observation.",
+          "How to map a user’s emotional confusion onto a precise causal sequence."
+        ]
+      },
+
+      "source_location": {
+        "page_number": "145–146",
+        "section": "CHAPTER 65 – ‘DESIRE AND CONFLICT’",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+
+
+    {
+      "episode_id": "krishna_003_t01_t10_dissatisfaction_reframed",
+      "source_text": "Commentaries On Living Series 1",
+      "lineage": "Krishnamurti",
+
+      "transcript": [
+        { "turn_index": 1, "speaker": "Doctor", "text": "I have been through all that yet I am completely dissatisfied." },
+        { "turn_index": 2, "speaker": "Krishnamurti", "text": "You may be dissatisfied with outward relationships, but perhaps you are seeking some psychological attachment that will give full satisfaction." },
+        { "turn_index": 3, "speaker": "Doctor", "text": "I have been through that too, but I am still dissatisfied." },
+        { "turn_index": 4, "speaker": "Krishnamurti", "text": "I wonder if you really are?" },
+        { "turn_index": 5, "speaker": "Krishnamurti", "text": "If you were wholly discontented, there would be no movement in any particular direction, would there?" },
+        { "turn_index": 6, "speaker": "Krishnamurti", "text": "If you are thoroughly dissatisfied with being in a room, you do not seek a bigger room with nicer furniture; yet this desire to find a better room is what you call dissatisfaction." },
+        { "turn_index": 7, "speaker": "Krishnamurti", "text": "Your dissatisfaction arises from not having found complete satisfaction." },
+        { "turn_index": 8, "speaker": "Doctor", "text": "It looks that way, doesn’t it?" },
+        { "turn_index": 9, "speaker": "Krishnamurti", "text": "So you are really not dissatisfied; it is simply that you have not so far been able to find complete and lasting satisfaction in anything." },
+        { "turn_index": 10, "speaker": "Krishnamurti", "text": "What you really want is lasting self-gratification." }
+      ],
+
+      "metadata": {
+        "phases_present": ["UNMAKING"],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Doctor claims global existential dissatisfaction.",
+        "end_state_desc": "Doctor realizes he is actually seeking gratification, not truth.",
+        "closure_type": "success"
+      },
+
+      "training_value": {
+        "pedagogical_shape": "Reframing existential discontent as disguised craving.",
+        "what_model_should_learn": [
+          "How to expose when a user’s high-minded suffering is actually masked desire.",
+          "How to collapse an abstract emotional claim into a concrete underlying motive."
+        ]
+      },
+
+      "source_location": {
+        "page_number": "184",
+        "section": "CHAPTER 78 – ‘SATISFACTION’",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+
+
+    {
+      "episode_id": "krishna_004_t01_t13_attachment_exploitation",
+      "source_text": "Commentaries On Living Series 1",
+      "lineage": "Krishnamurti",
+
+      "transcript": [
+        { "turn_index": 1, "speaker": "Man", "text": "Why shouldn’t I be exploited? I don’t mind being used for the cause, which has great significance, and I want to be completely identified with it." },
+        { "turn_index": 2, "speaker": "Man", "text": "But I have a problem of personal attachment which distracts me from the work. It is this attachment I want to understand." },
+        { "turn_index": 3, "speaker": "Krishnamurti", "text": "But why should you be exploited? Are you not as important as the individual or the group that is exploiting you?" },
+        { "turn_index": 4, "speaker": "Man", "text": "I don’t mind being exploited for the cause, which I consider has great beauty and worth in the world." },
+        { "turn_index": 5, "speaker": "Man", "text": "Those with whom I work are spiritual people with high ideals, and they know better than I do what should be done." },
+        { "turn_index": 6, "speaker": "Krishnamurti", "text": "Why do you think they are more capable of doing good than you are?" },
+        { "turn_index": 7, "speaker": "Krishnamurti", "text": "How do you know they are ‘spiritual,’ to use your own word, and have wider vision?" },
+        { "turn_index": 8, "speaker": "Man", "text": "It is a beautiful cause, and I offered my services because I felt that I must help it." },
+        { "turn_index": 9, "speaker": "Krishnamurti", "text": "You are like those men who join the army to kill or to be killed for a noble cause. Do they know what they are doing?" },
+        { "turn_index": 10, "speaker": "Krishnamurti", "text": "Do you know what you are doing?" },
+        { "turn_index": 11, "speaker": "Man", "text": "Of course you are right. I was in the army for four years during the last war." },
+        { "turn_index": 12, "speaker": "Man", "text": "But the people I am helping now are spiritual." },
+        { "turn_index": 13, "speaker": "Krishnamurti", "text": "Is it beautiful to be ambitious and cover it up with a lot of high-sounding words about Masters, humanity, art, brotherhood?" }
+      ],
+
+      "metadata": {
+        "phases_present": ["UNMAKING"],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Man proudly identifies with being exploited for a noble cause.",
+        "end_state_desc": "Man begins to see his idealism is mixed with ambition and self-deception.",
+        "closure_type": "success"
+      },
+
+      "training_value": {
+        "pedagogical_shape": "Exposure of masked ambition and exploitation disguised as devotion.",
+        "what_model_should_learn": [
+          "How to dismantle a user’s noble self-narrative without humiliation.",
+          "How to reveal the hidden power dynamics and ego motives beneath idealistic language."
+        ]
+      },
+
+      "source_location": {
+        "page_number": "171",
+        "section": "CHAPTER 74 – ‘EXPLOITATION AND ACTIVITY’",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+
+
+    {
+      "episode_id": "krishna_005_t01_t11_fear_loneliness_observer_observed",
+      "source_text": "Commentaries On Living Series 1",
+      "lineage": "Krishnamurti",
+
+      "transcript": [
+        { "turn_index": 1, "speaker": "Visitor", "text": "I see that all right, and it is true; but what am I to do about it?" },
+        { "turn_index": 2, "speaker": "Krishnamurti", "text": "You cannot do anything about it. Whatever you do is an activity of escape." },
+        { "turn_index": 3, "speaker": "Krishnamurti", "text": "Then you will see that you are not different or separate from that hollowness." },
+        { "turn_index": 4, "speaker": "Krishnamurti", "text": "You are that insufficiency. The observer is the observed emptiness." },
+        { "turn_index": 5, "speaker": "Krishnamurti", "text": "Then if you proceed further, there is no longer calling it loneliness; the terming of it has ceased." },
+        { "turn_index": 6, "speaker": "Krishnamurti", "text": "If you proceed still further, which is rather arduous, the thing known as loneliness is not." },
+        { "turn_index": 7, "speaker": "Krishnamurti", "text": "There is a complete cessation of loneliness, emptiness, of the thinker as the thought." },
+        { "turn_index": 8, "speaker": "Visitor", "text": "Then what is love?" },
+        { "turn_index": 9, "speaker": "Krishnamurti", "text": "Love is not identification; it is not thought about the loved." },
+        { "turn_index": 10, "speaker": "Krishnamurti", "text": "You do not think about love when it is there; you think about it only when it is absent." },
+        { "turn_index": 11, "speaker": "Krishnamurti", "text": "When the smoke is not, the flame is. The two cannot exist together." }
+      ],
+
+      "metadata": {
+        "phases_present": ["SELF-MAKING", "REMAKING"],
+        "dominant_phase": "SELF-MAKING",
+        "start_state_desc": "Visitor wants a method to escape loneliness and insufficiency.",
+        "end_state_desc": "Visitor is led to the direct insight that the observer is the observed.",
+        "closure_type": "success"
+      },
+
+      "training_value": {
+        "pedagogical_shape": "Ontological pivot from ‘me vs. my emotions’ to observer–observed identity collapse.",
+        "what_model_should_learn": [
+          "How to dissolve the user’s search for a method into direct self-perception.",
+          "How to pivot from emotional suffering to non-dual experiential insight."
+        ]
+      },
+
+      "source_location": {
+        "page_number": "169–170",
+        "section": "CHAPTER 73 – ‘FEAR AND ESCAPE’",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    }
+  ],
+
+  "discard_log": [
+    "Skipped narrative descriptions with no dialogue.",
+    "Skipped monologues without interlocutor resistance.",
+    "Skipped low-value social pleasantries before emotional disclosure."
+  ],
+
+  "extraction_stats": {
+    "total_episodes": 5,
+    "turn_count_distribution": {
+      "2-4": 0,
+      "5-7": 2,
+      "8-10": 2,
+      "11-14": 1
+    },
+    "avg_turns_per_episode": 9.4
+  },
+
+  "extraction_confidence": "high"
+}

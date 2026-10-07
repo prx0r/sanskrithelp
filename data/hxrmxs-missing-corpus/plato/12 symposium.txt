@@ -1,0 +1,476 @@
+{
+  "episodes": [
+    {
+      "episode_id": "symposium_t2675_t2712_agathon_refutation",
+      "source_text": "symposium.txt",
+      "lineage": "Socratic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "SOCRATES",
+          "text": "And as you have spoken so eloquently of his nature, may I ask you further, Whether love is the love of something or of nothing?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "AGATHON",
+          "text": "Of something, surely."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "SOCRATES",
+          "text": "Keep in mind what this is, and tell me what I want to know — whether Love desires that of which love is."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "AGATHON",
+          "text": "Yes, surely."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "SOCRATES",
+          "text": "And does he possess, or does he not possess, that which he loves and desires?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "AGATHON",
+          "text": "Probably not, I should say."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "SOCRATES",
+          "text": "Nay, replied Socrates, I would have you consider whether “necessarily” is not rather the word. The inference that he who desires something is in want of something, and that he who desires nothing is in want of nothing, is in my judgment, Agathon absolutely and necessarily true. What do you think?"
+        },
+        {
+          "turn_index": 8,
+          "speaker": "AGATHON",
+          "text": "I agree with you."
+        },
+        {
+          "turn_index": 9,
+          "speaker": "SOCRATES",
+          "text": "Then Love wants and has not beauty?"
+        },
+        {
+          "turn_index": 10,
+          "speaker": "AGATHON",
+          "text": "Certainly."
+        },
+        {
+          "turn_index": 11,
+          "speaker": "SOCRATES",
+          "text": "And would you call that beautiful which wants and does not possess beauty?"
+        },
+        {
+          "turn_index": 12,
+          "speaker": "AGATHON",
+          "text": "Certainly not."
+        },
+        {
+          "turn_index": 13,
+          "speaker": "SOCRATES",
+          "text": "Then would you still say that love is beautiful?"
+        },
+        {
+          "turn_index": 14,
+          "speaker": "AGATHON",
+          "text": "I fear that I did not understand what I was saying."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Agathon has just given a flowery speech claiming Love is beautiful, young, and perfect.",
+        "end_state_desc": "Agathon admits total ignorance/contradiction: Love cannot be beautiful if it *desires* beauty (implies lack).",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Logical Elenchus: Dismantling a poetic definition by exposing the inherent lack in 'desire'.",
+        "what_model_should_learn": [
+          "How to use the logic of 'desire implies lack' to dismantle positive attributions.",
+          "The pattern of forcing a student to admit 'I did not understand what I was saying'."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "source: 2675-2712",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "symposium_t2723_t2733_intermediate_nature",
+      "source_text": "symposium.txt",
+      "lineage": "Socratic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "SOCRATES",
+          "text": "Well, Love is surely admitted by all to be a great god."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "DIOTIMA",
+          "text": "By those who know or by those who do not know?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "SOCRATES",
+          "text": "By all."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "DIOTIMA",
+          "text": "And how, Socrates, can Love be acknowledged to be a great god by those who say that he is not a god at all?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "SOCRATES",
+          "text": "And who are they?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "DIOTIMA",
+          "text": "You and I are two of them."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "SOCRATES",
+          "text": "How can that be?"
+        },
+        {
+          "turn_index": 8,
+          "speaker": "DIOTIMA",
+          "text": "It is quite intelligible... you admitted that Love, because he was in want, desires those good and fair things of which he is in want? ... But how can he be a god who has no portion in what is either good or fair?"
+        },
+        {
+          "turn_index": 9,
+          "speaker": "SOCRATES",
+          "text": "Impossible. What then is Love? Is he mortal?"
+        },
+        {
+          "turn_index": 10,
+          "speaker": "DIOTIMA",
+          "text": "No... As in the former instance, he is neither mortal nor immortal, but in a mean between the two... He is a great spirit (daimon), and like all spirits he is intermediate between the divine and the mortal."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "REMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "Socrates assumes Love is a God (binary thinking: mortal or immortal).",
+        "end_state_desc": "Diotima introduces the 'Intermediate' (metaxy) category: Love is a spirit (daimon) bridging the gap.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Introduction of the Third Category: Breaking a binary (God/Mortal) to introduce the Mediator/Spirit.",
+        "what_model_should_learn": [
+          "How to guide a student out of binary thinking by introducing a 'mean' or 'intermediate' state.",
+          "The concept of Love as a 'bridge' or 'interpreter' rather than a destination."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "source: 2723-2733",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "symposium_t2750_t2756_ignorance_vs_wisdom",
+      "source_text": "symposium.txt",
+      "lineage": "Socratic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "DIOTIMA",
+          "text": "The truth of the matter is this: No god is a philosopher or seeker after wisdom, for he is wise already; nor does any man who is wise seek after wisdom. Neither do the ignorant seek after Wisdom. For herein is the evil of ignorance, that he who is neither good nor wise is nevertheless satisfied with himself: he has no desire for that of which he feels no want."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "SOCRATES",
+          "text": "But — who then, Diotima, are the lovers of wisdom, if they are neither the wise nor the foolish?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "DIOTIMA",
+          "text": "A child may answer that question; they are those who are in a mean between the two; Love is one of them. For wisdom is a most beautiful thing, and Love is of the beautiful; and therefore Love is also a philosopher: or lover of wisdom, and being a lover of wisdom is in a mean between the wise and the ignorant."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING",
+          "META"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "Socrates is puzzled about who seeks wisdom if both the wise (have it) and ignorant (don't want it) are excluded.",
+        "end_state_desc": "Diotima defines the Philosopher as the 'Intermediate'—aware of lack but desiring fullness.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Definition of the Seeker: The learner must be 'between'—aware of lack but not content with it.",
+        "what_model_should_learn": [
+          "How to define the 'student state' as distinct from ignorance (satisfaction) and wisdom (possession).",
+          "The paradox that only those who 'feel the want' can seek."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "source: 2750-2756",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "symposium_t2797_t2801_birth_in_beauty",
+      "source_text": "symposium.txt",
+      "lineage": "Socratic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "DIOTIMA",
+          "text": "I mean to say, that all men are bringing to the birth in their bodies and in their souls... Beauty, then, is the destiny or goddess of parturition who presides at birth, and therefore, when approaching beauty, the conceiving power is propitious... and begets and bears fruit: at the sight of ugliness she frowns and contracts... For love, Socrates, is not, as you imagine, the love of the beautiful only."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "SOCRATES",
+          "text": "What then?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "DIOTIMA",
+          "text": "The love of generation and of birth in beauty."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "SOCRATES",
+          "text": "Yes."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "DIOTIMA",
+          "text": "But why of generation? Because to the mortal creature, generation is a sort of eternity and immortality... all men will necessarily desire immortality together with good: Wherefore love is of immortality."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "Socrates thinks Love is just loving beauty (aesthetic appreciation).",
+        "end_state_desc": "Diotima corrects him: Love is the drive to *produce* or *generate* in beauty, as a bid for immortality.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Shift from Consumption to Production: Love is not 'enjoying X' but 'birthing Y in the presence of X'.",
+        "what_model_should_learn": [
+          "How to reframe 'appreciation' into 'generation/creation'.",
+          "Linking desire for beauty to the desire for immortality."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "source: 2797-2801",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "symposium_t2837_t2846_ladder_of_ascent",
+      "source_text": "symposium.txt",
+      "lineage": "Socratic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "DIOTIMA",
+          "text": "He who would proceed aright in this matter should begin in youth to visit beautiful forms... soon he will of himself perceive that the beauty of one form is akin to the beauty of another... and will become a lover of all beautiful forms; in the next stage he will consider that the beauty of the mind is more honourable than the beauty of the outward form."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "DIOTIMA",
+          "text": "Until he is compelled to contemplate and see the beauty of institutions and laws... and after laws and institutions he will go on to the sciences, that he may see their beauty... until on that shore he grows and waxes strong, and at last the vision is revealed to him of a single science, which is the science of beauty everywhere."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "DIOTIMA",
+          "text": "He who has been instructed thus far... will suddenly perceive a nature of wondrous beauty... beauty absolute, separate, simple, and everlasting... This, my dear Socrates, is that life above all others which man should live."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING",
+          "SELF-MAKING"
+        ],
+        "dominant_phase": "SELF-MAKING",
+        "start_state_desc": "Socrates is being led through the final initiation (Lesser Mysteries to Greater Mysteries).",
+        "end_state_desc": "Diotima maps the entire ascent: Body -> Bodies -> Souls -> Laws -> Sciences -> Absolute Beauty.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "The Ascent (Anagogic): Mapping the step-by-step abstraction from particular desire to universal principle.",
+        "what_model_should_learn": [
+          "How to structure a 'ladder of learning' (Particular -> General -> Universal).",
+          "The move from 'loving one' to 'loving all' to 'loving the source'."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "source: 2837-2846",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "symposium_t2898_t2912_alcibiades_praise",
+      "source_text": "symposium.txt",
+      "lineage": "Socratic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "ALCIBIADES",
+          "text": "I say, that he is exactly like the busts of Silenus... which are made to open in the middle, and have images of gods inside them. I say also that he is like Marsyas the satyr. You yourself will not deny, Socrates, that your face is like that of a satyr."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "ALCIBIADES",
+          "text": "But you produce the same effect with your words only... the mere fragments of you and your words, even at second-hand, and however imperfectly repeated, amaze and possess the souls of every man, woman, and child who comes within hearing of them."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "ALCIBIADES",
+          "text": "And if I were not afraid that you would think me hopelessly drunk, I would have sworn as well as spoken to the influence which they have always had and still have over me. For my heart leaps within me more than that of any Corybantian reveller, and my eyes rain tears when I hear them."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING",
+          "META"
+        ],
+        "dominant_phase": "META",
+        "start_state_desc": "Alcibiades, drunk, offers a 'praise' of Socrates that starts as an insult (Silenus/Satyr).",
+        "end_state_desc": "He reveals the inner reality: Socrates' outer ugliness hides inner divine images. His words compel shame and awe.",
+        "closure_type": "shock"
+      },
+      "training_value": {
+        "pedagogical_shape": "The Grotesque Teacher: Using the contrast between outer ugliness/roughness and inner divinity to describe the true teacher.",
+        "what_model_should_learn": [
+          "How to handle/describe the 'Socratic effect' (shame, heartbeat, tears) as a sign of philosophical impact.",
+          "The metaphor of the Silenus statue (Ugly Outside / God Inside)."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "source: 2898-2912",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "symposium_t2959_t2966_gold_for_brass",
+      "source_text": "symposium.txt",
+      "lineage": "Socratic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "ALCIBIADES",
+          "text": "I come to lay at your feet all that I have... in the hope that you will assist me in the way of virtue... I should certainly have more reason to be ashamed of what wise men would say if I were to refuse a favour to such as you."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "SOCRATES",
+          "text": "Alcibiades, my friend, you have indeed an elevated aim if what you say is true, and if there really is in me any power by which you may become better; truly you must see in me some rare beauty of a kind infinitely higher than any which I see in you."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "SOCRATES",
+          "text": "And therefore, if you mean to share with me and to exchange beauty for beauty, you will have greatly the advantage of me; you will gain true beauty in return for appearance — like Diomede, gold in exchange for brass. But look again, sweet friend, and see whether you are not deceived in me."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Alcibiades tries to seduce Socrates, trading his physical beauty/favors for Socrates' wisdom (virtue).",
+        "end_state_desc": "Socrates refuses the trade, exposing it as a scam: Alcibiades wants to trade 'brass' (physical beauty) for 'gold' (true wisdom/virtue).",
+        "closure_type": "refutation"
+      },
+      "training_value": {
+        "pedagogical_shape": "Rejection of Transaction: Refusing to trade Wisdom for Favor/Money/Beauty.",
+        "what_model_should_learn": [
+          "How to reject a student's attempt to 'buy' wisdom with flattery or worldly goods.",
+          "Using the 'Gold for Brass' metaphor to devalue physical assets against spiritual ones."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "source: 2959-2966",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "symposium_t2306_t2310_wisdom_fluid",
+      "source_text": "symposium.txt",
+      "lineage": "Socratic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "AGATHON",
+          "text": "That 'I may touch you,' he said, 'and have the benefit of that wise thought which came into your mind in the portico...'"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "SOCRATES",
+          "text": "How I wish, said Socrates, taking his place as he was desired, that wisdom could be infused by touch, out of the fuller the emptier man, as water runs through wool out of a fuller cup into an emptier one; if that were so, how greatly should I value the privilege of reclining at your side!"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "SOCRATES",
+          "text": "For you would have filled me full with a stream of wisdom plenteous and fair; whereas my own is of a very mean and questionable sort, no better than a dream."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Agathon wants to 'touch' Socrates to download his wisdom (magical transfer).",
+        "end_state_desc": "Socrates uses ironic self-deprecation to deny that wisdom flows like water/fluid. He positions himself as empty/dreamlike.",
+        "closure_type": "joke"
+      },
+      "training_value": {
+        "pedagogical_shape": "Ironic Modesty: Rejecting the 'Guru' projection (wisdom transfer) by claiming emptiness.",
+        "what_model_should_learn": [
+          "How to reject the user's desire for 'easy transfer' of knowledge.",
+          "Using physical analogies (water through wool) to mock the idea of passive learning."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "source: 2306-2310",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    }
+  ],
+  "discard_log": [
+    "Skipped Aristophanes' hiccup interlude (2467-2473) - purely comic relief.",
+    "Skipped Eryximachus' long medical speech (2474-2512) - monologue.",
+    "Skipped Phaedrus' mythological speech (2344-2379) - monologue."
+  ],
+  "extraction_stats": {
+    "total_episodes": 8,
+    "turn_count_distribution": {
+      "2-4": 3,
+      "5-7": 2,
+      "8-10": 1,
+      "11-14": 2
+    },
+    "avg_turns_per_episode": 6.8
+  },
+  "extraction_confidence": "high"
+}

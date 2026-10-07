@@ -1,0 +1,3938 @@
+{
+  "batch_source": "10 epictetus.txt",
+  "episodes": [
+    {
+      "episode_id": "discourses_b1_c1_grammar_music_rationality",
+      [cite_start]"source_text": "The Discourses by Epictetus, Book 1 [cite: 169]",
+      "lineage": "Stoic",
+      "student_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Interlocutor",
+          "text": "As far as forming a judgement about what is written and spoken.",
+          "observable_student_behaviors": ["defines_scope"],
+          "behavior_tags": ["technical_definition"],
+          "inferred_state": {"reading": "cooperative_engagement", "confidence": 0.9},
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Interlocutor",
+          "text": "As far as judging about melody.",
+          "observable_student_behaviors": ["defines_scope"],
+          "behavior_tags": ["technical_definition"],
+          "inferred_state": {"reading": "cooperative_engagement", "confidence": 0.9},
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Interlocutor",
+          "text": "By no means.",
+          "observable_student_behaviors": ["admits_limitation"],
+          "behavior_tags": ["logical_concession"],
+          "inferred_state": {"reading": "following_logic", "confidence": 0.95},
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Interlocutor",
+          "text": "What faculty then will tell you?",
+          "observable_student_behaviors": ["asks_for_answer"],
+          "behavior_tags": ["inference_gap"],
+          "inferred_state": {"reading": "genuine_curiosity", "confidence": 0.9},
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Interlocutor",
+          "text": "And what is this faculty?",
+          "observable_student_behaviors": ["asks_for_definition"],
+          "behavior_tags": ["seeking_label"],
+          "inferred_state": {"reading": "ready_for_insight", "confidence": 0.95},
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Epictetus",
+          "text": "How far does the grammatic art possess the contemplating power?",
+          "observable_teaching_actions": ["initiates_socratic_inquiry", "sets_scope"],
+          "phase": "REMAKING",
+          "phase_reason": "Establishing the boundaries of technical faculties to build a model of Reason.",
+          "function_id": "RM_03",
+          "classification_evidence": "Conceptual distinction: distinguishing the art (grammar) from the contemplating power.",
+          "register": {"intensity": "PR_02", "intimacy": "IN_01", "linguistic_style": "LS_02", "phenomenological_depth": "PD_01", "meta_mode": "MM_01", "attunement": "AT_02"},
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "system_dynamics",
+          "mechanism_comment": "Mapping the functional limits of a specific art.",
+          "bridge": null,
+          "outcome": {"student_turn_index": 2, "reaction_label": "accepts_cleanly", "evidence": "As far as forming a judgement...", "outcome_label": "clean_success", "phase_shift": {"from": "REMAKING", "to": "REMAKING"}},
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Epictetus",
+          "text": "And how far music?",
+          "observable_teaching_actions": ["extends_analogy"],
+          "phase": "REMAKING",
+          "phase_reason": "Reinforcing the distinction with a second example.",
+          "function_id": "RM_02",
+          "classification_evidence": "Example instantiation: adding Music to Grammar to establish a pattern.",
+          "register": {"intensity": "PR_02", "intimacy": "IN_01", "linguistic_style": "LS_01", "phenomenological_depth": "PD_01", "meta_mode": "MM_01", "attunement": "AT_02"},
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "comparison",
+          "mechanism_comment": "Parallel case to strengthen the induction.",
+          "bridge": null,
+          "outcome": {"student_turn_index": 4, "reaction_label": "accepts_cleanly", "evidence": "As far as judging about melody.", "outcome_label": "clean_success", "phase_shift": {"from": "REMAKING", "to": "REMAKING"}},
+          "local_move": null
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Epictetus",
+          "text": "Does either of them then contemplate itself?",
+          "observable_teaching_actions": ["tests_recursivity"],
+          "phase": "REMAKING",
+          "phase_reason": "Identifying the key structural missing piece (self-contemplation) in technical arts.",
+          "function_id": "RM_03",
+          "classification_evidence": "Conceptual distinction: isolating the property of 'self-reference'.",
+          "register": {"intensity": "PR_02", "intimacy": "IN_01", "linguistic_style": "LS_02", "phenomenological_depth": "PD_01", "meta_mode": "MM_01", "attunement": "AT_02"},
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "feedback",
+          "mechanism_comment": "Checking for a feedback loop (self-contemplation) in the system.",
+          "bridge": null,
+          "outcome": {"student_turn_index": 6, "reaction_label": "accepts_cleanly", "evidence": "By no means.", "outcome_label": "clean_success", "phase_shift": {"from": "REMAKING", "to": "REMAKING"}},
+          "local_move": null
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Epictetus",
+          "text": "But when you must write something to your friend, grammar will tell you what words you must write; but whether you should write or not, grammar will not tell you. And so it is with music as to musical sounds; but whether you should sing at the present time and play on the lute, or do neither, music will not tell you.",
+          "observable_teaching_actions": ["clarifies_domain_limit", "distinguishes_utility_from_judgment"],
+          "phase": "REMAKING",
+          "phase_reason": "Defining the exact limit of technical knowledge ('how' vs 'whether').",
+          "function_id": "RM_03",
+          "classification_evidence": "Conceptual distinction: separating 'technical execution' from 'moral judgment/choice'.",
+          "register": {"intensity": "PR_02", "intimacy": "IN_02", "linguistic_style": "LS_02", "phenomenological_depth": "PD_01", "meta_mode": "MM_01", "attunement": "AT_02"},
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "threshold",
+          "mechanism_comment": "Pointing to the threshold where technical skill ends and judgment begins.",
+          "bridge": null,
+          "outcome": {"student_turn_index": 8, "reaction_label": "seeks_instruction", "evidence": "What faculty then will tell you?", "outcome_label": "clean_success", "phase_shift": {"from": "REMAKING", "to": "REMAKING"}},
+          "local_move": {"move_id": "craft_vs_judgment", "shape": "utility_vs_validity_distinction", "canonical_candidate": false}
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Epictetus",
+          "text": "That which contemplates both itself and all other things.",
+          "observable_teaching_actions": ["defines_by_function"],
+          "phase": "REMAKING",
+          "phase_reason": "Defining the ruling faculty by its unique recursive property.",
+          "function_id": "RM_05",
+          "classification_evidence": "Frame upgrade: Introducing the meta-faculty that governs all others.",
+          "register": {"intensity": "PR_02", "intimacy": "IN_01", "linguistic_style": "LS_01", "phenomenological_depth": "PD_01", "meta_mode": "MM_01", "attunement": "AT_02"},
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "system_dynamics",
+          "mechanism_comment": "Defining the hierarchy of control in the mental system.",
+          "bridge": null,
+          "outcome": {"student_turn_index": 10, "reaction_label": "seeks_instruction", "evidence": "And what is this faculty?", "outcome_label": "clean_success", "phase_shift": {"from": "REMAKING", "to": "REMAKING"}},
+          "local_move": null
+        },
+        {
+          "turn_index": 11,
+          "speaker": "Epictetus",
+          "text": "The rational faculty; for this is the only faculty that we have received which examines itself, what it is, and what power it has, and what is the value of this gift, and examines all other faculties...",
+          "observable_teaching_actions": ["names_faculty", "establishes_supremacy"],
+          "phase": "REMAKING",
+          "phase_reason": "Finalizing the model of the Rational Faculty as the supreme judge.",
+          "function_id": "RM_05",
+          "classification_evidence": "Frame upgrade: Establishing Reason as the only self-correcting system.",
+          "register": {"intensity": "PR_02", "intimacy": "IN_01", "linguistic_style": "LS_02", "phenomenological_depth": "PD_01", "meta_mode": "MM_01", "attunement": "AT_02"},
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "feedback",
+          "mechanism_comment": "Closure of the loop: Reason is the faculty that validates itself.",
+          "bridge": null,
+          "outcome": {"student_turn_index": null, "reaction_label": "episode_ends", "evidence": null, "outcome_label": "clean_success", "phase_shift": {"from": "REMAKING", "to": "REMAKING"}},
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Epictetus leads the student to identify the Rational Faculty by distinguishing it from technical arts (grammar, music), which can judge their objects but not themselves or their own use.",
+      "episode_insights": {
+        "key_pattern": "Analogy (Arts) → Boundary Definition (How vs Whether) → Recursive Definition (Self-Contemplation) → Naming (Reason)",
+        "notes": ["Classic Stoic hierarchy of faculties.", "Uses recursion (self-contemplation) as the defining feature of Reason."]
+      }
+    },
+    {
+  "episodes": [
+    {
+      "episode_id": "discourses_b1_c2_chamber_pot",
+      "source_text": "The Discourses by Epictetus, Book 1",
+      "lineage": "Stoic",
+      "student_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Interlocutor",
+          "text": "If, then, you ask me whether you should hold the chamber pot or not",
+          "observable_student_behaviors": [
+            "seeks_ruling",
+            "poses_dilemma"
+          ],
+          "behavior_tags": [
+            "rule_seeking",
+            "ethical_outsourcing"
+          ],
+          "inferred_state": {
+            "reading": "desire_for_external_command",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Interlocutor",
+          "text": "But this would not be worthy of me.",
+          "observable_student_behaviors": [
+            "asserts_dignity",
+            "rejects_calculation"
+          ],
+          "behavior_tags": [
+            "intuition_of_worth",
+            "moral_revulsion"
+          ],
+          "inferred_state": {
+            "reading": "moral_dissonance",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Epictetus",
+          "text": "For to one man it is consistent with reason to hold a chamber pot for another... But to another man not only does the holding of a chamber pot appear intolerable...",
+          "observable_teaching_actions": [
+            "contrasts_perspectives",
+            "relativizes_reason"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Setting up a model where 'reasonable' depends on the individual's self-valuation.",
+          "function_id": "RM_02",
+          "classification_evidence": "Example instantiation: Two different men with different internal price points.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_04",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "comparison",
+          "mechanism_comment": "Comparing the 'price' of the pot-holder vs the non-pot-holder.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 2,
+            "reaction_label": "seeks_instruction",
+            "evidence": "If, then, you ask me...",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Epictetus",
+          "text": "I shall say to you that the receiving of food is worth more than the not receiving of it... so that if you measure your interests by these things, go and hold the chamber pot.",
+          "observable_teaching_actions": [
+            "plays_devils_advocate",
+            "mirrors_values"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Using the student's potential low standards against them to provoke a reaction.",
+          "function_id": "UM_03",
+          "classification_evidence": "Reductio extension: If you value food/safety (externals), then logically you *must* hold the pot.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "answer_hunting"
+          ],
+          "trap_notes": [
+            "Student seeks a rule; teacher gives a rule based on low value to provoke higher self-valuation."
+          ],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "If Value(Food) > Value(Dignity) -> Action(Hold Pot).",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 4,
+            "reaction_label": "pushes_back",
+            "evidence": "But this would not be worthy of me.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Epictetus",
+          "text": "Well, then, it is you who must introduce this consideration into the inquiry, not I; for it is you who know yourself, how much you are worth to yourself...",
+          "observable_teaching_actions": [
+            "hands_back_agency",
+            "defines_self_worth"
+          ],
+          "phase": "SELF-MAKING",
+          "phase_reason": "Refusing to be the external authority; putting the burden of valuation on the student.",
+          "function_id": "SM_02",
+          "classification_evidence": "Autonomy test: 'It is you who know yourself... not I'.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "source_tracing",
+          "mechanism_comment": "Tracing the decision back to the student's own estimate of their worth.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "SELF-MAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "price_of_self",
+            "shape": "market_value_analogy",
+            "canonical_candidate": false
+          }
+        }
+      ],
+      "episode_overview": "Epictetus refuses to give a universal rule for a degrading act, instead showing that the decision depends entirely on the price at which the individual sells their own dignity.",
+      "episode_insights": {
+        "key_pattern": "Scenario Contrast → Provocative Agreement (Reductio) → Autonomy Hand-back (Self-valuation)",
+        "notes": [
+          "The chamber pot is a high-contrast grounding example.",
+          "Crucial move: agreeing with the cowardly option to force the student to reclaim their dignity."
+        ]
+      }
+    },
+{
+      "episode_id": "discourses_b1_c11_criterion_analogy",
+      "source_text": "The Discourses by Epictetus, Book 1",
+      "lineage": "Stoic",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Magistrate",
+          "text": "But convince me of this that you acted naturally, and I will convince you that everything which takes place according to nature takes place rightly.",
+          "observable_student_behaviors": [
+            "challenges_claim",
+            "sets_condition"
+          ],
+          "behavior_tags": [
+            "skepticism",
+            "demand_for_proof"
+          ],
+          "inferred_state": {
+            "reading": "confident_challenge",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Magistrate",
+          "text": "I do not deny that: but the matter about which we are inquiring is whether such behavior is right.",
+          "observable_student_behaviors": [
+            "clarifies_question"
+          ],
+          "behavior_tags": [
+            "ethical_inquiry"
+          ],
+          "inferred_state": {
+            "reading": "seeking_justification",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Magistrate",
+          "text": "I cannot; but do you rather show me how it is not according to nature and is not rightly done.",
+          "observable_student_behaviors": [
+            "admits_inability",
+            "shifts_burden"
+          ],
+          "behavior_tags": [
+            "intellectual_surrender"
+          ],
+          "inferred_state": {
+            "reading": "open_but_passive",
+            "confidence": 0.85
+          },
+          "annotator_uncertainty": 0.15
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Magistrate",
+          "text": "The sight.",
+          "observable_student_behaviors": [
+            "answers_fact"
+          ],
+          "behavior_tags": [
+            "simple_compliance"
+          ],
+          "inferred_state": {
+            "reading": "following_logic",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 11,
+          "speaker": "Magistrate",
+          "text": "I do not know.",
+          "observable_student_behaviors": [
+            "admits_ignorance"
+          ],
+          "behavior_tags": [
+            "aporia"
+          ],
+          "inferred_state": {
+            "reading": "honest_ignorance",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 13,
+          "speaker": "Magistrate",
+          "text": "The greatest harm.",
+          "observable_student_behaviors": [
+            "agrees_with_value_judgment"
+          ],
+          "behavior_tags": [
+            "realization"
+          ],
+          "inferred_state": {
+            "reading": "sober_recognition",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 4,
+          "speaker": "Epictetus",
+          "text": "For in respect to this matter we must say that tumours also come for the good of the body, because they do come; and generally we must say that to do wrong is natural, because nearly all or at least most of us do wrong. Do you show me then how your behavior is natural.",
+          "observable_teaching_actions": [
+            "uses_reductio",
+            "shifts_burden_of_proof"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Destroying the student's definition of 'natural' (meaning 'common') by showing that tumors are also common.",
+          "function_id": "UM_01",
+          "classification_evidence": "Definition collapse: 'Natural' cannot just mean 'happens often'.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "semantic_fog"
+          ],
+          "trap_notes": [
+            "Conflation of 'natural' (common/biological) with 'Natural' (normative/good)."
+          ],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Collapsing the definition of 'natural' by extending it to absurd consequences (tumors).",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 5,
+            "reaction_label": "seeks_instruction",
+            "evidence": "I cannot; but do you rather show me...",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Epictetus",
+          "text": "Well, if we were inquiring about white and black, what criterion should we employ for distinguishing between them?",
+          "observable_teaching_actions": [
+            "establishes_analogy"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Building a bridge from sensory knowledge (sight) to moral knowledge.",
+          "function_id": "RM_01",
+          "classification_evidence": "Structural mapping: Sensory Criterion -> Moral Criterion.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "abstract_to_concrete_check",
+          "mechanism_comment": "Grounding the concept of 'criterion' in physical senses.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 7,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "The sight.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Epictetus",
+          "text": "Well then, since we are inquiring about things which are according to nature, and those which are done rightly or not rightly, what kind of criterion do you think that we should employ?",
+          "observable_teaching_actions": [
+            "transfers_analogy"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Applying the logic of sensory criteria to the moral domain.",
+          "function_id": "RM_03",
+          "classification_evidence": "Conceptual distinction: Establishing the need for a 'Moral Criterion' analogous to 'Sight'.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "comparison",
+          "mechanism_comment": "Color : Sight :: Good : X.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 11,
+            "reaction_label": "confused",
+            "evidence": "I do not know.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 12,
+          "speaker": "Epictetus",
+          "text": "And yet not to know the criterion of colors and smells, and also of tastes, is perhaps no great harm; but if a man do not know the criterion of good and bad, and of things according to nature and contrary to nature, does this seem to you a small harm?",
+          "observable_teaching_actions": [
+            "weighs_stakes"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Emphasizing the existential cost of ignorance in this specific domain.",
+          "function_id": "RM_05",
+          "classification_evidence": "Frame upgrade: Ignorance of the Good is the 'Greatest Harm'.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "comparison",
+          "mechanism_comment": "Blindness to color vs Blindness to value.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 13,
+            "reaction_label": "conceptual_concession",
+            "evidence": "The greatest harm.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Epictetus forces a magistrate to admit he lacks a criterion for 'natural' behavior, then uses an analogy with sight and touch to demonstrate the desperate need for a moral criterion.",
+      "episode_insights": {
+        "key_pattern": "Reductio (Tumors) → Analogy (Senses) → Gap Identification (Missing Moral Criterion) → Stakes Raising",
+        "notes": [
+          "Moves from 'Common Practice' to 'Standard of Judgment'.",
+          "Uses the familiar (senses) to explain the abstract (moral epistemology)."
+        ]
+      }
+    },
+    {
+  "episode_id": "discourses_b1_c1_tyrant_will_fetter",
+  "source_text": "The Discourses by Epictetus, Book 1",
+  "lineage": "Stoic",
+  "student_turns": [
+    {
+      "turn_index": 1,
+      "speaker": "Tyrant",
+      "text": "Tell me the secret which you possess.",
+      "observable_student_behaviors": [
+        "demands_information"
+      ],
+      "behavior_tags": [
+        "power_assertion"
+      ],
+      "inferred_state": {
+        "reading": "desire_for_control",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Tyrant",
+      "text": "But I will put you in chains.",
+      "observable_student_behaviors": [
+        "threatens_force"
+      ],
+      "behavior_tags": [
+        "intimidation"
+      ],
+      "inferred_state": {
+        "reading": "dominance_posture",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Tyrant",
+      "text": "I will throw you into prison.",
+      "observable_student_behaviors": [
+        "escalates_threat"
+      ],
+      "behavior_tags": [
+        "coercion"
+      ],
+      "inferred_state": {
+        "reading": "frustrated_dominance",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 7,
+      "speaker": "Tyrant",
+      "text": "I will cut your head off.",
+      "observable_student_behaviors": [
+        "makes_ultimate_threat"
+      ],
+      "behavior_tags": [
+        "final_resort"
+      ],
+      "inferred_state": {
+        "reading": "impotent_rage",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    }
+  ],
+  "teacher_turns": [
+    {
+      "turn_index": 2,
+      "speaker": "Epictetus",
+      "text": "I will not, for this is in my power.",
+      "observable_teaching_actions": [
+        "refuses_demand",
+        "claims_jurisdiction"
+      ],
+      "phase": "SELF-MAKING",
+      "phase_reason": "Asserting the autonomy of the will as the true self.",
+      "function_id": "SM_01",
+      "classification_evidence": "Direct seeing: Asserting the immediate power of choice.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_01",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_04",
+        "meta_mode": "MM_01",
+        "attunement": "AT_01"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "threshold",
+      "mechanism_comment": "Drawing the line of 'my power'.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 3,
+        "reaction_label": "pushes_back",
+        "evidence": "But I will put you in chains.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "SELF-MAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Epictetus",
+      "text": "Man, what are you talking about? Me in chains? You may fetter my leg, but my will not even Zeus himself can overpower.",
+      "observable_teaching_actions": [
+        "corrects_object",
+        "disidentifies_body"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Breaking the Tyrant's belief that he can chain 'Epictetus' by chaining the leg.",
+      "function_id": "UM_05",
+      "classification_evidence": "Ego displacement (Ontological): 'Me' != 'Leg' or 'Body'.",
+      "register": {
+        "intensity": "PR_04",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_04",
+        "meta_mode": "MM_01",
+        "attunement": "AT_01"
+      },
+      "trap_ids": [
+        "category_conflation"
+      ],
+      "trap_notes": [
+        "Tyrant conflates Person with Body."
+      ],
+      "mechanism_shape": "subject_object_inversion",
+      "mechanism_comment": "Leg is object; Will is subject.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 5,
+        "reaction_label": "elaborates",
+        "evidence": "I will throw you into prison.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": {
+        "move_id": "you_chain_my_leg",
+        "shape": "ontological_correction",
+        "canonical_candidate": false
+      }
+    },
+    {
+      "turn_index": 6,
+      "speaker": "Epictetus",
+      "text": "My poor body, you mean.",
+      "observable_teaching_actions": [
+        "rephrases_threat",
+        "diminishes_object"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Reducing the object of the threat to something pitiful/external.",
+      "function_id": "UM_03",
+      "classification_evidence": "Concrete grounding: Forcing the abstraction 'you' into the concrete 'body'.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_01",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_01"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "constraint_collapse",
+      "mechanism_comment": "Threat loses power when target is redefined as 'poor body'.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 7,
+        "reaction_label": "elaborates",
+        "evidence": "I will cut your head off.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 8,
+      "speaker": "Epictetus",
+      "text": "When, then, have I told you that my head alone cannot be cut off?",
+      "observable_teaching_actions": [
+        "accepts_fate",
+        "clarifies_limit"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Re-establishing the correct model of what is mortal vs immortal (body vs will).",
+      "function_id": "RM_03",
+      "classification_evidence": "Conceptual distinction: Head (cuttable) vs Will (uncuttable).",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_01",
+        "linguistic_style": "LS_06",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_01"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "constraint_collapse",
+      "mechanism_comment": "The threat dissolves because the claim to immortality was never made for the head.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": null,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    }
+  ],
+  "episode_overview": "Epictetus systematically dismantles a Tyrant's threats by redefining the 'Self' that is being threatened, proving that while the body (leg, head) can be fettered, the Will remains free.",
+  "episode_insights": {
+    "key_pattern": "Threat → Ontological Correction (Leg vs Me) → Threat Escalation → Diminutive Reframe (Poor Body)",
+    "notes": [
+      "Classic Stoic invincibility through dis-identification.",
+      "High intensity, low attunement; total dominance."
+    ]
+  }
+}
+    {
+      "episode_id": "discourses_b1_c2_purple_thread",
+      "source_text": "The Discourses by Epictetus, Book 1",
+      "lineage": "Stoic",
+      "student_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Interlocutor",
+          "text": "Well then?",
+          "observable_student_behaviors": [
+            "prompts_continuation"
+          ],
+          "behavior_tags": [
+            "waiting"
+          ],
+          "inferred_state": {
+            "reading": "neutral_interest",
+            "confidence": 0.8
+          },
+          "annotator_uncertainty": 0.2
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Interlocutor",
+          "text": "Why then do you tell me to make myself like the many?",
+          "observable_student_behaviors": [
+            "challenges_inconsistency",
+            "defends_conformity"
+          ],
+          "behavior_tags": [
+            "fear_of_distinction",
+            "appeal_to_norm"
+          ],
+          "inferred_state": {
+            "reading": "defensive_confusion",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Epictetus",
+          "text": "Because you consider yourself to be only one thread of those which are in the tunic.",
+          "observable_teaching_actions": [
+            "diagnoses_self_image"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Exposing the student's implicit self-definition (a distinctless part of the mass).",
+          "function_id": "UM_05",
+          "classification_evidence": "Ego displacement (inverse): You identify as a generic part ('thread') rather than a distinct agent.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_03",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "ego_defense"
+          ],
+          "trap_notes": [
+            "Student clings to safety in numbers."
+          ],
+          "mechanism_shape": "structural_analogy",
+          "mechanism_comment": "Tunic = Society, Thread = Individual.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 2,
+            "reaction_label": "elaborates",
+            "evidence": "Well then?",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Epictetus",
+          "text": "It was fitting for you to take care how you should be like the rest of men... But I wish to be purple, that small part which is bright, and makes all the rest appear graceful and beautiful.",
+          "observable_teaching_actions": [
+            "contrasts_identities",
+            "introduces_metaphor"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Offering a new model of identity (the purple thread) that justifies non-conformity.",
+          "function_id": "RM_01",
+          "classification_evidence": "Structural mapping: Purple thread serves a specific aesthetic function (exemplar) within the whole.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_03",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "structural_analogy",
+          "mechanism_comment": "The purple strip gives beauty to the plain white tunic.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 4,
+            "reaction_label": "pushes_back",
+            "evidence": "Why then do you tell me to make myself like the many?",
+            "outcome_label": "partial_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "purple_thread",
+            "shape": "exemplar_analogy",
+            "canonical_candidate": false
+          }
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Epictetus",
+          "text": "And if I do, how shall I still be purple?",
+          "observable_teaching_actions": [
+            "exposes_contradiction"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Showing that the student's demand (conformity) logically destroys the teacher's function (being purple).",
+          "function_id": "UM_02",
+          "classification_evidence": "Contradiction exposure: One cannot be 'purple' (distinct) and 'like the many' (indistinct) simultaneously.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "category_conflation"
+          ],
+          "trap_notes": [
+            "Student wants the result of distinction without the cost of non-conformity."
+          ],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "The definition of purple excludes conformity.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Epictetus explains why he cannot conform to the crowd by using the metaphor of the 'purple thread'—the element that gives beauty to the whole by being distinct from it.",
+      "episode_insights": {
+        "key_pattern": "Diagnosis (Ordinary Thread) → Counter-Model (Purple Thread) → Logical Consequence (Must differ to be purple)",
+        "notes": [
+          "A defense of the 'Exemplar' role in Stoicism.",
+          "Rejects the false dichotomy of 'individual vs society' by showing the individual serves the society by being distinct."
+        ]
+      }
+    },
+        {
+      "episode_id": "discourses_b2_c13_lute_player_anxiety",
+      [cite_start]"source_text": "The Discourses by Epictetus, Book 2 [cite: 217]",
+      "lineage": "Stoic",
+      "student_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Interlocutor",
+          "text": "What matter is this?",
+          "observable_student_behaviors": ["asks_for_identification"],
+          "behavior_tags": ["curiosity"],
+          "inferred_state": {"reading": "receptive", "confidence": 0.9},
+          "annotator_uncertainty": 0.1
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Epictetus",
+          "text": "When I see a man anxious, I say, \"What does this man want? If he did not want something which is not in his power, how could he be anxious?\" For this reason a lute player when he is singing by himself has no anxiety, but when he enters the theatre, he is anxious... for he not only wishes to sing well, but also to obtain applause: but this is not in his power.",
+          "observable_teaching_actions": ["diagnoses_anxiety", "distinguishes_domains"],
+          "phase": "REMAKING",
+          "phase_reason": "Building a causal model of anxiety based on the dichotomy of control.",
+          "function_id": "RM_02",
+          "classification_evidence": "Causal chain mapping: Wanting uncontrolled things -> Anxiety. Illustrated by Lute Player example.",
+          "register": {"intensity": "PR_02", "intimacy": "IN_01", "linguistic_style": "LS_02", "phenomenological_depth": "PD_01", "meta_mode": "MM_01", "attunement": "AT_02"},
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Desire for X (where X is external) -> Anxiety.",
+          "bridge": null,
+          "outcome": {"student_turn_index": 2, "reaction_label": "seeks_instruction", "evidence": "What matter is this?", "outcome_label": "clean_success", "phase_shift": {"from": "REMAKING", "to": "REMAKING"}},
+          "local_move": {"move_id": "performance_anxiety_model", "shape": "competence_vs_control", "canonical_candidate": false}
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Epictetus",
+          "text": "He knows not what a crowd is or what the praise of a crowd is. However he has learned to strike the lowest chord and the highest; but what the praise of the many is... he neither knows nor has he thought about it. Hence he must of necessity tremble and grow pale.",
+          "observable_teaching_actions": ["identifies_ignorance"],
+          "phase": "REMAKING",
+          "phase_reason": "Refining the model: Anxiety is ignorance of the value of the crowd.",
+          "function_id": "RM_03",
+          "classification_evidence": "Conceptual distinction: Knowing the Art (Music) vs Knowing the Environment (Crowd).",
+          "register": {"intensity": "PR_03", "intimacy": "IN_01", "linguistic_style": "LS_02", "phenomenological_depth": "PD_03", "meta_mode": "MM_01", "attunement": "AT_02"},
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Ignorance of crowd's nature -> Fear of crowd.",
+          "bridge": null,
+          "outcome": {"student_turn_index": null, "reaction_label": "episode_ends", "evidence": null, "outcome_label": "clean_success", "phase_shift": {"from": "REMAKING", "to": "REMAKING"}},
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Epictetus explains performance anxiety as a category error: the musician is skilled in music (internal) but ignorant of the crowd (external), and thus anxious about what he doesn't understand.",
+      "episode_insights": {
+        "key_pattern": "Causal Diagnosis (Anxiety = Wanting Externals) → Domain Distinction (Music vs Crowd) → Ignorance Identification",
+        "notes": ["Splits competence into 'Craft' and 'Life'.", "Anxiety is framed as a symptom of ignorance, not a personality trait."]
+      }
+    },
+    {
+      "episode_id": "discourses_b1_c1_tyrant_will_fetter",
+      [cite_start]"source_text": "The Discourses by Epictetus, Book 1 [cite: 253]",
+      "lineage": "Stoic",
+      "student_turns": [
+        {
+          "turn_index": 3,
+          "speaker": "Tyrant",
+          "text": "But I will put you in chains.",
+          "observable_student_behaviors": ["threatens_force"],
+          "behavior_tags": ["intimidation", "power_assertion"],
+          "inferred_state": {"reading": "dominance_posture", "confidence": 0.95},
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Tyrant",
+          "text": "I will throw you into prison.",
+          "observable_student_behaviors": ["escalates_threat"],
+          "behavior_tags": ["coercion"],
+          "inferred_state": {"reading": "frustrated_dominance", "confidence": 0.9},
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Tyrant",
+          "text": "I will cut your head off.",
+          "observable_student_behaviors": ["makes_ultimate_threat"],
+          "behavior_tags": ["final_resort"],
+          "inferred_state": {"reading": "impotent_rage", "confidence": 0.9},
+          "annotator_uncertainty": 0.1
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Epictetus",
+          "text": "I will not, for this is in my power.",
+          "observable_teaching_actions": ["refuses_demand", "claims_jurisdiction"],
+          "phase": "SELF-MAKING",
+          "phase_reason": "Asserting the autonomy of the will.",
+          "function_id": "SM_01",
+          "classification_evidence": "Direct seeing: Asserting the immediate power of choice.",
+          "register": {"intensity": "PR_03", "intimacy": "IN_01", "linguistic_style": "LS_01", "phenomenological_depth": "PD_01", "meta_mode": "MM_01", "attunement": "AT_01"},
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "threshold",
+          "mechanism_comment": "Drawing the line of 'my power'.",
+          "bridge": null,
+          "outcome": {"student_turn_index": 3, "reaction_label": "pushes_back", "evidence": "But I will put you in chains.", "outcome_label": "clean_success", "phase_shift": {"from": "SELF-MAKING", "to": "UNMAKING"}},
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Epictetus",
+          "text": "Man, what are you talking about? Me in chains? You may fetter my leg, but my will not even Zeus himself can overpower.",
+          "observable_teaching_actions": ["corrects_object", "disidentifies_body"],
+          "phase": "UNMAKING",
+          "phase_reason": "Breaking the Tyrant's belief that he can chain 'Epictetus' by chaining the leg.",
+          "function_id": "UM_05",
+          "classification_evidence": "Ego displacement (Ontological): 'Me' != 'Leg'.",
+          "register": {"intensity": "PR_04", "intimacy": "IN_03", "linguistic_style": "LS_01", "phenomenological_depth": "PD_04", "meta_mode": "MM_01", "attunement": "AT_01"},
+          "trap_ids": ["category_conflation"],
+          "trap_notes": ["Tyrant conflates Person with Body."],
+          "mechanism_shape": "subject_object_inversion",
+          "mechanism_comment": "Leg is object; Will is subject.",
+          "bridge": null,
+          "outcome": {"student_turn_index": 5, "reaction_label": "elaborates", "evidence": "I will throw you into prison.", "outcome_label": "clean_success", "phase_shift": {"from": "UNMAKING", "to": "UNMAKING"}},
+          "local_move": {"move_id": "you_chain_my_leg", "shape": "ontological_correction", "canonical_candidate": true}
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Epictetus",
+          "text": "My poor body, you mean.",
+          "observable_teaching_actions": ["rephrases_threat", "diminishes_object"],
+          "phase": "UNMAKING",
+          "phase_reason": "Reducing the object of the threat to something pitiful/external.",
+          "function_id": "UM_03",
+          "classification_evidence": "Concrete grounding: Forcing the abstraction 'you' into the concrete 'body'.",
+          "register": {"intensity": "PR_03", "intimacy": "IN_01", "linguistic_style": "LS_01", "phenomenological_depth": "PD_01", "meta_mode": "MM_01", "attunement": "AT_01"},
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Threat loses power when target is redefined as 'poor body'.",
+          "bridge": null,
+          "outcome": {"student_turn_index": 7, "reaction_label": "elaborates", "evidence": "I will cut your head off.", "outcome_label": "clean_success", "phase_shift": {"from": "UNMAKING", "to": "REMAKING"}},
+          "local_move": null
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Epictetus",
+          "text": "When, then, have I told you that my head alone cannot be cut off?",
+          "observable_teaching_actions": ["accepts_fate", "clarifies_limit"],
+          "phase": "REMAKING",
+          "phase_reason": "Re-establishing the correct model of what is mortal vs immortal.",
+          "function_id": "RM_03",
+          "classification_evidence": "Conceptual distinction: Head (cuttable) vs Will (uncuttable).",
+          "register": {"intensity": "PR_03", "intimacy": "IN_01", "linguistic_style": "LS_06", "phenomenological_depth": "PD_01", "meta_mode": "MM_01", "attunement": "AT_01"},
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "The threat dissolves because the claim to immortality was never made for the head.",
+          "bridge": null,
+          "outcome": {"student_turn_index": null, "reaction_label": "episode_ends", "evidence": null, "outcome_label": "clean_success", "phase_shift": {"from": "REMAKING", "to": "REMAKING"}},
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Epictetus systematically dismantles a Tyrant's threats by redefining the 'Self' that is being threatened, proving that while the body (leg, head) can be fettered, the Will remains free.",
+      "episode_insights": {
+        "key_pattern": "Threat → Ontological Correction (Leg vs Me) → Threat Escalation → Diminutive Reframe (Poor Body)",
+        "notes": ["Classic Stoic invincibility through dis-identification.", "High intensity, low attunement; total dominance."]
+      }
+    }
+  ]
+} {
+  "batch_source": "10 epictetus.txt",
+  "episodes": [
+    {
+      "episode_id": "discourses_b1_c11_sick_daughter_affection",
+      "source_text": "The Discourses by Epictetus, Book 1",
+      "lineage": "Stoic",
+      "student_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Magistrate",
+          "text": "Certainly, she has.",
+          "observable_student_behaviors": [
+            "answers_question",
+            "affirms_premise"
+          ],
+          "behavior_tags": [
+            "common_sense_agreement"
+          ],
+          "inferred_state": {
+            "reading": "unsuspecting_compliance",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Magistrate",
+          "text": "She ought not.",
+          "observable_student_behaviors": [
+            "judges_behavior"
+          ],
+          "behavior_tags": [
+            "moral_judgment"
+          ],
+          "inferred_state": {
+            "reading": "logical_consistency",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 12,
+          "speaker": "Magistrate",
+          "text": "Certainly not.",
+          "observable_student_behaviors": [
+            "rejects_outcome"
+          ],
+          "behavior_tags": [
+            "horror_at_consequence"
+          ],
+          "inferred_state": {
+            "reading": "trapped_by_logic",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Epictetus",
+          "text": "Did you, then, since you had an affectionate disposition to your child, do right when you ran off and left her; and has the mother no affection for the child?",
+          "observable_teaching_actions": [
+            "isolates_variable",
+            "establishes_parallel"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Teacher isolates the justification ('affection') and prepares to test it against other agents.",
+          "function_id": "UM_06",
+          "classification_evidence": "Constraint removal (implied): Testing if 'affection' validates the action universally.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "ego_defense"
+          ],
+          "trap_notes": [
+            "Student uses 'affection' to mask 'cowardice'."
+          ],
+          "mechanism_shape": "comparison",
+          "mechanism_comment": "Comparing Father's affection vs Mother's affection.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 2,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "Certainly, she has.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Epictetus",
+          "text": "Ought, then, the mother also to have left her, or ought she not?",
+          "observable_teaching_actions": [
+            "applies_logic_to_parallel",
+            "forces_consistency"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Forcing the student to judge the same action performed by another agent (Mother).",
+          "function_id": "UM_03",
+          "classification_evidence": "Reductio extension: Extending the student's logic to the Mother to show absurdity.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "system_dynamics",
+          "mechanism_comment": "If Affection -> Desertion, then All Caregivers -> Desertion.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 4,
+            "reaction_label": "conceptual_concession",
+            "evidence": "She ought not.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 11,
+          "speaker": "Epictetus",
+          "text": "Ought, then, he also to have deserted her? and so should the child have been left alone and without help on account of the great affection of you, the parents, and of those about her...?",
+          "observable_teaching_actions": [
+            "completes_reductio",
+            "reveals_catastrophe"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Showing the catastrophic result if the student's principle were universalized.",
+          "function_id": "UM_03",
+          "classification_evidence": "Reductio extension: If everyone acted on your 'affection', the child would die.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "category_conflation"
+          ],
+          "trap_notes": [
+            "Conflating 'feeling bad' with 'loving'."
+          ],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Universal Affection -> Total Abandonment -> Death.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 12,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "Certainly not.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "universalize_affection",
+            "shape": "kantian_universalization",
+            "canonical_candidate": false
+          }
+        },
+        {
+          "turn_index": 13,
+          "speaker": "Epictetus",
+          "text": "Now this is unfair and unreasonable, not to allow those who have equal affection with yourself to do what you think to be proper for yourself to do because you have affection.",
+          "observable_teaching_actions": [
+            "delivers_verdict",
+            "defines_reasonableness"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Re-labeling the student's behavior from 'affectionate' to 'unfair and unreasonable'.",
+          "function_id": "RM_03",
+          "classification_evidence": "Conceptual distinction: Affection cannot justify behavior that is structurally unfair.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "ego_defense"
+          ],
+          "trap_notes": [
+            "Student masked selfishness as 'sensitivity'."
+          ],
+          "mechanism_shape": "feedback",
+          "mechanism_comment": "Closing the loop: Your logic fails when reflected back by others.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Epictetus uses a *Reductio ad Absurdum* to dismantle a father's claim that he ran away from his sick daughter out of 'affection', forcing him to admit that if everyone acted on such affection, the child would die.",
+      "episode_insights": {
+        "key_pattern": "Isolation of Principle (Affection) → Universalization to other Agents (Mother, Nurse) → Catastrophic Consequence (Death) → Moral Re-labeling",
+        "notes": [
+          "Classic Stoic dismantling of 'pathos' masquerading as virtue.",
+          "Uses the 'witness of the universe' (other agents) to check private logic."
+        ]
+      }
+    },
+    {
+      "episode_id": "discourses_b1_c17_reason_analyzing_itself",
+      "source_text": "The Discourses by Epictetus, Book 1",
+      "lineage": "Stoic",
+      "student_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Interlocutor",
+          "text": "Yes.",
+          "observable_student_behaviors": [
+            "accepts_premise"
+          ],
+          "behavior_tags": [
+            "logical_assent"
+          ],
+          "inferred_state": {
+            "reading": "following_logic",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Interlocutor",
+          "text": "It is more urgent to cure our opinions.",
+          "observable_student_behaviors": [
+            "attempts_diversion",
+            "prioritizes_utility"
+          ],
+          "behavior_tags": [
+            "pragmatism",
+            "impatience_with_theory"
+          ],
+          "inferred_state": {
+            "reading": "avoiding_abstraction",
+            "confidence": 0.85
+          },
+          "annotator_uncertainty": 0.15
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Epictetus",
+          "text": "Since reason is the faculty which analyses and perfects the rest, and it ought itself not to be unanalysed, by what should it be analysed? for it is plain that this should be done either by itself or by another thing.",
+          "observable_teaching_actions": [
+            "poses_dilemma",
+            "establishes_hierarchy"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Setting up the structural necessity of a self-analyzing faculty.",
+          "function_id": "RM_01",
+          "classification_evidence": "Structural mapping: Mapping the hierarchy of analysis (X analyzes Y).",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "system_dynamics",
+          "mechanism_comment": "System requirement: Who watches the watchmen?",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 2,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "Yes.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Epictetus",
+          "text": "Either, then, this other thing also is reason, or something else superior to reason... But if it is reason, again who shall analyse that reason?... But we shall require something else, the thing, will go on to infinity and have no end.",
+          "observable_teaching_actions": [
+            "demonstrates_infinite_regress"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Proving that Reason *must* be self-analyzing by showing the absurdity of the alternative (infinite regress).",
+          "function_id": "RM_03",
+          "classification_evidence": "Conceptual distinction: Reason is unique because it handles recursion.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "feedback",
+          "mechanism_comment": "Infinite loop vs Self-reference loop.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 4,
+            "reaction_label": "pushes_back",
+            "evidence": "It is more urgent to cure our opinions.",
+            "outcome_label": "partial_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Epictetus",
+          "text": "Reason therefore is analysed by itself.",
+          "observable_teaching_actions": [
+            "states_conclusion"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Finalizing the definition of Reason.",
+          "function_id": "RM_05",
+          "classification_evidence": "Frame upgrade: Defining the supreme faculty.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "The regress collapses into self-analysis.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Epictetus proves that Reason must be self-analyzing by showing that seeking an external analyzer leads to an infinite regress.",
+      "episode_insights": {
+        "key_pattern": "Dilemma (Self vs Other) → Infinite Regress Proof → Conclusion (Self-Analysis)",
+        "notes": [
+          "Pure logical derivation of a psychological faculty.",
+          "The 'Infinite Regress' is a standard stopper in Stoic logic."
+        ]
+      }
+    },
+    {
+      "episode_id": "discourses_b1_c25_life_as_hypothesis",
+      "source_text": "The Discourses by Epictetus, Book 1",
+      "lineage": "Stoic",
+      "student_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Student",
+          "text": "I suppose that it is night.",
+          "observable_student_behaviors": [
+            "accepts_rule",
+            "plays_game"
+          ],
+          "behavior_tags": [
+            "hypothetical_assent"
+          ],
+          "inferred_state": {
+            "reading": "playful_compliance",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Student",
+          "text": "No, for I admitted the hypothesis that it was night.",
+          "observable_student_behaviors": [
+            "maintains_consistency",
+            "rejects_contradiction"
+          ],
+          "behavior_tags": [
+            "logical_rigor"
+          ],
+          "inferred_state": {
+            "reading": "following_rules",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Student",
+          "text": "That is not consistent with the hypothesis.",
+          "observable_student_behaviors": [
+            "spots_contradiction"
+          ],
+          "behavior_tags": [
+            "logical_policing"
+          ],
+          "inferred_state": {
+            "reading": "alert_competence",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Student",
+          "text": "This is not consistent with the hypothesis; and Another forbids me to think so.",
+          "observable_student_behaviors": [
+            "applies_rule_to_life",
+            "rejects_misery"
+          ],
+          "behavior_tags": [
+            "transfer_learning",
+            "stoic_insight"
+          ],
+          "inferred_state": {
+            "reading": "breakthrough_realization",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Epictetus",
+          "text": "Suppose it to be night.",
+          "observable_teaching_actions": [
+            "sets_parameters",
+            "starts_game"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Establishing a training simulation (logic game) to model Assent.",
+          "function_id": "RM_01",
+          "classification_evidence": "Structural mapping: Logic Game -> Life Practice.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "none",
+          "mechanism_comment": null,
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 2,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "I suppose that it is night.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Epictetus",
+          "text": "Well then; is it day?",
+          "observable_teaching_actions": [
+            "tests_consistency"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Testing the student's adherence to the hypothesis rules.",
+          "function_id": "RM_02",
+          "classification_evidence": "Example instantiation: Checking if 'Day' contradicts 'Night'.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "feedback",
+          "mechanism_comment": "Logic check.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 4,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "No, for I admitted the hypothesis...",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Epictetus",
+          "text": "But also think that it is night.",
+          "observable_teaching_actions": [
+            "proposes_false_move"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Trying to trick the student into a logical error (confounding hypothesis with belief).",
+          "function_id": "RM_03",
+          "classification_evidence": "Conceptual distinction: 'Supposing X' vs 'Believing X'.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "threshold",
+          "mechanism_comment": "Testing the line between hypothetical admission and actual belief.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 8,
+            "reaction_label": "pushes_back",
+            "evidence": "That is not consistent...",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Epictetus",
+          "text": "So in this case also: \"Suppose that you are unfortunate.\" Well, suppose so... \"But think also that you are in misery.\"",
+          "observable_teaching_actions": [
+            "transfers_rule_to_life",
+            "sets_trap"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Applying the logic game to the existential problem (Misfortune vs Misery).",
+          "function_id": "RM_05",
+          "classification_evidence": "Frame upgrade: 'Misery' is a judgment added to the hypothesis of 'Misfortune', not a necessary result.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_02",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "conceptual_reification"
+          ],
+          "trap_notes": [
+            "Student habitually links 'event' to 'misery'."
+          ],
+          "mechanism_shape": "structural_analogy",
+          "mechanism_comment": "Logic Rule (Consistency) -> Life Rule (Resilience).",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 10,
+            "reaction_label": "conceptual_concession",
+            "evidence": "This is not consistent with the hypothesis...",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "SELF-MAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "life_as_hypothesis",
+            "shape": "gamified_dissociation",
+            "canonical_candidate": false
+          }
+        }
+      ],
+      "episode_overview": "Epictetus teaches the student to dissociate 'misery' from 'misfortune' by treating life events as logical hypotheses—admitting the premise (event) without admitting the false conclusion (misery).",
+      "episode_insights": {
+        "key_pattern": "Logic Game (Night/Day) → Error Check → Life Application (Unfortunate/Misery) → Consistency Check",
+        "notes": [
+          "Brilliant use of 'gamification' to teach detachment.",
+          "Redefines resilience as 'logical consistency' rather than emotional suppression."
+        ]
+      }
+    },
+    {
+      "episode_id": "discourses_b2_c24_art_of_hearing",
+      "source_text": "The Discourses by Epictetus, Book 2",
+      "lineage": "Stoic",
+      "student_turns": [
+        {
+          "turn_index": 3,
+          "speaker": "Person",
+          "text": "I do think so.",
+          "observable_student_behaviors": [
+            "agrees_to_parallel"
+          ],
+          "behavior_tags": [
+            "logical_agreement"
+          ],
+          "inferred_state": {
+            "reading": "following_analogy",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Person",
+          "text": "It seems so.",
+          "observable_student_behaviors": [
+            "accepts_inference"
+          ],
+          "behavior_tags": [
+            "hesitant_agreement"
+          ],
+          "inferred_state": {
+            "reading": "intellectual_concession",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Epictetus",
+          "text": "Do you think that as there is an art in anything else, so there is also an art in speaking...?",
+          "observable_teaching_actions": [
+            "establishes_parallel"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Establishing 'speaking' as a technical skill (Art).",
+          "function_id": "RM_01",
+          "classification_evidence": "Structural mapping: Comparing speaking to other crafts.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "structural_analogy",
+          "mechanism_comment": "General Crafts -> Speaking.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 3,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "I do think so.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Epictetus",
+          "text": "Is there then a skill in hearing also, as there is in speaking?",
+          "observable_teaching_actions": [
+            "extends_analogy",
+            "challenges_passivity"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Reframing 'hearing' from a passive reception to an active skill.",
+          "function_id": "RM_03",
+          "classification_evidence": "Conceptual distinction: Hearing is an Art, not just an event.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "category_conflation"
+          ],
+          "trap_notes": [
+            "Student conflates 'hearing' (passive) with 'listening' (active)."
+          ],
+          "mechanism_shape": "subject_object_inversion",
+          "mechanism_comment": "Flipping the listener from Object (recipient) to Subject (practitioner).",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 7,
+            "reaction_label": "conceptual_concession",
+            "evidence": "It seems so.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 12,
+          "speaker": "Epictetus",
+          "text": "Then if speaking properly is the business of the skillful man, do you see that to hear also with benefit is the business of the skillful man?",
+          "observable_teaching_actions": [
+            "closes_argument",
+            "assigns_responsibility"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Concluding the model: The student is responsible for how they hear.",
+          "function_id": "RM_05",
+          "classification_evidence": "Frame upgrade: Shift from 'Teacher must speak well' to 'Student must hear well'.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "looking_outward"
+          ],
+          "trap_notes": [
+            "Student blamed Epictetus for not speaking."
+          ],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Collapses the constraint 'I need you to speak' into 'I need to learn to hear'.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Epictetus reframes the complaint of a visitor (that Epictetus hasn't spoken to him) by proving that 'hearing' is a technical art requiring skill, just like speaking or music.",
+      "episode_insights": {
+        "key_pattern": "Analogy (Speaking/Music) → Mirroring (Hearing is also an Art) → Responsibility Shift",
+        "notes": [
+          "Classic pivot from 'Content' to 'Capacity'.",
+          "Moves the locus of control from the Speaker to the Listener."
+        ]
+      }
+    },
+    {
+      "episode_id": "discourses_b1_c2_florus_agrippinus_calculation",
+      "source_text": "The Discourses by Epictetus, Book 1",
+      "lineage": "Stoic",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Florus",
+          "text": "Why do not you go down?",
+          "observable_student_behaviors": [
+            "asks_for_justification",
+            "notices_discrepancy"
+          ],
+          "behavior_tags": [
+            "strategic_calculation"
+          ],
+          "inferred_state": {
+            "reading": "calculating_risk",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Florus",
+          "text": "Why?",
+          "observable_student_behaviors": [
+            "expresses_confusion"
+          ],
+          "behavior_tags": [
+            "value_conflict"
+          ],
+          "inferred_state": {
+            "reading": "baffled_by_integrity",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Agrippinus",
+          "text": "Because I do not even deliberate about the matter.",
+          "observable_teaching_actions": [
+            "rejects_deliberation",
+            "models_integrity"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Rejection of the mental process (deliberation) that the student implies is necessary.",
+          "function_id": "UM_06",
+          "classification_evidence": "Constraint removal: Removing the 'necessity to calculate' from the decision.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "problem_solving_stance"
+          ],
+          "trap_notes": [
+            "Student treats moral duty as a calculation of outcomes."
+          ],
+          "mechanism_shape": "threshold",
+          "mechanism_comment": "The threshold of 'deliberation' is where the battle is lost.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 4,
+            "reaction_label": "confused",
+            "evidence": "Why?",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "rejection_of_calculation",
+            "shape": "deliberation_is_failure",
+            "canonical_candidate": false
+          }
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Epictetus",
+          "text": "For he who has once brought himself to deliberate about such matters... comes very near to those who have forgotten their own character... But if I do not take a part in the tragic acting, I shall have my head struck off. Go then and take a part, but I will not.",
+          "observable_teaching_actions": [
+            "explains_mechanism",
+            "accepts_consequence"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Defining the 'Calculative Mindset' as fundamentally incompatible with 'Character'.",
+          "function_id": "RM_03",
+          "classification_evidence": "Conceptual distinction: Calculation vs Character.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_02",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Deliberation -> Forgetting Character -> Compliance.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Epictetus (citing Agrippinus) teaches that the very act of deliberating between 'duty' and 'safety' is already a failure of character, rejecting the calculation entirely.",
+      "episode_insights": {
+        "key_pattern": "Question (Why not?) → Rejection of Premise (No Deliberation) → Explanation (Calculation = Loss of Self)",
+        "notes": [
+          "Radical Stoic move: The error isn't the wrong choice, but the *act of weighing* the choice.",
+          "Uses a third-party exemplar (Agrippinus) to set the standard."
+        ]
+      }
+    }
+  ]
+} 
+
+{
+  "batch_source": "10 epictetus.txt",
+  "episodes": [
+    {
+      "episode_id": "discourses_b1_c2_priscus_vespasian",
+      "source_text": "The Discourses by Epictetus, Book 1",
+      "lineage": "Stoic",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Priscus Helvidius",
+          "text": "It is in your power not to allow me to be a member of the senate, but so long as I am, I must go in.",
+          "observable_student_behaviors": [
+            "acknowledges_power",
+            "asserts_duty"
+          ],
+          "behavior_tags": [
+            "role_identification",
+            "defiant_compliance"
+          ],
+          "inferred_state": {
+            "reading": "principled_resolution",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Priscus Helvidius",
+          "text": "Do not ask my opinion, and I will be silent.",
+          "observable_student_behaviors": [
+            "sets_condition"
+          ],
+          "behavior_tags": [
+            "conditional_obedience"
+          ],
+          "inferred_state": {
+            "reading": "tactical_submission",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Priscus Helvidius",
+          "text": "And I must say what I think right.",
+          "observable_student_behaviors": [
+            "asserts_imperative"
+          ],
+          "behavior_tags": [
+            "moral_necessity"
+          ],
+          "inferred_state": {
+            "reading": "unwavering_commitment",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Priscus Helvidius",
+          "text": "When then did I tell you that I am immortal? You will do your part, and I will do mine: it is your part to kill; it is mine to die, but not in fear: yours to banish me; mine to depart without sorrow.",
+          "observable_teaching_actions": [],
+          "observable_student_behaviors": [
+            "accepts_consequence",
+            "distinguishes_roles"
+          ],
+          "behavior_tags": [
+            "stoic_exemplar"
+          ],
+          "inferred_state": {
+            "reading": "transcendent_calm",
+            "confidence": 1.0
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Vespasian",
+          "text": "Well, go in then, but say nothing.",
+          "observable_teaching_actions": [
+            "attempts_compromise",
+            "tests_boundary"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "The tyrant tries to strip the role of its essential function (speaking).",
+          "function_id": "UM_06",
+          "classification_evidence": "Constraint removal (inverse): Trying to impose a constraint on the Senator's role.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "threshold",
+          "mechanism_comment": "Testing the threshold of obedience.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 3,
+            "reaction_label": "pushes_back",
+            "evidence": "Do not ask my opinion...",
+            "outcome_label": "partial_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Vespasian",
+          "text": "But I must ask your opinion.",
+          "observable_teaching_actions": [
+            "asserts_role_constraint"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "The tyrant reveals his own role constraint (he must act as Emperor).",
+          "function_id": "UM_02",
+          "classification_evidence": "Contradiction exposure: The two roles (Emperor asking, Senator being silent) are structurally incompatible.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "system_dynamics",
+          "mechanism_comment": "Role collision.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 5,
+            "reaction_label": "pushes_back",
+            "evidence": "And I must say what I think right.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Vespasian",
+          "text": "But if you do, I shall put you to death.",
+          "observable_teaching_actions": [
+            "escalates_threat"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Introducing the ultimate external constraint (Death) to test the internal role.",
+          "function_id": "UM_04",
+          "classification_evidence": "Ground reality check: Bringing the abstract debate to the physical consequence (Death).",
+          "register": {
+            "intensity": "PR_04",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "threshold",
+          "mechanism_comment": "The final boundary.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 7,
+            "reaction_label": "elaborates",
+            "evidence": "When then did I tell you that I am immortal?",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "A dialogue between Priscus Helvidius and Emperor Vespasian illustrating Role Ethics: each actor must fulfill their specific role (Killing vs Dying) without confusing their jurisdiction.",
+      "episode_insights": {
+        "key_pattern": "Role Assertion → Conflict → Constraint Escalation (Death) → Role Clarification (Your Part vs My Part)",
+        "notes": [
+          "This is an exemplar episode where the 'student' (Priscus) is actually the teacher model.",
+          "Demonstrates the 'Two Actors' model of fatalism: You play your part, I play mine."
+        ]
+      }
+    },
+    {
+      "episode_id": "discourses_b1_c15_brother_anger",
+      "source_text": "The Discourses by Epictetus, Book 1",
+      "lineage": "Stoic",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Man",
+          "text": "How then shall my brother cease to be angry with me?",
+          "observable_student_behaviors": [
+            "asks_for_control_over_other"
+          ],
+          "behavior_tags": [
+            "external_fixation"
+          ],
+          "inferred_state": {
+            "reading": "relational_anxiety",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Man",
+          "text": "I seek to know this- how, even if my brother is not reconciled to me, shall I maintain myself in a state conformable to nature?",
+          "observable_student_behaviors": [
+            "reframes_goal",
+            "internalizes_locus"
+          ],
+          "behavior_tags": [
+            "correction_acceptance"
+          ],
+          "inferred_state": {
+            "reading": "receptive_learning",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.05
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Epictetus",
+          "text": "Bring him to me and I will tell him. But I have nothing to say to you about his anger.",
+          "observable_teaching_actions": [
+            "refuses_impossible_task",
+            "redirects_agency"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Rejecting the student's premise that they can/should control the brother's emotion.",
+          "function_id": "UM_06",
+          "classification_evidence": "Constraint removal: Removing the false burden of 'fixing the brother'.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "looking_outward"
+          ],
+          "trap_notes": [
+            "Student seeks a technique to manipulate an external agent."
+          ],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "I cannot fix him through you.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 3,
+            "reaction_label": "inference_check",
+            "evidence": "I seek to know this... how shall I maintain myself?",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "bring_him_to_me",
+            "shape": "locus_of_control_check",
+            "canonical_candidate": true
+          }
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Epictetus",
+          "text": "Nothing great is produced suddenly, since not even the grape or the fig is. If you say to me now that you want a fig, I will answer to you that it requires time... would you possess the fruit of a man's mind in so short a time...?",
+          "observable_teaching_actions": [
+            "uses_nature_analogy",
+            "manages_expectations"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Establishing a model of gradual growth (process) to replace the desire for instant fix.",
+          "function_id": "RM_01",
+          "classification_evidence": "Structural mapping: Mind's growth : Fig's growth.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_03",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "problem_solving_stance"
+          ],
+          "trap_notes": [
+            "Student wants a 'hack' for instant virtue."
+          ],
+          "mechanism_shape": "structural_analogy",
+          "mechanism_comment": "Growth takes time in nature, so too in character.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "fig_tree_analogy",
+            "shape": "organic_growth_model",
+            "canonical_candidate": false
+          }
+        }
+      ],
+      "episode_overview": "Epictetus redirects a man from trying to control his brother's anger to controlling his own character, then uses the 'fig tree' analogy to temper the expectation of instant results.",
+      "episode_insights": {
+        "key_pattern": "Rejection of External Control (Bring him here) → Internal Pivot → Biological Analogy (Fig Tree) → Patience",
+        "notes": [
+          "Two distinct moves: 1. Locus of Control correction. 2. Time-horizon correction."
+        ]
+      }
+    },
+    {
+      "episode_id": "discourses_b2_c4_adulterer_confrontation",
+      "source_text": "The Discourses by Epictetus, Book 2",
+      "lineage": "Stoic",
+      "student_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Adulterer",
+          "text": "Then will you say, \"No man, cares for me, a man of letters\"?",
+          "observable_student_behaviors": [
+            "appeals_to_status",
+            "claims_identity"
+          ],
+          "behavior_tags": [
+            "intellectual_vanity",
+            "status_shield"
+          ],
+          "inferred_state": {
+            "reading": "indignant_entitlement",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Adulterer",
+          "text": "What then, are not women common by nature?",
+          "observable_student_behaviors": [
+            "rationalizes_vice",
+            "cites_theory"
+          ],
+          "behavior_tags": [
+            "sophistry",
+            "theoretical_defense"
+          ],
+          "inferred_state": {
+            "reading": "cynical_defensiveness",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Epictetus",
+          "text": "But if we lay aside this fidelity... what are we doing? Whom? The man of fidelity, the man of modesty... And are we not overthrowing neighbourhood, and friendship... How shall I consider you, man? As a neighbour, as a friend? ... Wherein shall I trust you?",
+          "observable_teaching_actions": [
+            "interrogates_social_utility",
+            "strips_role"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Dismantling the social identity of the adulterer by showing he has destroyed the trust required for any role.",
+          "function_id": "UM_05",
+          "classification_evidence": "Ego displacement: You are not a 'neighbour' or 'friend' if you have no fidelity.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Without fidelity, social categories collapse.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 2,
+            "reaction_label": "defensive",
+            "evidence": "Then will you say, 'No man, cares for me...'",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Epictetus",
+          "text": "They do not, because you are bad and useless. It is just as if the wasps complained... You have such a sting that you throw into trouble and pain any man that you wound with it. What would you have us do with you? You have no place where you can be put.",
+          "observable_teaching_actions": [
+            "dehumanizes_behavior",
+            "uses_animal_analogy"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Replacing the student's high self-image ('man of letters') with a pestilent image ('wasp').",
+          "function_id": "UM_05",
+          "classification_evidence": "Ego displacement: You are not a scholar; you are a pest.",
+          "register": {
+            "intensity": "PR_04",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_03",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "spiritual_superego"
+          ],
+          "trap_notes": [
+            "Student relies on intellectual status to cover moral rot."
+          ],
+          "mechanism_shape": "structural_analogy",
+          "mechanism_comment": "Adulterer : Society :: Wasp : Hive.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 4,
+            "reaction_label": "pushes_back",
+            "evidence": "What then, are not women common by nature?",
+            "outcome_label": "partial_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Epictetus",
+          "text": "So I say also; for a little pig is common to all the invited guests, but when the portions have been distributed, go, if you think it right, and snatch up the portion of him who reclines next to you... snatch up a bit of the meat, grease your fingers and lick them.",
+          "observable_teaching_actions": [
+            "accepts_premise_mockingly",
+            "reduces_to_grotesque"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Taking the 'theoretical' defense (women are common) and showing its grotesque physical reality (stealing pork with greasy fingers).",
+          "function_id": "UM_03",
+          "classification_evidence": "Reductio extension: If 'common' justifies theft, then behave like a glutton at dinner.",
+          "register": {
+            "intensity": "PR_04",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_06",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "semantic_fog"
+          ],
+          "trap_notes": [
+            "Student hides behind the abstract word 'common'."
+          ],
+          "mechanism_shape": "structural_analogy",
+          "mechanism_comment": "Wife : Marriage :: Pork Portion : Dinner Plate.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "greasy_fingers_reductio",
+            "shape": "grotesque_concretization",
+            "canonical_candidate": false
+          }
+        }
+      ],
+      "episode_overview": "Epictetus ruthlessly dismantles the pretensions of an intellectual adulterer, comparing him to a wasp and a pig-thief to show that without fidelity, he has no place in human society.",
+      "episode_insights": {
+        "key_pattern": "Status Interrogation → Dehumanizing Analogy (Wasp) → Theoretical Defense → Grotesque Concretization (Greasy Fingers)",
+        "notes": [
+          "High Intensity (PR_04).",
+          "Uses 'Grotesque' style (LS_06) to break the 'Man of Letters' armor."
+        ]
+      }
+    },
+    {
+      "episode_id": "discourses_b2_c12_consular_horse_care",
+      "source_text": "The Discourses by Epictetus, Book 2",
+      "lineage": "Stoic",
+      "student_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Consular",
+          "text": "I can tell you.",
+          "observable_student_behaviors": [
+            "answers_confidently"
+          ],
+          "behavior_tags": [
+            "competence_signaling"
+          ],
+          "inferred_state": {
+            "reading": "confident_expert",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Consular",
+          "text": "I don't entrust even these to anyone indifferently.",
+          "observable_student_behaviors": [
+            "affirms_standards"
+          ],
+          "behavior_tags": [
+            "pride_in_management"
+          ],
+          "inferred_state": {
+            "reading": "consistent_standards",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Consular",
+          "text": "Without a doubt.",
+          "observable_student_behaviors": [
+            "agrees_to_logic"
+          ],
+          "behavior_tags": [
+            "logical_trap_closing"
+          ],
+          "inferred_state": {
+            "reading": "unsuspecting_agreement",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.05
+        },
+        {
+          "turn_index": 14,
+          "speaker": "Consular",
+          "text": "Is it the soul that you mean? In truth I do think the soul is a much better thing than all the others which I possess.",
+          "observable_student_behaviors": [
+            "identifies_target",
+            "values_target"
+          ],
+          "behavior_tags": [
+            "value_realization",
+            "trap_sprung"
+          ],
+          "inferred_state": {
+            "reading": "sudden_awareness",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Epictetus",
+          "text": "Can you tell me, Sir, to whose care you have entrusted your horses?",
+          "observable_teaching_actions": [
+            "initiates_inquiry",
+            "selects_low_stakes_topic"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Starting a 'fortiori' argument from the bottom of the value hierarchy.",
+          "function_id": "RM_01",
+          "classification_evidence": "Structural mapping: Establishing the 'Care for Assets' pattern.",
+          "register": {
+            "intensity": "PR_01",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "none",
+          "mechanism_comment": null,
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 2,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "I can tell you.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Epictetus",
+          "text": "Well then; can you tell me to whom you entrust your gold or silver things or your vestments?",
+          "observable_teaching_actions": [
+            "escalates_value"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Moving up the hierarchy of assets (Horses -> Gold).",
+          "function_id": "RM_02",
+          "classification_evidence": "Example instantiation: Reinforcing the pattern with higher value items.",
+          "register": {
+            "intensity": "PR_01",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "comparison",
+          "mechanism_comment": "Pattern consistency check.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 6,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "I don't entrust even these to anyone indifferently.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 13,
+          "speaker": "Epictetus",
+          "text": "That I mean which makes use of these things, and tests each of these things and deliberates.",
+          "observable_teaching_actions": [
+            "identifies_ruling_faculty",
+            "implies_neglect"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Revealing the contradiction: You care for the tools (horses/gold) but neglect the user (Soul).",
+          "function_id": "UM_02",
+          "classification_evidence": "Internal contradiction (implied): If A > B, and Care(B) is high, Care(A) must be higher. But it is zero.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "category_conflation"
+          ],
+          "trap_notes": [
+            "Student conflates 'possessions' with 'self'."
+          ],
+          "mechanism_shape": "system_dynamics",
+          "mechanism_comment": "Controller vs Controlled.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 14,
+            "reaction_label": "conceptual_concession",
+            "evidence": "Is it the soul that you mean?",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "hierarchy_of_care",
+            "shape": "a_fortiori_trap",
+            "canonical_candidate": true
+          }
+        }
+      ],
+      "episode_overview": "Epictetus walks a Roman Consular through his careful management of horses and gold to expose his total negligence of his own Soul/Ruling Faculty.",
+      "episode_insights": {
+        "key_pattern": "Inventory of Lesser Goods (Horses, Gold) → Establishment of Care Standard → Identification of Highest Good (Soul) → Exposure of Neglect",
+        "notes": [
+          "The 'Fortiori' argument: If you care for the less, how much more for the greater?",
+          "Traps the expert in their own competence."
+        ]
+      }
+    },
+    {
+      "episode_id": "discourses_b2_c12_envious_man_socrates",
+      "source_text": "The Discourses by Epictetus, Book 2",
+      "lineage": "Stoic",
+      "student_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Adversary",
+          "text": "By no means, but he is rather pained.",
+          "observable_student_behaviors": [
+            "defines_state"
+          ],
+          "behavior_tags": [
+            "definition_building"
+          ],
+          "inferred_state": {
+            "reading": "cooperative_definition",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Adversary",
+          "text": "(Implied negation/agreement that envy concerns goods)",
+          "observable_student_behaviors": [
+            "agrees_silently"
+          ],
+          "behavior_tags": [
+            "logical_assent"
+          ],
+          "inferred_state": {
+            "reading": "following_logic",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Adversary",
+          "text": "By no means.",
+          "observable_student_behaviors": [
+            "narrows_scope"
+          ],
+          "behavior_tags": [
+            "boundary_setting"
+          ],
+          "inferred_state": {
+            "reading": "definition_complete",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Socrates",
+          "text": "Does the envious man rejoice?",
+          "observable_teaching_actions": [
+            "initiates_binary_question"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Forcing a precise definition by stripping away incorrect attributes.",
+          "function_id": "UM_01",
+          "classification_evidence": "Definition collapse: Envy != Joy.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Removing 'rejoicing' from the set of Envy attributes.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 2,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "By no means, but he is rather pained.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Socrates",
+          "text": "Do you think that envy is pain over evils? and what envy is there of evils?",
+          "observable_teaching_actions": [
+            "tests_object_of_pain"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Clarifying that Envy is pain over *Goods*, not Evils.",
+          "function_id": "UM_01",
+          "classification_evidence": "Definition collapse: Envy != Pain over Evils (that's Pity/Fear).",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "semantic_fog"
+          ],
+          "trap_notes": [
+            "Clearing up the precise object of the emotion."
+          ],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Narrowing the definition further.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 4,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "(Implied agreement)",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Socrates",
+          "text": "Well then, would any man envy those who are nothing to him?",
+          "observable_teaching_actions": [
+            "tests_proximity"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Defining the proximity constraint of Envy.",
+          "function_id": "UM_01",
+          "classification_evidence": "Definition collapse: Envy requires proximity/relevance.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Final definition: Envy is pain over goods happening to equals/neighbors.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 6,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "By no means.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "socratic_definition",
+            "shape": "binary_narrowing",
+            "canonical_candidate": false
+          }
+        }
+      ],
+      "episode_overview": "Socrates (quoted by Epictetus) forces an adversary to define Envy precisely by asking a series of binary questions that strip away incorrect attributes (rejoicing, pain over evils, strangers).",
+      "episode_insights": {
+        "key_pattern": "Binary Questioning → Exclusion of Attributes → Synthesis of Definition",
+        "notes": [
+          "The 'Witness of the Adversary' method: Getting the opponent to construct the trap themselves.",
+          "Pure conceptual cleanup (UM_01)."
+        ]
+      }
+    }
+  ]
+} 
+
+{
+  "batch_source": "10 epictetus.txt",
+  "episodes": [
+    {
+      "episode_id": "discourses_b2_c15_obstinate_starver",
+      "source_text": "The Discourses by Epictetus, Book 2",
+      "lineage": "Stoic",
+      "student_turns": [
+        {
+          "turn_index": 3,
+          "speaker": "Companion",
+          "text": "We ought to keep to our determinations.",
+          "observable_student_behaviors": [
+            "cites_principle",
+            "asserts_consistency"
+          ],
+          "behavior_tags": [
+            "ethical_rigidity",
+            "blind_constancy"
+          ],
+          "inferred_state": {
+            "reading": "misapplied_dogmatism",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Companion",
+          "text": "I am determined.",
+          "observable_student_behaviors": [
+            "reiterates_stance"
+          ],
+          "behavior_tags": [
+            "stubbornness"
+          ],
+          "inferred_state": {
+            "reading": "emotional_entrenchment",
+            "confidence": 0.8
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Companion",
+          "text": "I know not what I ought to do, but I am come to learn.",
+          "observable_student_behaviors": [
+            "admits_confusion",
+            "seeks_help"
+          ],
+          "behavior_tags": [
+            "defensive_pivot"
+          ],
+          "inferred_state": {
+            "reading": "desperate_aporia",
+            "confidence": 0.75
+          },
+          "annotator_uncertainty": 0.1
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Epictetus",
+          "text": "But still tell me what it was which induced you to resolve; for if you have resolved rightly, we shall sit with you and assist you to depart; but if you have made an unreasonable resolution, change your mind.",
+          "observable_teaching_actions": [
+            "demands_reason",
+            "sets_conditional_assistance"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Establishing the proper protocol: resolution must be based on reason, not mere feeling.",
+          "function_id": "RM_03",
+          "classification_evidence": "Conceptual distinction: Differentiating 'rightly resolved' from 'unreasonable resolution'.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "threshold",
+          "mechanism_comment": "Setting the threshold for assisted departure (suicide allowed only if rational).",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 3,
+            "reaction_label": "pushes_back",
+            "evidence": "We ought to keep to our determinations.",
+            "outcome_label": "partial_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Epictetus",
+          "text": "What are you doing, man? We ought to keep not to all our determinations, but to those which are right; for if you are now persuaded that it is right, do not change your mind... Will you not make the beginning and lay the foundation in an inquiry whether the determination is sound or not sound, and so then build on it firmness and security? But if you lay a rotten and ruinous foundation, will not your miserable little building fall down the sooner...",
+          "observable_teaching_actions": [
+            "corrects_principle",
+            "uses_building_analogy"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Dismantling the student's concept of 'constancy' by demonstrating its reliance on a foundation.",
+          "function_id": "UM_06",
+          "classification_evidence": "Constraint removal: Removing the absolute premise that consistency is always a virtue.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_03",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "category_conflation"
+          ],
+          "trap_notes": [
+            "Conflating firmness (virtue) with rigidity (vice)."
+          ],
+          "mechanism_shape": "structural_analogy",
+          "mechanism_comment": "Resolution : Building :: Premise : Foundation.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 5,
+            "reaction_label": "withdraws",
+            "evidence": "I am determined.",
+            "outcome_label": "failure",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "rotten_foundation",
+            "shape": "foundation_analogy",
+            "canonical_candidate": false
+          }
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Epictetus",
+          "text": "Will you not act like a sick man and call in the physician?",
+          "observable_teaching_actions": [
+            "offers_reframe"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Reframing the student's condition as a solvable problem (sickness).",
+          "function_id": "RM_05",
+          "classification_evidence": "Frame upgrade: Sickness requires physician, not stubborn determination.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_03",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "defensive_pivot"
+          ],
+          "trap_notes": [],
+          "mechanism_shape": "structural_analogy",
+          "mechanism_comment": "Philosopher : Physician :: Resolution : Sickness.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 7,
+            "reaction_label": "defensive",
+            "evidence": "I know not what I ought to do, but I am come to learn.",
+            "outcome_label": "partial_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Epictetus",
+          "text": "Not so; but, \"Speak to me about other things: upon this I have determined.\" What other things? for what is greater and more useful than for you to be persuaded that it is not sufficient to have made your determination and not to change it. This is the tone of madness, not of health.",
+          "observable_teaching_actions": [
+            "isolates_central_error",
+            "labels_state"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Refusing to allow the student to distract, and naming the core philosophical error ('madness').",
+          "function_id": "UM_05",
+          "classification_evidence": "Ego displacement: Labeling the student's stance as 'madness' (psychological attack).",
+          "register": {
+            "intensity": "PR_04",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_03",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "comparison",
+          "mechanism_comment": "Tone of Madness vs Tone of Health.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "failure",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Epictetus confronts a companion determined to starve himself, showing that his resolve is based on a 'rotten foundation' (a misapplied principle of consistency) and that his mental state is 'madness,' not philosophical health.",
+      "episode_insights": {
+        "key_pattern": "Resolution Challenge → Foundational Analogy (Rotten Building) → Distraction Refused → Final Labeling (Madness)",
+        "notes": [
+          "The teacher accepts failure/impasse ('failure' outcome label) when the student remains entrenched (Turn 5, 8).",
+          "A sharp distinction between philosophical integrity and psychological fixation."
+        ]
+      }
+    },
+    {
+      "episode_id": "discourses_b2_c19_show_me_stoic",
+      "source_text": "The Discourses by Epictetus, Book 2",
+      "lineage": "Stoic",
+      "student_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Students (implied)",
+          "text": "(Silence/Inability to produce one)",
+          "observable_student_behaviors": [
+            "fails_to_produce_example",
+            "remains_silent"
+          ],
+          "behavior_tags": [
+            "aporia",
+            "cognitive_block"
+          ],
+          "inferred_state": {
+            "reading": "silent_admission_of_failure",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Epictetus",
+          "text": "Show me a Stoic, if you can. Where or how? But you can show me an endless number who utter small arguments of the Stoics... who then is a Stoic? As we call a statue Phidiac which is fashioned according to the art of Phidias; so show me a man who is fashioned according to the doctrines which he utters...",
+          "observable_teaching_actions": [
+            "challenges_audience",
+            "demands_embodiment",
+            "uses_art_analogy"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Dismantling the false identity ('Stoic') based on intellectual assent.",
+          "function_id": "UM_04",
+          "classification_evidence": "Abstraction strip: Stripping away the abstract philosophical label and demanding the concrete (embodied) result.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_03",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "conceptual_reification"
+          ],
+          "trap_notes": [
+            "Student reifies 'Stoic' as a theory to be quoted, not a character to be built."
+          ],
+          "mechanism_shape": "abstract_to_concrete_check",
+          "mechanism_comment": "Checking if the abstract doctrine results in concrete character (Phidiac analogy).",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 2,
+            "reaction_label": "withdraws",
+            "evidence": "(Silence/Inability to produce one)",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "demand_for_embodiment",
+            "shape": "show_me_a_stoic",
+            "canonical_candidate": true
+          }
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Epictetus",
+          "text": "You cannot show me one fashioned so; but show me at least one who is forming, who has shown a tendency to be a Stoic... Do you think that you must show me the Zeus of Phidias or the Athena... Let any of you show me a human soul ready to think as God does, and not to blame either God or man...",
+          "observable_teaching_actions": [
+            "lowers_standard_conditionally",
+            "reasserts_true_goal"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Redefining the standard of success: the goal is the 'soul ready to think as God does'.",
+          "function_id": "RM_05",
+          "classification_evidence": "Frame upgrade: The goal is not the 'finished product' (Phidias' Zeus) but the 'soul ready' (the process).",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_03",
+            "phenomenological_depth": "PD_04",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [
+            "answer_hunting"
+          ],
+          "trap_notes": [
+            "Students are looking for easy intellectual identity."
+          ],
+          "mechanism_shape": "comparison",
+          "mechanism_comment": "Finished product (Statue) vs Ongoing process (Soul Forming).",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Epictetus challenges his students, who claim the Stoic identity, by demanding they produce embodied proof (a person happy in sickness/disgrace) or at least one 'forming' the character, rather than just reciting arguments.",
+      "episode_insights": {
+        "key_pattern": "Demand for Embodiment → Analogy to Art (Phidias) → Lowering Standard to 'Forming' → Redefinition of Success",
+        "notes": [
+          "The silence (T2) confirms the failure of their intellectual identity.",
+          "The final move (T3) is highly specific: demanding a soul ready to think as God does (PD_04)."
+        ]
+      }
+    },
+    {
+      "episode_id": "discourses_b2_c21_liar_paradox_vs_life",
+      "source_text": "The Discourses by Epictetus, Book 2",
+      "lineage": "Stoic",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Student",
+          "text": "I wish I could learn everything before I return: but much labour is necessary, and no one sends me anything, and the baths at Nicopolis are dirty; everything is bad at home, and bad here.",
+          "observable_student_behaviors": [
+            "complains_of_externals",
+            "expresses_dissatisfaction"
+          ],
+          "behavior_tags": [
+            "external_locus_of_control",
+            "entitlement"
+          ],
+          "inferred_state": {
+            "reading": "whining_impatience",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Student",
+          "text": "But I wish to prattle about theorems.",
+          "observable_student_behaviors": [
+            "states_superficial_goal"
+          ],
+          "behavior_tags": [
+            "intellectual_diversion"
+          ],
+          "inferred_state": {
+            "reading": "avoiding_practical_work",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Student",
+          "text": "Yes; but if my child die or my brother, or if I must die or be racked, what good will these things do me?",
+          "observable_student_behaviors": [
+            "questions_utility",
+            "introduces_high_stakes"
+          ],
+          "behavior_tags": [
+            "existential_inquiry"
+          ],
+          "inferred_state": {
+            "reading": "seeking_practical_benefit",
+            "confidence": 0.85
+          },
+          "annotator_uncertainty": 0.15
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Epictetus",
+          "text": "Then they say, \"No one gains any profit from the school.\" Why, who comes to the school, who comes for the purpose of being improved? who comes to present his opinions to he purified? who comes to learn what he is in want of? Why do you wonder then if you carry back from the school the very things which you bring into it?",
+          "observable_teaching_actions": [
+            "reverses_blame",
+            "questions_intention"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Dismantling the student's belief that he is attending school for the right purpose.",
+          "function_id": "UM_02",
+          "classification_evidence": "Internal contradiction: You complain of no profit, but you don't come for profit.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "looking_outward"
+          ],
+          "trap_notes": [
+            "Student blames the school/baths when the problem is his own lack of intention."
+          ],
+          "mechanism_shape": "feedback",
+          "mechanism_comment": "Input equals Output loop.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 3,
+            "reaction_label": "elaborates",
+            "evidence": "But I wish to prattle about theorems.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Epictetus",
+          "text": "Do not your little theorems give you some opportunity of display? You solve sophistical syllogisms. Do you not examine the assumptions of the syllogism named \"The Liar\"? Why, then, are you still vexed if you receive the things for which you come to the school?",
+          "observable_teaching_actions": [
+            "confirms_actual_practice",
+            "exposes_mismatch"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Exposing the contradiction between the student's stated goal and their actual curriculum/effort.",
+          "function_id": "UM_02",
+          "classification_evidence": "Internal contradiction: You practice abstract logic (Liar paradox) but complain about the rewards of logic.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "answer_hunting"
+          ],
+          "trap_notes": [
+            "Student is practicing theory/display, not practical application."
+          ],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Practice A -> Get Result A.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 5,
+            "reaction_label": "inference_check",
+            "evidence": "Yes; but if my child die... what good will these things do me?",
+            "outcome_label": "partial_success",
+            "phase_shift": {"from": "UNMAKING", "to": "UNMAKING"}
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Epictetus",
+          "text": "Well, did you come for this? for this do you sit by my side?",
+          "observable_teaching_actions": [
+            "isolates_goal_failure",
+            "reasserts_actual_purpose"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Final challenge: directly linking the high-stakes problem back to the student's deficient intent.",
+          "function_id": "UM_06",
+          "classification_evidence": "Constraint removal: Removing the student's implicit premise that logic study helps with death.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "vagueness"
+          ],
+          "trap_notes": [],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "The implicit purpose (preparing for death) was not the explicit purpose (prattling).",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Epictetus confronts a student who complains about his lack of progress in life while spending his time on abstract logic games ('The Liar'), showing that he only receives the rewards of his actual practice, not his ideal goal.",
+      "episode_insights": {
+        "key_pattern": "External Complaint → Intention Challenge → Practice/Goal Contradiction (Liar Paradox) → Final Goal Rejection",
+        "notes": [
+          "Crucial distinction between **stated goal** and **actual practice**.",
+          "Exposes that the theoretical life offers no comfort for real-world catastrophe."
+        ]
+      }
+    },
+    {
+      "episode_id": "discourses_b2_c24_status_contest",
+      "source_text": "The Discourses by Epictetus, Book 2",
+      "lineage": "Stoic",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Student",
+          "text": "But I also am rich.",
+          "observable_student_behaviors": [
+            "asserts_status"
+          ],
+          "behavior_tags": [
+            "bragging",
+            "external_validation"
+          ],
+          "inferred_state": {
+            "reading": "seeking_validation",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Student",
+          "text": "But I am also handsome.",
+          "observable_student_behaviors": [
+            "shifts_category",
+            "asserts_status"
+          ],
+          "behavior_tags": [
+            "superficiality"
+          ],
+          "inferred_state": {
+            "reading": "persistent_bragging",
+            "confidence": 0.9},
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Student",
+          "text": "But I am also strong.",
+          "observable_student_behaviors": [
+            "shifts_category",
+            "asserts_status"
+          ],
+          "behavior_tags": [
+            "physical_vanity"
+          ],
+          "inferred_state": {
+            "reading": "desperate_validation",
+            "confidence": 0.85
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Student",
+          "text": "But I am also of noble birth.",
+          "observable_student_behaviors": [
+            "shifts_category",
+            "asserts_status"
+          ],
+          "behavior_tags": [
+            "lineage_vanity"
+          ],
+          "inferred_state": {
+            "reading": "final_status_appeal",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Epictetus",
+          "text": "Are you then richer than Agamemnon?",
+          "observable_teaching_actions": [
+            "uses_mythological_benchmark",
+            "tests_limit"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Dismantling the concept of 'rich' by comparing it to a maximum/mythic exemplar.",
+          "function_id": "UM_05",
+          "classification_evidence": "Ego displacement: Your status is irrelevant next to a mythological standard.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "realism_trap"
+          ],
+          "trap_notes": [
+            "Student believes current status is sufficient benchmark."
+          ],
+          "mechanism_shape": "comparison",
+          "mechanism_comment": "Benchmarking current wealth against mythological maximum.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 3,
+            "reaction_label": "defensive_pivot",
+            "evidence": "But I am also handsome.",
+            "outcome_label": "partial_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "mythological_benchmark",
+            "shape": "reductio_by_comparison",
+            "canonical_candidate": false
+          }
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Epictetus",
+          "text": "Are you then more handsome than Achilles?",
+          "observable_teaching_actions": [
+            "repeats_benchmark"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Continuing the dismantling strategy across a different category (beauty).",
+          "function_id": "UM_05",
+          "classification_evidence": "Ego displacement: Your beauty is irrelevant next to a mythic standard.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "ego_defense"
+          ],
+          "trap_notes": [
+            "Student keeps pivoting to new external defenses."
+          ],
+          "mechanism_shape": "comparison",
+          "mechanism_comment": "Benchmarking beauty against mythological maximum.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 5,
+            "reaction_label": "defensive_pivot",
+            "evidence": "But I have also beautiful hair.",
+            "outcome_label": "partial_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Epictetus",
+          "text": "Are you the son of a goddess mother? are you the son of a father sprung from Zeus? What good then do these things do to him, when he sits and weeps for a girl?",
+          "observable_teaching_actions": [
+            "tests_ultimate_limit",
+            "exposes_irrelevance"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Finalizing the destruction by showing the maximum of all external goods (Achilles) is defeated by a trivial passion (weeping for a girl).",
+          "function_id": "UM_03",
+          "classification_evidence": "Reductio extension: Showing that the maximum of external status doesn't prevent internal misery.",
+          "register": {
+            "intensity": "PR_04",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_03",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "conceptual_reification"
+          ],
+          "trap_notes": [
+            "Student reifies status as a guarantee of happiness."
+          ],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "All external status (Achilles) collapses under the internal constraint (grief).",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Epictetus systematically refutes a student who attempts to establish his worth through external goods (wealth, beauty, strength) by comparing him, and ultimately the greatest mythic hero Achilles, to the triviality of internal passion (weeping).",
+      "episode_insights": {
+        "key_pattern": "Status Assertion → Mythological Benchmarking (Agamemnon, Achilles) → Final Contradiction (Greatest Status still yields Weeping)",
+        "notes": [
+          "Uses pivot questions to strip the student's self-concept layer by layer.",
+          "The power of the argument comes from refuting the 'maximum' case (Achilles)."
+        ]
+      }
+    },
+    {
+      "episode_id": "discourses_b1_c28_medea_assent",
+      "source_text": "The Discourses by Epictetus, Book 1",
+      "lineage": "Stoic",
+      "student_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Interlocutor",
+          "text": "He cannot.",
+          "observable_student_behaviors": [
+            "agrees_to_premise"
+          ],
+          "behavior_tags": [
+            "logical_assent"
+          ],
+          "inferred_state": {
+            "reading": "cooperative_agreement",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Interlocutor",
+          "text": "It was so; but she was deceived.",
+          "observable_student_behaviors": [
+            "maintains_consistency",
+            "identifies_error"
+          ],
+          "behavior_tags": [
+            "intellectual_concession"
+          ],
+          "inferred_state": {
+            "reading": "correct_diagnosis_of_error",
+            "confidence": 0.9},
+          "annotator_uncertainty": 0.1
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Epictetus",
+          "text": "Can, then, a man think that a thing is useful to him and not choose it?",
+          "observable_teaching_actions": [
+            "initiates_first_premise",
+            "questions_will_utility"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Establishing the cornerstone of Stoic psychology: The Will always follows what appears useful/good.",
+          "function_id": "RM_03",
+          "classification_evidence": "Conceptual distinction: Choice is necessarily tied to usefulness (the discipline of assent).",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "system_dynamics",
+          "mechanism_comment": "Choice is a function of perceived utility.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 2,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "He cannot.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Epictetus",
+          "text": "How says Medea? 'Tis true I know what evil I shall do, But passion overpowers the better council.' She thought that to indulge her passion and take vengeance on her husband was more profitable than to spare her children.",
+          "observable_teaching_actions": [
+            "introduces_counterexample",
+            "reinterprets_motive"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Reconciling the Medea paradox with the Stoic premise: Medea didn't choose evil; she miscalculated profit.",
+          "function_id": "RM_05",
+          "classification_evidence": "Frame upgrade: Vice is redefined as intellectual error (a mistake in the calculation of profit/good).",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_04",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "false_paradox"
+          ],
+          "trap_notes": [
+            "The Medea quote is the common-sense paradox of weakness of will."
+          ],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Passion makes Vengeance *appear* more profitable.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 4,
+            "reaction_label": "conceptual_concession",
+            "evidence": "It was so; but she was deceived.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Epictetus",
+          "text": "Show her plainly that she is deceived, and she will not do it; but so long as you do not show it, what can she follow except that which appears to herself? Nothing else. Why, then, are you angry with the unhappy woman that she has been bewildered about the most important things, and is become a viper instead of a human creature?",
+          "observable_teaching_actions": [
+            "assigns_remedy",
+            "shifts_affect_to_pity"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Finalizing the frame: the appropriate response to vice is instruction/pity, not anger.",
+          "function_id": "RM_04",
+          "classification_evidence": "Instruction protocol (implied): The task is to show her the deception.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_04",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_03",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "threshold",
+          "mechanism_comment": "The threshold for change is the realization of error.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "vice_as_intellectual_error",
+            "shape": "assent_reframe",
+            "canonical_candidate": true
+          }
+        }
+      ],
+      "episode_overview": "Epictetus uses the extreme example of Medea to teach the core Stoic doctrine that all wrongdoing stems from an intellectual error (miscalculation of 'profit'), not a failure of will, thus shifting the response from anger to instruction.",
+      "episode_insights": {
+        "key_pattern": "Premise (Utility $\\rightarrow$ Choice) → Counter-Example (Medea Paradox) → Reinterpretation (Vengeance = Profit) → Final Remedy (Show the Deception)",
+        "notes": [
+          "The 'Intellectualism of Vice'—all evil is ignorance—is the key frame upgrade.",
+          "The final move explicitly addresses the audience's emotion ('Why, then, are you angry')."
+        ]
+      }
+    }
+  ]
+}

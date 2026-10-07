@@ -1,0 +1,874 @@
+{
+  "episodes": [
+    {
+      "episode_id": "dispeller_v31_regress_spiral",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          "text": "Objects of some kind are established by the epistemic instruments [pramanas]."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nagarjuna",
+          [cite_start]"text": "If according to you objects of some kind are established by the epistemic instruments, you have to indicate how according to you the epistemic instruments are established in turn. [cite: 2441]"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Nagarjuna",
+          "text": "If the epistemic instruments were established by other epistemic instruments, there would be an infinite regress. [cite_start]Neither the beginning, the middle, nor the end is established there. [cite: 2444-2446]"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nagarjuna",
+          "text": "Then if you think \"these epistemic instruments are established without epistemic instruments,\" your position is abandoned. [cite_start]There is an inequality to be explained, and you should state the special reason why some objects are established by epistemic instruments and some are not. [cite: 2453-2455]"
+        }
+      ],
+      "metadata": {
+        "phases_present": ["UNMAKING"],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "The Realist asserts epistemic authority: We know X because we have valid instruments (perception/logic).",
+        "end_state_desc": "Nagarjuna traps them in a dilemma: Either Infinite Regress (validation requires validation ad infinitum) or Dogmatism (unvalidated inequality).",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "The Regress Spiral (Anavastha). Dismantling authority by demanding the 'validator of the validator'.",
+        "what_model_should_learn": [
+          "How to break a claim of 'certainty' by recursively asking for the proof of the proof.",
+          "How to use the 'Special Reason' inequality trap against dogmatic axioms."
+        ]
+      },
+      "source_location": {
+        "section": "Verses 31-33"
+      }
+    },
+    {
+      "episode_id": "dispeller_v49_circularity_trap",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          "text": "The establishment of the epistemic objects is by the epistemic instruments and the establishment of the epistemic instruments by the epistemic objects."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nagarjuna",
+          [cite_start]"text": "If the son is to be produced by the father and if the father is to be produced by this very son, you have to say which produces which in this context. [cite: 2510]"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Nagarjuna",
+          "text": "In this case it is unclear to us which of the two is the father and which is the son. [cite_start]It is the very same with your instruments and epistemic objects: which of them are epistemic instruments and which are epistemic objects? [cite: 2516-2519]"
+        }
+      ],
+      "metadata": {
+        "phases_present": ["UNMAKING", "REMAKING"],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "The Realist attempts to save their epistemology by claiming mutual establishment (A proves B, B proves A).",
+        "end_state_desc": "Nagarjuna collapses the distinction using the Father/Son analogy—mutual production destroys the definition of 'producer'.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "The Circularity Trap. Mutual establishment = Mutual non-existence.",
+        "what_model_should_learn": [
+          "How to attack circular reasoning using the genealogy metaphor.",
+          "How to force the user to admit that if A and B rely on each other, neither has a foundation."
+        ]
+      },
+      "source_location": {
+        "section": "Verses 49-50"
+      }
+    },
+    {
+      "episode_id": "dispeller_v29_no_thesis_stance",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          [cite_start]"text": "Thus your thesis, not mine, is corrupted by the specific characteristic. [cite: 2282]"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nagarjuna",
+          "text": "If I had any thesis, that fault would apply to me. [cite_start]But I do not have any thesis, so there is indeed no fault for me. [cite: 2429-2430]"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Nagarjuna",
+          "text": "To that extent, while all things are empty, completely pacified, and by nature free from substance, from where could a thesis come? [cite_start]In this context your statement \"there is precisely that fault for you\" is not tenable. [cite: 2432-2434]"
+        }
+      ],
+      "metadata": {
+        "phases_present": ["META", "UNMAKING"],
+        "dominant_phase": "META",
+        "start_state_desc": "The Realist tries to drag Nagarjuna into a logical contradiction based on the properties of his 'position'.",
+        "end_state_desc": "Nagarjuna executes the 'No Thesis' maneuver, stepping outside the logical quadrant entirely.",
+        "closure_type": "shock"
+      },
+      "training_value": {
+        "pedagogical_shape": "The Void Stance (Prasanga). Refusing the burden of proof by refusing existence.",
+        "what_model_should_learn": [
+          "How to decline a debate on the opponent's terms by denying ownership of a 'thesis'.",
+          "The ultimate defensive move: 'I cannot be refuted because I assert nothing.'"
+        ]
+      },
+      "source_location": {
+        "section": "Verse 29"
+      }
+    },
+    {
+      "episode_id": "dispeller_v39_spatial_reductio",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          "text": "Precisely the arising fire illuminates. For that very arising fire does not connect with darkness [but destroys it]."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nagarjuna",
+          [cite_start]"text": "But if an unconnected fire were to prevent darkness, the fire present here would prevent the darkness in all worlds. [cite: 2478-2479]"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Nagarjuna",
+          "text": "If you think \"an unconnected fire also prevents darkness,\" would it not be the case then that the fire present here right now will similarly prevent that unconnected darkness located in all worlds? [cite_start]But this is not what we observe. [cite: 2479-2480]"
+        }
+      ],
+      "metadata": {
+        "phases_present": ["UNMAKING"],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "The Realist argues for non-contact causality (action at a distance) to save their theory of illumination.",
+        "end_state_desc": "Nagarjuna pushes the logic to its universal limit: If contact isn't needed, local fire should burn universal darkness. Absurdity.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Spatial Reductio (The Universalizer). If the rule works 'here' without contact, it must work 'everywhere'.",
+        "what_model_should_learn": [
+          "How to destroy a metaphysical claim by applying its logic to physical space.",
+          "The technique of 'Action at a Distance' reductio."
+        ]
+      },
+      "source_location": {
+        "section": "Verse 39"
+      }
+    },
+    {
+      "episode_id": "dispeller_v55_ethical_inversion",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          "text": "If the substance of the auspicious things was not produced in dependence on anything, there would be no religious practice. There would be neither right nor wrong nor worldly conventions."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nagarjuna",
+          "text": "They would be permanent and substantial; because they are permanent they are acausal. [cite_start]While there is no cause there is no arising, remaining, and decay. [cite: 2552, 2563]"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Nagarjuna",
+          "text": "In this context, the non-existence of religious practice would follow exactly. And there is a contradiction with your own position. Why? [cite_start]Because the Blessed One said that all compounded things are impermanent. [cite: 2557-2558]"
+        }
+      ],
+      "metadata": {
+        "phases_present": ["REMAKING", "UNMAKING"],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "The Realist claims that 'Substance' is necessary for Ethics/Religion.",
+        "end_state_desc": "Nagarjuna inverts the claim: Substance implies Permanence, which kills change, which kills ethical progress. Thus, the Realist is the nihilist.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "The Mirror Turn (Tu Quoque). Your accusation applies to you, not me.",
+        "what_model_should_learn": [
+          "How to flip a charge of nihilism: 'By making it fixed, YOU destroy it.'",
+          "How to link 'Substance' to 'Stasis' to show its uselessness for living practice."
+        ]
+      },
+      "source_location": {
+        "section": "Verses 54-56"
+      }
+    },
+    {
+      "episode_id": "dispeller_v35_symmetry_breaker",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          "text": "As fire illuminates itself as well as others, so the epistemic instruments prove themselves and others."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nagarjuna",
+          [cite_start]"text": "If, according to your assertion, fire illuminates itself like others, is it not also the case that fire consumes itself? [cite: 2464]"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Nagarjuna",
+          [cite_start]"text": "If, according to your assertion, fire illuminates both itself and others, darkness will conceal both itself and others, in the same way as fire. [cite: 2466]"
+        }
+      ],
+      "metadata": {
+        "phases_present": ["UNMAKING"],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "The Realist relies on the analogy of Fire (self-illuminating) to prove Knowledge is self-validating.",
+        "end_state_desc": "Nagarjuna breaks the analogy by demanding symmetry: If it lights itself, it must burn itself. And darkness must hide itself.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Analogy Stress-Test. Extending the metaphor until it snaps.",
+        "what_model_should_learn": [
+          "How to defeat an analogy by applying its logic to other properties (Illumination -> Burning).",
+          "How to use the 'Opposite' (Darkness) to check the logic of the 'Positive' (Light)."
+        ]
+      },
+      "source_location": {
+        "section": "Verses 35-36"
+      }
+    },
+    {
+      "episode_id": "dispeller_v22_functional_void",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          "text": "A non-existent assertion cannot negate the substance of all things."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nagarjuna",
+          [cite_start]"text": "For instance a chariot, pot, cloth, and so forth, which are empty of substance because they are dependently originated, perform in their respective ways by removing wood, grass, earth, by containing honey, water, or milk. [cite: 2384]"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Nagarjuna",
+          [cite_start]"text": "Similarly my speech, which is also without substance because it is dependently arisen, plays a part in establishing the lack of substance of things. [cite: 2385]"
+        }
+      ],
+      "metadata": {
+        "phases_present": ["REMAKING"],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "The Realist argues that only 'Real' things can function (negate/cut/burn).",
+        "end_state_desc": "Nagarjuna shows that only 'Empty' things function. If a pot were substantial (eternal/fixed), it couldn't hold water. Functionality *requires* emptiness.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "The Functionality Argument. Emptiness is not nothingness; it is the mechanism of utility.",
+        "what_model_should_learn": [
+          "How to use concrete objects (pots/chariots) to prove that 'emptiness' equals 'capacity to function'.",
+          "How to refute the idea that words need 'substance' to have 'meaning'."
+        ]
+      },
+      "source_location": {
+        "section": "Verse 22"
+      }
+    },
+    {
+      "episode_id": "dispeller_v58_semantic_dilemma",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          "text": "And if there was no substance, there would also not even be the name \"insubstantiality of things,\" for there is no name without a referent."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nagarjuna",
+          "text": "The name \"non-existent\"—what is this, something existent or again something non-existent? [cite_start]For if it is existent or if it is nonexistent, either way your position is deficient. [cite: 2572-2573]"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Nagarjuna",
+          "text": "If in this context the name \"non-existent\" is the name of an existent, to that extent the thesis is abandoned. [cite_start]Moreover, if the name \"non-existent\" is the name of a non-existent—there is no name of something which does not exist. [cite: 2575-2577]"
+        }
+      ],
+      "metadata": {
+        "phases_present": ["UNMAKING", "META"],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "The Realist traps Nagarjuna with linguistics: 'If you can name it, it must exist.'",
+        "end_state_desc": "Nagarjuna counters with a dilemma: The name 'Non-existent' either refers to something (contradiction) or nothing (no name). The Realist's linguistic theory collapses.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "The Semantic Dilemma. Using the word 'Nothing' to break the word-object link.",
+        "what_model_should_learn": [
+          "How to use the paradox of negative existentials ('The King of France is bald') to dismantle ontological arguments.",
+          "How to force the user to abandon the 'Word = Thing' fallacy."
+        ]
+      },
+      "source_location": {
+        "section": "Verse 58"
+      }
+    },
+    {
+      "episode_id": "dispeller_v69_temporal_pincer",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          "text": "Supposing that the negation is earlier, and the negated later fails to be successful. And being later and being simultaneous fail to be successful. Therefore substance exists."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nagarjuna",
+          [cite_start]"text": "Because the case is the same, the difficulty of the reason in the three times has already been answered by this. [cite: 2625]"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Nagarjuna",
+          "text": "As far as according to your statement the negation is not achieved in the three times, the object of negation is like the negation. [cite_start]The very reason of the assertion of the negation of the three times is obtained by the proponents of emptiness, and not by you. [cite: 2628-2630]"
+        }
+      ],
+      "metadata": {
+        "phases_present": ["UNMAKING"],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Realist argues causality is impossible in the three times (Before/After/Simultaneous), so Negation can't work.",
+        "end_state_desc": "Nagarjuna accepts the premise and turns it: If Causality fails in the three times, then *Assertion* (Substance) also fails. The weapon destroys the user.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "The Temporal Pincer (Three Times). If time kills my argument, it kills yours too.",
+        "what_model_should_learn": [
+          "How to apply the 'Before, During, After' scan to any causal claim.",
+          "How to use the opponent's impossible standard to destroy their own position (Tu Quoque)."
+        ]
+      },
+      "source_location": {
+        "section": "Verse 69"
+      }
+    },
+    {
+      "episode_id": "dispeller_v23_counter_illusion",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          "text": "A non-existent assertion cannot negate the substance of all things."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nagarjuna",
+          [cite_start]"text": "Suppose one artificial being were to hinder another artificial being, or an illusory man would hinder one brought about by his own illusionistic power. [cite: 2387]"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Nagarjuna",
+          "text": "In this case the artificial man who is hindered is empty, as is the one who hinders him. [cite_start]Therefore in just the same way the negation of the substance of all things is established by my empty speech. [cite: 2389-2391]"
+        }
+      ],
+      "metadata": {
+        "phases_present": ["REMAKING", "META"],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "Realist demands that a Refutation must be 'Real' to work.",
+        "end_state_desc": "Nagarjuna establishes the principle of 'Homeopathic Magic': You don't need Reality to cure Illusion; you need a Counter-Illusion.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "The Phantom Soldier Strategy. Operational validity does not require ontological substance.",
+        "what_model_should_learn": [
+          "How to defend the utility of language/concepts while denying their reality.",
+          "The metaphor of the 'Illusory Man stopping the Illusory Man'."
+        ]
+      },
+      "source_location": {
+        "section": "Verse 23"
+      }
+    }
+  ],
+  "discard_log": [
+    "Skipped V13 (Mirage) - Redundant with V66.",
+    "Skipped V68 (Reason not established) - Too procedural/abstract.",
+    "Skipped V3 (Sound prevention) - Similar to V23 but less vivid than the Artificial Man."
+  ],
+  "extraction_stats": {
+    "total_episodes": 10,
+    "turn_count_distribution": {
+      "2-4": 10,
+      "5-7": 0,
+      "8-10": 0,
+      "11-14": 0
+    },
+    "avg_turns_per_episode": 2.8
+  },
+  "extraction_confidence": "high"
+}  {
+  "episodes": [
+    {
+      "episode_id": "dispeller_v2_inequality_trap",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          "text": "If that statement [of yours] exists substantially, your earlier thesis is refuted. There is an inequality to be explained, and the specific reason for this should be given."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Realist",
+          "text": "Moreover, you could think that there should not be this mistake by arguing, \"This statement exists substantially and because it is a substance it is not empty. [cite_start]Therefore it negates the substance of all things.\" We say in reply: If it is like this, your earlier thesis that all things are empty is refuted. [cite: 19-22]"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Nagarjuna",
+          "text": "This speech does not exist substantially, therefore there is no destruction of my position. [cite_start]There is no inequality, and no particular reason to be mentioned. [cite: 161-162]"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nagarjuna",
+          "text": "As far as my speech is empty and all the other things are also empty, there is no inequality. If we say \"this speech is not empty, yet all the other things are empty,\" there would be an inequality. [cite_start]But it is not like this. [cite: 165-167]"
+        }
+      ],
+      "metadata": {
+        "phases_present": ["UNMAKING", "META"],
+        "dominant_phase": "META",
+        "start_state_desc": "The Realist traps Nagarjuna in the 'Inequality' dilemma: If your words are real, 'all is empty' is false. If your words are empty, they can't refute.",
+        "end_state_desc": "Nagarjuna dissolves the trap by accepting the emptiness of his own tool. No inequality exists because the 'refuter' is as empty as the 'refuted'.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "The Consistency of the Void. The tool of negation is subject to the same laws as the object of negation.",
+        "what_model_should_learn": [
+          "How to handle the 'Special Pleading' accusation (Inequality) by admitting the tool is also empty.",
+          "How to argue that an empty tool can still perform a function (negation) without existing substantially."
+        ]
+      },
+      "source_location": {
+        "section": "Verses 2 & 24"
+      }
+    },
+    {
+      "episode_id": "dispeller_v11_physical_substrate",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          "text": "Because your assertion does not exist in the cause: it does not exist in the great elements collectively or individually."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Realist",
+          [cite_start]"text": "It does also not exist in the conditions which are the action of the chest, the throat, the lips, the tongue, the root of the teeth, the palate, the nose, the head and so forth. [cite: 10-11]"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Realist",
+          "text": "Since it does not exist anywhere among these, it is without substance. Since it is without substance, it is empty. For this reason it is impossible that it dispels the substance of all things."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nagarjuna",
+          [cite_start]"text": "If my speech is not in the combination of causes and conditions and also not distinct from them, is it not the case that emptiness is established because of the absence of the substance of things? [cite: 136]"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Nagarjuna",
+          "text": "Thus is it not the case that the emptiness of my speech is established because of its lack of substance? [cite_start]And as the speech of mine is empty because of the lack of substance, so all things are empty as well. [cite: 138-139]"
+        }
+      ],
+      "metadata": {
+        "phases_present": ["UNMAKING", "REMAKING"],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "The Realist uses a materialist argument: Speech relies on physical parts (teeth, throat), so if it lacks substance, it can't exist.",
+        "end_state_desc": "Nagarjuna uses the Realist's own analysis (speech isn't in the teeth or throat) to prove his point: Speech *is* empty, and that is exactly why it serves as an example for everything else.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "The Materialist Judo Flip. Using the opponent's physical reductionism to prove emptiness.",
+        "what_model_should_learn": [
+          "How to accept a materialist analysis ('it's just atoms/parts') and pivot it to 'therefore it is empty/dependent'.",
+          "How to validate the 'Empty Tool' as a proof of the 'Empty World'."
+        ]
+      },
+      "source_location": {
+        "section": "Verses 1 & 21"
+      }
+    },
+    {
+      "episode_id": "dispeller_v11_pot_in_house",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          "text": "To the extent to which the negation \"there is no pot in the house\" is precisely a negation of an existent, your negation is a negation of an existing substance."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Realist",
+          "text": "Thus the statement \"there is no pot in the house\" brings about the negation of an existent, not of a non-existent pot. [cite_start]Just in this way, the statement \"there is no substance of things\" achieves the negation of an existent substance. [cite: 95-98]"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Nagarjuna",
+          "text": "If negation is of an existent thing, is it not that emptiness is established? Because you negate the insubstantiality of things."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nagarjuna",
+          "text": "If negation is of an existent thing and not of a non-existent one, and if you negate the insubstantiality of all things, is it not that the insubstantiality of all things is established? [cite_start]Your speech, which is a negation, establishes emptiness because it is the negation of the insubstantiality of all things. [cite: 351-353]"
+        }
+      ],
+      "metadata": {
+        "phases_present": ["UNMAKING", "META"],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "The Realist argues that you can only negate things that *could* exist (like a pot). Therefore, Substance must be real for Nagarjuna to negate it.",
+        "end_state_desc": "Nagarjuna turns the Realist's negation back on them: If the Realist negates 'Insubstantiality', then by their own logic, 'Insubstantiality' must exist.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "The Existence of Negation. If you negate my emptiness, you prove my emptiness exists.",
+        "what_model_should_learn": [
+          "How to use the opponent's attack (Negation requires existence) to prove the existence of the very thing they are attacking (Emptiness).",
+          "The logical pivot: 'You rely on the reality of what you deny.'"
+        ]
+      },
+      "source_location": {
+        "section": "Verses 11 & 61"
+      }
+    },
+    {
+      "episode_id": "dispeller_v64_devadatta_protocol",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          "text": "Now as this substance does not exist, what is negated by that statement of yours? [cite_start]For the negation of a non-existent is accomplished without words. [cite: 101-102]"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nagarjuna",
+          "text": "Regarding your assertion that \"expressing the negation of a nonexistent object is accomplished without speech\": in our case speech makes the non-existent known, it does not refute it."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Nagarjuna",
+          [cite_start]"text": "In the same way, suppose someone said, while Devadatta is absent from the house, \"Devadatta is in the house,\" and someone would reply, \"he is not.\" That statement does not bring about the non-existence of Devadatta, but it only makes the absence of Devadatta in the house known. [cite: 362-365]"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nagarjuna",
+          "text": "Likewise, that statement \"there is no substance of things\" does not bring about the insubstantiality of things, nevertheless it makes the absence of substance in all things known."
+        }
+      ],
+      "metadata": {
+        "phases_present": ["REMAKING", "META"],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "The Realist confuses Ontological Destruction (killing the object) with Epistemic Negation (stating it isn't there).",
+        "end_state_desc": "Nagarjuna clarifies the function of Madhyamaka speech: It is not a weapon that destroys reality, but a report that notifies of an absence (like 'Devadatta is out').",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Epistemic Reporting. Madhyamaka speech is information, not destruction.",
+        "what_model_should_learn": [
+          "How to clarify that 'Emptying' the world doesn't mean destroying it, but noticing it was never 'full' (substantial) to begin with.",
+          "The 'Devadatta is not home' analogy for the absence of the Self."
+        ]
+      },
+      "source_location": {
+        "section": "Verses 12 & 64"
+      }
+    },
+    {
+      "episode_id": "dispeller_v20_horns_of_cow",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          "text": "Supposing that the negation is earlier, and the negated later fails to be successful. And being later and being simultaneous fail to be successful. [cite_start]Therefore substance exists. [cite: 127-128]"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nagarjuna",
+          "text": "If we suppose that the negation and the object of negation are simultaneous, then the negation is not the cause of the object to be negated and the object of negation is not the cause of the negation."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Nagarjuna",
+          [cite_start]"text": "In the same way, considering the two horns of a cow, which have arisen simultaneously, it is clearly not the case that the right one is the cause of the left or the left the cause of the right. [cite: 133-134]"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nagarjuna",
+          "text": "In this context, the statement \"all things are without substance\" is not tenable [if relying on simultaneous causality]."
+        }
+      ],
+      "metadata": {
+        "phases_present": ["UNMAKING"],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "The Realist argues that Negation requires a specific temporal relationship (Before/After/Simultaneous) to work.",
+        "end_state_desc": "Nagarjuna uses the 'Cow's Horns' analogy to show that simultaneity destroys causality (one cannot cause the other if they arise together).",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Simultaneity Reductio. Mutual arising precludes mutual causation.",
+        "what_model_should_learn": [
+          "How to use the 'Cow's Horns' analogy to disprove simultaneous causation.",
+          "How to block the user from claiming two things 'cause each other' in the same instant."
+        ]
+      },
+      "source_location": {
+        "section": "Verses 20 & 69 (Implicit context of 20)"
+      }
+    },
+    {
+      "episode_id": "dispeller_v18_unestablished_reason",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          "text": "Your reason is not established. Because there is no substance, where then does your reason come from? [cite_start]Moreover, no matter is established without a reason. [cite: 116-117]"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Realist",
+          [cite_start]"text": "And if the denial of substance is established for you without a reason, the existence of substantiality is also established for me without a reason. [cite: 121]"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Nagarjuna",
+          "text": "If I had any thesis, that fault would apply to me. But I do not have any thesis."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nagarjuna",
+          "text": "Alternatively: Because the case is the same, the difficulty of the absence of the reason has already been answered. If you think \"The insubstantiality of things is established without reason,\" then as far as the denial of substance is established for me without a reason, so far the existence of substance is also established for you without a reason."
+        }
+      ],
+      "metadata": {
+        "phases_present": ["UNMAKING", "META"],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "The Realist argues that if Nagarjuna has no 'Reason' (proof), his argument fails. If he has no proof, the Realist needs no proof either.",
+        "end_state_desc": "Nagarjuna accepts the stalemate: If logic fails for one, it fails for both. This 'leveling' favors the one who claims *nothing* exists (Nagarjuna) over the one claiming *something* exists (Realist).",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "The Leveling Field. If the tools break, the one asserting 'Existence' loses, not the one asserting 'Empty'.",
+        "what_model_should_learn": [
+          "How to use the 'Tu Quoque' (You too) defense when accused of lacking proof.",
+          "How to show that a lack of proof is fatal to a Realist but natural for a Madhyamika."
+        ]
+      },
+      "source_location": {
+        "section": "Verses 17-18 & 68"
+      }
+    },
+    {
+      "episode_id": "dispeller_v53_laundry_list_attack",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          "text": "People who know the state of things think that auspicious phenomena have an auspicious substance. [cite_start]Thus the following are auspicious: cognition, feeling, discrimination, volition, touch, attention, aspiration, devotion, effort, memory... [list of 119 items]. [cite: 65-67]"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nagarjuna",
+          "text": "If people who know the state of things speak of the auspicious things, the auspicious substance should be expressed in terms of a detailed division."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Nagarjuna",
+          [cite_start]"text": "And if the auspicious substance is produced based on conditions, how is this extrinsic nature of the auspicious things in fact a substance? [cite: 299-300]"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nagarjuna",
+          [cite_start]"text": "If the substance of the auspicious things was not produced in dependence on anything, there would be no religious practice. [cite: 303]"
+        }
+      ],
+      "metadata": {
+        "phases_present": ["UNMAKING", "REMAKING"],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "The Realist tries to overwhelm the argument by listing 119 specific virtuous items (dharmas) that 'must' exist.",
+        "end_state_desc": "Nagarjuna ignores the quantity and attacks the quality: If they are 'produced' (conditioned), they cannot be 'Substance'. The list collapses.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "The Universal Solvent vs. The Laundry List. Defeating complexity with a single structural flaw.",
+        "what_model_should_learn": [
+          "How to handle a user who Gish Gallops (lists many examples) by attacking the shared root of all examples.",
+          "The argument that 'Virtue' requires 'Production', which refutes 'Substance' (Eternal)."
+        ]
+      },
+      "source_location": {
+        "section": "Verses 7 & 52-54"
+      }
+    },
+    {
+      "episode_id": "dispeller_v67_mirage_irreversibility",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          [cite_start]"text": "As ignorant people wrongly perceive water in a mirage, in the same way there would be a wrong perception for you in this case, for a non-existent object is negated. [cite: 105]"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Realist",
+          [cite_start]"text": "Yet, while it exists in this way, there are these six things: the perception, the perceived, and the perceiver of that object; the negation, the object of negation, and the negator. [cite: 107-108]"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Nagarjuna",
+          "text": "If perception existed substantially, who would remove the perception?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nagarjuna",
+          "text": "If the perception of water in the mirage existed substantially, who exactly would remove it? This is because substance, like the heat of fire, the wetness of water, the spaciousness of space, cannot be removed. But its removal is perceived. [cite_start]So far perception is empty of substance. [cite: 380-384]"
+        }
+      ],
+      "metadata": {
+        "phases_present": ["REMAKING", "UNMAKING"],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "The Realist argues that for an 'Error' (Mirage) to exist, the Perception of it must be substantial (real).",
+        "end_state_desc": "Nagarjuna proves that if Perception were substantial (fixed nature), it could never be corrected/removed. The fact that we *can* learn proves perception is empty.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Epistemic Mutability. If it's real, it's stuck. If it changes, it's empty.",
+        "what_model_should_learn": [
+          "How to prove emptiness via the possibility of learning/correction.",
+          "How to refute the idea that 'Delusion' implies a 'Real Mind' holding the delusion."
+        ]
+      },
+      "source_location": {
+        "section": "Verses 13 & 67"
+      }
+    },
+    {
+      "episode_id": "dispeller_v57_nominalism_trap",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          [cite_start]"text": "And if there was no substance, there would also not even be the name \"insubstantiality of things,\" for there is no name without a referent. [cite: 85-86]"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Nagarjuna",
+          "text": "Where someone said \"a name has a referent,\" one would say \"then substance exists.\" You have to reply \"we do not assert a name of this kind.\""
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Nagarjuna",
+          "text": "If there is a referring name of a substance it has to exist due to the substantial referent. However, we do not assert a referring name. This is because a name, too, due to the absence of substance in things, is insubstantial and therefore empty. [cite_start]Because of its emptiness it is non-referring. [cite: 334-336]"
+        }
+      ],
+      "metadata": {
+        "phases_present": ["UNMAKING"],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "The Realist traps Nagarjuna with linguistics: 'If you say the word Nothing, the word itself is Something.'",
+        "end_state_desc": "Nagarjuna refuses the trap by applying emptiness to Language itself. The word 'Nothing' is also empty and non-referring.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Recursive Nominalism. The word that denies the thing is also not a thing.",
+        "what_model_should_learn": [
+          "How to apply emptiness to the tool of language itself to escape linguistic traps.",
+          "How to refuse the 'referential theory of meaning' when discussing Emptiness."
+        ]
+      },
+      "source_location": {
+        "section": "Verses 9 & 57"
+      }
+    },
+    {
+      "episode_id": "dispeller_v14_six_points_collapse",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          [cite_start]"text": "While it exists in this way, there are these six things: the perception, the perceived, and the perceiver of that object; the negation, the object of negation, and the negator. [cite: 107-108]"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Realist",
+          "text": "If there is just no perception, no perceived, and no perceiver, then there is certainly no negation, no object of negation, and no negator. [cite_start]While there is neither negation... all things are established. [cite: 111-114]"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Nagarjuna",
+          "text": "As far as the same pattern applies to the remaining cases this is a non-criticism."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nagarjuna",
+          "text": "Similarly, it has to be understood clearly that the same procedure applies to the remaining cases as well, the five beginning with the object perceived. [cite_start]In this context, your statement \"because there is the set of six all things are not empty\" is not tenable. [cite: 385-386]"
+        }
+      ],
+      "metadata": {
+        "phases_present": ["UNMAKING", "META"],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "The Realist argues that the 'System of Negation' (the six parts) must exist for Negation to happen.",
+        "end_state_desc": "Nagarjuna collapses the whole set: If one part (perception) is empty (as proven before), the whole interdependent 6-part system is empty.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Systemic Collapse. Breaking the whole machine by breaking one gear.",
+        "what_model_should_learn": [
+          "How to handle complex 'System' arguments by dismantling a single key component.",
+          "How to generalize a specific proof (Perception is empty) to a whole set (All 6 factors)."
+        ]
+      },
+      "source_location": {
+        "section": "Verses 14 & 67"
+      }
+    }
+  ],
+  "discard_log": [
+    "Skipped V3 (Sound prevention) - Redundant with V25/Phantom Soldier arc.",
+    "Skipped V10 (Thingless substance) - Too abstract compared to the pot/house examples.",
+    "Skipped V68 (Reason logic) - Less vivid than the 'Cow's Horns' analogy."
+  ],
+  "extraction_stats": {
+    "total_episodes": 10,
+    "turn_count_distribution": {
+      "2-4": 9,
+      "5-7": 1,
+      "8-10": 0,
+      "11-14": 0
+    },
+    "avg_turns_per_episode": 3.8
+  },
+  "extraction_confidence": "high"
+}

@@ -68,15 +68,15 @@ describe("missing corpus normalized (long arcs integrated)", () => {
   const eps = readFileSync(resolve(ROOT, "data/hxrmxs-missing-normalized.jsonl"), "utf8")
     .trim().split("\n").map((l) => JSON.parse(l));
 
-  it("392 episodes across 10+ lineages incl ISTDP/Zen/Socratic", () => {
-    expect(eps.length).toBe(392);
+  it("grows with each corpus batch (≥392 episodes, 10+ lineages)", () => {
+    expect(eps.length).toBeGreaterThanOrEqual(392);
     const lins = new Set(eps.map((e: any) => e.lineage));
-    for (const l of ["ISTDP", "Zen", "Socratic", "Buddhist", "Krishnamurti", "Modern"]) {
+    for (const l of ["ISTDP", "Zen", "Socratic", "Buddhist", "Krishnamurti", "Modern", "Stoic", "Cynic"]) {
       expect(lins.has(l), l).toBe(true);
     }
   });
 
-  it("contains the long arcs (20/14/13/12)", () => {
+  it("contains the long arcs (20/14/13/12 assistant turns)", () => {
     const lens = eps.map((e: any) => e.turns.filter((t: any) => t.role === "assistant").length);
     for (const n of [20, 14, 13, 12]) {
       expect(lens.includes(n), String(n)).toBe(true);

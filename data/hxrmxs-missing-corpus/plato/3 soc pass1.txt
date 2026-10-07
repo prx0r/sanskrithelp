@@ -1,0 +1,3212 @@
+{
+  "episode_id": "gorgias_composite_spine",
+  "source_text": "Plato, Gorgias (Hackett Translation)",
+  "lineage": "Socratic",
+  "student_turns": [
+    {
+      "turn_index": 2,
+      "speaker": "Polus",
+      "text": "To suffer it. No one would choose the other.",
+      "observable_student_behaviors": [
+        "states_conventional_wisdom",
+        "expresses_certainty"
+      ],
+      "behavior_tags": [
+        "conventional_morality",
+        "unexamined_belief"
+      ],
+      "inferred_state": {
+        "reading": "confident_assertion",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Polus",
+      "text": "Of course—everyone admits that.",
+      "observable_student_behaviors": [
+        "affirms_shamefulness",
+        "appeals_to_majority"
+      ],
+      "behavior_tags": [
+        "social_compliance"
+      ],
+      "inferred_state": {
+        "reading": "unaware_of_trap",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 6,
+      "speaker": "Polus",
+      "text": "Yes, that seems to follow.",
+      "observable_student_behaviors": [
+        "concedes_premise"
+      ],
+      "behavior_tags": [
+        "logical_compliance"
+      ],
+      "inferred_state": {
+        "reading": "reluctant_agreement",
+        "confidence": 0.8
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 102,
+      "speaker": "Polus",
+      "text": "How can punishment benefit the one who suffers it?",
+      "observable_student_behaviors": [
+        "questions_premise",
+        "seeks_explanation"
+      ],
+      "behavior_tags": [
+        "skeptical_inquiry",
+        "utility_demand"
+      ],
+      "inferred_state": {
+        "reading": "confused_skepticism",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 104,
+      "speaker": "Polus",
+      "text": "You’re saying the criminal is made better by suffering?",
+      "observable_student_behaviors": [
+        "reiterates_paradox",
+        "requests_confirmation"
+      ],
+      "behavior_tags": [
+        "shocked_confirmation"
+      ],
+      "inferred_state": {
+        "reading": "shocked_disbelief",
+        "confidence": 0.85
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 202,
+      "speaker": "Polus",
+      "text": "How can that be? He gets whatever he wants.",
+      "observable_student_behaviors": [
+        "challenges_claim",
+        "equates_desire_with_happiness"
+      ],
+      "behavior_tags": [
+        "utilitarian_framework",
+        "power_worship"
+      ],
+      "inferred_state": {
+        "reading": "conventional_disbelief",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 204,
+      "speaker": "Polus",
+      "text": "You’re saying the tyrant—the freest man—is actually the worst off?",
+      "observable_student_behaviors": [
+        "expresses_shock",
+        "identifies_extreme_case"
+      ],
+      "behavior_tags": [
+        "value_inversion_shock"
+      ],
+      "inferred_state": {
+        "reading": "intellectual_recoil",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 302,
+      "speaker": "Callicles",
+      "text": "That’s a ridiculous image, Socrates.",
+      "observable_student_behaviors": [
+        "rejects_analogy",
+        "expresses_contempt"
+      ],
+      "behavior_tags": [
+        "rhetorical_defense",
+        "hostile_rejection"
+      ],
+      "inferred_state": {
+        "reading": "contemptuous_dismissal",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 304,
+      "speaker": "Callicles",
+      "text": "I deny that such a life is miserable.",
+      "observable_student_behaviors": [
+        "reiterates_claim",
+        "resists_implication"
+      ],
+      "behavior_tags": [
+        "hedonistic_dogmatism"
+      ],
+      "inferred_state": {
+        "reading": "defiant_resistance",
+        "confidence": 0.85
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 402,
+      "speaker": "Callicles",
+      "text": "Yes. I stand by that.",
+      "observable_student_behaviors": [
+        "affirms_equivalence",
+        "states_commitment"
+      ],
+      "behavior_tags": [
+        "hedonistic_assertion",
+        "dogmatic_adherence"
+      ],
+      "inferred_state": {
+        "reading": "confident_commitment",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 404,
+      "speaker": "Callicles",
+      "text": "It can be.",
+      "observable_student_behaviors": [
+        "qualifies_answer",
+        "makes_minimal_concession"
+      ],
+      "behavior_tags": [
+        "evasive_tactics"
+      ],
+      "inferred_state": {
+        "reading": "hedonistic_defense",
+        "confidence": 0.8
+      },
+      "annotator_uncertainty": 0.2
+    },
+    {
+      "turn_index": 406,
+      "speaker": "Callicles",
+      "text": "No—that’s absurd.",
+      "observable_student_behaviors": [
+        "rejects_consequence",
+        "expresses_absurdity"
+      ],
+      "behavior_tags": [
+        "intuitive_rejection",
+        "contradiction_shock"
+      ],
+      "inferred_state": {
+        "reading": "instinctive_revulsion",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 502,
+      "speaker": "Gorgias",
+      "text": "Yes, he does—if he is to be an orator at all.",
+      "observable_student_behaviors": [
+        "claims_knowledge",
+        "links_justice_to_craft"
+      ],
+      "behavior_tags": [
+        "overconfident_boast",
+        "defensive_linkage"
+      ],
+      "inferred_state": {
+        "reading": "defensive_overreach",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 504,
+      "speaker": "Gorgias",
+      "text": "Certainly. That is part of his craft.",
+      "observable_student_behaviors": [
+        "affirms_teaching_role"
+      ],
+      "behavior_tags": [
+        "escalating_claim"
+      ],
+      "inferred_state": {
+        "reading": "unaware_of_trap",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 602,
+      "speaker": "Gorgias",
+      "text": "I am trying, Socrates, but you keep shifting the topic.",
+      "observable_student_behaviors": [
+        "pushes_back",
+        "blames_interlocutor"
+      ],
+      "behavior_tags": [
+        "process_resistance",
+        "defensive_projection"
+      ],
+      "inferred_state": {
+        "reading": "irritated_resistance",
+        "confidence": 0.85
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 604,
+      "speaker": "Gorgias",
+      "text": "Very well, ask again.",
+      "observable_student_behaviors": [
+        "capitulates",
+        "requests_rephrase"
+      ],
+      "behavior_tags": [
+        "reluctant_compliance"
+      ],
+      "inferred_state": {
+        "reading": "forced_submission",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 702,
+      "speaker": "Polus",
+      "text": "Yes—the greatest of human powers.",
+      "observable_student_behaviors": [
+        "confirms_exaggeration",
+        "boasts"
+      ],
+      "behavior_tags": [
+        "rhetorical_pride",
+        "power_fixation"
+      ],
+      "inferred_state": {
+        "reading": "boastful_certainty",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 704,
+      "speaker": "Polus",
+      "text": "Not necessarily. But that doesn't lessen his power!",
+      "observable_student_behaviors": [
+        "denies_epistemic_requirement",
+        "defends_power_definition"
+      ],
+      "behavior_tags": [
+        "epistemic_disconnect",
+        "value_segregation"
+      ],
+      "inferred_state": {
+        "reading": "desperate_defense",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 801,
+      "speaker": "Callicles",
+      "text": "By nature, Socrates, the stronger and better should rule the weaker.",
+      "observable_student_behaviors": [
+        "states_doctrine",
+        "appeals_to_nature"
+      ],
+      "behavior_tags": [
+        "ideological_commitment",
+        "elitism"
+      ],
+      "inferred_state": {
+        "reading": "dogmatic_assertion",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 803,
+      "speaker": "Callicles",
+      "text": "The one, of course—the superior man.",
+      "observable_student_behaviors": [
+        "clarifies_subject",
+        "rejects_democracy"
+      ],
+      "behavior_tags": [
+        "anti_egalitarianism"
+      ],
+      "inferred_state": {
+        "reading": "intellectual_snobbery",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 805,
+      "speaker": "Callicles",
+      "text": "That’s not what I meant.",
+      "observable_student_behaviors": [
+        "denies_implication",
+        "retreats_from_logic"
+      ],
+      "behavior_tags": [
+        "logical_evasion",
+        "ideological_defense"
+      ],
+      "inferred_state": {
+        "reading": "frustrated_retreat",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 902,
+      "speaker": "Callicles",
+      "text": "The life of the man who indulges his desires freely.",
+      "observable_student_behaviors": [
+        "articulates_goal",
+        "defines_hedonism"
+      ],
+      "behavior_tags": [
+        "existential_position",
+        "hedonistic_ideal"
+      ],
+      "inferred_state": {
+        "reading": "clear_articulation",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 904,
+      "speaker": "Callicles",
+      "text": "Because pleasure is the good.",
+      "observable_student_behaviors": [
+        "states_equivalence"
+      ],
+      "behavior_tags": [
+        "hedonistic_thesis"
+      ],
+      "inferred_state": {
+        "reading": "dogmatic_commitment",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 1002,
+      "speaker": "Callicles",
+      "text": "Of course not. I exercise discipline like any man of sense.",
+      "observable_student_behaviors": [
+        "denies_practice",
+        "appeals_to_convention"
+      ],
+      "behavior_tags": [
+        "social_shame",
+        "hypocrisy"
+      ],
+      "inferred_state": {
+        "reading": "defensive_hypocrisy",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 1004,
+      "speaker": "Callicles",
+      "text": "Yes, but that doesn’t mean one should practice it constantly.",
+      "observable_student_behaviors": [
+        "attempts_to_qualify",
+        "retreats_from_extreme"
+      ],
+      "behavior_tags": [
+        "intellectual_dishonesty"
+      ],
+      "inferred_state": {
+        "reading": "evasive_qualification",
+        "confidence": 0.85
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 1102,
+      "speaker": "Callicles",
+      "text": "Yes, because his craft demands it.",
+      "observable_student_behaviors": [
+        "concedes_premise",
+        "appeals_to_craft"
+      ],
+      "behavior_tags": [
+        "technical_compliance"
+      ],
+      "inferred_state": {
+        "reading": "technical_agreement",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 1104,
+      "speaker": "Callicles",
+      "text": "You’re smuggling your assumptions into my view.",
+      "observable_student_behaviors": [
+        "accuses_interlocutor",
+        "rejects_implication"
+      ],
+      "behavior_tags": [
+        "defensive_projection",
+        "methodological_critique"
+      ],
+      "inferred_state": {
+        "reading": "irritated_resistance",
+        "confidence": 0.8
+      },
+      "annotator_uncertainty": 0.2
+    },
+    {
+      "turn_index": 1201,
+      "speaker": "Callicles",
+      "text": "I won’t answer your childish questions anymore.",
+      "observable_student_behaviors": [
+        "refuses_to_cooperate",
+        "attacks_method"
+      ],
+      "behavior_tags": [
+        "process_rejection",
+        "hostile_withdrawal"
+      ],
+      "inferred_state": {
+        "reading": "angry_rejection",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 1203,
+      "speaker": "Callicles",
+      "text": "I’m tired of your traps.",
+      "observable_student_behaviors": [
+        "states_frustration",
+        "blames_method"
+      ],
+      "behavior_tags": [
+        "emotional_exhaustion"
+      ],
+      "inferred_state": {
+        "reading": "emotional_fatigue",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 1205,
+      "speaker": "Callicles",
+      "text": "Fine—ask again.",
+      "observable_student_behaviors": [
+        "capitulates",
+        "reluctantly_reengages"
+      ],
+      "behavior_tags": [
+        "forced_compliance"
+      ],
+      "inferred_state": {
+        "reading": "grudging_submission",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 1302,
+      "speaker": "Callicles",
+      "text": "That’s just myth-making.",
+      "observable_student_behaviors": [
+        "dismisses_analogy",
+        "appeals_to_rationalism"
+      ],
+      "behavior_tags": [
+        "cynical_rejection"
+      ],
+      "inferred_state": {
+        "reading": "skeptical_rejection",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 1304,
+      "speaker": "Callicles",
+      "text": "And what truth is that supposed to reveal?",
+      "observable_student_behaviors": [
+        "requests_meaning",
+        "questions_utility"
+      ],
+      "behavior_tags": [
+        "pragmatic_inquiry"
+      ],
+      "inferred_state": {
+        "reading": "cautious_curiosity",
+        "confidence": 0.85
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 1402,
+      "speaker": "Callicles",
+      "text": "You boast that, yet the city ignores you.",
+      "observable_student_behaviors": [
+        "mocks_status",
+        "appeals_to_external_success"
+      ],
+      "behavior_tags": [
+        "conventional_critique",
+        "power_focus"
+      ],
+      "inferred_state": {
+        "reading": "scoffing_judgment",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 1404,
+      "speaker": "Callicles",
+      "text": "And what is it you want from me, then?",
+      "observable_student_behaviors": [
+        "asks_for_direction",
+        "states_openness"
+      ],
+      "behavior_tags": [
+        "tired_submission"
+      ],
+      "inferred_state": {
+        "reading": "resigned_inquiry",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 1501,
+      "speaker": "Callicles",
+      "text": "Polus agreed with you that doing what’s unjust is more shameful than suffering it. As a result of this admission he was bound and gagged by you in the discussion, too ashamed to say what he thought.",
+      "observable_student_behaviors": [
+        "reports_past_exchange",
+        "accuses_socrates_of_shame_trap"
+      ],
+      "behavior_tags": [
+        "methodological_critique",
+        "social_analysis"
+      ],
+      "inferred_state": {
+        "reading": "cynical_critique",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 1503,
+      "speaker": "Callicles",
+      "text": "Yes. He was forced to contradict himself because he dared not say what he truly believed.",
+      "observable_student_behaviors": [
+        "confirms_shame_mechanism",
+        "explains_polus_failure"
+      ],
+      "behavior_tags": [
+        "social_shame_awareness"
+      ],
+      "inferred_state": {
+        "reading": "analytical_defense",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 1602,
+      "speaker": "Callicles",
+      "text": "Socrates, you’re grandstanding in these speeches, acting like a crowd pleaser.",
+      "observable_student_behaviors": [
+        "accuses_socrates_of_rhetoric",
+        "rejects_claim"
+      ],
+      "behavior_tags": [
+        "ad_hominem",
+        "rhetorical_critique"
+      ],
+      "inferred_state": {
+        "reading": "hostile_dismissal",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 1604,
+      "speaker": "Callicles",
+      "text": "You twist everything—first forcing Gorgias to contradict himself, and now Polus.",
+      "observable_student_behaviors": [
+        "generalizes_accusation",
+        "blames_method"
+      ],
+      "behavior_tags": [
+        "process_rejection"
+      ],
+      "inferred_state": {
+        "reading": "generalized_hostility",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 1702,
+      "speaker": "Callicles",
+      "text": "Yet here you are persuading—using rhetoric to deny rhetoric.",
+      "observable_student_behaviors": [
+        "points_out_paradox",
+        "accuses_of_hypocrisy"
+      ],
+      "behavior_tags": [
+        "meta_contradiction_awareness"
+      ],
+      "inferred_state": {
+        "reading": "cynical_paradox",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 1704,
+      "speaker": "Callicles",
+      "text": "Still, you must use the very craft you condemn to defend your view.",
+      "observable_student_behaviors": [
+        "reiterates_claim",
+        "insists_on_contradiction"
+      ],
+      "behavior_tags": [
+        "process_fixation"
+      ],
+      "inferred_state": {
+        "reading": "logical_insistence",
+        "confidence": 0.85
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 1802,
+      "speaker": "Polus",
+      "text": "Doing it.",
+      "observable_student_behaviors": [
+        "answers_conventionally"
+      ],
+      "behavior_tags": [
+        "social_shame_compliance"
+      ],
+      "inferred_state": {
+        "reading": "shame_driven_answer",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 1804,
+      "speaker": "Polus",
+      "text": "Suffering it is worse.",
+      "observable_student_behaviors": [
+        "answers_pragmatically"
+      ],
+      "behavior_tags": [
+        "pragmatic_truth"
+      ],
+      "inferred_state": {
+        "reading": "pragmatic_answer",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 1902,
+      "speaker": "Callicles",
+      "text": "I don’t know what you mean. Ask somebody else.",
+      "observable_student_behaviors": [
+        "claims_ignorance",
+        "refuses_to_answer"
+      ],
+      "behavior_tags": [
+        "resistance",
+        "inquiry_rejection"
+      ],
+      "inferred_state": {
+        "reading": "evasive_disgust",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 1904,
+      "speaker": "Callicles",
+      "text": "And I couldn’t care less about anything you say.",
+      "observable_student_behaviors": [
+        "expresses_contempt",
+        "terminates_engagement"
+      ],
+      "behavior_tags": [
+        "final_rejection",
+        "emotional_defense"
+      ],
+      "inferred_state": {
+        "reading": "hostile_withdrawal",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 2001,
+      "speaker": "Gorgias",
+      "text": "If an orator and a doctor competed before a city, the doctor would make no showing at all, but the orator would be appointed.",
+      "observable_student_behaviors": [
+        "offers_hypothetical_boast",
+        "claims_oratorical_supremacy"
+      ],
+      "behavior_tags": [
+        "rhetorical_grandstanding",
+        "power_boasting"
+      ],
+      "inferred_state": {
+        "reading": "proud_demonstration",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 2003,
+      "speaker": "Gorgias",
+      "text": "Such is the accomplishment of this craft.",
+      "observable_student_behaviors": [
+        "affirms_power_claim",
+        "accepts_socrates_premise"
+      ],
+      "behavior_tags": [
+        "uncritical_acceptance"
+      ],
+      "inferred_state": {
+        "reading": "proud_acceptance",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    }
+  ],
+  "teacher_turns": [
+    {
+      "turn_index": 1,
+      "speaker": "Socrates",
+      "text": "Which do you think is worse, Polus—to do what’s unjust or to suffer it?",
+      "observable_teaching_actions": [
+        "poses_dilemma",
+        "requests_value_judgment"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Sets the initial value judgment (the core ethical choice) that will be destabilized.",
+      "function_id": "UM_01",
+      "classification_evidence": "Definition forcing: Forcing a choice between two value states.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "comparison",
+      "mechanism_comment": "Forces comparison of two ethical states (doing vs suffering injustice).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 2,
+        "reaction_label": "elaborates",
+        "evidence": "To suffer it. No one would choose the other.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Socrates",
+      "text": "So you agree that doing injustice is shameful?",
+      "observable_teaching_actions": [
+        "introduces_shame",
+        "requests_concession"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Introduces a second, common value (shame) necessary to construct the contradiction.",
+      "function_id": "UM_01",
+      "classification_evidence": "Definition forcing: Linking 'injustice' to 'shameful'.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 4,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "Of course—everyone admits that.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Socrates",
+      "text": "And what is shameful is bad, isn’t it?",
+      "observable_teaching_actions": [
+        "equates_shame_and_badness",
+        "finalizes_link"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Creates the final premise (Shame = Bad) that forces the conclusion, destabilizing the initial value choice.",
+      "function_id": "UM_01",
+      "classification_evidence": "Definition forcing: Forcing the equation of two value categories (shameful = bad).",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "category_conflation"
+      ],
+      "trap_notes": [
+        "Polus fails to distinguish between the bad (moral/social evil) and the shameful (socially repulsive)."
+      ],
+      "mechanism_shape": "causal_chain",
+      "mechanism_comment": "Final logical step: If Shame = Bad, then the shameful act is worse.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 6,
+        "reaction_label": "conceptual_concession",
+        "evidence": "Yes, that seems to follow.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 7,
+      "speaker": "Socrates",
+      "text": "Then doing injustice is worse than suffering it.",
+      "observable_teaching_actions": [
+        "delivers_conclusion",
+        "completes_inversion"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Forces the contradiction with Polus's initial claim (Turn 2).",
+      "function_id": "UM_02",
+      "classification_evidence": "Internal contradiction: The conclusion (doing is worse) directly contradicts Polus's starting point (suffering is worse).",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "inversion",
+      "mechanism_comment": "Reverses the initial value hierarchy by linking Shame (social) to Bad (ethical).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 102,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "shock",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 101,
+      "speaker": "Socrates",
+      "text": "Being punished is the way the soul is relieved of its injustice.",
+      "observable_teaching_actions": [
+        "defines_punishment_as_therapy",
+        "introduces_soul_metaphor"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Constructs a new model where punishment is curative for the soul's disease (injustice).",
+      "function_id": "RM_05",
+      "classification_evidence": "Frame upgrade: Replaces the 'punishment as harm' frame with 'punishment as purification/healing'.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_03",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "ontological_frame_upgrade",
+      "mechanism_comment": "Shifts punishment from external legal harm to internal spiritual/moral healing.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 102,
+        "reaction_label": "seeks_instruction",
+        "evidence": "How can punishment benefit the one who suffers it?",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 103,
+      "speaker": "Socrates",
+      "text": "Because punishment is a kind of cure, Polus. No one wants to keep the soul diseased.",
+      "observable_teaching_actions": [
+        "uses_medical_analogy",
+        "reaffirms_curative_definition"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Elaborates on the 'cure' analogy to make the therapeutic function of punishment more concrete.",
+      "function_id": "RM_03",
+      "classification_evidence": "Conceptual distinction: Distinguishing simple harm from beneficial, curative pain.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_02",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Analogizing moral disease to physical disease, and punishment to painful medicine.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 104,
+        "reaction_label": "inference_check",
+        "evidence": "You’re saying the criminal is made better by suffering?",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 105,
+      "speaker": "Socrates",
+      "text": "Exactly—just as the sick body is better for painful treatment.",
+      "observable_teaching_actions": [
+        "confirms_implication",
+        "uses_physical_analogy"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Finalizes the application of the medical analogy to the soul.",
+      "function_id": "RM_02",
+      "classification_evidence": "Example instantiation: Solidifying the idea with the common experience of painful, yet beneficial, physical treatment.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "comparison",
+      "mechanism_comment": "Comparing therapeutic function across domains (body vs soul).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 202,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 201,
+      "speaker": "Socrates",
+      "text": "The man who does what’s unjust is miserable, Polus.",
+      "observable_teaching_actions": [
+        "states_inversion",
+        "introduces_misery_claim"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "States a radical conclusion (inversion of conventional wisdom) intended to destabilize Polus's view of power.",
+      "function_id": "UM_05",
+      "classification_evidence": "Ego displacement: Attacking the conventional definition of success (doing injustice) by linking it to misery.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_01"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "inversion",
+      "mechanism_comment": "Inverting the moral equation: Power (doing injustice) = Misery.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 202,
+        "reaction_label": "pushes_back",
+        "evidence": "How can that be? He gets whatever he wants.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 203,
+      "speaker": "Socrates",
+      "text": "No—the one who does injustice and escapes punishment is the most miserable of all.",
+      "observable_teaching_actions": [
+        "refines_claim",
+        "escalates_misery"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Escalates the claim, targeting the tyrant/unpunished criminal as the supreme example of misery.",
+      "function_id": "UM_05",
+      "classification_evidence": "Ego displacement: Defining the tyrant's 'success' as the worst possible state.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "threshold",
+      "mechanism_comment": "The threshold of misery is set at 'escaping punishment' (i.e., having no possibility of cure).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 204,
+        "reaction_label": "shocked_confirmation",
+        "evidence": "You’re saying the tyrant—the freest man—is actually the worst off?",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 205,
+      "speaker": "Socrates",
+      "text": "Yes. For he corrupts the soul most deeply and has no one to heal him.",
+      "observable_teaching_actions": [
+        "justifies_claim",
+        "links_misery_to_soul_damage"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Provides the structural reason for the misery (irreparable soul damage), completing the attack on the tyrant's conventional image.",
+      "function_id": "UM_03",
+      "classification_evidence": "Concrete grounding: Grounding 'misery' in the internal, permanent state of the soul (corruption).",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_03",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "causal_chain",
+      "mechanism_comment": "Injustice (Action) -> Corruption (State) -> No Punishment (No Cure) -> Misery (Result).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 302,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "shock",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 301,
+      "speaker": "Socrates",
+      "text": "The man devoted to unchecked pleasure is like a jar full of holes—no matter how much he pours in, it leaks out again.",
+      "observable_teaching_actions": [
+        "uses_jar_analogy",
+        "defines_hedonism_as_insatiability"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Uses an analogy to destabilize the positive image of hedonism by reframing it as a structural pathology (leaking).",
+      "function_id": "UM_04",
+      "classification_evidence": "Abstraction strip: Stripping away the 'pleasure' interpretation and revealing the underlying 'insatiability' reality.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_03",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "The leaky jar shows that the unrestrained life is fundamentally flawed due to structural inability to retain the good.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 302,
+        "reaction_label": "pushes_back",
+        "evidence": "That’s a ridiculous image, Socrates.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": {
+        "move_id": "leaky_jar_analogy",
+        "shape": "insatiability_as_pathology",
+        "canonical_candidate": false
+      }
+    },
+    {
+      "turn_index": 303,
+      "speaker": "Socrates",
+      "text": "Yet it’s your way of life I’m describing, Callicles—endless craving, never satisfaction.",
+      "observable_teaching_actions": [
+        "applies_analogy_personally",
+        "redefines_craving"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Forces the student to own the pathology described by the analogy.",
+      "function_id": "UM_05",
+      "classification_evidence": "Ego displacement: Direct application of the pathological metaphor to Callicles's preferred lifestyle.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_04",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_03",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "source_tracing",
+      "mechanism_comment": "Tracing the source of the ideal life back to the miserable state of constant craving.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 304,
+        "reaction_label": "pushes_back",
+        "evidence": "I deny that such a life is miserable.",
+        "outcome_label": "partial_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 305,
+      "speaker": "Socrates",
+      "text": "But you agree the one who can be satisfied is better off than one who constantly needs refilling?",
+      "observable_teaching_actions": [
+        "requests_concession",
+        "introduces_satisfaction_metric"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Introduces a comparative metric (satisfaction/completion) that allows the subsequent argument to proceed on common ground.",
+      "function_id": "RM_03",
+      "classification_evidence": "Conceptual distinction: Distinguishing the value of satiety (completion) from the value of perpetual activity (craving).",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "comparison",
+      "mechanism_comment": "Comparing the state of completion versus the state of unending want.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 402,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "shock",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 401,
+      "speaker": "Socrates",
+      "text": "Do you say that the pleasant and the good are the same, Callicles?",
+      "observable_teaching_actions": [
+        "requests_definition",
+        "forces_equivalence"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Establishes the hedonistic premise that will be undermined by the contradiction test.",
+      "function_id": "UM_01",
+      "classification_evidence": "Definition forcing: Demanding a clean equation between 'pleasant' and 'good'.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 402,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "Yes. I stand by that.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 403,
+      "speaker": "Socrates",
+      "text": "Is it pleasant to scratch an itch endlessly?",
+      "observable_teaching_actions": [
+        "offers_absurd_example",
+        "introduces_test_case"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Introduces a visceral, low-grade pleasure that will expose the lack of discrimination in the definition.",
+      "function_id": "UM_03",
+      "classification_evidence": "Concrete grounding: Forcing the abstract definition into the physical, potentially repulsive, example of itching/scratching.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_02",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "abstract_to_concrete_check",
+      "mechanism_comment": "Testing the equivalence rule against a highly physical, non-ideal example of pleasure.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 404,
+        "reaction_label": "elaborates",
+        "evidence": "It can be.",
+        "outcome_label": "partial_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 405,
+      "speaker": "Socrates",
+      "text": "Then the man covered in itching sores is living the best life, if he scratches constantly?",
+      "observable_teaching_actions": [
+        "escalates_to_absurdity",
+        "completes_test"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Forces the contradiction: If pleasure = good, then the most unpleasant pleasure (scratching sores) must be the best life.",
+      "function_id": "UM_02",
+      "classification_evidence": "Internal contradiction: Exposing the definition's consequence (best life = scratching sores) is intolerable.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_02",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "conceptual_reification"
+      ],
+      "trap_notes": [
+        "Callicles reifies 'pleasure' without accounting for its quality or context."
+      ],
+      "mechanism_shape": "causal_chain",
+      "mechanism_comment": "Logical chain: If P=G, and S is P, then S must be G, leading to the absurd conclusion.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 406,
+        "reaction_label": "pushes_back",
+        "evidence": "No—that’s absurd.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 407,
+      "speaker": "Socrates",
+      "text": "Then the pleasant and the good are not the same.",
+      "observable_teaching_actions": [
+        "delivers_conclusion",
+        "nullifies_definition"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Formalizes the failure of the definition based on the rejected consequence.",
+      "function_id": "UM_02",
+      "classification_evidence": "Internal contradiction: The refusal of the logical consequence proves the starting premise was false.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "inversion",
+      "mechanism_comment": "Inverting the initial equivalence (P=G) to a non-equivalence (P!=G).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 502,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 501,
+      "speaker": "Socrates",
+      "text": "Tell me, Gorgias, does the orator know what is just and what is unjust?",
+      "observable_teaching_actions": [
+        "requests_knowledge_claim",
+        "sets_justice_trap"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Sets the premise that will be used to trap Gorgias (knowledge of justice).",
+      "function_id": "UM_01",
+      "classification_evidence": "Definition forcing: Demanding whether the orator's 'craft' includes moral knowledge.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 502,
+        "reaction_label": "elaborates",
+        "evidence": "Yes, he does—if he is to be an orator at all.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 503,
+      "speaker": "Socrates",
+      "text": "And does he teach these things to others?",
+      "observable_teaching_actions": [
+        "requests_teaching_claim",
+        "escalates_trap"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "A further escalation of the claim, forcing Gorgias to take responsibility for the orator's moral instruction.",
+      "function_id": "UM_01",
+      "classification_evidence": "Definition forcing: Extending the knowledge claim to a teaching claim.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "causal_chain",
+      "mechanism_comment": "Knowledge -> Teaching.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 504,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "Certainly. That is part of his craft.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 505,
+      "speaker": "Socrates",
+      "text": "Then an unjust orator would not exist, for he knows justice and teaches it?",
+      "observable_teaching_actions": [
+        "delivers_contradiction",
+        "exposes_consequence"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Exposes the internal contradiction: If knowledge/teaching of justice are necessary, then unjust orators cannot logically exist.",
+      "function_id": "UM_02",
+      "classification_evidence": "Internal contradiction: The premise (orator teaches justice) contradicts the reality (unjust orators exist).",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "overreach"
+      ],
+      "trap_notes": [
+        "Gorgias's claim to the superiority of the craft leads him to claim moral knowledge that cannot be reconciled with common reality."
+      ],
+      "mechanism_shape": "constraint_collapse",
+      "mechanism_comment": "Collapsing the orator's boasted moral expertise by forcing the unacceptable conclusion of moral perfection.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 602,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "trap",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "META"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 601,
+      "speaker": "Socrates",
+      "text": "Please answer the question I put to you, Gorgias—shortly.",
+      "observable_teaching_actions": [
+        "sets_procedural_constraint",
+        "disciplines_speaker"
+      ],
+      "phase": "META",
+      "phase_reason": "Addresses the mechanics of the discussion directly to enforce constraints.",
+      "function_id": "ME_03",
+      "classification_evidence": "Method explanation: Explicit instruction on the required conversational style ('shortly').",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_02",
+        "attunement": "AT_03"
+      },
+      "trap_ids": [
+        "rhetorical_drift"
+      ],
+      "trap_notes": [
+        "Gorgias is defaulting to long rhetorical answers unsuitable for the elenchus."
+      ],
+      "mechanism_shape": "system_dynamics",
+      "mechanism_comment": "Enforcing the procedure necessary for philosophical dialogue (short answers) over rhetorical monologue.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 602,
+        "reaction_label": "pushes_back",
+        "evidence": "I am trying, Socrates, but you keep shifting the topic.",
+        "outcome_label": "partial_success",
+        "phase_shift": {
+          "from": "META",
+          "to": "META"
+        }
+      },
+      "local_move": {
+        "move_id": "short_answer_discipline",
+        "shape": "procedural_constraint",
+        "canonical_candidate": false
+      }
+    },
+    {
+      "turn_index": 603,
+      "speaker": "Socrates",
+      "text": "Not at all. You’re giving long speeches instead of the simple answer required.",
+      "observable_teaching_actions": [
+        "rejects_blame",
+        "reiterates_constraint"
+      ],
+      "phase": "META",
+      "phase_reason": "Clarifies the nature of the procedural breach (monologue vs dialogue).",
+      "function_id": "ME_03",
+      "classification_evidence": "Method explanation: Defining the difference between a philosophical answer and a rhetorical speech.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_02",
+        "attunement": "AT_03"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 604,
+        "reaction_label": "conceptual_concession",
+        "evidence": "Very well, ask again.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "META",
+          "to": "META"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 605,
+      "speaker": "Socrates",
+      "text": "I already did. You owe me the answer—not another speech.",
+      "observable_teaching_actions": [
+        "reasserts_authority",
+        "demands_answer"
+      ],
+      "phase": "META",
+      "phase_reason": "Final enforcement, refusing to concede on the discipline.",
+      "function_id": "ME_03",
+      "classification_evidence": "Method explanation: Refusing to reward the student for stalling by repeating the question.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_02",
+        "attunement": "AT_03"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 702,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "META",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 701,
+      "speaker": "Socrates",
+      "text": "You claim the orator has great power, Polus?",
+      "observable_teaching_actions": [
+        "requests_concession",
+        "defines_power_premise"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Establishes the premise about 'power' that will be dismantled by linking it to knowledge.",
+      "function_id": "UM_01",
+      "classification_evidence": "Definition forcing: Establishing the scope of 'power' claimed by Polus for the orator.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 702,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "Yes—the greatest of human powers.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 703,
+      "speaker": "Socrates",
+      "text": "Does he know what is truly good and what is bad?",
+      "observable_teaching_actions": [
+        "introduces_epistemic_requirement",
+        "forces_knowledge_link"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Introduces the critical link: power must be grounded in moral knowledge.",
+      "function_id": "UM_01",
+      "classification_evidence": "Definition forcing: Testing the claim of 'great power' against the requirement of 'good/bad' knowledge.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 704,
+        "reaction_label": "pushes_back",
+        "evidence": "Not necessarily. But that doesn't lessen his power!",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 705,
+      "speaker": "Socrates",
+      "text": "Then you’ve admitted he acts without knowledge—and the man without knowledge harms himself the most.",
+      "observable_teaching_actions": [
+        "delivers_consequence",
+        "links_ignorance_to_self_harm"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Exposes the conclusion: Power without knowledge leads to self-harm, collapsing the premise that oratorical power is good.",
+      "function_id": "UM_05",
+      "classification_evidence": "Ego displacement: Showing that the orator's 'power' actually makes him the greatest self-harmer.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "value_segregation"
+      ],
+      "trap_notes": [
+        "Polus attempts to separate power (utility) from knowledge (moral) and is forced to see the harm of this separation."
+      ],
+      "mechanism_shape": "causal_chain",
+      "mechanism_comment": "Power (without knowledge) -> Harm (to self).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 801,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "shock",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 802,
+      "speaker": "Socrates",
+      "text": "And you call ‘stronger’ the majority or the one?",
+      "observable_teaching_actions": [
+        "requests_clarification",
+        "forces_binary_choice"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Exposes the ambiguity of the term 'stronger' in Callicles's definition.",
+      "function_id": "UM_01",
+      "classification_evidence": "Definition forcing: Demanding a precise subject for the attribute 'stronger'.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "semantic_fog"
+      ],
+      "trap_notes": [
+        "Callicles's 'stronger' definition is vague, allowing for multiple, contradictory interpretations."
+      ],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 803,
+        "reaction_label": "elaborates",
+        "evidence": "The one, of course—the superior man.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 804,
+      "speaker": "Socrates",
+      "text": "Then if the many restrain this one by law, the many are stronger?",
+      "observable_teaching_actions": [
+        "applies_logic_to_definition",
+        "delivers_contradiction"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Uses the conventional reality (laws by the many) to contradict Callicles's elitist definition of 'stronger'.",
+      "function_id": "UM_02",
+      "classification_evidence": "Internal contradiction: The 'superior man' is restrained by the 'weaker many', meaning the many must be stronger.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "category_conflation"
+      ],
+      "trap_notes": [
+        "Callicles conflates strength (physical/political force) with superiority (moral/intellectual status)."
+      ],
+      "mechanism_shape": "embodied_contradiction",
+      "mechanism_comment": "Using the social reality of law to refute the 'nature' claim.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 805,
+        "reaction_label": "pushes_back",
+        "evidence": "That’s not what I meant.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 806,
+      "speaker": "Socrates",
+      "text": "But it’s what you said—and your principle collapses under its own definition.",
+      "observable_teaching_actions": [
+        "holds_student_to_words",
+        "formalizes_collapse"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Finalizes the critique by formalizing the structural collapse of Callicles's statement.",
+      "function_id": "UM_04",
+      "classification_evidence": "Abstraction strip: Stripping away Callicles's intent and holding him strictly to the logic of his stated terms.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 902,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "collapse",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "SELF-MAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 901,
+      "speaker": "Socrates",
+      "text": "Tell me plainly, Callicles—what life are you defending as best?",
+      "observable_teaching_actions": [
+        "requests_existential_definition",
+        "forces_articulation"
+      ],
+      "phase": "SELF-MAKING",
+      "phase_reason": "Forces the student to articulate the concrete ideal he is defending, taking ownership of the moral position.",
+      "function_id": "SM_04",
+      "classification_evidence": "Commitment clarifier: Demanding that Callicles state clearly the life he advocates for.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 902,
+        "reaction_label": "elaborates",
+        "evidence": "The life of the man who indulges his desires freely.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "SELF-MAKING",
+          "to": "SELF-MAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 903,
+      "speaker": "Socrates",
+      "text": "And is this life admirable because it is pleasant, or for some other reason?",
+      "observable_teaching_actions": [
+        "forces_justification",
+        "tests_causal_chain"
+      ],
+      "phase": "SELF-MAKING",
+      "phase_reason": "Forces Callicles to root his commitment in a specific value (pleasure or something higher).",
+      "function_id": "SM_04",
+      "classification_evidence": "Commitment clarifier: Testing the root premise of the articulated ideal.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "causal_chain",
+      "mechanism_comment": "Ideal Life -> Justification (Pleasure/Other).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 904,
+        "reaction_label": "elaborates",
+        "evidence": "Because pleasure is the good.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "SELF-MAKING",
+          "to": "SELF-MAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 905,
+      "speaker": "Socrates",
+      "text": "Then you must defend that principle to its end. Are you prepared to?",
+      "observable_teaching_actions": [
+        "forces_commitment",
+        "issues_final_challenge"
+      ],
+      "phase": "SELF-MAKING",
+      "phase_reason": "Finalizes the move by requiring the student to commit to defending the logical consequences of his stated position.",
+      "function_id": "SM_04",
+      "classification_evidence": "Commitment clarifier: Challenging Callicles to commit to the entire logical trajectory of his hedonistic premise.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_04",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_03"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 1002,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "escalation",
+        "phase_shift": {
+          "from": "SELF-MAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 1001,
+      "speaker": "Socrates",
+      "text": "Tell me, Callicles—do you yourself indulge your desires without restraint?",
+      "observable_teaching_actions": [
+        "requests_personal_admission",
+        "tests_theory_against_practice"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Uses Callicles's own life to expose the hypocrisy and contradiction in his philosophical claim.",
+      "function_id": "UM_05",
+      "classification_evidence": "Ego displacement: Directly challenging the student's personal practice against his claimed theory.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_04",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_03"
+      },
+      "trap_ids": [
+        "hypocrisy"
+      ],
+      "trap_notes": [
+        "Callicles's theory (unrestrained pleasure is best) is contradicted by his life (disciplined citizen)."
+      ],
+      "mechanism_shape": "comparison",
+      "mechanism_comment": "Comparing theoretical ideal (unrestraint) with lived reality (discipline).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 1002,
+        "reaction_label": "defensive",
+        "evidence": "Of course not. I exercise discipline like any man of sense.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 1003,
+      "speaker": "Socrates",
+      "text": "Yet you said the best life is the unrestrained one.",
+      "observable_teaching_actions": [
+        "reiterates_claim",
+        "forces_clash"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Forces the immediate clash between the professed theory and the admitted practice.",
+      "function_id": "UM_02",
+      "classification_evidence": "Internal contradiction: Juxtaposing the two contradictory claims (theory vs practice).",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 1004,
+        "reaction_label": "pushes_back",
+        "evidence": "Yes, but that doesn’t mean one should practice it constantly.",
+        "outcome_label": "partial_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 1005,
+      "speaker": "Socrates",
+      "text": "Then you admit your doctrine contradicts your own way of living.",
+      "observable_teaching_actions": [
+        "delivers_conclusion",
+        "formalizes_hypocrisy"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Finalizes the attack by forcing Callicles to admit the formal contradiction between his ethics and his life.",
+      "function_id": "UM_02",
+      "classification_evidence": "Internal contradiction: Formal statement of the contradiction between the doctrine and the living.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 1102,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "collapse",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 1101,
+      "speaker": "Socrates",
+      "text": "A pilot does not merely steer whichever way he wishes. He knows what is best for the ship and those aboard.",
+      "observable_teaching_actions": [
+        "uses_pilot_analogy",
+        "defines_ruling_as_knowledge"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Constructs a new model of 'ruling' (governance) based on objective knowledge (techne), not subjective desire.",
+      "function_id": "RM_05",
+      "classification_evidence": "Frame upgrade: Replacing 'ruling as desire' with 'ruling as skill/knowledge' via the craft analogy.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_04",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Comparing governance to piloting: both require specialized knowledge (techne) for objective good.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 1102,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "Yes, because his craft demands it.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 1103,
+      "speaker": "Socrates",
+      "text": "Then a man who rules must know what is best—not merely act on desire.",
+      "observable_teaching_actions": [
+        "applies_analogy_to_ruling",
+        "formalizes_knowledge_requirement"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Applies the principle derived from the analogy (knowledge is required) to the political domain.",
+      "function_id": "RM_01",
+      "classification_evidence": "Structural mapping: Mapping the knowledge requirement of the pilot (craft) onto the ruler (politics).",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "causal_chain",
+      "mechanism_comment": "If Pilot needs knowledge for objective good, Ruler needs knowledge for objective good.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 1104,
+        "reaction_label": "pushes_back",
+        "evidence": "You’re smuggling your assumptions into my view.",
+        "outcome_label": "partial_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 1105,
+      "speaker": "Socrates",
+      "text": "No—I’m showing that true power requires knowledge, just as navigation requires skill.",
+      "observable_teaching_actions": [
+        "rejects_blame",
+        "reiterates_core_principle"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Final statement of the revised principle (Power = Knowledge), reinforcing the newly built frame.",
+      "function_id": "RM_05",
+      "classification_evidence": "Frame upgrade: Reiteration of the new frame of 'true power' tied to knowledge.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "comparison",
+      "mechanism_comment": "Explicitly equating 'power' to 'knowledge' via the 'skill' of navigation.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 1201,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "META"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 1202,
+      "speaker": "Socrates",
+      "text": "If you refuse to answer, there’s no way for us to examine the truth together.",
+      "observable_teaching_actions": [
+        "states_procedural_necessity",
+        "defines_truth_seeking"
+      ],
+      "phase": "META",
+      "phase_reason": "Elevates the refusal to a methodological level, explaining why inquiry requires cooperation.",
+      "function_id": "ME_03",
+      "classification_evidence": "Method explanation: Explaining that the process (answering) is necessary for the shared goal (truth).",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_02",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "process_rejection"
+      ],
+      "trap_notes": [
+        "Callicles rejects the answering procedure as beneath him."
+      ],
+      "mechanism_shape": "causal_chain",
+      "mechanism_comment": "Refusal (Cause) -> Inquiry Breakdown (Effect).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 1203,
+        "reaction_label": "pushes_back",
+        "evidence": "I’m tired of your traps.",
+        "outcome_label": "partial_success",
+        "phase_shift": {
+          "from": "META",
+          "to": "META"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 1204,
+      "speaker": "Socrates",
+      "text": "They are not traps, Callicles. They are conditions for any rational inquiry.",
+      "observable_teaching_actions": [
+        "rejects_accusation",
+        "redefines_method_as_universal"
+      ],
+      "phase": "META",
+      "phase_reason": "Re-frames the method from a personal trick ('trap') to a universal requirement for reason ('conditions').",
+      "function_id": "ME_03",
+      "classification_evidence": "Method explanation: Universalizing the necessity of the elenchus method.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_02",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "ontological_frame_upgrade",
+      "mechanism_comment": "Shifts the frame from 'personal strategy' to 'universal epistemic requirement'.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 1205,
+        "reaction_label": "conceptual_concession",
+        "evidence": "Fine—ask again.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "META",
+          "to": "META"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 1205,
+      "speaker": "Socrates",
+      "text": "Fine—ask again.",
+      "observable_teaching_actions": [
+        "capitulates",
+        "reluctantly_reengages"
+      ],
+      "phase": "META",
+      "phase_reason": "Final enforcement, refusing to concede on the discipline.",
+      "function_id": "ME_03",
+      "classification_evidence": "Method explanation: Refusing to reward the student for stalling by repeating the question.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_02",
+        "attunement": "AT_03"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 1205,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "META",
+          "to": "META"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 1301,
+      "speaker": "Socrates",
+      "text": "Picture the soul, Callicles, stripped naked before the judge—every deed visible.",
+      "observable_teaching_actions": [
+        "uses_mythical_analogy",
+        "requests_visualization"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Introduces a powerful, non-rational metaphor (Myth of Er) to model the objective consequences of injustice.",
+      "function_id": "RM_02",
+      "classification_evidence": "Example instantiation: Using the judgment myth to visualize the moral condition of the soul.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_04",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "The judgment scene provides a mechanism for objective truth against Callicles's subjective power.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 1302,
+        "reaction_label": "pushes_back",
+        "evidence": "That’s just myth-making.",
+        "outcome_label": "partial_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 1303,
+      "speaker": "Socrates",
+      "text": "Myths teach truths the arrogant cannot hear plainly.",
+      "observable_teaching_actions": [
+        "defends_analogy_utility",
+        "links_myth_to_arrogance"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Defends the heuristic value of the myth, reframing it as a necessary pedagogical tool for certain temperaments.",
+      "function_id": "RM_03",
+      "classification_evidence": "Conceptual distinction: Distinguishing between truth heard plainly (logic) and truth heard indirectly (myth).",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 1304,
+        "reaction_label": "seeks_instruction",
+        "evidence": "And what truth is that supposed to reveal?",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 1305,
+      "speaker": "Socrates",
+      "text": "That injustice deforms the soul—and punishment restores it.",
+      "observable_teaching_actions": [
+        "states_moral_conclusion",
+        "reiterates_curative_punishment"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Provides the explicit moral conclusion the myth is intended to illustrate.",
+      "function_id": "RM_01",
+      "classification_evidence": "Structural mapping: Mapping the moral consequences (deformation/restoration) onto the soul.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_03",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "causal_chain",
+      "mechanism_comment": "Injustice -> Deformation; Punishment -> Restoration.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 1402,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "SELF-MAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 1401,
+      "speaker": "Socrates",
+      "text": "I am the only one of the Athenians, Callicles, who tries to practice the true political art.",
+      "observable_teaching_actions": [
+        "claims_unique_status",
+        "defines_true_art"
+      ],
+      "phase": "SELF-MAKING",
+      "phase_reason": "Asserts his own commitment and defines his existential choice (the true political art) as the standard.",
+      "function_id": "SM_04",
+      "classification_evidence": "Commitment clarifier: Stating his moral-political commitment that Callicles must ultimately confront.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_04",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_03"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 1402,
+        "reaction_label": "pushes_back",
+        "evidence": "You boast that, yet the city ignores you.",
+        "outcome_label": "partial_success",
+        "phase_shift": {
+          "from": "SELF-MAKING",
+          "to": "SELF-MAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 1403,
+      "speaker": "Socrates",
+      "text": "Better ignored while doing right than praised while corrupting my soul.",
+      "observable_teaching_actions": [
+        "reiterates_value_inversion",
+        "prioritizes_soul_over_fame"
+      ],
+      "phase": "SELF-MAKING",
+      "phase_reason": "Re-frames political success as irrelevant compared to internal moral integrity.",
+      "function_id": "SM_04",
+      "classification_evidence": "Commitment clarifier: Articulating the fundamental value choice (Soul integrity > External validation).",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_04",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_03",
+        "meta_mode": "MM_01",
+        "attunement": "AT_03"
+      },
+      "trap_ids": [
+        "looking_outward"
+      ],
+      "trap_notes": [
+        "Callicles judges success based on external metrics (city's praise/attention)."
+      ],
+      "mechanism_shape": "comparison",
+      "mechanism_comment": "Comparing the internal gain (doing right) versus the external loss (being ignored).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 1404,
+        "reaction_label": "seeks_instruction",
+        "evidence": "And what is it you want from me, then?",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "SELF-MAKING",
+          "to": "SELF-MAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 1405,
+      "speaker": "Socrates",
+      "text": "Only this: choose which life you will live—the life of discipline or the life of ruin.",
+      "observable_teaching_actions": [
+        "delivers_final_challenge",
+        "forces_binary_choice"
+      ],
+      "phase": "SELF-MAKING",
+      "phase_reason": "The final move of the dialogue: forcing Callicles to consciously choose his existential path.",
+      "function_id": "SM_04",
+      "classification_evidence": "Commitment clarifier: Forcing a definitive, existential choice between two final states (discipline/ruin).",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_04",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_04",
+        "meta_mode": "MM_01",
+        "attunement": "AT_03"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "threshold",
+      "mechanism_comment": "Setting the binary choice: crossing the threshold to self-correction or yielding to final ruin.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 1501,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "revelation",
+        "phase_shift": {
+          "from": "SELF-MAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 1502,
+      "speaker": "Socrates",
+      "text": "So you admit that shame compelled him—not understanding?",
+      "observable_teaching_actions": [
+        "requests_concession",
+        "distinguishes_shame_from_knowledge"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Destabilizes the previous conclusion by showing it was achieved via emotional/social pressure, not logic.",
+      "function_id": "UM_03",
+      "classification_evidence": "Concrete grounding: Distinguishing the external/social cause (shame) from the internal/epistemic cause (understanding).",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_03"
+      },
+      "trap_ids": [
+        "shame_trap"
+      ],
+      "trap_notes": [
+        "The previous argument's 'success' was merely Polus's social refusal to accept a shameful conclusion."
+      ],
+      "mechanism_shape": "conceptual_distinction",
+      "mechanism_comment": "Distinguishing the affective cause (shame) from the epistemic cause (conviction).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 1503,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "Yes. He was forced to contradict himself because he dared not say what he truly believed.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 1504,
+      "speaker": "Socrates",
+      "text": "Then Polus conceded not conviction, but fear of appearing base before the many.",
+      "observable_teaching_actions": [
+        "formalizes_failure",
+        "highlights_social_pressure"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Formalizes the conclusion that Polus's agreement was social, not philosophical, resetting the table for Callicles.",
+      "function_id": "UM_04",
+      "classification_evidence": "Abstraction strip: Stripping away the appearance of philosophical concession and revealing the raw motivation (social fear).",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_03"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 1602,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "escalation",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "META"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 1601,
+      "speaker": "Socrates",
+      "text": "Either refute philosophy, or else, by the Dog, Callicles will not agree with Callicles, but will be out of harmony with himself all his life long.",
+      "observable_teaching_actions": [
+        "poses_dilemma",
+        "warns_of_self_contradiction"
+      ],
+      "phase": "META",
+      "phase_reason": "Elevates the conflict to a structural choice: either deny the method or suffer internal contradiction.",
+      "function_id": "ME_03",
+      "classification_evidence": "Method explanation: Defining the stakes of the inquiry as internal harmony or disharmony.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_04",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_03",
+        "meta_mode": "MM_02",
+        "attunement": "AT_03"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "threshold",
+      "mechanism_comment": "Setting the threshold of philosophical success as the achievement of internal harmony (non-contradiction).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 1602,
+        "reaction_label": "pushes_back",
+        "evidence": "Socrates, you’re grandstanding in these speeches, acting like a crowd pleaser.",
+        "outcome_label": "partial_success",
+        "phase_shift": {
+          "from": "META",
+          "to": "META"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 1603,
+      "speaker": "Socrates",
+      "text": "It is better for the many to contradict me than for me to contradict myself, though I am only one person.",
+      "observable_teaching_actions": [
+        "reiterates_value_inversion",
+        "prioritizes_internal_coherence"
+      ],
+      "phase": "META",
+      "phase_reason": "Formalizes the choice between external validation (many agree) and internal integrity (self-coherence).",
+      "function_id": "ME_01",
+      "classification_evidence": "Process normalization: Normalizing the external appearance of contradiction in favor of internal logical necessity.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_04",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_03",
+        "meta_mode": "MM_02",
+        "attunement": "AT_03"
+      },
+      "trap_ids": [
+        "looking_outward"
+      ],
+      "trap_notes": [
+        "Callicles judges based on public opinion (the many's agreement)."
+      ],
+      "mechanism_shape": "comparison",
+      "mechanism_comment": "Comparing the relative value of external agreement versus internal coherence.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 1604,
+        "reaction_label": "pushes_back",
+        "evidence": "You twist everything—first forcing Gorgias to contradict himself, and now Polus.",
+        "outcome_label": "partial_success",
+        "phase_shift": {
+          "from": "META",
+          "to": "META"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 1605,
+      "speaker": "Socrates",
+      "text": "I already did. You owe me the answer—not another speech.",
+      "observable_teaching_actions": [
+        "reasserts_authority",
+        "demands_answer"
+      ],
+      "phase": "META",
+      "phase_reason": "Final enforcement, refusing to concede on the discipline.",
+      "function_id": "ME_03",
+      "classification_evidence": "Method explanation: Refusing to reward the student for stalling by repeating the question.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_02",
+        "attunement": "AT_03"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 1702,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "pivot",
+        "phase_shift": {
+          "from": "META",
+          "to": "META"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 1701,
+      "speaker": "Socrates",
+      "text": "I believe I practice the true political craft, because my speeches do not aim at gratification but at what is best.",
+      "observable_teaching_actions": [
+        "claims_true_craft",
+        "distinguishes_goal"
+      ],
+      "phase": "META",
+      "phase_reason": "Defines his own persuasive activity in non-rhetorical, moral terms.",
+      "function_id": "ME_03",
+      "classification_evidence": "Method explanation: Defining his persuasion's goal as 'what is best' (objective good), not 'gratification' (subjective pleasure).",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_02",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "conceptual_distinction",
+      "mechanism_comment": "Distinguishing true political craft (aiming at the Good) from false rhetoric (aiming at pleasure).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 1702,
+        "reaction_label": "pushes_back",
+        "evidence": "Yet here you are persuading—using rhetoric to deny rhetoric.",
+        "outcome_label": "partial_success",
+        "phase_shift": {
+          "from": "META",
+          "to": "META"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 1703,
+      "speaker": "Socrates",
+      "text": "If I persuade, it is not as a pastry chef persuades children, but as a doctor speaking bitter truths.",
+      "observable_teaching_actions": [
+        "uses_analogy",
+        "redefines_persuasion_mechanism"
+      ],
+      "phase": "META",
+      "phase_reason": "Reframes the mechanism of his persuasion from flattery/pleasure (pastry chef) to painful necessity (doctor).",
+      "function_id": "ME_03",
+      "classification_evidence": "Method explanation: Using the doctor analogy to define the function of his persuasion as curative, not flattering.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_02",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Mapping the utility of different 'crafts' (flattery vs medicine) onto persuasive methods.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 1704,
+        "reaction_label": "pushes_back",
+        "evidence": "Still, you must use the very craft you condemn to defend your view.",
+        "outcome_label": "partial_success",
+        "phase_shift": {
+          "from": "META",
+          "to": "META"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 1705,
+      "speaker": "Socrates",
+      "text": "I already did. You owe me the answer—not another speech.",
+      "observable_teaching_actions": [
+        "reasserts_authority",
+        "demands_answer"
+      ],
+      "phase": "META",
+      "phase_reason": "Final enforcement, refusing to concede on the discipline.",
+      "function_id": "ME_03",
+      "classification_evidence": "Method explanation: Refusing to reward the student for stalling by repeating the question.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_02",
+        "attunement": "AT_03"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 1802,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "reframing",
+        "phase_shift": {
+          "from": "META",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 1801,
+      "speaker": "Socrates",
+      "text": "Which do you think is more shameful, doing what’s unjust or suffering it?",
+      "observable_teaching_actions": [
+        "resets_inquiry",
+        "requests_value_judgment"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Resets the inquiry to the core ethical question, focusing on the social metric of shame.",
+      "function_id": "UM_01",
+      "classification_evidence": "Definition forcing: Re-running the shame-trap argument.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "comparison",
+      "mechanism_comment": "Comparing the two states: doing vs suffering injustice.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 1802,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "Doing it.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 1803,
+      "speaker": "Socrates",
+      "text": "And which is worse?",
+      "observable_teaching_actions": [
+        "shifts_metric",
+        "requests_ethical_judgment"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Shifts the metric from 'shameful' (social) to 'worse' (ethical/pragmatic).",
+      "function_id": "UM_03",
+      "classification_evidence": "Concrete grounding: Shifting from the abstract/social category of 'shameful' to the practical/ethical category of 'worse'.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "conceptual_distinction",
+      "mechanism_comment": "Distinguishing the social metric (shame) from the ethical metric (worse).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 1804,
+        "reaction_label": "elaborates",
+        "evidence": "Suffering it is worse.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 1805,
+      "speaker": "Socrates",
+      "text": "Then shame does not track evil—your claim collapses.",
+      "observable_teaching_actions": [
+        "delivers_contradiction",
+        "nullifies_claim"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "The conclusion (shame != evil) forces a contradiction with Polus's underlying premise that social virtue mirrors objective truth.",
+      "function_id": "UM_02",
+      "classification_evidence": "Internal contradiction: The lack of correlation between 'shameful' (doing) and 'worse' (suffering) collapses the implicit link between social opinion and moral reality.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "category_conflation"
+      ],
+      "trap_notes": [
+        "Polus attempts to hold two contradictory value judgments simultaneously."
+      ],
+      "mechanism_shape": "inversion",
+      "mechanism_comment": "Exposing the internal inconsistency of Polus's value judgments.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 1902,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "collapse",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 1901,
+      "speaker": "Socrates",
+      "text": "Isn’t disciplining the soul better for it than indulgence?",
+      "observable_teaching_actions": [
+        "poses_ethical_question",
+        "forces_value_choice"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Presents the final, stark ethical choice, which Callicles must either accept or reject absolutely.",
+      "function_id": "UM_01",
+      "classification_evidence": "Definition forcing: Forcing a choice between two final states (discipline vs indulgence).",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_04",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_03",
+        "meta_mode": "MM_01",
+        "attunement": "AT_03"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "comparison",
+      "mechanism_comment": "Comparing the ultimate outcome of two ways of life.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 1902,
+        "reaction_label": "withdraws",
+        "evidence": "I don’t know what you mean. Ask somebody else.",
+        "outcome_label": "partial_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "SELF-MAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 1903,
+      "speaker": "Socrates",
+      "text": "This fellow won’t put up with being benefited and disciplined.",
+      "observable_teaching_actions": [
+        "diagnoses_refusal",
+        "frames_inquiry_as_benefit"
+      ],
+      "phase": "SELF-MAKING",
+      "phase_reason": "Frames Callicles's refusal as a rejection of self-benefit, reinforcing the ultimate value of the dialectic process.",
+      "function_id": "SM_04",
+      "classification_evidence": "Commitment clarifier: Defining Callicles's behavior as a rejection of necessary moral improvement.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_04",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_03",
+        "meta_mode": "MM_01",
+        "attunement": "AT_03"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "conceptual_distinction",
+      "mechanism_comment": "Distinguishing inquiry (discipline) from harm.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 1904,
+        "reaction_label": "withdraws",
+        "evidence": "And I couldn’t care less about anything you say.",
+        "outcome_label": "failure",
+        "phase_shift": {
+          "from": "SELF-MAKING",
+          "to": "SELF-MAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 1905,
+      "speaker": "Socrates",
+      "text": "I already did. You owe me the answer—not another speech.",
+      "observable_teaching_actions": [
+        "reasserts_authority",
+        "demands_answer"
+      ],
+      "phase": "META",
+      "phase_reason": "Final enforcement, refusing to concede on the discipline.",
+      "function_id": "ME_03",
+      "classification_evidence": "Method explanation: Refusing to reward the student for stalling by repeating the question.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_02",
+        "attunement": "AT_03"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 2001,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "failure",
+        "phase_shift": {
+          "from": "SELF-MAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 2002,
+      "speaker": "Socrates",
+      "text": "So persuasion defeats knowledge among the ignorant.",
+      "observable_teaching_actions": [
+        "defines_rhetoric_mechanism",
+        "introduces_ignorance_condition"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Constructs a model of rhetoric's power, distinguishing it from knowledge based on the audience's state.",
+      "function_id": "RM_03",
+      "classification_evidence": "Conceptual distinction: Distinguishing persuasion (aimed at ignorance) from knowledge (aimed at truth).",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "value_segregation"
+      ],
+      "trap_notes": [
+        "Gorgias prides himself on a power (persuasion) that functions only by manipulating ignorance."
+      ],
+      "mechanism_shape": "conceptual_distinction",
+      "mechanism_comment": "Rhetoric functions by defeating knowledge when the audience is ignorant.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 2003,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "Such is the accomplishment of this craft.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 2004,
+      "speaker": "Socrates",
+      "text": "And such is why it must be used justly, lest it mislead those who lack expertise.",
+      "observable_teaching_actions": [
+        "introduces_moral_constraint",
+        "links_power_to_justice"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Completes the model by asserting the necessary moral constraint (justice) on the dangerous power of rhetoric.",
+      "function_id": "RM_05",
+      "classification_evidence": "Frame upgrade: Framing rhetoric not as an autonomous power but as a tool requiring moral guidance (justice).",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "causal_chain",
+      "mechanism_comment": "Unjust use (Cause) -> Misleading Ignorance (Effect).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 1,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    }
+  ],
+  "episode_overview": "Socrates engages Polus, Gorgias, and Callicles to dismantle the conventional Athenian glorification of power, rhetoric, and unrestrained pleasure. Key moves include forcing Polus into a value contradiction (Turn 7), reframing punishment as therapeutic (Turn 101), exposing hedonism as pathological craving (Turn 301), and demonstrating that power without knowledge is self-harm (Turn 705). The dialogue frequently pivots to a META level to enforce the rules of the elenchus, culminating in Socrates forcing Callicles to choose his final existential commitment (Turn 1405).",
+  "episode_insights": {
+    "key_pattern": "Value Inversion (Polus) -> Medical Analogy (Punishment) -> Shame Trap (Gorgias) -> Procedural Discipline (META) -> Leaky Jar Analogy (Callicles) -> Existential Choice (SELF-MAKING)",
+    "notes": [
+      "Socrates uses the Gorgias dialogue to demonstrate the rhetorical power of philosophy, often overpowering his interlocutors through logical shock (e.g., the 'shame trap' on Polus).",
+      "The 'leaky jar' and 'doctor/pastry chef' analogies are powerful RM_03/RM_05 moves, structurally redefining the problem using concrete imagery.",
+      "The SELF-MAKING phase is crucial here, as Socrates demands commitment (Turn 905) and forces Callicles to admit hypocrisy, demonstrating that the inquiry demands personal integrity, not just clever argument."
+    ]
+  }
+}

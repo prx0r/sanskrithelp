@@ -1,0 +1,493 @@
+{
+  "episodes": [
+    {
+      "episode_id": "diogenesVI_t25_t25_olives_and_sicily",
+      "source_text": "Diogenes Laërtius, Lives of the Eminent Philosophers, Book VI",
+      "lineage": "Cynic",
+      "student_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Plato",
+          "text": "Nay, by the gods, Diogenes, there also for the most part I lived upon olives and such like.",
+          "observable_student_behaviors": [
+            "defends_asceticism",
+            "states_fact"
+          ],
+          "behavior_tags": [
+            "status_defense"
+          ],
+          "inferred_state": {
+            "reading": "mild_self_justification",
+            "confidence": 0.85
+          },
+          "annotator_uncertainty": 0.1
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Diogenes",
+          "text": "How is it, that you the philosopher who sailed to Sicily for the sake of these dishes, now when they are before you do not enjoy them?",
+          "observable_teaching_actions": [
+            "challenges_hypocrisy",
+            "questions_purpose"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Attacking Plato’s self-image as a serious philosopher by linking his travel to trivial physical pleasure.",
+          "function_id": "UM_05",
+          "classification_evidence": "Ego displacement: Attacking the 'philosopher' role by focusing on appetites.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "spiritual_superego"
+          ],
+          "trap_notes": [
+            "Plato is posturing as a philosopher who doesn't care for luxury while dining richly."
+          ],
+          "mechanism_shape": "comparison",
+          "mechanism_comment": "Comparing past philosophical journey with present non-enjoyment.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 2,
+            "reaction_label": "defensive",
+            "evidence": "Nay, by the gods, Diogenes, there also for the most part I lived upon olives and such like.",
+            "outcome_label": "partial_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Diogenes",
+          "text": "Why then, did you need to go to Syracuse? Was it that Attica at that time did not grow olives?",
+          "observable_teaching_actions": [
+            "uses_reductio",
+            "mocks_necessity"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Collapsing the grand narrative of the Sicilian voyage by reducing its purpose to a trivial, local commodity (olives).",
+          "function_id": "UM_03",
+          "classification_evidence": "Reductio extension: Extending the claim of simple eating to the absurdity that Athens lacked olives.",
+          "register": {
+            "intensity": "PR_04",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_06",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "overreach"
+          ],
+          "trap_notes": [
+            "Plato's original defense (olives) is used to destroy the purpose of his journey (Sicily)."
+          ],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "The physical reality (olives were available locally) negates the premise of the journey's necessity.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "olives_reductio",
+            "shape": "purpose_collapse_by_banality",
+            "canonical_candidate": false
+          }
+        }
+      ],
+      "episode_overview": "Diogenes ridicules Plato’s journey to Sicily by pointing out that since Plato claims to have only eaten olives there, the entire philosophical expedition was pointless, as Athens already grew olives.",
+      "episode_insights": {
+        "key_pattern": "Challenge Hypocrisy → Trivial Defense (Olives) → Reductio Ad Absurdum (Olives at Home)",
+        "notes": [
+          "A classic Cynic move: attacking the value system of the elite by focusing on base material reality."
+        ]
+      }
+    },
+    {
+      "episode_id": "diogenesVI_t26_t26_trampling_pride",
+      "source_text": "Diogenes Laërtius, Lives of the Eminent Philosophers, Book VI",
+      "lineage": "Cynic",
+      "student_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Plato",
+          "text": "How much pride you expose to view, Diogenes, by seeming not to be proud.",
+          "observable_student_behaviors": [
+            "pushes_back",
+            "exposes_contradiction"
+          ],
+          "behavior_tags": [
+            "meta_criticism",
+            "irony"
+          ],
+          "inferred_state": {
+            "reading": "intellectual_retaliation",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Diogenes",
+          "text": "I trample upon Plato's vainglory.",
+          "observable_teaching_actions": [
+            "verbal_assault",
+            "physical_act"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "A direct, physical and verbal attack on Plato's sense of social status and pride.",
+          "function_id": "UM_05",
+          "classification_evidence": "Ego displacement: Direct assertion of superiority through destruction of Plato's vanity/vainglory.",
+          "register": {
+            "intensity": "PR_04",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "spiritual_superego"
+          ],
+          "trap_notes": [
+            "Plato's social display is treated as pure vanity."
+          ],
+          "mechanism_shape": "none",
+          "mechanism_comment": null,
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 2,
+            "reaction_label": "pushes_back",
+            "evidence": "How much pride you expose to view, Diogenes...",
+            "outcome_label": "failure",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "trampling_vainglory",
+            "shape": "physical_assault_on_status",
+            "canonical_candidate": false
+          }
+        }
+      ],
+      "episode_overview": "Diogenes assaults Plato's visible status display. Plato immediately counters by exposing Diogenes's own hidden pride in seeming not to be proud (inverted vanity), resulting in a mutual destruction of ego postures.",
+      "episode_insights": {
+        "key_pattern": "Physical Attack (Trampling) → Labeling (Vainglory) → Mutual Contradiction (Inverted Pride)",
+        "notes": [
+          "Plato's response (T2) is a devastating counter-move that exposes the Cynic trap itself.",
+          "The interaction functions as a contradiction exposure (UM_02) of Diogenes's own position, even though Plato speaks the line."
+        ]
+      }
+    },
+    {
+      "episode_id": "diogenesVI_t42_t42_3000_blows",
+      "source_text": "Diogenes Laërtius, Lives of the Emininent Philosophers, Book VI",
+      "lineage": "Cynic",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Meidias",
+          "text": "There are 3000 drachmas to your credit,",
+          "observable_student_behaviors": [
+            "offers_compensation",
+            "frames_debt_as_credit"
+          ],
+          "behavior_tags": [
+            "financial_accounting",
+            "buying_impunity"
+          ],
+          "inferred_state": {
+            "reading": "confident_transactionalism",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Diogenes",
+          "text": "There are 3000 blows to your credit.",
+          "observable_teaching_actions": [
+            "inverts_ledger",
+            "redefines_credit"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Destroying the financial frame by replacing money with violence owed.",
+          "function_id": "UM_05",
+          "classification_evidence": "Ego displacement: Humiliating the aggressor's transactional logic by framing them as physically vulnerable and indebted.",
+          "register": {
+            "intensity": "PR_04",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_06",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "problem_solving_stance"
+          ],
+          "trap_notes": [
+            "Meidias tries to solve moral debt with monetary calculation."
+          ],
+          "mechanism_shape": "subject_object_inversion",
+          "mechanism_comment": "Flips the subject of the transaction: credit is defined by the harm inflicted by Meidias, not his money.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "blows_for_drachmas",
+            "shape": "moral_ledger_inversion",
+            "canonical_candidate": false
+          }
+        }
+      ],
+      "episode_overview": "Meidias attempts to buy his way out of an assault charge by referencing money owed to Diogenes. Diogenes inverts the moral ledger, replacing the monetary 'credit' with a debt of 'blows' owed to Meidias.",
+      "episode_insights": {
+        "key_pattern": "Monetary Claim → Ledger Inversion (Drachmas $\\rightarrow$ Blows)",
+        "notes": [
+          "Uses the exact language of the interlocutor ('3000', 'credit') to deliver the attack.",
+          "High intensity and grotesque linguistic style (LS_06) to assert moral authority over financial authority."
+        ]
+      }
+    },
+    {
+      "episode_id": "diogenesVI_t53_t53_tablehood_mockery",
+      "source_text": "Diogenes Laërtius, Lives of the Eminent Philosophers, Book VI",
+      "lineage": "Cynic",
+      "student_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Plato",
+          "text": "That's readily accounted for, for you have the eyes to see the visible table and cup; but not the understanding by which ideal tablehood and cuphood are discerned.",
+          "observable_student_behaviors": [
+            "defends_metaphysics",
+            "diagnoses_teacher_defect"
+          ],
+          "behavior_tags": [
+            "intellectual_arrogance",
+            "framework_reassertion"
+          ],
+          "inferred_state": {
+            "reading": "confident_rejection",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Diogenes",
+          "text": "Table and cup I see; but your tablehood and cuphood, Plato, I can nowise see.",
+          "observable_teaching_actions": [
+            "challenges_abstraction",
+            "demands_concreteness"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Attacking the conceptual validity of Platonic Forms by demanding empirical evidence.",
+          "function_id": "UM_03",
+          "classification_evidence": "Concrete grounding: Forcing the abstract ideal forms ('tablehood') into sensory reality.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_06",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "conceptual_reification"
+          ],
+          "trap_notes": [
+            "Plato reifies abstract terms (Forms) as visible entities."
+          ],
+          "mechanism_shape": "abstract_to_concrete_check",
+          "mechanism_comment": "Testing the abstract philosophical claim against the reality of sensory perception.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 2,
+            "reaction_label": "pushes_back",
+            "evidence": "That's readily accounted for, for you have the eyes to see the visible table and cup; but not the understanding...",
+            "outcome_label": "failure",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Diogenes attacks Plato's theory of Forms by asserting that he can only see the concrete cup and table, not the abstract 'cuphood'. Plato defends the metaphysical distinction between sense and intellect.",
+      "episode_insights": {
+        "key_pattern": "Demand for Concreteness → Metaphysical Defense (Sense vs Intellect)",
+        "notes": [
+          "Closure is failure for the teacher because Plato successfully defends his framework without conceding the point.",
+          "The contrast highlights the central conflict between Cynic materialism and Platonic idealism."
+        ]
+      }
+    },
+    {
+      "episode_id": "diogenesVI_t68_t68_fearless_to_alexander",
+      "source_text": "Diogenes Laërtius, Lives of the Eminent Philosophers, Book VI",
+      "lineage": "Cynic",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Alexander",
+          "text": "Are you not afraid of me?",
+          "observable_student_behaviors": [
+            "tests_submission",
+            "asserts_dominance"
+          ],
+          "behavior_tags": [
+            "intimidation",
+            "power_posturing"
+          ],
+          "inferred_state": {
+            "reading": "confident_authority",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Alexander",
+          "text": "A good thing,",
+          "observable_student_behaviors": [
+            "self_labels",
+            "concedes_moral_premise"
+          ],
+          "behavior_tags": [
+            "unwitting_trap_entry"
+          ],
+          "inferred_state": {
+            "reading": "obligatory_agreement",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Diogenes",
+          "text": "Why, what are you? a good thing or a bad?",
+          "observable_teaching_actions": [
+            "rejects_premise",
+            "forces_moral_categorization"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Removing the premise that Alexander's power necessitates fear, replacing it with a moral choice.",
+          "function_id": "UM_06",
+          "classification_evidence": "Constraint removal: Replacing the constraint 'Fear is appropriate' with the binary constraint 'Good or Bad'.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "problem_solving_stance"
+          ],
+          "trap_notes": [
+            "Alexander views interactions as power tests, not moral tests."
+          ],
+          "mechanism_shape": "threshold",
+          "mechanism_comment": "Testing the threshold of moral worth (Good/Bad).",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 3,
+            "reaction_label": "conceptual_concession",
+            "evidence": "A good thing,",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Diogenes",
+          "text": "Who then is afraid of the good?",
+          "observable_teaching_actions": [
+            "delivers_punchline",
+            "dissolves_fear"
+          ],
+          "phase": "SELF-MAKING",
+          "phase_reason": "Pointing to the immediate logical reality that the self (the Will) has no reason to fear the good.",
+          "function_id": "SM_01",
+          "classification_evidence": "Direct seeing: Forcing Alexander to witness the contradiction in his own statement.",
+          "register": {
+            "intensity": "PR_04",
+            "intimacy": "IN_04",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_04",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Goodness $\\rightarrow$ No Fear. Logic closes the loop.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "SELF-MAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "fearless_logic_trap",
+            "shape": "moral_categorization_trap",
+            "canonical_candidate": false
+          }
+        }
+      ],
+      "episode_overview": "Alexander attempts to intimidate Diogenes, but Diogenes forces him to categorize himself as 'good'. Diogenes then uses that categorization to logically dissolve the premise of fear, disarming the world's most powerful man.",
+      "episode_insights": {
+        "key_pattern": "Power Test → Constraint Removal (Moral Categorization) → Forced Concession (Good) → Logical Collapse (No Fear of Good)",
+        "notes": [
+          "The interaction is a masterclass in psychological Judo, using the adversary’s own principles against them.",
+          "The outcome label is 'clean_success' because the philosophical goal of dissolving fear is achieved."
+        ]
+      }
+    }
+  ]
+}

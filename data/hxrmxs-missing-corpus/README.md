@@ -79,7 +79,26 @@ Three shapes appear here. They are **not** interchangeable without conversion.
 
 ## Folder contents
 
-### `istdp/` — highest value missing line
+### Batch 2 (added after first push)
+
+| Folder | What it is |
+|--------|------------|
+| `istdp/16 better.txt` | Extra ISTDP Th/Pt raw cuts (flat turn lists; parser groups them). |
+| `istdp/16 cocreating change pass1.txt` | Co-Creating Change episodes with **student_turns + teacher_turns + episode_overview/insights** (~80 eps). Annotated pass1. |
+| `stoic/` | Epictetus Discourses — `10 epictetus.txt` transcripts + `10 epictetus pass 1.txt` annotated. **Stoic lineage.** |
+| `cynic/` | Diogenes Laërtius — `6diogenes.txt` + pass1. **Cynic lineage.** |
+| `buddhist-extra/mn72.txt` | MN72 Aggi-Vacchagotta eternalism trap (long Buddha↔Vacchagotta). |
+| `plato/` | Extra Plato: Apology, Symposium, Meno, Euthyphro, Gorgias (+ annotated pass1s). |
+| `gurdjieff/` | Longer Gurdjieff Q/A (`5 gurdjeff.txt` max 14 msgs) + `5 gurdjeff pass1.txt` annotated. |
+| `advaita/` | `7nisargadatta.txt` I Am That transcripts + `6 nisargaddata pass1.txt` annotated. |
+| `krishnamurti/` | Extra batches: `8 krish.txt`, `14 krishnamurrrti.txt`, `14 krishnamurtiii.txt`. |
+| `madhyamaka/` | `11 nagarjuna.txt` Realist↔Buddhist debate turns + `11 dispeller pass1.txt`. |
+| `diary/diary training data.txt` | ~102 short `{messages:[...]}` training dialogues. |
+| `diamond-numbered/` | Numbered Diamond/Truthcore series from `sanskritree/syntheses` (prana nadis → memory palace rag). Same schema as `gold-diamond/`. |
+
+After batch 2 + `scripts/parse_missing_corpus.py` re-run: **731 normalized episodes**, lineages include Stoic, Cynic, Madhyamaka, ISTDP, Zen, plus diamond topics.
+
+### `istdp/` — highest value missing line (batch 1)
 
 | File | What it is |
 |------|------------|

@@ -1,0 +1,2627 @@
+{
+  "episodes": [
+    {
+      "episode_id": "dispeller_v31_regress_spiral",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          "text": "Objects of some kind are established by the epistemic instruments [pramanas].",
+          "observable_student_behaviors": [
+            "asserts_epistemic_foundation",
+            "claims_validity"
+          ],
+          "behavior_tags": [
+            "foundationalism",
+            "pramana_theory",
+            "epistemic_confidence"
+          ],
+          "inferred_state": {
+            "reading": "dogmatic_certainty",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Nagarjuna",
+          "text": "If according to you objects of some kind are established by the epistemic instruments, you have to indicate how according to you the epistemic instruments are established in turn.",
+          "observable_teaching_actions": [
+            "demands_validation",
+            "triggers_recursion"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Challenging the assumption that the instruments are self-evident by demanding their source.",
+          "function_id": "UM_06",
+          "classification_evidence": "Constraint removal: Removing the assumption that instruments are a stopping point for justification.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "recursion_loop"
+          ],
+          "trap_notes": [
+            "Student relies on a validator that itself needs validation."
+          ],
+          "mechanism_shape": "feedback",
+          "mechanism_comment": "Triggers the regress loop.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "infinite_regress_trigger",
+            "shape": "demand_validation_of_validator",
+            "canonical_candidate": false
+          }
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Nagarjuna",
+          "text": "If the epistemic instruments were established by other epistemic instruments, there would be an infinite regress. Neither the beginning, the middle, nor the end is established there.",
+          "observable_teaching_actions": [
+            "maps_regress",
+            "demonstrates_failure"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Explicating the consequence of the first option (Infinite Regress).",
+          "function_id": "UM_03",
+          "classification_evidence": "Reductio extension: Pushing the logic of 'validation' to its infinite, absurd conclusion.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "system_dynamics",
+          "mechanism_comment": "Describing the infinite loop.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nagarjuna",
+          "text": "Then if you think \"these epistemic instruments are established without epistemic instruments,\" your position is abandoned. There is an inequality to be explained, and you should state the special reason why some objects are established by epistemic instruments and some are not.",
+          "observable_teaching_actions": [
+            "closes_dilemma",
+            "exposes_dogmatism"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Closing the second option (Dogmatism/Inequality) to complete the trap.",
+          "function_id": "UM_02",
+          "classification_evidence": "Contradiction exposure: If everything needs proof, but instruments don't, there is a contradiction (inequality) in the rule.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "false_paradox"
+          ],
+          "trap_notes": [
+            "The student claims a universal rule but demands an exception for their tools."
+          ],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Collapses the special exemption for pramanas.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "The Realist claims knowledge is founded on valid instruments (pramanas). Nagarjuna dismantles this by asking how the instruments are validated, forcing a choice between infinite regress or arbitrary dogmatism.",
+      "episode_insights": {
+        "key_pattern": "Regress Trigger (Validation) → Dilemma (Regress vs. Dogmatism)",
+        "notes": [
+          "The classic 'Munchhausen Trilemma' structure applied to epistemology.",
+          "Effective because it targets the mechanism of proof itself."
+        ]
+      }
+    },
+    {
+      "episode_id": "dispeller_v49_circularity_trap",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          "text": "The establishment of the epistemic objects is by the epistemic instruments and the establishment of the epistemic instruments by the epistemic objects.",
+          "observable_student_behaviors": [
+            "proposes_circularity",
+            "defends_co_dependence"
+          ],
+          "behavior_tags": [
+            "mutual_establishment",
+            "circular_logic",
+            "defensive_maneuver"
+          ],
+          "inferred_state": {
+            "reading": "cornered_rationalization",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Nagarjuna",
+          "text": "If the son is to be produced by the father and if the father is to be produced by this very son, you have to say which produces which in this context.",
+          "observable_teaching_actions": [
+            "uses_analogy",
+            "exposes_absurdity"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Using the Father/Son analogy to reveal the absurdity of mutual production.",
+          "function_id": "UM_03",
+          "classification_evidence": "Reductio extension: Applying the logic of 'mutual establishment' to genealogy to show it means 'mutual non-production'.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_03",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "recursion_loop"
+          ],
+          "trap_notes": [
+            "Student claims A -> B and B -> A simultaneously."
+          ],
+          "mechanism_shape": "structural_analogy",
+          "mechanism_comment": "Father/Son relation used to break circular time.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "circularity_analogy",
+            "shape": "genealogical_reductio",
+            "canonical_candidate": false
+          }
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Nagarjuna",
+          "text": "In this case it is unclear to us which of the two is the father and which is the son. It is the very same with your instruments and epistemic objects: which of them are epistemic instruments and which are epistemic objects?",
+          "observable_teaching_actions": [
+            "maps_analogy_to_target",
+            "collapses_distinction"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Applying the analogy back to the epistemic claim to destroy the definition of 'instrument'.",
+          "function_id": "UM_02",
+          "classification_evidence": "Internal contradiction: If they produce each other, the definition of 'producer' (instrument) is lost.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "category_conflation"
+          ],
+          "trap_notes": [],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Collapse of the distinction between Agent and Object.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "The Realist tries to save their theory by claiming the proof and the object prove each other. Nagarjuna uses the 'Father producing Son / Son producing Father' analogy to show this results in total incoherence.",
+      "episode_insights": {
+        "key_pattern": "Reductio via Analogy (Father/Son) → Definition Collapse",
+        "notes": [
+          "Demonstrates that 'mutual establishment' is just a fancy term for 'unestablished'.",
+          "Strong use of concrete analogy to break abstract circularity."
+        ]
+      }
+    },
+    {
+      "episode_id": "dispeller_v29_no_thesis_stance",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          "text": "Thus your thesis, not mine, is corrupted by the specific characteristic.",
+          "observable_student_behaviors": [
+            "counter_attacks",
+            "accuses_inconsistency"
+          ],
+          "behavior_tags": [
+            "tu_quoque",
+            "logical_accusation",
+            "debate_tactic"
+          ],
+          "inferred_state": {
+            "reading": "aggressive_defense",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Nagarjuna",
+          "text": "If I had any thesis, that fault would apply to me. But I do not have any thesis, so there is indeed no fault for me.",
+          "observable_teaching_actions": [
+            "denies_premise",
+            "refuses_ownership"
+          ],
+          "phase": "META",
+          "phase_reason": "Stepping out of the debate frame by denying the possession of a 'thesis' (position).",
+          "function_id": "ME_03",
+          "classification_evidence": "Method explanation: Explaining that the Madhyamaka method does not involve holding a positive thesis.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_04",
+            "meta_mode": "MM_02",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "ego_defense"
+          ],
+          "trap_notes": [
+            "Realist expects Nagarjuna to defend a position."
+          ],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Collapses the 'Thesis/Anti-thesis' duality.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "META",
+              "to": "META"
+            }
+          },
+          "local_move": {
+            "move_id": "void_stance",
+            "shape": "refusal_of_thesis",
+            "canonical_candidate": false
+          }
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Nagarjuna",
+          "text": "To that extent, while all things are empty, completely pacified, and by nature free from substance, from where could a thesis come? In this context your statement \"there is precisely that fault for you\" is not tenable.",
+          "observable_teaching_actions": [
+            "grounds_refusal_in_emptiness",
+            "dismisses_charge"
+          ],
+          "phase": "META",
+          "phase_reason": "Justifying the 'No Thesis' stance via the ontology of emptiness.",
+          "function_id": "ME_03",
+          "classification_evidence": "Method explanation: Linking the method (no thesis) to the reality (emptiness).",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_04",
+            "meta_mode": "MM_02",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "none",
+          "mechanism_comment": null,
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "META",
+              "to": "META"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "When accused of a logical fault in his thesis, Nagarjuna executes the famous 'I have no thesis' maneuver, arguing that since all things are empty, no substantial position can be held, and thus no fault can attach.",
+      "episode_insights": {
+        "key_pattern": "Meta-Step (No Thesis) → Ontological Justification",
+        "notes": [
+          "The ultimate defensive move in Madhyamaka.",
+          "Reframes the debate from 'My view vs Your view' to 'View vs No View'."
+        ]
+      }
+    },
+    {
+      "episode_id": "dispeller_v39_spatial_reductio",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          "text": "Precisely the arising fire illuminates. For that very arising fire does not connect with darkness [but destroys it].",
+          "observable_student_behaviors": [
+            "asserts_action_at_distance",
+            "defends_causality"
+          ],
+          "behavior_tags": [
+            "metaphysical_physics",
+            "special_pleading",
+            "magical_thinking"
+          ],
+          "inferred_state": {
+            "reading": "confident_explanation",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Nagarjuna",
+          "text": "But if an unconnected fire were to prevent darkness, the fire present here would prevent the darkness in all worlds.",
+          "observable_teaching_actions": [
+            "universalizes_rule",
+            "exposes_absurd_consequence"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Applying the student's rule (action without contact) to the universal scale to show absurdity.",
+          "function_id": "UM_03",
+          "classification_evidence": "Reductio extension: If X works without contact here, X should work everywhere.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "overreach"
+          ],
+          "trap_notes": [
+            "Student asserts a power (non-contact) that implies omnipotence."
+          ],
+          "mechanism_shape": "system_dynamics",
+          "mechanism_comment": "Universalizing the local mechanic.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "spatial_reductio",
+            "shape": "universalize_local_rule",
+            "canonical_candidate": false
+          }
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Nagarjuna",
+          "text": "If you think \"an unconnected fire also prevents darkness,\" would it not be the case then that the fire present here right now will similarly prevent that unconnected darkness located in all worlds? But this is not what we observe.",
+          "observable_teaching_actions": [
+            "reiterates_reductio",
+            "appeals_to_observation"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Driving the point home by contrasting the logical consequence with observable reality.",
+          "function_id": "UM_02",
+          "classification_evidence": "Internal contradiction: Your theory predicts X (universal light), but we observe Not-X (darkness exists).",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_02",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "abstract_to_concrete_check",
+          "mechanism_comment": "Checking the theory against observable darkness.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "The Realist argues for action-at-a-distance (fire destroys darkness without touching it). Nagarjuna pushes this to its limit: if contact isn't needed, a single fire should illuminate the entire universe. Absurdity follows.",
+      "episode_insights": {
+        "key_pattern": "Universalization (Reductio) → Empirical Check",
+        "notes": [
+          "Destroys 'magical' causality by demanding consistent application of physics.",
+          "If a rule applies 'here' without condition, it applies 'everywhere'."
+        ]
+      }
+    },
+    {
+      "episode_id": "dispeller_v55_ethical_inversion",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          "text": "If the substance of the auspicious things was not produced in dependence on anything, there would be no religious practice. There would be neither right nor wrong nor worldly conventions.",
+          "observable_student_behaviors": [
+            "appeals_to_consequence",
+            "warns_of_nihilism"
+          ],
+          "behavior_tags": [
+            "ethical_foundation",
+            "fear_of_nihilism",
+            "moral_blackmail"
+          ],
+          "inferred_state": {
+            "reading": "moral_indignation",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Nagarjuna",
+          "text": "They would be permanent and substantial; because they are permanent they are acausal. While there is no cause there is no arising, remaining, and decay.",
+          "observable_teaching_actions": [
+            "analyzes_premise",
+            "links_substance_to_stasis"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Showing that the student's solution (Substance) actually creates the problem (Permanence/Stasis).",
+          "function_id": "UM_02",
+          "classification_evidence": "Contradiction exposure: You say Substance saves ethics, but Substance implies Permanence, which kills change (ethics).",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "false_paradox"
+          ],
+          "trap_notes": [
+            "Student thinks Substance = Stability, but Logic shows Substance = Stasis."
+          ],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Substance -> Permanence -> No Change.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Nagarjuna",
+          "text": "In this context, the non-existence of religious practice would follow exactly. And there is a contradiction with your own position. Why? Because the Blessed One said that all compounded things are impermanent.",
+          "observable_teaching_actions": [
+            "inverts_charge",
+            "cites_authority_contradiction"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Flipping the accusation: The Realist is the one who destroys religious practice, not the Madhyamika.",
+          "function_id": "UM_02",
+          "classification_evidence": "Internal contradiction: Your view contradicts both logic and your own scripture.",
+          "register": {
+            "intensity": "PR_04",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "overreach"
+          ],
+          "trap_notes": [],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Collapses the ethical high ground.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "ethical_inversion",
+            "shape": "charge_reversal",
+            "canonical_candidate": false
+          }
+        }
+      ],
+      "episode_overview": "The Realist accuses Nagarjuna of destroying ethics by denying Substance. Nagarjuna counters that Substance implies permanence (stasis), which makes ethical change impossible. Thus, it is the Realist who destroys ethics.",
+      "episode_insights": {
+        "key_pattern": "Consequence Analysis (Substance = Stasis) → Charge Reversal (Tu Quoque)",
+        "notes": [
+          "A powerful move against moral arguments for realism.",
+          "Shows that 'Change' (impermanence) is required for 'Improvement' (ethics)."
+        ]
+      }
+    }
+  ]
+}
+
+
+{
+  "episodes": [
+    {
+      "episode_id": "dispeller_v35_symmetry_breaker",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          "text": "As fire illuminates itself as well as others, so the epistemic instruments prove themselves and others.",
+          "observable_student_behaviors": [
+            "uses_analogy",
+            "asserts_reflexivity"
+          ],
+          "behavior_tags": [
+            "analogical_reasoning",
+            "self_validation"
+          ],
+          "inferred_state": {
+            "reading": "confident_analogy",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Nagarjuna",
+          "text": "If, according to your assertion, fire illuminates itself like others, is it not also the case that fire consumes itself?",
+          "observable_teaching_actions": [
+            "extends_analogy",
+            "exposes_absurdity"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Applying the logic of the analogy (reflexivity) to another property of the object (burning) to show absurdity.",
+          "function_id": "UM_03",
+          "classification_evidence": "Reductio extension: If Fire acts on itself (illuminates), it must act on itself fully (burn).",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "category_conflation"
+          ],
+          "trap_notes": [
+            "Student conflates 'illumination' with 'proof' without seeing the physical implications."
+          ],
+          "mechanism_shape": "structural_analogy",
+          "mechanism_comment": "Fire burning itself.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "analogy_stress_test",
+            "shape": "apply_logic_to_destructive_property",
+            "canonical_candidate": false
+          }
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Nagarjuna",
+          "text": "If, according to your assertion, fire illuminates both itself and others, darkness will conceal both itself and others, in the same way as fire.",
+          "observable_teaching_actions": [
+            "inverts_analogy",
+            "demands_symmetry"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Using the opposite (Darkness) to test the symmetry of the claim.",
+          "function_id": "UM_02",
+          "classification_evidence": "Internal contradiction: If Light reveals itself, Darkness must hide itself. Since we see Darkness, the symmetry breaks.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "comparison",
+          "mechanism_comment": "Light vs Darkness symmetry.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "The Realist uses the analogy of fire (self-illuminating) to prove self-validating knowledge. Nagarjuna breaks the analogy by demanding consistency: if fire acts on itself, it must burn itself; and darkness must conceal itself.",
+      "episode_insights": {
+        "key_pattern": "Analogy Extension (Burning) → Symmetry Check (Darkness)",
+        "notes": [
+          "Attacks the metaphor directly.",
+          "Forces the user to accept the destructive consequences of their own analogy."
+        ]
+      }
+    },
+    {
+      "episode_id": "dispeller_v22_functional_void",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          "text": "A non-existent assertion cannot negate the substance of all things.",
+          "observable_student_behaviors": [
+            "denies_function_to_void",
+            "asserts_realism_requirement"
+          ],
+          "behavior_tags": [
+            "naive_realism",
+            "functional_necessity"
+          ],
+          "inferred_state": {
+            "reading": "common_sense_objection",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Nagarjuna",
+          "text": "For instance a chariot, pot, cloth, and so forth, which are empty of substance because they are dependently originated, perform in their respective ways by removing wood, grass, earth, by containing honey, water, or milk.",
+          "observable_teaching_actions": [
+            "cites_counter_examples",
+            "redefines_function"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Establishing a new model where 'Function' relies on 'Emptiness/Dependence', not 'Substance'.",
+          "function_id": "RM_01",
+          "classification_evidence": "Structural mapping: Showing that everyday functional objects (pots) fit the 'empty' category, not the 'substantial' one.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "realism_trap"
+          ],
+          "trap_notes": [
+            "Student assumes only 'Real' things work."
+          ],
+          "mechanism_shape": "abstract_to_concrete_check",
+          "mechanism_comment": "Pots work *because* they are empty.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "functional_emptiness",
+            "shape": "utility_proof",
+            "canonical_candidate": true
+          }
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Nagarjuna",
+          "text": "Similarly my speech, which is also without substance because it is dependently arisen, plays a part in establishing the lack of substance of things.",
+          "observable_teaching_actions": [
+            "maps_example_to_speech",
+            "validates_empty_speech"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Applying the Pot/Chariot logic to Speech.",
+          "function_id": "RM_01",
+          "classification_evidence": "Structural mapping: Speech is a tool like a pot.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "structural_analogy",
+          "mechanism_comment": "Speech = Pot.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "The Realist claims that if Nagarjuna's words are empty, they can't function (refute). Nagarjuna counters that everyday objects like pots function precisely *because* they are empty (dependently arisen), and his speech works the same way.",
+      "episode_insights": {
+        "key_pattern": "Concrete Example (Pots) → Functional Definition → Application to Speech",
+        "notes": [
+          "Crucial move: Emptiness is not inert; it is the basis of function.",
+          "Uses the student's own reliance on the world to prove the emptiness thesis."
+        ]
+      }
+    },
+    {
+      "episode_id": "dispeller_v58_semantic_dilemma",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          "text": "And if there was no substance, there would also not even be the name \"insubstantiality of things,\" for there is no name without a referent.",
+          "observable_student_behaviors": [
+            "asserts_referential_theory",
+            "claims_linguistic_necessity"
+          ],
+          "behavior_tags": [
+            "semantic_realism",
+            "word_object_bond"
+          ],
+          "inferred_state": {
+            "reading": "linguistic_trap_setting",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Nagarjuna",
+          "text": "The name \"non-existent\"—what is this, something existent or again something non-existent? For if it is existent or if it is nonexistent, either way your position is deficient.",
+          "observable_teaching_actions": [
+            "poses_dilemma",
+            "interrogates_name"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Turning the linguistic trap back on the user by analyzing the status of the negative name itself.",
+          "function_id": "UM_01",
+          "classification_evidence": "Definition forcing / Collapse: Asking for the ontological status of the name 'non-existent'.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "semantic_fog"
+          ],
+          "trap_notes": [
+            "Student assumes words must point to things."
+          ],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "The name itself breaks the rule.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Nagarjuna",
+          "text": "If in this context the name \"non-existent\" is the name of an existent, to that extent the thesis is abandoned. Moreover, if the name \"non-existent\" is the name of a non-existent—there is no name of something which does not exist.",
+          "observable_teaching_actions": [
+            "closes_dilemma",
+            "demonstrates_failure"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Closing the trap: If the name refers to something real, the meaning is lost. If it refers to nothing, the rule (names have referents) is broken.",
+          "function_id": "UM_02",
+          "classification_evidence": "Internal contradiction: The existence of the name 'non-existent' contradicts the realist theory of naming.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Collapse of Referential Theory.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "semantic_dilemma",
+            "shape": "negative_existential_paradox",
+            "canonical_candidate": false
+          }
+        }
+      ],
+      "episode_overview": "The Realist argues that words must have referents, so 'Insubstantiality' must refer to something real. Nagarjuna traps them with the word 'Non-existent'—does it refer to an existent (contradiction) or a non-existent (breaking the rule)?",
+      "episode_insights": {
+        "key_pattern": "Semantic Dilemma (Name of Nothing)",
+        "notes": [
+          "Uses the paradox of negative existentials to break semantic realism.",
+          "Forces the user to abandon the 'Word = Thing' model."
+        ]
+      }
+    },
+    {
+      "episode_id": "dispeller_v69_temporal_pincer",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          "text": "Supposing that the negation is earlier, and the negated later fails to be successful. And being later and being simultaneous fail to be successful. Therefore substance exists.",
+          "observable_teaching_actions": [
+            "analyzes_time",
+            "asserts_impossibility"
+          ],
+          "behavior_tags": [
+            "temporal_logic",
+            "causal_analysis"
+          ],
+          "inferred_state": {
+            "reading": "logical_triumph",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Nagarjuna",
+          "text": "Because the case is the same, the difficulty of the reason in the three times has already been answered by this.",
+          "observable_teaching_actions": [
+            "mirrors_argument",
+            "claims_equality"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Applying the student's own temporal critique back to their assertion.",
+          "function_id": "UM_02",
+          "classification_evidence": "Internal contradiction / Tu Quoque: 'The difficulty applies to you too'.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "false_paradox"
+          ],
+          "trap_notes": [
+            "Student uses a weapon that kills their own position."
+          ],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Temporal constraint kills assertion too.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Nagarjuna",
+          "text": "As far as according to your statement the negation is not achieved in the three times, the object of negation is like the negation. The very reason of the assertion of the negation of the three times is obtained by the proponents of emptiness, and not by you.",
+          "observable_teaching_actions": [
+            "appropriates_reason",
+            "reverses_victory"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Showing that the failure of causality in time supports Emptiness (no production), not Realism.",
+          "function_id": "UM_02",
+          "classification_evidence": "Internal contradiction: The student's argument (time kills causality) proves the teacher's point (Emptiness).",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "subject_object_inversion",
+          "mechanism_comment": "The argument flips ownership.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "temporal_pincer",
+            "shape": "three_times_reversal",
+            "canonical_candidate": true
+          }
+        }
+      ],
+      "episode_overview": "The Realist argues that negation can't work because it can't exist before, after, or simultaneously with the object. Nagarjuna points out that if this temporal logic holds, *Assertion* (Substance) can't work either. The argument proves Emptiness, not Substance.",
+      "episode_insights": {
+        "key_pattern": "Temporal Scan (Three Times) → Tu Quoque Reversal",
+        "notes": [
+          "If time makes causality impossible, the Realist loses.",
+          "The 'Three Times' analysis is a standard Madhyamaka solvent."
+        ]
+      }
+    },
+    {
+      "episode_id": "dispeller_v23_counter_illusion",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          "text": "A non-existent assertion cannot negate the substance of all things.",
+          "observable_student_behaviors": [
+            "repeats_objection",
+            "demands_reality"
+          ],
+          "behavior_tags": [
+            "ontological_requirement"
+          ],
+          "inferred_state": {
+            "reading": "stubborn_realism",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Nagarjuna",
+          "text": "Suppose one artificial being were to hinder another artificial being, or an illusory man would hinder one brought about by his own illusionistic power.",
+          "observable_teaching_actions": [
+            "uses_analogy",
+            "introduces_phantom"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Building a model where interaction occurs without substance (Illusion vs Illusion).",
+          "function_id": "RM_01",
+          "classification_evidence": "Structural mapping: Mapping the debate to a magical illusion.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_03",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "realism_trap"
+          ],
+          "trap_notes": [],
+          "mechanism_shape": "structural_analogy",
+          "mechanism_comment": "Phantom Soldier.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "phantom_soldier",
+            "shape": "illusory_counteragent",
+            "canonical_candidate": true
+          }
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Nagarjuna",
+          "text": "In this case the artificial man who is hindered is empty, as is the one who hinders him. Therefore in just the same way the negation of the substance of all things is established by my empty speech.",
+          "observable_teaching_actions": [
+            "maps_analogy",
+            "validates_empty_negation"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Confirming that empty speech can negate empty objects, just as phantom soldiers can fight.",
+          "function_id": "RM_01",
+          "classification_evidence": "Structural mapping: Empty Speech = Phantom Soldier.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "structural_analogy",
+          "mechanism_comment": null,
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "The Realist insists that an empty assertion cannot negate a real substance. Nagarjuna uses the analogy of a magical illusion (an artificial man stopping another artificial man) to show that empty agents can interact with empty objects.",
+      "episode_insights": {
+        "key_pattern": "Phantom Soldier Analogy (Remaking)",
+        "notes": [
+          "A key Madhyamaka pedagogical tool.",
+          "Shows that 'Effectiveness' does not require 'Truth' or 'Substance'."
+        ]
+      }
+    }
+  ]
+}
+
+{
+  "episodes": [
+    {
+      "episode_id": "dispeller_v2_inequality_trap",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          "text": "If that statement [of yours] exists substantially, your earlier thesis is refuted. There is an inequality to be explained, and the specific reason for this should be given.",
+          "observable_student_behaviors": [
+            "poses_dilemma",
+            "alleges_inconsistency"
+          ],
+          "behavior_tags": [
+            "logical_trap",
+            "charge_of_hypocrisy"
+          ],
+          "inferred_state": {
+            "reading": "gotcha_moment",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Realist",
+          "text": "Moreover, you could think that there should not be this mistake by arguing, \"This statement exists substantially and because it is a substance it is not empty. Therefore it negates the substance of all things.\" We say in reply: If it is like this, your earlier thesis that all things are empty is refuted.",
+          "observable_student_behaviors": [
+            "anticipates_defense",
+            "closes_loophole"
+          ],
+          "behavior_tags": [
+            "thorough_argumentation"
+          ],
+          "inferred_state": {
+            "reading": "confident_encirclement",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 3,
+          "speaker": "Nagarjuna",
+          "text": "This speech does not exist substantially, therefore there is no destruction of my position. There is no inequality, and no particular reason to be mentioned.",
+          "observable_teaching_actions": [
+            "denies_premise",
+            "accepts_emptiness_of_tool"
+          ],
+          "phase": "META",
+          "phase_reason": "Clarifying the ontological status of the discourse itself (the tool).",
+          "function_id": "ME_03",
+          "classification_evidence": "Method explanation: Stating that the speech itself is empty, thus avoiding the inequality trap.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_02",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "false_paradox"
+          ],
+          "trap_notes": [
+            "Student assumes the tool must be real to destroy the real."
+          ],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Collapses the requirement for substantial speech.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "META",
+              "to": "META"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nagarjuna",
+          "text": "As far as my speech is empty and all the other things are also empty, there is no inequality. If we say \"this speech is not empty, yet all the other things are empty,\" there would be an inequality. But it is not like this.",
+          "observable_teaching_actions": [
+            "demonstrates_consistency",
+            "levels_playing_field"
+          ],
+          "phase": "META",
+          "phase_reason": "Further explaining the consistency of the method: tool and object are both empty.",
+          "function_id": "ME_03",
+          "classification_evidence": "Method explanation: 'My speech is empty... so no inequality'.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_02",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "comparison",
+          "mechanism_comment": "Equality of emptiness between Subject and Object.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "META",
+              "to": "META"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "The Realist sets a trap: if Nagarjuna's words are real, his thesis (all is empty) is false; if they are empty, they can't function. Nagarjuna escapes by admitting his words are empty, which ensures consistency rather than inequality.",
+      "episode_insights": {
+        "key_pattern": "Self-Emptying Tool (Meta) → Consistency Check",
+        "notes": [
+          "Key methodological point: The tool of negation is subject to the same laws as the object of negation.",
+          "Avoids special pleading."
+        ]
+      }
+    },
+    {
+      "episode_id": "dispeller_v11_physical_substrate",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          "text": "Because your assertion does not exist in the cause: it does not exist in the great elements collectively or individually.",
+          "observable_student_behaviors": [
+            "analyzes_components",
+            "applies_reductionism"
+          ],
+          "behavior_tags": [
+            "materialist_reduction",
+            "component_analysis"
+          ],
+          "inferred_state": {
+            "reading": "analytical_deconstruction",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Realist",
+          "text": "It does also not exist in the conditions which are the action of the chest, the throat, the lips, the tongue, the root of the teeth, the palate, the nose, the head and so forth.",
+          "observable_student_behaviors": [
+            "lists_body_parts",
+            "searches_for_essence"
+          ],
+          "behavior_tags": [
+            "anatomical_analysis"
+          ],
+          "inferred_state": {
+            "reading": "thorough_search",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Realist",
+          "text": "Since it does not exist anywhere among these, it is without substance. Since it is without substance, it is empty. For this reason it is impossible that it dispels the substance of all things.",
+          "observable_student_behaviors": [
+            "concludes_nonexistence",
+            "denies_efficacy"
+          ],
+          "behavior_tags": [
+            "realist_assumption"
+          ],
+          "inferred_state": {
+            "reading": "logical_triumph",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 4,
+          "speaker": "Nagarjuna",
+          "text": "If my speech is not in the combination of causes and conditions and also not distinct from them, is it not the case that emptiness is established because of the absence of the substance of things?",
+          "observable_teaching_actions": [
+            "accepts_premise",
+            "flips_conclusion"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Using the student's own reductionist analysis to prove the emptiness thesis.",
+          "function_id": "UM_02",
+          "classification_evidence": "Internal contradiction / Judo: You proved 'no substance', which is exactly my point ('Emptiness is established').",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "false_paradox"
+          ],
+          "trap_notes": [
+            "Student thinks 'No Substance' = 'Failure'. Teacher shows 'No Substance' = 'Emptiness'."
+          ],
+          "mechanism_shape": "subject_object_inversion",
+          "mechanism_comment": "The attack becomes the proof.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Nagarjuna",
+          "text": "Thus is it not the case that the emptiness of my speech is established because of its lack of substance? And as the speech of mine is empty because of the lack of substance, so all things are empty as well.",
+          "observable_teaching_actions": [
+            "generalizes_insight",
+            "confirms_universal_emptiness"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Generalizing from the specific example (speech) to the universal rule (all things).",
+          "function_id": "RM_02",
+          "classification_evidence": "Example instantiation: Speech serves as the proving ground for the universal law.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "structural_analogy",
+          "mechanism_comment": "Speech as microcosm of the world.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "The Realist tries to debunk Nagarjuna's speech by showing it can't be found in the teeth, lips, or throat. Nagarjuna accepts this analysis completely, pointing out that this 'unfindability' is exactly what Emptiness means, thus proving his own thesis using the Realist's argument.",
+      "episode_insights": {
+        "key_pattern": "Reductionist Acceptance (Judo Flip) → Universal Application",
+        "notes": [
+          "Nagarjuna doesn't fight the materialist reduction; he uses it.",
+          "Shows that 'lack of finding' is 'finding of lack'."
+        ]
+      }
+    },
+    {
+      "episode_id": "dispeller_v11_pot_in_house",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          "text": "To the extent to which the negation \"there is no pot in the house\" is precisely a negation of an existent, your negation is a negation of an existing substance.",
+          "observable_student_behaviors": [
+            "uses_analogy",
+            "asserts_presupposition"
+          ],
+          "behavior_tags": [
+            "presupposition_of_existence",
+            "negation_logic"
+          ],
+          "inferred_state": {
+            "reading": "logical_entrapment",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Realist",
+          "text": "Thus the statement \"there is no pot in the house\" brings about the negation of an existent, not of a non-existent pot. Just in this way, the statement \"there is no substance of things\" achieves the negation of an existent substance.",
+          "observable_student_behaviors": [
+            "applies_analogy",
+            "concludes_existence"
+          ],
+          "behavior_tags": [
+            "logical_inference"
+          ],
+          "inferred_state": {
+            "reading": "confident_deduction",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 3,
+          "speaker": "Nagarjuna",
+          "text": "If negation is of an existent thing, is it not that emptiness is established? Because you negate the insubstantiality of things.",
+          "observable_teaching_actions": [
+            "reverses_logic",
+            "traps_opponent"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Turning the student's logic against them: If negation implies existence, then the Realist's negation of 'Insubstantiality' implies the existence of 'Insubstantiality'.",
+          "function_id": "UM_02",
+          "classification_evidence": "Internal contradiction / Tu Quoque: You claim negation proves existence; you negate my emptiness; therefore you prove my emptiness.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "false_paradox"
+          ],
+          "trap_notes": [
+            "Student's rule backfires."
+          ],
+          "mechanism_shape": "feedback",
+          "mechanism_comment": "The negation feeds back to validate the target.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nagarjuna",
+          "text": "If negation is of an existent thing and not of a non-existent one, and if you negate the insubstantiality of all things, is it not that the insubstantiality of all things is established? Your speech, which is a negation, establishes emptiness because it is the negation of the insubstantiality of all things.",
+          "observable_teaching_actions": [
+            "seals_trap",
+            "confirms_proof"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Closing the logical loop.",
+          "function_id": "UM_02",
+          "classification_evidence": "Internal contradiction: Re-stating the self-defeat of the Realist's argument.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "The Realist's negation collapses into proof of Emptiness.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "The Realist argues that to negate something (like a pot), the thing must first exist. Therefore, to negate Substance, Substance must exist. Nagarjuna counters that since the Realist is negating 'Insubstantiality', by their own logic, 'Insubstantiality' must exist.",
+      "episode_insights": {
+        "key_pattern": "Logical Reversal (Tu Quoque) → Existence of Negation",
+        "notes": [
+          "A perfect logical judo throw.",
+          "Uses the opponent's meta-rule (Negation requires Existence) to prove the opponent's defeat."
+        ]
+      }
+    },
+    {
+      "episode_id": "dispeller_v64_devadatta_protocol",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          "text": "Now as this substance does not exist, what is negated by that statement of yours? For the negation of a non-existent is accomplished without words.",
+          "observable_teaching_actions": [
+            "challenges_utility",
+            "claims_redundancy"
+          ],
+          "behavior_tags": [
+            "pragmatic_challenge",
+            "redundancy_argument"
+          ],
+          "inferred_state": {
+            "reading": "skeptical_challenge",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Nagarjuna",
+          "text": "Regarding your assertion that \"expressing the negation of a nonexistent object is accomplished without speech\": in our case speech makes the non-existent known, it does not refute it.",
+          "observable_teaching_actions": [
+            "clarifies_function",
+            "distinguishes_destruction_from_reporting"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Redefining the function of Madhyamaka speech: Not destructive (ontology), but informative (epistemology).",
+          "function_id": "RM_03",
+          "classification_evidence": "Conceptual distinction: Difference between 'refuting' (destroying) and 'making known'.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_02",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "category_conflation"
+          ],
+          "trap_notes": [
+            "Student conflates 'speech' with 'causal force'."
+          ],
+          "mechanism_shape": "none",
+          "mechanism_comment": "Distinction.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Nagarjuna",
+          "text": "In the same way, suppose someone said, while Devadatta is absent from the house, \"Devadatta is in the house,\" and someone would reply, \"he is not.\" That statement does not bring about the non-existence of Devadatta, but it only makes the absence of Devadatta in the house known.",
+          "observable_teaching_actions": [
+            "uses_analogy",
+            "illustrates_function"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Using the Devadatta analogy to make the distinction concrete.",
+          "function_id": "RM_01",
+          "classification_evidence": "Structural mapping: 'No Self' doctrine = 'Devadatta is out'.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_03",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "structural_analogy",
+          "mechanism_comment": "Absence reporting.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "epistemic_reporting",
+            "shape": "devadatta_protocol",
+            "canonical_candidate": true
+          }
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nagarjuna",
+          "text": "Likewise, that statement \"there is no substance of things\" does not bring about the insubstantiality of things, nevertheless it makes the absence of substance in all things known.",
+          "observable_teaching_actions": [
+            "applies_analogy",
+            "finalizes_definition"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Applying the analogy to the central thesis.",
+          "function_id": "RM_01",
+          "classification_evidence": "Structural mapping: Confirming speech acts as a notification, not a weapon.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "none",
+          "mechanism_comment": null,
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "The Realist argues that if things are already empty, saying so is redundant or impossible. Nagarjuna explains that his speech doesn't *make* things empty (destroy them), but simply *reports* their emptiness, like telling someone 'Devadatta is not home'.",
+      "episode_insights": {
+        "key_pattern": "Epistemic Reporting vs Ontological Destruction",
+        "notes": [
+          "Clarifies that the Madhyamaka project is about 'noticing', not 'doing'.",
+          "The 'Devadatta' analogy is a key canonical move for explaining the function of negative statements."
+        ]
+      }
+    },
+    {
+      "episode_id": "dispeller_v20_horns_of_cow",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          "text": "Supposing that the negation is earlier, and the negated later fails to be successful. And being later and being simultaneous fail to be successful. Therefore substance exists.",
+          "observable_student_behaviors": [
+            "poses_temporal_trilemma",
+            "claims_impossibility"
+          ],
+          "behavior_tags": [
+            "temporal_logic",
+            "causal_analysis"
+          ],
+          "inferred_state": {
+            "reading": "logical_blockade",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Nagarjuna",
+          "text": "If we suppose that the negation and the object of negation are simultaneous, then the negation is not the cause of the object to be negated and the object of negation is not the cause of the negation.",
+          "observable_teaching_actions": [
+            "analyzes_simultaneity",
+            "denies_causality"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Dismantling the 'Simultaneous' option of the trilemma.",
+          "function_id": "UM_02",
+          "classification_evidence": "Internal contradiction: Simultaneity contradicts Causality (Cause must precede Effect).",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Breaking the causal link.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Nagarjuna",
+          "text": "In the same way, considering the two horns of a cow, which have arisen simultaneously, it is clearly not the case that the right one is the cause of the left or the left the cause of the right.",
+          "observable_teaching_actions": [
+            "uses_analogy",
+            "illustrates_acausality"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Using the Cow Horns analogy to make the lack of causality intuitive.",
+          "function_id": "UM_03",
+          "classification_evidence": "Reductio / Analogy: If simultaneous things caused each other, cow horns would cause each other. Absurd.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_03",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "category_conflation"
+          ],
+          "trap_notes": [
+            "Student conflates 'correlation' (arising together) with 'causation'."
+          ],
+          "mechanism_shape": "structural_analogy",
+          "mechanism_comment": "Cow Horns.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "simultaneity_reductio",
+            "shape": "cow_horns_analogy",
+            "canonical_candidate": true
+          }
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nagarjuna",
+          "text": "In this context, the statement \"all things are without substance\" is not tenable [if relying on simultaneous causality].",
+          "observable_teaching_actions": [
+            "closes_argument"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Concluding that simultaneous establishment is impossible.",
+          "function_id": "UM_02",
+          "classification_evidence": "Internal contradiction: Confirming the student's premise (Simultaneity fails) to block that route.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "none",
+          "mechanism_comment": null,
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "The Realist demands a temporal explanation for negation. Nagarjuna addresses the 'Simultaneous' option, using the 'Cow's Horns' analogy to prove that two things arising at the same time cannot cause one another, thus blocking that escape route.",
+      "episode_insights": {
+        "key_pattern": "Causal Analysis (Simultaneity) → Analogy (Cow Horns)",
+        "notes": [
+          "A specific tool for breaking 'Co-arising = Causality' errors.",
+          "Simple, visual analogy destroys complex abstract claim."
+        ]
+      }
+    }
+  ]
+}
+
+
+{
+  "episodes": [
+    {
+      "episode_id": "dispeller_v18_unestablished_reason",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          "text": "Your reason is not established. Because there is no substance, where then does your reason come from? Moreover, no matter is established without a reason.",
+          "observable_student_behaviors": [
+            "demands_foundation",
+            "accuses_baselessness"
+          ],
+          "behavior_tags": [
+            "foundationalism",
+            "logical_requirement"
+          ],
+          "inferred_state": {
+            "reading": "logical_challenge",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Realist",
+          "text": "And if the denial of substance is established for you without a reason, the existence of substantiality is also established for me without a reason.",
+          "observable_teaching_actions": [],
+          "observable_student_behaviors": [
+            "asserts_equivalence",
+            "claims_victory"
+          ],
+          "behavior_tags": [
+            "tu_quoque",
+            "symmetry_argument"
+          ],
+          "inferred_state": {
+            "reading": "confident_stalemate",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 3,
+          "speaker": "Nagarjuna",
+          "text": "If I had any thesis, that fault would apply to me. But I do not have any thesis.",
+          "observable_teaching_actions": [
+            "refuses_thesis",
+            "rejects_burden"
+          ],
+          "phase": "META",
+          "phase_reason": "Stepping out of the logical requirement by denying the possession of a position to be proved.",
+          "function_id": "ME_03",
+          "classification_evidence": "Method explanation: The method works because it asserts nothing.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_04",
+            "meta_mode": "MM_02",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "ego_defense"
+          ],
+          "trap_notes": [
+            "Student expects a fight between two theses."
+          ],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Collapse of the Thesis/Reason structure.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "META",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nagarjuna",
+          "text": "Alternatively: Because the case is the same, the difficulty of the absence of the reason has already been answered. If you think \"The insubstantiality of things is established without reason,\" then as far as the denial of substance is established for me without a reason, so far the existence of substance is also established for you without a reason.",
+          "observable_teaching_actions": [
+            "accepts_equivalence",
+            "demonstrates_asymmetry_of_consequence"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Accepting the student's 'stalemate' logic to show it destroys the Realist (who needs reasons) but saves the Madhyamika (who needs none).",
+          "function_id": "UM_02",
+          "classification_evidence": "Internal contradiction / Tu Quoque: If no reasons work, Realism fails (needs proof), but Emptiness stands (needs no proof).",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "system_dynamics",
+          "mechanism_comment": "The Leveling Field favors the one with less baggage.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "leveling_field",
+            "shape": "mutual_destruction_favors_void",
+            "canonical_candidate": true
+          }
+        }
+      ],
+      "episode_overview": "The Realist argues that if Nagarjuna has no reason (proof), his argument fails. Nagarjuna replies that (1) he has no thesis to prove, and (2) if reasons are abandoned, the Realist (who claims existence) loses more than the Madhyamika (who claims nothing).",
+      "episode_insights": {
+        "key_pattern": "No Thesis Stance (Meta) → Leveling Field (Unmaking)",
+        "notes": [
+          "If the rules of logic break, the one asserting 'Nothing' wins by default.",
+          "Demonstrates asymmetry in debate: Construction needs foundations; Destruction does not."
+        ]
+      }
+    },
+    {
+      "episode_id": "dispeller_v53_laundry_list_attack",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          "text": "People who know the state of things think that auspicious phenomena have an auspicious substance. Thus the following are auspicious: cognition, feeling, discrimination, volition, touch, attention, aspiration, devotion, effort, memory... [list of 119 items].",
+          "observable_student_behaviors": [
+            "lists_examples",
+            "appeals_to_authority",
+            "floods_channel"
+          ],
+          "behavior_tags": [
+            "gish_gallop",
+            "empirical_listing",
+            "argument_by_quantity"
+          ],
+          "inferred_state": {
+            "reading": "overwhelming_evidence",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Nagarjuna",
+          "text": "If people who know the state of things speak of the auspicious things, the auspicious substance should be expressed in terms of a detailed division.",
+          "observable_teaching_actions": [
+            "acknowledges_list",
+            "prepares_pivot"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Setting up the counter-argument by acknowledging the domain (auspicious things).",
+          "function_id": "UM_01",
+          "classification_evidence": "Definition forcing (Implicit): Asking to look closely at the nature of these divided things.",
+          "register": {
+            "intensity": "PR_01",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "none",
+          "mechanism_comment": "Setup.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Nagarjuna",
+          "text": "And if the auspicious substance is produced based on conditions, how is this extrinsic nature of the auspicious things in fact a substance?",
+          "observable_teaching_actions": [
+            "identifies_dependency",
+            "refutes_substance"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Attacking the core definition: If they are produced (conditioned), they cannot be Substance (which implies independence).",
+          "function_id": "UM_01",
+          "classification_evidence": "Definition collapse: 'Substance' and 'Produced' are mutually exclusive definitions.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "category_conflation"
+          ],
+          "trap_notes": [
+            "Student conflates 'Exist' with 'Substance'."
+          ],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Production kills Substance.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "universal_solvent",
+            "shape": "conditioned_origin_refutes_substance",
+            "canonical_candidate": true
+          }
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nagarjuna",
+          "text": "If the substance of the auspicious things was not produced in dependence on anything, there would be no religious practice.",
+          "observable_teaching_actions": [
+            "shows_consequence",
+            "links_to_ethics"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Linking the metaphysical claim (Substance) to the destruction of practice.",
+          "function_id": "UM_03",
+          "classification_evidence": "Reductio extension: If Substance existed, practice (change) would be impossible.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Substance -> No Practice.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "The Realist lists 119 virtuous items to prove substance exists. Nagarjuna ignores the quantity and attacks the shared quality: if they are produced/conditioned, they aren't substance. If they were substance, they couldn't be produced, and religious practice would be impossible.",
+      "episode_insights": {
+        "key_pattern": "Laundry List Attack (Universal Solvent) → Consequence Mapping",
+        "notes": [
+          "Defeats complexity (119 items) with a single structural flaw (Conditionality).",
+          "Reaffirms that 'Production' is the enemy of 'Substance'."
+        ]
+      }
+    },
+    {
+      "episode_id": "dispeller_v67_mirage_irreversibility",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          "text": "As ignorant people wrongly perceive water in a mirage, in the same way there would be a wrong perception for you in this case, for a non-existent object is negated.",
+          "observable_student_behaviors": [
+            "uses_analogy",
+            "asserts_error_structure"
+          ],
+          "behavior_tags": [
+            "epistemic_error",
+            "analogy_of_illusion"
+          ],
+          "inferred_state": {
+            "reading": "confident_analogy",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Realist",
+          "text": "Yet, while it exists in this way, there are these six things: the perception, the perceived, and the perceiver of that object; the negation, the object of negation, and the negator.",
+          "observable_student_behaviors": [
+            "lists_requirements",
+            "asserts_ontological_necessity"
+          ],
+          "behavior_tags": [
+            "systemic_necessity"
+          ],
+          "inferred_state": {
+            "reading": "system_building",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 3,
+          "speaker": "Nagarjuna",
+          "text": "If perception existed substantially, who would remove the perception?",
+          "observable_teaching_actions": [
+            "poses_rhetorical_question",
+            "challenges_permanence"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Questioning the possibility of error correction if perception is substantial (fixed).",
+          "function_id": "UM_06",
+          "classification_evidence": "Constraint removal: Removing the assumption that 'Real' = 'Functional'. If Real, it can't change.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "false_paradox"
+          ],
+          "trap_notes": [
+            "Student thinks Reality is needed for perception; Teacher shows Reality prevents correction."
+          ],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Substance -> Irremovability.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nagarjuna",
+          "text": "If the perception of water in the mirage existed substantially, who exactly would remove it? This is because substance, like the heat of fire, the wetness of water, the spaciousness of space, cannot be removed. But its removal is perceived. So far perception is empty of substance.",
+          "observable_teaching_actions": [
+            "demonstrates_mutability",
+            "proves_emptiness"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Establishing the connection between 'Mutability' (ability to be removed) and 'Emptiness'.",
+          "function_id": "RM_02",
+          "classification_evidence": "Causal chain mapping / Example: Mirage removal implies emptiness.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_03",
+            "phenomenological_depth": "PD_02",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "abstract_to_concrete_check",
+          "mechanism_comment": "We observe removal; therefore substance is false.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "epistemic_mutability",
+            "shape": "change_proves_emptiness",
+            "canonical_candidate": true
+          }
+        }
+      ],
+      "episode_overview": "The Realist claims that for a mirage (illusion) to exist, the perception of it must be real. Nagarjuna counters that if perception were real (substantial), it would be unchangeable and thus the illusion could never be corrected. The fact that we can correct errors proves perception is empty.",
+      "episode_insights": {
+        "key_pattern": "Mutability Check → Substance Negation",
+        "notes": [
+          "If it can change/be removed, it isn't Substance.",
+          "Learning requires Emptiness."
+        ]
+      }
+    },
+    {
+      "episode_id": "dispeller_v57_nominalism_trap",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          "text": "And if there was no substance, there would also not even be the name \"insubstantiality of things,\" for there is no name without a referent.",
+          "observable_student_behaviors": [
+            "asserts_semantic_necessity",
+            "traps_via_language"
+          ],
+          "behavior_tags": [
+            "linguistic_realism",
+            "referential_theory"
+          ],
+          "inferred_state": {
+            "reading": "linguistic_entrapment",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Nagarjuna",
+          "text": "Where someone said \"a name has a referent,\" one would say \"then substance exists.\" You have to reply \"we do not assert a name of this kind.\"",
+          "observable_teaching_actions": [
+            "denies_assertion",
+            "refuses_referential_theory"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Rejecting the underlying theory of language (names must point to substances).",
+          "function_id": "UM_06",
+          "classification_evidence": "Constraint removal: Rejecting the constraint that 'Name' implies 'Referent'.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "semantic_fog"
+          ],
+          "trap_notes": [
+            "Student believes words carry ontology."
+          ],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Collapse of the name-thing bond.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Nagarjuna",
+          "text": "If there is a referring name of a substance it has to exist due to the substantial referent. However, we do not assert a referring name. This is because a name, too, due to the absence of substance in things, is insubstantial and therefore empty. Because of its emptiness it is non-referring.",
+          "observable_teaching_actions": [
+            "applies_emptiness_to_language",
+            "redefines_naming"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Applying the emptiness thesis to the tool (Language) itself.",
+          "function_id": "UM_05",
+          "classification_evidence": "Ego displacement / Ontological frame upgrade: The 'Name' is empty just like the 'Thing'.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "subject_object_inversion",
+          "mechanism_comment": "The pointer is as empty as the pointed-to.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "recursive_nominalism",
+            "shape": "empty_name_empty_thing",
+            "canonical_candidate": true
+          }
+        }
+      ],
+      "episode_overview": "The Realist traps Nagarjuna: 'If you name it, it exists.' Nagarjuna escapes by applying emptiness to the Name itself. The name 'Insubstantiality' is itself insubstantial and non-referring.",
+      "episode_insights": {
+        "key_pattern": "Recursive Emptiness (Language) → Semantic Disconnection",
+        "notes": [
+          "Applies the solvent to the container (language).",
+          "Breaks the word-world connection."
+        ]
+      }
+    },
+    {
+      "episode_id": "dispeller_v14_six_points_collapse",
+      "source_text": "The Dispeller of Disputes by Nagarjuna",
+      "lineage": "Madhyamaka",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Realist",
+          "text": "While it exists in this way, there are these six things: the perception, the perceived, and the perceiver of that object; the negation, the object of negation, and the negator.",
+          "observable_student_behaviors": [
+            "lists_system_components",
+            "asserts_complexity"
+          ],
+          "behavior_tags": [
+            "systemic_defense",
+            "component_listing"
+          ],
+          "inferred_state": {
+            "reading": "structural_fortification",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Realist",
+          "text": "If there is just no perception, no perceived, and no perceiver, then there is certainly no negation, no object of negation, and no negator. While there is neither negation... all things are established.",
+          "observable_teaching_actions": [],
+          "observable_student_behaviors": [
+            "asserts_dependency",
+            "concludes_reality"
+          ],
+          "behavior_tags": [
+            "interdependence_argument"
+          ],
+          "inferred_state": {
+            "reading": "confident_deduction",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 3,
+          "speaker": "Nagarjuna",
+          "text": "As far as the same pattern applies to the remaining cases this is a non-criticism.",
+          "observable_teaching_actions": [
+            "asserts_pattern_identity",
+            "dismisses_complexity"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Refusing to be overwhelmed by the list; asserting that the logic used on one part applies to all.",
+          "function_id": "UM_01",
+          "classification_evidence": "Definition collapse: Collapsing the specific list into a single pattern.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "none",
+          "mechanism_comment": "Pattern matching.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Nagarjuna",
+          "text": "Similarly, it has to be understood clearly that the same procedure applies to the remaining cases as well, the five beginning with the object perceived. In this context, your statement \"because there is the set of six all things are not empty\" is not tenable.",
+          "observable_teaching_actions": [
+            "generalizes_proof",
+            "collapses_system"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Generalizing the proof of emptiness (from Perception) to the entire 6-part system.",
+          "function_id": "UM_02",
+          "classification_evidence": "Internal contradiction: If Part 1 is empty (proven), and Parts 2-6 depend on Part 1, the Whole is empty.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "system_dynamics",
+          "mechanism_comment": "System collapse via component failure.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "systemic_collapse",
+            "shape": "single_point_failure",
+            "canonical_candidate": true
+          }
+        }
+      ],
+      "episode_overview": "The Realist argues that the complex system of negation (perception, perceiver, perceived, etc.) must be real for negation to occur. Nagarjuna argues that since he has already proven Perception is empty, the entire interdependent system collapses.",
+      "episode_insights": {
+        "key_pattern": "Component Analysis → Generalization → System Collapse",
+        "notes": [
+          "Don't fight the whole army; kill the general (Perception).",
+          "Interdependence means if one part fails, the whole fails."
+        ]
+      }
+    }
+  ]
+}
+

@@ -1,0 +1,3109 @@
+{
+  "episode_id": "ug_mind_myth_batch_1",
+  "source_text": "MIND IS A MYTH",
+  "lineage": "Modern",
+  "student_turns": [
+    {
+      "turn_index": 2,
+      "speaker": "Q",
+      "text": "Well, it certainly cannot be said that your talking gives hope to anyone. Why do you talk if not to console or instruct?",
+      "observable_student_behaviors": [
+        "challenges_purpose",
+        "expects_consolation"
+      ],
+      "behavior_tags": [
+        "role_expectation",
+        "hope_seeking"
+      ],
+      "inferred_state": {
+        "reading": "frustrated_confusion",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Q",
+      "text": "But surely your sitting here and talking hour after hour indicates that you have a philosophy, a message to give, even if it is poorly understood by your listeners.",
+      "observable_student_behaviors": [
+        "infers_intent",
+        "projects_meaning"
+      ],
+      "behavior_tags": [
+        "projection_of_meaning",
+        "teacher_student_model"
+      ],
+      "inferred_state": {
+        "reading": "insistent_rationalization",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 6,
+      "speaker": "Q",
+      "text": "You have mercilessly cut off every possibility of rehabilitation, obliterating even the faint hope of escaping this unhappiness. There seems to be nothing left but self-destruction. Why not suicide?",
+      "observable_student_behaviors": [
+        "states_despair",
+        "proposes_extreme_solution"
+      ],
+      "behavior_tags": [
+        "nihilistic_reaction",
+        "ultimatum"
+      ],
+      "inferred_state": {
+        "reading": "desperate_logic",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 9,
+      "speaker": "Q",
+      "text": "But for many of us life is a sacred thing. We struggle to protect our children, the environment, to avert another war ....",
+      "observable_student_behaviors": [
+        "appeals_to_values",
+        "defends_morality"
+      ],
+      "behavior_tags": [
+        "moral_superiority",
+        "social_concern"
+      ],
+      "inferred_state": {
+        "reading": "righteous_defense",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 11,
+      "speaker": "Q",
+      "text": "Yes, but many of us see all this and nevertheless are interested in changing things. It is not just egoism on our parts.",
+      "observable_student_behaviors": [
+        "defends_intent",
+        "denies_egoism"
+      ],
+      "behavior_tags": [
+        "altruistic_defense"
+      ],
+      "inferred_state": {
+        "reading": "defensive_sincerity",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 13,
+      "speaker": "Q",
+      "text": "So we must become aware of death, making it an object of our meditations, and treating it in such a romantic, mystical way. Is that it?",
+      "observable_student_behaviors": [
+        "summarizes_understanding",
+        "seeks_confirmation"
+      ],
+      "behavior_tags": [
+        "romanticization",
+        "practice_seeking"
+      ],
+      "inferred_state": {
+        "reading": "mystical_interpretation",
+        "confidence": 0.85
+      },
+      "annotator_uncertainty": 0.2
+    },
+    {
+      "turn_index": 15,
+      "speaker": "Q",
+      "text": "It is the act of a person free from self-absorption, neurotic episodes, and self-pity. Is there any way to teach this? Can people be educated to be sane?",
+      "observable_student_behaviors": [
+        "defines_sanity",
+        "asks_for_method"
+      ],
+      "behavior_tags": [
+        "educational_idealism",
+        "solution_seeking"
+      ],
+      "inferred_state": {
+        "reading": "hopeful_inquiry",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 18,
+      "speaker": "Q",
+      "text": "Then why do you talk at all?",
+      "observable_student_behaviors": [
+        "challenges_utility"
+      ],
+      "behavior_tags": [
+        "utility_check"
+      ],
+      "inferred_state": {
+        "reading": "frustrated_logic",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 20,
+      "speaker": "Q",
+      "text": "How does intelligence fit into all this? You seem to indicate that there is a native intelligence that has nothing to do with the accumulation of knowledge and technique.",
+      "observable_student_behaviors": [
+        "asks_theoretical_question",
+        "distinguishes_types"
+      ],
+      "behavior_tags": [
+        "intellectual_synthesis"
+      ],
+      "inferred_state": {
+        "reading": "theoretical_curiosity",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 22,
+      "speaker": "Q",
+      "text": "But still it seem to us that J. Krishnamurti, and perhaps a few others in history, have something to say. J. Krishnamurti appears to be what he claims he is, a free man.",
+      "observable_student_behaviors": [
+        "appeals_to_authority",
+        "cites_example"
+      ],
+      "behavior_tags": [
+        "hero_worship",
+        "authority_reliance"
+      ],
+      "inferred_state": {
+        "reading": "hopeful_projection",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 25,
+      "speaker": "Q",
+      "text": "But computers have no feeling, no psyche, no spiritual dimension. How can you compare ...?",
+      "observable_student_behaviors": [
+        "objects_to_analogy",
+        "defends_spirituality"
+      ],
+      "behavior_tags": [
+        "humanism",
+        "spiritual_defense"
+      ],
+      "inferred_state": {
+        "reading": "offended_sensibility",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    }
+  ],
+  "teacher_turns": [
+    {
+      "turn_index": 1,
+      "speaker": "U.G.",
+      "text": "I can never sit on a platform and talk. It is too artificial. It is a waste of time to sit and discuss things in hypothetical or abstract terms. An angry man does not sit and talk and converse pleasantly about anger; he is too angry. So don't tell me that you are in crisis, that you are angry. Why talk of anger? You live and die in the hope that someday, somehow, you will no longer be angry. You are burdened with hope, and if this life seems hopeless, you invent the next life. There are no lives to come.",
+      "observable_teaching_actions": [
+        "rejects_format",
+        "challenges_premise"
+      ],
+      "phase": "META",
+      "phase_reason": "Deconstructs the setting of the dialogue itself, arguing that discussing anger proves the absence of anger.",
+      "function_id": "ME_03",
+      "classification_evidence": "Method explanation: Explaining why the discussion format is invalid ('too artificial').",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_02",
+        "attunement": "AT_01"
+      },
+      "trap_ids": [
+        "semantic_fog"
+      ],
+      "trap_notes": [
+        "Student uses discussion of anger to avoid being angry."
+      ],
+      "mechanism_shape": "constraint_collapse",
+      "mechanism_comment": "Collapsing the validity of the 'discussion' frame.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 2,
+        "reaction_label": "pushes_back",
+        "evidence": "Why do you talk if not to console or instruct?",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "META",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 3,
+      "speaker": "U.G.",
+      "text": "What am I to do? You come, I talk. Do you want me to criticize you, to throw stones? It is useless, for you are affected by nothing, having erected an impenetrable armor around yourself. You feel nothing. Unable to understand your situation, you react through thought, which is your ideas and mentations. Reaction is thought.",
+      "observable_teaching_actions": [
+        "refuses_role",
+        "diagnoses_numbness"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Refuses the role of teacher/consoler and diagnoses the student's problem as lack of feeling/armor.",
+      "function_id": "UM_05",
+      "classification_evidence": "Ego displacement: Attacking the student's defense mechanism ('impenetrable armor') directly.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_03",
+        "meta_mode": "MM_01",
+        "attunement": "AT_01"
+      },
+      "trap_ids": [
+        "identification_with_content"
+      ],
+      "trap_notes": [
+        "Student identifies with 'thought' as a reaction to numbness."
+      ],
+      "mechanism_shape": "source_tracing",
+      "mechanism_comment": "Tracing reaction back to thought/numbness.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 4,
+        "reaction_label": "elaborates",
+        "evidence": "surely... you have a philosophy, a message to give",
+        "outcome_label": "partial_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "META"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 5,
+      "speaker": "U.G.",
+      "text": "Not at all. There is nobody here talking, giving advice, feeling pain, or experiencing anything at all. Like a ball thrown against the wall, it bounces back, that is all. My talking is the direct result of your question, I have nothing here of my own, no obvious or hidden agenda, no product to sell, no axe to grind, nothing to prove.",
+      "observable_teaching_actions": [
+        "denies_agency",
+        "uses_ball_wall_analogy"
+      ],
+      "phase": "META",
+      "phase_reason": "Defines the teacher's function as purely mechanical reflection, denying agency or intent.",
+      "function_id": "ME_03",
+      "classification_evidence": "Method explanation: Explaining the mechanism of the teacher's speech (reflexive bouncing) vs intentional teaching.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_01",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_02",
+        "attunement": "AT_01"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Teacher = Wall; Question = Ball.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 6,
+        "reaction_label": "elaborates",
+        "evidence": "Why not suicide?",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "META",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 7,
+      "speaker": "U.G.",
+      "text": "If you commit suicide, it does not help the situation in any way. The moment after suicide the body begins to decay, returning back to other, differently organized forms of life, putting an end to nothing. Life has no beginning and no end. A dead and dying body feeds the hungry ants there in the grave, and rotting corpses give off soil-enriching chemicals, which in turn nourish other life forms. You cannot put an end to your life, it is impossible.",
+      "observable_teaching_actions": [
+        "refutes_suicide_utility",
+        "redefines_life_biologically"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Deconstructs suicide not as a moral wrong but as functionally useless because biological life continues.",
+      "function_id": "UM_03",
+      "classification_evidence": "Concrete grounding: Grounding 'life' in the biological reality of decay and recycling, removing the 'self' from the equation.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_01",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_02",
+        "meta_mode": "MM_01",
+        "attunement": "AT_01"
+      },
+      "trap_ids": [
+        "false_paradox"
+      ],
+      "trap_notes": [
+        "Student thinks suicide ends 'life'; U.G. shows life is continuous."
+      ],
+      "mechanism_shape": "causal_chain",
+      "mechanism_comment": "Suicide -> Decay -> Feeding Ants -> Life continues.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 9,
+        "reaction_label": "pushes_back",
+        "evidence": "But for many of us life is a sacred thing.",
+        "outcome_label": "shock",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 8,
+      "speaker": "U.G.",
+      "text": "The body is immortal and never asks silly questions like, \"Is there immortality?\" It knows that it will come to an end in that particular form, only to continue on in others. Questions about life after death are always asked out of fear.",
+      "observable_teaching_actions": [
+        "redefines_immortality",
+        "identifies_fear_source"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Reframes 'immortality' from soul-survival to material recycling.",
+      "function_id": "RM_05",
+      "classification_evidence": "Frame upgrade: Shifting from 'Psychological Immortality' to 'Biological Immortality'.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_01",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_04",
+        "meta_mode": "MM_01",
+        "attunement": "AT_01"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "ontological_frame_upgrade",
+      "mechanism_comment": "Body is the immortal element, not the psyche.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 9,
+        "reaction_label": "pushes_back",
+        "evidence": "But for many of us life is a sacred thing.",
+        "outcome_label": "shock",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 10,
+      "speaker": "U.G.",
+      "text": "You are all neurotic people. You talk against birth control, drone on and on about the preciousness of life, then bomb and massacre. It is too absurd. You are concerned with an unborn life while you are killing thousands and thousands of people by bombing, starvation, poverty and terrorism. Your \"concern\" about life is only to make a political issue out of it. It is just an academic discussion. I am not interested in that.",
+      "observable_teaching_actions": [
+        "attacks_hypocrisy",
+        "labels_student_neurotic"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Aggressively attacks the student's moral posturing as hypocrisy and neurosis.",
+      "function_id": "UM_05",
+      "classification_evidence": "Ego displacement: Directly attacking the moral ego ('neurotic people') and exposing the contradiction in their values.",
+      "register": {
+        "intensity": "PR_04",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_01"
+      },
+      "trap_ids": [
+        "hypocrisy"
+      ],
+      "trap_notes": [
+        "Student claims life is sacred but participates in a killing society."
+      ],
+      "mechanism_shape": "embodied_contradiction",
+      "mechanism_comment": "Talk vs Action.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 11,
+        "reaction_label": "defensive",
+        "evidence": "It is not just egoism on our parts.",
+        "outcome_label": "shock",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "SELF-MAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 12,
+      "speaker": "U.G.",
+      "text": "Are you really interested? Are you interested in the future of mankind? Your expressions of anger, righteousness, and caring have no meaning to me. It is just a ritual. You sit and talk, that's all. You are not at all angry. If you were angry at this moment, you would not ask this question, even to yourself. You sit everlastingly talking of anger. The angry wouldn't talk about it.",
+      "observable_teaching_actions": [
+        "challenges_sincerity",
+        "distinguishes_talk_from_state"
+      ],
+      "phase": "SELF-MAKING",
+      "phase_reason": "Forces the student to confront the falseness of their own concern—'if you were angry, you wouldn't talk.'",
+      "function_id": "SM_04",
+      "classification_evidence": "Commitment clarifier: Testing the reality of the student's emotion against their behavior.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_01"
+      },
+      "trap_ids": [
+        "spiritual_superego"
+      ],
+      "trap_notes": [
+        "Student acts out 'concern' as a ritual."
+      ],
+      "mechanism_shape": "abstract_to_concrete_check",
+      "mechanism_comment": "Checking 'concern' against 'action'.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 13,
+        "reaction_label": "inference_check",
+        "evidence": "So we must become aware of death... Is that it?",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "SELF-MAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 14,
+      "speaker": "U.G.",
+      "text": "To describe that state as a meditative state full of awareness is romantic hogwash. Awareness! What a fantastic gimmick used to fool themselves and others. You can't be aware of every step, you only become self-conscious and awkward if you do. I once knew a man who was a harbor pilot. He had been reading about \"passive awareness\" and attempted to put it into practice. He, for the first time, nearly wrecked the ship he was guiding. Walking is automatic, and if you try to be aware of every step, you will go crazy. So don't invent meditative steps.",
+      "observable_teaching_actions": [
+        "mocks_concept",
+        "uses_harbor_pilot_anecdote"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Debunks the concept of 'awareness' using a practical anecdote showing its destructiveness.",
+      "function_id": "UM_03",
+      "classification_evidence": "Reductio extension: Showing how 'constant awareness' leads to functional failure (wrecking the ship).",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_04",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_01"
+      },
+      "trap_ids": [
+        "conceptual_reification"
+      ],
+      "trap_notes": [
+        "Student treats 'awareness' as a technique to apply."
+      ],
+      "mechanism_shape": "causal_chain",
+      "mechanism_comment": "Awareness -> Self-consciousness -> Dysfunction (Shipwreck).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 15,
+        "reaction_label": "seeks_instruction",
+        "evidence": "Is there any way to teach this? Can people be educated to be sane?",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 16,
+      "speaker": "U.G.",
+      "text": "I don't believe in education. You can teach a technique -- mathematics, auto mechanics, but not integrity. How can you teach them about non-greed and non-ambition in an insanely greedy and ambitious society? You will only succeed in making them more neurotic. Look; you are a cheat. Your religious ambitions are just like the businessman's there. If you can't cheat there is something wrong. How do you think the rich man there got his great wealth? Through lectures about non-greed and selflessness? Not at all. He got it by cheating somebody.",
+      "observable_teaching_actions": [
+        "rejects_education",
+        "insults_student"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Attacks the student directly ('You are a cheat') to break the moral facade.",
+      "function_id": "UM_05",
+      "classification_evidence": "Ego displacement: Identifying the student's 'spiritual' ambition as identical to 'business' cheating.",
+      "register": {
+        "intensity": "PR_04",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_01"
+      },
+      "trap_ids": [
+        "spiritual_superego"
+      ],
+      "trap_notes": [
+        "Student hides greed behind 'spiritual' questions."
+      ],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Religious ambition = Business ambition.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 18,
+        "reaction_label": "pushes_back",
+        "evidence": "Then why do you talk at all?",
+        "outcome_label": "shock",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 17,
+      "speaker": "U.G.",
+      "text": "It is the guilt you have that compels you to talk of non-greed while you continue on with your greedy life. Your non-greed is invented by thought to keep you from facing the fact that greed is all that is there.",
+      "observable_teaching_actions": [
+        "diagnoses_guilt",
+        "defines_virtue_as_defense"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Explains the mechanism of the moral ideal: it is a defense against facing reality (greed).",
+      "function_id": "UM_04",
+      "classification_evidence": "Abstraction strip: Revealing 'non-greed' as a cover-up for 'greed'.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_03",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "ego_defense"
+      ],
+      "trap_notes": [
+        "Virtue is a defense against guilt."
+      ],
+      "mechanism_shape": "source_tracing",
+      "mechanism_comment": "Tracing the ideal of 'non-greed' back to the feeling of guilt.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 18,
+        "reaction_label": "pushes_back",
+        "evidence": "Then why do you talk at all?",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "META"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 19,
+      "speaker": "U.G.",
+      "text": "There is no particular charm in being antisocial. I don't give people what they want. When they realize they will not get what they want here, they invariably go away. ... When people come to talk they find themselves confronted with silence itself. That is why everybody who comes is automatically silent thereafter. If he cannot stand the silence and insists upon talking and discussing things, he will be forced to disagree and walk out. But if you stay long, you will be silenced, not because it is over-persuasive, more rational than you are, but because it is silence itself silencing that movement there. That silence burns everything here.",
+      "observable_teaching_actions": [
+        "explains_interaction",
+        "defines_silence_as_force"
+      ],
+      "phase": "META",
+      "phase_reason": "Reframes the interaction not as 'teaching' but as an energetic silencing/burning process.",
+      "function_id": "ME_03",
+      "classification_evidence": "Method explanation: Explaining that the purpose of the talk is to transmit silence, not ideas.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_04",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "system_dynamics",
+      "mechanism_comment": "Silence burns movement.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 20,
+        "reaction_label": "seeks_instruction",
+        "evidence": "How does intelligence fit into all this?",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "META",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 21,
+      "speaker": "U.G.",
+      "text": "Accepting the limitations is intelligence. You are trying to free yourself from these natural limitations and that is the cause of your sorrow and pain. Your actions are such that one action limits the next action. Your action at this moment is limiting the next action. This action is a reaction. the question of freedom of action does not even arise. Therefore no fatalistic philosophy is needed. The word \"karma\" means an action without a reaction. ... Pure, spontaneous action free of all previous actions is meaningless. The one and only action is the response of this living organism to the stimuli around it.",
+      "observable_teaching_actions": [
+        "redefines_intelligence",
+        "redefines_karma"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Redefines 'intelligence' and 'karma' in purely biological/mechanical terms.",
+      "function_id": "RM_05",
+      "classification_evidence": "Frame upgrade: Shifting from 'Metaphysical Freedom' to 'Biological Response'.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "false_paradox"
+      ],
+      "trap_notes": [
+        "Student seeks 'freedom' from nature."
+      ],
+      "mechanism_shape": "ontological_frame_upgrade",
+      "mechanism_comment": "Intelligence = Limitation; Action = Reaction.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 22,
+        "reaction_label": "elaborates",
+        "evidence": "But still it seem to us that J. Krishnamurti... have something to say.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 23,
+      "speaker": "U.G.",
+      "text": "He has something. I am fond of saying that he has SEEN the sugar cube, but has not TASTED the sugar cube. Whether that man, myself, or any other person is free or not is not your problem; it is the shibboleth of escapist minds, an amusement invented to avoid the real issue, which is your unfreedom. You may be sure of one thing; he who says he is a free man is a phoney.",
+      "observable_teaching_actions": [
+        "uses_sugar_cube_analogy",
+        "attacks_idol_worship"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "De-authorizes the student's hero (J.K.) to throw the student back on their own unfreedom.",
+      "function_id": "UM_05",
+      "classification_evidence": "Ego displacement: Attacking the student's projection of authority onto others to avoid their own state.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_01"
+      },
+      "trap_ids": [
+        "looking_outward"
+      ],
+      "trap_notes": [
+        "Student looks to J.K. to validate freedom."
+      ],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Seeing sugar != Tasting sugar.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 25,
+        "reaction_label": "pushes_back",
+        "evidence": "But computers have no feeling, no psyche, no spiritual dimension.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 24,
+      "speaker": "U.G.",
+      "text": "When these thoughts are not there, what is left is the simple, harmonious physical functioning of the organism. I am able to describe the way this organism is functioning because your question has created the challenge here. ... It functions in a state of not knowing. I never ask myself how I am functioning. I never question my actions, before, during, or after they occur. Does a computer ask how it is functioning?",
+      "observable_teaching_actions": [
+        "uses_computer_analogy",
+        "defines_functioning"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Uses the computer analogy to model a state of functioning without self-reflexive consciousness.",
+      "function_id": "RM_01",
+      "classification_evidence": "Structural mapping: Organism = Computer (Functional, non-reflexive).",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_04",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Unenlightened = Asking; Enlightened = Computer (Just running).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 25,
+        "reaction_label": "pushes_back",
+        "evidence": "But computers have no feeling...",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 26,
+      "speaker": "U.G.",
+      "text": "You can't fit me into that religious framework. Any attempt on your part to translate what I am saying into your religious framework is to miss the point. I am not one of your holy men who say, \"I am hanging, so come hang with me.\" All that stuff is a form of madness.",
+      "observable_teaching_actions": [
+        "rejects_framework",
+        "mocks_holy_men"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Rejects the student's attempt to categorize the teaching as 'spiritual' or 'religious'.",
+      "function_id": "UM_06",
+      "classification_evidence": "Constraint removal: Refusing the constraint of the 'religious framework'.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_05",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_01"
+      },
+      "trap_ids": [
+        "category_conflation"
+      ],
+      "trap_notes": [
+        "Student tries to fit U.G. into 'holy man' category."
+      ],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": null,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "failure",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    }
+  ],
+  "episode_overview": "U.G. Krishnamurti aggressively dismantles the seeker's expectations of consolation, meaning, and spiritual progress. He reframes 'life' as a purely biological process, 'hope' as a postponement of reality, and 'teaching' as a mechanical reflex. The interactions are characterized by high-intensity UNMAKING, using biological materialism to undercut psychological/spiritual pretensions.",
+  "episode_insights": {
+    "key_pattern": "Hope -> Postponement; Question -> Defense Mechanism; Biology -> Reality",
+    "notes": [
+      "U.G. consistently uses 'biological reductionism' (ants, computers, chemicals) to strip away spiritual romance.",
+      "The 'Ball against Wall' analogy (Episode 2) is a key META move defining his non-agency.",
+      "He frequently attacks the student's 'concern' or 'morality' as a neurotic cover-up for inaction (Episode 4, 6)."
+    ]
+  }
+}
+
+
+{
+  "episode_id": "ug_mind_myth_batch_2",
+  "source_text": "MIND IS A MYTH",
+  "lineage": "Modern",
+  "student_turns": [
+    {
+      "turn_index": 1,
+      "speaker": "Q",
+      "text": "Philosophers are often heard talking of a \"now\", independent of past and future. Is there such a thing as an eternal present?",
+      "observable_student_behaviors": [
+        "asks_philosophical_question",
+        "seeks_confirmation"
+      ],
+      "behavior_tags": [
+        "intellectual_speculation",
+        "time_concept"
+      ],
+      "inferred_state": {
+        "reading": "conceptual_seeking",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Q",
+      "text": "Is there any higher goal at all?",
+      "observable_student_behaviors": [
+        "asks_about_goals"
+      ],
+      "behavior_tags": [
+        "goal_fixation",
+        "meaning_seeking"
+      ],
+      "inferred_state": {
+        "reading": "hopeful_inquiry",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 6,
+      "speaker": "Q",
+      "text": "You are ruthlessly condemning whatever people have said so far. You may, in time, also be condemned and blasted for what you are saying.",
+      "observable_student_behaviors": [
+        "challenges_teacher",
+        "issues_warning"
+      ],
+      "behavior_tags": [
+        "defensive_projection",
+        "authority_challenge"
+      ],
+      "inferred_state": {
+        "reading": "hostile_defense",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 8,
+      "speaker": "Q",
+      "text": "You prefer to toy with things, asking absurd questions like, \"What happens to my body after death? Will the body be strong enough to take it?\"",
+      "observable_student_behaviors": [
+        "accuses_teacher",
+        "defends_question"
+      ],
+      "behavior_tags": [
+        "intellectual_pride",
+        "avoidance"
+      ],
+      "inferred_state": {
+        "reading": "frustrated_arrogance",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 11,
+      "speaker": "Q",
+      "text": "But we can never be absolutely sure that there is not some way out, no matter how fantastic or improbable it may be ...",
+      "observable_student_behaviors": [
+        "expresses_hope",
+        "resists_closure"
+      ],
+      "behavior_tags": [
+        "hope_clinging",
+        "magical_thinking"
+      ],
+      "inferred_state": {
+        "reading": "desperate_hope",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 13,
+      "speaker": "Q",
+      "text": "But if thought can create matter, how do you explain phenomena like Sai Baba producing watches out of thin air?",
+      "observable_student_behaviors": [
+        "cites_miracle",
+        "challenges_materialism"
+      ],
+      "behavior_tags": [
+        "fascination_with_powers",
+        "credulity"
+      ],
+      "inferred_state": {
+        "reading": "naive_wonder",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 15,
+      "speaker": "Q",
+      "text": "Yes, but what are you interested in? What makes you want to carry on living?",
+      "observable_student_behaviors": [
+        "asks_personal_question",
+        "seeks_motivation"
+      ],
+      "behavior_tags": [
+        "projection_of_motive"
+      ],
+      "inferred_state": {
+        "reading": "puzzled_curiosity",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 17,
+      "speaker": "Q",
+      "text": "Come on. You're a here-and-now person, is that it?",
+      "observable_student_behaviors": [
+        "labels_teacher",
+        "reductive_categorization"
+      ],
+      "behavior_tags": [
+        "labeling",
+        "conceptual_capture"
+      ],
+      "inferred_state": {
+        "reading": "dismissive_categorization",
+        "confidence": 0.85
+      },
+      "annotator_uncertainty": 0.2
+    },
+    {
+      "turn_index": 20,
+      "speaker": "Q",
+      "text": "Which means that man's attempt to predict or preempt the future is condemned from the start, does it not? All this talk of communicating information, sharing knowledge, and interfacing is sheer bunk?",
+      "observable_student_behaviors": [
+        "draws_nihilistic_conclusion",
+        "verifies_implication"
+      ],
+      "behavior_tags": [
+        "logical_concession",
+        "cynical_agreement"
+      ],
+      "inferred_state": {
+        "reading": "shocked_realization",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 22,
+      "speaker": "Q",
+      "text": "Suppose I am serious about it and somehow find out....",
+      "observable_student_behaviors": [
+        "poses_hypothetical",
+        "claims_seriousness"
+      ],
+      "behavior_tags": [
+        "fantasy_projection",
+        "ego_assertion"
+      ],
+      "inferred_state": {
+        "reading": "earnest_fantasy",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 24,
+      "speaker": "Q",
+      "text": "I would like to be able to meditate and have real peace of mind.",
+      "observable_student_behaviors": [
+        "states_desire",
+        "defines_goal"
+      ],
+      "behavior_tags": [
+        "spiritual_ambition",
+        "goal_fixation"
+      ],
+      "inferred_state": {
+        "reading": "sincere_wish",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 26,
+      "speaker": "Q",
+      "text": "It MUST be possible ...",
+      "observable_student_behaviors": [
+        "insists_on_possibility",
+        "denies_impossibility"
+      ],
+      "behavior_tags": [
+        "denial",
+        "desperation"
+      ],
+      "inferred_state": {
+        "reading": "desperate_insistence",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 28,
+      "speaker": "Q",
+      "text": "Whatever I do seems meaningless. There is no sense of satisfaction. I feel that there must be something higher than this.",
+      "observable_student_behaviors": [
+        "admits_dissatisfaction",
+        "projects_higher_reality"
+      ],
+      "behavior_tags": [
+        "existential_angst",
+        "hope_projection"
+      ],
+      "inferred_state": {
+        "reading": "vulnerable_confusion",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 30,
+      "speaker": "Q",
+      "text": "But we all have to have an idea of a better, more spiritual life.",
+      "observable_student_behaviors": [
+        "defends_idealism",
+        "appeals_to_collective_norm"
+      ],
+      "behavior_tags": [
+        "social_conditioning",
+        "spiritual_materialism"
+      ],
+      "inferred_state": {
+        "reading": "defensive_idealism",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    }
+  ],
+  "teacher_turns": [
+    {
+      "turn_index": 2,
+      "speaker": "U.G.",
+      "text": "The demand for more and more experience constitutes your \"present\", which is born out of the past. Look. Here is a microphone before you. You are looking at it. Is it possible for you to look at it without the word \"Microphone\"? The instrument you are using to look at and experience the microphone is the past, your past. If that is seen there is no future at all.",
+      "observable_teaching_actions": [
+        "uses_microphone_analogy",
+        "defines_perception_as_memory"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Demonstrates that what the student calls the 'present' is actually memory (past) using a concrete object.",
+      "function_id": "UM_03",
+      "classification_evidence": "Concrete grounding: Using the physical microphone to force the student to check if they can see without memory.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_02",
+        "meta_mode": "MM_01",
+        "attunement": "AT_01"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "abstract_to_concrete_check",
+      "mechanism_comment": "Checking 'eternal present' against concrete perception of a microphone.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": null,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 3,
+      "speaker": "U.G.",
+      "text": "When the past is not in operation there is no \"present\" at all, for what you are calling the \"present\" is the past repeating itself. In an actual state of \"here and now\" there is no past in operation and, therefore, no future.",
+      "observable_teaching_actions": [
+        "redefines_now",
+        "collapses_time"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Redefines the 'here and now' not as a moment in time, but as the absence of the time-construct (past/future).",
+      "function_id": "RM_03",
+      "classification_evidence": "Conceptual distinction: Distinguishing the mental 'present' (past repetition) from the actual 'here and now' (no time).",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_01",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_04",
+        "meta_mode": "MM_01",
+        "attunement": "AT_01"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 4,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 5,
+      "speaker": "U.G.",
+      "text": "The so-called \"highest goal\" is like the horizon. The further you move towards it, the further it recedes. The goal, like the horizon, is not really there. It is a projection of your own fear and it moves away from you as you pursue it. How can you keep up with it? There is nothing that you can do. Still, it is desire that keeps you moving; no matter in which direction you move, it is the same.",
+      "observable_teaching_actions": [
+        "uses_horizon_analogy",
+        "defines_goal_as_projection"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Uses the horizon analogy to show that the 'goal' is an optical illusion generated by the seeker, making attainment impossible.",
+      "function_id": "UM_04",
+      "classification_evidence": "Abstraction strip: Revealing the 'goal' as a projection of fear rather than an external reality.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_01"
+      },
+      "trap_ids": [
+        "answer_hunting"
+      ],
+      "trap_notes": [
+        "Student treats the goal as a destination."
+      ],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Goal = Horizon (Recedes as you approach).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 6,
+        "reaction_label": "defensive",
+        "evidence": "You are ruthlessly condemning...",
+        "outcome_label": "shock",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "SELF-MAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 7,
+      "speaker": "U.G.",
+      "text": "If you have the guts, I will be the very first to salute you. But you must not rely on your holy books -- the Bhagavad Gita or Upanishads. You must challenge what I am saying without the help of your so-called authorities. You just don't have the guts to do that because you are relying upon the Gita, not upon yourself. That is why you will never be able to do it. If you have that courage, you are the only person who can falsify what I am saying.",
+      "observable_teaching_actions": [
+        "challenges_autonomy",
+        "dares_student"
+      ],
+      "phase": "SELF-MAKING",
+      "phase_reason": "Challenges the student to stand on their own authority to refute him, effectively empowering them through a dare.",
+      "function_id": "SM_04",
+      "classification_evidence": "Commitment clarifier: Challenging the student to commit to their own authority ('guts') vs external authority (Gita).",
+      "register": {
+        "intensity": "PR_04",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_01"
+      },
+      "trap_ids": [
+        "spiritual_superego"
+      ],
+      "trap_notes": [
+        "Student uses 'condemnation' as a moral shield; U.G. demands they drop the shield."
+      ],
+      "mechanism_shape": "threshold",
+      "mechanism_comment": "The 'guts' threshold: relying on self vs relying on books.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 8,
+        "reaction_label": "defensive",
+        "evidence": "You prefer to toy with things...",
+        "outcome_label": "partial_success",
+        "phase_shift": {
+          "from": "SELF-MAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 9,
+      "speaker": "U.G.",
+      "text": "What the hell are you talking about? You are asking me what will happen to you if you touch that live electrical wire there. That is the kind of pointless question you are asking. You are not really interested at all. Perhaps after touching this you will be completely burnt and have to be thrown away. Perhaps others will get a shock themselves upon touching you, and you will become an untouchable! Look at what is implied by what I am saying. If you have the courage to touch life for the first time, you will never know what hit you.",
+      "observable_teaching_actions": [
+        "uses_live_wire_analogy",
+        "mocks_curiosity"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Mocks the theoretical question about death by comparing realization to a lethal physical danger (live wire).",
+      "function_id": "UM_03",
+      "classification_evidence": "Concrete grounding: Comparing the abstract question of 'death' to the concrete danger of electrocution.",
+      "register": {
+        "intensity": "PR_04",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_06",
+        "phenomenological_depth": "PD_02",
+        "meta_mode": "MM_01",
+        "attunement": "AT_01"
+      },
+      "trap_ids": [
+        "answer_hunting"
+      ],
+      "trap_notes": [
+        "Student asks theoretical questions about a state that destroys the questioner."
+      ],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Realization = Live Wire (Destructive contact).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": null,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "shock",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "SELF-MAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 10,
+      "speaker": "U.G.",
+      "text": "You don't stop searching because such an act would be the end of you. You are lost in a jungle, and you have no way of finding your way out. Night is fast approaching, the wild animals are there, including the cobras, and still you are lost. What do you do in such a situation? You just stop. You don't move....",
+      "observable_teaching_actions": [
+        "uses_jungle_analogy",
+        "advocates_stopping"
+      ],
+      "phase": "SELF-MAKING",
+      "phase_reason": "Advocates for the radical act of 'stopping' (giving up the search) as the only viable move.",
+      "function_id": "SM_01",
+      "classification_evidence": "Direct seeing: Pointing to the necessity of immediate cessation of movement/seeking.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_02",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Life = Jungle at night; Seeking = Dangerous movement; Stopping = Safety.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 11,
+        "reaction_label": "pushes_back",
+        "evidence": "But we can never be absolutely sure that there is not some way out...",
+        "outcome_label": "partial_success",
+        "phase_shift": {
+          "from": "SELF-MAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 12,
+      "speaker": "U.G.",
+      "text": "As long as there is that hope that you can somehow or the other get out of the jungle, so long will you continue what you are doing--searching--and so long you feel lost. You are lost only because you are searching. You have no way of finding your way out of the jungle.",
+      "observable_teaching_actions": [
+        "identifies_hope_as_trap",
+        "reverses_causality"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Inverts the causal logic: searching causes being lost, not the other way around.",
+      "function_id": "UM_06",
+      "classification_evidence": "Constraint removal: Removing the 'hope of exit' to force the stop.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_03",
+        "meta_mode": "MM_01",
+        "attunement": "AT_01"
+      },
+      "trap_ids": [
+        "recursion_loop"
+      ],
+      "trap_notes": [
+        "The search for the exit creates the maze."
+      ],
+      "mechanism_shape": "causal_chain",
+      "mechanism_comment": "Hope -> Searching -> Feeling Lost.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 13,
+        "reaction_label": "elaborates",
+        "evidence": "how do you explain phenomena like Sai Baba...",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 14,
+      "speaker": "U.G.",
+      "text": "It's just not possible. Sai Baba is a magician. He used to produce Swiss watches. But after the Indian government placed an import tax on Swiss watches, he soon began producing Indian-made watches. I saw a man on television the other day, who could make a jet aircraft disappear before your very eyes! Sai Baba conjures up a watch. He gives it to an honored disciple, but he, Sai Baba, receives all the acclaim and applause. It all looks legitimate, but is only a gimmick. I make fun of such things. How can you take them seriously?",
+      "observable_teaching_actions": [
+        "debunks_miracle",
+        "uses_humor"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Uses humor and economic logic (import taxes) to strip the 'miracle' of its spiritual significance.",
+      "function_id": "UM_04",
+      "classification_evidence": "Abstraction strip: Reducing a 'divine miracle' to a 'gimmick' subject to import laws.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_05",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_01"
+      },
+      "trap_ids": [
+        "symbolic_literalism"
+      ],
+      "trap_notes": [
+        "Student believes magic tricks are spiritual proof."
+      ],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 15,
+        "reaction_label": "elaborates",
+        "evidence": "what are you interested in? What makes you want to carry on living?",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "SELF-MAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 16,
+      "speaker": "U.G.",
+      "text": "Whatever is there. Whatever is happening at the moment is all that there is for me.",
+      "observable_teaching_actions": [
+        "states_simple_presence"
+      ],
+      "phase": "SELF-MAKING",
+      "phase_reason": "Demonstrates the state of 'direct seeing' or simple presence without agenda.",
+      "function_id": "SM_01",
+      "classification_evidence": "Direct seeing: Affirming 'whatever is happening' as the sufficient condition.",
+      "register": {
+        "intensity": "PR_01",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_04",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 17,
+        "reaction_label": "pushes_back",
+        "evidence": "You're a here-and-now person, is that it?",
+        "outcome_label": "partial_success",
+        "phase_shift": {
+          "from": "SELF-MAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 18,
+      "speaker": "U.G.",
+      "text": "No. To explain it that way is very misleading. I don't know how to explain it. Look, I read science-fiction books. Why? Because there is action there. I am not interested in the outcome at all, only the ongoing action. It is like a striptease. It is the stripping I find interesting, not the ending. Who cares about endings? Similarly, all your yesterdays, all your knowledge, and your very sense of self are dead things of the past. ... I am only interested in what is actually happening now, not tomorrow or yesterday.",
+      "observable_teaching_actions": [
+        "uses_striptease_analogy",
+        "prioritizes_process_over_outcome"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Uses provocative analogies (sci-fi, striptease) to model engagement with 'process' rather than 'outcome'.",
+      "function_id": "RM_01",
+      "classification_evidence": "Structural mapping: Striptease/Sci-Fi = Life; Stripping/Action = Living; Ending = Goal/Death.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_02",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Interest is in the stripping (process), not the nakedness (outcome).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 20,
+        "reaction_label": "inference_check",
+        "evidence": "communication... is sheer bunk?",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 19,
+      "speaker": "U.G.",
+      "text": "All this implies that we can never touch the same place at the same time and place. It is like two tape recording machines in a room playing old tapes to each other. You have no way of communicating anything to anybody. There is no communication at all. And when this is understood very clearly there is no need for communication at all.",
+      "observable_teaching_actions": [
+        "uses_tape_recorder_analogy",
+        "denies_communication"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Deconstructs human connection as mechanical playback, isolating the student.",
+      "function_id": "UM_04",
+      "classification_evidence": "Abstraction strip: Reducing 'dialogue' to 'tape playback'.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_01",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_01"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Humans = Tape Recorders.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 20,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "Which means that man's attempt to predict or preempt the future is condemned...",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 21,
+      "speaker": "U.G.",
+      "text": "Yes, it is.",
+      "observable_teaching_actions": [
+        "confirms_nihilism"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Brief confirmation of the student's negative inference.",
+      "function_id": "UM_02",
+      "classification_evidence": "Internal contradiction: Confirming that the premise of communication contradicts the reality of isolation.",
+      "register": {
+        "intensity": "PR_01",
+        "intimacy": "IN_01",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_01"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 22,
+        "reaction_label": "elaborates",
+        "evidence": "Suppose I am serious about it and somehow find out....",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 23,
+      "speaker": "U.G.",
+      "text": "No suppositions, please! What happened to me was acausal; it just happened. In spite of all my efforts, struggles, and intentions, this thing happened to me, and that is the miracle of miracles. You cannot make this happen. ... It is not an experience at all, and, therefore, cannot be communicated or transmitted. It is not something you share. It is a rare bird, that's all. All you can do is to put it in a museum and look at it, but you can never duplicate or share it.",
+      "observable_teaching_actions": [
+        "denies_causality",
+        "uses_museum_analogy"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Removes the possibility of emulation by defining his state as a freak accident ('acausal', 'rare bird').",
+      "function_id": "UM_05",
+      "classification_evidence": "Ego displacement: Preventing the student's ego from claiming the attainment by making it inaccessible/acausal.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_01",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_01"
+      },
+      "trap_ids": [
+        "answer_hunting"
+      ],
+      "trap_notes": [
+        "Student wants the 'secret' to U.G.'s state."
+      ],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Enlightenment = Museum Exhibit (Look but don't touch/be).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 24,
+        "reaction_label": "elaborates",
+        "evidence": "I would like to be able to meditate and have real peace of mind.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 25,
+      "speaker": "U.G.",
+      "text": "Have you questioned this goal of yours...? Why take it for granted that there is such a thing as \"peace of mind.\" Maybe it is a false thing. ... When do you expect to have it? It is always tomorrow, next year. Why? ... Why not now?",
+      "observable_teaching_actions": [
+        "questions_premise",
+        "challenges_postponement"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Attacks the temporal structure of the goal: 'peace' is a strategy for postponement.",
+      "function_id": "UM_06",
+      "classification_evidence": "Constraint removal: Removing the assumption that 'peace of mind' exists and is a future goal.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_03",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "problem_solving_stance"
+      ],
+      "trap_notes": [
+        "Student treats peace as a project to be completed in time."
+      ],
+      "mechanism_shape": "constraint_collapse",
+      "mechanism_comment": "Collapsing the time-gap required for 'seeking'.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 26,
+        "reaction_label": "defensive",
+        "evidence": "It MUST be possible ...",
+        "outcome_label": "shock",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "SELF-MAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 27,
+      "speaker": "U.G.",
+      "text": "But why are you putting it off until tomorrow? You have to face the situation NOW. What ultimately do you want?",
+      "observable_teaching_actions": [
+        "demands_immediacy",
+        "confronts_desire"
+      ],
+      "phase": "SELF-MAKING",
+      "phase_reason": "Forces the student to confront their actual desire in the present moment.",
+      "function_id": "SM_04",
+      "classification_evidence": "Commitment clarifier: Demanding the student face their want 'NOW'.",
+      "register": {
+        "intensity": "PR_04",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_03",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "threshold",
+      "mechanism_comment": "Crossing the threshold from 'tomorrow' to 'now'.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 28,
+        "reaction_label": "elaborates",
+        "evidence": "Whatever I do seems meaningless... I feel that there must be something higher...",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "SELF-MAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 29,
+      "speaker": "U.G.",
+      "text": "Suppose I say that this meaninglessness is all there is for you, all there can ever be for you. What will you do? The false and absurd goal you have before you is responsible for that dissatisfaction... Your notion of the \"meaningful\" keeps you from facing this issue...",
+      "observable_teaching_actions": [
+        "reframes_meaninglessness",
+        "identifies_goal_as_cause"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Reframes 'meaninglessness' not as a lack, but as the reality, and 'meaning' as the cause of suffering.",
+      "function_id": "RM_05",
+      "classification_evidence": "Frame upgrade: Inverting the value of meaning/meaninglessness. Meaninglessness = Fact; Meaning = Disease.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_04",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "false_paradox"
+      ],
+      "trap_notes": [
+        "Student thinks meaninglessness is the problem and the goal is the solution."
+      ],
+      "mechanism_shape": "subject_object_inversion",
+      "mechanism_comment": "The goal causes the problem.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 30,
+        "reaction_label": "defensive",
+        "evidence": "But we all have to have an idea of a better, more spiritual life.",
+        "outcome_label": "partial_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 31,
+      "speaker": "U.G.",
+      "text": "Whatever you want, even the so-called spiritual goals, is materialistic in value. ... If you want to achieve a spiritual goal, the instrument you use will be the same which you use to achieve materialistic goals, namely thought. ... And because thought is matter, its object--the spiritual or meaningful life-is also matter. Spirituality is materialism.",
+      "observable_teaching_actions": [
+        "collapses_duality",
+        "defines_spirituality_as_materialism"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Collapses the spiritual/material distinction by showing they share the same mechanism (thought/matter).",
+      "function_id": "UM_02",
+      "classification_evidence": "Internal contradiction: Showing that 'spirituality' uses 'matter' (thought), therefore it is 'materialism'.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "category_conflation"
+      ],
+      "trap_notes": [
+        "Student conflates 'spiritual content' with 'spiritual process' (which is material thought)."
+      ],
+      "mechanism_shape": "ontological_frame_upgrade",
+      "mechanism_comment": "Spirituality = Materialism.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": null,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "shock",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    }
+  ],
+  "episode_overview": "U.G. Krishnamurti relentlessly deconstructs the seeker's toolkit: hope, communication, role-models, and the concept of 'spirituality' itself. Using aggressive analogies (Live Wire, Striptease, Tape Recorders), he reframes the search for enlightenment as a biological danger or a mechanical loop. The sequence culminates in the assertion that spirituality is merely a form of materialism because it relies on thought (matter).",
+  "episode_insights": {
+    "key_pattern": "Hypocrisy Exposure -> Analogical Shock -> De-authorization -> Ontological Collapse (Spirituality = Materialism)",
+    "notes": [
+      "U.G. frequently uses 'anti-analogies' (Tape Recorder, Museum) to deny the possibility of transmission or help.",
+      "The 'Live Wire' analogy (Episode 14) re-codes realization from 'bliss' to 'destruction'.",
+      "The final move (Spirituality is Materialism) is a signature U.G. ontological collapse, erasing the user's exit route."
+    ]
+  }
+}
+
+
+{
+  "episode_id": "ug_and_rinpoche_batch_3",
+  "source_text": "MIND IS A MYTH & As It Is, Vol. I",
+  "lineage": "Mixed (Modern / Buddhist)",
+  "student_turns": [
+    {
+      "turn_index": 1,
+      "speaker": "Q",
+      "text": "I would like to be able to meditate and have real peace of mind.",
+      "observable_student_behaviors": [
+        "states_desire",
+        "defines_goal"
+      ],
+      "behavior_tags": [
+        "spiritual_ambition",
+        "goal_fixation"
+      ],
+      "inferred_state": {
+        "reading": "sincere_wish",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Q",
+      "text": "It MUST be possible ...",
+      "observable_student_behaviors": [
+        "insists_on_possibility",
+        "denies_impossibility"
+      ],
+      "behavior_tags": [
+        "denial",
+        "desperation"
+      ],
+      "inferred_state": {
+        "reading": "desperate_insistence",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Q",
+      "text": "Whatever I do seems meaningless. There is no sense of satisfaction. I feel that there must be something higher than this.",
+      "observable_student_behaviors": [
+        "admits_dissatisfaction",
+        "projects_higher_reality"
+      ],
+      "behavior_tags": [
+        "existential_angst",
+        "hope_projection"
+      ],
+      "inferred_state": {
+        "reading": "vulnerable_confusion",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 7,
+      "speaker": "Q",
+      "text": "But we all have to have an idea of a better, more spiritual life.",
+      "observable_student_behaviors": [
+        "defends_idealism",
+        "appeals_to_collective_norm"
+      ],
+      "behavior_tags": [
+        "social_conditioning",
+        "spiritual_materialism"
+      ],
+      "inferred_state": {
+        "reading": "defensive_idealism",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 9,
+      "speaker": "Q",
+      "text": "As scientists we want to find out if there is a uniqueness behind the apparent similarities in people. ... The yogins and religious leaders seem to offer us cases of really exceptional and unique persons. We want to study them, and you.",
+      "observable_student_behaviors": [
+        "states_scientific_intent",
+        "identifies_subjects"
+      ],
+      "behavior_tags": [
+        "scientific_materialism",
+        "objectification"
+      ],
+      "inferred_state": {
+        "reading": "clinical_curiosity",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 11,
+      "speaker": "Q",
+      "text": "That is the whole point: we are trying to find a way to test their credibility on a scientific basis.",
+      "observable_student_behaviors": [
+        "defends_methodology",
+        "asserts_testing_framework"
+      ],
+      "behavior_tags": [
+        "methodological_rigor",
+        "skepticism"
+      ],
+      "inferred_state": {
+        "reading": "determined_rationalism",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 13,
+      "speaker": "Q",
+      "text": "The only thing we have to work with is the statistics and data of what we call \"normalcy\", nothing more.",
+      "observable_student_behaviors": [
+        "states_limitations",
+        "defines_baseline"
+      ],
+      "behavior_tags": [
+        "data_reliance",
+        "normative_thinking"
+      ],
+      "inferred_state": {
+        "reading": "resigned_pragmatism",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 15,
+      "speaker": "Q",
+      "text": "Listening to you now seems also to create problems for me.",
+      "observable_student_behaviors": [
+        "reports_reaction",
+        "identifies_conflict"
+      ],
+      "behavior_tags": [
+        "internal_conflict"
+      ],
+      "inferred_state": {
+        "reading": "troubled_engagement",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 17,
+      "speaker": "Q",
+      "text": "It is not so obvious to me that I am not listening to you. I seem to be listening to you and thinking about it simultaneously. Isn't this possible?",
+      "observable_student_behaviors": [
+        "challenges_assertion",
+        "defends_multitasking"
+      ],
+      "behavior_tags": [
+        "cognitive_dissonance",
+        "defense_of_agency"
+      ],
+      "inferred_state": {
+        "reading": "skeptical_confusion",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 19,
+      "speaker": "Q",
+      "text": "If you will tell me how to look at thought, I will be your student.",
+      "observable_student_behaviors": [
+        "bargains",
+        "seeks_technique"
+      ],
+      "behavior_tags": [
+        "transactional_mindset",
+        "student_role_seeking"
+      ],
+      "inferred_state": {
+        "reading": "eager_submission",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 22,
+      "speaker": "Q",
+      "text": "But all the saints, saviors and religions of all times have encouraged us to be unselfish... It must therefore be possible.",
+      "observable_student_behaviors": [
+        "appeals_to_tradition",
+        "deduces_possibility"
+      ],
+      "behavior_tags": [
+        "conformity",
+        "idealism"
+      ],
+      "inferred_state": {
+        "reading": "hopeful_logic",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 24,
+      "speaker": "Q",
+      "text": "Yes, but what about those who are not searching for some illusory abstraction, but simply happiness?",
+      "observable_student_behaviors": [
+        "distinguishes_goals",
+        "defends_happiness"
+      ],
+      "behavior_tags": [
+        "hedonism",
+        "pragmatism"
+      ],
+      "inferred_state": {
+        "reading": "common_sense_defense",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 26,
+      "speaker": "Q",
+      "text": "So this pursuit has to go?",
+      "observable_student_behaviors": [
+        "infers_conclusion",
+        "seeks_confirmation"
+      ],
+      "behavior_tags": [
+        "renunciation_logic"
+      ],
+      "inferred_state": {
+        "reading": "resigned_inference",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 28,
+      "speaker": "Q",
+      "text": "But the key question remains: how is one not to want?",
+      "observable_student_behaviors": [
+        "reiterates_question",
+        "asks_how"
+      ],
+      "behavior_tags": [
+        "method_seeking",
+        "fixation"
+      ],
+      "inferred_state": {
+        "reading": "stubborn_pragmatism",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 30,
+      "speaker": "Q",
+      "text": "Brushing aside the question of how to be free from constant wanting, it seems obvious from what you have said that one must be free first from the influence of the past, or one's memory.",
+      "observable_student_behaviors": [
+        "attempts_synthesis",
+        "proposes_precondition"
+      ],
+      "behavior_tags": [
+        "intellectual_grasping",
+        "logic_building"
+      ],
+      "inferred_state": {
+        "reading": "intellectual_maneuver",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 32,
+      "speaker": "Q",
+      "text": "How does this process of accumulation work?",
+      "observable_student_behaviors": [
+        "asks_mechanism_question"
+      ],
+      "behavior_tags": [
+        "curiosity",
+        "analysis"
+      ],
+      "inferred_state": {
+        "reading": "detached_curiosity",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 35,
+      "speaker": "Student",
+      "text": "It's difficult; it is very short.",
+      "observable_student_behaviors": [
+        "reports_difficulty",
+        "describes_experience"
+      ],
+      "behavior_tags": [
+        "practice_struggle",
+        "duration_fixation"
+      ],
+      "inferred_state": {
+        "reading": "discouraged_reporting",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 37,
+      "speaker": "Student",
+      "text": "No.",
+      "observable_student_behaviors": [
+        "denies_fabrication"
+      ],
+      "behavior_tags": [
+        "honest_assessment"
+      ],
+      "inferred_state": {
+        "reading": "factual_denial",
+        "confidence": 1.0
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 42,
+      "speaker": "Meditator",
+      "text": "OM BENZA CHILI CHILAYA SARVA BIGHANAN BAM HUNG PHAT.",
+      "observable_student_behaviors": [
+        "recites_mantra"
+      ],
+      "behavior_tags": [
+        "practice_demonstration"
+      ],
+      "inferred_state": {
+        "reading": "confident_practice",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 44,
+      "speaker": "Meditator",
+      "text": "No, no, the words are not as important as the state of mind. Pure mind is more important than pure sound. I said CHILI CHILAYA in the past and that's what I will continue to say in the future. No doubt about that! You, on the other hand, will need my phurba.",
+      "observable_student_behaviors": [
+        "rejects_correction",
+        "asserts_primacy_of_mind",
+        "offers_gift"
+      ],
+      "behavior_tags": [
+        "spiritual_confidence",
+        "anti_dogmatism"
+      ],
+      "inferred_state": {
+        "reading": "authoritative_correction",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 47,
+      "speaker": "Student (Yamantaka)",
+      "text": "Sorry! I can't come out! My horns get stuck in the doorway.",
+      "observable_student_behaviors": [
+        "reports_physical_impossibility",
+        "reifies_visualization"
+      ],
+      "behavior_tags": [
+        "hallucination",
+        "materialism"
+      ],
+      "inferred_state": {
+        "reading": "delusional_trappedness",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    }
+  ],
+  "teacher_turns": [
+    {
+      "turn_index": 2,
+      "speaker": "U.G.",
+      "text": "Have you questioned this goal of yours...? Why take it for granted that there is such a thing as \"peace of mind.\" Maybe it is a false thing. ... When do you expect to have it? It is always tomorrow, next year. Why? ... Why not now?",
+      "observable_teaching_actions": [
+        "questions_premise",
+        "challenges_postponement"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Attacks the temporal structure of the goal: 'peace' is a strategy for postponement.",
+      "function_id": "UM_06",
+      "classification_evidence": "Constraint removal: Removing the assumption that 'peace of mind' exists and is a future goal.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_03",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "problem_solving_stance"
+      ],
+      "trap_notes": [
+        "Student treats peace as a project to be completed in time."
+      ],
+      "mechanism_shape": "constraint_collapse",
+      "mechanism_comment": "Collapsing the time-gap required for 'seeking'.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 3,
+        "reaction_label": "defensive",
+        "evidence": "It MUST be possible ...",
+        "outcome_label": "shock",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "SELF-MAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 4,
+      "speaker": "U.G.",
+      "text": "But why are you putting it off until tomorrow? You have to face the situation NOW. What ultimately do you want?",
+      "observable_teaching_actions": [
+        "demands_immediacy",
+        "confronts_desire"
+      ],
+      "phase": "SELF-MAKING",
+      "phase_reason": "Forces the student to confront their actual desire in the present moment.",
+      "function_id": "SM_04",
+      "classification_evidence": "Commitment clarifier: Demanding the student face their want 'NOW'.",
+      "register": {
+        "intensity": "PR_04",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_03",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "threshold",
+      "mechanism_comment": "Crossing the threshold from 'tomorrow' to 'now'.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 5,
+        "reaction_label": "elaborates",
+        "evidence": "Whatever I do seems meaningless... I feel that there must be something higher...",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "SELF-MAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 6,
+      "speaker": "U.G.",
+      "text": "Suppose I say that this meaninglessness is all there is for you, all there can ever be for you. What will you do? The false and absurd goal you have before you is responsible for that dissatisfaction... Your notion of the \"meaningful\" keeps you from facing this issue...",
+      "observable_teaching_actions": [
+        "reframes_meaninglessness",
+        "identifies_goal_as_cause"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Reframes 'meaninglessness' not as a lack, but as the reality, and 'meaning' as the cause of suffering.",
+      "function_id": "RM_05",
+      "classification_evidence": "Frame upgrade: Inverting the value of meaning/meaninglessness. Meaninglessness = Fact; Meaning = Disease.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_04",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "false_paradox"
+      ],
+      "trap_notes": [
+        "Student thinks meaninglessness is the problem and the goal is the solution."
+      ],
+      "mechanism_shape": "subject_object_inversion",
+      "mechanism_comment": "The goal causes the problem.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 7,
+        "reaction_label": "defensive",
+        "evidence": "But we all have to have an idea of a better, more spiritual life.",
+        "outcome_label": "partial_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 8,
+      "speaker": "U.G.",
+      "text": "Whatever you want, even the so-called spiritual goals, is materialistic in value. ... If you want to achieve a spiritual goal, the instrument you use will be the same which you use to achieve materialistic goals, namely thought. ... And because thought is matter, its object--the spiritual or meaningful life-is also matter. Spirituality is materialism.",
+      "observable_teaching_actions": [
+        "collapses_duality",
+        "defines_spirituality_as_materialism"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Collapses the spiritual/material distinction by showing they share the same mechanism (thought/matter).",
+      "function_id": "UM_02",
+      "classification_evidence": "Internal contradiction: Showing that 'spirituality' uses 'matter' (thought), therefore it is 'materialism'.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "category_conflation"
+      ],
+      "trap_notes": [
+        "Student conflates 'spiritual content' with 'spiritual process' (which is material thought)."
+      ],
+      "mechanism_shape": "ontological_frame_upgrade",
+      "mechanism_comment": "Spirituality = Materialism.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 9,
+        "reaction_label": "elaborates",
+        "evidence": "As scientists we want to find out if there is a uniqueness...",
+        "outcome_label": "shock",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 10,
+      "speaker": "U.G.",
+      "text": "Don't you have any other way of finding out than going to these yogins...? The second-raters may submit to your scrutiny, but the real McCoy, if there is one, will never submit to your tests.",
+      "observable_teaching_actions": [
+        "challenges_method",
+        "dismisses_subjects"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Dismisses the available subjects of study as 'second-raters', undermining the validity of the proposed research.",
+      "function_id": "UM_06",
+      "classification_evidence": "Constraint removal: Rejecting the premise that enlightenment can be 'tested' by external scrutiny.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "threshold",
+      "mechanism_comment": "The 'real McCoy' is beyond the threshold of testing.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 11,
+        "reaction_label": "defensive",
+        "evidence": "That is the whole point: we are trying to find a way to test their credibility...",
+        "outcome_label": "partial_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 12,
+      "speaker": "U.G.",
+      "text": "I am afraid that you are making a horrendous mistake by even toying with the idea of giving any consideration to the claims that these people make.",
+      "observable_teaching_actions": [
+        "warns_student",
+        "dismisses_field"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Rejects the entire field of study as a mistake.",
+      "function_id": "UM_04",
+      "classification_evidence": "Abstraction strip: Stripping value from the 'claims' of spiritual leaders.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 13,
+        "reaction_label": "defensive",
+        "evidence": "The only thing we have to work with is the statistics and data...",
+        "outcome_label": "partial_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "META"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 14,
+      "speaker": "U.G.",
+      "text": "Your constant interpretation of data means that you are involved in what you are studying... I like to use the example of Newtonian physics. Within the Newtonian framework, things work in a certain way. Another scientist eventually comes along who is able to drop the Newtonian assumptions and thereby is able to perceive a whole new dimension of physics. Just as Newtonian principles eventually became a strait-jacket strangling creative thought, so your data about human uniqueness bars your looking at things, including yourself, anew.",
+      "observable_teaching_actions": [
+        "critiques_observer",
+        "uses_newton_einstein_analogy"
+      ],
+      "phase": "META",
+      "phase_reason": "Moves to a meta-critique of the scientific method itself, using the paradigm shift analogy.",
+      "function_id": "ME_03",
+      "classification_evidence": "Method explanation: Explaining why the student's method (data collection) prevents the result (seeing anew).",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_04",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "reification_of_mind"
+      ],
+      "trap_notes": [
+        "Student believes 'data' is objective reality."
+      ],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Data = Newtonian Straitjacket.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 15,
+        "reaction_label": "elaborates",
+        "evidence": "Listening to you now seems also to create problems for me.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "META",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 16,
+      "speaker": "U.G.",
+      "text": "You say you are listening. Even as I speak you are not listening to anything. You are not listening to me, but only to your own thoughts. ... I am not a fool.",
+      "observable_teaching_actions": [
+        "challenges_listening",
+        "asserts_isolation"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Denies the student's claim of connection/listening, reasserting isolation inside thought.",
+      "function_id": "UM_02",
+      "classification_evidence": "Internal contradiction: 'You say you listen' vs 'You only hear thoughts'.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_02",
+        "meta_mode": "MM_01",
+        "attunement": "AT_01"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "source_tracing",
+      "mechanism_comment": "Tracing 'listening' back to 'hearing own thoughts'.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 17,
+        "reaction_label": "pushes_back",
+        "evidence": "I seem to be listening to you and thinking about it simultaneously. Isn't this possible?",
+        "outcome_label": "partial_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 18,
+      "speaker": "U.G.",
+      "text": "It is impossible. There is only one action possible for you: thinking. ... Thought creates the space between the thinker and his thoughts, and then tells himself, \"I am looking at my thoughts.\" Is it possible? ... try to look at your thoughts at this very moment. I am asking you to do something which is quite simple.",
+      "observable_teaching_actions": [
+        "denies_multitasking",
+        "challenges_to_act"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Proves the impossibility of the 'observer' by challenging the student to perform the act of observation in real time.",
+      "function_id": "UM_02",
+      "classification_evidence": "Internal contradiction: The 'observer' is just another thought, creating an infinite regress.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_03",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "recursion_loop"
+      ],
+      "trap_notes": [
+        "Student thinks they can step outside thought to watch thought."
+      ],
+      "mechanism_shape": "recursion_loop",
+      "mechanism_comment": "The thinker is a thought.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 19,
+        "reaction_label": "seeks_instruction",
+        "evidence": "If you will tell me how to look at thought, I will be your student.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 20,
+      "speaker": "U.G.",
+      "text": "If you repeat a mantra, that is thought. The repetition of the mantra is another thought. The idea that these repetitive thoughts have not succeeded... is another thought. What is thought other than this? I want to know.",
+      "observable_teaching_actions": [
+        "reduces_practice_to_thought",
+        "closes_loop"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Reduces all spiritual practice (mantra, observation) to the same substance: thought.",
+      "function_id": "UM_04",
+      "classification_evidence": "Abstraction strip: Reducing 'practice' to 'thought repetition'.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_02",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "identification_with_content"
+      ],
+      "trap_notes": [
+        "Student identifies practice as something other than thought."
+      ],
+      "mechanism_shape": "ontological_frame_upgrade",
+      "mechanism_comment": "Practice = Thought.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 22,
+        "reaction_label": "defensive",
+        "evidence": "But all the saints... have encouraged us to be unselfish...",
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 21,
+      "speaker": "U.G.",
+      "text": "You will never be free from selfishness.",
+      "observable_teaching_actions": [
+        "states_absolute_limit"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Asserts the permanence of selfishness to block the ideal of selflessness.",
+      "function_id": "UM_06",
+      "classification_evidence": "Constraint removal: Removing the possibility of 'selflessness' as a valid goal.",
+      "register": {
+        "intensity": "PR_04",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_01"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 22,
+        "reaction_label": "pushes_back",
+        "evidence": "But all the saints... have encouraged us to be unselfish...",
+        "outcome_label": "partial_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 23,
+      "speaker": "U.G.",
+      "text": "Because it is crystal clear to me that you have invented this idea of selflessness to protect yourself from the actual -- your selfishness. ... Look at it this way; it is like the horizon. Actually, there is no horizon. The more you move towards the horizon, the more it moves away. ... Likewise, there is no such thing as selflessness at all.",
+      "observable_teaching_actions": [
+        "uses_horizon_analogy",
+        "defines_ideal_as_defense"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Uses the horizon analogy to show that the ideal is an illusion created to avoid the actual.",
+      "function_id": "UM_04",
+      "classification_evidence": "Abstraction strip: Revealing 'selflessness' as a defensive invention.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_02",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "ego_defense"
+      ],
+      "trap_notes": [
+        "Student uses the ideal of selflessness to avoid facing actual selfishness."
+      ],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Selflessness = Horizon (Recedes as you approach).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 24,
+        "reaction_label": "elaborates",
+        "evidence": "what about those who are... simply happiness?",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 25,
+      "speaker": "U.G.",
+      "text": "Their search for happiness is no different from the spiritual pursuit. It is the pursuit of pleasure, spirituality being the greatest, ultimate pleasure.",
+      "observable_teaching_actions": [
+        "collapses_distinction",
+        "redefines_spirituality_as_pleasure"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Collapses the distinction between 'worldly happiness' and 'spirituality'—both are pleasure seeking.",
+      "function_id": "UM_01",
+      "classification_evidence": "Definition forcing: Defining spirituality as 'ultimate pleasure'.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "category_conflation"
+      ],
+      "trap_notes": [
+        "Student thinks happiness is different from spiritual seeking."
+      ],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 26,
+        "reaction_label": "inference_check",
+        "evidence": "So this pursuit has to go?",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 27,
+      "speaker": "U.G.",
+      "text": "Don't say it should go. Wanting selfishness to go is part and parcel of the selfish pursuit of a more pleasurable state -- selflessness. Both do not exist. That is why you are eternally unhappy.",
+      "observable_teaching_actions": [
+        "imposes_double_bind",
+        "identifies_trap"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Shows that the desire to end the pursuit is itself the pursuit, trapping the student.",
+      "function_id": "UM_02",
+      "classification_evidence": "Internal contradiction: 'Wanting to stop wanting' is still wanting.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_03",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "recursion_loop"
+      ],
+      "trap_notes": [
+        "The attempt to escape the trap creates the trap."
+      ],
+      "mechanism_shape": "recursion_loop",
+      "mechanism_comment": "Stopping = Pursuing.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 28,
+        "reaction_label": "pushes_back",
+        "evidence": "But the key question remains: how is one not to want?",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 29,
+      "speaker": "U.G.",
+      "text": "Again you ask \"how\", thus avoiding the issue. There is no \"how\" at all. \"How\" is the trickiest question, for in asking it you are doomed. ... That is the one question which has transformed itself into millions of questions.",
+      "observable_teaching_actions": [
+        "rejects_how",
+        "identifies_root_question"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Identifies the question 'How?' as the root mechanism of avoidance and continuity.",
+      "function_id": "UM_06",
+      "classification_evidence": "Constraint removal: Rejecting the validity of the 'how' question.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "answer_hunting"
+      ],
+      "trap_notes": [
+        "Student seeks a method ('how') to solve the problem of method."
+      ],
+      "mechanism_shape": "source_tracing",
+      "mechanism_comment": "Tracing all questions back to the primal 'How?'.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 30,
+        "reaction_label": "elaborates",
+        "evidence": "Brushing aside the question of how... one must be free first from the influence of the past...",
+        "outcome_label": "partial_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 31,
+      "speaker": "U.G.",
+      "text": "If you go on trying to suppress the past, trying to live in what you call \"the present\", you will drive yourself crazy. ... If you try to control the natural flow of the river through all these artificial means--building a dam so to speak--you will inundate and destroy the whole thing. That is why you find thoughts welling up inside you despite your efforts to control...",
+      "observable_teaching_actions": [
+        "uses_dam_analogy",
+        "predicts_failure"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Uses the 'Dam' analogy to explain why suppression (control) leads to explosion (neurosis).",
+      "function_id": "UM_03",
+      "classification_evidence": "Concrete grounding: Comparing psychological suppression to the physical dynamics of a dam.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_02",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Control = Dam; Thought = Water.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 32,
+        "reaction_label": "seeks_instruction",
+        "evidence": "How does this process of accumulation work?",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 33,
+      "speaker": "U.G.",
+      "text": "The only way the self can add more and more knowledge and experience is to endlessly ask itself the meaningless question \"How? How am I to live?\" ... You are merely asking for the same kind of knowledge.",
+      "observable_teaching_actions": [
+        "closes_loop",
+        "redefines_question_as_accumulation"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Returns to the 'How' question to show it is the engine of accumulation (self).",
+      "function_id": "UM_02",
+      "classification_evidence": "Internal contradiction: Asking 'how to end knowledge' creates more knowledge.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "recursion_loop"
+      ],
+      "trap_notes": [
+        "The question reinforces the self it tries to dismantle."
+      ],
+      "mechanism_shape": "recursion_loop",
+      "mechanism_comment": "Question -> Knowledge -> Self -> Question.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 35,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 34,
+      "speaker": "Rinpoche",
+      "text": "Are you recognizing mind essence?",
+      "observable_teaching_actions": [
+        "checks_state"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Initiates a diagnostic check to expose the student's difficulty.",
+      "function_id": "UM_01",
+      "classification_evidence": "Definition forcing: Asking for recognition.",
+      "register": {
+        "intensity": "PR_01",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_03",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 35,
+        "reaction_label": "elaborates",
+        "evidence": "It's difficult; it is very short.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 36,
+      "speaker": "Rinpoche",
+      "text": "What's the trouble you're experiencing? What is the difficulty, exacdy? If it's very short, what is the problem in repeating it many times? Is this short moment something you create by meditating?",
+      "observable_teaching_actions": [
+        "interrogates_difficulty",
+        "tests_fabrication"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Deconstructs the concept of 'difficulty' by asking if the state is fabricated (created).",
+      "function_id": "UM_06",
+      "classification_evidence": "Constraint removal: Challenging the constraint that 'shortness' equals 'difficulty'.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_02",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "abstract_to_concrete_check",
+      "mechanism_comment": "Checking if the state is created or natural.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 37,
+        "reaction_label": "denies",
+        "evidence": "No.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 38,
+      "speaker": "Rinpoche",
+      "text": "Then it's not really difficult, is it? If you want the moment to last a long time, and you want to immediately become an arhat, then you can say it is very difficult. ... Now we need to attain a new habit - not by meditating on an it, but by growing accustomed to this recognition.",
+      "observable_teaching_actions": [
+        "reframes_difficulty",
+        "defines_habituation"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Reframes the problem from 'production' (difficult) to 'habituation' (easy but slow).",
+      "function_id": "RM_03",
+      "classification_evidence": "Conceptual distinction: Distinguishing 'creation' from 'habituation'.",
+      "register": {
+        "intensity": "PR_01",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_02",
+        "meta_mode": "MM_01",
+        "attunement": "AT_03"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 39,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 39,
+      "speaker": "Rinpoche",
+      "text": "Right now this recognition of mind essence is like a small infant, whereas the deluded thinking is like a strong person... The small infant appears to be powerless. Our rigpa right now is like infant rigpa.",
+      "observable_teaching_actions": [
+        "uses_infant_analogy",
+        "normalizes_weakness"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Uses the 'Infant' analogy to normalize the weakness of the recognition without invalidating it.",
+      "function_id": "RM_01",
+      "classification_evidence": "Structural mapping: Recognition = Infant; Delusion = Adult.",
+      "register": {
+        "intensity": "PR_01",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_02",
+        "meta_mode": "MM_01",
+        "attunement": "AT_03"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Weakness is due to age (habit), not nature.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 40,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 40,
+      "speaker": "Sakya Pandita",
+      "text": "What mantra are you using?",
+      "observable_teaching_actions": [
+        "inquires_technique"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Narrative setup: The scholar interrogates the hermit, setting up the conflict between form and essence.",
+      "function_id": "UM_01",
+      "classification_evidence": "Definition forcing: Asking for the specific form of the practice.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 42,
+        "reaction_label": "elaborates",
+        "evidence": "OM BENZA CHILI CHILAYA...",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 43,
+      "speaker": "Sakya Pandita",
+      "text": "Oh, no! That's the wrong mantra; it's supposed to begin with OM BENZA KILl KILAYA. That's where the real meaning lies... They are contained within the sounds of the mantra.",
+      "observable_teaching_actions": [
+        "corrects_form",
+        "asserts_technical_primacy"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "The scholar asserts the primacy of technical accuracy, representing the 'false structure' to be dismantled.",
+      "function_id": "UM_01",
+      "classification_evidence": "Definition forcing: Insisting on the correct sound as the container of meaning.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_05",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_01"
+      },
+      "trap_ids": [
+        "symbolic_literalism"
+      ],
+      "trap_notes": [
+        "Scholar believes power resides in the literal sound."
+      ],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 44,
+        "reaction_label": "pushes_back",
+        "evidence": "No, no, the words are not as important as the state of mind.",
+        "outcome_label": "shock",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 45,
+      "speaker": "Rinpoche (Narrator)",
+      "text": "And the meditator gave Sakya Pandita his kilaya dagger, saying, \"You take this with you.\"",
+      "observable_teaching_actions": [
+        "narrates_reversal"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "The narrative conclusion serves as the teaching: the 'wrong' practitioner demonstrates superior realization.",
+      "function_id": "RM_02",
+      "classification_evidence": "Example instantiation: The story itself is the example of Essence > Form.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_04",
+        "phenomenological_depth": "PD_03",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "subject_object_inversion",
+      "mechanism_comment": "The student becomes the master.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 46,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 46,
+      "speaker": "Rinpoche (Narrator)",
+      "text": "It becomes like the guy who visualized himself as Yamantaka and couldn't get out the entrance of his cave because his horns were too big.",
+      "observable_teaching_actions": [
+        "uses_humorous_anecdote",
+        "warns_of_reification"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Uses a funny story to warn against reifying visualization practice into solid matter.",
+      "function_id": "UM_03",
+      "classification_evidence": "Reductio extension: Showing the absurdity of 'successful' visualization becoming a physical trap.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_04",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "reification_of_mind"
+      ],
+      "trap_notes": [
+        "Student treats mental horns as physical objects."
+      ],
+      "mechanism_shape": "embodied_contradiction",
+      "mechanism_comment": "Mental horns blocking physical door.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 47,
+        "reaction_label": "elaborates",
+        "evidence": "Sorry! I can't come out!",
+        "outcome_label": "success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    }
+  ],
+  "episode_overview": "This batch mixes the relentless deconstruction of U.G. Krishnamurti with the practical, often humorous instruction of Tulku Urgyen Rinpoche. U.G. continues to dismantle 'hope', 'spirituality', and the 'scientific method' via aggressive materialism and analogies (Horizon, Tape Recorder). Rinpoche addresses practical meditation issues (difficulty, visualization errors) by reframing 'difficulty' as 'habituation' and 'form' as secondary to 'essence'.",
+  "episode_insights": {
+    "key_pattern": "Goal Deconstruction (U.G.) vs. Practical Reframing (Rinpoche).",
+    "notes": [
+      "U.G. consistently identifies the *questioner* or the *goal* as the problem, rather than offering a solution (e.g., 'Peace' is a trap).",
+      "Rinpoche uses gentle analogies (Infant Rigpa) to normalize struggle, whereas U.G. uses aggressive analogies (Live Wire) to stop the struggle.",
+      "The 'Yamantaka Horns' story is a classic example of UM_03 (Reductio) used to correct practice errors."
+    ]
+  }
+}

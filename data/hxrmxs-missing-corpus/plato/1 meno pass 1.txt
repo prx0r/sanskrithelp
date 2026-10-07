@@ -1,0 +1,2925 @@
+{
+  "batch_source": "1 meno.txt",
+  "episodes": [
+    {
+      "episode_id": "meno_t01_t04_opening_ignorance_reset",
+      "source_text": "Plato, Meno",
+      "lineage": "Socratic",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "MENO",
+          "text": "Can you tell me, Socrates, can virtue be taught? Or is it not teachable but the result of practice? Or is it neither of these, but men possess it by nature or in some other way?",
+          "observable_student_behaviors": [
+            "asks_big_question",
+            "presents_menu_of_options"
+          ],
+          "behavior_tags": [
+            "instruction_seeking",
+            "closed_frame_assumption"
+          ],
+          "inferred_state": {
+            "reading": "confident_request_for_expert_answer",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 3,
+          "speaker": "MENO",
+          "text": "Do you really not know what virtue is, Socrates? Is that the report we are to take home about you?",
+          "observable_student_behaviors": [
+            "expresses_surprise",
+            "challenges_professed_ignorance"
+          ],
+          "behavior_tags": [
+            "status_expectation",
+            "mild_mockery"
+          ],
+          "inferred_state": {
+            "reading": "disbelieving_challenge",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "SOCRATES",
+          "text": "Before now, Meno, Thessalians had a high reputation among the Greeks and were admired for their horsemanship and their wealth, but now, it seems to me, they are also admired for their wisdom, especially your friend Aristippus of Larisa. The credit for this belongs to Gorgias, for when he came to that city he found that the leading Aleuadae, among whom Aristippus is one, loved him, but so did the other Thessalians. In particular, he has accustomed you to give bold and grand answers to any question one might ask, as experts do. In this city, however, there is a dearth of this kind of wisdom, Meno, and it may be that it is a good thing, for I certainly do not know how things are in other cities, but I have never come across anyone who did know, in your sense, whether virtue can be taught or not. I share your poverty in this matter; I am as poor as my fellow citizens, and I blame myself for my complete ignorance about virtue. When I do not know what something is, how could I know what qualities it possesses?",
+          "observable_teaching_actions": [
+            "praises_background_ironically",
+            "exposes_assumption_of_expertise",
+            "declares_ignorance"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "He dismantles Meno’s starting frame that Socrates (or anyone) already knows what virtue is and whether it’s teachable.",
+          "function_id": "UM_06",
+          "classification_evidence": "He removes the hidden constraint that there must be an expert who already knows the answer, resetting the space to shared ignorance.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "answer_hunting"
+          ],
+          "trap_notes": [
+            "Student assumes there is a ready-made answer held by a wise expert and tries to outsource the whole problem."
+          ],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Collapses the assumption that an authoritative knower already possesses the target knowledge.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 3,
+            "reaction_label": "pushes_back",
+            "evidence": "Do you really not know what virtue is, Socrates?",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "SOCRATES",
+          "text": "Not only that, my friend, but also that, as I believe, I have never yet met anyone else who did know.",
+          "observable_teaching_actions": [
+            "extends_ignorance_to_everyone",
+            "reinforces_aporia"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "He deepens the destabilization by denying that anyone at all has the settled knowledge Meno expects.",
+          "function_id": "UM_01",
+          "classification_evidence": "He forces a definition-level reset: if nobody knows what virtue is, all downstream questions about its properties are premature.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "status_projection"
+          ],
+          "trap_notes": [
+            "Meno projects expertise onto ‘wise men’; Socrates refuses the status and the epistemic projection together."
+          ],
+          "mechanism_shape": "threshold",
+          "mechanism_comment": "Marks a threshold: before any progress, they must accept shared ignorance as the starting point.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Meno tries to treat Socrates as an expert who can settle whether virtue is teachable, but Socrates resets the whole discussion by insisting that neither he nor anyone else even knows what virtue is.",
+      "episode_insights": {
+        "key_pattern": "Expert Question → Ignorance Declaration → Global Ignorance Extension",
+        "notes": [
+          "Socrates refuses the expert role as a prerequisite to genuine inquiry.",
+          "Shared ignorance is established as the only honest starting point for defining virtue."
+        ]
+      }
+    },
+    {
+      "episode_id": "meno_t05_t11_swarm_of_virtues_and_bees",
+      "source_text": "Plato, Meno",
+      "lineage": "Socratic",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "MENO",
+          "text": "Not at all. I say that there is virtue for a man and for a woman, and, as I said, for every action and every age, for every task of ours and for each of us, and the same, I think, Socrates, is true for wickedness.",
+          "observable_student_behaviors": [
+            "offers_plural_definition",
+            "generalizes_hastily"
+          ],
+          "behavior_tags": [
+            "example_pileup",
+            "category_blur"
+          ],
+          "inferred_state": {
+            "reading": "confident_in_plural_virtues",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 4,
+          "speaker": "MENO",
+          "text": "I think not.",
+          "observable_student_behaviors": [
+            "answers_question_briefly"
+          ],
+          "behavior_tags": [
+            "simple_assent"
+          ],
+          "inferred_state": {
+            "reading": "following_analogy",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.05
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "SOCRATES",
+          "text": "That is good, Meno. You have reminded me. I was actually expecting to become rich when you told me that virtue was the ability to rule over people, for I thought you had found some one virtue which applies to all, and that this is what made all the others virtues. I say this because, as you know, if you ask anyone what is the virtue of a bee and he answers that there are many and of all kinds, you would probably ask him: \"Do you mean that they are many and varied, insofar as they are bees? Or do they not differ in that for which you call them bees, but in something else, for example in their beauty, their size, or in some other such respect?\"",
+          "observable_teaching_actions": [
+            "praises_then_undercuts",
+            "introduces_analogy",
+            "points_to_missing_unity"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "He gently exposes that Meno has given a swarm of instances instead of a unifying account of what makes them all ‘virtue’.",
+          "function_id": "UM_01",
+          "classification_evidence": "He forces the distinction between listing many virtues and stating what all of them share, using the bee example as a definition-forcing device.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_03",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [
+            "example_confusion"
+          ],
+          "trap_notes": [
+            "Student confuses a set of role-specific excellences with the essence of virtue itself."
+          ],
+          "mechanism_shape": "comparison",
+          "mechanism_comment": "Compares ‘many virtues’ to ‘many bees’ to tease apart plurality of tokens from unity of type.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 4,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "I think not.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "swarm_of_bees",
+            "shape": "structural_analogy",
+            "canonical_candidate": false
+          }
+        },
+        {
+          "turn_index": 3,
+          "speaker": "SOCRATES",
+          "text": "It is the same in the case of the virtues. Even if they are many and of all kinds, all of them have one and the same form which makes them virtues, and it is right to look to this when one is asked what virtue is. Or do you not understand what I mean?",
+          "observable_teaching_actions": [
+            "maps_analogy_back",
+            "states_unity_requirement",
+            "checks_understanding"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "He uses the bee analogy to build a new requirement: that virtue, like ‘bee’, must have a common form across instances.",
+          "function_id": "RM_01",
+          "classification_evidence": "He structurally maps from the bee case to the virtue case, specifying the target model: a single form behind many manifestations.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "structural_analogy",
+          "mechanism_comment": "Transfers the ‘shared essence’ structure from bees to virtues.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 4,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "I think not.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 5,
+          "speaker": "SOCRATES",
+          "text": "So it is the same with the virtues.",
+          "observable_teaching_actions": [
+            "compresses_conclusion"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "He briefly reinforces the new standard they must now use in the rest of the inquiry.",
+          "function_id": "RM_03",
+          "classification_evidence": "He crystallizes the conceptual distinction: we seek ‘virtue itself’ (the unifying form), not a list of role-relative virtues.",
+          "register": {
+            "intensity": "PR_01",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "threshold",
+          "mechanism_comment": "Marks the new definitional threshold for what will count as an adequate answer.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Meno offers a swarm of different ‘virtues’ for different people, and Socrates uses the bee analogy to insist that they must find a single form common to all virtues.",
+      "episode_insights": {
+        "key_pattern": "Plural List → Analogy (Bees) → Demand for Common Form",
+        "notes": [
+          "Socrates distinguishes between many instances and the essence that unites them.",
+          "He teaches a meta-skill: acceptable definitions must capture what all cases share, not just list examples."
+        ]
+      }
+    },
+    {
+      "episode_id": "meno_t12_t18_health_strength_unity_training",
+      "source_text": "Plato, Meno",
+      "lineage": "Socratic",
+      "student_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "MENO",
+          "text": "I think so.",
+          "observable_student_behaviors": [
+            "assents_briefly"
+          ],
+          "behavior_tags": [
+            "tentative_agreement"
+          ],
+          "inferred_state": {
+            "reading": "going_along_with_analogy",
+            "confidence": 0.85
+          },
+          "annotator_uncertainty": 0.15
+        },
+        {
+          "turn_index": 4,
+          "speaker": "MENO",
+          "text": "Not at all.",
+          "observable_student_behaviors": [
+            "rejects_equation"
+          ],
+          "behavior_tags": [
+            "recognizes_category_difference"
+          ],
+          "inferred_state": {
+            "reading": "seeing_need_for_common_account",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "SOCRATES",
+          "text": "Take health, and strength, and size; do you think there is some one form in the same way in the case of all these?",
+          "observable_teaching_actions": [
+            "extends_analogy",
+            "probes_for_unity_sense"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "He builds on the previous analogy work to broaden Meno’s feel for ‘one form behind many cases’.",
+          "function_id": "RM_01",
+          "classification_evidence": "Maps the earlier bee/virtue pattern onto further examples (health, strength, size) to solidify the structural expectation.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "comparison",
+          "mechanism_comment": "Compares different domains (health, strength, size) to highlight the shared notion of a unifying form.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 2,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "I think so.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "SOCRATES",
+          "text": "So too, then, with virtue, even if it is of many kinds, all of them have one and the same form, which makes them virtues, and I suppose that he who does not know what that is, does not know what virtue is.",
+          "observable_teaching_actions": [
+            "applies_analogy_to_target",
+            "ties_unity_to_knowledge"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "He strengthens the requirement: knowledge of virtue means grasping its common form, not its many appearances.",
+          "function_id": "RM_03",
+          "classification_evidence": "Draws a conceptual distinction between knowing the common form versus knowing many particular instances; makes the former the standard for ‘knowing virtue’.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [
+            "fragmented_conception"
+          ],
+          "trap_notes": [
+            "Without unifying form, the student will keep re-offering fragmented rôle-based accounts as if they were the definition."
+          ],
+          "mechanism_shape": "threshold",
+          "mechanism_comment": "Defines a threshold for legitimate knowledge: grasp of the form, not just familiarity with instances.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 4,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "Not at all.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 5,
+          "speaker": "SOCRATES",
+          "text": "So it seems that we must first try to find out what virtue itself is, if we are to inquire properly into whether it can be taught or how it comes to be for men.",
+          "observable_teaching_actions": [
+            "lays_down_method",
+            "reframes_original_question"
+          ],
+          "phase": "META",
+          "phase_reason": "He now explicitly explains the correct order of inquiry: definition first, then questions about teachability.",
+          "function_id": "ME_03",
+          "classification_evidence": "He is not adding content about virtue itself, but explaining the method (first define, then investigate properties).",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_02",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "property_without_essence"
+          ],
+          "trap_notes": [
+            "Meno wants to jump straight to ‘teachability’ (a property) without grounding in what the thing is."
+          ],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Establishes a methodological causal chain: Definition → Justified inquiry into attributes.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "META"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Socrates uses further analogies (health, strength, size) to cement the idea that genuine knowledge of virtue requires grasping a single form, and he explicitly lays down the method: define virtue first, then ask if it is teachable.",
+      "episode_insights": {
+        "key_pattern": "Analogy Extension → Unity Criterion → Method Declaration",
+        "notes": [
+          "The conversation upgrades from a content question to a methodological one.",
+          "Socrates trains Meno to see that inquiry into properties presupposes a stable definition."
+        ]
+      }
+    },
+    {
+      "episode_id": "meno_t19_t23_rule_over_people_fragments_again",
+      "source_text": "Plato, Meno",
+      "lineage": "Socratic",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "MENO",
+          "text": "I think virtue, Socrates, is, as the poet says, \"to be able to rule over people.\" If you are seeking one virtue to cover all, this is it.",
+          "observable_student_behaviors": [
+            "proposes_definition",
+            "quotes_poet_as_authority"
+          ],
+          "behavior_tags": [
+            "authority_appeal",
+            "power_equation"
+          ],
+          "inferred_state": {
+            "reading": "confident_in_power_based_definition",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 4,
+          "speaker": "MENO",
+          "text": "No, by Zeus, I do not.",
+          "observable_student_behaviors": [
+            "rejects_implication",
+            "protects_intuition"
+          ],
+          "behavior_tags": [
+            "moral_revulsion",
+            "definition_stress"
+          ],
+          "inferred_state": {
+            "reading": "sensing_counterexample_tension",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "SOCRATES",
+          "text": "You mean for just men, do you not, Meno? For I say that the ability to rule over people is not virtue in children, or in slaves, or in many others.",
+          "observable_teaching_actions": [
+            "adds_qualification",
+            "raises_counterexamples"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "He disrupts Meno’s neat definition by showing that simple ‘rule over people’ misclassifies obvious cases (children, slaves).",
+          "function_id": "UM_02",
+          "classification_evidence": "He generates an internal tension: if ruling over people is ‘virtue’, children or slaves who rule would count as virtuous, which conflicts with ordinary judgment.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "overbroad_definition"
+          ],
+          "trap_notes": [
+            "Meno’s power-based account is extensionally too wide; Socrates uses social roles to show the mismatch."
+          ],
+          "mechanism_shape": "comparison",
+          "mechanism_comment": "Compares how the definition behaves across different social roles to reveal its overreach.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 4,
+            "reaction_label": "pushes_back",
+            "evidence": "No, by Zeus, I do not.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "SOCRATES",
+          "text": "So it seems it is not just any ruling, but ruling justly that you mean, if virtue is to be something good.",
+          "observable_teaching_actions": [
+            "extracts_hidden_qualification",
+            "ties_definition_to_goodness"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "He shows that to preserve Meno’s moral intuition, ‘rule’ must be narrowed to ‘just rule’, shrinking the original claim.",
+          "function_id": "UM_03",
+          "classification_evidence": "He concretizes the abstraction ‘rule over people’ into ‘rule justly’ to keep it aligned with the good, returning it from a raw power notion to a morally constrained one.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [
+            "category_conflation"
+          ],
+          "trap_notes": [
+            "Meno conflates political power with moral goodness; Socrates separates the two by inserting justice as a condition."
+          ],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Collapses the unconstrained ‘rule’ definition by revealing the need to constrain it with justice.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 4,
+            "reaction_label": "pushes_back",
+            "evidence": "No, by Zeus, I do not.",
+            "outcome_label": "partial_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 5,
+          "speaker": "SOCRATES",
+          "text": "But then, is it virtue you are defining, or a virtue—for example, justice—just as before you were not defining shape, but a shape?",
+          "observable_teaching_actions": [
+            "repeats_shape_analogy",
+            "forces_type_vs_token_distinction"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "He brings back the previous shape example to show that Meno has again given a species (justice) instead of the genus (virtue).",
+          "function_id": "UM_01",
+          "classification_evidence": "Definition forcing: he confronts Meno with the same structural error as before—defining a part as if it were the whole.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [
+            "part_whole_confusion"
+          ],
+          "trap_notes": [
+            "Student again mistakes one virtue (justice) for the essence of virtue itself."
+          ],
+          "mechanism_shape": "structural_analogy",
+          "mechanism_comment": "Maps ‘virtue vs a virtue’ onto ‘shape vs a shape’ to reveal the repeated structural mistake.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Meno defines virtue as the power to rule over people; Socrates shows this is too broad and then reveals that Meno has really singled out one virtue (just rule) rather than virtue itself.",
+      "episode_insights": {
+        "key_pattern": "Power Definition → Counterexamples → Justice Smuggled In → Part vs Whole Exposure",
+        "notes": [
+          "Socrates uses social counterexamples to stress-test Meno’s definition.",
+          "He replays the ‘shape vs a shape’ pattern to help Meno see his recurring structural mistake."
+        ]
+      }
+    },
+    {
+      "episode_id": "meno_t24_t30_shape_definition_demo",
+      "source_text": "Plato, Meno",
+      "lineage": "Socratic",
+      "student_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "MENO",
+          "text": "Certainly.",
+          "observable_student_behaviors": [
+            "simple_assent"
+          ],
+          "behavior_tags": [
+            "cooperative"
+          ],
+          "inferred_state": {
+            "reading": "willing_to_follow_example",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 4,
+          "speaker": "MENO",
+          "text": "Yes.",
+          "observable_student_behaviors": [
+            "confirms_understanding"
+          ],
+          "behavior_tags": [
+            "tracks_meta_point"
+          ],
+          "inferred_state": {
+            "reading": "beginning_to_grasp_method",
+            "confidence": 0.85
+          },
+          "annotator_uncertainty": 0.15
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "SOCRATES",
+          "text": "Let us take shape as an example, so that we will proceed in the same way. Someone like you, Meno, might be asked: \"What is shape?\" If he answered that it was roundness, and if the questioner then said, as I did: \"Do you mean that there is only this one shape or are there others?\" and he said that there are others, he might then be asked: \"Since there are other shapes, would you say that roundness is shape or a shape?\"",
+          "observable_teaching_actions": [
+            "poses_hypothetical_case",
+            "replays_definition_error",
+            "sets_up_training_example"
+          ],
+          "phase": "META",
+          "phase_reason": "He uses a hypothetical dialogue about shape to train the procedure of good defining, not to add new content about shape.",
+          "function_id": "ME_03",
+          "classification_evidence": "He explicitly uses the shape example as a didactic device for how to answer ‘What is X?’ questions correctly.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_04",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_02",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [
+            "monologue_tendency"
+          ],
+          "trap_notes": [
+            "Meno keeps giving speeches instead of tight definitions; Socrates counters with a dialogical training mini-scene."
+          ],
+          "mechanism_shape": "structural_analogy",
+          "mechanism_comment": "Uses the structure of a good definition exchange about shape to mirror what’s needed for virtue.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 2,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "Certainly.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "META",
+              "to": "META"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "SOCRATES",
+          "text": "So you see, Meno, that one must answer in terms that the questioner understands and accepts, not just give any fine-sounding answer one happens to have.",
+          "observable_teaching_actions": [
+            "states_definition_norm",
+            "warns_against_rhetorical_answers"
+          ],
+          "phase": "META",
+          "phase_reason": "He articulates a rule about the method of answering philosophical questions rather than about virtue itself.",
+          "function_id": "ME_01",
+          "classification_evidence": "He normalizes the need to adjust answers to the shared conceptual ground, framing it as proper procedure rather than personal criticism.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_02",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [
+            "rhetorical_fluency_trap"
+          ],
+          "trap_notes": [
+            "Student’s ability to speak impressively threatens to substitute for genuine, mutually-understood definition."
+          ],
+          "mechanism_shape": "threshold",
+          "mechanism_comment": "Marks the threshold between mere speech-making and genuine shared inquiry.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 4,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "Yes.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "META",
+              "to": "META"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 5,
+          "speaker": "SOCRATES",
+          "text": "Let us then practice with shape so that when we return to virtue, we will know how to seek its one common form rather than name one of its many appearances.",
+          "observable_teaching_actions": [
+            "links_example_back_to_target",
+            "sets_practice_goal"
+          ],
+          "phase": "META",
+          "phase_reason": "He makes the pedagogical plan explicit: use shape as a training ground for form-seeking before returning to virtue.",
+          "function_id": "ME_03",
+          "classification_evidence": "Method explanation: outlines the practice step (shape) and its purpose (improving the way they will then inquire into virtue).",
+          "register": {
+            "intensity": "PR_01",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_02",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Explains how practicing on shape will causally support better inquiry into virtue.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "META",
+              "to": "META"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Socrates uses a hypothetical mini-dialogue about ‘shape’ to demonstrate what a proper definition looks like and to train Meno away from giving impressive but structurally wrong answers.",
+      "episode_insights": {
+        "key_pattern": "Hypothetical Definition Case → Method Rule → Practice Plan",
+        "notes": [
+          "The focus is on method: how to answer ‘What is X?’ questions in a way that the interlocutor can test.",
+          "Socrates positions the shape exercise as a training ground for the later, more serious work on virtue."
+        ]
+      }
+    }
+  ]
+}
+{
+  "episodes": [
+    {
+      "episode_id": "meno_t31_t36_torpedo_fish_aporia_collapse",
+      "source_text": "Plato, Meno (Grube translation)",
+      "lineage": "Socratic",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "MENO",
+          "text": "Socrates, before I even met you I used to hear that you were always doubting yourself and making others doubt. Now it seems to me that you are simply bewitching and enchanting me, simply putting me under a spell, so that I am quite perplexed.",
+          "observable_student_behaviors": [
+            "complains_of_confusion",
+            "accuses_of_bewitchment"
+          ],
+          "behavior_tags": [
+            "aporia",
+            "projected_blame"
+          ],
+          "inferred_state": {
+            "reading": "overwhelmed_and_baffled",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 2,
+          "speaker": "MENO",
+          "text": "Indeed, if a joke is in order, you seem, in appearance and in every other way, to be like a flat torpedo fish, for it numbs anyone who comes close and touches it, and you seem to be doing something of the sort to me now, for my mind and my tongue are numb, and I have no answer to give you.",
+          "observable_student_behaviors": [
+            "introduces_metaphor",
+            "describes_numbness"
+          ],
+          "behavior_tags": [
+            "humorous_deflection",
+            "felt_paralysis"
+          ],
+          "inferred_state": {
+            "reading": "self_conscious_aporia",
+            "confidence": 0.92
+          },
+          "annotator_uncertainty": 0.08
+        },
+        {
+          "turn_index": 3,
+          "speaker": "MENO",
+          "text": "Yet I have made many speeches about virtue before large audiences and very good speeches as I thought, but now I cannot even say what it is.",
+          "observable_student_behaviors": [
+            "contrasts_past_fluency",
+            "admits_inability"
+          ],
+          "behavior_tags": [
+            "status_threat",
+            "loss_of_confidence"
+          ],
+          "inferred_state": {
+            "reading": "distressed_by_loss_of_rhetorical_control",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 4,
+          "speaker": "SOCRATES",
+          "text": "You are a rascal, Meno, and you nearly deceived me.",
+          "observable_teaching_actions": [
+            "lightly_rebukes",
+            "deflates_accusation_with_humor"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "He exposes that the real trick was Meno’s earlier rhetorical confidence, not Socrates’ questioning.",
+          "function_id": "UM_06",
+          "classification_evidence": "He calls Meno a rascal and points to attempted deception, undercutting the student’s self-image as straightforwardly wise.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [
+            "rhetorical_fluency_trap"
+          ],
+          "trap_notes": [
+            "Meno mistook the ability to speak at length for genuine knowledge; Socrates punctures this gently."
+          ],
+          "mechanism_shape": "none",
+          "mechanism_comment": "Not specified in Pass 1.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Meno complains that Socrates has numbed him like a torpedo fish and confesses he can no longer speak about virtue, while Socrates teasingly calls him a rascal for nearly deceiving him.",
+      "episode_insights": {
+        "key_pattern": "Aporia Complaint → Bewitchment Metaphor → Past Fluency vs Present Numbness → Gentle Rebuke",
+        "notes": [
+          "Socrates normalizes aporia and lightly exposes Meno’s previous confidence as part of the problem.",
+          "Humor is used to keep rapport while the student sits in confusion."
+        ]
+      }
+    },
+    {
+      "episode_id": "meno_t37_t41_pre_paradox_pivot",
+      "source_text": "Plato, Meno (Grube translation)",
+      "lineage": "Socratic",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "MENO",
+          "text": "Why so particularly, Socrates?",
+          "observable_student_behaviors": [
+            "asks_for_reason"
+          ],
+          "behavior_tags": [
+            "curiosity",
+            "mild_skepticism"
+          ],
+          "inferred_state": {
+            "reading": "wants_explanation_of_rebuke",
+            "confidence": 0.86
+          },
+          "annotator_uncertainty": 0.14
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "SOCRATES",
+          "text": "Because I know why you likened me to the torpedo fish.",
+          "observable_teaching_actions": [
+            "claims_understanding_of_motive"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "He signals that Meno’s metaphor was not neutral but served a defensive purpose.",
+          "function_id": "UM_05",
+          "classification_evidence": "By saying he knows the reason for the comparison, Socrates hints at the ego-defensive move behind it.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "ego_defense"
+          ],
+          "trap_notes": [
+            "Meno weaponizes the torpedo image to shift responsibility for his confusion away from himself."
+          ],
+          "mechanism_shape": "none",
+          "mechanism_comment": "Not specified in Pass 1.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "SOCRATES",
+          "text": "If I do numb you, it is because I myself am numb, and I do not possess wisdom; it is not that I am full of wisdom and cause others to be so; for I do not know what virtue is either.",
+          "observable_teaching_actions": [
+            "shares_ignorance",
+            "reframes_numbness_as_mutual"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "He rejects the sorcerer role and insists on shared ignorance as the ground of inquiry.",
+          "function_id": "UM_01",
+          "classification_evidence": "He explicitly denies having wisdom and repeats that he does not know what virtue is, continuing the definition reset.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [
+            "status_projection"
+          ],
+          "trap_notes": [
+            "The student keeps projecting expertise onto Socrates; Socrates insists on partnership in not-knowing."
+          ],
+          "mechanism_shape": "none",
+          "mechanism_comment": "Not specified in Pass 1.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "SOCRATES",
+          "text": "I am even more at a loss than you are, and so I share with you only my own perplexity.",
+          "observable_teaching_actions": [
+            "deepens_shared_aporia"
+          ],
+          "phase": "META",
+          "phase_reason": "He gives a meta-comment on the state of inquiry: all he can offer is shared perplexity.",
+          "function_id": "ME_03",
+          "classification_evidence": "He describes the epistemic situation rather than adding new content about virtue.",
+          "register": {
+            "intensity": "PR_01",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_02",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "none",
+          "mechanism_comment": "Not specified in Pass 1.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "META"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Socrates unpacks the torpedo-fish comparison, rejects the idea that he has hidden wisdom, and frames their relationship as shared perplexity.",
+      "episode_insights": {
+        "key_pattern": "Why Torpedo? → Motive Exposure → Shared Ignorance → Meta-Frame of Perplexity",
+        "notes": [
+          "Socrates blocks both demonization and idealization of himself as a knower.",
+          "He establishes aporia as a joint condition rather than a one-sided failure."
+        ]
+      }
+    },
+    {
+      "episode_id": "meno_t42_t47_menos_paradox_statement",
+      "source_text": "Plato, Meno (Grube translation)",
+      "lineage": "Socratic",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "MENO",
+          "text": "And how will you look for it, Socrates, when you do not know at all what it is? How will you aim to search for something you do not know? If you should meet with it, how will you know that this is the thing that you did not know?",
+          "observable_student_behaviors": [
+            "poses_paradox",
+            "challenges_possibility_of_inquiry"
+          ],
+          "behavior_tags": [
+            "skeptical_paralysis",
+            "conceptual_trap"
+          ],
+          "inferred_state": {
+            "reading": "intellectually_aggressive",
+            "confidence": 0.92
+          },
+          "annotator_uncertainty": 0.08
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "SOCRATES",
+          "text": "Do you realize what a debater’s argument you are bringing up, that a man cannot search either for what he knows or for what he does not know?",
+          "observable_teaching_actions": [
+            "labels_argument",
+            "defines_paradox_scope"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "He identifies the argument as an eristic move that would destroy inquiry altogether if accepted.",
+          "function_id": "UM_01",
+          "classification_evidence": "He calls it a debater’s argument and explicitly formulates its destructive form about knowing and not knowing.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "false_paradox"
+          ],
+          "trap_notes": [
+            "The student’s form of reasoning threatens to make inquiry impossible in principle."
+          ],
+          "mechanism_shape": "none",
+          "mechanism_comment": "Not specified in Pass 1.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "SOCRATES",
+          "text": "It makes a man idle, and is pleasant to hear by the ignorant, as it gives them an excuse for not searching.",
+          "observable_teaching_actions": [
+            "diagnoses_effect_on_motivation"
+          ],
+          "phase": "META",
+          "phase_reason": "He explains the practical impact of the paradox on inquiry rather than yet answering it.",
+          "function_id": "ME_02",
+          "classification_evidence": "He comments on how the argument functions as an excuse not to look, a meta-level observation about epistemic practice.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_02",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "rationalization"
+          ],
+          "trap_notes": [
+            "The paradox can be used to rationalize laziness in inquiry."
+          ],
+          "mechanism_shape": "none",
+          "mechanism_comment": "Not specified in Pass 1.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "META"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "SOCRATES",
+          "text": "We must not be persuaded by it, for it would make us idle and fainthearted.",
+          "observable_teaching_actions": [
+            "issues_normative_stance",
+            "guards_inquiry_motivation"
+          ],
+          "phase": "SELF-MAKING",
+          "phase_reason": "He prescribes a stance the inquirer must take toward such arguments to remain courageous.",
+          "function_id": "SM_02",
+          "classification_evidence": "He moves from description to prescription: ‘we must not be persuaded’ if we are to keep searching.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "none",
+          "mechanism_comment": "Not specified in Pass 1.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "META",
+              "to": "SELF-MAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Meno states the famous paradox that inquiry is impossible if one does not already know, and Socrates names it as a debater’s argument that would kill inquiry if accepted.",
+      "episode_insights": {
+        "key_pattern": "Paradox Stated → Labeled as Eristic → Practical Consequence → Normative Refusal",
+        "notes": [
+          "Socrates treats the paradox less as a refutation and more as a temptation toward intellectual laziness.",
+          "He begins to form the character stance required for philosophical inquiry."
+        ]
+      }
+    },
+
+    {
+      "episode_id": "meno_t48_t53_recollection_doctrine_unlocked",
+      "source_text": "Plato, Meno (Grube translation)",
+      "lineage": "Socratic",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "MENO",
+          "text": "What do you mean by this, Socrates? Do you really say that we do not learn, but that what we call learning is recollection?",
+          "observable_student_behaviors": [
+            "requests_clarification",
+            "questions_claim"
+          ],
+          "behavior_tags": [
+            "curious_challenge"
+          ],
+          "inferred_state": {
+            "reading": "puzzled_but_interested",
+            "confidence": 0.88
+          },
+          "annotator_uncertainty": 0.12
+        },
+        {
+          "turn_index": 3,
+          "speaker": "MENO",
+          "text": "Can you teach me that this is so, Socrates?",
+          "observable_student_behaviors": [
+            "asks_for_demonstration"
+          ],
+          "behavior_tags": [
+            "instruction_seeking"
+          ],
+          "inferred_state": {
+            "reading": "wants_evidence",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "SOCRATES",
+          "text": "I say that what we call learning is recollection, if one is to be persuaded of the argument you have put forward.",
+          "observable_teaching_actions": [
+            "states_doctrine",
+            "links_to_paradox"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "He introduces an alternative model of learning that preserves inquiry against Meno’s paradox.",
+          "function_id": "RM_03",
+          "classification_evidence": "He offers the recollection thesis as a way to reconcile not-knowing with the possibility of coming to know.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_02",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "none",
+          "mechanism_comment": "Not specified in Pass 1.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 3,
+            "reaction_label": "seeks_instruction",
+            "evidence": "Can you teach me that this is so, Socrates?",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "SOCRATES",
+          "text": "I can show you that you are likely to think that this is so, if only you are willing to follow me.",
+          "observable_teaching_actions": [
+            "promises_demonstration",
+            "invites_collaboration"
+          ],
+          "phase": "META",
+          "phase_reason": "He sets expectations about the forthcoming method (a demonstration) rather than arguing for the doctrine directly.",
+          "function_id": "ME_03",
+          "classification_evidence": "He frames the next steps as a joint demonstration that can lead to persuasion.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_02",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "none",
+          "mechanism_comment": "Not specified in Pass 1.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "META"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Socrates introduces the doctrine that learning is recollection as a way around Meno’s paradox and prepares Meno for a demonstrative proof.",
+      "episode_insights": {
+        "key_pattern": "Paradox Pressure → Recollection Thesis → Request for Proof → Promise of Demonstration",
+        "notes": [
+          "The conversation shifts from verbal paradox to an experiential proof via the slave boy.",
+          "Socrates positions recollection as a structural solution to the inquiry problem."
+        ]
+      }
+    },
+    {
+      "episode_id": "meno_t54_t60_meno_demands_proof_pre_slaveboy",
+      "source_text": "Plato, Meno (Grube translation)",
+      "lineage": "Socratic",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "MENO",
+          "text": "Yes, indeed I am persuaded, Socrates, but I want to hear how you say this happens.",
+          "observable_student_behaviors": [
+            "expresses_partial_persuasion",
+            "requests_explanation"
+          ],
+          "behavior_tags": [
+            "open_but_skeptical"
+          ],
+          "inferred_state": {
+            "reading": "ready_for_concrete_example",
+            "confidence": 0.88
+          },
+          "annotator_uncertainty": 0.12
+        },
+        {
+          "turn_index": 3,
+          "speaker": "MENO",
+          "text": "Certainly.",
+          "observable_student_behaviors": [
+            "assents_to_proposal"
+          ],
+          "behavior_tags": [
+            "cooperation"
+          ],
+          "inferred_state": {
+            "reading": "willing_to_participate",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "SOCRATES",
+          "text": "You know that one of our slaves is a boy born in the house of Meno.",
+          "observable_teaching_actions": [
+            "introduces_subject_for_demonstration"
+          ],
+          "phase": "META",
+          "phase_reason": "He sets up the conditions for an experiment to show recollection in action.",
+          "function_id": "ME_03",
+          "classification_evidence": "He is planning the demonstration rather than arguing directly about virtue.",
+          "register": {
+            "intensity": "PR_01",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_02",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "none",
+          "mechanism_comment": "Not specified in Pass 1.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 3,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "Certainly.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "META"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "SOCRATES",
+          "text": "Call him here then, so that I may show you on him.",
+          "observable_teaching_actions": [
+            "requests_resource_for_demo"
+          ],
+          "phase": "META",
+          "phase_reason": "He gives the procedural next step for running the recollection demonstration.",
+          "function_id": "ME_03",
+          "classification_evidence": "He is still configuring the demonstration environment with Meno’s cooperation.",
+          "register": {
+            "intensity": "PR_01",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_02",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "none",
+          "mechanism_comment": "Not specified in Pass 1.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "META",
+              "to": "META"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Meno says he is persuaded in principle by recollection but wants to see how it works, and Socrates sets up the slave boy experiment to demonstrate it.",
+      "episode_insights": {
+        "key_pattern": "Provisional Assent → Demand for Mechanism → Introduction of Slave Boy → Call for Demonstration",
+        "notes": [
+          "The dialogue transitions from abstract claim to concrete case study.",
+          "Socrates secures Meno’s active participation in staging the proof."
+        ]
+      }
+    },
+
+    {
+      "episode_id": "meno_t61_t66_slaveboy_square_first_attempt",
+      "source_text": "Plato, Meno (Grube translation)",
+      "lineage": "Socratic",
+      "student_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "SLAVE",
+          "text": "Yes.",
+          "observable_student_behaviors": [
+            "answers_yes_no_question"
+          ],
+          "behavior_tags": [
+            "simple_compliance"
+          ],
+          "inferred_state": {
+            "reading": "following_along",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.05
+        },
+        {
+          "turn_index": 4,
+          "speaker": "SLAVE",
+          "text": "Yes.",
+          "observable_student_behaviors": [
+            "answers_yes_no_question"
+          ],
+          "behavior_tags": [
+            "simple_compliance"
+          ],
+          "inferred_state": {
+            "reading": "accepts_basic_geometry_premise",
+            "confidence": 0.94
+          },
+          "annotator_uncertainty": 0.06
+        },
+        {
+          "turn_index": 6,
+          "speaker": "SLAVE",
+          "text": "Yes.",
+          "observable_student_behaviors": [
+            "answers_yes_no_question"
+          ],
+          "behavior_tags": [
+            "local_agreement"
+          ],
+          "inferred_state": {
+            "reading": "tracking_setup",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 8,
+          "speaker": "SLAVE",
+          "text": "Four.",
+          "observable_student_behaviors": [
+            "provides_numeric_answer"
+          ],
+          "behavior_tags": [
+            "basic_counting"
+          ],
+          "inferred_state": {
+            "reading": "confident_on_simple_fact",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.05
+        },
+        {
+          "turn_index": 10,
+          "speaker": "SLAVE",
+          "text": "Eight.",
+          "observable_student_behaviors": [
+            "provides_numeric_answer"
+          ],
+          "behavior_tags": [
+            "guesses_from_pattern"
+          ],
+          "inferred_state": {
+            "reading": "thinks_doubling_side_doubles_area",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "SOCRATES",
+          "text": "Come here, boy; you know that a square figure is like this?",
+          "observable_teaching_actions": [
+            "summons_student",
+            "checks_prior_knowledge"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "He begins constructing a new understanding by eliciting basic geometrical knowledge.",
+          "function_id": "RM_01",
+          "classification_evidence": "He uses a concrete case (the drawn square) to anchor the discussion.",
+          "register": {
+            "intensity": "PR_01",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "none",
+          "mechanism_comment": "Not specified in Pass 1.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 2,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "Yes.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "SOCRATES",
+          "text": "And that this is a square, having all these four sides equal?",
+          "observable_teaching_actions": [
+            "reinforces_definition"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "He solidifies the basic concept needed for the later contradiction.",
+          "function_id": "RM_01",
+          "classification_evidence": "He confirms equality of sides as part of the working concept of a square.",
+          "register": {
+            "intensity": "PR_01",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "none",
+          "mechanism_comment": "Not specified in Pass 1.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 4,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "Yes.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 5,
+          "speaker": "SOCRATES",
+          "text": "Now if this side is two feet and that two, how many feet will the whole be?",
+          "observable_teaching_actions": [
+            "poses_guided_question"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "He elicits the relation between side length and area as a step in the recollection process.",
+          "function_id": "RM_03",
+          "classification_evidence": "He prompts the boy to compute area from side length, building up the model.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "none",
+          "mechanism_comment": "Not specified in Pass 1.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 8,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "Four.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 7,
+          "speaker": "SOCRATES",
+          "text": "And suppose we try to make another square, double this in area, with all its sides equal like this one, how many feet will it be?",
+          "observable_teaching_actions": [
+            "sets_target_problem"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "He pushes the boy toward the naive doubling move that will later be shown to fail.",
+          "function_id": "UM_03",
+          "classification_evidence": "He brings in the double-area challenge to surface the boy’s mistaken assumption.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "linear_scaling_error"
+          ],
+          "trap_notes": [
+            "The boy implicitly assumes doubling side length doubles area."
+          ],
+          "mechanism_shape": "none",
+          "mechanism_comment": "Not specified in Pass 1.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 10,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "Eight.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Socrates begins the slave-boy demonstration, establishing basic facts about squares and leading the boy to assert that doubling the side will double the area.",
+      "episode_insights": {
+        "key_pattern": "Basic Definitions → Area Computation → Double-Area Challenge → Naive Doubling Answer",
+        "notes": [
+          "The boy’s confident yet mistaken inference sets up the later contradiction.",
+          "Socrates carefully scaffolds the geometry so the error is the boy’s own, not imposed from outside."
+        ]
+      }
+    }
+{
+  "episodes": [
+    {
+      "episode_id": "meno_t67_t72_slaveboy_double_square_error",
+      "source_text": "Plato, Meno (Grube translation)",
+      "lineage": "Socratic",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "SLAVE",
+          "text": "A side twice as long, surely.",
+          "observable_student_behaviors": [
+            "guesses_confidently"
+          ],
+          "behavior_tags": [
+            "linear_scaling_assumption",
+            "false_confidence"
+          ],
+          "inferred_state": {
+            "reading": "certain_that_doubling_side_doubles_area",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 3,
+          "speaker": "SLAVE",
+          "text": "Yes, it would be eight.",
+          "observable_student_behaviors": [
+            "reaffirms_guess"
+          ],
+          "behavior_tags": [
+            "pattern_completion",
+            "unquestioned_inference"
+          ],
+          "inferred_state": {
+            "reading": "trusting_own_inference",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "SOCRATES",
+          "text": "You say then that if we draw the side double, the square will be double?",
+          "observable_teaching_actions": [
+            "mirrors_answer_back",
+            "locks_in_commitment"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "He restates the slave’s assumption to make it explicit and testable.",
+          "function_id": "RM_03",
+          "classification_evidence": "He clarifies that the target is a square ‘double in area’, not just any larger one.",
+          "register": {
+            "intensity": "PR_01",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "comparison",
+          "mechanism_comment": "Aligns the verbal claim with the drawn configuration.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 3,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "Yes, it would be eight.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "The slave boy confidently asserts that a square with double the side length will have double the area, and Socrates carefully fixes that assumption in place to test it.",
+      "episode_insights": {
+        "key_pattern": "Naive Guess → Mirrored Back → Commitment to Error",
+        "notes": [
+          "Socrates makes the boy’s hidden assumption explicit before challenging it.",
+          "The boy’s confidence is important: the later contradiction will feel like his own discovery."
+        ]
+      }
+    },
+    {
+      "episode_id": "meno_t73_t78_area_contradiction_exposed",
+      "source_text": "Plato, Meno (Grube translation)",
+      "lineage": "Socratic",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "SLAVE",
+          "text": "Four times as large, Socrates.",
+          "observable_student_behaviors": [
+            "recognizes_mismatch"
+          ],
+          "behavior_tags": [
+            "surprised_realization"
+          ],
+          "inferred_state": {
+            "reading": "sees_contradiction_with_earlier_answer",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 3,
+          "speaker": "SLAVE",
+          "text": "No, by Zeus, it is not double.",
+          "observable_student_behaviors": [
+            "corrects_self",
+            "rejects_prior_belief"
+          ],
+          "behavior_tags": [
+            "self_correction",
+            "aporia_on_specific_point"
+          ],
+          "inferred_state": {
+            "reading": "taken_aback_by_own_error",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "SOCRATES",
+          "text": "If the side has become double, does not the whole contain four of the original squares rather than two?",
+          "observable_teaching_actions": [
+            "points_to_diagram",
+            "counts_sub_squares"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "He uses the drawing to refute the boy’s earlier assumption by simple counting.",
+          "function_id": "UM_03",
+          "classification_evidence": "He grounds the contradiction in a concrete count of unit squares, not abstract algebra.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "linear_scaling_error"
+          ],
+          "trap_notes": [
+            "The boy assumed area scales linearly with side length; the diagram reveals quadratic scaling."
+          ],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "The supposed ‘double square’ is shown to satisfy contradictory constraints (double vs quadruple).",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 3,
+            "reaction_label": "confused",
+            "evidence": "No, by Zeus, it is not double.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Socrates shows that doubling the side produces a square four times the area, forcing the slave boy to abandon his initial ‘double’ answer.",
+      "episode_insights": {
+        "key_pattern": "Diagram Check → Counting → Contradiction → Local Aporia",
+        "notes": [
+          "A simple visual count is enough to break a deeply held but naive scaling intuition.",
+          "Aporia is localized: the boy now knows that his previous rule is wrong, but not what the right rule is."
+        ]
+      }
+    },
+    {
+      "episode_id": "meno_t79_t85_geometric_search_initiated",
+      "source_text": "Plato, Meno (Grube translation)",
+      "lineage": "Socratic",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "SLAVE",
+          "text": "I do not know, Socrates.",
+          "observable_student_behaviors": [
+            "admits_ignorance"
+          ],
+          "behavior_tags": [
+            "aporia",
+            "sincere_confession"
+          ],
+          "inferred_state": {
+            "reading": "genuinely_unsure_about_how_to_get_double_square",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.05
+        },
+        {
+          "turn_index": 3,
+          "speaker": "SLAVE",
+          "text": "It seems to me that it is no longer two or four.",
+          "observable_student_behaviors": [
+            "rules_out_previous_options"
+          ],
+          "behavior_tags": [
+            "negative_knowledge",
+            "search_state"
+          ],
+          "inferred_state": {
+            "reading": "aware_of_constraints_but_lacking_solution",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "SOCRATES",
+          "text": "You see now, boy, that you were not right before when you thought you knew. You are now in a better state about this matter: you are perplexed.",
+          "observable_teaching_actions": [
+            "names_aporia",
+            "reframes_confusion_as_progress"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "He emphasizes the transition from false certainty to acknowledged ignorance.",
+          "function_id": "UM_06",
+          "classification_evidence": "He explicitly contrasts previous ‘knowing’ with present perplexity as an improvement.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_02",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [
+            "illusion_of_knowledge"
+          ],
+          "trap_notes": [
+            "The boy’s earlier confidence masked ignorance; Socrates uses aporia to break that illusion."
+          ],
+          "mechanism_shape": "threshold",
+          "mechanism_comment": "Marks the threshold between false knowledge and honest not-knowing.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 3,
+            "reaction_label": "conceptual_concession",
+            "evidence": "It seems to me that it is no longer two or four.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "After recognizing his mistake, the slave boy openly admits he does not know the side that would give a double-area square, and Socrates presents this aporia as an advance.",
+      "episode_insights": {
+        "key_pattern": "Error Seen → Ignorance Admitted → Aporia Reframed as Progress",
+        "notes": [
+          "Socrates highlights that knowing you don’t know is epistemic progress.",
+          "This prepares the boy to engage in genuine search rather than defaulting to guesses."
+        ]
+      }
+    },
+    {
+      "episode_id": "meno_t86_t92_diagonal_as_key_insight",
+      "source_text": "Plato, Meno (Grube translation)",
+      "lineage": "Socratic",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "SLAVE",
+          "text": "Yes, they are equal, each of them.",
+          "observable_student_behaviors": [
+            "recognizes_equal_subsquares"
+          ],
+          "behavior_tags": [
+            "following_visual_argument"
+          ],
+          "inferred_state": {
+            "reading": "tracking_equality_of_smaller_squares",
+            "confidence": 0.92
+          },
+          "annotator_uncertainty": 0.08
+        },
+        {
+          "turn_index": 3,
+          "speaker": "SLAVE",
+          "text": "Yes, by Zeus, Socrates, it is double.",
+          "observable_student_behaviors": [
+            "exclaims_recognition",
+            "endorses_new_solution"
+          ],
+          "behavior_tags": [
+            "insight_moment",
+            "joyful_agreement"
+          ],
+          "inferred_state": {
+            "reading": "experiencing_clear_geometric_insight",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.05
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "SOCRATES",
+          "text": "Then the figure formed on this diagonal contains four of these small equal squares, does it not, and is thus double the first?",
+          "observable_teaching_actions": [
+            "highlights_diagonal",
+            "guides_area_count"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "He offers a new construction—the square on the diagonal—that satisfies the double-area requirement.",
+          "function_id": "RM_01",
+          "classification_evidence": "He maps the problem into a new configuration where the right answer becomes visible.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_02",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "structural_analogy",
+          "mechanism_comment": "Uses the diagonal to relate the original square to a new one composed of equal parts.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 3,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "Yes, by Zeus, Socrates, it is double.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Socrates leads the slave boy to see that the square constructed on the diagonal of the original contains four of the small squares and so has double the area.",
+      "episode_insights": {
+        "key_pattern": "New Construction (Diagonal) → Equal Parts Noticed → Double Area Seen",
+        "notes": [
+          "The boy experiences a genuine ‘aha’ rather than simply being told the answer.",
+          "Socrates’ construction respects the boy’s earlier commitments while revealing a new pattern."
+        ]
+      }
+    },
+    {
+      "episode_id": "meno_t93_t98_slaveboy_confirms_double_square",
+      "source_text": "Plato, Meno (Grube translation)",
+      "lineage": "Socratic",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "SLAVE",
+          "text": "It is on the diagonal, Socrates.",
+          "observable_student_behaviors": [
+            "states_solution_in_own_words"
+          ],
+          "behavior_tags": [
+            "articulated_understanding"
+          ],
+          "inferred_state": {
+            "reading": "confident_about_diagonal_solution",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.05
+        },
+        {
+          "turn_index": 3,
+          "speaker": "SLAVE",
+          "text": "Yes, certainly.",
+          "observable_student_behaviors": [
+            "confirms_generalization"
+          ],
+          "behavior_tags": [
+            "stabilized_true_belief"
+          ],
+          "inferred_state": {
+            "reading": "firm_on_new_geometric_relationship",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "SOCRATES",
+          "text": "From what has been said, can we now say that the square of double area is formed on the diagonal of the original?",
+          "observable_teaching_actions": [
+            "elicits_summary",
+            "tests_retention"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "He consolidates the boy’s insight by having him state the result.",
+          "function_id": "RM_03",
+          "classification_evidence": "He moves from stepwise reasoning to a compact statement of the solution.",
+          "register": {
+            "intensity": "PR_01",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "threshold",
+          "mechanism_comment": "Marks the transition from local insight to a stable grasp of the general statement.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 3,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "Yes, certainly.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "The slave boy is now able to say in his own words that the square double in area is the one built on the diagonal of the original square.",
+      "episode_insights": {
+        "key_pattern": "Guided Reasoning → Student Summary → Stabilized Understanding",
+        "notes": [
+          "Socrates ensures the boy’s insight is not merely momentary but can be restated.",
+          "The exercise models how to move from worked example to compact principle."
+        ]
+      }
+    },
+    {
+      "episode_id": "meno_t99_t104_socrates_explains_recollection_in_action",
+      "source_text": "Plato, Meno (Grube translation)",
+      "lineage": "Socratic",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "MENO",
+          "text": "It seems so to me, Socrates.",
+          "observable_student_behaviors": [
+            "agrees_with_diagnosis"
+          ],
+          "behavior_tags": [
+            "recognizes_recollection_pattern"
+          ],
+          "inferred_state": {
+            "reading": "impressed_by_demonstration",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "SOCRATES",
+          "text": "Do you see, Meno, what advances he has made in his recollection? At first he did not know what the side of the double square is, and now he knows, though nobody has taught him; he has only been asked questions.",
+          "observable_teaching_actions": [
+            "draws_meta_lesson",
+            "points_to_method_used"
+          ],
+          "phase": "META",
+          "phase_reason": "He steps back from the geometry to explain what the demonstration shows about learning.",
+          "function_id": "ME_03",
+          "classification_evidence": "He explicitly uses the slave-boy example as a model of recollection, commenting on process rather than content.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_02",
+            "meta_mode": "MM_02",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Connects question-and-answer method to the awakening of latent knowledge.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 1,
+            "reaction_label": "conceptual_concession",
+            "evidence": "It seems so to me, Socrates.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "META"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Socrates explains to Meno that the slave boy’s progress, achieved solely through questioning, illustrates the doctrine of recollection.",
+      "episode_insights": {
+        "key_pattern": "Concrete Example → Meta-Explanation → Meno’s Acceptance",
+        "notes": [
+          "The geometric episode is explicitly reframed as epistemological evidence.",
+          "Meno is invited to see questioning itself as a way of drawing out latent understanding."
+        ]
+      }
+    },
+    {
+      "episode_id": "meno_t105_t110_inquiry_requires_effort_courage",
+      "source_text": "Plato, Meno (Grube translation)",
+      "lineage": "Socratic",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "MENO",
+          "text": "It appears, Socrates, that it is as you say.",
+          "observable_student_behaviors": [
+            "affirms_general_principle"
+          ],
+          "behavior_tags": [
+            "intellectual_alignment"
+          ],
+          "inferred_state": {
+            "reading": "convinced_in_principle_about_recollection",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "SOCRATES",
+          "text": "We must therefore take heart and not accept that idle argument of yours, for it would make us lazy; instead we must be eager to search out what we do not know.",
+          "observable_teaching_actions": [
+            "issues_call_to_courage",
+            "rejects_idling_argument"
+          ],
+          "phase": "SELF-MAKING",
+          "phase_reason": "He prescribes a courageous attitude toward inquiry in light of recollection.",
+          "function_id": "SM_02",
+          "classification_evidence": "He turns a theoretical point into a practical stance the inquirer must adopt.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_02",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "fainthearted_inquiry"
+          ],
+          "trap_notes": [
+            "Without courage, the earlier paradox would still function as an excuse not to search."
+          ],
+          "mechanism_shape": "threshold",
+          "mechanism_comment": "Defines the character condition required for ongoing philosophical search.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 1,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "It appears, Socrates, that it is as you say.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "META",
+              "to": "SELF-MAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Using the recollection demonstration, Socrates urges Meno to reject arguments that make inquiry impossible and to adopt a courageous attitude toward searching.",
+      "episode_insights": {
+        "key_pattern": "Theory of Recollection → Practical Stance → Rejection of Laziness",
+        "notes": [
+          "Epistemology is immediately tied to character: courage is needed to pursue what can be recollected.",
+          "Socrates uses Meno’s own paradox as a foil for the required attitude."
+        ]
+      }
+    },
+    {
+      "episode_id": "meno_t111_t117_virtue_teachable_setup",
+      "source_text": "Plato, Meno (Grube translation)",
+      "lineage": "Socratic",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "MENO",
+          "text": "I agree that if virtue is a kind of knowledge, it would be teachable.",
+          "observable_student_behaviors": [
+            "accepts_conditional"
+          ],
+          "behavior_tags": [
+            "conditional_reasoning"
+          ],
+          "inferred_state": {
+            "reading": "on_board_with_if_then_structure",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 3,
+          "speaker": "MENO",
+          "text": "So then, must we not see whether virtue is knowledge or something else?",
+          "observable_student_behaviors": [
+            "echoes_method",
+            "pushes_next_step"
+          ],
+          "behavior_tags": [
+            "internalized_procedure"
+          ],
+          "inferred_state": {
+            "reading": "motivated_to_apply_method_to_virtue",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "SOCRATES",
+          "text": "We have at least agreed on this—that virtue, if it is knowledge, will be teachable, and if it is not knowledge, it will not be teachable.",
+          "observable_teaching_actions": [
+            "frames_biconditional",
+            "clarifies_task"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "He sets up a clear conditional structure to guide the next stage of the argument.",
+          "function_id": "RM_03",
+          "classification_evidence": "He organizes the discussion of teachability around the status of virtue as knowledge.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "topic_drift"
+          ],
+          "trap_notes": [
+            "The conditional keeps them from drifting away from the definitional core."
+          ],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Links nature of virtue (knowledge or not) to its teachability.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 3,
+            "reaction_label": "seeks_instruction",
+            "evidence": "So then, must we not see whether virtue is knowledge or something else?",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "SELF-MAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Socrates and Meno agree that if virtue is a kind of knowledge it will be teachable, and they set up the next step: determining whether virtue is knowledge.",
+      "episode_insights": {
+        "key_pattern": "Teachability Question → Conditional Framing → Method-Driven Next Step",
+        "notes": [
+          "Teachability is tied tightly to the epistemic status of virtue.",
+          "Meno now articulates the method himself, showing internalization of the procedure."
+        ]
+      }
+    },
+    {
+      "episode_id": "meno_t118_t124_knowledge_vs_true_belief_daedalus",
+      "source_text": "Plato, Meno (Grube translation)",
+      "lineage": "Socratic",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "MENO",
+          "text": "I do not understand, Socrates, what you mean by saying that true opinion is not less useful than knowledge.",
+          "observable_student_behaviors": [
+            "expresses_puzzle",
+            "requests_distinction"
+          ],
+          "behavior_tags": [
+            "conceptual_confusion"
+          ],
+          "inferred_state": {
+            "reading": "uncertain_about_difference_between_knowledge_and_true_belief",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 3,
+          "speaker": "MENO",
+          "text": "Yes, it seems so to me now.",
+          "observable_student_behaviors": [
+            "accepts_analogy"
+          ],
+          "behavior_tags": [
+            "grasp_of_distinction"
+          ],
+          "inferred_state": {
+            "reading": "convinced_by_daedalus_analogy",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "SOCRATES",
+          "text": "True opinions, as long as they stay in place, are a fine thing and do all the good that knowledge does, but they are not willing to stay for long; they must be tied down by an account of the reason why. This tying down is recollection, and when they are tied, they become knowledge. You might compare them to the statues of Daedalus: if they are not tied down, they run away; if they are tied, they stay.",
+          "observable_teaching_actions": [
+            "distinguishes_states",
+            "introduces_metaphor"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "He builds a new conceptual model in which knowledge is true belief plus explanatory tether.",
+          "function_id": "RM_05",
+          "classification_evidence": "He upgrades Meno’s frame by embedding the difference in a vivid statue analogy.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_03",
+            "phenomenological_depth": "PD_02",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [
+            "state_confusion"
+          ],
+          "trap_notes": [
+            "Without a distinction, Meno cannot track why some guidance is stable and some is not."
+          ],
+          "mechanism_shape": "structural_analogy",
+          "mechanism_comment": "Maps the stability of knowledge to tethered statues vs wandering ones.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 3,
+            "reaction_label": "conceptual_concession",
+            "evidence": "Yes, it seems so to me now.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Socrates uses the Daedalus statue analogy to explain that knowledge is true belief tied down by a reason, while true belief alone is unstable.",
+      "episode_insights": {
+        "key_pattern": "Puzzled Question → Knowledge/Belief Distinction → Daedalus Analogy → Acceptance",
+        "notes": [
+          "The distinction is crucial for later talk about whether virtue depends on knowledge or mere correct opinion.",
+          "The metaphor makes an abstract epistemic difference experientially graspable."
+        ]
+      }
+    },
+    {
+      "episode_id": "meno_t125_t130_anytus_enters_teachability_pressure",
+      "source_text": "Plato, Meno (Grube translation)",
+      "lineage": "Socratic",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "ANYTUS",
+          "text": "You seem, Socrates, to have an easy way of speaking ill of people.",
+          "observable_student_behaviors": [
+            "criticizes_tone"
+          ],
+          "behavior_tags": [
+            "status_defense",
+            "moral_disapproval"
+          ],
+          "inferred_state": {
+            "reading": "suspicious_of_socrates_attitude",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 3,
+          "speaker": "ANYTUS",
+          "text": "I say that any Athenian gentleman would be better at making another gentleman than any of the sophists.",
+          "observable_student_behaviors": [
+            "asserts_alternative",
+            "appeals_to_tradition"
+          ],
+          "behavior_tags": [
+            "elite_loyalty",
+            "anti_sophist_bias"
+          ],
+          "inferred_state": {
+            "reading": "defensive_of_political_class",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "SOCRATES",
+          "text": "My dear Anytus, you are a gentleman yourself and your family is so, but you are angry with me before you have found out what we are discussing. We are inquiring whether virtue is teachable.",
+          "observable_teaching_actions": [
+            "soothes_face",
+            "restates_question"
+          ],
+          "phase": "META",
+          "phase_reason": "He tries to de-escalate and bring Anytus back to the shared topic.",
+          "function_id": "ME_01",
+          "classification_evidence": "He clarifies the focus of the discussion instead of immediately counterattacking.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_02",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "topic_derailment"
+          ],
+          "trap_notes": [
+            "Anytus reacts to perceived insult rather than tracking the inquiry.",
+            "Socrates tries to keep the conversation anchored to teachability."
+          ],
+          "mechanism_shape": "source_tracing",
+          "mechanism_comment": "Traces back to the original question they meant to pursue.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 3,
+            "reaction_label": "pushes_back",
+            "evidence": "I say that any Athenian gentleman would be better...",
+            "outcome_label": "partial_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "META"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Anytus enters, bristling at Socrates’ remarks about sophists, and Socrates attempts to frame the encounter as a joint inquiry into whether virtue is teachable.",
+      "episode_insights": {
+        "key_pattern": "New Interlocutor → Status Offense → Meta-Reframing of Topic",
+        "notes": [
+          "Socrates recognizes the political charge in Anytus’ reaction and responds gently.",
+          "The question of who teaches virtue becomes entangled with class loyalty and anti-sophist sentiment."
+        ]
+      }
+    },
+    {
+      "episode_id": "meno_t131_t136_anytus_triggered_sophist_hatred",
+      "source_text": "Plato, Meno (Grube translation)",
+      "lineage": "Socratic",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "ANYTUS",
+          "text": "By Heracles, Socrates, it is easy to see that no city can endure if it believes such men.",
+          "observable_student_behaviors": [
+            "expresses_outrage",
+            "warns_of_political_danger"
+          ],
+          "behavior_tags": [
+            "moral_panic",
+            "anti_sophist_rhetoric"
+          ],
+          "inferred_state": {
+            "reading": "alarmed_by_sophist_influence",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 3,
+          "speaker": "ANYTUS",
+          "text": "I would advise you to be careful, Socrates; it is perhaps easier to harm men than to benefit them in a city.",
+          "observable_student_behaviors": [
+            "issues_warning"
+          ],
+          "behavior_tags": [
+            "veiled_threat",
+            "civic_concern"
+          ],
+          "inferred_state": {
+            "reading": "angered_but_self_controlled",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "SOCRATES",
+          "text": "Do you think, Anytus, that the sophists are the only people who corrupt our young, or do those who claim to be respectable gentlemen also do so, when they are unable to make their own sons better?",
+          "observable_teaching_actions": [
+            "poses_counter_question",
+            "extends_critique_to_elite"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "He challenges Anytus’ one-sided condemnation of sophists by pointing to failures among ‘respectable’ citizens.",
+          "function_id": "UM_02",
+          "classification_evidence": "He uses Anytus’ own standards about raising sons to destabilize his sweeping accusation.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "scapegoating"
+          ],
+          "trap_notes": [
+            "Anytus wants to locate all corruption in one outgroup; Socrates widens the lens."
+          ],
+          "mechanism_shape": "comparison",
+          "mechanism_comment": "Compares sophists and elites on their actual outcomes with youths.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 3,
+            "reaction_label": "defensive",
+            "evidence": "I would advise you to be careful, Socrates...",
+            "outcome_label": "partial_success",
+            "phase_shift": {
+              "from": "META",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Anytus reacts angrily to Socrates’ critique of sophists and the elite, warning Socrates that such talk is dangerous.",
+      "episode_insights": {
+        "key_pattern": "Moral Outrage → Counterexample Question → Defensive Warning",
+        "notes": [
+          "Socrates refuses the simple villain narrative about sophists.",
+          "Political danger is thematized: questioning the city’s educators is itself risky."
+        ]
+      }
+    },
+    {
+      "episode_id": "meno_t137_t142_anytus_exits_in_anger",
+      "source_text": "Plato, Meno (Grube translation)",
+      "lineage": "Socratic",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "ANYTUS",
+          "text": "You seem to speak badly of many people, Socrates; I think it will not be good for you if you will allow me to give you some advice.",
+          "observable_student_behaviors": [
+            "reiterates_warning",
+            "prepares_to_withdraw"
+          ],
+          "behavior_tags": [
+            "offended_exit"
+          ],
+          "inferred_state": {
+            "reading": "closed_off_to_further_argument",
+            "confidence": 0.92
+          },
+          "annotator_uncertainty": 0.08
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "SOCRATES",
+          "text": "You are angry, dear Anytus, but if you were willing to be calm, we could benefit together by examining these matters.",
+          "observable_teaching_actions": [
+            "names_anger",
+            "offers_joint_benefit"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "He points to Anytus’ emotional state as the block to inquiry.",
+          "function_id": "UM_05",
+          "classification_evidence": "He tries to shift focus from insult to shared investigation, but the move fails.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "affective_block"
+          ],
+          "trap_notes": [
+            "Anger shuts down the space for examination despite Socrates’ invitation."
+          ],
+          "mechanism_shape": "source_tracing",
+          "mechanism_comment": "Traces the breakdown of dialogue to emotional reactivity rather than argument quality.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "failure",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Anytus departs in anger after warning Socrates, who responds by calmly pointing out that anger prevents mutual benefit from examination.",
+      "episode_insights": {
+        "key_pattern": "Final Warning → Calm Response → Breakdown of Dialogue",
+        "notes": [
+          "Not all interlocutors stay in the game; affect can terminate inquiry.",
+          "Socrates still frames the possibility of shared benefit, even as Anytus walks away."
+        ]
+      }
+    },
+    {
+      "episode_id": "meno_t143_t149_no_teachers_of_virtue_in_athens",
+      "source_text": "Plato, Meno (Grube translation)",
+      "lineage": "Socratic",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "MENO",
+          "text": "It seems to me, Socrates, that there are no teachers of virtue.",
+          "observable_student_behaviors": [
+            "draws_conclusion"
+          ],
+          "behavior_tags": [
+            "generalization_from_cases"
+          ],
+          "inferred_state": {
+            "reading": "persuaded_by_failure_of_candidates",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "SOCRATES",
+          "text": "We have found no one, it seems—neither sophists nor orators nor the so-called good men themselves—who can show that they make others virtuous, though they are themselves virtuous, if indeed they are.",
+          "observable_teaching_actions": [
+            "summarizes_search",
+            "underscores_negative_result"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "He reinforces the conclusion that recognized groups fail as teachers of virtue.",
+          "function_id": "UM_01",
+          "classification_evidence": "He recaps the investigation as a series of failed candidates.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "authority_assumption"
+          ],
+          "trap_notes": [
+            "The conversation shows that authority and virtue do not automatically imply teaching ability."
+          ],
+          "mechanism_shape": "comparison",
+          "mechanism_comment": "Compares multiple classes of supposed teachers and finds them wanting.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 1,
+            "reaction_label": "conceptual_concession",
+            "evidence": "It seems to me, Socrates, that there are no teachers of virtue.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "After reviewing the evidence, Meno and Socrates agree that there appear to be no reliable teachers of virtue in Athens.",
+      "episode_insights": {
+        "key_pattern": "Survey of Candidates → Systematic Failure → Negative Conclusion",
+        "notes": [
+          "The negative result destabilizes any naive expectation of finding ‘virtue experts’.",
+          "This sets up the remaining puzzle about how virtue, if it exists, comes to people at all."
+        ]
+      }
+    },
+    {
+      "episode_id": "meno_t150_t156_final_paradox_and_recommitment_to_inquiry",
+      "source_text": "Plato, Meno (Grube translation)",
+      "lineage": "Socratic",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "MENO",
+          "text": "Then are we to say, Socrates, that virtue comes to those who possess it not by teaching but by some other way?",
+          "observable_student_behaviors": [
+            "poses_residual_question"
+          ],
+          "behavior_tags": [
+            "puzzled_summary"
+          ],
+          "inferred_state": {
+            "reading": "uneasy_about_divine_luck_answer",
+            "confidence": 0.88
+          },
+          "annotator_uncertainty": 0.12
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "SOCRATES",
+          "text": "If there are no teachers of virtue, it is not by knowledge that virtuous men are virtuous. It looks rather as if true opinion guides them, like a gift from the gods, until they are tied down by an account—if they ever are. We have not found what virtue itself is, but we must not give up searching for it.",
+          "observable_teaching_actions": [
+            "offers_tentative_account",
+            "reconnects_to_true_opinion",
+            "reaffirms_search"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "He proposes a tentative synthesis linking virtue to true opinion and divine favor.",
+          "function_id": "RM_05",
+          "classification_evidence": "He integrates earlier distinctions (knowledge vs true belief) into a provisional explanation.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_02",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [
+            "premature_closure"
+          ],
+          "trap_notes": [
+            "There is a temptation to treat the ‘divine gift’ line as a final answer; Socrates resists this by stressing continued inquiry."
+          ],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Links absence of teachers → absence of knowledge → role of true opinion and divinity → need for ongoing search.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "partial_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Socrates closes by suggesting that virtue seems to arise from true opinion aided by something like divine favor, while insisting that the real nature of virtue still needs to be found.",
+      "episode_insights": {
+        "key_pattern": "No Teachers → Divine-Gift Hypothesis → Return to True Opinion → Call to Keep Searching",
+        "notes": [
+          "The dialogue ends on an acknowledged incompleteness, not a tidy solution.",
+          "A stable commitment to inquiry is treated as more important than possessing a final answer."
+        ]
+      }
+    }
+  ]
+}
+

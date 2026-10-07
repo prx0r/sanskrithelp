@@ -1,0 +1,1904 @@
+{
+  "episodes": [
+    {
+      "episode_id": "discourses_b1_c1_grammar_music_rationality",
+      "source_text": "The Discourses by Epictetus, Book 1",
+      "lineage": "Stoic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Epictetus",
+          "text": "How far does the grammatic art possess the contemplating power?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Interlocutor",
+          "text": "As far as forming a judgement about what is written and spoken."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Epictetus",
+          "text": "And how far music?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Interlocutor",
+          "text": "As far as judging about melody."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Epictetus",
+          "text": "Does either of them then contemplate itself?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Interlocutor",
+          "text": "By no means."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Epictetus",
+          "text": "But when you must write something to your friend, grammar will tell you what words you must write; but whether you should write or not, grammar will not tell you. And so it is with music as to musical sounds; but whether you should sing at the present time and play on the lute, or do neither, music will not tell you."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Interlocutor",
+          "text": "What faculty then will tell you?"
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Epictetus",
+          "text": "That which contemplates both itself and all other things."
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Interlocutor",
+          "text": "And what is this faculty?"
+        },
+        {
+          "turn_index": 11,
+          "speaker": "Epictetus",
+          "text": "The rational faculty; for this is the only faculty that we have received which examines itself, what it is, and what power it has, and what is the value of this gift, and examines all other faculties: for what else is there which tells us that golden things are beautiful, for they do not say so themselves?"
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "The interlocutor is following the inquiry but lacks the distinction between technical skills (grammar/music) and the governing faculty.",
+        "end_state_desc": "The interlocutor is led to identify the rational faculty as the unique self-contemplating power.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Establishing a hierarchy of faculties by distinguishing between 'how to do' (craft) and 'whether to do' (judgment).",
+        "what_model_should_learn": [
+          "How to use specific examples of arts (grammar, music) to define the limits of technical knowledge.",
+          "How to introduce a meta-faculty (reason) as the necessary evaluator of other faculties."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Book 1, Chapter 1",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "discourses_b1_c2_chamber_pot",
+      "source_text": "The Discourses by Epictetus, Book 1",
+      "lineage": "Stoic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Epictetus",
+          "text": "For to one man it is consistent with reason to hold a chamber pot for another, and to look to this only, that if he does not hold it, he will receive stripes, and he will not receive his food: but if he shall hold the pot, he will not suffer anything hard or disagreeable. But to another man not only does the holding of a chamber pot appear intolerable for himself, but intolerable also for him to allow another to do this office for him."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Interlocutor",
+          "text": "If, then, you ask me whether you should hold the chamber pot or not"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Epictetus",
+          "text": "I shall say to you that the receiving of food is worth more than the not receiving of it, and the being scourged is a greater indignity than not being scourged; so that if you measure your interests by these things, go and hold the chamber pot."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Interlocutor",
+          "text": "But this would not be worthy of me."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Epictetus",
+          "text": "Well, then, it is you who must introduce this consideration into the inquiry, not I; for it is you who know yourself, how much you are worth to yourself, and at what price you sell yourself; for men sell themselves at various prices."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING",
+          "SELF-MAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "The interlocutor is seeking an external rule or command about what is reasonable to do in a degrading situation.",
+        "end_state_desc": "The interlocutor realizes that the standard of 'reasonable' is internal, based on their own self-valuation.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Reframing a moral question from universal rules to individual self-valuation.",
+        "what_model_should_learn": [
+          "How to refuse to give a universal rule when the answer depends on the student's self-conception.",
+          "How to use a stark, grounding example (holding a chamber pot) to force a value judgment."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Book 1, Chapter 2",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "discourses_b1_c2_purple_thread",
+      "source_text": "The Discourses by Epictetus, Book 1",
+      "lineage": "Stoic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Epictetus",
+          "text": "Because you consider yourself to be only one thread of those which are in the tunic."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Interlocutor",
+          "text": "Well then?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Epictetus",
+          "text": "It was fitting for you to take care how you should be like the rest of men, just as the thread has no design to be anything superior to the other threads. But I wish to be purple, that small part which is bright, and makes all the rest appear graceful and beautiful."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Interlocutor",
+          "text": "Why then do you tell me to make myself like the many?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Epictetus",
+          "text": "And if I do, how shall I still be purple?"
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING",
+          "UNMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "The interlocutor assumes conformity is the standard and questions Epictetus's refusal to conform.",
+        "end_state_desc": "The interlocutor is presented with a metaphor (the purple thread) that justifies distinctness as essential for the beauty of the whole.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Analogy of the 'purple thread' to explain the role of the exceptional individual within society.",
+        "what_model_should_learn": [
+          "How to use a metaphor to defend non-conformity without rejecting the social whole.",
+          "How to answer a 'why' question with an image that shifts the interlocutor's perspective on their own identity."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Book 1, Chapter 2",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "discourses_b1_c11_criterion_analogy",
+      "source_text": "The Discourses by Epictetus, Book 1",
+      "lineage": "Stoic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Magistrate",
+          "text": "But convince me of this that you acted naturally, and I will convince you that everything which takes place according to nature takes place rightly."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Epictetus",
+          "text": "This is the case with all or at least most fathers."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Magistrate",
+          "text": "I do not deny that: but the matter about which we are inquiring is whether such behavior is right."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Epictetus",
+          "text": "For in respect to this matter we must say that tumours also come for the good of the body, because they do come; and generally we must say that to do wrong is natural, because nearly all or at least most of us do wrong. Do you show me then how your behavior is natural."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Magistrate",
+          "text": "I cannot; but do you rather show me how it is not according to nature and is not rightly done."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Epictetus",
+          "text": "Well, if we were inquiring about white and black, what criterion should we employ for distinguishing between them?"
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Magistrate",
+          "text": "The sight."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Epictetus",
+          "text": "And if about hot and cold, and hard and soft, what criterion?"
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Magistrate",
+          "text": "The touch."
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Epictetus",
+          "text": "Well then, since we are inquiring about things which are according to nature, and those which are done rightly or not rightly, what kind of criterion do you think that we should employ?"
+        },
+        {
+          "turn_index": 11,
+          "speaker": "Magistrate",
+          "text": "I do not know."
+        },
+        {
+          "turn_index": 12,
+          "speaker": "Epictetus",
+          "text": "And yet not to know the criterion of colors and smells, and also of tastes, is perhaps no great harm; but if a man do not know the criterion of good and bad, and of things according to nature and contrary to nature, does this seem to you a small harm?"
+        },
+        {
+          "turn_index": 13,
+          "speaker": "Magistrate",
+          "text": "The greatest harm."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING",
+          "UNMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "The magistrate conflates 'natural' with 'common' (what most fathers do) and lacks a criterion for judgment.",
+        "end_state_desc": "The magistrate admits ignorance of the criterion for good and bad, acknowledging this ignorance is a great harm.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Building a bridge from sensory criteria (sight/touch) to moral criteria.",
+        "what_model_should_learn": [
+          "How to use sensory analogies to explain the need for abstract criteria.",
+          "How to shift an interlocutor from relying on 'common practice' to seeking a 'standard of judgment'."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Book 1, Chapter 11",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "discourses_b2_c13_lute_player_anxiety",
+      "source_text": "The Discourses by Epictetus, Book 2",
+      "lineage": "Stoic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Epictetus",
+          "text": "When I see a man anxious, I say, \"What does this man want? If he did not want something which is not in his power, how could he be anxious?\" For this reason a lute player when he is singing by himself has no anxiety, but when he enters the theatre, he is anxious even if he has a good voice and plays well on the lute; for he not only wishes to sing well, but also to obtain applause: but this is not in his power. Accordingly, where he has skill, there he has confidence. Bring any single person who knows nothing of music, and the musician does not care for him. But in the matter where a man knows nothing and has not been practiced, there he is anxious."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Interlocutor",
+          "text": "What matter is this?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Epictetus",
+          "text": "He knows not what a crowd is or what the praise of a crowd is. However he has learned to strike the lowest chord and the highest; but what the praise of the many is, and what power it has in life he neither knows nor has he thought about it. Hence he must of necessity tremble and grow pale."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "The listener (implied) does not understand why a skilled person would still be anxious.",
+        "end_state_desc": "The explanation is given: anxiety comes from ignorance of the domain (the crowd/opinion) despite skill in the art (music).",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Causal modeling of anxiety: Skill gives confidence, ignorance gives anxiety.",
+        "what_model_should_learn": [
+          "How to explain that anxiety is a symptom of ignorance in a specific domain (externals), even if one is an expert in another domain (craft).",
+          "How to use the contrast between 'striking chords' and 'knowing the crowd' to illustrate the two domains of competence."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Book 2, Chapter 13",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    }
+  ],
+  "discard_log": [
+    "Skipped Book 1 Ch 3 (God as father) - mostly monologue/exhortation.",
+    "Skipped Book 1 Ch 4 (Progress) - long rhetorical passages, hard to slice into interaction.",
+    "Skipped Book 1 Ch 5 (Academics) - interesting but mostly a rant against skeptics, less interactive structure.",
+    "Skipped Book 1 Ch 29 (Constancy) - great content but very long turns, mostly Epictetus lecturing."
+  ],
+  "extraction_stats": {
+    "total_episodes": 5,
+    "turn_count_distribution": {
+      "2-4": 2,
+      "5-7": 2,
+      "8-10": 0,
+      "11-14": 1
+    },
+    "avg_turns_per_episode": 6.2
+  },
+  "extraction_confidence": "high" {
+  "episodes": [
+    {
+      "episode_id": "discourses_b1_c11_sick_daughter_affection",
+      "source_text": "The Discourses by Epictetus, Book 1",
+      "lineage": "Stoic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Epictetus",
+          "text": "Did you, then, since you had an affectionate disposition to your child, do right when you ran off and left her; and has the mother no affection for the child?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Magistrate",
+          "text": "Certainly, she has."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Epictetus",
+          "text": "Ought, then, the mother also to have left her, or ought she not?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Magistrate",
+          "text": "She ought not."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Epictetus",
+          "text": "And the nurse, does she love her?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Magistrate",
+          "text": "She does."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Epictetus",
+          "text": "Ought, then, she also to have left her?"
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Magistrate",
+          "text": "By no means."
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Epictetus",
+          "text": "And the pedagogue, does he not love her?"
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Magistrate",
+          "text": "He does love her."
+        },
+        {
+          "turn_index": 11,
+          "speaker": "Epictetus",
+          "text": "Ought, then, he also to have deserted her? and so should the child have been left alone and without help on account of the great affection of you, the parents, and of those about her, or should she have died in the hands of those who neither loved her nor cared for her?"
+        },
+        {
+          "turn_index": 12,
+          "speaker": "Magistrate",
+          "text": "Certainly not."
+        },
+        {
+          "turn_index": 13,
+          "speaker": "Epictetus",
+          "text": "Now this is unfair and unreasonable, not to allow those who have equal affection with yourself to do what you think to be proper for yourself to do because you have affection."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "REMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "The magistrate believes his abandonment of the sick child was justified by his intense 'natural affection' (he couldn't bear to see her suffer).",
+        "end_state_desc": "The magistrate is forced to admit his behavior was 'unfair and unreasonable' by seeing the contradiction if everyone acted on the same affection.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Reductio ad absurdum applied to a moral claim: Universalizing the behavior (Mother, Nurse, Pedagogue) to show its destructiveness.",
+        "what_model_should_learn": [
+          "How to test a subjective emotional justification by universalizing it to other agents.",
+          "How to reframe 'running away' from 'sensitivity' to 'abandonment' without attacking the student's character directly."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Book 1, Chapter 11",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "discourses_b1_c17_reason_analyzing_itself",
+      "source_text": "The Discourses by Epictetus, Book 1",
+      "lineage": "Stoic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Epictetus",
+          "text": "Since reason is the faculty which analyses and perfects the rest, and it ought itself not to be unanalysed, by what should it be analysed? for it is plain that this should be done either by itself or by another thing."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Interlocutor",
+          "text": "Yes."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Epictetus",
+          "text": "Either, then, this other thing also is reason, or something else superior to reason; which is impossible. But if it is reason, again who shall analyse that reason? For if that reason does this for itself, our reason also can do it. But we shall require something else, the thing, will go on to infinity and have no end."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Interlocutor",
+          "text": "It is more urgent to cure our opinions."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Epictetus",
+          "text": "Reason therefore is analysed by itself."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "The student accepts the premise that reason analyzes other things but hasn't considered the recursive problem of what analyzes reason.",
+        "end_state_desc": "The student is led to see that Reason must be self-analyzing to avoid an infinite regress.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Infinite regress argument used to establish a first principle (the self-reflective nature of Reason).",
+        "what_model_should_learn": [
+          "How to use an 'infinite regress' proof to force a definition.",
+          "How to position Reason/Logos as the unique faculty that turns back on itself."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Book 1, Chapter 17",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "discourses_b1_c1_tyrant_will_fetter",
+      "source_text": "The Discourses by Epictetus, Book 1",
+      "lineage": "Stoic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Tyrant",
+          "text": "Tell me the secret which you possess."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Epictetus",
+          "text": "I will not, for this is in my power."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Tyrant",
+          "text": "But I will put you in chains."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Epictetus",
+          "text": "Man, what are you talking about? Me in chains? You may fetter my leg, but my will not even Zeus himself can overpower."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Tyrant",
+          "text": "I will throw you into prison."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Epictetus",
+          "text": "My poor body, you mean."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Tyrant",
+          "text": "I will cut your head off."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Epictetus",
+          "text": "When, then, have I told you that my head alone cannot be cut off?"
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING",
+          "UNMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "The tyrant (hypothetical interlocutor) believes they have power over the person of Epictetus.",
+        "end_state_desc": "Epictetus reframes the 'Me' as solely the Will, reducing the body to an external object (poor body, leg).",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Radical re-identification of the Self to exclude the body, rendering threats powerless.",
+        "what_model_should_learn": [
+          "How to correct a threat by correcting the object of the threat (e.g., 'You chain my leg, not me').",
+          "How to maintain total rhetorical dominance through precise definition of the Self."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Book 1, Chapter 1",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "discourses_b1_c25_life_as_hypothesis",
+      "source_text": "The Discourses by Epictetus, Book 1",
+      "lineage": "Stoic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Epictetus",
+          "text": "Suppose it to be night."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Student",
+          "text": "I suppose that it is night."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Epictetus",
+          "text": "Well then; is it day?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Student",
+          "text": "No, for I admitted the hypothesis that it was night."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Epictetus",
+          "text": "Suppose that you think that it is night?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Student",
+          "text": "Suppose that I do."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Epictetus",
+          "text": "But also think that it is night."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Student",
+          "text": "That is not consistent with the hypothesis."
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Epictetus",
+          "text": "So in this case also: \"Suppose that you are unfortunate.\" Well, suppose so. \"Are you then unhappy?\" Yes. \"Well, then, are you troubled with an unfavourable demon?\" Yes. \"But think also that you are in misery.\""
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Student",
+          "text": "This is not consistent with the hypothesis; and Another forbids me to think so."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "The student treats life events as absolute realities.",
+        "end_state_desc": "The student learns to treat life events as logical hypotheses—one accepts the premise for the game, but the judgment of 'misery' does not necessarily follow.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Analogy between logical disputation (admitting a hypothesis) and navigating life (accepting circumstances without accepting misery).",
+        "what_model_should_learn": [
+          "How to use the rules of formal logic (consistency with hypothesis) as a model for emotional resilience.",
+          "How to separate the admission of a fact ('I am unfortunate') from the judgment of value ('I am miserable')."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Book 1, Chapter 25",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "discourses_b2_c24_art_of_hearing",
+      "source_text": "The Discourses by Epictetus, Book 2",
+      "lineage": "Stoic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Person",
+          "text": "Frequently I desired to hear you and came to you, and you never gave me any answer: and now, if it is possible, I entreat you to say something to me."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Epictetus",
+          "text": "Do you think that as there is an art in anything else, so there is also an art in speaking, and that he who has the art, will speak skillfully, and he who has not, will speak unskillfully?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Person",
+          "text": "I do think so."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Epictetus",
+          "text": "He, then, who by speaking receives benefit himself and is able to benefit others, will speak skillfully: but he who is rather damaged by speaking and does damage to others, will he be unskilled in this art of speaking?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Person",
+          "text": "He will be unskilled."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Epictetus",
+          "text": "Is there then a skill in hearing also, as there is in speaking?"
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Person",
+          "text": "It seems so."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Epictetus",
+          "text": "If you choose, consider the matter in this way also. The practice of music, to whom does it belong?"
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Person",
+          "text": "To a musician."
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Epictetus",
+          "text": "And the proper making of a statue, to whom do you think that it belongs?"
+        },
+        {
+          "turn_index": 11,
+          "speaker": "Person",
+          "text": "To a statuary."
+        },
+        {
+          "turn_index": 12,
+          "speaker": "Epictetus",
+          "text": "Then if speaking properly is the business of the skillful man, do you see that to hear also with benefit is the business of the skillful man?"
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "The visitor passively expects Epictetus to speak to him, viewing communication as a one-way performance.",
+        "end_state_desc": "The visitor admits that hearing is an active skill (an art) that requires qualification, just like speaking.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Establishing the 'Art of Hearing' by parallel reasoning with other arts (music, statuary).",
+        "what_model_should_learn": [
+          "How to shift the burden of quality from the speaker to the listener.",
+          "How to use parallel examples to prove that a passive activity (hearing) is actually an active skill."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Book 2, Chapter 24",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    }
+  ],
+  "discard_log": [
+    "Skipped Book 1 Ch 6 (Providence) - mostly teleological monologue.",
+    "Skipped Book 1 Ch 7 (Syphilis/Hypotheses) - very technical logic discussion, less interpersonal.",
+    "Skipped Book 2 Ch 7 (Divination) - mostly a lecture on how to use divination.",
+    "Skipped Book 2 Ch 10 (Social Roles) - while interesting, it is presented more as a lecture than a dialogue."
+  ],
+  "extraction_stats": {
+    "total_episodes": 5,
+    "turn_count_distribution": {
+      "2-4": 0,
+      "5-7": 1,
+      "8-10": 2,
+      "11-14": 2
+    },
+    "avg_turns_per_episode": 9.6
+  },
+  "extraction_confidence": "high"
+} {
+  "episodes": [
+    {
+      "episode_id": "discourses_b1_c2_florus_agrippinus_calculation",
+      "source_text": "The Discourses by Epictetus, Book 1",
+      "lineage": "Stoic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Florus",
+          "text": "Why do not you go down?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Agrippinus",
+          "text": "Because I do not even deliberate about the matter."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Epictetus",
+          "text": "For he who has once brought himself to deliberate about such matters, and to calculate the value of external things, comes very near to those who have forgotten their own character. For why do you ask me the question, whether death is preferable or life? I say \"life.\" \"Pain or pleasure?\" I say \"pleasure.\" But if I do not take a part in the tragic acting, I shall have my head struck off. Go then and take a part, but I will not."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Florus",
+          "text": "Why?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Epictetus",
+          "text": "Because you consider yourself to be only one thread of those which are in the tunic."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "REMAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Florus is calculating the risks of refusing Nero, treating it as a cost-benefit analysis.",
+        "end_state_desc": "The realization that the mere act of deliberating/calculating value in this context is already a loss of character.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Rejecting the premise of the question itself (deliberation is the error).",
+        "what_model_should_learn": [
+          "How to identify when a user's hesitation or calculation is the moral error itself.",
+          "How to use a third-party example (Agrippinus) to illustrate a standard of integrity that bypasses calculation."
+        ]
+      },
+      "source_location": {
+        "section": "Book 1, Chapter 2"
+      }
+    },
+    {
+      "episode_id": "discourses_b1_c2_priscus_vespasian",
+      "source_text": "The Discourses by Epictetus, Book 1",
+      "lineage": "Stoic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Priscus Helvidius",
+          "text": "It is in your power not to allow me to be a member of the senate, but so long as I am, I must go in."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Vespasian",
+          "text": "Well, go in then, but say nothing."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Priscus Helvidius",
+          "text": "Do not ask my opinion, and I will be silent."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Vespasian",
+          "text": "But I must ask your opinion."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Priscus Helvidius",
+          "text": "And I must say what I think right."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Vespasian",
+          "text": "But if you do, I shall put you to death."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Priscus Helvidius",
+          "text": "When then did I tell you that I am immortal? You will do your part, and I will do mine: it is your part to kill; it is mine to die, but not in fear: yours to banish me; mine to depart without sorrow."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "Conflict between the Emperor's power and the Senator's duty.",
+        "end_state_desc": "Resolution through strict role separation: the Emperor does his part (killing), the Senator does his (dying without fear).",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Defining the boundaries of roles (Role Ethics) to dissolve fear.",
+        "what_model_should_learn": [
+          "How to segment duties clearly: 'Your part' vs 'My part'.",
+          "How to accept the ultimate threat (death) as simply a function of another's role, not a violation of one's own."
+        ]
+      },
+      "source_location": {
+        "section": "Book 1, Chapter 2"
+      }
+    },
+    {
+      "episode_id": "discourses_b1_c15_brother_anger",
+      "source_text": "The Discourses by Epictetus, Book 1",
+      "lineage": "Stoic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Man",
+          "text": "How then shall my brother cease to be angry with me?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Epictetus",
+          "text": "Bring him to me and I will tell him. But I have nothing to say to you about his anger."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Man",
+          "text": "I seek to know this- how, even if my brother is not reconciled to me, shall I maintain myself in a state conformable to nature?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Epictetus",
+          "text": "Nothing great is produced suddenly, since not even the grape or the fig is. If you say to me now that you want a fig, I will answer to you that it requires time: let it flower first, then put forth fruit, and then ripen. Is, then, the fruit of a fig-tree not perfected suddenly and in one hour, and would you possess the fruit of a man's mind in so short a time and so easily? Do not expect it, even if I tell you."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING",
+          "SELF-MAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "The man wants to control an external variable (his brother's emotion).",
+        "end_state_desc": "The man accepts the redirection to his own state, but is then checked on the expectation of instant results.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Double redirection: First from External->Internal, then from Instant->Gradual.",
+        "what_model_should_learn": [
+          "How to refuse a request to control others ('Bring him to me').",
+          "How to use organic analogies (fig tree) to manage expectations about character development."
+        ]
+      },
+      "source_location": {
+        "section": "Book 1, Chapter 15"
+      }
+    },
+    {
+      "episode_id": "discourses_b2_c4_adulterer_confrontation",
+      "source_text": "The Discourses by Epictetus, Book 2",
+      "lineage": "Stoic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Epictetus",
+          "text": "But if we lay aside this fidelity for which we are formed and make designs against our neighbor's wife, what are we are we doing? What else but destroying and overthrowing? Whom? The man of fidelity, the man of modesty, the man of sanctity. Is this all? And are we not overthrowing neighbourhood, and friendship, and the community; and in what place are we putting ourselves? How shall I consider you, man? As a neighbour, as a friend? What kind of one? As a citizen? Wherein shall I trust you?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Adulterer",
+          "text": "Then will you say, \"No man, cares for me, a man of letters\"?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Epictetus",
+          "text": "They do not, because you are bad and useless. It is just as if the wasps complained because no man cares for them, but all fly from them, and if a man can, he strikes them and knocks them down. You have such a sting that you throw into trouble and pain any man that you wound with it. What would you have us do with you? You have no place where you can be put."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Adulterer",
+          "text": "What then, are not women common by nature?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Epictetus",
+          "text": "So I say also; for a little pig is common to all the invited guests, but when the portions have been distributed, go, if you think it right, and snatch up the portion of him who reclines next to you, or slyly steal it, or place your hand down by it and lay hold of it, and if you cannot tear away a bit of the meat, grease your fingers and lick them. A fine companion over cups, and Socratic guest indeed!"
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "The adulterer tries to maintain his social identity ('man of letters') and justify his actions via 'nature'.",
+        "end_state_desc": "The man's identity is dismantled; he is compared to a wasp and a pig-thief, showing he has no place in human society.",
+        "closure_type": "escalation"
+      },
+      "training_value": {
+        "pedagogical_shape": "Total status demolition. Using animal analogies (wasp, pig) to strip the pretensions of an intellectual hypocrite.",
+        "what_model_should_learn": [
+          "How to respond to hypocrisy with severe, shaming analogies.",
+          "How to dismantle a 'sophisticated' justification (women are common) by reducing it to a gross physical act (snatching pork)."
+        ]
+      },
+      "source_location": {
+        "section": "Book 2, Chapter 4"
+      }
+    },
+    {
+      "episode_id": "discourses_b2_c12_consular_horse_care",
+      "source_text": "The Discourses by Epictetus, Book 2",
+      "lineage": "Stoic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Epictetus",
+          "text": "Can you tell me, Sir, to whose care you have entrusted your horses?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Consular",
+          "text": "I can tell you."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Epictetus",
+          "text": "Here you entrusted them to a person indifferently and to one who has no experience of horses?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Consular",
+          "text": "By no means."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Epictetus",
+          "text": "Well then; can you tell me to whom you entrust your gold or silver things or your vestments?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Consular",
+          "text": "I don't entrust even these to anyone indifferently."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Epictetus",
+          "text": "Well; your own body, have you already considered about entrusting the care of it to any person?"
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Consular",
+          "text": "Certainly."
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Epictetus",
+          "text": "To a man of experience, I suppose, and one acquainted with the aliptic, or with the healing art?"
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Consular",
+          "text": "Without a doubt."
+        },
+        {
+          "turn_index": 11,
+          "speaker": "Epictetus",
+          "text": "Are these the best things that you have, or do you also possess something else which is better than all these?"
+        },
+        {
+          "turn_index": 12,
+          "speaker": "Consular",
+          "text": "What kind of thing do you mean?"
+        },
+        {
+          "turn_index": 13,
+          "speaker": "Epictetus",
+          "text": "That I mean which makes use of these things, and tests each of these things and deliberates."
+        },
+        {
+          "turn_index": 14,
+          "speaker": "Consular",
+          "text": "Is it the soul that you mean? In truth I do think the soul is a much better thing than all the others which I possess."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING",
+          "UNMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "The Consular is confident in his management of external assets (horses, gold).",
+        "end_state_desc": "The Consular is led to admit the Soul is the most valuable asset, setting up the trap of whether he cares for it properly.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Hierarchy of Care argument. Establishing a pattern of carefulness for lesser things to expose carelessness for the greatest thing.",
+        "what_model_should_learn": [
+          "How to use a 'fortiori' questioning sequence (Horses -> Gold -> Body -> Soul).",
+          "How to trap a high-status individual by appealing to their own standards of management and competence."
+        ]
+      },
+      "source_location": {
+        "section": "Book 2, Chapter 12"
+      }
+    },
+    {
+      "episode_id": "discourses_b2_c12_envious_man_socrates",
+      "source_text": "The Discourses by Epictetus, Book 2",
+      "lineage": "Stoic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Socrates",
+          "text": "Does the envious man rejoice?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Adversary",
+          "text": "By no means, but he is rather pained."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Socrates",
+          "text": "Do you think that envy is pain over evils? and what envy is there of evils?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Adversary",
+          "text": "(Implied negation/agreement that envy concerns goods)"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Socrates",
+          "text": "Well then, would any man envy those who are nothing to him?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Adversary",
+          "text": "By no means."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "META"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "The adversary holds a vague notion of envy.",
+        "end_state_desc": "The adversary is compelled to define envy precisely (pain over good things happening to those close to us) through step-by-step admissions.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Socratic Definition Construction. Using simple binary questions to refine a definition without lecturing.",
+        "what_model_should_learn": [
+          "How to use the 'witness of the adversary' method (forcing them to agree to steps).",
+          "How to strip away incorrect aspects of a definition (e.g., envy is not about evils, not about strangers)."
+        ]
+      },
+      "source_location": {
+        "section": "Book 2, Chapter 12"
+      }
+    },
+    {
+      "episode_id": "discourses_b2_c15_obstinate_starver",
+      "source_text": "The Discourses by Epictetus, Book 2",
+      "lineage": "Stoic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Companion",
+          "text": "I have resolved."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Epictetus",
+          "text": "But still tell me what it was which induced you to resolve; for if you have resolved rightly, we shall sit with you and assist you to depart; but if you have made an unreasonable resolution, change your mind."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Companion",
+          "text": "We ought to keep to our determinations."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Epictetus",
+          "text": "What are you doing, man? We ought to keep not to all our determinations, but to those which are right; for if you are now persuaded that it is right, do not change your mind, if you think fit, but persist and say, \"We ought to abide by our determinations.\" Will you not make the beginning and lay the foundation in an inquiry whether the determination is sound or not sound, and so then build on it firmness and security? But if you lay a rotten and ruinous foundation, will not your miserable little building fall down the sooner, the more and the stronger are the materials which you shall lay on it?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Companion",
+          "text": "I am determined."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Epictetus",
+          "text": "Will you not act like a sick man and call in the physician?"
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Companion",
+          "text": "I know not what I ought to do, but I am come to learn."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Epictetus",
+          "text": "Not so; but, \"Speak to me about other things: upon this I have determined.\" What other things? for what is greater and more useful than for you to be persuaded that it is not sufficient to have made your determination and not to change it. This is the tone of madness, not of health."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "REMAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "The companion is resolved to starve himself to death, citing the principle of 'constancy' (sticking to determinations).",
+        "end_state_desc": "The companion is identified as 'mad' and 'sick', with his 'constancy' revealed as mere stubbornness based on a rotten foundation.",
+        "closure_type": "failure"
+      },
+      "training_value": {
+        "pedagogical_shape": "Distinguishing Virtue (Constancy) from Vice (Stubbornness) by examining the foundation.",
+        "what_model_should_learn": [
+          "How to attack a harmful resolution by questioning its premise, not just its outcome.",
+          "How to use the 'rotten foundation' metaphor to show that strengthening a bad decision makes it worse."
+        ]
+      },
+      "source_location": {
+        "section": "Book 2, Chapter 15"
+      }
+    },
+    {
+      "episode_id": "discourses_b2_c19_show_me_stoic",
+      "source_text": "The Discourses by Epictetus, Book 2",
+      "lineage": "Stoic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Epictetus",
+          "text": "Show me a Stoic, if you can. Where or how? But you can show me an endless number who utter small arguments of the Stoics. For do the same persons repeat the Epicurean opinions any worse? And the Peripatetic, do they not handle them also with equal accuracy? who then is a Stoic? As we call a statue Phidiac which is fashioned according to the art of Phidias; so show me a man who is fashioned according to the doctrines which he utters. Show me a man who is sick and happy, in danger and happy, dying and happy, in exile and happy, in disgrace and happy. Show him: I desire, by the gods, to see a Stoic."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Students (implied)",
+          "text": "(Silence/Inability to produce one)"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Epictetus",
+          "text": "You cannot show me one fashioned so; but show me at least one who is forming, who has shown a tendency to be a Stoic. Do me this favor: do not grudge an old man seeing a sight which I have not seen yet. Do you think that you must show me the Zeus of Phidias or the Athena, a work of ivory and gold? Let any of you show me a human soul ready to think as God does, and not to blame either God or man, ready not to be disappointed about anything, not to consider himself damaged by anything, not to be angry, not to be envious, not to be jealous."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "META"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "The students believe they are Stoics because they know the arguments and texts.",
+        "end_state_desc": "The students are shown to be imposters (Epicureans/Peripatetics in disguise) because they lack the embodied proof.",
+        "closure_type": "silence"
+      },
+      "training_value": {
+        "pedagogical_shape": "The Demand for Embodiment. Rejecting intellectual assent as a valid criteria for identity.",
+        "what_model_should_learn": [
+          "How to challenge a student's group identity by demanding existential proof.",
+          "How to distinguish between 'uttering arguments' and 'being fashioned' by doctrines."
+        ]
+      },
+      "source_location": {
+        "section": "Book 2, Chapter 19"
+      }
+    },
+    {
+      "episode_id": "discourses_b2_c21_liar_paradox_vs_life",
+      "source_text": "The Discourses by Epictetus, Book 2",
+      "lineage": "Stoic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Student",
+          "text": "I wish I could learn everything before I return: but much labour is necessary, and no one sends me anything, and the baths at Nicopolis are dirty; everything is bad at home, and bad here."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Epictetus",
+          "text": "Then they say, \"No one gains any profit from the school.\" Why, who comes to the school, who comes for the purpose of being improved? who comes to present his opinions to he purified? who comes to learn what he is in want of? Why do you wonder then if you carry back from the school the very things which you bring into it?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Student",
+          "text": "But I wish to prattle about theorems."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Epictetus",
+          "text": "Do not your little theorems give you some opportunity of display? You solve sophistical syllogisms. Do you not examine the assumptions of the syllogism named \"The Liar\"? Do you not examine hypothetical syllogisms? Why, then, are you still vexed if you receive the things for which you come to the school?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Student",
+          "text": "Yes; but if my child die or my brother, or if I must die or be racked, what good will these things do me?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Epictetus",
+          "text": "Well, did you come for this? for this do you sit by my side?"
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "REMAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "The student complains about external conditions (dirty baths) and lack of progress, while focusing his study on abstract logic puzzles ('The Liar').",
+        "end_state_desc": "The student is confronted with the disconnect between his study topics (logic) and his life problems (death/grief).",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Aligning the Curriculum with the Complaint. If you study logic, you get logic, not peace of mind.",
+        "what_model_should_learn": [
+          "How to point out the mismatch between a student's stated goal (peace) and their actual effort (logic puzzles).",
+          "How to validate that they *did* succeed in what they actually practiced (prattling), which explains why they failed in what they neglected (life)."
+        ]
+      },
+      "source_location": {
+        "section": "Book 2, Chapter 21"
+      }
+    },
+    {
+      "episode_id": "discourses_b2_c24_status_contest",
+      "source_text": "The Discourses by Epictetus, Book 2",
+      "lineage": "Stoic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Student",
+          "text": "But I also am rich."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Epictetus",
+          "text": "Are you then richer than Agamemnon?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Student",
+          "text": "But I am also handsome."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Epictetus",
+          "text": "Are you then more handsome than Achilles?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Student",
+          "text": "But I have also beautiful hair."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Epictetus",
+          "text": "But had not Achilles more beautiful hair and gold-colored? and he did not comb it elegantly nor dress it."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Student",
+          "text": "But I am also strong."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Epictetus",
+          "text": "Can you then lift so great a stone as Hector or Ajax?"
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Student",
+          "text": "But I am also of noble birth."
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Epictetus",
+          "text": "Are you the son of a goddess mother? are you the son of a father sprung from Zeus? What good then do these things do to him, when he sits and weeps for a girl?"
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "The student tries to establish their worth through external attributes (wealth, beauty, strength).",
+        "end_state_desc": "The attributes are shown to be insufficient for happiness by comparing the student to mythic heroes who possessed them fully yet were miserable.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Mythological Benchmarking. Showing that even the 'maximum' of an external good does not yield the desired internal result.",
+        "what_model_should_learn": [
+          "How to use cultural exemplars (Achilles, Agamemnon) to defeat petty bragging.",
+          "How to show that 'more' of a quality doesn't solve the problem if the quality itself is irrelevant to happiness."
+        ]
+      },
+      "source_location": {
+        "section": "Book 2, Chapter 24"
+      }
+    }
+  ],
+  "discard_log": [
+    "Skipped Book 2 Ch 7 (Divination) - too short/monologue based.",
+    "Skipped Book 2 Ch 10 (Social Roles) - mostly lecture.",
+    "Skipped Book 2 Ch 20 (Epicureans) - largely a polemic against Epicurus rather than a dialogue."
+  ],
+  "extraction_stats": {
+    "total_episodes": 10,
+    "turn_count_distribution": {
+      "2-4": 2,
+      "5-7": 4,
+      "8-10": 3,
+      "11-14": 1
+    },
+    "avg_turns_per_episode": 6.4
+  },
+  "extraction_confidence": "high"
+} {
+  "episodes": [
+    {
+      "episode_id": "discourses_b1_c28_medea_assent",
+      "source_text": "The Discourses by Epictetus, Book 1",
+      "lineage": "Stoic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Epictetus",
+          "text": "Can, then, a man think that a thing is useful to him and not choose it?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Interlocutor",
+          "text": "He cannot."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Epictetus",
+          "text": "How says Medea? 'Tis true I know what evil I shall do, But passion overpowers the better council.' She thought that to indulge her passion and take vengeance on her husband was more profitable than to spare her children."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Interlocutor",
+          "text": "It was so; but she was deceived."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Epictetus",
+          "text": "Show her plainly that she is deceived, and she will not do it; but so long as you do not show it, what can she follow except that which appears to herself? Nothing else. Why, then, are you angry with the unhappy woman that she has been bewildered about the most important things, and is become a viper instead of a human creature?"
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING",
+          "UNMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "The interlocutor judges Medea's action as a simple evil will, implicitly blaming her character.",
+        "end_state_desc": "The interlocutor is led to see Medea's action as a failure of Assent (intellectual error about what is 'profitable') rather than pure malice, shifting the response from anger to pity.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "The 'Intellectualism of Vice' pattern. All wrongdoing is a mistake in calculation/assent, not a 'rebellious will'.",
+        "what_model_should_learn": [
+          "How to analyze even extreme crimes (Medea) as errors in judgment (Assent) to dissolve anger.",
+          "How to teach the 'Discipline of Assent' by showing that people cannot resist what *appears* profitable to them."
+        ]
+      },
+      "source_location": {
+        "section": "Book 1, Chapter 28"
+      }
+    },
+    {
+      "episode_id": "discourses_b1_c14_god_within",
+      "source_text": "The Discourses by Epictetus, Book 1",
+      "lineage": "Stoic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Interlocutor",
+          "text": "But I cannot comprehend all these things at once."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Epictetus",
+          "text": "But who tells you that you have equal power with Zeus? Nevertheless he has placed by every man a guardian, every man's Demon, to whom he has committed the care of the man, a guardian who never sleeps, is never deceived. For to what better and more careful guardian could He have entrusted each of us? When, then, you have shut the doors and made darkness within, remember never to say that you are alone, for you are not; but God is within, and your Demon is within, and what need have they of light to see what you are doing?"
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING",
+          "META"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "The student feels overwhelmed by the idea of divine omniscience and feels isolated.",
+        "end_state_desc": "The student is given the 'God Within' (Daemon) doctrine, reframing solitude as constant divine companionship.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Cosmological Grounding. Connecting ethics (how to act in private) to physics/theology (the Indwelling Spirit).",
+        "what_model_should_learn": [
+          "How to use the 'Internal Guardian' concept to enforce integrity even in private.",
+          "How to pivot from 'I am limited' to 'I am divinely accompanied'."
+        ]
+      },
+      "source_location": {
+        "section": "Book 1, Chapter 14"
+      }
+    },
+    {
+      "episode_id": "discourses_b1_c27_death_fear_assent",
+      "source_text": "The Discourses by Epictetus, Book 1",
+      "lineage": "Stoic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Epictetus",
+          "text": "When death appears an evil, we ought to have this rule in readiness, that it is fit to avoid evil things, and that death is a necessary thing. For what shall I do, and where shall I escape it?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Student",
+          "text": "I cannot escape from death."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Epictetus",
+          "text": "Shall I not escape from the fear of death, but shall I die lamenting and trembling? For the origin of perturbation is this, to wish for something, and that this should not happen."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Student",
+          "text": "Then, at last, when I am neither able to change circumstances nor to tear out the eyes of him who hinders me, I sit down and groan, and abuse whom I can, Zeus and the rest of the gods."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Epictetus",
+          "text": "For if they do not care for me, what are they to me?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Student",
+          "text": "Yes, but you will be an impious man."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Epictetus",
+          "text": "In what respect then will it be worse for me than it is now? To sum up, remember this that unless piety and your interest be in the same thing, piety cannot be maintained in any man."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING",
+          "UNMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "The student is trapped in the fear of death and the impulse to blame the gods/fate.",
+        "end_state_desc": "The student is taught the 'Alignment Principle': Piety only exists when self-interest aligns with the inevitable.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Discipline of Desire/Aversion. Aligning 'interest' with 'necessity' to preserve piety.",
+        "what_model_should_learn": [
+          "How to explain that impiety (complaining against God) stems from misaligned desire.",
+          "How to use the 'inevitability' of death to force a choice between trembling or accepting."
+        ]
+      },
+      "source_location": {
+        "section": "Book 1, Chapter 27"
+      }
+    },
+    {
+      "episode_id": "discourses_b2_c16_we_have_not_practiced",
+      "source_text": "The Discourses by Epictetus, Book 2",
+      "lineage": "Stoic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Epictetus",
+          "text": "Does any one among us think of these lessons out of the schools? Does any one meditate by himself to give an answer to things as in the case of questions? Is it day?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Student",
+          "text": "Yes."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Epictetus",
+          "text": "Is it night?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Student",
+          "text": "No."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Epictetus",
+          "text": "Well, is the number of stars even?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Student",
+          "text": "I cannot say."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Epictetus",
+          "text": "When money is shown to you, have you studied to make the proper answer, that money is not a good thing? Have you practiced yourself in these answers, or only against sophisms? Why do you wonder then if in the cases which you have studied, in those you have improved; but in those which you have not studied, in those you remain the same?"
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "META"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Student is confused why they improve in logic but not in life.",
+        "end_state_desc": "Student realizes they practice the 'wrong' answers (logic games) and neglect the 'right' answers (impressions of money/value).",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Practice-Result Correlation. You get what you practice.",
+        "what_model_should_learn": [
+          "How to treat life situations (seeing money) as 'questions' that require a rehearsed 'answer' (judgment).",
+          "How to explain lack of progress as a simple lack of domain-specific practice."
+        ]
+      },
+      "source_location": {
+        "section": "Book 2, Chapter 16"
+      }
+    },
+    {
+      "episode_id": "discourses_b2_c18_habit_formation",
+      "source_text": "The Discourses by Epictetus, Book 2",
+      "lineage": "Stoic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Student",
+          "text": "I have not been vexed to-day, nor the day after, nor yet on any succeeding day during two or three months; but I took care when some exciting things happened."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Epictetus",
+          "text": "Be assured that you are in a good way. To-day when I saw a handsome person, I did not say to myself, \"I wish I could lie with her,\" and \"Happy is her husband\"; for he who says this says, \"Happy is her adulterer also.\" Nor do I picture the rest to my mind; the woman present, and stripping herself and lying down by my side. I stroke my head and say, \"Well done, Epictetus, you have solved a fine little sophism, much finer than that which is called the master sophism.\""
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING",
+          "SELF-MAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "Student reports progress in controlling anger/vexation.",
+        "end_state_desc": "Teacher validates the progress and extends the practice to lust, reframing resisting temptation as solving a 'sophism' (logical puzzle).",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Gamification of Discipline. Treating moral victories as intellectual/logical victories ('solving a sophism').",
+        "what_model_should_learn": [
+          "How to frame resisting a desire (lust) as a cognitive success rather than just repression.",
+          "How to encourage daily tracking of habits."
+        ]
+      },
+      "source_location": {
+        "section": "Book 2, Chapter 18"
+      }
+    },
+    {
+      "episode_id": "discourses_b1_c6_wiping_nose_providence",
+      "source_text": "The Discourses by Epictetus, Book 1",
+      "lineage": "Stoic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Student",
+          "text": "Yes, but my nose runs."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Epictetus",
+          "text": "For what purpose then, slave, have you hands? Is it not that you may wipe your nose?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Student",
+          "text": "Is it, then, consistent with reason that there should be running of noses in the world?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Epictetus",
+          "text": "Nay, how much better it is to wipe your nose than to find fault. What do you think that Hercules would have been if there had not been such a lion, and hydra, and stag, and boar, and certain unjust and bestial men, whom Hercules used to drive away and clear out? And what would he have been doing if there had been nothing of the kind? Is it not plain that he would have wrapped himself up and have slept?"
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING",
+          "UNMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "Student complains about a minor physical annoyance (runny nose) as an argument against Providence.",
+        "end_state_desc": "Student is shown that the 'annoyance' is the opportunity for faculty use (hands/wiping), just as monsters were the opportunity for Hercules.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Cosmological Reframing: Adversity as Equipment. The problem exists to call forth the faculty.",
+        "what_model_should_learn": [
+          "How to answer complaints about the world's design by pointing to the user's own equipment (hands, endurance).",
+          "How to use the Hercules analogy to show that 'ease' destroys virtue."
+        ]
+      },
+      "source_location": {
+        "section": "Book 1, Chapter 6"
+      }
+    },
+    {
+      "episode_id": "discourses_b2_c5_playing_ball_socrates",
+      "source_text": "The Discourses by Epictetus, Book 2",
+      "lineage": "Stoic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Epictetus",
+          "text": "Socrates, then, knew how to play at ball."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Student",
+          "text": "How?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Epictetus",
+          "text": "By using pleasantry in the court where he was tried. \"Tell me,\" he says, \"Anytus, how do you say that I do not believe in God. The Demons, who are they, think you? Are they not sons of Gods, or compounded of gods and men?\" When Anytus admitted this, Socrates said, \"Who then, think you, can believe that there are mules, but not asses\"; and this he said as if he were playing at ball."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Student",
+          "text": "And what was the ball in that case?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Epictetus",
+          "text": "Life, chains, banishment, a draught of poison, separation from wife and leaving children orphans. These were the things with which he was playing; but still he did play and threw the ball skillfully."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "Student sees Socrates' trial as a tragedy or serious crisis.",
+        "end_state_desc": "Student is taught to see the external events (poison, chains) as the 'ball'—indifferent materials used for the game of virtue.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Game Theory of Stoicism. Distinguishing the 'Ball' (Indifferent) from the 'Play' (Virtue/Skill).",
+        "what_model_should_learn": [
+          "How to teach the concept of 'Indifferents' using the ball-player analogy.",
+          "How to show that one can be 'careful' in the art but 'indifferent' to the outcome."
+        ]
+      },
+      "source_location": {
+        "section": "Book 2, Chapter 5"
+      }
+    },
+    {
+      "episode_id": "discourses_b1_c9_kinship_with_god",
+      "source_text": "The Discourses by Epictetus, Book 1",
+      "lineage": "Stoic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Student",
+          "text": "Whence shall I get bread to eat when I have nothing?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Epictetus",
+          "text": "And how do slaves, and runaways, on what do they rely when they leave their masters? Do they rely on their lands or slaves, or their vessels of silver? They rely on nothing but themselves, and food does not fail them. And shall it be necessary for one among us who is a philosopher to travel into foreign parts, and trust to and rely on others, and not to take care of himself, and shall he be inferior to irrational animals and more cowardly?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Student",
+          "text": "But we are fettered by these bonds, the body."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Epictetus",
+          "text": "Wait for God; when He shall give the signal and release you from this service, then go to Him; but for the present endure to dwell in this place where He has put you."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING",
+          "UNMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "Student is anxious about survival (food/bread) and feels dependent on externals.",
+        "end_state_desc": "Student is reminded of their kinship with God and the duty to stay at their post until 'released' (suicide/death allowed only on signal).",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "The Soldier at the Post. Life is a service/station assigned by God; anxiety about supplies is a lack of trust in the Commander.",
+        "what_model_should_learn": [
+          "How to frame 'suicide' vs 'endurance' using the military signal analogy.",
+          "How to shame the student for having less faith/resilience than a runaway slave or an animal."
+        ]
+      },
+      "source_location": {
+        "section": "Book 1, Chapter 9"
+      }
+    },
+    {
+      "episode_id": "discourses_b1_c1_manager_of_winds",
+      "source_text": "The Discourses by Epictetus, Book 1",
+      "lineage": "Stoic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Student",
+          "text": "When will the west wind blow?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Epictetus",
+          "text": "When it shall choose, my good man, or when it shall please AEolus; for God has not made you the manager of the winds, but AEolus."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Student",
+          "text": "What then?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Epictetus",
+          "text": "We must make the best use that we can of the things which are in our power, and use the rest according to their nature."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Student",
+          "text": "What is their nature then?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Epictetus",
+          "text": "As God may please."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "Student is anxious about future conditions (the wind).",
+        "end_state_desc": "Student accepts the limit of their administration (not the manager of winds) and the definition of 'nature' as God's will.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Role Limit Definition. You are not the General Manager of the Universe.",
+        "what_model_should_learn": [
+          "How to answer 'When will X happen?' with 'When X chooses/God pleases'.",
+          "How to define the boundary between 'My Business' and 'God's Business' (AEolus)."
+        ]
+      },
+      "source_location": {
+        "section": "Book 1, Chapter 1"
+      }
+    },
+    {
+      "episode_id": "discourses_b2_c2_socrates_peroration",
+      "source_text": "The Discourses by Epictetus, Book 2",
+      "lineage": "Stoic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Student",
+          "text": "Suggest something to me [for my trial]."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Epictetus",
+          "text": "What should I suggest to you?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Student",
+          "text": "Form my mind so as to accommodate itself to any event."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Epictetus",
+          "text": "Why that is just the same as if a man who is ignorant of letters should say, \"Tell me what to write when any name is proposed to me.\" For if I should tell him to write Dion, and then another should come and propose to him not the name of Dion but that of Theon, what will be done? what will he write? But if you have practiced writing, you are also prepared to write anything that is required. If you are not, what can I now suggest? For if circumstances require something else, what will you say or what will you do?"
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING",
+          "META"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "Student wants a specific 'hack' or 'line' to say at their trial.",
+        "end_state_desc": "Student is shown that 'suggestions' are useless without the underlying 'grammar' of character (practice).",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "The Grammar of Character. You need the art (writing), not the specific output (the name Dion).",
+        "what_model_should_learn": [
+          "How to reject requests for specific advice ('What do I say?') by pivoting to general capacity ('Learn to write').",
+          "How to illustrate that specific advice fails when circumstances change (Dion vs Theon)."
+        ]
+      },
+      "source_location": {
+        "section": "Book 2, Chapter 2"
+      }
+    }
+  ],
+  "discard_log": [
+    "Skipped Book 1 Ch 30 (God sees all) - Good but very similar to Book 1 Ch 14.",
+    "Skipped Book 2 Ch 23 (Faculty of Expression) - Long, complex argument about faculties, hard to distill into a punchy episode.",
+    "Skipped Book 2 Ch 7 (Divination) - Too procedural.",
+    "Skipped Book 2 Ch 11 (Beginning of Philosophy) - Excellent content but structured more as a monologue/lecture than a tight dialogue."
+  ],
+  "extraction_stats": {
+    "total_episodes": 10,
+    "turn_count_distribution": {
+      "2-4": 2,
+      "5-7": 7,
+      "8-10": 1,
+      "11-14": 0
+    },
+    "avg_turns_per_episode": 5.4
+  },
+  "extraction_confidence": "high"
+}

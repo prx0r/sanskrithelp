@@ -1,0 +1,1534 @@
+{
+  "episodes": [
+    {
+      "episode_id": "symposium_t2675_t2712_agathon_refutation",
+      "source_text": "Plato's Symposium",
+      "lineage": "Socratic",
+      "student_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "AGATHON",
+          "text": "Of something, surely.",
+          "observable_student_behaviors": [
+            "affirms_premise"
+          ],
+          "behavior_tags": [
+            "logical_assent"
+          ],
+          "inferred_state": {
+            "reading": "cooperative_compliance",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 4,
+          "speaker": "AGATHON",
+          "text": "Yes, surely.",
+          "observable_student_behaviors": [
+            "affirms_premise"
+          ],
+          "behavior_tags": [
+            "logical_assent"
+          ],
+          "inferred_state": {
+            "reading": "cooperative_compliance",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 6,
+          "speaker": "AGATHON",
+          "text": "Probably not, I should say.",
+          "observable_student_behaviors": [
+            "concedes_point"
+          ],
+          "behavior_tags": [
+            "tentative_realization"
+          ],
+          "inferred_state": {
+            "reading": "sensing_the_trap",
+            "confidence": 0.85
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 8,
+          "speaker": "AGATHON",
+          "text": "I agree with you.",
+          "observable_student_behaviors": [
+            "accepts_necessity"
+          ],
+          "behavior_tags": [
+            "firm_assent"
+          ],
+          "inferred_state": {
+            "reading": "trapped_by_logic",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 10,
+          "speaker": "AGATHON",
+          "text": "Certainly.",
+          "observable_student_behaviors": [
+            "accepts_conclusion"
+          ],
+          "behavior_tags": [
+            "logical_assent"
+          ],
+          "inferred_state": {
+            "reading": "following_logic",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 12,
+          "speaker": "AGATHON",
+          "text": "Certainly not.",
+          "observable_student_behaviors": [
+            "denies_claim"
+          ],
+          "behavior_tags": [
+            "logical_assent"
+          ],
+          "inferred_state": {
+            "reading": "following_logic",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 14,
+          "speaker": "AGATHON",
+          "text": "I fear that I did not understand what I was saying.",
+          "observable_student_behaviors": [
+            "admits_ignorance",
+            "withdraws_claim"
+          ],
+          "behavior_tags": [
+            "socratic_aporia",
+            "final_concession"
+          ],
+          "inferred_state": {
+            "reading": "shocked_realization",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "SOCRATES",
+          "text": "And as you have spoken so eloquently of his nature, may I ask you further, Whether love is the love of something or of nothing?",
+          "observable_teaching_actions": [
+            "initiates_inquiry",
+            "requests_binary_categorization"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Establishing the logical prerequisites for Love's nature (Love must be of something).",
+          "function_id": "UM_01",
+          "classification_evidence": "Definition forcing: Demanding a precise ontological category for Love.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "vagueness"
+          ],
+          "trap_notes": [
+            "Agathon has previously used vague poetic language."
+          ],
+          "mechanism_shape": "comparison",
+          "mechanism_comment": "Comparison of Love as relation vs non-relation.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 2,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "Of something, surely.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "SOCRATES",
+          "text": "Keep in mind what this is, and tell me what I want to know — whether Love desires that of which love is.",
+          "observable_teaching_actions": [
+            "tests_motive"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Establishing the second premise: Love desires its object.",
+          "function_id": "UM_01",
+          "classification_evidence": "Definition forcing: Testing the definition of desire itself.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Desire is mapped as the initial cause of Love.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 4,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "Yes, surely.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 5,
+          "speaker": "SOCRATES",
+          "text": "And does he possess, or does he not possess, that which he loves and desires?",
+          "observable_teaching_actions": [
+            "tests_possession_state"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Setting the final trap: showing desire necessarily implies lack.",
+          "function_id": "UM_06",
+          "classification_evidence": "Constraint removal: Removing the hidden assumption that Love is the perfect possession of the perfect object.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "threshold",
+          "mechanism_comment": "Testing the threshold of possession.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 6,
+            "reaction_label": "conceptual_concession",
+            "evidence": "Probably not, I should say.",
+            "outcome_label": "partial_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 7,
+          "speaker": "SOCRATES",
+          "text": "Nay, replied Socrates, I would have you consider whether “necessarily” is not rather the word. The inference that he who desires something is in want of something, and that he who desires nothing is in want of nothing, is in my judgment, Agathon absolutely and necessarily true. What do you think?",
+          "observable_teaching_actions": [
+            "forces_necessity",
+            "states_final_syllogism"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Formalizing the logical chain: Desire $\\rightarrow$ Want $\\rightarrow$ Lack.",
+          "function_id": "UM_02",
+          "classification_evidence": "Contradiction exposure: Agathon's previous statement (T6) is shown to be necessarily true, setting up the refutation.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Desire implies lack (want).",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 8,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "I agree with you.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 9,
+          "speaker": "SOCRATES",
+          "text": "Then Love wants and has not beauty?",
+          "observable_teaching_actions": [
+            "applies_syllogism_to_love"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Applying the established logic directly to Love.",
+          "function_id": "UM_02",
+          "classification_evidence": "Contradiction exposure: Love must lack the beauty Agathon ascribed to him.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Conclusion 1: Love wants beauty.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 10,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "Certainly.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 11,
+          "speaker": "SOCRATES",
+          "text": "And would you call that beautiful which wants and does not possess beauty?",
+          "observable_teaching_actions": [
+            "questions_definition"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Final exposure of the logical contradiction in Agathon's premise.",
+          "function_id": "UM_02",
+          "classification_evidence": "Contradiction exposure: Testing the definition of beautiful against the condition of lack.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Conclusion 2: Lacking beauty $\\rightarrow$ Not beautiful.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 12,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "Certainly not.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 13,
+          "speaker": "SOCRATES",
+          "text": "Then would you still say that love is beautiful?",
+          "observable_teaching_actions": [
+            "forces_final_choice"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Forcing Agathon to concede the original point is refuted.",
+          "function_id": "UM_02",
+          "classification_evidence": "Contradiction exposure: Forcing choice between premise (Love is beautiful) and conclusion (Love is not beautiful).",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "The original claim must collapse.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 14,
+            "reaction_label": "conceptual_concession",
+            "evidence": "I fear that I did not understand what I was saying.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Socrates refutes Agathon's poetic definition of Love by establishing the principle that desire implies lack, and since Love desires Beauty, Love must lack Beauty and thus cannot be beautiful itself.",
+      "episode_insights": {
+        "key_pattern": "Establish Desire=Lack Syllogism → Apply Logic to Love (Lack of Beauty) → Forcing Final Contradiction (Love is not Beautiful)",
+        "notes": [
+          "Classic Elenchus: using sequential agreement to lead the student to self-refutation.",
+          "The core move is establishing the universality of 'desire implies lack'."
+        ]
+      }
+    },
+    {
+      "episode_id": "symposium_t2723_t2733_intermediate_nature",
+      "source_text": "Plato's Symposium",
+      "lineage": "Socratic",
+      "student_turns": [
+        {
+          "turn_index": 3,
+          "speaker": "SOCRATES",
+          "text": "By all.",
+          "observable_student_behaviors": [
+            "universalizes_claim"
+          ],
+          "behavior_tags": [
+            "naivete"
+          ],
+          "inferred_state": {
+            "reading": "unthinking_consensus",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 5,
+          "speaker": "SOCRATES",
+          "text": "And who are they?",
+          "observable_student_behaviors": [
+            "asks_for_identification"
+          ],
+          "behavior_tags": [
+            "confusion"
+          ],
+          "inferred_state": {
+            "reading": "mild_confusion",
+            "confidence": 0.85
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 7,
+          "speaker": "SOCRATES",
+          "text": "How can that be?",
+          "observable_student_behaviors": [
+            "questions_paradox"
+          ],
+          "behavior_tags": [
+            "skepticism"
+          ],
+          "inferred_state": {
+            "reading": "open_inquiry",
+            "confidence": 0.85
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 9,
+          "speaker": "SOCRATES",
+          "text": "Impossible. What then is Love? Is he mortal?",
+          "observable_student_behaviors": [
+            "concedes_premise",
+            "requests_binary_categorization"
+          ],
+          "behavior_tags": [
+            "binary_thinking"
+          ],
+          "inferred_state": {
+            "reading": "seeking_new_category",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "SOCRATES",
+          "text": "Well, Love is surely admitted by all to be a great god.",
+          "observable_teaching_actions": [
+            "states_common_premise"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Establishing the common, but flawed, definition of Love (as a great god).",
+          "function_id": "RM_02",
+          "classification_evidence": "Example instantiation: Stating the commonly accepted status of Love.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "realism_trap"
+          ],
+          "trap_notes": [
+            "Socrates relies on consensual opinion (admitted by all)."
+          ],
+          "mechanism_shape": "none",
+          "mechanism_comment": null,
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 3,
+            "reaction_label": "elaborates",
+            "evidence": "By all.",
+            "outcome_label": "partial_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 2,
+          "speaker": "DIOTIMA",
+          "text": "By those who know or by those who do not know?",
+          "observable_teaching_actions": [
+            "tests_source_of_claim"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Challenging the authority of the premise (T1) by questioning the knowledge source.",
+          "function_id": "UM_06",
+          "classification_evidence": "Constraint removal: Removing the supporting condition of universal consensus.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "threshold",
+          "mechanism_comment": "Testing the authority threshold.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 3,
+            "reaction_label": "elaborates",
+            "evidence": "By all.",
+            "outcome_label": "partial_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "DIOTIMA",
+          "text": "And how, Socrates, can Love be acknowledged to be a great god by those who say that he is not a god at all?",
+          "observable_teaching_actions": [
+            "exposes_contradiction"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Revealing the central contradiction: Socrates has already defined Love as lacking beauty/goodness, thus lacking divinity.",
+          "function_id": "UM_02",
+          "classification_evidence": "Contradiction exposure: Love lacks good/fair (necessity of desire) $\\rightarrow$ Love cannot be a god.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "category_conflation"
+          ],
+          "trap_notes": [
+            "Socrates conflates the common meaning of Love with the logically derived definition."
+          ],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Linking the logical necessity of lack (from Agathon refutation) to divinity.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 5,
+            "reaction_label": "confused",
+            "evidence": "And who are they?",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 6,
+          "speaker": "DIOTIMA",
+          "text": "You and I are two of them.",
+          "observable_teaching_actions": [
+            "includes_student_in_refutation"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Personalizing the refutation by naming Socrates as the source of the contradiction.",
+          "function_id": "UM_05",
+          "classification_evidence": "Ego displacement: Forcing Socrates to confront his own logical conclusion (Love is not a god).",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "subject_object_inversion",
+          "mechanism_comment": "The subject (Socrates) is inverted into the object of the refutation.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 7,
+            "reaction_label": "confused",
+            "evidence": "How can that be?",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 8,
+          "speaker": "DIOTIMA",
+          "text": "It is quite intelligible... you admitted that Love, because he was in want, desires those good and fair things of which he is in want? ... But how can he be a god who has no portion in what is either good or fair?",
+          "observable_teaching_actions": [
+            "recapitulates_proof",
+            "forces_conclusion"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Final re-statement of the logical syllogism that excludes Love from divinity.",
+          "function_id": "UM_02",
+          "classification_evidence": "Contradiction exposure: Recapping the logical conflict (Desire implies lack of good/fair, but gods possess all good/fair).",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Linking the logical necessity of lack (from Agathon refutation) to divinity.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 9,
+            "reaction_label": "conceptual_concession",
+            "evidence": "Impossible. What then is Love? Is he mortal?",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 10,
+          "speaker": "DIOTIMA",
+          "text": "No... As in the former instance, he is neither mortal nor immortal, but in a mean between the two... He is a great spirit (daimon), and like all spirits he is intermediate between the divine and the mortal.",
+          "observable_teaching_actions": [
+            "introduces_third_category",
+            "redefines_ontology"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Building the corrected model: Love exists in the necessary intermediate category ('mean between the two').",
+          "function_id": "RM_05",
+          "classification_evidence": "Frame upgrade: Introducing the 'daimon' ontology to break the binary (mortal/immortal).",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "category_conflation"
+          ],
+          "trap_notes": [
+            "Socrates assumes a simple binary (mortal/immortal)."
+          ],
+          "mechanism_shape": "comparison",
+          "mechanism_comment": "Defining the 'mean' state.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "intermediate_category",
+            "shape": "breaking_the_binary",
+            "canonical_candidate": false
+          }
+        }
+      ],
+      "episode_overview": "Diotima refutes Socrates' (and common) assumption that Love is a god by showing that Love lacks the good things it desires. She then introduces the corrected metaphysical category: Love is neither mortal nor immortal, but an intermediate spirit (daimon) that bridges the divine and human.",
+      "episode_insights": {
+        "key_pattern": "Contradiction (Love=God) → Inclusion (You and I are two) → Syllogism Recap (Lack=Not God) → Frame Upgrade (Intermediate Daimon)",
+        "notes": [
+          "Classic Socratic method of breaking binary categories.",
+          "Love is defined by its function as a mediator/bridge (metaxy)."
+        ]
+      }
+    },
+    {
+      "episode_id": "symposium_t2750_t2756_ignorance_vs_wisdom",
+      "source_text": "Plato's Symposium",
+      "lineage": "Socratic",
+      "student_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "SOCRATES",
+          "text": "But — who then, Diotima, are the lovers of wisdom, if they are neither the wise nor the foolish?",
+          "observable_student_behaviors": [
+            "asks_definitional_question",
+            "identifies_gap"
+          ],
+          "behavior_tags": [
+            "philosophical_puzzle"
+          ],
+          "inferred_state": {
+            "reading": "intellectual_aporia",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "DIOTIMA",
+          "text": "The truth of the matter is this: No god is a philosopher or seeker after wisdom, for he is wise already; nor does any man who is wise seek after wisdom. Neither do the ignorant seek after Wisdom. For herein is the evil of ignorance, that he who is neither good nor wise is nevertheless satisfied with himself: he has no desire for that of which he feels no want.",
+          "observable_teaching_actions": [
+            "establishes_boundaries",
+            "defines_ignorance_as_self_satisfaction"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Establishing the conditions under which seeking (philosophy) is possible by excluding the Wise and the Foolish.",
+          "function_id": "RM_03",
+          "classification_evidence": "Conceptual distinction: Differentiating the Wise (possesses) and the Foolish (satisfied/no want).",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "ego_defense"
+          ],
+          "trap_notes": [
+            "The greatest ignorance is self-satisfaction with lack of wisdom."
+          ],
+          "mechanism_shape": "comparison",
+          "mechanism_comment": "Comparing the motive of the three categories (Possession, Satisfaction, Lack).",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 2,
+            "reaction_label": "conceptual_concession",
+            "evidence": "But — who then, Diotima, are the lovers of wisdom, if they are neither the wise nor the foolish?",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "DIOTIMA",
+          "text": "A child may answer that question; they are those who are in a mean between the two; Love is one of them. For wisdom is a most beautiful thing, and Love is of the beautiful; and therefore Love is also a philosopher: or lover of wisdom, and being a lover of wisdom is in a mean between the wise and the ignorant.",
+          "observable_teaching_actions": [
+            "names_intermediate_category",
+            "defines_philosopher"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Building the final definition: the philosopher is the one who exists in the necessary intermediate state.",
+          "function_id": "RM_05",
+          "classification_evidence": "Frame upgrade: Defining the Philosopher as the 'mean between the two' categories.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "comparison",
+          "mechanism_comment": "Defining the 'mean' state necessary for seeking.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Diotima defines the necessary condition for seeking wisdom (philosophy) by excluding the Wise (who possess it) and the Foolish (who are content without it). The philosopher is therefore the 'Intermediate'—aware of their lack but compelled by desire.",
+      "episode_insights": {
+        "key_pattern": "Exclusion (Wise/Foolish) → Definition of Ignorance (Self-Satisfaction) → Introduction of Intermediate Category (Lover of Wisdom)",
+        "notes": [
+          "The philosophical state is structurally defined by lack + desire, not possession."
+        ]
+      }
+    },
+    {
+      "episode_id": "symposium_t2797_t2801_birth_in_beauty",
+      "source_text": "Plato's Symposium",
+      "lineage": "Socratic",
+      "student_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "SOCRATES",
+          "text": "What then?",
+          "observable_student_behaviors": [
+            "asks_for_clarification"
+          ],
+          "behavior_tags": [
+            "seeking_definition"
+          ],
+          "inferred_state": {
+            "reading": "open_inquiry",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 4,
+          "speaker": "SOCRATES",
+          "text": "Yes.",
+          "observable_student_behaviors": [
+            "accepts_premise"
+          ],
+          "behavior_tags": [
+            "logical_assent"
+          ],
+          "inferred_state": {
+            "reading": "cooperative_compliance",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "DIOTIMA",
+          "text": "I mean to say, that all men are bringing to the birth in their bodies and in their souls... Beauty, then, is the destiny or goddess of parturition who presides at birth, and therefore, when approaching beauty, the conceiving power is propitious... For love, Socrates, is not, as you imagine, the love of the beautiful only.",
+          "observable_teaching_actions": [
+            "introduces_metaphor",
+            "corrects_definition"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Correcting the narrow definition of Love (aesthetic) and introducing the metaphor of spiritual generation/birth.",
+          "function_id": "RM_05",
+          "classification_evidence": "Frame upgrade: Love is not merely appreciation (consumption) but a drive to birth/create (production).",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_03",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "category_conflation"
+          ],
+          "trap_notes": [
+            "Socrates conflates appreciation of beauty with the drive to generate in beauty."
+          ],
+          "mechanism_shape": "ontological_frame_upgrade",
+          "mechanism_comment": "Shifts the meaning of Love from aesthetic object to vital function.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 2,
+            "reaction_label": "seeks_instruction",
+            "evidence": "What then?",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "DIOTIMA",
+          "text": "The love of generation and of birth in beauty.",
+          "observable_teaching_actions": [
+            "gives_corrected_definition"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Providing the corrected, generative definition of Love.",
+          "function_id": "RM_03",
+          "classification_evidence": "Conceptual distinction: Love of the beautiful vs Love of generation in beauty.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "comparison",
+          "mechanism_comment": "Comparison of two definitions.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 4,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "Yes.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 5,
+          "speaker": "DIOTIMA",
+          "text": "But why of generation? Because to the mortal creature, generation is a sort of eternity and immortality... all men will necessarily desire immortality together with good: Wherefore love is of immortality.",
+          "observable_teaching_actions": [
+            "traces_motive_to_immortality",
+            "states_final_axiom"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Tracing the corrected definition of Love back to its ultimate root (the desire for immortality).",
+          "function_id": "RM_05",
+          "classification_evidence": "Frame upgrade: Love is ultimately defined axiologically as the desire for the eternal.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Generation $\\rightarrow$ Immortality $\\rightarrow$ Love's true object.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Diotima corrects Socrates' definition of Love, shifting it from mere aesthetic appreciation to the generative drive to produce (in body or soul) in the presence of beauty, tracing this drive to the ultimate desire for immortality.",
+      "episode_insights": {
+        "key_pattern": "Correction (Not only Beautiful) → Redefinition (Generation/Birth) → Root Tracing (Immortality)",
+        "notes": [
+          "Defines Love as a creative impulse, not a passive attraction.",
+          "Links the mortal condition to the desire for the eternal."
+        ]
+      }
+    },
+    {
+      "episode_id": "symposium_t2837_t2846_ladder_of_ascent",
+      "source_text": "Plato's Symposium",
+      "lineage": "Socratic",
+      "student_turns": [],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "DIOTIMA",
+          "text": "He who would proceed aright in this matter should begin in youth to visit beautiful forms... soon he will of himself perceive that the beauty of one form is akin to the beauty of another... and will become a lover of all beautiful forms; in the next stage he will consider that the beauty of the mind is more honourable than the beauty of the outward form.",
+          "observable_teaching_actions": [
+            "gives_instruction_protocol",
+            "maps_first_stages"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Mapping the initial steps of the Ascent (Lesser Mysteries) from body $\\rightarrow$ bodies $\\rightarrow$ soul.",
+          "function_id": "RM_04",
+          "classification_evidence": "Instruction protocol: Mapping a step-by-step path of intellectual development.",
+          "register": {
+            "intensity": "PR_01",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "The movement from one stage causes the awareness of the next.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 2,
+          "speaker": "DIOTIMA",
+          "text": "Until he is compelled to contemplate and see the beauty of institutions and laws... and after laws and institutions he will go on to the sciences, that he may see their beauty... until on that shore he grows and waxes strong, and at last the vision is revealed to him of a single science, which is the science of beauty everywhere.",
+          "observable_teaching_actions": [
+            "maps_middle_stages",
+            "describes_unification"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Mapping the transition from moral/social forms to intellectual forms (Greater Mysteries).",
+          "function_id": "RM_04",
+          "classification_evidence": "Instruction protocol: Mapping a step-by-step path (Laws $\\rightarrow$ Sciences $\\rightarrow$ Single Science).",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "The necessity of proceeding through the intellectual stages.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "SELF-MAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "DIOTIMA",
+          "text": "He who has been instructed thus far... will suddenly perceive a nature of wondrous beauty... beauty absolute, separate, simple, and everlasting... This, my dear Socrates, is that life above all others which man should live.",
+          "observable_teaching_actions": [
+            "describes_final_vision",
+            "states_axiom_of_living"
+          ],
+          "phase": "SELF-MAKING",
+          "phase_reason": "Pointing to the supreme achievement of autonomous philosophical vision.",
+          "function_id": "SM_01",
+          "classification_evidence": "Direct seeing: Describing the ultimate, absolute reality that the philosopher's consciousness attains.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_04",
+            "linguistic_style": "LS_03",
+            "phenomenological_depth": "PD_04",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "ontological_frame_upgrade",
+          "mechanism_comment": "The final upgrade to the Platonic Form of Beauty.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "SELF-MAKING",
+              "to": "SELF-MAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Diotima maps the entire 'Ladder of Ascent' in love, detailing the necessary step-by-step philosophical progression from the love of one beautiful body to the contemplation of absolute, eternal Beauty (The Form).",
+      "episode_insights": {
+        "key_pattern": "Instruction Protocol (Body $\\rightarrow$ Soul) $\\rightarrow$ Instruction Protocol (Laws $\\rightarrow$ Sciences) $\\rightarrow$ Vision of the Absolute Form",
+        "notes": [
+          "This is the core instructional protocol (RM_04) of the Platonic mystery tradition.",
+          "The monologue serves as a comprehensive philosophical map."
+        ]
+      }
+    },
+    {
+      "episode_id": "symposium_t2898_t2912_alcibiades_praise",
+      "source_text": "Plato's Symposium",
+      "lineage": "Socratic",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "ALCIBIADES",
+          "text": "I say, that he is exactly like the busts of Silenus... which are made to open in the middle, and have images of gods inside them. I say also that he is like Marsyas the satyr. You yourself will not deny, Socrates, that your face is like that of a satyr.",
+          "observable_student_behaviors": [
+            "uses_grotesque_analogy",
+            "describes_outer_form"
+          ],
+          "behavior_tags": [
+            "complex_flattery",
+            "paradoxical_praise"
+          ],
+          "inferred_state": {
+            "reading": "worshipful_disdain",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        },
+        {
+          "turn_index": 2,
+          "speaker": "ALCIBIADES",
+          "text": "But you produce the same effect with your words only... the mere fragments of you and your words, even at second-hand, and however imperfectly repeated, amaze and possess the souls of every man, woman, and child who comes within hearing of them.",
+          "observable_student_behaviors": [
+            "describes_socratic_effect"
+          ],
+          "behavior_tags": [
+            "awe",
+            "rhetorical_power"
+          ],
+          "inferred_state": {
+            "reading": "overwhelmed_by_rhetoric",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 3,
+          "speaker": "ALCIBIADES",
+          "text": "And if I were not afraid that you would think me hopelessly drunk, I would have sworn as well as spoken to the influence which they have always had and still have over me. For my heart leaps within me more than that of any Corybantian reveller, and my eyes rain tears when I hear them.",
+          "observable_student_behaviors": [
+            "discloses_emotional_reaction",
+            "claims_shame"
+          ],
+          "behavior_tags": [
+            "existential_shame",
+            "vulnerability"
+          ],
+          "inferred_state": {
+            "reading": "vulnerable_awe",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "ALCIBIADES",
+          "text": "I say, that he is exactly like the busts of Silenus... which are made to open in the middle, and have images of gods inside them. I say also that he is like Marsyas the satyr. You yourself will not deny, Socrates, that your face is like that of a satyr.",
+          "observable_teaching_actions": [
+            "uses_metaphor_of_contrast",
+            "describes_outer_ugliness"
+          ],
+          "phase": "META",
+          "phase_reason": "Using Alcibiades' praise to establish a metaphor for the teacher's necessary exterior/interior paradox.",
+          "function_id": "ME_03",
+          "classification_evidence": "Method explanation: Describing the necessary contrast between outer presentation (Satyr) and inner content (Gods).",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_03",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "structural_analogy",
+          "mechanism_comment": "Silenus statue analogy.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 2,
+            "reaction_label": "elaborates",
+            "evidence": "But you produce the same effect with your words only...",
+            "outcome_label": "unclear",
+            "phase_shift": {
+              "from": "META",
+              "to": "META"
+            }
+          },
+          "local_move": {
+            "move_id": "silenus_teacher_analogy",
+            "shape": "inner_outer_paradox",
+            "canonical_candidate": false
+          }
+        },
+        {
+          "turn_index": 2,
+          "speaker": "ALCIBIADES",
+          "text": "But you produce the same effect with your words only... the mere fragments of you and your words, even at second-hand, and however imperfectly repeated, amaze and possess the souls of every man, woman, and child who comes within hearing of them.",
+          "observable_teaching_actions": [
+            "describes_rhetorical_impact"
+          ],
+          "phase": "META",
+          "phase_reason": "Continuing the method explanation by describing the powerful effect of Socratic speech on the soul.",
+          "function_id": "ME_03",
+          "classification_evidence": "Method explanation: Describing the universal and involuntary emotional effect of the dialectic.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_04",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_03",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Socrates' words $\\rightarrow$ Possession of the soul.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 3,
+            "reaction_label": "elaborates",
+            "evidence": "And if I were not afraid that you would think me hopelessly drunk, I would have sworn as well as spoken to the influence which they have always had and still have over me...",
+            "outcome_label": "unclear",
+            "phase_shift": {
+              "from": "META",
+              "to": "META"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "ALCIBIADES",
+          "text": "And if I were not afraid that you would think me hopelessly drunk, I would have sworn as well as spoken to the influence which they have always had and still have over me. For my heart leaps within me more than that of any Corybantian reveller, and my eyes rain tears when I hear them.",
+          "observable_teaching_actions": [
+            "discloses_vulnerable_response"
+          ],
+          "phase": "META",
+          "phase_reason": "Final disclosure showing the power of philosophy to induce shame and existential crisis.",
+          "function_id": "ME_03",
+          "classification_evidence": "Method explanation: Using the student's emotional breakdown as proof of the philosophical process.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_04",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_03",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "feedback",
+          "mechanism_comment": "Emotional response (shame/tears) feeds back to validate the method's effectiveness.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "META",
+              "to": "META"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Alcibiades, speaking in the persona of a student overwhelmed by the Socratic method, praises Socrates by comparing his outer ugliness to the inner divinity of a Silenus statue, using his own involuntary emotional reaction (shame, tears) as proof of philosophical power.",
+      "episode_insights": {
+        "key_pattern": "Metaphor (Silenus) → Description of Effect (Amaze/Possess) → Disclosure (Tears/Leaping Heart) → Validation of Method",
+        "notes": [
+          "This monologue is a unique, highly intimate description of the 'Socratic effect' on the soul.",
+          "Alcibiades' voice serves as the philosophical pupil's emotional testament to the teacher's power."
+        ]
+      }
+    },
+    {
+      "episode_id": "symposium_t2959_t2966_gold_for_brass",
+      "source_text": "Plato's Symposium",
+      "lineage": "Socratic",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "ALCIBIADES",
+          "text": "I come to lay at your feet all that I have... in the hope that you will assist me in the way of virtue... I should certainly have more reason to be ashamed of what wise men would say if I were to refuse a favour to such as you.",
+          "observable_student_behaviors": [
+            "offers_transaction",
+            "claims_desire_for_virtue"
+          ],
+          "behavior_tags": [
+            "quid_pro_quo",
+            "spiritual_transaction"
+          ],
+          "inferred_state": {
+            "reading": "transactional_desire",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "SOCRATES",
+          "text": "Alcibiades, my friend, you have indeed an elevated aim if what you say is true, and if there really is in me any power by which you may become better; truly you must see in me some rare beauty of a kind infinitely higher than any which I see in you.",
+          "observable_teaching_actions": [
+            "acknowledges_flattery",
+            "reverses_valuation"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Acknowledging the trade but subtly exposing Alcibiades' true valuation (he must think Socrates' inner beauty is higher than his own outer beauty).",
+          "function_id": "UM_05",
+          "classification_evidence": "Ego displacement: Turning Alcibiades' flattery back into a statement about his own mistaken valuation.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "subject_object_inversion",
+          "mechanism_comment": "The value of Socrates' inner object must be infinitely higher than Alcibiades' outer object.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "SOCRATES",
+          "text": "And therefore, if you mean to share with me and to exchange beauty for beauty, you will have greatly the advantage of me; you will gain true beauty in return for appearance — like Diomede, gold in exchange for brass. But look again, sweet friend, and see whether you are not deceived in me.",
+          "observable_teaching_actions": [
+            "rejects_transaction",
+            "uses_mythological_analogy",
+            "forces_reconsideration"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Final rejection of the physical/spiritual trade by comparing it to an absurd exchange of materials.",
+          "function_id": "UM_05",
+          "classification_evidence": "Ego displacement: Devaluing Alcibiades' most prized possession (physical beauty) as 'brass' against Socrates' 'gold'.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_03",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "shopping_mindset",
+            "conceptual_reification"
+          ],
+          "trap_notes": [
+            "Alcibiades treats wisdom as a commodity that can be traded for sex/beauty."
+          ],
+          "mechanism_shape": "structural_analogy",
+          "mechanism_comment": "Gold : Brass :: Virtue : Appearance.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "refutation",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "gold_for_brass_refusal",
+            "shape": "transactional_devaluation",
+            "canonical_candidate": false
+          }
+        }
+      ],
+      "episode_overview": "Socrates refuses Alcibiades' attempt to exchange his physical favors (beauty) for Socrates' wisdom, reframing the transaction as a foolish trade of 'brass' for 'gold' to expose the true, unequal value of the exchange.",
+      "episode_insights": {
+        "key_pattern": "Transactional Offer → Reverse Valuation (Elevated Aim) → Structural Analogy (Gold/Brass) → Final Refusal",
+        "notes": [
+          "The 'Gold for Brass' analogy is used to establish the axiological hierarchy.",
+          "Socrates' refusal is essential to defining the nature of virtue—it cannot be bought or passively transferred."
+        ]
+      }
+    },
+    {
+      "episode_id": "symposium_t2306_t2310_wisdom_fluid",
+      "source_text": "Plato's Symposium",
+      "lineage": "Socratic",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "AGATHON",
+          "text": "That 'I may touch you,' he said, 'and have the benefit of that wise thought which came into your mind in the portico...'",
+          "observable_student_behaviors": [
+            "requests_physical_proximity",
+            "claims_benefit_transfer"
+          ],
+          "behavior_tags": [
+            "magical_thinking",
+            "passive_learning"
+          ],
+          "inferred_state": {
+            "reading": "desire_for_easy_wisdom",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "SOCRATES",
+          "text": "How I wish, said Socrates, taking his place as he was desired, that wisdom could be infused by touch, out of the fuller the emptier man, as water runs through wool out of a fuller cup into an emptier one; if that were so, how greatly should I value the privilege of reclining at your side!",
+          "observable_teaching_actions": [
+            "uses_ironic_concession",
+            "uses_fluid_analogy"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Ironic dismantling of Agathon's belief in passive, physical transfer of knowledge.",
+          "function_id": "UM_03",
+          "classification_evidence": "Concrete grounding: Testing the abstraction of 'wisdom transfer' against the absurdity of physical fluid dynamics.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_03",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "magical_thinking",
+            "problem_solving_stance"
+          ],
+          "trap_notes": [
+            "Agathon treats knowledge acquisition as a passive transaction ('download')."
+          ],
+          "mechanism_shape": "structural_analogy",
+          "mechanism_comment": "Comparing wisdom transfer to water flowing through wool.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "joke",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": {
+            "move_id": "wisdom_fluid_analogy",
+            "shape": "rejecting_passive_transfer",
+            "canonical_candidate": false
+          }
+        },
+        {
+          "turn_index": 3,
+          "speaker": "SOCRATES",
+          "text": "For you would have filled me full with a stream of wisdom plenteous and fair; whereas my own is of a very mean and questionable sort, no better than a dream.",
+          "observable_teaching_actions": [
+            "reasserts_ironic_modesty",
+            "claims_ignorance"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Continuing the dismantling by claiming his own knowledge is worthless, thus undermining the transfer mechanism.",
+          "function_id": "UM_05",
+          "classification_evidence": "Ego displacement: Ironic self-deprecation to remove the Guru status and block the perceived transaction.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "spiritual_superego"
+          ],
+          "trap_notes": [
+            "Agathon projects perfect wisdom onto Socrates."
+          ],
+          "mechanism_shape": "comparison",
+          "mechanism_comment": "Comparing his 'mean' wisdom to Agathon's 'plenteous' wisdom (ironically).",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "joke",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Socrates uses ironic self-deprecation and the metaphor of water transfer to reject Agathon's belief that wisdom can be acquired passively through physical proximity or touch.",
+      "episode_insights": {
+        "key_pattern": "Request for Magical Transfer → Ironic Analogy (Water/Wool) → Self-Deprecation (My Wisdom is a Dream) → Rejection of Guru Status",
+        "notes": [
+          "Rejects the 'download' model of knowledge acquisition.",
+          "The ultimate goal is to force the student into active philosophical work."
+        ]
+      }
+    }
+  ]
+}

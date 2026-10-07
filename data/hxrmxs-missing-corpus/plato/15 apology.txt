@@ -1,0 +1,630 @@
+{
+  "episodes": [
+    {
+      "episode_id": "apology_20a_20c_callias_educator",
+      "source_text": "Plato’s Apology of Socrates",
+      "lineage": "Socratic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "SOCRATES",
+          "text": "Callias, If your two sons had been born colts or calves, we would have been able to get and hire an overseer for them who could make the two of them noble and good in their appropriate virtue, and he would have been someone from among those skilled with horses or skilled in farming. But as it is, since they are two human beings, whom do you have in mind to get as an overseer for the two of them? Who is knowledgeable in such virtue, that of human being and citizen? For I suppose you have considered it, since you possess sons. Is there someone, or not?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "CALLIAS",
+          "text": "Quite so,"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "SOCRATES",
+          "text": "Who, and where is he from, and for how much does he teach?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "CALLIAS",
+          "text": "Evenus, Socrates, from Paros: five minae."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "META"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Callias is wealthy and confident he has found a teacher for his sons.",
+        "end_state_desc": "Socrates ironically praises this claim, highlighting the dubiousness of buying virtue for a fee.",
+        "closure_type": "joke"
+      },
+      "training_value": {
+        "pedagogical_shape": "Analogy establishes a standard (craft expertise) to question a claim (teaching virtue).",
+        "what_model_should_learn": [
+          "How to use craft analogies (horses/farming) to set a high bar for defining 'expertise' in ethics.",
+          "The use of irony ('I regarded Evenus as blessed') to signal skepticism without aggression."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "20a–20c",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "apology_24d_25a_who_improves_youth",
+      "source_text": "Plato’s Apology of Socrates",
+      "lineage": "Socratic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "SOCRATES",
+          "text": "Now come here, Meletus, tell me: do you not regard it as most important how the youth will be the best possible?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "MELETUS",
+          "text": "I do."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "SOCRATES",
+          "text": "Come now, tell these men, who makes them better? For it is clear that you know, since you care, at least. For since you have discovered the one who corrupts them, as you say, namely me, you are bringing me before these men and accusing me. But the one who makes them better—come, tell them and reveal to them who it is. Do you see, Meletus, that you are silent and have nothing to say? And yet does it not seem to be shameful to you, and a sufficient proof of just what I say, that you have never cared? But tell, my good man, who makes them better?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "MELETUS",
+          "text": "The laws."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "SOCRATES",
+          "text": "But I am not asking this, best of men, but rather what human being is it who knows first of all this very thing, the laws?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "MELETUS",
+          "text": "These men, Socrates, the judges."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "SOCRATES",
+          "text": "What are you saying, Meletus? Are these men here able to educate the young, and do they make them better?"
+        },
+        {
+          "turn_index": 8,
+          "speaker": "MELETUS",
+          "text": "Very much so."
+        },
+        {
+          "turn_index": 9,
+          "speaker": "SOCRATES",
+          "text": "All of them, or some of them, and some not?"
+        },
+        {
+          "turn_index": 10,
+          "speaker": "MELETUS",
+          "text": "All of them."
+        },
+        {
+          "turn_index": 11,
+          "speaker": "SOCRATES",
+          "text": "Well said, by Hera, and you speak of a great abundance of benefiters. What then? Do the listeners here make them better or not?"
+        },
+        {
+          "turn_index": 12,
+          "speaker": "MELETUS",
+          "text": "These too."
+        },
+        {
+          "turn_index": 13,
+          "speaker": "SOCRATES",
+          "text": "And what about the Councilmen?"
+        },
+        {
+          "turn_index": 14,
+          "speaker": "MELETUS",
+          "text": "The Councilmen too."
+        },
+        {
+          "turn_index": 15,
+          "speaker": "SOCRATES",
+          "text": "Well, Meletus, then surely those in the Assembly, the Assemblymen, do not corrupt the youth? Or do all those too make them better?"
+        },
+        {
+          "turn_index": 16,
+          "speaker": "MELETUS",
+          "text": "Those too."
+        },
+        {
+          "turn_index": 17,
+          "speaker": "SOCRATES",
+          "text": "Then all the Athenians, as it appears, make them noble and good except me, and I alone corrupt them. Is this what you are saying?"
+        },
+        {
+          "turn_index": 18,
+          "speaker": "MELETUS",
+          "text": "I do say this, most vehemently."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Meletus asserts Socrates corrupts the youth but has not thought about who improves them.",
+        "end_state_desc": "Meletus is trapped in the absurd claim that every single Athenian improves the youth except Socrates.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Reductio ad absurdum via stepwise expansion (Judges -> Listeners -> Council -> Assembly -> Everyone).",
+        "what_model_should_learn": [
+          "How to trap an accuser by forcing them to universalize their claim until it becomes ridiculous.",
+          "Using silence ('Do you see... that you are silent') as evidence of ignorance."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "24d–25a",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "apology_25a_25c_horse_analogy",
+      "source_text": "Plato’s Apology of Socrates",
+      "lineage": "Socratic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "SOCRATES",
+          "text": "You have charged me with great misfortune. Now answer me. Does it seem to you to be so also concerning horses? That all human beings make them better, while one certain one is the corrupter? Or is it wholly opposite to this, that one certain one is able to make them better—or very few, those skilled with horses—while the many, if they ever associate with horses and use them, corrupt them? Is this not so, Meletus, both concerning horses, and all the other animals?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "SOCRATES",
+          "text": "Of course it is, altogether so, whether you and Anytus deny or affirm it. For it would be a great happiness for the young if one alone corrupts them, while the others benefit them. But in fact, Meletus, you have sufficiently displayed that you never yet gave an thought to the young."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "REMAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Meletus has claimed the 'many' improve the youth and the 'one' (Socrates) corrupts.",
+        "end_state_desc": "Socrates inverts this with the horse analogy: usually the few (experts) improve, and the many corrupt.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Inversion of the Many/One relationship using a craft analogy.",
+        "what_model_should_learn": [
+          "How to use an analogy (horses) to flip the logic of an accusation (One vs Many).",
+          "Demonstrating that expertise is rare, not universal."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "25a–25c",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "apology_25c_26a_voluntary_harm",
+      "source_text": "Plato’s Apology of Socrates",
+      "lineage": "Socratic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "SOCRATES",
+          "text": "But tell us further, Meletus, before Zeus, whether it is better to dwell among upright citizens or villainous ones? Sir, answer. For surely I am asking nothing hard. Do not the villainous do something bad to whoever are nearest to them, while the good do something good?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "MELETUS",
+          "text": "Quite so."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "SOCRATES",
+          "text": "Is there anyone, then, who wishes to be harmed by those he associates with, rather than to be benefited? Keep answering, my good man. For the law orders you to answer. Is there anyone who wishes to be harmed?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "MELETUS",
+          "text": "Of course not."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "SOCRATES",
+          "text": "Come then, do you bring me in here saying that I voluntarily corrupt the young and make them more villainous, or involuntarily?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "MELETUS",
+          "text": "Voluntarily, I say."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "SOCRATES",
+          "text": "What then, Meletus? Are you so much wiser at your age than I at mine, that you have become cognizant that the bad always do something bad to those who are closest to them, and the good do something good; whereas I have come into so much ignorance that I am not even cognizant that if I ever do something wretched to any of my associates, I will risk getting back something bad from him? So that I do so much bad voluntarily, as you assert? Of this I am not convinced by you, Meletus, nor, do I suppose, is any other human being. But either I do not corrupt, or if I do corrupt, I do it involuntarily, so in both cases what you say is false."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Meletus claims Socrates corrupts the youth voluntarily (intentionally).",
+        "end_state_desc": "Socrates proves this impossible: no one wants to be harmed by bad neighbors, so no one creates bad neighbors voluntarily.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Logical syllogism proving the impossibility of the accusation based on self-interest.",
+        "what_model_should_learn": [
+          "How to use the universal desire for self-preservation to disprove malicious intent.",
+          "The Socratic distinction between voluntary crime (punishment) and involuntary error (instruction)."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "25c–26a",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "apology_27b_27e_daimonia_trap",
+      "source_text": "Plato’s Apology of Socrates",
+      "lineage": "Socratic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "SOCRATES",
+          "text": "Is there any human being, Meletus, who believes that there are human matters, but does not believe in human beings?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "SOCRATES",
+          "text": "Is there anyone who does not believe in horses, but believes in horse-matters? Or anyone who does not believe in flute-players, but believes in flute-matters? There is not, best of men... But at least answer what comes next. Is there anyone who believes that there are daimonic matters, but does not believe in daimons?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "MELETUS",
+          "text": "There is not."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "SOCRATES",
+          "text": "How helpful you were by answering reluctantly when compelled by these men! Now then, you say that I believe in and teach daimonia; so whether they are novel or ancient, at any rate I do believe in daimonia according to your speech... But if I believe in daimonia, then surely there is also a great necessity that I believe in daimons. Is this not so?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "SOCRATES",
+          "text": "And do we not believe that daimons are either gods or children of gods? Do you affirm this or not?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "MELETUS",
+          "text": "Quite so."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "SOCRATES",
+          "text": "Therefore if I do believe in daimons, as you say, and if, on the one hand, daimons are gods of some sort, then this would be what I say you are riddling and jesting about, when you say that I do not believe in gods, and again that I believe in gods, since in fact I do believe in daimons. On the other hand, if daimons are certain bastard children of gods... then what human being would believe that there are children of gods, but not gods?"
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "META"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Meletus asserts Socrates is an atheist (believes in no gods) but also charges him with teaching spiritual things (daimonia).",
+        "end_state_desc": "Socrates forces the contradiction: believing in 'spiritual things' necessitates believing in 'spirits' (daimons), which are divine.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Strict logical entrapment via definition (Attribute -> Subject existence).",
+        "what_model_should_learn": [
+          "How to expose a contradiction between two parts of an accusation (Atheism vs Heresy).",
+          "The argument that belief in the 'matters' of X implies belief in X."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "27b–27e",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    }
+  ],
+  "discard_log": [
+    "Skipped Oracle narration (21a-23c) as it is reported speech without a distinct conversational partner for transcript format, though high value.",
+    "Skipped Achilles/Ethical monologue (28b-28d) as it is a monologue without interaction.",
+    "Skipped closing speech (38c-42a) as it is a monologue addressing the jury without turn-taking."
+  ],
+  "extraction_stats": {
+    "total_episodes": 5,
+    "turn_count_distribution": {
+      "2-4": 3,
+      "5-7": 1,
+      "8-10": 0,
+      "11-14": 0,
+      "15+": 1
+    },
+    "avg_turns_per_episode": 6.2
+  },
+  "extraction_confidence": "high"
+} {
+  "episodes": [
+    {
+      "episode_id": "apology_21b_21d_oracle_riddle",
+      "source_text": "Plato’s Apology of Socrates",
+      "lineage": "Socratic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "SOCRATES",
+          "text": "The Pythia replied that no one was wiser."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "SOCRATES",
+          "text": "When I heard these things, I pondered them like this: \"What ever is the god saying, and what riddle is he posing? For I am conscious that I am not at all wise, either much or little. So what ever is he saying when he claims that I am wisest? Surely he is not saying something false, at least; for that is not sanctioned for him.\""
+        },
+        {
+          "turn_index": 3,
+          "speaker": "SOCRATES",
+          "text": "I went to one of those reputed to be wise... and when I considered him and conversed with him... it seemed to me that this man seemed to be wise, both to many other human beings and most of all to himself, but that he was not."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "SOCRATES",
+          "text": "For my part, as I went away, I reasoned with regard to myself: \"I am wiser than this human being. For probably neither of us knows anything noble and good, but he supposes he knows something when he does not know, while I, just as I do not know, do not even suppose that I do. I am likely to be a little bit wiser than he in this very thing: that whatever I do not know, I do not even suppose I know.\""
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "META",
+          "UNMAKING"
+        ],
+        "dominant_phase": "META",
+        "start_state_desc": "Socrates is baffled by the Oracle's claim that he is the wisest, knowing he lacks wisdom.",
+        "end_state_desc": "Socrates resolves the riddle by redefining wisdom as 'knowing one's own ignorance' (epistemic humility).",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "The foundational 'Socratic Ignorance' definition: reinterpreting a divine compliment as a mandate for epistemic humility.",
+        "what_model_should_learn": [
+          "How to articulate the 'I know that I know nothing' stance without false modesty.",
+          "The method of testing authority figures to verify truth."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "21b–21d",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "apology_22a_22e_testing_experts",
+      "source_text": "Plato’s Apology of Socrates",
+      "lineage": "Socratic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "SOCRATES",
+          "text": "After the politicians I went to the poets... So I would take up those poems of theirs which it seemed to me they had worked on the most, and I would ask them thoroughly what they meant, so that I might also learn something from them at the same time."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "SOCRATES",
+          "text": "Almost everyone present, so to speak, would have spoken better than the poets did about the poetry that they themselves had made. So again, also concerning the poets, I soon recognized that they do not make what they make by wisdom, but by some sort of nature and while inspired... At the same time, I perceived that they supposed, on account of their poetry, that they were the wisest of human beings also in the other things, in which they were not."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "SOCRATES",
+          "text": "Finally, then, I went to the manual artisans... And I was not played false about this: they did have knowledge of things which I did not have knowledge of, and in this way they were wiser than I."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "SOCRATES",
+          "text": "But, men of Athens, the good craftsmen also seemed to me to go wrong in the same way as the poets: because he performed his art nobly, each one deemed himself wisest also in the other things, the greatest things—and this discordant note of theirs seemed to hide that wisdom."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "SOCRATES",
+          "text": "So I asked myself on behalf of the oracle whether I would prefer to be as I am, being in no way wise in their wisdom or ignorant in their ignorance, or to have both things that they have. I answered myself and the oracle that it profits me to be just as I am."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "META"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Socrates investigates whether technical skill (craft/poetry) equates to general wisdom.",
+        "end_state_desc": "Socrates concludes that technical expertise often creates a 'discordant note' of arrogance, obscuring true wisdom.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Domain specificity of knowledge: showing that expertise in X does not imply wisdom in Y (politics/ethics).",
+        "what_model_should_learn": [
+          "How to distinguish between 'inspiration/knack' and 'wisdom'.",
+          "The danger of 'double ignorance' (thinking one knows what one does not) in experts."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "22a–22e",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "apology_29c_30b_obey_god",
+      "source_text": "Plato’s Apology of Socrates",
+      "lineage": "Socratic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "SOCRATES",
+          "text": "If you would say to me with regard to this, \"Socrates, for now we will not obey Anytus; we will let you go, but on this condition: that you no longer spend time in this investigation or philosophize; and if you are caught still doing this, you will die—\""
+        },
+        {
+          "turn_index": 2,
+          "speaker": "SOCRATES",
+          "text": "If you would let me go, then, as I said, on these conditions, I would say to you, \"I, men of Athens, salute you and love you, but I will obey the god rather than you; and as long as I breathe and am able to, I will certainly not stop philosophizing, and I will exhort you and explain this to whomever of you I happen to meet...\""
+        },
+        {
+          "turn_index": 3,
+          "speaker": "SOCRATES",
+          "text": "\"Are you not ashamed that you care for having as much money as possible, and reputation, and honor, but that you neither care for nor give thought to prudence, and truth, and how your soul will be the best possible?\""
+        },
+        {
+          "turn_index": 4,
+          "speaker": "SOCRATES",
+          "text": "With a view to these things, men of Athens, either obey Anytus or not, and either let me go or not, since I would not do otherwise, not even if I were going to die many times."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "SELF-MAKING",
+          "REMAKING"
+        ],
+        "dominant_phase": "SELF-MAKING",
+        "start_state_desc": "Hypothetical offer of acquittal conditional on silence (compromise).",
+        "end_state_desc": "Absolute refusal based on hierarchy of duty (God > Men) and care for the soul.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Hierarchical ethical commitment: Refusing to compromise the mission even for life itself.",
+        "what_model_should_learn": [
+          "The stance of 'Iron Wall' integrity: polite but immovable.",
+          "Framing philosophy not as a hobby but as a divine mandate."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "29c–30b",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "apology_36d_37a_prytaneum_prize",
+      "source_text": "Plato’s Apology of Socrates",
+      "lineage": "Socratic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "SOCRATES",
+          "text": "What, then, am I worthy to suffer or to pay because I did not keep quiet during my life...?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "SOCRATES",
+          "text": "Something good, men of Athens, at least if you give me what I deserve according to my worth in truth—and besides, a good of a sort that would be fitting for me."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "SOCRATES",
+          "text": "What, then, is fitting for a poor man, a benefactor, who needs to have leisure to exhort you? There is nothing more fitting, men of Athens, than for such a man to be given his meals in the Prytaneum, much more so than if any of you has won a victory at Olympia with a horse or a two— or four-horse chariot."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "SOCRATES",
+          "text": "For he makes you seem to be happy, while I make you be so; and he is not in need of sustenance, while I am in need of it. So if I must propose what I am worthy of in accordance with the just, I propose this: to given my meals in the Prytaneum."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "SHOCK"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Jury expects Socrates to propose a punishment (fine, exile) to avoid death.",
+        [cite_start]"end_state_desc": "Socrates proposes a reward (highest civic honor), completely unmaking the frame of 'guilt'[cite: 308].",
+        "closure_type": "shock"
+      },
+      "training_value": {
+        "pedagogical_shape": "Radical re-evaluation: Treating a punishment phase as a truth-evaluation phase.",
+        "what_model_should_learn": [
+          "How to maintain one's own valuation of reality despite social pressure to concede.",
+          "The distinction between 'seeming happy' (athlete) and 'being happy' (philosopher)."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "36d–37a",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "apology_40c_41d_death_dilemma",
+      "source_text": "Plato’s Apology of Socrates",
+      "lineage": "Socratic",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "SOCRATES",
+          "text": "Let us also think in the following way how great a hope there is that it is good. Now being dead is either of two things. For either it is like being nothing and the dead man has no perception of anything, or else... it happens to be a sort of change and migration of the soul from the place here to another place."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "SOCRATES",
+          "text": "And if in fact there is no perception, but it is like a steep in which the sleeper has no dream at all, death would be a wondrous gain. For I suppose that if someone... had to say on consideration how many days and nights in his own life he has lived better and more pleasantly than that night... I suppose that the Great King himself... would discover that they are easy to count."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "SOCRATES",
+          "text": "On the other hand, if death is like a journey from here to another place, and if the things that are said are true... then what greater good could there be than this, judges?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "SOCRATES",
+          "text": "But you too, judges, should be of good hope toward death, and you should think this one thing to be true: that there is nothing bad for a good man, whether living or dead, and that the gods are not without care for his troubles."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "Death is viewed by the jury as the ultimate evil/punishment.",
+        [cite_start]"end_state_desc": "Socrates reframes death as a 'wondrous gain' either way, establishing that a good man is invulnerable to harm[cite: 385].",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "The Constructive Dilemma: Proving that both possible outcomes of X (death) lead to Y (good).",
+        "what_model_should_learn": [
+          "How to construct a 'win-win' argument for difficult existential topics.",
+          "The core Socratic axiom: Harm is moral, not physical ('nothing bad for a good man')."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "40c–41d",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    }
+  ],
+  "discard_log": [
+    "Skipped Achilles monologue (28b-d) - lacks the structural clarity of the other ethical stances.",
+    "Skipped prophecy of vengeance (39c) - feels more like a curse than a pedagogical beat.",
+    "Skipped closing farewell (41e-42a) - poignant but less logically structured than the death dilemma."
+  ],
+  "extraction_stats": {
+    "total_episodes": 5,
+    "turn_count_distribution": {
+      "2-4": 4,
+      "5-7": 1
+    },
+    "avg_turns_per_episode": 4.2
+  },
+  "extraction_confidence": "high"
+}

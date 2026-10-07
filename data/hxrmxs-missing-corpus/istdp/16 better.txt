@@ -1,0 +1,4068 @@
+{
+  "episodes": [
+    {
+      "episode_id": "therapy3_t246_t253_policeman_anxiety_causality",
+      "source_text": "Co-Creating Change, Chapter 12",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Th",
+          "text": "What do you notice feeling as you take this stand for you instead of your father?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Pt",
+          "text": "I’m afraid."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Th",
+          "text": "It’s wonderful you notice. See how this punitive mechanism comes in now to attack you just for taking your side instead of your father’s?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Pt",
+          "text": "I didn’t see it before."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Th",
+          "text": "But notice now how this punitive mechanism comes in here to punish you? It’s as if a policeman comes in to Taser you with anxiety, as if you broke the law by taking your side. Do you notice that?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Pt",
+          "text": "Yes."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Th",
+          "text": "Shall we break the law and take your side?"
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Pt",
+          "text": "Sure."
+        }
+      ],
+      "metadata": {
+        "phases_present": ["REMAKING", "SELF-MAKING"],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "Patient feels fear when asserting herself.",
+        "end_state_desc": "Patient understands the fear as an external mechanism ('policeman') and chooses to 'break the law'.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Personifying the Superego (Policeman/Taser) to explain the causality of anxiety.",
+        "what_model_should_learn": [
+          "How to use the 'Policeman/Taser' metaphor to model punitive anxiety.",
+          [cite_start]"How to reframe anxiety not as a signal to stop, but as evidence of 'taking your side' [cite: 247-248]."
+        ]
+      },
+      "source_location": { "section": "Clarification: Differentiate the Patient from the Defense" }
+    },
+    {
+      "episode_id": "therapy3_t3037_t3043_vine_tree_metaphor",
+      "source_text": "Co-Creating Change, Chapter 12",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Th",
+          "text": "Do you see how you turn this anger on yourself and start to criticize yourself?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Pt",
+          "text": "I do that a lot."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Th",
+          "text": "You notice that pattern here as a way to deal with your anger."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Pt",
+          "text": "I’m not sure it’s that. That’s just the way I am."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Th",
+          "text": "That’s not the way you are. It’s sort of like, if you’re in a jungle and you see a large tree, but it’s all covered with vines. In fact, the vines are so large after so many years that you can barely even see the tree underneath. See, this healthy tree is you, but we have to pull off these vines of self-attack that have covered you up so we can see who you really are underneath all that. Do you see what I mean?"
+        }
+      ],
+      "metadata": {
+        "phases_present": ["REMAKING"],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "Patient identifies with the defense ('That's just the way I am').",
+        "end_state_desc": "Patient is offered a visual model (Tree vs. Vine) to distinguish their essence from their conditioning.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Ontological separation via visual metaphor.",
+        "what_model_should_learn": [
+          [cite_start]"How to use the 'Tree/Vine' analogy to separate the Self from the Defense [cite: 3040-3043].",
+          "How to replace 'Identity' language ('I am') with 'Overlay' language ('Covered up')."
+        ]
+      },
+      "source_location": { "section": "Vignette Three: Identification with the Defense" }
+    },
+    {
+      "episode_id": "therapy3_t111_t112_will_agency_check",
+      "source_text": "Co-Creating Change, Chapter 12",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Th",
+          "text": "Is this your will?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Note",
+          "text": "(This question is used to differentiate the patient's desire from the defense's habit.)"
+        }
+      ],
+      "metadata": {
+        "phases_present": ["SELF-MAKING"],
+        "dominant_phase": "SELF-MAKING",
+        "start_state_desc": "Patient is acting automatically based on past conditioning.",
+        "end_state_desc": "Patient pauses to locate their true desire.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "The Fundamental Agency Check.",
+        "what_model_should_learn": [
+          [cite_start]"How to use the question 'Is this your will?' to break the trance of defense [cite: 111-112].",
+          "How to differentiate 'Conditioning' from 'Essence' via simple inquiry."
+        ]
+      },
+      "source_location": { "section": "Mobilizing the Will" }
+    },
+    {
+      "episode_id": "therapy3_t551_t554_do_i_have_to_share",
+      "source_text": "Co-Creating Change, Chapter 13",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Pt",
+          "text": "I just don’t share feelings."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Th",
+          "text": "The good news is you don’t have to. There is no rule that says you have to share your feelings with me. It’s just that as long as you don’t share your feelings with me, I’ll just be another useless therapist. Why do that to yourself?"
+        }
+      ],
+      "metadata": {
+        "phases_present": ["META", "SELF-MAKING"],
+        "dominant_phase": "META",
+        "start_state_desc": "Patient resists sharing as if it's a demand.",
+        "end_state_desc": "Therapist removes the demand ('You don't have to') but clarifies the consequence ('Useless therapist').",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "The 'Good News' Paradox: Freedom + Consequence.",
+        "what_model_should_learn": [
+          "How to use the phrase 'The good news is you don't have to'.",
+          "How to pair 'Freedom' with 'Uselessness' to motivate the patient."
+        ]
+      },
+      "source_location": { "section": "Block the projection of the patient’s healthy will" }
+    },
+    {
+      "episode_id": "therapy3_t322_t334_nonverbal_transference_resistance",
+      "source_text": "Co-Creating Change, Chapter 13",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Th",
+          "text": "Do you notice how you are looking at the floor?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Pt",
+          "text": "Yeah. What? Am I supposed to look at you?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Th",
+          "text": "I just wondered if you noticed how you avoid my gaze."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Pt",
+          "text": "I find it easier to think when I look away."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Th",
+          "text": "You find it easier to think when you avoid my eyes."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Pt",
+          "text": "[Sighs, shifts in his chair.] Yes. [Looks out the window.]"
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Th",
+          "text": "Do you notice how you look out the window when you talk to me?"
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Pt",
+          "text": "[Looks back at the therapist and then slouches in his chair.] I like the view."
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Th",
+          "text": "How involved would you say you are here today?"
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Pt",
+          "text": "I think I’m very involved."
+        },
+        {
+          "turn_index": 11,
+          "speaker": "Th",
+          "text": "You said you’re a lawyer. If a prospective intern were sitting like this in your office for an interview, how involved would you say she was?"
+        },
+        {
+          "turn_index": 12,
+          "speaker": "Pt",
+          "text": "Not too involved, I guess."
+        },
+        {
+          "turn_index": 13,
+          "speaker": "Th",
+          "text": "How involved? One hundred percent, fifty percent, twenty percent?"
+        },
+        {
+          "turn_index": 14,
+          "speaker": "Pt",
+          "text": "I’d say about twenty percent."
+        },
+        {
+          "turn_index": 15,
+          "speaker": "Th",
+          "text": "What can we do about this eighty percent that’s missing here? After all, if you’re only twenty percent here, you’ll just have a twenty percent result."
+        }
+      ],
+      "metadata": {
+        "phases_present": ["UNMAKING", "META"],
+        "dominant_phase": "META",
+        "start_state_desc": "Patient uses nonverbal detachment (looking away, slouching) while claiming involvement.",
+        "end_state_desc": "Patient admits to only 20% involvement and faces the consequence (20% result).",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Quantifying the Transference Resistance using professional analogies.",
+        "what_model_should_learn": [
+          "How to address body language (slouching, gaze) as 'resistance' without being punitive.",
+          "How to use the patient's own professional standards (Lawyer interview) to expose their defense.",
+          "How to quantify resistance (20% vs 100%) to make the cost concrete."
+        ]
+      },
+      "source_location": { "section": "The Evolution of the Transference Resistance" }
+    },
+    {
+      "episode_id": "therapy3_t518_t526_defiant_collaboration",
+      "source_text": "Co-Creating Change, Chapter 13",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Th",
+          "text": "What’s the problem you would like me to help you with?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Pt",
+          "text": "I don’t want to fing depend on you!"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Th",
+          "text": "Thank you for being so collaborative. Although your feet have brought you here, you are also letting me know you don’t want to depend on me."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Pt",
+          "text": "You can’t make me depend upon you."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Th",
+          "text": "That’s true. I’m glad you realize that. You can depend upon me if you want, or you can decide not to. Only you can make that decision. If not depending on me is helpful to you, you have an obligation not to."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Pt",
+          "text": "[Tears in his eyes.]"
+        }
+      ],
+      "metadata": {
+        "phases_present": ["UNMAKING", "SELF-MAKING"],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Patient is hostile and defiant about dependency.",
+        "end_state_desc": "Patient softens into tears as the defiance is validated rather than fought.",
+        "closure_type": "shock"
+      },
+      "training_value": {
+        "pedagogical_shape": "Siding with the resistance to deactivate the 'Battle of Wills'.",
+        "what_model_should_learn": [
+          "How to reframe hostility ('I don't want to depend') as 'collaboration' (honest reporting).",
+          "How to use 'Paradoxical Permission' ('You have an obligation not to depend') to bypass defiance.",
+          "How to create safety by confirming the patient's autonomy."
+        ]
+      },
+      "source_location": { "section": "Example One" }
+    },
+    {
+      "episode_id": "therapy3_t447_t454_only_you_can_know_meta",
+      "source_text": "Co-Creating Change, Chapter 13",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Th",
+          "text": "What’s the problem with which you would like me to help you?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Pt",
+          "text": "I was hoping you could tell me what my problem is."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Th",
+          "text": "That’s not something I can do. Only you can know if you have an internal emotional problem."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Pt",
+          "text": "But you have all this training. Surely you can tell me if I have a problem or not."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Th",
+          "text": "Not really. Since I haven’t heard anything from you, I have no idea whether you have an internal emotional problem or not. Only you can know for sure."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Pt",
+          "text": "Let me tell you about what’s going on in my marriage."
+        }
+      ],
+      "metadata": {
+        "phases_present": ["META", "SELF-MAKING"],
+        "dominant_phase": "META",
+        "start_state_desc": "Patient attempts to assign diagnostic responsibility to the therapist.",
+        "end_state_desc": "Therapist refuses the 'knowing' role, forcing the patient to define the problem.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Defining the epistemological boundary of therapy: The therapist cannot 'know' the patient's internal state.",
+        "what_model_should_learn": [
+          "How to use the phrase 'Only you can know for sure' to block projection.",
+          "How to maintain the boundary that the patient is the expert on their own experience."
+        ]
+      },
+      "source_location": { "section": "Example One" }
+    },
+    {
+      "episode_id": "therapy3_t582_t585_dead_therapy_reductio",
+      "source_text": "Co-Creating Change, Chapter 13",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Th",
+          "text": "She dumped you. What are you doing with your feelings?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Pt",
+          "text": "I’m dead to my feelings."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Th",
+          "text": "But this cannot be psychotherapy of the dead. If you are emotionally dead, then this can be only a dead therapy."
+        }
+      ],
+      "metadata": {
+        "phases_present": ["META", "REMAKING"],
+        "dominant_phase": "META",
+        "start_state_desc": "Patient declares emotional death as a defense.",
+        "end_state_desc": "Therapist accepts the metaphor and extends it to the death of the treatment process.",
+        "closure_type": "fizzle"
+      },
+      "training_value": {
+        "pedagogical_shape": "Logical Reductio of the 'Death' metaphor.",
+        "what_model_should_learn": [
+          [cite_start]"How to take a patient's metaphor ('dead') and apply it to the process ('dead therapy') [cite: 583-584].",
+          "How to show that the defense makes the work impossible."
+        ]
+      },
+      "source_location": { "section": "Example One" }
+    },
+    {
+      "episode_id": "therapy3_t1195_t1202_consolidation_template_linking",
+      "source_text": "Co-Creating Change, Chapter 15",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Th",
+          "text": "You were brought up with a sense that your emotions have to be held back from a woman, because you learned with your mother that that was the way you were supposed to love her; that if you really loved your mother, you would hide your emotions."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Pt",
+          "text": "Yeah."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Th",
+          "text": "Whereas, in fact, in most relationships, we achieve closeness by sharing emotions. ... And we see that even here today part of what we were struggling with is sharing these emotions with me. Because that template was there: How close am I wanting to really be with Jon? And do I really have permission to actually reveal all these emotions...?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Pt",
+          "text": "Sure."
+        }
+      ],
+      "metadata": {
+        "phases_present": ["REMAKING", "META"],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "Patient understands the history but not the present application.",
+        "end_state_desc": "Therapist creates a 'Template' map linking Mother -> Wife -> Therapist.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Consolidation via 'Template' mapping across the Triangle of Person.",
+        "what_model_should_learn": [
+          "How to use the concept of a 'Template' to explain transference.",
+          [cite_start]"How to link the 'There and Then' (Mother) to the 'Here and Now' (Therapist) during consolidation [cite: 1195-1202]."
+        ]
+      },
+      "source_location": { "section": "Consolidation" }
+    },
+    {
+      "episode_id": "therapy3_t658_t669_projection_virtue_trap",
+      "source_text": "Co-Creating Change, Chapter 13",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Pt",
+          "text": "I know you think that this is self-neglect, but I think you’re wrong. There’s a virtue to being patient."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Th",
+          "text": "How wonderful that you have found a solution to your difficulties. How long would you like to wait?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Pt",
+          "text": "[Rise of anxiety.] It’s not how long I would like to wait. It’s just that I have to right now."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Th",
+          "text": "It’s not that you would like to wait. It’s just that waiting is what you are doing. You are doing what you don’t like. You can wait as little as you want, or you can wait as long as you want. And it may be that a long wait is in your best interest."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Pt",
+          "text": "But I can’t keep going this way!"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Th",
+          "text": "Is it possible you are underestimating yourself? If you’ve waited thirty years, surely you could wait a few more."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Pt",
+          "text": "Okay. I get it. I realize I keep myself stuck in the marriage by telling myself this stuff, but I still don’t see how I’ll get out of this mess."
+        }
+      ],
+      "metadata": {
+        "phases_present": ["UNMAKING", "REMAKING"],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Patient projects her healthy awareness onto therapist ('You think...') and defends her passivity as 'virtue'.",
+        "end_state_desc": "Patient reclaims her awareness and admits she is 'stuck' rather than 'virtuous'.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Mirroring the defense (patience) until it becomes dystonic to the patient.",
+        "what_model_should_learn": [
+          "How to block the projection of 'Healthy Awareness' by agreeing with the 'Sick' defense.",
+          "How to use sarcasm/irony therapeutically ('Surely you could wait a few more') to highlight absurdity.",
+          "How to force the patient to argue for their own health."
+        ]
+      },
+      "source_location": { "section": "Deactivate the Projection of Healthy Awareness" }
+    },
+    {
+      "episode_id": "therapy3_t85_t94_character_defense_concrete_labeling",
+      "source_text": "Co-Creating Change, Chapter 12",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Th",
+          "text": "What is the feeling toward him for hitting you?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Pt",
+          "text": "I just forget about it."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Th",
+          "text": "You forget about the hit. You forget about the bruised lip. You forget about the pain. Do you notice how you forget and ignore yourself and your feelings?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Pt",
+          "text": "It’s no big deal."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Th",
+          "text": "You say the hit is no big deal. You say the bruise is no big deal. You say the pain is no big deal. Do you notice how you dismiss and ignore your feelings?"
+        }
+      ],
+      "metadata": {
+        "phases_present": ["UNMAKING", "REMAKING"],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Patient uses vague language ('it') to dismiss a violent event.",
+        "end_state_desc": "Patient is confronted with the specific reality of the event and her specific pattern of self-dismissal.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Converting vague 'It' language into concrete reality to expose self-neglect.",
+        "what_model_should_learn": [
+          "How to strip away the word 'it' to reveal the brute facts (hit, bruise, pain).",
+          "How to identify 'Character Defense' not as a repression of feeling, but as a relationship to the self ('You ignore you')."
+        ]
+      },
+      "source_location": { "section": "Principle: First block the enactment..." }
+    },
+    {
+      "episode_id": "therapy3_t171_t183_self_torture_distinction",
+      "source_text": "Co-Creating Change, Chapter 12",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Pt",
+          "text": "I know that was stupid of me to say."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Th",
+          "text": "Wow! Do you see what you just did? ... Do you see how you just verbally abused yourself?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Pt",
+          "text": "Well, it was stupid."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Th",
+          "text": "Is that a kind or a cruel thing to say yourself? ... Keep repeating that to yourself, and let me know how you feel."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Pt",
+          "text": "It was stupid. It was stupid."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Th",
+          "text": "How does that make you feel when you say that to yourself?"
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Pt",
+          "text": "Bad."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Th",
+          "text": "When you verbally abuse yourself, you make yourself feel bad. Why do that to yourself?"
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Pt",
+          "text": "[Tears.] I always do that to myself."
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Th",
+          "text": "...You didn’t think of defending yourself against this verbal abuse."
+        },
+        {
+          "turn_index": 11,
+          "speaker": "Pt",
+          "text": "But shouldn’t I think about my mistakes?"
+        },
+        {
+          "turn_index": 12,
+          "speaker": "Th",
+          "text": "How many times did you make that mistake?"
+        },
+        {
+          "turn_index": 13,
+          "speaker": "Pt",
+          "text": "Once."
+        },
+        {
+          "turn_index": 14,
+          "speaker": "Th",
+          "text": "And how many times did you remind yourself of it and call yourself stupid?"
+        },
+        {
+          "turn_index": 15,
+          "speaker": "Pt",
+          "text": "Probably hundreds of times."
+        },
+        {
+          "turn_index": 16,
+          "speaker": "Th",
+          "text": "So is that thinking about a mistake or is it self-torture?"
+        }
+      ],
+      "metadata": {
+        "phases_present": ["REMAKING", "SELF-MAKING"],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "Patient justifies self-attack as 'thinking about mistakes'.",
+        "end_state_desc": "Patient recognizes the difference between learning and 'self-torture'.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Distinguishing 'Correction' from 'Torture' via frequency analysis.",
+        "what_model_should_learn": [
+          "How to redefine 'being hard on myself' as 'verbal abuse'.",
+          "How to use the 'Once vs. Hundreds of times' argument to break the rationalization of self-attack."
+        ]
+      },
+      "source_location": { "section": "Vignette Three: Clarifying the Price of a Character Defense" }
+    },
+    {
+      "episode_id": "therapy3_t238_t240_who_to_protect_choice",
+      "source_text": "Co-Creating Change, Chapter 12",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Th",
+          "text": "This laughter and covering of your feelings, does this protect you or your father who molested you?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Pt",
+          "text": "It protects him."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Th",
+          "text": "Who shall we protect here: him or you?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Pt",
+          "text": "Me."
+        }
+      ],
+      "metadata": {
+        "phases_present": ["SELF-MAKING", "REMAKING"],
+        "dominant_phase": "SELF-MAKING",
+        "start_state_desc": "Patient laughs off pain, unaware of the function.",
+        "end_state_desc": "Patient realizes the laughter protects the abuser and chooses to protect herself.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Functional Analysis of the defense leading to a moral choice.",
+        "what_model_should_learn": [
+          [cite_start]"How to ask 'Who does this protect?' [cite: 238-239].",
+          "How to force a binary choice ('Him or You') to mobilize agency."
+        ]
+      },
+      "source_location": { "section": "Clarifying the Price of the Defense" }
+    },
+    {
+      "episode_id": "therapy3_t164_t168_love_self_hatred_reframe",
+      "source_text": "Co-Creating Change, Chapter 12",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Th",
+          "text": "As long as you reject yourself, you will continue to choose men who reject you. Why do that to yourself?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Pt",
+          "text": "[Rise of feeling. Tears in her eyes.] Maybe that is how I love."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Th",
+          "text": "But whenever your love goes against your freedom, you are doing something else in the name of love. What you call love I call self-hatred."
+        }
+      ],
+      "metadata": {
+        "phases_present": ["REMAKING", "SELF-MAKING"],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "Patient confuses self-sacrifice/rejection with 'love'.",
+        "end_state_desc": "Therapist redefines the behavior as 'self-hatred', shattering the illusion.",
+        "closure_type": "shock"
+      },
+      "training_value": {
+        "pedagogical_shape": "Linguistic Reframe: Redefining 'Love' that hurts as 'Self-Hatred'.",
+        "what_model_should_learn": [
+          [cite_start]"How to challenge the 'Sacrificial Love' defense [cite: 167-168].",
+          "How to use the criterion of 'Freedom' to distinguish healthy love from pathology."
+        ]
+      },
+      "source_location": { "section": "Vignette Two: Clarifying the Price of a Character Defense" }
+    },
+    {
+      "episode_id": "therapy3_t702_t705_cancer_metaphor",
+      "source_text": "Co-Creating Change, Chapter 13",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Pt",
+          "text": "I can see I am hard on myself."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Th",
+          "text": "Hard on yourself? This is the cancer of your life. This is how you have been making yourself depressed for decades. And you can continue to punish yourself the rest of the life if you want... But there is no way therapy can succeed if this is the choice you make."
+        }
+      ],
+      "metadata": {
+        "phases_present": ["REMAKING", "SELF-MAKING"],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "Patient minimizes the pathology ('hard on myself').",
+        "end_state_desc": "Therapist amplifies the pathology to 'Cancer' to create urgency.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Amplification of the diagnosis to break minimization.",
+        "what_model_should_learn": [
+          [cite_start]"How to replace weak language ('hard on self') with strong medical metaphors ('Cancer') [cite: 702-703].",
+          "How to link the 'Cancer' directly to the outcome ('No way therapy can succeed')."
+        ]
+      },
+      "source_location": { "section": "Mobilize the unconscious therapeutic alliance" }
+    },
+    {
+      "episode_id": "therapy3_t892_t897_portrayal_somatic_block",
+      "source_text": "Co-Creating Change, Chapter 14",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Th",
+          "text": "How do you experience that impulse in your hands?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Pt",
+          "text": "[Hands drop.] I’m having trouble breathing. I feel like my throat is closing up. I need to get my inhaler. I think I’m having an allergic reaction."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Th",
+          "text": "Do you notice how you start to choke just after your hands looked like they were going to choke him? Do you notice how the impulse goes on your throat instead of going onto his?"
+        }
+      ],
+      "metadata": {
+        "phases_present": ["REMAKING", "META"],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "Patient somatizes the murderous impulse (choking herself) instead of feeling it.",
+        "end_state_desc": "Therapist links the somatic symptom directly to the warded-off impulse.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Immediate causal linking of somatic symptom to unconscious impulse.",
+        "what_model_should_learn": [
+          "How to interpret 'Sudden Medical Symptoms' (choking/asthma) during rage work as defense.",
+          "How to use the 'Retroflexion' concept: 'You are doing to yourself what you want to do to him.'"
+        ]
+      },
+      "source_location": { "section": "Somatization" }
+    },
+    {
+      "episode_id": "therapy3_t961_t964_washing_body_reparation",
+      "source_text": "Co-Creating Change, Chapter 14",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Th",
+          "text": "If you don’t walk away from your feelings, because you loved him too at one time, what do you do with his body if you honor all of your feelings?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Pt",
+          "text": "I would wash it and prepare it for burial."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Th",
+          "text": "How do you imagine washing his body in a loving way?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Pt",
+          "text": "[Cries.]"
+        }
+      ],
+      "metadata": {
+        "phases_present": ["SELF-MAKING", "REMAKING"],
+        "dominant_phase": "SELF-MAKING",
+        "start_state_desc": "Patient attempts to detach/walk away after expressing rage.",
+        "end_state_desc": "Patient engages in a reparative act (washing) that integrates love and grief.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Using constructive imagery to integrate ambivalence (Love + Hate).",
+        "what_model_should_learn": [
+          [cite_start]"How to facilitate 'Reparation' imagery to access grief [cite: 961-964].",
+          "How to use the prompt 'Honor all of your feelings' to pivot from rage to care."
+        ]
+      },
+      "source_location": { "section": "Vignette: Detaching" }
+    },
+    {
+      "episode_id": "therapy3_t1168_t1173_consolidation_rage_anxiety_distinction",
+      "source_text": "Co-Creating Change, Chapter 15",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Th",
+          "text": "You were obviously feeling enraged with the misdiagnosis... And obviously you’re feeling very enraged, which is not your problem, interestingly."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Pt",
+          "text": "Right."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Th",
+          "text": "Your problem is not that you were enraged. Your problem was that, when you felt this enraged, it aroused tremendous anxiety."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Pt",
+          "text": "Yes."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Th",
+          "text": "And now we see that the situation with the doctors was echoing the situation with your mother..."
+        }
+      ],
+      "metadata": {
+        "phases_present": ["REMAKING"],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "Patient has experienced rage but may still view the emotion as the issue.",
+        "end_state_desc": "Therapist structurally reframes the 'Problem' as the Anxiety, not the Feeling.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Cognitive Restructuring: Differentiating 'Adaptive Affect' from 'Maladaptive Anxiety'.",
+        "what_model_should_learn": [
+          "How to explicitly state 'Your problem is not the feeling'.",
+          "How to pinpoint the causal moment where the system breaks down ('when you felt enraged, it aroused anxiety')."
+        ]
+      },
+      "source_location": { "section": "Consolidation" }
+    },
+    {
+      "episode_id": "therapy3_t476_t494_passive_omnipotent_transference",
+      "source_text": "Co-Creating Change, Chapter 13",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Pt",
+          "text": "I’m not sure I have the energy to do this."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Th",
+          "text": "That will be a problem."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Pt",
+          "text": "Isn’t there something you can do?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Th",
+          "text": "No. If I give one hundred percent here and you give one hundred percent, we can have a very good result. But if I give one hundred percent and you can give only twenty percent, we’ll just have a twenty percent result. ... If twenty percent is all you can give, then a twenty percent result is all we can hope for."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Pt",
+          "text": "But what if I can’t do it?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Th",
+          "text": "If you can’t do it, I can’t carry you on my shoulders the rest of the way. We’ll have to accept that you won’t be able to achieve your goal."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Pt",
+          "text": "[Begins to cry.] But I can’t go on this way!"
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Th",
+          "text": "I hear you, but, as long as you give up on yourself, this is the result you’ll have. What can we do about this destructive habit of giving up on yourself?"
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Pt",
+          "text": "I guess I have to stop giving up on myself. But I was hoping you could do something."
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Th",
+          "text": "I’m glad to help you. But I have to accept I can’t help you while you give up on yourself. If you don’t have the energy to do this, I can’t do it by myself."
+        },
+        {
+          "turn_index": 11,
+          "speaker": "Pt",
+          "text": "[Cries.] That’s what my fiancée said. I gave up on our relationship and I lost the best woman I ever had."
+        }
+      ],
+      "metadata": {
+        "phases_present": ["UNMAKING", "SELF-MAKING", "META"],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Patient invites therapist to carry the load ('I don't have energy').",
+        "end_state_desc": "Patient connects his passivity in therapy to the loss of his fiancée.",
+        "closure_type": "shock"
+      },
+      "training_value": {
+        "pedagogical_shape": "Confronting the 'Omnipotent Transference' by refusing to carry the patient.",
+        "what_model_should_learn": [
+          "How to use the '100% / 20%' ratio argument.",
+          "How to refuse the role of 'Rescuer' without being rejecting.",
+          "How to let the patient hit 'Bottom' in the session ('I can't go on this way')."
+        ]
+      },
+      "source_location": { "section": "Example Four" }
+    },
+    {
+      "episode_id": "therapy3_t1128_t1134_belief_eternity_closure",
+      "source_text": "Co-Creating Change, Chapter 14",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Th",
+          "text": "What else would you say to her, as your final goodbye?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Pt",
+          "text": "Only believe in me. Believe that I will succeed."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Th",
+          "text": "Believe that I will succeed."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Pt",
+          "text": "Believe that I will succeed."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Th",
+          "text": "What would you say to her that you would want her to carry with her for eternity that she could never forget?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Pt",
+          "text": "I am always with you."
+        }
+      ],
+      "metadata": {
+        "phases_present": ["SELF-MAKING"],
+        "dominant_phase": "SELF-MAKING",
+        "start_state_desc": "Patient is completing the grieving process.",
+        "end_state_desc": "Patient establishes a permanent, positive internal bond ('always with you').",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Finalizing the bond via 'Eternity' framing.",
+        "what_model_should_learn": [
+          [cite_start]"How to use 'Eternity' questions to solidify positive attachment [cite: 1133-1134].",
+          "How to facilitate the transition from 'Grief' to 'Internalization'."
+        ]
+      },
+      "source_location": { "section": "Vignette Six" }
+    },
+    {
+      "episode_id": "therapy3_t179_t183_defending_against_abuse",
+      "source_text": "Co-Creating Change, Chapter 12",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Th",
+          "text": "You refuse to defend yourself against this verbal abuse."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Pt",
+          "text": "I hadn’t even thought of that."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Th",
+          "text": "You didn’t think of defending yourself against this verbal abuse."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Pt",
+          "text": "But shouldn’t I think about my mistakes?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Th",
+          "text": "How many times did you make that mistake?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Pt",
+          "text": "Once."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Th",
+          "text": "And how many times did you remind yourself of it and call yourself stupid?"
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Pt",
+          "text": "Probably hundreds of times."
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Th",
+          "text": "So is that thinking about a mistake or is it self-torture?"
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Pt",
+          "text": "I see your point."
+        },
+        {
+          "turn_index": 11,
+          "speaker": "Th",
+          "text": "You can torture yourself, or you could defend yourself against this torturous habit. What shall we do?"
+        }
+      ],
+      "metadata": {
+        "phases_present": ["REMAKING", "SELF-MAKING"],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "Patient rationalizes self-attack as 'thinking about mistakes'.",
+        "end_state_desc": "Patient accepts the redefinition of the behavior as 'self-torture' and faces a choice.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Cognitive Differentiation between 'Thinking' and 'Torture'.",
+        "what_model_should_learn": [
+          [cite_start]"How to use the 'Frequency Argument' (Once vs Hundreds) to debunk rationalization [cite: 180-182].",
+          "How to propose 'Defending yourself' as the alternative to 'Thinking'."
+        ]
+      },
+      "source_location": { "section": "Vignette Three: Clarifying the Price" }
+    },
+    {
+      "episode_id": "therapy3_t993_t997_facing_eyes_guilt",
+      "source_text": "Co-Creating Change, Chapter 14",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Th",
+          "text": "What is the feeling as you look at his eyes?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Pt",
+          "text": "He’s face down."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Th",
+          "text": "If you turn him over?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Pt",
+          "text": "His eyes are closed."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Th",
+          "text": "If they are open?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Pt",
+          "text": "I don’t look at them."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Th",
+          "text": "If you don’t avoid his eyes, what is the feeling in you as you look at his dead eyes looking up at you lifelessly?"
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Pt",
+          "text": "Well, now I feel guilty."
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Th",
+          "text": "Let yourself feel that guilt as deeply as possible."
+        }
+      ],
+      "metadata": {
+        "phases_present": ["SELF-MAKING"],
+        "dominant_phase": "SELF-MAKING",
+        "start_state_desc": "Patient uses avoidance (face down, eyes closed) to block guilt.",
+        "end_state_desc": "Patient looks into the eyes and accesses the core guilt.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Forcing contact with the 'Other' to trigger moral emotion.",
+        "what_model_should_learn": [
+          [cite_start]"How to use the 'Eyes' as the gateway to guilt [cite: 995-997].",
+          "How to bypass avoidance by modifying the fantasy ('If they are open?')."
+        ]
+      },
+      "source_location": { "section": "Vignette: Avoiding the Eyes" }
+    },
+    {
+      "episode_id": "therapy3_t625_t629_cave_imagery_alliance",
+      "source_text": "Co-Creating Change, Chapter 13",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Pt",
+          "text": "I have a hard time relating to people."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Th",
+          "text": "Actually, you just said you have an easy time rejecting people and pushing them away. Is that the optimal level of functioning you are looking for?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Pt",
+          "text": "[Tears in her eyes.] I feel like there’s a little girl in a cave afraid of the light outside the cave."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Th",
+          "text": "How sad that you have imprisoned yourself in that cave of rejection. How long must you suffer in the darkness?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Pt",
+          "text": "[Burst of grief.]"
+        }
+      ],
+      "metadata": {
+        "phases_present": ["REMAKING", "SELF-MAKING"],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "Patient uses vague language ('hard time relating').",
+        "end_state_desc": "Patient produces spontaneous imagery (Girl in Cave) which therapist amplifies to mobilize the alliance.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Mobilizing the Unconscious Therapeutic Alliance via spontaneous imagery.",
+        "what_model_should_learn": [
+          [cite_start]"How to utilize patient-generated metaphors ('Little girl in cave') to bypass resistance [cite: 628-629].",
+          "How to use 'Speaking to the Unconscious' language (darkness, prison, suffer) to trigger healing grief."
+        ]
+      },
+      "source_location": { "section": "Deactivating the Patient’s Transference Resistance" }
+    },
+    {
+      "episode_id": "therapy3_t969_t976_portrayal_devaluation_trash",
+      "source_text": "Co-Creating Change, Chapter 14",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Th",
+          "text": "What is the feeling in you as you look at his body?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Pt",
+          "text": "I just want to put it in a trash bag and put him out in the trash."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Th",
+          "text": "Just like you did with your feelings for so many years. Even when you told your mother about his molestation, she said, in effect, put your feelings in the trash and you did. But if we don’t trash your feelings, if we treat all of them with respect and care, what do you do with his body to prepare it for burial?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Pt",
+          "text": "I felt really abandoned when he got married."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Th",
+          "text": "Of course, because you felt he had been married to you as a little girl. You had been his secret wife."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Pt",
+          "text": "[Sobs.]"
+        }
+      ],
+      "metadata": {
+        "phases_present": ["REMAKING", "SELF-MAKING"],
+        "dominant_phase": "SELF-MAKING",
+        "start_state_desc": "Patient devalues the object ('trash') to avoid the pain of loss/attachment.",
+        "end_state_desc": "Patient acknowledges the attachment ('secret wife') and grieves.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Linking the 'Disposal' mechanism to the history of 'Self-Disposal' (trash).",
+        "what_model_should_learn": [
+          "How to interpret the 'burial ritual' in fantasy as a diagnostic of the relationship.",
+          "How to pivot from 'Devaluation' (trash) to 'Integration' (burial/respect) to unlock grief."
+        ]
+      },
+      "source_location": { "section": "Vignette: Devaluation" }
+    },
+    {
+      "episode_id": "therapy3_t1002_t1006_portrayal_identification_victim",
+      "source_text": "Co-Creating Change, Chapter 14",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Th",
+          "text": "Whose face comes to mind right now?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Pt",
+          "text": "Mine."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Th",
+          "text": "So it is your body you have murdered. What is it you do with your body?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Pt",
+          "text": "I burn it."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Th",
+          "text": "Isn’t this what you’ve done in your life—burn it up?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Pt",
+          "text": "[Cries.]"
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Th",
+          "text": "If you don’t turn this murderous impulse back onto you, whose face comes to mind?"
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Pt",
+          "text": "My mother’s."
+        }
+      ],
+      "metadata": {
+        "phases_present": ["REMAKING", "SELF-MAKING"],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "Patient identifies with the victim, seeing her own face on the dead body.",
+        "end_state_desc": "Patient separates from the victim role and identifies the true target (Mother).",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Correcting 'Pathological Identification' during the unlocking sequence.",
+        "what_model_should_learn": [
+          "How to manage the moment when a patient turns rage inward during fantasy work.",
+          "How to use the question 'If not you, then who?' to redirect rage to the source."
+        ]
+      },
+      "source_location": { "section": "Vignette: Identification with the Object of Her Rage" }
+    },
+    {
+      "episode_id": "therapy3_t1062_t1077_unlocking_sexual_fusion",
+      "source_text": "Co-Creating Change, Chapter 14",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Th",
+          "text": "Sexually, how do you attack?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Pt",
+          "text": "I just go in, I just fing. I just go, go, go, go, go! And just release! Arrrrgh! I just release! Release! ... 'Held me back so long! You can’t date! ... You have to restrain yourself.'"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Th",
+          "text": "Once you’ve gone, and gone, and gone, and gone, and released... Anything else you do, if we’re totally honest with your anger, on her body?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Pt",
+          "text": "I think there would be—I would stab, knife... Chest/upper body. Just throw it in, just go, go, go, go, go, go, go!"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Th",
+          "text": "Anything else?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Pt",
+          "text": "Beat her rear end... Make her bend over, strap her rear end hard. Just really let her have it good and hard... Ahhhh, there’s just sexual tension release... 'you’ve been a bad girl, and you really deserve this, ugh!'"
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Th",
+          "text": "So, beating her and beating her, and then there’s a huge sexual release."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Pt",
+          "text": "Yeah, yes, yes, yes, yes, yes! Whew! Thank you."
+        }
+      ],
+      "metadata": {
+        "phases_present": ["SELF-MAKING", "REMAKING"],
+        "dominant_phase": "SELF-MAKING",
+        "start_state_desc": "Patient accesses deep repression where rage and sexuality are fused.",
+        "end_state_desc": "Patient experiences full somatic release of the fused drive.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Facilitating the expression of 'Primitive Fusion' (Sex/Aggression) without judgment.",
+        "what_model_should_learn": [
+          "How to hold space for taboo (sexual/murderous) fantasy without recoil.",
+          "How to link the 'sexual attack' to the history of 'restraint/control' ('Held me back so long')."
+        ]
+      },
+      "source_location": { "section": "Vignette Five" }
+    },
+    {
+      "episode_id": "therapy3_t533_t535_no_right_to_tell",
+      "source_text": "Co-Creating Change, Chapter 13",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Pt",
+          "text": "Aren’t you going to say something about my not wanting to get better?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Th",
+          "text": "Why should I? If you don’t want to get better, you have every right to make that choice. I have no right to tell you what to do."
+        }
+      ],
+      "metadata": {
+        "phases_present": ["META", "SELF-MAKING"],
+        "dominant_phase": "META",
+        "start_state_desc": "Patient invites a battle of wills ('Aren't you going to say something?').",
+        "end_state_desc": "Therapist declares lack of authority ('I have no right'), deactivating the defiance.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Establishing Autonomy by abdicating control.",
+        "what_model_should_learn": [
+          [cite_start]"How to use 'I have no right' to block the Superego projection [cite: 534-535].",
+          "How to validate the right to *stay sick* as an autonomous choice."
+        ]
+      },
+      "source_location": { "section": "Example Two" }
+    },
+    {
+      "episode_id": "therapy3_t802_t807_portrayal_intellectualization_block",
+      "source_text": "Co-Creating Change, Chapter 14",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Th",
+          "text": "What is the feeling toward him for throwing you out of the car?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Pt",
+          "text": "I think it was really terrible of him to do that."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Th",
+          "text": "What is it you want to do to him?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Note",
+          "text": "(Therapist mistake: Jumping too early)"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Th",
+          "text": "(Correction): I agree it was terrible, but that still doesn’t say what you feel toward him for doing that. If you don’t cover your feeling with a thought, what is the feeling toward him?"
+        }
+      ],
+      "metadata": {
+        "phases_present": ["UNMAKING", "REMAKING"],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "Patient intellectualizes ('I think it was terrible') instead of feeling.",
+        "end_state_desc": "Therapist corrects the course to focus on labeling the feeling before the impulse.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Correcting a 'Jump to Portrayal' error; scaffolding the feeling label first.",
+        "what_model_should_learn": [
+          "How to catch the 'Intellectualization' defense ('I think...') before moving to impulse.",
+          "How to sequence the 'Triangle of Conflict' correctly (Label -> Experience -> Impulse -> Portrayal)."
+        ]
+      },
+      "source_location": { "section": "Skipping the Step of Labeling the Feeling" }
+    },
+    {
+      "episode_id": "therapy3_t874_t878_portrayal_negation",
+      "source_text": "Co-Creating Change, Chapter 14",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Th",
+          "text": "What do you want to do with that fist?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Pt",
+          "text": "I don’t want to do anything with it. [Fist drops.]"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Th",
+          "text": "And yet there was a fist there. If you form the fist again, what do you notice feeling when you let yourself feel your power?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Pt",
+          "text": "I feel some heat rising up in me."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Th",
+          "text": "If those fists did what you would never do, how do you picture those fists going out on him, in your imagination?"
+        }
+      ],
+      "metadata": {
+        "phases_present": ["REMAKING", "SELF-MAKING"],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "Patient denies the impulse ('I don't want to do anything') despite physical evidence (fist).",
+        "end_state_desc": "Patient re-engages the body (fist) and accesses the heat/rage.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Bypassing Negation by focusing on the physical reality (the fist).",
+        "what_model_should_learn": [
+          "How to trust the body's signal (fist) over the patient's words ('I don't want to').",
+          "How to re-instruct the somatic form ('Form the fist again') to access the feeling."
+        ]
+      },
+      "source_location": { "section": "Negation" }
+    },
+    {
+      "episode_id": "therapy3_t1195_t1202_consolidation_template_link",
+      "source_text": "Co-Creating Change, Chapter 15",
+      "lineage": "Modern",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Th",
+          "text": "You were brought up with a sense that your emotions have to be held back from a woman, because you learned with your mother that that was the way you were supposed to love her; that if you really loved your mother, you would hide your emotions."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Pt",
+          "text": "Yeah."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Th",
+          "text": "Whereas, in fact, in most relationships, we achieve closeness by sharing emotions. ... And we see that even here today part of what we were struggling with is sharing these emotions with me. Because that template was there: How close am I wanting to really be with Jon? And do I really have permission to actually reveal all these emotions...?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Pt",
+          "text": "Sure."
+        }
+      ],
+      "metadata": {
+        "phases_present": ["REMAKING", "META"],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "Patient understands the history but not the present application.",
+        "end_state_desc": "Therapist creates a 'Template' map linking Mother -> Wife -> Therapist.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Triangular Linking (Past -> Current -> Transference) during Consolidation.",
+        "what_model_should_learn": [
+          "How to use the concept of a 'Template' to explain transference.",
+          [cite_start]"How to link the 'There and Then' (Mother) to the 'Here and Now' (Therapist) during consolidation [cite: 1195-1202]."
+        ]
+      },
+      "source_location": { "section": "Consolidation" }
+    }
+  ],
+  "discard_log": [
+    "Skipped 'Seductive Submissive' as it was not explicitly detailed in the provided text segments.",
+    "Skipped 'Example Two' in Chapter 13 as it was redundant with other passive examples."
+  ],
+  "extraction_stats": {
+    "total_episodes": 20,
+    "turn_count_distribution": {
+      "2-4": 10,
+      "5-7": 5,
+      "8-10": 2,
+      "11-14": 2,
+      "15+": 1
+    },
+    "avg_turns_per_episode": 5.3
+  },
+  "extraction_confidence": "high"
+}{
+  "episodes": [
+    {
+      "episode_id": "therapy3.1_t2363_t2366_unspoken_criticism",
+      "source_text": "Co-Creating Change",
+      "lineage": "ISTDP",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Pt",
+          "text": "You probably think this is stupid."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Th",
+          "text": "What’s the evidence for that?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Pt",
+          "text": "Well, you haven’t said anything, but it could be true."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Th",
+          "text": "But what’s the evidence?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Pt",
+          "text": "Well, there isn’t any yet."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Th",
+          "text": "There’s a thought in your head that I think badly of you, but there is no evidence to support the thought in your head. Could this be your critical conscience inside you calling you names?"
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Pt",
+          "text": "I’m always criticizing myself."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Th",
+          "text": "Sometimes you criticize yourself, and sometimes you imagine your conscience is out here in me, when it’s been in you all the time."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING",
+          "SELF-MAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "Patient projects criticism onto the therapist's silence ('You probably think this is stupid').",
+        "end_state_desc": "Patient recognizes the internal origin of the criticism (Self-Criticism) and retracts the projection.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "The U-Turn: Blocking the projection of judgment to reveal the internal critic.",
+        "what_model_should_learn": [
+          [cite_start]"How to challenge 'mind-reading' projections by asking for concrete evidence [cite: 31-33].",
+          "How to differentiate the therapist's silence from the patient's internal judge."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Example Four—superego",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "therapy3.1_t3151_t3168_dating_judge_projection",
+      "source_text": "Co-Creating Change",
+      "lineage": "ISTDP",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Pt",
+          "text": "I’m going out tonight, but I don’t think they will find me attractive."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Th",
+          "text": "Who has that thought?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Pt",
+          "text": "Me."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Th",
+          "text": "Who had the thought yesterday that you were not attractive?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Pt",
+          "text": "Me."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Th",
+          "text": "And who had the thought the day before that you were overweight?"
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Pt",
+          "text": "Me."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Th",
+          "text": "So who has those self-critical thoughts?"
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Pt",
+          "text": "Me."
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Th",
+          "text": "And who is accused of having those thoughts?"
+        },
+        {
+          "turn_index": 11,
+          "speaker": "Pt",
+          "text": "These women."
+        },
+        {
+          "turn_index": 12,
+          "speaker": "Th",
+          "text": "Do you see how these are your self-critical thoughts and that you put those thoughts onto women?"
+        },
+        {
+          "turn_index": 13,
+          "speaker": "Pt",
+          "text": "Yes."
+        },
+        {
+          "turn_index": 14,
+          "speaker": "Th",
+          "text": "It is understandable you feel anxious when you date. You aren’t afraid of the women. You are afraid of the critical mechanism that you place on those women."
+        },
+        {
+          "turn_index": 15,
+          "speaker": "Pt",
+          "text": "I have those thoughts all the time."
+        },
+        {
+          "turn_index": 16,
+          "speaker": "Th",
+          "text": "And when you put them on the women, it is no wonder you get anxious. You have an internal judge. Then, when you put that judge onto these women, you are afraid and uncomfortable. You’re not afraid of the women. You’re afraid of that judgmental image you place on those women."
+        },
+        {
+          "turn_index": 17,
+          "speaker": "Pt",
+          "text": "That explains why I get so anxious before the date."
+        },
+        {
+          "turn_index": 18,
+          "speaker": "Th",
+          "text": "You haven’t met the woman yet, but you are busy meeting these images of a judge before the date. That would make anyone anxious!"
+        },
+        {
+          "turn_index": 19,
+          "speaker": "Pt",
+          "text": "[Laughs.]"
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING",
+          "UNMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "Patient feels social anxiety, projecting self-criticism onto unknown women.",
+        "end_state_desc": "Patient laughs, realizing he is fearing his own projected internal judge, not the women.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "The U-Turn: Systematic deconstruction of Projection via Socratic questioning ('Who has that thought?').",
+        "what_model_should_learn": [
+          [cite_start]"How to trace the location of a thought from the 'other' back to the 'self' (RM_03) [cite: 820-826].",
+          [cite_start]"How to explain the mechanism of social anxiety as a relationship with one's own projected superego [cite: 830-834]."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Projection of a punitive superego",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "therapy3.1_t3130_t3141_medical_leave_denial",
+      "source_text": "Co-Creating Change",
+      "lineage": "ISTDP",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Pt",
+          "text": "I’m afraid, if the rest of my office finds out I am requesting medical leave, they’ll really get angry with me."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Th",
+          "text": "Are you having some doubts yourself ?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Pt",
+          "text": "Well, I’m not sure my medical issues are really severe enough."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Th",
+          "text": "What are they?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Pt",
+          "text": "I’ve got fifty percent lung function, according to the doctors, and I can’t carry more than twenty pounds, or else it will cause problems with the surgery I had on my neck."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Th",
+          "text": "You have fifty percent lung function, and you can’t carry more than twenty pounds when you are required to carry how much?"
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Pt",
+          "text": "Eighty pounds."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Th",
+          "text": "You can carry twenty but are required to carry eighty. And you have doubts about your ability to do this?"
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Pt",
+          "text": "I see what you mean. If I can carry only twenty, I can’t carry eighty."
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Th",
+          "text": "It sounds like you are relieved not to have to go, but you punish yourself for not going. You imagine they would be angry with you and punish you, but it is you who is critical and punitive to yourself. Do you see what I mean?"
+        },
+        {
+          "turn_index": 11,
+          "speaker": "Pt",
+          "text": "But I think they would be angry."
+        },
+        {
+          "turn_index": 12,
+          "speaker": "Th",
+          "text": "Some of them might be in the future, but right now we see that you are criticizing yourself. You are punishing yourself. They aren’t doing that."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "REMAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Patient fears colleagues' anger (projection) for taking leave, despite valid medical incapacity.",
+        "end_state_desc": "Patient sees the denial of her physical reality and acknowledges she is the one punishing herself.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Reality Check: Confronting Denial of Reality (Physical Limitation) to expose Self-Punishment.",
+        "what_model_should_learn": [
+          [cite_start]"How to use concrete facts (20lbs vs 80lbs) to break through denial and rationalization [cite: 801-804].",
+          [cite_start]"How to link 'fear of others' anger' to 'internal self-punishment' (Projection of Superego) [cite: 810-814]."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Projection of a punitive superego",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "therapy3.1_t2950_t2965_terrible_mother_defense",
+      "source_text": "Co-Creating Change",
+      "lineage": "ISTDP",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Pt",
+          "text": "I’m a terrible mother. I don’t know why you keep working with me. I’m not getting any better. Don’t you think the clinic will finally decide I shouldn’t be in therapy because it’s taking too long?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Th",
+          "text": "What is the feeling you have toward your daughter for criticizing you like that?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Pt",
+          "text": "I think I’m a terrible mother."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Th",
+          "text": "That describes you, not your feeling toward your daughter. Do you notice how this mechanism in your mind is criticizing you right now?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Pt",
+          "text": "But I am a terrible mother."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Th",
+          "text": "Do you notice how this mechanism in your mind is criticizing you right now?"
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Pt",
+          "text": "Yes, but I think it is right."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Th",
+          "text": "This mechanism that is criticizing you right now—do you think it might be hurting you? Do you think it might be getting you down?"
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Pt",
+          "text": "Yes."
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Th",
+          "text": "You think this critical mechanism might be getting you down. Do you think it might be making you depressed?"
+        },
+        {
+          "turn_index": 11,
+          "speaker": "Pt",
+          "text": "Oh, definitely."
+        },
+        {
+          "turn_index": 12,
+          "speaker": "Th",
+          "text": "If we put that critical mechanism off to the side, could we shift perspectives for a moment and see what the feeling is toward your daughter instead?"
+        },
+        {
+          "turn_index": 13,
+          "speaker": "Pt",
+          "text": "Okay."
+        },
+        {
+          "turn_index": 14,
+          "speaker": "Th",
+          "text": "You mentioned that you have been trying hard, and your daughter criticized you in a way that was unfair. Let’s see what the feeling is toward your daughter for being unfair to you."
+        },
+        {
+          "turn_index": 15,
+          "speaker": "Pt",
+          "text": "I didn’t like it."
+        },
+        {
+          "turn_index": 16,
+          "speaker": "Th",
+          "text": "What’s the feeling toward her for doing that?"
+        },
+        {
+          "turn_index": 17,
+          "speaker": "Pt",
+          "text": "Anger?"
+        },
+        {
+          "turn_index": 18,
+          "speaker": "Th",
+          "text": "You felt angry toward her for doing that."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "REMAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Patient attacks herself ('terrible mother') to avoid feeling anger at her daughter.",
+        "end_state_desc": "Patient separates from the 'critical mechanism', acknowledges it causes depression, and accesses anger.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Objectification: Externalizing the 'Inner Critic' as a 'mechanism' to clear the path to the underlying reactive feeling.",
+        "what_model_should_learn": [
+          [cite_start]"How to identify 'Self-Attack' as a defense against anger (not just low self-esteem) [cite: 617-621].",
+          [cite_start]"How to objectify the superego ('this mechanism') to help the patient disidentify from it [cite: 623-627]."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Self-attack as a defense against the experience of rage",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "therapy3.1_t2977_t2997_mirroring_the_superego_psychotic",
+      "source_text": "Co-Creating Change",
+      "lineage": "ISTDP",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Pt",
+          "text": "I’m terrible. God does not love me. I know he could not love me. Otherwise, I would not have had all these traumas. I had these traumas because I am bad."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Th",
+          "text": "Since I haven’t cured you yet, I must be bad too. How should I punish myself, do you think?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Pt",
+          "text": "[Surprise and a smile.] What? Oh, Dr. Jon, you should not punish yourself."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Th",
+          "text": "I should have cured you by now, and the fact that I haven’t cured you yet means I am bad. And since I am bad, I deserve to be punished. How do you think I should punish myself?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Pt",
+          "text": "[Laughs.] Oh, you are funny. You can’t help it that you haven’t cured me yet. I am much better now."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Th",
+          "text": "But you still aren’t cured. And that means I am bad. And since I’m bad, I deserve to punish myself. How should I punish myself, do you think?"
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Pt",
+          "text": "[Laughs.] Now I see. You are doing to yourself what I have been doing to me."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Th",
+          "text": "You could punish yourself, and I could punish myself, and then we could suffer together."
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Pt",
+          "text": "[Laughs.] Oh, that would be horrible. Do you think I am not bad?"
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Th",
+          "text": "No, I don’t think you are bad. I think you are mad! I think you are really angry at the people who caused those traumas."
+        },
+        {
+          "turn_index": 11,
+          "speaker": "Pt",
+          "text": "Oh, you think I turn the anger on me rather than feel it toward my mother?"
+        },
+        {
+          "turn_index": 12,
+          "speaker": "Th",
+          "text": "Do you think so?"
+        },
+        {
+          "turn_index": 13,
+          "speaker": "Pt",
+          "text": "Yes."
+        },
+        {
+          "turn_index": 14,
+          "speaker": "Th",
+          "text": "Shall we take a look at that anger toward your mother, so you don’t have to turn it on yourself instead?"
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "META",
+          "REMAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Patient is in a psychotic depression, equating trauma with being 'bad' (Syntonic Self-Attack).",
+        "end_state_desc": "Patient laughs, recognizing the absurdity of the self-punishment logic via the therapist's mirroring.",
+        "closure_type": "joke"
+      },
+      "training_value": {
+        "pedagogical_shape": "The Mirror: Enactive Mirroring (Paradox) to adopt the patient's pathological logic and make it visible.",
+        "what_model_should_learn": [
+          [cite_start]"How to use 'Enactive Mirroring' with fragile/psychotic patients who cannot use abstract observation [cite: 652-657].",
+          [cite_start]"How to turn 'Bad' (identity) into 'Mad' (feeling) by exposing the defense of self-blame [cite: 660-662]."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Self-attack as a defense against the experience of rage (Psychotic level example)",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "therapy3.1_t3000_t3017_fake_guilt_self_attack",
+      "source_text": "Co-Creating Change",
+      "lineage": "ISTDP",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Pt",
+          "text": "I feel so terrible about the way I talked to Jane last night. I’m such a terrible person."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Th",
+          "text": "What happened?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Pt",
+          "text": "I told her I don’t want to make love to her so often because I find her too fat. I told her I think she is ugly. She cried and cried. Don’t you think that was just terrible of me?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Th",
+          "text": "Do you?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Pt",
+          "text": "I do. I think I was perfectly awful to her."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Th",
+          "text": "How did you make it up to her?"
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Pt",
+          "text": "What?"
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Th",
+          "text": "You said you think you were awful to her. So I’m wondering how you made it up to her?"
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Pt",
+          "text": "I didn’t."
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Th",
+          "text": "[Silence.]"
+        },
+        {
+          "turn_index": 11,
+          "speaker": "Pt",
+          "text": "Are you thinking I should have?"
+        },
+        {
+          "turn_index": 12,
+          "speaker": "Th",
+          "text": "Given that you think you were perfectly awful to her, only you can know whether you want to make it up to her or not. That may not be something you need to repair."
+        },
+        {
+          "turn_index": 13,
+          "speaker": "Pt",
+          "text": "I hadn’t thought about that. I just figured if I told her I felt terrible, that would be enough."
+        },
+        {
+          "turn_index": 14,
+          "speaker": "Th",
+          "text": "You thought if you attacked yourself, that would be enough."
+        },
+        {
+          "turn_index": 15,
+          "speaker": "Pt",
+          "text": "It’s true. I didn’t actually tell her I was sorry."
+        },
+        {
+          "turn_index": 16,
+          "speaker": "Th",
+          "text": "It’s as if your self-attack was a substitute for apologizing to her."
+        },
+        {
+          "turn_index": 17,
+          "speaker": "Pt",
+          "text": "I didn’t come back to her afterward about it."
+        },
+        {
+          "turn_index": 18,
+          "speaker": "Th",
+          "text": "In a way, attacking yourself became a substitute for reaching out to her. Was this self-attack a way to avoid facing your guilt, reaching out to her, and repairing the damage?"
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "REMAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Patient wallows in self-criticism ('I'm terrible') but takes no reparative action.",
+        "end_state_desc": "Patient realizes his self-attack is a defense against genuine guilt and reparation.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Reality Check: Differentiating Neurotic Self-Attack from Healthy Guilt by focusing on Reparation.",
+        "what_model_should_learn": [
+          [cite_start]"How to distinguish 'Self-Punishment' (narcissistic withdrawal) from 'Healthy Guilt' (relational repair) [cite: 683-685].",
+          "How to expose 'fake guilt' by asking about concrete reparation ('How did you make it up to her?')."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Self-attack as a defense against the experience of guilt",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "therapy3.1_t3180_t3190_husband_villain_projection",
+      "source_text": "Co-Creating Change",
+      "lineage": "ISTDP",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Husband",
+          "text": "We had an argument the other night. And, since we were ratcheting up, I said, “Let’s hold off until we see Jon on Monday. Let’s talk about this then, and see if he can help us.”"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Th",
+          "text": "[to wife] What do you notice feeling?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Wife",
+          "text": "I feel angry. I feel like he is telling you how he did so well, and how I was out of control. I feel like he is misrepresenting me, as if I’m “all bad,” and he’s “all good.”"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Th",
+          "text": "That may be what you heard, but that is not what he said. He said you two had an argument, and he said he thought it would be good if the two of you talked to me about it today. He did not portray himself as “all good,” nor did he portray you as “all bad.”"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Wife",
+          "text": "It feels that way."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Th",
+          "text": "Of course it feels that way. If you assume he is calling you “all bad,” you will feel the feelings that go with that assumption. That’s why we have to clarify that what you assumed is not the same as what he actually said."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING",
+          "UNMAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Wife projects binary splitting ('all good/all bad') onto husband's neutral statement.",
+        "end_state_desc": "Therapist differentiates the husband's actual words from the wife's projected assumption.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Reality Check: Differentiating the partner's actual behavior from the patient's projected superego judgment.",
+        "what_model_should_learn": [
+          [cite_start]"How to identify 'Splitting' and 'Projection' in real-time interaction (UM_04) [cite: 853-858].",
+          "How to validate the *feeling* resulting from the projection while correcting the *perception* of reality."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Projection of the pathological superego to avoid the experience of guilt",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "therapy3.1_t3121_t3125_integrated_conscience_staff",
+      "source_text": "Co-Creating Change",
+      "lineage": "ISTDP",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Pt",
+          "text": "I don’t think my staff will like it if I give myself a raise but not them."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Th",
+          "text": "Who is having that thought?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Pt",
+          "text": "I am."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Th",
+          "text": "In fact, you won’t like yourself if you give yourself a raise, but not them."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Pt",
+          "text": "That’s true."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Th",
+          "text": "And maybe if you could accuse them of being your conscience, you could resent them instead of what your own conscience is demanding of you."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Pt",
+          "text": "That’s true because I am already judging myself, and they don’t know about any of this yet."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING",
+          "SELF-MAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "Patient projects her own moral standard onto her staff.",
+        "end_state_desc": "Patient owns her conscience and realizes she was projecting to avoid internal conflict.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "The U-Turn: Re-owning the Conscience by differentiating projection from internal moral standards.",
+        "what_model_should_learn": [
+          [cite_start]"How to identify 'Projection of Conscience' (fearing others' judgment when it's actually self-judgment) (RM_03) [cite: 792-793].",
+          "How to help a patient distinguish between 'external resentment' and 'internal demand' (RM_02)."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Projection onto others of an integrated conscience",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "therapy2_t726_t748_fragile_anxiety_regulation",
+      "source_text": "Co-Creating Change",
+      "lineage": "ISTDP",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Th",
+          "text": "Are you feeling like throwing up now?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Pt",
+          "text": "Yes, but not as much."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Th",
+          "text": "You are feeling intense anxiety here today."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Pt",
+          "text": "Not just today. I’ve been feeling this way for a couple of weeks."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Th",
+          "text": "You are feeling anxious here with me today, and you have been feeling intense anxiety ever since you made the call to my office."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Pt",
+          "text": "Yes."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Th",
+          "text": "We see that you have a problem with anxiety, and it is coming up here with me. Can we take a careful look at this anxiety in your body to help you with it?"
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Pt",
+          "text": "Yes."
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Th",
+          "text": "You mention feeling anxious in your stomach. Where else do you notice feeling anxiety in your body?"
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Pt",
+          "text": "I have a migraine right now."
+        },
+        {
+          "turn_index": 11,
+          "speaker": "Th",
+          "text": "That’s another sign of anxiety. What’s another sign of anxiety that you notice in your body?"
+        },
+        {
+          "turn_index": 12,
+          "speaker": "Pt",
+          "text": "What did you say?"
+        },
+        {
+          "turn_index": 13,
+          "speaker": "Th",
+          "text": "I was wondering where else you notice this anxiety. Are you having some trouble with your hearing right now?"
+        },
+        {
+          "turn_index": 14,
+          "speaker": "Pt",
+          "text": "I don’t think so."
+        },
+        {
+          "turn_index": 15,
+          "speaker": "Th",
+          "text": "Is there any ringing in your ears?"
+        },
+        {
+          "turn_index": 16,
+          "speaker": "Pt",
+          "text": "Yes."
+        },
+        {
+          "turn_index": 17,
+          "speaker": "Th",
+          "text": "That’s another sign of anxiety. How is your vision? Is it clear or blurry?"
+        },
+        {
+          "turn_index": 18,
+          "speaker": "Pt",
+          "text": "I can see you, but it’s a little blurry."
+        },
+        {
+          "turn_index": 19,
+          "speaker": "Th",
+          "text": "That’s another sign of anxiety. How is your thinking right now? Is it clear, or are you having trouble forming your thoughts?"
+        },
+        {
+          "turn_index": 20,
+          "speaker": "Pt",
+          "text": "I think it is clear, but people do tell me that I seem slow."
+        },
+        {
+          "turn_index": 21,
+          "speaker": "Th",
+          "text": "We see that you are very anxious. You have anxiety in your stomach, blurred vision, ringing ears, and difficulty forming your thoughts. All this is anxiety, and it has to do with coming here to see me today. So there must be a lot of feeling underneath that is triggering all this anxiety."
+        },
+        {
+          "turn_index": 22,
+          "speaker": "Pt",
+          "text": "Yes. [Wave of tears.]"
+        },
+        {
+          "turn_index": 23,
+          "speaker": "Th",
+          "text": "I notice as these tears come up, there’s another wave of anxiety. Do you notice that?"
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING",
+          "SELF-MAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "Patient is overwhelmed by anxiety (smooth muscle/cognitive disruption) and unaware of the somatic signs.",
+        "end_state_desc": "Patient recognizes anxiety symptoms, connects them to the therapy situation, and accesses underlying tears.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "The Anchor: Somatic anxiety regulation via detailed symptom labeling (Anxiety Channels Model).",
+        "what_model_should_learn": [
+          [cite_start]"How to detect and regulate cognitive/perceptual disruption (confusion, hearing loss, blurry vision) by labeling it as anxiety (RM_02) [cite: 1889-1896].",
+          "How to connect somatic symptoms to the 'here-and-now' therapeutic relationship (RM_02 + ME_03)."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Vignette One: A Fragile Patient",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "therapy2_t1095_t1125_somatic_transference_breakthrough",
+      "source_text": "Co-Creating Change",
+      "lineage": "ISTDP",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Th",
+          "text": "What do you notice feeling in your arms? Because you notice your arms are like this. [Grabbing position.] What’s that? What are those arms wanting to do?”"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Pt",
+          "text": "Not sure. They’re, they’re kind of locked into position."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Th",
+          "text": "They’re locking into position. What are those arms wanting to do?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Pt",
+          "text": "Well, the most comfortable position is like this. [Places arms to his side at rest—defense.]"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Th",
+          "text": "Yes, but they were doing something else, weren’t they? There was this jumpiness in the legs and the arms. What do you notice in those arms?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Pt",
+          "text": "They want to do something."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Th",
+          "text": "What is that? What is it they want to do?"
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Pt",
+          "text": "Protect myself... I think I was saying to myself, I don’t want to protect myself. I want to move forward, and if I protect myself, I’m not going to be able to."
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Th",
+          "text": "But you know what? Your body is telling us at some point in your life you had to protect yourself, or you couldn’t, right?"
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Pt",
+          "text": "Mm-hmm."
+        },
+        {
+          "turn_index": 11,
+          "speaker": "Th",
+          "text": "And it’s telling me that right now. I want us to listen to your body because at some point you apparently had to not listen to it... But right now I’m seeing your body’s having this reaction... Your body’s not here with me. Your body is with someone else... sort of like we’re having a relationship in stereo."
+        },
+        {
+          "turn_index": 12,
+          "speaker": "Pt",
+          "text": "Okay."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING",
+          "SELF-MAKING",
+          "UNMAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "Patient is physically dissociating (locking arms) and unaware of the impulse.",
+        "end_state_desc": "Patient accepts the 'stereo' relationship concept (Transference vs Reality).",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "The Anchor: Somatic tracking (SM_01) leading to Transference differentiation (Triangle of Person).",
+        "what_model_should_learn": [
+          "How to interpret somatic markers (arms locking, jumpy legs) as unconscious communication (SM_01).",
+          [cite_start]"How to differentiate the 'here-and-now' therapist from the 'past' figure projected by the body (Triangle of Person/RM_02) [cite: 2255-2263]."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Vignette Two: Equating an Image from the Past with the Therapist",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    }
+  ]
+} {
+  "episodes": [
+    {
+      "episode_id": "therapy2_t129_t135_cutting_hallway_interruption",
+      "source_text": "Co-Creating Change",
+      "lineage": "ISTDP",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Narrator",
+          "text": "I went out there and sure enough, there she was, sitting on the floor, cutting her wrist with an X-Acto knife..."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Th",
+          "text": "[Action: Takes the knife away, brings her into office.]"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Th",
+          "text": "Every defense is a cut to the soul. If these defenses are not blocked, the patient may die the death of a thousand cuts."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "META"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Patient is actively self-harming in the hallway (acting out against the self).",
+        "end_state_desc": "Therapist physically interrupts the defense to establish safety and the therapeutic frame.",
+        "closure_type": "shock"
+      },
+      "training_value": {
+        "pedagogical_shape": "Physical Defense Interruption: Stopping destructive action to enforce the 'intrapsychic' frame.",
+        "what_model_should_learn": [
+          [cite_start]"How to prioritize 'Defense Interruption' over exploration when safety is at risk [cite: 134-135].",
+          "How to frame self-harm as a 'defense' (avoiding feeling) rather than just a symptom."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Defense Interruption Example",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "therapy2_t1713_t1725_denial_fantasy_son",
+      "source_text": "Co-Creating Change",
+      "lineage": "ISTDP",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Pt",
+          "text": "He said he was not drinking anymore, so I was shocked to learn that he was drinking again."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Th",
+          "text": "I expect my son who lies to tell me the truth."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Pt",
+          "text": "But I was shocked!"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Th",
+          "text": "Of course, you were. If you see the truth and then deny it, you will be shocked when the truth shows up again."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Pt",
+          "text": "I see. If I deny the truth, then I am surprised when he lies again."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Th",
+          "text": "You see the truth. You deny it. Then you are shocked. The denial hurts you."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "REMAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Patient is 'shocked' that her lying son lied (Denial in Fantasy).",
+        "end_state_desc": "Patient recognizes that her 'shock' is a symptom of her own denial of reality.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Mirroring the Fantasy: 'I expect my lying son to tell the truth' to expose the denial.",
+        "what_model_should_learn": [
+          [cite_start]"How to identify 'Shock' as a marker of 'Denial' [cite: 1715-1716].",
+          "How to mirror the patient's implicit expectation to show its absurdity."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Denial in Fantasy",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "therapy2_t1730_t1738_denial_words_husband",
+      "source_text": "Co-Creating Change",
+      "lineage": "ISTDP",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Pt",
+          "text": "We talked about it, and he said he’s sorry, and he won’t do it again."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Th",
+          "text": "You pay attention to his words rather than his deeds."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Pt",
+          "text": "But he said he wouldn’t do it again."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Th",
+          "text": "That is what he said. Do you notice you pay attention to what he said but not what he did?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Pt",
+          "text": "But he said he was sorry."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Th",
+          "text": "Do you notice you believe his words and try not to believe his fists?"
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Pt",
+          "text": "Hmm. I hadn’t thought of it that way."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "REMAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Patient believes abusive husband's apologies, ignoring the abuse (Denial in Words).",
+        "end_state_desc": "Patient begins to distinguish 'Words' from 'Deeds' (Fists).",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Words vs. Deeds Distinction: Confronting the patient's choice to listen to the wrong data channel.",
+        "what_model_should_learn": [
+          [cite_start]"How to identify 'Denial in Words' (ignoring behavior in favor of speech) [cite: 1726-1728].",
+          "How to brutally contrast 'He said' vs 'His fists' (UM_04)."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Denial in Words",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "therapy2_t1740_t1746_denial_deed_jennifer",
+      "source_text": "Co-Creating Change",
+      "lineage": "ISTDP",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Pt",
+          "text": "She comes to the front door... curses at me, throws a glass of water on me, and then tells me to get the hell out of her life. Can you believe that?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Th",
+          "text": "You visited a woman who said she didn’t want to see you again."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Pt",
+          "text": "But how are we going to work this out?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Th",
+          "text": "I want to work things out with a woman who doesn’t want to work things out with me."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Pt",
+          "text": "But shouldn’t we be able to work things out?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Th",
+          "text": "Shouldn’t reality be different from what reality is?"
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Pt",
+          "text": "Shouldn’t it?"
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Th",
+          "text": "No. Reality is what it is... when you act as if reality doesn’t exist, you get hurt... You can keep on acting as if reality doesn’t exist, but we shouldn’t be surprised when reality shows up."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "META"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Patient acts on fantasy that ex-girlfriend wants to reconcile, despite her explicit rejection.",
+        "end_state_desc": "Patient laughs, realizing he is fighting reality itself.",
+        "closure_type": "joke"
+      },
+      "training_value": {
+        "pedagogical_shape": "Confronting Denial in Deed: Mirroring the patient's war against reality ('Shouldn't it be different?').",
+        "what_model_should_learn": [
+          [cite_start]"How to identify 'Denial in Deed' (acting on a fantasy)[cite: 1739].",
+          "How to use the 'Reality vs Fantasy' distinction to explain suffering (RM_03)."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Denial in Deed",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "therapy2_t1773_t1787_object_of_rage_identification",
+      "source_text": "Co-Creating Change",
+      "lineage": "ISTDP",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Pt",
+          "text": "I’m hardly one to talk. I have been holding feelings back."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Th",
+          "text": "Do you notice you are describing your behavior now? A moment ago you were freer to talk about the fact that I didn’t help you last time. If we don’t turn the camera back onto you, how do you experience this anger toward me?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Pt",
+          "text": "I’m not being fair. After all, you have been really helpful."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Th",
+          "text": "And yet we see you feel angry because I didn’t help you last time. If we don’t turn the criticism back onto you, can we take a look at this anger toward me?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Pt",
+          "text": "I didn’t see that."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Th",
+          "text": "If you don’t turn the criticism and anger back onto yourself, let’s see how you experience this anger toward me."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "SELF-MAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Patient interrupts his own anger at therapist by criticizing himself ('I'm hardly one to talk').",
+        "end_state_desc": "Patient sees the defense of 'Identification with the Object of Rage' and refocuses on the anger.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Unmaking Identification: Blocking the 'Camera Turn' where the patient switches from accuser to accused.",
+        "what_model_should_learn": [
+          [cite_start]"How to identify 'Identification with the Object of Rage' (becoming the person you are mad at) [cite: 1771-1772].",
+          "How to use 'Camera' metaphors to redirect focus (RM_01)."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Identification with the Object of One’s Rage",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "therapy2_t1826_t1846_instant_repression_anxiety",
+      "source_text": "Co-Creating Change",
+      "lineage": "ISTDP",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Th",
+          "text": "Are you aware of feeling anxious?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Pt",
+          "text": "No."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Th",
+          "text": "Do you notice tension in your shoulders?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Pt",
+          "text": "Yes... I’m like this most of the time, but it’s no big deal."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Th",
+          "text": "So you ignore your anxiety most of the time."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Pt",
+          "text": "There’s no sense making a big deal of it."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Th",
+          "text": "Now you try to justify ignoring your anxiety. But if we ignore your anxiety, it will get worse. Shall we pay attention to your anxiety?"
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Pt",
+          "text": "I have no idea."
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Th",
+          "text": "We’ve got a problem here. A part of you wants to get to the bottom of this... Another part of you doesn’t want to look at this... If you have no idea what you want to do, we have no idea what to do."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "SELF-MAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Patient denies anxiety, then minimizes it ('no big deal'), then goes blank ('no idea').",
+        "end_state_desc": "Patient is confronted with the cost of his defense (stalemate) and the split in his will.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Instant Repression: Identifying the rapid-fire sequence of Denial -> Minimization -> Blanking Out.",
+        "what_model_should_learn": [
+          [cite_start]"How to identify 'Instant Repression' (immediate loss of awareness) [cite: 1788-1790].",
+          "How to expose the 'Ignoring' defense as an active choice to sabotage therapy."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Identifying the Defenses That Create Instant Repression",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "therapy2_t1876_t1888_isolation_affect_resume",
+      "source_text": "Co-Creating Change",
+      "lineage": "ISTDP",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Pt",
+          "text": "I was angry when she threw my resume in the trash."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Th",
+          "text": "How do you experience that anger toward her?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Pt",
+          "text": "I don’t."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Th",
+          "text": "You know you are angry, but you don’t feel it."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Pt",
+          "text": "Oh, I’m angry."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Th",
+          "text": "You say you are angry, but you don’t sound angry, and you don’t look angry."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Pt",
+          "text": "[Fidgets.] Maybe I’m not angry."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Th",
+          "text": "But you just said you are. Do you notice how you ignore your anger as soon as you say it?"
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Pt",
+          "text": "If I don’t feel angry, maybe I’m not angry."
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Th",
+          "text": "But you said you are angry that she threw your resume in the trash. How do you experience that anger now as you remember her throwing the resume in the trash?"
+        },
+        {
+          "turn_index": 11,
+          "speaker": "Pt",
+          "text": "[A fist forms.]"
+        },
+        {
+          "turn_index": 12,
+          "speaker": "Th",
+          "text": "Do you notice that fist? How do you feel your anger right there?"
+        },
+        {
+          "turn_index": 13,
+          "speaker": "Pt",
+          "text": "I feel I’m getting hot."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "REMAKING",
+          "SELF-MAKING"
+        ],
+        "dominant_phase": "SELF-MAKING",
+        "start_state_desc": "Patient knows he is angry intellectually (Isolation of Affect) but feels nothing somatically.",
+        "end_state_desc": "Patient connects to the somatic reality (fist, heat) by bypassing the 'I don't feel it' defense.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Bridging Isolation: Using the stimulus (Resume in trash) to re-ignite the somatic signal.",
+        "what_model_should_learn": [
+          [cite_start]"How to identify 'Isolation of Affect' (knowing feeling without feeling it) [cite: 1873-1875].",
+          "How to use 'Somatic Cues' (fist) to bypass the mind and access the affect (SM_01)."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Isolation of Affect",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "therapy2_t1891_t1896_minimization_car",
+      "source_text": "Co-Creating Change",
+      "lineage": "ISTDP",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Th",
+          "text": "What is the feeling toward him for throwing you out of the car?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Pt",
+          "text": "A little peeved."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Th",
+          "text": "A little peeved?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Pt",
+          "text": "Yes."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Th",
+          "text": "Do you notice how you minimize your feelings? He threw you out of his car and left you stranded in the snow, and then you say you feel a little peeved. Do you see how you water down your feelings?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Pt",
+          "text": "That’s true. He did throw me out of the car."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Th",
+          "text": "If we don’t water down your feelings, can we have an uncensored look at them?"
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Pt",
+          "text": "I was angry!"
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "SELF-MAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Patient minimizes rage ('peeved') despite a severe stimulus (stranded in snow).",
+        "end_state_desc": "Patient drops the minimization and claims the full intensity of the anger.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Contrasting Stimulus & Response: Highlighting the gap between the event (Snow) and the word (Peeved).",
+        "what_model_should_learn": [
+          [cite_start]"How to identify 'Minimization' by checking the proportion of stimulus to response [cite: 1889-1890].",
+          "How to use 'Vocabulary Correction' ('Water down') to invite full affect (UM_01)."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Minimization",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "therapy2_t1898_t1915_rationalization_employee",
+      "source_text": "Co-Creating Change",
+      "lineage": "ISTDP",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Th",
+          "text": "You had a strong feeling when your employee tried to steal from your firm."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Pt",
+          "text": "Right because she—"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Th",
+          "text": "If we don’t go to because, what is the feeling toward her?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Pt",
+          "text": "If she hadn’t done it—"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Th",
+          "text": "But she did. And now you move to thoughts, but that won’t help you. What is the feeling toward her?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Pt",
+          "text": "I think my anger is due to her similarities to my mother."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Th",
+          "text": "Now you try to analyze your anger. But how do you feel it physically in your body?"
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Pt",
+          "text": "But it’s true. She is like my mother."
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Th",
+          "text": "I’m sure it is. However, you bring this truth in to cover another truth: your anger. If you don’t cover your anger with reasons, how do you experience this anger toward your employee?"
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Pt",
+          "text": "How can I feel angry when the company has already punished her?"
+        },
+        {
+          "turn_index": 11,
+          "speaker": "Th",
+          "text": "That’s not your anger. That’s how you explain it away... How do you experience this anger physically in your body?"
+        },
+        {
+          "turn_index": 12,
+          "speaker": "Pt",
+          "text": "[Sighs. Pounds his fist on the chair.] I tell you I think it’s because—"
+        },
+        {
+          "turn_index": 13,
+          "speaker": "Th",
+          "text": "If we don’t go off to because, how do you experience this anger right now in your fist?"
+        },
+        {
+          "turn_index": 14,
+          "speaker": "Pt",
+          "text": "[Looks at his fist.] My fists are tense."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "SELF-MAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Patient repeatedly moves to 'Because' (rationalization) to avoid the physical experience of anger.",
+        "end_state_desc": "Patient connects to the physical tension in his fist after the therapist blocks the 'Because'.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Blocking the 'Because': Systematically interrupting causal explanations to force somatic awareness.",
+        "what_model_should_learn": [
+          [cite_start]"How to identify 'Rationalization' by the keyword 'Because'[cite: 1899].",
+          "How to define 'Reasons' as a defense against 'Feeling' (UM_01)."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Rationalization",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "therapy2_t1749_t1753_displacement_desk",
+      "source_text": "Co-Creating Change",
+      "lineage": "ISTDP",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Pt",
+          "text": "I was so furious, I slammed my fist on the desk."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Th",
+          "text": "But the desk didn’t do anything to you, did it?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Pt",
+          "text": "No."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Th",
+          "text": "Obviously this anger wasn’t intended for the desk, was it?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Pt",
+          "text": "No, I was furious toward Alex."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Th",
+          "text": "You felt the rage toward Alex, but it came out toward your desk instead."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING",
+          "SELF-MAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "Patient acts out anger on an object (desk) instead of acknowledging the target (Alex).",
+        "end_state_desc": "Patient redirects the anger to the correct target.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Redirection of Displacement: Simple logic check ('The desk didn't hurt you') to correct the target.",
+        "what_model_should_learn": [
+          [cite_start]"How to identify 'Displacement' (anger at wrong object)[cite: 1748].",
+          "How to use humor/logic to realign the feeling with its true cause (RM_02)."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Displacement",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "therapy2_t1529_t1535_distancing_window",
+      "source_text": "Co-Creating Change",
+      "lineage": "ISTDP",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Th",
+          "text": "You want me to help you with this powerful anger you feel toward this doctor whose malpractice left you in pain?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Pt",
+          "text": "Sure. [Defense: Said in a diffident tone of voice.]"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Th",
+          "text": "You don’t sound sure."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Pt",
+          "text": "No, I’m sure. [Defense: Looks away.]"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Th",
+          "text": "Do you notice how you turn away right now and look out the window?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Pt",
+          "text": "Yeah, what of it?"
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Th",
+          "text": "Do you notice how you are distancing yourself from me right now?"
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Pt",
+          "text": "[Looks back at the therapist.] Yeah, I notice that."
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Th",
+          "text": "If you distance yourself, that’s going to get in our way here. What do you think we can do about this tendency to distance yourself from me?"
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "SELF-MAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Patient uses nonverbal cues (tone, looking away) to distance from therapist.",
+        "end_state_desc": "Patient acknowledges the distancing behavior and re-engages eye contact.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Confronting Nonverbal Defense: Using body language (looking out window) as the primary data.",
+        "what_model_should_learn": [
+          [cite_start]"How to track 'Nonverbal Tactical Defenses' (gaze aversion)[cite: 1530].",
+          "How to interrupt the 'Distancing' wall to re-establish the alliance (ME_01)."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Distancing",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "therapy2_t1562_t1570_evasiveness_conflict",
+      "source_text": "Co-Creating Change",
+      "lineage": "ISTDP",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Th",
+          "text": "You mentioned that you had a conflict at work."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Pt",
+          "text": "I don’t know if I would say it was a conflict—maybe more of a disagreement or a discussion."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Th",
+          "text": "First you said it was a conflict, then you said it’s a disagreement, and now you say it’s a discussion. Do you notice how you avoid giving a clear answer?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Pt",
+          "text": "It’s a complicated situation. I don’t know how to describe it."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Th",
+          "text": "Actually, you have described it in three ways, but you keep shifting. Do you notice how you avoid saying what happened at work?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Pt",
+          "text": "I’m trying to."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Th",
+          "text": "You describe what happened at work but not in a clear way."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Pt",
+          "text": "My boss says I’m not clear."
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Th",
+          "text": "And now we see here how you avoid giving a clear answer about this problem at work. If we don’t get a clear picture, we won’t be able to help you with this problem at work."
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Pt",
+          "text": "Okay, it was a conflict I had with my boss."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "SELF-MAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Patient uses 'Evasiveness' (changing terms) to fog the issue.",
+        "end_state_desc": "Patient drops the evasion and names the problem clearly ('It was a conflict').",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Tracking the Shift: Pointing out the degradation of language (Conflict -> Discussion) to expose avoidance.",
+        "what_model_should_learn": [
+          [cite_start]"How to identify 'Evasiveness' via shifting vocabulary[cite: 1563].",
+          "How to use 'Process Discipline' (ME_01) to force a clear definition of the problem."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Evasiveness",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "therapy2_t1573_t1587_generalization_problem",
+      "source_text": "Co-Creating Change",
+      "lineage": "ISTDP",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Th",
+          "text": "What is the problem you would like me to help you with?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Pt",
+          "text": "It’s not a specific problem. More of a general problem. Perhaps it’s an emotional problem. I don’t know."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Th",
+          "text": "But specifically, what is the emotional problem you would like me to help you with?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Pt",
+          "text": "Like I said, it’s not a specific problem. My previous therapist called it a personality disorder."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Th",
+          "text": "If we leave your previous therapist out of this, what is the emotional problem you would like me to help you with?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Pt",
+          "text": "There is a behavioral problem."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Th",
+          "text": "What is the behavioral problem you would like me to help you with?"
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Pt",
+          "text": "There’s a tendency in certain situations to avoid intimacy."
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Th",
+          "text": "Do you notice how you speak in generalities: “certain situations”? Do you notice how you are vague here with me?"
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Pt",
+          "text": "Vague? Yes, I’m vague."
+        },
+        {
+          "turn_index": 11,
+          "speaker": "Th",
+          "text": "As long as we talk in these vague generalities, we won’t get a clear idea of your internal difficulties... If you don’t go off to these generalities, what’s the problem you would like me to help you with?"
+        },
+        {
+          "turn_index": 12,
+          "speaker": "Pt",
+          "text": "My girlfriend said I should come because of something that happened between us."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "SELF-MAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Patient uses labels ('personality disorder') and abstractions ('certain situations') to avoid specifics.",
+        "end_state_desc": "Patient admits the specific trigger (girlfriend/event) after generalizations are blocked.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Blocking Generalization: Refusing abstract labels to force concrete specifics.",
+        "what_model_should_learn": [
+          [cite_start]"How to identify 'Generalization' as a defense against intimacy[cite: 1572].",
+          "How to block external labels (previous therapist, diagnosis) to get to the 'Internal Problem' (UM_04)."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Generalization",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "therapy2_t1593_t1608_hypothetical_speech",
+      "source_text": "Co-Creating Change",
+      "lineage": "ISTDP",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Th",
+          "text": "Is this the problem you would like me to help you with?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Pt",
+          "text": "I suppose."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Th",
+          "text": "You suppose? Either it is or it isn’t."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Pt",
+          "text": "It could be."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Th",
+          "text": "Again you say “could be.” Either it is the problem you want me to help you with or it isn’t."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Pt",
+          "text": "Maybe it is, and maybe it isn’t."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Th",
+          "text": "Again you sit on the fence. You notice how you say “suppose,” “could be,” and “maybe”? Do you notice how you leave things in the air?"
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Pt",
+          "text": "It’s sort of a problem in my opinion."
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Th",
+          "text": "You say “sort of.” Do you notice how you water things down?"
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Pt",
+          "text": "I guess so."
+        },
+        {
+          "turn_index": 11,
+          "speaker": "Th",
+          "text": "You guess so? Either you see that you are indefinite or you don’t. Which is it?"
+        },
+        {
+          "turn_index": 12,
+          "speaker": "Pt",
+          "text": "I guess you could say I leave things indefinite."
+        },
+        {
+          "turn_index": 13,
+          "speaker": "Th",
+          "text": "But in your opinion?"
+        },
+        {
+          "turn_index": 14,
+          "speaker": "Pt",
+          "text": "I leave things indefinite. I think that’s a possibility."
+        },
+        {
+          "turn_index": 15,
+          "speaker": "Th",
+          "text": "A possibility? Do you notice how you keep both feet firmly on the fence? Do you see how you leave everything indefinite and vague? How you refuse to say clearly where you stand?"
+        },
+        {
+          "turn_index": 16,
+          "speaker": "Pt",
+          "text": "Now that you mention it."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "SELF-MAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Patient uses weasel words ('suppose', 'could be', 'maybe') to avoid commitment.",
+        "end_state_desc": "Patient acknowledges his fence-sitting posture ('Now that you mention it').",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Fence-Sitting Confrontation: Relentlessly challenging hypothetical language to force a position.",
+        "what_model_should_learn": [
+          [cite_start]"How to identify 'Hypothetical Speech' as a tactical defense against commitment[cite: 1591].",
+          "How to use 'Binary Pressure' ('Is it or isn't it?') to collapse the middle ground (UM_01)."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Indirect or Hypothetical Speech",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "therapy2_t1611_t1620_retraction_anger",
+      "source_text": "Co-Creating Change",
+      "lineage": "ISTDP",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Th",
+          "text": "What is the feeling toward him for saying that?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Pt",
+          "text": "I was angry."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Th",
+          "text": "How do you experience that anger physically in your body?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Pt",
+          "text": "I don’t know that it was anger, more irritation."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Th",
+          "text": "Do you notice how you move away from your anger?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Pt",
+          "text": "I wouldn’t say I was angry."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Th",
+          "text": "You said you were angry. Now you try to unsay it. Do you see what I mean?"
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Pt",
+          "text": "Maybe I wasn’t angry."
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Th",
+          "text": "But you said you were. As soon as you say you were angry, you try to take it back. Do you see what I mean?"
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Pt",
+          "text": "Maybe I didn’t feel angry at all."
+        },
+        {
+          "turn_index": 11,
+          "speaker": "Th",
+          "text": "Now you try to erase your anger. First you say you were angry, then you try to take it back, and then you try to erase it. Do you see how you avoid your anger?"
+        },
+        {
+          "turn_index": 12,
+          "speaker": "Pt",
+          "text": "I do now."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "META"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Patient admits anger, then immediately retracts it ('unsays' it).",
+        "end_state_desc": "Patient sees the pattern of 'Erasure' (Retraction) as a defense mechanism.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Spotting the Undo: Catching the patient erasing a truth they just spoke.",
+        "what_model_should_learn": [
+          [cite_start]"How to identify 'Retraction' (Undoing) as a defense[cite: 1610].",
+          "How to hold the patient to their first statement as the truth, framing the second as the defense (UM_02)."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Retraction",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "therapy2_t1624_t1629_rumination_neurotransmitters",
+      "source_text": "Co-Creating Change",
+      "lineage": "ISTDP",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Pt",
+          "text": "Other therapists have said that I have a tendency to be passiveaggressive."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Th",
+          "text": "And you? Is it your opinion that you are passive-aggressive?"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Pt",
+          "text": "I guess, given that a number of previous therapists have indicated—"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Th",
+          "text": "But in your opinion?"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Pt",
+          "text": "Uh, yes, I would say I am passive-aggressive. Of course, that could be due to neurotransmitters, my psychiatrist said—"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Th",
+          "text": "But if we don’t go off to neurotransmitters, you say you are passive-aggressive?"
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Pt",
+          "text": "Yes, I suppose that is an area of my psychotherapy that has not been resolved, so I am disappointed about that."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "SELF-MAKING"
+        ],
+        "dominant_phase": "SELF-MAKING",
+        "start_state_desc": "Patient ruminates on past therapists and biology to avoid owning his behavior.",
+        "end_state_desc": "Patient owns the trait ('Yes, I am passive-aggressive') and the feeling ('disappointed').",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Blocking Rumination: Cutting off external theories to force internal ownership.",
+        "what_model_should_learn": [
+          [cite_start]"How to identify 'Rumination' (intellectual speculation) as a defense against feeling[cite: 1622].",
+          "How to block appeals to authority (doctors, neurotransmitters) to center the patient's own opinion (SM_02)."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Rumination",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "therapy2_t1643_t1652_vagueness_relationship",
+      "source_text": "Co-Creating Change",
+      "lineage": "ISTDP",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Th",
+          "text": "What is the problem you would like me to help you with?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Pt",
+          "text": "It’s a relationship problem of sorts."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Th",
+          "text": "Do you notice how you become vague when I ask about your problem?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Pt",
+          "text": "It is kind of vague. I’m not really sure there is a specific problem really."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Th",
+          "text": "Do you notice though that you are being vague?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Pt",
+          "text": "I’m vague, but the problem is vague I think."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Th",
+          "text": "But the problem is that as long as you are vague, we won’t get a clear picture of your difficulties. And if we don’t get a clear picture of your difficulties, I won’t be able to help you."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Pt",
+          "text": "I see what you mean. The problem is I got fired at my workplace after getting into an argument with my boss."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "SELF-MAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Patient hides behind vagueness ('of sorts', 'kind of'), claiming the problem itself is vague.",
+        "end_state_desc": "Patient admits the concrete event (fired for arguing) after seeing the cost of vagueness.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Confronting Vagueness: Linking 'Vagueness' directly to 'Therapeutic Failure'.",
+        "what_model_should_learn": [
+          [cite_start]"How to identify 'Vagueness' as a tactical defense[cite: 1641].",
+          "How to use the 'Price of Defense' (I can't help you) to motivate clarity (UM_06)."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Vagueness",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "therapy2_t1660_t1670_avoidance_sadness",
+      "source_text": "Co-Creating Change",
+      "lineage": "ISTDP",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Th",
+          "text": "How do you experience this sadness over your husband’s death?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Pt",
+          "text": "I try to avoid any reminders of it."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Th",
+          "text": "Do you notice how you are trying to avoid your sadness right now here with me?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Pt",
+          "text": "I don’t want to face it."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Th",
+          "text": "You don’t have to face this sadness... But as long as you avoid your sadness, we won’t be able to help you mourn his death and put an end to this depression. As long as you avoid these feelings about him, your suffering will continue. Why do that to yourself ?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Pt",
+          "text": "I don’t want to suffer anymore. It’s just that I’m scared of feeling the sadness."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Th",
+          "text": "We can face that fear and master it... or you can avoid this sadness and remain depressed. But obviously you have not come here to continue your suffering."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Pt",
+          "text": "No. I remember the day I heard he died. I shut down completely."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "SELF-MAKING"
+        ],
+        "dominant_phase": "SELF-MAKING",
+        "start_state_desc": "Patient avoids sadness ('I don't want to face it'), maintaining depression.",
+        "end_state_desc": "Patient chooses to face the fear to end the suffering and begins to recount the trauma.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Mobilizing Will vs Avoidance: Framing avoidance as the *cause* of suffering, not the cure.",
+        "what_model_should_learn": [
+          [cite_start]"How to allow the patient's right to avoid (autonomy) while highlighting the cost (depression) [cite: 1663-1667].",
+          "How to frame 'Facing Fear' as the only path to 'Ending Suffering' (SM_04)."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Avoidance",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "therapy2_t1516_t1522_cover_words_grief",
+      "source_text": "Co-Creating Change",
+      "lineage": "ISTDP",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Th",
+          "text": "What feeling are you having over your wife’s death?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Pt",
+          "text": "I feel upset."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Th",
+          "text": "Obviously, her death upset your entire world. What is your feeling over losing her?"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Pt",
+          "text": "I’m still in shock."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Th",
+          "text": "Of course, it came as a shock... What is the feeling over losing her?"
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Pt",
+          "text": "It’s terrible."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "Th",
+          "text": "I agree. What are you feeling over her loss?"
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Pt",
+          "text": "I feel lost without her."
+        },
+        {
+          "turn_index": 9,
+          "speaker": "Th",
+          "text": "You are without her. You lost her, and obviously this triggers a lot of feelings over losing her... and making the funeral arrangements."
+        },
+        {
+          "turn_index": 10,
+          "speaker": "Pt",
+          "text": "[Tears form in his eyes.]"
+        },
+        {
+          "turn_index": 11,
+          "speaker": "Th",
+          "text": "What are you feeling now?"
+        },
+        {
+          "turn_index": 12,
+          "speaker": "Pt",
+          "text": "I’m sad."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "UNMAKING",
+          "REMAKING"
+        ],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "Patient uses vague 'cover words' (upset, shock, terrible, lost) to avoid specific grief.",
+        "end_state_desc": "Patient accesses specific sadness/tears after the therapist relentlessly blocks the vague terms.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Penetrating Cover Words: Ignoring vague descriptors to pursue the core affect.",
+        "what_model_should_learn": [
+          [cite_start]"How to identify 'Cover Words' (upset, shock) as defenses against specific affect[cite: 1513].",
+          "How to validate the reality ('You are without her') to trigger the feeling (SM_01)."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Cover Words",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "therapy2_t390_t394_fighting_to_stay_alive",
+      "source_text": "Co-Creating Change",
+      "lineage": "ISTDP",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "Pt",
+          "text": "What I’m feeling out of this anger is that [Sighs.] … I feel … that I’m fighting to stay alive right now."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "Th",
+          "text": "Hmm, fighting to stay alive. It sounds like you feel like you’re alone in that fight."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Pt",
+          "text": "[The patient begins to cry and tries to say something but cannot.]"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Narrator",
+          "text": "Grief emerges as he turns against the resistance. He continues to cry as he becomes aware of how he kills himself slowly."
+        }
+      ],
+      "metadata": {
+        "phases_present": [
+          "REMAKING",
+          "SELF-MAKING"
+        ],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "Patient realizes the existential stakes ('fighting to stay alive') of his anger.",
+        "end_state_desc": "Therapist's empathy ('alone in that fight') breaks the isolation, leading to grief.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Deep Empathy: Meeting the patient's existential realization to trigger grief.",
+        "what_model_should_learn": [
+          "How to transition from 'Challenge' to 'Empathy' when the patient drops the defense.",
+          [cite_start]"How to interpret 'fighting to stay alive' as a cry for alliance [cite: 391-393]."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Vignette Three (minutes 16–20)",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    }
+  ]
+}

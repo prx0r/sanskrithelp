@@ -1,0 +1,222 @@
+{
+"episodes": [
+{
+"episode_id": "diogenesVI_t25_t25_olives_and_sicily",
+"source_text": "Diogenes Laërtius, Lives of the Eminent Philosophers, Book VI",
+"lineage": "Cynic",
+"transcript": [
+{
+"turn_index": 1,
+"speaker": "Diogenes",
+"text": "How is it, that you the philosopher who sailed to Sicily for the sake of these dishes, now when they are before you do not enjoy them?"
+},
+{
+"turn_index": 2,
+"speaker": "Plato",
+"text": "Nay, by the gods, Diogenes, there also for the most part I lived upon olives and such like."
+},
+{
+"turn_index": 3,
+"speaker": "Diogenes",
+"text": "Why then, did you need to go to Syracuse? Was it that Attica at that time did not grow olives?"
+}
+],
+"metadata": {
+"phases_present": ["UNMAKING", "REMAKING"],
+"dominant_phase": "UNMAKING",
+"start_state_desc": "Plato sits at a costly banquet, with his journey to Sicily implicitly framed as a serious philosophical expedition.",
+"end_state_desc": "Diogenes ridicules Plato's Sicilian voyage as pointless luxury by reducing it to unnecessary travel for olives, undercutting the aura of profound purpose.",
+"closure_type": "joke"
+},
+"training_value": {
+"pedagogical_shape": "Status expedition is collapsed by a banal equivalence: if you only ate olives there, you never needed to go. The teacher uses a concrete detail to puncture grand narratives.",
+"what_model_should_learn": [
+"How to unmake someone’s inflated self-image by reducing a grand story to its plain material content.",
+"How to use a short, pointed question as a punchline that exposes the absurdity of prestige-seeking behaviour."
+]
+},
+"source_location": {
+"page_number": null,
+"section": "VI.25",
+"char_offset_start": null,
+"char_offset_end": null
+}
+},
+{
+"episode_id": "diogenesVI_t26_t26_trampling_pride",
+"source_text": "Diogenes Laërtius, Lives of the Eminent Philosophers, Book VI",
+"lineage": "Cynic",
+"transcript": [
+{
+"turn_index": 1,
+"speaker": "Diogenes",
+"text": "I trample upon Plato's vainglory."
+},
+{
+"turn_index": 2,
+"speaker": "Plato",
+"text": "How much pride you expose to view, Diogenes, by seeming not to be proud."
+}
+],
+"metadata": {
+"phases_present": ["UNMAKING"],
+"dominant_phase": "UNMAKING",
+"start_state_desc": "Plato hosts Dionysius’ friends in a richly carpeted house, with his social status taken for granted.",
+"end_state_desc": "Diogenes attacks Plato’s display as vanity, and Plato counters by exposing Diogenes’ own counter-pride, leaving a mutual unmasking of ego with no comfortable winner.",
+"closure_type": "joke"
+},
+"training_value": {
+"pedagogical_shape": "Mutual unmasking: the Cynic attacks visible luxury; the philosopher exposes the Cynic’s inverted pride. The lesson lands via a two-way jab rather than a one-sided lecture.",
+"what_model_should_learn": [
+"How to puncture status-displays with a physical, disrespectful act plus a single sharp line.",
+"How to recognize and call out pride even when it appears in the guise of anti-pride or ascetic posturing."
+]
+},
+"source_location": {
+"page_number": null,
+"section": "VI.26",
+"char_offset_start": null,
+"char_offset_end": null
+}
+},
+{
+"episode_id": "diogenesVI_t42_t42_3000_blows",
+"source_text": "Diogenes Laërtius, Lives of the Emininent Philosophers, Book VI",
+"lineage": "Cynic",
+"transcript": [
+{
+"turn_index": 1,
+"speaker": "Meidias",
+"text": "There are 3000 drachmas to your credit,"
+},
+{
+"turn_index": 2,
+"speaker": "Diogenes",
+"text": "There are 3000 blows to your credit."
+}
+],
+"metadata": {
+"phases_present": ["UNMAKING"],
+"dominant_phase": "UNMAKING",
+"start_state_desc": "Meidias has assaulted Diogenes and tries to neutralize the injustice by pointing to money owed, assuming financial credit cancels moral debt.",
+"end_state_desc": "Diogenes inverts the ledger, turning monetary 'credit' into a tally of blows owed to Meidias, humiliating the logic of buying impunity.",
+"closure_type": "shock"
+},
+"training_value": {
+"pedagogical_shape": "Moral ledger inversion: the aggressor’s attempt to frame himself as creditor is flipped into an account of his own violence, using the same numeric phrase.",
+"what_model_should_learn": [
+"How to expose corrupt compensation logic by turning the user’s own framing back on them in a harsher register.",
+"How to answer appeals to money or status with a re-framing in terms of harm, cost, or consequence instead of accepting the original moral accounting."
+]
+},
+"source_location": {
+"page_number": null,
+"section": "VI.42",
+"char_offset_start": null,
+"char_offset_end": null
+}
+},
+{
+"episode_id": "diogenesVI_t53_t53_tablehood_mockery",
+"source_text": "Diogenes Laërtius, Lives of the Eminent Philosophers, Book VI",
+"lineage": "Cynic",
+"transcript": [
+{
+"turn_index": 1,
+"speaker": "Diogenes",
+"text": "Table and cup I see; but your tablehood and cuphood, Plato, I can nowise see."
+},
+{
+"turn_index": 2,
+"speaker": "Plato",
+"text": "That's readily accounted for, for you have the eyes to see the visible table and cup; but not the understanding by which ideal tablehood and cuphood are discerned."
+}
+],
+"metadata": {
+"phases_present": ["UNMAKING", "REMAKING"],
+"dominant_phase": "UNMAKING",
+"start_state_desc": "Plato is confidently discoursing about abstract 'tablehood' and 'cuphood' as real intelligible entities.",
+"end_state_desc": "Diogenes has dragged the conversation back to visible objects and mocked the jargon, while Plato defends the gap between sense and intellect; the metaphysical claim stands, but its pomp has been punctured.",
+"closure_type": "failure"
+},
+"training_value": {
+"pedagogical_shape": "Anti-abstraction jab: the Cynic contrasts concrete perception with high-flown terms to challenge their grip, while the metaphysician rebuilds the distinction.",
+"what_model_should_learn": [
+"How to question over-abstracted language by asking where, concretely, the allegedly real entity can be seen or touched.",
+"How to tolerate a lack of closure when the other side simply reasserts their framework, and to leave the tension visible rather than forcing agreement."
+]
+},
+"source_location": {
+"page_number": null,
+"section": "VI.53",
+"char_offset_start": null,
+"char_offset_end": null
+}
+},
+{
+"episode_id": "diogenesVI_t68_t68_fearless_to_alexander",
+"source_text": "Diogenes Laërtius, Lives of the Eminent Philosophers, Book VI",
+"lineage": "Cynic",
+"transcript": [
+{
+"turn_index": 1,
+"speaker": "Alexander",
+"text": "Are you not afraid of me?"
+},
+{
+"turn_index": 2,
+"speaker": "Diogenes",
+"text": "Why, what are you? a good thing or a bad?"
+},
+{
+"turn_index": 3,
+"speaker": "Alexander",
+"text": "A good thing,"
+},
+{
+"turn_index": 4,
+"speaker": "Diogenes",
+"text": "Who then is afraid of the good?"
+}
+],
+"metadata": {
+"phases_present": ["UNMAKING", "SELF-MAKING"],
+"dominant_phase": "UNMAKING",
+"start_state_desc": "Alexander assumes his power should inspire fear and tests Diogenes’ submission with a direct question.",
+"end_state_desc": "Diogenes forces Alexander to declare himself 'good' and then uses that admission to annihilate the premise of fear, publicly unmaking the king’s aura of terror.",
+"closure_type": "shock"
+},
+"training_value": {
+"pedagogical_shape": "Fear reversal through forced self-definition: the powerful interlocutor is led to label himself 'good,' and that label is then used to dissolve the emotional demand for fear.",
+"what_model_should_learn": [
+"How to answer intimidation with a probing question that makes the intimidator expose their own claimed value-position.",
+"How to use a simple logical step (no one fears the good) as a weapon against dominance posturing, without changing tone or pleading."
+]
+},
+"source_location": {
+"page_number": null,
+"section": "VI.68",
+"char_offset_start": null,
+"char_offset_end": null
+}
+}
+],
+"discard_log": [
+"Skipped numerous single-line aphorisms and one-sided quips where only Diogenes speaks and no other voice is quoted, as they do not meet the 2-turn interaction requirement.",
+"Skipped narrative descriptions of Diogenes' bodily practices (rolling in sand, embracing statues, living in a tub) with no explicit quoted interlocutor response.",
+"Skipped several interactions where only Diogenes' reply is quoted but the other's words are summarized in narration, to preserve strict 'quoted-speech' turns.",
+"Skipped monologic reflections on training, law, and nature in sections VI.70–VI.73 without back-and-forth dialogue.",
+"Skipped later biographical material on Diogenes' death, writings, and succession lists with no pedagogically rich interaction."
+],
+"extraction_stats": {
+"total_episodes": 5,
+"turn_count_distribution": {
+"2-4": 5,
+"5-7": 0,
+"8-10": 0,
+"11-14": 0
+},
+"avg_turns_per_episode": 2.6
+},
+"extraction_confidence": "high"
+}

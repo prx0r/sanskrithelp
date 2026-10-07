@@ -1,0 +1,1099 @@
+
+
+{
+  "episode_id": "gorgias_ep006_better_suffer_injustice",
+  "source_text": "Plato, Gorgias (Hackett Translation)",
+  "lineage": "Socratic",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "Socrates",
+      "text": "Which do you think is worse, Polus—to do what’s unjust or to suffer it?"
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Polus",
+      "text": "To suffer it. No one would choose the other."
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Socrates",
+      "text": "So you agree that doing injustice is shameful?"
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Polus",
+      "text": "Of course—everyone admits that."
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Socrates",
+      "text": "And what is shameful is bad, isn’t it?"
+    },
+    {
+      "turn_index": 6,
+      "speaker": "Polus",
+      "text": "Yes, that seems to follow."
+    },
+    {
+      "turn_index": 7,
+      "speaker": "Socrates",
+      "text": "Then doing injustice is worse than suffering it."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["UNMAKING", "REMAKING"],
+    "dominant_phase": "UNMAKING",
+    "start_state_desc": "Polus confidently assumes suffering injustice is obviously worse.",
+    "end_state_desc": "Socrates forces Polus to contradict himself and accept the opposite conclusion.",
+    "closure_type": "shock"
+  },
+
+  "source_location": {
+    "section": "[474c–475d]"
+  }
+}
+
+⚔️ EPISODE 007 — “Punishment as Healing the Soul”
+
+Shape: REMAKING via causal mechanism
+Speakers: Socrates ↔ Polus
+Passage: “The one who is punished is cured…” (476a–476d)
+
+{
+  "episode_id": "gorgias_ep007_punishment_as_healing",
+  "source_text": "Plato, Gorgias",
+  "lineage": "Socratic",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "Socrates",
+      "text": "Being punished is the way the soul is relieved of its injustice."
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Polus",
+      "text": "How can punishment benefit the one who suffers it?"
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Socrates",
+      "text": "Because punishment is a kind of cure, Polus. No one wants to keep the soul diseased."
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Polus",
+      "text": "You’re saying the criminal is made better by suffering?"
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Socrates",
+      "text": "Exactly—just as the sick body is better for painful treatment."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["REMAKING"],
+    "dominant_phase": "REMAKING",
+    "start_state_desc": "Polus believes punishment is pure harm.",
+    "end_state_desc": "Socrates reframes punishment as therapeutic.",
+    "closure_type": "success"
+  },
+
+  "source_location": {
+    "section": "[475c–476d]"
+  }
+}
+
+⚔️ EPISODE 008 — “The Tyrant Is the Most Miserable”
+
+Shape: Inversion logic + ego destruction
+Speakers: Socrates ↔ Polus
+Passage: “The tyrant, contrary to what you think, Polus, is miserable…” (471e–472c)
+
+{
+  "episode_id": "gorgias_ep008_tyrant_miserable",
+  "source_text": "Plato, Gorgias",
+  "lineage": "Socratic",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "Socrates",
+      "text": "The man who does what’s unjust is miserable, Polus."
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Polus",
+      "text": "How can that be? He gets whatever he wants."
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Socrates",
+      "text": "No—the one who does injustice and escapes punishment is the most miserable of all."
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Polus",
+      "text": "You’re saying the tyrant—the freest man—is actually the worst off?"
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Socrates",
+      "text": "Yes. For he corrupts the soul most deeply and has no one to heal him."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["UNMAKING"],
+    "dominant_phase": "UNMAKING",
+    "start_state_desc": "Polus glorifies tyrannical power.",
+    "end_state_desc": "Socrates forces a complete inversion: unconstrained power equals misery.",
+    "closure_type": "shock"
+  },
+
+  "source_location": {
+    "section": "[471e–472c]"
+  }
+}
+
+⚔️ EPISODE 009 — “The Unrestrained Life Is Ruin (The Leaky Jar)”
+
+Shape: analogy + psychology + contradiction exposure
+Speakers: Socrates ↔ Callicles
+Passage: “You’re describing a man with a leaking jar…” (492b–493a)
+
+{
+  "episode_id": "gorgias_ep009_leaky_jar",
+  "source_text": "Plato, Gorgias",
+  "lineage": "Socratic",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "Socrates",
+      "text": "The man devoted to unchecked pleasure is like a jar full of holes—no matter how much he pours in, it leaks out again."
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Callicles",
+      "text": "That’s a ridiculous image, Socrates."
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Socrates",
+      "text": "Yet it’s your way of life I’m describing, Callicles—endless craving, never satisfaction."
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Callicles",
+      "text": "I deny that such a life is miserable."
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Socrates",
+      "text": "But you agree the one who can be satisfied is better off than one who constantly needs refilling?"
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["UNMAKING", "REMAKING"],
+    "dominant_phase": "UNMAKING",
+    "start_state_desc": "Callicles defends boundless pleasure.",
+    "end_state_desc": "Socrates reframes it as pathological need.",
+    "closure_type": "shock"
+  },
+
+  "source_location": {
+    "section": "[492b–493a]"
+  }
+}
+
+⚔️ EPISODE 010 — “Pure Contradiction Exposure: Pleasure ≠ Good”
+
+Shape: No analogy — pure logical demolition
+Speakers: Socrates ↔ Callicles
+Passage: “Are the pleasant and the good the same?” (495a–496c)
+
+{
+  "episode_id": "gorgias_ep010_pleasure_not_good",
+  "source_text": "Plato, Gorgias",
+  "lineage": "Socratic",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "Socrates",
+      "text": "Do you say that the pleasant and the good are the same, Callicles?"
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Callicles",
+      "text": "Yes. I stand by that."
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Socrates",
+      "text": "Is it pleasant to scratch an itch endlessly?"
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Callicles",
+      "text": "It can be."
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Socrates",
+      "text": "Then the man covered in itching sores is living the best life, if he scratches constantly?"
+    },
+    {
+      "turn_index": 6,
+      "speaker": "Callicles",
+      "text": "No—that’s absurd."
+    },
+    {
+      "turn_index": 7,
+      "speaker": "Socrates",
+      "text": "Then the pleasant and the good are not the same."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["UNMAKING"],
+    "dominant_phase": "UNMAKING",
+    "start_state_desc": "Callicles defends hedonistic equivalence.",
+    "end_state_desc": "Socrates forces a contradiction between pleasure and goodness.",
+    "closure_type": "success"
+  },
+
+  "source_location": {
+    "section": "[495a–496c]"
+  }
+}
+
+⚔️ EPISODE 011 — “Shame Trap: Gorgias Must Admit He Teaches Justice”
+
+Shape: Overreach exposure + definition collapse
+Speakers: Socrates ↔ Gorgias
+Passage: “Does the orator know justice?” → “Yes.” → contradiction begins.
+
+{
+  "episode_id": "gorgias_ep011_gorgias_teaches_justice",
+  "source_text": "Plato, Gorgias (Hackett Translation)",
+  "lineage": "Socratic",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "Socrates",
+      "text": "Tell me, Gorgias, does the orator know what is just and what is unjust?"
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Gorgias",
+      "text": "Yes, he does—if he is to be an orator at all."
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Socrates",
+      "text": "And does he teach these things to others?"
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Gorgias",
+      "text": "Certainly. That is part of his craft."
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Socrates",
+      "text": "Then an unjust orator would not exist, for he knows justice and teaches it?"
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["UNMAKING"],
+    "dominant_phase": "UNMAKING",
+    "start_state_desc": "Gorgias overconfidently asserts the grandeur of rhetoric.",
+    "end_state_desc": "Socrates forces him to claim orators know and teach justice, which will later destroy him.",
+    "closure_type": "trap"
+  },
+
+  "source_location": {
+    "section": "[460a–461a]"
+  }
+}
+
+⚔️ EPISODE 012 — “Short-Answer Discipline”
+
+Shape: META control of the inquiry
+Speakers: Socrates ↔ Gorgias
+Passage: “Answer the question I actually asked.”
+
+{
+  "episode_id": "gorgias_ep012_short_answer_discipline",
+  "source_text": "Plato, Gorgias",
+  "lineage": "Socratic",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "Socrates",
+      "text": "Please answer the question I put to you, Gorgias—shortly."
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Gorgias",
+      "text": "I am trying, Socrates, but you keep shifting the topic."
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Socrates",
+      "text": "Not at all. You’re giving long speeches instead of the simple answer required."
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Gorgias",
+      "text": "Very well, ask again."
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Socrates",
+      "text": "I already did. You owe me the answer—not another speech."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["META"],
+    "dominant_phase": "META",
+    "start_state_desc": "Gorgias is drifting into rhetorical monologue.",
+    "end_state_desc": "Socrates reasserts procedural constraints and forces a disciplined mode of response.",
+    "closure_type": "success"
+  },
+
+  "source_location": {
+    "section": "[453d–454d]"
+  }
+}
+
+⚔️ EPISODE 013 — “Polus’ Overreach: Power Without Knowledge”
+
+Shape: UNMAKING via epistemic exposure (no analogy)
+Speakers: Socrates ↔ Polus
+Passage: “You say the orator has great power?” → “Does he know what is good?”
+
+{
+  "episode_id": "gorgias_ep013_power_without_knowledge",
+  "source_text": "Plato, Gorgias",
+  "lineage": "Socratic",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "Socrates",
+      "text": "You claim the orator has great power, Polus?"
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Polus",
+      "text": "Yes—the greatest of human powers."
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Socrates",
+      "text": "Does he know what is truly good and what is bad?"
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Polus",
+      "text": "Not necessarily. But that doesn't lessen his power!"
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Socrates",
+      "text": "Then you’ve admitted he acts without knowledge—and the man without knowledge harms himself the most."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["UNMAKING"],
+    "dominant_phase": "UNMAKING",
+    "start_state_desc": "Polus boasts about the orator’s power.",
+    "end_state_desc": "Socrates exposes that power without knowledge is self-harm.",
+    "closure_type": "shock"
+  },
+
+  "source_location": {
+    "section": "[461b–462c]"
+  }
+}
+
+⚔️ EPISODE 014 — “Callicles’ Value Reversal: Nature vs Convention”
+
+Shape: UNMAKING through ideological exposure
+Speakers: Socrates ↔ Callicles
+Passage: “By nature the strong should dominate…”
+
+{
+  "episode_id": "gorgias_ep014_nature_vs_convention",
+  "source_text": "Plato, Gorgias",
+  "lineage": "Socratic",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "Callicles",
+      "text": "By nature, Socrates, the stronger and better should rule the weaker."
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Socrates",
+      "text": "And you call ‘stronger’ the majority or the one?"
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Callicles",
+      "text": "The one, of course—the superior man."
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Socrates",
+      "text": "Then if the many restrain this one by law, the many are stronger?"
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Callicles",
+      "text": "That’s not what I meant."
+    },
+    {
+      "turn_index": 6,
+      "speaker": "Socrates",
+      "text": "But it’s what you said—and your principle collapses under its own definition."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["UNMAKING"],
+    "dominant_phase": "UNMAKING",
+    "start_state_desc": "Callicles asserts an elitist 'nature' doctrine.",
+    "end_state_desc": "Socrates forces an immediate contradiction in Callicles’ principle.",
+    "closure_type": "collapse"
+  },
+
+  "source_location": {
+    "section": "[482c–484c]"
+  }
+}
+
+⚔️ EPISODE 015 — “Self-Making Seed: What Life Are You Defending?”
+
+Shape: SELF-MAKING
+Speakers: Socrates ↔ Callicles
+Passage: “Tell me what life you say is best…” → Callicles forced to articulate it.
+
+{
+  "episode_id": "gorgias_ep015_what_life_do_you_defend",
+  "source_text": "Plato, Gorgias",
+  "lineage": "Socratic",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "Socrates",
+      "text": "Tell me plainly, Callicles—what life are you defending as best?"
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Callicles",
+      "text": "The life of the man who indulges his desires freely."
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Socrates",
+      "text": "And is this life admirable because it is pleasant, or for some other reason?"
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Callicles",
+      "text": "Because pleasure is the good."
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Socrates",
+      "text": "Then you must defend that principle to its end. Are you prepared to?"
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["SELF-MAKING"],
+    "dominant_phase": "SELF-MAKING",
+    "start_state_desc": "Callicles makes vague hedonistic claims.",
+    "end_state_desc": "Socrates forces Callicles to articulate and own his existential position.",
+    "closure_type": "escalation"
+  },
+
+  "source_location": {
+    "section": "[486c–487d]"
+  }
+} 
+
+⚔️ EPISODE 016 — “Callicles Exposed: He Doesn’t Believe His Own Doctrine”
+
+Shape: Ego-pressure + Self-Contradiction Exposure
+Speakers: Socrates ↔ Callicles
+Passage: “You don’t actually live by the creed you preach…”
+
+{
+  "episode_id": "gorgias_ep016_callicles_hypocrisy_exposed",
+  "source_text": "Plato, Gorgias (Hackett Translation)",
+  "lineage": "Socratic",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "Socrates",
+      "text": "Tell me, Callicles—do you yourself indulge your desires without restraint?"
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Callicles",
+      "text": "Of course not. I exercise discipline like any man of sense."
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Socrates",
+      "text": "Yet you said the best life is the unrestrained one."
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Callicles",
+      "text": "Yes, but that doesn’t mean one should practice it constantly."
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Socrates",
+      "text": "Then you admit your doctrine contradicts your own way of living."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["UNMAKING"],
+    "dominant_phase": "UNMAKING",
+    "start_state_desc": "Callicles asserts a hedonistic theory.",
+    "end_state_desc": "Socrates forces Callicles to admit he does not practice what he preaches.",
+    "closure_type": "collapse"
+  },
+
+  "source_location": {
+    "section": "[498b–499b]"
+  }
+}
+
+⚔️ EPISODE 017 — “The Navigator & The Pilot: Knowledge vs Empty Power”
+
+Shape: REMAKING with causal structure (non-analogical control)
+Speakers: Socrates ↔ Callicles
+Passage: “A pilot knows what is best for the ship…”
+
+{
+  "episode_id": "gorgias_ep017_pilot_navigator_knowledge",
+  "source_text": "Plato, Gorgias",
+  "lineage": "Socratic",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "Socrates",
+      "text": "A pilot does not merely steer whichever way he wishes. He knows what is best for the ship and those aboard."
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Callicles",
+      "text": "Yes, because his craft demands it."
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Socrates",
+      "text": "Then a man who rules must know what is best—not merely act on desire."
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Callicles",
+      "text": "You’re smuggling your assumptions into my view."
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Socrates",
+      "text": "No—I’m showing that true power requires knowledge, just as navigation requires skill."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["REMAKING"],
+    "dominant_phase": "REMAKING",
+    "start_state_desc": "Callicles equates ruling with desire-satisfaction.",
+    "end_state_desc": "Socrates reframes ruling as a craft requiring knowledge.",
+    "closure_type": "success"
+  },
+
+  "source_location": {
+    "section": "[488a–489a]"
+  }
+}
+
+⚔️ EPISODE 018 — “Procedural Domination: Callicles Refuses to Answer”
+
+Shape: META + Discipline Enforcement
+Speakers: Socrates ↔ Callicles
+Passage: “If you refuse to answer, our discussion cannot continue.”
+
+{
+  "episode_id": "gorgias_ep018_callicles_refuses_answer",
+  "source_text": "Plato, Gorgias",
+  "lineage": "Socratic",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "Callicles",
+      "text": "I won’t answer your childish questions anymore."
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Socrates",
+      "text": "If you refuse to answer, there’s no way for us to examine the truth together."
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Callicles",
+      "text": "I’m tired of your traps."
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Socrates",
+      "text": "They are not traps, Callicles. They are conditions for any rational inquiry."
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Callicles",
+      "text": "Fine—ask again."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["META"],
+    "dominant_phase": "META",
+    "start_state_desc": "Callicles attempts to escape Socratic questioning.",
+    "end_state_desc": "Socrates reinstates inquiry discipline and forces re-engagement.",
+    "closure_type": "escalation"
+  },
+
+  "source_location": {
+    "section": "[505c–506a]"
+  }
+}
+
+⚔️ EPISODE 019 — “Judgment of Souls: Moral Consequence as Reality Check”
+
+Shape: REMAKING + Moral Causal Modeling
+Speakers: Socrates ↔ Callicles
+Passage: “Picture the soul standing naked before the judge…”
+
+{
+  "episode_id": "gorgias_ep019_judgment_of_souls",
+  "source_text": "Plato, Gorgias",
+  "lineage": "Socratic",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "Socrates",
+      "text": "Picture the soul, Callicles, stripped naked before the judge—every deed visible."
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Callicles",
+      "text": "That’s just myth-making."
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Socrates",
+      "text": "Myths teach truths the arrogant cannot hear plainly."
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Callicles",
+      "text": "And what truth is that supposed to reveal?"
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Socrates",
+      "text": "That injustice deforms the soul—and punishment restores it."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["REMAKING"],
+    "dominant_phase": "REMAKING",
+    "start_state_desc": "Callicles scoffs at moral consequence.",
+    "end_state_desc": "Socrates reframes cosmic judgment as moral epistemology.",
+    "closure_type": "success"
+  },
+
+  "source_location": {
+    "section": "[523a–524b]"
+  }
+}
+
+⚔️ EPISODE 020 — “Socrates’ Final Challenge: Choose Your Life”
+
+Shape: SELF-MAKING (the final move of the dialogue)
+Speakers: Socrates ↔ Callicles
+Passage: “I am the only one of the Athenians who tries to practice the true political art…”
+
+{
+  "episode_id": "gorgias_ep020_final_choice",
+  "source_text": "Plato, Gorgias",
+  "lineage": "Socratic",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "Socrates",
+      "text": "I am the only one of the Athenians, Callicles, who tries to practice the true political art."
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Callicles",
+      "text": "You boast that, yet the city ignores you."
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Socrates",
+      "text": "Better ignored while doing right than praised while corrupting my soul."
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Callicles",
+      "text": "And what is it you want from me, then?"
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Socrates",
+      "text": "Only this: choose which life you will live—the life of discipline or the life of ruin."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["SELF-MAKING"],
+    "dominant_phase": "SELF-MAKING",
+    "start_state_desc": "Callicles mocks Socrates’ political irrelevance.",
+    "end_state_desc": "Socrates forces him to choose his existential orientation.",
+    "closure_type": "revelation"
+  },
+
+  "source_location": {
+    "section": "[527a–527e]"
+  }
+}
+
+⚔️ EPISODE 020 — Polus’ Humiliation Cascade (Forced Concession)
+
+Shape: UNMAKING → Emotional Break → Forced Agreement
+Source: Polus ashamed into agreeing with Socrates
+
+
+GORGIAS
+
+{
+  "episode_id": "gorgias_ep020_polus_forced_concession",
+  "source_text": "GORGIAS.txt",
+  "lineage": "Socratic",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "Callicles",
+      "text": "Polus agreed with you that doing what’s unjust is more shameful than suffering it. As a result of this admission he was bound and gagged by you in the discussion, too ashamed to say what he thought."
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Socrates",
+      "text": "So you admit that shame compelled him—not understanding?"
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Callicles",
+      "text": "Yes. He was forced to contradict himself because he dared not say what he truly believed."
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Socrates",
+      "text": "Then Polus conceded not conviction, but fear of appearing base before the many."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["UNMAKING"],
+    "dominant_phase": "UNMAKING",
+    "start_state_desc": "Polus had conceded a major ethical point under pressure.",
+    "end_state_desc": "Socrates exposes the concession as emotional collapse, not knowledge.",
+    "closure_type": "escalation"
+  },
+
+  "source_location": {
+    "section": "[483]"
+  }
+}
+
+⚔️ EPISODE 021 — The Self-Contradiction Paradox (“I must contradict myself…”)
+
+Shape: META + Irony + Reversal
+Source: Socrates’ ironic “contradict myself” passage
+
+
+GORGIAS
+
+{
+  "episode_id": "gorgias_ep021_socrates_contradiction_irony",
+  "source_text": "GORGIAS.txt",
+  "lineage": "Socratic",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "Socrates",
+      "text": "Either refute philosophy, or else, by the Dog, Callicles will not agree with Callicles, but will be out of harmony with himself all his life long."
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Callicles",
+      "text": "Socrates, you’re grandstanding in these speeches, acting like a crowd pleaser."
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Socrates",
+      "text": "It is better for the many to contradict me than for me to contradict myself, though I am only one person."
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Callicles",
+      "text": "You twist everything—first forcing Gorgias to contradict himself, and now Polus."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["META", "UNMAKING"],
+    "dominant_phase": "META",
+    "start_state_desc": "Callicles accuses Socrates of inconsistency.",
+    "end_state_desc": "Socrates reframes 'contradiction' as Callicles’ own failing, not his.",
+    "closure_type": "pivot"
+  },
+
+  "source_location": {
+    "section": "[482–483]"
+  }
+}
+
+⚔️ EPISODE 022 — The Anti-Rhetoric Rhetoric Paradox
+
+Shape: META + Paradox + Self-reference
+Source: “I must use rhetoric to show rhetoric is not an art”
+
+
+gorgias-hackett-classics_compre…
+
+{
+  "episode_id": "gorgias_ep022_anti_rhetoric_paradox",
+  "source_text": "GORGIAS.txt",
+  "lineage": "Socratic",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "Socrates",
+      "text": "I believe I practice the true political craft, because my speeches do not aim at gratification but at what is best."
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Callicles",
+      "text": "Yet here you are persuading—using rhetoric to deny rhetoric."
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Socrates",
+      "text": "If I persuade, it is not as a pastry chef persuades children, but as a doctor speaking bitter truths."
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Callicles",
+      "text": "Still, you must use the very craft you condemn to defend your view."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["META"],
+    "dominant_phase": "META",
+    "start_state_desc": "Callicles claims Socrates contradicts himself by using rhetoric.",
+    "end_state_desc": "Socrates reframes persuasion as truth-guiding, not rhetorical flattery.",
+    "closure_type": "reframing"
+  },
+
+  "source_location": {
+    "section": "[522–523]"
+  }
+}
+
+⚔️ EPISODE 023 — The Shame Trap: Polus’ Collapse Into Aporia
+
+Shape: UNMAKING (Non-analogical logical pressure)
+Source: Polus admits contradiction in admirable vs shameful
+
+
+GORGIAS
+
+{
+  "episode_id": "gorgias_ep023_polus_shame_trap",
+  "source_text": "GORGIAS.txt",
+  "lineage": "Socratic",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "Socrates",
+      "text": "Which do you think is more shameful, doing what’s unjust or suffering it?"
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Polus",
+      "text": "Doing it."
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Socrates",
+      "text": "And which is worse?"
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Polus",
+      "text": "Suffering it is worse."
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Socrates",
+      "text": "Then shame does not track evil—your claim collapses."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["UNMAKING"],
+    "dominant_phase": "UNMAKING",
+    "start_state_desc": "Polus tries to separate shameful from evil.",
+    "end_state_desc": "Socrates traps him: the categories logically merge.",
+    "closure_type": "collapse"
+  },
+
+  "source_location": {
+    "section": "[474–475]"
+  }
+}
+
+⚔️ EPISODE 024 — Callicles’ Refusal to Be Benefited (Discipline Rejected)
+
+Shape: SELF-MAKING refusal + inquiry collapse
+Source: Callicles snaps: “Ask someone else.”
+
+
+gorgias-hackett-classics_compre…
+
+{
+  "episode_id": "gorgias_ep024_callicles_rejects_benefit",
+  "source_text": "GORGIAS.txt",
+  "lineage": "Socratic",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "Socrates",
+      "text": "Isn’t disciplining the soul better for it than indulgence?"
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Callicles",
+      "text": "I don’t know what you mean. Ask somebody else."
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Socrates",
+      "text": "This fellow won’t put up with being benefited and disciplined."
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Callicles",
+      "text": "And I couldn’t care less about anything you say."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["UNMAKING", "SELF-MAKING"],
+    "dominant_phase": "SELF-MAKING",
+    "start_state_desc": "Socrates presses Callicles toward moral self-correction.",
+    "end_state_desc": "Callicles openly refuses the benefit of inquiry.",
+    "closure_type": "failure"
+  },
+
+  "source_location": {
+    "section": "[505–506]"
+  }
+}
+
+⚔️ EPISODE 025 — BONUS: The Orator vs the Doctor (Raw Power vs Expertise)
+
+Shape: REMAKING (Mechanism Clarification)
+Source: Gorgias’ boast about persuading sick men and assemblies
+
+
+GORGIAS
+
+{
+  "episode_id": "gorgias_ep025_orator_vs_doctor_power",
+  "source_text": "GORGIAS.txt",
+  "lineage": "Socratic",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "Gorgias",
+      "text": "If an orator and a doctor competed before a city, the doctor would make no showing at all, but the orator would be appointed."
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Socrates",
+      "text": "So persuasion defeats knowledge among the ignorant."
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Gorgias",
+      "text": "Such is the accomplishment of this craft."
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Socrates",
+      "text": "And such is why it must be used justly, lest it mislead those who lack expertise."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["REMAKING"],
+    "dominant_phase": "REMAKING",
+    "start_state_desc": "Gorgias boasts about the power of oratory.",
+    "end_state_desc": "Socrates reframes it as dangerous without justice.",
+    "closure_type": "success"
+  },
+
+  "source_location": {
+    "section": "[455–457]"
+  }
+}

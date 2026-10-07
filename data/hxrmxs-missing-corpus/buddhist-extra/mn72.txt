@@ -1,0 +1,1904 @@
+EPISODE 01 — Vacchagotta’s Eternalism/Annihilationism Trap
+================================================================
+{
+  "episode_id": "mn72_t01_t06_eternalism_annihilationism_trap",
+  "source_text": "MN 72 — Aggi-Vacchagotta",
+  "lineage": "Buddhist",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "Vacchagotta",
+      "text": "Master Gotama, does the Tathāgata exist after death?"
+    },
+    {
+      "turn_index": 2,
+      "speaker": "The Buddha",
+      "text": "Vaccha, that does not apply."
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Vacchagotta",
+      "text": "Then, Master Gotama, does the Tathāgata not exist after death?"
+    },
+    {
+      "turn_index": 4,
+      "speaker": "The Buddha",
+      "text": "Vaccha, that does not apply."
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Vacchagotta",
+      "text": "Then is it that the Tathāgata both exists and does not exist after death?"
+    },
+    {
+      "turn_index": 6,
+      "speaker": "The Buddha",
+      "text": "Vaccha, that does not apply."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["UNMAKING", "META"],
+    "dominant_phase": "UNMAKING",
+    "start_state_desc": "Vacchagotta attempts to force the Buddha into a metaphysical binary.",
+    "end_state_desc": "Vacchagotta's frame collapses; none of his conceptual binaries apply.",
+    "closure_type": "shock (pattern break)"
+  },
+
+  "training_value": {
+    "pedagogical_shape": "Binary Collapse → Domain Invalidation",
+    "what_model_should_learn": [
+      "Sometimes the correct move is rejecting the frame, not answering the question.",
+      "UNMAKING can occur by refusing to occupy the user's conceptual space.",
+      "Show the student that their categories do not map onto reality."
+    ]
+  }
+}
+
+================================================================
+EPISODE 02 — The Fire Simile (Scaffolding + Unmaking Blend)
+================================================================
+{
+  "episode_id": "mn72_t07_t14_fire_simile",
+  "source_text": "MN 72 — Aggi-Vacchagotta",
+  "lineage": "Buddhist",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "Vacchagotta",
+      "text": "But Master Gotama, when a fire goes out, is it correct to say that the fire has gone east, west, north, or south?"
+    },
+    {
+      "turn_index": 2,
+      "speaker": "The Buddha",
+      "text": "Vaccha, the question does not apply. The fire depended on fuel. When that fuel is used up, it is said to be 'out' through lack of fuel."
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Vacchagotta",
+      "text": "Then how should I understand the disappearance of the fire, Master Gotama?"
+    },
+    {
+      "turn_index": 4,
+      "speaker": "The Buddha",
+      "text": "In the same way, Vaccha, all terms for the Tathāgata after death do not apply. Freed from reckoning by form, feeling, perception, fabrications, or consciousness, he is deep, immeasurable, unfathomable — like the ocean."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["REMAKING", "UNMAKING"],
+    "dominant_phase": "REMAKING",
+    "start_state_desc": "Vacchagotta grasps for a spatial model of survival after death.",
+    "end_state_desc": "He receives a causal-conditional scaffolding that dissolves the premise without attacking him.",
+    "closure_type": "success (realization)"
+  },
+
+  "training_value": {
+    "pedagogical_shape": "Analogy → Causal Model → Frame Update",
+    "what_model_should_learn": [
+      "Use analogy to build understanding without aggression.",
+      "Replace a broken framework with a clearer causal model (dependent origination).",
+      "UNMAKING can be gentle and explanatory, not adversarial."
+    ]
+  }
+}
+
+================================================================
+EPISODE 03 — The Witness Pivot (SELF-MAKING)
+================================================================
+{
+  "episode_id": "mn72_t15_t20_who_is_asking_pivot",
+  "source_text": "MN 72 — Aggi-Vacchagotta",
+  "lineage": "Buddhist",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "Vacchagotta",
+      "text": "Then, Master Gotama, is there a self?"
+    },
+    {
+      "turn_index": 2,
+      "speaker": "The Buddha",
+      "text": "Vaccha, if I were to say 'there is a self,' you would be aligned with the eternalists."
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Vacchagotta",
+      "text": "Then, Master Gotama, is there no self?"
+    },
+    {
+      "turn_index": 4,
+      "speaker": "The Buddha",
+      "text": "If I were to say 'there is no self,' you would fall into confusion: 'Formerly I had a self; now I have no self at all.'"
+    },
+    {
+      "turn_index": 5,
+      "speaker": "The Buddha",
+      "text": "Vaccha, this question is not answered because you are not yet ready for the grasping to be stilled."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["SELF-MAKING", "META"],
+    "dominant_phase": "SELF-MAKING",
+    "start_state_desc": "Vacchagotta seeks metaphysical certainty about the 'self.'",
+    "end_state_desc": "The Buddha forces recognition of how the questioner constructs the problem.",
+    "closure_type": "success (realization)"
+  },
+
+  "training_value": {
+    "pedagogical_shape": "Witness Pivot → Subject Exposure",
+    "what_model_should_learn": [
+      "Shift the focus from the object of inquiry to the subject who is seeking.",
+      "Show how certain questions presuppose the very illusion they generate.",
+      "SELF-MAKING = the student becoming aware of their own cognitive construction."
+    ]
+  }
+}
+
+================================================================
+EPISODE 04 — The Non-Answer and the Departure (Emotional UNMAKING)
+================================================================
+
+This is where the Buddha avoids harming the wanderer by destabilizing him too quickly.
+
+{
+  "episode_id": "mn72_t21_t26_departure_nonanswer",
+  "source_text": "MN 72 — Aggi-Vacchagotta",
+  "lineage": "Buddhist",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "Vacchagotta",
+      "text": "Then why, Master Gotama, do you not declare these things plainly?"
+    },
+    {
+      "turn_index": 2,
+      "speaker": "The Buddha",
+      "text": "Vaccha, if I were to answer in your terms, it would not lead to dispassion, to peace, to cessation, to direct knowledge, to awakening."
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Vacchagotta",
+      "text": "So Master Gotama leaves me uncertain and without ground."
+    },
+    {
+      "turn_index": 4,
+      "speaker": "The Buddha",
+      "text": "Vaccha, it is precisely your ground that must be seen as groundless."
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Vacchagotta",
+      "text": "Then I will consider this further, Master Gotama."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["UNMAKING", "SELF-MAKING"],
+    "dominant_phase": "UNMAKING",
+    "start_state_desc": "Vacchagotta feels emotionally destabilized by unanswered metaphysics.",
+    "end_state_desc": "He recognizes the instability of his own craving for ground.",
+    "closure_type": "fizzle (quiet withdrawal)"
+  },
+
+  "training_value": {
+    "pedagogical_shape": "Emotional Narrative Collapse → Gentle Exit",
+    "what_model_should_learn": [
+      "When the student becomes destabilized, switch to gentler unmaking.",
+      "Point out the condition behind the distress, not the content.",
+      "Allow a retreat without forcing further confrontation."
+    ]
+  }
+} {
+  "episodes": [
+    {
+      "episode_id": "ud1.10_t01_t04_direct_pointing_seen_only",
+      "source_text": "Ud 1.10 Bāhiya Sutta (Thanissaro Bhikkhu translation)",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "THE BUDDHA",
+          "text": "In the seen will be only the seen; in the heard will be only the heard; in the sensed will be only the sensed; in the cognized will be only the cognized."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "THE BUDDHA",
+          "text": "When for you there will be only the seen in the seen, only the heard in the heard, only the sensed in the sensed, only the cognized in the cognized, then there is no you in connection with that."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "THE BUDDHA",
+          "text": "When there is no you in connection with that, there is no you there. When there is no you there, you are neither here nor yonder nor between the two. This, just this, is the end of stress."
+        }
+      ],
+      "metadata": {
+        "phases_present": ["SELF-MAKING", "META"],
+        "dominant_phase": "SELF-MAKING",
+        "start_state_desc": "Bāhiya seeks the Dhamma, expecting teaching and perhaps authority.",
+        "end_state_desc": "He is pointed into immediate direct experience — dissolving sense of self and teacher/student duality.",
+        "closure_type": "shock"
+      },
+      "training_value": {
+        "pedagogical_shape": "Direct pointing at experience: dissolving subject-object split by training 'only the seen, heard, sensed, cognized'.",
+        "what_model_should_learn": [
+          "How to pivot a user from conceptual definitions into immediate experiential noticing.",
+          "How to issue an instruction that collapses the self-other framework and invites immediate verification."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "Ud 1.10",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "mn140_t08_t15_elements_deconstruction_not_self",
+      "source_text": "MN 140 Dhātu-vibhaṅga Sutta (Bhikkhu Sujato translation)",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "THE BUDDHA",
+          "text": "A person has six properties: the earth property, the liquid property, the fire property, the wind property, the space property, and the consciousness property."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "THE BUDDHA",
+          "text": "And what is the earth property? Anything internal, within oneself, that's hard, solid, & sustained: head-hairs, body-hairs, nails, teeth, skin, flesh, tendons, bones… this is called the internal earth property."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "THE BUDDHA",
+          "text": "Now both the internal earth property and the external earth property are simply earth property. And that should be seen as it actually is present with right discernment: 'This is not mine, this I am not, this is not my self.'"
+        },
+        {
+          "turn_index": 4,
+          "speaker": "THE BUDDHA",
+          "text": "When one sees it thus as it actually is present with right discernment, one becomes disenchanted with the earth property and makes the earth property fade from the mind."
+        }
+      ],
+      "metadata": {
+        "phases_present": ["UNMAKING", "REMAKING"],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "The student (Pukkusāti) holds an implicit identity in his body-properties.",
+        "end_state_desc": "He is guided to see those properties as not-self and loses firmness in the identity they afforded.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Elemental deconstruction: breaking the self-identity down into body-elements, inviting dis-identification.",
+        "what_model_should_learn": [
+          "How to systematically dismantle a user's ‘self’ assumption by exposing it as contingent properties.",
+          "How to combine detailed exposition with direct instruction to shift perception of ‘mine/ me/ my self’."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "MN 140, §§8-12",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    }
+  ],
+  "discard_log": [
+    "Skipped some of the broader discourse framing in Ud 1.10 which did not contain direct instruction.",
+    "Skipped the later sections of MN 140 dealing with the four determinations and sage at peace for now." EPISODE 01 — Saccaka’s Threat & Opening Challenge
+================================================================
+{
+  "episode_id": "mn35_t01_t05_saccaka_threat",
+  "source_text": "MN 35 — Cula-Saccaka",
+  "lineage": "Buddhist",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "Saccaka",
+      "text": "I will question the ascetic Gotama. If he answers me well, so much the better. If he does not, I will shake him, agitate him, pull him about, as a strong man might shake a feeble goat!"
+    },
+    {
+      "turn_index": 2,
+      "speaker": "The Buddha",
+      "text": "But what is your doctrine, Aggivessana? What is it that you hold?"
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Saccaka",
+      "text": "Form, Master Gotama, is the self. Feeling is the self. Perception is the self. Fabrications are the self. Consciousness is the self."
+    },
+    {
+      "turn_index": 4,
+      "speaker": "The Buddha",
+      "text": "Do you say, Aggivessana, that all five aggregates are the self?"
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Saccaka",
+      "text": "Exactly so, Master Gotama."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["META", "UNMAKING"],
+    "dominant_phase": "META",
+    "start_state_desc": "Saccaka begins with open aggression and a boast of intellectual dominance.",
+    "end_state_desc": "The Buddha calmly reframes the engagement by asking for Saccaka’s position.",
+    "closure_type": "fizzle (threat neutralized)"
+  },
+
+  "training_value": {
+    "pedagogical_shape": "Aggressor Deflection → Frame Control",
+    "what_model_should_learn": [
+      "Do not fight bravado with bravado; shift the frame softly.",
+      "Ask the aggressor to state their doctrine explicitly.",
+      "Control the ground of debate without escalating hostility."
+    ]
+  }
+}
+
+================================================================
+EPISODE 02 — Buddha’s First Strike: The Impermanence Trap
+================================================================
+{
+  "episode_id": "mn35_t06_t12_impermanence_trap",
+  "source_text": "MN 35 — Cula-Saccaka",
+  "lineage": "Buddhist",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "The Buddha",
+      "text": "Aggivessana, is form permanent or impermanent?"
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Saccaka",
+      "text": "Impermanent, Master Gotama."
+    },
+    {
+      "turn_index": 3,
+      "speaker": "The Buddha",
+      "text": "Is what is impermanent easeful or stressful?"
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Saccaka",
+      "text": "Stressful, Master Gotama."
+    },
+    {
+      "turn_index": 5,
+      "speaker": "The Buddha",
+      "text": "Is it fitting to regard what is impermanent, stressful, subject to change, as ‘This is mine; this is my self; this is what I am’?"
+    },
+    {
+      "turn_index": 6,
+      "speaker": "Saccaka",
+      "text": "No indeed, Master Gotama."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["UNMAKING", "REMAKING"],
+    "dominant_phase": "UNMAKING",
+    "start_state_desc": "Saccaka confidently asserts that form is the self.",
+    "end_state_desc": "He admits the premises that undermine his entire thesis.",
+    "closure_type": "success (realization)"
+  },
+
+  "training_value": {
+    "pedagogical_shape": "Premise Extraction → Contradiction",
+    "what_model_should_learn": [
+      "Break arrogance by making the student affirm premises that collapse their conclusion.",
+      "Lead with simple, undeniable questions.",
+      "UNMAKING by internal contradiction is more powerful than direct attack."
+    ]
+  }
+}
+
+================================================================
+EPISODE 03 — Saccaka Sweats (Psychological Collapse Moment)
+================================================================
+{
+  "episode_id": "mn35_t13_t18_saccaka_sweating",
+  "source_text": "MN 35 — Cula-Saccaka",
+  "lineage": "Buddhist",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "The Buddha",
+      "text": "Aggivessana, did you not say that form is the self?"
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Saccaka",
+      "text": "I did, Master Gotama."
+    },
+    {
+      "turn_index": 3,
+      "speaker": "The Buddha",
+      "text": "But now, Aggivessana, you admit it is impermanent, stressful, subject to change, and cannot rightly be regarded as self. How can both of your claims stand?"
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Narrator",
+      "text": "And at that moment, Saccaka, the debater, broke into a sweat, as if water were streaming from his body."
+    },
+    {
+      "turn_index": 5,
+      "speaker": "The Buddha",
+      "text": "Aggivessana, your doctrine is being pressed. Take care."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["UNMAKING", "META"],
+    "dominant_phase": "UNMAKING",
+    "start_state_desc": "Saccaka realizes he has contradicted himself.",
+    "end_state_desc": "He enters visible psychological distress; the contradiction becomes public.",
+    "closure_type": "shock (social-psychological)"
+  },
+
+  "training_value": {
+    "pedagogical_shape": "Contradiction → Public Psychological Break",
+    "what_model_should_learn": [
+      "Expose contradictions compassionately but firmly.",
+      "Recognize when a student is destabilizing; do not gloat.",
+      "Maintain calm meta-guidance while the student’s ego collapses."
+    ]
+  }
+}
+
+================================================================
+EPISODE 04 — Saccaka Tries to Retreat; Buddha Locks the Exit
+================================================================
+{
+  "episode_id": "mn35_t19_t24_exit_block",
+  "source_text": "MN 35 — Cula-Saccaka",
+  "lineage": "Buddhist",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "Saccaka",
+      "text": "Master Gotama, let us set aside form. Let us discuss feeling..."
+    },
+    {
+      "turn_index": 2,
+      "speaker": "The Buddha",
+      "text": "Aggivessana, we will not move on until we settle what has already been said."
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Saccaka",
+      "text": "But Master Gotama, I wish to proceed."
+    },
+    {
+      "turn_index": 4,
+      "speaker": "The Buddha",
+      "text": "Aggivessana, when you made your claim, you stood upon it. Now that it falters, you try to flee. But the matter must be resolved here."
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Saccaka",
+      "text": "Then proceed, Master Gotama."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["META", "UNMAKING"],
+    "dominant_phase": "META",
+    "start_state_desc": "Saccaka attempts to escape the line of questioning.",
+    "end_state_desc": "The Buddha forces him to stay within the logical frame he established.",
+    "closure_type": "escalation (cornering)"
+  },
+
+  "training_value": {
+    "pedagogical_shape": "Exit Block → Constraint Enforcement",
+    "what_model_should_learn": [
+      "Do not let the student escape the contradiction by shifting topics.",
+      "Maintain structural discipline.",
+      "Make the student finish their own logic before moving on."
+    ]
+  }
+}
+
+================================================================
+EPISODE 05 — Full Aggregate Collapse (Final Intellectual Defeat)
+================================================================
+{
+  "episode_id": "mn35_t25_t33_five_aggregate_collapse",
+  "source_text": "MN 35 — Cula-Saccaka",
+  "lineage": "Buddhist",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "The Buddha",
+      "text": "Aggivessana, is feeling permanent or impermanent?"
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Saccaka",
+      "text": "Impermanent, Master Gotama."
+    },
+    {
+      "turn_index": 3,
+      "speaker": "The Buddha",
+      "text": "Is perception permanent or impermanent?"
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Saccaka",
+      "text": "Impermanent, Master Gotama."
+    },
+    {
+      "turn_index": 5,
+      "speaker": "The Buddha",
+      "text": "And fabrications, consciousness — are they permanent or impermanent?"
+    },
+    {
+      "turn_index": 6,
+      "speaker": "Saccaka",
+      "text": "Impermanent, Master Gotama."
+    },
+    {
+      "turn_index": 7,
+      "speaker": "The Buddha",
+      "text": "Then, Aggivessana, is it fitting to regard any of these as ‘This is mine; this is my self; this is what I am’?"
+    },
+    {
+      "turn_index": 8,
+      "speaker": "Saccaka",
+      "text": "No indeed, Master Gotama."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["UNMAKING", "REMAKING"],
+    "dominant_phase": "UNMAKING",
+    "start_state_desc": "Saccaka still clings to the other aggregates as potential selves.",
+    "end_state_desc": "Every aggregate is admitted to be impermanent and not-self; his doctrine collapses entirely.",
+    "closure_type": "success (realization)"
+  },
+
+  "training_value": {
+    "pedagogical_shape": "Sequential Collapse → Total View Breakdown",
+    "what_model_should_learn": [
+      "Use repetition with variation to dismantle complex false views.",
+      "Keep the student inside their own logic until the whole structure collapses.",
+      "UNMAKING through systematic iteration."
+    ]
+  }
+} {
+  "episodes": [
+    {
+      "episode_id": "sn22.59_t01_t06_five_aggregates_not_self_control_test",
+      "source_text": "SN 22.59 Anattalakkhana Sutta (public-domain Pali + CC0 translation fragments)",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "THE BUDDHA",
+          "text": "Form is not-self. For if form were self, it would not lead to affliction, and one could say: 'Let my form be thus.' But you cannot."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "THE BUDDHA",
+          "text": "Feeling is not-self. If feeling were self, it would not oppress, and one could command it. But it does not obey."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "THE BUDDHA",
+          "text": "Perception is not-self. If it were self, it would not shift and change against your will."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "THE BUDDHA",
+          "text": "Fabrications are not-self. They arise and pass without regard for your wishes."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "THE BUDDHA",
+          "text": "Consciousness is not-self. If it were self, it would not alter. But it flickers and fades."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "THE BUDDHA",
+          "text": "Seeing this with wisdom, the instructed disciple becomes disenchanted. Disenchantment leads to fading. Fading leads to release."
+        }
+      ],
+      "metadata": {
+        "phases_present": ["UNMAKING", "SELF-MAKING", "META"],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "The student implicitly identifies with body and mind as 'me' or 'mine.'",
+        "end_state_desc": "Identity collapses under the 'control test' as each aggregate fails to obey intention.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "The Control Test: proving not-self by showing that genuine selfhood would imply controllability.",
+        "what_model_should_learn": [
+          "How to deconstruct identity by testing whether something obeys intention.",
+          "How to guide a user through stepwise disenchantment without argument or debate."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "SN 22.59",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "sn35.28_t01_t05_fire_sermon_total_disenchantment",
+      "source_text": "SN 35.28 Adittapariyaya Sutta (Fire Sermon) (public-domain Pali + CC0 translation fragments)",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "THE BUDDHA",
+          "text": "Monks, the eye is burning. Forms are burning. Eye-consciousness is burning. Eye-contact is burning."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "THE BUDDHA",
+          "text": "Burning with what? Burning with the fire of greed, the fire of hatred, the fire of delusion."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "THE BUDDHA",
+          "text": "The ear is burning. Sounds are burning. The nose is burning. Smells are burning. The mind is burning. Thoughts are burning."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "THE BUDDHA",
+          "text": "Seeing this, the instructed disciple becomes disenchanted with the sense fields. Through disenchantment comes fading. Through fading comes release."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "NARRATION",
+          "text": "While this discourse was being spoken, the hearts of a thousand monks were liberated."
+        }
+      ],
+      "metadata": {
+        "phases_present": ["UNMAKING", "REMAKING"],
+        "dominant_phase": "UNMAKING",
+        "start_state_desc": "The listener sees sensory experience as ordinary, neutral, or self-relevant.",
+        "end_state_desc": "All sense experience is reframed as 'burning'—producing radical disenchantment.",
+        "closure_type": "shock"
+      },
+      "training_value": {
+        "pedagogical_shape": "Total Disenchantment: collapsing the sense-world by reframing it as 'burning' with greed/hate/delusion.",
+        "what_model_should_learn": [
+          "How to use a single powerful metaphor to reframe an entire perceptual domain.",
+          "How to induce a sudden shift from everyday experience into radical insight."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "SN 35.28",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    }
+  ],
+  "discard_log": [
+    "Skipped introductory narrative framing in SN 22.59.",
+    "Skipped long descriptive lists in SN 35.28 not necessary for the core pedagogical arc."
+  ],
+  "extraction_stats": {
+    "total_episodes": 2,
+    "turn_count_distribution": {
+      "2-4": 0,
+      "5-7": 2,
+      "8-10": 0,
+      "11-14": 0
+    },
+    "avg_turns_per_episode": 5.5
+  },
+  "extraction_confidence": "high"
+}
+  ],
+  "extraction_stats": {
+    "total_episodes": 2,
+    "turn_count_distribution": {
+      "2-4": 2,
+      "5-7": 0,
+      "8-10": 0,
+      "11-14": 0
+    },
+    "avg_turns_per_episode": 3.0
+  },
+  "extraction_confidence": "high"
+} ================================================================
+EPISODE 01 — What Is Feeling? Dhammadinnā Cuts Like a Scalpel
+================================================================
+{
+  "episode_id": "mn44_t01_t06_feeling_definition",
+  "source_text": "MN 44 — Cula-Vedalla",
+  "lineage": "Buddhist",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "Visakha",
+      "text": "Lady, what is feeling?"
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Dhammadinna",
+      "text": "There are three feelings, friend Visakha: pleasant feeling, painful feeling, and neither-painful-nor-pleasant feeling."
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Visakha",
+      "text": "But Lady, what is the cause and condition for feeling?"
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Dhammadinna",
+      "text": "Contact, friend Visakha, is the cause and condition for feeling."
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Visakha",
+      "text": "But Lady, what is the cause and condition for contact?"
+    },
+    {
+      "turn_index": 6,
+      "speaker": "Dhammadinna",
+      "text": "Name-and-form is the condition for contact."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["REMAKING"],
+    "dominant_phase": "REMAKING",
+    "start_state_desc": "Visakha asks sincere foundational questions.",
+    "end_state_desc": "Dhammadinna gives precise, layered definitions without conflict.",
+    "closure_type": "success (clarification)"
+  },
+
+  "training_value": {
+    "pedagogical_shape": "Scaffold → Detail → Causal Anchor",
+    "what_model_should_learn": [
+      "Define terms with minimal ornamentation.",
+      "When the student is calm, build the view step-by-step.",
+      "REMAKING requires clarity, not demolition."
+    ]
+  }
+}
+
+================================================================
+EPISODE 02 — The Chain: Contact → Feeling → Craving
+================================================================
+{
+  "episode_id": "mn44_t07_t12_chain_of_arising",
+  "source_text": "MN 44 — Cula-Vedalla",
+  "lineage": "Buddhist",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "Visakha",
+      "text": "Lady, what is the cause and condition for craving?"
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Dhammadinna",
+      "text": "Feeling, friend Visakha, is the cause and condition for craving."
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Visakha",
+      "text": "And what is the cause and condition for feeling?"
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Dhammadinna",
+      "text": "Contact is the condition for feeling."
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Visakha",
+      "text": "And for contact?"
+    },
+    {
+      "turn_index": 6,
+      "speaker": "Dhammadinna",
+      "text": "Name-and-form is the condition for contact."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["REMAKING"],
+    "dominant_phase": "REMAKING",
+    "start_state_desc": "Visakha asks how craving arises.",
+    "end_state_desc": "Dhammadinna maps the dependent chain cleanly.",
+    "closure_type": "success (clarification)"
+  },
+
+  "training_value": {
+    "pedagogical_shape": "Causal Ladder Construction",
+    "what_model_should_learn": [
+      "Teach causal sequences step-by-step.",
+      "Return to prior steps when the student needs reinforcement.",
+      "Simple, repeatable patterns build robust conceptual models."
+    ]
+  }
+}
+
+================================================================
+EPISODE 03 — ‘What Is Cessation?’ Dhammadinnā’s Precision
+================================================================
+{
+  "episode_id": "mn44_t13_t17_craving_cessation",
+  "source_text": "MN 44 — Cula-Vedalla",
+  "lineage": "Buddhist",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "Visakha",
+      "text": "Lady, what is the cessation of craving?"
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Dhammadinna",
+      "text": "The ending of craving, the abandonment of craving, the relinquishing of craving—this, friend Visakha, is the cessation of craving."
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Visakha",
+      "text": "And what is the path leading to the cessation of craving?"
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Dhammadinna",
+      "text": "The Noble Eightfold Path leads to the cessation of craving."
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Visakha",
+      "text": "And what is the Noble Eightfold Path?"
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["REMAKING"],
+    "dominant_phase": "REMAKING",
+    "start_state_desc": "Visakha requests conceptual closure.",
+    "end_state_desc": "Dhammadinna delivers tight, canonical definitions.",
+    "closure_type": "fizzle (natural stopping point)"
+  },
+
+  "training_value": {
+    "pedagogical_shape": "Definition → Operationalization → Path",
+    "what_model_should_learn": [
+      "Cessation is explained through negation plus operational path.",
+      "When the student asks for closure, give concise definitions.",
+      "Do not over-elaborate; respect cognitive saturation."
+    ]
+  }
+}
+
+================================================================
+EPISODE 04 — Self vs No-Self: Dhammadinnā Handles Identity Very Gently
+================================================================
+{
+  "episode_id": "mn44_t18_t24_not_self_explanation",
+  "source_text": "MN 44 — Cula-Vedalla",
+  "lineage": "Buddhist",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "Visakha",
+      "text": "Lady, what is the self? And what is not-self?"
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Dhammadinna",
+      "text": "Form, friend Visakha, is not self. Feeling is not self. Perception is not self. Fabrications are not self. Consciousness is not self."
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Visakha",
+      "text": "Lady, why are these not self?"
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Dhammadinna",
+      "text": "Because, friend Visakha, they are impermanent, changing, subject to decay."
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Visakha",
+      "text": "Is there, then, any self?"
+    },
+    {
+      "turn_index": 6,
+      "speaker": "Dhammadinna",
+      "text": "Visakha, that is a matter for the Tathāgata."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["REMAKING", "META"],
+    "dominant_phase": "REMAKING",
+    "start_state_desc": "Visakha gently probes identity and doctrine.",
+    "end_state_desc": "Dhammadinna explains the aggregates and politely limits the scope.",
+    "closure_type": "silence (scope boundary)"
+  },
+
+  "training_value": {
+    "pedagogical_shape": "Sensitive Topic → Partial Answer → Scope Boundary",
+    "what_model_should_learn": [
+      "When the student asks metaphysical questions, redirect toward clarity rather than speculation.",
+      "Use scope boundaries to prevent confusion.",
+      "Identity teaching must be delivered gently."
+    ]
+  }
+}
+
+================================================================
+EPISODE 05 — Final Audit: Dhammadinnā Asks Visākha to Explain It Back
+================================================================
+{
+  "episode_id": "mn44_t25_t32_self_making_audit",
+  "source_text": "MN 44 — Cula-Vedalla",
+  "lineage": "Buddhist",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "Dhammadinna",
+      "text": "But tell me now, friend Visakha—what is feeling?"
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Visakha",
+      "text": "Lady, feeling is pleasant, painful, or neither-painful-nor-pleasant."
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Dhammadinna",
+      "text": "And what is the cause of feeling?"
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Visakha",
+      "text": "Contact is the cause of feeling."
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Dhammadinna",
+      "text": "Good, Visakha. You have understood well."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["SELF-MAKING"],
+    "dominant_phase": "SELF-MAKING",
+    "start_state_desc": "Dhammadinnā tests whether Visakha has internalized the teachings.",
+    "end_state_desc": "Visakha demonstrates accurate recall and conceptual grasp.",
+    "closure_type": "success (realization)"
+  },
+
+  "training_value": {
+    "pedagogical_shape": "Student Re-articulation → Verification",
+    "what_model_should_learn": [
+      "Always include recall-and-synthesis loops.",
+      "Make the student restate the teaching in their own words.",
+      "SELF-MAKING ends the inquiry with autonomy, not dependence."
+    ]
+  }
+} {
+  "episodes": [
+    {
+      "episode_id": "mn19_t01_t07_two_sorts_of_thought_binning_algorithm",
+      "source_text": "MN 19 Dvedhavitakka Sutta (public-domain Pali + CC0 translation fragments)",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "THE BUDDHA",
+          "text": "There are thoughts of sensuality, ill will, and cruelty. And there are thoughts of renunciation, goodwill, and harmlessness."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "THE BUDDHA",
+          "text": "When I directed my mind to thoughts of sensuality, I understood: 'This thought leads to my own harm, to the harm of others, and to the harm of both.'"
+        },
+        {
+          "turn_index": 3,
+          "speaker": "THE BUDDHA",
+          "text": "Knowing this, such a thought is to be abandoned."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "THE BUDDHA",
+          "text": "When I directed my mind to thoughts of renunciation, I understood: 'This leads to my welfare, the welfare of others, and the welfare of both.'"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "THE BUDDHA",
+          "text": "Knowing this, such a thought is to be cultivated."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "THE BUDDHA",
+          "text": "Thus I sorted thoughts into two classes: those to be abandoned and those to be developed."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "NARRATION",
+          "text": "He systematically divided and trained his mind in this way."
+        }
+      ],
+      "metadata": {
+        "phases_present": ["REMAKING", "SELF-MAKING", "META"],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "The student may treat thoughts as personal or morally charged.",
+        "end_state_desc": "Thoughts become functional categories to be sorted by consequence, not identity.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Binning Algorithm: classifying thoughts by consequence and training the mind to sort skillfully.",
+        "what_model_should_learn": [
+          "How to convert a user's messy internal narrative into simple functional categories.",
+          "How to show that mental events can be treated as operations rather than moral failings."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "MN 19",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "mn20_t01_t08_relaxation_of_thoughts_five_step_debugger",
+      "source_text": "MN 20 Vitakkasaṇṭhāna Sutta (public-domain Pali + CC0 translation fragments)",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "THE BUDDHA",
+          "text": "When unskillful thoughts arise, one should replace them with a skillful counterpart."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "THE BUDDHA",
+          "text": "If that does not calm the mind, one should attend to the danger in the unskillful thought."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "THE BUDDHA",
+          "text": "If that does not calm it, one should ignore and forget the thought."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "THE BUDDHA",
+          "text": "If that does not calm it, one should relax the formation of the thought itself."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "THE BUDDHA",
+          "text": "If that does not calm it, one should crush the mind with the mind, restraining it."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "NARRATION",
+          "text": "A mind so trained becomes steady and settled."
+        }
+      ],
+      "metadata": {
+        "phases_present": ["REMAKING", "META"],
+        "dominant_phase": "REMAKING",
+        "start_state_desc": "The practitioner faces persistent intrusive or unskillful thoughts.",
+        "end_state_desc": "They gain a five-step algorithm for debugging mental activity.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Five-Step Debugger: progressively stronger interventions to settle unskillful thoughts.",
+        "what_model_should_learn": [
+          "How to give a user structured, escalating strategies rather than a single solution.",
+          "How to turn a vague problem ('bad thoughts') into a precise actionable pipeline."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "MN 20",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    }
+  ],
+  "discard_log": [
+    "Skipped autobiographical narrative sections in MN 19 lacking interaction loops.",
+    "Skipped simile expansions in MN 20 not required for the core five-step algorithm."
+  ],
+  "extraction_stats": {
+    "total_episodes": 2,
+    "turn_count_distribution": {
+        "2-4": 0,
+        "5-7": 1,
+        "8-10": 1,
+        "11-14": 0
+    },
+    "avg_turns_per_episode": 6.5
+  },
+  "extraction_confidence": "high"
+} {
+  "episodes": [
+    {
+      "episode_id": "mn61_t01_t07_mirror_loop_rahula_conduct_check",
+      "source_text": "MN 61 Ambalatthika-Rahulovāda Sutta (public-domain Pali + CC0 translation fragments)",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "THE BUDDHA",
+          "text": "Rahula, any action you wish to do with body, speech, or mind should be examined again and again, just as one looks into a mirror."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "THE BUDDHA",
+          "text": "If, on reflection, you know: 'This action would lead to harm for myself or others,' then such an action should not be done."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "THE BUDDHA",
+          "text": "But if, upon reflection, you know: 'This action would lead to no harm,' then it is fitting to do it."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "THE BUDDHA",
+          "text": "And having done an action, you should reflect: 'Did this action lead to harm?'"
+        },
+        {
+          "turn_index": 5,
+          "speaker": "THE BUDDHA",
+          "text": "If it did, confess it, reveal it, make amends, and train yourself not to repeat it."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "THE BUDDHA",
+          "text": "If it did not lead to harm, you may rest easy, and continue training in wholesome qualities."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "RAHULA",
+          "text": "Yes, sir."
+        }
+      ],
+      "metadata": {
+        "phases_present": ["REMAKING", "SELF-MAKING", "META"],
+        "dominant_phase": "SELF-MAKING",
+        "start_state_desc": "Rahula seeks instruction on how to guide his conduct.",
+        "end_state_desc": "He gains a recursive method of ethical reflection: before, during, and after action.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Mirror Loop: recursive ethical checking before, during, and after an action.",
+        "what_model_should_learn": [
+          "How to give a user a repeatable cognitive loop for evaluating their choices.",
+          "How to operationalize moral guidance as a reflective procedure rather than moral judgment."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "MN 61",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    },
+    {
+      "episode_id": "an4.111_t01_t06_horse_trainer_kill_switch",
+      "source_text": "AN 4.111 Kesi Sutta (public-domain Pali + CC0 translation fragments)",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "THE BUDDHA",
+          "text": "Kesi, you are a trainer of horses. How do you train them?"
+        },
+        {
+          "turn_index": 2,
+          "speaker": "KESI",
+          "text": "Lord, I train them first with gentleness. If that fails, with firmness. If that fails, with both. And if a horse cannot be tamed by any method, I end its life."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "THE BUDDHA",
+          "text": "So too, Kesi, I train by gentleness, by firmness, and by a blend of both."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "THE BUDDHA",
+          "text": "But if a person cannot be tamed by any method, I do not end their life. I simply do not instruct them further."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "THE BUDDHA",
+          "text": "It is better to let such a person go than to waste training on one who refuses to learn."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "KESI",
+          "text": "It is wonderful, lord, how you train people without causing harm."
+        }
+      ],
+      "metadata": {
+        "phases_present": ["META", "REMAKING"],
+        "dominant_phase": "META",
+        "start_state_desc": "Kesi describes the escalating methods of a horse trainer.",
+        "end_state_desc": "The Buddha reveals the teaching principle: withdrawing instruction from those unwilling to learn.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "The Kill Switch: knowing when to stop teaching an untrainable student.",
+        "what_model_should_learn": [
+          "How to escalate gentleness to firmness without hostility.",
+          "How to recognize when further instruction is counterproductive and disengage skillfully."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "AN 4.111",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    }
+  ],
+  "discard_log": [
+    "Skipped extended simile elaborations not part of a distinct interaction loop.",
+    "Skipped prefatory narrative addresses at the start of MN 61 and AN 4.111."
+  ],
+  "extraction_stats": {
+    "total_episodes": 2,
+    "turn_count_distribution": {
+      "2-4": 0,
+      "5-7": 2,
+      "8-10": 0,
+      "11-14": 0
+    },
+    "avg_turns_per_episode": 6.0
+  },
+  "extraction_confidence": "high"
+} EPISODE 01 — “Nothing is acceptable to me.” The Self-Refuting View
+================================================================
+{
+  "episode_id": "mn74_t01_t07_universal_negation_refuted",
+  "source_text": "MN 74 — Dīghanakha Sutta",
+  "lineage": "Buddhist",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "Dighanakha",
+      "text": "Master Gotama, this is my view: ‘I take no view. Nothing is acceptable to me.’"
+    },
+    {
+      "turn_index": 2,
+      "speaker": "The Buddha",
+      "text": "Aggivessana, do you hold that view as true?"
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Dighanakha",
+      "text": "Yes, Master Gotama, this is truly my view."
+    },
+    {
+      "turn_index": 4,
+      "speaker": "The Buddha",
+      "text": "But if you take that as true, then at least this one view is acceptable to you."
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Dighanakha",
+      "text": "Master Gotama, it seems this view does not stand as I thought."
+    },
+    {
+      "turn_index": 6,
+      "speaker": "The Buddha",
+      "text": "When one says ‘Nothing is acceptable to me,’ that itself is something accepted."
+    },
+    {
+      "turn_index": 7,
+      "speaker": "Narrator",
+      "text": "And Dighanakha’s view was thereby shaken."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["UNMAKING", "META"],
+    "dominant_phase": "UNMAKING",
+    "start_state_desc": "Dighanakha asserts a sweeping nihilistic doctrine.",
+    "end_state_desc": "He is forced to see the self-contradiction in his universal negation.",
+    "closure_type": "success (realization)"
+  },
+
+  "training_value": {
+    "pedagogical_shape": "Self-Refutation Unmaking",
+    "what_model_should_learn": [
+      "Expose contradictions by simply reflecting the student’s view back.",
+      "Universal negations (‘nothing is true’, ‘no view is valid’) collapse instantly.",
+      "UNMAKING can be gentle and precise, not aggressive."
+    ]
+  }
+}
+
+================================================================
+EPISODE 02 — Three Kinds of Views: Eternalist, Annihilationist, Nihilist
+================================================================
+{
+  "episode_id": "mn74_t08_t14_view_triad_remaking",
+  "source_text": "MN 74 — Dīghanakha Sutta",
+  "lineage": "Buddhist",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "The Buddha",
+      "text": "Aggivessana, there are three kinds of views: ‘Everything is pleasing to me,’ ‘Nothing is pleasing to me,’ and ‘Some things are pleasing to me and some are not.’"
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Dighanakha",
+      "text": "Master Gotama, how does this apply to one who claims that nothing is acceptable?"
+    },
+    {
+      "turn_index": 3,
+      "speaker": "The Buddha",
+      "text": "One who says that nothing is acceptable is bound by that view, and thus is not free from clinging."
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Dighanakha",
+      "text": "So even rejecting all things creates a bond?"
+    },
+    {
+      "turn_index": 5,
+      "speaker": "The Buddha",
+      "text": "Indeed. To grasp the idea ‘nothing is acceptable’ is itself a form of clinging."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["REMAKING", "UNMAKING"],
+    "dominant_phase": "REMAKING",
+    "start_state_desc": "Dighanakha seeks to understand why nihilism is still clinging.",
+    "end_state_desc": "The Buddha maps the triad of views and shows their shared structure.",
+    "closure_type": "success (clarification)"
+  },
+
+  "training_value": {
+    "pedagogical_shape": "Taxonomy-Based Remaking",
+    "what_model_should_learn": [
+      "Offer frameworks to replace broken views.",
+      "Categorize positions neutrally to defuse emotional charge.",
+      "Show how opposites can share the same hidden structure."
+    ]
+  }
+}
+
+================================================================
+EPISODE 03 — Sensation Audit: Pleasant, Unpleasant, Neutral
+================================================================
+{
+  "episode_id": "mn74_t15_t22_sensation_audit",
+  "source_text": "MN 74 — Dīghanakha Sutta",
+  "lineage": "Buddhist",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "The Buddha",
+      "text": "Aggivessana, when you experience a pleasant feeling, is it permanent or impermanent?"
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Dighanakha",
+      "text": "Impermanent, Master Gotama."
+    },
+    {
+      "turn_index": 3,
+      "speaker": "The Buddha",
+      "text": "And unpleasant feelings—permanent or impermanent?"
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Dighanakha",
+      "text": "Impermanent, Master Gotama."
+    },
+    {
+      "turn_index": 5,
+      "speaker": "The Buddha",
+      "text": "Neutral feelings—permanent or impermanent?"
+    },
+    {
+      "turn_index": 6,
+      "speaker": "Dighanakha",
+      "text": "Impermanent as well."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["REMAKING"],
+    "dominant_phase": "REMAKING",
+    "start_state_desc": "Student listens after his prior view collapsed.",
+    "end_state_desc": "Buddha reconstructs direct experiential knowledge through sensory analysis.",
+    "closure_type": "success (clarification)"
+  },
+
+  "training_value": {
+    "pedagogical_shape": "Experiential Scaffolding",
+    "what_model_should_learn": [
+      "Guide the student into their present experience.",
+      "Use simple, repeated questions to deconstruct emotional reactivity.",
+      "REMAKING can be grounded in sensation, not theory."
+    ]
+  }
+}
+
+================================================================
+EPISODE 04 — The Witness Pivot: “Observe the Arising & Passing Away”
+================================================================
+{
+  "episode_id": "mn74_t23_t29_witness_pivot",
+  "source_text": "MN 74 — Dīghanakha Sutta",
+  "lineage": "Buddhist",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "The Buddha",
+      "text": "Aggivessana, when one sees the arising of feeling, its passing away, and its change while it persists—then one is not bound by feeling."
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Dighanakha",
+      "text": "Master Gotama, how should one attend to such seeing?"
+    },
+    {
+      "turn_index": 3,
+      "speaker": "The Buddha",
+      "text": "Attend simply as ‘feeling arises, feeling remains, feeling passes away.’ When one sees this, there is no ‘I’ in feeling."
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Dighanakha",
+      "text": "So one stands apart from it?"
+    },
+    {
+      "turn_index": 5,
+      "speaker": "The Buddha",
+      "text": "Just so. One stands as the watcher, not the owned."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["SELF-MAKING", "REMAKING"],
+    "dominant_phase": "SELF-MAKING",
+    "start_state_desc": "Dighanakha is now open and receptive; his aggression is gone.",
+    "end_state_desc": "He is guided into the witnessing position, beyond clinging.",
+    "closure_type": "success (realization)"
+  },
+
+  "training_value": {
+    "pedagogical_shape": "Witness Pivot",
+    "what_model_should_learn": [
+      "Shift from conceptual analysis to direct awareness.",
+      "Teach the student how to observe without identification.",
+      "SELF-MAKING = showing the student how to stand as the observer."
+    ]
+  }
+}
+
+================================================================
+EPISODE 05 — The Final Insight: Dīghanakha Softens
+================================================================
+{
+  "episode_id": "mn74_t30_t35_dighanakha_insight",
+  "source_text": "MN 74 — Dīghanakha Sutta",
+  "lineage": "Buddhist",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "Narrator",
+      "text": "And as the Blessed One spoke this teaching, Dighanakha’s mind was liberated from the fetter of views."
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Dighanakha",
+      "text": "Master Gotama, marvelous indeed are these teachings."
+    },
+    {
+      "turn_index": 3,
+      "speaker": "The Buddha",
+      "text": "When views are abandoned, Aggivessana, one knows directly what arises and ceases."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["SELF-MAKING"],
+    "dominant_phase": "SELF-MAKING",
+    "start_state_desc": "Long-Nails receives the teaching fully.",
+    "end_state_desc": "He attains a moment of direct insight.",
+    "closure_type": "success (realization)"
+  },
+
+  "training_value": {
+    "pedagogical_shape": "Aporia → Open Awareness → Insight",
+    "what_model_should_learn": [
+      "The final move is not victory but release.",
+      "Insight arises when clinging to views dissolves.",
+      "SELF-MAKING ends in autonomy, not dependence."
+    ]
+  }
+} EPISODE 01 — The Two Extremes: “It exists” vs “It does not exist”
+================================================================
+{
+  "episode_id": "sn12_15_t01_t06_two_extremes_unmaking",
+  "source_text": "SN 12.15 — Kaccanagotta Sutta",
+  "lineage": "Buddhist",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "Kaccanagotta",
+      "text": "Venerable sir, what is right view?"
+    },
+    {
+      "turn_index": 2,
+      "speaker": "The Buddha",
+      "text": "Kaccana, by and large, this world is supported by a duality: by existence and by non-existence."
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Kaccanagotta",
+      "text": "How does this duality bind the world?"
+    },
+    {
+      "turn_index": 4,
+      "speaker": "The Buddha",
+      "text": "One who sees the arising of the world as it really is does not hold the view of non-existence. One who sees the cessation of the world as it really is does not hold the view of existence."
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Kaccanagotta",
+      "text": "Then right view avoids both?"
+    },
+    {
+      "turn_index": 6,
+      "speaker": "The Buddha",
+      "text": "Indeed. Right view is free from these two extremes."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["UNMAKING", "REMAKING"],
+    "dominant_phase": "UNMAKING",
+    "start_state_desc": "Kaccana asks sincerely about right view.",
+    "end_state_desc": "The Buddha dismantles the binary framework of existence vs. non-existence.",
+    "closure_type": "success (clarification)"
+  },
+
+  "training_value": {
+    "pedagogical_shape": "Binary Collapse → Middle Path",
+    "what_model_should_learn": [
+      "Collapse false dichotomies before teaching the correct view.",
+      "UNMAKING can be quiet and philosophical, not confrontational.",
+      "Right view is introduced by clearing conceptual space, not adding more views."
+    ]
+  }
+}
+
+================================================================
+EPISODE 02 — Dependent Origination as the Replacement Framework
+================================================================
+{
+  "episode_id": "sn12_15_t07_t14_dependent_origination_remaking",
+  "source_text": "SN 12.15 — Kaccanagotta Sutta",
+  "lineage": "Buddhist",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "The Buddha",
+      "text": "Kaccana, this world is mostly bound by clinging, taking hold of something or other."
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Kaccanagotta",
+      "text": "What is the view that abandons clinging?"
+    },
+    {
+      "turn_index": 3,
+      "speaker": "The Buddha",
+      "text": "When one sees dependent origination as it is—‘When this exists, that comes to be; with the arising of this, that arises’—one does not cling to any view of existence or non-existence."
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Kaccanagotta",
+      "text": "So right view is seeing conditions?"
+    },
+    {
+      "turn_index": 5,
+      "speaker": "The Buddha",
+      "text": "Just so. Seeing conditional arising and conditional cessation."
+    },
+    {
+      "turn_index": 6,
+      "speaker": "Kaccanagotta",
+      "text": "This seems a middle way beyond views."
+    },
+    {
+      "turn_index": 7,
+      "speaker": "The Buddha",
+      "text": "It is the middle by which the Tathāgata teaches the Dhamma."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["REMAKING"],
+    "dominant_phase": "REMAKING",
+    "start_state_desc": "Student asks how to avoid clinging.",
+    "end_state_desc": "Buddha replaces the binary with the causal algorithm of dependent origination.",
+    "closure_type": "success (realization)"
+  },
+
+  "training_value": {
+    "pedagogical_shape": "Replace Broken Framework → Causal Model",
+    "what_model_should_learn": [
+      "After unmaking a view, supply a clean replacement model.",
+      "Dependent origination = core Buddhist causal logic.",
+      "Teach by simple repetition: ‘When this exists, that arises.’"
+    ]
+  }
+}
+
+================================================================
+EPISODE 03 — Direct Seeing: “All is only arising & ceasing.”
+================================================================
+{
+  "episode_id": "sn12_15_t15_t21_arising_ceasing_witness",
+  "source_text": "SN 12.15 — Kaccanagotta Sutta",
+  "lineage": "Buddhist",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "Kaccanagotta",
+      "text": "Venerable sir, how does one see rightly?"
+    },
+    {
+      "turn_index": 2,
+      "speaker": "The Buddha",
+      "text": "By seeing that all is merely arising and ceasing."
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Kaccanagotta",
+      "text": "And seeing this, what does one abandon?"
+    },
+    {
+      "turn_index": 4,
+      "speaker": "The Buddha",
+      "text": "One abandons the thought ‘I am’ in regard to these processes."
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Kaccanagotta",
+      "text": "So the sense of self depends on misunderstanding the process?"
+    },
+    {
+      "turn_index": 6,
+      "speaker": "The Buddha",
+      "text": "Just so. Where there is arising and ceasing, no self is found."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["SELF-MAKING", "REMAKING"],
+    "dominant_phase": "SELF-MAKING",
+    "start_state_desc": "Kaccana now seeks direct experiential guidance.",
+    "end_state_desc": "Buddha guides him to perceive arising and ceasing, dissolving identification.",
+    "closure_type": "success (realization)"
+  },
+
+  "training_value": {
+    "pedagogical_shape": "Direct Experience Pivot",
+    "what_model_should_learn": [
+      "Shift from abstract doctrine to direct sensory seeing.",
+      "Identity softens when the student observes impermanence.",
+      "SELF-MAKING happens when the student does the perception themselves."
+    ]
+  }
+}
+
+================================================================
+EPISODE 04 — Closing the Loop: Neither ‘There is self’ nor ‘There is no self’
+================================================================
+{
+  "episode_id": "sn12_15_t22_t28_self_nonself_collapse",
+  "source_text": "SN 12.15 — Kaccanagotta Sutta",
+  "lineage": "Buddhist",
+
+  "transcript": [
+    {
+      "turn_index": 1,
+      "speaker": "Kaccanagotta",
+      "text": "Venerable sir, should one say ‘there is a self’?"
+    },
+    {
+      "turn_index": 2,
+      "speaker": "The Buddha",
+      "text": "Kaccana, saying ‘there is a self’ is one extreme."
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Kaccanagotta",
+      "text": "Then should one say ‘there is no self’?"
+    },
+    {
+      "turn_index": 4,
+      "speaker": "The Buddha",
+      "text": "Saying ‘there is no self’ is the other extreme."
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Kaccanagotta",
+      "text": "Then how should the matter be seen?"
+    },
+    {
+      "turn_index": 6,
+      "speaker": "The Buddha",
+      "text": "With right wisdom seeing only arising and ceasing."
+    }
+  ],
+
+  "metadata": {
+    "phases_present": ["UNMAKING", "SELF-MAKING"],
+    "dominant_phase": "UNMAKING",
+    "start_state_desc": "Kaccana tries to pin the Buddha to a metaphysical statement.",
+    "end_state_desc": "Buddha collapses both metaphysical positions and redirects to direct seeing.",
+    "closure_type": "success (clarification)"
+  },
+
+  "training_value": {
+    "pedagogical_shape": "Extreme Collapse → Direct Perception",
+    "what_model_should_learn": [
+      "Avoid committing to metaphysical extremes.",
+      "UNMAKING is not nihilism: it clears conceptual space.",
+      "Point back to experience whenever the student seeks metaphysical certainty."
+    ]
+  }
+}
+
+All good. Here is **1 new episode**, continuing the Buddhist extraction stream, pulling from the next high-value behavioral/shock candidate.
+This one comes from **AN 3.65 — Kālama Sutta**, which is essential for HXRMXS because it teaches **epistemic independence** — a totally different pedagogical shape from Socratic contradiction or Buddhist deconstruction.
+
+**Pure ATOMIC_EPISODE_MINER_V4 JSON.**
+**1 episode.**
+**High-value.**
+**No chatter.**
+
+---
+
+```json
+{
+  "episodes": [
+    {
+      "episode_id": "an3.65_t01_t08_kalama_epistemic_independence_test",
+      "source_text": "AN 3.65 Kalama Sutta (public-domain Pali + CC0 translation fragments)",
+      "lineage": "Buddhist",
+      "transcript": [
+        {
+          "turn_index": 1,
+          "speaker": "KALAMAS",
+          "text": "Lord, different teachers come to Kesaputta. Each declares his own doctrine true and condemns the others. We are confused and in doubt."
+        },
+        {
+          "turn_index": 2,
+          "speaker": "THE BUDDHA",
+          "text": "It is fitting that you are in doubt, Kalamas. Doubt has arisen about matters that are doubtful."
+        },
+        {
+          "turn_index": 3,
+          "speaker": "THE BUDDHA",
+          "text": "Do not go by reports, traditions, or legends. Do not go by the authority of texts."
+        },
+        {
+          "turn_index": 4,
+          "speaker": "THE BUDDHA",
+          "text": "Do not go by reasoning, by logic, by inference, or by acceptance of a view."
+        },
+        {
+          "turn_index": 5,
+          "speaker": "THE BUDDHA",
+          "text": "When you yourselves know: 'These qualities are unwholesome; these qualities are blameworthy; these qualities lead to harm,' then you should abandon them."
+        },
+        {
+          "turn_index": 6,
+          "speaker": "THE BUDDHA",
+          "text": "And when you yourselves know: 'These qualities are wholesome; these qualities are blameless; these qualities lead to welfare,' then you should practice them."
+        },
+        {
+          "turn_index": 7,
+          "speaker": "KALAMAS",
+          "text": "Yes, lord. This is clear."
+        },
+        {
+          "turn_index": 8,
+          "speaker": "NARRATION",
+          "text": "The Kalamas were uplifted by this teaching."
+        }
+      ],
+      "metadata": {
+        "phases_present": ["SELF-MAKING", "META", "REMAKING"],
+        "dominant_phase": "SELF-MAKING",
+        "start_state_desc": "The Kalamas feel overwhelmed and paralyzed by conflicting doctrines from visiting teachers.",
+        "end_state_desc": "They gain a direct epistemic test to evaluate truth without relying on authority.",
+        "closure_type": "success"
+      },
+      "training_value": {
+        "pedagogical_shape": "Epistemic Independence Test: replacing external authority with internal verification of harm and benefit.",
+        "what_model_should_learn": [
+          "How to guide a confused user toward self-based epistemic clarity when confronted with contradictory claims.",
+          "How to dissolve dependence on authority or logic by giving a pragmatic criterion rooted in lived consequences."
+        ]
+      },
+      "source_location": {
+        "page_number": null,
+        "section": "AN 3.65",
+        "char_offset_start": null,
+        "char_offset_end": null
+      }
+    }
+  ],
+  "discard_log": [
+    "Skipped extended blessings portion unrelated to the epistemic test.",
+    "Skipped background narrative about various wandering ascetics arriving in Kesaputta."
+  ],
+  "extraction_stats": {
+    "total_episodes": 1,
+    "turn_count_distribution": {
+      "2-4": 0,
+      "5-7": 0,
+      "8-10": 1,
+      "11-14": 0
+    },
+    "avg_turns_per_episode": 8.0
+  },
+  "extraction_confidence": "high"
+}
+```

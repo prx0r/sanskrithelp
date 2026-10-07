@@ -1,0 +1,1000 @@
+{
+  "episode_id": "euthyphro_composite_spine_regenerated",
+  "source_text": "Plato, Euthyphro",
+  "lineage": "Socratic",
+  "student_turns": [
+    {
+      "turn_index": 1,
+      "speaker": "Euthyphro",
+      "text": "Socrates, you asked what piety is. I still say it is what I am doing now. Is this not sufficient?",
+      "observable_student_behaviors": [
+        "offers_ostensive_definition",
+        "asserts_sufficiency",
+        "points_to_current_action"
+      ],
+      "behavior_tags": [
+        "naive_realism",
+        "concrete_thinking",
+        "confidence_surplus"
+      ],
+      "inferred_state": {
+        "reading": "arrogant_certainty",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Euthyphro",
+      "text": "I would be of no use, Socrates, if I did not have accurate knowledge of all such matters.",
+      "observable_student_behaviors": [
+        "claims_expertise",
+        "defends_social_status",
+        "rejects_doubt"
+      ],
+      "behavior_tags": [
+        "spiritual_pride",
+        "identity_defense"
+      ],
+      "inferred_state": {
+        "reading": "defensive_superiority",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Euthyphro",
+      "text": "It certainly is.",
+      "observable_student_behaviors": [
+        "agrees_to_premise"
+      ],
+      "behavior_tags": [
+        "compliant_logic",
+        "trap_walking"
+      ],
+      "inferred_state": {
+        "reading": "unsuspecting_agreement",
+        "confidence": 0.85
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 7,
+      "speaker": "Euthyphro",
+      "text": "The pious is what I am doing now: prosecuting a wrongdoer.",
+      "observable_student_behaviors": [
+        "repeats_specimen",
+        "fails_abstraction"
+      ],
+      "behavior_tags": [
+        "conceptual_stuckness",
+        "concrete_fixation"
+      ],
+      "inferred_state": {
+        "reading": "stubborn_literalism",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 101,
+      "speaker": "Euthyphro",
+      "text": "Very well, Socrates, I will try again: what is beloved by the gods is pious, and what is not beloved by them is impious.",
+      "observable_student_behaviors": [
+        "proposes_new_definition",
+        "shifts_to_authority"
+      ],
+      "behavior_tags": [
+        "appeal_to_authority",
+        "definition_hunting"
+      ],
+      "inferred_state": {
+        "reading": "confident_pivot",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 103,
+      "speaker": "Euthyphro",
+      "text": "Yes, we were.",
+      "observable_student_behaviors": [
+        "concedes_fact"
+      ],
+      "behavior_tags": [
+        "logical_concession"
+      ],
+      "inferred_state": {
+        "reading": "neutral_concession",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 105,
+      "speaker": "Euthyphro",
+      "text": "It seems so.",
+      "observable_student_behaviors": [
+        "admits_implication"
+      ],
+      "behavior_tags": [
+        "reluctant_logic"
+      ],
+      "inferred_state": {
+        "reading": "dawning_realization",
+        "confidence": 0.8
+      },
+      "annotator_uncertainty": 0.3
+    },
+    {
+      "turn_index": 107,
+      "speaker": "Euthyphro",
+      "text": "I'm afraid so.",
+      "observable_student_behaviors": [
+        "accepts_contradiction",
+        "expresses_discomfort"
+      ],
+      "behavior_tags": [
+        "cognitive_dissonance",
+        "deflation"
+      ],
+      "inferred_state": {
+        "reading": "defeated_acceptance",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 201,
+      "speaker": "Euthyphro",
+      "text": "Explain again, Socrates — how must we examine this definition?",
+      "observable_student_behaviors": [
+        "admits_confusion",
+        "requests_guidance"
+      ],
+      "behavior_tags": [
+        "intellectual_humility",
+        "process_confusion"
+      ],
+      "inferred_state": {
+        "reading": "sincere_bewilderment",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 203,
+      "speaker": "Euthyphro",
+      "text": "I don’t know what you mean.",
+      "observable_student_behaviors": [
+        "states_ignorance"
+      ],
+      "behavior_tags": [
+        "comprehension_gap"
+      ],
+      "inferred_state": {
+        "reading": "blocked_understanding",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 205,
+      "speaker": "Euthyphro",
+      "text": "Necessarily.",
+      "observable_student_behaviors": [
+        "agrees_to_analogy"
+      ],
+      "behavior_tags": [
+        "logical_compliance"
+      ],
+      "inferred_state": {
+        "reading": "following_along",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 301,
+      "speaker": "Euthyphro",
+      "text": "Socrates, whatever I put forward keeps wandering off and will not stay where we put it.",
+      "observable_student_behaviors": [
+        "personifies_arguments",
+        "expresses_frustration"
+      ],
+      "behavior_tags": [
+        "external_locus_of_control",
+        "intellectual_vertigo"
+      ],
+      "inferred_state": {
+        "reading": "frustrated_disorientation",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 303,
+      "speaker": "Euthyphro",
+      "text": "They would stay put for me, at least; you are the one who makes them move.",
+      "observable_student_behaviors": [
+        "blames_interlocutor",
+        "defends_competence"
+      ],
+      "behavior_tags": [
+        "defensive_projection"
+      ],
+      "inferred_state": {
+        "reading": "irritated_defensiveness",
+        "confidence": 0.85
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 401,
+      "speaker": "Euthyphro",
+      "text": "Piety is the part of justice that is attending to the gods.",
+      "observable_student_behaviors": [
+        "proposes_subset_definition",
+        "uses_abstract_category"
+      ],
+      "behavior_tags": [
+        "refinement_attempt",
+        "theological_framework"
+      ],
+      "inferred_state": {
+        "reading": "renewed_confidence",
+        "confidence": 0.8
+      },
+      "annotator_uncertainty": 0.3
+    },
+    {
+      "turn_index": 403,
+      "speaker": "Euthyphro",
+      "text": "By Zeus, no.",
+      "observable_student_behaviors": [
+        "rejects_implication",
+        "expresses_shock"
+      ],
+      "behavior_tags": [
+        "piety_defense"
+      ],
+      "inferred_state": {
+        "reading": "scandalized_rejection",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 405,
+      "speaker": "Euthyphro",
+      "text": "The kind slaves provide to masters.",
+      "observable_student_behaviors": [
+        "clarifies_analogy",
+        "defines_hierarchy"
+      ],
+      "behavior_tags": [
+        "anthropomorphic_theology"
+      ],
+      "inferred_state": {
+        "reading": "clarifying_intent",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 407,
+      "speaker": "Euthyphro",
+      "text": "Saying and doing what is pleasing to the gods in prayers and sacrifices.",
+      "observable_student_behaviors": [
+        "lists_activities",
+        "circles_back"
+      ],
+      "behavior_tags": [
+        "conceptual_loop",
+        "retreat_to_concrete"
+      ],
+      "inferred_state": {
+        "reading": "unconscious_repetition",
+        "confidence": 0.85
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 503,
+      "speaker": "Euthyphro",
+      "text": "Some other time, Socrates. I am in a hurry and must go.",
+      "observable_student_behaviors": [
+        "terminates_dialogue",
+        "offers_excuse"
+      ],
+      "behavior_tags": [
+        "flight_response",
+        "avoidance"
+      ],
+      "inferred_state": {
+        "reading": "evasive_panic",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    }
+  ],
+  "teacher_turns": [
+    {
+      "turn_index": 2,
+      "speaker": "Socrates",
+      "text": "But by Zeus, Euthyphro, do you think you have such accurate knowledge about piety and impiety that you are not afraid of committing another impiety by prosecuting your father?",
+      "observable_teaching_actions": [
+        "challenges_epistemology",
+        "raises_stakes",
+        "questions_confidence"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Challenges the foundation of Euthyphro's action (his presumed knowledge) to destabilize his confidence.",
+      "function_id": "UM_05",
+      "classification_evidence": "Ego displacement: Socrates targets the 'I' that claims to know enough to prosecute a father.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "overreach"
+      ],
+      "trap_notes": [
+        "Euthyphro overreaches by assuming his specific action proves universal knowledge."
+      ],
+      "mechanism_shape": "threshold",
+      "mechanism_comment": "Sets a high threshold for knowledge required to justify such a grave action.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 3,
+        "reaction_label": "defensive",
+        "evidence": "I would be of no use... if I did not have accurate knowledge",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Socrates",
+      "text": "Then teach me. Isn’t the pious always the same as itself, and the impious the opposite of the pious?",
+      "observable_teaching_actions": [
+        "feigns_ignorance",
+        "establishes_invariance_constraint",
+        "requests_definition"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Strictly speaking, this sets the constraint (Form invariance) that will unmake the specimen-answers.",
+      "function_id": "UM_01",
+      "classification_evidence": "Definition forcing: establishing that the answer must be a universal form ('always the same as itself').",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "constraint_collapse",
+      "mechanism_comment": "Imposes the constraint of 'sameness' (universality) on the upcoming definition.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 5,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "It certainly is.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 6,
+      "speaker": "Socrates",
+      "text": "So tell me what the pious itself is.",
+      "observable_teaching_actions": [
+        "issues_direct_command",
+        "focuses_on_essence"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Continues the pressure for a definition, rejecting the specimen approach implicitly.",
+      "function_id": "UM_01",
+      "classification_evidence": "Definition forcing: explicit demand for 'what the pious itself is'.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 7,
+        "reaction_label": "elaborates",
+        "evidence": "The pious is what I am doing now",
+        "outcome_label": "failure",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 8,
+      "speaker": "Socrates",
+      "text": "I asked for the form itself, not an example of one of the many pious things.",
+      "observable_teaching_actions": [
+        "rejects_specimen",
+        "distinguishes_form_from_example"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Explicitly collapses the student's answer by showing it belongs to the wrong category (example vs form).",
+      "function_id": "UM_01",
+      "classification_evidence": "Definition forcing / Abstraction strip: Rejecting the concrete example to force the abstract form.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_02",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "category_conflation"
+      ],
+      "trap_notes": [
+        "Student conflates a specimen (prosecuting murder) with the class (piety)."
+      ],
+      "mechanism_shape": "constraint_collapse",
+      "mechanism_comment": "Collapsing the validity of the specimen answer by enforcing the 'form' constraint.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 101,
+        "reaction_label": "elaborates",
+        "evidence": "I will try again: what is beloved by the gods is pious",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 102,
+      "speaker": "Socrates",
+      "text": "Weren’t we just saying that the gods disagree with one another?",
+      "observable_teaching_actions": [
+        "recalls_premise",
+        "sets_trap"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Introduces a premise accepted by the student to undermine their new definition.",
+      "function_id": "UM_02",
+      "classification_evidence": "Internal contradiction: Preparing to show that 'gods disagree' contradicts 'beloved by gods' as a unified set.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "causal_chain",
+      "mechanism_comment": "Starts the chain: disagreement -> some love/some hate -> contradiction.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 103,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "Yes, we were.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 104,
+      "speaker": "Socrates",
+      "text": "Then the same things will be loved by some gods and hated by others.",
+      "observable_teaching_actions": [
+        "infers_consequence",
+        "applies_logic_to_myth"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Tightening the contradiction knot.",
+      "function_id": "UM_02",
+      "classification_evidence": "Internal contradiction: Showing the inevitable clash of attributes.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "causal_chain",
+      "mechanism_comment": "Step 2: Disagreement implies simultaneous love and hate.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 105,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "It seems so.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 106,
+      "speaker": "Socrates",
+      "text": "So the same act would be both pious and impious?",
+      "observable_teaching_actions": [
+        "delivers_contradiction",
+        "completes_refutation"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Finalizes the destruction of the definition via reductio ad absurdum.",
+      "function_id": "UM_02",
+      "classification_evidence": "Internal contradiction: The definition leads to A = not-A (pious = impious).",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "false_paradox"
+      ],
+      "trap_notes": [
+        "The student's definition creates a paradox where one act has opposite moral values."
+      ],
+      "mechanism_shape": "embodied_contradiction",
+      "mechanism_comment": "The contradiction sits in the 'act' itself being pulled two ways by the gods.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 107,
+        "reaction_label": "conceptual_concession",
+        "evidence": "I'm afraid so.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 202,
+      "speaker": "Socrates",
+      "text": "Consider: is the pious loved by the gods because it is pious, or is it pious because it is loved?",
+      "observable_teaching_actions": [
+        "poses_dilemma",
+        "introduces_causal_distinction"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Destabilizes the 'loved by gods' definition by questioning the direction of causality.",
+      "function_id": "UM_04",
+      "classification_evidence": "Abstraction strip / Definition forcing: Forces the student to look at the structural relationship, not just the label.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "category_conflation"
+      ],
+      "trap_notes": [
+        "Conflating an essential property (pious) with an external affect (loved)."
+      ],
+      "mechanism_shape": "subject_object_inversion",
+      "mechanism_comment": "Reverses the vector: Pious -> Loved vs. Loved -> Pious.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 203,
+        "reaction_label": "confused",
+        "evidence": "I don’t know what you mean.",
+        "outcome_label": "partial_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": {
+        "move_id": "euthyphro_dilemma",
+        "shape": "causal_priority_test",
+        "canonical_candidate": false
+      }
+    },
+    {
+      "turn_index": 204,
+      "speaker": "Socrates",
+      "text": "We say something is carried because it is being carried, not the reverse. Likewise something is loved because it is being loved.",
+      "observable_teaching_actions": [
+        "uses_analogy",
+        "establishes_grammatical_rule"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Builds a model of causal dependency (action causes state) to clarify the previous question.",
+      "function_id": "RM_02",
+      "classification_evidence": "Example instantiation: Using 'carrying' to explain the logic of 'loving'.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Mapping the logic of physical action (carrying) to affection (loving).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 205,
+        "reaction_label": "accepts_cleanly",
+        "evidence": "Necessarily.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 206,
+      "speaker": "Socrates",
+      "text": "Then the pious is loved because it is pious — not pious because it is loved.",
+      "observable_teaching_actions": [
+        "applies_analogy",
+        "concludes_causality"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Uses the agreed-upon logic to sever the definition 'pious = loved by gods'.",
+      "function_id": "UM_02",
+      "classification_evidence": "Internal contradiction: Shows the definition makes the 'affect' primary, contradicting the agreed causal intuition.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "recursion_loop"
+      ],
+      "trap_notes": [
+        "Exposing the circularity of defining a thing by what happens to it."
+      ],
+      "mechanism_shape": "causal_chain",
+      "mechanism_comment": "Establishing the arrow of causality: Essence -> Love.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 301,
+        "reaction_label": "defensive",
+        "evidence": "whatever I put forward keeps wandering off",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "META"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 302,
+      "speaker": "Socrates",
+      "text": "These things seem to belong to my ancestor Dedalos — your definitions do not stay put.",
+      "observable_teaching_actions": [
+        "uses_mythological_metaphor",
+        "validates_instability"
+      ],
+      "phase": "META",
+      "phase_reason": "Comments on the behavior of the arguments themselves (wandering) rather than their content.",
+      "function_id": "ME_02",
+      "classification_evidence": "Aporia validation / Method explanation: acknowledging the slippery nature of the inquiry via the Daedalus myth.",
+      "register": {
+        "intensity": "PR_01",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_04",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_02",
+        "attunement": "AT_03"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Comparing arguments to Daedalus's statues that ran away.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 303,
+        "reaction_label": "pushes_back",
+        "evidence": "They would stay put for me, at least; you are the one who makes them move.",
+        "outcome_label": "partial_success",
+        "phase_shift": {
+          "from": "META",
+          "to": "META"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 304,
+      "speaker": "Socrates",
+      "text": "Then I must be more skilled than Dedalos, moving not only my arguments but others’. Yet I want them fixed more than wealth.",
+      "observable_teaching_actions": [
+        "accepts_responsibility_ironically",
+        "reaffirms_goal"
+      ],
+      "phase": "META",
+      "phase_reason": "Re-frames the 'movement' of arguments as a skill but reiterates the shared goal of stability (truth).",
+      "function_id": "ME_01",
+      "classification_evidence": "Process normalization: Framing the instability as part of his 'skill' (method) while pointing to the desired end state.",
+      "register": {
+        "intensity": "PR_01",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_02",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 401,
+        "reaction_label": "elaborates",
+        "evidence": "Piety is the part of justice that is attending to the gods",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "META",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 402,
+      "speaker": "Socrates",
+      "text": "Does attending mean benefiting them, as horse-training benefits horses?",
+      "observable_teaching_actions": [
+        "tests_definition",
+        "uses_techne_analogy"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Interrogates the 'attending' definition by forcing it into a 'benefit' model.",
+      "function_id": "UM_03",
+      "classification_evidence": "Reductio extension / Concrete grounding: Forcing the abstract 'attending' into the concrete model of 'care/benefit' seen in crafts.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "semantic_fog"
+      ],
+      "trap_notes": [
+        "Euthyphro uses 'attending' vaguely; Socrates forces a specific meaning."
+      ],
+      "mechanism_shape": "structural_analogy",
+      "mechanism_comment": "Comparing piety to horse-training (improving the object).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 403,
+        "reaction_label": "pushes_back",
+        "evidence": "By Zeus, no.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 404,
+      "speaker": "Socrates",
+      "text": "Then what kind of attending is it?",
+      "observable_teaching_actions": [
+        "requests_clarification",
+        "maintains_pressure"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Continues to dismantle the definition by demanding specificity.",
+      "function_id": "UM_01",
+      "classification_evidence": "Definition forcing: Demanding the specific species of 'attending'.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 405,
+        "reaction_label": "elaborates",
+        "evidence": "The kind slaves provide to masters.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 406,
+      "speaker": "Socrates",
+      "text": "And what is the great work the gods accomplish using us as servants?",
+      "observable_teaching_actions": [
+        "extends_analogy",
+        "exposes_vagueness"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Accepts the 'slave' analogy but demands the 'product' of that service, exposing the emptiness of the definition.",
+      "function_id": "UM_03",
+      "classification_evidence": "Reductio extension / Concrete grounding: If we are servants, what is the output? Forces a concrete answer.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "vagueness"
+      ],
+      "trap_notes": [
+        "Euthyphro has no idea what the gods actually 'do' with our help."
+      ],
+      "mechanism_shape": "causal_chain",
+      "mechanism_comment": "Service -> Work Produced. What is the work?",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 407,
+        "reaction_label": "elaborates",
+        "evidence": "Saying and doing what is pleasing to the gods",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 408,
+      "speaker": "Socrates",
+      "text": "So the pious is what is pleasing to the gods — again?",
+      "observable_teaching_actions": [
+        "identifies_recursion",
+        "closes_loop"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Points out that the student has looped back to a previously refuted definition.",
+      "function_id": "UM_02",
+      "classification_evidence": "Internal contradiction / Loop detection: Showing the argument has circled back to 'pleasing/loved', which was already killed.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "recursion_loop"
+      ],
+      "trap_notes": [
+        "Student unwittingly recycles the 'pleasing to gods' definition."
+      ],
+      "mechanism_shape": "system_dynamics",
+      "mechanism_comment": "Closing the loop: The argument has returned to the start.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 503,
+        "reaction_label": "withdraws",
+        "evidence": "Some other time, Socrates. I am in a hurry and must go.",
+        "outcome_label": "failure",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 501,
+      "speaker": "Socrates",
+      "text": "We must begin again from the beginning to examine what the pious is — I will not give up until I understand it.",
+      "observable_teaching_actions": [
+        "refuses_surrender",
+        "resets_inquiry"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Insists on restarting the process despite the failure.",
+      "function_id": "UM_06",
+      "classification_evidence": "Constraint removal (implicit): Refusing to accept 'we are done' as a constraint.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_01"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 503,
+        "reaction_label": "withdraws",
+        "evidence": "Some other time, Socrates. I am in a hurry and must go.",
+        "outcome_label": "failure",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    }
+  ],
+  "episode_overview": "Socrates systematically dismantles Euthyphro's confident definitions of piety. He first collapses a concrete example into a demand for a Form, then exposes the contradiction in defining piety via the gods' (conflicted) love, and finally reveals the circularity of 'service' returning to 'pleasing'. Euthyphro eventually flees the discomfort of aporia.",
+  "episode_insights": {
+    "key_pattern": "Specimen -> Form Demand -> Mythic Contradiction -> Causal Inversion (Euthyphro Dilemma) -> Recursion Loop -> Flight",
+    "notes": [
+      "The 'Euthyphro Dilemma' (Turn 202) is a classic 'subject_object_inversion' move.",
+      "Socrates uses the 'Daedalus' metaphor to handle the 'slippage' of definitions at a meta-level.",
+      "The dialogue ends in flight, demonstrating that without 'earnestness' (as seen in I Am That), the Socratic method can induce avoidance rather than insight."
+    ]
+  }
+}
