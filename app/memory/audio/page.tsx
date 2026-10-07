@@ -94,6 +94,12 @@ export default function MemoryAudioPage() {
           Rebuild script lives in deitybody: <code>scripts/build_simple_cycles.py</code>.
         </p>
         <p className="mt-2">
+          <a className="text-primary" href="/memory/audio/TRANSCRIPTS.md">
+            Exact transcripts — what is in each file →
+          </a>{" "}
+          (includes the apparatus-loci flag on the consonant cycles).
+        </p>
+        <p className="mt-2">
           Also on{" "}
           <a className="text-primary" href="https://stonedoorway.com/audio/nyasa/cycle_night1_a_aa.mp3" target="_blank" rel="noreferrer">
             Stonedoorway

@@ -15,6 +15,7 @@
 | `awesomevision.md` | ALL (canonical) | Audio is reality; wheels decompile; Mātṛkā coordinates; palaces index; schedule memorizes |
 | `awesome2.md` | B Hindi (theory) — CORE | Constructicon formalism: machines/islands/chunks, collostructional ranking, coverage syllabus |
 | `awesomevision3.md` | ALL (core) | Pegs for the subtle body: Layer Zero lattice → reconfigure (Mālinī) → populate (Śakti) → traverse (yoga) → dissolve; Bruno = compiler/UI |
+| `awesomecurriculum.md` | ALL (core curriculum) | Progressive nightly course: audio removes itself; checkpoints 0–10; Audios 00–19; nightly pair script verbatim |
 | `layers.md` | A doctrine | 3-layer lock: phonetics substrate → TĀ-15 body → language overlays; Mātṛkā ≠ Pāṇini |
 | `sivasutra.md` | A doctrine | Śiva Sūtras = Semester Zero; concept graph; 3 upāya-worlds; text curriculum to Tantrāloka |
 | `qna.md` | B Hindi + D corpus | Q&A as first-class track; discourse constructions; 3-voice corpus; VBT recursion |
