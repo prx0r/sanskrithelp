@@ -1,0 +1,690 @@
+{
+ "id": "matrka-course-v1",
+ "note": "Structure only: units reference material, none copied. Content renders FROM this.",
+ "units": [
+  {
+   "id": "m00",
+   "title": "Orientation: what you are constructing",
+   "phase": 0,
+   "track": "matrka",
+   "sources": [
+    {
+     "kind": "doc",
+     "ref": "docs/visions/awesomecurriculum.md#audio-00",
+     "note": "Audio 00 spec"
+    },
+    {
+     "kind": "doc",
+     "ref": "public/memory/canonical/TA15_TABLE.html",
+     "note": "frozen v2, verse vs apparatus"
+    },
+    {
+     "kind": "doc",
+     "ref": "public/memory/canonical/THEORY_SHELF.html",
+     "note": "Journey first"
+    }
+   ],
+   "practice_ref": "awesomecurriculum:Audio 00",
+   "exit": "can state the map doctrine (verse vs apparatus, ours vs textual)",
+   "prereqs": [],
+   "status": "live",
+   "blocks_on": [],
+   "note": ""
+  },
+  {
+   "id": "m01",
+   "title": "Vowels install, Audio 01 pair template (Nights 1-8)",
+   "phase": 0,
+   "track": "matrka",
+   "sources": [
+    {
+     "kind": "data",
+     "ref": "public/memory/data/matrika_body_map.json",
+     "note": "vowels 1-16, v2"
+    },
+    {
+     "kind": "audio",
+     "ref": "public/memory/audio/cycle_vowels_v2.mp3",
+     "note": "14 slots; ḷ/ḹ silent"
+    },
+    {
+     "kind": "route",
+     "ref": "/memory/practice-chart.html",
+     "note": "Tonight 50"
+    }
+   ],
+   "practice_ref": "nightly pair script = Audio 01 template (awesomecurriculum)",
+   "exit": "Ckpt 0: reproduce 16 vowels + loci accurately",
+   "prereqs": [
+    "m00"
+   ],
+   "status": "live",
+   "blocks_on": [],
+   "note": ""
+  },
+  {
+   "id": "m02",
+   "title": "Ka/ca install, Audio 01 pairs (limb contrast)",
+   "phase": 0,
+   "track": "matrka",
+   "sources": [
+    {
+     "kind": "data",
+     "ref": "public/memory/data/matrika_body_map.json",
+     "note": "ka/ca vargas 17-26"
+    },
+    {
+     "kind": "audio",
+     "ref": "public/memory/audio/cycle_consonants_v2.mp3",
+     "note": "v2 loci"
+    },
+    {
+     "kind": "route",
+     "ref": "/memory/bruno-50/",
+     "note": "varna formation"
+    }
+   ],
+   "practice_ref": "nightly pair script",
+   "exit": "ka→shoulder … ña→nails without traversal",
+   "prereqs": [
+    "m01"
+   ],
+   "status": "live",
+   "blocks_on": [],
+   "note": ""
+  },
+  {
+   "id": "m03",
+   "title": "Ṭa/ta/pa/deep install, Audio 01 pairs (rest of 50)",
+   "phase": 0,
+   "track": "matrka",
+   "sources": [
+    {
+     "kind": "data",
+     "ref": "public/memory/data/matrika_body_map.json",
+     "note": "27-50"
+    },
+    {
+     "kind": "route",
+     "ref": "/memory/body-diagram.html",
+     "note": "full figure"
+    },
+    {
+     "kind": "audio",
+     "ref": "public/memory/audio/cycle_full_starter_v2.mp3",
+     "note": "26-slot loop"
+    }
+   ],
+   "practice_ref": "nightly pair script",
+   "exit": "all 50 phoneme→locus placed",
+   "prereqs": [
+    "m02"
+   ],
+   "status": "partial",
+   "blocks_on": [],
+   "note": "24 slots lack cycle coverage; chart covers all 50"
+  },
+  {
+   "id": "m04",
+   "title": "Checkpoint 1 exam: navigate (Audio 04 body answers)",
+   "phase": 0,
+   "track": "matrka",
+   "sources": [
+    {
+     "kind": "doc",
+     "ref": "docs/visions/awesomecurriculum.md#checkpoint-1",
+     "note": "45/50, ~1s, direct addressing"
+    },
+    {
+     "kind": "route",
+     "ref": "/memory/bruno",
+     "note": "locus quiz"
+    },
+    {
+     "kind": "route",
+     "ref": "/memory/night",
+     "note": "morning recall check"
+    }
+   ],
+   "practice_ref": "random prompts both directions (Audio 04 phoneme-only/locus-only tracks)",
+   "exit": "45/50 correct, ~1s access, no sequential traversal",
+   "prereqs": [
+    "m03"
+   ],
+   "status": "live",
+   "blocks_on": [],
+   "note": ""
+  },
+  {
+   "id": "m05",
+   "title": "Evoke + silent, Audio 02 + Audio 05 (Ckpt 2, Ckpt 3)",
+   "phase": 1,
+   "track": "matrka",
+   "sources": [
+    {
+     "kind": "audio",
+     "ref": "public/memory/audio/night1_guided_circuit_v2.mp3",
+     "note": "steps 4-5 pattern for a/ā"
+    },
+    {
+     "kind": "doc",
+     "ref": "docs/padoux.md#2-levels-of-the-word",
+     "note": "vaikhari→madhyama→paśyantī"
+    }
+   ],
+   "practice_ref": "think phoneme → locus salience; locus → silent phoneme",
+   "exit": "bidirectional without touch or overt speech",
+   "prereqs": [
+    "m04"
+   ],
+   "status": "partial",
+   "blocks_on": [],
+   "note": "guided pattern exists for a/ā only; generalize per varga"
+  },
+  {
+   "id": "m06",
+   "title": "Random access, Audio 06 breaking the alphabet (Ckpt 4)",
+   "phase": 1,
+   "track": "matrka",
+   "sources": [
+    {
+     "kind": "route",
+     "ref": "/memory/bruno-50/",
+     "note": "randomize"
+    },
+    {
+     "kind": "route",
+     "ref": "/memory/matrka-wheel/integrated.html",
+     "note": "scramble rings"
+    }
+   ],
+   "practice_ref": "teleport drills (ma → ṛ → kha → ṣa)",
+   "exit": "no alphabetic dependency",
+   "prereqs": [
+    "m05"
+   ],
+   "status": "live",
+   "blocks_on": [],
+   "note": ""
+  },
+  {
+   "id": "m07",
+   "title": "Sṛṣṭi/apyaya runs, Audio 08 + Audio 09 (Ckpt 5)",
+   "phase": 1,
+   "track": "matrka",
+   "sources": [
+    {
+     "kind": "doc",
+     "ref": "docs/padoux.md#3-phonematic-emanation",
+     "note": "one visarga pulsation, kṣa→a liberation direction"
+    }
+   ],
+   "practice_ref": "forward build + reverse resolve, then as visualization",
+   "exit": "full sequence both ways without aids",
+   "prereqs": [
+    "m06"
+   ],
+   "status": "planned",
+   "blocks_on": [],
+   "note": ""
+  },
+  {
+   "id": "m08",
+   "title": "Collective field, Audio 07 fields + Audio 10 whole Mātṛkā (Ckpt 6)",
+   "phase": 1,
+   "track": "matrka",
+   "sources": [
+    {
+     "kind": "doc",
+     "ref": "docs/padoux.md#4-sixfold-course",
+     "note": "81-pada counter-clockwise walk; sarvasarvātmakatā"
+    }
+   ],
+   "practice_ref": "hold varga → region → whole body as one configuration",
+   "exit": "field available simultaneously",
+   "prereqs": [
+    "m07"
+   ],
+   "status": "planned",
+   "blocks_on": [],
+   "note": ""
+  },
+  {
+   "id": "b01",
+   "title": "Uccāra: impulse before sound, Audio 03 + Audio 11 (Ckpt 7)",
+   "phase": 2,
+   "track": "breath",
+   "sources": [
+    {
+     "kind": "doc",
+     "ref": "docs/visions/awesomecurriculum.md#audio-03",
+     "note": "2s wait-slots"
+    },
+    {
+     "kind": "doc",
+     "ref": "docs/padoux.md#1-manifestation-of-sound",
+     "note": "hamsa, self-uttered"
+    }
+   ],
+   "practice_ref": "sustained vowel; notice intention→breath→sound→fading",
+   "exit": "clearly perceive the arising chain",
+   "prereqs": [
+    "m06"
+   ],
+   "status": "partial",
+   "blocks_on": [],
+   "note": "method in nightly script; dedicated tracks missing"
+  },
+  {
+   "id": "b02",
+   "title": "Uccāra II + dhvani, Audio 12 + Audio 13",
+   "phase": 2,
+   "track": "breath",
+   "sources": [
+    {
+     "kind": "doc",
+     "ref": "docs/padoux.md#1-manifestation-of-sound",
+     "note": "nādānta/nirodhinī/ardhacandra grades"
+    }
+   ],
+   "practice_ref": "phoneme without glyph; auditory character primary",
+   "exit": "felt signature experiential",
+   "prereqs": [
+    "b01"
+   ],
+   "status": "planned",
+   "blocks_on": [],
+   "note": ""
+  },
+  {
+   "id": "b03",
+   "title": "VBT daily dhāraṇā",
+   "phase": 2,
+   "track": "breath",
+   "sources": [
+    {
+     "kind": "data",
+     "ref": "public/memory/vbt-daily.json",
+     "note": "65 mapped of 112"
+    },
+    {
+     "kind": "route",
+     "ref": "/memory/night",
+     "note": "Today's dhāraṇā + transcribed five"
+    }
+   ],
+   "practice_ref": "sit with today's dhāraṇā before silence",
+   "exit": "daily rotation sustained",
+   "prereqs": [
+    "m04"
+   ],
+   "status": "live",
+   "blocks_on": [],
+   "note": ""
+  },
+  {
+   "id": "b04",
+   "title": "OM spine + amṛta down-flood",
+   "phase": 2,
+   "track": "breath",
+   "sources": [
+    {
+     "kind": "doc",
+     "ref": "docs/padoux.md#5-mantra",
+     "note": "A-U-MA-bindu-…-unmanā + Netra down-flood"
+    }
+   ],
+   "practice_ref": "nightly ascent heart→dvādaśānta, flood down",
+   "exit": "spine runnable from memory",
+   "prereqs": [
+    "b01"
+   ],
+   "status": "planned",
+   "blocks_on": [],
+   "note": ""
+  },
+  {
+   "id": "x01",
+   "title": "Mālinī second map, Audio 14 + Audio 15 (Ckpt 8)",
+   "phase": 3,
+   "track": "malini",
+   "sources": [
+    {
+     "kind": "data",
+     "ref": "public/memory/data/malini_order.json",
+     "note": "na→pha; loci UNVERIFIED"
+    },
+    {
+     "kind": "doc",
+     "ref": "docs/padoux.md#3-phonematic-emanation",
+     "note": "bhinnayoni, best for nyāsa"
+    }
+   ],
+   "practice_ref": "same body, different ordering; keep maps distinct",
+   "exit": "both maps navigable, never merged",
+   "prereqs": [
+    "m06"
+   ],
+   "status": "blocked",
+   "blocks_on": [
+    "verify malini loci vs MV 3.37-41 Sanskrit"
+   ],
+   "note": ""
+  },
+  {
+   "id": "x02",
+   "title": "Wheel II: phoneme×locus×Śakti",
+   "phase": 3,
+   "track": "malini",
+   "sources": [
+    {
+     "kind": "doc",
+     "ref": "docs/TRANSLATION_FRONTIER.md#2-kularatnoddyota",
+     "note": "Sprint 1: KuRatnUdd 5.84-101 → 50 Śaktis"
+    }
+   ],
+   "practice_ref": "populate loci with presiding powers (post-Mālinī-stable)",
+   "exit": "Śakti layer installed",
+   "prereqs": [
+    "x01"
+   ],
+   "status": "blocked",
+   "blocks_on": [
+    "Sprint 1 translation data"
+   ],
+   "note": ""
+  },
+  {
+   "id": "x03",
+   "title": "SAUH/KHPHREM hearts",
+   "phase": 3,
+   "track": "mantra",
+   "sources": [
+    {
+     "kind": "doc",
+     "ref": "docs/padoux.md#5-mantra",
+     "note": "sṛṣṭi-heart vs saṃhāra-heart; kānda→dvādaśānta route"
+    }
+   ],
+   "practice_ref": "hold cosmos in heart (SAUH); dissolve (KHPHREM)",
+   "exit": "both hearts runnable",
+   "prereqs": [
+    "b04"
+   ],
+   "status": "planned",
+   "blocks_on": [],
+   "note": ""
+  },
+  {
+   "id": "p01",
+   "title": "Pratyāhāra selection ops, Audio 16",
+   "phase": 4,
+   "track": "panini",
+   "sources": [
+    {
+     "kind": "route",
+     "ref": "/memory/panini",
+     "note": "expanders, varga wheels"
+    },
+    {
+     "kind": "doc",
+     "ref": "docs/padoux.md#8-curriculum-wiring",
+     "note": "varga origins are phonetic"
+    }
+   ],
+   "practice_ref": "ac/hal as selections over embodied field",
+   "exit": "pratyāhāras read off the body",
+   "prereqs": [
+    "m06"
+   ],
+   "status": "live",
+   "blocks_on": [],
+   "note": ""
+  },
+  {
+   "id": "p02",
+   "title": "Transformations, Audio 17 (sandhi/guṇa)",
+   "phase": 4,
+   "track": "panini",
+   "sources": [
+    {
+     "kind": "doc",
+     "ref": "docs/visions/awesomecurriculum.md#audio-17",
+     "note": "A→operator→B state change"
+    }
+   ],
+   "practice_ref": "run derivations spatially (Bruno operator)",
+   "exit": "forms derived without destroying base map",
+   "prereqs": [
+    "p01"
+   ],
+   "status": "partial",
+   "blocks_on": [],
+   "note": ""
+  },
+  {
+   "id": "p03",
+   "title": "Text Mode triliteral",
+   "phase": 4,
+   "track": "hindi",
+   "sources": [
+    {
+     "kind": "route",
+     "ref": "/memory/hindi/text-mode",
+     "note": "Osho anchors + assess"
+    },
+    {
+     "kind": "route",
+     "ref": "/memory/hindi/scenarios",
+     "note": "field scenarios + hint ladders"
+    }
+   ],
+   "practice_ref": "see/hear/write/decompile/discuss per sūtra",
+   "exit": "sūtra explainable in simple Hindi",
+   "prereqs": [],
+   "status": "live",
+   "blocks_on": [],
+   "note": ""
+  },
+  {
+   "id": "p04",
+   "title": "Hindi daily loop",
+   "phase": 4,
+   "track": "hindi",
+   "sources": [
+    {
+     "kind": "route",
+     "ref": "/memory/hindi",
+     "note": "Today's Hindi card"
+    },
+    {
+     "kind": "data",
+     "ref": "public/memory/hindi/scenarios.json",
+     "note": "3 staged scenarios"
+    },
+    {
+     "kind": "data",
+     "ref": "public/memory/hindi/corpus.json",
+     "note": "Dataset Zero status"
+    }
+   ],
+   "practice_ref": "one line daily → scenarios → logged in sadhana log",
+   "exit": "streak sustained; Osho 02-10 anchored",
+   "prereqs": [
+    "p03"
+   ],
+   "status": "partial",
+   "blocks_on": [],
+   "note": "Osho talks 02-10 anchors missing; TTS scoring needs Chrome/mic"
+  },
+  {
+   "id": "p05",
+   "title": "No wheel: direct call, Audio 18 (Ckpt 9)",
+   "phase": 4,
+   "track": "panini",
+   "sources": [
+    {
+     "kind": "doc",
+     "ref": "docs/visions/awesomecurriculum.md#audio-18",
+     "note": "close the visual machine"
+    }
+   ],
+   "practice_ref": "sound calls body+grammar directly",
+   "exit": "relations without visualizing",
+   "prereqs": [
+    "p02",
+    "m06"
+   ],
+   "status": "planned",
+   "blocks_on": [],
+   "note": ""
+  },
+  {
+   "id": "d01",
+   "title": "Nothing required, Audio 19 (Ckpt 10)",
+   "phase": 5,
+   "track": "dissolve",
+   "sources": [
+    {
+     "kind": "doc",
+     "ref": "docs/visions/awesomecurriculum.md#audio-19",
+     "note": "sparse by definition; record late"
+    }
+   ],
+   "practice_ref": "phoneme arises, passes; structure available, undeployed",
+   "exit": "availability without deployment",
+   "prereqs": [
+    "p05",
+    "b02"
+   ],
+   "status": "planned",
+   "blocks_on": [],
+   "note": ""
+  },
+  {
+   "id": "d02",
+   "title": "T8 universe-into-body",
+   "phase": 5,
+   "track": "t8",
+   "sources": [
+    {
+     "kind": "doc",
+     "ref": "docs/padoux.md#4-sixfold-course",
+     "note": "kala frame first, then tattvas/bhuvanas inside kalās"
+    },
+    {
+     "kind": "doc",
+     "ref": "docs/STONEDOORWAY-TANTRA-BODY.md",
+     "note": "phased build, Mātṛkā-only first"
+    }
+   ],
+   "practice_ref": "install kalās head-to-foot, then worlds inside",
+   "exit": "cosmos navigable on the skeleton",
+   "prereqs": [
+    "m08",
+    "x01"
+   ],
+   "status": "planned",
+   "blocks_on": [
+    "kala charts (SP3); Stonedoorway body world"
+   ],
+   "note": ""
+  },
+  {
+   "id": "r01",
+   "title": "Sprint 1 translation (KuRatnUdd 5.84-101)",
+   "phase": 5,
+   "track": "research",
+   "sources": [
+    {
+     "kind": "doc",
+     "ref": "docs/TRANSLATION_FRONTIER.md#first-concrete-sprint",
+     "note": "~18 verses → 50/50/50 + Five Maps product"
+    }
+   ],
+   "practice_ref": "Pāṭala protocol per verse (source→audit→human edit)",
+   "exit": "Five Medieval Maps dataset + page",
+   "prereqs": [],
+   "status": "planned",
+   "blocks_on": [],
+   "note": ""
+  },
+  {
+   "id": "r02",
+   "title": "Triśirobhairava reconstruction",
+   "phase": 5,
+   "track": "research",
+   "sources": [
+    {
+     "kind": "doc",
+     "ref": "docs/TRANSLATION_FRONTIER.md#8-triśirobhairava",
+     "note": "Jayaratha + KMT17 + MVT3 + SYM3 + TSB3"
+    }
+   ],
+   "practice_ref": "stemmatic/comparative reconstruction",
+   "exit": "paper-worthy comparative text",
+   "prereqs": [
+    "r01"
+   ],
+   "status": "planned",
+   "blocks_on": [],
+   "note": ""
+  },
+  {
+   "id": "r03",
+   "title": "Śrīmatottara 7 flagship (Wheel II data)",
+   "phase": 5,
+   "track": "research",
+   "sources": [
+    {
+     "kind": "doc",
+     "ref": "docs/TRANSLATION_FRONTIER.md#1-śrīmatottara",
+     "note": "50 Śaktis + iconography → interactive body"
+    }
+   ],
+   "practice_ref": "Sanskrit→translation→phoneme→locus→Śakti→iconography",
+   "exit": "Wheel II populated",
+   "prereqs": [
+    "r01"
+   ],
+   "status": "planned",
+   "blocks_on": [],
+   "note": ""
+  }
+ ],
+ "checkpoints": [
+  "Ckpt0 Sound",
+  "Ckpt1 Navigate",
+  "Ckpt2 Evoke",
+  "Ckpt3 Internalize",
+  "Ckpt4 Random access",
+  "Ckpt5 Srsti/apyaya",
+  "Ckpt6 Collective field",
+  "Ckpt7 Uccara",
+  "Ckpt8 Malini",
+  "Ckpt9 Operators",
+  "Ckpt10 Dissolve scaffold"
+ ],
+ "audios": [
+  "Audio00",
+  "Audio01",
+  "Audio02",
+  "Audio03",
+  "Audio04",
+  "Audio05",
+  "Audio06",
+  "Audio07",
+  "Audio08",
+  "Audio09",
+  "Audio10",
+  "Audio11",
+  "Audio12",
+  "Audio13",
+  "Audio14",
+  "Audio15",
+  "Audio16",
+  "Audio17",
+  "Audio18",
+  "Audio19"
+ ]
+}

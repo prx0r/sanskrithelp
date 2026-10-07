@@ -178,6 +178,13 @@ const GROUPS: { title: string; items: HubItem[] }[] = [
         icon: BookMarked,
       },
       {
+        href: "/memory/syllabus.html",
+        title: "Course Syllabus (structure)",
+        subtitle: "26 units · prereqs · exits",
+        desc: "The whole course as data: phases, units, what each needs, exit criteria, status. Content renders from this — nothing copied.",
+        icon: BookMarked,
+      },
+      {
         href: "/memory/canonical/TA15_NYASA.md",
         title: "TĀ 15 Nyāsa Record",
         subtitle: "Verse vs apparatus · never mixed",
