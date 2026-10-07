@@ -68,6 +68,35 @@ describe("field scenarios (NPC shape, own lines)", () => {
   });
 });
 
+describe("audio scenes (islands as listenable scenes)", () => {
+  const j = JSON.parse(
+    readFileSync(resolve(ROOT, "public/memory/hindi/scenarios.json"), "utf8")
+  );
+
+  it("every scenario has 3 removal stages with real files", () => {
+    for (const s of j.scenarios) {
+      const man = JSON.parse(
+        readFileSync(resolve(ROOT, "public/memory/hindi/scenes", `${s.id}.json`), "utf8")
+      );
+      for (const stage of ["stage1", "stage2", "stage3"]) {
+        expect(man.stages[stage], `${s.id}:${stage}`).toBeTruthy();
+        expect(existsSync(resolve(ROOT, "public/memory/hindi", man.stages[stage].file))).toBe(true);
+      }
+      const muted2 = man.stages.stage2.slots.filter((x: any) => x.muted).length;
+      const muted3 = man.stages.stage3.slots.filter((x: any) => x.muted).length;
+      const total = man.stages.stage3.slots.length;
+      expect(muted2, s.id).toBeGreaterThan(0);
+      expect(muted3, s.id).toBe(total);
+      expect(man.stages.stage1.slots.filter((x: any) => x.muted).length, s.id).toBe(0);
+    }
+  });
+
+  it("scenarios page renders the stage player", () => {
+    const src = readFileSync(resolve(ROOT, "app/memory/hindi/scenarios/page.tsx"), "utf8");
+    expect(src).toContain("ScenePlayer");
+    expect(src).toContain("stage3");
+  });
+
 describe("daily Hindi loop (islands spec, closed)", () => {
   it("practice log accepts hindi entries (shared sadhana log)", () => {
     const src = readFileSync(resolve(ROOT, "lib/practiceLog.ts"), "utf8");

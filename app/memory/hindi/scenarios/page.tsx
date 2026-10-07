@@ -6,6 +6,47 @@ import { ArrowLeft, Volume2 } from "lucide-react";
 import { speakHindi } from "@/lib/hindi/speak";
 import SpeakScore from "@/components/SpeakScore";
 
+type Slot = { speaker: string; text: string; start: number; dur: number; muted: boolean };
+
+function ScenePlayer({ id }: { id: string }) {
+  const [manifest, setManifest] = useState<Record<string, { file: string; slots: Slot[] }> | null>(null);
+  const [stage, setStage] = useState("stage1");
+  useEffect(() => {
+    fetch(`/memory/hindi/scenes/${id}.json`)
+      .then((r) => (r.ok ? r.json() : Promise.reject()))
+      .then((j) => setManifest(j.stages ?? null))
+      .catch(() => {});
+  }, [id]);
+  if (!manifest || !manifest[stage]) return null;
+  const cur = manifest[stage];
+  const labels: Record<string, string> = { stage1: "Full scene", stage2: "Your lines muted — autocomplete", stage3: "Empty — act it all" };
+  return (
+    <div className="mt-3 rounded-lg border border-primary/30 bg-primary/5 p-3">
+      <div className="flex flex-wrap gap-2 mb-2">
+        {Object.keys(manifest).map((s) => (
+          <button
+            key={s}
+            onClick={() => setStage(s)}
+            className={`text-xs px-3 py-1.5 rounded-lg border ${s === stage ? "bg-primary text-primary-foreground border-primary" : "border-border hover:bg-accent"}`}
+          >
+            {labels[s] ?? s}
+          </button>
+        ))}
+      </div>
+      <audio controls preload="none" className="w-full" src={`/memory/hindi/${cur.file}`} />
+      <div className="mt-2 space-y-1.5">
+        {cur.slots.map((sl, i) => (
+          <div key={i} className={`text-sm rounded p-1.5 ${sl.muted ? "border border-amber-400/40 bg-amber-400/5" : ""}`}>
+            <span className="text-xs text-muted-foreground">{sl.speaker}{sl.muted ? " — YOUR LINE" : ""} · </span>
+            {sl.text}
+            {sl.muted ? <SpeakScore target={sl.text} /> : null}
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 type Scenario = {
   id: string;
   title: string;
@@ -98,6 +139,7 @@ export default function HindiScenariosPage() {
                   </div>
                 ))}
               </div>
+              <ScenePlayer id={s.id} />
             </div>
           );
         })}

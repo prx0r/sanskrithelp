@@ -1,0 +1,128 @@
+{
+ "id": "varanasi-intro",
+ "stages": {
+  "stage1": {
+   "file": "scenes/varanasi-intro_stage1.mp3",
+   "slots": [
+    {
+     "speaker": "Shopkeeper",
+     "text": "नमस्ते! आप कहाँ से आए हैं?",
+     "start": 0.5,
+     "dur": 4.66,
+     "muted": false
+    },
+    {
+     "speaker": "You",
+     "text": "मेरा नाम Tom है।",
+     "start": 5.56,
+     "dur": 2.54,
+     "muted": false
+    },
+    {
+     "speaker": "Shopkeeper",
+     "text": "वाराणसी में स्वागत है। क्या आप हिंदी सीख रहे हैं?",
+     "start": 8.5,
+     "dur": 6.72,
+     "muted": false
+    },
+    {
+     "speaker": "You",
+     "text": "मैं इंग्लैंड से हूँ।",
+     "start": 15.62,
+     "dur": 2.74,
+     "muted": false
+    },
+    {
+     "speaker": "You",
+     "text": "मैं हिंदी सीख रहा हूँ।",
+     "start": 18.76,
+     "dur": 3.24,
+     "muted": false
+    }
+   ],
+   "dur": 22.4
+  },
+  "stage2": {
+   "file": "scenes/varanasi-intro_stage2.mp3",
+   "slots": [
+    {
+     "speaker": "Shopkeeper",
+     "text": "नमस्ते! आप कहाँ से आए हैं?",
+     "start": 0.5,
+     "dur": 4.66,
+     "muted": false
+    },
+    {
+     "speaker": "You",
+     "text": "मेरा नाम Tom है।",
+     "start": 5.56,
+     "dur": 4.54,
+     "muted": true
+    },
+    {
+     "speaker": "Shopkeeper",
+     "text": "वाराणसी में स्वागत है। क्या आप हिंदी सीख रहे हैं?",
+     "start": 10.5,
+     "dur": 6.72,
+     "muted": false
+    },
+    {
+     "speaker": "You",
+     "text": "मैं इंग्लैंड से हूँ।",
+     "start": 17.62,
+     "dur": 4.74,
+     "muted": true
+    },
+    {
+     "speaker": "You",
+     "text": "मैं हिंदी सीख रहा हूँ।",
+     "start": 22.76,
+     "dur": 5.24,
+     "muted": true
+    }
+   ],
+   "dur": 28.4
+  },
+  "stage3": {
+   "file": "scenes/varanasi-intro_stage3.mp3",
+   "slots": [
+    {
+     "speaker": "Shopkeeper",
+     "text": "नमस्ते! आप कहाँ से आए हैं?",
+     "start": 0.5,
+     "dur": 6.66,
+     "muted": true
+    },
+    {
+     "speaker": "You",
+     "text": "मेरा नाम Tom है।",
+     "start": 7.56,
+     "dur": 4.54,
+     "muted": true
+    },
+    {
+     "speaker": "Shopkeeper",
+     "text": "वाराणसी में स्वागत है। क्या आप हिंदी सीख रहे हैं?",
+     "start": 12.5,
+     "dur": 8.72,
+     "muted": true
+    },
+    {
+     "speaker": "You",
+     "text": "मैं इंग्लैंड से हूँ।",
+     "start": 21.62,
+     "dur": 4.74,
+     "muted": true
+    },
+    {
+     "speaker": "You",
+     "text": "मैं हिंदी सीख रहा हूँ।",
+     "start": 26.76,
+     "dur": 5.24,
+     "muted": true
+    }
+   ],
+   "dur": 32.4
+  }
+ }
+}

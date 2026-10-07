@@ -1,0 +1,128 @@
+{
+ "id": "osho-sutra-1",
+ "stages": {
+  "stage1": {
+   "file": "scenes/osho-sutra-1_stage1.mp3",
+   "slots": [
+    {
+     "speaker": "Osho (roleplay)",
+     "text": "नमस्ते। आप किस सूत्र पर बैठे हैं?",
+     "start": 0.5,
+     "dur": 5.14,
+     "muted": false
+    },
+    {
+     "speaker": "You",
+     "text": "चैतन्यमात्मा",
+     "start": 6.04,
+     "dur": 2.35,
+     "muted": false
+    },
+    {
+     "speaker": "Osho (roleplay)",
+     "text": "हाँ — चैतन्य ही आत्मा है।",
+     "start": 8.79,
+     "dur": 3.6,
+     "muted": false
+    },
+    {
+     "speaker": "You",
+     "text": "चैतन्य ही आत्मा है।",
+     "start": 12.79,
+     "dur": 2.66,
+     "muted": false
+    },
+    {
+     "speaker": "You",
+     "text": "इस सूत्र का अर्थ है कि चैतन्य ही आत्मा है।",
+     "start": 15.85,
+     "dur": 4.32,
+     "muted": false
+    }
+   ],
+   "dur": 20.6
+  },
+  "stage2": {
+   "file": "scenes/osho-sutra-1_stage2.mp3",
+   "slots": [
+    {
+     "speaker": "Osho (roleplay)",
+     "text": "नमस्ते। आप किस सूत्र पर बैठे हैं?",
+     "start": 0.5,
+     "dur": 5.14,
+     "muted": false
+    },
+    {
+     "speaker": "You",
+     "text": "चैतन्यमात्मा",
+     "start": 6.04,
+     "dur": 4.35,
+     "muted": true
+    },
+    {
+     "speaker": "Osho (roleplay)",
+     "text": "हाँ — चैतन्य ही आत्मा है।",
+     "start": 10.79,
+     "dur": 3.6,
+     "muted": false
+    },
+    {
+     "speaker": "You",
+     "text": "चैतन्य ही आत्मा है।",
+     "start": 14.79,
+     "dur": 4.66,
+     "muted": true
+    },
+    {
+     "speaker": "You",
+     "text": "इस सूत्र का अर्थ है कि चैतन्य ही आत्मा है।",
+     "start": 19.85,
+     "dur": 6.32,
+     "muted": true
+    }
+   ],
+   "dur": 26.6
+  },
+  "stage3": {
+   "file": "scenes/osho-sutra-1_stage3.mp3",
+   "slots": [
+    {
+     "speaker": "Osho (roleplay)",
+     "text": "नमस्ते। आप किस सूत्र पर बैठे हैं?",
+     "start": 0.5,
+     "dur": 7.14,
+     "muted": true
+    },
+    {
+     "speaker": "You",
+     "text": "चैतन्यमात्मा",
+     "start": 8.04,
+     "dur": 4.35,
+     "muted": true
+    },
+    {
+     "speaker": "Osho (roleplay)",
+     "text": "हाँ — चैतन्य ही आत्मा है।",
+     "start": 12.79,
+     "dur": 5.6,
+     "muted": true
+    },
+    {
+     "speaker": "You",
+     "text": "चैतन्य ही आत्मा है।",
+     "start": 18.79,
+     "dur": 4.66,
+     "muted": true
+    },
+    {
+     "speaker": "You",
+     "text": "इस सूत्र का अर्थ है कि चैतन्य ही आत्मा है।",
+     "start": 23.85,
+     "dur": 6.32,
+     "muted": true
+    }
+   ],
+   "dur": 30.6
+  }
+ }
+}

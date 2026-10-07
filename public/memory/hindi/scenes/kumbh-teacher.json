@@ -1,0 +1,128 @@
+{
+ "id": "kumbh-teacher",
+ "stages": {
+  "stage1": {
+   "file": "scenes/kumbh-teacher_stage1.mp3",
+   "slots": [
+    {
+     "speaker": "Volunteer",
+     "text": "क्या आप प्रवचन के लिए आए हैं?",
+     "start": 0.5,
+     "dur": 3.67,
+     "muted": false
+    },
+    {
+     "speaker": "You",
+     "text": "आप किस परंपरा से हैं?",
+     "start": 4.57,
+     "dur": 2.83,
+     "muted": false
+    },
+    {
+     "speaker": "Volunteer",
+     "text": "आप किस परंपरा से जुड़े हैं?",
+     "start": 7.8,
+     "dur": 3.5,
+     "muted": false
+    },
+    {
+     "speaker": "You",
+     "text": "मुझे समझ नहीं आया।",
+     "start": 11.71,
+     "dur": 2.74,
+     "muted": false
+    },
+    {
+     "speaker": "You",
+     "text": "कृपया फिर से कहिए।",
+     "start": 14.84,
+     "dur": 2.59,
+     "muted": false
+    }
+   ],
+   "dur": 17.8
+  },
+  "stage2": {
+   "file": "scenes/kumbh-teacher_stage2.mp3",
+   "slots": [
+    {
+     "speaker": "Volunteer",
+     "text": "क्या आप प्रवचन के लिए आए हैं?",
+     "start": 0.5,
+     "dur": 3.67,
+     "muted": false
+    },
+    {
+     "speaker": "You",
+     "text": "आप किस परंपरा से हैं?",
+     "start": 4.57,
+     "dur": 4.83,
+     "muted": true
+    },
+    {
+     "speaker": "Volunteer",
+     "text": "आप किस परंपरा से जुड़े हैं?",
+     "start": 9.8,
+     "dur": 3.5,
+     "muted": false
+    },
+    {
+     "speaker": "You",
+     "text": "मुझे समझ नहीं आया।",
+     "start": 13.71,
+     "dur": 4.74,
+     "muted": true
+    },
+    {
+     "speaker": "You",
+     "text": "कृपया फिर से कहिए।",
+     "start": 18.84,
+     "dur": 4.59,
+     "muted": true
+    }
+   ],
+   "dur": 23.8
+  },
+  "stage3": {
+   "file": "scenes/kumbh-teacher_stage3.mp3",
+   "slots": [
+    {
+     "speaker": "Volunteer",
+     "text": "क्या आप प्रवचन के लिए आए हैं?",
+     "start": 0.5,
+     "dur": 5.67,
+     "muted": true
+    },
+    {
+     "speaker": "You",
+     "text": "आप किस परंपरा से हैं?",
+     "start": 6.57,
+     "dur": 4.83,
+     "muted": true
+    },
+    {
+     "speaker": "Volunteer",
+     "text": "आप किस परंपरा से जुड़े हैं?",
+     "start": 11.8,
+     "dur": 5.5,
+     "muted": true
+    },
+    {
+     "speaker": "You",
+     "text": "मुझे समझ नहीं आया।",
+     "start": 17.71,
+     "dur": 4.74,
+     "muted": true
+    },
+    {
+     "speaker": "You",
+     "text": "कृपया फिर से कहिए।",
+     "start": 22.84,
+     "dur": 4.59,
+     "muted": true
+    }
+   ],
+   "dur": 27.8
+  }
+ }
+}
