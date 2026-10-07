@@ -3,7 +3,7 @@ import {
   enquiryDecide,
   enquiryFallback,
   enquiryState,
-  parseProse,
+  ENQUIRY_QUESTIONS,
   ENQUIRY_THREADS,
 } from "../lib/jev";
 import { sessionIdFor } from "../lib/ai";
@@ -32,17 +32,15 @@ describe("jev enquiry partner (no key = safe fallback)", () => {
     expect((r.answers.thread as any).pick).toBe("reflect_back");
   });
 
-  it("parses router prose (YES + probability, choice, score)", () => {
-    const n = parseProse("Loop: **YES** — probability **0.95**.", { loop: { type: "noul" } });
-    expect((n!.loop as any).p).toBe(1);
-    expect((n!.loop as any).confidence).toBeCloseTo(0.95);
-    const c = parseProse("I pick reflect_back here.", {
-      thread: { type: "choice", options: ["deeper_into_same", "reflect_back"] },
-    });
-    expect((c!.thread as any).pick).toBe("reflect_back");
-    const s = parseProse("Depth: 7 out of 10.", { depth: { type: "score", levels: 10 } });
-    expect((s!.depth as any).value).toBe(7);
-    expect(parseProse("hmm, unclear", { loop: { type: "noul" } })).toBeNull();
+  it("questions carry instructions + criteria for the Decisions API", () => {
+    expect(ENQUIRY_QUESTIONS.thread.type).toBe("choice");
+    if (ENQUIRY_QUESTIONS.thread.type === "choice") {
+      expect(ENQUIRY_QUESTIONS.thread.criteria.reflect_back).toBeTruthy();
+    }
+    expect(ENQUIRY_QUESTIONS.depth.type).toBe("score");
+    if (ENQUIRY_QUESTIONS.depth.type === "score") {
+      expect(ENQUIRY_QUESTIONS.depth.criteria.length).toBe(10);
+    }
   });
 
   it("ai session ids stay stable per conversation", () => {

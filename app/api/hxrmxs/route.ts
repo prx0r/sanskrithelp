@@ -7,9 +7,41 @@ import { FUNCTION_IDS, retrieveExemplar, voicePrompt } from "@/lib/hxrmxs";
 // the voice renderer speaks it. LLM never chooses, only verbalizes.
 
 const MOVE_QUESTIONS: Record<string, JevQuestion> = {
-  function_id: { type: "choice", options: [...FUNCTION_IDS] },
-  loop_risk: { type: "noul" },
-  distress: { type: "noul" },
+  function_id: {
+    type: "choice",
+    instructions: "Which single teaching move fits this student state?",
+    criteria: {
+      UM_01: "Collapse a definition the student leans on.",
+      UM_02: "Expose a live contradiction they hold.",
+      UM_03: "Extend their logic to absurdity (reductio).",
+      UM_04: "Ground reality check against concrete fact.",
+      UM_05: "Displace the ego from center.",
+      UM_06: "Remove a false constraint treated as law.",
+      RM_01: "Build an analogy scaffold.",
+      RM_02: "Map the causal chain stepwise.",
+      RM_03: "Draw a clean A-is-not-B distinction.",
+      RM_04: "Give an instruction protocol.",
+      RM_05: "Upgrade the frame.",
+      SM_01: "Point at direct seeing.",
+      SM_02: "Pivot to the witness (who notices?).",
+      SM_03: "Demand one-sentence synthesis.",
+      SM_04: "Call for concrete commitment.",
+      ME_01: "Enforce process discipline.",
+      ME_02: "Validate staying with not-knowing.",
+      ME_03: "Explain the method itself.",
+    },
+    options: [...FUNCTION_IDS],
+  },
+  loop_risk: {
+    type: "noul",
+    instructions: "Are the last turns circling without movement?",
+    criteria: { true: "Same ground, no new seeing.", false: "Fresh or deepening." },
+  },
+  distress: {
+    type: "noul",
+    instructions: "Does the speaker need grounding, not teaching?",
+    criteria: { true: "Overwhelm or shutdown.", false: "Engaged and resourced." },
+  },
 };
 
 export async function POST(req: Request) {
