@@ -1,6 +1,15 @@
 {
  "id": "matrka-course-v1",
  "note": "Structure only: units reference material, none copied. Content renders FROM this.",
+ "axis": "vaikhari -> madhyama -> pasyanti; para as horizon, never claimed (docs/padoux.md)",
+ "word_levels": {
+  "0": "vaikharī — corporeal install",
+  "1": "vaikharī → madhyamā — internalizing",
+  "2": "madhyamā → paśyantī threshold — sound arising",
+  "3": "madhyamā redeployed — second configuration",
+  "4": "madhyamā operations — language as instrument",
+  "5": "paśyantī horizon; para as limit, never claimed"
+ },
  "units": [
   {
    "id": "m00",

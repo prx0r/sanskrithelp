@@ -220,6 +220,8 @@ def main():
         sys.exit(1)
     json.dump({"id": "matrka-course-v1",
                "note": "Structure only: units reference material, none copied. Content renders FROM this.",
+               "axis": "vaikhari -> madhyama -> pasyanti; para as horizon, never claimed (docs/padoux.md)",
+               "word_levels": WORD_LEVELS,
                "units": UNITS, "checkpoints": CHECKPOINTS, "audios": AUDIOS},
               open(OUT, "w"), ensure_ascii=False, indent=1)
     print("syllabus ok: %d units -> %s" % (len(UNITS), OUT))
@@ -229,6 +231,14 @@ def main():
 STATUS_COLOR = {"live": "#7dcea0", "partial": "#c9a45c", "planned": "#5ec4b6", "blocked": "#d4899a"}
 PHASE_NAMES = {0: "Phase 0 — Install", 1: "Phase 1 — Internalize", 2: "Phase 2 — Breath & sound",
                3: "Phase 3 — Reconfigure", 4: "Phase 4 — Language", 5: "Phase 5 — Dissolve + research"}
+# Padoux axis: the course climbs the levels of the Word while building the body
+# that climbs them. Para is horizon, never claimed (docs/padoux.md §2, §7).
+WORD_LEVELS = {0: "vaikharī — corporeal install",
+               1: "vaikharī → madhyamā — internalizing",
+               2: "madhyamā → paśyantī threshold — sound arising",
+               3: "madhyamā redeployed — second configuration",
+               4: "madhyamā operations — language as instrument",
+               5: "paśyantī horizon; para as limit, never claimed"}
 
 
 def build_html(units):
@@ -253,7 +263,8 @@ code{color:#5ec4b6;font-size:.78rem}a{color:#5ec4b6}.muted{color:#a8a294}</style
     for u in units:
         by_phase.setdefault(u["phase"], []).append(u)
     for ph in sorted(by_phase):
-        parts.append('<div class="card"><h2>%s</h2>' % PHASE_NAMES.get(ph, ph))
+        parts.append('<div class="card"><h2>%s</h2><p class="muted">%s</p>'
+                     % (PHASE_NAMES.get(ph, ph), WORD_LEVELS.get(ph, "")))
         parts.append("<table><tr><th>unit</th><th>exit</th><th>needs</th><th>sources</th></tr>")
         for u in by_phase[ph]:
             srcs = "<br>".join(

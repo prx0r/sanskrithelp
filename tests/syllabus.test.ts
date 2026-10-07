@@ -14,8 +14,9 @@ describe("course syllabus (structure as data)", () => {
   it("26 units across 6 phases with honest statuses", () => {
     const s = JSON.parse(readFileSync(resolve(ROOT, "public/memory/syllabus.json"), "utf8"));
     expect(s.id).toBe("matrka-course-v1");
-    expect(s.units.length).toBe(26);
-    const st = Object.groupBy(s.units, (u: any) => u.status);
+        expect(s.units.length).toBe(26);
+    expect(s.axis).toMatch(/para as horizon/);
+    expect(Object.keys(s.word_levels).length).toBe(6);const st = Object.groupBy(s.units, (u: any) => u.status);
     expect((st.live ?? []).length).toBeGreaterThan(5);
     expect((st.blocked ?? []).length).toBe(2);
     expect(st.blocked.map((u: any) => u.id).sort()).toEqual(["x01", "x02"]);
