@@ -96,6 +96,7 @@ describe("audio scenes (islands as listenable scenes)", () => {
     expect(src).toContain("ScenePlayer");
     expect(src).toContain("stage3");
   });
+});
 
 describe("daily Hindi loop (islands spec, closed)", () => {
   it("practice log accepts hindi entries (shared sadhana log)", () => {
