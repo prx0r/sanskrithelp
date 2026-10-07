@@ -297,7 +297,7 @@ export default function MemoryHubPage() {
             Start Night 1
           </Link>
           <a
-            href="/memory/audio/cycle_night1_a_aa.mp3"
+            href="/memory/audio/cycle_night1_a_aa_v2.mp3"
             className="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-border text-sm hover:bg-accent"
           >
             <Volume2 className="w-4 h-4" /> Play cycle

@@ -5,35 +5,35 @@ import { ArrowLeft, Volume2, PlayCircle } from "lucide-react";
 
 const TRACKS = [
   {
-    href: "/memory/audio/cycle_night1_a_aa.mp3",
+    href: "/memory/audio/cycle_night1_a_aa_v2.mp3",
     title: "Night 1 cycle",
     desc: "a → forehead · gap · ā → mouth and face · gap",
-    time: "27s",
+    time: "28s",
     primary: true,
   },
   {
-    href: "/memory/audio/cycle_vowels.mp3",
+    href: "/memory/audio/cycle_vowels_v2.mp3",
     title: "Vowels cycle",
     desc: "All 14 vowel pairs, one pass each, 7s gap",
-    time: "2:27",
+    time: "2:35",
   },
   {
-    href: "/memory/audio/cycle_consonants.mp3",
+    href: "/memory/audio/cycle_consonants_v2.mp3",
     title: "Consonants cycle",
-    desc: "ka → dha contrasts, one pass each",
-    time: "2:06",
+    desc: "ka → dha contrasts, one pass each — verse loci (hand/fingers, hip), Ryan cues",
+    time: "2:13",
   },
   {
-    href: "/memory/audio/cycle_full_starter.mp3",
+    href: "/memory/audio/cycle_full_starter_v2.mp3",
     title: "Full starter",
     desc: "All 26 in order, 6s gap each",
-    time: "4:03",
+    time: "4:20",
   },
   {
-    href: "/memory/audio/night1_guided_circuit.mp3",
+    href: "/memory/audio/night1_guided_circuit_v2.mp3",
     title: "Guided circuit",
-    desc: "Full coached Night 1 session (optional)",
-    time: "4:27",
+    desc: "Full coached Night 1 session, Ryan voice (optional)",
+    time: "8:36",
   },
 ];
 
@@ -56,6 +56,7 @@ export default function MemoryAudioPage() {
         <p className="text-muted-foreground text-sm">
           Pattern: <strong className="text-foreground">phoneme clip → locus once → gap for you → next</strong>.
           No in-track coaching loops on the cycles. Play, try yourself in the gap, replay the file.
+          Phonemes are human recordings; English cues are RyanNeural; consonant loci are verse-literal v2.
         </p>
       </div>
 

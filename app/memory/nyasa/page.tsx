@@ -4,7 +4,7 @@ import Link from "next/link";
 import { ArrowLeft, Play, Ear, Hand, Eye, BrainCircuit, ScrollText } from "lucide-react";
 
 const NIGHTS = [
-  { night: 1, pair: ["a", "ā"], loci: ["forehead", "mouth and face"], audio: "/memory/audio/cycle_night1_a_aa.mp3" },
+  { night: 1, pair: ["a", "ā"], loci: ["forehead", "mouth and face"], audio: "/memory/audio/cycle_night1_a_aa_v2.mp3" },
   { night: 2, pair: ["i", "ī"], loci: ["right eye", "left eye"] },
   { night: 3, pair: ["u", "ū"], loci: ["right ear", "left ear"] },
   { night: 4, pair: ["ṛ", "ṝ"], loci: ["right nostril", "left nostril"] },
@@ -51,21 +51,21 @@ export default function MemoryNyasaPage() {
           <code className="text-primary">a</code> → forehead · gap ·{" "}
           <code className="text-primary">ā</code> → mouth and face · gap
         </p>
-        <audio controls className="w-full" src="/memory/audio/cycle_night1_a_aa.mp3" />
+        <audio controls className="w-full" src="/memory/audio/cycle_night1_a_aa_v2.mp3" />
         <div className="mt-3 flex flex-wrap gap-2 text-xs">
           <a className="px-3 py-1.5 rounded-lg bg-primary text-primary-foreground font-medium" href="/memory/practice-chart.html">
             Practice chart + Track 1 audio →
           </a>
-          <a className="px-3 py-1.5 rounded-lg border border-border hover:bg-accent" href="/memory/audio/cycle_vowels.mp3">
+          <a className="px-3 py-1.5 rounded-lg border border-border hover:bg-accent" href="/memory/audio/cycle_vowels_v2.mp3">
             Vowels cycle
           </a>
-          <a className="px-3 py-1.5 rounded-lg border border-border hover:bg-accent" href="/memory/audio/cycle_consonants.mp3">
+          <a className="px-3 py-1.5 rounded-lg border border-border hover:bg-accent" href="/memory/audio/cycle_consonants_v2.mp3">
             Consonants cycle
           </a>
-          <a className="px-3 py-1.5 rounded-lg border border-border hover:bg-accent" href="/memory/audio/cycle_full_starter.mp3">
+          <a className="px-3 py-1.5 rounded-lg border border-border hover:bg-accent" href="/memory/audio/cycle_full_starter_v2.mp3">
             Full starter
           </a>
-          <a className="px-3 py-1.5 rounded-lg border border-border hover:bg-accent" href="/memory/audio/night1_guided_circuit.mp3">
+          <a className="px-3 py-1.5 rounded-lg border border-border hover:bg-accent" href="/memory/audio/night1_guided_circuit_v2.mp3">
             Guided circuit (optional)
           </a>
         </div>

@@ -1,5 +1,18 @@
 # Audio transcripts — public/memory/audio/
 
+## V2 (current UI) — `*_v2.mp3`
+
+Same structures, gaps and event orders as v1 below, with two changes:
+- English cues (loci + guided instruction) re-rendered with **en-GB-RyanNeural**
+  (Edge, keyless via edge-tts lib) replacing espeak. Phoneme clips unchanged (human gold).
+- Consonant cycles use **verse-literal v2 loci** (right hand/fingers, left hand/fingers,
+  left hip — NOT elbow/wrist/buttock). Vowel cycle still 14 (no ḷ/ḹ).
+- Guided circuit v2: same 144 events, Ryan voice, 8:36 (slower delivery).
+- Build: `/root/deitybody/scripts/build_v2_ryan_cycles.py` + `build_v2_guided_circuit.py`.
+- v1 files kept alongside (espeak era, consonants teach apparatus — retired from UI).
+
+## V1 (archived, espeak era)
+
 > Voices: phoneme clips = human grid recordings (learnsanskrit.org set).
 > Grid filename mapping (verified against their templates 2026-10-07):
 > `ta1/tha1/da1/dha1/na1` = retroflex ṭa ṭha ḍa ḍha ṇa; `na_j` = ña; `na_k` = ṅa;
