@@ -270,3 +270,16 @@ describe("canonical table page (invisible made visible)", () => {
     expect(shelf).not.toMatch(/z-library|Anna.?s Archive|pdfcoffee/i);
   });
 });
+
+describe("start-here index (orientation)", () => {
+  it("four guided steps plus a reference shelf, hub points at it first", () => {
+    const src = readFileSync(resolve(ROOT, "app/memory/start/page.tsx"), "utf8");
+    expect(src).toContain("/memory/practice-chart");
+    expect(src).toContain("/memory/nyasa");
+    expect(src).toContain("/memory/audio");
+    expect(src).toContain("/memory/night");
+    expect(src).toContain("two phonemes");
+    const hub = readFileSync(resolve(ROOT, "app/memory/page.tsx"), "utf8");
+    expect(hub).toContain("/memory/start");
+  });
+});

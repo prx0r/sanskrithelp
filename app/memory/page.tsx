@@ -27,6 +27,14 @@ type HubItem = {
 };
 
 const START_HERE = {
+  href: "/memory/start",
+  title: "Start here tonight (4 steps)",
+  subtitle: "Two phonemes · guided path",
+  desc: "Overwhelmed? Do this and nothing else: see the 50, do Night 1 (a + ā), replay, morning check. The reference phonemes + the guide, one page.",
+  icon: Ear,
+};
+
+const TONIGHT = {
   href: "/memory/practice-chart.html",
   title: "Tonight: Full 50 Practice Chart + Track 1",
   subtitle: "Bare phoneme · body · breath — Abhinavagupta",
@@ -245,7 +253,7 @@ export default function MemoryHubPage() {
       </div>
 
       <Link href={START_HERE.href}>
-        <div className="flex gap-4 p-5 rounded-xl border-2 border-primary bg-primary/10 hover:bg-primary/15 transition-all mb-6">
+        <div className="flex gap-4 p-5 rounded-xl border-2 border-primary bg-primary/10 hover:bg-primary/15 transition-all mb-4">
           <div className="w-12 h-12 rounded-xl bg-primary flex items-center justify-center shrink-0">
             <START_HERE.icon className="w-6 h-6 text-primary-foreground" />
           </div>
@@ -253,6 +261,19 @@ export default function MemoryHubPage() {
             <h3 className="font-semibold text-lg">{START_HERE.title}</h3>
             <p className="text-xs text-primary/80 mb-1">{START_HERE.subtitle}</p>
             <p className="text-sm text-muted-foreground">{START_HERE.desc}</p>
+          </div>
+        </div>
+      </Link>
+
+      <Link href={TONIGHT.href}>
+        <div className="flex gap-4 p-4 rounded-xl border border-border bg-card hover:border-primary transition-all mb-6">
+          <div className="w-12 h-12 rounded-xl bg-primary/20 flex items-center justify-center shrink-0">
+            <TONIGHT.icon className="w-6 h-6 text-primary" />
+          </div>
+          <div className="min-w-0 flex-1">
+            <h3 className="font-semibold">{TONIGHT.title}</h3>
+            <p className="text-xs text-primary/80 mb-1">{TONIGHT.subtitle}</p>
+            <p className="text-sm text-muted-foreground">{TONIGHT.desc}</p>
           </div>
         </div>
       </Link>
