@@ -129,7 +129,7 @@ void-pause (not progression loci) — matches our clipless-silence treatment.
 
 ---
 
-## 4. Sixfold course (Ch.6, PDF pp.347–388)
+## 4. Sixfold course — ṣaḍadhvan (Ch.6, PDF pp.347–388)
 
 Two series of three — Way of Time (varṇa → mantra → pada: supreme/subtle/gross)
 and Way of Space (kalā → tattva → bhuvana). Higher pervades lower; dissolution
