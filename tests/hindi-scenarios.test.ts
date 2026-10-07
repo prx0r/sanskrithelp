@@ -68,6 +68,37 @@ describe("field scenarios (NPC shape, own lines)", () => {
   });
 });
 
+describe("adaptive difficulty (config + suggestion)", () => {
+  it("scenarios carry levels + delivery config", () => {
+    const j = JSON.parse(
+      readFileSync(resolve(ROOT, "public/memory/hindi/scenarios.json"), "utf8")
+    );
+    expect(j.difficulty.default).toBe("normal");
+    for (const s of j.scenarios) {
+      expect(s.level, s.id).toBeGreaterThanOrEqual(1);
+      expect(s.config.easy.rate, s.id).toBeLessThan(1);
+      expect(s.config.hard.transcript, s.id).toBe(false);
+    }
+  });
+
+  it("suggestion engine degrades honestly with no history", async () => {
+    const { suggestionFor, RATES, getDifficulty } = await import("../lib/hindi/difficulty");
+    expect(RATES.easy).toBeLessThan(RATES.normal);
+    expect(RATES.hard).toBeGreaterThan(RATES.normal);
+    expect(getDifficulty()).toBe("normal");
+    expect(suggestionFor("no-such-scenario", "normal")).toBeNull();
+  });
+
+  it("SpeakScore tags context; scenarios page has difficulty UI", () => {
+    const sp = readFileSync(resolve(ROOT, "components/SpeakScore.tsx"), "utf8");
+    expect(sp).toContain("context");
+    expect(sp).toContain("[${context}]");
+    const page = readFileSync(resolve(ROOT, "app/memory/hindi/scenarios/page.tsx"), "utf8");
+    expect(page).toContain("Difficulty:");
+    expect(page).toContain("suggestionFor");
+    expect(page).toContain("playbackRate");
+  });
+
 describe("audio scenes (islands as listenable scenes)", () => {
   const j = JSON.parse(
     readFileSync(resolve(ROOT, "public/memory/hindi/scenarios.json"), "utf8")

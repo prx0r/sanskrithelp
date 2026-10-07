@@ -5,10 +5,13 @@ import Link from "next/link";
 import { ArrowLeft, Volume2 } from "lucide-react";
 import { speakHindi } from "@/lib/hindi/speak";
 import SpeakScore from "@/components/SpeakScore";
+import { getDifficulty, setDifficulty, RATES, suggestionFor, type Difficulty } from "@/lib/hindi/difficulty";
 
 type Slot = { speaker: string; text: string; start: number; dur: number; muted: boolean };
 
-function ScenePlayer({ id }: { id: string }) {
+function ScenePlayer({ id, rate, showTranscript, context, onScored }: {
+  id: string; rate: number; showTranscript: boolean; context: string; onScored: () => void;
+}) {
   const [manifest, setManifest] = useState<Record<string, { file: string; slots: Slot[] }> | null>(null);
   const [stage, setStage] = useState("stage1");
   useEffect(() => {
@@ -33,13 +36,14 @@ function ScenePlayer({ id }: { id: string }) {
           </button>
         ))}
       </div>
-      <audio controls preload="none" className="w-full" src={`/memory/hindi/${cur.file}`} />
+      <audio controls preload="none" className="w-full" src={`/memory/hindi/${cur.file}`}
+        ref={(el) => { if (el) el.playbackRate = rate; }} />
       <div className="mt-2 space-y-1.5">
         {cur.slots.map((sl, i) => (
           <div key={i} className={`text-sm rounded p-1.5 ${sl.muted ? "border border-amber-400/40 bg-amber-400/5" : ""}`}>
-            <span className="text-xs text-muted-foreground">{sl.speaker}{sl.muted ? " — YOUR LINE" : ""} · </span>
-            {sl.text}
-            {sl.muted ? <SpeakScore target={sl.text} /> : null}
+            <span className="text-xs text-muted-foreground">{sl.speaker}{sl.muted ? " — YOUR LINE" : ""}{showTranscript || sl.muted ? " · " : ""}</span>
+            {showTranscript || sl.muted ? sl.text : <span className="text-muted-foreground">···</span>}
+            {sl.muted ? <SpeakScore target={sl.text} context={context} onScored={onScored} /> : null}
           </div>
         ))}
       </div>
@@ -52,6 +56,7 @@ type Scenario = {
   title: string;
   subtitle: string;
   stage: number;
+  level?: number;
   objective: string;
   pattern: string;
   vocab: { hindi: string; transliteration: string; english: string }[];
@@ -63,13 +68,29 @@ type Scenario = {
 export default function HindiScenariosPage() {
   const [scenarios, setScenarios] = useState<Scenario[]>([]);
   const [hintsShown, setHintsShown] = useState<Record<string, number>>({});
+  const [difficulty, setDifficultyState] = useState<Difficulty>("normal");
+  const [tick, setTick] = useState(0);
 
   useEffect(() => {
+    setDifficultyState(getDifficulty());
     fetch("/memory/hindi/scenarios.json")
       .then((r) => (r.ok ? r.json() : Promise.reject()))
       .then((j) => setScenarios(j.scenarios ?? []))
       .catch(() => {});
   }, []);
+
+  function pickDifficulty(d: Difficulty) {
+    setDifficulty(d);
+    setDifficultyState(d);
+    if (d === "easy") {
+      setHintsShown((m) => {
+        const next = { ...m };
+        for (const s of scenarios) next[s.id] = s.hints.length;
+        return next;
+      });
+    }
+  }
+  void tick;
 
   return (
     <div className="min-h-[80vh] py-6 pb-28">
@@ -90,13 +111,30 @@ export default function HindiScenariosPage() {
         </p>
       </div>
 
+      <div className="mb-6 flex flex-wrap items-center gap-2">
+        <span className="text-sm text-muted-foreground">Difficulty:</span>
+        {(["easy", "normal", "hard"] as Difficulty[]).map((d) => (
+          <button
+            key={d}
+            onClick={() => pickDifficulty(d)}
+            className={`text-xs px-3 py-1.5 rounded-lg border ${difficulty === d ? "bg-primary text-primary-foreground border-primary" : "border-border hover:bg-accent"}`}
+          >
+            {d === "easy" ? "Easy (slower, transcript, hints)" : d === "normal" ? "Normal" : "Hard (faster, hidden)"}
+          </button>
+        ))}
+      </div>
+
       <div className="grid gap-4">
         {scenarios.map((s) => {
-          const n = hintsShown[s.id] ?? 0;
+          const n = hintsShown[s.id] ?? (difficulty === "easy" ? s.hints.length : 0);
+          const suggestion = suggestionFor(s.id, difficulty);
           return (
             <div key={s.id} className="p-5 rounded-xl border border-border bg-card">
-              <p className="text-xs text-muted-foreground">Stage {s.stage} · {s.subtitle}</p>
+              <p className="text-xs text-muted-foreground">Level {s.level ?? s.stage} · {s.subtitle}</p>
               <h2 className="font-semibold text-xl">{s.title}</h2>
+              {suggestion ? (
+                <p className="text-xs mt-2 rounded-lg border border-amber-400/40 bg-amber-400/5 p-2">{suggestion}</p>
+              ) : null}
               <p className="text-sm text-muted-foreground">{s.objective}</p>
               <p className="text-sm mt-2">
                 Pattern: <code className="text-primary">{s.pattern}</code>
@@ -135,11 +173,12 @@ export default function HindiScenariosPage() {
                 {s.targetLines.map((t) => (
                   <div key={t} className="rounded-lg border border-border p-2.5">
                     <p className="text-base">{t}</p>
-                    <SpeakScore target={t} />
+                    <SpeakScore target={t} context={s.id} onScored={() => setTick((x) => x + 1)} />
                   </div>
                 ))}
               </div>
-              <ScenePlayer id={s.id} />
+              <ScenePlayer id={s.id} rate={RATES[difficulty]} showTranscript={difficulty !== "hard"}
+                context={s.id} onScored={() => setTick((x) => x + 1)} />
             </div>
           );
         })}

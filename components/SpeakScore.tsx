@@ -4,13 +4,13 @@ import { useState } from "react";
 import { Mic, Loader2 } from "lucide-react";
 import { loadEntries, saveEntries } from "@/lib/practiceLog";
 
-function logHindiPractice(label: string, score: number) {
+function logHindiPractice(label: string, score: number, context?: string) {
   try {
     const entries = loadEntries();
     entries.push({
       date: new Date().toISOString().split("T")[0],
       type: "hindi",
-      label: `Scored ${score}: ${label.slice(0, 60)}`,
+      label: `${context ? `[${context}] ` : ""}Scored ${score}: ${label.slice(0, 60)}`,
       duration: 1,
     });
     saveEntries(entries);
@@ -25,7 +25,7 @@ type AssessResult = {
 };
 
 /** Speak the target line, get it scored. Keyless path = browser SpeechRecognition (Chrome). */
-export default function SpeakScore({ target }: { target: string }) {
+export default function SpeakScore({ target, context, onScored }: { target: string; context?: string; onScored?: () => void }) {
   const [state, setState] = useState<"idle" | "listening" | "scoring">("idle");
   const [heard, setHeard] = useState("");
   const [result, setResult] = useState<AssessResult | null>(null);
@@ -48,7 +48,8 @@ export default function SpeakScore({ target }: { target: string }) {
         setErr(j.error);
       } else {
         setResult(j as AssessResult);
-        if (typeof j.score === "number") logHindiPractice(target, j.score);
+        if (typeof j.score === "number") logHindiPractice(target, j.score, context);
+        onScored?.();
       }
     } catch {
       setErr("Assessment unreachable. Your attempt was heard — keep practicing.");

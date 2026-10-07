@@ -94,7 +94,7 @@ export default function HindiTextModePage() {
                   Decompile in wheels →
                 </Link>
               </div>
-              <SpeakScore target={s.hindi_simple} />
+              <SpeakScore target={s.hindi_simple} context={s.unit_id} />
             </div>
           );
         })}
