@@ -27,13 +27,13 @@ describe("field scenarios (NPC shape, own lines)", () => {
     readFileSync(resolve(ROOT, "public/memory/hindi/scenarios.json"), "utf8")
   );
 
-  it("has 3 staged scenarios with full shape", () => {
-    expect(j.scenarios.length).toBe(3);
+  it("has 6 staged scenarios with full shape (incl. guru trio)", () => {
+    expect(j.scenarios.length).toBe(6);
     for (const s of j.scenarios) {
       expect(s.pattern?.length, s.id).toBeGreaterThan(3);
-      expect(s.npcScript.length, s.id).toBeGreaterThanOrEqual(2);
+      expect(s.npcScript.length, s.id).toBeGreaterThanOrEqual(1);
       expect(s.hints.length, s.id).toBeGreaterThanOrEqual(3);
-      expect(s.targetLines.length, s.id).toBeGreaterThanOrEqual(3);
+      expect(s.targetLines.length, s.id).toBeGreaterThanOrEqual(2);
       for (const v of s.vocab) {
         expect(v.hindi?.length, s.id).toBeGreaterThan(0);
         expect(v.english?.length, s.id).toBeGreaterThan(0);

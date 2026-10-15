@@ -1,7 +1,7 @@
 /**
  * Pronunciation assessment — record audio, send to Sabdakrida, get feedback.
  * Reusable for drill (say mode), pronunciation page, and anywhere voice assessment is needed.
- * Falls back to Chutes Whisper when Sabdakrida is unavailable.
+ * Falls back to Cloudflare Whisper when Sabdakrida is unavailable.
  *
  * Usage:
  *   const result = await assessPronunciation(audioBlob, targetIast);
@@ -71,17 +71,17 @@ export async function assessPronunciation(
     const sabdakridaError = data.error ?? "Assessment failed";
     const fallback = await assessPronunciationFallback(audioBlob, targetIast);
     if (fallback) {
-      return { ...fallback, feedback_english: `(Chutes Whisper fallback — Sabdakrida: ${sabdakridaError})` };
+      return { ...fallback, feedback_english: `(Cloudflare Whisper fallback — Sabdakrida: ${sabdakridaError})` };
     }
     return { correct: false, error: sabdakridaError };
   } catch {
     const fallback = await assessPronunciationFallback(audioBlob, targetIast);
     if (fallback) {
-      return { ...fallback, feedback_english: "(Chutes Whisper fallback — Sabdakrida unavailable)" };
+      return { ...fallback, feedback_english: "(Cloudflare Whisper fallback — Sabdakrida unavailable)" };
     }
     return {
       correct: false,
-      error: "Backend unavailable. Run Sabdakrida on port 8010, or set CHUTES_API_KEY for fallback.",
+      error: "Backend unavailable. Run Sabdakrida on port 8010, or set Cloudflare creds for fallback.",
     };
   }
 }
@@ -98,7 +98,7 @@ function normalizeForMatch(s: string): string {
     .replace(/\s+/g, "");
 }
 
-/** Fallback: Chutes Whisper transcribe + simple match when Sabdakrida fails. */
+/** Fallback: Cloudflare Whisper transcribe + simple match when Sabdakrida fails. */
 async function assessPronunciationFallback(
   audioBlob: Blob,
   targetIast: string

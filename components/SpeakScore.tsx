@@ -61,7 +61,7 @@ export default function SpeakScore({ target, context, onScored }: { target: stri
     setErr("");
     setResult(null);
     if (!supported()) {
-      setErr("Browser speech recognition needs Chrome + mic (or CHUTES_API_KEY for server transcription).");
+      setErr("Browser speech recognition needs Chrome + mic (or Cloudflare creds for server transcription).");
       return;
     }
     const SR = (window as any).webkitSpeechRecognition || (window as any).SpeechRecognition;

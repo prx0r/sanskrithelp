@@ -70,7 +70,7 @@ export default function HindiScenariosPage() {
   const [hintsShown, setHintsShown] = useState<Record<string, number>>({});
   const [difficulty, setDifficultyState] = useState<Difficulty>("normal");
   const [tick, setTick] = useState(0);
-  const [voices, setVoices] = useState<Record<string, { file: string }>>({});
+  const [voices, setVoices] = useState<Record<string, { file: string; slow?: string }>>({});
 
   useEffect(() => {
     setDifficultyState(getDifficulty());
@@ -87,7 +87,8 @@ export default function HindiScenariosPage() {
   function hear(text: string) {
     const v = voices[text];
     if (v) {
-      new Audio(`/memory/hindi/scenes/${v.file}`).play().catch(() => speakHindi(text));
+      const f = difficulty === "easy" && v.slow ? v.slow : v.file;
+      new Audio(`/memory/hindi/scenes/${f}`).play().catch(() => speakHindi(text));
     } else {
       speakHindi(text);
     }

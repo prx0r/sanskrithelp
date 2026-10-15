@@ -1,6 +1,6 @@
 {
- "id": "hindi-scenarios-v1",
- "note": "Free-play NPC scenarios (shape ported from hindihelp campaign.json; all lines from sanskrithelp's own Kumbh phrases + Osho anchors). Hints reveal progressively; speak each target line and score it via /api/assess.",
+ "id": "hindi-scenarios-v2",
+ "note": "Free-play NPC scenarios (shape ported from hindihelp campaign.json; guru trio ported 2026-10-15: guru-first-meet, guru-respect, survive-lesson). Voice casting per scenario in `voices` {npc/you/easyNpc} -> lib/hindi/fishVoices.ts roles. Hints reveal progressively; speak each target line and score it via /api/assess.",
  "scenarios": [
   {
    "construction": "X-hii-Y-hai",
@@ -195,6 +195,233 @@
      "english": "Please say again",
      "hindi": "कृपया फिर से कहिए",
      "transliteration": "kṛpayā phir se kahie"
+    }
+   ],
+   "level": 2,
+   "config": {
+    "easy": {
+     "rate": 0.85,
+     "transcript": true,
+     "hints": "auto"
+    },
+    "normal": {
+     "rate": 1.0,
+     "transcript": true,
+     "hints": "manual"
+    },
+    "hard": {
+     "rate": 1.1,
+     "transcript": false,
+     "hints": "manual"
+    }
+   },
+   "adapt": {
+    "struggling_below": 60,
+    "coasting_above": 90,
+    "window": 3
+   }
+  },
+  {
+   "construction": "desire",
+   "hints": [
+    "पहले नमस्ते: नमस्ते गुरुजी",
+    "फिर चाहत: मुझे संस्कृत ___ है",
+    "पूरा बोलो: कृपया मार्गदर्शन कीजिए"
+   ],
+   "id": "guru-first-meet",
+   "npcScript": [
+    {
+     "english": "How much Sanskrit do you know?",
+     "hindi": "कितनी संस्कृत आती है?",
+     "speaker": "Teacher",
+     "transliteration": "kitnī sanskṛt ātī hai?"
+    },
+    {
+     "english": "Good. We begin tomorrow. Will you read the Vijñānabhairava?",
+     "hindi": "अच्छा। कल से शुरू करते हैं। विज्ञानभैरव पढ़ोगे?",
+     "speaker": "Teacher",
+     "transliteration": "acchā. kal se śurū karte haiṅ. vijñānabhairava paṛhoge?"
+    }
+   ],
+   "objective": "Greet a teacher respectfully, explain your level, ask for guidance.",
+   "pattern": "गुरुजी, मैं थोड़ी संस्कृत जानता हूँ। कृपया मार्गदर्शन कीजिए।",
+   "stage": 2,
+   "subtitle": "Greet, place your level, ask guidance",
+   "targetLines": [
+    "नमस्ते गुरुजी। मैं Tom हूँ। मुझे संस्कृत सीखनी है।",
+    "थोड़ी-थोड़ी। मैं लिपि पढ़ सकता हूँ, लेकिन धीरे-धीरे।",
+    "कृपया मार्गदर्शन कीजिए।"
+   ],
+   "title": "गुरु से मिलना — Meet the teacher",
+   "voices": {
+    "npc": "conversation",
+    "you": "female",
+    "easyNpc": "slow"
+   },
+   "vocab": [
+    {
+     "english": "I know a little Sanskrit",
+     "hindi": "थोड़ी संस्कृत आती है",
+     "transliteration": "thoṛī sanskṛt ātī hai"
+    },
+    {
+     "english": "guidance",
+     "hindi": "मार्गदर्शन",
+     "transliteration": "mārgadarśan"
+    },
+    {
+     "english": "slowly / gradually",
+     "hindi": "धीरे-धीरे",
+     "transliteration": "dhīre-dhīre"
+    }
+   ],
+   "level": 2,
+   "config": {
+    "easy": {
+     "rate": 0.85,
+     "transcript": true,
+     "hints": "auto"
+    },
+    "normal": {
+     "rate": 1.0,
+     "transcript": true,
+     "hints": "manual"
+    },
+    "hard": {
+     "rate": 1.1,
+     "transcript": false,
+     "hints": "manual"
+    }
+   },
+   "adapt": {
+    "struggling_below": 60,
+    "coasting_above": 90,
+    "window": 3
+   }
+  },
+  {
+   "construction": "ability-question",
+   "hints": [
+    "शुरू करो: नमस्ते गुरुजी",
+    "दिलचस्पी बताओ: मुझे ___ में दिलचस्पी है",
+    "पूछो: क्या आप मुझे ___ सकते हैं"
+   ],
+   "id": "guru-respect",
+   "npcScript": [
+    {
+     "english": "Good! Where are you from?",
+     "hindi": "अच्छा! तुम कहाँ से हो?",
+     "speaker": "Teacher",
+     "transliteration": "acchā! tum kahā̃ se ho?"
+    }
+   ],
+   "objective": "Meet someone you want to learn from — introduce yourself respectfully, explain your interest.",
+   "pattern": "नमस्ते। मैं X हूँ। मुझे Y में दिलचस्पी है। क्या आप Z सकते हैं?",
+   "stage": 1,
+   "subtitle": "Respectful first meeting",
+   "targetLines": [
+    "नमस्ते गुरुजी। मैं Tom हूँ। मैं संस्कृत सीखना चाहता हूँ।",
+    "मैं इंग्लैंड से हूँ। क्या आप मुझे पढ़ा सकते हैं?"
+   ],
+   "title": "आदर से मिलना — Meet respectfully",
+   "voices": {
+    "npc": "conversation",
+    "you": "female",
+    "easyNpc": "slow"
+   },
+   "vocab": [
+    {
+     "english": "respected teacher",
+     "hindi": "गुरुजी",
+     "transliteration": "gurujī"
+    },
+    {
+     "english": "interest",
+     "hindi": "दिलचस्पी",
+     "transliteration": "dilcaspī"
+    },
+    {
+     "english": "I want to learn",
+     "hindi": "सीखना चाहता हूँ",
+     "transliteration": "sīkhnā cāhtā hū̃"
+    }
+   ],
+   "level": 1,
+   "config": {
+    "easy": {
+     "rate": 0.85,
+     "transcript": true,
+     "hints": "auto"
+    },
+    "normal": {
+     "rate": 1.0,
+     "transcript": true,
+     "hints": "manual"
+    },
+    "hard": {
+     "rate": 1.1,
+     "transcript": false,
+     "hints": "manual"
+    }
+   },
+   "adapt": {
+    "struggling_below": 60,
+    "coasting_above": 90,
+    "window": 3
+   }
+  },
+  {
+   "construction": "imperative-request",
+   "hints": [
+    "धीमे के लिए: कृपया ___ बोलिए",
+    "समझ न आए तो: मुझे यह शब्द ___",
+    "फिर से: कृपया ___ बोलिए"
+   ],
+   "id": "survive-lesson",
+   "npcScript": [
+    {
+     "english": "Now read the third verse of the Vijñānabhairava.",
+     "hindi": "अब विज्ञानभैरव का तीसरा श्लोक पढ़ो।",
+     "speaker": "Teacher",
+     "transliteration": "ab vijñānabhairava kā tīsrā ślok paṛho."
+    },
+    {
+     "english": "The third verse — this one. Read.",
+     "hindi": "तीसरा श्लोक — यह वाला। पढ़ो।",
+     "speaker": "Teacher",
+     "transliteration": "tīsrā ślok — yah vālā. paṛho."
+    }
+   ],
+   "objective": "Survive a lesson using repair phrases — repetition, clarification, slower speech.",
+   "pattern": "कृपया धीरे बोलिए। फिर से बोलिए। इसका मतलब क्या है?",
+   "stage": 2,
+   "subtitle": "Repair phrases that save you",
+   "targetLines": [
+    "गुरुजी, कृपया धीरे बोलिए।",
+    "मुझे यह शब्द समझ नहीं आया। इसका मतलब क्या है?",
+    "कृपया फिर से बोलिए।"
+   ],
+   "title": "क्लास में बचना — Survive the lesson",
+   "voices": {
+    "npc": "conversation",
+    "you": "female",
+    "easyNpc": "slow"
+   },
+   "vocab": [
+    {
+     "english": "please speak slowly",
+     "hindi": "धीरे बोलिए",
+     "transliteration": "dhīre bolie"
+    },
+    {
+     "english": "what does this mean?",
+     "hindi": "इसका मतलब क्या है",
+     "transliteration": "iskā matlab kyā hai"
+    },
+    {
+     "english": "please say again",
+     "hindi": "फिर से बोलिए",
+     "transliteration": "phir se bolie"
     }
    ],
    "level": 2,

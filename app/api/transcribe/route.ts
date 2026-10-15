@@ -1,7 +1,11 @@
 import { NextResponse } from "next/server";
 
-// Speech-to-text via Chutes Whisper — with graceful fallback.
-const WHISPER_URL = "https://chutes-whisper-large-v3.chutes.ai/transcribe";
+// Speech-to-text via Cloudflare Workers AI (Whisper) — with graceful fallback.
+// Default model: whisper-large-v3-turbo. Override with CF_WHISPER_MODEL.
+// Needs CLOUDFLARE_ACCOUNT_ID + CLOUDFLARE_API_TOKEN (same pair as deploy).
+// Without them the client falls back to browser SpeechRecognition (free).
+
+const DEFAULT_MODEL = "@cf/openai/whisper-large-v3-turbo";
 
 export async function POST(req: Request) {
   try {
@@ -16,40 +20,40 @@ export async function POST(req: Request) {
     }
     audioB64 = audioB64.replace(/\s/g, "");
 
-    const apiKey = process.env.CHUTES_API_KEY;
-    if (!apiKey) {
+    const accountId = process.env.CLOUDFLARE_ACCOUNT_ID;
+    const apiToken = process.env.CLOUDFLARE_API_TOKEN;
+    if (!accountId || !apiToken) {
       return NextResponse.json({
         fallback: true,
         message: "Transcription server not configured. Use browser SpeechRecognition.",
       });
     }
+    const model = process.env.CF_WHISPER_MODEL || DEFAULT_MODEL;
 
-    const payload = {
-      args: { audio_b64: audioB64 },
-    };
-    const res = await fetch(WHISPER_URL, {
-      method: "POST",
-      headers: {
-        Authorization: `Bearer ${apiKey}`,
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(payload),
-    });
+    const audioBytes = Buffer.from(audioB64, "base64");
+    const res = await fetch(
+      `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/${model}`,
+      {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${apiToken}`,
+          "Content-Type": "audio/wav",
+        },
+        body: new Uint8Array(audioBytes),
+      }
+    );
 
     if (res.ok) {
-      const contentType = res.headers.get("content-type") ?? "";
-      let text = "";
-      if (contentType.includes("text/plain")) {
-        text = (await res.text()).trim();
-      } else {
-        const data = (await res.json()) as Record<string, unknown>;
-        text = (data?.text as string) ?? (data?.args as Record<string, unknown>)?.text ?? "";
-      }
+      const data = (await res.json()) as {
+        result?: { text?: string } | string;
+      };
+      const result = data?.result;
+      const text = (typeof result === "string" ? result : result?.text ?? "").trim();
       return NextResponse.json({ text });
     }
 
     const lastErr = await res.text();
-    console.error("Whisper error:", lastErr);
+    console.error("Cloudflare Whisper error:", lastErr);
     return NextResponse.json({ error: `Transcription failed: ${lastErr}` }, { status: 400 });
   } catch (error) {
     console.error("Transcribe error:", error);

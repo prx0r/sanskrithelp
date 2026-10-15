@@ -1,62 +1,125 @@
 {
  "नमस्ते। आप किस सूत्र पर बैठे हैं?": {
-  "file": "l00.mp3",
-  "voice": "hi-IN-MadhurNeural"
+  "file": "fish-osho-sutra-1-npc-0.mp3",
+  "voice": "fish-conversation",
+  "slow": "fish-osho-sutra-1-npc-slow-0.mp3"
  },
  "हाँ — चैतन्य ही आत्मा है।": {
-  "file": "l01.mp3",
-  "voice": "hi-IN-MadhurNeural"
+  "file": "fish-osho-sutra-1-npc-1.mp3",
+  "voice": "fish-conversation",
+  "slow": "fish-osho-sutra-1-npc-slow-1.mp3"
  },
  "चैतन्यमात्मा": {
-  "file": "l02.mp3",
-  "voice": "hi-IN-SwaraNeural"
+  "file": "fish-osho-sutra-1-you-0.mp3",
+  "voice": "fish-female"
  },
  "चैतन्य ही आत्मा है।": {
-  "file": "l03.mp3",
-  "voice": "hi-IN-SwaraNeural"
+  "file": "fish-osho-sutra-1-you-1.mp3",
+  "voice": "fish-female"
  },
  "इस सूत्र का अर्थ है कि चैतन्य ही आत्मा है।": {
-  "file": "l04.mp3",
-  "voice": "hi-IN-SwaraNeural"
+  "file": "fish-osho-sutra-1-you-2.mp3",
+  "voice": "fish-female"
  },
  "नमस्ते! आप कहाँ से आए हैं?": {
-  "file": "l05.mp3",
-  "voice": "hi-IN-MadhurNeural"
+  "file": "fish-varanasi-intro-npc-0.mp3",
+  "voice": "fish-conversation",
+  "slow": "fish-varanasi-intro-npc-slow-0.mp3"
  },
  "वाराणसी में स्वागत है। क्या आप हिंदी सीख रहे हैं?": {
-  "file": "l06.mp3",
-  "voice": "hi-IN-MadhurNeural"
+  "file": "fish-varanasi-intro-npc-1.mp3",
+  "voice": "fish-conversation",
+  "slow": "fish-varanasi-intro-npc-slow-1.mp3"
  },
  "मेरा नाम Tom है।": {
-  "file": "l07.mp3",
-  "voice": "hi-IN-SwaraNeural"
+  "file": "fish-varanasi-intro-you-0.mp3",
+  "voice": "fish-female"
  },
  "मैं इंग्लैंड से हूँ।": {
-  "file": "l08.mp3",
-  "voice": "hi-IN-SwaraNeural"
+  "file": "fish-varanasi-intro-you-1.mp3",
+  "voice": "fish-female"
  },
  "मैं हिंदी सीख रहा हूँ।": {
-  "file": "l09.mp3",
-  "voice": "hi-IN-SwaraNeural"
+  "file": "fish-varanasi-intro-you-2.mp3",
+  "voice": "fish-female"
  },
  "क्या आप प्रवचन के लिए आए हैं?": {
-  "file": "l10.mp3",
-  "voice": "hi-IN-MadhurNeural"
+  "file": "fish-kumbh-teacher-npc-0.mp3",
+  "voice": "fish-conversation",
+  "slow": "fish-kumbh-teacher-npc-slow-0.mp3"
  },
  "आप किस परंपरा से जुड़े हैं?": {
-  "file": "l11.mp3",
-  "voice": "hi-IN-MadhurNeural"
+  "file": "fish-kumbh-teacher-npc-1.mp3",
+  "voice": "fish-conversation",
+  "slow": "fish-kumbh-teacher-npc-slow-1.mp3"
  },
  "आप किस परंपरा से हैं?": {
-  "file": "l12.mp3",
-  "voice": "hi-IN-SwaraNeural"
+  "file": "fish-kumbh-teacher-you-0.mp3",
+  "voice": "fish-female"
  },
  "मुझे समझ नहीं आया।": {
-  "file": "l13.mp3",
-  "voice": "hi-IN-SwaraNeural"
+  "file": "fish-kumbh-teacher-you-1.mp3",
+  "voice": "fish-female"
  },
  "कृपया फिर से कहिए।": {
-  "file": "l14.mp3",
-  "voice": "hi-IN-SwaraNeural"
+  "file": "fish-kumbh-teacher-you-2.mp3",
+  "voice": "fish-female"
+ },
+ "कितनी संस्कृत आती है?": {
+  "file": "fish-guru-first-meet-npc-0.mp3",
+  "voice": "fish-conversation",
+  "slow": "fish-guru-first-meet-npc-slow-0.mp3"
+ },
+ "अच्छा। कल से शुरू करते हैं। विज्ञानभैरव पढ़ोगे?": {
+  "file": "fish-guru-first-meet-npc-1.mp3",
+  "voice": "fish-conversation",
+  "slow": "fish-guru-first-meet-npc-slow-1.mp3"
+ },
+ "नमस्ते गुरुजी। मैं Tom हूँ। मुझे संस्कृत सीखनी है।": {
+  "file": "fish-guru-first-meet-you-0.mp3",
+  "voice": "fish-female"
+ },
+ "थोड़ी-थोड़ी। मैं लिपि पढ़ सकता हूँ, लेकिन धीरे-धीरे।": {
+  "file": "fish-guru-first-meet-you-1.mp3",
+  "voice": "fish-female"
+ },
+ "कृपया मार्गदर्शन कीजिए।": {
+  "file": "fish-guru-first-meet-you-2.mp3",
+  "voice": "fish-female"
+ },
+ "अच्छा! तुम कहाँ से हो?": {
+  "file": "fish-guru-respect-npc-0.mp3",
+  "voice": "fish-conversation",
+  "slow": "fish-guru-respect-npc-slow-0.mp3"
+ },
+ "नमस्ते गुरुजी। मैं Tom हूँ। मैं संस्कृत सीखना चाहता हूँ।": {
+  "file": "fish-guru-respect-you-0.mp3",
+  "voice": "fish-female"
+ },
+ "मैं इंग्लैंड से हूँ। क्या आप मुझे पढ़ा सकते हैं?": {
+  "file": "fish-guru-respect-you-1.mp3",
+  "voice": "fish-female"
+ },
+ "अब विज्ञानभैरव का तीसरा श्लोक पढ़ो।": {
+  "file": "fish-survive-lesson-npc-0.mp3",
+  "voice": "fish-conversation",
+  "slow": "fish-survive-lesson-npc-slow-0.mp3"
+ },
+ "तीसरा श्लोक — यह वाला। पढ़ो।": {
+  "file": "fish-survive-lesson-npc-1.mp3",
+  "voice": "fish-conversation",
+  "slow": "fish-survive-lesson-npc-slow-1.mp3"
+ },
+ "गुरुजी, कृपया धीरे बोलिए।": {
+  "file": "fish-survive-lesson-you-0.mp3",
+  "voice": "fish-female"
+ },
+ "मुझे यह शब्द समझ नहीं आया। इसका मतलब क्या है?": {
+  "file": "fish-survive-lesson-you-1.mp3",
+  "voice": "fish-female"
+ },
+ "कृपया फिर से बोलिए।": {
+  "file": "fish-survive-lesson-you-2.mp3",
+  "voice": "fish-female"
  }
 }

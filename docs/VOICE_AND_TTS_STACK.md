@@ -4,7 +4,7 @@
 
 | Component | Where | Model | Sanskrit | English |
 |-----------|-------|------|----------|---------|
-| **Voice input (ASR)** | Next.js `/api/transcribe` | Chutes Whisper large-v3 | ✓ (language param) | ✓ |
+| **Voice input (ASR)** | Next.js `/api/transcribe` | Cloudflare Workers AI whisper-large-v3-turbo | ✓ (auto-detect) | ✓ |
 | **Voice input (ASR)** | sabdakrida mode1 | Bidwill whisper-medium-sanskrit (local) | ✓ (finetuned) | — |
 | **Sanskrit TTS** | sabdakrida `/tts` | indic-parler-tts (local) | ✓ Aryan voice | — |
 | **English/general TTS** | Next.js `/api/tts` | Chutes Kokoro | — | ✓ (hf_alpha) |
@@ -15,12 +15,12 @@
 
 ## Voice Input (Whisper)
 
-### 1. Chutes Whisper (Next.js → `/api/transcribe`)
+### 1. Cloudflare Whisper (Next.js → `/api/transcribe`, default)
 
-- **Model:** `chutes-whisper-large-v3.chutes.ai`
-- **Used by:** RecordButton, PhonemeCard, pronunciation page (when frontend sends audio)
-- **Language:** Optional `language` param; can pass `"sa"` for Sanskrit
-- **Output:** Text transcript
+- **Model:** `@cf/openai/whisper-large-v3-turbo` (override with `CF_WHISPER_MODEL`)
+- **Used by:** RecordButton, PhonemeCard, SpeakScore fallback, pronunciation fallback
+- **Contract:** same `audio_b64` in, `{ text }` out; missing creds → browser SpeechRecognition
+- **Creds:** `CLOUDFLARE_ACCOUNT_ID` + `CLOUDFLARE_API_TOKEN` (same pair as deploy)
 
 ### 2. Local Sanskrit Whisper (sabdakrida mode1)
 
@@ -29,7 +29,7 @@
 - **Why separate:** Sanskrit-finetuned for better phoneme diagnostics (ṭ vs t, aspiration, etc.)
 - **Output:** Devanagari transcript
 
-**Clarification:** Pronunciation page sends audio to `/api/sabdakrida/session` (mode1) → sabdakrida uses **local Sanskrit Whisper**. The Next.js `/api/transcribe` (Chutes Whisper) is used by RecordButton, PhonemeCard on drill/guided-lesson pages.
+**Clarification:** Pronunciation page sends audio to `/api/sabdakrida/session` (mode1) → sabdakrida uses **local Sanskrit Whisper**. The Next.js `/api/transcribe` (Cloudflare Whisper) is used by RecordButton, PhonemeCard, SpeakScore fallback on drill/scenario pages.
 
 ---
 
@@ -110,7 +110,7 @@ Qwen (Qwen3.5-397B) → text reply → Chutes Kokoro /speak → audio
 
 | Use case | Choice |
 |----------|--------|
-| User voice input | Chutes Whisper (with `language: "sa"` for Sanskrit) |
+| User voice input | Cloudflare Whisper (auto-detect, same creds as deploy) |
 | Sanskrit TTS | indic-parler (local) |
 | English TTS (Qwen replies) | Chutes Kokoro |
 | LLM | Qwen3.5-397B-A17B-TEE |
