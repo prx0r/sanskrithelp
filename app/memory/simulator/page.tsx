@@ -17,10 +17,17 @@ import {
   saveWorld,
   worldFromStorage,
 } from "@/lib/sanskrit/world";
+import CoachManual from "./CoachManual";
+import {
+  morphTransferSkillId,
+  sandhiBoundarySkillId,
+  verseReverseSkillId,
+  zoneSkillId,
+} from "@/lib/learning/skills";
+import { commitSimulatorAttempt } from "@/lib/learning/skillModel";
 import {
   defaultLearner,
   loadLearner,
-  recordOutcome,
   saveLearner,
   weakestGeneralization,
 } from "@/lib/sanskrit/learner";
@@ -83,6 +90,62 @@ export default function SimulatorPage() {
   const verse = world.verses[verseId] ?? ASATO_MAM_ASATO;
   const floors = useMemo(() => roweFloors(world), [world]);
   const weak = weakestGeneralization(learner);
+  const coachTask = useMemo(() => {
+    if (mode === "PLAY") {
+      return {
+        taskId: "simulator:play:morph",
+        skillId: morphTransferSkillId(pendingRoot, pendingOp),
+        stimulus: `${pendingRoot} + ${pendingOp || "plain"} on ${verse.surface}`,
+        expected: "Predict the surface, then read the Pāṇini verdict",
+        engineState: {
+          verseId: verse.id,
+          verseSurface: verse.surface,
+          root: pendingRoot,
+          operator: pendingOp,
+          sandhi: `${sandhiL} + ${sandhiR}`,
+        },
+      };
+    }
+    if (mode === "DECOMPILE") {
+      return {
+        taskId: "simulator:decompile:verse",
+        skillId: verseReverseSkillId(verse.id),
+        stimulus: decSurface,
+        expected: "List candidate roots/operators before revealing hidden machinery",
+        engineState: { verseId: verse.id, verseSurface: verse.surface, input: decSurface },
+      };
+    }
+    if (mode === "GENERATE") {
+      return {
+        taskId: "simulator:generate:morph",
+        skillId: morphTransferSkillId(genRoot, genOp),
+        stimulus: `${genIntent}; root ${genRoot}; operator ${genOp || "plain"}`,
+        expected: "Predict the surface, then read valid/conditional/invalid",
+        engineState: { intent: genIntent, root: genRoot, operator: genOp },
+      };
+    }
+    const floor = floors.find((item) => item.id === walkFloor) ?? floors[0];
+    return {
+      taskId: "simulator:inhabit:walk",
+      skillId: zoneSkillId(`rowe-${floor.id}`, "reverseParse"),
+      stimulus: `${floor.name}: ${floor.nodes.join(", ")}`,
+      expected: "Name one installed machine, gate, or root on this floor",
+      engineState: { floor: floor.id, nodes: floor.nodes },
+    };
+  }, [
+    mode,
+    pendingRoot,
+    pendingOp,
+    verse,
+    sandhiL,
+    sandhiR,
+    decSurface,
+    genIntent,
+    genRoot,
+    genOp,
+    floors,
+    walkFloor,
+  ]);
 
   const latent = useMemo(() => {
     const key = `${phonPlace}|${voice}|${asp}|${nas}`;
@@ -111,35 +174,63 @@ export default function SimulatorPage() {
     };
     const outcome = validateMorph(morph, verse);
     setKind(outcome.kind);
-    setLearner((l) => recordOutcome(l, pendingOp || pendingRoot, outcome.kind === "valid", pendingRoot));
     if (outcome.kind !== "invalid") {
       const next = applyMorphToVerse(verse, morph);
       if (next) {
+        const { learner: updatedLearner } = commitSimulatorAttempt(learner, {
+          skillId: morphTransferSkillId(pendingRoot, pendingOp),
+          taskId: "simulator:play:morph",
+          mode: "PLAY",
+          stimulus: { root: pendingRoot, operator: pendingOp, verseSurface: verse.surface },
+          expected: next.surface,
+          response: { root: pendingRoot, operator: pendingOp },
+          correct: outcome.kind === "valid",
+        });
+        setLearner(updatedLearner);
         setWorld(installVerse(world, next));
         setMessage(
           outcome.kind === "valid"
             ? `World transforms → ${next.surface}`
-            : `${outcome.message}\n→ ${next.surface}`
+            : `${outcome.message}\n→ ${next.surface}`,
         );
         setWorld((w) => ({
           ...w,
           todaysActivated: Array.from(
-            new Set([...w.todaysActivated, pendingRoot, pendingOp || "plain", next.surface])
+            new Set([...w.todaysActivated, pendingRoot, pendingOp || "plain", next.surface]),
           ),
         }));
       }
     } else {
+      const { learner: updatedLearner } = commitSimulatorAttempt(learner, {
+        skillId: morphTransferSkillId(pendingRoot, pendingOp),
+        taskId: "simulator:play:morph",
+        mode: "PLAY",
+        stimulus: { root: pendingRoot, operator: pendingOp, verseSurface: verse.surface },
+        expected: outcome.message,
+        response: { root: pendingRoot, operator: pendingOp },
+        correct: false,
+      });
+      setLearner(updatedLearner);
       setMessage(outcome.message);
     }
   }
 
   function doSandhi() {
-    setPredicted(predictBoundary(sandhiL, sandhiR));
+    const prediction = predictBoundary(sandhiL, sandhiR);
+    setPredicted(prediction);
     const result = collide(sandhiL, sandhiR);
+    const correct = !!result && result.operator !== "no sandhi (teaching default)";
+    const { learner: updatedLearner } = commitSimulatorAttempt(learner, {
+      skillId: sandhiBoundarySkillId(sandhiL, sandhiR),
+      taskId: "simulator:play:sandhi",
+      mode: "PLAY",
+      stimulus: { left: sandhiL, right: sandhiR },
+      expected: result?.after,
+      response: prediction || result?.after,
+      correct,
+    });
+    setLearner(updatedLearner);
     setSandhiOut(result);
-    setLearner((l) =>
-      recordOutcome(l, "sandhi", !!result && result.operator !== "no sandhi (teaching default)", sandhiL)
-    );
     if (result) {
       setWorld((w) =>
         installVerse(w, {
@@ -162,17 +253,35 @@ export default function SimulatorPage() {
     const d = decompile(decSurface);
     if (!d) {
       setDecSteps([]);
+      const { learner: updatedLearner } = commitSimulatorAttempt(learner, {
+        skillId: verseReverseSkillId(decSurface || "unknown-surface"),
+        taskId: "simulator:decompile:verse",
+        mode: "DECOMPILE",
+        stimulus: decSurface,
+        expected: "Recognized teaching verse",
+        response: "unknown surface",
+        correct: false,
+      });
+      setLearner(updatedLearner);
       setMessage("Unknown surface in teaching set. Try: asato mā sad gamaya · madhye madhye · ūrdhve prāṇo…");
       setKind("invalid");
       return;
     }
     setDecSteps(d.steps);
+    commitSimulatorAttempt(learner, {
+      skillId: verseReverseSkillId(d.verse.id),
+      taskId: "simulator:decompile:verse",
+      mode: "DECOMPILE",
+      stimulus: d.verse.surface,
+      expected: d.verse.morph.map((m) => `${m.root}${m.operator ? ` + ${m.operator}` : ""}`),
+      response: d.steps.map((step) => step.a),
+      correct: null,
+    });
     setWorld(installVerse(world, d.verse));
     setWorld((w) => ({
       ...w,
       todaysActivated: Array.from(new Set([...w.todaysActivated, d.verse.id, ...d.verse.installedMachines, ...d.verse.knownRoots])),
     }));
-    setLearner((l) => recordOutcome(l, d.verse.id, true));
     setMessage(`Installed ${d.verse.surface} — machines: ${d.verse.installedMachines.join(", ")}`);
     setKind("valid");
   }
@@ -188,6 +297,16 @@ export default function SimulatorPage() {
     setGenVal(g.validation.kind + " — " + g.validation.message);
     setKind(g.validation.kind);
     if (g.validation.kind !== "invalid") {
+      const { learner: updatedLearner } = commitSimulatorAttempt(learner, {
+        skillId: morphTransferSkillId(genRoot, genOp),
+        taskId: "simulator:generate:morph",
+        mode: "GENERATE",
+        stimulus: { intent: genIntent, root: genRoot, operator: genOp },
+        expected: g.surface,
+        response: { root: genRoot, operator: genOp },
+        correct: g.validation.kind === "valid",
+      });
+      setLearner(updatedLearner);
       setWorld((w) =>
         installVerse(w, {
           ...verse,
@@ -204,7 +323,6 @@ export default function SimulatorPage() {
         ...w,
         todaysActivated: Array.from(new Set([...w.todaysActivated, genRoot, genOp || "plain", g.surface])),
       }));
-      setLearner((l) => recordOutcome(l, genOp || genRoot, g.validation.kind === "valid", genRoot));
     }
   }
 
@@ -228,6 +346,15 @@ export default function SimulatorPage() {
     const t = templateById(id);
     if (!t) return;
     const v = templateToVerse(t);
+    commitSimulatorAttempt(learner, {
+      skillId: verseReverseSkillId(v.id),
+      taskId: "simulator:verse:load",
+      mode: mode,
+      stimulus: v.surface,
+      expected: v.morph.map((m) => `${m.root}${m.operator ? ` + ${m.operator}` : ""}`),
+      response: "verse opened",
+      correct: null,
+    });
     setWorld(installVerse(world, v));
     setWorld((w) => ({
       ...w,
@@ -284,6 +411,8 @@ export default function SimulatorPage() {
           <strong>Weakest generalization:</strong> {weak.id} · {weak.field} ({weak.value.toFixed(2)})
         </div>
       )}
+
+      <CoachManual mode={mode} learner={learner} currentTask={coachTask} />
 
       {message && (
         <div
