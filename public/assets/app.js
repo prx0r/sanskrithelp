@@ -314,6 +314,8 @@ async function openReference(stemId) {
   $('#fb-empty').hidden = true;
   $('#fb-body').hidden = true;
   $('#fb-ref').hidden = false;
+  $('#modes').style.visibility = 'hidden';
+  $('#r-hint').textContent = 'Tap any form to see its derivation.';
 
   $('#r-deva').textContent = stem.deva;
   $('#r-iast').textContent = stem.iast;
@@ -392,6 +394,8 @@ async function openVerbRef(rootId, lakId) {
   $('#drillview').hidden = true;
   $('#refview').hidden = false;
   $('#fb-empty').hidden = true; $('#fb-body').hidden = true; $('#fb-ref').hidden = false;
+  $('#modes').style.visibility = 'hidden';
+  $('#r-hint').textContent = 'Tap any form to see its derivation.';
 
   $('#r-deva').textContent = root.deva;
   $('#r-iast').textContent = root.iast;
@@ -652,6 +656,7 @@ async function newQuestion() {
   S.view = 'drill';
   $('#drillview').hidden = false;
   $('#refview').hidden = true;
+  $('#modes').style.visibility = 'visible';
   S.q = await makeQuestion();
   clearFeedback();
   renderModes();

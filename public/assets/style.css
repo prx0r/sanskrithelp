@@ -300,13 +300,16 @@ button{font:inherit;color:inherit;cursor:pointer}
 /* ================= reference view ================= */
 .view{display:flex;flex-direction:column;min-height:0;flex:1}
 #refview{gap:8px}
-.refhead{display:flex;align-items:flex-end;gap:14px;flex-wrap:wrap;flex:0 0 auto}
+.refhead{display:grid;grid-template-columns:1fr auto;gap:6px 14px;flex:0 0 auto;align-items:center}
+.refstem{grid-column:1;grid-row:1}
+.r-meta{grid-column:1;grid-row:2}
+.r-actions{grid-column:2;grid-row:1 / span 2;justify-self:end;text-align:right}
 .refstem{display:flex;align-items:baseline;gap:10px}
 .r-deva{font-size:38px;line-height:1.1;font-weight:600}
 .r-iast{font-size:19px;font-style:italic;color:var(--fc)}
 .r-meta{display:flex;align-items:center;gap:9px;flex-wrap:wrap;font-size:12.5px;color:var(--muted)}
 .r-gender{color:var(--dim)}
-.r-actions{margin-left:auto;display:flex;align-items:center;gap:10px;font-size:11px;color:var(--dim)}
+.r-actions{display:flex;flex-direction:column;align-items:flex-end;gap:5px;font-size:11px;color:var(--dim)}
 .r-siblings b{color:var(--muted);font-weight:600}
 .reftable{flex:1 1 auto;min-height:0;overflow:auto;border:1px solid var(--line);
   border-radius:12px;background:var(--panel);padding:8px}
