@@ -774,6 +774,7 @@ async function showLearn(st) {
 
   paintStats();
   renderRail();
+  renderSide();
 }
 
 /* ============================================================
@@ -977,16 +978,87 @@ function renderStageGrid(q, revealed) {
     `<div class="sg-hint">${esc(q.root.iast)} · ${esc(q.lak.en)} — you answered without it</div>`;
 }
 
-/* ---------------- feedback ---------------- */
-function renderLegend() {
-  const host = $('#legend');
-  if (S.track === 'noun') {
-    host.innerHTML = S.index.families.map((f) =>
-      `<li><i style="background:${f.colour}"></i><b>${esc(f.label)}</b><span class="lw">${esc(f.deva)}</span></li>`).join('');
-  } else if (S.verbs) {
-    host.innerHTML = S.verbs.lakara.map((l) =>
-      `<li><i style="background:${l.colour}"></i><b>${esc(l.en)}</b><span class="lw">${esc(l.deva)}</span></li>`).join('');
+/* ---------------- side panel: contextual, never a duplicate list ---------------- */
+function scopeFamilies() {
+  const st = S.stage;
+  if (st && st.families && st.families.length)
+    return S.index.families.filter((f) => st.families.includes(f.id));
+  return S.index.families;
+}
+function scopeTenses() {
+  const st = S.stage;
+  if (!S.verbs) return [];
+  if (st && st.lakara && st.lakara.length)
+    return S.verbs.lakara.filter((l) => st.lakara.includes(l.id));
+  return S.verbs.lakara;
+}
+function legendHtml(items) {
+  return `<ul class="legend">` + items.map((x) =>
+    `<li><i style="background:${x.colour}"></i><b>${esc(x.label || x.en)}</b>` +
+    (x.deva ? `<span class="lw">${esc(x.deva)}</span>` : '') + `</li>`).join('') + `</ul>`;
+}
+async function ruleSheetHtml() {
+  // the open-book rule sheet: sup + operation per case/tense in scope.
+  // It names the rule, never the answer (no full forms).
+  try {
+    if (S.track === 'noun') {
+      const fams = scopeFamilies();
+      const fam = fams[0];
+      if (!fam) return '';
+      const doc = await loadFamily(fam.id);
+      const stemId = fam.stems[0];
+      const p = doc.stems[stemId].paradigm;
+      const cases = (S.stage && S.stage.cases && S.stage.cases.length)
+        ? S.index.vibhakti.filter((v) => S.stage.cases.includes(v.id)) : S.index.vibhakti;
+      const rows = cases.map((v) => {
+        const c = p[v.id]?.['eka'];
+        if (!c || c.status !== 'DERIVED') return '';
+        const op = (c.steps || []).find(([, , r]) => r === 'operation');
+        return `<div class="rs-r"><div class="rs-lb"><b>${esc(v.en)}</b><span>${esc(v.question)}</span></div>` +
+          `<code>${esc(c.sup || '')}${op ? ' → ' + esc(op[0]) : ''}</code></div>`;
+      }).join('');
+      return `<div class="rs">${rows}</div>
+        <div class="dim">e.g. ${esc(stemById(stemId).iast)} · open book — the form is still yours to produce</div>`;
+    }
+    const tens = scopeTenses();
+    if (!tens.length) return '';
+    await ensureVerbs();
+    const roots = (S.stage && S.stage.roots && S.stage.roots.length)
+      ? S.verbs.roots.filter((r) => S.stage.roots.includes(r.id)) : S.verbs.roots;
+    const root = roots[0];
+    if (!root) return '';
+    const rows = tens.map((l) => {
+      const c = S.verbs.paradigms[root.id]?.[l.id]?.['Prathama.Eka'];
+      return `<div class="rs-r"><div class="rs-lb"><b>${esc(l.en)}</b><span>${esc(l.note || '')}</span></div>` +
+        `<code>${esc(c && c.status === 'DERIVED' ? c.iast : '—')}</code></div>`;
+    }).join('');
+    return `<div class="rs">${rows}</div>
+      <div class="dim">e.g. root ${esc(root.iast)} (${esc(root.gloss)}), 3rd singular</div>`;
+  } catch (e) { return ''; }
+}
+async function renderSide() {
+  const title = $('#fb-empty-t'), host = $('#legend');
+  if (S.view === 'learn' && S.stage) {
+    const st = S.stage;
+    const scope = st.track === 'noun'
+      ? (st.families && st.families.length ? st.families.map((id) =>
+          (S.index.families.find((f) => f.id === id) || {}).label).join(', ') : 'all families')
+      : (st.lakara && st.lakara.length ? st.lakara.map((id) =>
+          (S.verbs.lakara.find((l) => l.id === id) || {}).en).join(', ') : 'all tenses');
+    title.textContent = st.title;
+    host.outerHTML = `<div id="legend"><div class="brief"><p>${esc(st.why)}</p>
+      <div class="dim">Scope: ${esc(scope)} · pass at 90% over 10+</div></div></div>`;
+    return;
   }
+  if (S.view === 'drill' && !S.answered) {
+    title.textContent = S.stage ? S.stage.title + ' — rule sheet' : 'Rule sheet';
+    const sheet = await ruleSheetHtml();
+    const items = S.track === 'noun' ? scopeFamilies() : scopeTenses();
+    host.outerHTML = `<div id="legend">${sheet}${legendHtml(items)}</div>`;
+    return;
+  }
+  title.textContent = 'Pick a stage on the left, or browse to a stem.';
+  host.outerHTML = `<div id="legend"></div>`;
 }
 
 function renderFeedback(q, verdict, input) {
@@ -1372,6 +1444,7 @@ async function newQuestion() {
   renderModes();
   renderRail();
   renderCue(S.q);
+  renderSide();
   // family pad renders before answering (it IS the answer control);
   // paradigm grids render only after (see renderAfter)
   if (S.q.mode === 'family') renderStageGrid(S.q, false);
@@ -1491,7 +1564,7 @@ function wire() {
     syncTrackButtons();
     const boot = S.track === 'verb' ? ensureVerbs() : Promise.resolve();
     boot.then(() => {
-      renderLegend();
+      renderSide();
       const first = stagesForTrack().find((s) => stageUnlocked(s));
       if (first) startStage(first); else { renderRail(); }
     });
@@ -1572,7 +1645,7 @@ function wire() {
   try { await loadFrames(); } catch (e) { /* fallbacks stand in */ }
   window.__prakriya = S;
   wire();
-  renderLegend();
+  renderSide();
   const first = stagesForTrack().find((s) => stageUnlocked(s));
   if (first) startStage(first);
   else { renderRail(); showView('learn'); }
