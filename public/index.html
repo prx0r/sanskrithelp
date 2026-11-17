@@ -2,152 +2,83 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Prakriyā Wheel — Sanskrit declension, formally</title>
-<meta name="description" content="Every Sanskrit noun form derived by a Pāṇinian engine, colour-coded by role: stem, class, affix, operation, surface. 57 stems, 17 families, 1368 forms.">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+<title>Prakriyā — Sanskrit declension trainer</title>
+<meta name="description" content="Learn Sanskrit noun families by colour. Type the form, check it, see exactly what went wrong.">
 <link rel="canonical" href="https://sanskrit.help/">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://sanskrit.help/">
-<meta property="og:title" content="Prakriyā Wheel — Sanskrit declension, formally">
-<meta property="og:description" content="Every Sanskrit noun form derived by a Pāṇinian engine, colour-coded by role. 57 stems, 17 families, 1,368 forms.">
-<meta name="twitter:card" content="summary">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%2714%27 fill=%27%230b1420%27/%3E%3Ctext x=%2732%27 y=%2744%27 font-size=%2736%27 text-anchor=%27middle%27 fill=%27%2342cbb6%27%3E%E0%A4%AA%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%2714%27 fill=%27%230d1117%27/%3E%3Ctext x=%2732%27 y=%2745%27 font-size=%2738%27 text-anchor=%27middle%27 fill=%27%234f9cff%27%3E%E0%A4%AA%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 
-<header class="top">
-  <div class="wrap">
-    <div class="brand">
-      <span class="brand-deva">प्रक्रिया</span>
-      <span class="brand-en">Prakriyā Wheel</span>
-    </div>
-    <nav class="nav">
-      <a href="#lesson">Lesson</a>
-      <a href="#wheel">Wheel</a>
-      <a href="#trace">Derivation</a>
-      <a href="#drill">Drill</a>
-    </nav>
+<header class="bar">
+  <div class="brand"><span class="bd">प्रक्रिया</span><span class="be">Prakriyā</span></div>
+
+  <nav class="modes" id="modes">
+    <button class="mode on" data-mode="family"><b>Family</b><small>name the class</small></button>
+    <button class="mode" data-mode="build"><b>Build</b><small>type the form</small></button>
+    <button class="mode" data-mode="reverse"><b>Reverse</b><small>name the case</small></button>
+    <button class="mode" data-mode="mix"><b>Mix</b><small>everything</small></button>
+  </nav>
+
+  <div class="stats">
+    <div class="stat"><b id="s-streak">0</b><span>streak</span></div>
+    <div class="stat"><b id="s-acc">—</b><span>acc</span></div>
+    <button class="ghost" id="btn-reset" title="Reset this device">reset</button>
   </div>
 </header>
 
-<main class="wrap">
+<main class="app">
 
-<section class="hero">
-  <div class="eyebrow">Sanskrit · formal declension system · v1</div>
-  <h1>Learn the <em>machine</em>, not 1,368 forms.</h1>
-  <p class="lead">Five colours, five jobs. Pick a stem, pick a case, pick a number — and watch a real
-  Pāṇinian engine do the work, step by step, with the sūtra that fired at each step.
-  Nothing on this page was typed from memory: <strong id="stat-forms">every form</strong> comes from Vidyut&nbsp;0.4.0.</p>
-
-  <div class="statbar" id="statbar">
-    <div><b id="stat-stems">57</b><span>stems</span></div>
-    <div><b id="stat-families">17</b><span>families</span></div>
-    <div><b id="stat-forms2">1368</b><span>forms</span></div>
-    <div><b id="stat-cc">72/72</b><span>hand-check</span></div>
-  </div>
-</section>
-
-<!-- ============ 1. THE COLOUR SYSTEM ============ -->
-<section class="block" id="lesson">
-  <h2><span class="num">1</span> The five colours</h2>
-  <p class="sub">This is the whole system. Every derivation on this site is a path through these five layers, in this order.</p>
-
-  <div class="formula" aria-label="the formal rule">
-    <span class="layer" data-layer="surface"><i>rūpa</i><small>surface</small></span>
-    <span class="eq">=</span>
-    <span class="layer" data-layer="operation"><i>saṃskāra</i><small>operation</small></span>
-    <span class="paren">(</span>
-    <span class="layer" data-layer="affix"><i>pratyaya</i><small>affix</small></span>
-    <span class="paren">(</span>
-    <span class="layer" data-layer="class"><i>gaṇa</i><small>class</small></span>
-    <span class="paren">(</span>
-    <span class="layer" data-layer="stem"><i>aṅga</i><small>stem</small></span>
-    <span class="paren">)</span><span class="paren">)</span><span class="paren">)</span>
-  </div>
-
-  <div class="legend" id="legend"></div>
-  <p class="note">Two more colours exist but are not steps you choose: <span class="chip" data-layer="definition">grey</span>
-  for saṃjñā (the grammar naming things) and <span class="chip" data-layer="sound">violet</span> for sandhi
-  (sound adjustment at the end). <span class="chip" data-layer="blocked">red</span> means a slot the engine could not fill — it never renders a guess.</p>
-</section>
-
-<!-- ============ 2. THE LADDER ============ -->
-<section class="block">
-  <h2><span class="num">2</span> The ladder</h2>
-  <p class="sub">Each rung adds one ring. You only see the rings your rung has unlocked.</p>
-  <div class="ladder" id="ladder"></div>
-</section>
-
-<!-- ============ 3. THE WHEEL ============ -->
-<section class="block" id="wheel">
-  <h2><span class="num">3</span> The wheel</h2>
-  <p class="sub">Blue picks the stem, green names its class, amber picks the ending. Rotate any of them and the derivation changes.</p>
-
-  <div class="pickers">
-    <div class="picker">
-      <div class="picker-label"><span class="dot" data-layer="class"></span> class · <span class="pick-count" id="fam-count"></span></div>
-      <div class="chips" id="families"></div>
+  <!-- ============ rail: families ============ -->
+  <aside class="rail" id="rail">
+    <div class="rail-head">
+      <span>Families</span>
+      <button class="ghost sm" id="btn-all">all</button>
     </div>
-    <div class="picker">
-      <div class="picker-label"><span class="dot" data-layer="stem"></span> stem · <span class="pick-count" id="stem-count"></span></div>
-      <div class="chips" id="stems"></div>
-    </div>
-  </div>
+    <div class="famlist" id="famlist"></div>
+  </aside>
 
-  <div class="wheel-grid">
-    <div class="matrix-wrap">
-      <div class="matrix-head">
-        <div class="mh-corner"><span class="dot" data-layer="affix"></span> case ↓ · number →</div>
-        <div class="mh" data-vac="eka">एकवचन<small>singular</small></div>
-        <div class="mh" data-vac="dvi">द्विवचन<small>dual</small></div>
-        <div class="mh" data-vac="bahu">बहुवचन<small>plural</small></div>
+  <!-- ============ stage ============ -->
+  <section class="stage">
+
+    <div class="prompt" id="prompt">
+      <div class="p-stem">
+        <span class="p-deva dev" id="p-deva">देव</span>
+        <span class="p-iast" id="p-iast">deva</span>
+        <span class="p-gloss" id="p-gloss">god</span>
       </div>
-      <div id="matrix"></div>
-      <p class="note" id="fam-note"></p>
+      <div class="p-ask" id="p-ask">Which family?</div>
+      <div class="p-tags" id="p-tags"></div>
     </div>
 
-    <aside class="output">
-      <div class="out-label"><span class="dot" data-layer="surface"></span> rūpa · surface</div>
-      <div class="bigword" id="bigword">—</div>
-      <div class="bigsub" id="bigsub"></div>
-      <div class="slot-line" id="slotline"></div>
-      <div class="mode-row" id="modes">
-        <button class="mode active" data-mode="explore">Explore</button>
-        <button class="mode" data-mode="generate">Generate</button>
-        <button class="mode" data-mode="reverse">Reverse</button>
-        <button class="mode" data-mode="surgery">Rule surgery</button>
-      </div>
-      <div id="gamebox"></div>
-      <div class="status" id="status" aria-live="polite"></div>
-      <div class="progress"><div id="bar"></div></div>
-      <div class="score" id="score"></div>
-    </aside>
-  </div>
-</section>
+    <div class="answer" id="answer">
+      <input id="input" type="text" autocomplete="off" autocorrect="off"
+             autocapitalize="off" spellcheck="false" placeholder="type your answer…">
+      <button id="btn-check" class="primary">Check</button>
+    </div>
 
-<!-- ============ 4. DERIVATION ============ -->
-<section class="block" id="trace">
-  <h2><span class="num">4</span> What actually happened</h2>
-  <p class="sub">One row per engine step. The sūtra number is the one the engine fired — not a label we added.</p>
-  <div class="trace" id="tracebody"><p class="note">Pick a cell above.</p></div>
-  <div class="banner" id="trace-banner"></div>
-</section>
+    <div class="keys" id="keys"></div>
 
-<!-- ============ 5. DRILL ============ -->
-<section class="block" id="drill">
-  <h2><span class="num">5</span> Drill</h2>
-  <p class="sub">Mixed questions from the whole catalogue: generate a form, name an analysis, predict an operation.</p>
-  <div class="drill" id="drillbody"></div>
-</section>
+    <div class="hintline" id="hint"></div>
+  </section>
 
-<footer class="foot">
-  <p><strong>Sources.</strong> Forms and step traces generated by Vidyut&nbsp;0.4.0 (Ambuda project, MIT), from the Aṣṭādhyāyī rule inventory.
-  Sūtra numbers are shared grammatical facts. The engine is computational: a derivation is a computation, not a scholarly reading.</p>
-  <p><strong>Honesty.</strong> Hand-curated reference tables were cross-checked against the engine slot by slot:
-  <span id="foot-cc">—</span>. Disagreements would be listed here, never hidden.</p>
-  <p class="dim">Rebuild: <code>python3 tools/build_paradigms.py</code> · <a href="data/index.json">raw data</a></p>
-</footer>
+  <!-- ============ feedback ============ -->
+  <aside class="feedback" id="feedback">
+    <div class="fb-empty" id="fb-empty">
+      <div class="fb-empty-t">Type an answer, then press Enter.</div>
+      <ul class="legend" id="legend"></ul>
+    </div>
+    <div class="fb-body" id="fb-body" hidden>
+      <div class="verdict" id="verdict"></div>
+      <div class="correct" id="correct"></div>
+      <div class="yours" id="yours"></div>
+      <div class="grid" id="grid"></div>
+      <button class="ghost why" id="btn-why">why? show the derivation</button>
+      <div class="trace" id="trace" hidden></div>
+      <button class="primary next" id="btn-next">Next →</button>
+    </div>
+  </aside>
 
 </main>
 

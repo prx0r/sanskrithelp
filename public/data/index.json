@@ -71,6 +71,7 @@
  "errors": [],
  "families": [
   {
+   "colour": "#4f9cff",
    "deva": "अकारान्त पुंल्लिङ्ग",
    "file": "data/fam/a-masc.json",
    "gender": "Pum",
@@ -90,6 +91,7 @@
    ]
   },
   {
+   "colour": "#38d6e0",
    "deva": "अकारान्त नपुंसक",
    "file": "data/fam/a-neut.json",
    "gender": "Napumsaka",
@@ -108,6 +110,7 @@
    ]
   },
   {
+   "colour": "#ff5f9e",
    "deva": "आकारान्त स्त्रीलिङ्ग",
    "file": "data/fam/aa-fem.json",
    "gender": "Stri",
@@ -125,6 +128,7 @@
    ]
   },
   {
+   "colour": "#f472b6",
    "deva": "ईकारान्त स्त्रीलिङ्ग",
    "file": "data/fam/ii-fem.json",
    "gender": "Stri",
@@ -140,6 +144,7 @@
    ]
   },
   {
+   "colour": "#c084fc",
    "deva": "ऊकारान्त स्त्रीलिङ्ग",
    "file": "data/fam/uu-fem.json",
    "gender": "Stri",
@@ -152,6 +157,7 @@
    ]
   },
   {
+   "colour": "#8b7cf6",
    "deva": "इकारान्त पुंल्लिङ्ग",
    "file": "data/fam/i-masc.json",
    "gender": "Pum",
@@ -168,6 +174,7 @@
    ]
   },
   {
+   "colour": "#a78bfa",
    "deva": "इकारान्त नपुंसक",
    "file": "data/fam/i-neut.json",
    "gender": "Napumsaka",
@@ -180,6 +187,7 @@
    ]
   },
   {
+   "colour": "#6366f1",
    "deva": "उकारान्त पुंल्लिङ्ग",
    "file": "data/fam/u-masc.json",
    "gender": "Pum",
@@ -194,6 +202,7 @@
    ]
   },
   {
+   "colour": "#3b82f6",
    "deva": "उकारान्त नपुंसक",
    "file": "data/fam/u-neut.json",
    "gender": "Napumsaka",
@@ -206,6 +215,7 @@
    ]
   },
   {
+   "colour": "#2dd4bf",
    "deva": "ऋकारान्त पुंल्लिङ्ग",
    "file": "data/fam/r-agent.json",
    "gender": "Pum",
@@ -220,6 +230,7 @@
    ]
   },
   {
+   "colour": "#34d399",
    "deva": "अन्-अन्त पुंल्लिङ्ग",
    "file": "data/fam/an-masc.json",
    "gender": "Pum",
@@ -232,6 +243,7 @@
    ]
   },
   {
+   "colour": "#a3e635",
    "deva": "च्-अन्त स्त्रीलिङ्ग",
    "file": "data/fam/c-fem.json",
    "gender": "Stri",
@@ -243,6 +255,7 @@
    ]
   },
   {
+   "colour": "#facc15",
    "deva": "अस्-अन्त नपुंसक",
    "file": "data/fam/as-neut.json",
    "gender": "Napumsaka",
@@ -254,6 +267,7 @@
    ]
   },
   {
+   "colour": "#fb923c",
    "deva": "इन्-अन्त पुंल्लिङ्ग",
    "file": "data/fam/in-masc.json",
    "gender": "Pum",
@@ -265,6 +279,7 @@
    ]
   },
   {
+   "colour": "#f97316",
    "deva": "अत्-अन्त पुंल्लिङ्ग",
    "file": "data/fam/ant-masc.json",
    "gender": "Pum",
@@ -276,6 +291,7 @@
    ]
   },
   {
+   "colour": "#ef4444",
    "deva": "वत्-अन्त पुंल्लिङ्ग",
    "file": "data/fam/vant-masc.json",
    "gender": "Pum",
@@ -287,6 +303,7 @@
    ]
   },
   {
+   "colour": "#94a3b8",
    "deva": "ओकारान्त पुंल्लिङ्ग",
    "file": "data/fam/diph-masc.json",
    "gender": "Pum",
