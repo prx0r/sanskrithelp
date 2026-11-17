@@ -13,65 +13,66 @@
       "steps": [
        [
         "1.2.45",
-        "suKin",
+        "sukhin",
         "stem"
        ],
        [
         "4.1.2",
-        "suKin + Byas",
+        "sukhin + bhyas",
         "affix"
        ],
        [
         "1.3.4",
-        "suKin + Byas",
+        "sukhin + bhyas",
         "definition"
        ],
        [
         "1.4.13",
-        "suKin + Byas",
+        "sukhin + bhyas",
         "definition"
        ],
        [
         "1.4.17",
-        "suKin + Byas",
+        "sukhin + bhyas",
         "definition"
        ],
        [
         "1.4.14",
-        "suKin + Byas",
+        "sukhin + bhyas",
         "definition"
        ],
        [
         "8.2.7",
-        "suKi + Byas",
+        "sukhi + bhyas",
         "sound"
        ],
        [
         "8.2.66",
-        "suKi + Byaru~",
+        "sukhi + bhyarum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "suKi + Byar",
+        "sukhi + bhyar",
         "definition"
        ],
        [
         "8.3.15",
-        "suKi + ByaH",
+        "sukhi + bhyaḥ",
         "sound"
        ],
        [
         "8.3.111",
-        "suKi + ByaH",
+        "sukhi + bhyaḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "suKi + ByaH",
+        "sukhi + bhyaḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyas"
      },
      "dvi": {
       "deva": "सुखिभ्याम्",
@@ -80,45 +81,46 @@
       "steps": [
        [
         "1.2.45",
-        "suKin",
+        "sukhin",
         "stem"
        ],
        [
         "4.1.2",
-        "suKin + ByAm",
+        "sukhin + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "suKin + ByAm",
+        "sukhin + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "suKin + ByAm",
+        "sukhin + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "suKin + ByAm",
+        "sukhin + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "suKin + ByAm",
+        "sukhin + bhyām",
         "definition"
        ],
        [
         "8.2.7",
-        "suKi + ByAm",
+        "sukhi + bhyām",
         "sound"
        ],
        [
         "8.3.111",
-        "suKi + ByAm",
+        "sukhi + bhyām",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "सुखिने",
@@ -127,45 +129,46 @@
       "steps": [
        [
         "1.2.45",
-        "suKin",
+        "sukhin",
         "stem"
        ],
        [
         "4.1.2",
-        "suKin + Ne",
+        "sukhin + ṅe",
         "affix"
        ],
        [
         "1.3.8",
-        "suKin + Ne",
+        "sukhin + ṅe",
         "definition"
        ],
        [
         "1.3.9",
-        "suKin + e",
+        "sukhin + e",
         "definition"
        ],
        [
         "1.4.13",
-        "suKin + e",
+        "sukhin + e",
         "definition"
        ],
        [
         "1.4.18",
-        "suKin + e",
+        "sukhin + e",
         "definition"
        ],
        [
         "1.4.14",
-        "suKin + e",
+        "sukhin + e",
         "definition"
        ],
        [
         "8.3.111",
-        "suKin + e",
+        "sukhin + e",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅe"
      }
     },
     "dvitiya": {
@@ -176,70 +179,71 @@
       "steps": [
        [
         "1.2.45",
-        "suKin",
+        "sukhin",
         "stem"
        ],
        [
         "4.1.2",
-        "suKin + Sas",
+        "sukhin + śas",
         "affix"
        ],
        [
         "1.3.4",
-        "suKin + Sas",
+        "sukhin + śas",
         "definition"
        ],
        [
         "1.3.8",
-        "suKin + Sas",
+        "sukhin + śas",
         "definition"
        ],
        [
         "1.3.9",
-        "suKin + as",
+        "sukhin + as",
         "definition"
        ],
        [
         "1.4.13",
-        "suKin + as",
+        "sukhin + as",
         "definition"
        ],
        [
         "1.4.18",
-        "suKin + as",
+        "sukhin + as",
         "definition"
        ],
        [
         "1.4.14",
-        "suKin + as",
+        "sukhin + as",
         "definition"
        ],
        [
         "8.2.66",
-        "suKin + aru~",
+        "sukhin + arum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "suKin + ar",
+        "sukhin + ar",
         "definition"
        ],
        [
         "8.3.15",
-        "suKin + aH",
+        "sukhin + aḥ",
         "sound"
        ],
        [
         "8.3.111",
-        "suKin + aH",
+        "sukhin + aḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "suKin + aH",
+        "sukhin + aḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "śas"
      },
      "dvi": {
       "deva": "सुखिनौ",
@@ -248,50 +252,51 @@
       "steps": [
        [
         "1.2.45",
-        "suKin",
+        "sukhin",
         "stem"
        ],
        [
         "4.1.2",
-        "suKin + Ow",
+        "sukhin + auṭ",
         "affix"
        ],
        [
         "1.3.3",
-        "suKin + Ow",
+        "sukhin + auṭ",
         "definition"
        ],
        [
         "1.3.9",
-        "suKin + O",
+        "sukhin + au",
         "definition"
        ],
        [
         "1.1.43",
-        "suKin + O",
+        "sukhin + au",
         "definition"
        ],
        [
         "1.1.43",
-        "suKin + O",
+        "sukhin + au",
         "definition"
        ],
        [
         "1.4.13",
-        "suKin + O",
+        "sukhin + au",
         "definition"
        ],
        [
         "1.4.14",
-        "suKin + O",
+        "sukhin + au",
         "definition"
        ],
        [
         "8.3.111",
-        "suKin + O",
+        "sukhin + au",
         "sound"
        ]
-      ]
+      ],
+      "sup": "auṭ"
      },
      "eka": {
       "deva": "सुखिनम्",
@@ -300,50 +305,51 @@
       "steps": [
        [
         "1.2.45",
-        "suKin",
+        "sukhin",
         "stem"
        ],
        [
         "4.1.2",
-        "suKin + am",
+        "sukhin + am",
         "affix"
        ],
        [
         "1.3.4",
-        "suKin + am",
+        "sukhin + am",
         "definition"
        ],
        [
         "1.1.43",
-        "suKin + am",
+        "sukhin + am",
         "definition"
        ],
        [
         "1.1.43",
-        "suKin + am",
+        "sukhin + am",
         "definition"
        ],
        [
         "1.4.13",
-        "suKin + am",
+        "sukhin + am",
         "definition"
        ],
        [
         "1.4.14",
-        "suKin + am",
+        "sukhin + am",
         "definition"
        ],
        [
         "8.3.111",
-        "suKin + am",
+        "sukhin + am",
         "sound"
        ],
        [
         "8.4.68",
-        "suKin + am",
+        "sukhin + am",
         "sound"
        ]
-      ]
+      ],
+      "sup": "am"
      }
     },
     "pancami": {
@@ -354,65 +360,66 @@
       "steps": [
        [
         "1.2.45",
-        "suKin",
+        "sukhin",
         "stem"
        ],
        [
         "4.1.2",
-        "suKin + Byas",
+        "sukhin + bhyas",
         "affix"
        ],
        [
         "1.3.4",
-        "suKin + Byas",
+        "sukhin + bhyas",
         "definition"
        ],
        [
         "1.4.13",
-        "suKin + Byas",
+        "sukhin + bhyas",
         "definition"
        ],
        [
         "1.4.17",
-        "suKin + Byas",
+        "sukhin + bhyas",
         "definition"
        ],
        [
         "1.4.14",
-        "suKin + Byas",
+        "sukhin + bhyas",
         "definition"
        ],
        [
         "8.2.7",
-        "suKi + Byas",
+        "sukhi + bhyas",
         "sound"
        ],
        [
         "8.2.66",
-        "suKi + Byaru~",
+        "sukhi + bhyarum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "suKi + Byar",
+        "sukhi + bhyar",
         "definition"
        ],
        [
         "8.3.15",
-        "suKi + ByaH",
+        "sukhi + bhyaḥ",
         "sound"
        ],
        [
         "8.3.111",
-        "suKi + ByaH",
+        "sukhi + bhyaḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "suKi + ByaH",
+        "sukhi + bhyaḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyas"
      },
      "dvi": {
       "deva": "सुखिभ्याम्",
@@ -421,45 +428,46 @@
       "steps": [
        [
         "1.2.45",
-        "suKin",
+        "sukhin",
         "stem"
        ],
        [
         "4.1.2",
-        "suKin + ByAm",
+        "sukhin + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "suKin + ByAm",
+        "sukhin + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "suKin + ByAm",
+        "sukhin + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "suKin + ByAm",
+        "sukhin + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "suKin + ByAm",
+        "sukhin + bhyām",
         "definition"
        ],
        [
         "8.2.7",
-        "suKi + ByAm",
+        "sukhi + bhyām",
         "sound"
        ],
        [
         "8.3.111",
-        "suKi + ByAm",
+        "sukhi + bhyām",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "सुखिनः",
@@ -468,70 +476,71 @@
       "steps": [
        [
         "1.2.45",
-        "suKin",
+        "sukhin",
         "stem"
        ],
        [
         "4.1.2",
-        "suKin + Nasi~",
+        "sukhin + ṅasim̐",
         "affix"
        ],
        [
         "1.3.2",
-        "suKin + Nasi~",
+        "sukhin + ṅasim̐",
         "definition"
        ],
        [
         "1.3.8",
-        "suKin + Nasi~",
+        "sukhin + ṅasim̐",
         "definition"
        ],
        [
         "1.3.9",
-        "suKin + as",
+        "sukhin + as",
         "definition"
        ],
        [
         "1.4.13",
-        "suKin + as",
+        "sukhin + as",
         "definition"
        ],
        [
         "1.4.18",
-        "suKin + as",
+        "sukhin + as",
         "definition"
        ],
        [
         "1.4.14",
-        "suKin + as",
+        "sukhin + as",
         "definition"
        ],
        [
         "8.2.66",
-        "suKin + aru~",
+        "sukhin + arum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "suKin + ar",
+        "sukhin + ar",
         "definition"
        ],
        [
         "8.3.15",
-        "suKin + aH",
+        "sukhin + aḥ",
         "sound"
        ],
        [
         "8.3.111",
-        "suKin + aH",
+        "sukhin + aḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "suKin + aH",
+        "sukhin + aḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅasim̐"
      }
     },
     "prathama": {
@@ -542,75 +551,76 @@
       "steps": [
        [
         "1.2.45",
-        "suKin",
+        "sukhin",
         "stem"
        ],
        [
         "4.1.2",
-        "suKin + jas",
+        "sukhin + jas",
         "affix"
        ],
        [
         "1.3.4",
-        "suKin + jas",
+        "sukhin + jas",
         "definition"
        ],
        [
         "1.3.7",
-        "suKin + jas",
+        "sukhin + jas",
         "definition"
        ],
        [
         "1.3.9",
-        "suKin + as",
+        "sukhin + as",
         "definition"
        ],
        [
         "1.1.43",
-        "suKin + as",
+        "sukhin + as",
         "definition"
        ],
        [
         "1.1.43",
-        "suKin + as",
+        "sukhin + as",
         "definition"
        ],
        [
         "1.4.13",
-        "suKin + as",
+        "sukhin + as",
         "definition"
        ],
        [
         "1.4.14",
-        "suKin + as",
+        "sukhin + as",
         "definition"
        ],
        [
         "8.2.66",
-        "suKin + aru~",
+        "sukhin + arum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "suKin + ar",
+        "sukhin + ar",
         "definition"
        ],
        [
         "8.3.15",
-        "suKin + aH",
+        "sukhin + aḥ",
         "sound"
        ],
        [
         "8.3.111",
-        "suKin + aH",
+        "sukhin + aḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "suKin + aH",
+        "sukhin + aḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "jas"
      },
      "dvi": {
       "deva": "सुखिनौ",
@@ -619,40 +629,41 @@
       "steps": [
        [
         "1.2.45",
-        "suKin",
+        "sukhin",
         "stem"
        ],
        [
         "4.1.2",
-        "suKin + O",
+        "sukhin + au",
         "affix"
        ],
        [
         "1.1.43",
-        "suKin + O",
+        "sukhin + au",
         "definition"
        ],
        [
         "1.1.43",
-        "suKin + O",
+        "sukhin + au",
         "definition"
        ],
        [
         "1.4.13",
-        "suKin + O",
+        "sukhin + au",
         "definition"
        ],
        [
         "1.4.14",
-        "suKin + O",
+        "sukhin + au",
         "definition"
        ],
        [
         "8.3.111",
-        "suKin + O",
+        "sukhin + au",
         "sound"
        ]
-      ]
+      ],
+      "sup": "au"
      },
      "eka": {
       "deva": "सुखी",
@@ -661,65 +672,66 @@
       "steps": [
        [
         "1.2.45",
-        "suKin",
+        "sukhin",
         "stem"
        ],
        [
         "4.1.2",
-        "suKin + su~",
+        "sukhin + sum̐",
         "affix"
        ],
        [
         "1.3.2",
-        "suKin + su~",
+        "sukhin + sum̐",
         "definition"
        ],
        [
         "1.3.9",
-        "suKin + s",
+        "sukhin + s",
         "definition"
        ],
        [
         "1.1.43",
-        "suKin + s",
+        "sukhin + s",
         "definition"
        ],
        [
         "1.1.43",
-        "suKin + s",
+        "sukhin + s",
         "definition"
        ],
        [
         "1.4.13",
-        "suKin + s",
+        "sukhin + s",
         "definition"
        ],
        [
         "1.4.14",
-        "suKin + s",
+        "sukhin + s",
         "definition"
        ],
        [
         "6.4.13",
-        "suKIn + s",
+        "sukhīn + s",
         "operation"
        ],
        [
         "6.1.68",
-        "suKIn",
+        "sukhīn",
         "operation"
        ],
        [
         "8.2.7",
-        "suKI",
+        "sukhī",
         "sound"
        ],
        [
         "8.3.111",
-        "suKI",
+        "sukhī",
         "sound"
        ]
-      ]
+      ],
+      "sup": "sum̐"
      }
     },
     "sambodhana": {
@@ -730,85 +742,86 @@
       "steps": [
        [
         "1.2.45",
-        "suKin",
+        "sukhin",
         "stem"
        ],
        [
         "4.1.2",
-        "suKin + jas",
+        "sukhin + jas",
         "affix"
        ],
        [
         "1.3.4",
-        "suKin + jas",
+        "sukhin + jas",
         "definition"
        ],
        [
         "1.3.7",
-        "suKin + jas",
+        "sukhin + jas",
         "definition"
        ],
        [
         "1.3.9",
-        "suKin + as",
+        "sukhin + as",
         "definition"
        ],
        [
         "2.3.48",
-        "suKin + as",
+        "sukhin + as",
         "definition"
        ],
        [
         "1.1.43",
-        "suKin + as",
+        "sukhin + as",
         "definition"
        ],
        [
         "2.3.48",
-        "suKin + as",
+        "sukhin + as",
         "definition"
        ],
        [
         "1.1.43",
-        "suKin + as",
+        "sukhin + as",
         "definition"
        ],
        [
         "1.4.13",
-        "suKin + as",
+        "sukhin + as",
         "definition"
        ],
        [
         "1.4.14",
-        "suKin + as",
+        "sukhin + as",
         "definition"
        ],
        [
         "8.2.66",
-        "suKin + aru~",
+        "sukhin + arum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "suKin + ar",
+        "sukhin + ar",
         "definition"
        ],
        [
         "8.3.15",
-        "suKin + aH",
+        "sukhin + aḥ",
         "sound"
        ],
        [
         "8.3.111",
-        "suKin + aH",
+        "sukhin + aḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "suKin + aH",
+        "sukhin + aḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "jas"
      },
      "dvi": {
       "deva": "सुखिनौ",
@@ -817,50 +830,51 @@
       "steps": [
        [
         "1.2.45",
-        "suKin",
+        "sukhin",
         "stem"
        ],
        [
         "4.1.2",
-        "suKin + O",
+        "sukhin + au",
         "affix"
        ],
        [
         "2.3.48",
-        "suKin + O",
+        "sukhin + au",
         "definition"
        ],
        [
         "1.1.43",
-        "suKin + O",
+        "sukhin + au",
         "definition"
        ],
        [
         "2.3.48",
-        "suKin + O",
+        "sukhin + au",
         "definition"
        ],
        [
         "1.1.43",
-        "suKin + O",
+        "sukhin + au",
         "definition"
        ],
        [
         "1.4.13",
-        "suKin + O",
+        "sukhin + au",
         "definition"
        ],
        [
         "1.4.14",
-        "suKin + O",
+        "sukhin + au",
         "definition"
        ],
        [
         "8.3.111",
-        "suKin + O",
+        "sukhin + au",
         "sound"
        ]
-      ]
+      ],
+      "sup": "au"
      },
      "eka": {
       "deva": "सुखिन्",
@@ -869,80 +883,81 @@
       "steps": [
        [
         "1.2.45",
-        "suKin",
+        "sukhin",
         "stem"
        ],
        [
         "4.1.2",
-        "suKin + su~",
+        "sukhin + sum̐",
         "affix"
        ],
        [
         "1.3.2",
-        "suKin + su~",
+        "sukhin + sum̐",
         "definition"
        ],
        [
         "1.3.9",
-        "suKin + s",
+        "sukhin + s",
         "definition"
        ],
        [
         "2.3.48",
-        "suKin + s",
+        "sukhin + s",
         "definition"
        ],
        [
         "2.3.49",
-        "suKin + s",
+        "sukhin + s",
         "definition"
        ],
        [
         "1.1.43",
-        "suKin + s",
+        "sukhin + s",
         "definition"
        ],
        [
         "2.3.48",
-        "suKin + s",
+        "sukhin + s",
         "definition"
        ],
        [
         "2.3.49",
-        "suKin + s",
+        "sukhin + s",
         "definition"
        ],
        [
         "1.1.43",
-        "suKin + s",
+        "sukhin + s",
         "definition"
        ],
        [
         "1.4.13",
-        "suKin + s",
+        "sukhin + s",
         "definition"
        ],
        [
         "1.4.14",
-        "suKin + s",
+        "sukhin + s",
         "definition"
        ],
        [
         "6.1.68",
-        "suKin",
+        "sukhin",
         "operation"
        ],
        [
         "8.2.8",
-        "suKin",
+        "sukhin",
         "sound"
        ],
        [
         "8.3.111",
-        "suKin",
+        "sukhin",
         "sound"
        ]
-      ]
+      ],
+      "sup": "sum̐"
      }
     },
     "saptami": {
@@ -953,55 +968,56 @@
       "steps": [
        [
         "1.2.45",
-        "suKin",
+        "sukhin",
         "stem"
        ],
        [
         "4.1.2",
-        "suKin + sup",
+        "sukhin + sup",
         "affix"
        ],
        [
         "1.3.3",
-        "suKin + sup",
+        "sukhin + sup",
         "definition"
        ],
        [
         "1.3.9",
-        "suKin + su",
+        "sukhin + su",
         "definition"
        ],
        [
         "1.4.13",
-        "suKin + su",
+        "sukhin + su",
         "definition"
        ],
        [
         "1.4.17",
-        "suKin + su",
+        "sukhin + su",
         "definition"
        ],
        [
         "1.4.14",
-        "suKin + su",
+        "sukhin + su",
         "definition"
        ],
        [
         "8.2.7",
-        "suKi + su",
+        "sukhi + su",
         "sound"
        ],
        [
         "8.3.59",
-        "suKi + zu",
+        "sukhi + ṣu",
         "sound"
        ],
        [
         "8.3.111",
-        "suKi + zu",
+        "sukhi + ṣu",
         "sound"
        ]
-      ]
+      ],
+      "sup": "sup"
      },
      "dvi": {
       "deva": "सुखिनोः",
@@ -1010,55 +1026,56 @@
       "steps": [
        [
         "1.2.45",
-        "suKin",
+        "sukhin",
         "stem"
        ],
        [
         "4.1.2",
-        "suKin + os",
+        "sukhin + os",
         "affix"
        ],
        [
         "1.3.4",
-        "suKin + os",
+        "sukhin + os",
         "definition"
        ],
        [
         "1.4.13",
-        "suKin + os",
+        "sukhin + os",
         "definition"
        ],
        [
         "1.4.18",
-        "suKin + os",
+        "sukhin + os",
         "definition"
        ],
        [
         "1.4.14",
-        "suKin + os",
+        "sukhin + os",
         "definition"
        ],
        [
         "8.2.66",
-        "suKin + oru~",
+        "sukhin + orum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "suKin + or",
+        "sukhin + or",
         "definition"
        ],
        [
         "8.3.15",
-        "suKin + oH",
+        "sukhin + oḥ",
         "sound"
        ],
        [
         "8.3.111",
-        "suKin + oH",
+        "sukhin + oḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "os"
      },
      "eka": {
       "deva": "सुखिनि",
@@ -1067,45 +1084,46 @@
       "steps": [
        [
         "1.2.45",
-        "suKin",
+        "sukhin",
         "stem"
        ],
        [
         "4.1.2",
-        "suKin + Ni",
+        "sukhin + ṅi",
         "affix"
        ],
        [
         "1.3.8",
-        "suKin + Ni",
+        "sukhin + ṅi",
         "definition"
        ],
        [
         "1.3.9",
-        "suKin + i",
+        "sukhin + i",
         "definition"
        ],
        [
         "1.4.13",
-        "suKin + i",
+        "sukhin + i",
         "definition"
        ],
        [
         "1.4.18",
-        "suKin + i",
+        "sukhin + i",
         "definition"
        ],
        [
         "1.4.14",
-        "suKin + i",
+        "sukhin + i",
         "definition"
        ],
        [
         "8.3.111",
-        "suKin + i",
+        "sukhin + i",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅi"
      }
     },
     "sasthi": {
@@ -1116,40 +1134,41 @@
       "steps": [
        [
         "1.2.45",
-        "suKin",
+        "sukhin",
         "stem"
        ],
        [
         "4.1.2",
-        "suKin + Am",
+        "sukhin + ām",
         "affix"
        ],
        [
         "1.3.4",
-        "suKin + Am",
+        "sukhin + ām",
         "definition"
        ],
        [
         "1.4.13",
-        "suKin + Am",
+        "sukhin + ām",
         "definition"
        ],
        [
         "1.4.18",
-        "suKin + Am",
+        "sukhin + ām",
         "definition"
        ],
        [
         "1.4.14",
-        "suKin + Am",
+        "sukhin + ām",
         "definition"
        ],
        [
         "8.3.111",
-        "suKin + Am",
+        "sukhin + ām",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ām"
      },
      "dvi": {
       "deva": "सुखिनोः",
@@ -1158,55 +1177,56 @@
       "steps": [
        [
         "1.2.45",
-        "suKin",
+        "sukhin",
         "stem"
        ],
        [
         "4.1.2",
-        "suKin + os",
+        "sukhin + os",
         "affix"
        ],
        [
         "1.3.4",
-        "suKin + os",
+        "sukhin + os",
         "definition"
        ],
        [
         "1.4.13",
-        "suKin + os",
+        "sukhin + os",
         "definition"
        ],
        [
         "1.4.18",
-        "suKin + os",
+        "sukhin + os",
         "definition"
        ],
        [
         "1.4.14",
-        "suKin + os",
+        "sukhin + os",
         "definition"
        ],
        [
         "8.2.66",
-        "suKin + oru~",
+        "sukhin + orum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "suKin + or",
+        "sukhin + or",
         "definition"
        ],
        [
         "8.3.15",
-        "suKin + oH",
+        "sukhin + oḥ",
         "sound"
        ],
        [
         "8.3.111",
-        "suKin + oH",
+        "sukhin + oḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "os"
      },
      "eka": {
       "deva": "सुखिनः",
@@ -1215,70 +1235,71 @@
       "steps": [
        [
         "1.2.45",
-        "suKin",
+        "sukhin",
         "stem"
        ],
        [
         "4.1.2",
-        "suKin + Nas",
+        "sukhin + ṅas",
         "affix"
        ],
        [
         "1.3.4",
-        "suKin + Nas",
+        "sukhin + ṅas",
         "definition"
        ],
        [
         "1.3.8",
-        "suKin + Nas",
+        "sukhin + ṅas",
         "definition"
        ],
        [
         "1.3.9",
-        "suKin + as",
+        "sukhin + as",
         "definition"
        ],
        [
         "1.4.13",
-        "suKin + as",
+        "sukhin + as",
         "definition"
        ],
        [
         "1.4.18",
-        "suKin + as",
+        "sukhin + as",
         "definition"
        ],
        [
         "1.4.14",
-        "suKin + as",
+        "sukhin + as",
         "definition"
        ],
        [
         "8.2.66",
-        "suKin + aru~",
+        "sukhin + arum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "suKin + ar",
+        "sukhin + ar",
         "definition"
        ],
        [
         "8.3.15",
-        "suKin + aH",
+        "sukhin + aḥ",
         "sound"
        ],
        [
         "8.3.111",
-        "suKin + aH",
+        "sukhin + aḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "suKin + aH",
+        "sukhin + aḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅas"
      }
     },
     "tritiya": {
@@ -1289,60 +1310,61 @@
       "steps": [
        [
         "1.2.45",
-        "suKin",
+        "sukhin",
         "stem"
        ],
        [
         "4.1.2",
-        "suKin + Bis",
+        "sukhin + bhis",
         "affix"
        ],
        [
         "1.3.4",
-        "suKin + Bis",
+        "sukhin + bhis",
         "definition"
        ],
        [
         "1.4.13",
-        "suKin + Bis",
+        "sukhin + bhis",
         "definition"
        ],
        [
         "1.4.17",
-        "suKin + Bis",
+        "sukhin + bhis",
         "definition"
        ],
        [
         "1.4.14",
-        "suKin + Bis",
+        "sukhin + bhis",
         "definition"
        ],
        [
         "8.2.7",
-        "suKi + Bis",
+        "sukhi + bhis",
         "sound"
        ],
        [
         "8.2.66",
-        "suKi + Biru~",
+        "sukhi + bhirum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "suKi + Bir",
+        "sukhi + bhir",
         "definition"
        ],
        [
         "8.3.15",
-        "suKi + BiH",
+        "sukhi + bhiḥ",
         "sound"
        ],
        [
         "8.3.111",
-        "suKi + BiH",
+        "sukhi + bhiḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhis"
      },
      "dvi": {
       "deva": "सुखिभ्याम्",
@@ -1351,45 +1373,46 @@
       "steps": [
        [
         "1.2.45",
-        "suKin",
+        "sukhin",
         "stem"
        ],
        [
         "4.1.2",
-        "suKin + ByAm",
+        "sukhin + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "suKin + ByAm",
+        "sukhin + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "suKin + ByAm",
+        "sukhin + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "suKin + ByAm",
+        "sukhin + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "suKin + ByAm",
+        "sukhin + bhyām",
         "definition"
        ],
        [
         "8.2.7",
-        "suKi + ByAm",
+        "sukhi + bhyām",
         "sound"
        ],
        [
         "8.3.111",
-        "suKi + ByAm",
+        "sukhi + bhyām",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "सुखिना",
@@ -1398,45 +1421,46 @@
       "steps": [
        [
         "1.2.45",
-        "suKin",
+        "sukhin",
         "stem"
        ],
        [
         "4.1.2",
-        "suKin + wA",
+        "sukhin + ṭā",
         "affix"
        ],
        [
         "1.3.7",
-        "suKin + wA",
+        "sukhin + ṭā",
         "definition"
        ],
        [
         "1.3.9",
-        "suKin + A",
+        "sukhin + ā",
         "definition"
        ],
        [
         "1.4.13",
-        "suKin + A",
+        "sukhin + ā",
         "definition"
        ],
        [
         "1.4.18",
-        "suKin + A",
+        "sukhin + ā",
         "definition"
        ],
        [
         "1.4.14",
-        "suKin + A",
+        "sukhin + ā",
         "definition"
        ],
        [
         "8.3.111",
-        "suKin + A",
+        "sukhin + ā",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṭā"
      }
     }
    },

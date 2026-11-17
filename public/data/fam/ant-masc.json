@@ -13,60 +13,61 @@
       "steps": [
        [
         "1.2.45",
-        "Bavant",
+        "bhavant",
         "stem"
        ],
        [
         "4.1.2",
-        "Bavant + Byas",
+        "bhavant + bhyas",
         "affix"
        ],
        [
         "1.3.4",
-        "Bavant + Byas",
+        "bhavant + bhyas",
         "definition"
        ],
        [
         "1.4.13",
-        "Bavant + Byas",
+        "bhavant + bhyas",
         "definition"
        ],
        [
         "1.4.17",
-        "Bavant + Byas",
+        "bhavant + bhyas",
         "definition"
        ],
        [
         "1.4.14",
-        "Bavant + Byas",
+        "bhavant + bhyas",
         "definition"
        ],
        [
         "8.2.23",
-        "Bavan + Byas",
+        "bhavan + bhyas",
         "sound"
        ],
        [
         "8.2.66",
-        "Bavan + Byaru~",
+        "bhavan + bhyarum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "Bavan + Byar",
+        "bhavan + bhyar",
         "definition"
        ],
        [
         "8.3.15",
-        "Bavan + ByaH",
+        "bhavan + bhyaḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "Bavan + ByaH",
+        "bhavan + bhyaḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyas"
      },
      "dvi": {
       "deva": "भवन्भ्याम्",
@@ -75,45 +76,46 @@
       "steps": [
        [
         "1.2.45",
-        "Bavant",
+        "bhavant",
         "stem"
        ],
        [
         "4.1.2",
-        "Bavant + ByAm",
+        "bhavant + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "Bavant + ByAm",
+        "bhavant + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "Bavant + ByAm",
+        "bhavant + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "Bavant + ByAm",
+        "bhavant + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "Bavant + ByAm",
+        "bhavant + bhyām",
         "definition"
        ],
        [
         "8.2.23",
-        "Bavan + ByAm",
+        "bhavan + bhyām",
         "sound"
        ],
        [
         "8.4.68",
-        "Bavan + ByAm",
+        "bhavan + bhyām",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "भवते",
@@ -122,50 +124,51 @@
       "steps": [
        [
         "1.2.45",
-        "Bavant",
+        "bhavant",
         "stem"
        ],
        [
         "4.1.2",
-        "Bavant + Ne",
+        "bhavant + ṅe",
         "affix"
        ],
        [
         "1.3.8",
-        "Bavant + Ne",
+        "bhavant + ṅe",
         "definition"
        ],
        [
         "1.3.9",
-        "Bavant + e",
+        "bhavant + e",
         "definition"
        ],
        [
         "1.4.13",
-        "Bavant + e",
+        "bhavant + e",
         "definition"
        ],
        [
         "6.4.24",
-        "Bavat + e",
+        "bhavat + e",
         "operation"
        ],
        [
         "1.4.18",
-        "Bavat + e",
+        "bhavat + e",
         "definition"
        ],
        [
         "1.4.14",
-        "Bavat + e",
+        "bhavat + e",
         "definition"
        ],
        [
         "8.4.68",
-        "Bavat + e",
+        "bhavat + e",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅe"
      }
     },
     "dvitiya": {
@@ -176,75 +179,76 @@
       "steps": [
        [
         "1.2.45",
-        "Bavant",
+        "bhavant",
         "stem"
        ],
        [
         "4.1.2",
-        "Bavant + Sas",
+        "bhavant + śas",
         "affix"
        ],
        [
         "1.3.4",
-        "Bavant + Sas",
+        "bhavant + śas",
         "definition"
        ],
        [
         "1.3.8",
-        "Bavant + Sas",
+        "bhavant + śas",
         "definition"
        ],
        [
         "1.3.9",
-        "Bavant + as",
+        "bhavant + as",
         "definition"
        ],
        [
         "1.4.13",
-        "Bavant + as",
+        "bhavant + as",
         "definition"
        ],
        [
         "1.4.18",
-        "Bavant + as",
+        "bhavant + as",
         "definition"
        ],
        [
         "1.4.14",
-        "Bavant + as",
+        "bhavant + as",
         "definition"
        ],
        [
         "8.2.66",
-        "Bavant + aru~",
+        "bhavant + arum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "Bavant + ar",
+        "bhavant + ar",
         "definition"
        ],
        [
         "8.3.15",
-        "Bavant + aH",
+        "bhavant + aḥ",
         "sound"
        ],
        [
         "8.3.24",
-        "BavaMt + aH",
+        "bhavaṃt + aḥ",
         "sound"
        ],
        [
         "8.4.58",
-        "Bavant + aH",
+        "bhavant + aḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "Bavant + aH",
+        "bhavant + aḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "śas"
      },
      "dvi": {
       "deva": "भवन्तौ",
@@ -253,60 +257,61 @@
       "steps": [
        [
         "1.2.45",
-        "Bavant",
+        "bhavant",
         "stem"
        ],
        [
         "4.1.2",
-        "Bavant + Ow",
+        "bhavant + auṭ",
         "affix"
        ],
        [
         "1.3.3",
-        "Bavant + Ow",
+        "bhavant + auṭ",
         "definition"
        ],
        [
         "1.3.9",
-        "Bavant + O",
+        "bhavant + au",
         "definition"
        ],
        [
         "1.1.43",
-        "Bavant + O",
+        "bhavant + au",
         "definition"
        ],
        [
         "1.1.43",
-        "Bavant + O",
+        "bhavant + au",
         "definition"
        ],
        [
         "1.4.13",
-        "Bavant + O",
+        "bhavant + au",
         "definition"
        ],
        [
         "1.4.14",
-        "Bavant + O",
+        "bhavant + au",
         "definition"
        ],
        [
         "8.3.24",
-        "BavaMt + O",
+        "bhavaṃt + au",
         "sound"
        ],
        [
         "8.4.58",
-        "Bavant + O",
+        "bhavant + au",
         "sound"
        ],
        [
         "8.4.68",
-        "Bavant + O",
+        "bhavant + au",
         "sound"
        ]
-      ]
+      ],
+      "sup": "auṭ"
      },
      "eka": {
       "deva": "भवन्तम्",
@@ -315,55 +320,56 @@
       "steps": [
        [
         "1.2.45",
-        "Bavant",
+        "bhavant",
         "stem"
        ],
        [
         "4.1.2",
-        "Bavant + am",
+        "bhavant + am",
         "affix"
        ],
        [
         "1.3.4",
-        "Bavant + am",
+        "bhavant + am",
         "definition"
        ],
        [
         "1.1.43",
-        "Bavant + am",
+        "bhavant + am",
         "definition"
        ],
        [
         "1.1.43",
-        "Bavant + am",
+        "bhavant + am",
         "definition"
        ],
        [
         "1.4.13",
-        "Bavant + am",
+        "bhavant + am",
         "definition"
        ],
        [
         "1.4.14",
-        "Bavant + am",
+        "bhavant + am",
         "definition"
        ],
        [
         "8.3.24",
-        "BavaMt + am",
+        "bhavaṃt + am",
         "sound"
        ],
        [
         "8.4.58",
-        "Bavant + am",
+        "bhavant + am",
         "sound"
        ],
        [
         "8.4.68",
-        "Bavant + am",
+        "bhavant + am",
         "sound"
        ]
-      ]
+      ],
+      "sup": "am"
      }
     },
     "pancami": {
@@ -374,60 +380,61 @@
       "steps": [
        [
         "1.2.45",
-        "Bavant",
+        "bhavant",
         "stem"
        ],
        [
         "4.1.2",
-        "Bavant + Byas",
+        "bhavant + bhyas",
         "affix"
        ],
        [
         "1.3.4",
-        "Bavant + Byas",
+        "bhavant + bhyas",
         "definition"
        ],
        [
         "1.4.13",
-        "Bavant + Byas",
+        "bhavant + bhyas",
         "definition"
        ],
        [
         "1.4.17",
-        "Bavant + Byas",
+        "bhavant + bhyas",
         "definition"
        ],
        [
         "1.4.14",
-        "Bavant + Byas",
+        "bhavant + bhyas",
         "definition"
        ],
        [
         "8.2.23",
-        "Bavan + Byas",
+        "bhavan + bhyas",
         "sound"
        ],
        [
         "8.2.66",
-        "Bavan + Byaru~",
+        "bhavan + bhyarum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "Bavan + Byar",
+        "bhavan + bhyar",
         "definition"
        ],
        [
         "8.3.15",
-        "Bavan + ByaH",
+        "bhavan + bhyaḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "Bavan + ByaH",
+        "bhavan + bhyaḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyas"
      },
      "dvi": {
       "deva": "भवन्भ्याम्",
@@ -436,45 +443,46 @@
       "steps": [
        [
         "1.2.45",
-        "Bavant",
+        "bhavant",
         "stem"
        ],
        [
         "4.1.2",
-        "Bavant + ByAm",
+        "bhavant + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "Bavant + ByAm",
+        "bhavant + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "Bavant + ByAm",
+        "bhavant + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "Bavant + ByAm",
+        "bhavant + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "Bavant + ByAm",
+        "bhavant + bhyām",
         "definition"
        ],
        [
         "8.2.23",
-        "Bavan + ByAm",
+        "bhavan + bhyām",
         "sound"
        ],
        [
         "8.4.68",
-        "Bavan + ByAm",
+        "bhavan + bhyām",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "भवतः",
@@ -483,70 +491,71 @@
       "steps": [
        [
         "1.2.45",
-        "Bavant",
+        "bhavant",
         "stem"
        ],
        [
         "4.1.2",
-        "Bavant + Nasi~",
+        "bhavant + ṅasim̐",
         "affix"
        ],
        [
         "1.3.2",
-        "Bavant + Nasi~",
+        "bhavant + ṅasim̐",
         "definition"
        ],
        [
         "1.3.8",
-        "Bavant + Nasi~",
+        "bhavant + ṅasim̐",
         "definition"
        ],
        [
         "1.3.9",
-        "Bavant + as",
+        "bhavant + as",
         "definition"
        ],
        [
         "1.4.13",
-        "Bavant + as",
+        "bhavant + as",
         "definition"
        ],
        [
         "6.4.24",
-        "Bavat + as",
+        "bhavat + as",
         "operation"
        ],
        [
         "1.4.18",
-        "Bavat + as",
+        "bhavat + as",
         "definition"
        ],
        [
         "1.4.14",
-        "Bavat + as",
+        "bhavat + as",
         "definition"
        ],
        [
         "8.2.66",
-        "Bavat + aru~",
+        "bhavat + arum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "Bavat + ar",
+        "bhavat + ar",
         "definition"
        ],
        [
         "8.3.15",
-        "Bavat + aH",
+        "bhavat + aḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "Bavat + aH",
+        "bhavat + aḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅasim̐"
      }
     },
     "prathama": {
@@ -557,80 +566,81 @@
       "steps": [
        [
         "1.2.45",
-        "Bavant",
+        "bhavant",
         "stem"
        ],
        [
         "4.1.2",
-        "Bavant + jas",
+        "bhavant + jas",
         "affix"
        ],
        [
         "1.3.4",
-        "Bavant + jas",
+        "bhavant + jas",
         "definition"
        ],
        [
         "1.3.7",
-        "Bavant + jas",
+        "bhavant + jas",
         "definition"
        ],
        [
         "1.3.9",
-        "Bavant + as",
+        "bhavant + as",
         "definition"
        ],
        [
         "1.1.43",
-        "Bavant + as",
+        "bhavant + as",
         "definition"
        ],
        [
         "1.1.43",
-        "Bavant + as",
+        "bhavant + as",
         "definition"
        ],
        [
         "1.4.13",
-        "Bavant + as",
+        "bhavant + as",
         "definition"
        ],
        [
         "1.4.14",
-        "Bavant + as",
+        "bhavant + as",
         "definition"
        ],
        [
         "8.2.66",
-        "Bavant + aru~",
+        "bhavant + arum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "Bavant + ar",
+        "bhavant + ar",
         "definition"
        ],
        [
         "8.3.15",
-        "Bavant + aH",
+        "bhavant + aḥ",
         "sound"
        ],
        [
         "8.3.24",
-        "BavaMt + aH",
+        "bhavaṃt + aḥ",
         "sound"
        ],
        [
         "8.4.58",
-        "Bavant + aH",
+        "bhavant + aḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "Bavant + aH",
+        "bhavant + aḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "jas"
      },
      "dvi": {
       "deva": "भवन्तौ",
@@ -639,50 +649,51 @@
       "steps": [
        [
         "1.2.45",
-        "Bavant",
+        "bhavant",
         "stem"
        ],
        [
         "4.1.2",
-        "Bavant + O",
+        "bhavant + au",
         "affix"
        ],
        [
         "1.1.43",
-        "Bavant + O",
+        "bhavant + au",
         "definition"
        ],
        [
         "1.1.43",
-        "Bavant + O",
+        "bhavant + au",
         "definition"
        ],
        [
         "1.4.13",
-        "Bavant + O",
+        "bhavant + au",
         "definition"
        ],
        [
         "1.4.14",
-        "Bavant + O",
+        "bhavant + au",
         "definition"
        ],
        [
         "8.3.24",
-        "BavaMt + O",
+        "bhavaṃt + au",
         "sound"
        ],
        [
         "8.4.58",
-        "Bavant + O",
+        "bhavant + au",
         "sound"
        ],
        [
         "8.4.68",
-        "Bavant + O",
+        "bhavant + au",
         "sound"
        ]
-      ]
+      ],
+      "sup": "au"
      },
      "eka": {
       "deva": "भवन्",
@@ -691,60 +702,61 @@
       "steps": [
        [
         "1.2.45",
-        "Bavant",
+        "bhavant",
         "stem"
        ],
        [
         "4.1.2",
-        "Bavant + su~",
+        "bhavant + sum̐",
         "affix"
        ],
        [
         "1.3.2",
-        "Bavant + su~",
+        "bhavant + sum̐",
         "definition"
        ],
        [
         "1.3.9",
-        "Bavant + s",
+        "bhavant + s",
         "definition"
        ],
        [
         "1.1.43",
-        "Bavant + s",
+        "bhavant + s",
         "definition"
        ],
        [
         "1.1.43",
-        "Bavant + s",
+        "bhavant + s",
         "definition"
        ],
        [
         "1.4.13",
-        "Bavant + s",
+        "bhavant + s",
         "definition"
        ],
        [
         "1.4.14",
-        "Bavant + s",
+        "bhavant + s",
         "definition"
        ],
        [
         "6.1.68",
-        "Bavant",
+        "bhavant",
         "operation"
        ],
        [
         "8.2.23",
-        "Bavan",
+        "bhavan",
         "sound"
        ],
        [
         "8.4.68",
-        "Bavan",
+        "bhavan",
         "sound"
        ]
-      ]
+      ],
+      "sup": "sum̐"
      }
     },
     "sambodhana": {
@@ -755,90 +767,91 @@
       "steps": [
        [
         "1.2.45",
-        "Bavant",
+        "bhavant",
         "stem"
        ],
        [
         "4.1.2",
-        "Bavant + jas",
+        "bhavant + jas",
         "affix"
        ],
        [
         "1.3.4",
-        "Bavant + jas",
+        "bhavant + jas",
         "definition"
        ],
        [
         "1.3.7",
-        "Bavant + jas",
+        "bhavant + jas",
         "definition"
        ],
        [
         "1.3.9",
-        "Bavant + as",
+        "bhavant + as",
         "definition"
        ],
        [
         "2.3.48",
-        "Bavant + as",
+        "bhavant + as",
         "definition"
        ],
        [
         "1.1.43",
-        "Bavant + as",
+        "bhavant + as",
         "definition"
        ],
        [
         "2.3.48",
-        "Bavant + as",
+        "bhavant + as",
         "definition"
        ],
        [
         "1.1.43",
-        "Bavant + as",
+        "bhavant + as",
         "definition"
        ],
        [
         "1.4.13",
-        "Bavant + as",
+        "bhavant + as",
         "definition"
        ],
        [
         "1.4.14",
-        "Bavant + as",
+        "bhavant + as",
         "definition"
        ],
        [
         "8.2.66",
-        "Bavant + aru~",
+        "bhavant + arum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "Bavant + ar",
+        "bhavant + ar",
         "definition"
        ],
        [
         "8.3.15",
-        "Bavant + aH",
+        "bhavant + aḥ",
         "sound"
        ],
        [
         "8.3.24",
-        "BavaMt + aH",
+        "bhavaṃt + aḥ",
         "sound"
        ],
        [
         "8.4.58",
-        "Bavant + aH",
+        "bhavant + aḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "Bavant + aH",
+        "bhavant + aḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "jas"
      },
      "dvi": {
       "deva": "भवन्तौ",
@@ -847,60 +860,61 @@
       "steps": [
        [
         "1.2.45",
-        "Bavant",
+        "bhavant",
         "stem"
        ],
        [
         "4.1.2",
-        "Bavant + O",
+        "bhavant + au",
         "affix"
        ],
        [
         "2.3.48",
-        "Bavant + O",
+        "bhavant + au",
         "definition"
        ],
        [
         "1.1.43",
-        "Bavant + O",
+        "bhavant + au",
         "definition"
        ],
        [
         "2.3.48",
-        "Bavant + O",
+        "bhavant + au",
         "definition"
        ],
        [
         "1.1.43",
-        "Bavant + O",
+        "bhavant + au",
         "definition"
        ],
        [
         "1.4.13",
-        "Bavant + O",
+        "bhavant + au",
         "definition"
        ],
        [
         "1.4.14",
-        "Bavant + O",
+        "bhavant + au",
         "definition"
        ],
        [
         "8.3.24",
-        "BavaMt + O",
+        "bhavaṃt + au",
         "sound"
        ],
        [
         "8.4.58",
-        "Bavant + O",
+        "bhavant + au",
         "sound"
        ],
        [
         "8.4.68",
-        "Bavant + O",
+        "bhavant + au",
         "sound"
        ]
-      ]
+      ],
+      "sup": "au"
      },
      "eka": {
       "deva": "भवन्",
@@ -909,80 +923,81 @@
       "steps": [
        [
         "1.2.45",
-        "Bavant",
+        "bhavant",
         "stem"
        ],
        [
         "4.1.2",
-        "Bavant + su~",
+        "bhavant + sum̐",
         "affix"
        ],
        [
         "1.3.2",
-        "Bavant + su~",
+        "bhavant + sum̐",
         "definition"
        ],
        [
         "1.3.9",
-        "Bavant + s",
+        "bhavant + s",
         "definition"
        ],
        [
         "2.3.48",
-        "Bavant + s",
+        "bhavant + s",
         "definition"
        ],
        [
         "2.3.49",
-        "Bavant + s",
+        "bhavant + s",
         "definition"
        ],
        [
         "1.1.43",
-        "Bavant + s",
+        "bhavant + s",
         "definition"
        ],
        [
         "2.3.48",
-        "Bavant + s",
+        "bhavant + s",
         "definition"
        ],
        [
         "2.3.49",
-        "Bavant + s",
+        "bhavant + s",
         "definition"
        ],
        [
         "1.1.43",
-        "Bavant + s",
+        "bhavant + s",
         "definition"
        ],
        [
         "1.4.13",
-        "Bavant + s",
+        "bhavant + s",
         "definition"
        ],
        [
         "1.4.14",
-        "Bavant + s",
+        "bhavant + s",
         "definition"
        ],
        [
         "6.1.68",
-        "Bavant",
+        "bhavant",
         "operation"
        ],
        [
         "8.2.23",
-        "Bavan",
+        "bhavan",
         "sound"
        ],
        [
         "8.4.68",
-        "Bavan",
+        "bhavan",
         "sound"
        ]
-      ]
+      ],
+      "sup": "sum̐"
      }
     },
     "saptami": {
@@ -993,50 +1008,51 @@
       "steps": [
        [
         "1.2.45",
-        "Bavant",
+        "bhavant",
         "stem"
        ],
        [
         "4.1.2",
-        "Bavant + sup",
+        "bhavant + sup",
         "affix"
        ],
        [
         "1.3.3",
-        "Bavant + sup",
+        "bhavant + sup",
         "definition"
        ],
        [
         "1.3.9",
-        "Bavant + su",
+        "bhavant + su",
         "definition"
        ],
        [
         "1.4.13",
-        "Bavant + su",
+        "bhavant + su",
         "definition"
        ],
        [
         "1.4.17",
-        "Bavant + su",
+        "bhavant + su",
         "definition"
        ],
        [
         "1.4.14",
-        "Bavant + su",
+        "bhavant + su",
         "definition"
        ],
        [
         "8.2.23",
-        "Bavan + su",
+        "bhavan + su",
         "sound"
        ],
        [
         "8.4.68",
-        "Bavan + su",
+        "bhavan + su",
         "sound"
        ]
-      ]
+      ],
+      "sup": "sup"
      },
      "dvi": {
       "deva": "भवन्तोः",
@@ -1045,65 +1061,66 @@
       "steps": [
        [
         "1.2.45",
-        "Bavant",
+        "bhavant",
         "stem"
        ],
        [
         "4.1.2",
-        "Bavant + os",
+        "bhavant + os",
         "affix"
        ],
        [
         "1.3.4",
-        "Bavant + os",
+        "bhavant + os",
         "definition"
        ],
        [
         "1.4.13",
-        "Bavant + os",
+        "bhavant + os",
         "definition"
        ],
        [
         "1.4.18",
-        "Bavant + os",
+        "bhavant + os",
         "definition"
        ],
        [
         "1.4.14",
-        "Bavant + os",
+        "bhavant + os",
         "definition"
        ],
        [
         "8.2.66",
-        "Bavant + oru~",
+        "bhavant + orum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "Bavant + or",
+        "bhavant + or",
         "definition"
        ],
        [
         "8.3.15",
-        "Bavant + oH",
+        "bhavant + oḥ",
         "sound"
        ],
        [
         "8.3.24",
-        "BavaMt + oH",
+        "bhavaṃt + oḥ",
         "sound"
        ],
        [
         "8.4.58",
-        "Bavant + oH",
+        "bhavant + oḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "Bavant + oH",
+        "bhavant + oḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "os"
      },
      "eka": {
       "deva": "भवति",
@@ -1112,50 +1129,51 @@
       "steps": [
        [
         "1.2.45",
-        "Bavant",
+        "bhavant",
         "stem"
        ],
        [
         "4.1.2",
-        "Bavant + Ni",
+        "bhavant + ṅi",
         "affix"
        ],
        [
         "1.3.8",
-        "Bavant + Ni",
+        "bhavant + ṅi",
         "definition"
        ],
        [
         "1.3.9",
-        "Bavant + i",
+        "bhavant + i",
         "definition"
        ],
        [
         "1.4.13",
-        "Bavant + i",
+        "bhavant + i",
         "definition"
        ],
        [
         "6.4.24",
-        "Bavat + i",
+        "bhavat + i",
         "operation"
        ],
        [
         "1.4.18",
-        "Bavat + i",
+        "bhavat + i",
         "definition"
        ],
        [
         "1.4.14",
-        "Bavat + i",
+        "bhavat + i",
         "definition"
        ],
        [
         "8.4.68",
-        "Bavat + i",
+        "bhavat + i",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅi"
      }
     },
     "sasthi": {
@@ -1166,50 +1184,51 @@
       "steps": [
        [
         "1.2.45",
-        "Bavant",
+        "bhavant",
         "stem"
        ],
        [
         "4.1.2",
-        "Bavant + Am",
+        "bhavant + ām",
         "affix"
        ],
        [
         "1.3.4",
-        "Bavant + Am",
+        "bhavant + ām",
         "definition"
        ],
        [
         "1.4.13",
-        "Bavant + Am",
+        "bhavant + ām",
         "definition"
        ],
        [
         "1.4.18",
-        "Bavant + Am",
+        "bhavant + ām",
         "definition"
        ],
        [
         "1.4.14",
-        "Bavant + Am",
+        "bhavant + ām",
         "definition"
        ],
        [
         "8.3.24",
-        "BavaMt + Am",
+        "bhavaṃt + ām",
         "sound"
        ],
        [
         "8.4.58",
-        "Bavant + Am",
+        "bhavant + ām",
         "sound"
        ],
        [
         "8.4.68",
-        "Bavant + Am",
+        "bhavant + ām",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ām"
      },
      "dvi": {
       "deva": "भवन्तोः",
@@ -1218,65 +1237,66 @@
       "steps": [
        [
         "1.2.45",
-        "Bavant",
+        "bhavant",
         "stem"
        ],
        [
         "4.1.2",
-        "Bavant + os",
+        "bhavant + os",
         "affix"
        ],
        [
         "1.3.4",
-        "Bavant + os",
+        "bhavant + os",
         "definition"
        ],
        [
         "1.4.13",
-        "Bavant + os",
+        "bhavant + os",
         "definition"
        ],
        [
         "1.4.18",
-        "Bavant + os",
+        "bhavant + os",
         "definition"
        ],
        [
         "1.4.14",
-        "Bavant + os",
+        "bhavant + os",
         "definition"
        ],
        [
         "8.2.66",
-        "Bavant + oru~",
+        "bhavant + orum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "Bavant + or",
+        "bhavant + or",
         "definition"
        ],
        [
         "8.3.15",
-        "Bavant + oH",
+        "bhavant + oḥ",
         "sound"
        ],
        [
         "8.3.24",
-        "BavaMt + oH",
+        "bhavaṃt + oḥ",
         "sound"
        ],
        [
         "8.4.58",
-        "Bavant + oH",
+        "bhavant + oḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "Bavant + oH",
+        "bhavant + oḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "os"
      },
      "eka": {
       "deva": "भवतः",
@@ -1285,70 +1305,71 @@
       "steps": [
        [
         "1.2.45",
-        "Bavant",
+        "bhavant",
         "stem"
        ],
        [
         "4.1.2",
-        "Bavant + Nas",
+        "bhavant + ṅas",
         "affix"
        ],
        [
         "1.3.4",
-        "Bavant + Nas",
+        "bhavant + ṅas",
         "definition"
        ],
        [
         "1.3.8",
-        "Bavant + Nas",
+        "bhavant + ṅas",
         "definition"
        ],
        [
         "1.3.9",
-        "Bavant + as",
+        "bhavant + as",
         "definition"
        ],
        [
         "1.4.13",
-        "Bavant + as",
+        "bhavant + as",
         "definition"
        ],
        [
         "6.4.24",
-        "Bavat + as",
+        "bhavat + as",
         "operation"
        ],
        [
         "1.4.18",
-        "Bavat + as",
+        "bhavat + as",
         "definition"
        ],
        [
         "1.4.14",
-        "Bavat + as",
+        "bhavat + as",
         "definition"
        ],
        [
         "8.2.66",
-        "Bavat + aru~",
+        "bhavat + arum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "Bavat + ar",
+        "bhavat + ar",
         "definition"
        ],
        [
         "8.3.15",
-        "Bavat + aH",
+        "bhavat + aḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "Bavat + aH",
+        "bhavat + aḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅas"
      }
     },
     "tritiya": {
@@ -1359,60 +1380,61 @@
       "steps": [
        [
         "1.2.45",
-        "Bavant",
+        "bhavant",
         "stem"
        ],
        [
         "4.1.2",
-        "Bavant + Bis",
+        "bhavant + bhis",
         "affix"
        ],
        [
         "1.3.4",
-        "Bavant + Bis",
+        "bhavant + bhis",
         "definition"
        ],
        [
         "1.4.13",
-        "Bavant + Bis",
+        "bhavant + bhis",
         "definition"
        ],
        [
         "1.4.17",
-        "Bavant + Bis",
+        "bhavant + bhis",
         "definition"
        ],
        [
         "1.4.14",
-        "Bavant + Bis",
+        "bhavant + bhis",
         "definition"
        ],
        [
         "8.2.23",
-        "Bavan + Bis",
+        "bhavan + bhis",
         "sound"
        ],
        [
         "8.2.66",
-        "Bavan + Biru~",
+        "bhavan + bhirum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "Bavan + Bir",
+        "bhavan + bhir",
         "definition"
        ],
        [
         "8.3.15",
-        "Bavan + BiH",
+        "bhavan + bhiḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "Bavan + BiH",
+        "bhavan + bhiḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhis"
      },
      "dvi": {
       "deva": "भवन्भ्याम्",
@@ -1421,45 +1443,46 @@
       "steps": [
        [
         "1.2.45",
-        "Bavant",
+        "bhavant",
         "stem"
        ],
        [
         "4.1.2",
-        "Bavant + ByAm",
+        "bhavant + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "Bavant + ByAm",
+        "bhavant + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "Bavant + ByAm",
+        "bhavant + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "Bavant + ByAm",
+        "bhavant + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "Bavant + ByAm",
+        "bhavant + bhyām",
         "definition"
        ],
        [
         "8.2.23",
-        "Bavan + ByAm",
+        "bhavan + bhyām",
         "sound"
        ],
        [
         "8.4.68",
-        "Bavan + ByAm",
+        "bhavan + bhyām",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "भवन्ता",
@@ -1468,55 +1491,56 @@
       "steps": [
        [
         "1.2.45",
-        "Bavant",
+        "bhavant",
         "stem"
        ],
        [
         "4.1.2",
-        "Bavant + wA",
+        "bhavant + ṭā",
         "affix"
        ],
        [
         "1.3.7",
-        "Bavant + wA",
+        "bhavant + ṭā",
         "definition"
        ],
        [
         "1.3.9",
-        "Bavant + A",
+        "bhavant + ā",
         "definition"
        ],
        [
         "1.4.13",
-        "Bavant + A",
+        "bhavant + ā",
         "definition"
        ],
        [
         "1.4.18",
-        "Bavant + A",
+        "bhavant + ā",
         "definition"
        ],
        [
         "1.4.14",
-        "Bavant + A",
+        "bhavant + ā",
         "definition"
        ],
        [
         "8.3.24",
-        "BavaMt + A",
+        "bhavaṃt + ā",
         "sound"
        ],
        [
         "8.4.58",
-        "Bavant + A",
+        "bhavant + ā",
         "sound"
        ],
        [
         "8.4.68",
-        "Bavant + A",
+        "bhavant + ā",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṭā"
      }
     }
    },

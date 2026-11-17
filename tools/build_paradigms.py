@@ -172,12 +172,21 @@ def role_of(code: str) -> str:
     return "definition"
 
 
-def _join(res) -> str:
+def _join(res, ia) -> str:
     if isinstance(res, (list, tuple)):
-        parts = [x if isinstance(x, str) else str(x) for x in res]
+        parts = [ia(x) if isinstance(x, str) else str(x) for x in res]
         parts = [p for p in parts if p and p.strip()]
         return " + ".join(parts)
-    return str(res)
+    return ia(res) if isinstance(res, str) else str(res)
+
+
+def _sup_of(steps, ia) -> str:
+    """The underlying sup ending, from the 4.1.2 step, transliterated."""
+    for code, after, _role in steps:
+        if code == "4.1.2":
+            parts = [p.strip() for p in after.split("+") if p.strip()]
+            return parts[-1] if len(parts) > 1 else ""
+    return ""
 
 
 def main() -> int:
@@ -251,10 +260,11 @@ def main() -> int:
                 steps = []
                 for st in r.history:
                     code = str(getattr(st, "code", ""))
-                    after = _join(getattr(st, "result", ""))
+                    after = _join(getattr(st, "result", ""), ia)
                     steps.append([code, after, role_of(code)])
                 table[vid][wid] = {
                     "iast": surface,
+                    "sup": _sup_of(steps, ia),
                     "deva": transliterate(surface, Scheme.Iast, Scheme.Devanagari),
                     "status": "DERIVED",
                     "steps": steps,

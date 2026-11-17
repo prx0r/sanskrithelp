@@ -13,75 +13,76 @@
       "steps": [
        [
         "1.2.45",
-        "BAnu",
+        "bhānu",
         "stem"
        ],
        [
         "4.1.2",
-        "BAnu + Byas",
+        "bhānu + bhyas",
         "affix"
        ],
        [
         "1.3.4",
-        "BAnu + Byas",
+        "bhānu + bhyas",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + Byas",
+        "bhānu + bhyas",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + Byas",
+        "bhānu + bhyas",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + Byas",
+        "bhānu + bhyas",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + Byas",
+        "bhānu + bhyas",
         "definition"
        ],
        [
         "1.4.13",
-        "BAnu + Byas",
+        "bhānu + bhyas",
         "definition"
        ],
        [
         "1.4.17",
-        "BAnu + Byas",
+        "bhānu + bhyas",
         "definition"
        ],
        [
         "1.4.14",
-        "BAnu + Byas",
+        "bhānu + bhyas",
         "definition"
        ],
        [
         "8.2.66",
-        "BAnu + Byaru~",
+        "bhānu + bhyarum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "BAnu + Byar",
+        "bhānu + bhyar",
         "definition"
        ],
        [
         "8.3.15",
-        "BAnu + ByaH",
+        "bhānu + bhyaḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "BAnu + ByaH",
+        "bhānu + bhyaḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyas"
      },
      "dvi": {
       "deva": "भानुभ्याम्",
@@ -90,55 +91,56 @@
       "steps": [
        [
         "1.2.45",
-        "BAnu",
+        "bhānu",
         "stem"
        ],
        [
         "4.1.2",
-        "BAnu + ByAm",
+        "bhānu + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "BAnu + ByAm",
+        "bhānu + bhyām",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + ByAm",
+        "bhānu + bhyām",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + ByAm",
+        "bhānu + bhyām",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + ByAm",
+        "bhānu + bhyām",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + ByAm",
+        "bhānu + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "BAnu + ByAm",
+        "bhānu + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "BAnu + ByAm",
+        "bhānu + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "BAnu + ByAm",
+        "bhānu + bhyām",
         "definition"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "भानवे",
@@ -147,75 +149,76 @@
       "steps": [
        [
         "1.2.45",
-        "BAnu",
+        "bhānu",
         "stem"
        ],
        [
         "4.1.2",
-        "BAnu + Ne",
+        "bhānu + ṅe",
         "affix"
        ],
        [
         "1.3.8",
-        "BAnu + Ne",
+        "bhānu + ṅe",
         "definition"
        ],
        [
         "1.3.9",
-        "BAnu + e",
+        "bhānu + e",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + e",
+        "bhānu + e",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + e",
+        "bhānu + e",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + e",
+        "bhānu + e",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + e",
+        "bhānu + e",
         "definition"
        ],
        [
         "1.4.13",
-        "BAnu + e",
+        "bhānu + e",
         "definition"
        ],
        [
         "1.4.18",
-        "BAnu + e",
+        "bhānu + e",
         "definition"
        ],
        [
         "1.4.14",
-        "BAnu + e",
+        "bhānu + e",
         "definition"
        ],
        [
         "7.3.111",
-        "BAno + e",
+        "bhāno + e",
         "operation"
        ],
        [
         "6.1.78",
-        "BAnav + e",
+        "bhānav + e",
         "operation"
        ],
        [
         "8.4.68",
-        "BAnav + e",
+        "bhānav + e",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅe"
      }
     },
     "dvitiya": {
@@ -226,80 +229,81 @@
       "steps": [
        [
         "1.2.45",
-        "BAnu",
+        "bhānu",
         "stem"
        ],
        [
         "4.1.2",
-        "BAnu + Sas",
+        "bhānu + śas",
         "affix"
        ],
        [
         "1.3.4",
-        "BAnu + Sas",
+        "bhānu + śas",
         "definition"
        ],
        [
         "1.3.8",
-        "BAnu + Sas",
+        "bhānu + śas",
         "definition"
        ],
        [
         "1.3.9",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "1.4.13",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "1.4.18",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "1.4.14",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "6.1.102",
-        "BAnu + Us",
+        "bhānu + ūs",
         "operation"
        ],
        [
         "6.1.103",
-        "BAnu + Un",
+        "bhānu + ūn",
         "operation"
        ],
        [
         "6.1.101",
-        "BAnU + n",
+        "bhānū + n",
         "operation"
        ]
-      ]
+      ],
+      "sup": "śas"
      },
      "dvi": {
       "deva": "भानू",
@@ -308,75 +312,76 @@
       "steps": [
        [
         "1.2.45",
-        "BAnu",
+        "bhānu",
         "stem"
        ],
        [
         "4.1.2",
-        "BAnu + Ow",
+        "bhānu + auṭ",
         "affix"
        ],
        [
         "1.3.3",
-        "BAnu + Ow",
+        "bhānu + auṭ",
         "definition"
        ],
        [
         "1.3.9",
-        "BAnu + O",
+        "bhānu + au",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + O",
+        "bhānu + au",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + O",
+        "bhānu + au",
         "definition"
        ],
        [
         "1.1.43",
-        "BAnu + O",
+        "bhānu + au",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + O",
+        "bhānu + au",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + O",
+        "bhānu + au",
         "definition"
        ],
        [
         "1.1.43",
-        "BAnu + O",
+        "bhānu + au",
         "definition"
        ],
        [
         "1.4.13",
-        "BAnu + O",
+        "bhānu + au",
         "definition"
        ],
        [
         "1.4.14",
-        "BAnu + O",
+        "bhānu + au",
         "definition"
        ],
        [
         "6.1.102",
-        "BAnu + U",
+        "bhānu + ū",
         "operation"
        ],
        [
         "6.1.101",
-        "BAnU",
+        "bhānū",
         "operation"
        ]
-      ]
+      ],
+      "sup": "auṭ"
      },
      "eka": {
       "deva": "भानुम्",
@@ -385,65 +390,66 @@
       "steps": [
        [
         "1.2.45",
-        "BAnu",
+        "bhānu",
         "stem"
        ],
        [
         "4.1.2",
-        "BAnu + am",
+        "bhānu + am",
         "affix"
        ],
        [
         "1.3.4",
-        "BAnu + am",
+        "bhānu + am",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + am",
+        "bhānu + am",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + am",
+        "bhānu + am",
         "definition"
        ],
        [
         "1.1.43",
-        "BAnu + am",
+        "bhānu + am",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + am",
+        "bhānu + am",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + am",
+        "bhānu + am",
         "definition"
        ],
        [
         "1.1.43",
-        "BAnu + am",
+        "bhānu + am",
         "definition"
        ],
        [
         "1.4.13",
-        "BAnu + am",
+        "bhānu + am",
         "definition"
        ],
        [
         "1.4.14",
-        "BAnu + am",
+        "bhānu + am",
         "definition"
        ],
        [
         "6.1.107",
-        "BAnu + m",
+        "bhānu + m",
         "operation"
        ]
-      ]
+      ],
+      "sup": "am"
      }
     },
     "pancami": {
@@ -454,75 +460,76 @@
       "steps": [
        [
         "1.2.45",
-        "BAnu",
+        "bhānu",
         "stem"
        ],
        [
         "4.1.2",
-        "BAnu + Byas",
+        "bhānu + bhyas",
         "affix"
        ],
        [
         "1.3.4",
-        "BAnu + Byas",
+        "bhānu + bhyas",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + Byas",
+        "bhānu + bhyas",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + Byas",
+        "bhānu + bhyas",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + Byas",
+        "bhānu + bhyas",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + Byas",
+        "bhānu + bhyas",
         "definition"
        ],
        [
         "1.4.13",
-        "BAnu + Byas",
+        "bhānu + bhyas",
         "definition"
        ],
        [
         "1.4.17",
-        "BAnu + Byas",
+        "bhānu + bhyas",
         "definition"
        ],
        [
         "1.4.14",
-        "BAnu + Byas",
+        "bhānu + bhyas",
         "definition"
        ],
        [
         "8.2.66",
-        "BAnu + Byaru~",
+        "bhānu + bhyarum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "BAnu + Byar",
+        "bhānu + bhyar",
         "definition"
        ],
        [
         "8.3.15",
-        "BAnu + ByaH",
+        "bhānu + bhyaḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "BAnu + ByaH",
+        "bhānu + bhyaḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyas"
      },
      "dvi": {
       "deva": "भानुभ्याम्",
@@ -531,55 +538,56 @@
       "steps": [
        [
         "1.2.45",
-        "BAnu",
+        "bhānu",
         "stem"
        ],
        [
         "4.1.2",
-        "BAnu + ByAm",
+        "bhānu + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "BAnu + ByAm",
+        "bhānu + bhyām",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + ByAm",
+        "bhānu + bhyām",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + ByAm",
+        "bhānu + bhyām",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + ByAm",
+        "bhānu + bhyām",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + ByAm",
+        "bhānu + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "BAnu + ByAm",
+        "bhānu + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "BAnu + ByAm",
+        "bhānu + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "BAnu + ByAm",
+        "bhānu + bhyām",
         "definition"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "भानोः",
@@ -588,90 +596,91 @@
       "steps": [
        [
         "1.2.45",
-        "BAnu",
+        "bhānu",
         "stem"
        ],
        [
         "4.1.2",
-        "BAnu + Nasi~",
+        "bhānu + ṅasim̐",
         "affix"
        ],
        [
         "1.3.2",
-        "BAnu + Nasi~",
+        "bhānu + ṅasim̐",
         "definition"
        ],
        [
         "1.3.8",
-        "BAnu + Nasi~",
+        "bhānu + ṅasim̐",
         "definition"
        ],
        [
         "1.3.9",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "1.4.13",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "1.4.18",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "1.4.14",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "7.3.111",
-        "BAno + as",
+        "bhāno + as",
         "operation"
        ],
        [
         "6.1.110",
-        "BAno + s",
+        "bhāno + s",
         "operation"
        ],
        [
         "8.2.66",
-        "BAno + ru~",
+        "bhāno + rum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "BAno + r",
+        "bhāno + r",
         "definition"
        ],
        [
         "8.3.15",
-        "BAno + H",
+        "bhāno + ḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅasim̐"
      }
     },
     "prathama": {
@@ -682,100 +691,101 @@
       "steps": [
        [
         "1.2.45",
-        "BAnu",
+        "bhānu",
         "stem"
        ],
        [
         "4.1.2",
-        "BAnu + jas",
+        "bhānu + jas",
         "affix"
        ],
        [
         "1.3.4",
-        "BAnu + jas",
+        "bhānu + jas",
         "definition"
        ],
        [
         "1.3.7",
-        "BAnu + jas",
+        "bhānu + jas",
         "definition"
        ],
        [
         "1.3.9",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "1.1.43",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "1.1.43",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "1.4.13",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "1.4.14",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "7.3.109",
-        "BAno + as",
+        "bhāno + as",
         "operation"
        ],
        [
         "6.1.78",
-        "BAnav + as",
+        "bhānav + as",
         "operation"
        ],
        [
         "8.2.66",
-        "BAnav + aru~",
+        "bhānav + arum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "BAnav + ar",
+        "bhānav + ar",
         "definition"
        ],
        [
         "8.3.15",
-        "BAnav + aH",
+        "bhānav + aḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "BAnav + aH",
+        "bhānav + aḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "jas"
      },
      "dvi": {
       "deva": "भानू",
@@ -784,65 +794,66 @@
       "steps": [
        [
         "1.2.45",
-        "BAnu",
+        "bhānu",
         "stem"
        ],
        [
         "4.1.2",
-        "BAnu + O",
+        "bhānu + au",
         "affix"
        ],
        [
         "1.1.73",
-        "BAnu + O",
+        "bhānu + au",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + O",
+        "bhānu + au",
         "definition"
        ],
        [
         "1.1.43",
-        "BAnu + O",
+        "bhānu + au",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + O",
+        "bhānu + au",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + O",
+        "bhānu + au",
         "definition"
        ],
        [
         "1.1.43",
-        "BAnu + O",
+        "bhānu + au",
         "definition"
        ],
        [
         "1.4.13",
-        "BAnu + O",
+        "bhānu + au",
         "definition"
        ],
        [
         "1.4.14",
-        "BAnu + O",
+        "bhānu + au",
         "definition"
        ],
        [
         "6.1.102",
-        "BAnu + U",
+        "bhānu + ū",
         "operation"
        ],
        [
         "6.1.101",
-        "BAnU",
+        "bhānū",
         "operation"
        ]
-      ]
+      ],
+      "sup": "au"
      },
      "eka": {
       "deva": "भानुः",
@@ -851,80 +862,81 @@
       "steps": [
        [
         "1.2.45",
-        "BAnu",
+        "bhānu",
         "stem"
        ],
        [
         "4.1.2",
-        "BAnu + su~",
+        "bhānu + sum̐",
         "affix"
        ],
        [
         "1.3.2",
-        "BAnu + su~",
+        "bhānu + sum̐",
         "definition"
        ],
        [
         "1.3.9",
-        "BAnu + s",
+        "bhānu + s",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + s",
+        "bhānu + s",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + s",
+        "bhānu + s",
         "definition"
        ],
        [
         "1.1.43",
-        "BAnu + s",
+        "bhānu + s",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + s",
+        "bhānu + s",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + s",
+        "bhānu + s",
         "definition"
        ],
        [
         "1.1.43",
-        "BAnu + s",
+        "bhānu + s",
         "definition"
        ],
        [
         "1.4.13",
-        "BAnu + s",
+        "bhānu + s",
         "definition"
        ],
        [
         "1.4.14",
-        "BAnu + s",
+        "bhānu + s",
         "definition"
        ],
        [
         "8.2.66",
-        "BAnu + ru~",
+        "bhānu + rum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "BAnu + r",
+        "bhānu + r",
         "definition"
        ],
        [
         "8.3.15",
-        "BAnu + H",
+        "bhānu + ḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "sum̐"
      }
     },
     "sambodhana": {
@@ -935,110 +947,111 @@
       "steps": [
        [
         "1.2.45",
-        "BAnu",
+        "bhānu",
         "stem"
        ],
        [
         "4.1.2",
-        "BAnu + jas",
+        "bhānu + jas",
         "affix"
        ],
        [
         "1.3.4",
-        "BAnu + jas",
+        "bhānu + jas",
         "definition"
        ],
        [
         "1.3.7",
-        "BAnu + jas",
+        "bhānu + jas",
         "definition"
        ],
        [
         "1.3.9",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "2.3.48",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "1.1.43",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "2.3.48",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "1.1.43",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "1.4.13",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "1.4.14",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "7.3.109",
-        "BAno + as",
+        "bhāno + as",
         "operation"
        ],
        [
         "6.1.78",
-        "BAnav + as",
+        "bhānav + as",
         "operation"
        ],
        [
         "8.2.66",
-        "BAnav + aru~",
+        "bhānav + arum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "BAnav + ar",
+        "bhānav + ar",
         "definition"
        ],
        [
         "8.3.15",
-        "BAnav + aH",
+        "bhānav + aḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "BAnav + aH",
+        "bhānav + aḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "jas"
      },
      "dvi": {
       "deva": "भानू",
@@ -1047,75 +1060,76 @@
       "steps": [
        [
         "1.2.45",
-        "BAnu",
+        "bhānu",
         "stem"
        ],
        [
         "4.1.2",
-        "BAnu + O",
+        "bhānu + au",
         "affix"
        ],
        [
         "1.1.73",
-        "BAnu + O",
+        "bhānu + au",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + O",
+        "bhānu + au",
         "definition"
        ],
        [
         "2.3.48",
-        "BAnu + O",
+        "bhānu + au",
         "definition"
        ],
        [
         "1.1.43",
-        "BAnu + O",
+        "bhānu + au",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + O",
+        "bhānu + au",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + O",
+        "bhānu + au",
         "definition"
        ],
        [
         "2.3.48",
-        "BAnu + O",
+        "bhānu + au",
         "definition"
        ],
        [
         "1.1.43",
-        "BAnu + O",
+        "bhānu + au",
         "definition"
        ],
        [
         "1.4.13",
-        "BAnu + O",
+        "bhānu + au",
         "definition"
        ],
        [
         "1.4.14",
-        "BAnu + O",
+        "bhānu + au",
         "definition"
        ],
        [
         "6.1.102",
-        "BAnu + U",
+        "bhānu + ū",
         "operation"
        ],
        [
         "6.1.101",
-        "BAnU",
+        "bhānū",
         "operation"
        ]
-      ]
+      ],
+      "sup": "au"
      },
      "eka": {
       "deva": "भानो",
@@ -1124,95 +1138,96 @@
       "steps": [
        [
         "1.2.45",
-        "BAnu",
+        "bhānu",
         "stem"
        ],
        [
         "4.1.2",
-        "BAnu + su~",
+        "bhānu + sum̐",
         "affix"
        ],
        [
         "1.3.2",
-        "BAnu + su~",
+        "bhānu + sum̐",
         "definition"
        ],
        [
         "1.3.9",
-        "BAnu + s",
+        "bhānu + s",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + s",
+        "bhānu + s",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + s",
+        "bhānu + s",
         "definition"
        ],
        [
         "2.3.48",
-        "BAnu + s",
+        "bhānu + s",
         "definition"
        ],
        [
         "2.3.49",
-        "BAnu + s",
+        "bhānu + s",
         "definition"
        ],
        [
         "1.1.43",
-        "BAnu + s",
+        "bhānu + s",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + s",
+        "bhānu + s",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + s",
+        "bhānu + s",
         "definition"
        ],
        [
         "2.3.48",
-        "BAnu + s",
+        "bhānu + s",
         "definition"
        ],
        [
         "2.3.49",
-        "BAnu + s",
+        "bhānu + s",
         "definition"
        ],
        [
         "1.1.43",
-        "BAnu + s",
+        "bhānu + s",
         "definition"
        ],
        [
         "1.4.13",
-        "BAnu + s",
+        "bhānu + s",
         "definition"
        ],
        [
         "1.4.14",
-        "BAnu + s",
+        "bhānu + s",
         "definition"
        ],
        [
         "7.3.108",
-        "BAno + s",
+        "bhāno + s",
         "operation"
        ],
        [
         "6.1.69",
-        "BAno",
+        "bhāno",
         "operation"
        ]
-      ]
+      ],
+      "sup": "sum̐"
      }
     },
     "saptami": {
@@ -1223,65 +1238,66 @@
       "steps": [
        [
         "1.2.45",
-        "BAnu",
+        "bhānu",
         "stem"
        ],
        [
         "4.1.2",
-        "BAnu + sup",
+        "bhānu + sup",
         "affix"
        ],
        [
         "1.3.3",
-        "BAnu + sup",
+        "bhānu + sup",
         "definition"
        ],
        [
         "1.3.9",
-        "BAnu + su",
+        "bhānu + su",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + su",
+        "bhānu + su",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + su",
+        "bhānu + su",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + su",
+        "bhānu + su",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + su",
+        "bhānu + su",
         "definition"
        ],
        [
         "1.4.13",
-        "BAnu + su",
+        "bhānu + su",
         "definition"
        ],
        [
         "1.4.17",
-        "BAnu + su",
+        "bhānu + su",
         "definition"
        ],
        [
         "1.4.14",
-        "BAnu + su",
+        "bhānu + su",
         "definition"
        ],
        [
         "8.3.59",
-        "BAnu + zu",
+        "bhānu + ṣu",
         "sound"
        ]
-      ]
+      ],
+      "sup": "sup"
      },
      "dvi": {
       "deva": "भान्वोः",
@@ -1290,75 +1306,76 @@
       "steps": [
        [
         "1.2.45",
-        "BAnu",
+        "bhānu",
         "stem"
        ],
        [
         "4.1.2",
-        "BAnu + os",
+        "bhānu + os",
         "affix"
        ],
        [
         "1.3.4",
-        "BAnu + os",
+        "bhānu + os",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + os",
+        "bhānu + os",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + os",
+        "bhānu + os",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + os",
+        "bhānu + os",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + os",
+        "bhānu + os",
         "definition"
        ],
        [
         "1.4.13",
-        "BAnu + os",
+        "bhānu + os",
         "definition"
        ],
        [
         "1.4.18",
-        "BAnu + os",
+        "bhānu + os",
         "definition"
        ],
        [
         "1.4.14",
-        "BAnu + os",
+        "bhānu + os",
         "definition"
        ],
        [
         "6.1.77",
-        "BAnv + os",
+        "bhānv + os",
         "operation"
        ],
        [
         "8.2.66",
-        "BAnv + oru~",
+        "bhānv + orum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "BAnv + or",
+        "bhānv + or",
         "definition"
        ],
        [
         "8.3.15",
-        "BAnv + oH",
+        "bhānv + oḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "os"
      },
      "eka": {
       "deva": "भानौ",
@@ -1367,70 +1384,71 @@
       "steps": [
        [
         "1.2.45",
-        "BAnu",
+        "bhānu",
         "stem"
        ],
        [
         "4.1.2",
-        "BAnu + Ni",
+        "bhānu + ṅi",
         "affix"
        ],
        [
         "1.3.8",
-        "BAnu + Ni",
+        "bhānu + ṅi",
         "definition"
        ],
        [
         "1.3.9",
-        "BAnu + i",
+        "bhānu + i",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + i",
+        "bhānu + i",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + i",
+        "bhānu + i",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + i",
+        "bhānu + i",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + i",
+        "bhānu + i",
         "definition"
        ],
        [
         "1.4.13",
-        "BAnu + i",
+        "bhānu + i",
         "definition"
        ],
        [
         "1.4.18",
-        "BAnu + i",
+        "bhānu + i",
         "definition"
        ],
        [
         "1.4.14",
-        "BAnu + i",
+        "bhānu + i",
         "definition"
        ],
        [
         "7.3.119",
-        "BAna + O",
+        "bhāna + au",
         "operation"
        ],
        [
         "6.1.88",
-        "BAn + O",
+        "bhān + au",
         "operation"
        ]
-      ]
+      ],
+      "sup": "ṅi"
      }
     },
     "sasthi": {
@@ -1441,80 +1459,81 @@
       "steps": [
        [
         "1.2.45",
-        "BAnu",
+        "bhānu",
         "stem"
        ],
        [
         "4.1.2",
-        "BAnu + Am",
+        "bhānu + ām",
         "affix"
        ],
        [
         "1.3.4",
-        "BAnu + Am",
+        "bhānu + ām",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + Am",
+        "bhānu + ām",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + Am",
+        "bhānu + ām",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + Am",
+        "bhānu + ām",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + Am",
+        "bhānu + ām",
         "definition"
        ],
        [
         "7.1.54",
-        "BAnu + nu~w + Am",
+        "bhānu + num̐ṭ + ām",
         "operation"
        ],
        [
         "1.3.2",
-        "BAnu + nu~w + Am",
+        "bhānu + num̐ṭ + ām",
         "definition"
        ],
        [
         "1.3.3",
-        "BAnu + nu~w + Am",
+        "bhānu + num̐ṭ + ām",
         "definition"
        ],
        [
         "1.3.9",
-        "BAnu + n + Am",
+        "bhānu + n + ām",
         "definition"
        ],
        [
         "1.4.13",
-        "BAnu + n + Am",
+        "bhānu + n + ām",
         "definition"
        ],
        [
         "1.4.17",
-        "BAnu + n + Am",
+        "bhānu + n + ām",
         "definition"
        ],
        [
         "1.4.14",
-        "BAnu + n + Am",
+        "bhānu + n + ām",
         "definition"
        ],
        [
         "6.4.3",
-        "BAnU + n + Am",
+        "bhānū + n + ām",
         "operation"
        ]
-      ]
+      ],
+      "sup": "ām"
      },
      "dvi": {
       "deva": "भान्वोः",
@@ -1523,75 +1542,76 @@
       "steps": [
        [
         "1.2.45",
-        "BAnu",
+        "bhānu",
         "stem"
        ],
        [
         "4.1.2",
-        "BAnu + os",
+        "bhānu + os",
         "affix"
        ],
        [
         "1.3.4",
-        "BAnu + os",
+        "bhānu + os",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + os",
+        "bhānu + os",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + os",
+        "bhānu + os",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + os",
+        "bhānu + os",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + os",
+        "bhānu + os",
         "definition"
        ],
        [
         "1.4.13",
-        "BAnu + os",
+        "bhānu + os",
         "definition"
        ],
        [
         "1.4.18",
-        "BAnu + os",
+        "bhānu + os",
         "definition"
        ],
        [
         "1.4.14",
-        "BAnu + os",
+        "bhānu + os",
         "definition"
        ],
        [
         "6.1.77",
-        "BAnv + os",
+        "bhānv + os",
         "operation"
        ],
        [
         "8.2.66",
-        "BAnv + oru~",
+        "bhānv + orum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "BAnv + or",
+        "bhānv + or",
         "definition"
        ],
        [
         "8.3.15",
-        "BAnv + oH",
+        "bhānv + oḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "os"
      },
      "eka": {
       "deva": "भानोः",
@@ -1600,90 +1620,91 @@
       "steps": [
        [
         "1.2.45",
-        "BAnu",
+        "bhānu",
         "stem"
        ],
        [
         "4.1.2",
-        "BAnu + Nas",
+        "bhānu + ṅas",
         "affix"
        ],
        [
         "1.3.4",
-        "BAnu + Nas",
+        "bhānu + ṅas",
         "definition"
        ],
        [
         "1.3.8",
-        "BAnu + Nas",
+        "bhānu + ṅas",
         "definition"
        ],
        [
         "1.3.9",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "1.4.13",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "1.4.18",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "1.4.14",
-        "BAnu + as",
+        "bhānu + as",
         "definition"
        ],
        [
         "7.3.111",
-        "BAno + as",
+        "bhāno + as",
         "operation"
        ],
        [
         "6.1.110",
-        "BAno + s",
+        "bhāno + s",
         "operation"
        ],
        [
         "8.2.66",
-        "BAno + ru~",
+        "bhāno + rum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "BAno + r",
+        "bhāno + r",
         "definition"
        ],
        [
         "8.3.15",
-        "BAno + H",
+        "bhāno + ḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅas"
      }
     },
     "tritiya": {
@@ -1694,70 +1715,71 @@
       "steps": [
        [
         "1.2.45",
-        "BAnu",
+        "bhānu",
         "stem"
        ],
        [
         "4.1.2",
-        "BAnu + Bis",
+        "bhānu + bhis",
         "affix"
        ],
        [
         "1.3.4",
-        "BAnu + Bis",
+        "bhānu + bhis",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + Bis",
+        "bhānu + bhis",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + Bis",
+        "bhānu + bhis",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + Bis",
+        "bhānu + bhis",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + Bis",
+        "bhānu + bhis",
         "definition"
        ],
        [
         "1.4.13",
-        "BAnu + Bis",
+        "bhānu + bhis",
         "definition"
        ],
        [
         "1.4.17",
-        "BAnu + Bis",
+        "bhānu + bhis",
         "definition"
        ],
        [
         "1.4.14",
-        "BAnu + Bis",
+        "bhānu + bhis",
         "definition"
        ],
        [
         "8.2.66",
-        "BAnu + Biru~",
+        "bhānu + bhirum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "BAnu + Bir",
+        "bhānu + bhir",
         "definition"
        ],
        [
         "8.3.15",
-        "BAnu + BiH",
+        "bhānu + bhiḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhis"
      },
      "dvi": {
       "deva": "भानुभ्याम्",
@@ -1766,55 +1788,56 @@
       "steps": [
        [
         "1.2.45",
-        "BAnu",
+        "bhānu",
         "stem"
        ],
        [
         "4.1.2",
-        "BAnu + ByAm",
+        "bhānu + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "BAnu + ByAm",
+        "bhānu + bhyām",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + ByAm",
+        "bhānu + bhyām",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + ByAm",
+        "bhānu + bhyām",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + ByAm",
+        "bhānu + bhyām",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + ByAm",
+        "bhānu + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "BAnu + ByAm",
+        "bhānu + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "BAnu + ByAm",
+        "bhānu + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "BAnu + ByAm",
+        "bhānu + bhyām",
         "definition"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "भानुना",
@@ -1823,65 +1846,66 @@
       "steps": [
        [
         "1.2.45",
-        "BAnu",
+        "bhānu",
         "stem"
        ],
        [
         "4.1.2",
-        "BAnu + wA",
+        "bhānu + ṭā",
         "affix"
        ],
        [
         "1.3.7",
-        "BAnu + wA",
+        "bhānu + ṭā",
         "definition"
        ],
        [
         "1.3.9",
-        "BAnu + A",
+        "bhānu + ā",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + A",
+        "bhānu + ā",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + A",
+        "bhānu + ā",
         "definition"
        ],
        [
         "1.1.73",
-        "BAnu + A",
+        "bhānu + ā",
         "definition"
        ],
        [
         "1.4.7",
-        "BAnu + A",
+        "bhānu + ā",
         "definition"
        ],
        [
         "1.4.13",
-        "BAnu + A",
+        "bhānu + ā",
         "definition"
        ],
        [
         "7.3.120",
-        "BAnu + nA",
+        "bhānu + nā",
         "operation"
        ],
        [
         "1.4.17",
-        "BAnu + nA",
+        "bhānu + nā",
         "definition"
        ],
        [
         "1.4.14",
-        "BAnu + nA",
+        "bhānu + nā",
         "definition"
        ]
-      ]
+      ],
+      "sup": "ṭā"
      }
     }
    },
@@ -2050,65 +2074,66 @@
       "steps": [
        [
         "1.2.45",
-        "Satru",
+        "śatru",
         "stem"
        ],
        [
         "4.1.2",
-        "Satru + Byas",
+        "śatru + bhyas",
         "affix"
        ],
        [
         "1.3.4",
-        "Satru + Byas",
+        "śatru + bhyas",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + Byas",
+        "śatru + bhyas",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + Byas",
+        "śatru + bhyas",
         "definition"
        ],
        [
         "1.4.13",
-        "Satru + Byas",
+        "śatru + bhyas",
         "definition"
        ],
        [
         "1.4.17",
-        "Satru + Byas",
+        "śatru + bhyas",
         "definition"
        ],
        [
         "1.4.14",
-        "Satru + Byas",
+        "śatru + bhyas",
         "definition"
        ],
        [
         "8.2.66",
-        "Satru + Byaru~",
+        "śatru + bhyarum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "Satru + Byar",
+        "śatru + bhyar",
         "definition"
        ],
        [
         "8.3.15",
-        "Satru + ByaH",
+        "śatru + bhyaḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "Satru + ByaH",
+        "śatru + bhyaḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyas"
      },
      "dvi": {
       "deva": "शत्रुभ्याम्",
@@ -2117,50 +2142,51 @@
       "steps": [
        [
         "1.2.45",
-        "Satru",
+        "śatru",
         "stem"
        ],
        [
         "4.1.2",
-        "Satru + ByAm",
+        "śatru + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "Satru + ByAm",
+        "śatru + bhyām",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + ByAm",
+        "śatru + bhyām",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + ByAm",
+        "śatru + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "Satru + ByAm",
+        "śatru + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "Satru + ByAm",
+        "śatru + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "Satru + ByAm",
+        "śatru + bhyām",
         "definition"
        ],
        [
         "8.4.68",
-        "Satru + ByAm",
+        "śatru + bhyām",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "शत्रवे",
@@ -2169,65 +2195,66 @@
       "steps": [
        [
         "1.2.45",
-        "Satru",
+        "śatru",
         "stem"
        ],
        [
         "4.1.2",
-        "Satru + Ne",
+        "śatru + ṅe",
         "affix"
        ],
        [
         "1.3.8",
-        "Satru + Ne",
+        "śatru + ṅe",
         "definition"
        ],
        [
         "1.3.9",
-        "Satru + e",
+        "śatru + e",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + e",
+        "śatru + e",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + e",
+        "śatru + e",
         "definition"
        ],
        [
         "1.4.13",
-        "Satru + e",
+        "śatru + e",
         "definition"
        ],
        [
         "1.4.18",
-        "Satru + e",
+        "śatru + e",
         "definition"
        ],
        [
         "1.4.14",
-        "Satru + e",
+        "śatru + e",
         "definition"
        ],
        [
         "7.3.111",
-        "Satro + e",
+        "śatro + e",
         "operation"
        ],
        [
         "6.1.78",
-        "Satrav + e",
+        "śatrav + e",
         "operation"
        ],
        [
         "8.4.68",
-        "Satrav + e",
+        "śatrav + e",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅe"
      }
     },
     "dvitiya": {
@@ -2238,80 +2265,81 @@
       "steps": [
        [
         "1.2.45",
-        "Satru",
+        "śatru",
         "stem"
        ],
        [
         "4.1.2",
-        "Satru + Sas",
+        "śatru + śas",
         "affix"
        ],
        [
         "1.3.4",
-        "Satru + Sas",
+        "śatru + śas",
         "definition"
        ],
        [
         "1.3.8",
-        "Satru + Sas",
+        "śatru + śas",
         "definition"
        ],
        [
         "1.3.9",
-        "Satru + as",
+        "śatru + as",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + as",
+        "śatru + as",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + as",
+        "śatru + as",
         "definition"
        ],
        [
         "1.4.13",
-        "Satru + as",
+        "śatru + as",
         "definition"
        ],
        [
         "1.4.18",
-        "Satru + as",
+        "śatru + as",
         "definition"
        ],
        [
         "1.4.14",
-        "Satru + as",
+        "śatru + as",
         "definition"
        ],
        [
         "6.1.102",
-        "Satru + Us",
+        "śatru + ūs",
         "operation"
        ],
        [
         "6.1.103",
-        "Satru + Un",
+        "śatru + ūn",
         "operation"
        ],
        [
         "6.1.101",
-        "SatrU + n",
+        "śatrū + n",
         "operation"
        ],
        [
         "8.4.37",
-        "SatrU + n",
+        "śatrū + n",
         "sound"
        ],
        [
         "8.4.68",
-        "SatrU + n",
+        "śatrū + n",
         "sound"
        ]
-      ]
+      ],
+      "sup": "śas"
      },
      "dvi": {
       "deva": "शत्रू",
@@ -2320,70 +2348,71 @@
       "steps": [
        [
         "1.2.45",
-        "Satru",
+        "śatru",
         "stem"
        ],
        [
         "4.1.2",
-        "Satru + Ow",
+        "śatru + auṭ",
         "affix"
        ],
        [
         "1.3.3",
-        "Satru + Ow",
+        "śatru + auṭ",
         "definition"
        ],
        [
         "1.3.9",
-        "Satru + O",
+        "śatru + au",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + O",
+        "śatru + au",
         "definition"
        ],
        [
         "1.1.43",
-        "Satru + O",
+        "śatru + au",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + O",
+        "śatru + au",
         "definition"
        ],
        [
         "1.1.43",
-        "Satru + O",
+        "śatru + au",
         "definition"
        ],
        [
         "1.4.13",
-        "Satru + O",
+        "śatru + au",
         "definition"
        ],
        [
         "1.4.14",
-        "Satru + O",
+        "śatru + au",
         "definition"
        ],
        [
         "6.1.102",
-        "Satru + U",
+        "śatru + ū",
         "operation"
        ],
        [
         "6.1.101",
-        "SatrU",
+        "śatrū",
         "operation"
        ],
        [
         "8.4.68",
-        "SatrU",
+        "śatrū",
         "sound"
        ]
-      ]
+      ],
+      "sup": "auṭ"
      },
      "eka": {
       "deva": "शत्रुम्",
@@ -2392,60 +2421,61 @@
       "steps": [
        [
         "1.2.45",
-        "Satru",
+        "śatru",
         "stem"
        ],
        [
         "4.1.2",
-        "Satru + am",
+        "śatru + am",
         "affix"
        ],
        [
         "1.3.4",
-        "Satru + am",
+        "śatru + am",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + am",
+        "śatru + am",
         "definition"
        ],
        [
         "1.1.43",
-        "Satru + am",
+        "śatru + am",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + am",
+        "śatru + am",
         "definition"
        ],
        [
         "1.1.43",
-        "Satru + am",
+        "śatru + am",
         "definition"
        ],
        [
         "1.4.13",
-        "Satru + am",
+        "śatru + am",
         "definition"
        ],
        [
         "1.4.14",
-        "Satru + am",
+        "śatru + am",
         "definition"
        ],
        [
         "6.1.107",
-        "Satru + m",
+        "śatru + m",
         "operation"
        ],
        [
         "8.4.68",
-        "Satru + m",
+        "śatru + m",
         "sound"
        ]
-      ]
+      ],
+      "sup": "am"
      }
     },
     "pancami": {
@@ -2456,65 +2486,66 @@
       "steps": [
        [
         "1.2.45",
-        "Satru",
+        "śatru",
         "stem"
        ],
        [
         "4.1.2",
-        "Satru + Byas",
+        "śatru + bhyas",
         "affix"
        ],
        [
         "1.3.4",
-        "Satru + Byas",
+        "śatru + bhyas",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + Byas",
+        "śatru + bhyas",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + Byas",
+        "śatru + bhyas",
         "definition"
        ],
        [
         "1.4.13",
-        "Satru + Byas",
+        "śatru + bhyas",
         "definition"
        ],
        [
         "1.4.17",
-        "Satru + Byas",
+        "śatru + bhyas",
         "definition"
        ],
        [
         "1.4.14",
-        "Satru + Byas",
+        "śatru + bhyas",
         "definition"
        ],
        [
         "8.2.66",
-        "Satru + Byaru~",
+        "śatru + bhyarum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "Satru + Byar",
+        "śatru + bhyar",
         "definition"
        ],
        [
         "8.3.15",
-        "Satru + ByaH",
+        "śatru + bhyaḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "Satru + ByaH",
+        "śatru + bhyaḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyas"
      },
      "dvi": {
       "deva": "शत्रुभ्याम्",
@@ -2523,50 +2554,51 @@
       "steps": [
        [
         "1.2.45",
-        "Satru",
+        "śatru",
         "stem"
        ],
        [
         "4.1.2",
-        "Satru + ByAm",
+        "śatru + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "Satru + ByAm",
+        "śatru + bhyām",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + ByAm",
+        "śatru + bhyām",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + ByAm",
+        "śatru + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "Satru + ByAm",
+        "śatru + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "Satru + ByAm",
+        "śatru + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "Satru + ByAm",
+        "śatru + bhyām",
         "definition"
        ],
        [
         "8.4.68",
-        "Satru + ByAm",
+        "śatru + bhyām",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "शत्रोः",
@@ -2575,85 +2607,86 @@
       "steps": [
        [
         "1.2.45",
-        "Satru",
+        "śatru",
         "stem"
        ],
        [
         "4.1.2",
-        "Satru + Nasi~",
+        "śatru + ṅasim̐",
         "affix"
        ],
        [
         "1.3.2",
-        "Satru + Nasi~",
+        "śatru + ṅasim̐",
         "definition"
        ],
        [
         "1.3.8",
-        "Satru + Nasi~",
+        "śatru + ṅasim̐",
         "definition"
        ],
        [
         "1.3.9",
-        "Satru + as",
+        "śatru + as",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + as",
+        "śatru + as",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + as",
+        "śatru + as",
         "definition"
        ],
        [
         "1.4.13",
-        "Satru + as",
+        "śatru + as",
         "definition"
        ],
        [
         "1.4.18",
-        "Satru + as",
+        "śatru + as",
         "definition"
        ],
        [
         "1.4.14",
-        "Satru + as",
+        "śatru + as",
         "definition"
        ],
        [
         "7.3.111",
-        "Satro + as",
+        "śatro + as",
         "operation"
        ],
        [
         "6.1.110",
-        "Satro + s",
+        "śatro + s",
         "operation"
        ],
        [
         "8.2.66",
-        "Satro + ru~",
+        "śatro + rum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "Satro + r",
+        "śatro + r",
         "definition"
        ],
        [
         "8.3.15",
-        "Satro + H",
+        "śatro + ḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "Satro + H",
+        "śatro + ḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅasim̐"
      }
     },
     "prathama": {
@@ -2664,90 +2697,91 @@
       "steps": [
        [
         "1.2.45",
-        "Satru",
+        "śatru",
         "stem"
        ],
        [
         "4.1.2",
-        "Satru + jas",
+        "śatru + jas",
         "affix"
        ],
        [
         "1.3.4",
-        "Satru + jas",
+        "śatru + jas",
         "definition"
        ],
        [
         "1.3.7",
-        "Satru + jas",
+        "śatru + jas",
         "definition"
        ],
        [
         "1.3.9",
-        "Satru + as",
+        "śatru + as",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + as",
+        "śatru + as",
         "definition"
        ],
        [
         "1.1.43",
-        "Satru + as",
+        "śatru + as",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + as",
+        "śatru + as",
         "definition"
        ],
        [
         "1.1.43",
-        "Satru + as",
+        "śatru + as",
         "definition"
        ],
        [
         "1.4.13",
-        "Satru + as",
+        "śatru + as",
         "definition"
        ],
        [
         "1.4.14",
-        "Satru + as",
+        "śatru + as",
         "definition"
        ],
        [
         "7.3.109",
-        "Satro + as",
+        "śatro + as",
         "operation"
        ],
        [
         "6.1.78",
-        "Satrav + as",
+        "śatrav + as",
         "operation"
        ],
        [
         "8.2.66",
-        "Satrav + aru~",
+        "śatrav + arum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "Satrav + ar",
+        "śatrav + ar",
         "definition"
        ],
        [
         "8.3.15",
-        "Satrav + aH",
+        "śatrav + aḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "Satrav + aH",
+        "śatrav + aḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "jas"
      },
      "dvi": {
       "deva": "शत्रू",
@@ -2756,60 +2790,61 @@
       "steps": [
        [
         "1.2.45",
-        "Satru",
+        "śatru",
         "stem"
        ],
        [
         "4.1.2",
-        "Satru + O",
+        "śatru + au",
         "affix"
        ],
        [
         "1.4.7",
-        "Satru + O",
+        "śatru + au",
         "definition"
        ],
        [
         "1.1.43",
-        "Satru + O",
+        "śatru + au",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + O",
+        "śatru + au",
         "definition"
        ],
        [
         "1.1.43",
-        "Satru + O",
+        "śatru + au",
         "definition"
        ],
        [
         "1.4.13",
-        "Satru + O",
+        "śatru + au",
         "definition"
        ],
        [
         "1.4.14",
-        "Satru + O",
+        "śatru + au",
         "definition"
        ],
        [
         "6.1.102",
-        "Satru + U",
+        "śatru + ū",
         "operation"
        ],
        [
         "6.1.101",
-        "SatrU",
+        "śatrū",
         "operation"
        ],
        [
         "8.4.68",
-        "SatrU",
+        "śatrū",
         "sound"
        ]
-      ]
+      ],
+      "sup": "au"
      },
      "eka": {
       "deva": "शत्रुः",
@@ -2818,75 +2853,76 @@
       "steps": [
        [
         "1.2.45",
-        "Satru",
+        "śatru",
         "stem"
        ],
        [
         "4.1.2",
-        "Satru + su~",
+        "śatru + sum̐",
         "affix"
        ],
        [
         "1.3.2",
-        "Satru + su~",
+        "śatru + sum̐",
         "definition"
        ],
        [
         "1.3.9",
-        "Satru + s",
+        "śatru + s",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + s",
+        "śatru + s",
         "definition"
        ],
        [
         "1.1.43",
-        "Satru + s",
+        "śatru + s",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + s",
+        "śatru + s",
         "definition"
        ],
        [
         "1.1.43",
-        "Satru + s",
+        "śatru + s",
         "definition"
        ],
        [
         "1.4.13",
-        "Satru + s",
+        "śatru + s",
         "definition"
        ],
        [
         "1.4.14",
-        "Satru + s",
+        "śatru + s",
         "definition"
        ],
        [
         "8.2.66",
-        "Satru + ru~",
+        "śatru + rum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "Satru + r",
+        "śatru + r",
         "definition"
        ],
        [
         "8.3.15",
-        "Satru + H",
+        "śatru + ḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "Satru + H",
+        "śatru + ḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "sum̐"
      }
     },
     "sambodhana": {
@@ -2897,100 +2933,101 @@
       "steps": [
        [
         "1.2.45",
-        "Satru",
+        "śatru",
         "stem"
        ],
        [
         "4.1.2",
-        "Satru + jas",
+        "śatru + jas",
         "affix"
        ],
        [
         "1.3.4",
-        "Satru + jas",
+        "śatru + jas",
         "definition"
        ],
        [
         "1.3.7",
-        "Satru + jas",
+        "śatru + jas",
         "definition"
        ],
        [
         "1.3.9",
-        "Satru + as",
+        "śatru + as",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + as",
+        "śatru + as",
         "definition"
        ],
        [
         "2.3.48",
-        "Satru + as",
+        "śatru + as",
         "definition"
        ],
        [
         "1.1.43",
-        "Satru + as",
+        "śatru + as",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + as",
+        "śatru + as",
         "definition"
        ],
        [
         "2.3.48",
-        "Satru + as",
+        "śatru + as",
         "definition"
        ],
        [
         "1.1.43",
-        "Satru + as",
+        "śatru + as",
         "definition"
        ],
        [
         "1.4.13",
-        "Satru + as",
+        "śatru + as",
         "definition"
        ],
        [
         "1.4.14",
-        "Satru + as",
+        "śatru + as",
         "definition"
        ],
        [
         "7.3.109",
-        "Satro + as",
+        "śatro + as",
         "operation"
        ],
        [
         "6.1.78",
-        "Satrav + as",
+        "śatrav + as",
         "operation"
        ],
        [
         "8.2.66",
-        "Satrav + aru~",
+        "śatrav + arum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "Satrav + ar",
+        "śatrav + ar",
         "definition"
        ],
        [
         "8.3.15",
-        "Satrav + aH",
+        "śatrav + aḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "Satrav + aH",
+        "śatrav + aḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "jas"
      },
      "dvi": {
       "deva": "शत्रू",
@@ -2999,70 +3036,71 @@
       "steps": [
        [
         "1.2.45",
-        "Satru",
+        "śatru",
         "stem"
        ],
        [
         "4.1.2",
-        "Satru + O",
+        "śatru + au",
         "affix"
        ],
        [
         "1.4.7",
-        "Satru + O",
+        "śatru + au",
         "definition"
        ],
        [
         "2.3.48",
-        "Satru + O",
+        "śatru + au",
         "definition"
        ],
        [
         "1.1.43",
-        "Satru + O",
+        "śatru + au",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + O",
+        "śatru + au",
         "definition"
        ],
        [
         "2.3.48",
-        "Satru + O",
+        "śatru + au",
         "definition"
        ],
        [
         "1.1.43",
-        "Satru + O",
+        "śatru + au",
         "definition"
        ],
        [
         "1.4.13",
-        "Satru + O",
+        "śatru + au",
         "definition"
        ],
        [
         "1.4.14",
-        "Satru + O",
+        "śatru + au",
         "definition"
        ],
        [
         "6.1.102",
-        "Satru + U",
+        "śatru + ū",
         "operation"
        ],
        [
         "6.1.101",
-        "SatrU",
+        "śatrū",
         "operation"
        ],
        [
         "8.4.68",
-        "SatrU",
+        "śatrū",
         "sound"
        ]
-      ]
+      ],
+      "sup": "au"
      },
      "eka": {
       "deva": "शत्रो",
@@ -3071,90 +3109,91 @@
       "steps": [
        [
         "1.2.45",
-        "Satru",
+        "śatru",
         "stem"
        ],
        [
         "4.1.2",
-        "Satru + su~",
+        "śatru + sum̐",
         "affix"
        ],
        [
         "1.3.2",
-        "Satru + su~",
+        "śatru + sum̐",
         "definition"
        ],
        [
         "1.3.9",
-        "Satru + s",
+        "śatru + s",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + s",
+        "śatru + s",
         "definition"
        ],
        [
         "2.3.48",
-        "Satru + s",
+        "śatru + s",
         "definition"
        ],
        [
         "2.3.49",
-        "Satru + s",
+        "śatru + s",
         "definition"
        ],
        [
         "1.1.43",
-        "Satru + s",
+        "śatru + s",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + s",
+        "śatru + s",
         "definition"
        ],
        [
         "2.3.48",
-        "Satru + s",
+        "śatru + s",
         "definition"
        ],
        [
         "2.3.49",
-        "Satru + s",
+        "śatru + s",
         "definition"
        ],
        [
         "1.1.43",
-        "Satru + s",
+        "śatru + s",
         "definition"
        ],
        [
         "1.4.13",
-        "Satru + s",
+        "śatru + s",
         "definition"
        ],
        [
         "1.4.14",
-        "Satru + s",
+        "śatru + s",
         "definition"
        ],
        [
         "7.3.108",
-        "Satro + s",
+        "śatro + s",
         "operation"
        ],
        [
         "6.1.69",
-        "Satro",
+        "śatro",
         "operation"
        ],
        [
         "8.4.68",
-        "Satro",
+        "śatro",
         "sound"
        ]
-      ]
+      ],
+      "sup": "sum̐"
      }
     },
     "saptami": {
@@ -3165,60 +3204,61 @@
       "steps": [
        [
         "1.2.45",
-        "Satru",
+        "śatru",
         "stem"
        ],
        [
         "4.1.2",
-        "Satru + sup",
+        "śatru + sup",
         "affix"
        ],
        [
         "1.3.3",
-        "Satru + sup",
+        "śatru + sup",
         "definition"
        ],
        [
         "1.3.9",
-        "Satru + su",
+        "śatru + su",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + su",
+        "śatru + su",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + su",
+        "śatru + su",
         "definition"
        ],
        [
         "1.4.13",
-        "Satru + su",
+        "śatru + su",
         "definition"
        ],
        [
         "1.4.17",
-        "Satru + su",
+        "śatru + su",
         "definition"
        ],
        [
         "1.4.14",
-        "Satru + su",
+        "śatru + su",
         "definition"
        ],
        [
         "8.3.59",
-        "Satru + zu",
+        "śatru + ṣu",
         "sound"
        ],
        [
         "8.4.68",
-        "Satru + zu",
+        "śatru + ṣu",
         "sound"
        ]
-      ]
+      ],
+      "sup": "sup"
      },
      "dvi": {
       "deva": "शत्र्वोः",
@@ -3227,70 +3267,71 @@
       "steps": [
        [
         "1.2.45",
-        "Satru",
+        "śatru",
         "stem"
        ],
        [
         "4.1.2",
-        "Satru + os",
+        "śatru + os",
         "affix"
        ],
        [
         "1.3.4",
-        "Satru + os",
+        "śatru + os",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + os",
+        "śatru + os",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + os",
+        "śatru + os",
         "definition"
        ],
        [
         "1.4.13",
-        "Satru + os",
+        "śatru + os",
         "definition"
        ],
        [
         "1.4.18",
-        "Satru + os",
+        "śatru + os",
         "definition"
        ],
        [
         "1.4.14",
-        "Satru + os",
+        "śatru + os",
         "definition"
        ],
        [
         "6.1.77",
-        "Satrv + os",
+        "śatrv + os",
         "operation"
        ],
        [
         "8.2.66",
-        "Satrv + oru~",
+        "śatrv + orum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "Satrv + or",
+        "śatrv + or",
         "definition"
        ],
        [
         "8.3.15",
-        "Satrv + oH",
+        "śatrv + oḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "Satrv + oH",
+        "śatrv + oḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "os"
      },
      "eka": {
       "deva": "शत्रौ",
@@ -3299,65 +3340,66 @@
       "steps": [
        [
         "1.2.45",
-        "Satru",
+        "śatru",
         "stem"
        ],
        [
         "4.1.2",
-        "Satru + Ni",
+        "śatru + ṅi",
         "affix"
        ],
        [
         "1.3.8",
-        "Satru + Ni",
+        "śatru + ṅi",
         "definition"
        ],
        [
         "1.3.9",
-        "Satru + i",
+        "śatru + i",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + i",
+        "śatru + i",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + i",
+        "śatru + i",
         "definition"
        ],
        [
         "1.4.13",
-        "Satru + i",
+        "śatru + i",
         "definition"
        ],
        [
         "1.4.18",
-        "Satru + i",
+        "śatru + i",
         "definition"
        ],
        [
         "1.4.14",
-        "Satru + i",
+        "śatru + i",
         "definition"
        ],
        [
         "7.3.119",
-        "Satra + O",
+        "śatra + au",
         "operation"
        ],
        [
         "6.1.88",
-        "Satr + O",
+        "śatr + au",
         "operation"
        ],
        [
         "8.4.68",
-        "Satr + O",
+        "śatr + au",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅi"
      }
     },
     "sasthi": {
@@ -3368,80 +3410,81 @@
       "steps": [
        [
         "1.2.45",
-        "Satru",
+        "śatru",
         "stem"
        ],
        [
         "4.1.2",
-        "Satru + Am",
+        "śatru + ām",
         "affix"
        ],
        [
         "1.3.4",
-        "Satru + Am",
+        "śatru + ām",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + Am",
+        "śatru + ām",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + Am",
+        "śatru + ām",
         "definition"
        ],
        [
         "7.1.54",
-        "Satru + nu~w + Am",
+        "śatru + num̐ṭ + ām",
         "operation"
        ],
        [
         "1.3.2",
-        "Satru + nu~w + Am",
+        "śatru + num̐ṭ + ām",
         "definition"
        ],
        [
         "1.3.3",
-        "Satru + nu~w + Am",
+        "śatru + num̐ṭ + ām",
         "definition"
        ],
        [
         "1.3.9",
-        "Satru + n + Am",
+        "śatru + n + ām",
         "definition"
        ],
        [
         "1.4.13",
-        "Satru + n + Am",
+        "śatru + n + ām",
         "definition"
        ],
        [
         "1.4.17",
-        "Satru + n + Am",
+        "śatru + n + ām",
         "definition"
        ],
        [
         "1.4.14",
-        "Satru + n + Am",
+        "śatru + n + ām",
         "definition"
        ],
        [
         "6.4.3",
-        "SatrU + n + Am",
+        "śatrū + n + ām",
         "operation"
        ],
        [
         "8.4.2",
-        "SatrU + R + Am",
+        "śatrū + ṇ + ām",
         "sound"
        ],
        [
         "8.4.68",
-        "SatrU + R + Am",
+        "śatrū + ṇ + ām",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ām"
      },
      "dvi": {
       "deva": "शत्र्वोः",
@@ -3450,70 +3493,71 @@
       "steps": [
        [
         "1.2.45",
-        "Satru",
+        "śatru",
         "stem"
        ],
        [
         "4.1.2",
-        "Satru + os",
+        "śatru + os",
         "affix"
        ],
        [
         "1.3.4",
-        "Satru + os",
+        "śatru + os",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + os",
+        "śatru + os",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + os",
+        "śatru + os",
         "definition"
        ],
        [
         "1.4.13",
-        "Satru + os",
+        "śatru + os",
         "definition"
        ],
        [
         "1.4.18",
-        "Satru + os",
+        "śatru + os",
         "definition"
        ],
        [
         "1.4.14",
-        "Satru + os",
+        "śatru + os",
         "definition"
        ],
        [
         "6.1.77",
-        "Satrv + os",
+        "śatrv + os",
         "operation"
        ],
        [
         "8.2.66",
-        "Satrv + oru~",
+        "śatrv + orum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "Satrv + or",
+        "śatrv + or",
         "definition"
        ],
        [
         "8.3.15",
-        "Satrv + oH",
+        "śatrv + oḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "Satrv + oH",
+        "śatrv + oḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "os"
      },
      "eka": {
       "deva": "शत्रोः",
@@ -3522,85 +3566,86 @@
       "steps": [
        [
         "1.2.45",
-        "Satru",
+        "śatru",
         "stem"
        ],
        [
         "4.1.2",
-        "Satru + Nas",
+        "śatru + ṅas",
         "affix"
        ],
        [
         "1.3.4",
-        "Satru + Nas",
+        "śatru + ṅas",
         "definition"
        ],
        [
         "1.3.8",
-        "Satru + Nas",
+        "śatru + ṅas",
         "definition"
        ],
        [
         "1.3.9",
-        "Satru + as",
+        "śatru + as",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + as",
+        "śatru + as",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + as",
+        "śatru + as",
         "definition"
        ],
        [
         "1.4.13",
-        "Satru + as",
+        "śatru + as",
         "definition"
        ],
        [
         "1.4.18",
-        "Satru + as",
+        "śatru + as",
         "definition"
        ],
        [
         "1.4.14",
-        "Satru + as",
+        "śatru + as",
         "definition"
        ],
        [
         "7.3.111",
-        "Satro + as",
+        "śatro + as",
         "operation"
        ],
        [
         "6.1.110",
-        "Satro + s",
+        "śatro + s",
         "operation"
        ],
        [
         "8.2.66",
-        "Satro + ru~",
+        "śatro + rum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "Satro + r",
+        "śatro + r",
         "definition"
        ],
        [
         "8.3.15",
-        "Satro + H",
+        "śatro + ḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "Satro + H",
+        "śatro + ḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅas"
      }
     },
     "tritiya": {
@@ -3611,65 +3656,66 @@
       "steps": [
        [
         "1.2.45",
-        "Satru",
+        "śatru",
         "stem"
        ],
        [
         "4.1.2",
-        "Satru + Bis",
+        "śatru + bhis",
         "affix"
        ],
        [
         "1.3.4",
-        "Satru + Bis",
+        "śatru + bhis",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + Bis",
+        "śatru + bhis",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + Bis",
+        "śatru + bhis",
         "definition"
        ],
        [
         "1.4.13",
-        "Satru + Bis",
+        "śatru + bhis",
         "definition"
        ],
        [
         "1.4.17",
-        "Satru + Bis",
+        "śatru + bhis",
         "definition"
        ],
        [
         "1.4.14",
-        "Satru + Bis",
+        "śatru + bhis",
         "definition"
        ],
        [
         "8.2.66",
-        "Satru + Biru~",
+        "śatru + bhirum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "Satru + Bir",
+        "śatru + bhir",
         "definition"
        ],
        [
         "8.3.15",
-        "Satru + BiH",
+        "śatru + bhiḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "Satru + BiH",
+        "śatru + bhiḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhis"
      },
      "dvi": {
       "deva": "शत्रुभ्याम्",
@@ -3678,50 +3724,51 @@
       "steps": [
        [
         "1.2.45",
-        "Satru",
+        "śatru",
         "stem"
        ],
        [
         "4.1.2",
-        "Satru + ByAm",
+        "śatru + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "Satru + ByAm",
+        "śatru + bhyām",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + ByAm",
+        "śatru + bhyām",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + ByAm",
+        "śatru + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "Satru + ByAm",
+        "śatru + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "Satru + ByAm",
+        "śatru + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "Satru + ByAm",
+        "śatru + bhyām",
         "definition"
        ],
        [
         "8.4.68",
-        "Satru + ByAm",
+        "śatru + bhyām",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "शत्रुणा",
@@ -3730,65 +3777,66 @@
       "steps": [
        [
         "1.2.45",
-        "Satru",
+        "śatru",
         "stem"
        ],
        [
         "4.1.2",
-        "Satru + wA",
+        "śatru + ṭā",
         "affix"
        ],
        [
         "1.3.7",
-        "Satru + wA",
+        "śatru + ṭā",
         "definition"
        ],
        [
         "1.3.9",
-        "Satru + A",
+        "śatru + ā",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + A",
+        "śatru + ā",
         "definition"
        ],
        [
         "1.4.7",
-        "Satru + A",
+        "śatru + ā",
         "definition"
        ],
        [
         "1.4.13",
-        "Satru + A",
+        "śatru + ā",
         "definition"
        ],
        [
         "7.3.120",
-        "Satru + nA",
+        "śatru + nā",
         "operation"
        ],
        [
         "1.4.17",
-        "Satru + nA",
+        "śatru + nā",
         "definition"
        ],
        [
         "1.4.14",
-        "Satru + nA",
+        "śatru + nā",
         "definition"
        ],
        [
         "8.4.2",
-        "Satru + RA",
+        "śatru + ṇā",
         "sound"
        ],
        [
         "8.4.68",
-        "Satru + RA",
+        "śatru + ṇā",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṭā"
      }
     }
    },
@@ -3962,60 +4010,61 @@
        ],
        [
         "4.1.2",
-        "guru + Byas",
+        "guru + bhyas",
         "affix"
        ],
        [
         "1.3.4",
-        "guru + Byas",
+        "guru + bhyas",
         "definition"
        ],
        [
         "1.4.7",
-        "guru + Byas",
+        "guru + bhyas",
         "definition"
        ],
        [
         "1.4.7",
-        "guru + Byas",
+        "guru + bhyas",
         "definition"
        ],
        [
         "1.4.13",
-        "guru + Byas",
+        "guru + bhyas",
         "definition"
        ],
        [
         "1.4.17",
-        "guru + Byas",
+        "guru + bhyas",
         "definition"
        ],
        [
         "1.4.14",
-        "guru + Byas",
+        "guru + bhyas",
         "definition"
        ],
        [
         "8.2.66",
-        "guru + Byaru~",
+        "guru + bhyarum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "guru + Byar",
+        "guru + bhyar",
         "definition"
        ],
        [
         "8.3.15",
-        "guru + ByaH",
+        "guru + bhyaḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "guru + ByaH",
+        "guru + bhyaḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyas"
      },
      "dvi": {
       "deva": "गुरुभ्याम्",
@@ -4029,40 +4078,41 @@
        ],
        [
         "4.1.2",
-        "guru + ByAm",
+        "guru + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "guru + ByAm",
+        "guru + bhyām",
         "definition"
        ],
        [
         "1.4.7",
-        "guru + ByAm",
+        "guru + bhyām",
         "definition"
        ],
        [
         "1.4.7",
-        "guru + ByAm",
+        "guru + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "guru + ByAm",
+        "guru + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "guru + ByAm",
+        "guru + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "guru + ByAm",
+        "guru + bhyām",
         "definition"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "गुरवे",
@@ -4076,12 +4126,12 @@
        ],
        [
         "4.1.2",
-        "guru + Ne",
+        "guru + ṅe",
         "affix"
        ],
        [
         "1.3.8",
-        "guru + Ne",
+        "guru + ṅe",
         "definition"
        ],
        [
@@ -4129,7 +4179,8 @@
         "gurav + e",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅe"
      }
     },
     "dvitiya": {
@@ -4145,17 +4196,17 @@
        ],
        [
         "4.1.2",
-        "guru + Sas",
+        "guru + śas",
         "affix"
        ],
        [
         "1.3.4",
-        "guru + Sas",
+        "guru + śas",
         "definition"
        ],
        [
         "1.3.8",
-        "guru + Sas",
+        "guru + śas",
         "definition"
        ],
        [
@@ -4190,25 +4241,26 @@
        ],
        [
         "6.1.102",
-        "guru + Us",
+        "guru + ūs",
         "operation"
        ],
        [
         "6.1.103",
-        "guru + Un",
+        "guru + ūn",
         "operation"
        ],
        [
         "6.1.101",
-        "gurU + n",
+        "gurū + n",
         "operation"
        ],
        [
         "8.4.37",
-        "gurU + n",
+        "gurū + n",
         "sound"
        ]
-      ]
+      ],
+      "sup": "śas"
      },
      "dvi": {
       "deva": "गुरू",
@@ -4222,60 +4274,61 @@
        ],
        [
         "4.1.2",
-        "guru + Ow",
+        "guru + auṭ",
         "affix"
        ],
        [
         "1.3.3",
-        "guru + Ow",
+        "guru + auṭ",
         "definition"
        ],
        [
         "1.3.9",
-        "guru + O",
+        "guru + au",
         "definition"
        ],
        [
         "1.4.7",
-        "guru + O",
+        "guru + au",
         "definition"
        ],
        [
         "1.1.43",
-        "guru + O",
+        "guru + au",
         "definition"
        ],
        [
         "1.4.7",
-        "guru + O",
+        "guru + au",
         "definition"
        ],
        [
         "1.1.43",
-        "guru + O",
+        "guru + au",
         "definition"
        ],
        [
         "1.4.13",
-        "guru + O",
+        "guru + au",
         "definition"
        ],
        [
         "1.4.14",
-        "guru + O",
+        "guru + au",
         "definition"
        ],
        [
         "6.1.102",
-        "guru + U",
+        "guru + ū",
         "operation"
        ],
        [
         "6.1.101",
-        "gurU",
+        "gurū",
         "operation"
        ]
-      ]
+      ],
+      "sup": "auṭ"
      },
      "eka": {
       "deva": "गुरुम्",
@@ -4332,7 +4385,8 @@
         "guru + m",
         "operation"
        ]
-      ]
+      ],
+      "sup": "am"
      }
     },
     "pancami": {
@@ -4348,60 +4402,61 @@
        ],
        [
         "4.1.2",
-        "guru + Byas",
+        "guru + bhyas",
         "affix"
        ],
        [
         "1.3.4",
-        "guru + Byas",
+        "guru + bhyas",
         "definition"
        ],
        [
         "1.4.7",
-        "guru + Byas",
+        "guru + bhyas",
         "definition"
        ],
        [
         "1.4.7",
-        "guru + Byas",
+        "guru + bhyas",
         "definition"
        ],
        [
         "1.4.13",
-        "guru + Byas",
+        "guru + bhyas",
         "definition"
        ],
        [
         "1.4.17",
-        "guru + Byas",
+        "guru + bhyas",
         "definition"
        ],
        [
         "1.4.14",
-        "guru + Byas",
+        "guru + bhyas",
         "definition"
        ],
        [
         "8.2.66",
-        "guru + Byaru~",
+        "guru + bhyarum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "guru + Byar",
+        "guru + bhyar",
         "definition"
        ],
        [
         "8.3.15",
-        "guru + ByaH",
+        "guru + bhyaḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "guru + ByaH",
+        "guru + bhyaḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyas"
      },
      "dvi": {
       "deva": "गुरुभ्याम्",
@@ -4415,40 +4470,41 @@
        ],
        [
         "4.1.2",
-        "guru + ByAm",
+        "guru + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "guru + ByAm",
+        "guru + bhyām",
         "definition"
        ],
        [
         "1.4.7",
-        "guru + ByAm",
+        "guru + bhyām",
         "definition"
        ],
        [
         "1.4.7",
-        "guru + ByAm",
+        "guru + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "guru + ByAm",
+        "guru + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "guru + ByAm",
+        "guru + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "guru + ByAm",
+        "guru + bhyām",
         "definition"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "गुरोः",
@@ -4462,17 +4518,17 @@
        ],
        [
         "4.1.2",
-        "guru + Nasi~",
+        "guru + ṅasim̐",
         "affix"
        ],
        [
         "1.3.2",
-        "guru + Nasi~",
+        "guru + ṅasim̐",
         "definition"
        ],
        [
         "1.3.8",
-        "guru + Nasi~",
+        "guru + ṅasim̐",
         "definition"
        ],
        [
@@ -4517,7 +4573,7 @@
        ],
        [
         "8.2.66",
-        "guro + ru~",
+        "guro + rum̐",
         "sound"
        ],
        [
@@ -4527,10 +4583,11 @@
        ],
        [
         "8.3.15",
-        "guro + H",
+        "guro + ḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅasim̐"
      }
     },
     "prathama": {
@@ -4606,7 +4663,7 @@
        ],
        [
         "8.2.66",
-        "gurav + aru~",
+        "gurav + arum̐",
         "sound"
        ],
        [
@@ -4616,15 +4673,16 @@
        ],
        [
         "8.3.15",
-        "gurav + aH",
+        "gurav + aḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "gurav + aH",
+        "gurav + aḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "jas"
      },
      "dvi": {
       "deva": "गुरू",
@@ -4638,50 +4696,51 @@
        ],
        [
         "4.1.2",
-        "guru + O",
+        "guru + au",
         "affix"
        ],
        [
         "1.4.7",
-        "guru + O",
+        "guru + au",
         "definition"
        ],
        [
         "1.1.43",
-        "guru + O",
+        "guru + au",
         "definition"
        ],
        [
         "1.4.7",
-        "guru + O",
+        "guru + au",
         "definition"
        ],
        [
         "1.1.43",
-        "guru + O",
+        "guru + au",
         "definition"
        ],
        [
         "1.4.13",
-        "guru + O",
+        "guru + au",
         "definition"
        ],
        [
         "1.4.14",
-        "guru + O",
+        "guru + au",
         "definition"
        ],
        [
         "6.1.102",
-        "guru + U",
+        "guru + ū",
         "operation"
        ],
        [
         "6.1.101",
-        "gurU",
+        "gurū",
         "operation"
        ]
-      ]
+      ],
+      "sup": "au"
      },
      "eka": {
       "deva": "गुरुः",
@@ -4695,12 +4754,12 @@
        ],
        [
         "4.1.2",
-        "guru + su~",
+        "guru + sum̐",
         "affix"
        ],
        [
         "1.3.2",
-        "guru + su~",
+        "guru + sum̐",
         "definition"
        ],
        [
@@ -4740,7 +4799,7 @@
        ],
        [
         "8.2.66",
-        "guru + ru~",
+        "guru + rum̐",
         "sound"
        ],
        [
@@ -4750,10 +4809,11 @@
        ],
        [
         "8.3.15",
-        "guru + H",
+        "guru + ḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "sum̐"
      }
     },
     "sambodhana": {
@@ -4839,7 +4899,7 @@
        ],
        [
         "8.2.66",
-        "gurav + aru~",
+        "gurav + arum̐",
         "sound"
        ],
        [
@@ -4849,15 +4909,16 @@
        ],
        [
         "8.3.15",
-        "gurav + aH",
+        "gurav + aḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "gurav + aH",
+        "gurav + aḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "jas"
      },
      "dvi": {
       "deva": "गुरू",
@@ -4871,60 +4932,61 @@
        ],
        [
         "4.1.2",
-        "guru + O",
+        "guru + au",
         "affix"
        ],
        [
         "1.4.7",
-        "guru + O",
+        "guru + au",
         "definition"
        ],
        [
         "2.3.48",
-        "guru + O",
+        "guru + au",
         "definition"
        ],
        [
         "1.1.43",
-        "guru + O",
+        "guru + au",
         "definition"
        ],
        [
         "1.4.7",
-        "guru + O",
+        "guru + au",
         "definition"
        ],
        [
         "2.3.48",
-        "guru + O",
+        "guru + au",
         "definition"
        ],
        [
         "1.1.43",
-        "guru + O",
+        "guru + au",
         "definition"
        ],
        [
         "1.4.13",
-        "guru + O",
+        "guru + au",
         "definition"
        ],
        [
         "1.4.14",
-        "guru + O",
+        "guru + au",
         "definition"
        ],
        [
         "6.1.102",
-        "guru + U",
+        "guru + ū",
         "operation"
        ],
        [
         "6.1.101",
-        "gurU",
+        "gurū",
         "operation"
        ]
-      ]
+      ],
+      "sup": "au"
      },
      "eka": {
       "deva": "गुरो",
@@ -4938,12 +5000,12 @@
        ],
        [
         "4.1.2",
-        "guru + su~",
+        "guru + sum̐",
         "affix"
        ],
        [
         "1.3.2",
-        "guru + su~",
+        "guru + sum̐",
         "definition"
        ],
        [
@@ -5011,7 +5073,8 @@
         "guro",
         "operation"
        ]
-      ]
+      ],
+      "sup": "sum̐"
      }
     },
     "saptami": {
@@ -5067,10 +5130,11 @@
        ],
        [
         "8.3.59",
-        "guru + zu",
+        "guru + ṣu",
         "sound"
        ]
-      ]
+      ],
+      "sup": "sup"
      },
      "dvi": {
       "deva": "गुर्वोः",
@@ -5124,7 +5188,7 @@
        ],
        [
         "8.2.66",
-        "gurv + oru~",
+        "gurv + orum̐",
         "sound"
        ],
        [
@@ -5134,10 +5198,11 @@
        ],
        [
         "8.3.15",
-        "gurv + oH",
+        "gurv + oḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "os"
      },
      "eka": {
       "deva": "गुरौ",
@@ -5151,12 +5216,12 @@
        ],
        [
         "4.1.2",
-        "guru + Ni",
+        "guru + ṅi",
         "affix"
        ],
        [
         "1.3.8",
-        "guru + Ni",
+        "guru + ṅi",
         "definition"
        ],
        [
@@ -5191,15 +5256,16 @@
        ],
        [
         "7.3.119",
-        "gura + O",
+        "gura + au",
         "operation"
        ],
        [
         "6.1.88",
-        "gur + O",
+        "gur + au",
         "operation"
        ]
-      ]
+      ],
+      "sup": "ṅi"
      }
     },
     "sasthi": {
@@ -5215,70 +5281,71 @@
        ],
        [
         "4.1.2",
-        "guru + Am",
+        "guru + ām",
         "affix"
        ],
        [
         "1.3.4",
-        "guru + Am",
+        "guru + ām",
         "definition"
        ],
        [
         "1.4.7",
-        "guru + Am",
+        "guru + ām",
         "definition"
        ],
        [
         "1.4.7",
-        "guru + Am",
+        "guru + ām",
         "definition"
        ],
        [
         "7.1.54",
-        "guru + nu~w + Am",
+        "guru + num̐ṭ + ām",
         "operation"
        ],
        [
         "1.3.2",
-        "guru + nu~w + Am",
+        "guru + num̐ṭ + ām",
         "definition"
        ],
        [
         "1.3.3",
-        "guru + nu~w + Am",
+        "guru + num̐ṭ + ām",
         "definition"
        ],
        [
         "1.3.9",
-        "guru + n + Am",
+        "guru + n + ām",
         "definition"
        ],
        [
         "1.4.13",
-        "guru + n + Am",
+        "guru + n + ām",
         "definition"
        ],
        [
         "1.4.17",
-        "guru + n + Am",
+        "guru + n + ām",
         "definition"
        ],
        [
         "1.4.14",
-        "guru + n + Am",
+        "guru + n + ām",
         "definition"
        ],
        [
         "6.4.3",
-        "gurU + n + Am",
+        "gurū + n + ām",
         "operation"
        ],
        [
         "8.4.2",
-        "gurU + R + Am",
+        "gurū + ṇ + ām",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ām"
      },
      "dvi": {
       "deva": "गुर्वोः",
@@ -5332,7 +5399,7 @@
        ],
        [
         "8.2.66",
-        "gurv + oru~",
+        "gurv + orum̐",
         "sound"
        ],
        [
@@ -5342,10 +5409,11 @@
        ],
        [
         "8.3.15",
-        "gurv + oH",
+        "gurv + oḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "os"
      },
      "eka": {
       "deva": "गुरोः",
@@ -5359,17 +5427,17 @@
        ],
        [
         "4.1.2",
-        "guru + Nas",
+        "guru + ṅas",
         "affix"
        ],
        [
         "1.3.4",
-        "guru + Nas",
+        "guru + ṅas",
         "definition"
        ],
        [
         "1.3.8",
-        "guru + Nas",
+        "guru + ṅas",
         "definition"
        ],
        [
@@ -5414,7 +5482,7 @@
        ],
        [
         "8.2.66",
-        "guro + ru~",
+        "guro + rum̐",
         "sound"
        ],
        [
@@ -5424,10 +5492,11 @@
        ],
        [
         "8.3.15",
-        "guro + H",
+        "guro + ḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅas"
      }
     },
     "tritiya": {
@@ -5443,55 +5512,56 @@
        ],
        [
         "4.1.2",
-        "guru + Bis",
+        "guru + bhis",
         "affix"
        ],
        [
         "1.3.4",
-        "guru + Bis",
+        "guru + bhis",
         "definition"
        ],
        [
         "1.4.7",
-        "guru + Bis",
+        "guru + bhis",
         "definition"
        ],
        [
         "1.4.7",
-        "guru + Bis",
+        "guru + bhis",
         "definition"
        ],
        [
         "1.4.13",
-        "guru + Bis",
+        "guru + bhis",
         "definition"
        ],
        [
         "1.4.17",
-        "guru + Bis",
+        "guru + bhis",
         "definition"
        ],
        [
         "1.4.14",
-        "guru + Bis",
+        "guru + bhis",
         "definition"
        ],
        [
         "8.2.66",
-        "guru + Biru~",
+        "guru + bhirum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "guru + Bir",
+        "guru + bhir",
         "definition"
        ],
        [
         "8.3.15",
-        "guru + BiH",
+        "guru + bhiḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhis"
      },
      "dvi": {
       "deva": "गुरुभ्याम्",
@@ -5505,40 +5575,41 @@
        ],
        [
         "4.1.2",
-        "guru + ByAm",
+        "guru + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "guru + ByAm",
+        "guru + bhyām",
         "definition"
        ],
        [
         "1.4.7",
-        "guru + ByAm",
+        "guru + bhyām",
         "definition"
        ],
        [
         "1.4.7",
-        "guru + ByAm",
+        "guru + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "guru + ByAm",
+        "guru + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "guru + ByAm",
+        "guru + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "guru + ByAm",
+        "guru + bhyām",
         "definition"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "गुरुणा",
@@ -5552,55 +5623,56 @@
        ],
        [
         "4.1.2",
-        "guru + wA",
+        "guru + ṭā",
         "affix"
        ],
        [
         "1.3.7",
-        "guru + wA",
+        "guru + ṭā",
         "definition"
        ],
        [
         "1.3.9",
-        "guru + A",
+        "guru + ā",
         "definition"
        ],
        [
         "1.4.7",
-        "guru + A",
+        "guru + ā",
         "definition"
        ],
        [
         "1.4.7",
-        "guru + A",
+        "guru + ā",
         "definition"
        ],
        [
         "1.4.13",
-        "guru + A",
+        "guru + ā",
         "definition"
        ],
        [
         "7.3.120",
-        "guru + nA",
+        "guru + nā",
         "operation"
        ],
        [
         "1.4.17",
-        "guru + nA",
+        "guru + nā",
         "definition"
        ],
        [
         "1.4.14",
-        "guru + nA",
+        "guru + nā",
         "definition"
        ],
        [
         "8.4.2",
-        "guru + RA",
+        "guru + ṇā",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṭā"
      }
     }
    },
@@ -5774,60 +5846,61 @@
        ],
        [
         "4.1.2",
-        "ripu + Byas",
+        "ripu + bhyas",
         "affix"
        ],
        [
         "1.3.4",
-        "ripu + Byas",
+        "ripu + bhyas",
         "definition"
        ],
        [
         "1.4.7",
-        "ripu + Byas",
+        "ripu + bhyas",
         "definition"
        ],
        [
         "1.4.7",
-        "ripu + Byas",
+        "ripu + bhyas",
         "definition"
        ],
        [
         "1.4.13",
-        "ripu + Byas",
+        "ripu + bhyas",
         "definition"
        ],
        [
         "1.4.17",
-        "ripu + Byas",
+        "ripu + bhyas",
         "definition"
        ],
        [
         "1.4.14",
-        "ripu + Byas",
+        "ripu + bhyas",
         "definition"
        ],
        [
         "8.2.66",
-        "ripu + Byaru~",
+        "ripu + bhyarum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "ripu + Byar",
+        "ripu + bhyar",
         "definition"
        ],
        [
         "8.3.15",
-        "ripu + ByaH",
+        "ripu + bhyaḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "ripu + ByaH",
+        "ripu + bhyaḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyas"
      },
      "dvi": {
       "deva": "रिपुभ्याम्",
@@ -5841,40 +5914,41 @@
        ],
        [
         "4.1.2",
-        "ripu + ByAm",
+        "ripu + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "ripu + ByAm",
+        "ripu + bhyām",
         "definition"
        ],
        [
         "1.4.7",
-        "ripu + ByAm",
+        "ripu + bhyām",
         "definition"
        ],
        [
         "1.4.7",
-        "ripu + ByAm",
+        "ripu + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "ripu + ByAm",
+        "ripu + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "ripu + ByAm",
+        "ripu + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "ripu + ByAm",
+        "ripu + bhyām",
         "definition"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "रिपवे",
@@ -5888,12 +5962,12 @@
        ],
        [
         "4.1.2",
-        "ripu + Ne",
+        "ripu + ṅe",
         "affix"
        ],
        [
         "1.3.8",
-        "ripu + Ne",
+        "ripu + ṅe",
         "definition"
        ],
        [
@@ -5941,7 +6015,8 @@
         "ripav + e",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅe"
      }
     },
     "dvitiya": {
@@ -5957,17 +6032,17 @@
        ],
        [
         "4.1.2",
-        "ripu + Sas",
+        "ripu + śas",
         "affix"
        ],
        [
         "1.3.4",
-        "ripu + Sas",
+        "ripu + śas",
         "definition"
        ],
        [
         "1.3.8",
-        "ripu + Sas",
+        "ripu + śas",
         "definition"
        ],
        [
@@ -6002,25 +6077,26 @@
        ],
        [
         "6.1.102",
-        "ripu + Us",
+        "ripu + ūs",
         "operation"
        ],
        [
         "6.1.103",
-        "ripu + Un",
+        "ripu + ūn",
         "operation"
        ],
        [
         "6.1.101",
-        "ripU + n",
+        "ripū + n",
         "operation"
        ],
        [
         "8.4.37",
-        "ripU + n",
+        "ripū + n",
         "sound"
        ]
-      ]
+      ],
+      "sup": "śas"
      },
      "dvi": {
       "deva": "रिपू",
@@ -6034,60 +6110,61 @@
        ],
        [
         "4.1.2",
-        "ripu + Ow",
+        "ripu + auṭ",
         "affix"
        ],
        [
         "1.3.3",
-        "ripu + Ow",
+        "ripu + auṭ",
         "definition"
        ],
        [
         "1.3.9",
-        "ripu + O",
+        "ripu + au",
         "definition"
        ],
        [
         "1.4.7",
-        "ripu + O",
+        "ripu + au",
         "definition"
        ],
        [
         "1.1.43",
-        "ripu + O",
+        "ripu + au",
         "definition"
        ],
        [
         "1.4.7",
-        "ripu + O",
+        "ripu + au",
         "definition"
        ],
        [
         "1.1.43",
-        "ripu + O",
+        "ripu + au",
         "definition"
        ],
        [
         "1.4.13",
-        "ripu + O",
+        "ripu + au",
         "definition"
        ],
        [
         "1.4.14",
-        "ripu + O",
+        "ripu + au",
         "definition"
        ],
        [
         "6.1.102",
-        "ripu + U",
+        "ripu + ū",
         "operation"
        ],
        [
         "6.1.101",
-        "ripU",
+        "ripū",
         "operation"
        ]
-      ]
+      ],
+      "sup": "auṭ"
      },
      "eka": {
       "deva": "रिपुम्",
@@ -6144,7 +6221,8 @@
         "ripu + m",
         "operation"
        ]
-      ]
+      ],
+      "sup": "am"
      }
     },
     "pancami": {
@@ -6160,60 +6238,61 @@
        ],
        [
         "4.1.2",
-        "ripu + Byas",
+        "ripu + bhyas",
         "affix"
        ],
        [
         "1.3.4",
-        "ripu + Byas",
+        "ripu + bhyas",
         "definition"
        ],
        [
         "1.4.7",
-        "ripu + Byas",
+        "ripu + bhyas",
         "definition"
        ],
        [
         "1.4.7",
-        "ripu + Byas",
+        "ripu + bhyas",
         "definition"
        ],
        [
         "1.4.13",
-        "ripu + Byas",
+        "ripu + bhyas",
         "definition"
        ],
        [
         "1.4.17",
-        "ripu + Byas",
+        "ripu + bhyas",
         "definition"
        ],
        [
         "1.4.14",
-        "ripu + Byas",
+        "ripu + bhyas",
         "definition"
        ],
        [
         "8.2.66",
-        "ripu + Byaru~",
+        "ripu + bhyarum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "ripu + Byar",
+        "ripu + bhyar",
         "definition"
        ],
        [
         "8.3.15",
-        "ripu + ByaH",
+        "ripu + bhyaḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "ripu + ByaH",
+        "ripu + bhyaḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyas"
      },
      "dvi": {
       "deva": "रिपुभ्याम्",
@@ -6227,40 +6306,41 @@
        ],
        [
         "4.1.2",
-        "ripu + ByAm",
+        "ripu + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "ripu + ByAm",
+        "ripu + bhyām",
         "definition"
        ],
        [
         "1.4.7",
-        "ripu + ByAm",
+        "ripu + bhyām",
         "definition"
        ],
        [
         "1.4.7",
-        "ripu + ByAm",
+        "ripu + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "ripu + ByAm",
+        "ripu + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "ripu + ByAm",
+        "ripu + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "ripu + ByAm",
+        "ripu + bhyām",
         "definition"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "रिपोः",
@@ -6274,17 +6354,17 @@
        ],
        [
         "4.1.2",
-        "ripu + Nasi~",
+        "ripu + ṅasim̐",
         "affix"
        ],
        [
         "1.3.2",
-        "ripu + Nasi~",
+        "ripu + ṅasim̐",
         "definition"
        ],
        [
         "1.3.8",
-        "ripu + Nasi~",
+        "ripu + ṅasim̐",
         "definition"
        ],
        [
@@ -6329,7 +6409,7 @@
        ],
        [
         "8.2.66",
-        "ripo + ru~",
+        "ripo + rum̐",
         "sound"
        ],
        [
@@ -6339,10 +6419,11 @@
        ],
        [
         "8.3.15",
-        "ripo + H",
+        "ripo + ḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅasim̐"
      }
     },
     "prathama": {
@@ -6418,7 +6499,7 @@
        ],
        [
         "8.2.66",
-        "ripav + aru~",
+        "ripav + arum̐",
         "sound"
        ],
        [
@@ -6428,15 +6509,16 @@
        ],
        [
         "8.3.15",
-        "ripav + aH",
+        "ripav + aḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "ripav + aH",
+        "ripav + aḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "jas"
      },
      "dvi": {
       "deva": "रिपू",
@@ -6450,50 +6532,51 @@
        ],
        [
         "4.1.2",
-        "ripu + O",
+        "ripu + au",
         "affix"
        ],
        [
         "1.4.7",
-        "ripu + O",
+        "ripu + au",
         "definition"
        ],
        [
         "1.1.43",
-        "ripu + O",
+        "ripu + au",
         "definition"
        ],
        [
         "1.4.7",
-        "ripu + O",
+        "ripu + au",
         "definition"
        ],
        [
         "1.1.43",
-        "ripu + O",
+        "ripu + au",
         "definition"
        ],
        [
         "1.4.13",
-        "ripu + O",
+        "ripu + au",
         "definition"
        ],
        [
         "1.4.14",
-        "ripu + O",
+        "ripu + au",
         "definition"
        ],
        [
         "6.1.102",
-        "ripu + U",
+        "ripu + ū",
         "operation"
        ],
        [
         "6.1.101",
-        "ripU",
+        "ripū",
         "operation"
        ]
-      ]
+      ],
+      "sup": "au"
      },
      "eka": {
       "deva": "रिपुः",
@@ -6507,12 +6590,12 @@
        ],
        [
         "4.1.2",
-        "ripu + su~",
+        "ripu + sum̐",
         "affix"
        ],
        [
         "1.3.2",
-        "ripu + su~",
+        "ripu + sum̐",
         "definition"
        ],
        [
@@ -6552,7 +6635,7 @@
        ],
        [
         "8.2.66",
-        "ripu + ru~",
+        "ripu + rum̐",
         "sound"
        ],
        [
@@ -6562,10 +6645,11 @@
        ],
        [
         "8.3.15",
-        "ripu + H",
+        "ripu + ḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "sum̐"
      }
     },
     "sambodhana": {
@@ -6651,7 +6735,7 @@
        ],
        [
         "8.2.66",
-        "ripav + aru~",
+        "ripav + arum̐",
         "sound"
        ],
        [
@@ -6661,15 +6745,16 @@
        ],
        [
         "8.3.15",
-        "ripav + aH",
+        "ripav + aḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "ripav + aH",
+        "ripav + aḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "jas"
      },
      "dvi": {
       "deva": "रिपू",
@@ -6683,60 +6768,61 @@
        ],
        [
         "4.1.2",
-        "ripu + O",
+        "ripu + au",
         "affix"
        ],
        [
         "1.4.7",
-        "ripu + O",
+        "ripu + au",
         "definition"
        ],
        [
         "2.3.48",
-        "ripu + O",
+        "ripu + au",
         "definition"
        ],
        [
         "1.1.43",
-        "ripu + O",
+        "ripu + au",
         "definition"
        ],
        [
         "1.4.7",
-        "ripu + O",
+        "ripu + au",
         "definition"
        ],
        [
         "2.3.48",
-        "ripu + O",
+        "ripu + au",
         "definition"
        ],
        [
         "1.1.43",
-        "ripu + O",
+        "ripu + au",
         "definition"
        ],
        [
         "1.4.13",
-        "ripu + O",
+        "ripu + au",
         "definition"
        ],
        [
         "1.4.14",
-        "ripu + O",
+        "ripu + au",
         "definition"
        ],
        [
         "6.1.102",
-        "ripu + U",
+        "ripu + ū",
         "operation"
        ],
        [
         "6.1.101",
-        "ripU",
+        "ripū",
         "operation"
        ]
-      ]
+      ],
+      "sup": "au"
      },
      "eka": {
       "deva": "रिपो",
@@ -6750,12 +6836,12 @@
        ],
        [
         "4.1.2",
-        "ripu + su~",
+        "ripu + sum̐",
         "affix"
        ],
        [
         "1.3.2",
-        "ripu + su~",
+        "ripu + sum̐",
         "definition"
        ],
        [
@@ -6823,7 +6909,8 @@
         "ripo",
         "operation"
        ]
-      ]
+      ],
+      "sup": "sum̐"
      }
     },
     "saptami": {
@@ -6879,10 +6966,11 @@
        ],
        [
         "8.3.59",
-        "ripu + zu",
+        "ripu + ṣu",
         "sound"
        ]
-      ]
+      ],
+      "sup": "sup"
      },
      "dvi": {
       "deva": "रिप्वोः",
@@ -6936,7 +7024,7 @@
        ],
        [
         "8.2.66",
-        "ripv + oru~",
+        "ripv + orum̐",
         "sound"
        ],
        [
@@ -6946,10 +7034,11 @@
        ],
        [
         "8.3.15",
-        "ripv + oH",
+        "ripv + oḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "os"
      },
      "eka": {
       "deva": "रिपौ",
@@ -6963,12 +7052,12 @@
        ],
        [
         "4.1.2",
-        "ripu + Ni",
+        "ripu + ṅi",
         "affix"
        ],
        [
         "1.3.8",
-        "ripu + Ni",
+        "ripu + ṅi",
         "definition"
        ],
        [
@@ -7003,15 +7092,16 @@
        ],
        [
         "7.3.119",
-        "ripa + O",
+        "ripa + au",
         "operation"
        ],
        [
         "6.1.88",
-        "rip + O",
+        "rip + au",
         "operation"
        ]
-      ]
+      ],
+      "sup": "ṅi"
      }
     },
     "sasthi": {
@@ -7027,70 +7117,71 @@
        ],
        [
         "4.1.2",
-        "ripu + Am",
+        "ripu + ām",
         "affix"
        ],
        [
         "1.3.4",
-        "ripu + Am",
+        "ripu + ām",
         "definition"
        ],
        [
         "1.4.7",
-        "ripu + Am",
+        "ripu + ām",
         "definition"
        ],
        [
         "1.4.7",
-        "ripu + Am",
+        "ripu + ām",
         "definition"
        ],
        [
         "7.1.54",
-        "ripu + nu~w + Am",
+        "ripu + num̐ṭ + ām",
         "operation"
        ],
        [
         "1.3.2",
-        "ripu + nu~w + Am",
+        "ripu + num̐ṭ + ām",
         "definition"
        ],
        [
         "1.3.3",
-        "ripu + nu~w + Am",
+        "ripu + num̐ṭ + ām",
         "definition"
        ],
        [
         "1.3.9",
-        "ripu + n + Am",
+        "ripu + n + ām",
         "definition"
        ],
        [
         "1.4.13",
-        "ripu + n + Am",
+        "ripu + n + ām",
         "definition"
        ],
        [
         "1.4.17",
-        "ripu + n + Am",
+        "ripu + n + ām",
         "definition"
        ],
        [
         "1.4.14",
-        "ripu + n + Am",
+        "ripu + n + ām",
         "definition"
        ],
        [
         "6.4.3",
-        "ripU + n + Am",
+        "ripū + n + ām",
         "operation"
        ],
        [
         "8.4.2",
-        "ripU + R + Am",
+        "ripū + ṇ + ām",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ām"
      },
      "dvi": {
       "deva": "रिप्वोः",
@@ -7144,7 +7235,7 @@
        ],
        [
         "8.2.66",
-        "ripv + oru~",
+        "ripv + orum̐",
         "sound"
        ],
        [
@@ -7154,10 +7245,11 @@
        ],
        [
         "8.3.15",
-        "ripv + oH",
+        "ripv + oḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "os"
      },
      "eka": {
       "deva": "रिपोः",
@@ -7171,17 +7263,17 @@
        ],
        [
         "4.1.2",
-        "ripu + Nas",
+        "ripu + ṅas",
         "affix"
        ],
        [
         "1.3.4",
-        "ripu + Nas",
+        "ripu + ṅas",
         "definition"
        ],
        [
         "1.3.8",
-        "ripu + Nas",
+        "ripu + ṅas",
         "definition"
        ],
        [
@@ -7226,7 +7318,7 @@
        ],
        [
         "8.2.66",
-        "ripo + ru~",
+        "ripo + rum̐",
         "sound"
        ],
        [
@@ -7236,10 +7328,11 @@
        ],
        [
         "8.3.15",
-        "ripo + H",
+        "ripo + ḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅas"
      }
     },
     "tritiya": {
@@ -7255,55 +7348,56 @@
        ],
        [
         "4.1.2",
-        "ripu + Bis",
+        "ripu + bhis",
         "affix"
        ],
        [
         "1.3.4",
-        "ripu + Bis",
+        "ripu + bhis",
         "definition"
        ],
        [
         "1.4.7",
-        "ripu + Bis",
+        "ripu + bhis",
         "definition"
        ],
        [
         "1.4.7",
-        "ripu + Bis",
+        "ripu + bhis",
         "definition"
        ],
        [
         "1.4.13",
-        "ripu + Bis",
+        "ripu + bhis",
         "definition"
        ],
        [
         "1.4.17",
-        "ripu + Bis",
+        "ripu + bhis",
         "definition"
        ],
        [
         "1.4.14",
-        "ripu + Bis",
+        "ripu + bhis",
         "definition"
        ],
        [
         "8.2.66",
-        "ripu + Biru~",
+        "ripu + bhirum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "ripu + Bir",
+        "ripu + bhir",
         "definition"
        ],
        [
         "8.3.15",
-        "ripu + BiH",
+        "ripu + bhiḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhis"
      },
      "dvi": {
       "deva": "रिपुभ्याम्",
@@ -7317,40 +7411,41 @@
        ],
        [
         "4.1.2",
-        "ripu + ByAm",
+        "ripu + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "ripu + ByAm",
+        "ripu + bhyām",
         "definition"
        ],
        [
         "1.4.7",
-        "ripu + ByAm",
+        "ripu + bhyām",
         "definition"
        ],
        [
         "1.4.7",
-        "ripu + ByAm",
+        "ripu + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "ripu + ByAm",
+        "ripu + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "ripu + ByAm",
+        "ripu + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "ripu + ByAm",
+        "ripu + bhyām",
         "definition"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "रिपुणा",
@@ -7364,55 +7459,56 @@
        ],
        [
         "4.1.2",
-        "ripu + wA",
+        "ripu + ṭā",
         "affix"
        ],
        [
         "1.3.7",
-        "ripu + wA",
+        "ripu + ṭā",
         "definition"
        ],
        [
         "1.3.9",
-        "ripu + A",
+        "ripu + ā",
         "definition"
        ],
        [
         "1.4.7",
-        "ripu + A",
+        "ripu + ā",
         "definition"
        ],
        [
         "1.4.7",
-        "ripu + A",
+        "ripu + ā",
         "definition"
        ],
        [
         "1.4.13",
-        "ripu + A",
+        "ripu + ā",
         "definition"
        ],
        [
         "7.3.120",
-        "ripu + nA",
+        "ripu + nā",
         "operation"
        ],
        [
         "1.4.17",
-        "ripu + nA",
+        "ripu + nā",
         "definition"
        ],
        [
         "1.4.14",
-        "ripu + nA",
+        "ripu + nā",
         "definition"
        ],
        [
         "8.4.2",
-        "ripu + RA",
+        "ripu + ṇā",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṭā"
      }
     }
    },

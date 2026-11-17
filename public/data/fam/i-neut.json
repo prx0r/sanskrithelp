@@ -13,75 +13,76 @@
       "steps": [
        [
         "1.2.45",
-        "daDi",
+        "dadhi",
         "stem"
        ],
        [
         "4.1.2",
-        "daDi + Byas",
+        "dadhi + bhyas",
         "affix"
        ],
        [
         "1.3.4",
-        "daDi + Byas",
+        "dadhi + bhyas",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + Byas",
+        "dadhi + bhyas",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + Byas",
+        "dadhi + bhyas",
         "definition"
        ],
        [
         "1.4.13",
-        "daDi + Byas",
+        "dadhi + bhyas",
         "definition"
        ],
        [
         "7.1.75",
-        "daDan + Byas",
+        "dadhan + bhyas",
         "operation"
        ],
        [
         "1.4.17",
-        "daDan + Byas",
+        "dadhan + bhyas",
         "definition"
        ],
        [
         "1.4.14",
-        "daDan + Byas",
+        "dadhan + bhyas",
         "definition"
        ],
        [
         "8.2.7",
-        "daDa + Byas",
+        "dadha + bhyas",
         "sound"
        ],
        [
         "8.2.66",
-        "daDa + Byaru~",
+        "dadha + bhyarum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "daDa + Byar",
+        "dadha + bhyar",
         "definition"
        ],
        [
         "8.3.15",
-        "daDa + ByaH",
+        "dadha + bhyaḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "daDa + ByaH",
+        "dadha + bhyaḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyas"
      },
      "dvi": {
       "deva": "दधभ्याम्",
@@ -90,60 +91,61 @@
       "steps": [
        [
         "1.2.45",
-        "daDi",
+        "dadhi",
         "stem"
        ],
        [
         "4.1.2",
-        "daDi + ByAm",
+        "dadhi + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "daDi + ByAm",
+        "dadhi + bhyām",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + ByAm",
+        "dadhi + bhyām",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + ByAm",
+        "dadhi + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "daDi + ByAm",
+        "dadhi + bhyām",
         "definition"
        ],
        [
         "7.1.75",
-        "daDan + ByAm",
+        "dadhan + bhyām",
         "operation"
        ],
        [
         "1.4.17",
-        "daDan + ByAm",
+        "dadhan + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "daDan + ByAm",
+        "dadhan + bhyām",
         "definition"
        ],
        [
         "8.2.7",
-        "daDa + ByAm",
+        "dadha + bhyām",
         "sound"
        ],
        [
         "8.4.68",
-        "daDa + ByAm",
+        "dadha + bhyām",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "दध्ने",
@@ -152,65 +154,66 @@
       "steps": [
        [
         "1.2.45",
-        "daDi",
+        "dadhi",
         "stem"
        ],
        [
         "4.1.2",
-        "daDi + Ne",
+        "dadhi + ṅe",
         "affix"
        ],
        [
         "1.3.8",
-        "daDi + Ne",
+        "dadhi + ṅe",
         "definition"
        ],
        [
         "1.3.9",
-        "daDi + e",
+        "dadhi + e",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + e",
+        "dadhi + e",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + e",
+        "dadhi + e",
         "definition"
        ],
        [
         "1.4.13",
-        "daDi + e",
+        "dadhi + e",
         "definition"
        ],
        [
         "7.1.75",
-        "daDan + e",
+        "dadhan + e",
         "operation"
        ],
        [
         "1.4.18",
-        "daDan + e",
+        "dadhan + e",
         "definition"
        ],
        [
         "1.4.14",
-        "daDan + e",
+        "dadhan + e",
         "definition"
        ],
        [
         "6.4.134",
-        "daDn + e",
+        "dadhn + e",
         "operation"
        ],
        [
         "8.4.68",
-        "daDn + e",
+        "dadhn + e",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅe"
      }
     },
     "dvitiya": {
@@ -221,80 +224,81 @@
       "steps": [
        [
         "1.2.45",
-        "daDi",
+        "dadhi",
         "stem"
        ],
        [
         "4.1.2",
-        "daDi + Sas",
+        "dadhi + śas",
         "affix"
        ],
        [
         "1.3.4",
-        "daDi + Sas",
+        "dadhi + śas",
         "definition"
        ],
        [
         "1.3.8",
-        "daDi + Sas",
+        "dadhi + śas",
         "definition"
        ],
        [
         "1.3.9",
-        "daDi + as",
+        "dadhi + as",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + as",
+        "dadhi + as",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + as",
+        "dadhi + as",
         "definition"
        ],
        [
         "1.4.13",
-        "daDi + as",
+        "dadhi + as",
         "definition"
        ],
        [
         "7.1.20",
-        "daDi + Si",
+        "dadhi + śi",
         "operation"
        ],
        [
         "1.3.8",
-        "daDi + Si",
+        "dadhi + śi",
         "definition"
        ],
        [
         "1.3.9",
-        "daDi + i",
+        "dadhi + i",
         "definition"
        ],
        [
         "1.1.42",
-        "daDi + i",
+        "dadhi + i",
         "definition"
        ],
        [
         "1.4.14",
-        "daDi + i",
+        "dadhi + i",
         "definition"
        ],
        [
         "7.1.72",
-        "daDin + i",
+        "dadhin + i",
         "operation"
        ],
        [
         "8.4.68",
-        "daDin + i",
+        "dadhin + i",
         "sound"
        ]
-      ]
+      ],
+      "sup": "śas"
      },
      "dvi": {
       "deva": "दधिनी",
@@ -303,80 +307,81 @@
       "steps": [
        [
         "1.2.45",
-        "daDi",
+        "dadhi",
         "stem"
        ],
        [
         "4.1.2",
-        "daDi + Ow",
+        "dadhi + auṭ",
         "affix"
        ],
        [
         "1.3.3",
-        "daDi + Ow",
+        "dadhi + auṭ",
         "definition"
        ],
        [
         "1.3.9",
-        "daDi + O",
+        "dadhi + au",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + O",
+        "dadhi + au",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + O",
+        "dadhi + au",
         "definition"
        ],
        [
         "1.4.13",
-        "daDi + O",
+        "dadhi + au",
         "definition"
        ],
        [
         "7.1.19",
-        "daDi + SI",
+        "dadhi + śī",
         "operation"
        ],
        [
         "1.3.8",
-        "daDi + SI",
+        "dadhi + śī",
         "definition"
        ],
        [
         "1.3.9",
-        "daDi + I",
+        "dadhi + ī",
         "definition"
        ],
        [
         "1.4.18",
-        "daDi + I",
+        "dadhi + ī",
         "definition"
        ],
        [
         "1.4.14",
-        "daDi + I",
+        "dadhi + ī",
         "definition"
        ],
        [
         "6.4.148.1",
-        "daDi + I",
+        "dadhi + ī",
         "operation"
        ],
        [
         "7.1.73",
-        "daDin + I",
+        "dadhin + ī",
         "operation"
        ],
        [
         "8.4.68",
-        "daDin + I",
+        "dadhin + ī",
         "sound"
        ]
-      ]
+      ],
+      "sup": "auṭ"
      },
      "eka": {
       "deva": "दधि",
@@ -385,55 +390,56 @@
       "steps": [
        [
         "1.2.45",
-        "daDi",
+        "dadhi",
         "stem"
        ],
        [
         "4.1.2",
-        "daDi + am",
+        "dadhi + am",
         "affix"
        ],
        [
         "1.3.4",
-        "daDi + am",
+        "dadhi + am",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + am",
+        "dadhi + am",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + am",
+        "dadhi + am",
         "definition"
        ],
        [
         "7.1.23",
-        "daDi",
+        "dadhi",
         "operation"
        ],
        [
         "1.4.13",
-        "daDi",
+        "dadhi",
         "definition"
        ],
        [
         "1.4.17",
-        "daDi",
+        "dadhi",
         "definition"
        ],
        [
         "1.4.14",
-        "daDi",
+        "dadhi",
         "definition"
        ],
        [
         "8.4.68",
-        "daDi",
+        "dadhi",
         "sound"
        ]
-      ]
+      ],
+      "sup": "am"
      }
     },
     "pancami": {
@@ -444,75 +450,76 @@
       "steps": [
        [
         "1.2.45",
-        "daDi",
+        "dadhi",
         "stem"
        ],
        [
         "4.1.2",
-        "daDi + Byas",
+        "dadhi + bhyas",
         "affix"
        ],
        [
         "1.3.4",
-        "daDi + Byas",
+        "dadhi + bhyas",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + Byas",
+        "dadhi + bhyas",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + Byas",
+        "dadhi + bhyas",
         "definition"
        ],
        [
         "1.4.13",
-        "daDi + Byas",
+        "dadhi + bhyas",
         "definition"
        ],
        [
         "7.1.75",
-        "daDan + Byas",
+        "dadhan + bhyas",
         "operation"
        ],
        [
         "1.4.17",
-        "daDan + Byas",
+        "dadhan + bhyas",
         "definition"
        ],
        [
         "1.4.14",
-        "daDan + Byas",
+        "dadhan + bhyas",
         "definition"
        ],
        [
         "8.2.7",
-        "daDa + Byas",
+        "dadha + bhyas",
         "sound"
        ],
        [
         "8.2.66",
-        "daDa + Byaru~",
+        "dadha + bhyarum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "daDa + Byar",
+        "dadha + bhyar",
         "definition"
        ],
        [
         "8.3.15",
-        "daDa + ByaH",
+        "dadha + bhyaḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "daDa + ByaH",
+        "dadha + bhyaḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyas"
      },
      "dvi": {
       "deva": "दधभ्याम्",
@@ -521,60 +528,61 @@
       "steps": [
        [
         "1.2.45",
-        "daDi",
+        "dadhi",
         "stem"
        ],
        [
         "4.1.2",
-        "daDi + ByAm",
+        "dadhi + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "daDi + ByAm",
+        "dadhi + bhyām",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + ByAm",
+        "dadhi + bhyām",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + ByAm",
+        "dadhi + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "daDi + ByAm",
+        "dadhi + bhyām",
         "definition"
        ],
        [
         "7.1.75",
-        "daDan + ByAm",
+        "dadhan + bhyām",
         "operation"
        ],
        [
         "1.4.17",
-        "daDan + ByAm",
+        "dadhan + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "daDan + ByAm",
+        "dadhan + bhyām",
         "definition"
        ],
        [
         "8.2.7",
-        "daDa + ByAm",
+        "dadha + bhyām",
         "sound"
        ],
        [
         "8.4.68",
-        "daDa + ByAm",
+        "dadha + bhyām",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "दध्नः",
@@ -583,85 +591,86 @@
       "steps": [
        [
         "1.2.45",
-        "daDi",
+        "dadhi",
         "stem"
        ],
        [
         "4.1.2",
-        "daDi + Nasi~",
+        "dadhi + ṅasim̐",
         "affix"
        ],
        [
         "1.3.2",
-        "daDi + Nasi~",
+        "dadhi + ṅasim̐",
         "definition"
        ],
        [
         "1.3.8",
-        "daDi + Nasi~",
+        "dadhi + ṅasim̐",
         "definition"
        ],
        [
         "1.3.9",
-        "daDi + as",
+        "dadhi + as",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + as",
+        "dadhi + as",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + as",
+        "dadhi + as",
         "definition"
        ],
        [
         "1.4.13",
-        "daDi + as",
+        "dadhi + as",
         "definition"
        ],
        [
         "7.1.75",
-        "daDan + as",
+        "dadhan + as",
         "operation"
        ],
        [
         "1.4.18",
-        "daDan + as",
+        "dadhan + as",
         "definition"
        ],
        [
         "1.4.14",
-        "daDan + as",
+        "dadhan + as",
         "definition"
        ],
        [
         "6.4.134",
-        "daDn + as",
+        "dadhn + as",
         "operation"
        ],
        [
         "8.2.66",
-        "daDn + aru~",
+        "dadhn + arum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "daDn + ar",
+        "dadhn + ar",
         "definition"
        ],
        [
         "8.3.15",
-        "daDn + aH",
+        "dadhn + aḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "daDn + aH",
+        "dadhn + aḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅasim̐"
      }
     },
     "prathama": {
@@ -672,85 +681,86 @@
       "steps": [
        [
         "1.2.45",
-        "daDi",
+        "dadhi",
         "stem"
        ],
        [
         "4.1.2",
-        "daDi + jas",
+        "dadhi + jas",
         "affix"
        ],
        [
         "1.3.4",
-        "daDi + jas",
+        "dadhi + jas",
         "definition"
        ],
        [
         "1.3.7",
-        "daDi + jas",
+        "dadhi + jas",
         "definition"
        ],
        [
         "1.3.9",
-        "daDi + as",
+        "dadhi + as",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + as",
+        "dadhi + as",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + as",
+        "dadhi + as",
         "definition"
        ],
        [
         "1.4.13",
-        "daDi + as",
+        "dadhi + as",
         "definition"
        ],
        [
         "7.1.20",
-        "daDi + Si",
+        "dadhi + śi",
         "operation"
        ],
        [
         "1.3.8",
-        "daDi + Si",
+        "dadhi + śi",
         "definition"
        ],
        [
         "1.3.9",
-        "daDi + i",
+        "dadhi + i",
         "definition"
        ],
        [
         "1.1.42",
-        "daDi + i",
+        "dadhi + i",
         "definition"
        ],
        [
         "1.4.14",
-        "daDi + i",
+        "dadhi + i",
         "definition"
        ],
        [
         "7.1.72",
-        "daDin + i",
+        "dadhin + i",
         "operation"
        ],
        [
         "6.4.12",
-        "daDIn + i",
+        "dadhīn + i",
         "operation"
        ],
        [
         "8.4.68",
-        "daDIn + i",
+        "dadhīn + i",
         "sound"
        ]
-      ]
+      ],
+      "sup": "jas"
      },
      "dvi": {
       "deva": "दधिनी",
@@ -759,70 +769,71 @@
       "steps": [
        [
         "1.2.45",
-        "daDi",
+        "dadhi",
         "stem"
        ],
        [
         "4.1.2",
-        "daDi + O",
+        "dadhi + au",
         "affix"
        ],
        [
         "1.4.7",
-        "daDi + O",
+        "dadhi + au",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + O",
+        "dadhi + au",
         "definition"
        ],
        [
         "1.4.13",
-        "daDi + O",
+        "dadhi + au",
         "definition"
        ],
        [
         "7.1.19",
-        "daDi + SI",
+        "dadhi + śī",
         "operation"
        ],
        [
         "1.3.8",
-        "daDi + SI",
+        "dadhi + śī",
         "definition"
        ],
        [
         "1.3.9",
-        "daDi + I",
+        "dadhi + ī",
         "definition"
        ],
        [
         "1.4.18",
-        "daDi + I",
+        "dadhi + ī",
         "definition"
        ],
        [
         "1.4.14",
-        "daDi + I",
+        "dadhi + ī",
         "definition"
        ],
        [
         "6.4.148.1",
-        "daDi + I",
+        "dadhi + ī",
         "operation"
        ],
        [
         "7.1.73",
-        "daDin + I",
+        "dadhin + ī",
         "operation"
        ],
        [
         "8.4.68",
-        "daDin + I",
+        "dadhin + ī",
         "sound"
        ]
-      ]
+      ],
+      "sup": "au"
      },
      "eka": {
       "deva": "दधि",
@@ -831,60 +842,61 @@
       "steps": [
        [
         "1.2.45",
-        "daDi",
+        "dadhi",
         "stem"
        ],
        [
         "4.1.2",
-        "daDi + su~",
+        "dadhi + sum̐",
         "affix"
        ],
        [
         "1.3.2",
-        "daDi + su~",
+        "dadhi + sum̐",
         "definition"
        ],
        [
         "1.3.9",
-        "daDi + s",
+        "dadhi + s",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + s",
+        "dadhi + s",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + s",
+        "dadhi + s",
         "definition"
        ],
        [
         "7.1.23",
-        "daDi",
+        "dadhi",
         "operation"
        ],
        [
         "1.4.13",
-        "daDi",
+        "dadhi",
         "definition"
        ],
        [
         "1.4.17",
-        "daDi",
+        "dadhi",
         "definition"
        ],
        [
         "1.4.14",
-        "daDi",
+        "dadhi",
         "definition"
        ],
        [
         "8.4.68",
-        "daDi",
+        "dadhi",
         "sound"
        ]
-      ]
+      ],
+      "sup": "sum̐"
      }
     },
     "sambodhana": {
@@ -895,95 +907,96 @@
       "steps": [
        [
         "1.2.45",
-        "daDi",
+        "dadhi",
         "stem"
        ],
        [
         "4.1.2",
-        "daDi + jas",
+        "dadhi + jas",
         "affix"
        ],
        [
         "1.3.4",
-        "daDi + jas",
+        "dadhi + jas",
         "definition"
        ],
        [
         "1.3.7",
-        "daDi + jas",
+        "dadhi + jas",
         "definition"
        ],
        [
         "1.3.9",
-        "daDi + as",
+        "dadhi + as",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + as",
+        "dadhi + as",
         "definition"
        ],
        [
         "2.3.48",
-        "daDi + as",
+        "dadhi + as",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + as",
+        "dadhi + as",
         "definition"
        ],
        [
         "2.3.48",
-        "daDi + as",
+        "dadhi + as",
         "definition"
        ],
        [
         "1.4.13",
-        "daDi + as",
+        "dadhi + as",
         "definition"
        ],
        [
         "7.1.20",
-        "daDi + Si",
+        "dadhi + śi",
         "operation"
        ],
        [
         "1.3.8",
-        "daDi + Si",
+        "dadhi + śi",
         "definition"
        ],
        [
         "1.3.9",
-        "daDi + i",
+        "dadhi + i",
         "definition"
        ],
        [
         "1.1.42",
-        "daDi + i",
+        "dadhi + i",
         "definition"
        ],
        [
         "1.4.14",
-        "daDi + i",
+        "dadhi + i",
         "definition"
        ],
        [
         "7.1.72",
-        "daDin + i",
+        "dadhin + i",
         "operation"
        ],
        [
         "6.4.12",
-        "daDIn + i",
+        "dadhīn + i",
         "operation"
        ],
        [
         "8.4.68",
-        "daDIn + i",
+        "dadhīn + i",
         "sound"
        ]
-      ]
+      ],
+      "sup": "jas"
      },
      "dvi": {
       "deva": "दधिनी",
@@ -992,80 +1005,81 @@
       "steps": [
        [
         "1.2.45",
-        "daDi",
+        "dadhi",
         "stem"
        ],
        [
         "4.1.2",
-        "daDi + O",
+        "dadhi + au",
         "affix"
        ],
        [
         "1.4.7",
-        "daDi + O",
+        "dadhi + au",
         "definition"
        ],
        [
         "2.3.48",
-        "daDi + O",
+        "dadhi + au",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + O",
+        "dadhi + au",
         "definition"
        ],
        [
         "2.3.48",
-        "daDi + O",
+        "dadhi + au",
         "definition"
        ],
        [
         "1.4.13",
-        "daDi + O",
+        "dadhi + au",
         "definition"
        ],
        [
         "7.1.19",
-        "daDi + SI",
+        "dadhi + śī",
         "operation"
        ],
        [
         "1.3.8",
-        "daDi + SI",
+        "dadhi + śī",
         "definition"
        ],
        [
         "1.3.9",
-        "daDi + I",
+        "dadhi + ī",
         "definition"
        ],
        [
         "1.4.18",
-        "daDi + I",
+        "dadhi + ī",
         "definition"
        ],
        [
         "1.4.14",
-        "daDi + I",
+        "dadhi + ī",
         "definition"
        ],
        [
         "6.4.148.1",
-        "daDi + I",
+        "dadhi + ī",
         "operation"
        ],
        [
         "7.1.73",
-        "daDin + I",
+        "dadhin + ī",
         "operation"
        ],
        [
         "8.4.68",
-        "daDin + I",
+        "dadhin + ī",
         "sound"
        ]
-      ]
+      ],
+      "sup": "au"
      },
      "eka": {
       "deva": "दधि",
@@ -1074,80 +1088,81 @@
       "steps": [
        [
         "1.2.45",
-        "daDi",
+        "dadhi",
         "stem"
        ],
        [
         "4.1.2",
-        "daDi + su~",
+        "dadhi + sum̐",
         "affix"
        ],
        [
         "1.3.2",
-        "daDi + su~",
+        "dadhi + sum̐",
         "definition"
        ],
        [
         "1.3.9",
-        "daDi + s",
+        "dadhi + s",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + s",
+        "dadhi + s",
         "definition"
        ],
        [
         "2.3.48",
-        "daDi + s",
+        "dadhi + s",
         "definition"
        ],
        [
         "2.3.49",
-        "daDi + s",
+        "dadhi + s",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + s",
+        "dadhi + s",
         "definition"
        ],
        [
         "2.3.48",
-        "daDi + s",
+        "dadhi + s",
         "definition"
        ],
        [
         "2.3.49",
-        "daDi + s",
+        "dadhi + s",
         "definition"
        ],
        [
         "7.1.23",
-        "daDi",
+        "dadhi",
         "operation"
        ],
        [
         "1.4.13",
-        "daDi",
+        "dadhi",
         "definition"
        ],
        [
         "1.4.17",
-        "daDi",
+        "dadhi",
         "definition"
        ],
        [
         "1.4.14",
-        "daDi",
+        "dadhi",
         "definition"
        ],
        [
         "8.4.68",
-        "daDi",
+        "dadhi",
         "sound"
        ]
-      ]
+      ],
+      "sup": "sum̐"
      }
     },
     "saptami": {
@@ -1158,65 +1173,66 @@
       "steps": [
        [
         "1.2.45",
-        "daDi",
+        "dadhi",
         "stem"
        ],
        [
         "4.1.2",
-        "daDi + sup",
+        "dadhi + sup",
         "affix"
        ],
        [
         "1.3.3",
-        "daDi + sup",
+        "dadhi + sup",
         "definition"
        ],
        [
         "1.3.9",
-        "daDi + su",
+        "dadhi + su",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + su",
+        "dadhi + su",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + su",
+        "dadhi + su",
         "definition"
        ],
        [
         "1.4.13",
-        "daDi + su",
+        "dadhi + su",
         "definition"
        ],
        [
         "7.1.75",
-        "daDan + su",
+        "dadhan + su",
         "operation"
        ],
        [
         "1.4.17",
-        "daDan + su",
+        "dadhan + su",
         "definition"
        ],
        [
         "1.4.14",
-        "daDan + su",
+        "dadhan + su",
         "definition"
        ],
        [
         "8.2.7",
-        "daDa + su",
+        "dadha + su",
         "sound"
        ],
        [
         "8.4.68",
-        "daDa + su",
+        "dadha + su",
         "sound"
        ]
-      ]
+      ],
+      "sup": "sup"
      },
      "dvi": {
       "deva": "दध्नोः",
@@ -1225,75 +1241,76 @@
       "steps": [
        [
         "1.2.45",
-        "daDi",
+        "dadhi",
         "stem"
        ],
        [
         "4.1.2",
-        "daDi + os",
+        "dadhi + os",
         "affix"
        ],
        [
         "1.3.4",
-        "daDi + os",
+        "dadhi + os",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + os",
+        "dadhi + os",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + os",
+        "dadhi + os",
         "definition"
        ],
        [
         "1.4.13",
-        "daDi + os",
+        "dadhi + os",
         "definition"
        ],
        [
         "7.1.75",
-        "daDan + os",
+        "dadhan + os",
         "operation"
        ],
        [
         "1.4.18",
-        "daDan + os",
+        "dadhan + os",
         "definition"
        ],
        [
         "1.4.14",
-        "daDan + os",
+        "dadhan + os",
         "definition"
        ],
        [
         "6.4.134",
-        "daDn + os",
+        "dadhn + os",
         "operation"
        ],
        [
         "8.2.66",
-        "daDn + oru~",
+        "dadhn + orum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "daDn + or",
+        "dadhn + or",
         "definition"
        ],
        [
         "8.3.15",
-        "daDn + oH",
+        "dadhn + oḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "daDn + oH",
+        "dadhn + oḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "os"
      },
      "eka": {
       "deva": "दधनि",
@@ -1302,65 +1319,66 @@
       "steps": [
        [
         "1.2.45",
-        "daDi",
+        "dadhi",
         "stem"
        ],
        [
         "4.1.2",
-        "daDi + Ni",
+        "dadhi + ṅi",
         "affix"
        ],
        [
         "1.3.8",
-        "daDi + Ni",
+        "dadhi + ṅi",
         "definition"
        ],
        [
         "1.3.9",
-        "daDi + i",
+        "dadhi + i",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + i",
+        "dadhi + i",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + i",
+        "dadhi + i",
         "definition"
        ],
        [
         "1.4.13",
-        "daDi + i",
+        "dadhi + i",
         "definition"
        ],
        [
         "7.1.75",
-        "daDan + i",
+        "dadhan + i",
         "operation"
        ],
        [
         "1.4.18",
-        "daDan + i",
+        "dadhan + i",
         "definition"
        ],
        [
         "1.4.14",
-        "daDan + i",
+        "dadhan + i",
         "definition"
        ],
        [
         "6.4.136",
-        "daDan + i",
+        "dadhan + i",
         "operation"
        ],
        [
         "8.4.68",
-        "daDan + i",
+        "dadhan + i",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅi"
      }
     },
     "sasthi": {
@@ -1371,75 +1389,76 @@
       "steps": [
        [
         "1.2.45",
-        "daDi",
+        "dadhi",
         "stem"
        ],
        [
         "4.1.2",
-        "daDi + Am",
+        "dadhi + ām",
         "affix"
        ],
        [
         "1.3.4",
-        "daDi + Am",
+        "dadhi + ām",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + Am",
+        "dadhi + ām",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + Am",
+        "dadhi + ām",
         "definition"
        ],
        [
         "7.1.54",
-        "daDi + nu~w + Am",
+        "dadhi + num̐ṭ + ām",
         "operation"
        ],
        [
         "1.3.2",
-        "daDi + nu~w + Am",
+        "dadhi + num̐ṭ + ām",
         "definition"
        ],
        [
         "1.3.3",
-        "daDi + nu~w + Am",
+        "dadhi + num̐ṭ + ām",
         "definition"
        ],
        [
         "1.3.9",
-        "daDi + n + Am",
+        "dadhi + n + ām",
         "definition"
        ],
        [
         "1.4.13",
-        "daDi + n + Am",
+        "dadhi + n + ām",
         "definition"
        ],
        [
         "1.4.17",
-        "daDi + n + Am",
+        "dadhi + n + ām",
         "definition"
        ],
        [
         "1.4.14",
-        "daDi + n + Am",
+        "dadhi + n + ām",
         "definition"
        ],
        [
         "6.4.3",
-        "daDI + n + Am",
+        "dadhī + n + ām",
         "operation"
        ],
        [
         "8.4.68",
-        "daDI + n + Am",
+        "dadhī + n + ām",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ām"
      },
      "dvi": {
       "deva": "दध्नोः",
@@ -1448,75 +1467,76 @@
       "steps": [
        [
         "1.2.45",
-        "daDi",
+        "dadhi",
         "stem"
        ],
        [
         "4.1.2",
-        "daDi + os",
+        "dadhi + os",
         "affix"
        ],
        [
         "1.3.4",
-        "daDi + os",
+        "dadhi + os",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + os",
+        "dadhi + os",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + os",
+        "dadhi + os",
         "definition"
        ],
        [
         "1.4.13",
-        "daDi + os",
+        "dadhi + os",
         "definition"
        ],
        [
         "7.1.75",
-        "daDan + os",
+        "dadhan + os",
         "operation"
        ],
        [
         "1.4.18",
-        "daDan + os",
+        "dadhan + os",
         "definition"
        ],
        [
         "1.4.14",
-        "daDan + os",
+        "dadhan + os",
         "definition"
        ],
        [
         "6.4.134",
-        "daDn + os",
+        "dadhn + os",
         "operation"
        ],
        [
         "8.2.66",
-        "daDn + oru~",
+        "dadhn + orum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "daDn + or",
+        "dadhn + or",
         "definition"
        ],
        [
         "8.3.15",
-        "daDn + oH",
+        "dadhn + oḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "daDn + oH",
+        "dadhn + oḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "os"
      },
      "eka": {
       "deva": "दध्नः",
@@ -1525,85 +1545,86 @@
       "steps": [
        [
         "1.2.45",
-        "daDi",
+        "dadhi",
         "stem"
        ],
        [
         "4.1.2",
-        "daDi + Nas",
+        "dadhi + ṅas",
         "affix"
        ],
        [
         "1.3.4",
-        "daDi + Nas",
+        "dadhi + ṅas",
         "definition"
        ],
        [
         "1.3.8",
-        "daDi + Nas",
+        "dadhi + ṅas",
         "definition"
        ],
        [
         "1.3.9",
-        "daDi + as",
+        "dadhi + as",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + as",
+        "dadhi + as",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + as",
+        "dadhi + as",
         "definition"
        ],
        [
         "1.4.13",
-        "daDi + as",
+        "dadhi + as",
         "definition"
        ],
        [
         "7.1.75",
-        "daDan + as",
+        "dadhan + as",
         "operation"
        ],
        [
         "1.4.18",
-        "daDan + as",
+        "dadhan + as",
         "definition"
        ],
        [
         "1.4.14",
-        "daDan + as",
+        "dadhan + as",
         "definition"
        ],
        [
         "6.4.134",
-        "daDn + as",
+        "dadhn + as",
         "operation"
        ],
        [
         "8.2.66",
-        "daDn + aru~",
+        "dadhn + arum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "daDn + ar",
+        "dadhn + ar",
         "definition"
        ],
        [
         "8.3.15",
-        "daDn + aH",
+        "dadhn + aḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "daDn + aH",
+        "dadhn + aḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅas"
      }
     },
     "tritiya": {
@@ -1614,75 +1635,76 @@
       "steps": [
        [
         "1.2.45",
-        "daDi",
+        "dadhi",
         "stem"
        ],
        [
         "4.1.2",
-        "daDi + Bis",
+        "dadhi + bhis",
         "affix"
        ],
        [
         "1.3.4",
-        "daDi + Bis",
+        "dadhi + bhis",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + Bis",
+        "dadhi + bhis",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + Bis",
+        "dadhi + bhis",
         "definition"
        ],
        [
         "1.4.13",
-        "daDi + Bis",
+        "dadhi + bhis",
         "definition"
        ],
        [
         "7.1.75",
-        "daDan + Bis",
+        "dadhan + bhis",
         "operation"
        ],
        [
         "1.4.17",
-        "daDan + Bis",
+        "dadhan + bhis",
         "definition"
        ],
        [
         "1.4.14",
-        "daDan + Bis",
+        "dadhan + bhis",
         "definition"
        ],
        [
         "8.2.7",
-        "daDa + Bis",
+        "dadha + bhis",
         "sound"
        ],
        [
         "8.2.66",
-        "daDa + Biru~",
+        "dadha + bhirum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "daDa + Bir",
+        "dadha + bhir",
         "definition"
        ],
        [
         "8.3.15",
-        "daDa + BiH",
+        "dadha + bhiḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "daDa + BiH",
+        "dadha + bhiḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhis"
      },
      "dvi": {
       "deva": "दधभ्याम्",
@@ -1691,60 +1713,61 @@
       "steps": [
        [
         "1.2.45",
-        "daDi",
+        "dadhi",
         "stem"
        ],
        [
         "4.1.2",
-        "daDi + ByAm",
+        "dadhi + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "daDi + ByAm",
+        "dadhi + bhyām",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + ByAm",
+        "dadhi + bhyām",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + ByAm",
+        "dadhi + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "daDi + ByAm",
+        "dadhi + bhyām",
         "definition"
        ],
        [
         "7.1.75",
-        "daDan + ByAm",
+        "dadhan + bhyām",
         "operation"
        ],
        [
         "1.4.17",
-        "daDan + ByAm",
+        "dadhan + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "daDan + ByAm",
+        "dadhan + bhyām",
         "definition"
        ],
        [
         "8.2.7",
-        "daDa + ByAm",
+        "dadha + bhyām",
         "sound"
        ],
        [
         "8.4.68",
-        "daDa + ByAm",
+        "dadha + bhyām",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "दध्ना",
@@ -1753,65 +1776,66 @@
       "steps": [
        [
         "1.2.45",
-        "daDi",
+        "dadhi",
         "stem"
        ],
        [
         "4.1.2",
-        "daDi + wA",
+        "dadhi + ṭā",
         "affix"
        ],
        [
         "1.3.7",
-        "daDi + wA",
+        "dadhi + ṭā",
         "definition"
        ],
        [
         "1.3.9",
-        "daDi + A",
+        "dadhi + ā",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + A",
+        "dadhi + ā",
         "definition"
        ],
        [
         "1.4.7",
-        "daDi + A",
+        "dadhi + ā",
         "definition"
        ],
        [
         "1.4.13",
-        "daDi + A",
+        "dadhi + ā",
         "definition"
        ],
        [
         "7.1.75",
-        "daDan + A",
+        "dadhan + ā",
         "operation"
        ],
        [
         "1.4.18",
-        "daDan + A",
+        "dadhan + ā",
         "definition"
        ],
        [
         "1.4.14",
-        "daDan + A",
+        "dadhan + ā",
         "definition"
        ],
        [
         "6.4.134",
-        "daDn + A",
+        "dadhn + ā",
         "operation"
        ],
        [
         "8.4.68",
-        "daDn + A",
+        "dadhn + ā",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṭā"
      }
     }
    },
@@ -1976,75 +2000,76 @@
       "steps": [
        [
         "1.2.45",
-        "vAri",
+        "vāri",
         "stem"
        ],
        [
         "4.1.2",
-        "vAri + Byas",
+        "vāri + bhyas",
         "affix"
        ],
        [
         "1.3.4",
-        "vAri + Byas",
+        "vāri + bhyas",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + Byas",
+        "vāri + bhyas",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + Byas",
+        "vāri + bhyas",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + Byas",
+        "vāri + bhyas",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + Byas",
+        "vāri + bhyas",
         "definition"
        ],
        [
         "1.4.13",
-        "vAri + Byas",
+        "vāri + bhyas",
         "definition"
        ],
        [
         "1.4.17",
-        "vAri + Byas",
+        "vāri + bhyas",
         "definition"
        ],
        [
         "1.4.14",
-        "vAri + Byas",
+        "vāri + bhyas",
         "definition"
        ],
        [
         "8.2.66",
-        "vAri + Byaru~",
+        "vāri + bhyarum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "vAri + Byar",
+        "vāri + bhyar",
         "definition"
        ],
        [
         "8.3.15",
-        "vAri + ByaH",
+        "vāri + bhyaḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "vAri + ByaH",
+        "vāri + bhyaḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyas"
      },
      "dvi": {
       "deva": "वारिभ्याम्",
@@ -2053,55 +2078,56 @@
       "steps": [
        [
         "1.2.45",
-        "vAri",
+        "vāri",
         "stem"
        ],
        [
         "4.1.2",
-        "vAri + ByAm",
+        "vāri + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "vAri + ByAm",
+        "vāri + bhyām",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + ByAm",
+        "vāri + bhyām",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + ByAm",
+        "vāri + bhyām",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + ByAm",
+        "vāri + bhyām",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + ByAm",
+        "vāri + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "vAri + ByAm",
+        "vāri + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "vAri + ByAm",
+        "vāri + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "vAri + ByAm",
+        "vāri + bhyām",
         "definition"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "वारिणे",
@@ -2110,70 +2136,71 @@
       "steps": [
        [
         "1.2.45",
-        "vAri",
+        "vāri",
         "stem"
        ],
        [
         "4.1.2",
-        "vAri + Ne",
+        "vāri + ṅe",
         "affix"
        ],
        [
         "1.3.8",
-        "vAri + Ne",
+        "vāri + ṅe",
         "definition"
        ],
        [
         "1.3.9",
-        "vAri + e",
+        "vāri + e",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + e",
+        "vāri + e",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + e",
+        "vāri + e",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + e",
+        "vāri + e",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + e",
+        "vāri + e",
         "definition"
        ],
        [
         "1.4.13",
-        "vAri + e",
+        "vāri + e",
         "definition"
        ],
        [
         "1.4.18",
-        "vAri + e",
+        "vāri + e",
         "definition"
        ],
        [
         "1.4.14",
-        "vAri + e",
+        "vāri + e",
         "definition"
        ],
        [
         "7.1.73",
-        "vArin + e",
+        "vārin + e",
         "operation"
        ],
        [
         "8.4.2",
-        "vAriR + e",
+        "vāriṇ + e",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅe"
      }
     },
     "dvitiya": {
@@ -2184,90 +2211,91 @@
       "steps": [
        [
         "1.2.45",
-        "vAri",
+        "vāri",
         "stem"
        ],
        [
         "4.1.2",
-        "vAri + Sas",
+        "vāri + śas",
         "affix"
        ],
        [
         "1.3.4",
-        "vAri + Sas",
+        "vāri + śas",
         "definition"
        ],
        [
         "1.3.8",
-        "vAri + Sas",
+        "vāri + śas",
         "definition"
        ],
        [
         "1.3.9",
-        "vAri + as",
+        "vāri + as",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + as",
+        "vāri + as",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + as",
+        "vāri + as",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + as",
+        "vāri + as",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + as",
+        "vāri + as",
         "definition"
        ],
        [
         "1.4.13",
-        "vAri + as",
+        "vāri + as",
         "definition"
        ],
        [
         "7.1.20",
-        "vAri + Si",
+        "vāri + śi",
         "operation"
        ],
        [
         "1.3.8",
-        "vAri + Si",
+        "vāri + śi",
         "definition"
        ],
        [
         "1.3.9",
-        "vAri + i",
+        "vāri + i",
         "definition"
        ],
        [
         "1.1.42",
-        "vAri + i",
+        "vāri + i",
         "definition"
        ],
        [
         "1.4.14",
-        "vAri + i",
+        "vāri + i",
         "definition"
        ],
        [
         "7.1.72",
-        "vArin + i",
+        "vārin + i",
         "operation"
        ],
        [
         "8.4.2",
-        "vAriR + i",
+        "vāriṇ + i",
         "sound"
        ]
-      ]
+      ],
+      "sup": "śas"
      },
      "dvi": {
       "deva": "वारिणी",
@@ -2276,90 +2304,91 @@
       "steps": [
        [
         "1.2.45",
-        "vAri",
+        "vāri",
         "stem"
        ],
        [
         "4.1.2",
-        "vAri + Ow",
+        "vāri + auṭ",
         "affix"
        ],
        [
         "1.3.3",
-        "vAri + Ow",
+        "vāri + auṭ",
         "definition"
        ],
        [
         "1.3.9",
-        "vAri + O",
+        "vāri + au",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + O",
+        "vāri + au",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + O",
+        "vāri + au",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + O",
+        "vāri + au",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + O",
+        "vāri + au",
         "definition"
        ],
        [
         "1.4.13",
-        "vAri + O",
+        "vāri + au",
         "definition"
        ],
        [
         "7.1.19",
-        "vAri + SI",
+        "vāri + śī",
         "operation"
        ],
        [
         "1.3.8",
-        "vAri + SI",
+        "vāri + śī",
         "definition"
        ],
        [
         "1.3.9",
-        "vAri + I",
+        "vāri + ī",
         "definition"
        ],
        [
         "1.4.18",
-        "vAri + I",
+        "vāri + ī",
         "definition"
        ],
        [
         "1.4.14",
-        "vAri + I",
+        "vāri + ī",
         "definition"
        ],
        [
         "6.4.148.1",
-        "vAri + I",
+        "vāri + ī",
         "operation"
        ],
        [
         "7.1.73",
-        "vArin + I",
+        "vārin + ī",
         "operation"
        ],
        [
         "8.4.2",
-        "vAriR + I",
+        "vāriṇ + ī",
         "sound"
        ]
-      ]
+      ],
+      "sup": "auṭ"
      },
      "eka": {
       "deva": "वारि",
@@ -2368,60 +2397,61 @@
       "steps": [
        [
         "1.2.45",
-        "vAri",
+        "vāri",
         "stem"
        ],
        [
         "4.1.2",
-        "vAri + am",
+        "vāri + am",
         "affix"
        ],
        [
         "1.3.4",
-        "vAri + am",
+        "vāri + am",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + am",
+        "vāri + am",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + am",
+        "vāri + am",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + am",
+        "vāri + am",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + am",
+        "vāri + am",
         "definition"
        ],
        [
         "7.1.23",
-        "vAri",
+        "vāri",
         "operation"
        ],
        [
         "1.4.13",
-        "vAri",
+        "vāri",
         "definition"
        ],
        [
         "1.4.17",
-        "vAri",
+        "vāri",
         "definition"
        ],
        [
         "1.4.14",
-        "vAri",
+        "vāri",
         "definition"
        ]
-      ]
+      ],
+      "sup": "am"
      }
     },
     "pancami": {
@@ -2432,75 +2462,76 @@
       "steps": [
        [
         "1.2.45",
-        "vAri",
+        "vāri",
         "stem"
        ],
        [
         "4.1.2",
-        "vAri + Byas",
+        "vāri + bhyas",
         "affix"
        ],
        [
         "1.3.4",
-        "vAri + Byas",
+        "vāri + bhyas",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + Byas",
+        "vāri + bhyas",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + Byas",
+        "vāri + bhyas",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + Byas",
+        "vāri + bhyas",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + Byas",
+        "vāri + bhyas",
         "definition"
        ],
        [
         "1.4.13",
-        "vAri + Byas",
+        "vāri + bhyas",
         "definition"
        ],
        [
         "1.4.17",
-        "vAri + Byas",
+        "vāri + bhyas",
         "definition"
        ],
        [
         "1.4.14",
-        "vAri + Byas",
+        "vāri + bhyas",
         "definition"
        ],
        [
         "8.2.66",
-        "vAri + Byaru~",
+        "vāri + bhyarum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "vAri + Byar",
+        "vāri + bhyar",
         "definition"
        ],
        [
         "8.3.15",
-        "vAri + ByaH",
+        "vāri + bhyaḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "vAri + ByaH",
+        "vāri + bhyaḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyas"
      },
      "dvi": {
       "deva": "वारिभ्याम्",
@@ -2509,55 +2540,56 @@
       "steps": [
        [
         "1.2.45",
-        "vAri",
+        "vāri",
         "stem"
        ],
        [
         "4.1.2",
-        "vAri + ByAm",
+        "vāri + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "vAri + ByAm",
+        "vāri + bhyām",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + ByAm",
+        "vāri + bhyām",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + ByAm",
+        "vāri + bhyām",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + ByAm",
+        "vāri + bhyām",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + ByAm",
+        "vāri + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "vAri + ByAm",
+        "vāri + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "vAri + ByAm",
+        "vāri + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "vAri + ByAm",
+        "vāri + bhyām",
         "definition"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "वारिणः",
@@ -2566,95 +2598,96 @@
       "steps": [
        [
         "1.2.45",
-        "vAri",
+        "vāri",
         "stem"
        ],
        [
         "4.1.2",
-        "vAri + Nasi~",
+        "vāri + ṅasim̐",
         "affix"
        ],
        [
         "1.3.2",
-        "vAri + Nasi~",
+        "vāri + ṅasim̐",
         "definition"
        ],
        [
         "1.3.8",
-        "vAri + Nasi~",
+        "vāri + ṅasim̐",
         "definition"
        ],
        [
         "1.3.9",
-        "vAri + as",
+        "vāri + as",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + as",
+        "vāri + as",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + as",
+        "vāri + as",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + as",
+        "vāri + as",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + as",
+        "vāri + as",
         "definition"
        ],
        [
         "1.4.13",
-        "vAri + as",
+        "vāri + as",
         "definition"
        ],
        [
         "1.4.18",
-        "vAri + as",
+        "vāri + as",
         "definition"
        ],
        [
         "1.4.14",
-        "vAri + as",
+        "vāri + as",
         "definition"
        ],
        [
         "7.1.73",
-        "vArin + as",
+        "vārin + as",
         "operation"
        ],
        [
         "8.2.66",
-        "vArin + aru~",
+        "vārin + arum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "vArin + ar",
+        "vārin + ar",
         "definition"
        ],
        [
         "8.3.15",
-        "vArin + aH",
+        "vārin + aḥ",
         "sound"
        ],
        [
         "8.4.2",
-        "vAriR + aH",
+        "vāriṇ + aḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "vAriR + aH",
+        "vāriṇ + aḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅasim̐"
      }
     },
     "prathama": {
@@ -2665,95 +2698,96 @@
       "steps": [
        [
         "1.2.45",
-        "vAri",
+        "vāri",
         "stem"
        ],
        [
         "4.1.2",
-        "vAri + jas",
+        "vāri + jas",
         "affix"
        ],
        [
         "1.3.4",
-        "vAri + jas",
+        "vāri + jas",
         "definition"
        ],
        [
         "1.3.7",
-        "vAri + jas",
+        "vāri + jas",
         "definition"
        ],
        [
         "1.3.9",
-        "vAri + as",
+        "vāri + as",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + as",
+        "vāri + as",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + as",
+        "vāri + as",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + as",
+        "vāri + as",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + as",
+        "vāri + as",
         "definition"
        ],
        [
         "1.4.13",
-        "vAri + as",
+        "vāri + as",
         "definition"
        ],
        [
         "7.1.20",
-        "vAri + Si",
+        "vāri + śi",
         "operation"
        ],
        [
         "1.3.8",
-        "vAri + Si",
+        "vāri + śi",
         "definition"
        ],
        [
         "1.3.9",
-        "vAri + i",
+        "vāri + i",
         "definition"
        ],
        [
         "1.1.42",
-        "vAri + i",
+        "vāri + i",
         "definition"
        ],
        [
         "1.4.14",
-        "vAri + i",
+        "vāri + i",
         "definition"
        ],
        [
         "7.1.72",
-        "vArin + i",
+        "vārin + i",
         "operation"
        ],
        [
         "6.4.12",
-        "vArIn + i",
+        "vārīn + i",
         "operation"
        ],
        [
         "8.4.2",
-        "vArIR + i",
+        "vārīṇ + i",
         "sound"
        ]
-      ]
+      ],
+      "sup": "jas"
      },
      "dvi": {
       "deva": "वारिणी",
@@ -2762,80 +2796,81 @@
       "steps": [
        [
         "1.2.45",
-        "vAri",
+        "vāri",
         "stem"
        ],
        [
         "4.1.2",
-        "vAri + O",
+        "vāri + au",
         "affix"
        ],
        [
         "1.1.73",
-        "vAri + O",
+        "vāri + au",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + O",
+        "vāri + au",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + O",
+        "vāri + au",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + O",
+        "vāri + au",
         "definition"
        ],
        [
         "1.4.13",
-        "vAri + O",
+        "vāri + au",
         "definition"
        ],
        [
         "7.1.19",
-        "vAri + SI",
+        "vāri + śī",
         "operation"
        ],
        [
         "1.3.8",
-        "vAri + SI",
+        "vāri + śī",
         "definition"
        ],
        [
         "1.3.9",
-        "vAri + I",
+        "vāri + ī",
         "definition"
        ],
        [
         "1.4.18",
-        "vAri + I",
+        "vāri + ī",
         "definition"
        ],
        [
         "1.4.14",
-        "vAri + I",
+        "vāri + ī",
         "definition"
        ],
        [
         "6.4.148.1",
-        "vAri + I",
+        "vāri + ī",
         "operation"
        ],
        [
         "7.1.73",
-        "vArin + I",
+        "vārin + ī",
         "operation"
        ],
        [
         "8.4.2",
-        "vAriR + I",
+        "vāriṇ + ī",
         "sound"
        ]
-      ]
+      ],
+      "sup": "au"
      },
      "eka": {
       "deva": "वारि",
@@ -2844,65 +2879,66 @@
       "steps": [
        [
         "1.2.45",
-        "vAri",
+        "vāri",
         "stem"
        ],
        [
         "4.1.2",
-        "vAri + su~",
+        "vāri + sum̐",
         "affix"
        ],
        [
         "1.3.2",
-        "vAri + su~",
+        "vāri + sum̐",
         "definition"
        ],
        [
         "1.3.9",
-        "vAri + s",
+        "vāri + s",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + s",
+        "vāri + s",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + s",
+        "vāri + s",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + s",
+        "vāri + s",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + s",
+        "vāri + s",
         "definition"
        ],
        [
         "7.1.23",
-        "vAri",
+        "vāri",
         "operation"
        ],
        [
         "1.4.13",
-        "vAri",
+        "vāri",
         "definition"
        ],
        [
         "1.4.17",
-        "vAri",
+        "vāri",
         "definition"
        ],
        [
         "1.4.14",
-        "vAri",
+        "vāri",
         "definition"
        ]
-      ]
+      ],
+      "sup": "sum̐"
      }
     },
     "sambodhana": {
@@ -2913,105 +2949,106 @@
       "steps": [
        [
         "1.2.45",
-        "vAri",
+        "vāri",
         "stem"
        ],
        [
         "4.1.2",
-        "vAri + jas",
+        "vāri + jas",
         "affix"
        ],
        [
         "1.3.4",
-        "vAri + jas",
+        "vāri + jas",
         "definition"
        ],
        [
         "1.3.7",
-        "vAri + jas",
+        "vāri + jas",
         "definition"
        ],
        [
         "1.3.9",
-        "vAri + as",
+        "vāri + as",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + as",
+        "vāri + as",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + as",
+        "vāri + as",
         "definition"
        ],
        [
         "2.3.48",
-        "vAri + as",
+        "vāri + as",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + as",
+        "vāri + as",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + as",
+        "vāri + as",
         "definition"
        ],
        [
         "2.3.48",
-        "vAri + as",
+        "vāri + as",
         "definition"
        ],
        [
         "1.4.13",
-        "vAri + as",
+        "vāri + as",
         "definition"
        ],
        [
         "7.1.20",
-        "vAri + Si",
+        "vāri + śi",
         "operation"
        ],
        [
         "1.3.8",
-        "vAri + Si",
+        "vāri + śi",
         "definition"
        ],
        [
         "1.3.9",
-        "vAri + i",
+        "vāri + i",
         "definition"
        ],
        [
         "1.1.42",
-        "vAri + i",
+        "vāri + i",
         "definition"
        ],
        [
         "1.4.14",
-        "vAri + i",
+        "vāri + i",
         "definition"
        ],
        [
         "7.1.72",
-        "vArin + i",
+        "vārin + i",
         "operation"
        ],
        [
         "6.4.12",
-        "vArIn + i",
+        "vārīn + i",
         "operation"
        ],
        [
         "8.4.2",
-        "vArIR + i",
+        "vārīṇ + i",
         "sound"
        ]
-      ]
+      ],
+      "sup": "jas"
      },
      "dvi": {
       "deva": "वारिणी",
@@ -3020,90 +3057,91 @@
       "steps": [
        [
         "1.2.45",
-        "vAri",
+        "vāri",
         "stem"
        ],
        [
         "4.1.2",
-        "vAri + O",
+        "vāri + au",
         "affix"
        ],
        [
         "1.1.73",
-        "vAri + O",
+        "vāri + au",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + O",
+        "vāri + au",
         "definition"
        ],
        [
         "2.3.48",
-        "vAri + O",
+        "vāri + au",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + O",
+        "vāri + au",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + O",
+        "vāri + au",
         "definition"
        ],
        [
         "2.3.48",
-        "vAri + O",
+        "vāri + au",
         "definition"
        ],
        [
         "1.4.13",
-        "vAri + O",
+        "vāri + au",
         "definition"
        ],
        [
         "7.1.19",
-        "vAri + SI",
+        "vāri + śī",
         "operation"
        ],
        [
         "1.3.8",
-        "vAri + SI",
+        "vāri + śī",
         "definition"
        ],
        [
         "1.3.9",
-        "vAri + I",
+        "vāri + ī",
         "definition"
        ],
        [
         "1.4.18",
-        "vAri + I",
+        "vāri + ī",
         "definition"
        ],
        [
         "1.4.14",
-        "vAri + I",
+        "vāri + ī",
         "definition"
        ],
        [
         "6.4.148.1",
-        "vAri + I",
+        "vāri + ī",
         "operation"
        ],
        [
         "7.1.73",
-        "vArin + I",
+        "vārin + ī",
         "operation"
        ],
        [
         "8.4.2",
-        "vAriR + I",
+        "vāriṇ + ī",
         "sound"
        ]
-      ]
+      ],
+      "sup": "au"
      },
      "eka": {
       "deva": "वारि",
@@ -3112,85 +3150,86 @@
       "steps": [
        [
         "1.2.45",
-        "vAri",
+        "vāri",
         "stem"
        ],
        [
         "4.1.2",
-        "vAri + su~",
+        "vāri + sum̐",
         "affix"
        ],
        [
         "1.3.2",
-        "vAri + su~",
+        "vāri + sum̐",
         "definition"
        ],
        [
         "1.3.9",
-        "vAri + s",
+        "vāri + s",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + s",
+        "vāri + s",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + s",
+        "vāri + s",
         "definition"
        ],
        [
         "2.3.48",
-        "vAri + s",
+        "vāri + s",
         "definition"
        ],
        [
         "2.3.49",
-        "vAri + s",
+        "vāri + s",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + s",
+        "vāri + s",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + s",
+        "vāri + s",
         "definition"
        ],
        [
         "2.3.48",
-        "vAri + s",
+        "vāri + s",
         "definition"
        ],
        [
         "2.3.49",
-        "vAri + s",
+        "vāri + s",
         "definition"
        ],
        [
         "7.1.23",
-        "vAri",
+        "vāri",
         "operation"
        ],
        [
         "1.4.13",
-        "vAri",
+        "vāri",
         "definition"
        ],
        [
         "1.4.17",
-        "vAri",
+        "vāri",
         "definition"
        ],
        [
         "1.4.14",
-        "vAri",
+        "vāri",
         "definition"
        ]
-      ]
+      ],
+      "sup": "sum̐"
      }
     },
     "saptami": {
@@ -3201,65 +3240,66 @@
       "steps": [
        [
         "1.2.45",
-        "vAri",
+        "vāri",
         "stem"
        ],
        [
         "4.1.2",
-        "vAri + sup",
+        "vāri + sup",
         "affix"
        ],
        [
         "1.3.3",
-        "vAri + sup",
+        "vāri + sup",
         "definition"
        ],
        [
         "1.3.9",
-        "vAri + su",
+        "vāri + su",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + su",
+        "vāri + su",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + su",
+        "vāri + su",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + su",
+        "vāri + su",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + su",
+        "vāri + su",
         "definition"
        ],
        [
         "1.4.13",
-        "vAri + su",
+        "vāri + su",
         "definition"
        ],
        [
         "1.4.17",
-        "vAri + su",
+        "vāri + su",
         "definition"
        ],
        [
         "1.4.14",
-        "vAri + su",
+        "vāri + su",
         "definition"
        ],
        [
         "8.3.59",
-        "vAri + zu",
+        "vāri + ṣu",
         "sound"
        ]
-      ]
+      ],
+      "sup": "sup"
      },
      "dvi": {
       "deva": "वारिणोः",
@@ -3268,80 +3308,81 @@
       "steps": [
        [
         "1.2.45",
-        "vAri",
+        "vāri",
         "stem"
        ],
        [
         "4.1.2",
-        "vAri + os",
+        "vāri + os",
         "affix"
        ],
        [
         "1.3.4",
-        "vAri + os",
+        "vāri + os",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + os",
+        "vāri + os",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + os",
+        "vāri + os",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + os",
+        "vāri + os",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + os",
+        "vāri + os",
         "definition"
        ],
        [
         "1.4.13",
-        "vAri + os",
+        "vāri + os",
         "definition"
        ],
        [
         "1.4.18",
-        "vAri + os",
+        "vāri + os",
         "definition"
        ],
        [
         "1.4.14",
-        "vAri + os",
+        "vāri + os",
         "definition"
        ],
        [
         "7.1.73",
-        "vArin + os",
+        "vārin + os",
         "operation"
        ],
        [
         "8.2.66",
-        "vArin + oru~",
+        "vārin + orum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "vArin + or",
+        "vārin + or",
         "definition"
        ],
        [
         "8.3.15",
-        "vArin + oH",
+        "vārin + oḥ",
         "sound"
        ],
        [
         "8.4.2",
-        "vAriR + oH",
+        "vāriṇ + oḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "os"
      },
      "eka": {
       "deva": "वारिणि",
@@ -3350,70 +3391,71 @@
       "steps": [
        [
         "1.2.45",
-        "vAri",
+        "vāri",
         "stem"
        ],
        [
         "4.1.2",
-        "vAri + Ni",
+        "vāri + ṅi",
         "affix"
        ],
        [
         "1.3.8",
-        "vAri + Ni",
+        "vāri + ṅi",
         "definition"
        ],
        [
         "1.3.9",
-        "vAri + i",
+        "vāri + i",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + i",
+        "vāri + i",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + i",
+        "vāri + i",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + i",
+        "vāri + i",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + i",
+        "vāri + i",
         "definition"
        ],
        [
         "1.4.13",
-        "vAri + i",
+        "vāri + i",
         "definition"
        ],
        [
         "1.4.18",
-        "vAri + i",
+        "vāri + i",
         "definition"
        ],
        [
         "1.4.14",
-        "vAri + i",
+        "vāri + i",
         "definition"
        ],
        [
         "7.1.73",
-        "vArin + i",
+        "vārin + i",
         "operation"
        ],
        [
         "8.4.2",
-        "vAriR + i",
+        "vāriṇ + i",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅi"
      }
     },
     "sasthi": {
@@ -3424,85 +3466,86 @@
       "steps": [
        [
         "1.2.45",
-        "vAri",
+        "vāri",
         "stem"
        ],
        [
         "4.1.2",
-        "vAri + Am",
+        "vāri + ām",
         "affix"
        ],
        [
         "1.3.4",
-        "vAri + Am",
+        "vāri + ām",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + Am",
+        "vāri + ām",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + Am",
+        "vāri + ām",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + Am",
+        "vāri + ām",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + Am",
+        "vāri + ām",
         "definition"
        ],
        [
         "7.1.54",
-        "vAri + nu~w + Am",
+        "vāri + num̐ṭ + ām",
         "operation"
        ],
        [
         "1.3.2",
-        "vAri + nu~w + Am",
+        "vāri + num̐ṭ + ām",
         "definition"
        ],
        [
         "1.3.3",
-        "vAri + nu~w + Am",
+        "vāri + num̐ṭ + ām",
         "definition"
        ],
        [
         "1.3.9",
-        "vAri + n + Am",
+        "vāri + n + ām",
         "definition"
        ],
        [
         "1.4.13",
-        "vAri + n + Am",
+        "vāri + n + ām",
         "definition"
        ],
        [
         "1.4.17",
-        "vAri + n + Am",
+        "vāri + n + ām",
         "definition"
        ],
        [
         "1.4.14",
-        "vAri + n + Am",
+        "vāri + n + ām",
         "definition"
        ],
        [
         "6.4.3",
-        "vArI + n + Am",
+        "vārī + n + ām",
         "operation"
        ],
        [
         "8.4.2",
-        "vArI + R + Am",
+        "vārī + ṇ + ām",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ām"
      },
      "dvi": {
       "deva": "वारिणोः",
@@ -3511,80 +3554,81 @@
       "steps": [
        [
         "1.2.45",
-        "vAri",
+        "vāri",
         "stem"
        ],
        [
         "4.1.2",
-        "vAri + os",
+        "vāri + os",
         "affix"
        ],
        [
         "1.3.4",
-        "vAri + os",
+        "vāri + os",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + os",
+        "vāri + os",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + os",
+        "vāri + os",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + os",
+        "vāri + os",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + os",
+        "vāri + os",
         "definition"
        ],
        [
         "1.4.13",
-        "vAri + os",
+        "vāri + os",
         "definition"
        ],
        [
         "1.4.18",
-        "vAri + os",
+        "vāri + os",
         "definition"
        ],
        [
         "1.4.14",
-        "vAri + os",
+        "vāri + os",
         "definition"
        ],
        [
         "7.1.73",
-        "vArin + os",
+        "vārin + os",
         "operation"
        ],
        [
         "8.2.66",
-        "vArin + oru~",
+        "vārin + orum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "vArin + or",
+        "vārin + or",
         "definition"
        ],
        [
         "8.3.15",
-        "vArin + oH",
+        "vārin + oḥ",
         "sound"
        ],
        [
         "8.4.2",
-        "vAriR + oH",
+        "vāriṇ + oḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "os"
      },
      "eka": {
       "deva": "वारिणः",
@@ -3593,95 +3637,96 @@
       "steps": [
        [
         "1.2.45",
-        "vAri",
+        "vāri",
         "stem"
        ],
        [
         "4.1.2",
-        "vAri + Nas",
+        "vāri + ṅas",
         "affix"
        ],
        [
         "1.3.4",
-        "vAri + Nas",
+        "vāri + ṅas",
         "definition"
        ],
        [
         "1.3.8",
-        "vAri + Nas",
+        "vāri + ṅas",
         "definition"
        ],
        [
         "1.3.9",
-        "vAri + as",
+        "vāri + as",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + as",
+        "vāri + as",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + as",
+        "vāri + as",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + as",
+        "vāri + as",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + as",
+        "vāri + as",
         "definition"
        ],
        [
         "1.4.13",
-        "vAri + as",
+        "vāri + as",
         "definition"
        ],
        [
         "1.4.18",
-        "vAri + as",
+        "vāri + as",
         "definition"
        ],
        [
         "1.4.14",
-        "vAri + as",
+        "vāri + as",
         "definition"
        ],
        [
         "7.1.73",
-        "vArin + as",
+        "vārin + as",
         "operation"
        ],
        [
         "8.2.66",
-        "vArin + aru~",
+        "vārin + arum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "vArin + ar",
+        "vārin + ar",
         "definition"
        ],
        [
         "8.3.15",
-        "vArin + aH",
+        "vārin + aḥ",
         "sound"
        ],
        [
         "8.4.2",
-        "vAriR + aH",
+        "vāriṇ + aḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "vAriR + aH",
+        "vāriṇ + aḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅas"
      }
     },
     "tritiya": {
@@ -3692,70 +3737,71 @@
       "steps": [
        [
         "1.2.45",
-        "vAri",
+        "vāri",
         "stem"
        ],
        [
         "4.1.2",
-        "vAri + Bis",
+        "vāri + bhis",
         "affix"
        ],
        [
         "1.3.4",
-        "vAri + Bis",
+        "vāri + bhis",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + Bis",
+        "vāri + bhis",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + Bis",
+        "vāri + bhis",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + Bis",
+        "vāri + bhis",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + Bis",
+        "vāri + bhis",
         "definition"
        ],
        [
         "1.4.13",
-        "vAri + Bis",
+        "vāri + bhis",
         "definition"
        ],
        [
         "1.4.17",
-        "vAri + Bis",
+        "vāri + bhis",
         "definition"
        ],
        [
         "1.4.14",
-        "vAri + Bis",
+        "vāri + bhis",
         "definition"
        ],
        [
         "8.2.66",
-        "vAri + Biru~",
+        "vāri + bhirum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "vAri + Bir",
+        "vāri + bhir",
         "definition"
        ],
        [
         "8.3.15",
-        "vAri + BiH",
+        "vāri + bhiḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhis"
      },
      "dvi": {
       "deva": "वारिभ्याम्",
@@ -3764,55 +3810,56 @@
       "steps": [
        [
         "1.2.45",
-        "vAri",
+        "vāri",
         "stem"
        ],
        [
         "4.1.2",
-        "vAri + ByAm",
+        "vāri + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "vAri + ByAm",
+        "vāri + bhyām",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + ByAm",
+        "vāri + bhyām",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + ByAm",
+        "vāri + bhyām",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + ByAm",
+        "vāri + bhyām",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + ByAm",
+        "vāri + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "vAri + ByAm",
+        "vāri + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "vAri + ByAm",
+        "vāri + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "vAri + ByAm",
+        "vāri + bhyām",
         "definition"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "वारिणा",
@@ -3821,70 +3868,71 @@
       "steps": [
        [
         "1.2.45",
-        "vAri",
+        "vāri",
         "stem"
        ],
        [
         "4.1.2",
-        "vAri + wA",
+        "vāri + ṭā",
         "affix"
        ],
        [
         "1.3.7",
-        "vAri + wA",
+        "vāri + ṭā",
         "definition"
        ],
        [
         "1.3.9",
-        "vAri + A",
+        "vāri + ā",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + A",
+        "vāri + ā",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + A",
+        "vāri + ā",
         "definition"
        ],
        [
         "1.1.73",
-        "vAri + A",
+        "vāri + ā",
         "definition"
        ],
        [
         "1.4.7",
-        "vAri + A",
+        "vāri + ā",
         "definition"
        ],
        [
         "1.4.13",
-        "vAri + A",
+        "vāri + ā",
         "definition"
        ],
        [
         "7.3.120",
-        "vAri + nA",
+        "vāri + nā",
         "operation"
        ],
        [
         "1.4.17",
-        "vAri + nA",
+        "vāri + nā",
         "definition"
        ],
        [
         "1.4.14",
-        "vAri + nA",
+        "vāri + nā",
         "definition"
        ],
        [
         "8.4.2",
-        "vAri + RA",
+        "vāri + ṇā",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṭā"
      }
     }
    },

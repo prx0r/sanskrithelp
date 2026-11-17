@@ -18,50 +18,51 @@
        ],
        [
         "4.1.2",
-        "go + Byas",
+        "go + bhyas",
         "affix"
        ],
        [
         "1.3.4",
-        "go + Byas",
+        "go + bhyas",
         "definition"
        ],
        [
         "1.4.13",
-        "go + Byas",
+        "go + bhyas",
         "definition"
        ],
        [
         "1.4.17",
-        "go + Byas",
+        "go + bhyas",
         "definition"
        ],
        [
         "1.4.14",
-        "go + Byas",
+        "go + bhyas",
         "definition"
        ],
        [
         "8.2.66",
-        "go + Byaru~",
+        "go + bhyarum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "go + Byar",
+        "go + bhyar",
         "definition"
        ],
        [
         "8.3.15",
-        "go + ByaH",
+        "go + bhyaḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "go + ByaH",
+        "go + bhyaḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyas"
      },
      "dvi": {
       "deva": "गोभ्याम्",
@@ -75,30 +76,31 @@
        ],
        [
         "4.1.2",
-        "go + ByAm",
+        "go + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "go + ByAm",
+        "go + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "go + ByAm",
+        "go + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "go + ByAm",
+        "go + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "go + ByAm",
+        "go + bhyām",
         "definition"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "गवे",
@@ -112,12 +114,12 @@
        ],
        [
         "4.1.2",
-        "go + Ne",
+        "go + ṅe",
         "affix"
        ],
        [
         "1.3.8",
-        "go + Ne",
+        "go + ṅe",
         "definition"
        ],
        [
@@ -150,7 +152,8 @@
         "gav + e",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅe"
      }
     },
     "dvitiya": {
@@ -166,17 +169,17 @@
        ],
        [
         "4.1.2",
-        "go + Sas",
+        "go + śas",
         "affix"
        ],
        [
         "1.3.4",
-        "go + Sas",
+        "go + śas",
         "definition"
        ],
        [
         "1.3.8",
-        "go + Sas",
+        "go + śas",
         "definition"
        ],
        [
@@ -186,40 +189,41 @@
        ],
        [
         "6.1.93",
-        "gA + s",
+        "gā + s",
         "operation"
        ],
        [
         "1.4.13",
-        "gA + s",
+        "gā + s",
         "definition"
        ],
        [
         "1.4.17",
-        "gA + s",
+        "gā + s",
         "definition"
        ],
        [
         "1.4.14",
-        "gA + s",
+        "gā + s",
         "definition"
        ],
        [
         "8.2.66",
-        "gA + ru~",
+        "gā + rum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "gA + r",
+        "gā + r",
         "definition"
        ],
        [
         "8.3.15",
-        "gA + H",
+        "gā + ḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "śas"
      },
      "dvi": {
       "deva": "गावौ",
@@ -233,55 +237,56 @@
        ],
        [
         "4.1.2",
-        "go + Ow",
+        "go + auṭ",
         "affix"
        ],
        [
         "1.3.3",
-        "go + Ow",
+        "go + auṭ",
         "definition"
        ],
        [
         "1.3.9",
-        "go + O",
+        "go + au",
         "definition"
        ],
        [
         "1.1.43",
-        "go + O",
+        "go + au",
         "definition"
        ],
        [
         "1.1.43",
-        "go + O",
+        "go + au",
         "definition"
        ],
        [
         "7.1.90",
-        "go + O",
+        "go + au",
         "operation"
        ],
        [
         "1.4.13",
-        "go + O",
+        "go + au",
         "definition"
        ],
        [
         "7.2.115",
-        "gO + O",
+        "gau + au",
         "operation"
        ],
        [
         "1.4.14",
-        "gO + O",
+        "gau + au",
         "definition"
        ],
        [
         "6.1.78",
-        "gAv + O",
+        "gāv + au",
         "operation"
        ]
-      ]
+      ],
+      "sup": "auṭ"
      },
      "eka": {
       "deva": "गाम्",
@@ -320,20 +325,21 @@
        ],
        [
         "6.1.93",
-        "gA + m",
+        "gā + m",
         "operation"
        ],
        [
         "1.4.13",
-        "gA + m",
+        "gā + m",
         "definition"
        ],
        [
         "1.4.14",
-        "gA + m",
+        "gā + m",
         "definition"
        ]
-      ]
+      ],
+      "sup": "am"
      }
     },
     "pancami": {
@@ -349,50 +355,51 @@
        ],
        [
         "4.1.2",
-        "go + Byas",
+        "go + bhyas",
         "affix"
        ],
        [
         "1.3.4",
-        "go + Byas",
+        "go + bhyas",
         "definition"
        ],
        [
         "1.4.13",
-        "go + Byas",
+        "go + bhyas",
         "definition"
        ],
        [
         "1.4.17",
-        "go + Byas",
+        "go + bhyas",
         "definition"
        ],
        [
         "1.4.14",
-        "go + Byas",
+        "go + bhyas",
         "definition"
        ],
        [
         "8.2.66",
-        "go + Byaru~",
+        "go + bhyarum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "go + Byar",
+        "go + bhyar",
         "definition"
        ],
        [
         "8.3.15",
-        "go + ByaH",
+        "go + bhyaḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "go + ByaH",
+        "go + bhyaḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyas"
      },
      "dvi": {
       "deva": "गोभ्याम्",
@@ -406,30 +413,31 @@
        ],
        [
         "4.1.2",
-        "go + ByAm",
+        "go + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "go + ByAm",
+        "go + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "go + ByAm",
+        "go + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "go + ByAm",
+        "go + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "go + ByAm",
+        "go + bhyām",
         "definition"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "गोः",
@@ -443,17 +451,17 @@
        ],
        [
         "4.1.2",
-        "go + Nasi~",
+        "go + ṅasim̐",
         "affix"
        ],
        [
         "1.3.2",
-        "go + Nasi~",
+        "go + ṅasim̐",
         "definition"
        ],
        [
         "1.3.8",
-        "go + Nasi~",
+        "go + ṅasim̐",
         "definition"
        ],
        [
@@ -483,7 +491,7 @@
        ],
        [
         "8.2.66",
-        "go + ru~",
+        "go + rum̐",
         "sound"
        ],
        [
@@ -493,10 +501,11 @@
        ],
        [
         "8.3.15",
-        "go + H",
+        "go + ḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅasim̐"
      }
     },
     "prathama": {
@@ -552,40 +561,41 @@
        ],
        [
         "7.2.115",
-        "gO + as",
+        "gau + as",
         "operation"
        ],
        [
         "1.4.14",
-        "gO + as",
+        "gau + as",
         "definition"
        ],
        [
         "6.1.78",
-        "gAv + as",
+        "gāv + as",
         "operation"
        ],
        [
         "8.2.66",
-        "gAv + aru~",
+        "gāv + arum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "gAv + ar",
+        "gāv + ar",
         "definition"
        ],
        [
         "8.3.15",
-        "gAv + aH",
+        "gāv + aḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "gAv + aH",
+        "gāv + aḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "jas"
      },
      "dvi": {
       "deva": "गावौ",
@@ -599,45 +609,46 @@
        ],
        [
         "4.1.2",
-        "go + O",
+        "go + au",
         "affix"
        ],
        [
         "1.1.43",
-        "go + O",
+        "go + au",
         "definition"
        ],
        [
         "1.1.43",
-        "go + O",
+        "go + au",
         "definition"
        ],
        [
         "7.1.90",
-        "go + O",
+        "go + au",
         "operation"
        ],
        [
         "1.4.13",
-        "go + O",
+        "go + au",
         "definition"
        ],
        [
         "7.2.115",
-        "gO + O",
+        "gau + au",
         "operation"
        ],
        [
         "1.4.14",
-        "gO + O",
+        "gau + au",
         "definition"
        ],
        [
         "6.1.78",
-        "gAv + O",
+        "gāv + au",
         "operation"
        ]
-      ]
+      ],
+      "sup": "au"
      },
      "eka": {
       "deva": "गौः",
@@ -651,12 +662,12 @@
        ],
        [
         "4.1.2",
-        "go + su~",
+        "go + sum̐",
         "affix"
        ],
        [
         "1.3.2",
-        "go + su~",
+        "go + sum̐",
         "definition"
        ],
        [
@@ -686,30 +697,31 @@
        ],
        [
         "7.2.115",
-        "gO + s",
+        "gau + s",
         "operation"
        ],
        [
         "1.4.14",
-        "gO + s",
+        "gau + s",
         "definition"
        ],
        [
         "8.2.66",
-        "gO + ru~",
+        "gau + rum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "gO + r",
+        "gau + r",
         "definition"
        ],
        [
         "8.3.15",
-        "gO + H",
+        "gau + ḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "sum̐"
      }
     },
     "sambodhana": {
@@ -775,40 +787,41 @@
        ],
        [
         "7.2.115",
-        "gO + as",
+        "gau + as",
         "operation"
        ],
        [
         "1.4.14",
-        "gO + as",
+        "gau + as",
         "definition"
        ],
        [
         "6.1.78",
-        "gAv + as",
+        "gāv + as",
         "operation"
        ],
        [
         "8.2.66",
-        "gAv + aru~",
+        "gāv + arum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "gAv + ar",
+        "gāv + ar",
         "definition"
        ],
        [
         "8.3.15",
-        "gAv + aH",
+        "gāv + aḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "gAv + aH",
+        "gāv + aḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "jas"
      },
      "dvi": {
       "deva": "गावौ",
@@ -822,55 +835,56 @@
        ],
        [
         "4.1.2",
-        "go + O",
+        "go + au",
         "affix"
        ],
        [
         "2.3.48",
-        "go + O",
+        "go + au",
         "definition"
        ],
        [
         "1.1.43",
-        "go + O",
+        "go + au",
         "definition"
        ],
        [
         "2.3.48",
-        "go + O",
+        "go + au",
         "definition"
        ],
        [
         "1.1.43",
-        "go + O",
+        "go + au",
         "definition"
        ],
        [
         "7.1.90",
-        "go + O",
+        "go + au",
         "operation"
        ],
        [
         "1.4.13",
-        "go + O",
+        "go + au",
         "definition"
        ],
        [
         "7.2.115",
-        "gO + O",
+        "gau + au",
         "operation"
        ],
        [
         "1.4.14",
-        "gO + O",
+        "gau + au",
         "definition"
        ],
        [
         "6.1.78",
-        "gAv + O",
+        "gāv + au",
         "operation"
        ]
-      ]
+      ],
+      "sup": "au"
      },
      "eka": {
       "deva": "गौः",
@@ -884,12 +898,12 @@
        ],
        [
         "4.1.2",
-        "go + su~",
+        "go + sum̐",
         "affix"
        ],
        [
         "1.3.2",
-        "go + su~",
+        "go + sum̐",
         "definition"
        ],
        [
@@ -939,30 +953,31 @@
        ],
        [
         "7.2.115",
-        "gO + s",
+        "gau + s",
         "operation"
        ],
        [
         "1.4.14",
-        "gO + s",
+        "gau + s",
         "definition"
        ],
        [
         "8.2.66",
-        "gO + ru~",
+        "gau + rum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "gO + r",
+        "gau + r",
         "definition"
        ],
        [
         "8.3.15",
-        "gO + H",
+        "gau + ḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "sum̐"
      }
     },
     "saptami": {
@@ -1008,10 +1023,11 @@
        ],
        [
         "8.3.59",
-        "go + zu",
+        "go + ṣu",
         "sound"
        ]
-      ]
+      ],
+      "sup": "sup"
      },
      "dvi": {
       "deva": "गवोः",
@@ -1055,7 +1071,7 @@
        ],
        [
         "8.2.66",
-        "gav + oru~",
+        "gav + orum̐",
         "sound"
        ],
        [
@@ -1065,15 +1081,16 @@
        ],
        [
         "8.3.15",
-        "gav + oH",
+        "gav + oḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "gav + oH",
+        "gav + oḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "os"
      },
      "eka": {
       "deva": "गवि",
@@ -1087,12 +1104,12 @@
        ],
        [
         "4.1.2",
-        "go + Ni",
+        "go + ṅi",
         "affix"
        ],
        [
         "1.3.8",
-        "go + Ni",
+        "go + ṅi",
         "definition"
        ],
        [
@@ -1125,7 +1142,8 @@
         "gav + i",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅi"
      }
     },
     "sasthi": {
@@ -1141,40 +1159,41 @@
        ],
        [
         "4.1.2",
-        "go + Am",
+        "go + ām",
         "affix"
        ],
        [
         "1.3.4",
-        "go + Am",
+        "go + ām",
         "definition"
        ],
        [
         "1.4.13",
-        "go + Am",
+        "go + ām",
         "definition"
        ],
        [
         "1.4.18",
-        "go + Am",
+        "go + ām",
         "definition"
        ],
        [
         "1.4.14",
-        "go + Am",
+        "go + ām",
         "definition"
        ],
        [
         "6.1.78",
-        "gav + Am",
+        "gav + ām",
         "operation"
        ],
        [
         "8.4.68",
-        "gav + Am",
+        "gav + ām",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ām"
      },
      "dvi": {
       "deva": "गवोः",
@@ -1218,7 +1237,7 @@
        ],
        [
         "8.2.66",
-        "gav + oru~",
+        "gav + orum̐",
         "sound"
        ],
        [
@@ -1228,15 +1247,16 @@
        ],
        [
         "8.3.15",
-        "gav + oH",
+        "gav + oḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "gav + oH",
+        "gav + oḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "os"
      },
      "eka": {
       "deva": "गोः",
@@ -1250,17 +1270,17 @@
        ],
        [
         "4.1.2",
-        "go + Nas",
+        "go + ṅas",
         "affix"
        ],
        [
         "1.3.4",
-        "go + Nas",
+        "go + ṅas",
         "definition"
        ],
        [
         "1.3.8",
-        "go + Nas",
+        "go + ṅas",
         "definition"
        ],
        [
@@ -1290,7 +1310,7 @@
        ],
        [
         "8.2.66",
-        "go + ru~",
+        "go + rum̐",
         "sound"
        ],
        [
@@ -1300,10 +1320,11 @@
        ],
        [
         "8.3.15",
-        "go + H",
+        "go + ḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅas"
      }
     },
     "tritiya": {
@@ -1319,45 +1340,46 @@
        ],
        [
         "4.1.2",
-        "go + Bis",
+        "go + bhis",
         "affix"
        ],
        [
         "1.3.4",
-        "go + Bis",
+        "go + bhis",
         "definition"
        ],
        [
         "1.4.13",
-        "go + Bis",
+        "go + bhis",
         "definition"
        ],
        [
         "1.4.17",
-        "go + Bis",
+        "go + bhis",
         "definition"
        ],
        [
         "1.4.14",
-        "go + Bis",
+        "go + bhis",
         "definition"
        ],
        [
         "8.2.66",
-        "go + Biru~",
+        "go + bhirum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "go + Bir",
+        "go + bhir",
         "definition"
        ],
        [
         "8.3.15",
-        "go + BiH",
+        "go + bhiḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhis"
      },
      "dvi": {
       "deva": "गोभ्याम्",
@@ -1371,30 +1393,31 @@
        ],
        [
         "4.1.2",
-        "go + ByAm",
+        "go + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "go + ByAm",
+        "go + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "go + ByAm",
+        "go + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "go + ByAm",
+        "go + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "go + ByAm",
+        "go + bhyām",
         "definition"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "गवा",
@@ -1408,45 +1431,46 @@
        ],
        [
         "4.1.2",
-        "go + wA",
+        "go + ṭā",
         "affix"
        ],
        [
         "1.3.7",
-        "go + wA",
+        "go + ṭā",
         "definition"
        ],
        [
         "1.3.9",
-        "go + A",
+        "go + ā",
         "definition"
        ],
        [
         "1.4.13",
-        "go + A",
+        "go + ā",
         "definition"
        ],
        [
         "1.4.18",
-        "go + A",
+        "go + ā",
         "definition"
        ],
        [
         "1.4.14",
-        "go + A",
+        "go + ā",
         "definition"
        ],
        [
         "6.1.78",
-        "gav + A",
+        "gav + ā",
         "operation"
        ],
        [
         "8.4.68",
-        "gav + A",
+        "gav + ā",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṭā"
      }
     }
    },

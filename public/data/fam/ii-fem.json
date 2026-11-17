@@ -13,65 +13,66 @@
       "steps": [
        [
         "1.2.45",
-        "devI",
+        "devī",
         "stem"
        ],
        [
         "4.1.2",
-        "devI + Byas",
+        "devī + bhyas",
         "affix"
        ],
        [
         "1.3.4",
-        "devI + Byas",
+        "devī + bhyas",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + Byas",
+        "devī + bhyas",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + Byas",
+        "devī + bhyas",
         "definition"
        ],
        [
         "1.4.13",
-        "devI + Byas",
+        "devī + bhyas",
         "definition"
        ],
        [
         "1.4.17",
-        "devI + Byas",
+        "devī + bhyas",
         "definition"
        ],
        [
         "1.4.14",
-        "devI + Byas",
+        "devī + bhyas",
         "definition"
        ],
        [
         "8.2.66",
-        "devI + Byaru~",
+        "devī + bhyarum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "devI + Byar",
+        "devī + bhyar",
         "definition"
        ],
        [
         "8.3.15",
-        "devI + ByaH",
+        "devī + bhyaḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "devI + ByaH",
+        "devī + bhyaḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyas"
      },
      "dvi": {
       "deva": "देवीभ्याम्",
@@ -80,45 +81,46 @@
       "steps": [
        [
         "1.2.45",
-        "devI",
+        "devī",
         "stem"
        ],
        [
         "4.1.2",
-        "devI + ByAm",
+        "devī + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "devI + ByAm",
+        "devī + bhyām",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + ByAm",
+        "devī + bhyām",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + ByAm",
+        "devī + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "devI + ByAm",
+        "devī + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "devI + ByAm",
+        "devī + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "devI + ByAm",
+        "devī + bhyām",
         "definition"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "देव्यै",
@@ -127,75 +129,76 @@
       "steps": [
        [
         "1.2.45",
-        "devI",
+        "devī",
         "stem"
        ],
        [
         "4.1.2",
-        "devI + Ne",
+        "devī + ṅe",
         "affix"
        ],
        [
         "1.3.8",
-        "devI + Ne",
+        "devī + ṅe",
         "definition"
        ],
        [
         "1.3.9",
-        "devI + e",
+        "devī + e",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + e",
+        "devī + e",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + e",
+        "devī + e",
         "definition"
        ],
        [
         "1.4.13",
-        "devI + e",
+        "devī + e",
         "definition"
        ],
        [
         "1.4.18",
-        "devI + e",
+        "devī + e",
         "definition"
        ],
        [
         "1.4.14",
-        "devI + e",
+        "devī + e",
         "definition"
        ],
        [
         "7.3.112",
-        "devI + Aw + e",
+        "devī + āṭ + e",
         "operation"
        ],
        [
         "1.3.3",
-        "devI + Aw + e",
+        "devī + āṭ + e",
         "definition"
        ],
        [
         "1.3.9",
-        "devI + A + e",
+        "devī + ā + e",
         "definition"
        ],
        [
         "6.1.90",
-        "devI + E",
+        "devī + ai",
         "operation"
        ],
        [
         "6.1.77",
-        "devy + E",
+        "devy + ai",
         "operation"
        ]
-      ]
+      ],
+      "sup": "ṅe"
      }
     },
     "dvitiya": {
@@ -206,80 +209,81 @@
       "steps": [
        [
         "1.2.45",
-        "devI",
+        "devī",
         "stem"
        ],
        [
         "4.1.2",
-        "devI + Sas",
+        "devī + śas",
         "affix"
        ],
        [
         "1.3.4",
-        "devI + Sas",
+        "devī + śas",
         "definition"
        ],
        [
         "1.3.8",
-        "devI + Sas",
+        "devī + śas",
         "definition"
        ],
        [
         "1.3.9",
-        "devI + as",
+        "devī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + as",
+        "devī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + as",
+        "devī + as",
         "definition"
        ],
        [
         "1.4.13",
-        "devI + as",
+        "devī + as",
         "definition"
        ],
        [
         "1.4.18",
-        "devI + as",
+        "devī + as",
         "definition"
        ],
        [
         "1.4.14",
-        "devI + as",
+        "devī + as",
         "definition"
        ],
        [
         "6.1.102",
-        "devI + Is",
+        "devī + īs",
         "operation"
        ],
        [
         "6.1.101",
-        "devI + s",
+        "devī + s",
         "operation"
        ],
        [
         "8.2.66",
-        "devI + ru~",
+        "devī + rum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "devI + r",
+        "devī + r",
         "definition"
        ],
        [
         "8.3.15",
-        "devI + H",
+        "devī + ḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "śas"
      },
      "dvi": {
       "deva": "देव्यौ",
@@ -288,65 +292,66 @@
       "steps": [
        [
         "1.2.45",
-        "devI",
+        "devī",
         "stem"
        ],
        [
         "4.1.2",
-        "devI + Ow",
+        "devī + auṭ",
         "affix"
        ],
        [
         "1.3.3",
-        "devI + Ow",
+        "devī + auṭ",
         "definition"
        ],
        [
         "1.3.9",
-        "devI + O",
+        "devī + au",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + O",
+        "devī + au",
         "definition"
        ],
        [
         "1.1.43",
-        "devI + O",
+        "devī + au",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + O",
+        "devī + au",
         "definition"
        ],
        [
         "1.1.43",
-        "devI + O",
+        "devī + au",
         "definition"
        ],
        [
         "1.4.13",
-        "devI + O",
+        "devī + au",
         "definition"
        ],
        [
         "1.4.14",
-        "devI + O",
+        "devī + au",
         "definition"
        ],
        [
         "6.1.105",
-        "devI + O",
+        "devī + au",
         "operation"
        ],
        [
         "6.1.77",
-        "devy + O",
+        "devy + au",
         "operation"
        ]
-      ]
+      ],
+      "sup": "auṭ"
      },
      "eka": {
       "deva": "देवीम्",
@@ -355,55 +360,56 @@
       "steps": [
        [
         "1.2.45",
-        "devI",
+        "devī",
         "stem"
        ],
        [
         "4.1.2",
-        "devI + am",
+        "devī + am",
         "affix"
        ],
        [
         "1.3.4",
-        "devI + am",
+        "devī + am",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + am",
+        "devī + am",
         "definition"
        ],
        [
         "1.1.43",
-        "devI + am",
+        "devī + am",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + am",
+        "devī + am",
         "definition"
        ],
        [
         "1.1.43",
-        "devI + am",
+        "devī + am",
         "definition"
        ],
        [
         "1.4.13",
-        "devI + am",
+        "devī + am",
         "definition"
        ],
        [
         "1.4.14",
-        "devI + am",
+        "devī + am",
         "definition"
        ],
        [
         "6.1.107",
-        "devI + m",
+        "devī + m",
         "operation"
        ]
-      ]
+      ],
+      "sup": "am"
      }
     },
     "pancami": {
@@ -414,65 +420,66 @@
       "steps": [
        [
         "1.2.45",
-        "devI",
+        "devī",
         "stem"
        ],
        [
         "4.1.2",
-        "devI + Byas",
+        "devī + bhyas",
         "affix"
        ],
        [
         "1.3.4",
-        "devI + Byas",
+        "devī + bhyas",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + Byas",
+        "devī + bhyas",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + Byas",
+        "devī + bhyas",
         "definition"
        ],
        [
         "1.4.13",
-        "devI + Byas",
+        "devī + bhyas",
         "definition"
        ],
        [
         "1.4.17",
-        "devI + Byas",
+        "devī + bhyas",
         "definition"
        ],
        [
         "1.4.14",
-        "devI + Byas",
+        "devī + bhyas",
         "definition"
        ],
        [
         "8.2.66",
-        "devI + Byaru~",
+        "devī + bhyarum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "devI + Byar",
+        "devī + bhyar",
         "definition"
        ],
        [
         "8.3.15",
-        "devI + ByaH",
+        "devī + bhyaḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "devI + ByaH",
+        "devī + bhyaḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyas"
      },
      "dvi": {
       "deva": "देवीभ्याम्",
@@ -481,45 +488,46 @@
       "steps": [
        [
         "1.2.45",
-        "devI",
+        "devī",
         "stem"
        ],
        [
         "4.1.2",
-        "devI + ByAm",
+        "devī + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "devI + ByAm",
+        "devī + bhyām",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + ByAm",
+        "devī + bhyām",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + ByAm",
+        "devī + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "devI + ByAm",
+        "devī + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "devI + ByAm",
+        "devī + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "devI + ByAm",
+        "devī + bhyām",
         "definition"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "देव्याः",
@@ -528,95 +536,96 @@
       "steps": [
        [
         "1.2.45",
-        "devI",
+        "devī",
         "stem"
        ],
        [
         "4.1.2",
-        "devI + Nasi~",
+        "devī + ṅasim̐",
         "affix"
        ],
        [
         "1.3.2",
-        "devI + Nasi~",
+        "devī + ṅasim̐",
         "definition"
        ],
        [
         "1.3.8",
-        "devI + Nasi~",
+        "devī + ṅasim̐",
         "definition"
        ],
        [
         "1.3.9",
-        "devI + as",
+        "devī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + as",
+        "devī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + as",
+        "devī + as",
         "definition"
        ],
        [
         "1.4.13",
-        "devI + as",
+        "devī + as",
         "definition"
        ],
        [
         "1.4.18",
-        "devI + as",
+        "devī + as",
         "definition"
        ],
        [
         "1.4.14",
-        "devI + as",
+        "devī + as",
         "definition"
        ],
        [
         "7.3.112",
-        "devI + Aw + as",
+        "devī + āṭ + as",
         "operation"
        ],
        [
         "1.3.3",
-        "devI + Aw + as",
+        "devī + āṭ + as",
         "definition"
        ],
        [
         "1.3.9",
-        "devI + A + as",
+        "devī + ā + as",
         "definition"
        ],
        [
         "6.1.90",
-        "devI + As",
+        "devī + ās",
         "operation"
        ],
        [
         "6.1.77",
-        "devy + As",
+        "devy + ās",
         "operation"
        ],
        [
         "8.2.66",
-        "devy + Aru~",
+        "devy + ārum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "devy + Ar",
+        "devy + ār",
         "definition"
        ],
        [
         "8.3.15",
-        "devy + AH",
+        "devy + āḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅasim̐"
      }
     },
     "prathama": {
@@ -627,62 +636,62 @@
       "steps": [
        [
         "1.2.45",
-        "devI",
+        "devī",
         "stem"
        ],
        [
         "4.1.2",
-        "devI + jas",
+        "devī + jas",
         "affix"
        ],
        [
         "1.3.4",
-        "devI + jas",
+        "devī + jas",
         "definition"
        ],
        [
         "1.3.7",
-        "devI + jas",
+        "devī + jas",
         "definition"
        ],
        [
         "1.3.9",
-        "devI + as",
+        "devī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + as",
+        "devī + as",
         "definition"
        ],
        [
         "1.1.43",
-        "devI + as",
+        "devī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + as",
+        "devī + as",
         "definition"
        ],
        [
         "1.1.43",
-        "devI + as",
+        "devī + as",
         "definition"
        ],
        [
         "1.4.13",
-        "devI + as",
+        "devī + as",
         "definition"
        ],
        [
         "1.4.14",
-        "devI + as",
+        "devī + as",
         "definition"
        ],
        [
         "6.1.105",
-        "devI + as",
+        "devī + as",
         "operation"
        ],
        [
@@ -692,7 +701,7 @@
        ],
        [
         "8.2.66",
-        "devy + aru~",
+        "devy + arum̐",
         "sound"
        ],
        [
@@ -702,15 +711,16 @@
        ],
        [
         "8.3.15",
-        "devy + aH",
+        "devy + aḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "devy + aH",
+        "devy + aḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "jas"
      },
      "dvi": {
       "deva": "देव्यौ",
@@ -719,55 +729,56 @@
       "steps": [
        [
         "1.2.45",
-        "devI",
+        "devī",
         "stem"
        ],
        [
         "4.1.2",
-        "devI + O",
+        "devī + au",
         "affix"
        ],
        [
         "1.4.3",
-        "devI + O",
+        "devī + au",
         "definition"
        ],
        [
         "1.1.43",
-        "devI + O",
+        "devī + au",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + O",
+        "devī + au",
         "definition"
        ],
        [
         "1.1.43",
-        "devI + O",
+        "devī + au",
         "definition"
        ],
        [
         "1.4.13",
-        "devI + O",
+        "devī + au",
         "definition"
        ],
        [
         "1.4.14",
-        "devI + O",
+        "devī + au",
         "definition"
        ],
        [
         "6.1.105",
-        "devI + O",
+        "devī + au",
         "operation"
        ],
        [
         "6.1.77",
-        "devy + O",
+        "devy + au",
         "operation"
        ]
-      ]
+      ],
+      "sup": "au"
      },
      "eka": {
       "deva": "देवी",
@@ -776,60 +787,61 @@
       "steps": [
        [
         "1.2.45",
-        "devI",
+        "devī",
         "stem"
        ],
        [
         "4.1.2",
-        "devI + su~",
+        "devī + sum̐",
         "affix"
        ],
        [
         "1.3.2",
-        "devI + su~",
+        "devī + sum̐",
         "definition"
        ],
        [
         "1.3.9",
-        "devI + s",
+        "devī + s",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + s",
+        "devī + s",
         "definition"
        ],
        [
         "1.1.43",
-        "devI + s",
+        "devī + s",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + s",
+        "devī + s",
         "definition"
        ],
        [
         "1.1.43",
-        "devI + s",
+        "devī + s",
         "definition"
        ],
        [
         "1.4.13",
-        "devI + s",
+        "devī + s",
         "definition"
        ],
        [
         "1.4.14",
-        "devI + s",
+        "devī + s",
         "definition"
        ],
        [
         "6.1.68",
-        "devI",
+        "devī",
         "operation"
        ]
-      ]
+      ],
+      "sup": "sum̐"
      }
     },
     "sambodhana": {
@@ -840,72 +852,72 @@
       "steps": [
        [
         "1.2.45",
-        "devI",
+        "devī",
         "stem"
        ],
        [
         "4.1.2",
-        "devI + jas",
+        "devī + jas",
         "affix"
        ],
        [
         "1.3.4",
-        "devI + jas",
+        "devī + jas",
         "definition"
        ],
        [
         "1.3.7",
-        "devI + jas",
+        "devī + jas",
         "definition"
        ],
        [
         "1.3.9",
-        "devI + as",
+        "devī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + as",
+        "devī + as",
         "definition"
        ],
        [
         "2.3.48",
-        "devI + as",
+        "devī + as",
         "definition"
        ],
        [
         "1.1.43",
-        "devI + as",
+        "devī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + as",
+        "devī + as",
         "definition"
        ],
        [
         "2.3.48",
-        "devI + as",
+        "devī + as",
         "definition"
        ],
        [
         "1.1.43",
-        "devI + as",
+        "devī + as",
         "definition"
        ],
        [
         "1.4.13",
-        "devI + as",
+        "devī + as",
         "definition"
        ],
        [
         "1.4.14",
-        "devI + as",
+        "devī + as",
         "definition"
        ],
        [
         "6.1.105",
-        "devI + as",
+        "devī + as",
         "operation"
        ],
        [
@@ -915,7 +927,7 @@
        ],
        [
         "8.2.66",
-        "devy + aru~",
+        "devy + arum̐",
         "sound"
        ],
        [
@@ -925,15 +937,16 @@
        ],
        [
         "8.3.15",
-        "devy + aH",
+        "devy + aḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "devy + aH",
+        "devy + aḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "jas"
      },
      "dvi": {
       "deva": "देव्यौ",
@@ -942,65 +955,66 @@
       "steps": [
        [
         "1.2.45",
-        "devI",
+        "devī",
         "stem"
        ],
        [
         "4.1.2",
-        "devI + O",
+        "devī + au",
         "affix"
        ],
        [
         "1.4.3",
-        "devI + O",
+        "devī + au",
         "definition"
        ],
        [
         "2.3.48",
-        "devI + O",
+        "devī + au",
         "definition"
        ],
        [
         "1.1.43",
-        "devI + O",
+        "devī + au",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + O",
+        "devī + au",
         "definition"
        ],
        [
         "2.3.48",
-        "devI + O",
+        "devī + au",
         "definition"
        ],
        [
         "1.1.43",
-        "devI + O",
+        "devī + au",
         "definition"
        ],
        [
         "1.4.13",
-        "devI + O",
+        "devī + au",
         "definition"
        ],
        [
         "1.4.14",
-        "devI + O",
+        "devī + au",
         "definition"
        ],
        [
         "6.1.105",
-        "devI + O",
+        "devī + au",
         "operation"
        ],
        [
         "6.1.77",
-        "devy + O",
+        "devy + au",
         "operation"
        ]
-      ]
+      ],
+      "sup": "au"
      },
      "eka": {
       "deva": "देवि",
@@ -1009,72 +1023,72 @@
       "steps": [
        [
         "1.2.45",
-        "devI",
+        "devī",
         "stem"
        ],
        [
         "4.1.2",
-        "devI + su~",
+        "devī + sum̐",
         "affix"
        ],
        [
         "1.3.2",
-        "devI + su~",
+        "devī + sum̐",
         "definition"
        ],
        [
         "1.3.9",
-        "devI + s",
+        "devī + s",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + s",
+        "devī + s",
         "definition"
        ],
        [
         "2.3.48",
-        "devI + s",
+        "devī + s",
         "definition"
        ],
        [
         "2.3.49",
-        "devI + s",
+        "devī + s",
         "definition"
        ],
        [
         "1.1.43",
-        "devI + s",
+        "devī + s",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + s",
+        "devī + s",
         "definition"
        ],
        [
         "2.3.48",
-        "devI + s",
+        "devī + s",
         "definition"
        ],
        [
         "2.3.49",
-        "devI + s",
+        "devī + s",
         "definition"
        ],
        [
         "1.1.43",
-        "devI + s",
+        "devī + s",
         "definition"
        ],
        [
         "1.4.13",
-        "devI + s",
+        "devī + s",
         "definition"
        ],
        [
         "1.4.14",
-        "devI + s",
+        "devī + s",
         "definition"
        ],
        [
@@ -1087,7 +1101,8 @@
         "devi",
         "operation"
        ]
-      ]
+      ],
+      "sup": "sum̐"
      }
     },
     "saptami": {
@@ -1098,55 +1113,56 @@
       "steps": [
        [
         "1.2.45",
-        "devI",
+        "devī",
         "stem"
        ],
        [
         "4.1.2",
-        "devI + sup",
+        "devī + sup",
         "affix"
        ],
        [
         "1.3.3",
-        "devI + sup",
+        "devī + sup",
         "definition"
        ],
        [
         "1.3.9",
-        "devI + su",
+        "devī + su",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + su",
+        "devī + su",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + su",
+        "devī + su",
         "definition"
        ],
        [
         "1.4.13",
-        "devI + su",
+        "devī + su",
         "definition"
        ],
        [
         "1.4.17",
-        "devI + su",
+        "devī + su",
         "definition"
        ],
        [
         "1.4.14",
-        "devI + su",
+        "devī + su",
         "definition"
        ],
        [
         "8.3.59",
-        "devI + zu",
+        "devī + ṣu",
         "sound"
        ]
-      ]
+      ],
+      "sup": "sup"
      },
      "dvi": {
       "deva": "देव्योः",
@@ -1155,42 +1171,42 @@
       "steps": [
        [
         "1.2.45",
-        "devI",
+        "devī",
         "stem"
        ],
        [
         "4.1.2",
-        "devI + os",
+        "devī + os",
         "affix"
        ],
        [
         "1.3.4",
-        "devI + os",
+        "devī + os",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + os",
+        "devī + os",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + os",
+        "devī + os",
         "definition"
        ],
        [
         "1.4.13",
-        "devI + os",
+        "devī + os",
         "definition"
        ],
        [
         "1.4.18",
-        "devI + os",
+        "devī + os",
         "definition"
        ],
        [
         "1.4.14",
-        "devI + os",
+        "devī + os",
         "definition"
        ],
        [
@@ -1200,7 +1216,7 @@
        ],
        [
         "8.2.66",
-        "devy + oru~",
+        "devy + orum̐",
         "sound"
        ],
        [
@@ -1210,10 +1226,11 @@
        ],
        [
         "8.3.15",
-        "devy + oH",
+        "devy + oḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "os"
      },
      "eka": {
       "deva": "देव्याम्",
@@ -1222,85 +1239,86 @@
       "steps": [
        [
         "1.2.45",
-        "devI",
+        "devī",
         "stem"
        ],
        [
         "4.1.2",
-        "devI + Ni",
+        "devī + ṅi",
         "affix"
        ],
        [
         "1.3.8",
-        "devI + Ni",
+        "devī + ṅi",
         "definition"
        ],
        [
         "1.3.9",
-        "devI + i",
+        "devī + i",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + i",
+        "devī + i",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + i",
+        "devī + i",
         "definition"
        ],
        [
         "1.4.13",
-        "devI + i",
+        "devī + i",
         "definition"
        ],
        [
         "1.4.18",
-        "devI + i",
+        "devī + i",
         "definition"
        ],
        [
         "1.4.14",
-        "devI + i",
+        "devī + i",
         "definition"
        ],
        [
         "7.3.116",
-        "devI + Am",
+        "devī + ām",
         "operation"
        ],
        [
         "1.3.4",
-        "devI + Am",
+        "devī + ām",
         "definition"
        ],
        [
         "7.3.112",
-        "devI + Aw + Am",
+        "devī + āṭ + ām",
         "operation"
        ],
        [
         "1.3.3",
-        "devI + Aw + Am",
+        "devī + āṭ + ām",
         "definition"
        ],
        [
         "1.3.9",
-        "devI + A + Am",
+        "devī + ā + ām",
         "definition"
        ],
        [
         "6.1.90",
-        "devI + Am",
+        "devī + ām",
         "operation"
        ],
        [
         "6.1.77",
-        "devy + Am",
+        "devy + ām",
         "operation"
        ]
-      ]
+      ],
+      "sup": "ṅi"
      }
     },
     "sasthi": {
@@ -1311,65 +1329,66 @@
       "steps": [
        [
         "1.2.45",
-        "devI",
+        "devī",
         "stem"
        ],
        [
         "4.1.2",
-        "devI + Am",
+        "devī + ām",
         "affix"
        ],
        [
         "1.3.4",
-        "devI + Am",
+        "devī + ām",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + Am",
+        "devī + ām",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + Am",
+        "devī + ām",
         "definition"
        ],
        [
         "7.1.54",
-        "devI + nu~w + Am",
+        "devī + num̐ṭ + ām",
         "operation"
        ],
        [
         "1.3.2",
-        "devI + nu~w + Am",
+        "devī + num̐ṭ + ām",
         "definition"
        ],
        [
         "1.3.3",
-        "devI + nu~w + Am",
+        "devī + num̐ṭ + ām",
         "definition"
        ],
        [
         "1.3.9",
-        "devI + n + Am",
+        "devī + n + ām",
         "definition"
        ],
        [
         "1.4.13",
-        "devI + n + Am",
+        "devī + n + ām",
         "definition"
        ],
        [
         "1.4.17",
-        "devI + n + Am",
+        "devī + n + ām",
         "definition"
        ],
        [
         "1.4.14",
-        "devI + n + Am",
+        "devī + n + ām",
         "definition"
        ]
-      ]
+      ],
+      "sup": "ām"
      },
      "dvi": {
       "deva": "देव्योः",
@@ -1378,42 +1397,42 @@
       "steps": [
        [
         "1.2.45",
-        "devI",
+        "devī",
         "stem"
        ],
        [
         "4.1.2",
-        "devI + os",
+        "devī + os",
         "affix"
        ],
        [
         "1.3.4",
-        "devI + os",
+        "devī + os",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + os",
+        "devī + os",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + os",
+        "devī + os",
         "definition"
        ],
        [
         "1.4.13",
-        "devI + os",
+        "devī + os",
         "definition"
        ],
        [
         "1.4.18",
-        "devI + os",
+        "devī + os",
         "definition"
        ],
        [
         "1.4.14",
-        "devI + os",
+        "devī + os",
         "definition"
        ],
        [
@@ -1423,7 +1442,7 @@
        ],
        [
         "8.2.66",
-        "devy + oru~",
+        "devy + orum̐",
         "sound"
        ],
        [
@@ -1433,10 +1452,11 @@
        ],
        [
         "8.3.15",
-        "devy + oH",
+        "devy + oḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "os"
      },
      "eka": {
       "deva": "देव्याः",
@@ -1445,95 +1465,96 @@
       "steps": [
        [
         "1.2.45",
-        "devI",
+        "devī",
         "stem"
        ],
        [
         "4.1.2",
-        "devI + Nas",
+        "devī + ṅas",
         "affix"
        ],
        [
         "1.3.4",
-        "devI + Nas",
+        "devī + ṅas",
         "definition"
        ],
        [
         "1.3.8",
-        "devI + Nas",
+        "devī + ṅas",
         "definition"
        ],
        [
         "1.3.9",
-        "devI + as",
+        "devī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + as",
+        "devī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + as",
+        "devī + as",
         "definition"
        ],
        [
         "1.4.13",
-        "devI + as",
+        "devī + as",
         "definition"
        ],
        [
         "1.4.18",
-        "devI + as",
+        "devī + as",
         "definition"
        ],
        [
         "1.4.14",
-        "devI + as",
+        "devī + as",
         "definition"
        ],
        [
         "7.3.112",
-        "devI + Aw + as",
+        "devī + āṭ + as",
         "operation"
        ],
        [
         "1.3.3",
-        "devI + Aw + as",
+        "devī + āṭ + as",
         "definition"
        ],
        [
         "1.3.9",
-        "devI + A + as",
+        "devī + ā + as",
         "definition"
        ],
        [
         "6.1.90",
-        "devI + As",
+        "devī + ās",
         "operation"
        ],
        [
         "6.1.77",
-        "devy + As",
+        "devy + ās",
         "operation"
        ],
        [
         "8.2.66",
-        "devy + Aru~",
+        "devy + ārum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "devy + Ar",
+        "devy + ār",
         "definition"
        ],
        [
         "8.3.15",
-        "devy + AH",
+        "devy + āḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅas"
      }
     },
     "tritiya": {
@@ -1544,60 +1565,61 @@
       "steps": [
        [
         "1.2.45",
-        "devI",
+        "devī",
         "stem"
        ],
        [
         "4.1.2",
-        "devI + Bis",
+        "devī + bhis",
         "affix"
        ],
        [
         "1.3.4",
-        "devI + Bis",
+        "devī + bhis",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + Bis",
+        "devī + bhis",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + Bis",
+        "devī + bhis",
         "definition"
        ],
        [
         "1.4.13",
-        "devI + Bis",
+        "devī + bhis",
         "definition"
        ],
        [
         "1.4.17",
-        "devI + Bis",
+        "devī + bhis",
         "definition"
        ],
        [
         "1.4.14",
-        "devI + Bis",
+        "devī + bhis",
         "definition"
        ],
        [
         "8.2.66",
-        "devI + Biru~",
+        "devī + bhirum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "devI + Bir",
+        "devī + bhir",
         "definition"
        ],
        [
         "8.3.15",
-        "devI + BiH",
+        "devī + bhiḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhis"
      },
      "dvi": {
       "deva": "देवीभ्याम्",
@@ -1606,45 +1628,46 @@
       "steps": [
        [
         "1.2.45",
-        "devI",
+        "devī",
         "stem"
        ],
        [
         "4.1.2",
-        "devI + ByAm",
+        "devī + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "devI + ByAm",
+        "devī + bhyām",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + ByAm",
+        "devī + bhyām",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + ByAm",
+        "devī + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "devI + ByAm",
+        "devī + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "devI + ByAm",
+        "devī + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "devI + ByAm",
+        "devī + bhyām",
         "definition"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "देव्या",
@@ -1653,55 +1676,56 @@
       "steps": [
        [
         "1.2.45",
-        "devI",
+        "devī",
         "stem"
        ],
        [
         "4.1.2",
-        "devI + wA",
+        "devī + ṭā",
         "affix"
        ],
        [
         "1.3.7",
-        "devI + wA",
+        "devī + ṭā",
         "definition"
        ],
        [
         "1.3.9",
-        "devI + A",
+        "devī + ā",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + A",
+        "devī + ā",
         "definition"
        ],
        [
         "1.4.3",
-        "devI + A",
+        "devī + ā",
         "definition"
        ],
        [
         "1.4.13",
-        "devI + A",
+        "devī + ā",
         "definition"
        ],
        [
         "1.4.18",
-        "devI + A",
+        "devī + ā",
         "definition"
        ],
        [
         "1.4.14",
-        "devI + A",
+        "devī + ā",
         "definition"
        ],
        [
         "6.1.77",
-        "devy + A",
+        "devy + ā",
         "operation"
        ]
-      ]
+      ],
+      "sup": "ṭā"
      }
     }
    },
@@ -1870,75 +1894,76 @@
       "steps": [
        [
         "1.2.45",
-        "gOrI",
+        "gaurī",
         "stem"
        ],
        [
         "4.1.2",
-        "gOrI + Byas",
+        "gaurī + bhyas",
         "affix"
        ],
        [
         "1.3.4",
-        "gOrI + Byas",
+        "gaurī + bhyas",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + Byas",
+        "gaurī + bhyas",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + Byas",
+        "gaurī + bhyas",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + Byas",
+        "gaurī + bhyas",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + Byas",
+        "gaurī + bhyas",
         "definition"
        ],
        [
         "1.4.13",
-        "gOrI + Byas",
+        "gaurī + bhyas",
         "definition"
        ],
        [
         "1.4.17",
-        "gOrI + Byas",
+        "gaurī + bhyas",
         "definition"
        ],
        [
         "1.4.14",
-        "gOrI + Byas",
+        "gaurī + bhyas",
         "definition"
        ],
        [
         "8.2.66",
-        "gOrI + Byaru~",
+        "gaurī + bhyarum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "gOrI + Byar",
+        "gaurī + bhyar",
         "definition"
        ],
        [
         "8.3.15",
-        "gOrI + ByaH",
+        "gaurī + bhyaḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "gOrI + ByaH",
+        "gaurī + bhyaḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyas"
      },
      "dvi": {
       "deva": "गौरीभ्याम्",
@@ -1947,55 +1972,56 @@
       "steps": [
        [
         "1.2.45",
-        "gOrI",
+        "gaurī",
         "stem"
        ],
        [
         "4.1.2",
-        "gOrI + ByAm",
+        "gaurī + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "gOrI + ByAm",
+        "gaurī + bhyām",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + ByAm",
+        "gaurī + bhyām",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + ByAm",
+        "gaurī + bhyām",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + ByAm",
+        "gaurī + bhyām",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + ByAm",
+        "gaurī + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "gOrI + ByAm",
+        "gaurī + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "gOrI + ByAm",
+        "gaurī + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "gOrI + ByAm",
+        "gaurī + bhyām",
         "definition"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "गौर्यै",
@@ -2004,85 +2030,86 @@
       "steps": [
        [
         "1.2.45",
-        "gOrI",
+        "gaurī",
         "stem"
        ],
        [
         "4.1.2",
-        "gOrI + Ne",
+        "gaurī + ṅe",
         "affix"
        ],
        [
         "1.3.8",
-        "gOrI + Ne",
+        "gaurī + ṅe",
         "definition"
        ],
        [
         "1.3.9",
-        "gOrI + e",
+        "gaurī + e",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + e",
+        "gaurī + e",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + e",
+        "gaurī + e",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + e",
+        "gaurī + e",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + e",
+        "gaurī + e",
         "definition"
        ],
        [
         "1.4.13",
-        "gOrI + e",
+        "gaurī + e",
         "definition"
        ],
        [
         "1.4.18",
-        "gOrI + e",
+        "gaurī + e",
         "definition"
        ],
        [
         "1.4.14",
-        "gOrI + e",
+        "gaurī + e",
         "definition"
        ],
        [
         "7.3.112",
-        "gOrI + Aw + e",
+        "gaurī + āṭ + e",
         "operation"
        ],
        [
         "1.3.3",
-        "gOrI + Aw + e",
+        "gaurī + āṭ + e",
         "definition"
        ],
        [
         "1.3.9",
-        "gOrI + A + e",
+        "gaurī + ā + e",
         "definition"
        ],
        [
         "6.1.90",
-        "gOrI + E",
+        "gaurī + ai",
         "operation"
        ],
        [
         "6.1.77",
-        "gOry + E",
+        "gaury + ai",
         "operation"
        ]
-      ]
+      ],
+      "sup": "ṅe"
      }
     },
     "dvitiya": {
@@ -2093,90 +2120,91 @@
       "steps": [
        [
         "1.2.45",
-        "gOrI",
+        "gaurī",
         "stem"
        ],
        [
         "4.1.2",
-        "gOrI + Sas",
+        "gaurī + śas",
         "affix"
        ],
        [
         "1.3.4",
-        "gOrI + Sas",
+        "gaurī + śas",
         "definition"
        ],
        [
         "1.3.8",
-        "gOrI + Sas",
+        "gaurī + śas",
         "definition"
        ],
        [
         "1.3.9",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "1.4.13",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "1.4.18",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "1.4.14",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "6.1.102",
-        "gOrI + Is",
+        "gaurī + īs",
         "operation"
        ],
        [
         "6.1.101",
-        "gOrI + s",
+        "gaurī + s",
         "operation"
        ],
        [
         "8.2.66",
-        "gOrI + ru~",
+        "gaurī + rum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "gOrI + r",
+        "gaurī + r",
         "definition"
        ],
        [
         "8.3.15",
-        "gOrI + H",
+        "gaurī + ḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "śas"
      },
      "dvi": {
       "deva": "गौर्यौ",
@@ -2185,75 +2213,76 @@
       "steps": [
        [
         "1.2.45",
-        "gOrI",
+        "gaurī",
         "stem"
        ],
        [
         "4.1.2",
-        "gOrI + Ow",
+        "gaurī + auṭ",
         "affix"
        ],
        [
         "1.3.3",
-        "gOrI + Ow",
+        "gaurī + auṭ",
         "definition"
        ],
        [
         "1.3.9",
-        "gOrI + O",
+        "gaurī + au",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + O",
+        "gaurī + au",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + O",
+        "gaurī + au",
         "definition"
        ],
        [
         "1.1.43",
-        "gOrI + O",
+        "gaurī + au",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + O",
+        "gaurī + au",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + O",
+        "gaurī + au",
         "definition"
        ],
        [
         "1.1.43",
-        "gOrI + O",
+        "gaurī + au",
         "definition"
        ],
        [
         "1.4.13",
-        "gOrI + O",
+        "gaurī + au",
         "definition"
        ],
        [
         "1.4.14",
-        "gOrI + O",
+        "gaurī + au",
         "definition"
        ],
        [
         "6.1.105",
-        "gOrI + O",
+        "gaurī + au",
         "operation"
        ],
        [
         "6.1.77",
-        "gOry + O",
+        "gaury + au",
         "operation"
        ]
-      ]
+      ],
+      "sup": "auṭ"
      },
      "eka": {
       "deva": "गौरीम्",
@@ -2262,65 +2291,66 @@
       "steps": [
        [
         "1.2.45",
-        "gOrI",
+        "gaurī",
         "stem"
        ],
        [
         "4.1.2",
-        "gOrI + am",
+        "gaurī + am",
         "affix"
        ],
        [
         "1.3.4",
-        "gOrI + am",
+        "gaurī + am",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + am",
+        "gaurī + am",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + am",
+        "gaurī + am",
         "definition"
        ],
        [
         "1.1.43",
-        "gOrI + am",
+        "gaurī + am",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + am",
+        "gaurī + am",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + am",
+        "gaurī + am",
         "definition"
        ],
        [
         "1.1.43",
-        "gOrI + am",
+        "gaurī + am",
         "definition"
        ],
        [
         "1.4.13",
-        "gOrI + am",
+        "gaurī + am",
         "definition"
        ],
        [
         "1.4.14",
-        "gOrI + am",
+        "gaurī + am",
         "definition"
        ],
        [
         "6.1.107",
-        "gOrI + m",
+        "gaurī + m",
         "operation"
        ]
-      ]
+      ],
+      "sup": "am"
      }
     },
     "pancami": {
@@ -2331,75 +2361,76 @@
       "steps": [
        [
         "1.2.45",
-        "gOrI",
+        "gaurī",
         "stem"
        ],
        [
         "4.1.2",
-        "gOrI + Byas",
+        "gaurī + bhyas",
         "affix"
        ],
        [
         "1.3.4",
-        "gOrI + Byas",
+        "gaurī + bhyas",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + Byas",
+        "gaurī + bhyas",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + Byas",
+        "gaurī + bhyas",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + Byas",
+        "gaurī + bhyas",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + Byas",
+        "gaurī + bhyas",
         "definition"
        ],
        [
         "1.4.13",
-        "gOrI + Byas",
+        "gaurī + bhyas",
         "definition"
        ],
        [
         "1.4.17",
-        "gOrI + Byas",
+        "gaurī + bhyas",
         "definition"
        ],
        [
         "1.4.14",
-        "gOrI + Byas",
+        "gaurī + bhyas",
         "definition"
        ],
        [
         "8.2.66",
-        "gOrI + Byaru~",
+        "gaurī + bhyarum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "gOrI + Byar",
+        "gaurī + bhyar",
         "definition"
        ],
        [
         "8.3.15",
-        "gOrI + ByaH",
+        "gaurī + bhyaḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "gOrI + ByaH",
+        "gaurī + bhyaḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyas"
      },
      "dvi": {
       "deva": "गौरीभ्याम्",
@@ -2408,55 +2439,56 @@
       "steps": [
        [
         "1.2.45",
-        "gOrI",
+        "gaurī",
         "stem"
        ],
        [
         "4.1.2",
-        "gOrI + ByAm",
+        "gaurī + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "gOrI + ByAm",
+        "gaurī + bhyām",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + ByAm",
+        "gaurī + bhyām",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + ByAm",
+        "gaurī + bhyām",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + ByAm",
+        "gaurī + bhyām",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + ByAm",
+        "gaurī + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "gOrI + ByAm",
+        "gaurī + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "gOrI + ByAm",
+        "gaurī + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "gOrI + ByAm",
+        "gaurī + bhyām",
         "definition"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "गौर्याः",
@@ -2465,105 +2497,106 @@
       "steps": [
        [
         "1.2.45",
-        "gOrI",
+        "gaurī",
         "stem"
        ],
        [
         "4.1.2",
-        "gOrI + Nasi~",
+        "gaurī + ṅasim̐",
         "affix"
        ],
        [
         "1.3.2",
-        "gOrI + Nasi~",
+        "gaurī + ṅasim̐",
         "definition"
        ],
        [
         "1.3.8",
-        "gOrI + Nasi~",
+        "gaurī + ṅasim̐",
         "definition"
        ],
        [
         "1.3.9",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "1.4.13",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "1.4.18",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "1.4.14",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "7.3.112",
-        "gOrI + Aw + as",
+        "gaurī + āṭ + as",
         "operation"
        ],
        [
         "1.3.3",
-        "gOrI + Aw + as",
+        "gaurī + āṭ + as",
         "definition"
        ],
        [
         "1.3.9",
-        "gOrI + A + as",
+        "gaurī + ā + as",
         "definition"
        ],
        [
         "6.1.90",
-        "gOrI + As",
+        "gaurī + ās",
         "operation"
        ],
        [
         "6.1.77",
-        "gOry + As",
+        "gaury + ās",
         "operation"
        ],
        [
         "8.2.66",
-        "gOry + Aru~",
+        "gaury + ārum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "gOry + Ar",
+        "gaury + ār",
         "definition"
        ],
        [
         "8.3.15",
-        "gOry + AH",
+        "gaury + āḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅasim̐"
      }
     },
     "prathama": {
@@ -2574,100 +2607,101 @@
       "steps": [
        [
         "1.2.45",
-        "gOrI",
+        "gaurī",
         "stem"
        ],
        [
         "4.1.2",
-        "gOrI + jas",
+        "gaurī + jas",
         "affix"
        ],
        [
         "1.3.4",
-        "gOrI + jas",
+        "gaurī + jas",
         "definition"
        ],
        [
         "1.3.7",
-        "gOrI + jas",
+        "gaurī + jas",
         "definition"
        ],
        [
         "1.3.9",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "1.1.43",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "1.1.43",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "1.4.13",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "1.4.14",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "6.1.105",
-        "gOrI + as",
+        "gaurī + as",
         "operation"
        ],
        [
         "6.1.77",
-        "gOry + as",
+        "gaury + as",
         "operation"
        ],
        [
         "8.2.66",
-        "gOry + aru~",
+        "gaury + arum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "gOry + ar",
+        "gaury + ar",
         "definition"
        ],
        [
         "8.3.15",
-        "gOry + aH",
+        "gaury + aḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "gOry + aH",
+        "gaury + aḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "jas"
      },
      "dvi": {
       "deva": "गौर्यौ",
@@ -2676,65 +2710,66 @@
       "steps": [
        [
         "1.2.45",
-        "gOrI",
+        "gaurī",
         "stem"
        ],
        [
         "4.1.2",
-        "gOrI + O",
+        "gaurī + au",
         "affix"
        ],
        [
         "1.1.73",
-        "gOrI + O",
+        "gaurī + au",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + O",
+        "gaurī + au",
         "definition"
        ],
        [
         "1.1.43",
-        "gOrI + O",
+        "gaurī + au",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + O",
+        "gaurī + au",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + O",
+        "gaurī + au",
         "definition"
        ],
        [
         "1.1.43",
-        "gOrI + O",
+        "gaurī + au",
         "definition"
        ],
        [
         "1.4.13",
-        "gOrI + O",
+        "gaurī + au",
         "definition"
        ],
        [
         "1.4.14",
-        "gOrI + O",
+        "gaurī + au",
         "definition"
        ],
        [
         "6.1.105",
-        "gOrI + O",
+        "gaurī + au",
         "operation"
        ],
        [
         "6.1.77",
-        "gOry + O",
+        "gaury + au",
         "operation"
        ]
-      ]
+      ],
+      "sup": "au"
      },
      "eka": {
       "deva": "गौरी",
@@ -2743,70 +2778,71 @@
       "steps": [
        [
         "1.2.45",
-        "gOrI",
+        "gaurī",
         "stem"
        ],
        [
         "4.1.2",
-        "gOrI + su~",
+        "gaurī + sum̐",
         "affix"
        ],
        [
         "1.3.2",
-        "gOrI + su~",
+        "gaurī + sum̐",
         "definition"
        ],
        [
         "1.3.9",
-        "gOrI + s",
+        "gaurī + s",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + s",
+        "gaurī + s",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + s",
+        "gaurī + s",
         "definition"
        ],
        [
         "1.1.43",
-        "gOrI + s",
+        "gaurī + s",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + s",
+        "gaurī + s",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + s",
+        "gaurī + s",
         "definition"
        ],
        [
         "1.1.43",
-        "gOrI + s",
+        "gaurī + s",
         "definition"
        ],
        [
         "1.4.13",
-        "gOrI + s",
+        "gaurī + s",
         "definition"
        ],
        [
         "1.4.14",
-        "gOrI + s",
+        "gaurī + s",
         "definition"
        ],
        [
         "6.1.68",
-        "gOrI",
+        "gaurī",
         "operation"
        ]
-      ]
+      ],
+      "sup": "sum̐"
      }
     },
     "sambodhana": {
@@ -2817,110 +2853,111 @@
       "steps": [
        [
         "1.2.45",
-        "gOrI",
+        "gaurī",
         "stem"
        ],
        [
         "4.1.2",
-        "gOrI + jas",
+        "gaurī + jas",
         "affix"
        ],
        [
         "1.3.4",
-        "gOrI + jas",
+        "gaurī + jas",
         "definition"
        ],
        [
         "1.3.7",
-        "gOrI + jas",
+        "gaurī + jas",
         "definition"
        ],
        [
         "1.3.9",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "2.3.48",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "1.1.43",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "2.3.48",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "1.1.43",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "1.4.13",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "1.4.14",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "6.1.105",
-        "gOrI + as",
+        "gaurī + as",
         "operation"
        ],
        [
         "6.1.77",
-        "gOry + as",
+        "gaury + as",
         "operation"
        ],
        [
         "8.2.66",
-        "gOry + aru~",
+        "gaury + arum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "gOry + ar",
+        "gaury + ar",
         "definition"
        ],
        [
         "8.3.15",
-        "gOry + aH",
+        "gaury + aḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "gOry + aH",
+        "gaury + aḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "jas"
      },
      "dvi": {
       "deva": "गौर्यौ",
@@ -2929,75 +2966,76 @@
       "steps": [
        [
         "1.2.45",
-        "gOrI",
+        "gaurī",
         "stem"
        ],
        [
         "4.1.2",
-        "gOrI + O",
+        "gaurī + au",
         "affix"
        ],
        [
         "1.1.73",
-        "gOrI + O",
+        "gaurī + au",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + O",
+        "gaurī + au",
         "definition"
        ],
        [
         "2.3.48",
-        "gOrI + O",
+        "gaurī + au",
         "definition"
        ],
        [
         "1.1.43",
-        "gOrI + O",
+        "gaurī + au",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + O",
+        "gaurī + au",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + O",
+        "gaurī + au",
         "definition"
        ],
        [
         "2.3.48",
-        "gOrI + O",
+        "gaurī + au",
         "definition"
        ],
        [
         "1.1.43",
-        "gOrI + O",
+        "gaurī + au",
         "definition"
        ],
        [
         "1.4.13",
-        "gOrI + O",
+        "gaurī + au",
         "definition"
        ],
        [
         "1.4.14",
-        "gOrI + O",
+        "gaurī + au",
         "definition"
        ],
        [
         "6.1.105",
-        "gOrI + O",
+        "gaurī + au",
         "operation"
        ],
        [
         "6.1.77",
-        "gOry + O",
+        "gaury + au",
         "operation"
        ]
-      ]
+      ],
+      "sup": "au"
      },
      "eka": {
       "deva": "गौरि",
@@ -3006,95 +3044,96 @@
       "steps": [
        [
         "1.2.45",
-        "gOrI",
+        "gaurī",
         "stem"
        ],
        [
         "4.1.2",
-        "gOrI + su~",
+        "gaurī + sum̐",
         "affix"
        ],
        [
         "1.3.2",
-        "gOrI + su~",
+        "gaurī + sum̐",
         "definition"
        ],
        [
         "1.3.9",
-        "gOrI + s",
+        "gaurī + s",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + s",
+        "gaurī + s",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + s",
+        "gaurī + s",
         "definition"
        ],
        [
         "2.3.48",
-        "gOrI + s",
+        "gaurī + s",
         "definition"
        ],
        [
         "2.3.49",
-        "gOrI + s",
+        "gaurī + s",
         "definition"
        ],
        [
         "1.1.43",
-        "gOrI + s",
+        "gaurī + s",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + s",
+        "gaurī + s",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + s",
+        "gaurī + s",
         "definition"
        ],
        [
         "2.3.48",
-        "gOrI + s",
+        "gaurī + s",
         "definition"
        ],
        [
         "2.3.49",
-        "gOrI + s",
+        "gaurī + s",
         "definition"
        ],
        [
         "1.1.43",
-        "gOrI + s",
+        "gaurī + s",
         "definition"
        ],
        [
         "1.4.13",
-        "gOrI + s",
+        "gaurī + s",
         "definition"
        ],
        [
         "1.4.14",
-        "gOrI + s",
+        "gaurī + s",
         "definition"
        ],
        [
         "7.3.107",
-        "gOri + s",
+        "gauri + s",
         "operation"
        ],
        [
         "6.1.69",
-        "gOri",
+        "gauri",
         "operation"
        ]
-      ]
+      ],
+      "sup": "sum̐"
      }
     },
     "saptami": {
@@ -3105,65 +3144,66 @@
       "steps": [
        [
         "1.2.45",
-        "gOrI",
+        "gaurī",
         "stem"
        ],
        [
         "4.1.2",
-        "gOrI + sup",
+        "gaurī + sup",
         "affix"
        ],
        [
         "1.3.3",
-        "gOrI + sup",
+        "gaurī + sup",
         "definition"
        ],
        [
         "1.3.9",
-        "gOrI + su",
+        "gaurī + su",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + su",
+        "gaurī + su",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + su",
+        "gaurī + su",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + su",
+        "gaurī + su",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + su",
+        "gaurī + su",
         "definition"
        ],
        [
         "1.4.13",
-        "gOrI + su",
+        "gaurī + su",
         "definition"
        ],
        [
         "1.4.17",
-        "gOrI + su",
+        "gaurī + su",
         "definition"
        ],
        [
         "1.4.14",
-        "gOrI + su",
+        "gaurī + su",
         "definition"
        ],
        [
         "8.3.59",
-        "gOrI + zu",
+        "gaurī + ṣu",
         "sound"
        ]
-      ]
+      ],
+      "sup": "sup"
      },
      "dvi": {
       "deva": "गौर्योः",
@@ -3172,75 +3212,76 @@
       "steps": [
        [
         "1.2.45",
-        "gOrI",
+        "gaurī",
         "stem"
        ],
        [
         "4.1.2",
-        "gOrI + os",
+        "gaurī + os",
         "affix"
        ],
        [
         "1.3.4",
-        "gOrI + os",
+        "gaurī + os",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + os",
+        "gaurī + os",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + os",
+        "gaurī + os",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + os",
+        "gaurī + os",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + os",
+        "gaurī + os",
         "definition"
        ],
        [
         "1.4.13",
-        "gOrI + os",
+        "gaurī + os",
         "definition"
        ],
        [
         "1.4.18",
-        "gOrI + os",
+        "gaurī + os",
         "definition"
        ],
        [
         "1.4.14",
-        "gOrI + os",
+        "gaurī + os",
         "definition"
        ],
        [
         "6.1.77",
-        "gOry + os",
+        "gaury + os",
         "operation"
        ],
        [
         "8.2.66",
-        "gOry + oru~",
+        "gaury + orum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "gOry + or",
+        "gaury + or",
         "definition"
        ],
        [
         "8.3.15",
-        "gOry + oH",
+        "gaury + oḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "os"
      },
      "eka": {
       "deva": "गौर्याम्",
@@ -3249,95 +3290,96 @@
       "steps": [
        [
         "1.2.45",
-        "gOrI",
+        "gaurī",
         "stem"
        ],
        [
         "4.1.2",
-        "gOrI + Ni",
+        "gaurī + ṅi",
         "affix"
        ],
        [
         "1.3.8",
-        "gOrI + Ni",
+        "gaurī + ṅi",
         "definition"
        ],
        [
         "1.3.9",
-        "gOrI + i",
+        "gaurī + i",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + i",
+        "gaurī + i",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + i",
+        "gaurī + i",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + i",
+        "gaurī + i",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + i",
+        "gaurī + i",
         "definition"
        ],
        [
         "1.4.13",
-        "gOrI + i",
+        "gaurī + i",
         "definition"
        ],
        [
         "1.4.18",
-        "gOrI + i",
+        "gaurī + i",
         "definition"
        ],
        [
         "1.4.14",
-        "gOrI + i",
+        "gaurī + i",
         "definition"
        ],
        [
         "7.3.116",
-        "gOrI + Am",
+        "gaurī + ām",
         "operation"
        ],
        [
         "1.3.4",
-        "gOrI + Am",
+        "gaurī + ām",
         "definition"
        ],
        [
         "7.3.112",
-        "gOrI + Aw + Am",
+        "gaurī + āṭ + ām",
         "operation"
        ],
        [
         "1.3.3",
-        "gOrI + Aw + Am",
+        "gaurī + āṭ + ām",
         "definition"
        ],
        [
         "1.3.9",
-        "gOrI + A + Am",
+        "gaurī + ā + ām",
         "definition"
        ],
        [
         "6.1.90",
-        "gOrI + Am",
+        "gaurī + ām",
         "operation"
        ],
        [
         "6.1.77",
-        "gOry + Am",
+        "gaury + ām",
         "operation"
        ]
-      ]
+      ],
+      "sup": "ṅi"
      }
     },
     "sasthi": {
@@ -3348,80 +3390,81 @@
       "steps": [
        [
         "1.2.45",
-        "gOrI",
+        "gaurī",
         "stem"
        ],
        [
         "4.1.2",
-        "gOrI + Am",
+        "gaurī + ām",
         "affix"
        ],
        [
         "1.3.4",
-        "gOrI + Am",
+        "gaurī + ām",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + Am",
+        "gaurī + ām",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + Am",
+        "gaurī + ām",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + Am",
+        "gaurī + ām",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + Am",
+        "gaurī + ām",
         "definition"
        ],
        [
         "7.1.54",
-        "gOrI + nu~w + Am",
+        "gaurī + num̐ṭ + ām",
         "operation"
        ],
        [
         "1.3.2",
-        "gOrI + nu~w + Am",
+        "gaurī + num̐ṭ + ām",
         "definition"
        ],
        [
         "1.3.3",
-        "gOrI + nu~w + Am",
+        "gaurī + num̐ṭ + ām",
         "definition"
        ],
        [
         "1.3.9",
-        "gOrI + n + Am",
+        "gaurī + n + ām",
         "definition"
        ],
        [
         "1.4.13",
-        "gOrI + n + Am",
+        "gaurī + n + ām",
         "definition"
        ],
        [
         "1.4.17",
-        "gOrI + n + Am",
+        "gaurī + n + ām",
         "definition"
        ],
        [
         "1.4.14",
-        "gOrI + n + Am",
+        "gaurī + n + ām",
         "definition"
        ],
        [
         "8.4.2",
-        "gOrI + R + Am",
+        "gaurī + ṇ + ām",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ām"
      },
      "dvi": {
       "deva": "गौर्योः",
@@ -3430,75 +3473,76 @@
       "steps": [
        [
         "1.2.45",
-        "gOrI",
+        "gaurī",
         "stem"
        ],
        [
         "4.1.2",
-        "gOrI + os",
+        "gaurī + os",
         "affix"
        ],
        [
         "1.3.4",
-        "gOrI + os",
+        "gaurī + os",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + os",
+        "gaurī + os",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + os",
+        "gaurī + os",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + os",
+        "gaurī + os",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + os",
+        "gaurī + os",
         "definition"
        ],
        [
         "1.4.13",
-        "gOrI + os",
+        "gaurī + os",
         "definition"
        ],
        [
         "1.4.18",
-        "gOrI + os",
+        "gaurī + os",
         "definition"
        ],
        [
         "1.4.14",
-        "gOrI + os",
+        "gaurī + os",
         "definition"
        ],
        [
         "6.1.77",
-        "gOry + os",
+        "gaury + os",
         "operation"
        ],
        [
         "8.2.66",
-        "gOry + oru~",
+        "gaury + orum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "gOry + or",
+        "gaury + or",
         "definition"
        ],
        [
         "8.3.15",
-        "gOry + oH",
+        "gaury + oḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "os"
      },
      "eka": {
       "deva": "गौर्याः",
@@ -3507,105 +3551,106 @@
       "steps": [
        [
         "1.2.45",
-        "gOrI",
+        "gaurī",
         "stem"
        ],
        [
         "4.1.2",
-        "gOrI + Nas",
+        "gaurī + ṅas",
         "affix"
        ],
        [
         "1.3.4",
-        "gOrI + Nas",
+        "gaurī + ṅas",
         "definition"
        ],
        [
         "1.3.8",
-        "gOrI + Nas",
+        "gaurī + ṅas",
         "definition"
        ],
        [
         "1.3.9",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "1.4.13",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "1.4.18",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "1.4.14",
-        "gOrI + as",
+        "gaurī + as",
         "definition"
        ],
        [
         "7.3.112",
-        "gOrI + Aw + as",
+        "gaurī + āṭ + as",
         "operation"
        ],
        [
         "1.3.3",
-        "gOrI + Aw + as",
+        "gaurī + āṭ + as",
         "definition"
        ],
        [
         "1.3.9",
-        "gOrI + A + as",
+        "gaurī + ā + as",
         "definition"
        ],
        [
         "6.1.90",
-        "gOrI + As",
+        "gaurī + ās",
         "operation"
        ],
        [
         "6.1.77",
-        "gOry + As",
+        "gaury + ās",
         "operation"
        ],
        [
         "8.2.66",
-        "gOry + Aru~",
+        "gaury + ārum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "gOry + Ar",
+        "gaury + ār",
         "definition"
        ],
        [
         "8.3.15",
-        "gOry + AH",
+        "gaury + āḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅas"
      }
     },
     "tritiya": {
@@ -3616,70 +3661,71 @@
       "steps": [
        [
         "1.2.45",
-        "gOrI",
+        "gaurī",
         "stem"
        ],
        [
         "4.1.2",
-        "gOrI + Bis",
+        "gaurī + bhis",
         "affix"
        ],
        [
         "1.3.4",
-        "gOrI + Bis",
+        "gaurī + bhis",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + Bis",
+        "gaurī + bhis",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + Bis",
+        "gaurī + bhis",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + Bis",
+        "gaurī + bhis",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + Bis",
+        "gaurī + bhis",
         "definition"
        ],
        [
         "1.4.13",
-        "gOrI + Bis",
+        "gaurī + bhis",
         "definition"
        ],
        [
         "1.4.17",
-        "gOrI + Bis",
+        "gaurī + bhis",
         "definition"
        ],
        [
         "1.4.14",
-        "gOrI + Bis",
+        "gaurī + bhis",
         "definition"
        ],
        [
         "8.2.66",
-        "gOrI + Biru~",
+        "gaurī + bhirum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "gOrI + Bir",
+        "gaurī + bhir",
         "definition"
        ],
        [
         "8.3.15",
-        "gOrI + BiH",
+        "gaurī + bhiḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhis"
      },
      "dvi": {
       "deva": "गौरीभ्याम्",
@@ -3688,55 +3734,56 @@
       "steps": [
        [
         "1.2.45",
-        "gOrI",
+        "gaurī",
         "stem"
        ],
        [
         "4.1.2",
-        "gOrI + ByAm",
+        "gaurī + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "gOrI + ByAm",
+        "gaurī + bhyām",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + ByAm",
+        "gaurī + bhyām",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + ByAm",
+        "gaurī + bhyām",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + ByAm",
+        "gaurī + bhyām",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + ByAm",
+        "gaurī + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "gOrI + ByAm",
+        "gaurī + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "gOrI + ByAm",
+        "gaurī + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "gOrI + ByAm",
+        "gaurī + bhyām",
         "definition"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "गौर्या",
@@ -3745,65 +3792,66 @@
       "steps": [
        [
         "1.2.45",
-        "gOrI",
+        "gaurī",
         "stem"
        ],
        [
         "4.1.2",
-        "gOrI + wA",
+        "gaurī + ṭā",
         "affix"
        ],
        [
         "1.3.7",
-        "gOrI + wA",
+        "gaurī + ṭā",
         "definition"
        ],
        [
         "1.3.9",
-        "gOrI + A",
+        "gaurī + ā",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + A",
+        "gaurī + ā",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + A",
+        "gaurī + ā",
         "definition"
        ],
        [
         "1.1.73",
-        "gOrI + A",
+        "gaurī + ā",
         "definition"
        ],
        [
         "1.4.3",
-        "gOrI + A",
+        "gaurī + ā",
         "definition"
        ],
        [
         "1.4.13",
-        "gOrI + A",
+        "gaurī + ā",
         "definition"
        ],
        [
         "1.4.18",
-        "gOrI + A",
+        "gaurī + ā",
         "definition"
        ],
        [
         "1.4.14",
-        "gOrI + A",
+        "gaurī + ā",
         "definition"
        ],
        [
         "6.1.77",
-        "gOry + A",
+        "gaury + ā",
         "operation"
        ]
-      ]
+      ],
+      "sup": "ṭā"
      }
     }
    },
@@ -3972,65 +4020,66 @@
       "steps": [
        [
         "1.2.45",
-        "nadI",
+        "nadī",
         "stem"
        ],
        [
         "4.1.2",
-        "nadI + Byas",
+        "nadī + bhyas",
         "affix"
        ],
        [
         "1.3.4",
-        "nadI + Byas",
+        "nadī + bhyas",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + Byas",
+        "nadī + bhyas",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + Byas",
+        "nadī + bhyas",
         "definition"
        ],
        [
         "1.4.13",
-        "nadI + Byas",
+        "nadī + bhyas",
         "definition"
        ],
        [
         "1.4.17",
-        "nadI + Byas",
+        "nadī + bhyas",
         "definition"
        ],
        [
         "1.4.14",
-        "nadI + Byas",
+        "nadī + bhyas",
         "definition"
        ],
        [
         "8.2.66",
-        "nadI + Byaru~",
+        "nadī + bhyarum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "nadI + Byar",
+        "nadī + bhyar",
         "definition"
        ],
        [
         "8.3.15",
-        "nadI + ByaH",
+        "nadī + bhyaḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "nadI + ByaH",
+        "nadī + bhyaḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyas"
      },
      "dvi": {
       "deva": "नदीभ्याम्",
@@ -4039,50 +4088,51 @@
       "steps": [
        [
         "1.2.45",
-        "nadI",
+        "nadī",
         "stem"
        ],
        [
         "4.1.2",
-        "nadI + ByAm",
+        "nadī + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "nadI + ByAm",
+        "nadī + bhyām",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + ByAm",
+        "nadī + bhyām",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + ByAm",
+        "nadī + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "nadI + ByAm",
+        "nadī + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "nadI + ByAm",
+        "nadī + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "nadI + ByAm",
+        "nadī + bhyām",
         "definition"
        ],
        [
         "8.4.68",
-        "nadI + ByAm",
+        "nadī + bhyām",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "नद्यै",
@@ -4091,80 +4141,81 @@
       "steps": [
        [
         "1.2.45",
-        "nadI",
+        "nadī",
         "stem"
        ],
        [
         "4.1.2",
-        "nadI + Ne",
+        "nadī + ṅe",
         "affix"
        ],
        [
         "1.3.8",
-        "nadI + Ne",
+        "nadī + ṅe",
         "definition"
        ],
        [
         "1.3.9",
-        "nadI + e",
+        "nadī + e",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + e",
+        "nadī + e",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + e",
+        "nadī + e",
         "definition"
        ],
        [
         "1.4.13",
-        "nadI + e",
+        "nadī + e",
         "definition"
        ],
        [
         "1.4.18",
-        "nadI + e",
+        "nadī + e",
         "definition"
        ],
        [
         "1.4.14",
-        "nadI + e",
+        "nadī + e",
         "definition"
        ],
        [
         "7.3.112",
-        "nadI + Aw + e",
+        "nadī + āṭ + e",
         "operation"
        ],
        [
         "1.3.3",
-        "nadI + Aw + e",
+        "nadī + āṭ + e",
         "definition"
        ],
        [
         "1.3.9",
-        "nadI + A + e",
+        "nadī + ā + e",
         "definition"
        ],
        [
         "6.1.90",
-        "nadI + E",
+        "nadī + ai",
         "operation"
        ],
        [
         "6.1.77",
-        "nady + E",
+        "nady + ai",
         "operation"
        ],
        [
         "8.4.68",
-        "nady + E",
+        "nady + ai",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅe"
      }
     },
     "dvitiya": {
@@ -4175,85 +4226,86 @@
       "steps": [
        [
         "1.2.45",
-        "nadI",
+        "nadī",
         "stem"
        ],
        [
         "4.1.2",
-        "nadI + Sas",
+        "nadī + śas",
         "affix"
        ],
        [
         "1.3.4",
-        "nadI + Sas",
+        "nadī + śas",
         "definition"
        ],
        [
         "1.3.8",
-        "nadI + Sas",
+        "nadī + śas",
         "definition"
        ],
        [
         "1.3.9",
-        "nadI + as",
+        "nadī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + as",
+        "nadī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + as",
+        "nadī + as",
         "definition"
        ],
        [
         "1.4.13",
-        "nadI + as",
+        "nadī + as",
         "definition"
        ],
        [
         "1.4.18",
-        "nadI + as",
+        "nadī + as",
         "definition"
        ],
        [
         "1.4.14",
-        "nadI + as",
+        "nadī + as",
         "definition"
        ],
        [
         "6.1.102",
-        "nadI + Is",
+        "nadī + īs",
         "operation"
        ],
        [
         "6.1.101",
-        "nadI + s",
+        "nadī + s",
         "operation"
        ],
        [
         "8.2.66",
-        "nadI + ru~",
+        "nadī + rum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "nadI + r",
+        "nadī + r",
         "definition"
        ],
        [
         "8.3.15",
-        "nadI + H",
+        "nadī + ḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "nadI + H",
+        "nadī + ḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "śas"
      },
      "dvi": {
       "deva": "नद्यौ",
@@ -4262,70 +4314,71 @@
       "steps": [
        [
         "1.2.45",
-        "nadI",
+        "nadī",
         "stem"
        ],
        [
         "4.1.2",
-        "nadI + Ow",
+        "nadī + auṭ",
         "affix"
        ],
        [
         "1.3.3",
-        "nadI + Ow",
+        "nadī + auṭ",
         "definition"
        ],
        [
         "1.3.9",
-        "nadI + O",
+        "nadī + au",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + O",
+        "nadī + au",
         "definition"
        ],
        [
         "1.1.43",
-        "nadI + O",
+        "nadī + au",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + O",
+        "nadī + au",
         "definition"
        ],
        [
         "1.1.43",
-        "nadI + O",
+        "nadī + au",
         "definition"
        ],
        [
         "1.4.13",
-        "nadI + O",
+        "nadī + au",
         "definition"
        ],
        [
         "1.4.14",
-        "nadI + O",
+        "nadī + au",
         "definition"
        ],
        [
         "6.1.105",
-        "nadI + O",
+        "nadī + au",
         "operation"
        ],
        [
         "6.1.77",
-        "nady + O",
+        "nady + au",
         "operation"
        ],
        [
         "8.4.68",
-        "nady + O",
+        "nady + au",
         "sound"
        ]
-      ]
+      ],
+      "sup": "auṭ"
      },
      "eka": {
       "deva": "नदीम्",
@@ -4334,60 +4387,61 @@
       "steps": [
        [
         "1.2.45",
-        "nadI",
+        "nadī",
         "stem"
        ],
        [
         "4.1.2",
-        "nadI + am",
+        "nadī + am",
         "affix"
        ],
        [
         "1.3.4",
-        "nadI + am",
+        "nadī + am",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + am",
+        "nadī + am",
         "definition"
        ],
        [
         "1.1.43",
-        "nadI + am",
+        "nadī + am",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + am",
+        "nadī + am",
         "definition"
        ],
        [
         "1.1.43",
-        "nadI + am",
+        "nadī + am",
         "definition"
        ],
        [
         "1.4.13",
-        "nadI + am",
+        "nadī + am",
         "definition"
        ],
        [
         "1.4.14",
-        "nadI + am",
+        "nadī + am",
         "definition"
        ],
        [
         "6.1.107",
-        "nadI + m",
+        "nadī + m",
         "operation"
        ],
        [
         "8.4.68",
-        "nadI + m",
+        "nadī + m",
         "sound"
        ]
-      ]
+      ],
+      "sup": "am"
      }
     },
     "pancami": {
@@ -4398,65 +4452,66 @@
       "steps": [
        [
         "1.2.45",
-        "nadI",
+        "nadī",
         "stem"
        ],
        [
         "4.1.2",
-        "nadI + Byas",
+        "nadī + bhyas",
         "affix"
        ],
        [
         "1.3.4",
-        "nadI + Byas",
+        "nadī + bhyas",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + Byas",
+        "nadī + bhyas",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + Byas",
+        "nadī + bhyas",
         "definition"
        ],
        [
         "1.4.13",
-        "nadI + Byas",
+        "nadī + bhyas",
         "definition"
        ],
        [
         "1.4.17",
-        "nadI + Byas",
+        "nadī + bhyas",
         "definition"
        ],
        [
         "1.4.14",
-        "nadI + Byas",
+        "nadī + bhyas",
         "definition"
        ],
        [
         "8.2.66",
-        "nadI + Byaru~",
+        "nadī + bhyarum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "nadI + Byar",
+        "nadī + bhyar",
         "definition"
        ],
        [
         "8.3.15",
-        "nadI + ByaH",
+        "nadī + bhyaḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "nadI + ByaH",
+        "nadī + bhyaḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyas"
      },
      "dvi": {
       "deva": "नदीभ्याम्",
@@ -4465,50 +4520,51 @@
       "steps": [
        [
         "1.2.45",
-        "nadI",
+        "nadī",
         "stem"
        ],
        [
         "4.1.2",
-        "nadI + ByAm",
+        "nadī + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "nadI + ByAm",
+        "nadī + bhyām",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + ByAm",
+        "nadī + bhyām",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + ByAm",
+        "nadī + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "nadI + ByAm",
+        "nadī + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "nadI + ByAm",
+        "nadī + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "nadI + ByAm",
+        "nadī + bhyām",
         "definition"
        ],
        [
         "8.4.68",
-        "nadI + ByAm",
+        "nadī + bhyām",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "नद्याः",
@@ -4517,100 +4573,101 @@
       "steps": [
        [
         "1.2.45",
-        "nadI",
+        "nadī",
         "stem"
        ],
        [
         "4.1.2",
-        "nadI + Nasi~",
+        "nadī + ṅasim̐",
         "affix"
        ],
        [
         "1.3.2",
-        "nadI + Nasi~",
+        "nadī + ṅasim̐",
         "definition"
        ],
        [
         "1.3.8",
-        "nadI + Nasi~",
+        "nadī + ṅasim̐",
         "definition"
        ],
        [
         "1.3.9",
-        "nadI + as",
+        "nadī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + as",
+        "nadī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + as",
+        "nadī + as",
         "definition"
        ],
        [
         "1.4.13",
-        "nadI + as",
+        "nadī + as",
         "definition"
        ],
        [
         "1.4.18",
-        "nadI + as",
+        "nadī + as",
         "definition"
        ],
        [
         "1.4.14",
-        "nadI + as",
+        "nadī + as",
         "definition"
        ],
        [
         "7.3.112",
-        "nadI + Aw + as",
+        "nadī + āṭ + as",
         "operation"
        ],
        [
         "1.3.3",
-        "nadI + Aw + as",
+        "nadī + āṭ + as",
         "definition"
        ],
        [
         "1.3.9",
-        "nadI + A + as",
+        "nadī + ā + as",
         "definition"
        ],
        [
         "6.1.90",
-        "nadI + As",
+        "nadī + ās",
         "operation"
        ],
        [
         "6.1.77",
-        "nady + As",
+        "nady + ās",
         "operation"
        ],
        [
         "8.2.66",
-        "nady + Aru~",
+        "nady + ārum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "nady + Ar",
+        "nady + ār",
         "definition"
        ],
        [
         "8.3.15",
-        "nady + AH",
+        "nady + āḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "nady + AH",
+        "nady + āḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅasim̐"
      }
     },
     "prathama": {
@@ -4621,62 +4678,62 @@
       "steps": [
        [
         "1.2.45",
-        "nadI",
+        "nadī",
         "stem"
        ],
        [
         "4.1.2",
-        "nadI + jas",
+        "nadī + jas",
         "affix"
        ],
        [
         "1.3.4",
-        "nadI + jas",
+        "nadī + jas",
         "definition"
        ],
        [
         "1.3.7",
-        "nadI + jas",
+        "nadī + jas",
         "definition"
        ],
        [
         "1.3.9",
-        "nadI + as",
+        "nadī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + as",
+        "nadī + as",
         "definition"
        ],
        [
         "1.1.43",
-        "nadI + as",
+        "nadī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + as",
+        "nadī + as",
         "definition"
        ],
        [
         "1.1.43",
-        "nadI + as",
+        "nadī + as",
         "definition"
        ],
        [
         "1.4.13",
-        "nadI + as",
+        "nadī + as",
         "definition"
        ],
        [
         "1.4.14",
-        "nadI + as",
+        "nadī + as",
         "definition"
        ],
        [
         "6.1.105",
-        "nadI + as",
+        "nadī + as",
         "operation"
        ],
        [
@@ -4686,7 +4743,7 @@
        ],
        [
         "8.2.66",
-        "nady + aru~",
+        "nady + arum̐",
         "sound"
        ],
        [
@@ -4696,15 +4753,16 @@
        ],
        [
         "8.3.15",
-        "nady + aH",
+        "nady + aḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "nady + aH",
+        "nady + aḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "jas"
      },
      "dvi": {
       "deva": "नद्यौ",
@@ -4713,60 +4771,61 @@
       "steps": [
        [
         "1.2.45",
-        "nadI",
+        "nadī",
         "stem"
        ],
        [
         "4.1.2",
-        "nadI + O",
+        "nadī + au",
         "affix"
        ],
        [
         "1.4.3",
-        "nadI + O",
+        "nadī + au",
         "definition"
        ],
        [
         "1.1.43",
-        "nadI + O",
+        "nadī + au",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + O",
+        "nadī + au",
         "definition"
        ],
        [
         "1.1.43",
-        "nadI + O",
+        "nadī + au",
         "definition"
        ],
        [
         "1.4.13",
-        "nadI + O",
+        "nadī + au",
         "definition"
        ],
        [
         "1.4.14",
-        "nadI + O",
+        "nadī + au",
         "definition"
        ],
        [
         "6.1.105",
-        "nadI + O",
+        "nadī + au",
         "operation"
        ],
        [
         "6.1.77",
-        "nady + O",
+        "nady + au",
         "operation"
        ],
        [
         "8.4.68",
-        "nady + O",
+        "nady + au",
         "sound"
        ]
-      ]
+      ],
+      "sup": "au"
      },
      "eka": {
       "deva": "नदी",
@@ -4775,65 +4834,66 @@
       "steps": [
        [
         "1.2.45",
-        "nadI",
+        "nadī",
         "stem"
        ],
        [
         "4.1.2",
-        "nadI + su~",
+        "nadī + sum̐",
         "affix"
        ],
        [
         "1.3.2",
-        "nadI + su~",
+        "nadī + sum̐",
         "definition"
        ],
        [
         "1.3.9",
-        "nadI + s",
+        "nadī + s",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + s",
+        "nadī + s",
         "definition"
        ],
        [
         "1.1.43",
-        "nadI + s",
+        "nadī + s",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + s",
+        "nadī + s",
         "definition"
        ],
        [
         "1.1.43",
-        "nadI + s",
+        "nadī + s",
         "definition"
        ],
        [
         "1.4.13",
-        "nadI + s",
+        "nadī + s",
         "definition"
        ],
        [
         "1.4.14",
-        "nadI + s",
+        "nadī + s",
         "definition"
        ],
        [
         "6.1.68",
-        "nadI",
+        "nadī",
         "operation"
        ],
        [
         "8.4.68",
-        "nadI",
+        "nadī",
         "sound"
        ]
-      ]
+      ],
+      "sup": "sum̐"
      }
     },
     "sambodhana": {
@@ -4844,72 +4904,72 @@
       "steps": [
        [
         "1.2.45",
-        "nadI",
+        "nadī",
         "stem"
        ],
        [
         "4.1.2",
-        "nadI + jas",
+        "nadī + jas",
         "affix"
        ],
        [
         "1.3.4",
-        "nadI + jas",
+        "nadī + jas",
         "definition"
        ],
        [
         "1.3.7",
-        "nadI + jas",
+        "nadī + jas",
         "definition"
        ],
        [
         "1.3.9",
-        "nadI + as",
+        "nadī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + as",
+        "nadī + as",
         "definition"
        ],
        [
         "2.3.48",
-        "nadI + as",
+        "nadī + as",
         "definition"
        ],
        [
         "1.1.43",
-        "nadI + as",
+        "nadī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + as",
+        "nadī + as",
         "definition"
        ],
        [
         "2.3.48",
-        "nadI + as",
+        "nadī + as",
         "definition"
        ],
        [
         "1.1.43",
-        "nadI + as",
+        "nadī + as",
         "definition"
        ],
        [
         "1.4.13",
-        "nadI + as",
+        "nadī + as",
         "definition"
        ],
        [
         "1.4.14",
-        "nadI + as",
+        "nadī + as",
         "definition"
        ],
        [
         "6.1.105",
-        "nadI + as",
+        "nadī + as",
         "operation"
        ],
        [
@@ -4919,7 +4979,7 @@
        ],
        [
         "8.2.66",
-        "nady + aru~",
+        "nady + arum̐",
         "sound"
        ],
        [
@@ -4929,15 +4989,16 @@
        ],
        [
         "8.3.15",
-        "nady + aH",
+        "nady + aḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "nady + aH",
+        "nady + aḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "jas"
      },
      "dvi": {
       "deva": "नद्यौ",
@@ -4946,70 +5007,71 @@
       "steps": [
        [
         "1.2.45",
-        "nadI",
+        "nadī",
         "stem"
        ],
        [
         "4.1.2",
-        "nadI + O",
+        "nadī + au",
         "affix"
        ],
        [
         "1.4.3",
-        "nadI + O",
+        "nadī + au",
         "definition"
        ],
        [
         "2.3.48",
-        "nadI + O",
+        "nadī + au",
         "definition"
        ],
        [
         "1.1.43",
-        "nadI + O",
+        "nadī + au",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + O",
+        "nadī + au",
         "definition"
        ],
        [
         "2.3.48",
-        "nadI + O",
+        "nadī + au",
         "definition"
        ],
        [
         "1.1.43",
-        "nadI + O",
+        "nadī + au",
         "definition"
        ],
        [
         "1.4.13",
-        "nadI + O",
+        "nadī + au",
         "definition"
        ],
        [
         "1.4.14",
-        "nadI + O",
+        "nadī + au",
         "definition"
        ],
        [
         "6.1.105",
-        "nadI + O",
+        "nadī + au",
         "operation"
        ],
        [
         "6.1.77",
-        "nady + O",
+        "nady + au",
         "operation"
        ],
        [
         "8.4.68",
-        "nady + O",
+        "nady + au",
         "sound"
        ]
-      ]
+      ],
+      "sup": "au"
      },
      "eka": {
       "deva": "नदि",
@@ -5018,72 +5080,72 @@
       "steps": [
        [
         "1.2.45",
-        "nadI",
+        "nadī",
         "stem"
        ],
        [
         "4.1.2",
-        "nadI + su~",
+        "nadī + sum̐",
         "affix"
        ],
        [
         "1.3.2",
-        "nadI + su~",
+        "nadī + sum̐",
         "definition"
        ],
        [
         "1.3.9",
-        "nadI + s",
+        "nadī + s",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + s",
+        "nadī + s",
         "definition"
        ],
        [
         "2.3.48",
-        "nadI + s",
+        "nadī + s",
         "definition"
        ],
        [
         "2.3.49",
-        "nadI + s",
+        "nadī + s",
         "definition"
        ],
        [
         "1.1.43",
-        "nadI + s",
+        "nadī + s",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + s",
+        "nadī + s",
         "definition"
        ],
        [
         "2.3.48",
-        "nadI + s",
+        "nadī + s",
         "definition"
        ],
        [
         "2.3.49",
-        "nadI + s",
+        "nadī + s",
         "definition"
        ],
        [
         "1.1.43",
-        "nadI + s",
+        "nadī + s",
         "definition"
        ],
        [
         "1.4.13",
-        "nadI + s",
+        "nadī + s",
         "definition"
        ],
        [
         "1.4.14",
-        "nadI + s",
+        "nadī + s",
         "definition"
        ],
        [
@@ -5101,7 +5163,8 @@
         "nadi",
         "sound"
        ]
-      ]
+      ],
+      "sup": "sum̐"
      }
     },
     "saptami": {
@@ -5112,60 +5175,61 @@
       "steps": [
        [
         "1.2.45",
-        "nadI",
+        "nadī",
         "stem"
        ],
        [
         "4.1.2",
-        "nadI + sup",
+        "nadī + sup",
         "affix"
        ],
        [
         "1.3.3",
-        "nadI + sup",
+        "nadī + sup",
         "definition"
        ],
        [
         "1.3.9",
-        "nadI + su",
+        "nadī + su",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + su",
+        "nadī + su",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + su",
+        "nadī + su",
         "definition"
        ],
        [
         "1.4.13",
-        "nadI + su",
+        "nadī + su",
         "definition"
        ],
        [
         "1.4.17",
-        "nadI + su",
+        "nadī + su",
         "definition"
        ],
        [
         "1.4.14",
-        "nadI + su",
+        "nadī + su",
         "definition"
        ],
        [
         "8.3.59",
-        "nadI + zu",
+        "nadī + ṣu",
         "sound"
        ],
        [
         "8.4.68",
-        "nadI + zu",
+        "nadī + ṣu",
         "sound"
        ]
-      ]
+      ],
+      "sup": "sup"
      },
      "dvi": {
       "deva": "नद्योः",
@@ -5174,42 +5238,42 @@
       "steps": [
        [
         "1.2.45",
-        "nadI",
+        "nadī",
         "stem"
        ],
        [
         "4.1.2",
-        "nadI + os",
+        "nadī + os",
         "affix"
        ],
        [
         "1.3.4",
-        "nadI + os",
+        "nadī + os",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + os",
+        "nadī + os",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + os",
+        "nadī + os",
         "definition"
        ],
        [
         "1.4.13",
-        "nadI + os",
+        "nadī + os",
         "definition"
        ],
        [
         "1.4.18",
-        "nadI + os",
+        "nadī + os",
         "definition"
        ],
        [
         "1.4.14",
-        "nadI + os",
+        "nadī + os",
         "definition"
        ],
        [
@@ -5219,7 +5283,7 @@
        ],
        [
         "8.2.66",
-        "nady + oru~",
+        "nady + orum̐",
         "sound"
        ],
        [
@@ -5229,15 +5293,16 @@
        ],
        [
         "8.3.15",
-        "nady + oH",
+        "nady + oḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "nady + oH",
+        "nady + oḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "os"
      },
      "eka": {
       "deva": "नद्याम्",
@@ -5246,90 +5311,91 @@
       "steps": [
        [
         "1.2.45",
-        "nadI",
+        "nadī",
         "stem"
        ],
        [
         "4.1.2",
-        "nadI + Ni",
+        "nadī + ṅi",
         "affix"
        ],
        [
         "1.3.8",
-        "nadI + Ni",
+        "nadī + ṅi",
         "definition"
        ],
        [
         "1.3.9",
-        "nadI + i",
+        "nadī + i",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + i",
+        "nadī + i",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + i",
+        "nadī + i",
         "definition"
        ],
        [
         "1.4.13",
-        "nadI + i",
+        "nadī + i",
         "definition"
        ],
        [
         "1.4.18",
-        "nadI + i",
+        "nadī + i",
         "definition"
        ],
        [
         "1.4.14",
-        "nadI + i",
+        "nadī + i",
         "definition"
        ],
        [
         "7.3.116",
-        "nadI + Am",
+        "nadī + ām",
         "operation"
        ],
        [
         "1.3.4",
-        "nadI + Am",
+        "nadī + ām",
         "definition"
        ],
        [
         "7.3.112",
-        "nadI + Aw + Am",
+        "nadī + āṭ + ām",
         "operation"
        ],
        [
         "1.3.3",
-        "nadI + Aw + Am",
+        "nadī + āṭ + ām",
         "definition"
        ],
        [
         "1.3.9",
-        "nadI + A + Am",
+        "nadī + ā + ām",
         "definition"
        ],
        [
         "6.1.90",
-        "nadI + Am",
+        "nadī + ām",
         "operation"
        ],
        [
         "6.1.77",
-        "nady + Am",
+        "nady + ām",
         "operation"
        ],
        [
         "8.4.68",
-        "nady + Am",
+        "nady + ām",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅi"
      }
     },
     "sasthi": {
@@ -5340,70 +5406,71 @@
       "steps": [
        [
         "1.2.45",
-        "nadI",
+        "nadī",
         "stem"
        ],
        [
         "4.1.2",
-        "nadI + Am",
+        "nadī + ām",
         "affix"
        ],
        [
         "1.3.4",
-        "nadI + Am",
+        "nadī + ām",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + Am",
+        "nadī + ām",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + Am",
+        "nadī + ām",
         "definition"
        ],
        [
         "7.1.54",
-        "nadI + nu~w + Am",
+        "nadī + num̐ṭ + ām",
         "operation"
        ],
        [
         "1.3.2",
-        "nadI + nu~w + Am",
+        "nadī + num̐ṭ + ām",
         "definition"
        ],
        [
         "1.3.3",
-        "nadI + nu~w + Am",
+        "nadī + num̐ṭ + ām",
         "definition"
        ],
        [
         "1.3.9",
-        "nadI + n + Am",
+        "nadī + n + ām",
         "definition"
        ],
        [
         "1.4.13",
-        "nadI + n + Am",
+        "nadī + n + ām",
         "definition"
        ],
        [
         "1.4.17",
-        "nadI + n + Am",
+        "nadī + n + ām",
         "definition"
        ],
        [
         "1.4.14",
-        "nadI + n + Am",
+        "nadī + n + ām",
         "definition"
        ],
        [
         "8.4.68",
-        "nadI + n + Am",
+        "nadī + n + ām",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ām"
      },
      "dvi": {
       "deva": "नद्योः",
@@ -5412,42 +5479,42 @@
       "steps": [
        [
         "1.2.45",
-        "nadI",
+        "nadī",
         "stem"
        ],
        [
         "4.1.2",
-        "nadI + os",
+        "nadī + os",
         "affix"
        ],
        [
         "1.3.4",
-        "nadI + os",
+        "nadī + os",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + os",
+        "nadī + os",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + os",
+        "nadī + os",
         "definition"
        ],
        [
         "1.4.13",
-        "nadI + os",
+        "nadī + os",
         "definition"
        ],
        [
         "1.4.18",
-        "nadI + os",
+        "nadī + os",
         "definition"
        ],
        [
         "1.4.14",
-        "nadI + os",
+        "nadī + os",
         "definition"
        ],
        [
@@ -5457,7 +5524,7 @@
        ],
        [
         "8.2.66",
-        "nady + oru~",
+        "nady + orum̐",
         "sound"
        ],
        [
@@ -5467,15 +5534,16 @@
        ],
        [
         "8.3.15",
-        "nady + oH",
+        "nady + oḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "nady + oH",
+        "nady + oḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "os"
      },
      "eka": {
       "deva": "नद्याः",
@@ -5484,100 +5552,101 @@
       "steps": [
        [
         "1.2.45",
-        "nadI",
+        "nadī",
         "stem"
        ],
        [
         "4.1.2",
-        "nadI + Nas",
+        "nadī + ṅas",
         "affix"
        ],
        [
         "1.3.4",
-        "nadI + Nas",
+        "nadī + ṅas",
         "definition"
        ],
        [
         "1.3.8",
-        "nadI + Nas",
+        "nadī + ṅas",
         "definition"
        ],
        [
         "1.3.9",
-        "nadI + as",
+        "nadī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + as",
+        "nadī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + as",
+        "nadī + as",
         "definition"
        ],
        [
         "1.4.13",
-        "nadI + as",
+        "nadī + as",
         "definition"
        ],
        [
         "1.4.18",
-        "nadI + as",
+        "nadī + as",
         "definition"
        ],
        [
         "1.4.14",
-        "nadI + as",
+        "nadī + as",
         "definition"
        ],
        [
         "7.3.112",
-        "nadI + Aw + as",
+        "nadī + āṭ + as",
         "operation"
        ],
        [
         "1.3.3",
-        "nadI + Aw + as",
+        "nadī + āṭ + as",
         "definition"
        ],
        [
         "1.3.9",
-        "nadI + A + as",
+        "nadī + ā + as",
         "definition"
        ],
        [
         "6.1.90",
-        "nadI + As",
+        "nadī + ās",
         "operation"
        ],
        [
         "6.1.77",
-        "nady + As",
+        "nady + ās",
         "operation"
        ],
        [
         "8.2.66",
-        "nady + Aru~",
+        "nady + ārum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "nady + Ar",
+        "nady + ār",
         "definition"
        ],
        [
         "8.3.15",
-        "nady + AH",
+        "nady + āḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "nady + AH",
+        "nady + āḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅas"
      }
     },
     "tritiya": {
@@ -5588,65 +5657,66 @@
       "steps": [
        [
         "1.2.45",
-        "nadI",
+        "nadī",
         "stem"
        ],
        [
         "4.1.2",
-        "nadI + Bis",
+        "nadī + bhis",
         "affix"
        ],
        [
         "1.3.4",
-        "nadI + Bis",
+        "nadī + bhis",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + Bis",
+        "nadī + bhis",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + Bis",
+        "nadī + bhis",
         "definition"
        ],
        [
         "1.4.13",
-        "nadI + Bis",
+        "nadī + bhis",
         "definition"
        ],
        [
         "1.4.17",
-        "nadI + Bis",
+        "nadī + bhis",
         "definition"
        ],
        [
         "1.4.14",
-        "nadI + Bis",
+        "nadī + bhis",
         "definition"
        ],
        [
         "8.2.66",
-        "nadI + Biru~",
+        "nadī + bhirum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "nadI + Bir",
+        "nadī + bhir",
         "definition"
        ],
        [
         "8.3.15",
-        "nadI + BiH",
+        "nadī + bhiḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "nadI + BiH",
+        "nadī + bhiḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhis"
      },
      "dvi": {
       "deva": "नदीभ्याम्",
@@ -5655,50 +5725,51 @@
       "steps": [
        [
         "1.2.45",
-        "nadI",
+        "nadī",
         "stem"
        ],
        [
         "4.1.2",
-        "nadI + ByAm",
+        "nadī + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "nadI + ByAm",
+        "nadī + bhyām",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + ByAm",
+        "nadī + bhyām",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + ByAm",
+        "nadī + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "nadI + ByAm",
+        "nadī + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "nadI + ByAm",
+        "nadī + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "nadI + ByAm",
+        "nadī + bhyām",
         "definition"
        ],
        [
         "8.4.68",
-        "nadI + ByAm",
+        "nadī + bhyām",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "नद्या",
@@ -5707,60 +5778,61 @@
       "steps": [
        [
         "1.2.45",
-        "nadI",
+        "nadī",
         "stem"
        ],
        [
         "4.1.2",
-        "nadI + wA",
+        "nadī + ṭā",
         "affix"
        ],
        [
         "1.3.7",
-        "nadI + wA",
+        "nadī + ṭā",
         "definition"
        ],
        [
         "1.3.9",
-        "nadI + A",
+        "nadī + ā",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + A",
+        "nadī + ā",
         "definition"
        ],
        [
         "1.4.3",
-        "nadI + A",
+        "nadī + ā",
         "definition"
        ],
        [
         "1.4.13",
-        "nadI + A",
+        "nadī + ā",
         "definition"
        ],
        [
         "1.4.18",
-        "nadI + A",
+        "nadī + ā",
         "definition"
        ],
        [
         "1.4.14",
-        "nadI + A",
+        "nadī + ā",
         "definition"
        ],
        [
         "6.1.77",
-        "nady + A",
+        "nady + ā",
         "operation"
        ],
        [
         "8.4.68",
-        "nady + A",
+        "nady + ā",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṭā"
      }
     }
    },
@@ -5929,65 +6001,66 @@
       "steps": [
        [
         "1.2.45",
-        "patnI",
+        "patnī",
         "stem"
        ],
        [
         "4.1.2",
-        "patnI + Byas",
+        "patnī + bhyas",
         "affix"
        ],
        [
         "1.3.4",
-        "patnI + Byas",
+        "patnī + bhyas",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + Byas",
+        "patnī + bhyas",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + Byas",
+        "patnī + bhyas",
         "definition"
        ],
        [
         "1.4.13",
-        "patnI + Byas",
+        "patnī + bhyas",
         "definition"
        ],
        [
         "1.4.17",
-        "patnI + Byas",
+        "patnī + bhyas",
         "definition"
        ],
        [
         "1.4.14",
-        "patnI + Byas",
+        "patnī + bhyas",
         "definition"
        ],
        [
         "8.2.66",
-        "patnI + Byaru~",
+        "patnī + bhyarum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "patnI + Byar",
+        "patnī + bhyar",
         "definition"
        ],
        [
         "8.3.15",
-        "patnI + ByaH",
+        "patnī + bhyaḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "patnI + ByaH",
+        "patnī + bhyaḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyas"
      },
      "dvi": {
       "deva": "पत्नीभ्याम्",
@@ -5996,50 +6069,51 @@
       "steps": [
        [
         "1.2.45",
-        "patnI",
+        "patnī",
         "stem"
        ],
        [
         "4.1.2",
-        "patnI + ByAm",
+        "patnī + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "patnI + ByAm",
+        "patnī + bhyām",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + ByAm",
+        "patnī + bhyām",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + ByAm",
+        "patnī + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "patnI + ByAm",
+        "patnī + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "patnI + ByAm",
+        "patnī + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "patnI + ByAm",
+        "patnī + bhyām",
         "definition"
        ],
        [
         "8.4.68",
-        "patnI + ByAm",
+        "patnī + bhyām",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "पत्न्यै",
@@ -6048,80 +6122,81 @@
       "steps": [
        [
         "1.2.45",
-        "patnI",
+        "patnī",
         "stem"
        ],
        [
         "4.1.2",
-        "patnI + Ne",
+        "patnī + ṅe",
         "affix"
        ],
        [
         "1.3.8",
-        "patnI + Ne",
+        "patnī + ṅe",
         "definition"
        ],
        [
         "1.3.9",
-        "patnI + e",
+        "patnī + e",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + e",
+        "patnī + e",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + e",
+        "patnī + e",
         "definition"
        ],
        [
         "1.4.13",
-        "patnI + e",
+        "patnī + e",
         "definition"
        ],
        [
         "1.4.18",
-        "patnI + e",
+        "patnī + e",
         "definition"
        ],
        [
         "1.4.14",
-        "patnI + e",
+        "patnī + e",
         "definition"
        ],
        [
         "7.3.112",
-        "patnI + Aw + e",
+        "patnī + āṭ + e",
         "operation"
        ],
        [
         "1.3.3",
-        "patnI + Aw + e",
+        "patnī + āṭ + e",
         "definition"
        ],
        [
         "1.3.9",
-        "patnI + A + e",
+        "patnī + ā + e",
         "definition"
        ],
        [
         "6.1.90",
-        "patnI + E",
+        "patnī + ai",
         "operation"
        ],
        [
         "6.1.77",
-        "patny + E",
+        "patny + ai",
         "operation"
        ],
        [
         "8.4.68",
-        "patny + E",
+        "patny + ai",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅe"
      }
     },
     "dvitiya": {
@@ -6132,85 +6207,86 @@
       "steps": [
        [
         "1.2.45",
-        "patnI",
+        "patnī",
         "stem"
        ],
        [
         "4.1.2",
-        "patnI + Sas",
+        "patnī + śas",
         "affix"
        ],
        [
         "1.3.4",
-        "patnI + Sas",
+        "patnī + śas",
         "definition"
        ],
        [
         "1.3.8",
-        "patnI + Sas",
+        "patnī + śas",
         "definition"
        ],
        [
         "1.3.9",
-        "patnI + as",
+        "patnī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + as",
+        "patnī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + as",
+        "patnī + as",
         "definition"
        ],
        [
         "1.4.13",
-        "patnI + as",
+        "patnī + as",
         "definition"
        ],
        [
         "1.4.18",
-        "patnI + as",
+        "patnī + as",
         "definition"
        ],
        [
         "1.4.14",
-        "patnI + as",
+        "patnī + as",
         "definition"
        ],
        [
         "6.1.102",
-        "patnI + Is",
+        "patnī + īs",
         "operation"
        ],
        [
         "6.1.101",
-        "patnI + s",
+        "patnī + s",
         "operation"
        ],
        [
         "8.2.66",
-        "patnI + ru~",
+        "patnī + rum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "patnI + r",
+        "patnī + r",
         "definition"
        ],
        [
         "8.3.15",
-        "patnI + H",
+        "patnī + ḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "patnI + H",
+        "patnī + ḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "śas"
      },
      "dvi": {
       "deva": "पत्न्यौ",
@@ -6219,70 +6295,71 @@
       "steps": [
        [
         "1.2.45",
-        "patnI",
+        "patnī",
         "stem"
        ],
        [
         "4.1.2",
-        "patnI + Ow",
+        "patnī + auṭ",
         "affix"
        ],
        [
         "1.3.3",
-        "patnI + Ow",
+        "patnī + auṭ",
         "definition"
        ],
        [
         "1.3.9",
-        "patnI + O",
+        "patnī + au",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + O",
+        "patnī + au",
         "definition"
        ],
        [
         "1.1.43",
-        "patnI + O",
+        "patnī + au",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + O",
+        "patnī + au",
         "definition"
        ],
        [
         "1.1.43",
-        "patnI + O",
+        "patnī + au",
         "definition"
        ],
        [
         "1.4.13",
-        "patnI + O",
+        "patnī + au",
         "definition"
        ],
        [
         "1.4.14",
-        "patnI + O",
+        "patnī + au",
         "definition"
        ],
        [
         "6.1.105",
-        "patnI + O",
+        "patnī + au",
         "operation"
        ],
        [
         "6.1.77",
-        "patny + O",
+        "patny + au",
         "operation"
        ],
        [
         "8.4.68",
-        "patny + O",
+        "patny + au",
         "sound"
        ]
-      ]
+      ],
+      "sup": "auṭ"
      },
      "eka": {
       "deva": "पत्नीम्",
@@ -6291,60 +6368,61 @@
       "steps": [
        [
         "1.2.45",
-        "patnI",
+        "patnī",
         "stem"
        ],
        [
         "4.1.2",
-        "patnI + am",
+        "patnī + am",
         "affix"
        ],
        [
         "1.3.4",
-        "patnI + am",
+        "patnī + am",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + am",
+        "patnī + am",
         "definition"
        ],
        [
         "1.1.43",
-        "patnI + am",
+        "patnī + am",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + am",
+        "patnī + am",
         "definition"
        ],
        [
         "1.1.43",
-        "patnI + am",
+        "patnī + am",
         "definition"
        ],
        [
         "1.4.13",
-        "patnI + am",
+        "patnī + am",
         "definition"
        ],
        [
         "1.4.14",
-        "patnI + am",
+        "patnī + am",
         "definition"
        ],
        [
         "6.1.107",
-        "patnI + m",
+        "patnī + m",
         "operation"
        ],
        [
         "8.4.68",
-        "patnI + m",
+        "patnī + m",
         "sound"
        ]
-      ]
+      ],
+      "sup": "am"
      }
     },
     "pancami": {
@@ -6355,65 +6433,66 @@
       "steps": [
        [
         "1.2.45",
-        "patnI",
+        "patnī",
         "stem"
        ],
        [
         "4.1.2",
-        "patnI + Byas",
+        "patnī + bhyas",
         "affix"
        ],
        [
         "1.3.4",
-        "patnI + Byas",
+        "patnī + bhyas",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + Byas",
+        "patnī + bhyas",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + Byas",
+        "patnī + bhyas",
         "definition"
        ],
        [
         "1.4.13",
-        "patnI + Byas",
+        "patnī + bhyas",
         "definition"
        ],
        [
         "1.4.17",
-        "patnI + Byas",
+        "patnī + bhyas",
         "definition"
        ],
        [
         "1.4.14",
-        "patnI + Byas",
+        "patnī + bhyas",
         "definition"
        ],
        [
         "8.2.66",
-        "patnI + Byaru~",
+        "patnī + bhyarum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "patnI + Byar",
+        "patnī + bhyar",
         "definition"
        ],
        [
         "8.3.15",
-        "patnI + ByaH",
+        "patnī + bhyaḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "patnI + ByaH",
+        "patnī + bhyaḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyas"
      },
      "dvi": {
       "deva": "पत्नीभ्याम्",
@@ -6422,50 +6501,51 @@
       "steps": [
        [
         "1.2.45",
-        "patnI",
+        "patnī",
         "stem"
        ],
        [
         "4.1.2",
-        "patnI + ByAm",
+        "patnī + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "patnI + ByAm",
+        "patnī + bhyām",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + ByAm",
+        "patnī + bhyām",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + ByAm",
+        "patnī + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "patnI + ByAm",
+        "patnī + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "patnI + ByAm",
+        "patnī + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "patnI + ByAm",
+        "patnī + bhyām",
         "definition"
        ],
        [
         "8.4.68",
-        "patnI + ByAm",
+        "patnī + bhyām",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "पत्न्याः",
@@ -6474,100 +6554,101 @@
       "steps": [
        [
         "1.2.45",
-        "patnI",
+        "patnī",
         "stem"
        ],
        [
         "4.1.2",
-        "patnI + Nasi~",
+        "patnī + ṅasim̐",
         "affix"
        ],
        [
         "1.3.2",
-        "patnI + Nasi~",
+        "patnī + ṅasim̐",
         "definition"
        ],
        [
         "1.3.8",
-        "patnI + Nasi~",
+        "patnī + ṅasim̐",
         "definition"
        ],
        [
         "1.3.9",
-        "patnI + as",
+        "patnī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + as",
+        "patnī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + as",
+        "patnī + as",
         "definition"
        ],
        [
         "1.4.13",
-        "patnI + as",
+        "patnī + as",
         "definition"
        ],
        [
         "1.4.18",
-        "patnI + as",
+        "patnī + as",
         "definition"
        ],
        [
         "1.4.14",
-        "patnI + as",
+        "patnī + as",
         "definition"
        ],
        [
         "7.3.112",
-        "patnI + Aw + as",
+        "patnī + āṭ + as",
         "operation"
        ],
        [
         "1.3.3",
-        "patnI + Aw + as",
+        "patnī + āṭ + as",
         "definition"
        ],
        [
         "1.3.9",
-        "patnI + A + as",
+        "patnī + ā + as",
         "definition"
        ],
        [
         "6.1.90",
-        "patnI + As",
+        "patnī + ās",
         "operation"
        ],
        [
         "6.1.77",
-        "patny + As",
+        "patny + ās",
         "operation"
        ],
        [
         "8.2.66",
-        "patny + Aru~",
+        "patny + ārum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "patny + Ar",
+        "patny + ār",
         "definition"
        ],
        [
         "8.3.15",
-        "patny + AH",
+        "patny + āḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "patny + AH",
+        "patny + āḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅasim̐"
      }
     },
     "prathama": {
@@ -6578,62 +6659,62 @@
       "steps": [
        [
         "1.2.45",
-        "patnI",
+        "patnī",
         "stem"
        ],
        [
         "4.1.2",
-        "patnI + jas",
+        "patnī + jas",
         "affix"
        ],
        [
         "1.3.4",
-        "patnI + jas",
+        "patnī + jas",
         "definition"
        ],
        [
         "1.3.7",
-        "patnI + jas",
+        "patnī + jas",
         "definition"
        ],
        [
         "1.3.9",
-        "patnI + as",
+        "patnī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + as",
+        "patnī + as",
         "definition"
        ],
        [
         "1.1.43",
-        "patnI + as",
+        "patnī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + as",
+        "patnī + as",
         "definition"
        ],
        [
         "1.1.43",
-        "patnI + as",
+        "patnī + as",
         "definition"
        ],
        [
         "1.4.13",
-        "patnI + as",
+        "patnī + as",
         "definition"
        ],
        [
         "1.4.14",
-        "patnI + as",
+        "patnī + as",
         "definition"
        ],
        [
         "6.1.105",
-        "patnI + as",
+        "patnī + as",
         "operation"
        ],
        [
@@ -6643,7 +6724,7 @@
        ],
        [
         "8.2.66",
-        "patny + aru~",
+        "patny + arum̐",
         "sound"
        ],
        [
@@ -6653,15 +6734,16 @@
        ],
        [
         "8.3.15",
-        "patny + aH",
+        "patny + aḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "patny + aH",
+        "patny + aḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "jas"
      },
      "dvi": {
       "deva": "पत्न्यौ",
@@ -6670,60 +6752,61 @@
       "steps": [
        [
         "1.2.45",
-        "patnI",
+        "patnī",
         "stem"
        ],
        [
         "4.1.2",
-        "patnI + O",
+        "patnī + au",
         "affix"
        ],
        [
         "1.4.3",
-        "patnI + O",
+        "patnī + au",
         "definition"
        ],
        [
         "1.1.43",
-        "patnI + O",
+        "patnī + au",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + O",
+        "patnī + au",
         "definition"
        ],
        [
         "1.1.43",
-        "patnI + O",
+        "patnī + au",
         "definition"
        ],
        [
         "1.4.13",
-        "patnI + O",
+        "patnī + au",
         "definition"
        ],
        [
         "1.4.14",
-        "patnI + O",
+        "patnī + au",
         "definition"
        ],
        [
         "6.1.105",
-        "patnI + O",
+        "patnī + au",
         "operation"
        ],
        [
         "6.1.77",
-        "patny + O",
+        "patny + au",
         "operation"
        ],
        [
         "8.4.68",
-        "patny + O",
+        "patny + au",
         "sound"
        ]
-      ]
+      ],
+      "sup": "au"
      },
      "eka": {
       "deva": "पत्नी",
@@ -6732,65 +6815,66 @@
       "steps": [
        [
         "1.2.45",
-        "patnI",
+        "patnī",
         "stem"
        ],
        [
         "4.1.2",
-        "patnI + su~",
+        "patnī + sum̐",
         "affix"
        ],
        [
         "1.3.2",
-        "patnI + su~",
+        "patnī + sum̐",
         "definition"
        ],
        [
         "1.3.9",
-        "patnI + s",
+        "patnī + s",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + s",
+        "patnī + s",
         "definition"
        ],
        [
         "1.1.43",
-        "patnI + s",
+        "patnī + s",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + s",
+        "patnī + s",
         "definition"
        ],
        [
         "1.1.43",
-        "patnI + s",
+        "patnī + s",
         "definition"
        ],
        [
         "1.4.13",
-        "patnI + s",
+        "patnī + s",
         "definition"
        ],
        [
         "1.4.14",
-        "patnI + s",
+        "patnī + s",
         "definition"
        ],
        [
         "6.1.68",
-        "patnI",
+        "patnī",
         "operation"
        ],
        [
         "8.4.68",
-        "patnI",
+        "patnī",
         "sound"
        ]
-      ]
+      ],
+      "sup": "sum̐"
      }
     },
     "sambodhana": {
@@ -6801,72 +6885,72 @@
       "steps": [
        [
         "1.2.45",
-        "patnI",
+        "patnī",
         "stem"
        ],
        [
         "4.1.2",
-        "patnI + jas",
+        "patnī + jas",
         "affix"
        ],
        [
         "1.3.4",
-        "patnI + jas",
+        "patnī + jas",
         "definition"
        ],
        [
         "1.3.7",
-        "patnI + jas",
+        "patnī + jas",
         "definition"
        ],
        [
         "1.3.9",
-        "patnI + as",
+        "patnī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + as",
+        "patnī + as",
         "definition"
        ],
        [
         "2.3.48",
-        "patnI + as",
+        "patnī + as",
         "definition"
        ],
        [
         "1.1.43",
-        "patnI + as",
+        "patnī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + as",
+        "patnī + as",
         "definition"
        ],
        [
         "2.3.48",
-        "patnI + as",
+        "patnī + as",
         "definition"
        ],
        [
         "1.1.43",
-        "patnI + as",
+        "patnī + as",
         "definition"
        ],
        [
         "1.4.13",
-        "patnI + as",
+        "patnī + as",
         "definition"
        ],
        [
         "1.4.14",
-        "patnI + as",
+        "patnī + as",
         "definition"
        ],
        [
         "6.1.105",
-        "patnI + as",
+        "patnī + as",
         "operation"
        ],
        [
@@ -6876,7 +6960,7 @@
        ],
        [
         "8.2.66",
-        "patny + aru~",
+        "patny + arum̐",
         "sound"
        ],
        [
@@ -6886,15 +6970,16 @@
        ],
        [
         "8.3.15",
-        "patny + aH",
+        "patny + aḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "patny + aH",
+        "patny + aḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "jas"
      },
      "dvi": {
       "deva": "पत्न्यौ",
@@ -6903,70 +6988,71 @@
       "steps": [
        [
         "1.2.45",
-        "patnI",
+        "patnī",
         "stem"
        ],
        [
         "4.1.2",
-        "patnI + O",
+        "patnī + au",
         "affix"
        ],
        [
         "1.4.3",
-        "patnI + O",
+        "patnī + au",
         "definition"
        ],
        [
         "2.3.48",
-        "patnI + O",
+        "patnī + au",
         "definition"
        ],
        [
         "1.1.43",
-        "patnI + O",
+        "patnī + au",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + O",
+        "patnī + au",
         "definition"
        ],
        [
         "2.3.48",
-        "patnI + O",
+        "patnī + au",
         "definition"
        ],
        [
         "1.1.43",
-        "patnI + O",
+        "patnī + au",
         "definition"
        ],
        [
         "1.4.13",
-        "patnI + O",
+        "patnī + au",
         "definition"
        ],
        [
         "1.4.14",
-        "patnI + O",
+        "patnī + au",
         "definition"
        ],
        [
         "6.1.105",
-        "patnI + O",
+        "patnī + au",
         "operation"
        ],
        [
         "6.1.77",
-        "patny + O",
+        "patny + au",
         "operation"
        ],
        [
         "8.4.68",
-        "patny + O",
+        "patny + au",
         "sound"
        ]
-      ]
+      ],
+      "sup": "au"
      },
      "eka": {
       "deva": "पत्नि",
@@ -6975,72 +7061,72 @@
       "steps": [
        [
         "1.2.45",
-        "patnI",
+        "patnī",
         "stem"
        ],
        [
         "4.1.2",
-        "patnI + su~",
+        "patnī + sum̐",
         "affix"
        ],
        [
         "1.3.2",
-        "patnI + su~",
+        "patnī + sum̐",
         "definition"
        ],
        [
         "1.3.9",
-        "patnI + s",
+        "patnī + s",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + s",
+        "patnī + s",
         "definition"
        ],
        [
         "2.3.48",
-        "patnI + s",
+        "patnī + s",
         "definition"
        ],
        [
         "2.3.49",
-        "patnI + s",
+        "patnī + s",
         "definition"
        ],
        [
         "1.1.43",
-        "patnI + s",
+        "patnī + s",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + s",
+        "patnī + s",
         "definition"
        ],
        [
         "2.3.48",
-        "patnI + s",
+        "patnī + s",
         "definition"
        ],
        [
         "2.3.49",
-        "patnI + s",
+        "patnī + s",
         "definition"
        ],
        [
         "1.1.43",
-        "patnI + s",
+        "patnī + s",
         "definition"
        ],
        [
         "1.4.13",
-        "patnI + s",
+        "patnī + s",
         "definition"
        ],
        [
         "1.4.14",
-        "patnI + s",
+        "patnī + s",
         "definition"
        ],
        [
@@ -7058,7 +7144,8 @@
         "patni",
         "sound"
        ]
-      ]
+      ],
+      "sup": "sum̐"
      }
     },
     "saptami": {
@@ -7069,60 +7156,61 @@
       "steps": [
        [
         "1.2.45",
-        "patnI",
+        "patnī",
         "stem"
        ],
        [
         "4.1.2",
-        "patnI + sup",
+        "patnī + sup",
         "affix"
        ],
        [
         "1.3.3",
-        "patnI + sup",
+        "patnī + sup",
         "definition"
        ],
        [
         "1.3.9",
-        "patnI + su",
+        "patnī + su",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + su",
+        "patnī + su",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + su",
+        "patnī + su",
         "definition"
        ],
        [
         "1.4.13",
-        "patnI + su",
+        "patnī + su",
         "definition"
        ],
        [
         "1.4.17",
-        "patnI + su",
+        "patnī + su",
         "definition"
        ],
        [
         "1.4.14",
-        "patnI + su",
+        "patnī + su",
         "definition"
        ],
        [
         "8.3.59",
-        "patnI + zu",
+        "patnī + ṣu",
         "sound"
        ],
        [
         "8.4.68",
-        "patnI + zu",
+        "patnī + ṣu",
         "sound"
        ]
-      ]
+      ],
+      "sup": "sup"
      },
      "dvi": {
       "deva": "पत्न्योः",
@@ -7131,42 +7219,42 @@
       "steps": [
        [
         "1.2.45",
-        "patnI",
+        "patnī",
         "stem"
        ],
        [
         "4.1.2",
-        "patnI + os",
+        "patnī + os",
         "affix"
        ],
        [
         "1.3.4",
-        "patnI + os",
+        "patnī + os",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + os",
+        "patnī + os",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + os",
+        "patnī + os",
         "definition"
        ],
        [
         "1.4.13",
-        "patnI + os",
+        "patnī + os",
         "definition"
        ],
        [
         "1.4.18",
-        "patnI + os",
+        "patnī + os",
         "definition"
        ],
        [
         "1.4.14",
-        "patnI + os",
+        "patnī + os",
         "definition"
        ],
        [
@@ -7176,7 +7264,7 @@
        ],
        [
         "8.2.66",
-        "patny + oru~",
+        "patny + orum̐",
         "sound"
        ],
        [
@@ -7186,15 +7274,16 @@
        ],
        [
         "8.3.15",
-        "patny + oH",
+        "patny + oḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "patny + oH",
+        "patny + oḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "os"
      },
      "eka": {
       "deva": "पत्न्याम्",
@@ -7203,90 +7292,91 @@
       "steps": [
        [
         "1.2.45",
-        "patnI",
+        "patnī",
         "stem"
        ],
        [
         "4.1.2",
-        "patnI + Ni",
+        "patnī + ṅi",
         "affix"
        ],
        [
         "1.3.8",
-        "patnI + Ni",
+        "patnī + ṅi",
         "definition"
        ],
        [
         "1.3.9",
-        "patnI + i",
+        "patnī + i",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + i",
+        "patnī + i",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + i",
+        "patnī + i",
         "definition"
        ],
        [
         "1.4.13",
-        "patnI + i",
+        "patnī + i",
         "definition"
        ],
        [
         "1.4.18",
-        "patnI + i",
+        "patnī + i",
         "definition"
        ],
        [
         "1.4.14",
-        "patnI + i",
+        "patnī + i",
         "definition"
        ],
        [
         "7.3.116",
-        "patnI + Am",
+        "patnī + ām",
         "operation"
        ],
        [
         "1.3.4",
-        "patnI + Am",
+        "patnī + ām",
         "definition"
        ],
        [
         "7.3.112",
-        "patnI + Aw + Am",
+        "patnī + āṭ + ām",
         "operation"
        ],
        [
         "1.3.3",
-        "patnI + Aw + Am",
+        "patnī + āṭ + ām",
         "definition"
        ],
        [
         "1.3.9",
-        "patnI + A + Am",
+        "patnī + ā + ām",
         "definition"
        ],
        [
         "6.1.90",
-        "patnI + Am",
+        "patnī + ām",
         "operation"
        ],
        [
         "6.1.77",
-        "patny + Am",
+        "patny + ām",
         "operation"
        ],
        [
         "8.4.68",
-        "patny + Am",
+        "patny + ām",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅi"
      }
     },
     "sasthi": {
@@ -7297,70 +7387,71 @@
       "steps": [
        [
         "1.2.45",
-        "patnI",
+        "patnī",
         "stem"
        ],
        [
         "4.1.2",
-        "patnI + Am",
+        "patnī + ām",
         "affix"
        ],
        [
         "1.3.4",
-        "patnI + Am",
+        "patnī + ām",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + Am",
+        "patnī + ām",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + Am",
+        "patnī + ām",
         "definition"
        ],
        [
         "7.1.54",
-        "patnI + nu~w + Am",
+        "patnī + num̐ṭ + ām",
         "operation"
        ],
        [
         "1.3.2",
-        "patnI + nu~w + Am",
+        "patnī + num̐ṭ + ām",
         "definition"
        ],
        [
         "1.3.3",
-        "patnI + nu~w + Am",
+        "patnī + num̐ṭ + ām",
         "definition"
        ],
        [
         "1.3.9",
-        "patnI + n + Am",
+        "patnī + n + ām",
         "definition"
        ],
        [
         "1.4.13",
-        "patnI + n + Am",
+        "patnī + n + ām",
         "definition"
        ],
        [
         "1.4.17",
-        "patnI + n + Am",
+        "patnī + n + ām",
         "definition"
        ],
        [
         "1.4.14",
-        "patnI + n + Am",
+        "patnī + n + ām",
         "definition"
        ],
        [
         "8.4.68",
-        "patnI + n + Am",
+        "patnī + n + ām",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ām"
      },
      "dvi": {
       "deva": "पत्न्योः",
@@ -7369,42 +7460,42 @@
       "steps": [
        [
         "1.2.45",
-        "patnI",
+        "patnī",
         "stem"
        ],
        [
         "4.1.2",
-        "patnI + os",
+        "patnī + os",
         "affix"
        ],
        [
         "1.3.4",
-        "patnI + os",
+        "patnī + os",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + os",
+        "patnī + os",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + os",
+        "patnī + os",
         "definition"
        ],
        [
         "1.4.13",
-        "patnI + os",
+        "patnī + os",
         "definition"
        ],
        [
         "1.4.18",
-        "patnI + os",
+        "patnī + os",
         "definition"
        ],
        [
         "1.4.14",
-        "patnI + os",
+        "patnī + os",
         "definition"
        ],
        [
@@ -7414,7 +7505,7 @@
        ],
        [
         "8.2.66",
-        "patny + oru~",
+        "patny + orum̐",
         "sound"
        ],
        [
@@ -7424,15 +7515,16 @@
        ],
        [
         "8.3.15",
-        "patny + oH",
+        "patny + oḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "patny + oH",
+        "patny + oḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "os"
      },
      "eka": {
       "deva": "पत्न्याः",
@@ -7441,100 +7533,101 @@
       "steps": [
        [
         "1.2.45",
-        "patnI",
+        "patnī",
         "stem"
        ],
        [
         "4.1.2",
-        "patnI + Nas",
+        "patnī + ṅas",
         "affix"
        ],
        [
         "1.3.4",
-        "patnI + Nas",
+        "patnī + ṅas",
         "definition"
        ],
        [
         "1.3.8",
-        "patnI + Nas",
+        "patnī + ṅas",
         "definition"
        ],
        [
         "1.3.9",
-        "patnI + as",
+        "patnī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + as",
+        "patnī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + as",
+        "patnī + as",
         "definition"
        ],
        [
         "1.4.13",
-        "patnI + as",
+        "patnī + as",
         "definition"
        ],
        [
         "1.4.18",
-        "patnI + as",
+        "patnī + as",
         "definition"
        ],
        [
         "1.4.14",
-        "patnI + as",
+        "patnī + as",
         "definition"
        ],
        [
         "7.3.112",
-        "patnI + Aw + as",
+        "patnī + āṭ + as",
         "operation"
        ],
        [
         "1.3.3",
-        "patnI + Aw + as",
+        "patnī + āṭ + as",
         "definition"
        ],
        [
         "1.3.9",
-        "patnI + A + as",
+        "patnī + ā + as",
         "definition"
        ],
        [
         "6.1.90",
-        "patnI + As",
+        "patnī + ās",
         "operation"
        ],
        [
         "6.1.77",
-        "patny + As",
+        "patny + ās",
         "operation"
        ],
        [
         "8.2.66",
-        "patny + Aru~",
+        "patny + ārum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "patny + Ar",
+        "patny + ār",
         "definition"
        ],
        [
         "8.3.15",
-        "patny + AH",
+        "patny + āḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "patny + AH",
+        "patny + āḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅas"
      }
     },
     "tritiya": {
@@ -7545,65 +7638,66 @@
       "steps": [
        [
         "1.2.45",
-        "patnI",
+        "patnī",
         "stem"
        ],
        [
         "4.1.2",
-        "patnI + Bis",
+        "patnī + bhis",
         "affix"
        ],
        [
         "1.3.4",
-        "patnI + Bis",
+        "patnī + bhis",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + Bis",
+        "patnī + bhis",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + Bis",
+        "patnī + bhis",
         "definition"
        ],
        [
         "1.4.13",
-        "patnI + Bis",
+        "patnī + bhis",
         "definition"
        ],
        [
         "1.4.17",
-        "patnI + Bis",
+        "patnī + bhis",
         "definition"
        ],
        [
         "1.4.14",
-        "patnI + Bis",
+        "patnī + bhis",
         "definition"
        ],
        [
         "8.2.66",
-        "patnI + Biru~",
+        "patnī + bhirum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "patnI + Bir",
+        "patnī + bhir",
         "definition"
        ],
        [
         "8.3.15",
-        "patnI + BiH",
+        "patnī + bhiḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "patnI + BiH",
+        "patnī + bhiḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhis"
      },
      "dvi": {
       "deva": "पत्नीभ्याम्",
@@ -7612,50 +7706,51 @@
       "steps": [
        [
         "1.2.45",
-        "patnI",
+        "patnī",
         "stem"
        ],
        [
         "4.1.2",
-        "patnI + ByAm",
+        "patnī + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "patnI + ByAm",
+        "patnī + bhyām",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + ByAm",
+        "patnī + bhyām",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + ByAm",
+        "patnī + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "patnI + ByAm",
+        "patnī + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "patnI + ByAm",
+        "patnī + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "patnI + ByAm",
+        "patnī + bhyām",
         "definition"
        ],
        [
         "8.4.68",
-        "patnI + ByAm",
+        "patnī + bhyām",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "पत्न्या",
@@ -7664,60 +7759,61 @@
       "steps": [
        [
         "1.2.45",
-        "patnI",
+        "patnī",
         "stem"
        ],
        [
         "4.1.2",
-        "patnI + wA",
+        "patnī + ṭā",
         "affix"
        ],
        [
         "1.3.7",
-        "patnI + wA",
+        "patnī + ṭā",
         "definition"
        ],
        [
         "1.3.9",
-        "patnI + A",
+        "patnī + ā",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + A",
+        "patnī + ā",
         "definition"
        ],
        [
         "1.4.3",
-        "patnI + A",
+        "patnī + ā",
         "definition"
        ],
        [
         "1.4.13",
-        "patnI + A",
+        "patnī + ā",
         "definition"
        ],
        [
         "1.4.18",
-        "patnI + A",
+        "patnī + ā",
         "definition"
        ],
        [
         "1.4.14",
-        "patnI + A",
+        "patnī + ā",
         "definition"
        ],
        [
         "6.1.77",
-        "patny + A",
+        "patny + ā",
         "operation"
        ],
        [
         "8.4.68",
-        "patny + A",
+        "patny + ā",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṭā"
      }
     }
    },
@@ -7886,70 +7982,71 @@
       "steps": [
        [
         "1.2.45",
-        "saKI",
+        "sakhī",
         "stem"
        ],
        [
         "4.1.2",
-        "saKI + Byas",
+        "sakhī + bhyas",
         "affix"
        ],
        [
         "1.3.4",
-        "saKI + Byas",
+        "sakhī + bhyas",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + Byas",
+        "sakhī + bhyas",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + Byas",
+        "sakhī + bhyas",
         "definition"
        ],
        [
         "1.4.13",
-        "saKI + Byas",
+        "sakhī + bhyas",
         "definition"
        ],
        [
         "1.4.17",
-        "saKI + Byas",
+        "sakhī + bhyas",
         "definition"
        ],
        [
         "1.4.14",
-        "saKI + Byas",
+        "sakhī + bhyas",
         "definition"
        ],
        [
         "8.2.66",
-        "saKI + Byaru~",
+        "sakhī + bhyarum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "saKI + Byar",
+        "sakhī + bhyar",
         "definition"
        ],
        [
         "8.3.15",
-        "saKI + ByaH",
+        "sakhī + bhyaḥ",
         "sound"
        ],
        [
         "8.3.111",
-        "saKI + ByaH",
+        "sakhī + bhyaḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "saKI + ByaH",
+        "sakhī + bhyaḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyas"
      },
      "dvi": {
       "deva": "सखीभ्याम्",
@@ -7958,55 +8055,56 @@
       "steps": [
        [
         "1.2.45",
-        "saKI",
+        "sakhī",
         "stem"
        ],
        [
         "4.1.2",
-        "saKI + ByAm",
+        "sakhī + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "saKI + ByAm",
+        "sakhī + bhyām",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + ByAm",
+        "sakhī + bhyām",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + ByAm",
+        "sakhī + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "saKI + ByAm",
+        "sakhī + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "saKI + ByAm",
+        "sakhī + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "saKI + ByAm",
+        "sakhī + bhyām",
         "definition"
        ],
        [
         "8.3.111",
-        "saKI + ByAm",
+        "sakhī + bhyām",
         "sound"
        ],
        [
         "8.4.68",
-        "saKI + ByAm",
+        "sakhī + bhyām",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "सख्यै",
@@ -8015,85 +8113,86 @@
       "steps": [
        [
         "1.2.45",
-        "saKI",
+        "sakhī",
         "stem"
        ],
        [
         "4.1.2",
-        "saKI + Ne",
+        "sakhī + ṅe",
         "affix"
        ],
        [
         "1.3.8",
-        "saKI + Ne",
+        "sakhī + ṅe",
         "definition"
        ],
        [
         "1.3.9",
-        "saKI + e",
+        "sakhī + e",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + e",
+        "sakhī + e",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + e",
+        "sakhī + e",
         "definition"
        ],
        [
         "1.4.13",
-        "saKI + e",
+        "sakhī + e",
         "definition"
        ],
        [
         "1.4.18",
-        "saKI + e",
+        "sakhī + e",
         "definition"
        ],
        [
         "1.4.14",
-        "saKI + e",
+        "sakhī + e",
         "definition"
        ],
        [
         "7.3.112",
-        "saKI + Aw + e",
+        "sakhī + āṭ + e",
         "operation"
        ],
        [
         "1.3.3",
-        "saKI + Aw + e",
+        "sakhī + āṭ + e",
         "definition"
        ],
        [
         "1.3.9",
-        "saKI + A + e",
+        "sakhī + ā + e",
         "definition"
        ],
        [
         "6.1.90",
-        "saKI + E",
+        "sakhī + ai",
         "operation"
        ],
        [
         "6.1.77",
-        "saKy + E",
+        "sakhy + ai",
         "operation"
        ],
        [
         "8.3.111",
-        "saKy + E",
+        "sakhy + ai",
         "sound"
        ],
        [
         "8.4.68",
-        "saKy + E",
+        "sakhy + ai",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅe"
      }
     },
     "dvitiya": {
@@ -8104,90 +8203,91 @@
       "steps": [
        [
         "1.2.45",
-        "saKI",
+        "sakhī",
         "stem"
        ],
        [
         "4.1.2",
-        "saKI + Sas",
+        "sakhī + śas",
         "affix"
        ],
        [
         "1.3.4",
-        "saKI + Sas",
+        "sakhī + śas",
         "definition"
        ],
        [
         "1.3.8",
-        "saKI + Sas",
+        "sakhī + śas",
         "definition"
        ],
        [
         "1.3.9",
-        "saKI + as",
+        "sakhī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + as",
+        "sakhī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + as",
+        "sakhī + as",
         "definition"
        ],
        [
         "1.4.13",
-        "saKI + as",
+        "sakhī + as",
         "definition"
        ],
        [
         "1.4.18",
-        "saKI + as",
+        "sakhī + as",
         "definition"
        ],
        [
         "1.4.14",
-        "saKI + as",
+        "sakhī + as",
         "definition"
        ],
        [
         "6.1.102",
-        "saKI + Is",
+        "sakhī + īs",
         "operation"
        ],
        [
         "6.1.101",
-        "saKI + s",
+        "sakhī + s",
         "operation"
        ],
        [
         "8.2.66",
-        "saKI + ru~",
+        "sakhī + rum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "saKI + r",
+        "sakhī + r",
         "definition"
        ],
        [
         "8.3.15",
-        "saKI + H",
+        "sakhī + ḥ",
         "sound"
        ],
        [
         "8.3.111",
-        "saKI + H",
+        "sakhī + ḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "saKI + H",
+        "sakhī + ḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "śas"
      },
      "dvi": {
       "deva": "सख्यौ",
@@ -8196,75 +8296,76 @@
       "steps": [
        [
         "1.2.45",
-        "saKI",
+        "sakhī",
         "stem"
        ],
        [
         "4.1.2",
-        "saKI + Ow",
+        "sakhī + auṭ",
         "affix"
        ],
        [
         "1.3.3",
-        "saKI + Ow",
+        "sakhī + auṭ",
         "definition"
        ],
        [
         "1.3.9",
-        "saKI + O",
+        "sakhī + au",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + O",
+        "sakhī + au",
         "definition"
        ],
        [
         "1.1.43",
-        "saKI + O",
+        "sakhī + au",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + O",
+        "sakhī + au",
         "definition"
        ],
        [
         "1.1.43",
-        "saKI + O",
+        "sakhī + au",
         "definition"
        ],
        [
         "1.4.13",
-        "saKI + O",
+        "sakhī + au",
         "definition"
        ],
        [
         "1.4.14",
-        "saKI + O",
+        "sakhī + au",
         "definition"
        ],
        [
         "6.1.105",
-        "saKI + O",
+        "sakhī + au",
         "operation"
        ],
        [
         "6.1.77",
-        "saKy + O",
+        "sakhy + au",
         "operation"
        ],
        [
         "8.3.111",
-        "saKy + O",
+        "sakhy + au",
         "sound"
        ],
        [
         "8.4.68",
-        "saKy + O",
+        "sakhy + au",
         "sound"
        ]
-      ]
+      ],
+      "sup": "auṭ"
      },
      "eka": {
       "deva": "सखीम्",
@@ -8273,65 +8374,66 @@
       "steps": [
        [
         "1.2.45",
-        "saKI",
+        "sakhī",
         "stem"
        ],
        [
         "4.1.2",
-        "saKI + am",
+        "sakhī + am",
         "affix"
        ],
        [
         "1.3.4",
-        "saKI + am",
+        "sakhī + am",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + am",
+        "sakhī + am",
         "definition"
        ],
        [
         "1.1.43",
-        "saKI + am",
+        "sakhī + am",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + am",
+        "sakhī + am",
         "definition"
        ],
        [
         "1.1.43",
-        "saKI + am",
+        "sakhī + am",
         "definition"
        ],
        [
         "1.4.13",
-        "saKI + am",
+        "sakhī + am",
         "definition"
        ],
        [
         "1.4.14",
-        "saKI + am",
+        "sakhī + am",
         "definition"
        ],
        [
         "6.1.107",
-        "saKI + m",
+        "sakhī + m",
         "operation"
        ],
        [
         "8.3.111",
-        "saKI + m",
+        "sakhī + m",
         "sound"
        ],
        [
         "8.4.68",
-        "saKI + m",
+        "sakhī + m",
         "sound"
        ]
-      ]
+      ],
+      "sup": "am"
      }
     },
     "pancami": {
@@ -8342,70 +8444,71 @@
       "steps": [
        [
         "1.2.45",
-        "saKI",
+        "sakhī",
         "stem"
        ],
        [
         "4.1.2",
-        "saKI + Byas",
+        "sakhī + bhyas",
         "affix"
        ],
        [
         "1.3.4",
-        "saKI + Byas",
+        "sakhī + bhyas",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + Byas",
+        "sakhī + bhyas",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + Byas",
+        "sakhī + bhyas",
         "definition"
        ],
        [
         "1.4.13",
-        "saKI + Byas",
+        "sakhī + bhyas",
         "definition"
        ],
        [
         "1.4.17",
-        "saKI + Byas",
+        "sakhī + bhyas",
         "definition"
        ],
        [
         "1.4.14",
-        "saKI + Byas",
+        "sakhī + bhyas",
         "definition"
        ],
        [
         "8.2.66",
-        "saKI + Byaru~",
+        "sakhī + bhyarum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "saKI + Byar",
+        "sakhī + bhyar",
         "definition"
        ],
        [
         "8.3.15",
-        "saKI + ByaH",
+        "sakhī + bhyaḥ",
         "sound"
        ],
        [
         "8.3.111",
-        "saKI + ByaH",
+        "sakhī + bhyaḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "saKI + ByaH",
+        "sakhī + bhyaḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyas"
      },
      "dvi": {
       "deva": "सखीभ्याम्",
@@ -8414,55 +8517,56 @@
       "steps": [
        [
         "1.2.45",
-        "saKI",
+        "sakhī",
         "stem"
        ],
        [
         "4.1.2",
-        "saKI + ByAm",
+        "sakhī + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "saKI + ByAm",
+        "sakhī + bhyām",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + ByAm",
+        "sakhī + bhyām",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + ByAm",
+        "sakhī + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "saKI + ByAm",
+        "sakhī + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "saKI + ByAm",
+        "sakhī + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "saKI + ByAm",
+        "sakhī + bhyām",
         "definition"
        ],
        [
         "8.3.111",
-        "saKI + ByAm",
+        "sakhī + bhyām",
         "sound"
        ],
        [
         "8.4.68",
-        "saKI + ByAm",
+        "sakhī + bhyām",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "सख्याः",
@@ -8471,105 +8575,106 @@
       "steps": [
        [
         "1.2.45",
-        "saKI",
+        "sakhī",
         "stem"
        ],
        [
         "4.1.2",
-        "saKI + Nasi~",
+        "sakhī + ṅasim̐",
         "affix"
        ],
        [
         "1.3.2",
-        "saKI + Nasi~",
+        "sakhī + ṅasim̐",
         "definition"
        ],
        [
         "1.3.8",
-        "saKI + Nasi~",
+        "sakhī + ṅasim̐",
         "definition"
        ],
        [
         "1.3.9",
-        "saKI + as",
+        "sakhī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + as",
+        "sakhī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + as",
+        "sakhī + as",
         "definition"
        ],
        [
         "1.4.13",
-        "saKI + as",
+        "sakhī + as",
         "definition"
        ],
        [
         "1.4.18",
-        "saKI + as",
+        "sakhī + as",
         "definition"
        ],
        [
         "1.4.14",
-        "saKI + as",
+        "sakhī + as",
         "definition"
        ],
        [
         "7.3.112",
-        "saKI + Aw + as",
+        "sakhī + āṭ + as",
         "operation"
        ],
        [
         "1.3.3",
-        "saKI + Aw + as",
+        "sakhī + āṭ + as",
         "definition"
        ],
        [
         "1.3.9",
-        "saKI + A + as",
+        "sakhī + ā + as",
         "definition"
        ],
        [
         "6.1.90",
-        "saKI + As",
+        "sakhī + ās",
         "operation"
        ],
        [
         "6.1.77",
-        "saKy + As",
+        "sakhy + ās",
         "operation"
        ],
        [
         "8.2.66",
-        "saKy + Aru~",
+        "sakhy + ārum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "saKy + Ar",
+        "sakhy + ār",
         "definition"
        ],
        [
         "8.3.15",
-        "saKy + AH",
+        "sakhy + āḥ",
         "sound"
        ],
        [
         "8.3.111",
-        "saKy + AH",
+        "sakhy + āḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "saKy + AH",
+        "sakhy + āḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅasim̐"
      }
     },
     "prathama": {
@@ -8580,95 +8685,96 @@
       "steps": [
        [
         "1.2.45",
-        "saKI",
+        "sakhī",
         "stem"
        ],
        [
         "4.1.2",
-        "saKI + jas",
+        "sakhī + jas",
         "affix"
        ],
        [
         "1.3.4",
-        "saKI + jas",
+        "sakhī + jas",
         "definition"
        ],
        [
         "1.3.7",
-        "saKI + jas",
+        "sakhī + jas",
         "definition"
        ],
        [
         "1.3.9",
-        "saKI + as",
+        "sakhī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + as",
+        "sakhī + as",
         "definition"
        ],
        [
         "1.1.43",
-        "saKI + as",
+        "sakhī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + as",
+        "sakhī + as",
         "definition"
        ],
        [
         "1.1.43",
-        "saKI + as",
+        "sakhī + as",
         "definition"
        ],
        [
         "1.4.13",
-        "saKI + as",
+        "sakhī + as",
         "definition"
        ],
        [
         "1.4.14",
-        "saKI + as",
+        "sakhī + as",
         "definition"
        ],
        [
         "6.1.105",
-        "saKI + as",
+        "sakhī + as",
         "operation"
        ],
        [
         "6.1.77",
-        "saKy + as",
+        "sakhy + as",
         "operation"
        ],
        [
         "8.2.66",
-        "saKy + aru~",
+        "sakhy + arum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "saKy + ar",
+        "sakhy + ar",
         "definition"
        ],
        [
         "8.3.15",
-        "saKy + aH",
+        "sakhy + aḥ",
         "sound"
        ],
        [
         "8.3.111",
-        "saKy + aH",
+        "sakhy + aḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "saKy + aH",
+        "sakhy + aḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "jas"
      },
      "dvi": {
       "deva": "सख्यौ",
@@ -8677,65 +8783,66 @@
       "steps": [
        [
         "1.2.45",
-        "saKI",
+        "sakhī",
         "stem"
        ],
        [
         "4.1.2",
-        "saKI + O",
+        "sakhī + au",
         "affix"
        ],
        [
         "1.4.3",
-        "saKI + O",
+        "sakhī + au",
         "definition"
        ],
        [
         "1.1.43",
-        "saKI + O",
+        "sakhī + au",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + O",
+        "sakhī + au",
         "definition"
        ],
        [
         "1.1.43",
-        "saKI + O",
+        "sakhī + au",
         "definition"
        ],
        [
         "1.4.13",
-        "saKI + O",
+        "sakhī + au",
         "definition"
        ],
        [
         "1.4.14",
-        "saKI + O",
+        "sakhī + au",
         "definition"
        ],
        [
         "6.1.105",
-        "saKI + O",
+        "sakhī + au",
         "operation"
        ],
        [
         "6.1.77",
-        "saKy + O",
+        "sakhy + au",
         "operation"
        ],
        [
         "8.3.111",
-        "saKy + O",
+        "sakhy + au",
         "sound"
        ],
        [
         "8.4.68",
-        "saKy + O",
+        "sakhy + au",
         "sound"
        ]
-      ]
+      ],
+      "sup": "au"
      },
      "eka": {
       "deva": "सखी",
@@ -8744,70 +8851,71 @@
       "steps": [
        [
         "1.2.45",
-        "saKI",
+        "sakhī",
         "stem"
        ],
        [
         "4.1.2",
-        "saKI + su~",
+        "sakhī + sum̐",
         "affix"
        ],
        [
         "1.3.2",
-        "saKI + su~",
+        "sakhī + sum̐",
         "definition"
        ],
        [
         "1.3.9",
-        "saKI + s",
+        "sakhī + s",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + s",
+        "sakhī + s",
         "definition"
        ],
        [
         "1.1.43",
-        "saKI + s",
+        "sakhī + s",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + s",
+        "sakhī + s",
         "definition"
        ],
        [
         "1.1.43",
-        "saKI + s",
+        "sakhī + s",
         "definition"
        ],
        [
         "1.4.13",
-        "saKI + s",
+        "sakhī + s",
         "definition"
        ],
        [
         "1.4.14",
-        "saKI + s",
+        "sakhī + s",
         "definition"
        ],
        [
         "6.1.68",
-        "saKI",
+        "sakhī",
         "operation"
        ],
        [
         "8.3.111",
-        "saKI",
+        "sakhī",
         "sound"
        ],
        [
         "8.4.68",
-        "saKI",
+        "sakhī",
         "sound"
        ]
-      ]
+      ],
+      "sup": "sum̐"
      }
     },
     "sambodhana": {
@@ -8818,105 +8926,106 @@
       "steps": [
        [
         "1.2.45",
-        "saKI",
+        "sakhī",
         "stem"
        ],
        [
         "4.1.2",
-        "saKI + jas",
+        "sakhī + jas",
         "affix"
        ],
        [
         "1.3.4",
-        "saKI + jas",
+        "sakhī + jas",
         "definition"
        ],
        [
         "1.3.7",
-        "saKI + jas",
+        "sakhī + jas",
         "definition"
        ],
        [
         "1.3.9",
-        "saKI + as",
+        "sakhī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + as",
+        "sakhī + as",
         "definition"
        ],
        [
         "2.3.48",
-        "saKI + as",
+        "sakhī + as",
         "definition"
        ],
        [
         "1.1.43",
-        "saKI + as",
+        "sakhī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + as",
+        "sakhī + as",
         "definition"
        ],
        [
         "2.3.48",
-        "saKI + as",
+        "sakhī + as",
         "definition"
        ],
        [
         "1.1.43",
-        "saKI + as",
+        "sakhī + as",
         "definition"
        ],
        [
         "1.4.13",
-        "saKI + as",
+        "sakhī + as",
         "definition"
        ],
        [
         "1.4.14",
-        "saKI + as",
+        "sakhī + as",
         "definition"
        ],
        [
         "6.1.105",
-        "saKI + as",
+        "sakhī + as",
         "operation"
        ],
        [
         "6.1.77",
-        "saKy + as",
+        "sakhy + as",
         "operation"
        ],
        [
         "8.2.66",
-        "saKy + aru~",
+        "sakhy + arum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "saKy + ar",
+        "sakhy + ar",
         "definition"
        ],
        [
         "8.3.15",
-        "saKy + aH",
+        "sakhy + aḥ",
         "sound"
        ],
        [
         "8.3.111",
-        "saKy + aH",
+        "sakhy + aḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "saKy + aH",
+        "sakhy + aḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "jas"
      },
      "dvi": {
       "deva": "सख्यौ",
@@ -8925,75 +9034,76 @@
       "steps": [
        [
         "1.2.45",
-        "saKI",
+        "sakhī",
         "stem"
        ],
        [
         "4.1.2",
-        "saKI + O",
+        "sakhī + au",
         "affix"
        ],
        [
         "1.4.3",
-        "saKI + O",
+        "sakhī + au",
         "definition"
        ],
        [
         "2.3.48",
-        "saKI + O",
+        "sakhī + au",
         "definition"
        ],
        [
         "1.1.43",
-        "saKI + O",
+        "sakhī + au",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + O",
+        "sakhī + au",
         "definition"
        ],
        [
         "2.3.48",
-        "saKI + O",
+        "sakhī + au",
         "definition"
        ],
        [
         "1.1.43",
-        "saKI + O",
+        "sakhī + au",
         "definition"
        ],
        [
         "1.4.13",
-        "saKI + O",
+        "sakhī + au",
         "definition"
        ],
        [
         "1.4.14",
-        "saKI + O",
+        "sakhī + au",
         "definition"
        ],
        [
         "6.1.105",
-        "saKI + O",
+        "sakhī + au",
         "operation"
        ],
        [
         "6.1.77",
-        "saKy + O",
+        "sakhy + au",
         "operation"
        ],
        [
         "8.3.111",
-        "saKy + O",
+        "sakhy + au",
         "sound"
        ],
        [
         "8.4.68",
-        "saKy + O",
+        "sakhy + au",
         "sound"
        ]
-      ]
+      ],
+      "sup": "au"
      },
      "eka": {
       "deva": "सखि",
@@ -9002,95 +9112,96 @@
       "steps": [
        [
         "1.2.45",
-        "saKI",
+        "sakhī",
         "stem"
        ],
        [
         "4.1.2",
-        "saKI + su~",
+        "sakhī + sum̐",
         "affix"
        ],
        [
         "1.3.2",
-        "saKI + su~",
+        "sakhī + sum̐",
         "definition"
        ],
        [
         "1.3.9",
-        "saKI + s",
+        "sakhī + s",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + s",
+        "sakhī + s",
         "definition"
        ],
        [
         "2.3.48",
-        "saKI + s",
+        "sakhī + s",
         "definition"
        ],
        [
         "2.3.49",
-        "saKI + s",
+        "sakhī + s",
         "definition"
        ],
        [
         "1.1.43",
-        "saKI + s",
+        "sakhī + s",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + s",
+        "sakhī + s",
         "definition"
        ],
        [
         "2.3.48",
-        "saKI + s",
+        "sakhī + s",
         "definition"
        ],
        [
         "2.3.49",
-        "saKI + s",
+        "sakhī + s",
         "definition"
        ],
        [
         "1.1.43",
-        "saKI + s",
+        "sakhī + s",
         "definition"
        ],
        [
         "1.4.13",
-        "saKI + s",
+        "sakhī + s",
         "definition"
        ],
        [
         "1.4.14",
-        "saKI + s",
+        "sakhī + s",
         "definition"
        ],
        [
         "7.3.107",
-        "saKi + s",
+        "sakhi + s",
         "operation"
        ],
        [
         "6.1.69",
-        "saKi",
+        "sakhi",
         "operation"
        ],
        [
         "8.3.111",
-        "saKi",
+        "sakhi",
         "sound"
        ],
        [
         "8.4.68",
-        "saKi",
+        "sakhi",
         "sound"
        ]
-      ]
+      ],
+      "sup": "sum̐"
      }
     },
     "saptami": {
@@ -9101,65 +9212,66 @@
       "steps": [
        [
         "1.2.45",
-        "saKI",
+        "sakhī",
         "stem"
        ],
        [
         "4.1.2",
-        "saKI + sup",
+        "sakhī + sup",
         "affix"
        ],
        [
         "1.3.3",
-        "saKI + sup",
+        "sakhī + sup",
         "definition"
        ],
        [
         "1.3.9",
-        "saKI + su",
+        "sakhī + su",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + su",
+        "sakhī + su",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + su",
+        "sakhī + su",
         "definition"
        ],
        [
         "1.4.13",
-        "saKI + su",
+        "sakhī + su",
         "definition"
        ],
        [
         "1.4.17",
-        "saKI + su",
+        "sakhī + su",
         "definition"
        ],
        [
         "1.4.14",
-        "saKI + su",
+        "sakhī + su",
         "definition"
        ],
        [
         "8.3.59",
-        "saKI + zu",
+        "sakhī + ṣu",
         "sound"
        ],
        [
         "8.3.111",
-        "saKI + zu",
+        "sakhī + ṣu",
         "sound"
        ],
        [
         "8.4.68",
-        "saKI + zu",
+        "sakhī + ṣu",
         "sound"
        ]
-      ]
+      ],
+      "sup": "sup"
      },
      "dvi": {
       "deva": "सख्योः",
@@ -9168,75 +9280,76 @@
       "steps": [
        [
         "1.2.45",
-        "saKI",
+        "sakhī",
         "stem"
        ],
        [
         "4.1.2",
-        "saKI + os",
+        "sakhī + os",
         "affix"
        ],
        [
         "1.3.4",
-        "saKI + os",
+        "sakhī + os",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + os",
+        "sakhī + os",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + os",
+        "sakhī + os",
         "definition"
        ],
        [
         "1.4.13",
-        "saKI + os",
+        "sakhī + os",
         "definition"
        ],
        [
         "1.4.18",
-        "saKI + os",
+        "sakhī + os",
         "definition"
        ],
        [
         "1.4.14",
-        "saKI + os",
+        "sakhī + os",
         "definition"
        ],
        [
         "6.1.77",
-        "saKy + os",
+        "sakhy + os",
         "operation"
        ],
        [
         "8.2.66",
-        "saKy + oru~",
+        "sakhy + orum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "saKy + or",
+        "sakhy + or",
         "definition"
        ],
        [
         "8.3.15",
-        "saKy + oH",
+        "sakhy + oḥ",
         "sound"
        ],
        [
         "8.3.111",
-        "saKy + oH",
+        "sakhy + oḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "saKy + oH",
+        "sakhy + oḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "os"
      },
      "eka": {
       "deva": "सख्याम्",
@@ -9245,95 +9358,96 @@
       "steps": [
        [
         "1.2.45",
-        "saKI",
+        "sakhī",
         "stem"
        ],
        [
         "4.1.2",
-        "saKI + Ni",
+        "sakhī + ṅi",
         "affix"
        ],
        [
         "1.3.8",
-        "saKI + Ni",
+        "sakhī + ṅi",
         "definition"
        ],
        [
         "1.3.9",
-        "saKI + i",
+        "sakhī + i",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + i",
+        "sakhī + i",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + i",
+        "sakhī + i",
         "definition"
        ],
        [
         "1.4.13",
-        "saKI + i",
+        "sakhī + i",
         "definition"
        ],
        [
         "1.4.18",
-        "saKI + i",
+        "sakhī + i",
         "definition"
        ],
        [
         "1.4.14",
-        "saKI + i",
+        "sakhī + i",
         "definition"
        ],
        [
         "7.3.116",
-        "saKI + Am",
+        "sakhī + ām",
         "operation"
        ],
        [
         "1.3.4",
-        "saKI + Am",
+        "sakhī + ām",
         "definition"
        ],
        [
         "7.3.112",
-        "saKI + Aw + Am",
+        "sakhī + āṭ + ām",
         "operation"
        ],
        [
         "1.3.3",
-        "saKI + Aw + Am",
+        "sakhī + āṭ + ām",
         "definition"
        ],
        [
         "1.3.9",
-        "saKI + A + Am",
+        "sakhī + ā + ām",
         "definition"
        ],
        [
         "6.1.90",
-        "saKI + Am",
+        "sakhī + ām",
         "operation"
        ],
        [
         "6.1.77",
-        "saKy + Am",
+        "sakhy + ām",
         "operation"
        ],
        [
         "8.3.111",
-        "saKy + Am",
+        "sakhy + ām",
         "sound"
        ],
        [
         "8.4.68",
-        "saKy + Am",
+        "sakhy + ām",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅi"
      }
     },
     "sasthi": {
@@ -9344,75 +9458,76 @@
       "steps": [
        [
         "1.2.45",
-        "saKI",
+        "sakhī",
         "stem"
        ],
        [
         "4.1.2",
-        "saKI + Am",
+        "sakhī + ām",
         "affix"
        ],
        [
         "1.3.4",
-        "saKI + Am",
+        "sakhī + ām",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + Am",
+        "sakhī + ām",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + Am",
+        "sakhī + ām",
         "definition"
        ],
        [
         "7.1.54",
-        "saKI + nu~w + Am",
+        "sakhī + num̐ṭ + ām",
         "operation"
        ],
        [
         "1.3.2",
-        "saKI + nu~w + Am",
+        "sakhī + num̐ṭ + ām",
         "definition"
        ],
        [
         "1.3.3",
-        "saKI + nu~w + Am",
+        "sakhī + num̐ṭ + ām",
         "definition"
        ],
        [
         "1.3.9",
-        "saKI + n + Am",
+        "sakhī + n + ām",
         "definition"
        ],
        [
         "1.4.13",
-        "saKI + n + Am",
+        "sakhī + n + ām",
         "definition"
        ],
        [
         "1.4.17",
-        "saKI + n + Am",
+        "sakhī + n + ām",
         "definition"
        ],
        [
         "1.4.14",
-        "saKI + n + Am",
+        "sakhī + n + ām",
         "definition"
        ],
        [
         "8.3.111",
-        "saKI + n + Am",
+        "sakhī + n + ām",
         "sound"
        ],
        [
         "8.4.68",
-        "saKI + n + Am",
+        "sakhī + n + ām",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ām"
      },
      "dvi": {
       "deva": "सख्योः",
@@ -9421,75 +9536,76 @@
       "steps": [
        [
         "1.2.45",
-        "saKI",
+        "sakhī",
         "stem"
        ],
        [
         "4.1.2",
-        "saKI + os",
+        "sakhī + os",
         "affix"
        ],
        [
         "1.3.4",
-        "saKI + os",
+        "sakhī + os",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + os",
+        "sakhī + os",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + os",
+        "sakhī + os",
         "definition"
        ],
        [
         "1.4.13",
-        "saKI + os",
+        "sakhī + os",
         "definition"
        ],
        [
         "1.4.18",
-        "saKI + os",
+        "sakhī + os",
         "definition"
        ],
        [
         "1.4.14",
-        "saKI + os",
+        "sakhī + os",
         "definition"
        ],
        [
         "6.1.77",
-        "saKy + os",
+        "sakhy + os",
         "operation"
        ],
        [
         "8.2.66",
-        "saKy + oru~",
+        "sakhy + orum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "saKy + or",
+        "sakhy + or",
         "definition"
        ],
        [
         "8.3.15",
-        "saKy + oH",
+        "sakhy + oḥ",
         "sound"
        ],
        [
         "8.3.111",
-        "saKy + oH",
+        "sakhy + oḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "saKy + oH",
+        "sakhy + oḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "os"
      },
      "eka": {
       "deva": "सख्याः",
@@ -9498,105 +9614,106 @@
       "steps": [
        [
         "1.2.45",
-        "saKI",
+        "sakhī",
         "stem"
        ],
        [
         "4.1.2",
-        "saKI + Nas",
+        "sakhī + ṅas",
         "affix"
        ],
        [
         "1.3.4",
-        "saKI + Nas",
+        "sakhī + ṅas",
         "definition"
        ],
        [
         "1.3.8",
-        "saKI + Nas",
+        "sakhī + ṅas",
         "definition"
        ],
        [
         "1.3.9",
-        "saKI + as",
+        "sakhī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + as",
+        "sakhī + as",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + as",
+        "sakhī + as",
         "definition"
        ],
        [
         "1.4.13",
-        "saKI + as",
+        "sakhī + as",
         "definition"
        ],
        [
         "1.4.18",
-        "saKI + as",
+        "sakhī + as",
         "definition"
        ],
        [
         "1.4.14",
-        "saKI + as",
+        "sakhī + as",
         "definition"
        ],
        [
         "7.3.112",
-        "saKI + Aw + as",
+        "sakhī + āṭ + as",
         "operation"
        ],
        [
         "1.3.3",
-        "saKI + Aw + as",
+        "sakhī + āṭ + as",
         "definition"
        ],
        [
         "1.3.9",
-        "saKI + A + as",
+        "sakhī + ā + as",
         "definition"
        ],
        [
         "6.1.90",
-        "saKI + As",
+        "sakhī + ās",
         "operation"
        ],
        [
         "6.1.77",
-        "saKy + As",
+        "sakhy + ās",
         "operation"
        ],
        [
         "8.2.66",
-        "saKy + Aru~",
+        "sakhy + ārum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "saKy + Ar",
+        "sakhy + ār",
         "definition"
        ],
        [
         "8.3.15",
-        "saKy + AH",
+        "sakhy + āḥ",
         "sound"
        ],
        [
         "8.3.111",
-        "saKy + AH",
+        "sakhy + āḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "saKy + AH",
+        "sakhy + āḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅas"
      }
     },
     "tritiya": {
@@ -9607,70 +9724,71 @@
       "steps": [
        [
         "1.2.45",
-        "saKI",
+        "sakhī",
         "stem"
        ],
        [
         "4.1.2",
-        "saKI + Bis",
+        "sakhī + bhis",
         "affix"
        ],
        [
         "1.3.4",
-        "saKI + Bis",
+        "sakhī + bhis",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + Bis",
+        "sakhī + bhis",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + Bis",
+        "sakhī + bhis",
         "definition"
        ],
        [
         "1.4.13",
-        "saKI + Bis",
+        "sakhī + bhis",
         "definition"
        ],
        [
         "1.4.17",
-        "saKI + Bis",
+        "sakhī + bhis",
         "definition"
        ],
        [
         "1.4.14",
-        "saKI + Bis",
+        "sakhī + bhis",
         "definition"
        ],
        [
         "8.2.66",
-        "saKI + Biru~",
+        "sakhī + bhirum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "saKI + Bir",
+        "sakhī + bhir",
         "definition"
        ],
        [
         "8.3.15",
-        "saKI + BiH",
+        "sakhī + bhiḥ",
         "sound"
        ],
        [
         "8.3.111",
-        "saKI + BiH",
+        "sakhī + bhiḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "saKI + BiH",
+        "sakhī + bhiḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhis"
      },
      "dvi": {
       "deva": "सखीभ्याम्",
@@ -9679,55 +9797,56 @@
       "steps": [
        [
         "1.2.45",
-        "saKI",
+        "sakhī",
         "stem"
        ],
        [
         "4.1.2",
-        "saKI + ByAm",
+        "sakhī + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "saKI + ByAm",
+        "sakhī + bhyām",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + ByAm",
+        "sakhī + bhyām",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + ByAm",
+        "sakhī + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "saKI + ByAm",
+        "sakhī + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "saKI + ByAm",
+        "sakhī + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "saKI + ByAm",
+        "sakhī + bhyām",
         "definition"
        ],
        [
         "8.3.111",
-        "saKI + ByAm",
+        "sakhī + bhyām",
         "sound"
        ],
        [
         "8.4.68",
-        "saKI + ByAm",
+        "sakhī + bhyām",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "सख्या",
@@ -9736,65 +9855,66 @@
       "steps": [
        [
         "1.2.45",
-        "saKI",
+        "sakhī",
         "stem"
        ],
        [
         "4.1.2",
-        "saKI + wA",
+        "sakhī + ṭā",
         "affix"
        ],
        [
         "1.3.7",
-        "saKI + wA",
+        "sakhī + ṭā",
         "definition"
        ],
        [
         "1.3.9",
-        "saKI + A",
+        "sakhī + ā",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + A",
+        "sakhī + ā",
         "definition"
        ],
        [
         "1.4.3",
-        "saKI + A",
+        "sakhī + ā",
         "definition"
        ],
        [
         "1.4.13",
-        "saKI + A",
+        "sakhī + ā",
         "definition"
        ],
        [
         "1.4.18",
-        "saKI + A",
+        "sakhī + ā",
         "definition"
        ],
        [
         "1.4.14",
-        "saKI + A",
+        "sakhī + ā",
         "definition"
        ],
        [
         "6.1.77",
-        "saKy + A",
+        "sakhy + ā",
         "operation"
        ],
        [
         "8.3.111",
-        "saKy + A",
+        "sakhy + ā",
         "sound"
        ],
        [
         "8.4.68",
-        "saKy + A",
+        "sakhy + ā",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṭā"
      }
     }
    },

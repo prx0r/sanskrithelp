@@ -13,75 +13,76 @@
       "steps": [
        [
         "1.2.45",
-        "vAc",
+        "vāc",
         "stem"
        ],
        [
         "4.1.2",
-        "vAc + Byas",
+        "vāc + bhyas",
         "affix"
        ],
        [
         "1.3.4",
-        "vAc + Byas",
+        "vāc + bhyas",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + Byas",
+        "vāc + bhyas",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + Byas",
+        "vāc + bhyas",
         "definition"
        ],
        [
         "1.4.13",
-        "vAc + Byas",
+        "vāc + bhyas",
         "definition"
        ],
        [
         "1.4.17",
-        "vAc + Byas",
+        "vāc + bhyas",
         "definition"
        ],
        [
         "1.4.14",
-        "vAc + Byas",
+        "vāc + bhyas",
         "definition"
        ],
        [
         "8.2.30",
-        "vAk + Byas",
+        "vāk + bhyas",
         "sound"
        ],
        [
         "8.2.39",
-        "vAg + Byas",
+        "vāg + bhyas",
         "sound"
        ],
        [
         "8.2.66",
-        "vAg + Byaru~",
+        "vāg + bhyarum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "vAg + Byar",
+        "vāg + bhyar",
         "definition"
        ],
        [
         "8.3.15",
-        "vAg + ByaH",
+        "vāg + bhyaḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "vAg + ByaH",
+        "vāg + bhyaḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyas"
      },
      "dvi": {
       "deva": "वाग्भ्याम्",
@@ -90,55 +91,56 @@
       "steps": [
        [
         "1.2.45",
-        "vAc",
+        "vāc",
         "stem"
        ],
        [
         "4.1.2",
-        "vAc + ByAm",
+        "vāc + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "vAc + ByAm",
+        "vāc + bhyām",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + ByAm",
+        "vāc + bhyām",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + ByAm",
+        "vāc + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "vAc + ByAm",
+        "vāc + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "vAc + ByAm",
+        "vāc + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "vAc + ByAm",
+        "vāc + bhyām",
         "definition"
        ],
        [
         "8.2.30",
-        "vAk + ByAm",
+        "vāk + bhyām",
         "sound"
        ],
        [
         "8.2.39",
-        "vAg + ByAm",
+        "vāg + bhyām",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "वाचे",
@@ -147,50 +149,51 @@
       "steps": [
        [
         "1.2.45",
-        "vAc",
+        "vāc",
         "stem"
        ],
        [
         "4.1.2",
-        "vAc + Ne",
+        "vāc + ṅe",
         "affix"
        ],
        [
         "1.3.8",
-        "vAc + Ne",
+        "vāc + ṅe",
         "definition"
        ],
        [
         "1.3.9",
-        "vAc + e",
+        "vāc + e",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + e",
+        "vāc + e",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + e",
+        "vāc + e",
         "definition"
        ],
        [
         "1.4.13",
-        "vAc + e",
+        "vāc + e",
         "definition"
        ],
        [
         "1.4.18",
-        "vAc + e",
+        "vāc + e",
         "definition"
        ],
        [
         "1.4.14",
-        "vAc + e",
+        "vāc + e",
         "definition"
        ]
-      ]
+      ],
+      "sup": "ṅe"
      }
     },
     "dvitiya": {
@@ -201,75 +204,76 @@
       "steps": [
        [
         "1.2.45",
-        "vAc",
+        "vāc",
         "stem"
        ],
        [
         "4.1.2",
-        "vAc + Sas",
+        "vāc + śas",
         "affix"
        ],
        [
         "1.3.4",
-        "vAc + Sas",
+        "vāc + śas",
         "definition"
        ],
        [
         "1.3.8",
-        "vAc + Sas",
+        "vāc + śas",
         "definition"
        ],
        [
         "1.3.9",
-        "vAc + as",
+        "vāc + as",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + as",
+        "vāc + as",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + as",
+        "vāc + as",
         "definition"
        ],
        [
         "1.4.13",
-        "vAc + as",
+        "vāc + as",
         "definition"
        ],
        [
         "1.4.18",
-        "vAc + as",
+        "vāc + as",
         "definition"
        ],
        [
         "1.4.14",
-        "vAc + as",
+        "vāc + as",
         "definition"
        ],
        [
         "8.2.66",
-        "vAc + aru~",
+        "vāc + arum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "vAc + ar",
+        "vāc + ar",
         "definition"
        ],
        [
         "8.3.15",
-        "vAc + aH",
+        "vāc + aḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "vAc + aH",
+        "vāc + aḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "śas"
      },
      "dvi": {
       "deva": "वाचौ",
@@ -278,55 +282,56 @@
       "steps": [
        [
         "1.2.45",
-        "vAc",
+        "vāc",
         "stem"
        ],
        [
         "4.1.2",
-        "vAc + Ow",
+        "vāc + auṭ",
         "affix"
        ],
        [
         "1.3.3",
-        "vAc + Ow",
+        "vāc + auṭ",
         "definition"
        ],
        [
         "1.3.9",
-        "vAc + O",
+        "vāc + au",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + O",
+        "vāc + au",
         "definition"
        ],
        [
         "1.1.43",
-        "vAc + O",
+        "vāc + au",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + O",
+        "vāc + au",
         "definition"
        ],
        [
         "1.1.43",
-        "vAc + O",
+        "vāc + au",
         "definition"
        ],
        [
         "1.4.13",
-        "vAc + O",
+        "vāc + au",
         "definition"
        ],
        [
         "1.4.14",
-        "vAc + O",
+        "vāc + au",
         "definition"
        ]
-      ]
+      ],
+      "sup": "auṭ"
      },
      "eka": {
       "deva": "वाचम्",
@@ -335,55 +340,56 @@
       "steps": [
        [
         "1.2.45",
-        "vAc",
+        "vāc",
         "stem"
        ],
        [
         "4.1.2",
-        "vAc + am",
+        "vāc + am",
         "affix"
        ],
        [
         "1.3.4",
-        "vAc + am",
+        "vāc + am",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + am",
+        "vāc + am",
         "definition"
        ],
        [
         "1.1.43",
-        "vAc + am",
+        "vāc + am",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + am",
+        "vāc + am",
         "definition"
        ],
        [
         "1.1.43",
-        "vAc + am",
+        "vāc + am",
         "definition"
        ],
        [
         "1.4.13",
-        "vAc + am",
+        "vāc + am",
         "definition"
        ],
        [
         "1.4.14",
-        "vAc + am",
+        "vāc + am",
         "definition"
        ],
        [
         "8.4.68",
-        "vAc + am",
+        "vāc + am",
         "sound"
        ]
-      ]
+      ],
+      "sup": "am"
      }
     },
     "pancami": {
@@ -394,75 +400,76 @@
       "steps": [
        [
         "1.2.45",
-        "vAc",
+        "vāc",
         "stem"
        ],
        [
         "4.1.2",
-        "vAc + Byas",
+        "vāc + bhyas",
         "affix"
        ],
        [
         "1.3.4",
-        "vAc + Byas",
+        "vāc + bhyas",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + Byas",
+        "vāc + bhyas",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + Byas",
+        "vāc + bhyas",
         "definition"
        ],
        [
         "1.4.13",
-        "vAc + Byas",
+        "vāc + bhyas",
         "definition"
        ],
        [
         "1.4.17",
-        "vAc + Byas",
+        "vāc + bhyas",
         "definition"
        ],
        [
         "1.4.14",
-        "vAc + Byas",
+        "vāc + bhyas",
         "definition"
        ],
        [
         "8.2.30",
-        "vAk + Byas",
+        "vāk + bhyas",
         "sound"
        ],
        [
         "8.2.39",
-        "vAg + Byas",
+        "vāg + bhyas",
         "sound"
        ],
        [
         "8.2.66",
-        "vAg + Byaru~",
+        "vāg + bhyarum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "vAg + Byar",
+        "vāg + bhyar",
         "definition"
        ],
        [
         "8.3.15",
-        "vAg + ByaH",
+        "vāg + bhyaḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "vAg + ByaH",
+        "vāg + bhyaḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyas"
      },
      "dvi": {
       "deva": "वाग्भ्याम्",
@@ -471,55 +478,56 @@
       "steps": [
        [
         "1.2.45",
-        "vAc",
+        "vāc",
         "stem"
        ],
        [
         "4.1.2",
-        "vAc + ByAm",
+        "vāc + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "vAc + ByAm",
+        "vāc + bhyām",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + ByAm",
+        "vāc + bhyām",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + ByAm",
+        "vāc + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "vAc + ByAm",
+        "vāc + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "vAc + ByAm",
+        "vāc + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "vAc + ByAm",
+        "vāc + bhyām",
         "definition"
        ],
        [
         "8.2.30",
-        "vAk + ByAm",
+        "vāk + bhyām",
         "sound"
        ],
        [
         "8.2.39",
-        "vAg + ByAm",
+        "vāg + bhyām",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "वाचः",
@@ -528,75 +536,76 @@
       "steps": [
        [
         "1.2.45",
-        "vAc",
+        "vāc",
         "stem"
        ],
        [
         "4.1.2",
-        "vAc + Nasi~",
+        "vāc + ṅasim̐",
         "affix"
        ],
        [
         "1.3.2",
-        "vAc + Nasi~",
+        "vāc + ṅasim̐",
         "definition"
        ],
        [
         "1.3.8",
-        "vAc + Nasi~",
+        "vāc + ṅasim̐",
         "definition"
        ],
        [
         "1.3.9",
-        "vAc + as",
+        "vāc + as",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + as",
+        "vāc + as",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + as",
+        "vāc + as",
         "definition"
        ],
        [
         "1.4.13",
-        "vAc + as",
+        "vāc + as",
         "definition"
        ],
        [
         "1.4.18",
-        "vAc + as",
+        "vāc + as",
         "definition"
        ],
        [
         "1.4.14",
-        "vAc + as",
+        "vāc + as",
         "definition"
        ],
        [
         "8.2.66",
-        "vAc + aru~",
+        "vāc + arum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "vAc + ar",
+        "vāc + ar",
         "definition"
        ],
        [
         "8.3.15",
-        "vAc + aH",
+        "vāc + aḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "vAc + aH",
+        "vāc + aḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅasim̐"
      }
     },
     "prathama": {
@@ -607,80 +616,81 @@
       "steps": [
        [
         "1.2.45",
-        "vAc",
+        "vāc",
         "stem"
        ],
        [
         "4.1.2",
-        "vAc + jas",
+        "vāc + jas",
         "affix"
        ],
        [
         "1.3.4",
-        "vAc + jas",
+        "vāc + jas",
         "definition"
        ],
        [
         "1.3.7",
-        "vAc + jas",
+        "vāc + jas",
         "definition"
        ],
        [
         "1.3.9",
-        "vAc + as",
+        "vāc + as",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + as",
+        "vāc + as",
         "definition"
        ],
        [
         "1.1.43",
-        "vAc + as",
+        "vāc + as",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + as",
+        "vāc + as",
         "definition"
        ],
        [
         "1.1.43",
-        "vAc + as",
+        "vāc + as",
         "definition"
        ],
        [
         "1.4.13",
-        "vAc + as",
+        "vāc + as",
         "definition"
        ],
        [
         "1.4.14",
-        "vAc + as",
+        "vāc + as",
         "definition"
        ],
        [
         "8.2.66",
-        "vAc + aru~",
+        "vāc + arum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "vAc + ar",
+        "vāc + ar",
         "definition"
        ],
        [
         "8.3.15",
-        "vAc + aH",
+        "vāc + aḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "vAc + aH",
+        "vāc + aḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "jas"
      },
      "dvi": {
       "deva": "वाचौ",
@@ -689,45 +699,46 @@
       "steps": [
        [
         "1.2.45",
-        "vAc",
+        "vāc",
         "stem"
        ],
        [
         "4.1.2",
-        "vAc + O",
+        "vāc + au",
         "affix"
        ],
        [
         "1.1.73",
-        "vAc + O",
+        "vāc + au",
         "definition"
        ],
        [
         "1.1.43",
-        "vAc + O",
+        "vāc + au",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + O",
+        "vāc + au",
         "definition"
        ],
        [
         "1.1.43",
-        "vAc + O",
+        "vāc + au",
         "definition"
        ],
        [
         "1.4.13",
-        "vAc + O",
+        "vāc + au",
         "definition"
        ],
        [
         "1.4.14",
-        "vAc + O",
+        "vāc + au",
         "definition"
        ]
-      ]
+      ],
+      "sup": "au"
      },
      "eka": {
       "deva": "वाक्",
@@ -736,75 +747,76 @@
       "steps": [
        [
         "1.2.45",
-        "vAc",
+        "vāc",
         "stem"
        ],
        [
         "4.1.2",
-        "vAc + su~",
+        "vāc + sum̐",
         "affix"
        ],
        [
         "1.3.2",
-        "vAc + su~",
+        "vāc + sum̐",
         "definition"
        ],
        [
         "1.3.9",
-        "vAc + s",
+        "vāc + s",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + s",
+        "vāc + s",
         "definition"
        ],
        [
         "1.1.43",
-        "vAc + s",
+        "vāc + s",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + s",
+        "vāc + s",
         "definition"
        ],
        [
         "1.1.43",
-        "vAc + s",
+        "vāc + s",
         "definition"
        ],
        [
         "1.4.13",
-        "vAc + s",
+        "vāc + s",
         "definition"
        ],
        [
         "1.4.14",
-        "vAc + s",
+        "vāc + s",
         "definition"
        ],
        [
         "6.1.68",
-        "vAc",
+        "vāc",
         "operation"
        ],
        [
         "8.2.30",
-        "vAk",
+        "vāk",
         "sound"
        ],
        [
         "8.2.39",
-        "vAg",
+        "vāg",
         "sound"
        ],
        [
         "8.4.56",
-        "vAk",
+        "vāk",
         "sound"
        ]
-      ]
+      ],
+      "sup": "sum̐"
      }
     },
     "sambodhana": {
@@ -815,90 +827,91 @@
       "steps": [
        [
         "1.2.45",
-        "vAc",
+        "vāc",
         "stem"
        ],
        [
         "4.1.2",
-        "vAc + jas",
+        "vāc + jas",
         "affix"
        ],
        [
         "1.3.4",
-        "vAc + jas",
+        "vāc + jas",
         "definition"
        ],
        [
         "1.3.7",
-        "vAc + jas",
+        "vāc + jas",
         "definition"
        ],
        [
         "1.3.9",
-        "vAc + as",
+        "vāc + as",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + as",
+        "vāc + as",
         "definition"
        ],
        [
         "2.3.48",
-        "vAc + as",
+        "vāc + as",
         "definition"
        ],
        [
         "1.1.43",
-        "vAc + as",
+        "vāc + as",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + as",
+        "vāc + as",
         "definition"
        ],
        [
         "2.3.48",
-        "vAc + as",
+        "vāc + as",
         "definition"
        ],
        [
         "1.1.43",
-        "vAc + as",
+        "vāc + as",
         "definition"
        ],
        [
         "1.4.13",
-        "vAc + as",
+        "vāc + as",
         "definition"
        ],
        [
         "1.4.14",
-        "vAc + as",
+        "vāc + as",
         "definition"
        ],
        [
         "8.2.66",
-        "vAc + aru~",
+        "vāc + arum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "vAc + ar",
+        "vāc + ar",
         "definition"
        ],
        [
         "8.3.15",
-        "vAc + aH",
+        "vāc + aḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "vAc + aH",
+        "vāc + aḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "jas"
      },
      "dvi": {
       "deva": "वाचौ",
@@ -907,55 +920,56 @@
       "steps": [
        [
         "1.2.45",
-        "vAc",
+        "vāc",
         "stem"
        ],
        [
         "4.1.2",
-        "vAc + O",
+        "vāc + au",
         "affix"
        ],
        [
         "1.1.73",
-        "vAc + O",
+        "vāc + au",
         "definition"
        ],
        [
         "2.3.48",
-        "vAc + O",
+        "vāc + au",
         "definition"
        ],
        [
         "1.1.43",
-        "vAc + O",
+        "vāc + au",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + O",
+        "vāc + au",
         "definition"
        ],
        [
         "2.3.48",
-        "vAc + O",
+        "vāc + au",
         "definition"
        ],
        [
         "1.1.43",
-        "vAc + O",
+        "vāc + au",
         "definition"
        ],
        [
         "1.4.13",
-        "vAc + O",
+        "vāc + au",
         "definition"
        ],
        [
         "1.4.14",
-        "vAc + O",
+        "vāc + au",
         "definition"
        ]
-      ]
+      ],
+      "sup": "au"
      },
      "eka": {
       "deva": "वाक्",
@@ -964,95 +978,96 @@
       "steps": [
        [
         "1.2.45",
-        "vAc",
+        "vāc",
         "stem"
        ],
        [
         "4.1.2",
-        "vAc + su~",
+        "vāc + sum̐",
         "affix"
        ],
        [
         "1.3.2",
-        "vAc + su~",
+        "vāc + sum̐",
         "definition"
        ],
        [
         "1.3.9",
-        "vAc + s",
+        "vāc + s",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + s",
+        "vāc + s",
         "definition"
        ],
        [
         "2.3.48",
-        "vAc + s",
+        "vāc + s",
         "definition"
        ],
        [
         "2.3.49",
-        "vAc + s",
+        "vāc + s",
         "definition"
        ],
        [
         "1.1.43",
-        "vAc + s",
+        "vāc + s",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + s",
+        "vāc + s",
         "definition"
        ],
        [
         "2.3.48",
-        "vAc + s",
+        "vāc + s",
         "definition"
        ],
        [
         "2.3.49",
-        "vAc + s",
+        "vāc + s",
         "definition"
        ],
        [
         "1.1.43",
-        "vAc + s",
+        "vāc + s",
         "definition"
        ],
        [
         "1.4.13",
-        "vAc + s",
+        "vāc + s",
         "definition"
        ],
        [
         "1.4.14",
-        "vAc + s",
+        "vāc + s",
         "definition"
        ],
        [
         "6.1.68",
-        "vAc",
+        "vāc",
         "operation"
        ],
        [
         "8.2.30",
-        "vAk",
+        "vāk",
         "sound"
        ],
        [
         "8.2.39",
-        "vAg",
+        "vāg",
         "sound"
        ],
        [
         "8.4.56",
-        "vAk",
+        "vāk",
         "sound"
        ]
-      ]
+      ],
+      "sup": "sum̐"
      }
     },
     "saptami": {
@@ -1063,70 +1078,71 @@
       "steps": [
        [
         "1.2.45",
-        "vAc",
+        "vāc",
         "stem"
        ],
        [
         "4.1.2",
-        "vAc + sup",
+        "vāc + sup",
         "affix"
        ],
        [
         "1.3.3",
-        "vAc + sup",
+        "vāc + sup",
         "definition"
        ],
        [
         "1.3.9",
-        "vAc + su",
+        "vāc + su",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + su",
+        "vāc + su",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + su",
+        "vāc + su",
         "definition"
        ],
        [
         "1.4.13",
-        "vAc + su",
+        "vāc + su",
         "definition"
        ],
        [
         "1.4.17",
-        "vAc + su",
+        "vāc + su",
         "definition"
        ],
        [
         "1.4.14",
-        "vAc + su",
+        "vāc + su",
         "definition"
        ],
        [
         "8.2.30",
-        "vAk + su",
+        "vāk + su",
         "sound"
        ],
        [
         "8.2.39",
-        "vAg + su",
+        "vāg + su",
         "sound"
        ],
        [
         "8.3.59",
-        "vAg + zu",
+        "vāg + ṣu",
         "sound"
        ],
        [
         "8.4.55",
-        "vAk + zu",
+        "vāk + ṣu",
         "sound"
        ]
-      ]
+      ],
+      "sup": "sup"
      },
      "dvi": {
       "deva": "वाचोः",
@@ -1135,60 +1151,61 @@
       "steps": [
        [
         "1.2.45",
-        "vAc",
+        "vāc",
         "stem"
        ],
        [
         "4.1.2",
-        "vAc + os",
+        "vāc + os",
         "affix"
        ],
        [
         "1.3.4",
-        "vAc + os",
+        "vāc + os",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + os",
+        "vāc + os",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + os",
+        "vāc + os",
         "definition"
        ],
        [
         "1.4.13",
-        "vAc + os",
+        "vāc + os",
         "definition"
        ],
        [
         "1.4.18",
-        "vAc + os",
+        "vāc + os",
         "definition"
        ],
        [
         "1.4.14",
-        "vAc + os",
+        "vāc + os",
         "definition"
        ],
        [
         "8.2.66",
-        "vAc + oru~",
+        "vāc + orum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "vAc + or",
+        "vāc + or",
         "definition"
        ],
        [
         "8.3.15",
-        "vAc + oH",
+        "vāc + oḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "os"
      },
      "eka": {
       "deva": "वाचि",
@@ -1197,50 +1214,51 @@
       "steps": [
        [
         "1.2.45",
-        "vAc",
+        "vāc",
         "stem"
        ],
        [
         "4.1.2",
-        "vAc + Ni",
+        "vāc + ṅi",
         "affix"
        ],
        [
         "1.3.8",
-        "vAc + Ni",
+        "vāc + ṅi",
         "definition"
        ],
        [
         "1.3.9",
-        "vAc + i",
+        "vāc + i",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + i",
+        "vāc + i",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + i",
+        "vāc + i",
         "definition"
        ],
        [
         "1.4.13",
-        "vAc + i",
+        "vāc + i",
         "definition"
        ],
        [
         "1.4.18",
-        "vAc + i",
+        "vāc + i",
         "definition"
        ],
        [
         "1.4.14",
-        "vAc + i",
+        "vāc + i",
         "definition"
        ]
-      ]
+      ],
+      "sup": "ṅi"
      }
     },
     "sasthi": {
@@ -1251,45 +1269,46 @@
       "steps": [
        [
         "1.2.45",
-        "vAc",
+        "vāc",
         "stem"
        ],
        [
         "4.1.2",
-        "vAc + Am",
+        "vāc + ām",
         "affix"
        ],
        [
         "1.3.4",
-        "vAc + Am",
+        "vāc + ām",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + Am",
+        "vāc + ām",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + Am",
+        "vāc + ām",
         "definition"
        ],
        [
         "1.4.13",
-        "vAc + Am",
+        "vāc + ām",
         "definition"
        ],
        [
         "1.4.18",
-        "vAc + Am",
+        "vāc + ām",
         "definition"
        ],
        [
         "1.4.14",
-        "vAc + Am",
+        "vāc + ām",
         "definition"
        ]
-      ]
+      ],
+      "sup": "ām"
      },
      "dvi": {
       "deva": "वाचोः",
@@ -1298,60 +1317,61 @@
       "steps": [
        [
         "1.2.45",
-        "vAc",
+        "vāc",
         "stem"
        ],
        [
         "4.1.2",
-        "vAc + os",
+        "vāc + os",
         "affix"
        ],
        [
         "1.3.4",
-        "vAc + os",
+        "vāc + os",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + os",
+        "vāc + os",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + os",
+        "vāc + os",
         "definition"
        ],
        [
         "1.4.13",
-        "vAc + os",
+        "vāc + os",
         "definition"
        ],
        [
         "1.4.18",
-        "vAc + os",
+        "vāc + os",
         "definition"
        ],
        [
         "1.4.14",
-        "vAc + os",
+        "vāc + os",
         "definition"
        ],
        [
         "8.2.66",
-        "vAc + oru~",
+        "vāc + orum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "vAc + or",
+        "vāc + or",
         "definition"
        ],
        [
         "8.3.15",
-        "vAc + oH",
+        "vāc + oḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "os"
      },
      "eka": {
       "deva": "वाचः",
@@ -1360,75 +1380,76 @@
       "steps": [
        [
         "1.2.45",
-        "vAc",
+        "vāc",
         "stem"
        ],
        [
         "4.1.2",
-        "vAc + Nas",
+        "vāc + ṅas",
         "affix"
        ],
        [
         "1.3.4",
-        "vAc + Nas",
+        "vāc + ṅas",
         "definition"
        ],
        [
         "1.3.8",
-        "vAc + Nas",
+        "vāc + ṅas",
         "definition"
        ],
        [
         "1.3.9",
-        "vAc + as",
+        "vāc + as",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + as",
+        "vāc + as",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + as",
+        "vāc + as",
         "definition"
        ],
        [
         "1.4.13",
-        "vAc + as",
+        "vāc + as",
         "definition"
        ],
        [
         "1.4.18",
-        "vAc + as",
+        "vāc + as",
         "definition"
        ],
        [
         "1.4.14",
-        "vAc + as",
+        "vāc + as",
         "definition"
        ],
        [
         "8.2.66",
-        "vAc + aru~",
+        "vāc + arum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "vAc + ar",
+        "vāc + ar",
         "definition"
        ],
        [
         "8.3.15",
-        "vAc + aH",
+        "vāc + aḥ",
         "sound"
        ],
        [
         "8.4.68",
-        "vAc + aH",
+        "vāc + aḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "ṅas"
      }
     },
     "tritiya": {
@@ -1439,70 +1460,71 @@
       "steps": [
        [
         "1.2.45",
-        "vAc",
+        "vāc",
         "stem"
        ],
        [
         "4.1.2",
-        "vAc + Bis",
+        "vāc + bhis",
         "affix"
        ],
        [
         "1.3.4",
-        "vAc + Bis",
+        "vāc + bhis",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + Bis",
+        "vāc + bhis",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + Bis",
+        "vāc + bhis",
         "definition"
        ],
        [
         "1.4.13",
-        "vAc + Bis",
+        "vāc + bhis",
         "definition"
        ],
        [
         "1.4.17",
-        "vAc + Bis",
+        "vāc + bhis",
         "definition"
        ],
        [
         "1.4.14",
-        "vAc + Bis",
+        "vāc + bhis",
         "definition"
        ],
        [
         "8.2.30",
-        "vAk + Bis",
+        "vāk + bhis",
         "sound"
        ],
        [
         "8.2.39",
-        "vAg + Bis",
+        "vāg + bhis",
         "sound"
        ],
        [
         "8.2.66",
-        "vAg + Biru~",
+        "vāg + bhirum̐",
         "sound"
        ],
        [
         "1.3.2",
-        "vAg + Bir",
+        "vāg + bhir",
         "definition"
        ],
        [
         "8.3.15",
-        "vAg + BiH",
+        "vāg + bhiḥ",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhis"
      },
      "dvi": {
       "deva": "वाग्भ्याम्",
@@ -1511,55 +1533,56 @@
       "steps": [
        [
         "1.2.45",
-        "vAc",
+        "vāc",
         "stem"
        ],
        [
         "4.1.2",
-        "vAc + ByAm",
+        "vāc + bhyām",
         "affix"
        ],
        [
         "1.3.4",
-        "vAc + ByAm",
+        "vāc + bhyām",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + ByAm",
+        "vāc + bhyām",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + ByAm",
+        "vāc + bhyām",
         "definition"
        ],
        [
         "1.4.13",
-        "vAc + ByAm",
+        "vāc + bhyām",
         "definition"
        ],
        [
         "1.4.17",
-        "vAc + ByAm",
+        "vāc + bhyām",
         "definition"
        ],
        [
         "1.4.14",
-        "vAc + ByAm",
+        "vāc + bhyām",
         "definition"
        ],
        [
         "8.2.30",
-        "vAk + ByAm",
+        "vāk + bhyām",
         "sound"
        ],
        [
         "8.2.39",
-        "vAg + ByAm",
+        "vāg + bhyām",
         "sound"
        ]
-      ]
+      ],
+      "sup": "bhyām"
      },
      "eka": {
       "deva": "वाचा",
@@ -1568,50 +1591,51 @@
       "steps": [
        [
         "1.2.45",
-        "vAc",
+        "vāc",
         "stem"
        ],
        [
         "4.1.2",
-        "vAc + wA",
+        "vāc + ṭā",
         "affix"
        ],
        [
         "1.3.7",
-        "vAc + wA",
+        "vāc + ṭā",
         "definition"
        ],
        [
         "1.3.9",
-        "vAc + A",
+        "vāc + ā",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + A",
+        "vāc + ā",
         "definition"
        ],
        [
         "1.1.73",
-        "vAc + A",
+        "vāc + ā",
         "definition"
        ],
        [
         "1.4.13",
-        "vAc + A",
+        "vāc + ā",
         "definition"
        ],
        [
         "1.4.18",
-        "vAc + A",
+        "vāc + ā",
         "definition"
        ],
        [
         "1.4.14",
-        "vAc + A",
+        "vāc + ā",
         "definition"
        ]
-      ]
+      ],
+      "sup": "ṭā"
      }
     }
    },

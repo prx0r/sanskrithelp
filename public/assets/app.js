@@ -179,7 +179,9 @@ function cell(vib, vac) {
 /* The underlying sup ending the engine selected, read from the 4.1.2 step.
    We show it raw (sum̐, ṅas, ṭā …) because that is what the engine chose. */
 function affixOf(c) {
-  if (!c || !Array.isArray(c.steps)) return '';
+  if (!c) return '';
+  if (c.sup) return c.sup;
+  if (!Array.isArray(c.steps)) return '';
   const step = c.steps.find(([code]) => code === '4.1.2');
   if (!step) return '';
   const parts = String(step[1] || '').split('+').map((s) => s.trim()).filter(Boolean);
