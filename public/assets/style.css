@@ -15,7 +15,7 @@
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{
-  margin:0;background:radial-gradient(ellipse at 50% -10%,#1b3450 0%,var(--bg) 60%) fixed;
+  margin:0;overflow-x:hidden;background:radial-gradient(ellipse at 50% -10%,#1b3450 0%,var(--bg) 60%) fixed;
   color:var(--text);font:15px/1.6 system-ui,-apple-system,'Segoe UI',sans-serif;
   -webkit-font-smoothing:antialiased;
 }
@@ -227,3 +227,37 @@ input[type=text]:focus{outline:2px solid var(--c-affix);outline-offset:1px}
 .preview-cta{margin-top:14px;font-size:13px;color:var(--muted);display:flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:center}
 .step.summary{grid-template-columns:82px 1fr;align-items:center}
 .step.summary .dev{font-size:15px}
+
+/* ---------- small screens ---------- */
+@media(max-width:760px){
+  .top .wrap{height:auto;padding:10px 0;flex-wrap:wrap;gap:4px}
+  .brand-deva{font-size:17px}
+  .brand-en{font-size:14px}
+  .nav{gap:12px;font-size:12.5px;flex-wrap:wrap}
+  .hero{padding:30px 0 10px}
+  .statbar{gap:18px;padding:12px 0}
+  .statbar b{font-size:21px}
+  .formula{padding:12px;gap:6px}
+  .layer{padding:6px 9px;font-size:13px}
+  .layer small{font-size:9px}
+  .eq,.paren{font-size:15px}
+  .matrix-head,.mrow{grid-template-columns:86px repeat(3,1fr);gap:4px}
+  .mcase{padding:5px 6px}
+  .mcase b{font-size:12px}
+  .mcase small{font-size:10px}
+  .mq{display:none}
+  .mh{font-size:11px}
+  .mh small{font-size:9px}
+  .mcell{padding:6px 3px}
+  .mcell .dev{font-size:12.5px}
+  .mcell small{font-size:9.5px}
+  .affix-tag{font-size:8.5px;top:1px;right:2px}
+  .output{position:static}
+  .bigword .dev{font-size:26px}
+  .step{grid-template-columns:66px 1fr;gap:6px}
+  .step .sutra-code{font-size:10.5px}
+  .step .sutra-txt{font-size:12px}
+  .step.summary{grid-template-columns:66px 1fr}
+  .rung{padding:9px}
+  .foot{padding-bottom:36px}
+}
