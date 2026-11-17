@@ -391,7 +391,10 @@ async function verbSlot(env, args) {
   const v = await verbs(env);
   const root = v.roots.find((r) => r.id === args.root || r.iast === low(args.root));
   if (!root) throw new Error(`unknown root ${args.root}`);
-  const lak = v.lakara.find((l) => l.id === args.tense || l.en === low(args.tense));
+  const tl = low(args.tense);
+  const lak = v.lakara.find((l) =>
+    l.id === tl || l.en === tl || l.en.split(' ')[0] === tl ||
+    (LAK_ALIAS[l.id] || []).includes(tl));
   if (!lak) throw new Error(`unknown tense ${args.tense}`);
   const pl = low(args.person);
   const pu = v.purusha.find((p) =>
