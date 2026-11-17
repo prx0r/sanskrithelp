@@ -596,6 +596,7 @@ function wire() {
   S.stats = loadStats();
   paintStats();
   S.index = await getJSON('data/index.json');
+  window.__prakriya = S;   // read-only handle for tests and debugging
   wire();
   renderModes();
   await newQuestion();
