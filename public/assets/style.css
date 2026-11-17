@@ -434,3 +434,10 @@ button{font:inherit;color:inherit;cursor:pointer}
 .opt:hover{border-color:var(--fc)}
 .lg-sent.real{border-color:rgba(155,217,180,.35)}
 .lg-sent.real .t{color:var(--c-class)}
+.cmaster{padding:2px 8px 8px}
+.cm-t{font-size:10px;text-transform:uppercase;letter-spacing:.09em;color:var(--dim);font-weight:800;margin-bottom:5px}
+.cdots{display:flex;gap:5px;align-items:flex-end;height:26px}
+.cdot{flex:1;display:flex;align-items:flex-end;height:26px;background:#131c27;border-radius:4px;
+  border:1px solid var(--line);cursor:pointer;overflow:hidden}
+.cdot i{display:block;width:100%;background:var(--c-affix);border-radius:0 0 3px 3px}
+.tr.fake{border-left-color:var(--bad);background:rgba(255,107,107,.07)}

@@ -27,17 +27,41 @@ OUT = ROOT / "public" / "data" / "attested.json"
 SRC = Path(os.environ.get("SVREAD_DATA", "/root/svread/data"))
 TOKEN = r"[^\wāīūṛṝḷḹēōṃḥṅñṭḍṇśṣ]"
 
-# stem, vib, vac, work, chunk, form, gloss-note
+# stem ids must match public/data/index.json exactly (case-sensitive).
+# Where the form is syncretic the note says so; the listed vib/vac is the
+# primary reading.
 CANDIDATES = [
     ("deva", "prathama", "eka", "paryantapancasika", "pary-p01-v06", "devaḥ",
      "nominative singular — the subject"),
     ("deva", "caturthi", "eka", "sivastotravali", "s02-v06", "devāya",
      "dative singular — the recipient"),
-    ("phala", "prathama", "bahu", "sivastotravali", "s17-v39", "phalam",
-     "neuter nom/acc singular — the two cases share the form"),
+    ("Pala", "prathama", "eka", "sivastotravali", "s17-v39", "phalam",
+     "neuter singular — nominative and accusative share the form"),
     ("deva", "prathama", "eka", "bodhavilasa", "bodh-p03-v25", "devaḥ",
      "nominative singular — the subject"),
     ("deva", "prathama", "eka", "paramarthasara", "param-p06-v47", "devaḥ",
+     "nominative singular — the subject"),
+    ("Atman", "prathama", "eka", "sivastotravali", "s01-v02", "ātmā",
+     "nominative singular — the subject"),
+    ("guru", "dvitiya", "eka", "bhairavanukarana", "bhair-p01-v07", "gurum",
+     "accusative singular — the object"),
+    ("devI", "prathama", "eka", "sivastotravali", "s01-v09", "devī",
+     "nominative singular — the subject"),
+    ("manas", "dvitiya", "eka", "sivastotravali", "s01-v26", "manaḥ",
+     "neuter singular — nominative and accusative share the form"),
+    ("rUpa", "sasthi", "eka", "sambandhasiddhi", "samb-p01-v05", "rūpasya",
+     "genitive singular — the possessor"),
+    ("vAc", "dvitiya", "eka", "paryantapancasika", "pary-p01-v01", "vācam",
+     "accusative singular — the object"),
+    ("guru", "prathama", "bahu", "paryantapancasika", "pary-p08-v52", "guravaḥ",
+     "nominative plural — the subjects (vocative shares the form)"),
+    ("Bagavant", "prathama", "eka", "sivastotravali", "s01-v22", "bhagavan",
+     "nominative singular — the subject (vocative shares the form)"),
+    ("dAtf", "prathama", "eka", "sivastotravali", "s19-v15", "dātā",
+     "nominative singular — the subject"),
+    ("maDu", "sasthi", "eka", "ghatakarpara", "ghat-p02-v14", "madhunaḥ",
+     "ablative or genitive singular — the two share the form"),
+    ("rAjan", "prathama", "eka", "paramarthasara", "param-p12-v101", "rājā",
      "nominative singular — the subject"),
 ]
 
@@ -46,6 +70,21 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--check", action="store_true")
     args = ap.parse_args()
+
+    index = json.loads((ROOT / "public" / "data" / "index.json").read_text(encoding="utf-8"))
+    fams = {f["id"]: f["file"] for f in index["families"]}
+    by_id = {st["id"]: st for st in index["stems"]}
+    for stem, *_ in CANDIDATES:
+        if stem not in by_id:
+            print(f"build_attested: unknown stem id {stem!r} (check index.json casing)",
+                  file=sys.stderr)
+            return 1
+    need_fam = {by_id[stem]["family"] for stem, *_ in CANDIDATES}
+    paradigms = {}
+    for fid in {fams[f] for f in need_fam}:
+        fam_doc = json.loads((ROOT / "public" / fid).read_text(encoding="utf-8"))
+        for sid, node in fam_doc["stems"].items():
+            paradigms[sid] = node["paradigm"]
 
     entries = []
     for stem, vib, vac, work, chunk, form, note in CANDIDATES:
@@ -65,6 +104,11 @@ def main() -> int:
         en = (ch.get("l2") or ch.get("l3") or "").strip()
         if not en:
             print(f"build_attested: no translation in {work}/{chunk}", file=sys.stderr)
+            return 1
+        slot = paradigms.get(stem, {}).get(vib, {}).get(vac, {})
+        if slot.get("status") != "DERIVED" or slot.get("iast") != form:
+            print(f"build_attested: our paradigm has no {stem}.{vib}.{vac} = {form}",
+                  file=sys.stderr)
             return 1
         entries.append({
             "stem": stem, "vibhakti": vib, "vacana": vac, "form": form,

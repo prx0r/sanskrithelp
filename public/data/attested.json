@@ -1,5 +1,5 @@
 {
- "count": 5,
+ "count": 16,
  "entries": [
   {
    "form": "devaḥ",
@@ -25,12 +25,12 @@
   },
   {
    "form": "phalam",
-   "note": "Hard text. Find the form you know — the rest is for later. neuter nom/acc singular — the two cases share the form",
+   "note": "Hard text. Find the form you know — the rest is for later. neuter singular — nominative and accusative share the form",
    "sanskrit": "bhaktikṣobhavaśād īśa svātmabhūte 'rcanaṃ tvayi citraṃ dainyāya no yāvad dīnatāyāḥ paraṃ phalam",
-   "stem": "phala",
+   "stem": "Pala",
    "target": "s17-v39",
    "translation": "By devotion-agitation, worship in self-become-Him — wonder: poverty's top fruit is lowliness' fruit.",
-   "vacana": "bahu",
+   "vacana": "eka",
    "vibhakti": "prathama",
    "work": "sivastotravali"
   },
@@ -52,6 +52,127 @@
    "stem": "deva",
    "target": "param-p06-v47",
    "translation": "Thus driving, by play-discipline, the power-wheel-machine — god: I indeed, pure-formed, standing in the power-great-wheel-lord-seat.",
+   "vacana": "eka",
+   "vibhakti": "prathama",
+   "work": "paramarthasara"
+  },
+  {
+   "form": "ātmā",
+   "note": "Hard text. Find the form you know — the rest is for later. nominative singular — the subject",
+   "sanskrit": "ātmā mama bhavadbhaktisudhāpānayuvāpi san lokayātrārajorāgāt palitair iva dhūsaraḥ",
+   "stem": "Atman",
+   "target": "s01-v02",
+   "translation": "My self stays young, drinking the nectar of Your devotion — though greyed as if with the dust of worldly journeying and its passions.",
+   "vacana": "eka",
+   "vibhakti": "prathama",
+   "work": "sivastotravali"
+  },
+  {
+   "form": "gurum",
+   "note": "Hard text. Find the form you know — the rest is for later. accusative singular — the object",
+   "sanskrit": "svātmaprabhāṃ vidhāya vāgdevīṃ | prathamonmeṣaṃ gurum atha vanditvā hṛdayam āviśya",
+   "stem": "guru",
+   "target": "bhair-p01-v07",
+   "translation": "Own-light made, speech-goddess, sense-flowers-offering-arranged — first-unfolding guru, then venerated, heart entered.",
+   "vacana": "eka",
+   "vibhakti": "dvitiya",
+   "work": "bhairavanukarana"
+  },
+  {
+   "form": "devī",
+   "note": "Hard text. Find the form you know — the rest is for later. nominative singular — the subject",
+   "sanskrit": "anantānandasarasī devī priyatamā yathā aviyuktāsti te tadvad ekā tvadbhaktir astu me",
+   "stem": "devI",
+   "target": "s01-v09",
+   "translation": "As the lake of endless bliss, the Goddess, the beloved, is inseparable from You — so may one devotion of mine be inseparable.",
+   "vacana": "eka",
+   "vibhakti": "prathama",
+   "work": "sivastotravali"
+  },
+  {
+   "form": "manaḥ",
+   "note": "Hard text. Find the form you know — the rest is for later. neuter singular — nominative and accusative share the form",
+   "sanskrit": "citraṃ nisargato nātha duḥkhabījam idaṃ manaḥ tvadbhaktirasasaṃsiktam niḥśreyasamahāphalam",
+   "stem": "manas",
+   "target": "s01-v26",
+   "translation": "A wonder, Lord: this mind, by nature pain's seed — watered by the essence of devotion to You, becomes liberation's great fruit.",
+   "vacana": "eka",
+   "vibhakti": "dvitiya",
+   "work": "sivastotravali"
+  },
+  {
+   "form": "rūpasya",
+   "note": "Hard text. Find the form you know — the rest is for later. genitive singular — the possessor",
+   "sanskrit": "nānantaryamasaṃbandhāttathātve'yaḥśalākayoḥ tenānekasya rūpasya śleṣa aikātmyameva saḥ",
+   "stem": "rUpa",
+   "target": "samb-p01-v05",
+   "translation": "Not uninterruptedness — for it misses relation: if it were so, it would hold of iron bars. Hence fusion of the many's form — that alone is one-selfhood.",
+   "vacana": "eka",
+   "vibhakti": "sasthi",
+   "work": "sambandhasiddhi"
+  },
+  {
+   "form": "vācam",
+   "note": "Hard text. Find the form you know — the rest is for later. accusative singular — the object",
+   "sanskrit": "ādyantāntargatānantaśaktiviśrāntinirbharām anuccāryām | ahaṃ vācam adhīye hṛdayaṃ vibhoḥ",
+   "stem": "vAc",
+   "target": "pary-p01-v01",
+   "translation": "Filled with rest of beginning-end-entered endless power — unspeakable — I study speech: the Lord's heart.",
+   "vacana": "eka",
+   "vibhakti": "dvitiya",
+   "work": "paryantapancasika"
+  },
+  {
+   "form": "guravaḥ",
+   "note": "Hard text. Find the form you know — the rest is for later. nominative plural — the subjects (vocative shares the form)",
+   "sanskrit": "śambhor abhinnahṛdayā jayanti guravaḥ purā nirvyutthānasamādhānaprāptaparyantasaṃpadaḥ",
+   "stem": "guru",
+   "target": "pary-p08-v52",
+   "translation": "Of-Shambhu undivided hearts victorious gurus formerly — without-rising absorption obtained end prosperity.",
+   "vacana": "bahu",
+   "vibhakti": "prathama",
+   "work": "paryantapancasika"
+  },
+  {
+   "form": "bhagavan",
+   "note": "Hard text. Find the form you know — the rest is for later. nominative singular — the subject (vocative shares the form)",
+   "sanskrit": "sādṛśaiḥ kiṃ na carvyeta bhavadbhaktimahauṣadhiḥ tādṛśī bhagavan yasyā mokṣākhyo 'nantaro rasaḥ",
+   "stem": "Bagavant",
+   "target": "s01-v22",
+   "translation": "Why would people like me not chew Your devotion's great medicine — whose after-taste, O Lord, is called liberation?",
+   "vacana": "eka",
+   "vibhakti": "prathama",
+   "work": "sivastotravali"
+  },
+  {
+   "form": "dātā",
+   "note": "Hard text. Find the form you know — the rest is for later. nominative singular — the subject",
+   "sanskrit": "dāsasya me prasīdatu bhagavān etāvad eva nanu yāce dātā tribhuvananātho yasya na tanmādṛśāṃ dṛśo viṣayaḥ",
+   "stem": "dAtf",
+   "target": "s19-v15",
+   "translation": "May the Lord be pleased with me, His slave — I ask only this, since the three-worlds Giver exceeds my sight.",
+   "vacana": "eka",
+   "vibhakti": "prathama",
+   "work": "sivastotravali"
+  },
+  {
+   "form": "madhunaḥ",
+   "note": "Hard text. Find the form you know — the rest is for later. ablative or genitive singular — the two share the form",
+   "sanskrit": "madhunaḥ samavekṣya kālatāṃ bhramaraś cumbati yūthikālatām",
+   "stem": "maDu",
+   "target": "ghat-p02-v14",
+   "translation": "Having observed honey's season, the bee kisses the yūthikā creeper.",
+   "vacana": "eka",
+   "vibhakti": "sasthi",
+   "work": "ghatakarpara"
+  },
+  {
+   "form": "rājā",
+   "note": "Hard text. Find the form you know — the rest is for later. nominative singular — the subject",
+   "sanskrit": "viṣayeṣu sārvabhaumaḥ sarvajanaiḥ pūjyate yathā rājā | bhuvaneṣu sarvadaivair yogabhraṣṭas tathā pūjyaḥ",
+   "stem": "rAjan",
+   "target": "param-p12-v101",
+   "translation": "As an emperor among things is honored by all people as king, so among worlds the yoga-fallen is honored by all gods.",
    "vacana": "eka",
    "vibhakti": "prathama",
    "work": "paramarthasara"

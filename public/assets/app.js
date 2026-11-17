@@ -195,6 +195,78 @@ function readOptions(q) {
   return opts;
 }
 
+function srsDue() {
+  const now = Date.now(), out = [];
+  for (const [k, r] of Object.entries(S.stats.slots || {})) {
+    if (r && r.t > 0 && (r.due || 0) <= now) out.push(k);
+  }
+  return out;
+}
+function srsWeak() {
+  const out = [];
+  for (const [k, r] of Object.entries(S.stats.slots || {})) {
+    if (r && r.t >= 3 && r.r / r.t < 0.7) out.push(k);
+  }
+  return out;
+}
+function slotLabel(key) {
+  const parts = key.split('|');
+  if (parts[0] === 'v') {
+    const L = (S.verbs?.lakara || []).find((l) => l.id === parts[1]);
+    const PU = (S.verbs?.purusha || []).find((p) => p.id === parts[2]);
+    const VA = (S.verbs?.vacana || []).find((w) => w.id === parts[3]);
+    return `${L ? L.en : parts[1]} · ${PU ? PU.en : parts[2]} · ${VA ? VA.en : parts[3]}`;
+  }
+  const [fam, vib, vac] = parts;
+  const F = S.index.families.find((f) => f.id === fam);
+  const V = S.index.vibhakti.find((v) => v.id === vib);
+  const W = S.index.vacana.find((w) => w.id === vac);
+  return `${F ? F.label : fam} · ${V ? V.en : vib} ${W ? W.en : vac}`;
+}
+function confusionHit(typedLow) {
+  // returns a slot key whose right answer is what the learner typed, if any
+  if (!typedLow) return null;
+  for (const [k, r] of Object.entries(S.stats.slots || {})) {
+    if (r && r.exp && r.exp === typedLow) return k;
+  }
+  return null;
+}
+function inScope(key) {
+  const st = S.stage;
+  if (!st || st.id.startsWith('review')) return true;
+  const parts = key.split('|');
+  if (parts[0] === 'v') {
+    if (S.track !== 'verb') return false;
+    const lak = parts[1];
+    if (st.lakara && st.lakara.length && !st.lakara.includes(lak)) return false;
+    return true;
+  }
+  if (S.track !== 'noun') return false;
+  const [fam, vib] = parts;
+  if (st.families && st.families.length && !st.families.includes(fam)) return false;
+  if (st.cases && st.cases.length && !st.cases.includes(vib)) return false;
+  return true;
+}
+async function slotNoun(key) {
+  const [fam, vib, vac] = key.split('|');
+  const stems = S.index.stems.filter((x) => x.family === fam);
+  if (!stems.length) return null;
+  return nounFrom(pick(stems).id, vib, vac, 'build');
+}
+async function slotVerb(key) {
+  const v = await ensureVerbs();
+  const [, lak, pu, va] = key.split('|');
+  const root = pick(v.roots);
+  const slot = v.paradigms[root.id]?.[lak]?.[`${pu}.${va}`];
+  if (!slot || slot.status !== 'DERIVED') return null;
+  const L = v.lakara.find((l) => l.id === lak);
+  const PU = v.purusha.find((x) => x.id === pu), VA = v.vacana.find((x) => x.id === va);
+  return { track: 'verb', mode: 'build', root, lak: L, pu: PU, va: VA, cell: slot,
+           colour: L.colour, answer: slot.iast,
+           cue: verbCue({ root, pu: PU, va: VA, lak: L }),
+           asks: `${L.en} · ${PU.en} person · ${VA.en} · root ${root.iast}` };
+}
+
 async function makeQuestion() {
   if (S.track === 'verb') return makeVerb();
 
@@ -204,6 +276,33 @@ async function makeQuestion() {
     const r = S.retry.shift();
     const q = r.mode === 'use' ? await makeSentence(r.vib) : await nounFrom(r.stem, r.vib, r.vac, r.mode);
     if (q) return q;
+  }
+
+  if (S.stage && S.stage.id.startsWith('review')) {
+    // confusion pairs first: slots whose wrong answer was another slot's
+    // right answer (or vice versa) are the highest-value items
+    const rank = (pool) => pool.slice().sort((a, b) => {
+      const ra = S.stats.slots[a] || {}, rb = S.stats.slots[b] || {};
+      const ca = (ra.got && Object.values(S.stats.slots).some((r) => r && r.exp === ra.got)) ? 0 : 1;
+      const cb = (rb.got && Object.values(S.stats.slots).some((r) => r && r.exp === rb.got)) ? 0 : 1;
+      return ca - cb;
+    });
+    const pool = rank([...srsDue(), ...srsWeak()]);
+    if (pool.length) {
+      const q = await slotNoun(pick(pool.slice(0, Math.max(1, Math.ceil(pool.length / 2)))));
+      if (q) return q;
+    }
+  } else {
+    const due = srsDue().filter(inScope);
+    if (due.length && Math.random() < 0.6) {
+      const q = await slotNoun(pick(due));
+      if (q) return q;
+    }
+  }
+
+  if (S.stage && S.stage.verbs && Math.random() < 0.35) {
+    const qv = await makeVerb();
+    if (qv) return qv;
   }
 
   const stem = pick(nounPool());
@@ -220,8 +319,18 @@ async function makeQuestion() {
     return { track: 'noun', mode, stem, family, colour: family.colour,
              cue: `Which family is “${stem.iast}”?`, asks: 'name the declension class' };
   }
+  // surgery/hunt need cells with real operation steps (a quarter of slots
+  // have none — affix-only derivations); try several slots before falling back
+  if (mode === 'surgery' || mode === 'hunt') {
+    for (let t = 0; t < 12; t++) {
+      const { vib, vac } = nextSlot();
+      const q = await nounFrom(stem.id, vib.id, vac.id, mode);
+      if (q) return q;
+    }
+  }
   const { vib, vac } = nextSlot();
-  return nounFrom(stem.id, vib.id, vac.id, mode);
+  return (await nounFrom(stem.id, vib.id, vac.id, mode))
+      || nounFrom(stem.id, vib.id, vac.id, 'build');
 }
 
 async function nounFrom(stemId, vibId, vacId, mode) {
@@ -254,14 +363,75 @@ async function nounFrom(stemId, vibId, vacId, mode) {
              cue: `${c.deva}` , cueIast: c.iast,
              asks: 'what case and number is this?' };
   }
+  if (mode === 'surgery') return surgeryFrom(doc, stem, family, vib, vac, c);
+  if (mode === 'hunt') return huntFrom(doc, stem, family, vib, vac, c);
   return { track: 'noun', mode: 'build', stem, family, vib, vac, cell: c, doc,
            colour: family.colour, answer: c.iast,
            cue: nounCue({ stem, vib, vac }),
            asks: `${vib.en} ${vac.en}` };
 }
 
+async function surgeryFrom(doc, stem, family, vib, vac, c) {
+  const op = (c.steps || []).find(([, , r]) => r === 'operation');
+  if (!op) return null;
+  const seen = new Set([op[0]]), pool = [];
+  for (const [v, row] of Object.entries(doc.stems[stem.id].paradigm))
+    for (const [w, cc] of Object.entries(row)) {
+      if (v === vib.id && w === vac.id) continue;
+      const o2 = (cc.steps || []).find(([, , r]) => r === 'operation');
+      if (o2 && !seen.has(o2[0])) { seen.add(o2[0]); pool.push(o2[0]); }
+    }
+  for (const code of GLOBAL_OPS) {
+    if (pool.length >= 6) break;
+    if (!seen.has(code)) { seen.add(code); pool.push(code); }
+  }
+  for (let i = pool.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [pool[i], pool[j]] = [pool[j], pool[i]];
+  }
+  const opts = [op[0], ...pool.slice(0, 2)].sort(() => Math.random() - 0.5);
+  return { track: 'noun', mode: 'surgery', stem, family, vib, vac, cell: c, doc,
+           colour: family.colour, answer: op[0], opWhy: op[1], sup: c.sup || '',
+           asks: 'which operation fires here?', opts };
+}
+
+async function huntFrom(doc, stem, family, vib, vac, c) {
+  const genuine = (c.steps || []).filter(([, , r]) => ['operation', 'sound', 'affix'].includes(r));
+  if (genuine.length < 2) return null;
+  const codes = new Set(c.steps.map((x) => x[0]));
+  let fake = null;
+  outer:
+  for (const [v, row] of Object.entries(doc.stems[stem.id].paradigm))
+    for (const [w, cc] of Object.entries(row)) {
+      if (v === vib.id && w === vac.id) continue;
+      for (const st of (cc.steps || [])) {
+        if (['operation', 'sound', 'affix'].includes(st[2]) && !codes.has(st[0])) {
+          fake = st; break outer;
+        }
+      }
+    }
+  if (!fake) return null;
+  const shown = [genuine[0], genuine[1], fake].sort(() => Math.random() - 0.5);
+  return { track: 'noun', mode: 'hunt', stem, family, vib, vac, cell: c, doc,
+           colour: family.colour, answer: fake[0], fake,
+           asks: 'one of these steps is smuggled in — which?', shown };
+}
+
 async function makeVerb() {
   const v = await ensureVerbs();
+  if (S.stage && S.stage.id.startsWith('review')) {
+    const pool = [...srsDue(), ...srsWeak()];
+    if (pool.length) {
+      const q = await slotVerb(pick(pool));
+      if (q) return q;
+    }
+  } else {
+    const due = srsDue().filter(inScope);
+    if (due.length && Math.random() < 0.6) {
+      const q = await slotVerb(pick(due));
+      if (q) return q;
+    }
+  }
   const { roots, tens } = verbScope();
   const root = pick(roots), lak = pick(tens);
   const pu = pick(v.purusha), va = pick(v.vacana);
@@ -275,6 +445,12 @@ async function makeVerb() {
              colour: lak.colour, answer: lak.en,
              cue: slot.deva, cueIast: slot.iast,
              asks: 'which tense is this?' };
+  }
+  if (mode === 'who') {
+    return { track: 'verb', mode, root, lak, pu, va, cell: slot,
+             colour: lak.colour, answer: `${pu.en} ${va.en}`,
+             cue: slot.deva, cueIast: slot.iast,
+             asks: 'who is acting?' };
   }
   return { track: 'verb', mode: 'build', root, lak, pu, va, cell: slot,
            colour: lak.colour, answer: slot.iast,
@@ -293,6 +469,13 @@ const VAC_ALIAS = {
   eka: ['eka', 'ekavacana', 'singular', 'sg'], dvi: ['dvi', 'dvivacana', 'dual', 'du'],
   bahu: ['bahu', 'bahuvacana', 'plural', 'pl'],
 };
+const PERSON_ALIAS = {
+  Uttama: ['uttama', '1st', 'first', 'i', 'we', '1'],
+  Madhyama: ['madhyama', '2nd', 'second', 'you', '2'],
+  Prathama: ['prathama', '3rd', 'third', 'he', 'she', 'it', 'they', '3'],
+};
+const GLOBAL_OPS = ['7.1.12', '7.3.111', '7.3.113', '6.1.101', '6.1.88',
+  '8.2.66', '7.2.102', '8.3.15', '6.1.78', '7.1.102'];
 const LAK_ALIAS = {
   lat: ['lat', 'present', 'pres'], lan: ['lan', 'past', 'imperfect', 'imperf'],
   lrt: ['lrt', 'future', 'fut'], lot: ['lot', 'imperative', 'imper'],
@@ -320,6 +503,16 @@ function grade(q, input) {
   if (!NFC(input)) return 'bad';
   if (q.mode === 'family') return familyMatch(input) ? 'ok' : 'bad';
   if (q.track === 'verb' && q.mode === 'tense') return classify(input, LAK_ALIAS) === q.lak.id ? 'ok' : 'bad';
+  if (q.mode === 'who') {
+    const pu = classify(input, PERSON_ALIAS), va = classify(input, VAC_ALIAS);
+    if (!pu || !va) return 'bad';
+    // verb ids are capitalised (Dvi), alias keys are not — compare loosely
+    return (pu.toLowerCase() === String(q.pu.id).toLowerCase()
+         && va.toLowerCase() === String(q.va.id).toLowerCase()) ? 'ok' : 'bad';
+  }
+  if (q.mode === 'surgery' || q.mode === 'hunt') {
+    return low(input) === low(q.answer) ? 'ok' : 'bad';
+  }
   if (q.mode === 'reverse' || q.mode === 'read') {
     const vib = classify(input, VIB_ALIAS), vac = classify(input, VAC_ALIAS);
     if (!vib || !vac) return 'bad';
@@ -565,8 +758,8 @@ function renderModes() {
   const st = S.stage;
   let modes = S.track === 'noun' ? nounModes()
     : ((st && st.modes && st.modes.length) ? st.modes.slice() : ['build', 'tense']);
-  const label = { family: 'Family', build: 'Form', reverse: 'Parse', read: 'Read', tense: 'Tense', use: 'In a sentence' };
-  const sub = { family: 'name the class', build: 'meaning → form', reverse: 'form → meaning', read: 'match the meaning', tense: 'name the tense', use: 'fill the slot' };
+  const label = { family: 'Family', build: 'Form', reverse: 'Parse', read: 'Read', tense: 'Tense', who: 'Who', use: 'In a sentence', surgery: 'Surgery', hunt: 'Hunt' };
+  const sub = { family: 'name the class', build: 'meaning → form', reverse: 'form → meaning', read: 'match the meaning', tense: 'name the tense', who: 'who acts', use: 'fill the slot', surgery: 'name the rule', hunt: 'spot the fake step' };
   if (!modes.includes(S.mode)) S.mode = modes[0];
   $('#modes').innerHTML = modes.map((m) =>
     `<button class="mode ${m === S.mode ? 'on' : ''}" data-mode="${m}"><b>${label[m]}</b><small>${sub[m]}</small></button>`).join('');
@@ -606,6 +799,45 @@ function renderCue(q) {
     }));
     return;
   }
+  if (q.mode === 'who') {
+    $('#cue').innerHTML = `<div class="cd dev">${esc(q.cell.deva)}</div>
+      <div class="ci">${esc(q.cell.iast)}</div>
+      <div class="cue-sub">${esc(q.root.iast)} · ${esc(q.lak.en)} — who is acting?</div>`;
+    $('#cue-tags').innerHTML = `<span class="tag case">${esc(q.lak.en)}</span>`;
+    return;
+  }
+  if (q.mode === 'surgery') {
+    const t = (S.index.sutra_map || {})[q.answer] || '';
+    $('#cue').innerHTML = `<div class="cd dev">${esc(q.stem.deva)}</div>
+      <div class="ci">${esc(q.stem.iast)} + sup ${esc(q.sup)}</div>
+      <div class="cue-sub">which operation fires for ${esc(q.vib.en)} ${esc(q.vac.en)}?</div>
+      <div class="optrow">` + q.opts.map((code) =>
+        `<button class="opt" data-op="${esc(code)}"><b>${esc(code)}</b><br><small>${esc((S.index.sutra_map || {})[code] || '')}</small></button>`
+      ).join('') + `</div>`;
+    $('#cue-tags').innerHTML = `<span class="tag fam">${esc(q.family.label)}</span>
+      <span class="tag case">${esc(q.vib.en)}</span><span class="tag num">${esc(q.vac.en)}</span>`;
+    $$('#cue .opt').forEach((b) => b.addEventListener('click', () => {
+      if (S.answered) return;
+      $('#input').value = b.dataset.op;
+      check();
+    }));
+    return;
+  }
+  if (q.mode === 'hunt') {
+    $('#cue').innerHTML = `<div class="cd dev">${esc(q.stem.deva)}</div>
+      <div class="ci">${esc(q.stem.iast)} · ${esc(q.vib.en)} ${esc(q.vac.en)}</div>
+      <div class="cue-sub">one of these steps is smuggled in from another derivation — which?</div>
+      <div class="optrow">` + q.shown.map(([code, after]) =>
+        `<button class="opt" data-op="${esc(code)}"><b>${esc(code)}</b><br><small>${esc(after)}</small></button>`
+      ).join('') + `</div>`;
+    $('#cue-tags').innerHTML = `<span class="tag fam">${esc(q.family.label)}</span>`;
+    $$('#cue .opt').forEach((b) => b.addEventListener('click', () => {
+      if (S.answered) return;
+      $('#input').value = b.dataset.op;
+      check();
+    }));
+    return;
+  }
   $('#cue').innerHTML = q.mode === 'reverse' || q.mode === 'tense'
     ? `<span class="cd dev">${esc(q.cue)}</span><span class="ci">${esc(q.cueIast || '')}</span>`
     : `<span class="cue-m">${esc(q.cue)}</span>`;
@@ -616,6 +848,9 @@ function renderCue(q) {
     if (q.mode === 'reverse') tags.push('<span class="tag">more than one answer may be right</span>');
     else tags.push(`<span class="tag fam">${esc(q.family.label)}</span>`);
     if (q.vib) tags.push(`<span class="tag case">${esc(q.vib.en)}</span><span class="tag num">${esc(q.vac.en)}</span>`);
+  } else if (q.mode === 'who') {
+    tags.push(`<span class="tag case">${esc(q.lak.en)}</span>`);
+    tags.push(`<span class="tag">root ${esc(q.root.iast)}</span>`);
   } else {
     tags.push(`<span class="tag case">${esc(q.lak.en)}</span>`);
     tags.push(`<span class="tag num">${esc(q.pu.en)} · ${esc(q.va.en)}</span>`);
@@ -660,6 +895,7 @@ function cellMarkup(c, isTarget, revealed) {
 function renderStageGrid(q, revealed) {
   const host = $('#stagegrid');
   if (q.mode === 'family' || !q.cell) { host.innerHTML = ''; return; }
+  if (q.mode === 'who' || q.mode === 'surgery' || q.mode === 'hunt') { host.innerHTML = ''; return; }
 
   if (q.track === 'noun') {
     const p = q.doc.stems[q.stem.id].paradigm;
@@ -721,6 +957,17 @@ function renderFeedback(q, verdict, input) {
   } else if (q.mode === 'tense') {
     $('#correct').innerHTML = `<span>${esc(q.lak.en)}</span><span class="ci">${esc(q.lak.deva)}</span>`;
     $('#yours').innerHTML = `<span class="lbl">the form</span><span class="dev">${esc(q.cell.deva)}</span> ${esc(q.cell.iast)}`;
+  } else if (q.mode === 'who') {
+    $('#correct').innerHTML = `<span>${esc(q.pu.en)} person · ${esc(q.va.en)}</span>`;
+    $('#yours').innerHTML = `<span class="lbl">the form</span><span class="dev">${esc(q.cell.deva)}</span> ${esc(q.cell.iast)}` +
+      (verdict === 'ok' ? '' : `<span class="lbl">you wrote</span>${esc(input)}`);
+  } else if (q.mode === 'surgery') {
+    const t = (S.index.sutra_map || {})[q.answer] || '';
+    $('#correct').innerHTML = `<span><code>${esc(q.answer)}</code> ${esc(t)}</span><span class="ci">${esc(q.opWhy)}</span>`;
+    $('#yours').innerHTML = verdict === 'ok' ? '' : `<span class="lbl">you wrote</span>${esc(input)}`;
+  } else if (q.mode === 'hunt') {
+    $('#correct').innerHTML = `<span><code>${esc(q.answer)}</code> does not belong here</span>`;
+    $('#yours').innerHTML = verdict === 'ok' ? '' : `<span class="lbl">you wrote</span>${esc(input)}`;
   } else if (q.mode === 'read') {
     const V = S.index.vibhakti.find((x) => x.id === q.vib.id);
     const W = S.index.vacana.find((x) => x.id === q.vac.id);
@@ -754,6 +1001,15 @@ function renderFeedback(q, verdict, input) {
   $('#trace').hidden = true;
   $('#btn-why').textContent = 'show the derivation';
   $('#btn-why').hidden = q.mode === 'family';
+  if (q.mode === 'hunt') {
+    $('#trace').innerHTML += `<div class="tr fake"><span class="c">${esc(q.answer)}</span>`
+      + `<span>smuggled in from another derivation</span>`
+      + `<span class="a">${esc((q.fake || [])[1] || '')}</span></div>`;
+  }
+  if (q.mode === 'surgery' || q.mode === 'hunt') {
+    $('#trace').hidden = false;
+    $('#btn-why').textContent = 'hide the derivation';
+  }
   $('#btn-next').hidden = false;
   $('#btn-check').hidden = true;
   $('#input').disabled = true;
@@ -777,9 +1033,47 @@ function renderRail() {
   if (S.railTab === 'path') renderPath(host); else renderBrowse(host);
 }
 
+function reviewCount() {
+  return [...srsDue(), ...srsWeak()].filter(inScope).length;
+}
+function reviewStage() {
+  return { id: 'review:' + S.track, track: S.track, title: 'Review due items',
+           sub: 'spaced repetition + your weak slots', modes: ['build'],
+           why: 'Items you missed come back first; items you have not seen for a while come back next.',
+           review: true };
+}
+function suggestMode(st) {
+  if (!st || !st.modes) return null;
+  for (const m of st.modes) {
+    const r = (S.stats.stages[st.id]?.modes || {})[m];
+    if (!r || r.t < 6 || r.r / r.t < 0.8) return m;
+  }
+  return st.modes[st.modes.length - 1];
+}
+function caseMastery() {
+  // per-case accuracy across all noun slots seen so far
+  const out = [];
+  for (const v of S.index.vibhakti) {
+    let t = 0, r = 0;
+    for (const [k, s] of Object.entries(S.stats.slots || {})) {
+      const parts = k.split('|');
+      if (parts[0] === 'v' || parts[1] !== v.id) continue;
+      t += s.t || 0; r += s.r || 0;
+    }
+    out.push({ id: v.id, en: v.en, t, acc: t ? r / t : null });
+  }
+  return out;
+}
 function renderPath(host) {
   const stages = stagesForTrack();
-  host.innerHTML = stages.map((st, i) => {
+  const rc = reviewCount();
+  host.innerHTML = `<button class="pstage review ${S.stage && S.stage.review ? 'on' : ''}"
+      data-review="1" ${rc ? '' : 'disabled'}>
+      <span class="st-n">↻</span>
+      <span class="st-b"><b>Review</b><small>${rc ? rc + ' due or weak' : 'nothing due — you are clear'}</small>
+      <span class="st-bar"><i style="width:${rc ? 100 : 0}%"></i></span></span>
+      <span class="st-p">${rc || ''}</span>
+    </button>` + stages.map((st, i) => {
     const p = stageProgress(st.id);
     const open = stageUnlocked(st);
     const active = S.stage && S.stage.id === st.id;
@@ -792,10 +1086,30 @@ function renderPath(host) {
       <span class="st-p">${p.tries ? pct + '%' : ''}</span>
     </button>`;
   }).join('');
+  const cm = S.track === 'noun' ? caseMastery().filter((c) => c.t > 0) : [];
+  if (cm.length) {
+    const dots = cm.map((c) =>
+      `<span class="cdot" title="${esc(c.en)}: ${Math.round(c.acc * 100)}% over ${c.t}" data-case="${c.id}">
+        <i style="height:${Math.round(c.acc * 100)}%"></i></span>`).join('');
+    host.innerHTML = `<div class="cmaster"><div class="cm-t">cases</div><div class="cdots">${dots}</div></div>` + host.innerHTML;
+    host.querySelectorAll('[data-case]').forEach((b) => b.addEventListener('click', () => {
+      startStage({ id: 'adhoc-case-' + b.dataset.case, track: 'noun',
+                   title: 'drill: ' + b.dataset.case, why: 'You chose this case.',
+                   families: [], cases: [b.dataset.case],
+                   modes: ['build', 'reverse', 'use', 'read'], adhoc: true });
+      beginDrill();
+    }));
+  }
   host.querySelectorAll('[data-stage]').forEach((b) => b.addEventListener('click', () => {
     if (b.disabled) return;
     startStage(S.curriculum.stages.find((x) => x.id === b.dataset.stage));
   }));
+  const rb = host.querySelector('[data-review]');
+  if (rb && !rb.disabled) rb.addEventListener('click', () => {
+    const st = reviewStage();
+    S.stats.seen[st.id] = 1;
+    startStage(st);
+  });
 }
 
 function renderBrowse(host) {
@@ -985,7 +1299,9 @@ function startStage(st) {
   syncTrackButtons();
   S.railTab = 'path';
   $$('.rt').forEach((x) => x.classList.toggle('on', x.dataset.tab === 'path'));
-  S.mode = (st.modes && st.modes[0]) || 'build';
+  // auto-progression: practise the first mode you have not passed yet
+  S.mode = (!st.review && suggestMode(st)) || (st.modes && st.modes[0]) || 'build';
+  if (st.review) { S.stats.seen[st.id] = 1; saveStats(); beginDrill(); return; }
   if (!S.stats.seen[st.id]) { S.stats.seen[st.id] = 1; saveStats(); showLearn(st); return; }
   showLearn(st);
 }
@@ -1009,6 +1325,8 @@ async function newQuestion() {
   $('#stagegrid').innerHTML = '';
   $('#input').value = '';
   $('#input').placeholder = (S.q.mode === 'reverse' || S.q.mode === 'read') ? 'genitive singular'
+    : S.q.mode === 'who' ? '1st singular'
+    : (S.q.mode === 'surgery' || S.q.mode === 'hunt') ? 'sūtra number, e.g. 7.1.12'
     : S.q.mode === 'tense' ? 'present / past / future…'
     : S.q.mode === 'family' ? 'short -a masculine' : 'type the form in roman';
   $('#hint').textContent = S.stage ? `${S.stage.title}` : '';
@@ -1029,24 +1347,45 @@ function check() {
   st.total++;
   if (S.stage) {
     const id = S.stage.id;
-    st.stages[id] = st.stages[id] || { t: 0, r: 0 };
+    st.stages[id] = st.stages[id] || { t: 0, r: 0, modes: {} };
     st.stages[id].t++;
     if (verdict === 'ok') st.stages[id].r++;
+    const mm = st.stages[id].modes[S.q.mode] || (st.stages[id].modes[S.q.mode] = { t: 0, r: 0 });
+    mm.t++; if (verdict === 'ok') mm.r++;
   }
   const key = S.q.track === 'noun' ? S.q.family.id : S.q.lak.id;
   st.fam[key] = st.fam[key] || { t: 0, r: 0 };
   st.fam[key].t++;
   if (verdict === 'ok') { st.right++; st.streak++; st.fam[key].r++; } else st.streak = 0;
 
-  // per-slot mastery (family × case × number, or tense × person × number)
-  if (S.q.track === 'noun' && S.q.vib) {
-    const k = `${S.q.family.id}|${S.q.vib.id}|${S.q.vac.id}`;
-    st.slots[k] = st.slots[k] || { t: 0, r: 0 };
-    st.slots[k].t++; if (verdict === 'ok') st.slots[k].r++;
-  } else if (S.q.track === 'verb' && S.q.lak) {
-    const k = `v|${S.q.lak.id}|${S.q.pu.id}|${S.q.va.id}`;
-    st.slots[k] = st.slots[k] || { t: 0, r: 0 };
-    st.slots[k].t++; if (verdict === 'ok') st.slots[k].r++;
+  // per-slot mastery + SRS (SM-2-lite). Old {t,r} records migrate lazily.
+  // exp = the right answer seen here; got = what was last typed wrong here.
+  // When got matches another slot's exp, the learner confuses the two.
+  const DAY = 86400000, now = Date.now();
+  const srs = (k) => {
+    const r = st.slots[k] || (st.slots[k] = { t: 0, r: 0, e: 2.5, i: 0, due: 0 });
+    if (r.e === undefined) { r.e = 2.5; r.i = 0; r.due = 0; }
+    r.t++;
+    if (verdict === 'ok') {
+      r.r++;
+      r.e = Math.min(2.5, r.e + 0.1);
+      r.i = r.i === 0 ? 1 : r.i === 1 ? 3 : Math.round(r.i * r.e);
+      r.due = now + r.i * DAY;
+    } else {
+      r.e = Math.max(1.3, r.e - 0.2);
+      r.i = 0; r.due = now;
+    }
+    return r;
+  };
+  let slotKey = null;
+  if (S.q.track === 'noun' && S.q.vib) slotKey = `${S.q.family.id}|${S.q.vib.id}|${S.q.vac.id}`;
+  else if (S.q.track === 'verb' && S.q.lak) slotKey = `v|${S.q.lak.id}|${S.q.pu.id}|${S.q.va.id}`;
+  if (slotKey) {
+    srs(slotKey);
+    const rec = st.slots[slotKey];
+    if (S.q.answer) rec.exp = low(S.q.answer);
+    if (verdict === 'bad') rec.got = low(input);
+    else if (rec.got && rec.got !== low(S.q.answer || '')) { /* keep history */ }
   }
 
   // wrong → re-ask this exact item later in the session
@@ -1056,8 +1395,17 @@ function check() {
 
   saveStats();
 
+  if (verdict === 'bad') {
+    const hit = confusionHit(low(input));
+    if (hit) S.confusionNote = `“${input.trim()}” is actually ${slotLabel(hit)} — compare the two jobs.`;
+    else S.confusionNote = null;
+  } else S.confusionNote = null;
   renderAfter(S.q, verdict, input);
   renderFeedback(S.q, verdict, input);
+  if (S.confusionNote) {
+    const y = $('#yours');
+    if (y) y.innerHTML += `<div class="lbl">look closer</div><span class="g">${esc(S.confusionNote)}</span>`;
+  }
   renderRail();
   paintStats();
   $('#hint').textContent = verdict === 'ok' ? 'Correct — Enter for the next one.' : 'Not quite. Read the rule, then Enter to redo it later.';

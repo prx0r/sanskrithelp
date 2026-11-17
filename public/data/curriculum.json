@@ -193,7 +193,9 @@
    "id": "n10",
    "modes": [
     "build",
-    "read"
+    "read",
+    "surgery",
+    "hunt"
    ],
    "needs": [
     "n9"
@@ -210,7 +212,9 @@
    "modes": [
     "build",
     "reverse",
-    "read"
+    "read",
+    "surgery",
+    "hunt"
    ],
    "needs": [
     "n10"
@@ -302,7 +306,8 @@
    ],
    "modes": [
     "build",
-    "tense"
+    "tense",
+    "who"
    ],
    "needs": [
     "v4"
@@ -318,7 +323,8 @@
    "lakara": [],
    "modes": [
     "tense",
-    "build"
+    "build",
+    "who"
    ],
    "needs": [
     "v5"
@@ -328,6 +334,82 @@
    "title": "all tenses mixed",
    "track": "verb",
    "why": "Recognition across the whole system: given any form, say what it is doing and to whom."
+  },
+  {
+   "cases": [
+    "prathama",
+    "dvitiya"
+   ],
+   "families": [
+    "a-masc"
+   ],
+   "id": "x1",
+   "lakara": [
+    "lat"
+   ],
+   "modes": [
+    "build",
+    "use"
+   ],
+   "needs": [
+    "n2",
+    "v2"
+   ],
+   "sub": "a-masc subjects and objects, verbs agree",
+   "title": "sentences I · present tense",
+   "track": "noun",
+   "verbs": true,
+   "why": "Cases meet verbs. Every sentence here is subject–object–verb in the present; the verb agrees with the subject, so a plural subject changes two words, not one."
+  },
+  {
+   "cases": [],
+   "families": [
+    "a-masc",
+    "a-neut",
+    "aa-fem"
+   ],
+   "id": "x2",
+   "lakara": [
+    "lat",
+    "lan"
+   ],
+   "modes": [
+    "build",
+    "use",
+    "reverse"
+   ],
+   "needs": [
+    "x1",
+    "n5"
+   ],
+   "sub": "three families, past and present",
+   "title": "sentences II · cases in the wild",
+   "track": "noun",
+   "verbs": true,
+   "why": "The same six cases across a-masc, a-neut and ā-fem, with past-tense verbs. Transfer is the skill: same job, new family, new ending."
+  },
+  {
+   "cases": [],
+   "families": [],
+   "id": "x3",
+   "lakara": [],
+   "modes": [
+    "build",
+    "use",
+    "reverse",
+    "read",
+    "surgery"
+   ],
+   "needs": [
+    "x2",
+    "n10",
+    "v5"
+   ],
+   "sub": "all families, all tenses",
+   "title": "sentences III · everything combined",
+   "track": "noun",
+   "verbs": true,
+   "why": "Full reading simulation: any case, any family, any of the five tenses. If you can fill these slots, you can read simple Sanskrit."
   }
  ]
 }
