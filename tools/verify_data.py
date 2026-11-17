@@ -38,6 +38,8 @@ def main() -> int:
         ("public/assets/style.css", "the stylesheet"),
         ("public/data/index.json", "the index"),
         ("public/data/sutras.json", "the sutra citation text"),
+        ("public/data/verbs.json", "the verb paradigms"),
+        ("public/data/cases.json", "the karaka/case map"),
         ("public/robots.txt", "crawl policy"),
         ("public/sitemap.xml", "sitemap"),
     ]:
@@ -97,6 +99,21 @@ def main() -> int:
                                 break
     if seen_forms != counts.get("forms"):
         errors.append(f"family files hold {seen_forms} forms, index claims {counts.get('forms')}")
+
+    verbs = json.loads((DATA / "verbs.json").read_text(encoding="utf-8"))
+    vc = verbs.get("counts", {})
+    if vc.get("errors"):
+        errors.append(f"{vc['errors']} verb derivation errors")
+    if vc.get("forms") != vc.get("slots"):
+        errors.append(f"verb coverage {vc.get('forms')}/{vc.get('slots')}")
+    for rid, tenses in verbs.get("paradigms", {}).items():
+        for lid, slot in tenses.items():
+            for key, c in slot.items():
+                if c.get("status") == "DERIVED" and (not c.get("iast") or not c.get("steps")):
+                    errors.append(f"verb {rid}.{lid}.{key}: DERIVED without form/trace")
+    cases = json.loads((DATA / "cases.json").read_text(encoding="utf-8"))
+    if len(cases.get("karaka", [])) != 6:
+        errors.append("cases.json should hold six karakas")
 
     cc = index.get("crosscheck", {})
     if cc.get("status") == "complete":

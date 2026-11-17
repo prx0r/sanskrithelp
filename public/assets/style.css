@@ -180,3 +180,20 @@ button{font:inherit;color:inherit;cursor:pointer}
   .correct{font-size:24px}
   .grid{grid-template-columns:56px repeat(3,1fr)}
 }
+
+/* ---------- track switch + rail tabs ---------- */
+.track{display:flex;gap:2px;background:#0b1017;border:1px solid var(--line);border-radius:10px;padding:2px}
+.tk{background:transparent;border:none;border-radius:8px;padding:4px 10px;display:flex;flex-direction:column;
+  line-height:1.1;color:var(--muted)}
+.tk b{font-size:12px;font-weight:700}
+.tk small{font-size:9px;color:var(--dim)}
+.tk.on{background:var(--panel2);color:var(--text)}
+.tk.on small{color:#8fb4dc}
+.tabs{display:flex;gap:3px}
+.rt{background:transparent;border:1px solid transparent;border-radius:7px;padding:3px 8px;
+  font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--dim);font-weight:800}
+.rt.on{background:var(--panel2);border-color:var(--line);color:var(--text)}
+@media(max-width:760px){
+  .track{order:2}
+  .be{display:none}
+}

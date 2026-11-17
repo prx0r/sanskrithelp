@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
-<title>Prakriyā — Sanskrit declension trainer</title>
-<meta name="description" content="Learn Sanskrit noun families by colour. Type the form, check it, see exactly what went wrong.">
+<title>Prakriyā — Sanskrit drill trainer</title>
+<meta name="description" content="Drill Sanskrit noun families and verb tenses by colour. Type the form, check it, see exactly what went wrong.">
 <link rel="canonical" href="https://sanskrit.help/">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%2714%27 fill=%27%230d1117%27/%3E%3Ctext x=%2732%27 y=%2745%27 font-size=%2738%27 text-anchor=%27middle%27 fill=%27%234f9cff%27%3E%E0%A4%AA%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="assets/style.css">
@@ -14,12 +14,12 @@
 <header class="bar">
   <div class="brand"><span class="bd">प्रक्रिया</span><span class="be">Prakriyā</span></div>
 
-  <nav class="modes" id="modes">
-    <button class="mode on" data-mode="family"><b>Family</b><small>name the class</small></button>
-    <button class="mode" data-mode="build"><b>Build</b><small>type the form</small></button>
-    <button class="mode" data-mode="reverse"><b>Reverse</b><small>name the case</small></button>
-    <button class="mode" data-mode="mix"><b>Mix</b><small>everything</small></button>
-  </nav>
+  <div class="track" id="track">
+    <button class="tk on" data-track="noun"><b>Nouns</b><small>cases · families</small></button>
+    <button class="tk" data-track="verb"><b>Verbs</b><small>tenses</small></button>
+  </div>
+
+  <nav class="modes" id="modes"></nav>
 
   <div class="stats">
     <div class="stat"><b id="s-streak">0</b><span>streak</span></div>
@@ -30,25 +30,22 @@
 
 <main class="app">
 
-  <!-- ============ rail: families ============ -->
   <aside class="rail" id="rail">
     <div class="rail-head">
-      <span>Families</span>
+      <div class="tabs" id="railtabs"></div>
       <button class="ghost sm" id="btn-all">all</button>
     </div>
     <div class="famlist" id="famlist"></div>
   </aside>
 
-  <!-- ============ stage ============ -->
   <section class="stage">
-
     <div class="prompt" id="prompt">
       <div class="p-stem">
-        <span class="p-deva dev" id="p-deva">देव</span>
-        <span class="p-iast" id="p-iast">deva</span>
-        <span class="p-gloss" id="p-gloss">god</span>
+        <span class="p-deva dev" id="p-deva">—</span>
+        <span class="p-iast" id="p-iast"></span>
+        <span class="p-gloss" id="p-gloss"></span>
       </div>
-      <div class="p-ask" id="p-ask">Which family?</div>
+      <div class="p-ask" id="p-ask">Loading…</div>
       <div class="p-tags" id="p-tags"></div>
     </div>
 
@@ -59,16 +56,15 @@
     </div>
 
     <div class="keys" id="keys"></div>
-
     <div class="hintline" id="hint"></div>
   </section>
 
-  <!-- ============ feedback ============ -->
   <aside class="feedback" id="feedback">
     <div class="fb-empty" id="fb-empty">
       <div class="fb-empty-t">Type an answer, then press Enter.</div>
       <ul class="legend" id="legend"></ul>
     </div>
+
     <div class="fb-body" id="fb-body" hidden>
       <div class="verdict" id="verdict"></div>
       <div class="correct" id="correct"></div>
