@@ -197,3 +197,38 @@ button{font:inherit;color:inherit;cursor:pointer}
   .track{order:2}
   .be{display:none}
 }
+
+/* ---------- stage grid: the thing you are filling in ---------- */
+.stagegrid{flex:1 1 auto;min-height:0;overflow:auto;margin:14px 0 10px;
+  border:1px solid var(--line);border-radius:12px;background:var(--panel);padding:8px}
+.sg{display:grid;gap:3px}
+.sg.noun{grid-template-columns:58px repeat(3,minmax(0,1fr))}
+.sg.verb{grid-template-columns:58px repeat(3,minmax(0,1fr))}
+.sg .h{font-size:9.5px;text-transform:uppercase;letter-spacing:.07em;color:var(--dim);
+  text-align:center;padding:2px 0;font-weight:700}
+.sg .rh{font-size:9.5px;color:var(--dim);display:flex;align-items:center;
+  text-transform:uppercase;letter-spacing:.05em;font-weight:700}
+.sg .c{font-size:12px;text-align:center;padding:7px 3px;border-radius:6px;background:#131c27;
+  color:#8ba0b8;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sg .c.dev{font-family:var(--dev);font-size:13.5px;color:#cfe0f0}
+.sg .c.target{background:color-mix(in srgb,var(--fc) 22%,#131c27);
+  border:1px solid var(--fc);color:#fff;font-weight:700}
+.sg .c.target.hidden{color:var(--fc);background:transparent;border-style:dashed}
+.sg .c.solved{background:var(--fc);color:#08111c;font-weight:800;border:1px solid var(--fc)}
+.sg .c.b{color:#4d5b6e}
+.sg-hint{font-size:10.5px;color:var(--dim);margin-top:7px;text-align:center}
+
+/* family answer pad */
+.fampad{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:5px}
+.fampad button{display:flex;align-items:center;gap:7px;padding:7px 9px;border-radius:8px;
+  background:#131c27;border:1px solid var(--line);color:var(--text);font-size:12px;text-align:left}
+.fampad button:hover{border-color:var(--fc,var(--muted))}
+.fampad .sw{width:8px;height:8px;border-radius:3px;flex:0 0 auto}
+.fampad button.right{border-color:var(--ok);background:rgba(61,220,151,.14)}
+.fampad button.wrong{border-color:var(--bad);background:rgba(255,107,107,.12)}
+@media(max-width:760px){
+  .sg.noun,.sg.verb{grid-template-columns:44px repeat(3,minmax(0,1fr))}
+  .sg .c{font-size:10.5px;padding:5px 2px}
+  .sg .c.dev{font-size:11.5px}
+  .sg .h,.sg .rh{font-size:8.5px}
+}

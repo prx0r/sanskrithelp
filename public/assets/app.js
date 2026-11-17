@@ -325,36 +325,62 @@ function renderPrompt(q) {
   $('#p-tags').innerHTML = tags.join('');
 }
 
-function renderGrid(q) {
-  const host = $('#grid');
+function renderStageGrid(q, revealed) {
+  const host = $('#stagegrid');
+
+  // family question: colour pad of every family
+  if (q.mode === 'family') {
+    host.innerHTML = `<div class="fampad">` + S.index.families.map((f) =>
+      `<button data-fam="${f.id}" style="--fc:${f.colour}">
+         <span class="sw" style="background:${f.colour}"></span>${esc(f.label)}</button>`).join('') + `</div>`;
+    host.querySelectorAll('[data-fam]').forEach((b) => b.addEventListener('click', () => {
+      if (S.answered) return;
+      $('#input').value = S.index.families.find((f) => f.id === b.dataset.fam).label;
+      check();
+    }));
+    return;
+  }
+
   if (q.track === 'noun') {
-    if (!q.vib) { host.innerHTML = ''; return; }
     const p = q.doc.stems[q.stem.id].paradigm;
-    let html = '<div class="gh"></div>' + S.index.vacana.map((w) => `<div class="gh">${w.en.slice(0, 3)}</div>`).join('');
+    let html = '<div class="sg noun"><div class="h"></div>' +
+      S.index.vacana.map((w) => `<div class="h">${w.en.slice(0, 3)}</div>`).join('');
     for (const v of S.index.vibhakti) {
-      html += `<div class="gc">${v.en.slice(0, 5)}</div>`;
+      html += `<div class="rh">${v.en.slice(0, 5)}</div>`;
       for (const w of S.index.vacana) {
         const c = p[v.id]?.[w.id];
-        const hit = q.mode === 'build'
+        const isTarget = q.mode === 'build'
           ? (v.id === q.vib.id && w.id === q.vac.id)
           : (q.analyses || []).some(([a, b]) => a === v.id && b === w.id);
-        html += `<div class="cell ${hit ? 'hit' : ''}">${c && c.status === 'DERIVED' ? esc(c.iast) : '—'}</div>`;
+        if (!c || c.status !== 'DERIVED') { html += `<div class="c b">—</div>`; continue; }
+        if (isTarget && !revealed) html += `<div class="c dev target hidden">?</div>`;
+        else if (isTarget && revealed) html += `<div class="c dev solved">${esc(c.deva)}</div>`;
+        else html += `<div class="c dev">${esc(c.deva)}</div>`;
       }
     }
+    html += '</div><div class="sg-hint">' +
+      (revealed ? 'the target cell is in colour' : 'every neighbour is given — work out the one marked ?') + '</div>';
     host.innerHTML = html;
     return;
   }
-  // verb: 3x3 person × number for the same tense
+
+  // verb: 3 × 3 for this root + tense
   const slot = S.verbs.paradigms[q.root.id][q.lak.id];
-  let html = '<div class="gh"></div>' + S.verbs.vacana.map((w) => `<div class="gh">${w.en.slice(0, 3)}</div>`).join('');
+  let html = '<div class="sg verb"><div class="h"></div>' +
+    S.verbs.vacana.map((w) => `<div class="h">${w.en.slice(0, 3)}</div>`).join('');
   for (const pu of S.verbs.purusha) {
-    html += `<div class="gc">${pu.en} per</div>`;
+    html += `<div class="rh">${pu.en} per</div>`;
     for (const va of S.verbs.vacana) {
       const c = slot[`${pu.id}.${va.id}`];
-      const hit = pu.id === q.pu.id && va.id === q.va.id;
-      html += `<div class="cell ${hit ? 'hit' : ''}">${c && c.status === 'DERIVED' ? esc(c.iast) : '—'}</div>`;
+      const isTarget = pu.id === q.pu.id && va.id === q.va.id;
+      if (!c || c.status !== 'DERIVED') { html += `<div class="c b">—</div>`; continue; }
+      if (isTarget && !revealed) html += `<div class="c dev target hidden">?</div>`;
+      else if (isTarget && revealed) html += `<div class="c dev solved">${esc(c.deva)}</div>`;
+      else html += `<div class="c dev">${esc(c.deva)}</div>`;
     }
   }
+  html += `</div><div class="sg-hint">${esc(q.root.iast)} · ${esc(q.lak.en)} — ` +
+    (revealed ? 'target in colour' : 'find the ? cell') + '</div>';
   host.innerHTML = html;
 }
 
@@ -407,7 +433,6 @@ function renderFeedback(q, verdict, input) {
     }
   }
 
-  renderGrid(q);
   renderTrace(q);
   $('#trace').hidden = true;
   $('#btn-why').textContent = 'why? show the derivation';
@@ -436,6 +461,7 @@ async function newQuestion() {
   renderRail();
   renderLegend();
   renderPrompt(S.q);
+  renderStageGrid(S.q, false);
   $('#input').value = '';
   $('#input').placeholder =
     S.q.mode === 'family' ? 'short -a masculine'
@@ -461,7 +487,9 @@ function check() {
   st.fam[key] = st.fam[key] || { t: 0, r: 0 };
   st.fam[key].t++;
   if (verdict === 'ok') { st.right++; st.streak++; st.fam[key].r++; } else st.streak = 0;
-  saveStats(); paintStats(); renderRail(); renderFeedback(S.q, verdict, input);
+  saveStats(); paintStats(); renderRail();
+  renderStageGrid(S.q, true);
+  renderFeedback(S.q, verdict, input);
   $('#hint').textContent = verdict === 'ok'
     ? 'Correct — Enter for the next one.'
     : 'Read the breakdown, then press Enter.';
