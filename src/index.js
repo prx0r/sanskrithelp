@@ -153,6 +153,21 @@ const TOOLS = [
     },
   },
   {
+    name: 'parse',
+    description: 'Grade a recognition answer: given a stem and one of its surface forms plus the learner\'s claimed case and number, say valid or invalid and list every valid analysis of that form. Use this to grade reverse/read answers without revealing the mapping first.',
+    inputSchema: {
+      type: 'object',
+      properties: {
+        stem: { type: 'string', description: 'stem id, e.g. deva' },
+        form: { type: 'string', description: "a surface form of that stem, e.g. devau" },
+        case: { type: 'string', description: "learner's claimed case (id or name)" },
+        number: { type: 'string', description: "learner's claimed number (eka/dvi/bahu or singular/dual/plural)" },
+      },
+      required: ['stem', 'form', 'case', 'number'],
+      additionalProperties: false,
+    },
+  },
+  {
     name: 'tenses',
     description: 'List the 5 lakāras (tense/mood) with the colour that identifies each, plus the 15 roots available.',
     inputSchema: { type: 'object', properties: {}, additionalProperties: false },
@@ -199,7 +214,7 @@ const TOOLS = [
   },
   {
     name: 'drill',
-    description: 'Get one practice question. track="noun" or "verb"; mode optional (family|build|reverse for nouns, build|tense for verbs). The answer is included — do NOT reveal it; ask the learner first, then grade with check or verb_check.',
+    description: 'Get one practice question. track="noun" or "verb"; mode optional (family|build|reverse|read for nouns, build|tense for verbs). By default the answer is withheld: ask the learner first, then grade with check / verb_check / parse (which returns the correct form or the valid analyses). Pass reveal:true only for self-study.',
     inputSchema: {
       type: 'object',
       properties: {
@@ -278,6 +293,27 @@ async function callTool(env, name, args) {
                steps: slot.steps, hint: verdict === 'wrong' ? 'check the stem family and the sup ending' : null };
     }
 
+    case 'parse': {
+      const ix2 = await index(env);
+      const s = ix2.stems.find((x) => x.id === args.stem || x.iast === low(args.stem));
+      if (!s) throw new Error(`unknown stem ${args.stem}`);
+      const vib = vibOf(ix2, args.case);
+      const vac = vacOf(ix2, args.number);
+      if (!vib) throw new Error(`unknown case ${args.case}`);
+      if (!vac) throw new Error(`unknown number ${args.number}`);
+      const doc = await family(env, s.family);
+      const analyses = [];
+      for (const [v2, row] of Object.entries(doc.stems[s.id].paradigm))
+        for (const [w2, cc] of Object.entries(row))
+          if (cc.status === 'DERIVED' && low(cc.iast) === low(args.form)) analyses.push(`${v2}.${w2}`);
+      if (!analyses.length) throw new Error(`${args.form} is not a form of ${s.iast}`);
+      const ok = analyses.some((a) => a === `${vib.id}.${vac.id}`);
+      const f = ix2.families.find((x) => x.id === s.family);
+      return { verdict: ok ? 'valid' : 'invalid', form: args.form,
+               claimed: `${vib.en} ${vac.en}`,
+               valid_analyses: analyses, colour: f.colour };
+    }
+
     case 'tenses': {
       const v = await verbs(env);
       return {
@@ -319,7 +355,7 @@ async function callTool(env, name, args) {
         const stems = ix.stems.filter((s) => s.family === fam);
         const s = pick(stems.length ? stems : ix.stems);
         const doc = await family(env, s.family);
-        const mode = args.mode || pick(['family', 'build', 'reverse']);
+        const mode = args.mode || pick(['family', 'build', 'reverse', 'read']);
         const familyObj = ix.families.find((f) => f.id === s.family);
         if (mode === 'family') {
           const out = { track: 'noun', mode, colour: familyObj.colour,
@@ -331,16 +367,19 @@ async function callTool(env, name, args) {
         const vib = pick(ix.vibhakti), vac = pick(ix.vacana);
         const c = doc.stems[s.id].paradigm[vib.id][vac.id];
         if (c.status !== 'DERIVED') return { track: 'noun', blocked: true, retry: true };
-        if (mode === 'reverse') {
-          const analyses = [];
-          for (const [v2, row] of Object.entries(doc.stems[s.id].paradigm))
-            for (const [w2, cc] of Object.entries(row))
-              if (cc.status === 'DERIVED' && low(cc.iast) === low(c.iast)) analyses.push(`${v2}.${w2}`);
-          const rout = { track: 'noun', mode: 'reverse', prompt: `Which case and number is ${c.iast} (of ${s.iast})?`,
+        if (mode === 'reverse' || mode === 'read') {
+          const rout = { track: 'noun', mode, prompt: `Which case and number is ${c.iast} (of ${s.iast}, "${s.gloss}")?`,
                    colour: familyObj.colour,
-                   check_with: 'check', args: { stem: s.id, answer: '__LEARNER__' },
-                   note: 'grade the learner reply with check (accept any analysis); never reveal the mapping first' };
-          if (args.reveal) rout.answer = analyses;
+                   check_with: 'parse',
+                   args: { stem: s.id, form: c.iast, case: '__LEARNER_CASE__', number: '__LEARNER_NUMBER__' },
+                   note: 'ask first; then grade with parse. Accept any valid analysis; never reveal the valid list first' };
+          if (args.reveal) {
+            const analyses = [];
+            for (const [v2, row] of Object.entries(doc.stems[s.id].paradigm))
+              for (const [w2, cc] of Object.entries(row))
+                if (cc.status === 'DERIVED' && low(cc.iast) === low(c.iast)) analyses.push(`${v2}.${w2}`);
+            rout.answer = analyses;
+          }
           return rout;
         }
         const bout = { track: 'noun', mode: 'build',

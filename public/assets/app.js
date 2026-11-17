@@ -624,12 +624,12 @@ function renderCue(q) {
     S.readOpts = opts;
     $('#cue').innerHTML = `<div class="cd dev">${esc(q.cell.deva)}</div>
       <div class="ci">${esc(q.cell.iast)}</div>
-      <div class="cue-sub">${esc(q.asks)}</div>
       <div class="optrow">` + opts.map(([v, w], i) => {
         const label = meaningOf(v, q.stem.id, w);
         return `<button class="opt" data-oi="${i}">${esc(label)}</button>`;
       }).join('') + `</div>`;
-    $('#cue-tags').innerHTML = `<span class="tag fam">${esc(q.family.label)}</span>`;
+    $('#cue-tags').innerHTML = '';
+    $('#cue-sub').textContent = q.asks;
     $$('#cue .opt').forEach((b) => b.addEventListener('click', () => {
       if (S.answered) return;
       const [v, w] = S.readOpts[+b.dataset.oi];
@@ -1042,7 +1042,7 @@ async function newQuestion() {
   renderCue(S.q);
   $('#stagegrid').innerHTML = '';
   $('#input').value = '';
-  $('#input').placeholder = S.q.mode === 'reverse' ? 'genitive singular'
+  $('#input').placeholder = (S.q.mode === 'reverse' || S.q.mode === 'read') ? 'genitive singular'
     : S.q.mode === 'tense' ? 'present / past / future…'
     : S.q.mode === 'family' ? 'short -a masculine' : 'type the form in roman';
   $('#hint').textContent = S.stage ? `${S.stage.title}` : '';
