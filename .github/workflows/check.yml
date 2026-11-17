@@ -1,0 +1,32 @@
+name: Check
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    name: Data gates (no network, no Vidyut)
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Deterministic emitter checks (offline-safe)
+        run: |
+          python3 tools/build_sentences.py --check
+          python3 tools/verify_data.py
+      - name: Worker and app syntax
+        run: |
+          node --check src/index.js
+          node --check public/assets/app.js
+      - name: Committed-data test suite
+        run: node --test tests/*.cjs

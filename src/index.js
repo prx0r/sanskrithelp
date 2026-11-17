@@ -221,6 +221,18 @@ const TOOLS = [
     },
   },
   {
+    name: 'teach',
+    description: 'The Learn card for one curriculum stage: scope, why it sits here, the paradigm table with sup endings and operation codes, the case spotlight, one example sentence and related real-text citations. Call this BEFORE any drill on the stage — teaching precedes testing, always.',
+    inputSchema: {
+      type: 'object',
+      properties: {
+        stage: { type: 'string', description: 'stage id, e.g. n1 (see curriculum)' },
+      },
+      required: ['stage'],
+      additionalProperties: false,
+    },
+  },
+  {
     name: 'attested',
     description: 'Real-text citations: verses from the corpus where a drilled form actually occurs, with work, verse id, Sanskrit and translation. Hard text — use as "spot the form you know", never as beginner reading.',
     inputSchema: {
@@ -414,6 +426,64 @@ async function callTool(env, name, args) {
       return out;
     }
 
+    case 'teach': {
+      const c = await curriculum(env);
+      const st = c.stages.find((x) => x.id === args.stage);
+      if (!st) throw new Error(`unknown stage ${args.stage}. See curriculum.`);
+      const out = { stage: st.id, track: st.track, title: st.title, why: st.why, modes: st.modes };
+      if (st.track === 'noun') {
+        const famId = (st.families && st.families[0]) || 'a-masc';
+        const doc = await family(env, famId);
+        const stemId = ix.stems.find((s) => s.family === famId).id;
+        const p = doc.stems[stemId].paradigm;
+        const cases = st.cases && st.cases.length
+          ? ix.vibhakti.filter((v) => st.cases.includes(v.id)) : ix.vibhakti;
+        out.table = cases.map((v) => ({
+          case: v.en, meaning: v.question, sutra: v.sutra,
+          forms: ix.vacana.map((w) => {
+            const cell = p[v.id][w.id];
+            const op = (cell.steps || []).find((s2) => s2[2] === 'operation');
+            return { number: w.en, iast: cell.iast, deva: cell.deva,
+                     sup: cell.sup || null, operation: op ? op[0] : null };
+          }),
+        }));
+        const k = await cases(env);
+        out.spotlight = cases.map((v) => {
+          const hit = (k.karaka || []).find((kk) =>
+            String(kk.vibhakti || '').toLowerCase().startsWith(String(
+              ix.vibhakti.find((x) => x.id === v.id)?.sanskrit || '').toLowerCase()));
+          return { case: v.en, karaka: hit ? hit.label : null,
+                   karaka_sutra: hit ? hit.sutra : null };
+        });
+        const b = await sentences(env);
+        const fams = st.families && st.families.length ? st.families : null;
+        const ex = b.entries.find((e) => !fams || fams.includes(e.target.family));
+        if (ex) out.example_sentence = { english: ex.en, target: ex.target };
+        const a = await attested(env);
+        out.real_text = a.entries
+          .filter((e) => !fams || fams.includes(
+            (ix.stems.find((s) => s.id === e.stem) || {}).family))
+          .slice(0, 3);
+      } else {
+        const v = await verbs(env);
+        const lak = (st.lakara && st.lakara.length)
+          ? v.lakara.filter((l) => st.lakara.includes(l.id)) : v.lakara;
+        const roots = (st.roots && st.roots.length)
+          ? v.roots.filter((r) => st.roots.includes(r.id)) : v.roots;
+        const root = roots[0], L = lak[0];
+        out.table = v.purusha.map((pu) => ({
+          person: pu.en,
+          forms: v.vacana.map((va) => {
+            const cell = v.paradigms[root.id][L.id][`${pu.id}.${va.id}`];
+            return { number: va.en, iast: cell.iast, deva: cell.deva };
+          }),
+        }));
+        out.roots = roots.map((r) => r.iast);
+        out.tenses = lak.map((l) => l.en);
+      }
+      return out;
+    }
+
     case 'drill': {
       const track = args.track === 'verb' ? 'verb' : 'noun';
       if (track === 'noun') {
@@ -490,6 +560,12 @@ async function callTool(env, name, args) {
         families: ix.families.map((f) => ({ id: f.id, label: f.label, colour: f.colour, gender: f.gender })),
         cases: ix.vibhakti.map((v) => ({ id: v.id, en: v.en, question: v.question })),
         tenses: (await verbs(env)).lakara.map((l) => ({ id: l.id, en: l.en, colour: l.colour })),
+        protocol: [
+          'Teach before testing, always: call teach(stage) and present the table, the sup endings and the operation codes BEFORE any drill on that stage.',
+          'Never quiz a form the learner has not seen: the first drill on a stage uses only the cases and numbers shown by teach.',
+          'Never reveal a drill answer: drill withholds it by default; grade with check / parse / verb_check.',
+          'Report AGREE / DISAGREE exactly as the tools do; a gap (blocked slot) is stated as blocked, never guessed.',
+        ],
         teach_with: [
           '1. Ask which family a stem belongs to (drill track=noun mode=family).',
           '2. Ask for one case+number form, let the learner type it, grade with check.',
