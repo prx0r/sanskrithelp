@@ -16,9 +16,9 @@ The learning order, as 11 noun stages and 6 verb stages. Each stage names its sc
 (e.g. *a-stem masculine · first cases*), says why it comes there, shows your accuracy,
 and unlocks when the previous stage reaches **90% over 10+ attempts**.
 
-| Noun path | Verb path |
-|---|---|
-| a-masc first cases → a-masc full grid → a-neut → ā-fem → i/u-masc → ī/ū-fem → ṛ-agents → -an/-in → ant/vant/as/c → go → cases across families | present singular → present full → past → future → imperative+optative → all tenses mixed |
+| Noun path (11) | Verb path (6) | Combined (3) |
+|---|---|---|
+| a-masc first cases → full grid → a-neut → ā-fem → i/u-masc → ī/ū-fem → ṛ-agents → -an/-in → ant/vant/as/c → go → cases across families | present singular → present full → past → future → imperative+optative → all tenses mixed | sentences I/II/III: cases inside real frames, verbs agreeing — unlocks after the foundations on both sides |
 
 **Left rail — `Browse`**
 
@@ -27,17 +27,27 @@ the full 8×3 paradigm (3×3 for verbs), Devanagari + IAST in every cell, the me
 case, the other stems that follow the same pattern, and a *practise this family* button.
 Tap any form to see its derivation in the right panel.
 
-**Centre — `Drill`**
+**Centre — `Learn`, then `Drill`**
 
-The question, the live grid with the target cell marked `?` and every neighbour given,
-and the input. Type, Enter to check, Enter to advance. Exact → **Correct**, right letters
-without diacritics → **Close**, otherwise the wrong letters are struck through.
+A stage opens on its Learn card: the family's listed forms with each cell's `sup`
+ending and operation code, one line per case (meaning, kāraka, sūtra, example),
+one fully glossed example sentence, and real-text citations to spot the form in.
+Only then does drilling start.
 
-**Modes** (scoped by the stage): `Family` name the class · `Build` type the form ·
-`Reverse` form → case/number (every reading required) · `Tense` name the tense.
+The drill shows **no paradigm** — recall, not copying. The grid appears after
+answering, labelled "you answered without it".
 
-Type in romanised IAST. `Enter` checks, `Enter` again advances. Diacritic toolbar under the input.
-Exact match → **Correct**; right letters without diacritics → **Close**; otherwise the wrong letters are struck through.
+**Modes** (scoped by the stage): `Family` name the class · `Form` meaning→form ·
+`Read` form→meaning, tap 1 of 4 · `Parse` form→every analysis · `In a sentence`
+fill the forced slot · `Surgery` name the firing rule · `Hunt` spot the smuggled
+step · `Tense` name the tense · `Who` who acts.
+
+Type in romanised IAST. `Enter` checks, `Enter` again advances. Exact → **Correct**;
+right letters without diacritics → **Close**; otherwise the wrong letters are
+struck through. Wrong answers re-queue; confusions are named ("'devāya' is
+actually dative — compare the two jobs"). Spaced repetition surfaces due items
+first; the Review row collects due + weak slots. A stage suggests its least-passed
+mode; you keep the buttons.
 
 ## Data — all generated, nothing typed from memory
 
@@ -48,7 +58,10 @@ Exact match → **Correct**; right letters without diacritics → **Close**; oth
 | `public/data/verbs.json` | 675 verb forms (15 roots × 5 lakāras × 3 persons × 3 numbers) |
 | `public/data/cases.json` | 6 kārakas (imported from svread's karaka wheel) |
 | `public/data/sutras.json` | sūtra citation text, 3,983 rules |
-| `public/data/curriculum.json` | the path: stages, scopes, prerequisites, pass rule |
+| `public/data/curriculum.json` | the path: 20 stages, scopes, prerequisites, pass rule |
+| `public/data/sentences.json` | 320+ constructed sentences, every word verified |
+| `public/data/frames.json` | the 8 sentence frames both clients share |
+| `public/data/attested.json` | real-text citations, build-time verified |
 
 Every surface and every step comes from **Vidyut 0.4.0** (Ambuda, MIT).
 `father` in the acc. pl. is not a fact in this repo; it is a derivation the engine ran.
@@ -64,25 +77,27 @@ Every surface and every step comes from **Vidyut 0.4.0** (Ambuda, MIT).
 
 Endpoint: `POST https://sanskrit.help/mcp` (protocol `2025-06-18`, JSON responses, no auth).
 
-12 tools:
+15 tools:
 
 | Tool | Use |
 |---|---|
-| `harness` | one-fetch overview: colour system, families, cases, tenses, how to teach |
+| `harness` | one-fetch overview + the teach-before-test protocol |
+| `teach` | the Learn card for a stage — call **before** any drill on it |
 | `families` / `cases` / `tenses` | the vocabularies, each with its colour |
 | `stems` / `paradigm` | list stems; full 8×3 of one stem |
-| `form` | one noun form + its sūtra steps |
-| `check` | grade a learner's noun answer → `exact` / `close` / `wrong` |
+| `form` / `check` | one noun form + steps; grade → `exact` / `close` / `wrong` |
 | `verb` / `verb_check` | the same for verb forms |
+| `parse` | grade a recognition answer against every valid analysis |
 | `curriculum` | the staged path with scopes, prerequisites and the pass rule |
-| `drill` | produce a question (answer included — do not reveal it) |
+| `sentence` / `attested` | contextual and real-text questions, answers withheld |
+| `drill` | produce a question (answer withheld; `reveal:true` for self-study) |
 
 Connect in ChatGPT: Settings → Connectors → add `https://sanskrit.help/mcp`.
 Suggested opening prompt:
 
-> Fetch the Prakriyā curriculum, start at the first stage, and drill me through it.
-> One question at a time, wait for my answer, grade with `check` or `verb_check`,
-> show the sūtra steps only after I answer, and move to the next stage at 90%.
+> Fetch the Prakriyā curriculum, then for each stage call teach first and drill
+> only what was taught. One question at a time, wait for my answer, grade with
+> `check`, `parse` or `verb_check`, move on at 90%.
 
 Note: the site sits behind Cloudflare bot protection, which rejects the literal
 `Python-urllib/*` user agent. Every normal client (ChatGPT, curl, browsers, requests) passes.
@@ -96,6 +111,8 @@ python3 -c "from vidyut import download_data; download_data('/root/vidyut-0.4.0'
 python3 tools/build_paradigms.py     # nouns   -> public/data/{index,fam/*}
 python3 tools/build_verbs.py         # verbs   -> public/data/verbs.json
 python3 tools/fetch_sutras.py        # sūtra text (cached; network once)
+python3 tools/build_sentences.py     # bank    -> public/data/sentences.json
+python3 tools/build_attested.py      # citations (needs SVREAD_DATA)
 python3 tools/verify_data.py         # what CI runs before deploy
 ```
 
