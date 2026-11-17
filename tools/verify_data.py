@@ -149,6 +149,24 @@ def main() -> int:
             if not e.get(k):
                 errors.append(f"attested entry missing {k}: {e.get('work')}/{e.get('target')}")
 
+    bank = json.loads((DATA / "sentences.json").read_text(encoding="utf-8"))
+    if bank.get("format") != "sanskrithelp.sentences/1":
+        errors.append("sentences.json has the wrong format")
+    seen_ids = set()
+    for e in bank.get("entries", []):
+        if e["id"] in seen_ids:
+            errors.append(f"sentences.json: duplicate id {e['id']}")
+        seen_ids.add(e["id"])
+        t = e.get("target", {})
+        fam_file = next((f"fam-{f}.json" for f in [t.get("family")] if f), None)
+        if not t.get("iast") or not t.get("deva"):
+            errors.append(f"sentences.json: {e.get('id')} target has no surfaces")
+    if bank.get("coverage", {}).get("stems_missing"):
+        errors.append(f"sentences.json: stems missing: {bank['coverage']['stems_missing']}")
+    for case, n in bank.get("coverage", {}).get("by_case", {}).items():
+        if n < 5:
+            errors.append(f"sentences.json: case {case} has only {n} entries")
+
     cases = json.loads((DATA / "cases.json").read_text(encoding="utf-8"))
     if len(cases.get("karaka", [])) != 6:
         errors.append("cases.json should hold six karakas")

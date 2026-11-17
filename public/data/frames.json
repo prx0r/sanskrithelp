@@ -1,0 +1,358 @@
+{
+ "format": "sanskrithelp.frames/1",
+ "frames": [
+  {
+   "en": "{0} {V}.",
+   "id": "go",
+   "order": [
+    {
+     "role": 0
+    },
+    {
+     "verb": true
+    }
+   ],
+   "roles": [
+    {
+     "kinds": [
+      "person",
+      "animal"
+     ],
+     "vib": "prathama"
+    }
+   ],
+   "verb": {
+    "lakara": "lat",
+    "purusha": "Prathama",
+    "root": "gam",
+    "vacana": "Eka"
+   },
+   "verbEn": "goes",
+   "verbEnPl": "go",
+   "vib": "prathama"
+  },
+  {
+   "en": "{0} {V} {1}.",
+   "id": "read",
+   "order": [
+    {
+     "role": 0
+    },
+    {
+     "role": 1
+    },
+    {
+     "verb": true
+    }
+   ],
+   "roles": [
+    {
+     "kinds": [
+      "person"
+     ],
+     "vib": "prathama"
+    },
+    {
+     "kinds": [
+      "thing"
+     ],
+     "vib": "dvitiya"
+    }
+   ],
+   "verb": {
+    "lakara": "lat",
+    "purusha": "Prathama",
+    "root": "paW",
+    "vacana": "Eka"
+   },
+   "verbEn": "reads",
+   "verbEnPl": "read",
+   "vib": "dvitiya"
+  },
+  {
+   "en": "{0} {V} with {1}.",
+   "id": "with",
+   "order": [
+    {
+     "role": 0
+    },
+    {
+     "role": 1
+    },
+    {
+     "lit": "saha"
+    },
+    {
+     "verb": true
+    }
+   ],
+   "roles": [
+    {
+     "kinds": [
+      "person"
+     ],
+     "vib": "prathama"
+    },
+    {
+     "kinds": [
+      "person",
+      "animal"
+     ],
+     "vib": "tritiya"
+    }
+   ],
+   "verb": {
+    "lakara": "lat",
+    "purusha": "Prathama",
+    "root": "gam",
+    "vacana": "Eka"
+   },
+   "verbEn": "goes",
+   "verbEnPl": "go",
+   "vib": "tritiya"
+  },
+  {
+   "en": "{0} {V} {2} to {1}.",
+   "id": "give",
+   "order": [
+    {
+     "role": 0
+    },
+    {
+     "role": 1
+    },
+    {
+     "role": 2
+    },
+    {
+     "verb": true
+    }
+   ],
+   "roles": [
+    {
+     "kinds": [
+      "person"
+     ],
+     "vib": "prathama"
+    },
+    {
+     "kinds": [
+      "person"
+     ],
+     "vib": "caturthi"
+    },
+    {
+     "kinds": [
+      "thing"
+     ],
+     "vib": "dvitiya"
+    }
+   ],
+   "verb": {
+    "lakara": "lat",
+    "purusha": "Prathama",
+    "root": "dA",
+    "vacana": "Eka"
+   },
+   "verbEn": "gives",
+   "verbEnPl": "give",
+   "vib": "caturthi"
+  },
+  {
+   "en": "{0} {V} from {1}.",
+   "id": "from",
+   "order": [
+    {
+     "role": 0
+    },
+    {
+     "role": 1
+    },
+    {
+     "verb": true
+    }
+   ],
+   "roles": [
+    {
+     "kinds": [
+      "person",
+      "animal"
+     ],
+     "vib": "prathama"
+    },
+    {
+     "kinds": [
+      "place"
+     ],
+     "vib": "pancami"
+    }
+   ],
+   "verb": {
+    "lakara": "lat",
+    "purusha": "Prathama",
+    "root": "gam",
+    "vacana": "Eka"
+   },
+   "verbEn": "goes",
+   "verbEnPl": "go",
+   "vib": "pancami"
+  },
+  {
+   "en": "{1} {V} to {0}.",
+   "id": "belong",
+   "order": [
+    {
+     "role": 0
+    },
+    {
+     "role": 1
+    },
+    {
+     "verb": true
+    }
+   ],
+   "roles": [
+    {
+     "kinds": [
+      "person"
+     ],
+     "vib": "sasthi"
+    },
+    {
+     "kinds": [
+      "thing"
+     ],
+     "vib": "prathama"
+    }
+   ],
+   "verb": {
+    "lakara": "lat",
+    "purusha": "Prathama",
+    "root": "as",
+    "vacana": "Eka"
+   },
+   "verbEn": "belongs",
+   "verbEnPl": "belong",
+   "vib": "sasthi"
+  },
+  {
+   "en": "{0} {V} in {1}.",
+   "id": "in",
+   "order": [
+    {
+     "role": 0
+    },
+    {
+     "role": 1
+    },
+    {
+     "verb": true
+    }
+   ],
+   "roles": [
+    {
+     "kinds": [
+      "person",
+      "animal",
+      "thing"
+     ],
+     "vib": "prathama"
+    },
+    {
+     "kinds": [
+      "place"
+     ],
+     "vib": "saptami"
+    }
+   ],
+   "verb": {
+    "lakara": "lat",
+    "purusha": "Prathama",
+    "root": "as",
+    "vacana": "Eka"
+   },
+   "verbEn": "is",
+   "verbEnPl": "are",
+   "vib": "saptami"
+  },
+  {
+   "en": "“O {0}!” — calling out.",
+   "id": "address",
+   "order": [
+    {
+     "lit": "he"
+    },
+    {
+     "role": 0
+    }
+   ],
+   "roles": [
+    {
+     "kinds": [
+      "person"
+     ],
+     "vib": "sambodhana"
+    }
+   ],
+   "verb": null,
+   "verbEn": "",
+   "verbEnPl": "",
+   "vib": "sambodhana"
+  }
+ ],
+ "kind_default": "thing",
+ "kinds": {
+  "BAryA": "person",
+  "BU": "place",
+  "Bagavant": "person",
+  "Bavant": "person",
+  "BrAtf": "person",
+  "Satru": "person",
+  "aSva": "animal",
+  "dAtf": "person",
+  "devI": "person",
+  "deva": "person",
+  "fzi": "person",
+  "gOrI": "person",
+  "gaNgA": "place",
+  "gfha": "place",
+  "giri": "place",
+  "go": "animal",
+  "guru": "person",
+  "kanyA": "person",
+  "kartf": "person",
+  "kavi": "person",
+  "muni": "person",
+  "nadI": "place",
+  "nara": "person",
+  "pati": "person",
+  "patnI": "person",
+  "pitf": "person",
+  "putra": "person",
+  "rAjan": "person",
+  "rAma": "person",
+  "ripu": "person",
+  "sItA": "person",
+  "saKI": "person",
+  "vIra": "person",
+  "vaDU": "person",
+  "vana": "place"
+ },
+ "mass": [
+  "jala",
+  "vAri",
+  "daDi",
+  "maDu",
+  "vasu",
+  "BU",
+  "agni",
+  "vAc"
+ ],
+ "note": "Sentence frames for contextual drills. One frame, one changing slot: the grammatical role forces the case, the learner supplies the form. Words are written unjoined (no external sandhi) so each ending stays visible; the joined upgrade is tracked separately. Verb forms are looked up in verbs.json (3rd person, agreeing with the singular subject), never typed.",
+ "proper": [
+  "rAma",
+  "sItA",
+  "gaNgA",
+  "gOrI"
+ ]
+}

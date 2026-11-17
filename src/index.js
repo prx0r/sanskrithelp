@@ -40,6 +40,10 @@ async function attested(env) {
   if (!cache.attested) cache.attested = await data(env, '/data/attested.json');
   return cache.attested;
 }
+async function sentences(env) {
+  if (!cache.sentences) cache.sentences = await data(env, '/data/sentences.json');
+  return cache.sentences;
+}
 async function curriculum(env) {
   if (!cache.curriculum) cache.curriculum = await data(env, '/data/curriculum.json');
   return cache.curriculum;
@@ -229,6 +233,19 @@ const TOOLS = [
     },
   },
   {
+    name: 'sentence',
+    description: 'One contextual question from the verified sentence bank: an English meaning plus a Sanskrit frame with one slot blank. The answer is withheld by default; grade with check. Every word is engine-generated.',
+    inputSchema: {
+      type: 'object',
+      properties: {
+        case: { type: 'string', description: 'optional vibhakti filter, e.g. dative' },
+        family: { type: 'string', description: 'optional family filter, e.g. a-masc' },
+        reveal: { type: 'boolean', description: 'include the answer (self-study only)' },
+      },
+      additionalProperties: false,
+    },
+  },
+  {
     name: 'drill',
     description: 'Get one practice question. track="noun" or "verb"; mode optional (family|build|reverse|read for nouns, build|tense for verbs). By default the answer is withheld: ask the learner first, then grade with check / verb_check / parse (which returns the correct form or the valid analyses). Pass reveal:true only for self-study.',
     inputSchema: {
@@ -372,6 +389,29 @@ async function callTool(env, name, args) {
           (!args.stem || e.stem === args.stem) &&
           (!args.case || e.vibhakti === args.case)),
       };
+    }
+
+    case 'sentence': {
+      const b = await sentences(env);
+      let pool = b.entries.filter((e) => !args.case || e.target.vib === (vibOf(ix, args.case) || {}).id);
+      if (args.family) pool = pool.filter((e) => e.target.family === args.family);
+      if (!pool.length) pool = b.entries;
+      const e = pick(pool);
+      const f = ix.families.find((x) => x.id === e.target.family);
+      const ev = ix.vibhakti.find((x) => x.id === e.target.vib);
+      const ew = ix.vacana.find((x) => x.id === e.target.vac);
+      const sa = e.words.map((w) => {
+        if (w.lit) return w.lit;
+        const isT = w.stem === e.target.stem && w.vib === e.target.vib && w.vac === e.target.vac;
+        return isT ? '____' : w.iast;
+      }).join(' ');
+      const out = { track: 'noun', mode: 'use', prompt: e.en, sanskrit: sa,
+               cue: `fill in ${e.target.stem} — ${ev.en} ${ew.en}`,
+               colour: f.colour,
+               check_with: 'check',
+               args: { stem: e.target.stem, case: e.target.vib, number: e.target.vac } };
+      if (args.reveal) { out.answer = e.target.iast; out.deva = e.target.deva; }
+      return out;
     }
 
     case 'drill': {

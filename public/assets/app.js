@@ -164,14 +164,6 @@ function nounModes() {
   return modes;
 }
 
-function np(stemId, vacId) {
-  const s = stemById(stemId);
-  if (PROPER.has(stemId)) return vacId === 'eka' ? s.gloss : `${s.gloss}s`;
-  if (MASS.has(stemId)) return `the ${s.gloss}`;
-  if (vacId === 'eka') return `the ${s.gloss}`;
-  if (vacId === 'dvi') return `the two ${plural(s.gloss)}`;
-  return `the ${plural(s.gloss)}`;
-}
 function meaningOf(vibId, stemId, vacId) {
   if (vibId === 'sambodhana') return `O ${stemById(stemId).gloss}!`;
   const n = np(stemId, vacId);
@@ -206,10 +198,11 @@ function readOptions(q) {
 async function makeQuestion() {
   if (S.track === 'verb') return makeVerb();
 
-  // retry items come first, but not every time
+  // retry items come first, but not every time (a failed sentence comes
+  // back as a sentence on the same case)
   if (S.retry.length && Math.random() < 0.55) {
     const r = S.retry.shift();
-    const q = await nounFrom(r.stem, r.vib, r.vac, r.mode);
+    const q = r.mode === 'use' ? await makeSentence(r.vib) : await nounFrom(r.stem, r.vib, r.vac, r.mode);
     if (q) return q;
   }
 
@@ -345,144 +338,70 @@ function grade(q, input) {
    (no external sandhi) so each ending stays visible.
    ============================================================ */
 
-const KIND = {
-  // people and beings
-  deva: 'person', rAma: 'person', nara: 'person', vIra: 'person', putra: 'person',
-  sItA: 'person', kanyA: 'person', BAryA: 'person', devI: 'person', patnI: 'person',
-  saKI: 'person', gOrI: 'person', vaDU: 'person', kavi: 'person', muni: 'person',
-  fzi: 'person', pati: 'person', guru: 'person', pitf: 'person', BrAtf: 'person',
-  rAjan: 'person', Bavant: 'person', Bagavant: 'person', kartf: 'person', dAtf: 'person',
-  // animals
-  aSva: 'animal', go: 'animal',
-  // places
-  vana: 'place', gfha: 'place', gaNgA: 'place', nadI: 'place', giri: 'place', BU: 'place',
-  // things / abstract
-  Pala: 'thing', jala: 'thing', rUpa: 'thing', cakra: 'thing', dAna: 'thing',
-  mAlA: 'thing', kalA: 'thing', latA: 'thing', agni: 'thing', sUrya: 'thing',
-  BAnu: 'thing', vAri: 'thing', daDi: 'thing', maDu: 'thing', vasu: 'thing',
-  vAc: 'thing', manas: 'thing', Atman: 'thing', kula: 'thing', vfkza: 'thing',
-  raTa: 'thing', Satru: 'person', ripu: 'person',
-};
-const kindOf = (id) => KIND[id] || 'thing';
-const cap = (s) => s.charAt(0).toUpperCase() + s.slice(1);
+/* ============================================================
+   SENTENCE PRACTICE — from the precomputed bank (single source:
+   tools/build_sentences.py). The app never invents sentences.
+   ============================================================ */
 const PROPER = new Set(['rAma', 'sItA', 'gaNgA', 'gOrI']);
 const MASS = new Set(['jala', 'vAri', 'daDi', 'maDu', 'vasu', 'BU', 'agni', 'vAc']);
 const IRREG = { man: 'men', wife: 'wives', hero: 'heroes', being: 'beings' };
 function plural(gloss) {
-  if (IRREG[gloss]) return IRREG[gloss];
-  if (/(s|x|ch|sh)$/.test(gloss)) return gloss + 'es';
-  if (/[^aeiou]y$/.test(gloss)) return gloss.slice(0, -1) + 'ies';
-  if (/o$/.test(gloss)) return gloss + 'es';
-  return gloss + 's';
+  const m = gloss.match(/^(.*?)(\s*\(.*\))$/);
+  const tail = m ? m[2] : '', core = m ? m[1] : gloss;
+  if (IRREG[core]) return IRREG[core] + tail;
+  if (/(s|x|ch|sh)$/.test(core)) return core + 'es' + tail;
+  if (/[^aeiou]y$/.test(core)) return core.slice(0, -1) + 'ies' + tail;
+  if (/o$/.test(core)) return core + 'es' + tail;
+  return core + 's' + tail;
 }
-function enNoun(id, gloss, vac) {
-  const proper = PROPER.has(id);
-  if (vac === 'bahu') return `the ${plural(gloss)}`;
-  if (vac === 'dvi') return `the two ${plural(gloss)}`;
-  return proper ? gloss : `the ${gloss}`;
-}
-
-const FRAMES = [
-  { vib: 'prathama', verb: 'gacchati', verbEn: 'goes',
-    roles: [{ vib: 'prathama', kinds: ['person', 'animal'] }],
-    en: (r) => `${cap(r[0].en)} goes.`,
-    order: (w) => `${w[0]} gacchati` },
-  { vib: 'dvitiya', verb: 'paṭhati', verbEn: 'reads',
-    roles: [{ vib: 'prathama', kinds: ['person'] }, { vib: 'dvitiya', kinds: ['thing'] }],
-    en: (r) => `${cap(r[0].en)} reads ${r[1].en}.`,
-    order: (w) => `${w[0]} ${w[1]} paṭhati` },
-  { vib: 'tritiya', verb: 'gacchati', verbEn: 'goes',
-    roles: [{ vib: 'prathama', kinds: ['person'] }, { vib: 'tritiya', kinds: ['person', 'animal'] }],
-    en: (r) => `${cap(r[0].en)} goes with ${r[1].en}.`,
-    order: (w) => `${w[0]} ${w[1]} saha gacchati` },
-  { vib: 'caturthi', verb: 'dadāti', verbEn: 'gives',
-    roles: [{ vib: 'prathama', kinds: ['person'] }, { vib: 'caturthi', kinds: ['person'] },
-            { vib: 'dvitiya', kinds: ['thing'] }],
-    en: (r) => `${cap(r[0].en)} gives ${r[2].en} to ${r[1].en}.`,
-    order: (w) => `${w[0]} ${w[1]} ${w[2]} dadāti` },
-  { vib: 'pancami', verb: 'gacchati', verbEn: 'goes',
-    roles: [{ vib: 'prathama', kinds: ['person', 'animal'] }, { vib: 'pancami', kinds: ['place'] }],
-    en: (r) => `${cap(r[0].en)} goes from ${r[1].en}.`,
-    order: (w) => `${w[0]} ${w[1]} gacchati` },
-  { vib: 'sasthi', verb: 'asti', verbEn: 'is',
-    roles: [{ vib: 'sasthi', kinds: ['person'] }, { vib: 'prathama', kinds: ['thing'] }],
-    en: (r) => `${cap(r[1].en)} belongs to ${r[0].en}.`,
-    order: (w) => `${w[0]} ${w[1]} asti` },
-  { vib: 'saptami', verb: 'asti', verbEn: 'is',
-    roles: [{ vib: 'prathama', kinds: ['person', 'animal', 'thing'] }, { vib: 'saptami', kinds: ['place'] }],
-    en: (r) => `${cap(r[0].en)} is in ${r[1].en}.`,
-    order: (w) => `${w[0]} ${w[1]} asti` },
-  { vib: 'sambodhana', verb: '', verbEn: '',
-    roles: [{ vib: 'sambodhana', kinds: ['person'] }],
-    en: (r) => `“O ${r[0].gloss}!” — calling out.`,
-    order: (w) => `he ${w[0]}` },
-];
-
-async function formOf(stemId, vibId, vacId) {
-  const stem = stemById(stemId);
-  if (!stem) return null;
-  const doc = await loadFamily(stem.family);
-  const c = doc.stems[stem.id]?.paradigm?.[vibId]?.[vacId];
-  if (!c || c.status !== 'DERIVED') return null;
-  return { stem, family: famOf(stem), cell: c };
+function np(stemId, vacId) {
+  const g = stemById(stemId).gloss;
+  if (PROPER.has(stemId)) return vacId === 'eka' ? g : `${g}s`;
+  if (MASS.has(stemId)) return `the ${g}`;
+  if (vacId === 'eka') return `the ${g}`;
+  if (vacId === 'dvi') return `the two ${plural(g)}`;
+  return `the ${plural(g)}`;
 }
 
-function pickByKind(kinds) {
-  const pool = nounPool().filter((s) => kinds.includes(kindOf(s.id)));
-  if (pool.length) return pick(pool);
-  const any = S.index.stems.filter((s) => kinds.includes(kindOf(s.id)));
-  return pick(any.length ? any : S.index.stems);
+async function sentenceBank() {
+  if (!S.sentences) S.sentences = await getJSON('data/sentences.json');
+  return S.sentences;
 }
 
 async function makeSentence(focusVibId) {
-  const frames = FRAMES.filter((f) => !focusVibId || f.vib === focusVibId);
-  const frame = pick(frames.length ? frames : FRAMES);
-  const subjIdx = frame.roles.findIndex((r) => r.vib === 'prathama');
-
-  const parts = [];
-  for (let i = 0; i < frame.roles.length; i++) {
-    const role = frame.roles[i];
-    // The subject stays singular so the 3rd-singular verb agrees; other
-    // slots carry the number practice.
-    let stem = pickByKind(role.kinds);
-    for (let t = 0; t < 8 && parts.some((x) => x.stem.id === stem.id); t++) {
-      stem = pickByKind(role.kinds);
-    }
-    const mass = MASS.has(stem.id);
-    const vac = (i === subjIdx || mass) ? 'eka' : (Math.random() < 0.65 ? 'eka' : 'bahu');
-    const f = await formOf(stem.id, role.vib, vac);
-    if (!f) return makeSentence(focusVibId);
-    parts.push({ stem, family: f.family, cell: f.cell, vib: role.vib, vac,
-                 en: enNoun(stem.id, stem.gloss, vac) });
-  }
-
-  let target = parts.findIndex((p) => p.vib === frame.vib);
-  if (target < 0) target = 0;
-
-  const vib = S.index.vibhakti.find((v) => v.id === parts[target].vib);
-  const w = S.index.vacana.find((x) => x.id === parts[target].vac);
-  return {
-    track: 'noun', mode: 'use', frame,
-    parts, target, vib, vac: w,
-    stem: parts[target].stem, family: parts[target].family,
-    colour: parts[target].family.colour,
-    cell: parts[target].cell,
-    doc: S.famCache[parts[target].family.id],
-    answer: parts[target].cell.iast,
-    cue: frame.en(parts),
-    asks: `${parts[target].stem.gloss} — ${vib.en} ${w.en}`,
-    sentenceEn: frame.en(parts),
-  };
+  const bank = await sentenceBank();
+  const st = S.stage;
+  let pool = bank.entries.filter((e) => !focusVibId || e.target.vib === focusVibId);
+  if (st && st.families && st.families.length)
+    pool = pool.filter((e) => st.families.includes(e.target.family));
+  if (!pool.length) pool = bank.entries;
+  const e = pick(pool);
+  const stem = stemById(e.target.stem);
+  const family = famOf(stem);
+  const doc = await loadFamily(stem.family);
+  const vib = S.index.vibhakti.find((v) => v.id === e.target.vib);
+  const vac = S.index.vacana.find((w) => w.id === e.target.vac);
+  const cell = doc.stems[stem.id].paradigm[e.target.vib][e.target.vac];
+  return { track: 'noun', mode: 'use', entry: e, stem, family, vib, vac, cell, doc,
+    colour: family.colour, answer: e.target.iast,
+    cue: e.en, asks: `${stem.gloss} — ${vib.en} ${vac.en}`, sentenceEn: e.en };
 }
 
 function renderSentence(q, revealed) {
-  const words = q.frame.order(q.parts.map((p, i) => {
-    if (i !== q.target) return `<span class="w" title="${esc(p.cell.iast)}">${esc(p.cell.deva)}</span>`;
-    if (!revealed) return `<span class="blank">?</span>`;
-    return `<span class="w filled" title="${esc(p.cell.iast)}">${esc(p.cell.deva)}</span>`;
-  }));
-  const iast = q.frame.order(q.parts.map((p, i) =>
-    i === q.target ? (revealed ? p.cell.iast : '____') : p.cell.iast)).replace(/<[^>]+>/g, '');
+  const e = q.entry, t = e.target;
+  const isT = (w) => !!w.stem && w.stem === t.stem && w.vib === t.vib && w.vac === t.vac;
+  const words = e.words.map((w) => {
+    if (w.lit) return `<span class="w">${esc(w.lit)}</span>`;
+    if (w.verb) return `<span class="w" title="${esc(w.iast)}">${esc(w.deva)}</span>`;
+    if (isT(w) && !revealed) return `<span class="blank">?</span>`;
+    if (isT(w)) return `<span class="w filled">${esc(w.deva)}</span>`;
+    return `<span class="w" title="${esc(w.iast)}">${esc(w.deva)}</span>`;
+  }).join(' ');
+  const iast = e.words.map((w) => {
+    if (w.lit) return w.lit;
+    if (isT(w) && !revealed) return '____';
+    return w.iast;
+  }).join(' ');
   return `<div class="sent-sa">${words}</div>
     <div class="sent-iast">${esc(iast)}</div>
     <div class="sent-cue">fill in: <b>${esc(q.stem.iast)}</b> — ${esc(q.vib.en)} ${esc(q.vac.en)}</div>
@@ -582,14 +501,22 @@ async function showLearn(st) {
   // one fully glossed example sentence using this family (nouns only)
   try {
     if (st.track !== 'noun') throw new Error('verbs have no sentence frame yet');
-    const ex = await makeSentence(st.cases && st.cases.length ? st.cases[0] : null);
-    const words = ex.frame.order(ex.parts.map((p) =>
-      `<span class="${p.vib === ex.vib.id ? 'hl' : ''}">${esc(p.cell.deva)}</span>`));
+    const bank = await sentenceBank();
+    const fams = st.families && st.families.length ? st.families : null;
+    const pool = bank.entries.filter((e) => !fams || fams.includes(e.target.family));
+    const ex = pick(pool.length ? pool : bank.entries);
+    const t = ex.target;
+    const words = ex.words.map((w) => {
+      if (w.lit) return `<span>${esc(w.lit)}</span>`;
+      const hl = w.stem === t.stem && w.vib === t.vib && w.vac === t.vac;
+      return `<span class="${hl ? 'hl' : ''}">${esc(w.deva)}</span>`;
+    }).join(' ');
+    const iast = ex.words.map((w) => w.lit || w.iast).join(' ');
     $('#learngrid').innerHTML += `<div class="lg-sent">
       <div class="t">then use it in a sentence</div>
       <div class="d">${words}</div>
-      <div class="i">${esc(ex.frame.order(ex.parts.map((p) => p.cell.iast)))}</div>
-      <div class="e">${esc(ex.sentenceEn)}</div>
+      <div class="i">${esc(iast)}</div>
+      <div class="e">${esc(ex.en)}</div>
     </div>`;
   } catch (e) { /* no sentence for this stage */ }
 
@@ -731,7 +658,8 @@ function renderStageGrid(q, revealed) {
       html += `<div class="rh ${inScope ? '' : 'out'}">${v.en.slice(0, 5)}</div>`;
       for (const w of S.index.vacana) {
         const c = p[v.id]?.[w.id];
-        const isT = q.mode === 'build' ? (v.id === q.vib.id && w.id === q.vac.id)
+        const isT = (q.mode === 'build' || q.mode === 'use')
+          ? (v.id === q.vib.id && w.id === q.vac.id)
           : (q.analyses || []).some(([a, b]) => a === v.id && b === w.id);
         html += cellMarkup(c, isT, revealed);
       }
