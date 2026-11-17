@@ -8,18 +8,33 @@ Colour is the teaching device: **one colour per declension family**, **one colou
 
 ## The app
 
-Fixed viewport, no page scroll. Three panels:
+Fixed viewport, no page scroll. Three panels, two jobs for the rail.
 
-| Panel | What |
+**Left rail — `Path`**
+
+The learning order, as 11 noun stages and 6 verb stages. Each stage names its scope
+(e.g. *a-stem masculine · first cases*), says why it comes there, shows your accuracy,
+and unlocks when the previous stage reaches **90% over 10+ attempts**.
+
+| Noun path | Verb path |
 |---|---|
-| left | the colour rail — 17 families, or the 8 cases; 5 tenses, or the 15 roots. Accuracy per item. |
-| centre | the question, the live paradigm grid with the target cell marked `?`, and the input |
-| right | verdict, the correct form, a character diff of what you typed, and the derivation on demand |
+| a-masc first cases → a-masc full grid → a-neut → ā-fem → i/u-masc → ī/ū-fem → ṛ-agents → -an/-in → ant/vant/as/c → go → cases across families | present singular → present full → past → future → imperative+optative → all tenses mixed |
 
-**Tracks**
+**Left rail — `Browse`**
 
-- **Nouns** — `Family` (name the class from the stem) · `Build` (type the case+number form) · `Reverse` (form → which case/number; syncretic forms need every reading) · `Mix`
-- **Verbs** — `Build` (type the tense/person/number form) · `Tense` (form → name the tense) · `Mix`
+Families expand to their stems. Click a stem and the centre becomes a **reference view**:
+the full 8×3 paradigm (3×3 for verbs), Devanagari + IAST in every cell, the meaning of each
+case, the other stems that follow the same pattern, and a *practise this family* button.
+Tap any form to see its derivation in the right panel.
+
+**Centre — `Drill`**
+
+The question, the live grid with the target cell marked `?` and every neighbour given,
+and the input. Type, Enter to check, Enter to advance. Exact → **Correct**, right letters
+without diacritics → **Close**, otherwise the wrong letters are struck through.
+
+**Modes** (scoped by the stage): `Family` name the class · `Build` type the form ·
+`Reverse` form → case/number (every reading required) · `Tense` name the tense.
 
 Type in romanised IAST. `Enter` checks, `Enter` again advances. Diacritic toolbar under the input.
 Exact match → **Correct**; right letters without diacritics → **Close**; otherwise the wrong letters are struck through.
@@ -33,6 +48,7 @@ Exact match → **Correct**; right letters without diacritics → **Close**; oth
 | `public/data/verbs.json` | 675 verb forms (15 roots × 5 lakāras × 3 persons × 3 numbers) |
 | `public/data/cases.json` | 6 kārakas (imported from svread's karaka wheel) |
 | `public/data/sutras.json` | sūtra citation text, 3,983 rules |
+| `public/data/curriculum.json` | the path: stages, scopes, prerequisites, pass rule |
 
 Every surface and every step comes from **Vidyut 0.4.0** (Ambuda, MIT).
 `father` in the acc. pl. is not a fact in this repo; it is a derivation the engine ran.
@@ -48,7 +64,7 @@ Every surface and every step comes from **Vidyut 0.4.0** (Ambuda, MIT).
 
 Endpoint: `POST https://sanskrit.help/mcp` (protocol `2025-06-18`, JSON responses, no auth).
 
-11 tools:
+12 tools:
 
 | Tool | Use |
 |---|---|
@@ -58,13 +74,15 @@ Endpoint: `POST https://sanskrit.help/mcp` (protocol `2025-06-18`, JSON response
 | `form` | one noun form + its sūtra steps |
 | `check` | grade a learner's noun answer → `exact` / `close` / `wrong` |
 | `verb` / `verb_check` | the same for verb forms |
+| `curriculum` | the staged path with scopes, prerequisites and the pass rule |
 | `drill` | produce a question (answer included — do not reveal it) |
 
 Connect in ChatGPT: Settings → Connectors → add `https://sanskrit.help/mcp`.
 Suggested opening prompt:
 
-> Fetch the Prakriyā harness, then drill me. Ask one question at a time, wait for my answer,
-> grade it with `check` or `verb_check`, and show the sūtra steps only after I answer.
+> Fetch the Prakriyā curriculum, start at the first stage, and drill me through it.
+> One question at a time, wait for my answer, grade with `check` or `verb_check`,
+> show the sūtra steps only after I answer, and move to the next stage at 90%.
 
 Note: the site sits behind Cloudflare bot protection, which rejects the literal
 `Python-urllib/*` user agent. Every normal client (ChatGPT, curl, browsers, requests) passes.
