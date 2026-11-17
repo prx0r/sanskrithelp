@@ -232,3 +232,18 @@ button{font:inherit;color:inherit;cursor:pointer}
   .sg .c.dev{font-size:11.5px}
   .sg .h,.sg .rh{font-size:8.5px}
 }
+
+/* [hidden] must beat component display rules */
+[hidden]{display:none !important}
+
+/* stage grid sizing: natural height, no dead panel */
+.stagegrid{flex:0 1 auto}
+.stage .answer{margin-top:auto}
+
+/* each cell: deva over iast */
+.sg .c{display:flex;flex-direction:column;gap:1px;align-items:center;justify-content:center}
+.sg .c .d{font-family:var(--dev);font-size:12.5px;line-height:1.25}
+.sg .c .i{font-size:9.5px;font-style:italic;color:#7f93a8;line-height:1.2;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+.sg .c.solved .i{color:#0b1620;opacity:.8}
+.sg .c.target.hidden .d{color:var(--fc);font-size:16px}

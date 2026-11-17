@@ -353,9 +353,9 @@ function renderStageGrid(q, revealed) {
           ? (v.id === q.vib.id && w.id === q.vac.id)
           : (q.analyses || []).some(([a, b]) => a === v.id && b === w.id);
         if (!c || c.status !== 'DERIVED') { html += `<div class="c b">—</div>`; continue; }
-        if (isTarget && !revealed) html += `<div class="c dev target hidden">?</div>`;
-        else if (isTarget && revealed) html += `<div class="c dev solved">${esc(c.deva)}</div>`;
-        else html += `<div class="c dev">${esc(c.deva)}</div>`;
+        if (isTarget && !revealed) html += `<div class="c target hidden"><span class="d">?</span></div>`;
+        else if (isTarget && revealed) html += `<div class="c solved"><span class="d">${esc(c.deva)}</span><span class="i">${esc(c.iast)}</span></div>`;
+        else html += `<div class="c"><span class="d">${esc(c.deva)}</span><span class="i">${esc(c.iast)}</span></div>`;
       }
     }
     html += '</div><div class="sg-hint">' +
@@ -374,9 +374,9 @@ function renderStageGrid(q, revealed) {
       const c = slot[`${pu.id}.${va.id}`];
       const isTarget = pu.id === q.pu.id && va.id === q.va.id;
       if (!c || c.status !== 'DERIVED') { html += `<div class="c b">—</div>`; continue; }
-      if (isTarget && !revealed) html += `<div class="c dev target hidden">?</div>`;
-      else if (isTarget && revealed) html += `<div class="c dev solved">${esc(c.deva)}</div>`;
-      else html += `<div class="c dev">${esc(c.deva)}</div>`;
+      if (isTarget && !revealed) html += `<div class="c target hidden"><span class="d">?</span></div>`;
+      else if (isTarget && revealed) html += `<div class="c solved"><span class="d">${esc(c.deva)}</span><span class="i">${esc(c.iast)}</span></div>`;
+      else html += `<div class="c"><span class="d">${esc(c.deva)}</span><span class="i">${esc(c.iast)}</span></div>`;
     }
   }
   html += `</div><div class="sg-hint">${esc(q.root.iast)} · ${esc(q.lak.en)} — ` +
