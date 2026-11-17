@@ -36,6 +36,10 @@ async function verbs(env) {
   if (!cache.verbs) cache.verbs = await data(env, '/data/verbs.json');
   return cache.verbs;
 }
+async function curriculum(env) {
+  if (!cache.curriculum) cache.curriculum = await data(env, '/data/curriculum.json');
+  return cache.curriculum;
+}
 async function cases(env) {
   if (!cache.cases) cache.cases = await data(env, '/data/cases.json');
   return cache.cases;
@@ -183,6 +187,17 @@ const TOOLS = [
     },
   },
   {
+    name: 'curriculum',
+    description: 'The learning path: 11 noun stages and 6 verb stages in order, each with its scope (families/cases or tenses/roots), why it matters, prerequisites, and the pass rule (90% over 10+ attempts). Teach these in order.',
+    inputSchema: {
+      type: 'object',
+      properties: {
+        track: { type: 'string', enum: ['noun', 'verb'], description: 'optional filter' },
+      },
+      additionalProperties: false,
+    },
+  },
+  {
     name: 'drill',
     description: 'Get one practice question. track="noun" or "verb"; mode optional (family|build|reverse for nouns, build|tense for verbs). The answer is included — do NOT reveal it; ask the learner first, then grade with check or verb_check.',
     inputSchema: {
@@ -288,6 +303,14 @@ async function callTool(env, name, args) {
                steps: slot.steps };
     }
 
+    case 'curriculum': {
+      const c = await curriculum(env);
+      const stages = c.stages
+        .filter((x) => !args.track || x.track === args.track)
+        .map((x, i) => ({ order: i + 1, ...x }));
+      return { pass: c.pass, note: c.note, stages };
+    }
+
     case 'drill': {
       const track = args.track === 'verb' ? 'verb' : 'noun';
       if (track === 'noun') {
@@ -357,6 +380,9 @@ async function callTool(env, name, args) {
           '4. For syncretic forms (devabhyām) accept any valid analysis.',
           '5. Verbs: same loop with verbs track=verb, graded by verb_check.',
         ],
+        curriculum: (await curriculum(env)).stages.map((x) => ({
+          id: x.id, track: x.track, title: x.title, needs: x.needs,
+        })),
         honesty: 'Every form and step is Vidyut 0.4.0 output. A derivation is a computation, not a reading. Blocked slots never render.',
       };
 
