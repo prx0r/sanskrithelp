@@ -176,6 +176,16 @@ function cell(vib, vac) {
   return p?.[vib]?.[vac] || { status: 'MACHINE_GAP' };
 }
 
+/* The underlying sup ending the engine selected, read from the 4.1.2 step.
+   We show it raw (sum̐, ṅas, ṭā …) because that is what the engine chose. */
+function affixOf(c) {
+  if (!c || !Array.isArray(c.steps)) return '';
+  const step = c.steps.find(([code]) => code === '4.1.2');
+  if (!step) return '';
+  const parts = String(step[1] || '').split('+').map((s) => s.trim()).filter(Boolean);
+  return parts.length > 1 ? parts[parts.length - 1] : '';
+}
+
 function render() {
   renderMatrix();
   renderOutput();
@@ -204,9 +214,10 @@ function renderMatrix() {
       const hide = (state.mode === 'generate' || state.mode === 'reverse') && !state.revealed && on;
       const txt = showWord ? (hide ? '••••' : esc(c.iast)) : '<span class="q">?</span>';
       const dev = showWord ? (hide ? '••••' : esc(c.deva)) : '<span class="q">?</span>';
+      const sup = showAffix ? affixOf(c) : '';
       html += `<button class="mcell ${on ? 'on' : ''}" data-vib="${v.id}" data-vac="${w.id}" data-layer="surface">
         <span class="dev">${dev}</span><small>${txt}</small>
-        ${showAffix && c.lastAffix ? `<span class="affix-tag">${esc(c.lastAffix)}</span>` : ''}
+        ${sup ? `<span class="affix-tag">${esc(sup)}</span>` : ''}
       </button>`;
     }
     html += '</div>';
@@ -339,34 +350,52 @@ function renderGame() {
 
   if (state.mode === 'reverse') {
     const form = c.status === 'DERIVED' ? c.iast : '';
-    const analyses = reverseFor(form);
+    const readings = reverseFor(form);
+    const want = readings.same;
+    // Choices: every true reading of this form for this stem, plus two
+    // decoy analyses of the same stem that are not true readings.
+    const keyOf = ([, vv, ww]) => `${vv}|${ww}`;
+    const trueKeys = new Set(want.map(keyOf));
+    const decoys = [];
+    for (const vv of VIB()) {
+      for (const ww of VAC()) {
+        const k = `${vv.id}|${ww.id}`;
+        if (trueKeys.has(k) || decoys.length >= 2) continue;
+        const alt = cell(vv.id, ww.id);
+        if (alt.status === 'DERIVED' && alt.iast !== form) decoys.push([state.stem, vv.id, ww.id]);
+        if (decoys.length >= 2) break;
+      }
+      if (decoys.length >= 2) break;
+    }
+    const choices = [...want, ...decoys];
     box.innerHTML = `
-      <div class="lbl">Which analyses can <b class="iast">${esc(form)}</b> have?</div>
+      <div class="lbl">Which analyses can <b class="iast">${esc(form)}</b> have
+        <span class="dim">(of ${esc(state.stem)})</span>?</div>
       <div id="rev-choices" class="chips small"></div>
       <button class="primary" id="rev-check">Check</button>
       <div class="dim" id="rev-hint">Select every valid reading. Partial answers fail.</div>`;
     const chosen = new Set();
-    const opts = analyses.all.length ? analyses.all : [];
-    $('#rev-choices').innerHTML = opts.map(([s, vv, ww]) => {
+    $('#rev-choices').innerHTML = choices.length ? choices.map(([s, vv, ww]) => {
       const v2 = VIB().find((x) => x.id === vv);
       const w2 = VAC().find((x) => x.id === ww);
-      return `<button class="chipbtn opt" data-key="${vv}|${ww}">${esc(v2.en)} ${esc(w2.en)}${s !== state.stem ? ' <small>(' + esc(s) + ')</small>' : ''}</button>`;
-    }).join('') || '<span class="dim">no readings</span>';
+      return `<button class="chipbtn opt" data-key="${vv}|${ww}">${esc(v2.en)} ${esc(w2.en)}</button>`;
+    }).join('') : '<span class="dim">no readings</span>';
     $$('.opt').forEach((b) => b.addEventListener('click', () => {
       const k = b.dataset.key;
       chosen.has(k) ? chosen.delete(k) : chosen.add(k);
       b.classList.toggle('on', chosen.has(k));
     }));
     $('#rev-check').onclick = () => {
-      const want = new Set(analyses.same.map(([s, vv, ww]) => `${vv}|${ww}`));
-      const got = chosen;
-      const ok = want.size === got.size && [...want].every((k) => got.has(k));
+      const ok = trueKeys.size === chosen.size && [...trueKeys].every((k) => chosen.has(k));
       state.attempts++;
       if (ok) state.correct++;
+      state.revealed = true;
       paintScore();
       setStatus(ok
         ? 'Correct — every valid reading, and only those.'
-        : `Missing or extra. Valid set: ${[...want].map((k) => k.replace('|', ' ')).join(', ')}`, ok);
+        : `Not the full set. The engine allows: ${[...trueKeys].map((k) => k.replace('|', ' ')).join(', ')}.`,
+        ok);
+      renderTrace();
     };
     return;
   }
