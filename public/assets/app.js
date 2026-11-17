@@ -236,7 +236,7 @@ function renderPath(host) {
     const open = stageUnlocked(st);
     const active = S.stage && S.stage.id === st.id;
     const pct = Math.round(p.acc * 100);
-    return `<button class="stage ${active ? 'on' : ''} ${open ? '' : 'locked'}"
+    return `<button class="pstage ${active ? 'on' : ''} ${open ? '' : 'locked'}"
         data-stage="${st.id}" ${open ? '' : 'disabled'}>
       <span class="st-n">${open ? (p.passed ? '✓' : i + 1) : '🔒'}</span>
       <span class="st-b">
