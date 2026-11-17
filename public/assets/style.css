@@ -350,3 +350,22 @@ button{font:inherit;color:inherit;cursor:pointer}
   .r-actions{width:100%;margin-left:0;justify-content:space-between}
   .raillist{max-height:22vh}
 }
+
+/* ================= sentence practice ================= */
+.sent-en{font-size:17px;font-weight:600;color:var(--text);line-height:1.35;margin-bottom:10px}
+.sent-en .hl{color:var(--fc)}
+.sent-sa{font-family:var(--dev);font-size:24px;line-height:1.7;color:#cfe0f0;margin-bottom:4px}
+.sent-sa .w{white-space:nowrap}
+.sent-sa .blank{display:inline-block;min-width:104px;border-bottom:2px dashed var(--fc);
+  color:var(--fc);text-align:center;margin:0 2px;vertical-align:baseline}
+.sent-sa .filled{border-bottom:2px solid var(--ok);color:var(--ok)}
+.sent-iast{font-size:12.5px;color:var(--dim);font-style:italic;margin-bottom:10px}
+.sent-cue{font-size:12.5px;color:var(--muted)}
+.sent-cue b{color:var(--fc)}
+.sent-note{font-size:10.5px;color:#5d6f84;margin-top:6px}
+.lg-sent{margin-top:14px;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--panel)}
+.lg-sent .t{font-size:10px;text-transform:uppercase;letter-spacing:.09em;color:var(--dim);font-weight:800;margin-bottom:7px}
+.lg-sent .d{font-family:var(--dev);font-size:19px;line-height:1.8}
+.lg-sent .d .hl{color:var(--fc)}
+.lg-sent .i{font-size:12px;font-style:italic;color:var(--dim);margin-top:3px}
+.lg-sent .e{font-size:12.5px;color:var(--muted);margin-top:4px}

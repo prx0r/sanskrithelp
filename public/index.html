@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
-<title>Prakriyā — Sanskrit drill trainer</title>
-<meta name="description" content="Browse every Sanskrit noun and verb paradigm, then drill it stage by stage. Colour identifies the family or the tense.">
+<title>Prakriyā — learn Sanskrit declension</title>
+<meta name="description" content="Learn a Sanskrit family, produce its forms without help, and apply them by meaning. Color marks the family or tense.">
 <link rel="canonical" href="https://sanskrit.help/">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%2714%27 fill=%27%230d1117%27/%3E%3Ctext x=%2732%27 y=%2745%27 font-size=%2738%27 text-anchor=%27middle%27 fill=%27%234f9cff%27%3E%E0%A4%AA%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="assets/style.css">
@@ -20,6 +20,7 @@
   </div>
 
   <nav class="modes" id="modes"></nav>
+  <button class="ghost sm" id="btn-pattern" title="Show the pattern for this stage">pattern</button>
 
   <div class="stats">
     <div class="stat"><b id="s-stage">—</b><span>stage</span></div>
@@ -43,19 +44,25 @@
 
   <section class="stage" id="stage">
 
-    <!-- ---------- DRILL ---------- -->
-    <div class="view" id="drillview">
-      <div class="prompt">
-        <div class="p-stem">
-          <span class="p-deva dev" id="p-deva">—</span>
-          <span class="p-iast" id="p-iast"></span>
-          <span class="p-gloss" id="p-gloss"></span>
-        </div>
-        <div class="p-ask" id="p-ask">Loading…</div>
-        <div class="p-tags" id="p-tags"></div>
+    <!-- ---------- LEARN ---------- -->
+    <div class="view" id="learnview" hidden>
+      <div class="learnhead">
+        <div class="l-eyebrow" id="l-eyebrow">Learn first</div>
+        <h2 id="l-title"></h2>
+        <p id="l-why"></p>
       </div>
+      <div class="learngrid" id="learngrid"></div>
+      <p class="note" id="l-note"></p>
+      <div class="learnfoot">
+        <button class="primary" id="btn-startdrill">I have read it — start drilling →</button>
+      </div>
+    </div>
 
-      <div class="stagegrid" id="stagegrid"></div>
+    <!-- ---------- DRILL ---------- -->
+    <div class="view" id="drillview" hidden>
+      <div class="cue" id="cue"></div>
+      <div class="cue-sub" id="cue-sub"></div>
+      <div class="cue-tags" id="cue-tags"></div>
 
       <div class="answer">
         <input id="input" type="text" autocomplete="off" autocorrect="off"
@@ -64,6 +71,14 @@
       </div>
       <div class="keys" id="keys"></div>
       <div class="hintline" id="hint"></div>
+      <div class="srsline" id="srs"></div>
+
+      <!-- revealed only after answering -->
+      <div class="after" id="after" hidden>
+        <div class="after-form" id="after-form"></div>
+        <div class="after-rule" id="after-rule"></div>
+        <div class="stagegrid" id="stagegrid"></div>
+      </div>
     </div>
 
     <!-- ---------- REFERENCE ---------- -->
@@ -84,7 +99,7 @@
         </div>
       </div>
       <div class="reftable" id="reftable"></div>
-      <div class="hintline" id="r-hint">Tap any form to see its derivation. The highlighted row is the case you are drilling.</div>
+      <div class="hintline" id="r-hint">Tap any form to see its derivation.</div>
     </div>
 
   </section>
@@ -99,7 +114,7 @@
       <div class="verdict" id="verdict"></div>
       <div class="correct" id="correct"></div>
       <div class="yours" id="yours"></div>
-      <button class="ghost why" id="btn-why">why? show the derivation</button>
+      <button class="ghost why" id="btn-why">show the derivation</button>
       <div class="trace" id="trace" hidden></div>
       <button class="primary next" id="btn-next">Next →</button>
     </div>
