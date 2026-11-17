@@ -225,3 +225,5 @@ input[type=text]:focus{outline:2px solid var(--c-affix);outline-offset:1px}
 .preview-class{margin-top:10px;font-size:14px;color:var(--c-class);font-weight:700}
 .preview-note{max-width:460px;color:var(--dim);font-size:13px;line-height:1.5}
 .preview-cta{margin-top:14px;font-size:13px;color:var(--muted);display:flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:center}
+.step.summary{grid-template-columns:82px 1fr;align-items:center}
+.step.summary .dev{font-size:15px}

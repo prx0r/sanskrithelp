@@ -220,7 +220,7 @@ function renderMatrix() {
       const sup = showAffix ? affixOf(c) : '';
       html += `<button class="mcell ${on ? 'on' : ''}" data-vib="${v.id}" data-vac="${w.id}" data-layer="surface">
         <span class="dev">${dev}</span><small>${txt}</small>
-        ${sup ? `<span class="affix-tag">${esc(sup)}</span>` : ''}
+        ${sup ? `<span class="affix-tag" title="sup ending as the engine selected it; the it-markers (ṭ, ṅ, m̐) are removed later by 1.3.x">${esc(sup)}</span>` : ''}
       </button>`;
     }
     html += '</div>';
@@ -301,11 +301,11 @@ function renderTrace() {
     if (maxLevel === 3) return ['stem', 'affix', 'surface'].includes(role);
     return role === 'stem';
   };
-  let html = `<div class="step" data-layer="stem"><span class="st-role">stem</span>
+  let html = `<div class="step summary" data-layer="stem"><span class="st-role">stem</span>
     <b class="dev">${esc(stem.deva)}</b> <span class="dim">${esc(stem.iast)} — ${esc(stem.gloss)}</span></div>
-    <div class="step" data-layer="class"><span class="st-role">class</span>
+    <div class="step summary" data-layer="class"><span class="st-role">class</span>
     ${esc(fam.label)} · ${esc(stem.gender)}</div>
-    <div class="step" data-layer="affix"><span class="st-role">affix</span>
+    <div class="step summary" data-layer="affix"><span class="st-role">affix</span>
     ${esc(v.en)} × ${esc(w.en)} → sup ending selected by 4.1.2</div>`;
   c.steps.forEach(([code, after, role]) => {
     if (!visible(role)) return;
