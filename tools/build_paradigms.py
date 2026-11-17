@@ -94,7 +94,7 @@ STEMS = [
     ("Atman", "आत्मन्", "ātman", "self", "an-masc", "Pum", 0, "-an stem"),
     ("vAc", "वाच्", "vāc", "speech", "c-fem", "Stri", 0, "-c stem; nom vāk"),
     ("manas", "मनस्", "manas", "mind", "as-neut", "Napumsaka", 0, "-as neuter"),
-    ("suKin", "सुखिन्", "sukhin", "happy", "in-masc", "Pum", 0, "-in stem; nom sukhī"),
+    ("suKin", "सुखिन्", "sukhin", "happy one", "in-masc", "Pum", 0, "-in stem; nom sukhī"),
     ("Bavant", "भवत्", "bhavant", "being (honorific)", "ant-masc", "Pum", 0, "-ant participle"),
     ("Bagavant", "भगवन्", "bhagavant", "blessed lord", "vant-masc", "Pum", 0, "-vant stem"),
     ("go", "गो", "go", "cow", "diph-masc", "Pum", 0, "diphthong stem; nom gauḥ"),

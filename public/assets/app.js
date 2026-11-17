@@ -342,8 +342,20 @@ function grade(q, input) {
    SENTENCE PRACTICE — from the precomputed bank (single source:
    tools/build_sentences.py). The app never invents sentences.
    ============================================================ */
-const PROPER = new Set(['rAma', 'sItA', 'gaNgA', 'gOrI']);
-const MASS = new Set(['jala', 'vAri', 'daDi', 'maDu', 'vasu', 'BU', 'agni', 'vAc']);
+const PROPER_FALLBACK = ['rAma', 'sItA', 'gOrI'];
+const MASS_FALLBACK = ['jala', 'vAri', 'daDi', 'maDu', 'vasu', 'BU', 'agni', 'vAc', 'gaNgA'];
+// kinds come from frames.json once loaded (single source); fallbacks cover boot
+const PROPER = new Set(PROPER_FALLBACK);
+const MASS = new Set(MASS_FALLBACK);
+async function loadFrames() {
+  if (!S.frames) {
+    S.frames = await getJSON('data/frames.json');
+    for (const x of (S.frames.proper || [])) PROPER.add(x);
+    for (const x of (S.frames.proper_fallback_remove || [])) PROPER.delete(x);
+    for (const x of (S.frames.mass || [])) MASS.add(x);
+  }
+  return S.frames;
+}
 const IRREG = { man: 'men', wife: 'wives', hero: 'heroes', being: 'beings' };
 function plural(gloss) {
   const m = gloss.match(/^(.*?)(\s*\(.*\))$/);
@@ -1156,6 +1168,7 @@ function wire() {
 (async function boot() {
   S.stats = loadStats();
   [S.index, S.curriculum] = await Promise.all([getJSON('data/index.json'), getJSON('data/curriculum.json')]);
+  try { await loadFrames(); } catch (e) { /* fallbacks stand in */ }
   window.__prakriya = S;
   wire();
   renderLegend();

@@ -112,17 +112,21 @@ def main() -> int:
         parts = []
         used = set()
         for i, role in enumerate(frame["roles"]):
-            vac = subj_vac if i == subj_idx else "eka"
-            if i != subj_idx and stems and rng.random() < 0.3:
-                vac = "bahu"
             pool = [s for s in candidates(role["kinds"]) if s not in used]
-            massy = [s for s in pool if s in frames_doc["mass"]]
-            if vac != "eka":
-                pool = [s for s in pool if s not in frames_doc["mass"]]
             if not pool:
                 return None
             sid = rng.choice(pool)
             used.add(sid)
+            # number: subject keeps its pre-set number; proper names and
+            # mass nouns never pluralise; other slots vary
+            if sid in frames_doc["proper"] or sid in frames_doc["mass"]:
+                vac = "eka"
+            elif i == subj_idx:
+                vac = subj_vac
+            elif rng.random() < 0.3:
+                vac = "bahu"
+            else:
+                vac = "eka"
             c = form_of(sid, role["vib"], vac)
             if not c:
                 return None
@@ -134,12 +138,13 @@ def main() -> int:
         verb = None
         if frame.get("verb"):
             vb = frame["verb"]
-            v = verb_form(vb["root"], vb["lakara"], subj_vac)
+            sv = parts[subj_idx]["vac"] if subj_idx >= 0 else "eka"
+            v = verb_form(vb["root"], vb["lakara"], sv)
             if not v:
                 return None
             verb = {"root": vb["root"], "lakara": vb["lakara"], "iast": v["iast"],
-                    "deva": v["deva"], "purusha": "Prathama", "vacana": subj_vac}
-            ven = frame["verbEn"] if subj_vac == "eka" else frame["verbEnPl"]
+                    "deva": v["deva"], "purusha": "Prathama", "vacana": sv}
+            ven = frame["verbEn"] if sv == "eka" else frame["verbEnPl"]
         else:
             ven = ""
         # english + word order
@@ -267,8 +272,9 @@ def build_one_forced(frame, sid, role_idx, parad, vpar, stems, kinds,
     for i, role in enumerate(frame["roles"]):
         if i == role_idx:
             # vary number so repeated coverage hits don't collide on one key
-            # (mass nouns stay singular; the subject keeps verb agreement)
-            vac = "bahu" if (rng.random() < 0.5 and sid not in frames_doc["mass"]) else "eka"
+            # (proper names and mass nouns stay singular)
+            vac = "bahu" if (rng.random() < 0.5 and sid not in frames_doc["mass"]
+                             and sid not in frames_doc["proper"]) else "eka"
             if i == subj_idx and vac == "bahu":
                 pass  # subject plural is fine here: verb below agrees with it
             c = parad.get(sid, {}).get(role["vib"], {}).get(vac)

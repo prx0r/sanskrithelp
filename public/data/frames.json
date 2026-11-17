@@ -339,20 +339,20 @@
   "vana": "place"
  },
  "mass": [
-  "jala",
-  "vAri",
-  "daDi",
-  "maDu",
-  "vasu",
   "BU",
   "agni",
-  "vAc"
+  "daDi",
+  "gaNgA",
+  "jala",
+  "maDu",
+  "vAc",
+  "vAri",
+  "vasu"
  ],
  "note": "Sentence frames for contextual drills. One frame, one changing slot: the grammatical role forces the case, the learner supplies the form. Words are written unjoined (no external sandhi) so each ending stays visible; the joined upgrade is tracked separately. Verb forms are looked up in verbs.json (3rd person, agreeing with the singular subject), never typed.",
  "proper": [
   "rAma",
   "sItA",
-  "gaNgA",
   "gOrI"
  ]
 }
