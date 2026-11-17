@@ -22,6 +22,7 @@ html,body{height:100%;overflow:hidden}
 body{
   margin:0;background:var(--bg);color:var(--text);font:15px/1.5 var(--font);
   -webkit-font-smoothing:antialiased;overscroll-behavior:none;
+  display:flex;flex-direction:column;
 }
 button{font:inherit;color:inherit;cursor:pointer}
 .dev{font-family:var(--dev)}
@@ -58,7 +59,7 @@ button{font:inherit;color:inherit;cursor:pointer}
 
 /* ---------- app grid ---------- */
 .app{
-  height:calc(100% - 58px);
+  flex:1;min-height:0;
   display:grid;grid-template-columns:250px minmax(0,1fr) 350px;
   overflow:hidden;
 }
@@ -167,7 +168,16 @@ button{font:inherit;color:inherit;cursor:pointer}
   .bar{height:auto;padding:8px 10px;flex-wrap:wrap;gap:8px}
   .modes{order:3;width:100%;overflow-x:auto}
   .mode small{display:none}
-  .app{height:calc(100% - 92px);grid-template-columns:1fr;grid-template-rows:auto minmax(0,1fr) auto}
+  .app{grid-template-columns:1fr;grid-template-rows:auto minmax(0,1fr) auto}
+  body:not(.answered) .feedback{display:none}
+  .stagegrid{flex:1 1 auto;min-height:150px;margin:10px 0}
+  .stage{padding:12px}
+  .p-deva{font-size:28px}
+  .p-iast{font-size:15px}
+  .p-ask{font-size:15px;margin-top:8px}
+  .p-tags{margin-top:7px;min-height:0}
+  .tag{font-size:10.5px;padding:2px 7px}
+  .keys button{font-size:12px;padding:1px 6px;min-width:22px}
   .rail{border-right:none;border-bottom:1px solid var(--line);background:#101721}
   .famlist{flex-direction:row;overflow-x:auto;overflow-y:hidden;padding:6px 8px}
   .fam{width:auto;flex:0 0 auto}

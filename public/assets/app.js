@@ -404,6 +404,7 @@ function renderTrace(q) {
 }
 
 function renderFeedback(q, verdict, input) {
+  document.body.classList.add('answered');
   $('#fb-empty').hidden = true;
   $('#fb-body').hidden = false;
 
@@ -447,6 +448,7 @@ function renderFeedback(q, verdict, input) {
 }
 
 function clearFeedback() {
+  document.body.classList.remove('answered');
   $('#fb-empty').hidden = false;
   $('#fb-body').hidden = true;
   $('#trace').hidden = true;
