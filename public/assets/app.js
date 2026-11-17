@@ -464,6 +464,7 @@ async function showLearn(st) {
       }
     }
     html += '</div>';
+    html += '</div><div class="lg-cap">each cell: the form · <b>sup</b> = the ending the grammar selects · <b>→ code</b> = the rule that changes it</div>';
     $('#learngrid').innerHTML = html;
     $('#l-note').innerHTML = `<b>${esc(fam.label)}</b> — ${esc(fam.note)}
       Every stem in this family takes exactly these endings: <b>${fam.stems.map((x) => esc(stemById(x).iast)).join(', ')}</b>.

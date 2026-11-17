@@ -401,3 +401,5 @@ button{font:inherit;color:inherit;cursor:pointer}
   .lg-c .sup{font-size:8px}
   .learnhead h2{font-size:18px}
 }
+.lg-cap{font-size:10px;color:#5d6f84;margin-top:6px;letter-spacing:.02em}
+.lg-cap b{color:#8b7cc4;font-family:ui-monospace,Menlo,monospace;font-weight:600}
