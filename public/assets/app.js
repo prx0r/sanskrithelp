@@ -894,7 +894,18 @@ function cellMarkup(c, isTarget, revealed) {
 
 function renderStageGrid(q, revealed) {
   const host = $('#stagegrid');
-  if (q.mode === 'family' || !q.cell) { host.innerHTML = ''; return; }
+  if (q.mode === 'family') {
+    host.innerHTML = `<div class="fampad">` + S.index.families.map((f) =>
+      `<button data-fam="${f.id}" style="--fc:${f.colour}">
+        <span class="sw" style="background:${f.colour}"></span>${esc(f.label)}</button>`).join('') + `</div>`;
+    host.querySelectorAll('[data-fam]').forEach((b) => b.addEventListener('click', () => {
+      if (S.answered) return;
+      $('#input').value = S.index.families.find((f) => f.id === b.dataset.fam).label;
+      check();
+    }));
+    return;
+  }
+  if (!q.cell) { host.innerHTML = ''; return; }
   if (q.mode === 'who' || q.mode === 'surgery' || q.mode === 'hunt') { host.innerHTML = ''; return; }
 
   if (q.track === 'noun') {
