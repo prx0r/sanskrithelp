@@ -1333,7 +1333,10 @@ async function newQuestion() {
   renderModes();
   renderRail();
   renderCue(S.q);
-  $('#stagegrid').innerHTML = '';
+  // family pad renders before answering (it IS the answer control);
+  // paradigm grids render only after (see renderAfter)
+  if (S.q.mode === 'family') renderStageGrid(S.q, false);
+  else $('#stagegrid').innerHTML = '';
   $('#input').value = '';
   $('#input').placeholder = (S.q.mode === 'reverse' || S.q.mode === 'read') ? 'genitive singular'
     : S.q.mode === 'who' ? '1st singular'
