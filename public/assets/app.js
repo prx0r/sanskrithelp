@@ -105,10 +105,10 @@ function highlightLayer(layer) {
 const RUNGS = [
   { n: 1, name: 'Stem', shows: 'the base word only — deva', layer: 'stem' },
   { n: 2, name: 'Class', shows: 'its family and gender — a-masc, masculine', layer: 'class' },
-  { n: 3, name: 'Case + number', shows: 'the eight cases and three numbers appear', layer: 'affix' },
-  { n: 4, name: 'Affix', shows: 'the actual sup ending the engine selects', layer: 'affix' },
+  { n: 3, name: 'Case + number', shows: 'the 8 × 3 grid of forms appears', layer: 'affix' },
+  { n: 4, name: 'Affix', shows: 'the sup ending the engine actually selects', layer: 'affix' },
   { n: 5, name: 'Operation', shows: 'every rule that fires, in order', layer: 'operation' },
-  { n: 6, name: 'Surface', shows: 'the finished word, and the whole trace', layer: 'surface' },
+  { n: 6, name: 'Full trace', shows: 'sandhi and definitions included', layer: 'sound' },
 ];
 
 function paintLadder() {
@@ -196,8 +196,9 @@ function render() {
 }
 
 function renderMatrix() {
+  if (state.level < 3) { renderStemPreview(); return; }
   const showAffix = state.level >= 4;
-  const showWord = state.level >= 2;
+  const showWord = true;
   let html = '';
   for (const v of VIB()) {
     html += `<div class="mrow">
@@ -229,6 +230,30 @@ function renderMatrix() {
   $$('.mcell').forEach((b) => b.addEventListener('click', () => {
     state.vib = b.dataset.vib; state.vac = b.dataset.vac; state.revealed = false; render();
   }));
+}
+
+function renderStemPreview() {
+  const stem = state.index.stems.find((s) => s.id === state.stem);
+  const fam = state.index.families.find((f) => f.id === state.family);
+  const showClass = state.level >= 2;
+  $('#matrix').innerHTML = `
+    <div class="preview">
+      <div class="preview-word dev">${esc(stem.deva)}</div>
+      <div class="preview-iast iast">${esc(stem.iast)}</div>
+      <div class="preview-gloss">${esc(stem.gloss)}</div>
+      ${showClass ? `<div class="preview-class"><span class="dot" data-layer="class"></span>
+        ${esc(fam.label)} · ${esc(stem.gender)}</div>
+        <div class="preview-note">${esc(fam.note)}</div>`
+      : `<div class="preview-note">Pick a family and a stem. Raise the rung to reveal the class.</div>`}
+      <div class="preview-cta">Rung ${state.level} of 6 —
+        <button class="chipbtn" id="climb">show the 8 × 3 forms →</button></div>
+    </div>`;
+  $('#climb')?.addEventListener('click', () => {
+    state.level = 3;
+    localStorage.setItem('pw-level', 3);
+    paintLadder();
+    render();
+  });
 }
 
 function renderOutput() {
