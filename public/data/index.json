@@ -348,7 +348,7 @@
   {
    "deva": "देव",
    "family": "a-masc",
-   "gender": "Pum",
+   "gender": "masculine",
    "gloss": "god",
    "iast": "deva",
    "id": "deva",
@@ -357,7 +357,7 @@
   {
    "deva": "राम",
    "family": "a-masc",
-   "gender": "Pum",
+   "gender": "masculine",
    "gloss": "Rāma",
    "iast": "rāma",
    "id": "rAma",
@@ -366,7 +366,7 @@
   {
    "deva": "नर",
    "family": "a-masc",
-   "gender": "Pum",
+   "gender": "masculine",
    "gloss": "man",
    "iast": "nara",
    "id": "nara",
@@ -375,7 +375,7 @@
   {
    "deva": "वीर",
    "family": "a-masc",
-   "gender": "Pum",
+   "gender": "masculine",
    "gloss": "hero",
    "iast": "vīra",
    "id": "vIra",
@@ -384,7 +384,7 @@
   {
    "deva": "अश्व",
    "family": "a-masc",
-   "gender": "Pum",
+   "gender": "masculine",
    "gloss": "horse",
    "iast": "aśva",
    "id": "aSva",
@@ -393,7 +393,7 @@
   {
    "deva": "वृक्ष",
    "family": "a-masc",
-   "gender": "Pum",
+   "gender": "masculine",
    "gloss": "tree",
    "iast": "vṛkṣa",
    "id": "vfkza",
@@ -402,7 +402,7 @@
   {
    "deva": "सूर्य",
    "family": "a-masc",
-   "gender": "Pum",
+   "gender": "masculine",
    "gloss": "sun",
    "iast": "sūrya",
    "id": "sUrya",
@@ -411,7 +411,7 @@
   {
    "deva": "पुत्र",
    "family": "a-masc",
-   "gender": "Pum",
+   "gender": "masculine",
    "gloss": "son",
    "iast": "putra",
    "id": "putra",
@@ -420,7 +420,7 @@
   {
    "deva": "रथ",
    "family": "a-masc",
-   "gender": "Pum",
+   "gender": "masculine",
    "gloss": "chariot",
    "iast": "ratha",
    "id": "raTa",
@@ -429,7 +429,7 @@
   {
    "deva": "फल",
    "family": "a-neut",
-   "gender": "Napumsaka",
+   "gender": "neuter",
    "gloss": "fruit",
    "iast": "phala",
    "id": "Pala",
@@ -438,7 +438,7 @@
   {
    "deva": "जल",
    "family": "a-neut",
-   "gender": "Napumsaka",
+   "gender": "neuter",
    "gloss": "water",
    "iast": "jala",
    "id": "jala",
@@ -447,7 +447,7 @@
   {
    "deva": "वन",
    "family": "a-neut",
-   "gender": "Napumsaka",
+   "gender": "neuter",
    "gloss": "forest",
    "iast": "vana",
    "id": "vana",
@@ -456,7 +456,7 @@
   {
    "deva": "कुल",
    "family": "a-neut",
-   "gender": "Napumsaka",
+   "gender": "neuter",
    "gloss": "family",
    "iast": "kula",
    "id": "kula",
@@ -465,7 +465,7 @@
   {
    "deva": "रूप",
    "family": "a-neut",
-   "gender": "Napumsaka",
+   "gender": "neuter",
    "gloss": "form",
    "iast": "rūpa",
    "id": "rUpa",
@@ -474,7 +474,7 @@
   {
    "deva": "गृह",
    "family": "a-neut",
-   "gender": "Napumsaka",
+   "gender": "neuter",
    "gloss": "house",
    "iast": "gṛha",
    "id": "gfha",
@@ -483,7 +483,7 @@
   {
    "deva": "चक्र",
    "family": "a-neut",
-   "gender": "Napumsaka",
+   "gender": "neuter",
    "gloss": "wheel",
    "iast": "cakra",
    "id": "cakra",
@@ -492,7 +492,7 @@
   {
    "deva": "दान",
    "family": "a-neut",
-   "gender": "Napumsaka",
+   "gender": "neuter",
    "gloss": "gift",
    "iast": "dāna",
    "id": "dAna",
@@ -501,7 +501,7 @@
   {
    "deva": "सीता",
    "family": "aa-fem",
-   "gender": "Stri",
+   "gender": "feminine",
    "gloss": "Sītā",
    "iast": "sītā",
    "id": "sItA",
@@ -510,7 +510,7 @@
   {
    "deva": "लता",
    "family": "aa-fem",
-   "gender": "Stri",
+   "gender": "feminine",
    "gloss": "creeper",
    "iast": "latā",
    "id": "latA",
@@ -519,7 +519,7 @@
   {
    "deva": "कन्या",
    "family": "aa-fem",
-   "gender": "Stri",
+   "gender": "feminine",
    "gloss": "girl",
    "iast": "kanyā",
    "id": "kanyA",
@@ -528,7 +528,7 @@
   {
    "deva": "गङ्गा",
    "family": "aa-fem",
-   "gender": "Stri",
+   "gender": "feminine",
    "gloss": "Ganges",
    "iast": "gaṅgā",
    "id": "gaNgA",
@@ -537,7 +537,7 @@
   {
    "deva": "भार्या",
    "family": "aa-fem",
-   "gender": "Stri",
+   "gender": "feminine",
    "gloss": "wife",
    "iast": "bhāryā",
    "id": "BAryA",
@@ -546,7 +546,7 @@
   {
    "deva": "माला",
    "family": "aa-fem",
-   "gender": "Stri",
+   "gender": "feminine",
    "gloss": "garland",
    "iast": "mālā",
    "id": "mAlA",
@@ -555,7 +555,7 @@
   {
    "deva": "कला",
    "family": "aa-fem",
-   "gender": "Stri",
+   "gender": "feminine",
    "gloss": "art",
    "iast": "kalā",
    "id": "kalA",
@@ -564,7 +564,7 @@
   {
    "deva": "नदी",
    "family": "ii-fem",
-   "gender": "Stri",
+   "gender": "feminine",
    "gloss": "river",
    "iast": "nadī",
    "id": "nadI",
@@ -573,7 +573,7 @@
   {
    "deva": "देवी",
    "family": "ii-fem",
-   "gender": "Stri",
+   "gender": "feminine",
    "gloss": "goddess",
    "iast": "devī",
    "id": "devI",
@@ -582,7 +582,7 @@
   {
    "deva": "पत्नी",
    "family": "ii-fem",
-   "gender": "Stri",
+   "gender": "feminine",
    "gloss": "wife",
    "iast": "patnī",
    "id": "patnI",
@@ -591,7 +591,7 @@
   {
    "deva": "सखी",
    "family": "ii-fem",
-   "gender": "Stri",
+   "gender": "feminine",
    "gloss": "female friend",
    "iast": "sakhī",
    "id": "saKI",
@@ -600,7 +600,7 @@
   {
    "deva": "गौरी",
    "family": "ii-fem",
-   "gender": "Stri",
+   "gender": "feminine",
    "gloss": "Gaurī",
    "iast": "gaurī",
    "id": "gOrI",
@@ -609,7 +609,7 @@
   {
    "deva": "वधू",
    "family": "uu-fem",
-   "gender": "Stri",
+   "gender": "feminine",
    "gloss": "bride",
    "iast": "vadhū",
    "id": "vaDU",
@@ -618,7 +618,7 @@
   {
    "deva": "भू",
    "family": "uu-fem",
-   "gender": "Stri",
+   "gender": "feminine",
    "gloss": "earth",
    "iast": "bhū",
    "id": "BU",
@@ -627,7 +627,7 @@
   {
    "deva": "अग्नि",
    "family": "i-masc",
-   "gender": "Pum",
+   "gender": "masculine",
    "gloss": "fire",
    "iast": "agni",
    "id": "agni",
@@ -636,7 +636,7 @@
   {
    "deva": "कवि",
    "family": "i-masc",
-   "gender": "Pum",
+   "gender": "masculine",
    "gloss": "poet",
    "iast": "kavi",
    "id": "kavi",
@@ -645,7 +645,7 @@
   {
    "deva": "मुनि",
    "family": "i-masc",
-   "gender": "Pum",
+   "gender": "masculine",
    "gloss": "sage",
    "iast": "muni",
    "id": "muni",
@@ -654,7 +654,7 @@
   {
    "deva": "ऋषि",
    "family": "i-masc",
-   "gender": "Pum",
+   "gender": "masculine",
    "gloss": "seer",
    "iast": "ṛṣi",
    "id": "fzi",
@@ -663,7 +663,7 @@
   {
    "deva": "गिरि",
    "family": "i-masc",
-   "gender": "Pum",
+   "gender": "masculine",
    "gloss": "mountain",
    "iast": "giri",
    "id": "giri",
@@ -672,7 +672,7 @@
   {
    "deva": "पति",
    "family": "i-masc",
-   "gender": "Pum",
+   "gender": "masculine",
    "gloss": "lord",
    "iast": "pati",
    "id": "pati",
@@ -681,7 +681,7 @@
   {
    "deva": "वारि",
    "family": "i-neut",
-   "gender": "Napumsaka",
+   "gender": "neuter",
    "gloss": "water",
    "iast": "vāri",
    "id": "vAri",
@@ -690,7 +690,7 @@
   {
    "deva": "दधि",
    "family": "i-neut",
-   "gender": "Napumsaka",
+   "gender": "neuter",
    "gloss": "curd",
    "iast": "dadhi",
    "id": "daDi",
@@ -699,7 +699,7 @@
   {
    "deva": "गुरु",
    "family": "u-masc",
-   "gender": "Pum",
+   "gender": "masculine",
    "gloss": "teacher",
    "iast": "guru",
    "id": "guru",
@@ -708,7 +708,7 @@
   {
    "deva": "शत्रु",
    "family": "u-masc",
-   "gender": "Pum",
+   "gender": "masculine",
    "gloss": "enemy",
    "iast": "śatru",
    "id": "Satru",
@@ -717,7 +717,7 @@
   {
    "deva": "भानु",
    "family": "u-masc",
-   "gender": "Pum",
+   "gender": "masculine",
    "gloss": "sun",
    "iast": "bhānu",
    "id": "BAnu",
@@ -726,7 +726,7 @@
   {
    "deva": "रिपु",
    "family": "u-masc",
-   "gender": "Pum",
+   "gender": "masculine",
    "gloss": "enemy",
    "iast": "ripu",
    "id": "ripu",
@@ -735,7 +735,7 @@
   {
    "deva": "मधु",
    "family": "u-neut",
-   "gender": "Napumsaka",
+   "gender": "neuter",
    "gloss": "honey",
    "iast": "madhu",
    "id": "maDu",
@@ -744,7 +744,7 @@
   {
    "deva": "वसु",
    "family": "u-neut",
-   "gender": "Napumsaka",
+   "gender": "neuter",
    "gloss": "wealth",
    "iast": "vasu",
    "id": "vasu",
@@ -753,7 +753,7 @@
   {
    "deva": "पितृ",
    "family": "r-agent",
-   "gender": "Pum",
+   "gender": "masculine",
    "gloss": "father",
    "iast": "pitṛ",
    "id": "pitf",
@@ -762,7 +762,7 @@
   {
    "deva": "भ्रातृ",
    "family": "r-agent",
-   "gender": "Pum",
+   "gender": "masculine",
    "gloss": "brother",
    "iast": "bhrātṛ",
    "id": "BrAtf",
@@ -771,7 +771,7 @@
   {
    "deva": "कर्तृ",
    "family": "r-agent",
-   "gender": "Pum",
+   "gender": "masculine",
    "gloss": "doer",
    "iast": "kartṛ",
    "id": "kartf",
@@ -780,7 +780,7 @@
   {
    "deva": "दातृ",
    "family": "r-agent",
-   "gender": "Pum",
+   "gender": "masculine",
    "gloss": "giver",
    "iast": "dātṛ",
    "id": "dAtf",
@@ -789,7 +789,7 @@
   {
    "deva": "राजन्",
    "family": "an-masc",
-   "gender": "Pum",
+   "gender": "masculine",
    "gloss": "king",
    "iast": "rājan",
    "id": "rAjan",
@@ -798,7 +798,7 @@
   {
    "deva": "आत्मन्",
    "family": "an-masc",
-   "gender": "Pum",
+   "gender": "masculine",
    "gloss": "self",
    "iast": "ātman",
    "id": "Atman",
@@ -807,7 +807,7 @@
   {
    "deva": "वाच्",
    "family": "c-fem",
-   "gender": "Stri",
+   "gender": "feminine",
    "gloss": "speech",
    "iast": "vāc",
    "id": "vAc",
@@ -816,7 +816,7 @@
   {
    "deva": "मनस्",
    "family": "as-neut",
-   "gender": "Napumsaka",
+   "gender": "neuter",
    "gloss": "mind",
    "iast": "manas",
    "id": "manas",
@@ -825,7 +825,7 @@
   {
    "deva": "सुखिन्",
    "family": "in-masc",
-   "gender": "Pum",
+   "gender": "masculine",
    "gloss": "happy",
    "iast": "sukhin",
    "id": "suKin",
@@ -834,7 +834,7 @@
   {
    "deva": "भवत्",
    "family": "ant-masc",
-   "gender": "Pum",
+   "gender": "masculine",
    "gloss": "being (honorific)",
    "iast": "bhavant",
    "id": "Bavant",
@@ -843,7 +843,7 @@
   {
    "deva": "भगवन्",
    "family": "vant-masc",
-   "gender": "Pum",
+   "gender": "masculine",
    "gloss": "blessed lord",
    "iast": "bhagavant",
    "id": "Bagavant",
@@ -852,7 +852,7 @@
   {
    "deva": "गो",
    "family": "diph-masc",
-   "gender": "Pum",
+   "gender": "masculine",
    "gloss": "cow",
    "iast": "go",
    "id": "go",
