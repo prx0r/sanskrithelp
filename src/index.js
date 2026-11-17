@@ -491,8 +491,26 @@ async function callTool(env, name, args) {
         const stems = ix.stems.filter((s) => s.family === fam);
         const s = pick(stems.length ? stems : ix.stems);
         const doc = await family(env, s.family);
-        const mode = args.mode || pick(['family', 'build', 'reverse', 'read']);
+        const mode = args.mode || pick(['family', 'build', 'reverse', 'read', 'spot']);
         const familyObj = ix.families.find((f) => f.id === s.family);
+        if (mode === 'spot') {
+          const a = await attested(env);
+          let pool = a.entries;
+          if (args.family) pool = pool.filter((e) => {
+            const st = ix.stems.find((x) => x.id === e.stem);
+            return st && st.family === args.family;
+          });
+          if (!pool.length) pool = a.entries;
+          const e = pick(pool);
+          const sout = { track: 'noun', mode: 'spot',
+                   prompt: `Complete the verse (${e.work} ${e.target}): ${e.sanskrit.split(e.form).join('____')}`,
+                   translation: e.translation, colour: (ix.families.find((f) =>
+                     f.id === (ix.stems.find((s) => s.id === e.stem) || {}).family) || {}).colour || null,
+                   check_with: 'check',
+                   args: { stem: e.stem, case: e.vibhakti, number: e.vacana } };
+          if (args.reveal) sout.answer = e.form;
+          return sout;
+        }
         if (mode === 'family') {
           const out = { track: 'noun', mode, colour: familyObj.colour,
                    prompt: `Which family does ${s.iast} (${s.gloss}) belong to?`,

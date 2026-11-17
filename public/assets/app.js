@@ -161,6 +161,7 @@ function nounModes() {
     modes.splice(at >= 0 ? at + 1 : modes.length, 0, 'read');
   }
   if (!modes.includes('use')) modes.push('use');
+  if (!modes.includes('spot')) modes.push('spot');
   return modes;
 }
 
@@ -313,6 +314,30 @@ async function makeQuestion() {
   if (mode === 'use') {
     const vibs = casesInScope();
     return makeSentence(pick(vibs).id);
+  }
+
+  if (mode === 'spot') {
+    const at = await loadAttested();
+    const st = S.stage;
+    let pool = at.entries.filter((e) => {
+      if (st && st.families && st.families.length) {
+        const fam = (S.index.stems.find((x) => x.id === e.stem) || {}).family;
+        if (!st.families.includes(fam)) return false;
+      }
+      if (st && st.cases && st.cases.length && !st.cases.includes(e.vibhakti)) return false;
+      return true;
+    });
+    if (!pool.length) pool = at.entries;
+    const e = pick(pool);
+    const stem = stemById(e.stem);
+    const family = famOf(stem);
+    const doc = await loadFamily(stem.family);
+    const vib = S.index.vibhakti.find((v) => v.id === e.vibhakti);
+    const vac = S.index.vacana.find((w) => w.id === e.vacana);
+    const cell = doc.stems[stem.id].paradigm[e.vibhakti][e.vacana];
+    return { track: 'noun', mode: 'spot', entry: e, stem, family, vib, vac, cell, doc,
+             colour: family.colour, answer: e.form,
+             cue: e.sanskrit, asks: 'complete the real verse' };
   }
 
   if (mode === 'family') {
@@ -758,8 +783,8 @@ function renderModes() {
   const st = S.stage;
   let modes = S.track === 'noun' ? nounModes()
     : ((st && st.modes && st.modes.length) ? st.modes.slice() : ['build', 'tense']);
-  const label = { family: 'Family', build: 'Form', reverse: 'Parse', read: 'Read', tense: 'Tense', who: 'Who', use: 'In a sentence', surgery: 'Surgery', hunt: 'Hunt' };
-  const sub = { family: 'name the class', build: 'meaning → form', reverse: 'form → meaning', read: 'match the meaning', tense: 'name the tense', who: 'who acts', use: 'fill the slot', surgery: 'name the rule', hunt: 'spot the fake step' };
+  const label = { family: 'Family', build: 'Form', reverse: 'Parse', read: 'Read', tense: 'Tense', who: 'Who', use: 'In a sentence', surgery: 'Surgery', hunt: 'Hunt', spot: 'Real text' };
+  const sub = { family: 'name the class', build: 'meaning → form', reverse: 'form → meaning', read: 'match the meaning', tense: 'name the tense', who: 'who acts', use: 'fill the slot', surgery: 'name the rule', hunt: 'spot the fake step', spot: 'fill the verse' };
   if (!modes.includes(S.mode)) S.mode = modes[0];
   $('#modes').innerHTML = modes.map((m) =>
     `<button class="mode ${m === S.mode ? 'on' : ''}" data-mode="${m}"><b>${label[m]}</b><small>${sub[m]}</small></button>`).join('');
@@ -797,6 +822,16 @@ function renderCue(q) {
       $('#input').value = `${V.en} ${W.en}`;
       check();
     }));
+    return;
+  }
+  if (q.mode === 'spot') {
+    const parts = q.entry.sanskrit.split(q.entry.form);
+    const verse = parts.map((x, i) => esc(x) + (i < parts.length - 1 ? '<span class="blank">?</span>' : '')).join('');
+    $('#cue').innerHTML = `<div class="sent-sa">${verse}</div>
+      <div class="sent-iast">${esc(q.entry.work)} · ${esc(q.entry.target)}</div>
+      <div class="cue-sub">${esc(q.entry.translation)}</div>`;
+    $('#cue-tags').innerHTML = `<span class="tag">real text — hard on purpose</span>
+      <span class="tag fam">${esc(q.family.label)}</span>`;
     return;
   }
   if (q.mode === 'who') {
@@ -979,6 +1014,10 @@ function renderFeedback(q, verdict, input) {
   } else if (q.mode === 'hunt') {
     $('#correct').innerHTML = `<span><code>${esc(q.answer)}</code> does not belong here</span>`;
     $('#yours').innerHTML = verdict === 'ok' ? '' : `<span class="lbl">you wrote</span>${esc(input)}`;
+  } else if (q.mode === 'spot') {
+    $('#correct').innerHTML = `<span class="dev">${esc(q.cell.deva)}</span><span class="ci">${esc(q.cell.iast)}</span>`;
+    $('#yours').innerHTML = `<span class="lbl">the verse</span>${esc(q.entry.work)} · ${esc(q.entry.target)}` +
+      (verdict === 'ok' ? '' : `<span class="lbl">you wrote</span>${esc(input)}`);
   } else if (q.mode === 'read') {
     const V = S.index.vibhakti.find((x) => x.id === q.vib.id);
     const W = S.index.vacana.find((x) => x.id === q.vac.id);
@@ -1338,7 +1377,7 @@ async function newQuestion() {
   if (S.q.mode === 'family') renderStageGrid(S.q, false);
   else $('#stagegrid').innerHTML = '';
   $('#input').value = '';
-  $('#input').placeholder = (S.q.mode === 'reverse' || S.q.mode === 'read') ? 'genitive singular'
+  $('#input').placeholder = ['reverse', 'read', 'spot'].includes(S.q.mode) ? 'genitive singular'
     : S.q.mode === 'who' ? '1st singular'
     : (S.q.mode === 'surgery' || S.q.mode === 'hunt') ? 'sūtra number, e.g. 7.1.12'
     : S.q.mode === 'tense' ? 'present / past / future…'
