@@ -497,6 +497,7 @@ function check() {
   $('#hint').textContent = verdict === 'ok'
     ? 'Correct — Enter for the next one.'
     : 'Read the breakdown, then press Enter.';
+  document.body.focus();
 }
 
 function paintStats() {
@@ -570,6 +571,14 @@ function wire() {
 
   const KEYS = ['ā', 'ī', 'ū', 'ṛ', 'ñ', 'ṅ', 'ṇ', 'ś', 'ṣ', 'ṃ', 'ḥ', 'ṭ', 'ḍ'];
   $('#keys').innerHTML = KEYS.map((k) => `<button type="button">${k}</button>`).join('');
+  // Enter always advances when answered, even if focus is on a button.
+  document.addEventListener('keydown', (e) => {
+    if (e.key !== 'Enter') return;
+    if (document.activeElement === $('#input')) return; // handled by the input
+    e.preventDefault();
+    if (S.answered) newQuestion(); else $('#input').focus();
+  });
+
   $('#keys').addEventListener('click', (e) => {
     const b = e.target.closest('button');
     if (!b) return;
