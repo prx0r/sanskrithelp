@@ -45,6 +45,15 @@ Scenarios live ad hoc in /tmp during development; the contract they check:
 no page scroll at 360/390/1024/1340, no console errors, every mode answers
 and grades, family prompt neutral until answered.
 
+## 4b. Live verification (Playwright + MCP round-trip)
+
+```sh
+python3 tools/verify_live.py   # needs playwright + desktop Chrome; hits https://sanskrit.help/
+```
+
+Checks MCP tools, stage unlock, review, confusion, SRS, case dots, scroll at
+two sizes, and zero JS errors. This is the acceptance run; keep it green.
+
 ## 4. MCP (live)
 
 ```sh
