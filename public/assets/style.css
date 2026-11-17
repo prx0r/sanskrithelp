@@ -425,3 +425,4 @@ button{font:inherit;color:inherit;cursor:pointer}
 .srsline{font-size:11px;color:var(--warn);margin-top:6px;min-height:14px}
 .cue-tags{align-items:flex-start}
 .cue-tags .tag{flex:0 0 auto;align-self:flex-start}
+.cue-tags .tag{display:inline-flex;width:auto;max-width:max-content}
