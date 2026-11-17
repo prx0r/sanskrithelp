@@ -423,3 +423,5 @@ button{font:inherit;color:inherit;cursor:pointer}
   background:rgba(194,154,244,.13);padding:1px 5px;border-radius:5px}
 #after .stagegrid{margin-top:10px}
 .srsline{font-size:11px;color:var(--warn);margin-top:6px;min-height:14px}
+.cue-tags{align-items:flex-start}
+.cue-tags .tag{flex:0 0 auto;align-self:flex-start}
