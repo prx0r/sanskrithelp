@@ -403,3 +403,23 @@ button{font:inherit;color:inherit;cursor:pointer}
 }
 .lg-cap{font-size:10px;color:#5d6f84;margin-top:6px;letter-spacing:.02em}
 .lg-cap b{color:#8b7cc4;font-family:ui-monospace,Menlo,monospace;font-weight:600}
+
+/* ================= drill cue layout ================= */
+#drillview{justify-content:center}
+#drillview .answer{margin-top:16px}
+#drillview .stagegrid,#drillview .after{flex:0 0 auto}
+.cue{font-size:20px;font-weight:600;line-height:1.35;max-width:70ch}
+.cue .cd{font-family:var(--dev);font-size:40px;font-weight:600;line-height:1.15;margin-right:12px}
+.cue .ci{font-size:17px;font-style:italic;color:var(--fc)}
+.cue .cue-m{font-size:22px}
+.cue-sub{font-size:12.5px;color:var(--dim);margin-top:6px;max-width:70ch}
+.cue-tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}
+#after{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px 14px;margin-top:12px}
+#after-form{display:flex;align-items:baseline;gap:10px;margin-bottom:4px}
+#after-form .dev{font-family:var(--dev);font-size:26px}
+#after-form .ci{font-size:15px;font-style:italic;color:var(--fc)}
+#after-rule{font-size:12px;color:var(--muted)}
+#after-rule code{font-family:ui-monospace,Menlo,monospace;font-size:11px;color:#c4b5fd;
+  background:rgba(194,154,244,.13);padding:1px 5px;border-radius:5px}
+#after .stagegrid{margin-top:10px}
+.srsline{font-size:11px;color:var(--warn);margin-top:6px;min-height:14px}
