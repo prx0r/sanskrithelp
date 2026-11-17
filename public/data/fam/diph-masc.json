@@ -1,0 +1,1607 @@
+{
+ "family": "diph-masc",
+ "format": "sanskrithelp.paradigm/1",
+ "status": "machine-derived-unreviewed",
+ "stems": {
+  "go": {
+   "paradigm": {
+    "caturthi": {
+     "bahu": {
+      "deva": "गोभ्यः",
+      "iast": "gobhyaḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "go",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "go + Byas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "go + Byas",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "go + Byas",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "go + Byas",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "go + Byas",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "go + Byaru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "go + Byar",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "go + ByaH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "go + ByaH",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "गोभ्याम्",
+      "iast": "gobhyām",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "go",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "go + ByAm",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "go + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "go + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "go + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "go + ByAm",
+        "definition"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "गवे",
+      "iast": "gave",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "go",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "go + Ne",
+        "affix"
+       ],
+       [
+        "1.3.8",
+        "go + Ne",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "go + e",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "go + e",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "go + e",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "go + e",
+        "definition"
+       ],
+       [
+        "6.1.78",
+        "gav + e",
+        "operation"
+       ],
+       [
+        "8.4.68",
+        "gav + e",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "dvitiya": {
+     "bahu": {
+      "deva": "गाः",
+      "iast": "gāḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "go",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "go + Sas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "go + Sas",
+        "definition"
+       ],
+       [
+        "1.3.8",
+        "go + Sas",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "go + as",
+        "definition"
+       ],
+       [
+        "6.1.93",
+        "gA + s",
+        "operation"
+       ],
+       [
+        "1.4.13",
+        "gA + s",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "gA + s",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "gA + s",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "gA + ru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "gA + r",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "gA + H",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "गावौ",
+      "iast": "gāvau",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "go",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "go + Ow",
+        "affix"
+       ],
+       [
+        "1.3.3",
+        "go + Ow",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "go + O",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "go + O",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "go + O",
+        "definition"
+       ],
+       [
+        "7.1.90",
+        "go + O",
+        "operation"
+       ],
+       [
+        "1.4.13",
+        "go + O",
+        "definition"
+       ],
+       [
+        "7.2.115",
+        "gO + O",
+        "operation"
+       ],
+       [
+        "1.4.14",
+        "gO + O",
+        "definition"
+       ],
+       [
+        "6.1.78",
+        "gAv + O",
+        "operation"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "गाम्",
+      "iast": "gām",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "go",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "go + am",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "go + am",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "go + am",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "go + am",
+        "definition"
+       ],
+       [
+        "7.1.90",
+        "go + am",
+        "operation"
+       ],
+       [
+        "6.1.93",
+        "gA + m",
+        "operation"
+       ],
+       [
+        "1.4.13",
+        "gA + m",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "gA + m",
+        "definition"
+       ]
+      ]
+     }
+    },
+    "pancami": {
+     "bahu": {
+      "deva": "गोभ्यः",
+      "iast": "gobhyaḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "go",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "go + Byas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "go + Byas",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "go + Byas",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "go + Byas",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "go + Byas",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "go + Byaru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "go + Byar",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "go + ByaH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "go + ByaH",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "गोभ्याम्",
+      "iast": "gobhyām",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "go",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "go + ByAm",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "go + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "go + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "go + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "go + ByAm",
+        "definition"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "गोः",
+      "iast": "goḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "go",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "go + Nasi~",
+        "affix"
+       ],
+       [
+        "1.3.2",
+        "go + Nasi~",
+        "definition"
+       ],
+       [
+        "1.3.8",
+        "go + Nasi~",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "go + as",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "go + as",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "go + as",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "go + as",
+        "definition"
+       ],
+       [
+        "6.1.110",
+        "go + s",
+        "operation"
+       ],
+       [
+        "8.2.66",
+        "go + ru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "go + r",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "go + H",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "prathama": {
+     "bahu": {
+      "deva": "गावः",
+      "iast": "gāvaḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "go",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "go + jas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "go + jas",
+        "definition"
+       ],
+       [
+        "1.3.7",
+        "go + jas",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "go + as",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "go + as",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "go + as",
+        "definition"
+       ],
+       [
+        "7.1.90",
+        "go + as",
+        "operation"
+       ],
+       [
+        "1.4.13",
+        "go + as",
+        "definition"
+       ],
+       [
+        "7.2.115",
+        "gO + as",
+        "operation"
+       ],
+       [
+        "1.4.14",
+        "gO + as",
+        "definition"
+       ],
+       [
+        "6.1.78",
+        "gAv + as",
+        "operation"
+       ],
+       [
+        "8.2.66",
+        "gAv + aru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "gAv + ar",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "gAv + aH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "gAv + aH",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "गावौ",
+      "iast": "gāvau",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "go",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "go + O",
+        "affix"
+       ],
+       [
+        "1.1.43",
+        "go + O",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "go + O",
+        "definition"
+       ],
+       [
+        "7.1.90",
+        "go + O",
+        "operation"
+       ],
+       [
+        "1.4.13",
+        "go + O",
+        "definition"
+       ],
+       [
+        "7.2.115",
+        "gO + O",
+        "operation"
+       ],
+       [
+        "1.4.14",
+        "gO + O",
+        "definition"
+       ],
+       [
+        "6.1.78",
+        "gAv + O",
+        "operation"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "गौः",
+      "iast": "gauḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "go",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "go + su~",
+        "affix"
+       ],
+       [
+        "1.3.2",
+        "go + su~",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "go + s",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "go + s",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "go + s",
+        "definition"
+       ],
+       [
+        "7.1.90",
+        "go + s",
+        "operation"
+       ],
+       [
+        "1.4.13",
+        "go + s",
+        "definition"
+       ],
+       [
+        "7.2.115",
+        "gO + s",
+        "operation"
+       ],
+       [
+        "1.4.14",
+        "gO + s",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "gO + ru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "gO + r",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "gO + H",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "sambodhana": {
+     "bahu": {
+      "deva": "गावः",
+      "iast": "gāvaḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "go",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "go + jas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "go + jas",
+        "definition"
+       ],
+       [
+        "1.3.7",
+        "go + jas",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "go + as",
+        "definition"
+       ],
+       [
+        "2.3.48",
+        "go + as",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "go + as",
+        "definition"
+       ],
+       [
+        "2.3.48",
+        "go + as",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "go + as",
+        "definition"
+       ],
+       [
+        "7.1.90",
+        "go + as",
+        "operation"
+       ],
+       [
+        "1.4.13",
+        "go + as",
+        "definition"
+       ],
+       [
+        "7.2.115",
+        "gO + as",
+        "operation"
+       ],
+       [
+        "1.4.14",
+        "gO + as",
+        "definition"
+       ],
+       [
+        "6.1.78",
+        "gAv + as",
+        "operation"
+       ],
+       [
+        "8.2.66",
+        "gAv + aru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "gAv + ar",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "gAv + aH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "gAv + aH",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "गावौ",
+      "iast": "gāvau",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "go",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "go + O",
+        "affix"
+       ],
+       [
+        "2.3.48",
+        "go + O",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "go + O",
+        "definition"
+       ],
+       [
+        "2.3.48",
+        "go + O",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "go + O",
+        "definition"
+       ],
+       [
+        "7.1.90",
+        "go + O",
+        "operation"
+       ],
+       [
+        "1.4.13",
+        "go + O",
+        "definition"
+       ],
+       [
+        "7.2.115",
+        "gO + O",
+        "operation"
+       ],
+       [
+        "1.4.14",
+        "gO + O",
+        "definition"
+       ],
+       [
+        "6.1.78",
+        "gAv + O",
+        "operation"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "गौः",
+      "iast": "gauḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "go",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "go + su~",
+        "affix"
+       ],
+       [
+        "1.3.2",
+        "go + su~",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "go + s",
+        "definition"
+       ],
+       [
+        "2.3.48",
+        "go + s",
+        "definition"
+       ],
+       [
+        "2.3.49",
+        "go + s",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "go + s",
+        "definition"
+       ],
+       [
+        "2.3.48",
+        "go + s",
+        "definition"
+       ],
+       [
+        "2.3.49",
+        "go + s",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "go + s",
+        "definition"
+       ],
+       [
+        "7.1.90",
+        "go + s",
+        "operation"
+       ],
+       [
+        "1.4.13",
+        "go + s",
+        "definition"
+       ],
+       [
+        "7.2.115",
+        "gO + s",
+        "operation"
+       ],
+       [
+        "1.4.14",
+        "gO + s",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "gO + ru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "gO + r",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "gO + H",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "saptami": {
+     "bahu": {
+      "deva": "गोषु",
+      "iast": "goṣu",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "go",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "go + sup",
+        "affix"
+       ],
+       [
+        "1.3.3",
+        "go + sup",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "go + su",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "go + su",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "go + su",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "go + su",
+        "definition"
+       ],
+       [
+        "8.3.59",
+        "go + zu",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "गवोः",
+      "iast": "gavoḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "go",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "go + os",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "go + os",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "go + os",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "go + os",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "go + os",
+        "definition"
+       ],
+       [
+        "6.1.78",
+        "gav + os",
+        "operation"
+       ],
+       [
+        "8.2.66",
+        "gav + oru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "gav + or",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "gav + oH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "gav + oH",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "गवि",
+      "iast": "gavi",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "go",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "go + Ni",
+        "affix"
+       ],
+       [
+        "1.3.8",
+        "go + Ni",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "go + i",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "go + i",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "go + i",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "go + i",
+        "definition"
+       ],
+       [
+        "6.1.78",
+        "gav + i",
+        "operation"
+       ],
+       [
+        "8.4.68",
+        "gav + i",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "sasthi": {
+     "bahu": {
+      "deva": "गवाम्",
+      "iast": "gavām",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "go",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "go + Am",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "go + Am",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "go + Am",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "go + Am",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "go + Am",
+        "definition"
+       ],
+       [
+        "6.1.78",
+        "gav + Am",
+        "operation"
+       ],
+       [
+        "8.4.68",
+        "gav + Am",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "गवोः",
+      "iast": "gavoḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "go",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "go + os",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "go + os",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "go + os",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "go + os",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "go + os",
+        "definition"
+       ],
+       [
+        "6.1.78",
+        "gav + os",
+        "operation"
+       ],
+       [
+        "8.2.66",
+        "gav + oru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "gav + or",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "gav + oH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "gav + oH",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "गोः",
+      "iast": "goḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "go",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "go + Nas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "go + Nas",
+        "definition"
+       ],
+       [
+        "1.3.8",
+        "go + Nas",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "go + as",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "go + as",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "go + as",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "go + as",
+        "definition"
+       ],
+       [
+        "6.1.110",
+        "go + s",
+        "operation"
+       ],
+       [
+        "8.2.66",
+        "go + ru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "go + r",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "go + H",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "tritiya": {
+     "bahu": {
+      "deva": "गोभिः",
+      "iast": "gobhiḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "go",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "go + Bis",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "go + Bis",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "go + Bis",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "go + Bis",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "go + Bis",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "go + Biru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "go + Bir",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "go + BiH",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "गोभ्याम्",
+      "iast": "gobhyām",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "go",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "go + ByAm",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "go + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "go + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "go + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "go + ByAm",
+        "definition"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "गवा",
+      "iast": "gavā",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "go",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "go + wA",
+        "affix"
+       ],
+       [
+        "1.3.7",
+        "go + wA",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "go + A",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "go + A",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "go + A",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "go + A",
+        "definition"
+       ],
+       [
+        "6.1.78",
+        "gav + A",
+        "operation"
+       ],
+       [
+        "8.4.68",
+        "gav + A",
+        "sound"
+       ]
+      ]
+     }
+    }
+   },
+   "reverse": {
+    "gauḥ": [
+     [
+      "go",
+      "prathama",
+      "eka"
+     ],
+     [
+      "go",
+      "sambodhana",
+      "eka"
+     ]
+    ],
+    "gave": [
+     [
+      "go",
+      "caturthi",
+      "eka"
+     ]
+    ],
+    "gavi": [
+     [
+      "go",
+      "saptami",
+      "eka"
+     ]
+    ],
+    "gavoḥ": [
+     [
+      "go",
+      "sasthi",
+      "dvi"
+     ],
+     [
+      "go",
+      "saptami",
+      "dvi"
+     ]
+    ],
+    "gavā": [
+     [
+      "go",
+      "tritiya",
+      "eka"
+     ]
+    ],
+    "gavām": [
+     [
+      "go",
+      "sasthi",
+      "bahu"
+     ]
+    ],
+    "gobhiḥ": [
+     [
+      "go",
+      "tritiya",
+      "bahu"
+     ]
+    ],
+    "gobhyaḥ": [
+     [
+      "go",
+      "caturthi",
+      "bahu"
+     ],
+     [
+      "go",
+      "pancami",
+      "bahu"
+     ]
+    ],
+    "gobhyām": [
+     [
+      "go",
+      "tritiya",
+      "dvi"
+     ],
+     [
+      "go",
+      "caturthi",
+      "dvi"
+     ],
+     [
+      "go",
+      "pancami",
+      "dvi"
+     ]
+    ],
+    "goḥ": [
+     [
+      "go",
+      "pancami",
+      "eka"
+     ],
+     [
+      "go",
+      "sasthi",
+      "eka"
+     ]
+    ],
+    "goṣu": [
+     [
+      "go",
+      "saptami",
+      "bahu"
+     ]
+    ],
+    "gām": [
+     [
+      "go",
+      "dvitiya",
+      "eka"
+     ]
+    ],
+    "gāvau": [
+     [
+      "go",
+      "prathama",
+      "dvi"
+     ],
+     [
+      "go",
+      "dvitiya",
+      "dvi"
+     ],
+     [
+      "go",
+      "sambodhana",
+      "dvi"
+     ]
+    ],
+    "gāvaḥ": [
+     [
+      "go",
+      "prathama",
+      "bahu"
+     ],
+     [
+      "go",
+      "sambodhana",
+      "bahu"
+     ]
+    ],
+    "gāḥ": [
+     [
+      "go",
+      "dvitiya",
+      "bahu"
+     ]
+    ]
+   }
+  }
+ }
+}

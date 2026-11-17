@@ -1,0 +1,1708 @@
+{
+ "family": "as-neut",
+ "format": "sanskrithelp.paradigm/1",
+ "status": "machine-derived-unreviewed",
+ "stems": {
+  "manas": {
+   "paradigm": {
+    "caturthi": {
+     "bahu": {
+      "deva": "मनोभ्यः",
+      "iast": "manobhyaḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "manas",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "manas + Byas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "manas + Byas",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "manas + Byas",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "manas + Byas",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "manas + Byas",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "manaru~ + Byas",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "manar + Byas",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "manar + Byaru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "manar + Byar",
+        "definition"
+       ],
+       [
+        "6.1.114",
+        "mano + Byar",
+        "operation"
+       ],
+       [
+        "8.3.15",
+        "mano + ByaH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "mano + ByaH",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "मनोभ्याम्",
+      "iast": "manobhyām",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "manas",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "manas + ByAm",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "manas + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "manas + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "manas + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "manas + ByAm",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "manaru~ + ByAm",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "manar + ByAm",
+        "definition"
+       ],
+       [
+        "6.1.114",
+        "mano + ByAm",
+        "operation"
+       ],
+       [
+        "8.4.68",
+        "mano + ByAm",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "मनसे",
+      "iast": "manase",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "manas",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "manas + Ne",
+        "affix"
+       ],
+       [
+        "1.3.8",
+        "manas + Ne",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "manas + e",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "manas + e",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "manas + e",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "manas + e",
+        "definition"
+       ],
+       [
+        "8.4.68",
+        "manas + e",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "dvitiya": {
+     "bahu": {
+      "deva": "मनांसि",
+      "iast": "manāṃsi",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "manas",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "manas + Sas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "manas + Sas",
+        "definition"
+       ],
+       [
+        "1.3.8",
+        "manas + Sas",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "manas + as",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "manas + as",
+        "definition"
+       ],
+       [
+        "7.1.20",
+        "manas + Si",
+        "operation"
+       ],
+       [
+        "1.3.8",
+        "manas + Si",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "manas + i",
+        "definition"
+       ],
+       [
+        "1.1.42",
+        "manas + i",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "manas + i",
+        "definition"
+       ],
+       [
+        "7.1.72",
+        "manans + i",
+        "operation"
+       ],
+       [
+        "6.4.10",
+        "manAns + i",
+        "operation"
+       ],
+       [
+        "8.3.24",
+        "manAMs + i",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "manAMs + i",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "मनसी",
+      "iast": "manasī",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "manas",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "manas + Ow",
+        "affix"
+       ],
+       [
+        "1.3.3",
+        "manas + Ow",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "manas + O",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "manas + O",
+        "definition"
+       ],
+       [
+        "7.1.19",
+        "manas + SI",
+        "operation"
+       ],
+       [
+        "1.3.8",
+        "manas + SI",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "manas + I",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "manas + I",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "manas + I",
+        "definition"
+       ],
+       [
+        "8.4.68",
+        "manas + I",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "मनः",
+      "iast": "manaḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "manas",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "manas + am",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "manas + am",
+        "definition"
+       ],
+       [
+        "7.1.23",
+        "manas",
+        "operation"
+       ],
+       [
+        "1.4.13",
+        "manas",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "manas",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "manas",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "manaru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "manar",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "manaH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "manaH",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "pancami": {
+     "bahu": {
+      "deva": "मनोभ्यः",
+      "iast": "manobhyaḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "manas",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "manas + Byas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "manas + Byas",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "manas + Byas",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "manas + Byas",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "manas + Byas",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "manaru~ + Byas",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "manar + Byas",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "manar + Byaru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "manar + Byar",
+        "definition"
+       ],
+       [
+        "6.1.114",
+        "mano + Byar",
+        "operation"
+       ],
+       [
+        "8.3.15",
+        "mano + ByaH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "mano + ByaH",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "मनोभ्याम्",
+      "iast": "manobhyām",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "manas",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "manas + ByAm",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "manas + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "manas + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "manas + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "manas + ByAm",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "manaru~ + ByAm",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "manar + ByAm",
+        "definition"
+       ],
+       [
+        "6.1.114",
+        "mano + ByAm",
+        "operation"
+       ],
+       [
+        "8.4.68",
+        "mano + ByAm",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "मनसः",
+      "iast": "manasaḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "manas",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "manas + Nasi~",
+        "affix"
+       ],
+       [
+        "1.3.2",
+        "manas + Nasi~",
+        "definition"
+       ],
+       [
+        "1.3.8",
+        "manas + Nasi~",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "manas + as",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "manas + as",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "manas + as",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "manas + as",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "manas + aru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "manas + ar",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "manas + aH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "manas + aH",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "prathama": {
+     "bahu": {
+      "deva": "मनांसि",
+      "iast": "manāṃsi",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "manas",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "manas + jas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "manas + jas",
+        "definition"
+       ],
+       [
+        "1.3.7",
+        "manas + jas",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "manas + as",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "manas + as",
+        "definition"
+       ],
+       [
+        "7.1.20",
+        "manas + Si",
+        "operation"
+       ],
+       [
+        "1.3.8",
+        "manas + Si",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "manas + i",
+        "definition"
+       ],
+       [
+        "1.1.42",
+        "manas + i",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "manas + i",
+        "definition"
+       ],
+       [
+        "7.1.72",
+        "manans + i",
+        "operation"
+       ],
+       [
+        "6.4.10",
+        "manAns + i",
+        "operation"
+       ],
+       [
+        "8.3.24",
+        "manAMs + i",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "manAMs + i",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "मनसी",
+      "iast": "manasī",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "manas",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "manas + O",
+        "affix"
+       ],
+       [
+        "1.4.13",
+        "manas + O",
+        "definition"
+       ],
+       [
+        "7.1.19",
+        "manas + SI",
+        "operation"
+       ],
+       [
+        "1.3.8",
+        "manas + SI",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "manas + I",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "manas + I",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "manas + I",
+        "definition"
+       ],
+       [
+        "8.4.68",
+        "manas + I",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "मनः",
+      "iast": "manaḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "manas",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "manas + su~",
+        "affix"
+       ],
+       [
+        "1.3.2",
+        "manas + su~",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "manas + s",
+        "definition"
+       ],
+       [
+        "7.1.23",
+        "manas",
+        "operation"
+       ],
+       [
+        "1.4.13",
+        "manas",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "manas",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "manas",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "manaru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "manar",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "manaH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "manaH",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "sambodhana": {
+     "bahu": {
+      "deva": "मनांसि",
+      "iast": "manāṃsi",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "manas",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "manas + jas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "manas + jas",
+        "definition"
+       ],
+       [
+        "1.3.7",
+        "manas + jas",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "manas + as",
+        "definition"
+       ],
+       [
+        "2.3.48",
+        "manas + as",
+        "definition"
+       ],
+       [
+        "2.3.48",
+        "manas + as",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "manas + as",
+        "definition"
+       ],
+       [
+        "7.1.20",
+        "manas + Si",
+        "operation"
+       ],
+       [
+        "1.3.8",
+        "manas + Si",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "manas + i",
+        "definition"
+       ],
+       [
+        "1.1.42",
+        "manas + i",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "manas + i",
+        "definition"
+       ],
+       [
+        "7.1.72",
+        "manans + i",
+        "operation"
+       ],
+       [
+        "6.4.10",
+        "manAns + i",
+        "operation"
+       ],
+       [
+        "8.3.24",
+        "manAMs + i",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "manAMs + i",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "मनसी",
+      "iast": "manasī",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "manas",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "manas + O",
+        "affix"
+       ],
+       [
+        "2.3.48",
+        "manas + O",
+        "definition"
+       ],
+       [
+        "2.3.48",
+        "manas + O",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "manas + O",
+        "definition"
+       ],
+       [
+        "7.1.19",
+        "manas + SI",
+        "operation"
+       ],
+       [
+        "1.3.8",
+        "manas + SI",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "manas + I",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "manas + I",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "manas + I",
+        "definition"
+       ],
+       [
+        "8.4.68",
+        "manas + I",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "मनः",
+      "iast": "manaḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "manas",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "manas + su~",
+        "affix"
+       ],
+       [
+        "1.3.2",
+        "manas + su~",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "manas + s",
+        "definition"
+       ],
+       [
+        "2.3.48",
+        "manas + s",
+        "definition"
+       ],
+       [
+        "2.3.49",
+        "manas + s",
+        "definition"
+       ],
+       [
+        "2.3.48",
+        "manas + s",
+        "definition"
+       ],
+       [
+        "2.3.49",
+        "manas + s",
+        "definition"
+       ],
+       [
+        "7.1.23",
+        "manas",
+        "operation"
+       ],
+       [
+        "1.4.13",
+        "manas",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "manas",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "manas",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "manaru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "manar",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "manaH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "manaH",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "saptami": {
+     "bahu": {
+      "deva": "मनस्सु",
+      "iast": "manassu",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "manas",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "manas + sup",
+        "affix"
+       ],
+       [
+        "1.3.3",
+        "manas + sup",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "manas + su",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "manas + su",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "manas + su",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "manas + su",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "manaru~ + su",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "manar + su",
+        "definition"
+       ],
+       [
+        "8.3.16",
+        "manaH + su",
+        "sound"
+       ],
+       [
+        "8.3.36",
+        "manas + su",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "manas + su",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "मनसोः",
+      "iast": "manasoḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "manas",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "manas + os",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "manas + os",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "manas + os",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "manas + os",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "manas + os",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "manas + oru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "manas + or",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "manas + oH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "manas + oH",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "मनसि",
+      "iast": "manasi",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "manas",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "manas + Ni",
+        "affix"
+       ],
+       [
+        "1.3.8",
+        "manas + Ni",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "manas + i",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "manas + i",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "manas + i",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "manas + i",
+        "definition"
+       ],
+       [
+        "8.4.68",
+        "manas + i",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "sasthi": {
+     "bahu": {
+      "deva": "मनसाम्",
+      "iast": "manasām",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "manas",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "manas + Am",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "manas + Am",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "manas + Am",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "manas + Am",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "manas + Am",
+        "definition"
+       ],
+       [
+        "8.4.68",
+        "manas + Am",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "मनसोः",
+      "iast": "manasoḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "manas",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "manas + os",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "manas + os",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "manas + os",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "manas + os",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "manas + os",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "manas + oru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "manas + or",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "manas + oH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "manas + oH",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "मनसः",
+      "iast": "manasaḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "manas",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "manas + Nas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "manas + Nas",
+        "definition"
+       ],
+       [
+        "1.3.8",
+        "manas + Nas",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "manas + as",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "manas + as",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "manas + as",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "manas + as",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "manas + aru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "manas + ar",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "manas + aH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "manas + aH",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "tritiya": {
+     "bahu": {
+      "deva": "मनोभिः",
+      "iast": "manobhiḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "manas",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "manas + Bis",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "manas + Bis",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "manas + Bis",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "manas + Bis",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "manas + Bis",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "manaru~ + Bis",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "manar + Bis",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "manar + Biru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "manar + Bir",
+        "definition"
+       ],
+       [
+        "6.1.114",
+        "mano + Bir",
+        "operation"
+       ],
+       [
+        "8.3.15",
+        "mano + BiH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "mano + BiH",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "मनोभ्याम्",
+      "iast": "manobhyām",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "manas",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "manas + ByAm",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "manas + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "manas + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "manas + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "manas + ByAm",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "manaru~ + ByAm",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "manar + ByAm",
+        "definition"
+       ],
+       [
+        "6.1.114",
+        "mano + ByAm",
+        "operation"
+       ],
+       [
+        "8.4.68",
+        "mano + ByAm",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "मनसा",
+      "iast": "manasā",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "manas",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "manas + wA",
+        "affix"
+       ],
+       [
+        "1.3.7",
+        "manas + wA",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "manas + A",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "manas + A",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "manas + A",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "manas + A",
+        "definition"
+       ],
+       [
+        "8.4.68",
+        "manas + A",
+        "sound"
+       ]
+      ]
+     }
+    }
+   },
+   "reverse": {
+    "manasaḥ": [
+     [
+      "manas",
+      "pancami",
+      "eka"
+     ],
+     [
+      "manas",
+      "sasthi",
+      "eka"
+     ]
+    ],
+    "manase": [
+     [
+      "manas",
+      "caturthi",
+      "eka"
+     ]
+    ],
+    "manasi": [
+     [
+      "manas",
+      "saptami",
+      "eka"
+     ]
+    ],
+    "manasoḥ": [
+     [
+      "manas",
+      "sasthi",
+      "dvi"
+     ],
+     [
+      "manas",
+      "saptami",
+      "dvi"
+     ]
+    ],
+    "manassu": [
+     [
+      "manas",
+      "saptami",
+      "bahu"
+     ]
+    ],
+    "manasā": [
+     [
+      "manas",
+      "tritiya",
+      "eka"
+     ]
+    ],
+    "manasām": [
+     [
+      "manas",
+      "sasthi",
+      "bahu"
+     ]
+    ],
+    "manasī": [
+     [
+      "manas",
+      "prathama",
+      "dvi"
+     ],
+     [
+      "manas",
+      "dvitiya",
+      "dvi"
+     ],
+     [
+      "manas",
+      "sambodhana",
+      "dvi"
+     ]
+    ],
+    "manaḥ": [
+     [
+      "manas",
+      "prathama",
+      "eka"
+     ],
+     [
+      "manas",
+      "dvitiya",
+      "eka"
+     ],
+     [
+      "manas",
+      "sambodhana",
+      "eka"
+     ]
+    ],
+    "manobhiḥ": [
+     [
+      "manas",
+      "tritiya",
+      "bahu"
+     ]
+    ],
+    "manobhyaḥ": [
+     [
+      "manas",
+      "caturthi",
+      "bahu"
+     ],
+     [
+      "manas",
+      "pancami",
+      "bahu"
+     ]
+    ],
+    "manobhyām": [
+     [
+      "manas",
+      "tritiya",
+      "dvi"
+     ],
+     [
+      "manas",
+      "caturthi",
+      "dvi"
+     ],
+     [
+      "manas",
+      "pancami",
+      "dvi"
+     ]
+    ],
+    "manāṃsi": [
+     [
+      "manas",
+      "prathama",
+      "bahu"
+     ],
+     [
+      "manas",
+      "dvitiya",
+      "bahu"
+     ],
+     [
+      "manas",
+      "sambodhana",
+      "bahu"
+     ]
+    ]
+   }
+  }
+ }
+}

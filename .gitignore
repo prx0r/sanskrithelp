@@ -1,81 +1,8 @@
-# Dependencies
 node_modules/
-.pnp
-.pnp.js
-
-# Testing
-coverage/
-
-# Next.js
 .next/
-out/
-build/
-dist/
-
-# Production
-.vercel/
 .open-next/
-
-# Cloudflare (local secrets)
-.dev.vars
 .env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# Debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Misc
-.DS_Store
-*.pem
-
-# Python
+.dev.vars
 __pycache__/
 *.py[cod]
-*$py.class
-*.so
-.Python
-venv/
-.venv-tfjs/
-ENV/
-*.egg-info/
-
-# Google Cloud TTS Credentials (Security)
-google-tts-credentials.json
-
-# IDE
-.vscode/*
-!.vscode/extensions.json
-.idea/
-
-# Build outputs
-*.log
-
-# ML models (too large for git)
-*.safetensors
-tokenizer.model
-ml/dhcd/data/
-ml/dhcd/model_char.h5
-ml/word/data/
-ml/word/model_word.h5
-
-# RAG/vector DB (can be regenerated, exceeds GitHub 100MB limit)
-sanskrit_db/
-
-# Large XML dictionary data (exceeds 50MB)
-xml/
-
-
-# Local test files and DB
-_test.wav
-sabdakrida/sabdakrida.db
-tsconfig.tsbuildinfo
-
-# Osho Hindi bulk audio (31-40MB x 10, stream/range only, never commit)
-public/memory/hindi/audio/
-*.mp3.download
-scripts/hindi/.cache/
+.DS_Store

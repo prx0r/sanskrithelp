@@ -1,0 +1,1675 @@
+{
+ "family": "vant-masc",
+ "format": "sanskrithelp.paradigm/1",
+ "status": "machine-derived-unreviewed",
+ "stems": {
+  "Bagavant": {
+   "paradigm": {
+    "caturthi": {
+     "bahu": {
+      "deva": "भगवन्भ्यः",
+      "iast": "bhagavanbhyaḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "Bagavant",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "Bagavant + Byas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "Bagavant + Byas",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "Bagavant + Byas",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "Bagavant + Byas",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "Bagavant + Byas",
+        "definition"
+       ],
+       [
+        "8.2.23",
+        "Bagavan + Byas",
+        "sound"
+       ],
+       [
+        "8.2.66",
+        "Bagavan + Byaru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "Bagavan + Byar",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "Bagavan + ByaH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "Bagavan + ByaH",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "भगवन्भ्याम्",
+      "iast": "bhagavanbhyām",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "Bagavant",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "Bagavant + ByAm",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "Bagavant + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "Bagavant + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "Bagavant + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "Bagavant + ByAm",
+        "definition"
+       ],
+       [
+        "8.2.23",
+        "Bagavan + ByAm",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "Bagavan + ByAm",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "भगवते",
+      "iast": "bhagavate",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "Bagavant",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "Bagavant + Ne",
+        "affix"
+       ],
+       [
+        "1.3.8",
+        "Bagavant + Ne",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "Bagavant + e",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "Bagavant + e",
+        "definition"
+       ],
+       [
+        "6.4.24",
+        "Bagavat + e",
+        "operation"
+       ],
+       [
+        "1.4.18",
+        "Bagavat + e",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "Bagavat + e",
+        "definition"
+       ],
+       [
+        "8.4.68",
+        "Bagavat + e",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "dvitiya": {
+     "bahu": {
+      "deva": "भगवन्तः",
+      "iast": "bhagavantaḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "Bagavant",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "Bagavant + Sas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "Bagavant + Sas",
+        "definition"
+       ],
+       [
+        "1.3.8",
+        "Bagavant + Sas",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "Bagavant + as",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "Bagavant + as",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "Bagavant + as",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "Bagavant + as",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "Bagavant + aru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "Bagavant + ar",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "Bagavant + aH",
+        "sound"
+       ],
+       [
+        "8.3.24",
+        "BagavaMt + aH",
+        "sound"
+       ],
+       [
+        "8.4.58",
+        "Bagavant + aH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "Bagavant + aH",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "भगवन्तौ",
+      "iast": "bhagavantau",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "Bagavant",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "Bagavant + Ow",
+        "affix"
+       ],
+       [
+        "1.3.3",
+        "Bagavant + Ow",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "Bagavant + O",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "Bagavant + O",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "Bagavant + O",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "Bagavant + O",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "Bagavant + O",
+        "definition"
+       ],
+       [
+        "8.3.24",
+        "BagavaMt + O",
+        "sound"
+       ],
+       [
+        "8.4.58",
+        "Bagavant + O",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "Bagavant + O",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "भगवन्तम्",
+      "iast": "bhagavantam",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "Bagavant",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "Bagavant + am",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "Bagavant + am",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "Bagavant + am",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "Bagavant + am",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "Bagavant + am",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "Bagavant + am",
+        "definition"
+       ],
+       [
+        "8.3.24",
+        "BagavaMt + am",
+        "sound"
+       ],
+       [
+        "8.4.58",
+        "Bagavant + am",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "Bagavant + am",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "pancami": {
+     "bahu": {
+      "deva": "भगवन्भ्यः",
+      "iast": "bhagavanbhyaḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "Bagavant",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "Bagavant + Byas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "Bagavant + Byas",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "Bagavant + Byas",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "Bagavant + Byas",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "Bagavant + Byas",
+        "definition"
+       ],
+       [
+        "8.2.23",
+        "Bagavan + Byas",
+        "sound"
+       ],
+       [
+        "8.2.66",
+        "Bagavan + Byaru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "Bagavan + Byar",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "Bagavan + ByaH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "Bagavan + ByaH",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "भगवन्भ्याम्",
+      "iast": "bhagavanbhyām",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "Bagavant",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "Bagavant + ByAm",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "Bagavant + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "Bagavant + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "Bagavant + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "Bagavant + ByAm",
+        "definition"
+       ],
+       [
+        "8.2.23",
+        "Bagavan + ByAm",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "Bagavan + ByAm",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "भगवतः",
+      "iast": "bhagavataḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "Bagavant",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "Bagavant + Nasi~",
+        "affix"
+       ],
+       [
+        "1.3.2",
+        "Bagavant + Nasi~",
+        "definition"
+       ],
+       [
+        "1.3.8",
+        "Bagavant + Nasi~",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "Bagavant + as",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "Bagavant + as",
+        "definition"
+       ],
+       [
+        "6.4.24",
+        "Bagavat + as",
+        "operation"
+       ],
+       [
+        "1.4.18",
+        "Bagavat + as",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "Bagavat + as",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "Bagavat + aru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "Bagavat + ar",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "Bagavat + aH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "Bagavat + aH",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "prathama": {
+     "bahu": {
+      "deva": "भगवन्तः",
+      "iast": "bhagavantaḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "Bagavant",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "Bagavant + jas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "Bagavant + jas",
+        "definition"
+       ],
+       [
+        "1.3.7",
+        "Bagavant + jas",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "Bagavant + as",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "Bagavant + as",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "Bagavant + as",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "Bagavant + as",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "Bagavant + as",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "Bagavant + aru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "Bagavant + ar",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "Bagavant + aH",
+        "sound"
+       ],
+       [
+        "8.3.24",
+        "BagavaMt + aH",
+        "sound"
+       ],
+       [
+        "8.4.58",
+        "Bagavant + aH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "Bagavant + aH",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "भगवन्तौ",
+      "iast": "bhagavantau",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "Bagavant",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "Bagavant + O",
+        "affix"
+       ],
+       [
+        "1.1.43",
+        "Bagavant + O",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "Bagavant + O",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "Bagavant + O",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "Bagavant + O",
+        "definition"
+       ],
+       [
+        "8.3.24",
+        "BagavaMt + O",
+        "sound"
+       ],
+       [
+        "8.4.58",
+        "Bagavant + O",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "Bagavant + O",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "भगवन्",
+      "iast": "bhagavan",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "Bagavant",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "Bagavant + su~",
+        "affix"
+       ],
+       [
+        "1.3.2",
+        "Bagavant + su~",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "Bagavant + s",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "Bagavant + s",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "Bagavant + s",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "Bagavant + s",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "Bagavant + s",
+        "definition"
+       ],
+       [
+        "6.1.68",
+        "Bagavant",
+        "operation"
+       ],
+       [
+        "8.2.23",
+        "Bagavan",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "Bagavan",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "sambodhana": {
+     "bahu": {
+      "deva": "भगवन्तः",
+      "iast": "bhagavantaḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "Bagavant",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "Bagavant + jas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "Bagavant + jas",
+        "definition"
+       ],
+       [
+        "1.3.7",
+        "Bagavant + jas",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "Bagavant + as",
+        "definition"
+       ],
+       [
+        "2.3.48",
+        "Bagavant + as",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "Bagavant + as",
+        "definition"
+       ],
+       [
+        "2.3.48",
+        "Bagavant + as",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "Bagavant + as",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "Bagavant + as",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "Bagavant + as",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "Bagavant + aru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "Bagavant + ar",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "Bagavant + aH",
+        "sound"
+       ],
+       [
+        "8.3.24",
+        "BagavaMt + aH",
+        "sound"
+       ],
+       [
+        "8.4.58",
+        "Bagavant + aH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "Bagavant + aH",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "भगवन्तौ",
+      "iast": "bhagavantau",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "Bagavant",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "Bagavant + O",
+        "affix"
+       ],
+       [
+        "2.3.48",
+        "Bagavant + O",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "Bagavant + O",
+        "definition"
+       ],
+       [
+        "2.3.48",
+        "Bagavant + O",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "Bagavant + O",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "Bagavant + O",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "Bagavant + O",
+        "definition"
+       ],
+       [
+        "8.3.24",
+        "BagavaMt + O",
+        "sound"
+       ],
+       [
+        "8.4.58",
+        "Bagavant + O",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "Bagavant + O",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "भगवन्",
+      "iast": "bhagavan",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "Bagavant",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "Bagavant + su~",
+        "affix"
+       ],
+       [
+        "1.3.2",
+        "Bagavant + su~",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "Bagavant + s",
+        "definition"
+       ],
+       [
+        "2.3.48",
+        "Bagavant + s",
+        "definition"
+       ],
+       [
+        "2.3.49",
+        "Bagavant + s",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "Bagavant + s",
+        "definition"
+       ],
+       [
+        "2.3.48",
+        "Bagavant + s",
+        "definition"
+       ],
+       [
+        "2.3.49",
+        "Bagavant + s",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "Bagavant + s",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "Bagavant + s",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "Bagavant + s",
+        "definition"
+       ],
+       [
+        "6.1.68",
+        "Bagavant",
+        "operation"
+       ],
+       [
+        "8.2.23",
+        "Bagavan",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "Bagavan",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "saptami": {
+     "bahu": {
+      "deva": "भगवन्सु",
+      "iast": "bhagavansu",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "Bagavant",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "Bagavant + sup",
+        "affix"
+       ],
+       [
+        "1.3.3",
+        "Bagavant + sup",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "Bagavant + su",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "Bagavant + su",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "Bagavant + su",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "Bagavant + su",
+        "definition"
+       ],
+       [
+        "8.2.23",
+        "Bagavan + su",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "Bagavan + su",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "भगवन्तोः",
+      "iast": "bhagavantoḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "Bagavant",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "Bagavant + os",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "Bagavant + os",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "Bagavant + os",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "Bagavant + os",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "Bagavant + os",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "Bagavant + oru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "Bagavant + or",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "Bagavant + oH",
+        "sound"
+       ],
+       [
+        "8.3.24",
+        "BagavaMt + oH",
+        "sound"
+       ],
+       [
+        "8.4.58",
+        "Bagavant + oH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "Bagavant + oH",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "भगवति",
+      "iast": "bhagavati",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "Bagavant",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "Bagavant + Ni",
+        "affix"
+       ],
+       [
+        "1.3.8",
+        "Bagavant + Ni",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "Bagavant + i",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "Bagavant + i",
+        "definition"
+       ],
+       [
+        "6.4.24",
+        "Bagavat + i",
+        "operation"
+       ],
+       [
+        "1.4.18",
+        "Bagavat + i",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "Bagavat + i",
+        "definition"
+       ],
+       [
+        "8.4.68",
+        "Bagavat + i",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "sasthi": {
+     "bahu": {
+      "deva": "भगवन्ताम्",
+      "iast": "bhagavantām",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "Bagavant",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "Bagavant + Am",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "Bagavant + Am",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "Bagavant + Am",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "Bagavant + Am",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "Bagavant + Am",
+        "definition"
+       ],
+       [
+        "8.3.24",
+        "BagavaMt + Am",
+        "sound"
+       ],
+       [
+        "8.4.58",
+        "Bagavant + Am",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "Bagavant + Am",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "भगवन्तोः",
+      "iast": "bhagavantoḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "Bagavant",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "Bagavant + os",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "Bagavant + os",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "Bagavant + os",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "Bagavant + os",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "Bagavant + os",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "Bagavant + oru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "Bagavant + or",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "Bagavant + oH",
+        "sound"
+       ],
+       [
+        "8.3.24",
+        "BagavaMt + oH",
+        "sound"
+       ],
+       [
+        "8.4.58",
+        "Bagavant + oH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "Bagavant + oH",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "भगवतः",
+      "iast": "bhagavataḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "Bagavant",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "Bagavant + Nas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "Bagavant + Nas",
+        "definition"
+       ],
+       [
+        "1.3.8",
+        "Bagavant + Nas",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "Bagavant + as",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "Bagavant + as",
+        "definition"
+       ],
+       [
+        "6.4.24",
+        "Bagavat + as",
+        "operation"
+       ],
+       [
+        "1.4.18",
+        "Bagavat + as",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "Bagavat + as",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "Bagavat + aru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "Bagavat + ar",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "Bagavat + aH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "Bagavat + aH",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "tritiya": {
+     "bahu": {
+      "deva": "भगवन्भिः",
+      "iast": "bhagavanbhiḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "Bagavant",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "Bagavant + Bis",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "Bagavant + Bis",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "Bagavant + Bis",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "Bagavant + Bis",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "Bagavant + Bis",
+        "definition"
+       ],
+       [
+        "8.2.23",
+        "Bagavan + Bis",
+        "sound"
+       ],
+       [
+        "8.2.66",
+        "Bagavan + Biru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "Bagavan + Bir",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "Bagavan + BiH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "Bagavan + BiH",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "भगवन्भ्याम्",
+      "iast": "bhagavanbhyām",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "Bagavant",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "Bagavant + ByAm",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "Bagavant + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "Bagavant + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "Bagavant + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "Bagavant + ByAm",
+        "definition"
+       ],
+       [
+        "8.2.23",
+        "Bagavan + ByAm",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "Bagavan + ByAm",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "भगवन्ता",
+      "iast": "bhagavantā",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "Bagavant",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "Bagavant + wA",
+        "affix"
+       ],
+       [
+        "1.3.7",
+        "Bagavant + wA",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "Bagavant + A",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "Bagavant + A",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "Bagavant + A",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "Bagavant + A",
+        "definition"
+       ],
+       [
+        "8.3.24",
+        "BagavaMt + A",
+        "sound"
+       ],
+       [
+        "8.4.58",
+        "Bagavant + A",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "Bagavant + A",
+        "sound"
+       ]
+      ]
+     }
+    }
+   },
+   "reverse": {
+    "bhagavan": [
+     [
+      "Bagavant",
+      "prathama",
+      "eka"
+     ],
+     [
+      "Bagavant",
+      "sambodhana",
+      "eka"
+     ]
+    ],
+    "bhagavanbhiḥ": [
+     [
+      "Bagavant",
+      "tritiya",
+      "bahu"
+     ]
+    ],
+    "bhagavanbhyaḥ": [
+     [
+      "Bagavant",
+      "caturthi",
+      "bahu"
+     ],
+     [
+      "Bagavant",
+      "pancami",
+      "bahu"
+     ]
+    ],
+    "bhagavanbhyām": [
+     [
+      "Bagavant",
+      "tritiya",
+      "dvi"
+     ],
+     [
+      "Bagavant",
+      "caturthi",
+      "dvi"
+     ],
+     [
+      "Bagavant",
+      "pancami",
+      "dvi"
+     ]
+    ],
+    "bhagavansu": [
+     [
+      "Bagavant",
+      "saptami",
+      "bahu"
+     ]
+    ],
+    "bhagavantam": [
+     [
+      "Bagavant",
+      "dvitiya",
+      "eka"
+     ]
+    ],
+    "bhagavantau": [
+     [
+      "Bagavant",
+      "prathama",
+      "dvi"
+     ],
+     [
+      "Bagavant",
+      "dvitiya",
+      "dvi"
+     ],
+     [
+      "Bagavant",
+      "sambodhana",
+      "dvi"
+     ]
+    ],
+    "bhagavantaḥ": [
+     [
+      "Bagavant",
+      "prathama",
+      "bahu"
+     ],
+     [
+      "Bagavant",
+      "dvitiya",
+      "bahu"
+     ],
+     [
+      "Bagavant",
+      "sambodhana",
+      "bahu"
+     ]
+    ],
+    "bhagavantoḥ": [
+     [
+      "Bagavant",
+      "sasthi",
+      "dvi"
+     ],
+     [
+      "Bagavant",
+      "saptami",
+      "dvi"
+     ]
+    ],
+    "bhagavantā": [
+     [
+      "Bagavant",
+      "tritiya",
+      "eka"
+     ]
+    ],
+    "bhagavantām": [
+     [
+      "Bagavant",
+      "sasthi",
+      "bahu"
+     ]
+    ],
+    "bhagavataḥ": [
+     [
+      "Bagavant",
+      "pancami",
+      "eka"
+     ],
+     [
+      "Bagavant",
+      "sasthi",
+      "eka"
+     ]
+    ],
+    "bhagavate": [
+     [
+      "Bagavant",
+      "caturthi",
+      "eka"
+     ]
+    ],
+    "bhagavati": [
+     [
+      "Bagavant",
+      "saptami",
+      "eka"
+     ]
+    ]
+   }
+  }
+ }
+}

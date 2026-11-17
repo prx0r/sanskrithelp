@@ -1,0 +1,6745 @@
+{
+ "family": "r-agent",
+ "format": "sanskrithelp.paradigm/1",
+ "status": "machine-derived-unreviewed",
+ "stems": {
+  "BrAtf": {
+   "paradigm": {
+    "caturthi": {
+     "bahu": {
+      "deva": "भ्रातृभ्यः",
+      "iast": "bhrātṛbhyaḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "BrAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "BrAtf + Byas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "BrAtf + Byas",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + Byas",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + Byas",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "BrAtf + Byas",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "BrAtf + Byas",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "BrAtf + Byas",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "BrAtf + Byaru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "BrAtf + Byar",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "BrAtf + ByaH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "BrAtf + ByaH",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "भ्रातृभ्याम्",
+      "iast": "bhrātṛbhyām",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "BrAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "BrAtf + ByAm",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "BrAtf + ByAm",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + ByAm",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "BrAtf + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "BrAtf + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "BrAtf + ByAm",
+        "definition"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "भ्रात्रे",
+      "iast": "bhrātre",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "BrAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "BrAtf + Ne",
+        "affix"
+       ],
+       [
+        "1.3.8",
+        "BrAtf + Ne",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "BrAtf + e",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + e",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + e",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "BrAtf + e",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "BrAtf + e",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "BrAtf + e",
+        "definition"
+       ],
+       [
+        "6.1.77",
+        "BrAtr + e",
+        "operation"
+       ]
+      ]
+     }
+    },
+    "dvitiya": {
+     "bahu": {
+      "deva": "भ्रातॄन्",
+      "iast": "bhrātṝn",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "BrAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "BrAtf + Sas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "BrAtf + Sas",
+        "definition"
+       ],
+       [
+        "1.3.8",
+        "BrAtf + Sas",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "BrAtf + as",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + as",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + as",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "BrAtf + as",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "BrAtf + as",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "BrAtf + as",
+        "definition"
+       ],
+       [
+        "6.1.102",
+        "BrAtf + Fs",
+        "operation"
+       ],
+       [
+        "6.1.103",
+        "BrAtf + Fn",
+        "operation"
+       ],
+       [
+        "6.1.101",
+        "BrAtF + n",
+        "operation"
+       ],
+       [
+        "8.4.37",
+        "BrAtF + n",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "भ्रातरौ",
+      "iast": "bhrātarau",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "BrAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "BrAtf + Ow",
+        "affix"
+       ],
+       [
+        "1.3.3",
+        "BrAtf + Ow",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "BrAtf + O",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + O",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "BrAtf + O",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + O",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "BrAtf + O",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "BrAtf + O",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "BrAtf + O",
+        "definition"
+       ],
+       [
+        "7.3.110",
+        "BrAtar + O",
+        "operation"
+       ],
+       [
+        "8.4.68",
+        "BrAtar + O",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "भ्रातरम्",
+      "iast": "bhrātaram",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "BrAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "BrAtf + am",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "BrAtf + am",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + am",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "BrAtf + am",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + am",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "BrAtf + am",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "BrAtf + am",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "BrAtf + am",
+        "definition"
+       ],
+       [
+        "7.3.110",
+        "BrAtar + am",
+        "operation"
+       ],
+       [
+        "8.4.68",
+        "BrAtar + am",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "pancami": {
+     "bahu": {
+      "deva": "भ्रातृभ्यः",
+      "iast": "bhrātṛbhyaḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "BrAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "BrAtf + Byas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "BrAtf + Byas",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + Byas",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + Byas",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "BrAtf + Byas",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "BrAtf + Byas",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "BrAtf + Byas",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "BrAtf + Byaru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "BrAtf + Byar",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "BrAtf + ByaH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "BrAtf + ByaH",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "भ्रातृभ्याम्",
+      "iast": "bhrātṛbhyām",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "BrAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "BrAtf + ByAm",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "BrAtf + ByAm",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + ByAm",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "BrAtf + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "BrAtf + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "BrAtf + ByAm",
+        "definition"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "भ्रातुः",
+      "iast": "bhrātuḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "BrAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "BrAtf + Nasi~",
+        "affix"
+       ],
+       [
+        "1.3.2",
+        "BrAtf + Nasi~",
+        "definition"
+       ],
+       [
+        "1.3.8",
+        "BrAtf + Nasi~",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "BrAtf + as",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + as",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + as",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "BrAtf + as",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "BrAtf + as",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "BrAtf + as",
+        "definition"
+       ],
+       [
+        "6.1.111",
+        "BrAtur + s",
+        "operation"
+       ],
+       [
+        "8.2.24",
+        "BrAtur",
+        "sound"
+       ],
+       [
+        "8.3.15",
+        "BrAtuH",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "prathama": {
+     "bahu": {
+      "deva": "भ्रातरः",
+      "iast": "bhrātaraḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "BrAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "BrAtf + jas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "BrAtf + jas",
+        "definition"
+       ],
+       [
+        "1.3.7",
+        "BrAtf + jas",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "BrAtf + as",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + as",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "BrAtf + as",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + as",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "BrAtf + as",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "BrAtf + as",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "BrAtf + as",
+        "definition"
+       ],
+       [
+        "7.3.110",
+        "BrAtar + as",
+        "operation"
+       ],
+       [
+        "8.2.66",
+        "BrAtar + aru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "BrAtar + ar",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "BrAtar + aH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "BrAtar + aH",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "भ्रातरौ",
+      "iast": "bhrātarau",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "BrAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "BrAtf + O",
+        "affix"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + O",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "BrAtf + O",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + O",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "BrAtf + O",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "BrAtf + O",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "BrAtf + O",
+        "definition"
+       ],
+       [
+        "7.3.110",
+        "BrAtar + O",
+        "operation"
+       ],
+       [
+        "8.4.68",
+        "BrAtar + O",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "भ्राता",
+      "iast": "bhrātā",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "BrAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "BrAtf + su~",
+        "affix"
+       ],
+       [
+        "1.3.2",
+        "BrAtf + su~",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "BrAtf + s",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + s",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "BrAtf + s",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + s",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "BrAtf + s",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "BrAtf + s",
+        "definition"
+       ],
+       [
+        "7.1.94",
+        "BrAtan + s",
+        "operation"
+       ],
+       [
+        "1.4.14",
+        "BrAtan + s",
+        "definition"
+       ],
+       [
+        "6.4.8",
+        "BrAtAn + s",
+        "operation"
+       ],
+       [
+        "6.1.68",
+        "BrAtAn",
+        "operation"
+       ],
+       [
+        "8.2.7",
+        "BrAtA",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "sambodhana": {
+     "bahu": {
+      "deva": "भ्रातरः",
+      "iast": "bhrātaraḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "BrAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "BrAtf + jas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "BrAtf + jas",
+        "definition"
+       ],
+       [
+        "1.3.7",
+        "BrAtf + jas",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "BrAtf + as",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + as",
+        "definition"
+       ],
+       [
+        "2.3.48",
+        "BrAtf + as",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "BrAtf + as",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + as",
+        "definition"
+       ],
+       [
+        "2.3.48",
+        "BrAtf + as",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "BrAtf + as",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "BrAtf + as",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "BrAtf + as",
+        "definition"
+       ],
+       [
+        "7.3.110",
+        "BrAtar + as",
+        "operation"
+       ],
+       [
+        "8.2.66",
+        "BrAtar + aru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "BrAtar + ar",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "BrAtar + aH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "BrAtar + aH",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "भ्रातरौ",
+      "iast": "bhrātarau",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "BrAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "BrAtf + O",
+        "affix"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + O",
+        "definition"
+       ],
+       [
+        "2.3.48",
+        "BrAtf + O",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "BrAtf + O",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + O",
+        "definition"
+       ],
+       [
+        "2.3.48",
+        "BrAtf + O",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "BrAtf + O",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "BrAtf + O",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "BrAtf + O",
+        "definition"
+       ],
+       [
+        "7.3.110",
+        "BrAtar + O",
+        "operation"
+       ],
+       [
+        "8.4.68",
+        "BrAtar + O",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "भ्रातः",
+      "iast": "bhrātaḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "BrAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "BrAtf + su~",
+        "affix"
+       ],
+       [
+        "1.3.2",
+        "BrAtf + su~",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "BrAtf + s",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + s",
+        "definition"
+       ],
+       [
+        "2.3.48",
+        "BrAtf + s",
+        "definition"
+       ],
+       [
+        "2.3.49",
+        "BrAtf + s",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "BrAtf + s",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + s",
+        "definition"
+       ],
+       [
+        "2.3.48",
+        "BrAtf + s",
+        "definition"
+       ],
+       [
+        "2.3.49",
+        "BrAtf + s",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "BrAtf + s",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "BrAtf + s",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "BrAtf + s",
+        "definition"
+       ],
+       [
+        "7.3.110",
+        "BrAtar + s",
+        "operation"
+       ],
+       [
+        "6.1.68",
+        "BrAtar",
+        "operation"
+       ],
+       [
+        "8.3.15",
+        "BrAtaH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "BrAtaH",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "saptami": {
+     "bahu": {
+      "deva": "भ्रातृषु",
+      "iast": "bhrātṛṣu",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "BrAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "BrAtf + sup",
+        "affix"
+       ],
+       [
+        "1.3.3",
+        "BrAtf + sup",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "BrAtf + su",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + su",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + su",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "BrAtf + su",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "BrAtf + su",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "BrAtf + su",
+        "definition"
+       ],
+       [
+        "8.3.59",
+        "BrAtf + zu",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "भ्रात्रोः",
+      "iast": "bhrātroḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "BrAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "BrAtf + os",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "BrAtf + os",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + os",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + os",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "BrAtf + os",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "BrAtf + os",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "BrAtf + os",
+        "definition"
+       ],
+       [
+        "6.1.77",
+        "BrAtr + os",
+        "operation"
+       ],
+       [
+        "8.2.66",
+        "BrAtr + oru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "BrAtr + or",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "BrAtr + oH",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "भ्रातरि",
+      "iast": "bhrātari",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "BrAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "BrAtf + Ni",
+        "affix"
+       ],
+       [
+        "1.3.8",
+        "BrAtf + Ni",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "BrAtf + i",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + i",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + i",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "BrAtf + i",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "BrAtf + i",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "BrAtf + i",
+        "definition"
+       ],
+       [
+        "7.3.110",
+        "BrAtar + i",
+        "operation"
+       ],
+       [
+        "8.4.68",
+        "BrAtar + i",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "sasthi": {
+     "bahu": {
+      "deva": "भ्रातॄणाम्",
+      "iast": "bhrātṝṇām",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "BrAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "BrAtf + Am",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "BrAtf + Am",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + Am",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + Am",
+        "definition"
+       ],
+       [
+        "7.1.54",
+        "BrAtf + nu~w + Am",
+        "operation"
+       ],
+       [
+        "1.3.2",
+        "BrAtf + nu~w + Am",
+        "definition"
+       ],
+       [
+        "1.3.3",
+        "BrAtf + nu~w + Am",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "BrAtf + n + Am",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "BrAtf + n + Am",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "BrAtf + n + Am",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "BrAtf + n + Am",
+        "definition"
+       ],
+       [
+        "6.4.3",
+        "BrAtF + n + Am",
+        "operation"
+       ],
+       [
+        "8.4.1",
+        "BrAtF + R + Am",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "भ्रात्रोः",
+      "iast": "bhrātroḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "BrAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "BrAtf + os",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "BrAtf + os",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + os",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + os",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "BrAtf + os",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "BrAtf + os",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "BrAtf + os",
+        "definition"
+       ],
+       [
+        "6.1.77",
+        "BrAtr + os",
+        "operation"
+       ],
+       [
+        "8.2.66",
+        "BrAtr + oru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "BrAtr + or",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "BrAtr + oH",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "भ्रातुः",
+      "iast": "bhrātuḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "BrAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "BrAtf + Nas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "BrAtf + Nas",
+        "definition"
+       ],
+       [
+        "1.3.8",
+        "BrAtf + Nas",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "BrAtf + as",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + as",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + as",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "BrAtf + as",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "BrAtf + as",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "BrAtf + as",
+        "definition"
+       ],
+       [
+        "6.1.111",
+        "BrAtur + s",
+        "operation"
+       ],
+       [
+        "8.2.24",
+        "BrAtur",
+        "sound"
+       ],
+       [
+        "8.3.15",
+        "BrAtuH",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "tritiya": {
+     "bahu": {
+      "deva": "भ्रातृभिः",
+      "iast": "bhrātṛbhiḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "BrAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "BrAtf + Bis",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "BrAtf + Bis",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + Bis",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + Bis",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "BrAtf + Bis",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "BrAtf + Bis",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "BrAtf + Bis",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "BrAtf + Biru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "BrAtf + Bir",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "BrAtf + BiH",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "भ्रातृभ्याम्",
+      "iast": "bhrātṛbhyām",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "BrAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "BrAtf + ByAm",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "BrAtf + ByAm",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + ByAm",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "BrAtf + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "BrAtf + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "BrAtf + ByAm",
+        "definition"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "भ्रात्रा",
+      "iast": "bhrātrā",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "BrAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "BrAtf + wA",
+        "affix"
+       ],
+       [
+        "1.3.7",
+        "BrAtf + wA",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "BrAtf + A",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + A",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "BrAtf + A",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "BrAtf + A",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "BrAtf + A",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "BrAtf + A",
+        "definition"
+       ],
+       [
+        "6.1.77",
+        "BrAtr + A",
+        "operation"
+       ]
+      ]
+     }
+    }
+   },
+   "reverse": {
+    "bhrātaram": [
+     [
+      "BrAtf",
+      "dvitiya",
+      "eka"
+     ]
+    ],
+    "bhrātarau": [
+     [
+      "BrAtf",
+      "prathama",
+      "dvi"
+     ],
+     [
+      "BrAtf",
+      "dvitiya",
+      "dvi"
+     ],
+     [
+      "BrAtf",
+      "sambodhana",
+      "dvi"
+     ]
+    ],
+    "bhrātaraḥ": [
+     [
+      "BrAtf",
+      "prathama",
+      "bahu"
+     ],
+     [
+      "BrAtf",
+      "sambodhana",
+      "bahu"
+     ]
+    ],
+    "bhrātari": [
+     [
+      "BrAtf",
+      "saptami",
+      "eka"
+     ]
+    ],
+    "bhrātaḥ": [
+     [
+      "BrAtf",
+      "sambodhana",
+      "eka"
+     ]
+    ],
+    "bhrātre": [
+     [
+      "BrAtf",
+      "caturthi",
+      "eka"
+     ]
+    ],
+    "bhrātroḥ": [
+     [
+      "BrAtf",
+      "sasthi",
+      "dvi"
+     ],
+     [
+      "BrAtf",
+      "saptami",
+      "dvi"
+     ]
+    ],
+    "bhrātrā": [
+     [
+      "BrAtf",
+      "tritiya",
+      "eka"
+     ]
+    ],
+    "bhrātuḥ": [
+     [
+      "BrAtf",
+      "pancami",
+      "eka"
+     ],
+     [
+      "BrAtf",
+      "sasthi",
+      "eka"
+     ]
+    ],
+    "bhrātā": [
+     [
+      "BrAtf",
+      "prathama",
+      "eka"
+     ]
+    ],
+    "bhrātṛbhiḥ": [
+     [
+      "BrAtf",
+      "tritiya",
+      "bahu"
+     ]
+    ],
+    "bhrātṛbhyaḥ": [
+     [
+      "BrAtf",
+      "caturthi",
+      "bahu"
+     ],
+     [
+      "BrAtf",
+      "pancami",
+      "bahu"
+     ]
+    ],
+    "bhrātṛbhyām": [
+     [
+      "BrAtf",
+      "tritiya",
+      "dvi"
+     ],
+     [
+      "BrAtf",
+      "caturthi",
+      "dvi"
+     ],
+     [
+      "BrAtf",
+      "pancami",
+      "dvi"
+     ]
+    ],
+    "bhrātṛṣu": [
+     [
+      "BrAtf",
+      "saptami",
+      "bahu"
+     ]
+    ],
+    "bhrātṝn": [
+     [
+      "BrAtf",
+      "dvitiya",
+      "bahu"
+     ]
+    ],
+    "bhrātṝṇām": [
+     [
+      "BrAtf",
+      "sasthi",
+      "bahu"
+     ]
+    ]
+   }
+  },
+  "dAtf": {
+   "paradigm": {
+    "caturthi": {
+     "bahu": {
+      "deva": "दातृभ्यः",
+      "iast": "dātṛbhyaḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "dAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "dAtf + Byas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "dAtf + Byas",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + Byas",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + Byas",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "dAtf + Byas",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "dAtf + Byas",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "dAtf + Byas",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "dAtf + Byaru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "dAtf + Byar",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "dAtf + ByaH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "dAtf + ByaH",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "दातृभ्याम्",
+      "iast": "dātṛbhyām",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "dAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "dAtf + ByAm",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "dAtf + ByAm",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + ByAm",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "dAtf + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "dAtf + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "dAtf + ByAm",
+        "definition"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "दात्रे",
+      "iast": "dātre",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "dAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "dAtf + Ne",
+        "affix"
+       ],
+       [
+        "1.3.8",
+        "dAtf + Ne",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "dAtf + e",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + e",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + e",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "dAtf + e",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "dAtf + e",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "dAtf + e",
+        "definition"
+       ],
+       [
+        "6.1.77",
+        "dAtr + e",
+        "operation"
+       ]
+      ]
+     }
+    },
+    "dvitiya": {
+     "bahu": {
+      "deva": "दातॄन्",
+      "iast": "dātṝn",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "dAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "dAtf + Sas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "dAtf + Sas",
+        "definition"
+       ],
+       [
+        "1.3.8",
+        "dAtf + Sas",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "dAtf + as",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + as",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + as",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "dAtf + as",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "dAtf + as",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "dAtf + as",
+        "definition"
+       ],
+       [
+        "6.1.102",
+        "dAtf + Fs",
+        "operation"
+       ],
+       [
+        "6.1.103",
+        "dAtf + Fn",
+        "operation"
+       ],
+       [
+        "6.1.101",
+        "dAtF + n",
+        "operation"
+       ],
+       [
+        "8.4.37",
+        "dAtF + n",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "दातरौ",
+      "iast": "dātarau",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "dAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "dAtf + Ow",
+        "affix"
+       ],
+       [
+        "1.3.3",
+        "dAtf + Ow",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "dAtf + O",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + O",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "dAtf + O",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + O",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "dAtf + O",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "dAtf + O",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "dAtf + O",
+        "definition"
+       ],
+       [
+        "7.3.110",
+        "dAtar + O",
+        "operation"
+       ],
+       [
+        "8.4.68",
+        "dAtar + O",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "दातरम्",
+      "iast": "dātaram",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "dAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "dAtf + am",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "dAtf + am",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + am",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "dAtf + am",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + am",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "dAtf + am",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "dAtf + am",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "dAtf + am",
+        "definition"
+       ],
+       [
+        "7.3.110",
+        "dAtar + am",
+        "operation"
+       ],
+       [
+        "8.4.68",
+        "dAtar + am",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "pancami": {
+     "bahu": {
+      "deva": "दातृभ्यः",
+      "iast": "dātṛbhyaḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "dAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "dAtf + Byas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "dAtf + Byas",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + Byas",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + Byas",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "dAtf + Byas",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "dAtf + Byas",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "dAtf + Byas",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "dAtf + Byaru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "dAtf + Byar",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "dAtf + ByaH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "dAtf + ByaH",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "दातृभ्याम्",
+      "iast": "dātṛbhyām",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "dAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "dAtf + ByAm",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "dAtf + ByAm",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + ByAm",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "dAtf + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "dAtf + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "dAtf + ByAm",
+        "definition"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "दातुः",
+      "iast": "dātuḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "dAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "dAtf + Nasi~",
+        "affix"
+       ],
+       [
+        "1.3.2",
+        "dAtf + Nasi~",
+        "definition"
+       ],
+       [
+        "1.3.8",
+        "dAtf + Nasi~",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "dAtf + as",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + as",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + as",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "dAtf + as",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "dAtf + as",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "dAtf + as",
+        "definition"
+       ],
+       [
+        "6.1.111",
+        "dAtur + s",
+        "operation"
+       ],
+       [
+        "8.2.24",
+        "dAtur",
+        "sound"
+       ],
+       [
+        "8.3.15",
+        "dAtuH",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "prathama": {
+     "bahu": {
+      "deva": "दातरः",
+      "iast": "dātaraḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "dAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "dAtf + jas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "dAtf + jas",
+        "definition"
+       ],
+       [
+        "1.3.7",
+        "dAtf + jas",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "dAtf + as",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + as",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "dAtf + as",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + as",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "dAtf + as",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "dAtf + as",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "dAtf + as",
+        "definition"
+       ],
+       [
+        "7.3.110",
+        "dAtar + as",
+        "operation"
+       ],
+       [
+        "8.2.66",
+        "dAtar + aru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "dAtar + ar",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "dAtar + aH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "dAtar + aH",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "दातरौ",
+      "iast": "dātarau",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "dAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "dAtf + O",
+        "affix"
+       ],
+       [
+        "1.1.73",
+        "dAtf + O",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "dAtf + O",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + O",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "dAtf + O",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "dAtf + O",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "dAtf + O",
+        "definition"
+       ],
+       [
+        "7.3.110",
+        "dAtar + O",
+        "operation"
+       ],
+       [
+        "8.4.68",
+        "dAtar + O",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "दाता",
+      "iast": "dātā",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "dAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "dAtf + su~",
+        "affix"
+       ],
+       [
+        "1.3.2",
+        "dAtf + su~",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "dAtf + s",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + s",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "dAtf + s",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + s",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "dAtf + s",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "dAtf + s",
+        "definition"
+       ],
+       [
+        "7.1.94",
+        "dAtan + s",
+        "operation"
+       ],
+       [
+        "1.4.14",
+        "dAtan + s",
+        "definition"
+       ],
+       [
+        "6.4.8",
+        "dAtAn + s",
+        "operation"
+       ],
+       [
+        "6.1.68",
+        "dAtAn",
+        "operation"
+       ],
+       [
+        "8.2.7",
+        "dAtA",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "sambodhana": {
+     "bahu": {
+      "deva": "दातरः",
+      "iast": "dātaraḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "dAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "dAtf + jas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "dAtf + jas",
+        "definition"
+       ],
+       [
+        "1.3.7",
+        "dAtf + jas",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "dAtf + as",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + as",
+        "definition"
+       ],
+       [
+        "2.3.48",
+        "dAtf + as",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "dAtf + as",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + as",
+        "definition"
+       ],
+       [
+        "2.3.48",
+        "dAtf + as",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "dAtf + as",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "dAtf + as",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "dAtf + as",
+        "definition"
+       ],
+       [
+        "7.3.110",
+        "dAtar + as",
+        "operation"
+       ],
+       [
+        "8.2.66",
+        "dAtar + aru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "dAtar + ar",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "dAtar + aH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "dAtar + aH",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "दातरौ",
+      "iast": "dātarau",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "dAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "dAtf + O",
+        "affix"
+       ],
+       [
+        "1.1.73",
+        "dAtf + O",
+        "definition"
+       ],
+       [
+        "2.3.48",
+        "dAtf + O",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "dAtf + O",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + O",
+        "definition"
+       ],
+       [
+        "2.3.48",
+        "dAtf + O",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "dAtf + O",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "dAtf + O",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "dAtf + O",
+        "definition"
+       ],
+       [
+        "7.3.110",
+        "dAtar + O",
+        "operation"
+       ],
+       [
+        "8.4.68",
+        "dAtar + O",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "दातः",
+      "iast": "dātaḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "dAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "dAtf + su~",
+        "affix"
+       ],
+       [
+        "1.3.2",
+        "dAtf + su~",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "dAtf + s",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + s",
+        "definition"
+       ],
+       [
+        "2.3.48",
+        "dAtf + s",
+        "definition"
+       ],
+       [
+        "2.3.49",
+        "dAtf + s",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "dAtf + s",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + s",
+        "definition"
+       ],
+       [
+        "2.3.48",
+        "dAtf + s",
+        "definition"
+       ],
+       [
+        "2.3.49",
+        "dAtf + s",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "dAtf + s",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "dAtf + s",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "dAtf + s",
+        "definition"
+       ],
+       [
+        "7.3.110",
+        "dAtar + s",
+        "operation"
+       ],
+       [
+        "6.1.68",
+        "dAtar",
+        "operation"
+       ],
+       [
+        "8.3.15",
+        "dAtaH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "dAtaH",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "saptami": {
+     "bahu": {
+      "deva": "दातृषु",
+      "iast": "dātṛṣu",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "dAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "dAtf + sup",
+        "affix"
+       ],
+       [
+        "1.3.3",
+        "dAtf + sup",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "dAtf + su",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + su",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + su",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "dAtf + su",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "dAtf + su",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "dAtf + su",
+        "definition"
+       ],
+       [
+        "8.3.59",
+        "dAtf + zu",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "दात्रोः",
+      "iast": "dātroḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "dAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "dAtf + os",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "dAtf + os",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + os",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + os",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "dAtf + os",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "dAtf + os",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "dAtf + os",
+        "definition"
+       ],
+       [
+        "6.1.77",
+        "dAtr + os",
+        "operation"
+       ],
+       [
+        "8.2.66",
+        "dAtr + oru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "dAtr + or",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "dAtr + oH",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "दातरि",
+      "iast": "dātari",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "dAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "dAtf + Ni",
+        "affix"
+       ],
+       [
+        "1.3.8",
+        "dAtf + Ni",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "dAtf + i",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + i",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + i",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "dAtf + i",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "dAtf + i",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "dAtf + i",
+        "definition"
+       ],
+       [
+        "7.3.110",
+        "dAtar + i",
+        "operation"
+       ],
+       [
+        "8.4.68",
+        "dAtar + i",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "sasthi": {
+     "bahu": {
+      "deva": "दातॄणाम्",
+      "iast": "dātṝṇām",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "dAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "dAtf + Am",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "dAtf + Am",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + Am",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + Am",
+        "definition"
+       ],
+       [
+        "7.1.54",
+        "dAtf + nu~w + Am",
+        "operation"
+       ],
+       [
+        "1.3.2",
+        "dAtf + nu~w + Am",
+        "definition"
+       ],
+       [
+        "1.3.3",
+        "dAtf + nu~w + Am",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "dAtf + n + Am",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "dAtf + n + Am",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "dAtf + n + Am",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "dAtf + n + Am",
+        "definition"
+       ],
+       [
+        "6.4.3",
+        "dAtF + n + Am",
+        "operation"
+       ],
+       [
+        "8.4.1",
+        "dAtF + R + Am",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "दात्रोः",
+      "iast": "dātroḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "dAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "dAtf + os",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "dAtf + os",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + os",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + os",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "dAtf + os",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "dAtf + os",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "dAtf + os",
+        "definition"
+       ],
+       [
+        "6.1.77",
+        "dAtr + os",
+        "operation"
+       ],
+       [
+        "8.2.66",
+        "dAtr + oru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "dAtr + or",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "dAtr + oH",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "दातुः",
+      "iast": "dātuḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "dAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "dAtf + Nas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "dAtf + Nas",
+        "definition"
+       ],
+       [
+        "1.3.8",
+        "dAtf + Nas",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "dAtf + as",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + as",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + as",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "dAtf + as",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "dAtf + as",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "dAtf + as",
+        "definition"
+       ],
+       [
+        "6.1.111",
+        "dAtur + s",
+        "operation"
+       ],
+       [
+        "8.2.24",
+        "dAtur",
+        "sound"
+       ],
+       [
+        "8.3.15",
+        "dAtuH",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "tritiya": {
+     "bahu": {
+      "deva": "दातृभिः",
+      "iast": "dātṛbhiḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "dAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "dAtf + Bis",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "dAtf + Bis",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + Bis",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + Bis",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "dAtf + Bis",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "dAtf + Bis",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "dAtf + Bis",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "dAtf + Biru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "dAtf + Bir",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "dAtf + BiH",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "दातृभ्याम्",
+      "iast": "dātṛbhyām",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "dAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "dAtf + ByAm",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "dAtf + ByAm",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + ByAm",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "dAtf + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "dAtf + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "dAtf + ByAm",
+        "definition"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "दात्रा",
+      "iast": "dātrā",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "dAtf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "dAtf + wA",
+        "affix"
+       ],
+       [
+        "1.3.7",
+        "dAtf + wA",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "dAtf + A",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + A",
+        "definition"
+       ],
+       [
+        "1.1.73",
+        "dAtf + A",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "dAtf + A",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "dAtf + A",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "dAtf + A",
+        "definition"
+       ],
+       [
+        "6.1.77",
+        "dAtr + A",
+        "operation"
+       ]
+      ]
+     }
+    }
+   },
+   "reverse": {
+    "dātaram": [
+     [
+      "dAtf",
+      "dvitiya",
+      "eka"
+     ]
+    ],
+    "dātarau": [
+     [
+      "dAtf",
+      "prathama",
+      "dvi"
+     ],
+     [
+      "dAtf",
+      "dvitiya",
+      "dvi"
+     ],
+     [
+      "dAtf",
+      "sambodhana",
+      "dvi"
+     ]
+    ],
+    "dātaraḥ": [
+     [
+      "dAtf",
+      "prathama",
+      "bahu"
+     ],
+     [
+      "dAtf",
+      "sambodhana",
+      "bahu"
+     ]
+    ],
+    "dātari": [
+     [
+      "dAtf",
+      "saptami",
+      "eka"
+     ]
+    ],
+    "dātaḥ": [
+     [
+      "dAtf",
+      "sambodhana",
+      "eka"
+     ]
+    ],
+    "dātre": [
+     [
+      "dAtf",
+      "caturthi",
+      "eka"
+     ]
+    ],
+    "dātroḥ": [
+     [
+      "dAtf",
+      "sasthi",
+      "dvi"
+     ],
+     [
+      "dAtf",
+      "saptami",
+      "dvi"
+     ]
+    ],
+    "dātrā": [
+     [
+      "dAtf",
+      "tritiya",
+      "eka"
+     ]
+    ],
+    "dātuḥ": [
+     [
+      "dAtf",
+      "pancami",
+      "eka"
+     ],
+     [
+      "dAtf",
+      "sasthi",
+      "eka"
+     ]
+    ],
+    "dātā": [
+     [
+      "dAtf",
+      "prathama",
+      "eka"
+     ]
+    ],
+    "dātṛbhiḥ": [
+     [
+      "dAtf",
+      "tritiya",
+      "bahu"
+     ]
+    ],
+    "dātṛbhyaḥ": [
+     [
+      "dAtf",
+      "caturthi",
+      "bahu"
+     ],
+     [
+      "dAtf",
+      "pancami",
+      "bahu"
+     ]
+    ],
+    "dātṛbhyām": [
+     [
+      "dAtf",
+      "tritiya",
+      "dvi"
+     ],
+     [
+      "dAtf",
+      "caturthi",
+      "dvi"
+     ],
+     [
+      "dAtf",
+      "pancami",
+      "dvi"
+     ]
+    ],
+    "dātṛṣu": [
+     [
+      "dAtf",
+      "saptami",
+      "bahu"
+     ]
+    ],
+    "dātṝn": [
+     [
+      "dAtf",
+      "dvitiya",
+      "bahu"
+     ]
+    ],
+    "dātṝṇām": [
+     [
+      "dAtf",
+      "sasthi",
+      "bahu"
+     ]
+    ]
+   }
+  },
+  "kartf": {
+   "paradigm": {
+    "caturthi": {
+     "bahu": {
+      "deva": "कर्तृभ्यः",
+      "iast": "kartṛbhyaḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "kartf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "kartf + Byas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "kartf + Byas",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "kartf + Byas",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "kartf + Byas",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "kartf + Byas",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "kartf + Byaru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "kartf + Byar",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "kartf + ByaH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "kartf + ByaH",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "कर्तृभ्याम्",
+      "iast": "kartṛbhyām",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "kartf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "kartf + ByAm",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "kartf + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "kartf + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "kartf + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "kartf + ByAm",
+        "definition"
+       ],
+       [
+        "8.4.68",
+        "kartf + ByAm",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "कर्त्रे",
+      "iast": "kartre",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "kartf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "kartf + Ne",
+        "affix"
+       ],
+       [
+        "1.3.8",
+        "kartf + Ne",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "kartf + e",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "kartf + e",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "kartf + e",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "kartf + e",
+        "definition"
+       ],
+       [
+        "6.1.77",
+        "kartr + e",
+        "operation"
+       ],
+       [
+        "8.4.68",
+        "kartr + e",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "dvitiya": {
+     "bahu": {
+      "deva": "कर्तॄन्",
+      "iast": "kartṝn",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "kartf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "kartf + Sas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "kartf + Sas",
+        "definition"
+       ],
+       [
+        "1.3.8",
+        "kartf + Sas",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "kartf + as",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "kartf + as",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "kartf + as",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "kartf + as",
+        "definition"
+       ],
+       [
+        "6.1.102",
+        "kartf + Fs",
+        "operation"
+       ],
+       [
+        "6.1.103",
+        "kartf + Fn",
+        "operation"
+       ],
+       [
+        "6.1.101",
+        "kartF + n",
+        "operation"
+       ],
+       [
+        "8.4.37",
+        "kartF + n",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "kartF + n",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "कर्तरौ",
+      "iast": "kartarau",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "kartf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "kartf + Ow",
+        "affix"
+       ],
+       [
+        "1.3.3",
+        "kartf + Ow",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "kartf + O",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "kartf + O",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "kartf + O",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "kartf + O",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "kartf + O",
+        "definition"
+       ],
+       [
+        "7.3.110",
+        "kartar + O",
+        "operation"
+       ],
+       [
+        "8.4.68",
+        "kartar + O",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "कर्तरम्",
+      "iast": "kartaram",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "kartf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "kartf + am",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "kartf + am",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "kartf + am",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "kartf + am",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "kartf + am",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "kartf + am",
+        "definition"
+       ],
+       [
+        "7.3.110",
+        "kartar + am",
+        "operation"
+       ],
+       [
+        "8.4.68",
+        "kartar + am",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "pancami": {
+     "bahu": {
+      "deva": "कर्तृभ्यः",
+      "iast": "kartṛbhyaḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "kartf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "kartf + Byas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "kartf + Byas",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "kartf + Byas",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "kartf + Byas",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "kartf + Byas",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "kartf + Byaru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "kartf + Byar",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "kartf + ByaH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "kartf + ByaH",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "कर्तृभ्याम्",
+      "iast": "kartṛbhyām",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "kartf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "kartf + ByAm",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "kartf + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "kartf + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "kartf + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "kartf + ByAm",
+        "definition"
+       ],
+       [
+        "8.4.68",
+        "kartf + ByAm",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "कर्तुः",
+      "iast": "kartuḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "kartf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "kartf + Nasi~",
+        "affix"
+       ],
+       [
+        "1.3.2",
+        "kartf + Nasi~",
+        "definition"
+       ],
+       [
+        "1.3.8",
+        "kartf + Nasi~",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "kartf + as",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "kartf + as",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "kartf + as",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "kartf + as",
+        "definition"
+       ],
+       [
+        "6.1.111",
+        "kartur + s",
+        "operation"
+       ],
+       [
+        "8.2.24",
+        "kartur",
+        "sound"
+       ],
+       [
+        "8.3.15",
+        "kartuH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "kartuH",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "prathama": {
+     "bahu": {
+      "deva": "कर्तरः",
+      "iast": "kartaraḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "kartf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "kartf + jas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "kartf + jas",
+        "definition"
+       ],
+       [
+        "1.3.7",
+        "kartf + jas",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "kartf + as",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "kartf + as",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "kartf + as",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "kartf + as",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "kartf + as",
+        "definition"
+       ],
+       [
+        "7.3.110",
+        "kartar + as",
+        "operation"
+       ],
+       [
+        "8.2.66",
+        "kartar + aru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "kartar + ar",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "kartar + aH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "kartar + aH",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "कर्तरौ",
+      "iast": "kartarau",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "kartf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "kartf + O",
+        "affix"
+       ],
+       [
+        "1.1.43",
+        "kartf + O",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "kartf + O",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "kartf + O",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "kartf + O",
+        "definition"
+       ],
+       [
+        "7.3.110",
+        "kartar + O",
+        "operation"
+       ],
+       [
+        "8.4.68",
+        "kartar + O",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "कर्ता",
+      "iast": "kartā",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "kartf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "kartf + su~",
+        "affix"
+       ],
+       [
+        "1.3.2",
+        "kartf + su~",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "kartf + s",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "kartf + s",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "kartf + s",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "kartf + s",
+        "definition"
+       ],
+       [
+        "7.1.94",
+        "kartan + s",
+        "operation"
+       ],
+       [
+        "1.4.14",
+        "kartan + s",
+        "definition"
+       ],
+       [
+        "6.4.8",
+        "kartAn + s",
+        "operation"
+       ],
+       [
+        "6.1.68",
+        "kartAn",
+        "operation"
+       ],
+       [
+        "8.2.7",
+        "kartA",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "kartA",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "sambodhana": {
+     "bahu": {
+      "deva": "कर्तरः",
+      "iast": "kartaraḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "kartf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "kartf + jas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "kartf + jas",
+        "definition"
+       ],
+       [
+        "1.3.7",
+        "kartf + jas",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "kartf + as",
+        "definition"
+       ],
+       [
+        "2.3.48",
+        "kartf + as",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "kartf + as",
+        "definition"
+       ],
+       [
+        "2.3.48",
+        "kartf + as",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "kartf + as",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "kartf + as",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "kartf + as",
+        "definition"
+       ],
+       [
+        "7.3.110",
+        "kartar + as",
+        "operation"
+       ],
+       [
+        "8.2.66",
+        "kartar + aru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "kartar + ar",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "kartar + aH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "kartar + aH",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "कर्तरौ",
+      "iast": "kartarau",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "kartf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "kartf + O",
+        "affix"
+       ],
+       [
+        "2.3.48",
+        "kartf + O",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "kartf + O",
+        "definition"
+       ],
+       [
+        "2.3.48",
+        "kartf + O",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "kartf + O",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "kartf + O",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "kartf + O",
+        "definition"
+       ],
+       [
+        "7.3.110",
+        "kartar + O",
+        "operation"
+       ],
+       [
+        "8.4.68",
+        "kartar + O",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "कर्तः",
+      "iast": "kartaḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "kartf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "kartf + su~",
+        "affix"
+       ],
+       [
+        "1.3.2",
+        "kartf + su~",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "kartf + s",
+        "definition"
+       ],
+       [
+        "2.3.48",
+        "kartf + s",
+        "definition"
+       ],
+       [
+        "2.3.49",
+        "kartf + s",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "kartf + s",
+        "definition"
+       ],
+       [
+        "2.3.48",
+        "kartf + s",
+        "definition"
+       ],
+       [
+        "2.3.49",
+        "kartf + s",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "kartf + s",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "kartf + s",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "kartf + s",
+        "definition"
+       ],
+       [
+        "7.3.110",
+        "kartar + s",
+        "operation"
+       ],
+       [
+        "6.1.68",
+        "kartar",
+        "operation"
+       ],
+       [
+        "8.3.15",
+        "kartaH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "kartaH",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "saptami": {
+     "bahu": {
+      "deva": "कर्तृषु",
+      "iast": "kartṛṣu",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "kartf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "kartf + sup",
+        "affix"
+       ],
+       [
+        "1.3.3",
+        "kartf + sup",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "kartf + su",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "kartf + su",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "kartf + su",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "kartf + su",
+        "definition"
+       ],
+       [
+        "8.3.59",
+        "kartf + zu",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "kartf + zu",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "कर्त्रोः",
+      "iast": "kartroḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "kartf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "kartf + os",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "kartf + os",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "kartf + os",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "kartf + os",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "kartf + os",
+        "definition"
+       ],
+       [
+        "6.1.77",
+        "kartr + os",
+        "operation"
+       ],
+       [
+        "8.2.66",
+        "kartr + oru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "kartr + or",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "kartr + oH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "kartr + oH",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "कर्तरि",
+      "iast": "kartari",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "kartf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "kartf + Ni",
+        "affix"
+       ],
+       [
+        "1.3.8",
+        "kartf + Ni",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "kartf + i",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "kartf + i",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "kartf + i",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "kartf + i",
+        "definition"
+       ],
+       [
+        "7.3.110",
+        "kartar + i",
+        "operation"
+       ],
+       [
+        "8.4.68",
+        "kartar + i",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "sasthi": {
+     "bahu": {
+      "deva": "कर्तॄणाम्",
+      "iast": "kartṝṇām",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "kartf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "kartf + Am",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "kartf + Am",
+        "definition"
+       ],
+       [
+        "7.1.54",
+        "kartf + nu~w + Am",
+        "operation"
+       ],
+       [
+        "1.3.2",
+        "kartf + nu~w + Am",
+        "definition"
+       ],
+       [
+        "1.3.3",
+        "kartf + nu~w + Am",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "kartf + n + Am",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "kartf + n + Am",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "kartf + n + Am",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "kartf + n + Am",
+        "definition"
+       ],
+       [
+        "6.4.3",
+        "kartF + n + Am",
+        "operation"
+       ],
+       [
+        "8.4.1",
+        "kartF + R + Am",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "kartF + R + Am",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "कर्त्रोः",
+      "iast": "kartroḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "kartf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "kartf + os",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "kartf + os",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "kartf + os",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "kartf + os",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "kartf + os",
+        "definition"
+       ],
+       [
+        "6.1.77",
+        "kartr + os",
+        "operation"
+       ],
+       [
+        "8.2.66",
+        "kartr + oru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "kartr + or",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "kartr + oH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "kartr + oH",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "कर्तुः",
+      "iast": "kartuḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "kartf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "kartf + Nas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "kartf + Nas",
+        "definition"
+       ],
+       [
+        "1.3.8",
+        "kartf + Nas",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "kartf + as",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "kartf + as",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "kartf + as",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "kartf + as",
+        "definition"
+       ],
+       [
+        "6.1.111",
+        "kartur + s",
+        "operation"
+       ],
+       [
+        "8.2.24",
+        "kartur",
+        "sound"
+       ],
+       [
+        "8.3.15",
+        "kartuH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "kartuH",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "tritiya": {
+     "bahu": {
+      "deva": "कर्तृभिः",
+      "iast": "kartṛbhiḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "kartf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "kartf + Bis",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "kartf + Bis",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "kartf + Bis",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "kartf + Bis",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "kartf + Bis",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "kartf + Biru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "kartf + Bir",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "kartf + BiH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "kartf + BiH",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "कर्तृभ्याम्",
+      "iast": "kartṛbhyām",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "kartf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "kartf + ByAm",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "kartf + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "kartf + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "kartf + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "kartf + ByAm",
+        "definition"
+       ],
+       [
+        "8.4.68",
+        "kartf + ByAm",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "कर्त्रा",
+      "iast": "kartrā",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "kartf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "kartf + wA",
+        "affix"
+       ],
+       [
+        "1.3.7",
+        "kartf + wA",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "kartf + A",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "kartf + A",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "kartf + A",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "kartf + A",
+        "definition"
+       ],
+       [
+        "6.1.77",
+        "kartr + A",
+        "operation"
+       ],
+       [
+        "8.4.68",
+        "kartr + A",
+        "sound"
+       ]
+      ]
+     }
+    }
+   },
+   "reverse": {
+    "kartaram": [
+     [
+      "kartf",
+      "dvitiya",
+      "eka"
+     ]
+    ],
+    "kartarau": [
+     [
+      "kartf",
+      "prathama",
+      "dvi"
+     ],
+     [
+      "kartf",
+      "dvitiya",
+      "dvi"
+     ],
+     [
+      "kartf",
+      "sambodhana",
+      "dvi"
+     ]
+    ],
+    "kartaraḥ": [
+     [
+      "kartf",
+      "prathama",
+      "bahu"
+     ],
+     [
+      "kartf",
+      "sambodhana",
+      "bahu"
+     ]
+    ],
+    "kartari": [
+     [
+      "kartf",
+      "saptami",
+      "eka"
+     ]
+    ],
+    "kartaḥ": [
+     [
+      "kartf",
+      "sambodhana",
+      "eka"
+     ]
+    ],
+    "kartre": [
+     [
+      "kartf",
+      "caturthi",
+      "eka"
+     ]
+    ],
+    "kartroḥ": [
+     [
+      "kartf",
+      "sasthi",
+      "dvi"
+     ],
+     [
+      "kartf",
+      "saptami",
+      "dvi"
+     ]
+    ],
+    "kartrā": [
+     [
+      "kartf",
+      "tritiya",
+      "eka"
+     ]
+    ],
+    "kartuḥ": [
+     [
+      "kartf",
+      "pancami",
+      "eka"
+     ],
+     [
+      "kartf",
+      "sasthi",
+      "eka"
+     ]
+    ],
+    "kartā": [
+     [
+      "kartf",
+      "prathama",
+      "eka"
+     ]
+    ],
+    "kartṛbhiḥ": [
+     [
+      "kartf",
+      "tritiya",
+      "bahu"
+     ]
+    ],
+    "kartṛbhyaḥ": [
+     [
+      "kartf",
+      "caturthi",
+      "bahu"
+     ],
+     [
+      "kartf",
+      "pancami",
+      "bahu"
+     ]
+    ],
+    "kartṛbhyām": [
+     [
+      "kartf",
+      "tritiya",
+      "dvi"
+     ],
+     [
+      "kartf",
+      "caturthi",
+      "dvi"
+     ],
+     [
+      "kartf",
+      "pancami",
+      "dvi"
+     ]
+    ],
+    "kartṛṣu": [
+     [
+      "kartf",
+      "saptami",
+      "bahu"
+     ]
+    ],
+    "kartṝn": [
+     [
+      "kartf",
+      "dvitiya",
+      "bahu"
+     ]
+    ],
+    "kartṝṇām": [
+     [
+      "kartf",
+      "sasthi",
+      "bahu"
+     ]
+    ]
+   }
+  },
+  "pitf": {
+   "paradigm": {
+    "caturthi": {
+     "bahu": {
+      "deva": "पितृभ्यः",
+      "iast": "pitṛbhyaḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "pitf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "pitf + Byas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "pitf + Byas",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "pitf + Byas",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "pitf + Byas",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "pitf + Byas",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "pitf + Byaru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "pitf + Byar",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "pitf + ByaH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "pitf + ByaH",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "पितृभ्याम्",
+      "iast": "pitṛbhyām",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "pitf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "pitf + ByAm",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "pitf + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "pitf + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "pitf + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "pitf + ByAm",
+        "definition"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "पित्रे",
+      "iast": "pitre",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "pitf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "pitf + Ne",
+        "affix"
+       ],
+       [
+        "1.3.8",
+        "pitf + Ne",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "pitf + e",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "pitf + e",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "pitf + e",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "pitf + e",
+        "definition"
+       ],
+       [
+        "6.1.77",
+        "pitr + e",
+        "operation"
+       ]
+      ]
+     }
+    },
+    "dvitiya": {
+     "bahu": {
+      "deva": "पितॄन्",
+      "iast": "pitṝn",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "pitf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "pitf + Sas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "pitf + Sas",
+        "definition"
+       ],
+       [
+        "1.3.8",
+        "pitf + Sas",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "pitf + as",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "pitf + as",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "pitf + as",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "pitf + as",
+        "definition"
+       ],
+       [
+        "6.1.102",
+        "pitf + Fs",
+        "operation"
+       ],
+       [
+        "6.1.103",
+        "pitf + Fn",
+        "operation"
+       ],
+       [
+        "6.1.101",
+        "pitF + n",
+        "operation"
+       ],
+       [
+        "8.4.37",
+        "pitF + n",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "पितरौ",
+      "iast": "pitarau",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "pitf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "pitf + Ow",
+        "affix"
+       ],
+       [
+        "1.3.3",
+        "pitf + Ow",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "pitf + O",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "pitf + O",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "pitf + O",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "pitf + O",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "pitf + O",
+        "definition"
+       ],
+       [
+        "7.3.110",
+        "pitar + O",
+        "operation"
+       ],
+       [
+        "8.4.68",
+        "pitar + O",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "पितरम्",
+      "iast": "pitaram",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "pitf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "pitf + am",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "pitf + am",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "pitf + am",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "pitf + am",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "pitf + am",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "pitf + am",
+        "definition"
+       ],
+       [
+        "7.3.110",
+        "pitar + am",
+        "operation"
+       ],
+       [
+        "8.4.68",
+        "pitar + am",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "pancami": {
+     "bahu": {
+      "deva": "पितृभ्यः",
+      "iast": "pitṛbhyaḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "pitf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "pitf + Byas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "pitf + Byas",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "pitf + Byas",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "pitf + Byas",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "pitf + Byas",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "pitf + Byaru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "pitf + Byar",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "pitf + ByaH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "pitf + ByaH",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "पितृभ्याम्",
+      "iast": "pitṛbhyām",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "pitf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "pitf + ByAm",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "pitf + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "pitf + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "pitf + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "pitf + ByAm",
+        "definition"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "पितुः",
+      "iast": "pituḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "pitf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "pitf + Nasi~",
+        "affix"
+       ],
+       [
+        "1.3.2",
+        "pitf + Nasi~",
+        "definition"
+       ],
+       [
+        "1.3.8",
+        "pitf + Nasi~",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "pitf + as",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "pitf + as",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "pitf + as",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "pitf + as",
+        "definition"
+       ],
+       [
+        "6.1.111",
+        "pitur + s",
+        "operation"
+       ],
+       [
+        "8.2.24",
+        "pitur",
+        "sound"
+       ],
+       [
+        "8.3.15",
+        "pituH",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "prathama": {
+     "bahu": {
+      "deva": "पितरः",
+      "iast": "pitaraḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "pitf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "pitf + jas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "pitf + jas",
+        "definition"
+       ],
+       [
+        "1.3.7",
+        "pitf + jas",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "pitf + as",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "pitf + as",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "pitf + as",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "pitf + as",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "pitf + as",
+        "definition"
+       ],
+       [
+        "7.3.110",
+        "pitar + as",
+        "operation"
+       ],
+       [
+        "8.2.66",
+        "pitar + aru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "pitar + ar",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "pitar + aH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "pitar + aH",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "पितरौ",
+      "iast": "pitarau",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "pitf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "pitf + O",
+        "affix"
+       ],
+       [
+        "1.1.43",
+        "pitf + O",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "pitf + O",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "pitf + O",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "pitf + O",
+        "definition"
+       ],
+       [
+        "7.3.110",
+        "pitar + O",
+        "operation"
+       ],
+       [
+        "8.4.68",
+        "pitar + O",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "पिता",
+      "iast": "pitā",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "pitf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "pitf + su~",
+        "affix"
+       ],
+       [
+        "1.3.2",
+        "pitf + su~",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "pitf + s",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "pitf + s",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "pitf + s",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "pitf + s",
+        "definition"
+       ],
+       [
+        "7.1.94",
+        "pitan + s",
+        "operation"
+       ],
+       [
+        "1.4.14",
+        "pitan + s",
+        "definition"
+       ],
+       [
+        "6.4.8",
+        "pitAn + s",
+        "operation"
+       ],
+       [
+        "6.1.68",
+        "pitAn",
+        "operation"
+       ],
+       [
+        "8.2.7",
+        "pitA",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "sambodhana": {
+     "bahu": {
+      "deva": "पितरः",
+      "iast": "pitaraḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "pitf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "pitf + jas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "pitf + jas",
+        "definition"
+       ],
+       [
+        "1.3.7",
+        "pitf + jas",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "pitf + as",
+        "definition"
+       ],
+       [
+        "2.3.48",
+        "pitf + as",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "pitf + as",
+        "definition"
+       ],
+       [
+        "2.3.48",
+        "pitf + as",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "pitf + as",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "pitf + as",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "pitf + as",
+        "definition"
+       ],
+       [
+        "7.3.110",
+        "pitar + as",
+        "operation"
+       ],
+       [
+        "8.2.66",
+        "pitar + aru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "pitar + ar",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "pitar + aH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "pitar + aH",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "पितरौ",
+      "iast": "pitarau",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "pitf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "pitf + O",
+        "affix"
+       ],
+       [
+        "2.3.48",
+        "pitf + O",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "pitf + O",
+        "definition"
+       ],
+       [
+        "2.3.48",
+        "pitf + O",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "pitf + O",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "pitf + O",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "pitf + O",
+        "definition"
+       ],
+       [
+        "7.3.110",
+        "pitar + O",
+        "operation"
+       ],
+       [
+        "8.4.68",
+        "pitar + O",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "पितः",
+      "iast": "pitaḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "pitf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "pitf + su~",
+        "affix"
+       ],
+       [
+        "1.3.2",
+        "pitf + su~",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "pitf + s",
+        "definition"
+       ],
+       [
+        "2.3.48",
+        "pitf + s",
+        "definition"
+       ],
+       [
+        "2.3.49",
+        "pitf + s",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "pitf + s",
+        "definition"
+       ],
+       [
+        "2.3.48",
+        "pitf + s",
+        "definition"
+       ],
+       [
+        "2.3.49",
+        "pitf + s",
+        "definition"
+       ],
+       [
+        "1.1.43",
+        "pitf + s",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "pitf + s",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "pitf + s",
+        "definition"
+       ],
+       [
+        "7.3.110",
+        "pitar + s",
+        "operation"
+       ],
+       [
+        "6.1.68",
+        "pitar",
+        "operation"
+       ],
+       [
+        "8.3.15",
+        "pitaH",
+        "sound"
+       ],
+       [
+        "8.4.68",
+        "pitaH",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "saptami": {
+     "bahu": {
+      "deva": "पितृषु",
+      "iast": "pitṛṣu",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "pitf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "pitf + sup",
+        "affix"
+       ],
+       [
+        "1.3.3",
+        "pitf + sup",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "pitf + su",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "pitf + su",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "pitf + su",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "pitf + su",
+        "definition"
+       ],
+       [
+        "8.3.59",
+        "pitf + zu",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "पित्रोः",
+      "iast": "pitroḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "pitf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "pitf + os",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "pitf + os",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "pitf + os",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "pitf + os",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "pitf + os",
+        "definition"
+       ],
+       [
+        "6.1.77",
+        "pitr + os",
+        "operation"
+       ],
+       [
+        "8.2.66",
+        "pitr + oru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "pitr + or",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "pitr + oH",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "पितरि",
+      "iast": "pitari",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "pitf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "pitf + Ni",
+        "affix"
+       ],
+       [
+        "1.3.8",
+        "pitf + Ni",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "pitf + i",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "pitf + i",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "pitf + i",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "pitf + i",
+        "definition"
+       ],
+       [
+        "7.3.110",
+        "pitar + i",
+        "operation"
+       ],
+       [
+        "8.4.68",
+        "pitar + i",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "sasthi": {
+     "bahu": {
+      "deva": "पितॄणाम्",
+      "iast": "pitṝṇām",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "pitf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "pitf + Am",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "pitf + Am",
+        "definition"
+       ],
+       [
+        "7.1.54",
+        "pitf + nu~w + Am",
+        "operation"
+       ],
+       [
+        "1.3.2",
+        "pitf + nu~w + Am",
+        "definition"
+       ],
+       [
+        "1.3.3",
+        "pitf + nu~w + Am",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "pitf + n + Am",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "pitf + n + Am",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "pitf + n + Am",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "pitf + n + Am",
+        "definition"
+       ],
+       [
+        "6.4.3",
+        "pitF + n + Am",
+        "operation"
+       ],
+       [
+        "8.4.1",
+        "pitF + R + Am",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "पित्रोः",
+      "iast": "pitroḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "pitf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "pitf + os",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "pitf + os",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "pitf + os",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "pitf + os",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "pitf + os",
+        "definition"
+       ],
+       [
+        "6.1.77",
+        "pitr + os",
+        "operation"
+       ],
+       [
+        "8.2.66",
+        "pitr + oru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "pitr + or",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "pitr + oH",
+        "sound"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "पितुः",
+      "iast": "pituḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "pitf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "pitf + Nas",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "pitf + Nas",
+        "definition"
+       ],
+       [
+        "1.3.8",
+        "pitf + Nas",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "pitf + as",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "pitf + as",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "pitf + as",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "pitf + as",
+        "definition"
+       ],
+       [
+        "6.1.111",
+        "pitur + s",
+        "operation"
+       ],
+       [
+        "8.2.24",
+        "pitur",
+        "sound"
+       ],
+       [
+        "8.3.15",
+        "pituH",
+        "sound"
+       ]
+      ]
+     }
+    },
+    "tritiya": {
+     "bahu": {
+      "deva": "पितृभिः",
+      "iast": "pitṛbhiḥ",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "pitf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "pitf + Bis",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "pitf + Bis",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "pitf + Bis",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "pitf + Bis",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "pitf + Bis",
+        "definition"
+       ],
+       [
+        "8.2.66",
+        "pitf + Biru~",
+        "sound"
+       ],
+       [
+        "1.3.2",
+        "pitf + Bir",
+        "definition"
+       ],
+       [
+        "8.3.15",
+        "pitf + BiH",
+        "sound"
+       ]
+      ]
+     },
+     "dvi": {
+      "deva": "पितृभ्याम्",
+      "iast": "pitṛbhyām",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "pitf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "pitf + ByAm",
+        "affix"
+       ],
+       [
+        "1.3.4",
+        "pitf + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "pitf + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.17",
+        "pitf + ByAm",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "pitf + ByAm",
+        "definition"
+       ]
+      ]
+     },
+     "eka": {
+      "deva": "पित्रा",
+      "iast": "pitrā",
+      "status": "DERIVED",
+      "steps": [
+       [
+        "1.2.45",
+        "pitf",
+        "stem"
+       ],
+       [
+        "4.1.2",
+        "pitf + wA",
+        "affix"
+       ],
+       [
+        "1.3.7",
+        "pitf + wA",
+        "definition"
+       ],
+       [
+        "1.3.9",
+        "pitf + A",
+        "definition"
+       ],
+       [
+        "1.4.13",
+        "pitf + A",
+        "definition"
+       ],
+       [
+        "1.4.18",
+        "pitf + A",
+        "definition"
+       ],
+       [
+        "1.4.14",
+        "pitf + A",
+        "definition"
+       ],
+       [
+        "6.1.77",
+        "pitr + A",
+        "operation"
+       ]
+      ]
+     }
+    }
+   },
+   "reverse": {
+    "pitaram": [
+     [
+      "pitf",
+      "dvitiya",
+      "eka"
+     ]
+    ],
+    "pitarau": [
+     [
+      "pitf",
+      "prathama",
+      "dvi"
+     ],
+     [
+      "pitf",
+      "dvitiya",
+      "dvi"
+     ],
+     [
+      "pitf",
+      "sambodhana",
+      "dvi"
+     ]
+    ],
+    "pitaraḥ": [
+     [
+      "pitf",
+      "prathama",
+      "bahu"
+     ],
+     [
+      "pitf",
+      "sambodhana",
+      "bahu"
+     ]
+    ],
+    "pitari": [
+     [
+      "pitf",
+      "saptami",
+      "eka"
+     ]
+    ],
+    "pitaḥ": [
+     [
+      "pitf",
+      "sambodhana",
+      "eka"
+     ]
+    ],
+    "pitre": [
+     [
+      "pitf",
+      "caturthi",
+      "eka"
+     ]
+    ],
+    "pitroḥ": [
+     [
+      "pitf",
+      "sasthi",
+      "dvi"
+     ],
+     [
+      "pitf",
+      "saptami",
+      "dvi"
+     ]
+    ],
+    "pitrā": [
+     [
+      "pitf",
+      "tritiya",
+      "eka"
+     ]
+    ],
+    "pituḥ": [
+     [
+      "pitf",
+      "pancami",
+      "eka"
+     ],
+     [
+      "pitf",
+      "sasthi",
+      "eka"
+     ]
+    ],
+    "pitā": [
+     [
+      "pitf",
+      "prathama",
+      "eka"
+     ]
+    ],
+    "pitṛbhiḥ": [
+     [
+      "pitf",
+      "tritiya",
+      "bahu"
+     ]
+    ],
+    "pitṛbhyaḥ": [
+     [
+      "pitf",
+      "caturthi",
+      "bahu"
+     ],
+     [
+      "pitf",
+      "pancami",
+      "bahu"
+     ]
+    ],
+    "pitṛbhyām": [
+     [
+      "pitf",
+      "tritiya",
+      "dvi"
+     ],
+     [
+      "pitf",
+      "caturthi",
+      "dvi"
+     ],
+     [
+      "pitf",
+      "pancami",
+      "dvi"
+     ]
+    ],
+    "pitṛṣu": [
+     [
+      "pitf",
+      "saptami",
+      "bahu"
+     ]
+    ],
+    "pitṝn": [
+     [
+      "pitf",
+      "dvitiya",
+      "bahu"
+     ]
+    ],
+    "pitṝṇām": [
+     [
+      "pitf",
+      "sasthi",
+      "bahu"
+     ]
+    ]
+   }
+  }
+ }
+}

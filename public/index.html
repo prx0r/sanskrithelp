@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prakriyā Wheel — Sanskrit declension, formally</title>
+<meta name="description" content="Every Sanskrit noun form derived by a Pāṇinian engine, colour-coded by role: stem, class, affix, operation, surface. 57 stems, 17 families, 1368 forms.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <div class="brand">
+      <span class="brand-deva">प्रक्रिया</span>
+      <span class="brand-en">Prakriyā Wheel</span>
+    </div>
+    <nav class="nav">
+      <a href="#lesson">Lesson</a>
+      <a href="#wheel">Wheel</a>
+      <a href="#trace">Derivation</a>
+      <a href="#drill">Drill</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+<section class="hero">
+  <div class="eyebrow">Sanskrit · formal declension system · v1</div>
+  <h1>Learn the <em>machine</em>, not 1,368 forms.</h1>
+  <p class="lead">Five colours, five jobs. Pick a stem, pick a case, pick a number — and watch a real
+  Pāṇinian engine do the work, step by step, with the sūtra that fired at each step.
+  Nothing on this page was typed from memory: <strong id="stat-forms">every form</strong> comes from Vidyut&nbsp;0.4.0.</p>
+
+  <div class="statbar" id="statbar">
+    <div><b id="stat-stems">57</b><span>stems</span></div>
+    <div><b id="stat-families">17</b><span>families</span></div>
+    <div><b id="stat-forms2">1368</b><span>forms</span></div>
+    <div><b id="stat-cc">72/72</b><span>hand-check</span></div>
+  </div>
+</section>
+
+<!-- ============ 1. THE COLOUR SYSTEM ============ -->
+<section class="block" id="lesson">
+  <h2><span class="num">1</span> The five colours</h2>
+  <p class="sub">This is the whole system. Every derivation on this site is a path through these five layers, in this order.</p>
+
+  <div class="formula" aria-label="the formal rule">
+    <span class="layer" data-layer="surface"><i>rūpa</i><small>surface</small></span>
+    <span class="eq">=</span>
+    <span class="layer" data-layer="operation"><i>saṃskāra</i><small>operation</small></span>
+    <span class="paren">(</span>
+    <span class="layer" data-layer="affix"><i>pratyaya</i><small>affix</small></span>
+    <span class="paren">(</span>
+    <span class="layer" data-layer="class"><i>gaṇa</i><small>class</small></span>
+    <span class="paren">(</span>
+    <span class="layer" data-layer="stem"><i>aṅga</i><small>stem</small></span>
+    <span class="paren">)</span><span class="paren">)</span><span class="paren">)</span>
+  </div>
+
+  <div class="legend" id="legend"></div>
+  <p class="note">Two more colours exist but are not steps you choose: <span class="chip" data-layer="definition">grey</span>
+  for saṃjñā (the grammar naming things) and <span class="chip" data-layer="sound">violet</span> for sandhi
+  (sound adjustment at the end). <span class="chip" data-layer="blocked">red</span> means a slot the engine could not fill — it never renders a guess.</p>
+</section>
+
+<!-- ============ 2. THE LADDER ============ -->
+<section class="block">
+  <h2><span class="num">2</span> The ladder</h2>
+  <p class="sub">Each rung adds one ring. You only see the rings your rung has unlocked.</p>
+  <div class="ladder" id="ladder"></div>
+</section>
+
+<!-- ============ 3. THE WHEEL ============ -->
+<section class="block" id="wheel">
+  <h2><span class="num">3</span> The wheel</h2>
+  <p class="sub">Blue picks the stem, green names its class, amber picks the ending. Rotate any of them and the derivation changes.</p>
+
+  <div class="pickers">
+    <div class="picker">
+      <div class="picker-label"><span class="dot" data-layer="class"></span> class · <span class="pick-count" id="fam-count"></span></div>
+      <div class="chips" id="families"></div>
+    </div>
+    <div class="picker">
+      <div class="picker-label"><span class="dot" data-layer="stem"></span> stem · <span class="pick-count" id="stem-count"></span></div>
+      <div class="chips" id="stems"></div>
+    </div>
+  </div>
+
+  <div class="wheel-grid">
+    <div class="matrix-wrap">
+      <div class="matrix-head">
+        <div class="mh-corner"><span class="dot" data-layer="affix"></span> case ↓ · number →</div>
+        <div class="mh" data-vac="eka">एकवचन<small>singular</small></div>
+        <div class="mh" data-vac="dvi">द्विवचन<small>dual</small></div>
+        <div class="mh" data-vac="bahu">बहुवचन<small>plural</small></div>
+      </div>
+      <div id="matrix"></div>
+      <p class="note" id="fam-note"></p>
+    </div>
+
+    <aside class="output">
+      <div class="out-label"><span class="dot" data-layer="surface"></span> rūpa · surface</div>
+      <div class="bigword" id="bigword">—</div>
+      <div class="bigsub" id="bigsub"></div>
+      <div class="slot-line" id="slotline"></div>
+      <div class="mode-row" id="modes">
+        <button class="mode active" data-mode="explore">Explore</button>
+        <button class="mode" data-mode="generate">Generate</button>
+        <button class="mode" data-mode="reverse">Reverse</button>
+        <button class="mode" data-mode="surgery">Rule surgery</button>
+      </div>
+      <div id="gamebox"></div>
+      <div class="status" id="status" aria-live="polite"></div>
+      <div class="progress"><div id="bar"></div></div>
+      <div class="score" id="score"></div>
+    </aside>
+  </div>
+</section>
+
+<!-- ============ 4. DERIVATION ============ -->
+<section class="block" id="trace">
+  <h2><span class="num">4</span> What actually happened</h2>
+  <p class="sub">One row per engine step. The sūtra number is the one the engine fired — not a label we added.</p>
+  <div class="trace" id="tracebody"><p class="note">Pick a cell above.</p></div>
+  <div class="banner" id="trace-banner"></div>
+</section>
+
+<!-- ============ 5. DRILL ============ -->
+<section class="block" id="drill">
+  <h2><span class="num">5</span> Drill</h2>
+  <p class="sub">Mixed questions from the whole catalogue: generate a form, name an analysis, predict an operation.</p>
+  <div class="drill" id="drillbody"></div>
+</section>
+
+<footer class="foot">
+  <p><strong>Sources.</strong> Forms and step traces generated by Vidyut&nbsp;0.4.0 (Ambuda project, MIT), from the Aṣṭādhyāyī rule inventory.
+  Sūtra numbers are shared grammatical facts. The engine is computational: a derivation is a computation, not a scholarly reading.</p>
+  <p><strong>Honesty.</strong> Hand-curated reference tables were cross-checked against the engine slot by slot:
+  <span id="foot-cc">—</span>. Disagreements would be listed here, never hidden.</p>
+  <p class="dim">Rebuild: <code>python3 tools/build_paradigms.py</code> · <a href="data/index.json">raw data</a></p>
+</footer>
+
+</main>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,1 +1,0 @@
-"""Śabdakrīḍā — Sanskrit Pronunciation Tutor."""

@@ -5,22 +5,22 @@ on:
     branches: ["main"]
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    name: Cloudflare Deploy
+    name: Deploy static site
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
-          cache: "npm"
-      - run: npm install --legacy-peer-deps
-      - run: npx opennextjs-cloudflare build
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: 954612afb5a97bb15dddcdc70176813d
-      - run: npx wrangler deploy
+          node-version: 22
+      - name: Verify data integrity
+        run: python3 tools/verify_data.py
+      - name: Deploy
+        run: npx --yes wrangler@4 deploy
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: 954612afb5a97bb15dddcdc70176813d
