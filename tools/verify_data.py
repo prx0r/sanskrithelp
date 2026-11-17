@@ -40,6 +40,7 @@ def main() -> int:
         ("public/data/sutras.json", "the sutra citation text"),
         ("public/data/verbs.json", "the verb paradigms"),
         ("public/data/cases.json", "the karaka/case map"),
+        ("public/data/curriculum.json", "the learning path"),
         ("public/robots.txt", "crawl policy"),
         ("public/sitemap.xml", "sitemap"),
     ]:
@@ -111,6 +112,35 @@ def main() -> int:
             for key, c in slot.items():
                 if c.get("status") == "DERIVED" and (not c.get("iast") or not c.get("steps")):
                     errors.append(f"verb {rid}.{lid}.{key}: DERIVED without form/trace")
+    cur = json.loads((DATA / "curriculum.json").read_text(encoding="utf-8"))
+    fam_ids = {f["id"] for f in index.get("families", [])}
+    stem_ids = {s["id"] for s in index.get("stems", [])}
+    root_ids = {r["id"] for r in verbs.get("roots", [])}
+    lak_ids = {l["id"] for l in verbs.get("lakara", [])}
+    vib_ids = {v["id"] for v in index.get("vibhakti", [])}
+    seen = set()
+    for st in cur.get("stages", []):
+        if st["id"] in seen:
+            errors.append(f"curriculum: duplicate stage {st['id']}")
+        seen.add(st["id"])
+        for f in st.get("families", []):
+            if f not in fam_ids:
+                errors.append(f"curriculum {st['id']}: unknown family {f}")
+        for c in st.get("cases", []):
+            if c not in vib_ids:
+                errors.append(f"curriculum {st['id']}: unknown case {c}")
+        for r in st.get("roots", []):
+            if r not in root_ids:
+                errors.append(f"curriculum {st['id']}: unknown root {r}")
+        for l in st.get("lakara", []):
+            if l not in lak_ids:
+                errors.append(f"curriculum {st['id']}: unknown tense {l}")
+        for n in st.get("needs", []):
+            if n not in [x["id"] for x in cur["stages"]]:
+                errors.append(f"curriculum {st['id']}: unknown prerequisite {n}")
+        if not st.get("modes"):
+            errors.append(f"curriculum {st['id']}: no modes")
+
     cases = json.loads((DATA / "cases.json").read_text(encoding="utf-8"))
     if len(cases.get("karaka", [])) != 6:
         errors.append("cases.json should hold six karakas")

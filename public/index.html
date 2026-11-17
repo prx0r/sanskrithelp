@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
 <title>Prakriyā — Sanskrit drill trainer</title>
-<meta name="description" content="Drill Sanskrit noun families and verb tenses by colour. Type the form, check it, see exactly what went wrong.">
+<meta name="description" content="Browse every Sanskrit noun and verb paradigm, then drill it stage by stage. Colour identifies the family or the tense.">
 <link rel="canonical" href="https://sanskrit.help/">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%2714%27 fill=%27%230d1117%27/%3E%3Ctext x=%2732%27 y=%2745%27 font-size=%2738%27 text-anchor=%27middle%27 fill=%27%234f9cff%27%3E%E0%A4%AA%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="assets/style.css">
@@ -15,13 +15,14 @@
   <div class="brand"><span class="bd">प्रक्रिया</span><span class="be">Prakriyā</span></div>
 
   <div class="track" id="track">
-    <button class="tk on" data-track="noun"><b>Nouns</b><small>cases · families</small></button>
+    <button class="tk on" data-track="noun"><b>Nouns</b><small>families</small></button>
     <button class="tk" data-track="verb"><b>Verbs</b><small>tenses</small></button>
   </div>
 
   <nav class="modes" id="modes"></nav>
 
   <div class="stats">
+    <div class="stat"><b id="s-stage">—</b><span>stage</span></div>
     <div class="stat"><b id="s-streak">0</b><span>streak</span></div>
     <div class="stat"><b id="s-acc">—</b><span>acc</span></div>
     <button class="ghost" id="btn-reset" title="Reset this device">reset</button>
@@ -32,38 +33,65 @@
 
   <aside class="rail" id="rail">
     <div class="rail-head">
-      <div class="tabs" id="railtabs"></div>
-      <button class="ghost sm" id="btn-all">all</button>
+      <div class="tabs" id="railtabs">
+        <button class="rt on" data-tab="path">Path</button>
+        <button class="rt" data-tab="browse">Browse</button>
+      </div>
     </div>
-    <div class="famlist" id="famlist"></div>
+    <div class="raillist" id="raillist"></div>
   </aside>
 
-  <section class="stage">
-    <div class="prompt" id="prompt">
-      <div class="p-stem">
-        <span class="p-deva dev" id="p-deva">—</span>
-        <span class="p-iast" id="p-iast"></span>
-        <span class="p-gloss" id="p-gloss"></span>
+  <section class="stage" id="stage">
+
+    <!-- ---------- DRILL ---------- -->
+    <div class="view" id="drillview">
+      <div class="prompt">
+        <div class="p-stem">
+          <span class="p-deva dev" id="p-deva">—</span>
+          <span class="p-iast" id="p-iast"></span>
+          <span class="p-gloss" id="p-gloss"></span>
+        </div>
+        <div class="p-ask" id="p-ask">Loading…</div>
+        <div class="p-tags" id="p-tags"></div>
       </div>
-      <div class="p-ask" id="p-ask">Loading…</div>
-      <div class="p-tags" id="p-tags"></div>
+
+      <div class="stagegrid" id="stagegrid"></div>
+
+      <div class="answer">
+        <input id="input" type="text" autocomplete="off" autocorrect="off"
+               autocapitalize="off" spellcheck="false" placeholder="type your answer…">
+        <button id="btn-check" class="primary">Check</button>
+      </div>
+      <div class="keys" id="keys"></div>
+      <div class="hintline" id="hint"></div>
     </div>
 
-    <div class="stagegrid" id="stagegrid"></div>
-
-    <div class="answer" id="answer">
-      <input id="input" type="text" autocomplete="off" autocorrect="off"
-             autocapitalize="off" spellcheck="false" placeholder="type your answer…">
-      <button id="btn-check" class="primary">Check</button>
+    <!-- ---------- REFERENCE ---------- -->
+    <div class="view" id="refview" hidden>
+      <div class="refhead">
+        <div class="refstem">
+          <span class="r-deva dev" id="r-deva"></span>
+          <span class="r-iast" id="r-iast"></span>
+        </div>
+        <div class="r-meta">
+          <span class="r-gloss" id="r-gloss"></span>
+          <span class="tag fam" id="r-fam"></span>
+          <span class="r-gender" id="r-gender"></span>
+        </div>
+        <div class="r-actions">
+          <button class="ghost sm" id="btn-practise">practise this family →</button>
+          <span class="r-siblings" id="r-siblings"></span>
+        </div>
+      </div>
+      <div class="reftable" id="reftable"></div>
+      <div class="hintline" id="r-hint">Tap any form to see its derivation. The highlighted row is the case you are drilling.</div>
     </div>
 
-    <div class="keys" id="keys"></div>
-    <div class="hintline" id="hint"></div>
   </section>
 
   <aside class="feedback" id="feedback">
     <div class="fb-empty" id="fb-empty">
-      <div class="fb-empty-t">Type an answer, then press Enter.</div>
+      <div class="fb-empty-t" id="fb-empty-t">Pick a stage on the left, or browse to a stem.</div>
       <ul class="legend" id="legend"></ul>
     </div>
 
@@ -74,6 +102,11 @@
       <button class="ghost why" id="btn-why">why? show the derivation</button>
       <div class="trace" id="trace" hidden></div>
       <button class="primary next" id="btn-next">Next →</button>
+    </div>
+
+    <div class="fb-ref" id="fb-ref" hidden>
+      <div class="ref-case" id="ref-case"></div>
+      <div class="trace" id="trace-ref"></div>
     </div>
   </aside>
 
