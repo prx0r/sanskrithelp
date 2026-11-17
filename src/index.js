@@ -67,6 +67,10 @@ const VAC_ALIAS = {
   eka: ['eka', 'ekavacana', 'singular', 'sg'], dvi: ['dvi', 'dvivacana', 'dual', 'du'],
   bahu: ['bahu', 'bahuvacana', 'plural', 'pl'],
 };
+const PERSON_ALIAS = {
+  Prathama: ['prathama', '3rd', 'third', '3'], Madhyama: ['madhyama', '2nd', 'second', '2'],
+  Uttama: ['uttama', '1st', 'first', '1'],
+};
 const LAK_ALIAS = {
   lat: ['lat', 'present', 'pres'], lan: ['lan', 'past', 'imperfect', 'imperf'],
   lrt: ['lrt', 'future', 'fut'], lot: ['lot', 'imperative', 'imper'],
@@ -342,7 +346,7 @@ async function callTool(env, name, args) {
           verb: 'one colour per tense/lakāra (5)',
           roles: ix.colour_roles,
         },
-        counts: { ...ix.counts, verb_forms: 0 },
+        counts: { ...ix.counts, verb_forms: (await verbs(env)).counts.forms },
         families: ix.families.map((f) => ({ id: f.id, label: f.label, colour: f.colour, gender: f.gender })),
         cases: ix.vibhakti.map((v) => ({ id: v.id, en: v.en, question: v.question })),
         tenses: (await verbs(env)).lakara.map((l) => ({ id: l.id, en: l.en, colour: l.colour })),
@@ -389,7 +393,10 @@ async function verbSlot(env, args) {
   if (!root) throw new Error(`unknown root ${args.root}`);
   const lak = v.lakara.find((l) => l.id === args.tense || l.en === low(args.tense));
   if (!lak) throw new Error(`unknown tense ${args.tense}`);
-  const pu = v.purusha.find((p) => p.id === low(args.person) || p.en === low(args.person) || p.sanskrit === low(args.person));
+  const pl = low(args.person);
+  const pu = v.purusha.find((p) =>
+    p.id === pl || p.en === pl || p.sanskrit === pl ||
+    (PERSON_ALIAS[p.id] || []).includes(pl));
   if (!pu) throw new Error(`unknown person ${args.person}`);
   const va = v.vacana.find((w) => w.id === low(args.number) || w.en === low(args.number) || w.sanskrit === low(args.number));
   if (!va) throw new Error(`unknown number ${args.number}`);
