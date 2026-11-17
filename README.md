@@ -45,6 +45,15 @@ Families: a-masc, a-neut, ā-fem, ī-fem, ū-fem, i-masc, i-neut, u-masc, u-neut
   Any disagreement is written into `public/data/index.json`, never silently fixed.
 - No auto-publish, no auto-sign, no promoted claims.
 
+## Sūtra text
+
+Vidyut's rule inventory has no word division ("vfdDirAdEc"). The citation text
+shown under each code comes from the community *padaccheda* edition
+([sanskrit/ashtadhyayi](https://github.com/sanskrit/ashtadhyayi)), cleaned of
+editorial markup and transliterated to IAST by `tools/fetch_sutras.py`.
+2,561 of 3,983 sūtras carry word division in that edition; the rest are shown
+exactly as the edition gives them rather than split by guesswork.
+
 ## Rebuild
 
 ```sh
@@ -52,6 +61,7 @@ pip install vidyut==0.4.0
 python3 - <<'PY'
 from vidyut import download_data; download_data('/root/vidyut-0.4.0')
 PY
+python3 tools/fetch_sutras.py           # sūtra citation text (cached; needs network once)
 python3 tools/build_paradigms.py        # regenerate public/data/
 python3 tools/build_paradigms.py --check
 python3 tools/verify_data.py            # what CI runs before deploy

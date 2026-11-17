@@ -222,18 +222,24 @@ def main() -> int:
         except Exception:
             return s
 
+    # Sutta citation text: prefer the committed padaccheda map (offline, CI-safe),
+    # fall back to Vidyut's unspaced SLP1 table only if that file is absent.
     sutra_map: dict[str, str] = {}
-    try:
-        import csv
-        with open("/root/vidyut-0.4.0/prakriya/sutrapatha.tsv", encoding="utf-8") as f:
-            for row in csv.DictReader(f, delimiter="\t"):
-                code = row["code"].strip()
-                try:
-                    sutra_map[code] = transliterate(row["text"].strip(), Scheme.Slp1, Scheme.Iast)
-                except Exception:
-                    sutra_map[code] = row["text"].strip()
-    except OSError:
-        pass
+    padaccheda = DATA / "sutras.json"
+    if padaccheda.exists():
+        sutra_map = dict(json.loads(padaccheda.read_text(encoding="utf-8"))["sutras"])
+    else:
+        try:
+            import csv
+            with open("/root/vidyut-0.4.0/prakriya/sutrapatha.tsv", encoding="utf-8") as f:
+                for row in csv.DictReader(f, delimiter="\t"):
+                    code = row["code"].strip()
+                    try:
+                        sutra_map[code] = transliterate(row["text"].strip(), Scheme.Slp1, Scheme.Iast)
+                    except Exception:
+                        sutra_map[code] = row["text"].strip()
+        except OSError:
+            pass
 
     families_out = {f[0]: [] for f in FAMILIES}
     paradigms: dict[str, dict] = {}
@@ -350,6 +356,11 @@ def main() -> int:
         "vacana": [{"id": v[0], "sanskrit": v[1], "deva": v[2], "en": v[3],
                     "count": v[4]} for v in VACANA],
         "role_of": [[list(p), r] for p, r in ROLE_OF],
+        "sutra_text": {
+            "source": ("public/data/sutras.json (padaccheda of "
+                       "sanskrit/ashtadhyayi, transliterated to IAST)"),
+            "count": len(sutra_map),
+        },
         "sutra_map": sutra_map,
         "counts": {"stems": len(STEMS), "families": len(FAMILIES),
                    "forms": sum(1 for p in paradigms.values() for row in p.values() for c in row.values() if c.get("status") == "DERIVED"),
