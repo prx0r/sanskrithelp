@@ -882,8 +882,9 @@ function renderCue(q) {
   const tags = [];
   if (q.track === 'noun') {
     if (q.mode === 'reverse') tags.push('<span class="tag">more than one answer may be right</span>');
-    else tags.push(`<span class="tag fam">${esc(q.family.label)}</span>`);
-    if (q.vib) tags.push(`<span class="tag case">${esc(q.vib.en)}</span><span class="tag num">${esc(q.vac.en)}</span>`);
+    // never name the family while it is the question
+    else if (q.mode !== 'family') tags.push(`<span class="tag fam">${esc(q.family.label)}</span>`);
+    if (q.vib && q.mode !== 'family') tags.push(`<span class="tag case">${esc(q.vib.en)}</span><span class="tag num">${esc(q.vac.en)}</span>`);
   } else if (q.mode === 'who') {
     tags.push(`<span class="tag case">${esc(q.lak.en)}</span>`);
     tags.push(`<span class="tag">root ${esc(q.root.iast)}</span>`);
