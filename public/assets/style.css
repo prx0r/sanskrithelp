@@ -247,3 +247,6 @@ button{font:inherit;color:inherit;cursor:pointer}
   white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
 .sg .c.solved .i{color:#0b1620;opacity:.8}
 .sg .c.target.hidden .d{color:var(--fc);font-size:16px}
+.tag.fam{border-color:var(--fc);color:var(--fc);background:color-mix(in srgb,var(--fc) 12%,transparent)}
+.stagegrid{margin:auto 0 10px}
+@media(max-width:760px){.stagegrid{margin:10px 0}}

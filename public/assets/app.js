@@ -311,8 +311,12 @@ function renderPrompt(q) {
       tags.push(`<span class="tag case">${q.vib.en}</span>`);
       tags.push(`<span class="tag num">${q.vac.en}</span>`);
       tags.push(`<span class="tag">${q.vib.question}</span>`);
+      tags.push(`<span class="tag fam">${esc(q.family.label)}</span>`);
     }
-    if (q.mode === 'reverse') tags.push('<span class="tag">more than one answer may be right</span>');
+    if (q.mode === 'reverse') {
+      tags.push('<span class="tag">more than one answer may be right</span>');
+      tags.push(`<span class="tag fam">${esc(q.family.label)}</span>`);
+    }
   } else {
     if (q.mode === 'build') {
       tags.push(`<span class="tag case">${q.lak.en}</span>`);
