@@ -369,3 +369,35 @@ button{font:inherit;color:inherit;cursor:pointer}
 .lg-sent .d .hl{color:var(--fc)}
 .lg-sent .i{font-size:12px;font-style:italic;color:var(--dim);margin-top:3px}
 .lg-sent .e{font-size:12.5px;color:var(--muted);margin-top:4px}
+
+/* ================= learn card ================= */
+#learnview{overflow-y:auto;min-height:0}
+.learnhead{flex:0 0 auto}
+.l-eyebrow{font-size:10.5px;text-transform:uppercase;letter-spacing:.11em;color:var(--dim);font-weight:800;margin-bottom:5px}
+.learnhead h2{font-size:22px;margin:0 0 6px;line-height:1.2}
+.learnhead p{font-size:13.5px;color:var(--muted);margin:0 0 14px;max-width:70ch}
+.learngrid{flex:0 0 auto;margin:0 0 10px}
+.lg{display:grid;grid-template-columns:132px repeat(3,minmax(0,1fr));gap:4px;
+  border:1px solid var(--line);border-radius:12px;background:var(--panel);padding:8px}
+.lg-h{font-size:9.5px;text-transform:uppercase;letter-spacing:.07em;color:var(--dim);
+  text-align:center;padding:3px 0;font-weight:800}
+.lg-case{display:flex;flex-direction:column;justify-content:center;padding:2px 7px;border-radius:6px}
+.lg-case b{font-size:11.5px;color:var(--muted);font-weight:700;text-transform:capitalize}
+.lg-case small{font-size:9.5px;color:var(--dim);line-height:1.3}
+.lg-c{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;
+  background:#131c27;border-radius:7px;padding:7px 5px;text-align:center}
+.lg-c .d{font-family:var(--dev);font-size:15px;line-height:1.3;color:#dbe9f6}
+.lg-c .i{font-size:10.5px;font-style:italic;color:#8ba0b8}
+.lg-c .sup{font-size:9px;color:#8b7cc4;font-family:ui-monospace,Menlo,monospace;margin-top:2px}
+.lg-c .sup:empty{display:none}
+.learnfoot{flex:0 0 auto;padding:4px 0 8px}
+.learnfoot .primary{width:auto;padding:11px 18px;font-size:14px}
+#l-note{font-size:12.5px;color:var(--muted);max-width:80ch;margin:2px 0 12px}
+#l-note b{color:var(--text)}
+@media(max-width:760px){
+  .lg{grid-template-columns:78px repeat(3,minmax(0,1fr))}
+  .lg-c .d{font-size:12.5px}
+  .lg-c .i{font-size:9px}
+  .lg-c .sup{font-size:8px}
+  .learnhead h2{font-size:18px}
+}
