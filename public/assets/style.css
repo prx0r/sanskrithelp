@@ -65,11 +65,11 @@ button{font:inherit;color:inherit;cursor:pointer}
 }
 
 /* ---------- family rail ---------- */
-.rail{border-right:1px solid var(--line);display:flex;flex-direction:column;min-height:0;background:#101721}
+.rail{border-right:1px solid var(--line);min-width:0;display:flex;flex-direction:column;min-height:0;background:#101721}
 .rail-head{display:flex;align-items:center;justify-content:space-between;
   padding:11px 12px 8px;font-size:10.5px;text-transform:uppercase;letter-spacing:.1em;
   color:var(--dim);font-weight:800}
-.famlist{overflow-y:auto;padding:0 8px 12px;display:flex;flex-direction:column;gap:3px}
+.famlist{min-width:0;overflow-y:auto;padding:0 8px 12px;display:flex;flex-direction:column;gap:3px}
 .fam{display:flex;align-items:center;gap:9px;padding:7px 8px;border-radius:9px;
   background:transparent;border:1px solid transparent;text-align:left;width:100%}
 .fam:hover{background:var(--panel)}
@@ -84,7 +84,7 @@ button{font:inherit;color:inherit;cursor:pointer}
 .fam .bar i{display:block;height:100%;background:var(--fc);width:0}
 
 /* ---------- stage ---------- */
-.stage{padding:22px 26px 16px;display:flex;flex-direction:column;min-height:0;overflow:hidden}
+.stage{padding:22px 26px 16px;min-width:0;display:flex;flex-direction:column;min-height:0;overflow:hidden}
 .prompt{flex:0 0 auto}
 .p-stem{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
 .p-deva{font-size:44px;line-height:1.1;font-weight:600}
@@ -116,7 +116,7 @@ button{font:inherit;color:inherit;cursor:pointer}
 .hintline{margin-top:8px;font-size:12.5px;color:var(--dim);min-height:18px;flex:0 0 auto}
 
 /* ---------- feedback ---------- */
-.feedback{border-left:1px solid var(--line);background:#101721;display:flex;flex-direction:column;
+.feedback{border-left:1px solid var(--line);min-width:0;background:#101721;display:flex;flex-direction:column;
   min-height:0;overflow-y:auto;padding:16px}
 .fb-empty{padding-top:6px}
 .fb-empty-t{font-size:12.5px;color:var(--dim);margin-bottom:14px}
@@ -168,7 +168,7 @@ button{font:inherit;color:inherit;cursor:pointer}
   .bar{height:auto;padding:8px 10px;flex-wrap:wrap;gap:8px}
   .modes{order:3;width:100%;overflow-x:auto}
   .mode small{display:none}
-  .app{grid-template-columns:1fr;grid-template-rows:auto minmax(0,1fr) auto}
+  .app{grid-template-columns:minmax(0,1fr);grid-template-rows:auto minmax(0,1fr) auto}
   body:not(.answered) .feedback{display:none}
   .stagegrid{flex:1 1 auto;min-height:150px;margin:10px 0}
   .stage{padding:12px}
