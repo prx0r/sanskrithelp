@@ -37,6 +37,9 @@ def main() -> int:
         ("public/assets/app.js", "the client"),
         ("public/assets/style.css", "the stylesheet"),
         ("public/data/index.json", "the index"),
+        ("public/data/sutras.json", "the sutra citation text"),
+        ("public/robots.txt", "crawl policy"),
+        ("public/sitemap.xml", "sitemap"),
     ]:
         need(ROOT / rel, why)
     if errors:
