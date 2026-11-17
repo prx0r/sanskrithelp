@@ -436,9 +436,9 @@ async function callTool(env, name, args) {
         const doc = await family(env, famId);
         const stemId = ix.stems.find((s) => s.family === famId).id;
         const p = doc.stems[stemId].paradigm;
-        const cases = st.cases && st.cases.length
+        const caseList = st.cases && st.cases.length
           ? ix.vibhakti.filter((v) => st.cases.includes(v.id)) : ix.vibhakti;
-        out.table = cases.map((v) => ({
+        out.table = caseList.map((v) => ({
           case: v.en, meaning: v.question, sutra: v.sutra,
           forms: ix.vacana.map((w) => {
             const cell = p[v.id][w.id];
@@ -448,7 +448,7 @@ async function callTool(env, name, args) {
           }),
         }));
         const k = await cases(env);
-        out.spotlight = cases.map((v) => {
+        out.spotlight = caseList.map((v) => {
           const hit = (k.karaka || []).find((kk) =>
             String(kk.vibhakti || '').toLowerCase().startsWith(String(
               ix.vibhakti.find((x) => x.id === v.id)?.sanskrit || '').toLowerCase()));
