@@ -205,6 +205,7 @@ const TOOLS = [
       properties: {
         track: { type: 'string', enum: ['noun', 'verb'] },
         mode: { type: 'string' },
+        reveal: { type: 'boolean', description: 'include the answer (self-study only)' },
         family: { type: 'string', description: 'optional noun family filter' },
         tense: { type: 'string', description: 'optional verb tense filter' },
       },
@@ -321,9 +322,11 @@ async function callTool(env, name, args) {
         const mode = args.mode || pick(['family', 'build', 'reverse']);
         const familyObj = ix.families.find((f) => f.id === s.family);
         if (mode === 'family') {
-          return { track: 'noun', mode, prompt: `Which family does ${s.iast} (${s.gloss}) belong to?`,
-                   answer: familyObj.label, colour: familyObj.colour,
-                   tip: 'ask the learner, then grade their wording against answer' };
+          const out = { track: 'noun', mode, colour: familyObj.colour,
+                   prompt: `Which family does ${s.iast} (${s.gloss}) belong to?`,
+                   grade: 'any label naming exactly one family; accept the id too' };
+          if (args.reveal) out.answer = familyObj.label;
+          return out;
         }
         const vib = pick(ix.vibhakti), vac = pick(ix.vacana);
         const c = doc.stems[s.id].paradigm[vib.id][vac.id];
@@ -333,14 +336,19 @@ async function callTool(env, name, args) {
           for (const [v2, row] of Object.entries(doc.stems[s.id].paradigm))
             for (const [w2, cc] of Object.entries(row))
               if (cc.status === 'DERIVED' && low(cc.iast) === low(c.iast)) analyses.push(`${v2}.${w2}`);
-          return { track: 'noun', mode: 'reverse', prompt: `Which case and number is ${c.iast} (of ${s.iast})?`,
-                   answer: analyses, colour: familyObj.colour,
-                   check_with: 'check (accept any analysis in answer)' };
+          const rout = { track: 'noun', mode: 'reverse', prompt: `Which case and number is ${c.iast} (of ${s.iast})?`,
+                   colour: familyObj.colour,
+                   check_with: 'check', args: { stem: s.id, answer: '__LEARNER__' },
+                   note: 'grade the learner reply with check (accept any analysis); never reveal the mapping first' };
+          if (args.reveal) rout.answer = analyses;
+          return rout;
         }
-        return { track: 'noun', mode: 'build',
+        const bout = { track: 'noun', mode: 'build',
                  prompt: `Give the ${vib.en} ${vac.en} of ${s.iast} (${s.gloss}).`,
-                 answer: c.iast, deva: c.deva, colour: familyObj.colour,
+                 colour: familyObj.colour,
                  check_with: 'check', args: { stem: s.id, case: vib.id, number: vac.id } };
+        if (args.reveal) { bout.answer = c.iast; bout.deva = c.deva; }
+        return bout;
       }
 
       const v = await verbs(env);
@@ -350,14 +358,18 @@ async function callTool(env, name, args) {
       if (!c || c.status !== 'DERIVED') return { track: 'verb', blocked: true, retry: true };
       const mode = args.mode === 'tense' ? 'tense' : 'build';
       if (mode === 'tense') {
-        return { track: 'verb', mode, prompt: `Which tense is ${c.iast} (root ${root.iast}, ${pu.en} person ${va.en})?`,
-                 answer: lak.en, colour: lak.colour,
-                 check_with: 'grade by tense name' };
+        const tout = { track: 'verb', mode, prompt: `Which tense is ${c.iast} (root ${root.iast}, ${pu.en} person ${va.en})?`,
+                 colour: lak.colour,
+                 check_with: 'name one of: present, past (imperfect), future, imperative, optative' };
+        if (args.reveal) tout.answer = lak.en;
+        return tout;
       }
-      return { track: 'verb', mode: 'build',
+      const vout = { track: 'verb', mode: 'build',
                prompt: `Give the ${lak.en}, ${pu.en} person ${va.en}, of root ${root.iast} (${root.gloss}).`,
-               answer: c.iast, deva: c.deva, colour: lak.colour,
+               colour: lak.colour,
                check_with: 'verb_check', args: { root: root.id, tense: lak.id, person: pu.id, number: va.id } };
+      if (args.reveal) { vout.answer = c.iast; vout.deva = c.deva; }
+      return vout;
     }
 
     case 'harness':

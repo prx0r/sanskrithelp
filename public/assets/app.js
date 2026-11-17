@@ -62,6 +62,10 @@ function diffMarks(got, want) {
 
 /* ---------------- data ---------------- */
 async function getJSON(path) { return (await fetch(path)).json(); }
+async function loadCases() {
+  if (!S.casesDoc) S.casesDoc = await getJSON('data/cases.json');
+  return S.casesDoc;
+}
 async function loadFamily(id) {
   if (S.famCache[id]) return S.famCache[id];
   const f = S.index.families.find((x) => x.id === id);
@@ -144,6 +148,57 @@ function nextSlot() {
   return { vib, vac };
 }
 
+function nounModes() {
+  const st = S.stage;
+  let modes = (st && st.modes && st.modes.length) ? st.modes.slice()
+    : ['build', 'reverse'];
+  if (!modes.includes('read')) {
+    const at = modes.indexOf('reverse');
+    modes.splice(at >= 0 ? at + 1 : modes.length, 0, 'read');
+  }
+  if (!modes.includes('use')) modes.push('use');
+  return modes;
+}
+
+function np(stemId, vacId) {
+  const s = stemById(stemId);
+  if (PROPER.has(stemId)) return vacId === 'eka' ? s.gloss : `${s.gloss}s`;
+  if (MASS.has(stemId)) return `the ${s.gloss}`;
+  if (vacId === 'eka') return `the ${s.gloss}`;
+  if (vacId === 'dvi') return `the two ${plural(s.gloss)}`;
+  return `the ${plural(s.gloss)}`;
+}
+function meaningOf(vibId, stemId, vacId) {
+  if (vibId === 'sambodhana') return `O ${stemById(stemId).gloss}!`;
+  const n = np(stemId, vacId);
+  return {
+    prathama: n, dvitiya: `${n} (as object)`,
+    tritiya: `with ${n}`, caturthi: `to ${n}`,
+    pancami: `from ${n}`, sasthi: `of ${n}`,
+    saptami: `in/at ${n}`,
+  }[vibId] || n;
+}
+
+function readOptions(q) {
+  const seen = new Set([`${q.vib.id}|${q.vac.id}`]);
+  const opts = [[q.vib.id, q.vac.id, true]];
+  const pool = [];
+  for (const v of S.index.vibhakti) for (const w of S.index.vacana) {
+    if (seen.has(`${v.id}|${w.id}`)) continue;
+    const c = q.doc.stems[q.stem.id].paradigm[v.id]?.[w.id];
+    if (c && c.status === 'DERIVED') pool.push([v.id, w.id]);
+  }
+  for (let i = 0; i < 3 && pool.length; i++) {
+    const k = Math.floor(Math.random() * pool.length);
+    opts.push([...pool.splice(k, 1)[0], false]);
+  }
+  for (let i = opts.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [opts[i], opts[j]] = [opts[j], opts[i]];
+  }
+  return opts;
+}
+
 async function makeQuestion() {
   if (S.track === 'verb') return makeVerb();
 
@@ -156,8 +211,7 @@ async function makeQuestion() {
 
   const stem = pick(nounPool());
   const family = famOf(stem);
-  let modes = (S.stage && S.stage.modes) || ['build', 'reverse'];
-  if (!modes.includes('use')) modes = modes.concat(['use']);
+  const modes = nounModes();
   const mode = modes.includes(S.mode) ? S.mode : modes[0];
 
   if (mode === 'use') {
@@ -182,6 +236,16 @@ async function nounFrom(stemId, vibId, vacId, mode) {
   if (!c || c.status !== 'DERIVED') return null;
   const vib = S.index.vibhakti.find((x) => x.id === vibId);
   const vac = S.index.vacana.find((x) => x.id === vacId);
+
+  if (mode === 'read') {
+    const analyses = [];
+    for (const [v, row] of Object.entries(doc.stems[stem.id].paradigm))
+      for (const [w, cc] of Object.entries(row))
+        if (cc.status === 'DERIVED' && low(cc.iast) === low(c.iast)) analyses.push([v, w]);
+    return { track: 'noun', mode: 'read', stem, family, vib, vac, cell: c, doc,
+             colour: family.colour, answer: c.iast, analyses,
+             cue: 'read this form', asks: 'tap the matching meaning' };
+  }
 
   if (mode === 'reverse') {
     const analyses = [];
@@ -259,7 +323,7 @@ function grade(q, input) {
   if (!NFC(input)) return 'bad';
   if (q.mode === 'family') return familyMatch(input) ? 'ok' : 'bad';
   if (q.track === 'verb' && q.mode === 'tense') return classify(input, LAK_ALIAS) === q.lak.id ? 'ok' : 'bad';
-  if (q.mode === 'reverse') {
+  if (q.mode === 'reverse' || q.mode === 'read') {
     const vib = classify(input, VIB_ALIAS), vac = classify(input, VAC_ALIAS);
     if (!vib || !vac) return 'bad';
     return q.analyses.some(([v, w]) => v === vib && w === vac) ? 'ok' : 'bad';
@@ -466,6 +530,22 @@ async function showLearn(st) {
     html += '</div>';
     html += '</div><div class="lg-cap">each cell: the form · <b>sup</b> = the ending the grammar selects · <b>→ code</b> = the rule that changes it</div>';
     $('#learngrid').innerHTML = html;
+    try {
+      const kar = await loadCases();
+      const kOf = (v) => (kar.karaka || []).find((k) =>
+        String(k.vibhakti || '').toLowerCase().startsWith(String(v.sanskrit || '').toLowerCase()));
+      const spot = cases.map((v) => {
+        const kq = kOf(v);
+        const cell = p[v.id]?.[S.index.vacana[0].id];
+        return `<div class="spot"><div class="spot-h"><b>${esc(v.en)}</b>
+          <span class="dim">${esc(v.question)}</span></div>
+          <div class="spot-f"><span class="d dev">${esc(cell ? cell.deva : '—')}</span>
+          <span class="i">${esc(cell ? cell.iast : '')}</span></div>
+          <div class="spot-w">${kq ? `kāraka ${esc(kq.label)} · <code>${esc(kq.sutra)}</code>` : `sūtra ${esc(v.sutra)}`}</div>
+        </div>`;
+      }).join('');
+      $('#learngrid').innerHTML += `<div class="lg-case-title">the cases in this stage, one line each</div><div class="spotrow">${spot}</div>`;
+    } catch (e) { /* spotlight is garnish; the table is the lesson */ }
     $('#l-note').innerHTML = `<b>${esc(fam.label)}</b> — ${esc(fam.note)}
       Every stem in this family takes exactly these endings: <b>${fam.stems.map((x) => esc(stemById(x).iast)).join(', ')}</b>.
       The example above is <b>${esc(stem.iast)}</b> (${esc(stem.gloss)}).`;
@@ -518,11 +598,10 @@ async function showLearn(st) {
    ============================================================ */
 function renderModes() {
   const st = S.stage;
-  let modes = (st && st.modes && st.modes.length) ? st.modes.slice()
-    : (S.track === 'noun' ? ['build', 'reverse'] : ['build', 'tense']);
-  if (S.track === 'noun' && !modes.includes('use')) modes.push('use');
-  const label = { family: 'Family', build: 'Form', reverse: 'Parse', tense: 'Tense', use: 'In a sentence' };
-  const sub = { family: 'name the class', build: 'meaning → form', reverse: 'form → meaning', tense: 'name the tense', use: 'fill the slot' };
+  let modes = S.track === 'noun' ? nounModes()
+    : ((st && st.modes && st.modes.length) ? st.modes.slice() : ['build', 'tense']);
+  const label = { family: 'Family', build: 'Form', reverse: 'Parse', read: 'Read', tense: 'Tense', use: 'In a sentence' };
+  const sub = { family: 'name the class', build: 'meaning → form', reverse: 'form → meaning', read: 'match the meaning', tense: 'name the tense', use: 'fill the slot' };
   if (!modes.includes(S.mode)) S.mode = modes[0];
   $('#modes').innerHTML = modes.map((m) =>
     `<button class="mode ${m === S.mode ? 'on' : ''}" data-mode="${m}"><b>${label[m]}</b><small>${sub[m]}</small></button>`).join('');
@@ -531,12 +610,35 @@ function renderModes() {
 }
 
 function renderCue(q) {
-  setColour(q.colour);
+  // family identity IS the question here: stay neutral until answered
+  setColour(q.mode === 'family' && !S.answered ? '#8fb4dc' : q.colour);
   if (q.mode === 'use') {
     $('#cue').innerHTML = '<div class="sent-en">' + esc(q.sentenceEn) + '</div>' + renderSentence(q, false);
     $('#cue-sub').textContent = '';
     $('#cue-tags').innerHTML = `<span class="tag fam">${esc(q.family.label)}</span>
       <span class="tag case">${esc(q.vib.en)}</span><span class="tag num">${esc(q.vac.en)}</span>`;
+    return;
+  }
+  if (q.mode === 'read') {
+    const opts = readOptions(q);
+    S.readOpts = opts;
+    $('#cue').innerHTML = `<div class="cd dev">${esc(q.cell.deva)}</div>
+      <div class="ci">${esc(q.cell.iast)}</div>
+      <div class="cue-sub">${esc(q.asks)}</div>
+      <div class="optrow">` + opts.map(([v, w], i) => {
+        const label = meaningOf(v, q.stem.id, w);
+        return `<button class="opt" data-oi="${i}">${esc(label)}</button>`;
+      }).join('') + `</div>`;
+    $('#cue-tags').innerHTML = `<span class="tag fam">${esc(q.family.label)}</span>`;
+    $$('#cue .opt').forEach((b) => b.addEventListener('click', () => {
+      if (S.answered) return;
+      const [v, w] = S.readOpts[+b.dataset.oi];
+      const V = S.index.vibhakti.find((x) => x.id === v);
+      const W = S.index.vacana.find((x) => x.id === w);
+      S.readPick = b.textContent.trim();
+      $('#input').value = `${V.en} ${W.en}`;
+      check();
+    }));
     return;
   }
   $('#cue').innerHTML = q.mode === 'reverse' || q.mode === 'tense'
@@ -557,6 +659,7 @@ function renderCue(q) {
 }
 
 function renderAfter(q, verdict, input) {
+  setColour(q.colour);
   const box = $('#after');
   box.hidden = false;
   if (q.mode === 'use') {
@@ -652,6 +755,12 @@ function renderFeedback(q, verdict, input) {
   } else if (q.mode === 'tense') {
     $('#correct').innerHTML = `<span>${esc(q.lak.en)}</span><span class="ci">${esc(q.lak.deva)}</span>`;
     $('#yours').innerHTML = `<span class="lbl">the form</span><span class="dev">${esc(q.cell.deva)}</span> ${esc(q.cell.iast)}`;
+  } else if (q.mode === 'read') {
+    const V = S.index.vibhakti.find((x) => x.id === q.vib.id);
+    const W = S.index.vacana.find((x) => x.id === q.vac.id);
+    $('#correct').innerHTML = `<span class="dev">${esc(q.cell.deva)}</span><span class="ci">${esc(q.cell.iast)}</span>`;
+    $('#yours').innerHTML = `<span class="lbl">means</span>${esc(meaningOf(q.vib.id, q.stem.id, q.vac.id))}` +
+      (verdict === 'ok' ? '' : `<span class="lbl">you picked</span>${esc(S.readPick || input)}`);
   } else if (q.mode === 'reverse') {
     const list = q.analyses.map(([a, b]) => {
       const V = S.index.vibhakti.find((x) => x.id === a);

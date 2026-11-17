@@ -426,3 +426,9 @@ button{font:inherit;color:inherit;cursor:pointer}
 .cue-tags{align-items:flex-start}
 .cue-tags .tag{flex:0 0 auto;align-self:flex-start}
 .cue-tags .tag{display:inline-flex;width:auto;max-width:max-content}
+
+/* ================= read (recognition) ================= */
+.optrow{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.opt{font:inherit;cursor:pointer;padding:8px 11px;border-radius:9px;background:var(--panel2);
+  border:1px solid var(--line);color:var(--text);font-size:13px}
+.opt:hover{border-color:var(--fc)}

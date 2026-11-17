@@ -1,194 +1,333 @@
 {
  "format": "sanskrithelp.curriculum/1",
  "note": "The order to learn this in. A stage unlocks when the previous one reaches 90% over at least 10 attempts. Scopes are pools, not restrictions on the reference view.",
+ "pass": {
+  "accuracy": 0.9,
+  "min_attempts": 10
+ },
  "stages": [
   {
+   "cases": [
+    "prathama",
+    "dvitiya",
+    "tritiya"
+   ],
+   "families": [
+    "a-masc"
+   ],
    "id": "n1",
-   "track": "noun",
-   "title": "a-stem masculine · first cases",
+   "modes": [
+    "family",
+    "build",
+    "read"
+   ],
+   "needs": [],
    "sub": "deva, rāma — nominative, accusative, instrumental",
-   "why": "The base pattern. Ten stems share it, so getting this right unlocks the largest block of the language.",
-   "families": ["a-masc"],
-   "cases": ["prathama", "dvitiya", "tritiya"],
-   "modes": ["family", "build"],
-   "needs": []
+   "title": "a-stem masculine · first cases",
+   "track": "noun",
+   "why": "The base pattern. Ten stems share it, so getting this right unlocks the largest block of the language."
   },
   {
+   "cases": [],
+   "families": [
+    "a-masc"
+   ],
    "id": "n2",
-   "track": "noun",
-   "title": "a-stem masculine · full grid",
+   "modes": [
+    "build",
+    "reverse",
+    "read"
+   ],
+   "needs": [
+    "n1"
+   ],
    "sub": "all 8 cases × 3 numbers",
-   "why": "Adds dative, ablative, genitive, locative, vocative. The dative -āya and genitive -asya are the two you will meet most.",
-   "families": ["a-masc"],
-   "cases": [],
-   "modes": ["build", "reverse"],
-   "needs": ["n1"]
+   "title": "a-stem masculine · full grid",
+   "track": "noun",
+   "why": "Adds dative, ablative, genitive, locative, vocative. The dative -āya and genitive -asya are the two you will meet most."
   },
   {
+   "cases": [],
+   "families": [
+    "a-neut"
+   ],
    "id": "n3",
-   "track": "noun",
-   "title": "a-stem neuter",
+   "modes": [
+    "build",
+    "reverse",
+    "read"
+   ],
+   "needs": [
+    "n2"
+   ],
    "sub": "phala, jala, vana",
-   "why": "Only three slots differ from the masculine: nom, acc and voc. Learn the contrast, not a new table.",
-   "families": ["a-neut"],
-   "cases": [],
-   "modes": ["build", "reverse"],
-   "needs": ["n2"]
+   "title": "a-stem neuter",
+   "track": "noun",
+   "why": "Only three slots differ from the masculine: nom, acc and voc. Learn the contrast, not a new table."
   },
   {
+   "cases": [],
+   "families": [
+    "aa-fem"
+   ],
    "id": "n4",
-   "track": "noun",
-   "title": "long -ā feminine",
+   "modes": [
+    "build",
+    "family",
+    "read"
+   ],
+   "needs": [
+    "n3"
+   ],
    "sub": "sītā, kanyā, gaṅgā",
-   "why": "The yā-ādeśa: sītayā, sītāyai, sītāyāḥ. One rule explains the whole family.",
-   "families": ["aa-fem"],
-   "cases": [],
-   "modes": ["build", "family"],
-   "needs": ["n3"]
+   "title": "long -ā feminine",
+   "track": "noun",
+   "why": "The yā-ādeśa: sītayā, sītāyai, sītāyāḥ. One rule explains the whole family."
   },
   {
+   "cases": [],
+   "families": [
+    "i-masc",
+    "u-masc"
+   ],
    "id": "n5",
-   "track": "noun",
-   "title": "-i and -u masculine",
+   "modes": [
+    "build",
+    "reverse",
+    "read"
+   ],
+   "needs": [
+    "n4"
+   ],
    "sub": "agni, kavi, guru, śatru",
-   "why": "New stem class: guṇa before ṅ-endings gives agneḥ, guroḥ. Same rule, two vowels.",
-   "families": ["i-masc", "u-masc"],
-   "cases": [],
-   "modes": ["build", "reverse"],
-   "needs": ["n4"]
+   "title": "-i and -u masculine",
+   "track": "noun",
+   "why": "New stem class: guṇa before ṅ-endings gives agneḥ, guroḥ. Same rule, two vowels."
   },
   {
+   "cases": [],
+   "families": [
+    "ii-fem",
+    "uu-fem"
+   ],
    "id": "n6",
-   "track": "noun",
-   "title": "long -ī and -ū feminine",
+   "modes": [
+    "build",
+    "family",
+    "read"
+   ],
+   "needs": [
+    "n5"
+   ],
    "sub": "nadī, devī, vadhū",
-   "why": "ī and ū shorten to y and v before vowels: nadyā, vadhvā.",
-   "families": ["ii-fem", "uu-fem"],
-   "cases": [],
-   "modes": ["build", "family"],
-   "needs": ["n5"]
+   "title": "long -ī and -ū feminine",
+   "track": "noun",
+   "why": "ī and ū shorten to y and v before vowels: nadyā, vadhvā."
   },
   {
+   "cases": [],
+   "families": [
+    "r-agent"
+   ],
    "id": "n7",
-   "track": "noun",
-   "title": "-ṛ agent nouns",
+   "modes": [
+    "build",
+    "reverse",
+    "read"
+   ],
+   "needs": [
+    "n6"
+   ],
    "sub": "pitṛ, bhrātṛ, kartṛ, dātṛ",
-   "why": "Kinship and agent nouns. Strong ṛ in the nominative: pitā, but pitrā, pitre, pituḥ.",
-   "families": ["r-agent"],
-   "cases": [],
-   "modes": ["build", "reverse"],
-   "needs": ["n6"]
+   "title": "-ṛ agent nouns",
+   "track": "noun",
+   "why": "Kinship and agent nouns. Strong ṛ in the nominative: pitā, but pitrā, pitre, pituḥ."
   },
   {
+   "cases": [],
+   "families": [
+    "an-masc",
+    "in-masc"
+   ],
    "id": "n8",
-   "track": "noun",
-   "title": "consonant stems · -an and -in",
+   "modes": [
+    "build",
+    "reverse",
+    "read"
+   ],
+   "needs": [
+    "n7"
+   ],
    "sub": "rājan, ātman, sukhin",
-   "why": "The n assimilates: rājā, rājñā, rājñaḥ. sukhin is the adjective that makes agreement work.",
-   "families": ["an-masc", "in-masc"],
-   "cases": [],
-   "modes": ["build", "reverse"],
-   "needs": ["n7"]
+   "title": "consonant stems · -an and -in",
+   "track": "noun",
+   "why": "The n assimilates: rājā, rājñā, rājñaḥ. sukhin is the adjective that makes agreement work."
   },
   {
+   "cases": [],
+   "families": [
+    "ant-masc",
+    "vant-masc",
+    "as-neut",
+    "c-fem"
+   ],
    "id": "n9",
-   "track": "noun",
-   "title": "consonant stems · the rest",
+   "modes": [
+    "build",
+    "reverse",
+    "read"
+   ],
+   "needs": [
+    "n8"
+   ],
    "sub": "bhavant, bhagavant, manas, vāc",
-   "why": "Participles, honorifics and the two odd sibilant stems. After this you have seen every family.",
-   "families": ["ant-masc", "vant-masc", "as-neut", "c-fem"],
-   "cases": [],
-   "modes": ["build", "reverse"],
-   "needs": ["n8"]
+   "title": "consonant stems · the rest",
+   "track": "noun",
+   "why": "Participles, honorifics and the two odd sibilant stems. After this you have seen every family."
   },
   {
+   "cases": [],
+   "families": [
+    "diph-masc"
+   ],
    "id": "n10",
-   "track": "noun",
-   "title": "irregular: go",
+   "modes": [
+    "build",
+    "read"
+   ],
+   "needs": [
+    "n9"
+   ],
    "sub": "go → gauḥ, gavā, gave, goḥ",
-   "why": "One stem that follows no other. Learn it as a set of six forms and stop worrying.",
-   "families": ["diph-masc"],
-   "cases": [],
-   "modes": ["build"],
-   "needs": ["n9"]
+   "title": "irregular: go",
+   "track": "noun",
+   "why": "One stem that follows no other. Learn it as a set of six forms and stop worrying."
   },
   {
-   "id": "n11",
-   "track": "noun",
-   "title": "cases across every family",
-   "sub": "mixed stems, one case at a time",
-   "why": "Now the point is the case, not the family: what does genitive mean, and what does it look like everywhere?",
-   "families": [],
    "cases": [],
-   "modes": ["build", "reverse"],
-   "needs": ["n10"]
+   "families": [],
+   "id": "n11",
+   "modes": [
+    "build",
+    "reverse",
+    "read"
+   ],
+   "needs": [
+    "n10"
+   ],
+   "sub": "mixed stems, one case at a time",
+   "title": "cases across every family",
+   "track": "noun",
+   "why": "Now the point is the case, not the family: what does genitive mean, and what does it look like everywhere?"
   },
   {
    "id": "v1",
-   "track": "verb",
-   "title": "present tense · singular",
+   "lakara": [
+    "lat"
+   ],
+   "modes": [
+    "build",
+    "tense"
+   ],
+   "needs": [],
+   "roots": [
+    "as",
+    "gam",
+    "paW"
+   ],
    "sub": "as, gam, paṭh — 1st/2nd/3rd person",
-   "why": "The base paradigm: -mi, -si, -ti. Everything else is built on recognising these endings.",
-   "lakara": ["lat"],
-   "roots": ["as", "gam", "paW"],
-   "modes": ["build", "tense"],
-   "needs": []
+   "title": "present tense · singular",
+   "track": "verb",
+   "why": "The base paradigm: -mi, -si, -ti. Everything else is built on recognising these endings."
   },
   {
    "id": "v2",
-   "track": "verb",
-   "title": "present tense · full",
-   "sub": "all 15 roots, all 9 persons",
-   "why": "Dual and plural endings, plus the -aya- and -nā- classes appearing across roots.",
-   "lakara": ["lat"],
+   "lakara": [
+    "lat"
+   ],
+   "modes": [
+    "build",
+    "tense"
+   ],
+   "needs": [
+    "v1"
+   ],
    "roots": [],
-   "modes": ["build", "tense"],
-   "needs": ["v1"]
+   "sub": "all 15 roots, all 9 persons",
+   "title": "present tense · full",
+   "track": "verb",
+   "why": "Dual and plural endings, plus the -aya- and -nā- classes appearing across roots."
   },
   {
    "id": "v3",
-   "track": "verb",
-   "title": "past (imperfect)",
-   "sub": "agacchat, apaṭhat",
-   "why": "One prefix explains it: the augment a- in front of the present stem.",
-   "lakara": ["lan"],
+   "lakara": [
+    "lan"
+   ],
+   "modes": [
+    "build",
+    "tense"
+   ],
+   "needs": [
+    "v2"
+   ],
    "roots": [],
-   "modes": ["build", "tense"],
-   "needs": ["v2"]
+   "sub": "agacchat, apaṭhat",
+   "title": "past (imperfect)",
+   "track": "verb",
+   "why": "One prefix explains it: the augment a- in front of the present stem."
   },
   {
    "id": "v4",
-   "track": "verb",
-   "title": "future",
-   "sub": "gamiṣyati, paṭhiṣyati",
-   "why": "-sya- plus guṇa. Predictable once the present stem is known.",
-   "lakara": ["lrt"],
+   "lakara": [
+    "lrt"
+   ],
+   "modes": [
+    "build",
+    "tense"
+   ],
+   "needs": [
+    "v3"
+   ],
    "roots": [],
-   "modes": ["build", "tense"],
-   "needs": ["v3"]
+   "sub": "gamiṣyati, paṭhiṣyati",
+   "title": "future",
+   "track": "verb",
+   "why": "-sya- plus guṇa. Predictable once the present stem is known."
   },
   {
    "id": "v5",
-   "track": "verb",
-   "title": "imperative and optative",
-   "sub": "gaccha · gacchet",
-   "why": "Commands and wishes. Different endings, same roots — this is where the endings stop feeling like a list.",
-   "lakara": ["lot", "vidhilin"],
+   "lakara": [
+    "lot",
+    "vidhilin"
+   ],
+   "modes": [
+    "build",
+    "tense"
+   ],
+   "needs": [
+    "v4"
+   ],
    "roots": [],
-   "modes": ["build", "tense"],
-   "needs": ["v4"]
+   "sub": "gaccha · gacchet",
+   "title": "imperative and optative",
+   "track": "verb",
+   "why": "Commands and wishes. Different endings, same roots — this is where the endings stop feeling like a list."
   },
   {
    "id": "v6",
-   "track": "verb",
-   "title": "all tenses mixed",
-   "sub": "name the tense from the form",
-   "why": "Recognition across the whole system: given any form, say what it is doing and to whom.",
    "lakara": [],
+   "modes": [
+    "tense",
+    "build"
+   ],
+   "needs": [
+    "v5"
+   ],
    "roots": [],
-   "modes": ["tense", "build"],
-   "needs": ["v5"]
+   "sub": "name the tense from the form",
+   "title": "all tenses mixed",
+   "track": "verb",
+   "why": "Recognition across the whole system: given any form, say what it is doing and to whom."
   }
- ],
- "pass": { "accuracy": 0.9, "min_attempts": 10 }
+ ]
 }
