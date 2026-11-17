@@ -141,6 +141,14 @@ def main() -> int:
         if not st.get("modes"):
             errors.append(f"curriculum {st['id']}: no modes")
 
+    att = json.loads((DATA / "attested.json").read_text(encoding="utf-8"))
+    if not att.get("entries"):
+        errors.append("attested.json has no citations")
+    for e in att.get("entries", []):
+        for k in ("stem", "vibhakti", "vacana", "form", "work", "target", "sanskrit", "translation"):
+            if not e.get(k):
+                errors.append(f"attested entry missing {k}: {e.get('work')}/{e.get('target')}")
+
     cases = json.loads((DATA / "cases.json").read_text(encoding="utf-8"))
     if len(cases.get("karaka", [])) != 6:
         errors.append("cases.json should hold six karakas")

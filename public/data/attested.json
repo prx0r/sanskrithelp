@@ -1,0 +1,63 @@
+{
+ "count": 5,
+ "entries": [
+  {
+   "form": "devaḥ",
+   "note": "Hard text. Find the form you know — the rest is for later. nominative singular — the subject",
+   "sanskrit": "citsvābhāvyād asau devaḥ svātmanā vimṛṣan prabhuḥ | anāśritādibhūmyantā bhūmikāḥ pratipadyate",
+   "stem": "deva",
+   "target": "pary-p01-v06",
+   "translation": "From nature of consciousness, that god by own self reflecting — Lord, from unattached to end-of-stages — stages attains.",
+   "vacana": "eka",
+   "vibhakti": "prathama",
+   "work": "paryantapancasika"
+  },
+  {
+   "form": "devāya",
+   "note": "Hard text. Find the form you know — the rest is for later. dative singular — the recipient",
+   "sanskrit": "samastalakṣanāyoga eva yasyopalakṣaṇam tasmai namo 'stu devāya kasmai cid api śambhave",
+   "stem": "deva",
+   "target": "s02-v06",
+   "translation": "To the god — to gracious someone — for whom the meeting of all marks is itself the mark — bow.",
+   "vacana": "eka",
+   "vibhakti": "caturthi",
+   "work": "sivastotravali"
+  },
+  {
+   "form": "phalam",
+   "note": "Hard text. Find the form you know — the rest is for later. neuter nom/acc singular — the two cases share the form",
+   "sanskrit": "bhaktikṣobhavaśād īśa svātmabhūte 'rcanaṃ tvayi citraṃ dainyāya no yāvad dīnatāyāḥ paraṃ phalam",
+   "stem": "phala",
+   "target": "s17-v39",
+   "translation": "By devotion-agitation, worship in self-become-Him — wonder: poverty's top fruit is lowliness' fruit.",
+   "vacana": "bahu",
+   "vibhakti": "prathama",
+   "work": "sivastotravali"
+  },
+  {
+   "form": "devaḥ",
+   "note": "Hard text. Find the form you know — the rest is for later. nominative singular — the subject",
+   "sanskrit": "tad eva śyānatāṃ yātaṃ bhāvarūpair vibhāvyate | svātmā maheśvaro devaḥ krīḍate parameśvaraḥ",
+   "stem": "deva",
+   "target": "bodh-p03-v25",
+   "translation": "That indeed gone to quiescence, by being-forms manifested — own self, great Lord, god plays, supreme Lord.",
+   "vacana": "eka",
+   "vibhakti": "prathama",
+   "work": "bodhavilasa"
+  },
+  {
+   "form": "devaḥ",
+   "note": "Hard text. Find the form you know — the rest is for later. nominative singular — the subject",
+   "sanskrit": "iti śakticakrayantraṃ krīḍāyogena vāhayan devaḥ | aham eva śuddharūpaḥ śaktimahācakranāyakapadasthaḥ",
+   "stem": "deva",
+   "target": "param-p06-v47",
+   "translation": "Thus driving, by play-discipline, the power-wheel-machine — god: I indeed, pure-formed, standing in the power-great-wheel-lord-seat.",
+   "vacana": "eka",
+   "vibhakti": "prathama",
+   "work": "paramarthasara"
+  }
+ ],
+ "format": "sanskrithelp.attested/1",
+ "source": "svread reader bundles (sanskrit + L2/L3 per chunk)",
+ "warning": "Verified citations, not reading assignments. Each verse is harder than the drill that produced its form."
+}

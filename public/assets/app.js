@@ -62,6 +62,10 @@ function diffMarks(got, want) {
 
 /* ---------------- data ---------------- */
 async function getJSON(path) { return (await fetch(path)).json(); }
+async function loadAttested() {
+  if (!S.attested) S.attested = await getJSON('data/attested.json');
+  return S.attested;
+}
 async function loadCases() {
   if (!S.casesDoc) S.casesDoc = await getJSON('data/cases.json');
   return S.casesDoc;
@@ -588,6 +592,28 @@ async function showLearn(st) {
       <div class="e">${esc(ex.sentenceEn)}</div>
     </div>`;
   } catch (e) { /* no sentence for this stage */ }
+
+  // in real text: citations whose form is in this stage's scope
+  try {
+    const at = await loadAttested();
+    const scope = new Set();
+    for (const st2 of [st]) {
+      for (const f of (st2.families || [])) scope.add(f);
+    }
+    const rel = at.entries.filter((e) => scope.has(
+      (S.index.stems.find((x) => x.id === e.stem) || {}).family) &&
+      (!st.cases || !st.cases.length || st.cases.includes(e.vibhakti)));
+    if (rel.length) {
+      const e = rel[0];
+      const hi = esc(e.sanskrit).split(esc(e.form)).join(`<b class="hl">${esc(e.form)}</b>`);
+      $('#learngrid').innerHTML += `<div class="lg-sent real">
+        <div class="t">and in real text — find the form you know</div>
+        <div class="d">${hi}</div>
+        <div class="i">${esc(e.work)} · ${esc(e.target)}</div>
+        <div class="e">${esc(e.translation)}</div>
+      </div>`;
+    }
+  } catch (err) { /* citations are garnish for stages without them */ }
 
   paintStats();
   renderRail();

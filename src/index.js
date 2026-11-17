@@ -36,6 +36,10 @@ async function verbs(env) {
   if (!cache.verbs) cache.verbs = await data(env, '/data/verbs.json');
   return cache.verbs;
 }
+async function attested(env) {
+  if (!cache.attested) cache.attested = await data(env, '/data/attested.json');
+  return cache.attested;
+}
 async function curriculum(env) {
   if (!cache.curriculum) cache.curriculum = await data(env, '/data/curriculum.json');
   return cache.curriculum;
@@ -213,6 +217,18 @@ const TOOLS = [
     },
   },
   {
+    name: 'attested',
+    description: 'Real-text citations: verses from the corpus where a drilled form actually occurs, with work, verse id, Sanskrit and translation. Hard text — use as "spot the form you know", never as beginner reading.',
+    inputSchema: {
+      type: 'object',
+      properties: {
+        stem: { type: 'string', description: 'optional stem filter' },
+        case: { type: 'string', description: 'optional vibhakti id filter' },
+      },
+      additionalProperties: false,
+    },
+  },
+  {
     name: 'drill',
     description: 'Get one practice question. track="noun" or "verb"; mode optional (family|build|reverse|read for nouns, build|tense for verbs). By default the answer is withheld: ask the learner first, then grade with check / verb_check / parse (which returns the correct form or the valid analyses). Pass reveal:true only for self-study.',
     inputSchema: {
@@ -346,6 +362,16 @@ async function callTool(env, name, args) {
         .filter((x) => !args.track || x.track === args.track)
         .map((x, i) => ({ order: i + 1, ...x }));
       return { pass: c.pass, note: c.note, stages };
+    }
+
+    case 'attested': {
+      const a = await attested(env);
+      return {
+        warning: a.warning,
+        entries: a.entries.filter((e) =>
+          (!args.stem || e.stem === args.stem) &&
+          (!args.case || e.vibhakti === args.case)),
+      };
     }
 
     case 'drill': {

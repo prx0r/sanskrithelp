@@ -432,3 +432,5 @@ button{font:inherit;color:inherit;cursor:pointer}
 .opt{font:inherit;cursor:pointer;padding:8px 11px;border-radius:9px;background:var(--panel2);
   border:1px solid var(--line);color:var(--text);font-size:13px}
 .opt:hover{border-color:var(--fc)}
+.lg-sent.real{border-color:rgba(155,217,180,.35)}
+.lg-sent.real .t{color:var(--c-class)}
